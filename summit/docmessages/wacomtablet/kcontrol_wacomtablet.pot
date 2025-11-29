@@ -1,0 +1,743 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-01-11 09:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:12
+#, no-c-format
+msgid "The &tablet; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6 stable5
+#: index.docbook:15
+#, no-c-format
+msgid "<firstname>Jörg</firstname> <surname>Ehrichs</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6 stable5
+#: index.docbook:19
+#, no-c-format
+msgid "joerg.ehrichs@gmx.de"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6 stable5
+#: index.docbook:22
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6 stable5
+#: index.docbook:26
+#, no-c-format
+msgid "Jörg Ehrichs"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:31
+#, no-c-format
+msgid "2020-10-17"
+msgstr ""
+
+#. Tag: date
+#. +> stable5
+#: index.docbook:31
+#, no-c-format
+msgid "2013-03-16"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6 stable5
+#: index.docbook:32
+#, no-c-format
+msgid "&kappversion;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:35
+#, no-c-format
+msgid "This is the documentation for the &kde; &systemsettings; module that configures graphic tablets."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:39
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:40
+#, no-c-format
+msgid "System Settings"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:41
+#, no-c-format
+msgid "Wacom"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:42
+#, no-c-format
+msgid "<keyword>Tablet</keyword>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:48
+#, no-c-format
+msgid "Wacom Tablet Settings"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:49
+#, no-c-format
+msgid "The tablet &systemsettings; module handles all setting for your graphic tablet. All tablets supported by the <ulink url=\"https://linuxwacom.github.io\">&Linux; Wacom driver</ulink> project are handled by this settings interface. Make sure your tablet is detected either via xorg.conf or udev and works in general. Refer to the <link linkend=\"detection\">tablet detection</link> section for more information."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:49
+#, no-c-format
+msgid "The tablet &systemsettings; module handles all setting for your graphic tablet. All tablets supported by the <ulink url=\"http://linuxwacom.sourceforge.net\">&Linux; Wacom driver</ulink> project are handled by this settings interface. Make sure your tablet is detected either via xorg.conf or HAL and works in general. Refer to the <link linkend=\"detection\">tablet detection</link> section for more information."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:55
+#, no-c-format
+msgid "The <application>xf86-input-wacom</application> driver must be installed on your computer and <command>xsetwacom</command> must be available in order to make this module work correctly."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:55
+#, no-c-format
+msgid "The <application>wacom-tools</application> or the <application>xf86-input-wacom</application> driver must be installed on your computer and <command>xsetwacom</command> must be available in order to make this module work correctly."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:59
+#, no-c-format
+msgid "The module is split into various tab pages that handle all aspects of your tablet and the pen: <link linkend=\"tablet-profiles\">Profiles</link>, <link linkend=\"tablet-general\">General Information</link>, <link linkend=\"stylus\">Stylus Settings</link>, <link linkend=\"pad-buttons\">Express Buttons</link>, <link linkend=\"pad-mapping\">Pad Mapping</link> and <link linkend=\"touch-mapping\">Touch Mapping</link>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:69
+#, no-c-format
+msgid "Profile Management"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:71
+#, no-c-format
+msgid "This is the small drop down box with the two buttons next to it. You can create new profiles and delete already existing ones. Each profile is saved and specified for the currently connected tablet. If you create a new profile, it automatically creates one with the default settings as returned by the driver."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:71
+#, no-c-format
+msgid "This is the small drop down box with the two buttons next to it. You can create new profiles and delete already existing ones. Each profile is saved and specified for the currently connected tablet. If you create a new profile, it automatically creates one with the default settings as returned by the wacom-tools."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:77
+#, no-c-format
+msgid "Here you can specify different profiles for your settings. For example if you like to have a different behavior of the pen when you use it as a mouse replacement for your day to day work or using it as pen to draw something."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:82
+#, no-c-format
+msgid "Each profile can be changed on the fly and directly changes the behavior of your tablet input."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:86
+#, no-c-format
+msgid "The <link linkend=\"kded\">kded tablet daemon</link> must be running in the background to be able to change the profiles and apply them to the tablet. All the work is done by the daemon. The &systemsettings; module just change the profile settings for it."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:94
+#, no-c-format
+msgid "General Tablet Settings and Information"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:96
+#, no-c-format
+msgid "Shows some general Information about the detected tablet. Beside the name and company of your tablet an image is shown and all detected input devices are listed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:102
+#, no-c-format
+msgid "The tablet must be connected and the <link linkend=\"kded\">kded</link> must be running to allow the module to work correctly."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:105
+#, no-c-format
+msgid "See the <link linkend=\"troubles\">Detection problems</link> section for further help on the tablet detection."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:110
+#, no-c-format
+msgid "In addition to the tablet information the general tab allows to set various global shortcuts. Each shortcut allows to dynamically change the options for the current connected tablet."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:118
+#, no-c-format
+msgid "Stylus Settings"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:120
+#, no-c-format
+msgid "The pen that is used together with the tablet has two different sides, the main side is called stylus the other end is the eraser. In this tab you can change any aspect of the pen from the button assignment to the pressure curve and threshold."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:126
+#, no-c-format
+msgid "Eraser Feel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:127
+#, no-c-format
+msgid "The slider allows to alter the threshold of the eraser. For a more fine grained setting of the pressure it is possible to alter the complete pressure curve in the <guilabel>Edit Pressure Curve</guilabel> dialog. See <link linkend=\"presscurve\">Press Curve Dialog</link> for more information."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:127
+#, no-c-format
+msgid "The slider allows to alter the threshold of the eraser. For a more fine grained setting of the pressure it is possible to alter the complete pressure curve in the <guilabel>Edit Pressure Curve</guilabel> dialog. See <link linkend=\"presscurve\">Presscurve Dialog</link> for more information."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:135
+#, no-c-format
+msgid "Button Settings"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:136
+#, no-c-format
+msgid "The <guilabel>Button Settings</guilabel> box allows to alter the executed action assigned to each button of the pen. A simple click into the edit box opens a new dialog where different key combinations, modifier keys and mouse buttons can be selected."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:141
+#, no-c-format
+msgid "If <guilabel>Tap to execute action</guilabel> is enabled the stylus must be in contact with the tablet in order to allow the button action to be executed. If this option is disabled each button action works also when the stylus is hovering above the tablet."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:148
+#, no-c-format
+msgid "Tip Feel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:149
+#, no-c-format
+msgid "The slider allows to alter the threshold of the stylus tip. For a more fine grained setting of the pressure it is possible to alter the complete pressure curve in the <guilabel>Edit Pressure Curve</guilabel> dialog. See <link linkend=\"presscurve\">Presscurve Dialog</link> for more information."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:158
+#, no-c-format
+msgid "Express Buttons"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:160
+#, no-c-format
+msgid "The <guilabel>Express Buttons</guilabel> tab allows to set specific button actions for all hardware buttons for the tablet. To change the used action, you need to click into the edit box and choose the action in the new dialog."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:168
+#, no-c-format
+msgid "<title>Tablet</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:170
+#, no-c-format
+msgid "The <guilabel>Tablet</guilabel> tab allows to set further properties of the tablet area when used together with a pen. In here the orientation of the tablet area, valid space of the used tablet and the cursor tracking mode can be specified."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:175
+#, no-c-format
+msgid "Stylus Tracking Mode"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:179
+#, no-c-format
+msgid "<guilabel>Map to Screen</guilabel> : This mode maps the pen cursor with absolute movement to the tablet. The edges of the tablet represent directly the space of the screen."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:186
+#, no-c-format
+msgid "<guilabel>Map to Cursor</guilabel> : This mode maps the pen cursor with relative movement to the tablet."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:194
+#, no-c-format
+msgid "Orientation"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:195
+#, no-c-format
+msgid "The orientation box specifies how the tablet area is rotated. You can set a specific rotation on your own in the combobox or if you enable the <guilabel>Auto-Rotate with Screen</guilabel> option, the tablet will automatically rotated together with the screen. This is done by listening to the xrandr events when the screen is rotated."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:199
+#, no-c-format
+msgid "If you have problems with the autorotation option and the tablet is always rotated into the wrong direction, enable the <guilabel>Invert Auto-Rotation</guilabel> option to invert this."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:204
+#, no-c-format
+msgid "Tablet Mapping"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:205
+#, no-c-format
+msgid "This mapping allows to specify the proportions of the tablet that will be used for each screen. This is necessary to keep the tablet area proportional to the used screen space in absolute stylus tracking mode. For more information check the <link linkend=\"area-selection\">Area Selection Dialog</link> section."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:209 index.docbook:281
+#, no-c-format
+msgid "This option does not work for relative cursor mode."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:217
+#, no-c-format
+msgid "Touch"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:219
+#, no-c-format
+msgid "The <guilabel>Touch</guilabel> tab allows to set further properties for the touch part of the tablet (if available). It is possible to disable the touch feature via the <guilabel>Enable Touch</guilabel> check box. Also a global shortcut exist that allows to enable/disable the touch feature."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:225
+#, no-c-format
+msgid "Touch Tracking Mode"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:229
+#, no-c-format
+msgid "<guilabel>Map to Screen</guilabel> : This mode maps the touch cursor with absolute movement to the tablet. The edges of the tablet represent directly the space of the screen."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:236
+#, no-c-format
+msgid "<guilabel>Map to Cursor</guilabel> : This mode maps the touch cursor with relative movement to the tablet."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:245
+#, no-c-format
+msgid "Gestures"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:247
+#, no-c-format
+msgid "If <guilabel>Enable Gestures</guilabel> is enabled, the tablet can generate gesture events for the touch device."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:253
+#, no-c-format
+msgid "<guilabel>Scroll Distance</guilabel> : Allows to scroll through windows when two fingers are placed on the tablet, moving them up/down creates a scroll event. The Distance is given in tablet units."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:260
+#, no-c-format
+msgid "<guilabel>Zoom Distance</guilabel> : Allows to zoom in/out by moving two fingers together or apart from each other. The Distance is given in tablet units."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:267
+#, no-c-format
+msgid "<guilabel>Tap Time</guilabel> : This time in milliseconds specifies when a double tap on the device is recognized as right-click"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:276
+#, no-c-format
+msgid "Touch Mapping"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:277
+#, no-c-format
+msgid "This mapping allows to specify the proportions of the touch device that will be used for each screen. This is necessary to keep the tablet area proportional to the used screen space in absolute stylus tracking mode. For more information check the <link linkend=\"area-selection\">Area Selection Dialog</link> section."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:291
+#, no-c-format
+msgid "Press Curve Dialog"
+msgstr ""
+
+#. Tag: title
+#. +> stable5
+#: index.docbook:291
+#, no-c-format
+msgid "Presscurve Dialog"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:295
+#, no-c-format
+msgid "Here's a screenshot of the Press Curve dialog"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> stable5
+#: index.docbook:295
+#, no-c-format
+msgid "Here's a screenshot of the Presscurve Dialog"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:301
+#, no-c-format
+msgid "Changing the press curve"
+msgstr ""
+
+#. Tag: phrase
+#. +> stable5
+#: index.docbook:301
+#, no-c-format
+msgid "Changing the Presscurve"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:307
+#, no-c-format
+msgid "The press curve defines how the pressure of the stylus is translated. The press curve is defined via four points of a Bézier curve. To change this curve you can alter the red dots and move the curve around."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:307
+#, no-c-format
+msgid "The Presscurve defines how the pressure of the stylus is translated. The Presscurve is defined via four points of a Bézier curve. To change this curve you can alter the red dots and move the curve around."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:312
+#, no-c-format
+msgid "Use your pen inside the press curve dialog to see the changes in the press curve directly. A blue area below the curve shows the applied pressure of the pen."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:320
+#, no-c-format
+msgid "Area Selection Dialog"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6 stable5
+#: index.docbook:324
+#, no-c-format
+msgid "Here's a screenshot of the Tablet Area Dialog"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6 stable5
+#: index.docbook:330
+#, no-c-format
+msgid "Defining the Tablet Area"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:336
+#, no-c-format
+msgid "This dialog allows to specify the available tablet area for each selected screen space. In order to keep the aspect ratio of the tablet it is necessary to reduce the tablet area depending on the screen resolution. This Dialog allows to specify them for each screen individually."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:340
+#, no-c-format
+msgid "Use the <guilabel>Toggle Screen</guilabel> button to switch between fullscreen (all connected monitors) and each individual monitor. The settings will be saved for each screen configuration and applied to the tablet whenever the screen selection is switched by the global shortcut action."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:344
+#, no-c-format
+msgid "It is possible to map the screen with the <guimenuitem>Full Tablet</guimenuitem> area or just defined <guimenuitem>Tablet Area</guimenuitem> on the <guilabel>Tablet</guilabel> pane rightwards. The proportions of the area can be locked or unlocked using the <guibutton>Lock proportions</guibutton> switch button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:347
+#, no-c-format
+msgid "If you want to keep the aspect ratio of the tablet with the current screen selection you can press the <guilabel>Set Screen Proportions</guilabel> button. The tablet area will be calculated and changed automatically."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:350
+#, no-c-format
+msgid "In addition you can open the <guilabel>Calibrate</guilabel> dialog to calibrate your tablet with the help of four points on the screen."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:353
+#, no-c-format
+msgid "When the dialog is closed, the last selected screen will be used. If you want to switch the screen later on, you can use the <link linkend=\"tablet-general\">Global Shortcut</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:357
+#, no-c-format
+msgid "The tablet area only works for absolute tracking mode of the touch and pen cursor device. In relative mode the full tablet is used."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:370
+#, no-c-format
+msgid "Tablet daemon"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:371
+#, no-c-format
+msgid "The tablet daemon runs in the background and does the ground work. Detecting the tablet and set it up with the selected profiles. If the daemon is not running the &systemsettings; module and the plasma applet cannot work properly and the tablet cannot be used with the profiles."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:377
+#, no-c-format
+msgid "Tablet detection"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:378
+#, no-c-format
+msgid "The detection of the <hardware>tablet device</hardware> is done in several ways. <application>Solid</application> is used in the first step and does the hotplug support. If Solid fails the next steps are <command>xsetwacom list dev</command>, <command>lsusb</command> and <command>xinput --list</command>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:383
+#, no-c-format
+msgid "Should none of the commands above return the name of the tablet, it is not supported and cannot be used by this module."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:388
+#, no-c-format
+msgid "Detection problems"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:389
+#, no-c-format
+msgid "If the tablet is not detected check the <ulink url=\"https://linuxwacom.github.io\">&Linux; Wacom driver</ulink> or <ulink url=\"https://digimend.github.io\">DIGImend driver</ulink> page if your tablet is supported. Furthermore check via <command>lsusb</command> if you can find your tablet."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:386
+#, no-c-format
+msgid "If the tablet is not detected check the <ulink url=\"http://linuxwacom.sourceforge.net\">&Linux; Wacom driver</ulink> page if your tablet is supported. Furthermore check via <command>lsusb</command> if you can find your tablet."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:393
+#, no-c-format
+msgid "If udev does not handle the detection add the tablet to your <filename>/etc/X11/xorg.conf.d/50-tablet.conf</filename> file (create it if it does not exist) and restart the x-server."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:390
+#, no-c-format
+msgid "If HAL does not handle the detection add the tablet to your <filename>/etc/X11/xorg.conf</filename> file and restart the x-server."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:396
+#, no-c-format
+msgid "In case of a serial device (Tablet PC and such) check if <command>xinput --list</command> lists your input devices (Stylus/Eraser/Pad). Should they be listed take a look at the internal tablet device id via <command>xsetwacom get \"Name of your pad or stylus\" TabletID</command>. If an id is returned please mail all the necessary information to the author."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:402
+#, no-c-format
+msgid "Hotplug support is only available if the tablet is found via <application>Solid</application> and its notification API."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:405
+#, no-c-format
+msgid "<application>Solid</application> checks if the value for the entry <command>input.x11_options.Type</command> is <command>pen</command>, <command>stylus</command>, <command>eraser</command> or <command>cursor</command> or if the value for the entry <command>input.x11_driver</command> is <command>wacom</command>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:409
+#, no-c-format
+msgid "Please mail the author if your tablet is detected by Solid but with other values to enhance the tablet support."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:417
+#, no-c-format
+msgid "Tablet plasma applet"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:418
+#, no-c-format
+msgid "The tablet applet makes it possible to change the available profiles on the fly. Furthermore you can change the pad rotation and switch between absolute/relative mode of the stylus/eraser regardless of the current profile settings."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:422
+#, no-c-format
+msgid "It is not necessary to add the plasmoid for this module to work. The default profile will be activated by the <link linkend=\"kded\">tablet daemon</link> as soon as it detects your tablet even if the plasmoid is not used. The plasmoid is just a visual helper to switch easily between the profiles."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:427
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6 stable5
+#: index.docbook:428
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6 stable5
+#: index.docbook:428
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

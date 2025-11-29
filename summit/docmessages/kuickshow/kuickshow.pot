@@ -1,0 +1,1625 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-12-26 08:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:11
+#, no-c-format
+msgid "The &kuickshow; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6
+#: index.docbook:14
+#, no-c-format
+msgid "<firstname>Carsten</firstname> <surname>Pfeiffer</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6
+#: index.docbook:18
+#, no-c-format
+msgid "&Carsten.Pfeiffer.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6
+#: index.docbook:21
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6
+#: index.docbook:26
+#, no-c-format
+msgid "&Carsten.Pfeiffer;"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6
+#: index.docbook:31
+#, no-c-format
+msgid "2012-07-15"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6
+#: index.docbook:32
+#, no-c-format
+msgid "0.9.2 (&kde; 4.8)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:37
+#, no-c-format
+msgid "&kuickshow; is a comfortable image browser/viewer."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:43
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:44
+#, no-c-format
+msgid "kdegraphics"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:45
+#, no-c-format
+msgid "kuickshow"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:46
+#, no-c-format
+msgid "image"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:47
+#, no-c-format
+msgid "viewer"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:53
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:55
+#, no-c-format
+msgid "&kuickshow; is a comfortable image browser/viewer. It displays a filebrowser where you can select images which are then shown."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:62
+#, no-c-format
+msgid "The following image formats are supported:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:64
+#, no-c-format
+msgid "<para>jpg</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:66
+#, no-c-format
+msgid "<para>gif</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:68
+#, no-c-format
+msgid "tiff"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:70
+#, no-c-format
+msgid "<para>png</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:72
+#, no-c-format
+msgid "<para>bmp</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:74
+#, no-c-format
+msgid "<para>psd</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:76
+#, no-c-format
+msgid "<para>xpm</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:78
+#, no-c-format
+msgid "<para>ppm</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:80
+#, no-c-format
+msgid "<para>pgm</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:82
+#, no-c-format
+msgid "<para>pbm</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:84
+#, no-c-format
+msgid "<para>pnm</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:86
+#, no-c-format
+msgid "<para>eim</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:88
+#, no-c-format
+msgid "<para>xcf</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:92
+#, no-c-format
+msgid "Images can be displayed either in their own window, as large as the image, or fullscreen."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:98
+#, no-c-format
+msgid "Using &kuickshow;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:100
+#, no-c-format
+msgid "Using &kuickshow; is very simple. The file browser lists files, which you can select with a &LMB; click or the <keycap>Return</keycap> key."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6
+#: index.docbook:105
+#, no-c-format
+msgid "Here's a screenshot of &kuickshow;"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6
+#: index.docbook:111
+#, no-c-format
+msgid "Screenshot"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:118
+#, no-c-format
+msgid "More &kuickshow; features"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:120
+#, no-c-format
+msgid "The options dialog makes available more possibilities:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:123
+#, no-c-format
+msgid "Images can be automatically shrunk to fit onto the screen, if they are larger."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:126
+#, no-c-format
+msgid "You can configure whether images should show up in their own window, or always use the same window."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:129
+#, no-c-format
+msgid "You can set the delay time for a slide show."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:131
+#, no-c-format
+msgid "You can tell the browser which file types to show."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:133
+#, no-c-format
+msgid "You can tweak the speed/quality ratio"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:137
+#, no-c-format
+msgid "If you are looking for a certain file, just enter the first few characters of its filename in the browser. A small edit window will pop up in the bottom right corner. When a matching file is found, it is highlighted. You can leave the edit window by pressing <keycap>Return</keycap> or &Esc;."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:147
+#, no-c-format
+msgid "The &kuickshow; Configuration Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:149
+#, no-c-format
+msgid "The <guilabel>&kuickshow; Configuration</guilabel> dialog contains 5 tabs. Three of them, <link linkend=\"general-options\"><guilabel>General</guilabel></link>, <link linkend=\"modifications-options\"><guilabel>Modifications</guilabel></link> and <link linkend=\"slideshow-options\"><guilabel>Slideshow</guilabel></link> configure the operation of &kuickshow;, and the other two, <link linkend=\"shortcuts-options\"><guilabel>Viewer Shortcuts</guilabel></link> and <link linkend=\"shortcuts-options\"><guilabel>Browser Shortcuts</guilabel></link> allow you to personalize the shortcuts for the respective windows."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:161
+#, no-c-format
+msgid "General Options"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:163
+#, no-c-format
+msgid "The <guilabel>General</guilabel> contains the options to configure and tune &kuickshow;."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:168
+#, no-c-format
+msgid "Fullscreen mode"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:170
+#, no-c-format
+msgid "If this is selected, images open in full screen mode. If the image is not large enough to fill the screen, the rest of the screen is filled with the background color selected below. The default is off."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:178
+#, no-c-format
+msgid "Preload next image"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:180
+#, no-c-format
+msgid "If this is selected, &kuickshow; will load the next image in the folder, while you are looking at the current one. This reduces the delay when you select the next image, and is especially useful for slide shows."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:188
+#, no-c-format
+msgid "Remember last folder"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:190
+#, no-c-format
+msgid "If this is selected, &kuickshow; saves the name of the last folder on exit. On next start &kuickshow; will open this folder in the browser window."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:196
+#, no-c-format
+msgid "Background color:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:198
+#, no-c-format
+msgid "Click on the colored bar to select a background color. This is used to fill the screen in fullscreen mode, or the window, if you have resized it larger than the image."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:205
+#, no-c-format
+msgid "Show only files with extension:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:207
+#, no-c-format
+msgid "You can configure &kuickshow; to only show you some of the file types it is capable of."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:215
+#, no-c-format
+msgid "Quality/Speed"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:217
+#, no-c-format
+msgid "Fast rendering"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:218
+#, no-c-format
+msgid "Render things fast."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:223
+#, no-c-format
+msgid "Dither in HiColor (15/16bit) modes"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:230
+#, no-c-format
+msgid "Dither in LowColor (&lt;=8bit) modes"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:237
+#, no-c-format
+msgid "Use own color palette"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:244
+#, no-c-format
+msgid "Fast palette remapping"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:251
+#, no-c-format
+msgid "Maximum cache size (MB):"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:262
+#, no-c-format
+msgid "The Modifications Tab"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:264
+#, no-c-format
+msgid "Check <guilabel>Apply default image modifications</guilabel> to open an image with these modifications in &kuickshow;."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:268
+#, no-c-format
+msgid "Scaling"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:270
+#, no-c-format
+msgid "Shrink image to screen size, if larger"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:272
+#, no-c-format
+msgid "If this is selected, large images are displayed in maximized window. The default is on."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:278
+#, no-c-format
+msgid "Shrink image to screen size, if smaller, up to factor:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:280
+#, no-c-format
+msgid "If this is selected, &kuickshow; increases the magnification of small images up to the selected factor."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:288
+#, no-c-format
+msgid "Geometry"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:290
+#, no-c-format
+msgid "Flip vertically"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:291
+#, no-c-format
+msgid "Flips the image vertically."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:296
+#, no-c-format
+msgid "Flip horizontally"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:297
+#, no-c-format
+msgid "Flips the image horizontally."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:302
+#, no-c-format
+msgid "Rotate image"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:303
+#, no-c-format
+msgid "Rotates the image to 0, 90, 180 or 270 degrees."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:311
+#, no-c-format
+msgid "Adjustments"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:313
+#, no-c-format
+msgid "Brightness:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:314
+#, no-c-format
+msgid "Lightens/darkens the image."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:319
+#, no-c-format
+msgid "Contrast:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:320
+#, no-c-format
+msgid "Adds/Removes contrast."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:324
+#, no-c-format
+msgid "Gamma:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:325
+#, no-c-format
+msgid "More/less gamma."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:332
+#, no-c-format
+msgid "A <guilabel>Preview</guilabel> of the <guilabel>Original</guilabel> and <guilabel>Modified</guilabel> image is displayed below this options."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:338
+#, no-c-format
+msgid "The Slideshow Tab"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:343
+#, no-c-format
+msgid "Switch to full-screen"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:345
+#, no-c-format
+msgid "Indicates if &kuickshow; should switch to full-screen mode when starting the slideshow."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:351
+#, no-c-format
+msgid "Start with current image"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:353
+#, no-c-format
+msgid "Indicates if the slideshow should start with the first image in the folder or with the image which is selected."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:359
+#, no-c-format
+msgid "Delay between slides:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:361
+#, no-c-format
+msgid "The length of time between image changes during the slideshow. You can use the slider, type a new value into the field, or use the small arrows to increase or decrease the value. The default is 3 seconds."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:369
+#, no-c-format
+msgid "Iterations (0 = infinite):"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:371
+#, no-c-format
+msgid "The amount of iterations. If set to 0 it will loop until you abort the slideshow. You can use the slider, type a new value into the field, or use the small arrows to increase or decrease the value. The default is 1."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:382
+#, no-c-format
+msgid "The Shortcuts Tabs"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:383
+#, no-c-format
+msgid "Change the shortcuts for the different modes of &kuickshow; in the <guilabel>Viewer Shortcuts</guilabel> and the <guilabel>Browser Shortcuts</guilabel> tabs."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:386
+#, no-c-format
+msgid "For more information read the section about <ulink url=\"help:/fundamentals/config.html#shortcuts\">Shortcuts</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:392
+#, no-c-format
+msgid "Menu Reference"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:395
+#, no-c-format
+msgid "The File Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:399
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Open</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:406
+#, no-c-format
+msgid "<action>Opens a new image</action> in &kuickshow;."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:410
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Show Image</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:414
+#, no-c-format
+msgid "<action>Displays </action> the selected image in a new image window."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:419
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Show Image in Active Window</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:423
+#, no-c-format
+msgid "<action>Displays </action>the selected image in the active image window."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:428
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Show Image in Fullscreen Mode</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:432
+#, no-c-format
+msgid "<action>Displays</action> the selected image in fullscreen mode."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:437
+#, no-c-format
+msgid "<shortcut><keycap>F2</keycap></shortcut> <guimenu>File</guimenu> <guimenuitem>Start Slideshow</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:442
+#, no-c-format
+msgid "<action>Starts</action> a slideshow of the images in the folder."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:446
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl; <keycap>P</keycap></keycombo></shortcut> <guimenu>File</guimenu> <guimenuitem>Print Image...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:452
+#, no-c-format
+msgid "<action>Prints the image</action>."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:456
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\"> &Ctrl;<keycap>Q</keycap></keycombo></shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:461
+#, no-c-format
+msgid "<action>Quits</action> &kuickshow;. If you have several images windows open, all of them are closed."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:470
+#, no-c-format
+msgid "The Edit Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:474
+#, no-c-format
+msgid "<shortcut><keycap>F10</keycap></shortcut> <guimenu>Edit</guimenu> <guimenuitem>New Folder...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:480
+#, no-c-format
+msgid "<action>Create</action> a new folder."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:485
+#, no-c-format
+msgid "<shortcut><keycap>Del</keycap></shortcut> <guimenu>Edit</guimenu> <guimenuitem>Move to Trash</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:489
+#, no-c-format
+msgid "<action>Moves</action> the current file to the trash. You will be asked to confirm the action."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:494
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\"> &Alt;<keycap>Return</keycap></keycombo></shortcut> <guimenu>Edit</guimenu> <guimenuitem>Properties</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:500
+#, no-c-format
+msgid "<action>Displays</action> the properties of the current image file."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:507
+#, no-c-format
+msgid "The View Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:511
+#, no-c-format
+msgid "<shortcut><keycap>F6</keycap></shortcut> <guimenu>View</guimenu> <guimenuitem>Short View</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:516
+#, no-c-format
+msgid "If this option is selected, only the names of the files and folders will be shown."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:517
+#, no-c-format
+msgid "Compare this to detailed view."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:521
+#, no-c-format
+msgid "<shortcut><keycap>F7</keycap></shortcut> <guimenu>View</guimenu> <guimenuitem>Detailed View</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:526
+#, no-c-format
+msgid "If this option is selected, the names, sizes, dates, permissions, file owners and group ownerships are shown."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:527
+#, no-c-format
+msgid "Compare this to short view."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:531
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Tree View</guimenuitem>"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:539
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Detailed Tree View</guimenuitem>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:551
+#, no-c-format
+msgid "The Settings and Help Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6
+#: index.docbook:555
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Configure &kuickshow;...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:559
+#, no-c-format
+msgid "<action>Opens a dialog for changing some options</action> as described in the section"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:565
+#, no-c-format
+msgid "&kuickshow; has the common &kde; <guimenu>Help</guimenu> menu items, for more information read the section <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:575
+#, no-c-format
+msgid "Command Reference"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:578
+#, no-c-format
+msgid "The Image Window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:580
+#, no-c-format
+msgid "All the shortcuts are configurable from the <link linkend=\"configuration-dialog\">Configuration Dialog</link>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:584
+#, no-c-format
+msgid "Image Window Keyboard Shortcuts"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:588
+#, no-c-format
+msgid "<entry>Key</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:589 index.docbook:714 index.docbook:750 index.docbook:823
+#, no-c-format
+msgid "Action"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:594 index.docbook:760
+#, no-c-format
+msgid "Page Down"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:595
+#, no-c-format
+msgid "Load the next image"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:598 index.docbook:764
+#, no-c-format
+msgid "Page Up"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:599
+#, no-c-format
+msgid "Load the previous image"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:602 index.docbook:768
+#, no-c-format
+msgid "Home"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:603
+#, no-c-format
+msgid "Loads the first image"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:606 index.docbook:772
+#, no-c-format
+msgid "<keycap>End</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:607
+#, no-c-format
+msgid "Loads the last image"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:610
+#, no-c-format
+msgid "<keycap>+</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:611
+#, no-c-format
+msgid "Zooms into the image"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:614
+#, no-c-format
+msgid "<keycap>-</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:615
+#, no-c-format
+msgid "Zooms out of the image"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:618
+#, no-c-format
+msgid "<keycap>*</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:619
+#, no-c-format
+msgid "Flips the image horizontally"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:622
+#, no-c-format
+msgid "<keycap>/</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:623
+#, no-c-format
+msgid "Flips the image vertically"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:626
+#, no-c-format
+msgid "<keycap>7</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:627
+#, no-c-format
+msgid "Rotates 270&deg; clockwise (which is also 90&deg; counter-clockwise)"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:631
+#, no-c-format
+msgid "<keycap>8</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:632
+#, no-c-format
+msgid "Rotates 90&deg; clockwise"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:635
+#, no-c-format
+msgid "<keycap>9</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:636
+#, no-c-format
+msgid "Rotates 180&deg; clockwise"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:639
+#, no-c-format
+msgid "<keycap>Arrow</keycap> keys"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:640
+#, no-c-format
+msgid "Move the image (or rather, you, the viewer,) if it is larger than the screen"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:644 index.docbook:755
+#, no-c-format
+msgid "Return"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:645
+#, no-c-format
+msgid "Toggles between fullscreen and window mode"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:648 index.docbook:776
+#, no-c-format
+msgid "Space"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:649
+#, no-c-format
+msgid "Toggles the display of the browser"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:652
+#, no-c-format
+msgid "&Esc;"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:653
+#, no-c-format
+msgid "Closes the image window. This will close &kuickshow; entirely, if you don't have a browser window open."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:657
+#, no-c-format
+msgid "<keycap>B</keycap>/<keycombo action=\"simul\">&Shift;<keycap>B</keycap></keycombo>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:658
+#, no-c-format
+msgid "Lightens/darkens the image"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:661
+#, no-c-format
+msgid "<keycap>C</keycap>/<keycombo action=\"simul\">&Shift;<keycap>C</keycap></keycombo>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:662
+#, no-c-format
+msgid "Adds/Removes contrast"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:665
+#, no-c-format
+msgid "<keycap>G</keycap>/<keycombo action=\"simul\">&Shift;<keycap>G</keycap></keycombo>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:666
+#, no-c-format
+msgid "More/less <firstterm>gamma</firstterm>"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:669
+#, no-c-format
+msgid "<keycap>O</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:670
+#, no-c-format
+msgid "Shows the image in original size. This is only useful when you have enabled automatic scaling."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:674
+#, no-c-format
+msgid "&Enter;"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:675
+#, no-c-format
+msgid "Redisplays the image with the default settings and size."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: index.docbook:679
+#, no-c-format
+msgid "&Ctrl;<keycap>S</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:680
+#, no-c-format
+msgid "Opens the <guilabel>Save As</guilabel> dialog"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:683 index.docbook:794
+#, no-c-format
+msgid "Delete"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:684
+#, no-c-format
+msgid "Deletes the current image. You will be asked to confirm the request."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: index.docbook:688 index.docbook:800
+#, no-c-format
+msgid "&Shift;<keycap>Delete</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:689
+#, no-c-format
+msgid "Deletes the current image without asking for confirmation"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: index.docbook:693
+#, no-c-format
+msgid "&Alt;<keycap>Return</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:694
+#, no-c-format
+msgid "Displays the properties of the image"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:697 index.docbook:805
+#, no-c-format
+msgid "<keycap>F1</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:698 index.docbook:806
+#, no-c-format
+msgid "Opens the online help (this file)"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: index.docbook:701
+#, no-c-format
+msgid "&Ctrl;<keycap>W</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:702 index.docbook:811
+#, no-c-format
+msgid "Quits &kuickshow;"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:709
+#, no-c-format
+msgid "Image Window Mouse Usage"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:713
+#, no-c-format
+msgid "Mouse button"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:719 index.docbook:832
+#, no-c-format
+msgid "<mousebutton>Right</mousebutton> click"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:720
+#, no-c-format
+msgid "Opens the context menu, with several options"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:723
+#, no-c-format
+msgid "<mousebutton>Left</mousebutton> drag"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:724
+#, no-c-format
+msgid "Moves the image, if it doesn't fit in the window."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:727
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Shift;<mousebutton>Left</mousebutton> </keycombo> drag"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:729
+#, no-c-format
+msgid "Marks a rectangle you can zoom into."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:732
+#, no-c-format
+msgid "<mousebutton>Left</mousebutton> double click"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:733
+#, no-c-format
+msgid "Closes the current image"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:742
+#, no-c-format
+msgid "The Browser Window"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:745
+#, no-c-format
+msgid "Browser Window Keybindings"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:749
+#, no-c-format
+msgid "Keybinding"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:756
+#, no-c-format
+msgid "Enters a folder, or opens an image window, depending on the item selected."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:761
+#, no-c-format
+msgid "Advances one page in the list of files"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:765
+#, no-c-format
+msgid "Moves back up a page in the list of files"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:769
+#, no-c-format
+msgid "Selects the first file or folder"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:773
+#, no-c-format
+msgid "Selects the last file or folder"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:777
+#, no-c-format
+msgid "Toggles showing the browser, if an image window is open"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: index.docbook:780
+#, no-c-format
+msgid "any alpha-numeric character"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:781
+#, no-c-format
+msgid "Opens the edit field used for <quote>completion</quote>. Enter the first characters of a filename to search for, and if found, the file will be selected."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:795
+#, no-c-format
+msgid "Deletes the current file. You will be asked to confirm the action."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:801
+#, no-c-format
+msgid "Deletes the current file without asking for confirmation."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: index.docbook:810
+#, no-c-format
+msgid "&Ctrl;<keycap>Q</keycap>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:818
+#, no-c-format
+msgid "Browser Window Mouse Usage"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:822
+#, no-c-format
+msgid "Mouse Usage"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:828
+#, no-c-format
+msgid "<mousebutton>Left</mousebutton> click"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:829
+#, no-c-format
+msgid "Enter a folder, or select an image window."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:833
+#, no-c-format
+msgid "Opens a context menu, with several options."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:836
+#, no-c-format
+msgid "Double click"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6
+#: index.docbook:837
+#, no-c-format
+msgid "Loads the selected image or enters the selected folder"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:850
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:852
+#, no-c-format
+msgid "&kuickshow;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:855
+#, no-c-format
+msgid "Program copyright 1998-2009 &Carsten.Pfeiffer; &Carsten.Pfeiffer.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:859
+#, no-c-format
+msgid "Documentation copyright 2001 &Carsten.Pfeiffer; &Carsten.Pfeiffer.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:862
+#, no-c-format
+msgid "Converted to DocBook &XML; and extended by &Lauri.Watts; &Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6
+#: index.docbook:865
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6
+#: index.docbook:865
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

@@ -1,0 +1,1525 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: uml_basics.docbook:2
+#, no-c-format
+msgid "&UML; Basics"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:4
+#, no-c-format
+msgid "About &UML;"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:5
+#, no-c-format
+msgid ""
+"This chapter will give you a quick overview of the basics of &UML;. Keep in "
+"mind that this is not a comprehensive tutorial on &UML; but rather a brief "
+"introduction to &UML; which can be read as a &UML; tutorial. If you would "
+"like to learn more about the Unified Modelling Language, or in general about "
+"software analysis and design, refer to one of the many books available on "
+"the topic. There are also a lot of tutorials on the Internet which you can "
+"take as a starting point."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:14
+#, no-c-format
+msgid ""
+"The Unified Modelling Language (&UML;) is a diagramming language or notation "
+"to specify, visualize and document models of Object Oriented software "
+"systems. &UML; is not a development method, that means it does not tell you "
+"what to do first and what to do next or how to design your system, but it "
+"helps you to visualize your design and communicate with others. &UML; is "
+"controlled by the Object Management Group (<acronym>OMG</acronym>) and is "
+"the industry standard for graphically describing software."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:21
+#, no-c-format
+msgid ""
+"&UML; is designed for Object Oriented software design and has limited use "
+"for other programming paradigms."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:24
+#, no-c-format
+msgid ""
+"&UML; is composed of many model elements that represent the different parts "
+"of a software system. The &UML; elements are used to create diagrams, which "
+"represent a certain part, or a point of view of the system. The following "
+"types of diagrams are supported by &umbrello;:"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:33
+#, no-c-format
+msgid ""
+"<emphasis><link linkend=\"use-case-diagram\">Use Case Diagrams</link></"
+"emphasis> show actors (people or other users of the system), use cases (the "
+"scenarios when they use the system), and their relationships"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:38
+#, no-c-format
+msgid ""
+"<emphasis><link linkend=\"class-diagram\">Class Diagrams</link></emphasis> "
+"show classes and the relationships between them"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:42
+#, no-c-format
+msgid ""
+"<emphasis><link linkend=\"sequence-diagram\">Sequence Diagrams</link></"
+"emphasis> show objects and a sequence of method calls they make to other "
+"objects."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:46
+#, no-c-format
+msgid ""
+"<emphasis><link linkend=\"collaboration-diagram\">Collaboration Diagrams</"
+"link></emphasis> show objects and their relationship, putting emphasis on "
+"the objects that participate in the message exchange"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:52
+#, no-c-format
+msgid ""
+"<emphasis><link linkend=\"state-diagram\">State Diagrams</link></emphasis> "
+"show states, state changes and events in an object or a part of the system"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:56
+#, no-c-format
+msgid ""
+"<emphasis><link linkend=\"activity-diagram\">Activity Diagrams</link></"
+"emphasis> show activities and the changes from one activity to another with "
+"the events occurring in some part of the system"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:61
+#, no-c-format
+msgid ""
+"<emphasis><link linkend=\"component-diagram\">Component Diagrams</link></"
+"emphasis> show the high level programming components (such as KParts or Java "
+"Beans)."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:65
+#, no-c-format
+msgid ""
+"<emphasis><link linkend=\"deployment-diagram\">Deployment Diagrams</link></"
+"emphasis> show the instances of the components and their relationships."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:70
+#, no-c-format
+msgid ""
+"<emphasis><link linkend=\"entity-relationship-diagram\">Entity Relationship "
+"Diagrams</link></emphasis> show data and the relationships and constraints "
+"between the data."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:79
+#, no-c-format
+msgid "&UML; Elements"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:81
+#, no-c-format
+msgid "Use Case Diagram"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:82
+#, no-c-format
+msgid ""
+"Use Case Diagrams describe the relationships and dependencies between a "
+"group of <emphasis>Use Cases</emphasis> and the Actors participating in the "
+"process."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:84
+#, no-c-format
+msgid ""
+"It is important to notice that Use Case Diagrams are not suited to represent "
+"the design, and cannot describe the internals of a system. Use Case Diagrams "
+"are meant to facilitate the communication with the future users of the "
+"system, and with the customer, and are specially helpful to determine the "
+"required features the system is to have. Use Case Diagrams tell, "
+"<emphasis>what</emphasis> the system should do but do not &mdash; and cannot "
+"&mdash; specify <emphasis>how</emphasis> this is to be achieved."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:91
+#, no-c-format
+msgid "An example Use Case diagram."
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:97
+#, no-c-format
+msgid "<phrase>&umbrello; showing a Use Case Diagram</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:100
+#, no-c-format
+msgid "<para>&umbrello; showing a Use Case Diagram</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:107
+#, no-c-format
+msgid "Use Case"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:108
+#, no-c-format
+msgid ""
+"A <emphasis>Use Case</emphasis> describes &mdash; from the point of view of "
+"the actors &mdash; a group of activities in a system that produces a "
+"concrete, tangible result."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:110
+#, no-c-format
+msgid ""
+"Use Cases are descriptions of the typical interactions between the users of "
+"a system and the system itself. They represent the external interface of the "
+"system and specify a form of requirements of what the system has to do "
+"(remember, only what, not how)."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:115
+#, no-c-format
+msgid ""
+"When working with Use Cases, it is important to remember some simple rules:"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:117
+#, no-c-format
+msgid "Each Use Case is related to at least one actor"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:118
+#, no-c-format
+msgid "Each Use Case has an initiator (&ie; an actor)"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:119
+#, no-c-format
+msgid ""
+"Each Use Case leads to a relevant result (a result with <quote>business "
+"value</quote>)"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:123
+#, no-c-format
+msgid ""
+"Use Cases can also have relationships with other Use Cases. The three most "
+"typical types of relationships between Use Cases are:"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:127
+#, no-c-format
+msgid ""
+"<emphasis>&lt;&lt;include&gt;&gt;</emphasis> which specifies that a Use Case "
+"takes place <emphasis>inside</emphasis> another Use Case"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:129
+#, no-c-format
+msgid ""
+"<emphasis>&lt;&lt;extends&gt;&gt;</emphasis> which specifies that in certain "
+"situations, or at some point (called an extension point) a Use Case will be "
+"extended by another."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:131
+#, no-c-format
+msgid ""
+"<emphasis>Generalization</emphasis> specifies that a Use Case inherits the "
+"characteristics of the <quote>Super</quote>-Use Case, and can override some "
+"of them or add new ones in a similar way as the inheritance between classes."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:139
+#, no-c-format
+msgid "Actor"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:140
+#, no-c-format
+msgid ""
+"An actor is an external entity (outside of the system) that interacts with "
+"the system by participating (and often initiating) a Use Case. Actors can be "
+"in real life people (for example users of the system), other computer "
+"systems or external events."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:145
+#, no-c-format
+msgid ""
+"Actors do not represent the <emphasis>physical</emphasis> people or systems, "
+"but their <emphasis>role</emphasis>. This means that when a person interacts "
+"with the system in different ways (assuming different roles) he will be "
+"represented by several actors. For example a person that gives customer "
+"support by the telephone and takes orders from the customer into the system "
+"would be represented by an actor <quote>Support Staff</quote> and an actor "
+"<quote>Sales Representative</quote>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:154
+#, no-c-format
+msgid "Use Case Description"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:155
+#, no-c-format
+msgid ""
+"Use Case Descriptions are textual narratives of the Use Case. They usually "
+"take the form of a note or a document that is somehow linked to the Use "
+"Case, and explains the processes or activities that take place in the Use "
+"Case."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:164
+#, no-c-format
+msgid "Class Diagram"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:165
+#, no-c-format
+msgid ""
+"Class Diagrams show the different classes that make up a system and how they "
+"relate to each other. Class Diagrams are said to be <quote>static</quote> "
+"diagrams because they show the classes, along with their methods and "
+"attributes as well as the static relationships between them: which classes "
+"<quote>know</quote> about which classes or which classes <quote>are part</"
+"quote> of another class, but do not show the method calls between them."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:174
+#, no-c-format
+msgid "An example of a Class Diagram"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:180
+#, no-c-format
+msgid "<phrase>&umbrello; showing a Class Diagram</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:183
+#, no-c-format
+msgid "<para>&umbrello; showing a Class Diagram</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:190
+#, no-c-format
+msgid "Class"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:191
+#, no-c-format
+msgid ""
+"A Class defines the attributes and the methods of a set of objects. All "
+"objects of this class (instances of this class) share the same behavior, and "
+"have the same set of attributes (each object has its own set). The term "
+"<quote>Type</quote> is sometimes used instead of Class, but it is important "
+"to mention that these two are not the same, and Type is a more general term."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:197
+#, no-c-format
+msgid ""
+"In &UML;, Classes are represented by rectangles, with the name of the class, "
+"and can also show the attributes and operations of the class in two other "
+"<quote>compartments</quote> inside the rectangle."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:203
+#, no-c-format
+msgid "A Class in &UML;"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:209
+#, no-c-format
+msgid "<phrase>Visual representation of a Class in &UML;</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:212
+#, no-c-format
+msgid "<para>Visual representation of a Class in &UML;</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:219
+#, no-c-format
+msgid "Attributes"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:220
+#, no-c-format
+msgid ""
+"In &UML;, Attributes are shown with at least their name, and can also show "
+"their type, initial value and other properties. Attributes can also be "
+"displayed with their visibility:"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:226
+#, no-c-format
+msgid "<literal>+</literal> Stands for <emphasis>public</emphasis> attributes"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:227
+#, no-c-format
+msgid ""
+"<literal>#</literal> Stands for <emphasis>protected</emphasis> attributes"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:228
+#, no-c-format
+msgid "<literal>-</literal> Stands for <emphasis>private</emphasis> attributes"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:232
+#, no-c-format
+msgid "Operations"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:233
+#, no-c-format
+msgid ""
+"Operations (methods) are also displayed with at least their name, and can "
+"also show their parameters and return types. Operations can, just as "
+"Attributes, display their visibility:"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:238
+#, no-c-format
+msgid "<literal>+</literal> Stands for <emphasis>public</emphasis> operations"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:239
+#, no-c-format
+msgid ""
+"<literal>#</literal> Stands for <emphasis>protected</emphasis> operations"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:240
+#, no-c-format
+msgid "<literal>-</literal> Stands for <emphasis>private</emphasis> operations"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:246
+#, no-c-format
+msgid "Templates"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:247
+#, no-c-format
+msgid ""
+"Classes can have templates, a value which is used for an unspecified class "
+"or type. The template type is specified when a class is initiated (&ie; an "
+"object is created). Templates exist in modern C++ and will be introduced in "
+"Java 1.5 where they will be called Generics."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:256
+#, no-c-format
+msgid "Class Associations"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:257
+#, no-c-format
+msgid ""
+"Classes can relate (be associated with) to each other in different ways:"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:259
+#, no-c-format
+msgid "<title>Generalization</title>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:260
+#, no-c-format
+msgid ""
+"Inheritance is one of the fundamental concepts of Object Oriented "
+"programming, in which a class <quote>gains</quote> all of the attributes and "
+"operations of the class it inherits from, and can override/modify some of "
+"them, as well as add more attributes and operations of its own."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:263
+#, no-c-format
+msgid ""
+"In &UML;, a <emphasis>Generalization</emphasis> association between two "
+"classes puts them in a hierarchy representing the concept of inheritance of "
+"a derived class from a base class. In &UML;, Generalizations are represented "
+"by a line connecting the two classes, with an arrow on the side of the base "
+"class."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:268
+#, no-c-format
+msgid "<screeninfo>Generalization</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:274
+#, no-c-format
+msgid "<phrase>Visual representation of a generalization in &UML;</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:277
+#, no-c-format
+msgid "<para>Visual representation of a generalization in &UML;</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:286
+#, no-c-format
+msgid "Associations"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:287
+#, no-c-format
+msgid ""
+"An association represents a relationship between classes, and gives the "
+"common semantics and structure for many types of <quote>connections</quote> "
+"between objects."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:289
+#, no-c-format
+msgid ""
+"Associations are the mechanism that allows objects to communicate to each "
+"other. It describes the connection between different classes (the connection "
+"between the actual objects is called object connection, or <emphasis>link</"
+"emphasis>."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:293
+#, no-c-format
+msgid ""
+"Associations can have a role that specifies the purpose of the association "
+"and can be uni- or bidirectional (indicates if the two objects participating "
+"in the relationship can send messages to the other, of if only one of them "
+"knows about the other). Each end of the association also has a multiplicity "
+"value, which dictates how many objects on this side of the association can "
+"relate to one object on the other side."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:299
+#, no-c-format
+msgid ""
+"In &UML;, associations are represented as lines connecting the classes "
+"participating in the relationship, and can also show the role and the "
+"multiplicity of each of the participants. Multiplicity is displayed as a "
+"range [min..max] of non-negative values, with a star (<literal>*</literal>) "
+"on the maximum side representing infinite."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:304
+#, no-c-format
+msgid "&UML; Association"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:310
+#, no-c-format
+msgid "<phrase>Visual representation of an Association in &UML;</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:313
+#, no-c-format
+msgid "<para>Visual representation of an Association in &UML;</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:322
+#, no-c-format
+msgid "<title>Aggregation</title>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:323
+#, no-c-format
+msgid ""
+"Aggregations are a special type of associations in which the two "
+"participating classes don't have an equal status, but make a <quote>whole-"
+"part</quote> relationship. An Aggregation describes how the class that takes "
+"the role of the whole, is composed (has) of other classes, which take the "
+"role of the parts. For Aggregations, the class acting as the whole always "
+"has a multiplicity of one."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:328
+#, no-c-format
+msgid ""
+"In &UML;, Aggregations are represented by an association that shows a rhomb "
+"on the side of the whole."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:331
+#, no-c-format
+msgid "<screeninfo>Aggregation</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:337
+#, no-c-format
+msgid ""
+"<phrase>Visual representation of an Aggregation relationship in &UML;</"
+"phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:340
+#, no-c-format
+msgid ""
+"<para>Visual representation of an Aggregation relationship in &UML;</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:348
+#, no-c-format
+msgid "<title>Composition</title>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:349
+#, no-c-format
+msgid ""
+"Compositions are associations that represent <emphasis>very strong</"
+"emphasis> aggregations. This means, Compositions form whole-part "
+"relationships as well, but the relationship is so strong that the parts "
+"cannot exist on its own. They exist only inside the whole, and if the whole "
+"is destroyed the parts die too."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:352
+#, no-c-format
+msgid ""
+"In &UML;, Compositions are represented by a solid rhomb on the side of the "
+"whole."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:355
+#, no-c-format
+msgid "<screeninfo>Composition</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:361
+#, no-c-format
+msgid "Visual representation of a Composition relationship in &UML;"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:369
+#, no-c-format
+msgid "Other Class Diagram Items"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:370
+#, no-c-format
+msgid "Class diagrams can contain several other items besides classes."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:372
+#, no-c-format
+msgid "Interfaces"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:373
+#, no-c-format
+msgid ""
+"Interfaces are abstract classes which means instances cannot be directly "
+"created of them. They can contain operations but no attributes. Classes can "
+"inherit from interfaces (through a realisation association) and instances "
+"can then be made of these classes."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:377
+#, no-c-format
+msgid "Datatypes"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:378
+#, no-c-format
+msgid ""
+"Datatypes are primitives which are typically built into a programming "
+"language. Common examples include integers and booleans. They cannot have "
+"relationships to classes but classes can have relationships to them."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:383
+#, no-c-format
+msgid "Enums"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:384
+#, no-c-format
+msgid ""
+"Enums are a simple list of values. A typical example is an enum for days of "
+"the week. The options of an enum are called Enum Literals. Like datatypes "
+"they cannot have relationships to classes but classes can have relationships "
+"to them."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:389
+#, no-c-format
+msgid "Packages"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:390
+#, no-c-format
+msgid ""
+"Packages represent a namespace in a programming language. In a diagram they "
+"are used to represent parts of a system which contain more than one class, "
+"maybe hundereds of classes."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:399
+#, no-c-format
+msgid "Sequence Diagrams"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:401
+#, no-c-format
+msgid ""
+"Sequence Diagrams show the message exchange (&ie; method call) between "
+"several Objects in a specific time-delimited situation. Objects are "
+"instances of classes. Sequence Diagrams put special emphasis in the order "
+"and the times in which the messages to the objects are sent."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:407
+#, no-c-format
+msgid ""
+"In Sequence Diagrams objects are represented through vertical dashed lines, "
+"with the name of the Object on the top. The time axis is also vertical, "
+"increasing downwards, so that messages are sent from one Object to another "
+"in the form of arrows with the operation and parameters name."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:415
+#, no-c-format
+msgid "Sequence Diagram"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:421
+#, no-c-format
+msgid "<phrase>&umbrello; showing a Sequence Diagram</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:424
+#, no-c-format
+msgid "<para>&umbrello; showing a Sequence Diagram</para>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:430
+#, no-c-format
+msgid ""
+"Messages can be either synchronous, the normal type of message call where "
+"control is passed to the called object until that method has finished "
+"running, or asynchronous where control is passed back directly to the "
+"calling object. Synchronous messages have a vertical box on the side of the "
+"called object to show the flow of program control."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:436
+#, no-c-format
+msgid "Collaboration Diagrams"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:438
+#, no-c-format
+msgid ""
+"Collaboration Diagrams show the interactions occurring between the objects "
+"participating in a specific situation. This is more or less the same "
+"information shown by Sequence Diagrams but there the emphasis is put on how "
+"the interactions occur in time while the Collaboration Diagrams put the "
+"relationships between the objects and their topology in the foreground."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:443
+#, no-c-format
+msgid ""
+"In Collaboration Diagrams messages sent from one object to another are "
+"represented by arrows, showing the message name, parameters, and the "
+"sequence of the message. Collaboration Diagrams are specially well suited to "
+"showing a specific program flow or situation and are one of the best diagram "
+"types to quickly demonstrate or explain one process in the program logic."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:450
+#, no-c-format
+msgid "Collaboration"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:456
+#, no-c-format
+msgid "<phrase>&umbrello; showing a Collaboration Diagram</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:459
+#, no-c-format
+msgid "<para>&umbrello; showing a Collaboration Diagram</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:468
+#, no-c-format
+msgid "<title>State Diagram</title>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:469
+#, no-c-format
+msgid ""
+"State Diagrams show the different states of an Object during its life and "
+"the stimuli that cause the Object to change its state."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:472
+#, no-c-format
+msgid ""
+"State Diagrams view Objects as <emphasis>state machines</emphasis> or finite "
+"automates that can be in one of a set of finite states and that can change "
+"its state via one of a finite set of stimuli. For example an Object of type "
+"<emphasis>NetServer</emphasis> can be in one of following states during its "
+"life:"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:477
+#, no-c-format
+msgid "Ready"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:478
+#, no-c-format
+msgid "Listening"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:479
+#, no-c-format
+msgid "Working"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:480
+#, no-c-format
+msgid "Stopped"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:482
+#, no-c-format
+msgid "and the events that can cause the Object to change states are"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:484
+#, no-c-format
+msgid "Object is created"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:485
+#, no-c-format
+msgid "Object receives message listen"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:486
+#, no-c-format
+msgid "A Client requests a connection over the network"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:487
+#, no-c-format
+msgid "A Client terminates a request"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:488
+#, no-c-format
+msgid "The request is executed and terminated"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:489
+#, no-c-format
+msgid "Object receives message stop"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:490
+#, no-c-format
+msgid "<para>etc</para>"
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:494
+#, no-c-format
+msgid "<screeninfo>State Diagram</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:500
+#, no-c-format
+msgid "<phrase>&umbrello; showing a State Diagram</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:503
+#, no-c-format
+msgid "<para>&umbrello; showing a State Diagram</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:510
+#, no-c-format
+msgid "State"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:511
+#, no-c-format
+msgid ""
+"States are the building block of State Diagrams. A State belongs to exactly "
+"one class and represents a summary of the values the attributes of a class "
+"can take. A &UML; State describes the internal state of an object of one "
+"particular class"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:515
+#, no-c-format
+msgid ""
+"Note that not every change in one of the attributes of an object should be "
+"represented by a State but only those changes that can significantly affect "
+"the workings of the object"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:517
+#, no-c-format
+msgid ""
+"There are two special types of States: Start and End. They are special in "
+"that there is no event that can cause an Object to return to its Start "
+"state, in the same way as there is no event that can possible take an Object "
+"out of its End state once it has reached it."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:527
+#, no-c-format
+msgid "Activity Diagram"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:528
+#, no-c-format
+msgid ""
+"Activity Diagrams describe the sequence of activities in a system with the "
+"help of Activities. Activity Diagrams are a special form of State Diagrams, "
+"that only (or mostly) contains Activities."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:534
+#, no-c-format
+msgid "An example Activity Diagram."
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:540
+#, no-c-format
+msgid "<phrase>&umbrello; showing an Activity Diagram</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:543
+#, no-c-format
+msgid "<para>&umbrello; showing an Activity Diagram</para>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:549
+#, no-c-format
+msgid ""
+"Activity Diagrams are similar to procedural Flux Diagrams, with the "
+"difference that all Activities are clearly attached to Objects."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:552
+#, no-c-format
+msgid ""
+"Activity Diagrams are always associated to a <emphasis>Class</emphasis>, an "
+"<emphasis>Operation</emphasis> or a <emphasis>Use Case</emphasis>."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:556
+#, no-c-format
+msgid ""
+"Activity Diagrams support sequential as well as parallel Activities. "
+"Parallel execution is represented via Fork/Wait icons, and for the "
+"Activities running in parallel, it is not important the order in which they "
+"are carried out (they can be executed at the same time or one after the "
+"other)"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:561
+#, no-c-format
+msgid "Activity"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:562
+#, no-c-format
+msgid ""
+"An Activity is a single step in a process. One Activity is one state in the "
+"system with internal activity and, at least, one outgoing transition. "
+"Activities can also have more than one outgoing transition if they have "
+"different conditions."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:566
+#, no-c-format
+msgid ""
+"Activities can form hierarchies, this means that an Activity can be composed "
+"of several <quote>detail</quote> Activities, in which case the incoming and "
+"outgoing transitions should match the incoming and outgoing transitions of "
+"the detail diagram."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:575
+#, no-c-format
+msgid "Helper Elements"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:576
+#, no-c-format
+msgid ""
+"There are a few elements in &UML; that have no real semantic value for the "
+"model, but help to clarify parts of the diagram. These elements are"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:579
+#, no-c-format
+msgid "Text lines"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:580
+#, no-c-format
+msgid "Text Notes and anchors"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:581
+#, no-c-format
+msgid "Boxes"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:583
+#, no-c-format
+msgid ""
+"Text lines are useful to add short text information to a diagram. It is free-"
+"standing text and has no meaning to the Model itself."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:588
+#, no-c-format
+msgid ""
+"Notes are useful to add more detailed information about an object or a "
+"specific situation. They have the great advantage that notes can be anchored "
+"to &UML; Elements to show that the note <quote>belongs</quote> to a specific "
+"object or situation."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:595
+#, no-c-format
+msgid ""
+"Boxes are free-standing rectangles which can be used to group items together "
+"to make diagrams more readable. They have no logical meaning in the model."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:602
+#, no-c-format
+msgid "Component Diagrams"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:603
+#, no-c-format
+msgid ""
+"Component Diagrams show the software components (either component "
+"technologies such as KParts, CORBA components or Java Beans or just sections "
+"of the system which are clearly distinguishable) and the artifacts they are "
+"made out of such as source code files, programming libraries or relational "
+"database tables."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:607
+#, no-c-format
+msgid ""
+"Components can have interfaces (&ie; abstract classes with operations) that "
+"allow associations between components."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:611
+#, no-c-format
+msgid "Deployment Diagrams"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:613
+#, no-c-format
+msgid ""
+"Deployment diagrams show the runtime component instances and their "
+"associations. They include Nodes which are physical resources, typically a "
+"single computer. They also show interfaces and objects (class instances)."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:620
+#, no-c-format
+msgid "Entity Relationship Diagrams"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:622
+#, no-c-format
+msgid ""
+"Entity Relationship Diagrams (ER Diagrams) show the conceptual design of "
+"database applications. They depict the various entities (concepts) in the "
+"information system and the existing relationships and constraints between "
+"them. An extension of Entity Relationship Diagrams named 'Extended Entity "
+"Relationship Diagrams' or 'Enhanced Entity Relationship Diagrams' (EER), are "
+"used to incorporate Object Oriented design techniques in ER Diagrams."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:627
+#, no-c-format
+msgid "An example Entity Relationship diagram."
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:633
+#, no-c-format
+msgid "<phrase>Umbrello showing an Entity Relationship Diagram</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:636
+#, no-c-format
+msgid "<para>Umbrello showing an Entity Relationship Diagram</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:643
+#, no-c-format
+msgid "Entity"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:644
+#, no-c-format
+msgid ""
+"An <emphasis>Entity</emphasis> is any concept in the real world with an "
+"independent existence. It may be an object with a physical existence "
+"( example, Computer, Robot) or it may be an object with a conceptual "
+"existence ( eq: University Course). Each entity has a set of attributes "
+"which describe the properties of the Entity."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:645
+#, no-c-format
+msgid ""
+"<emphasis>Note:</emphasis> No standard notations exist for depicting ER "
+"Diagrams. Different texts on this subject use different notations. The "
+"concepts and notations for EER diagrams used in Umbrello are from the "
+"following book : <emphasis>Elmasri R. and Navathe S. (2004). Fundamentals of "
+"Database Systems 4th edn. Addison Wesley</emphasis>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:649
+#, no-c-format
+msgid ""
+"In an ER Diagram, Entities are represented by rectangles, with the name of "
+"the entity at the top, and can also show the attributes of the entity in "
+"another <quote>compartment</quote> inside the rectangle."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:655
+#, no-c-format
+msgid "An Entity in an ER Diagram;"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:661
+#, no-c-format
+msgid "<phrase>Visual representation of an entity in an ER Diagram</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:664
+#, no-c-format
+msgid "<para>Visual representation of an entity in an ER Diagram</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:671
+#, no-c-format
+msgid "Entity Attributes"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:672
+#, no-c-format
+msgid ""
+"In ER Diagrams , Entity Attributes are shown with their name in a different "
+"compartment of the Entity to which they belong."
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:677
+#, no-c-format
+msgid "Constraints"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:678
+#, no-c-format
+msgid ""
+"Constraints in ER Diagrams specify the restrictions on data in the "
+"information schema."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:680
+#, no-c-format
+msgid "There are four types of constraints supported in Umbrello :"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:683
+#, no-c-format
+msgid ""
+"<emphasis>Primary Key:</emphasis> The set of attributes declared as "
+"<emphasis>primary key</emphasis> are unique to the entity. There can be only "
+"one primary key in an Entity and none of its constituent attributes can be "
+"NULL."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:688
+#, no-c-format
+msgid ""
+"<emphasis>Unique Key:</emphasis> The set of attributes declared as "
+"<emphasis>unique</emphasis> are unique to the entity. There can be many "
+"unique constraints on an Entity. Its constituent attributes can be NULL. "
+"Unique Keys and Primary Keys uniquely identify a row in a table ( entity )"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:693
+#, no-c-format
+msgid ""
+"<emphasis>Foreign Key:</emphasis> A Foreign Key is a referential constraint "
+"between two tables. The foreign key identifies a column or a set of columns "
+"in one (referencing) table that refers to a column or set of columns in "
+"another (referenced) table. The columns in the referenced table must form a "
+"primary key or unique key."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:698
+#, no-c-format
+msgid ""
+"<emphasis>Check Constraint:</emphasis> A check constraint (also known as "
+"table check constraint) is a condition that defines valid data when adding "
+"or updating an entry in a table of a relational database. A check constraint "
+"is applied to each row in the table. The constraint must be a predicate. It "
+"can refer to a single or multiple columns of the table."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:701
+#, no-c-format
+msgid "Example: price >= 0"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:711
+#, no-c-format
+msgid "Extended Entity Relationship (EER) Diagram Concepts"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:713
+#, no-c-format
+msgid "Specialization"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:714
+#, no-c-format
+msgid ""
+"Specialization is a way to form new entities using entities that have "
+"already been defined. The new entities, known as derived entities, take over "
+"(or inherit) attributes of the pre-existing entities, which are referred to "
+"as base entities . It is intended to help reuse existing data with little or "
+"no modification."
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:715
+#, no-c-format
+msgid "In Umbrello, one can specify Disjoint and Overlapping Specialization"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:717
+#, no-c-format
+msgid "Disjoint Specialization"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:718
+#, no-c-format
+msgid ""
+"Disjoint Specialization specifies that the subclasses of the specialization "
+"must be disjoint. This means that an entity can be a member of at most one "
+"of the derived entities of the specialization"
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:721
+#, no-c-format
+msgid "Entities taking part in Disjoint Specialization"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:727
+#, no-c-format
+msgid ""
+"<phrase>Visual representation of Disjoint Specialization in EER Diagram</"
+"phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:730
+#, no-c-format
+msgid ""
+"<para>Visual representation of Disjoint Specialization in EER Diagram</para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:738
+#, no-c-format
+msgid "Overlapping Specialization"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:739
+#, no-c-format
+msgid ""
+"When the derived entities are not constrained to be disjoint, their set of "
+"entities are said to be in overlapping specialization. This means that the "
+"same real world entity may be a member of more than one derived entity of "
+"the specialization"
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:742
+#, no-c-format
+msgid "Entities taking part in Overlapping Specialization"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:748
+#, no-c-format
+msgid ""
+"<phrase>Visual representation of Overlapping Specialization in EER Diagram</"
+"phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:751
+#, no-c-format
+msgid ""
+"<para>Visual representation of Overlapping Specialization in EER Diagram</"
+"para>"
+msgstr ""
+
+#. Tag: title
+#: uml_basics.docbook:760
+#, no-c-format
+msgid "Category"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:761
+#, no-c-format
+msgid ""
+"A derived Entity is said to be a <emphasis>Category</emphasis> when it "
+"represents a collection of objects that is a subset of Union of the distinct "
+"entity types. A Category is modelled when the need arises for a single "
+"superclass/subclass relationship with more than one superclass, where the "
+"superclasses represent different entity types. ( Much like multiple "
+"inheritance in Object Oriented Programming )."
+msgstr ""
+
+#. Tag: screeninfo
+#: uml_basics.docbook:766
+#, no-c-format
+msgid "Entities taking part in a Category relationship"
+msgstr ""
+
+#. Tag: phrase
+#: uml_basics.docbook:772
+#, no-c-format
+msgid "<phrase>Visual representation of a Category in EER Diagram</phrase>"
+msgstr ""
+
+#. Tag: para
+#: uml_basics.docbook:775
+#, no-c-format
+msgid "<para>Visual representation of a Category in EER Diagram</para>"
+msgstr ""

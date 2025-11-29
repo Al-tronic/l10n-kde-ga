@@ -1,0 +1,157 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Glaxnimate Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Glaxnimate Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:11
+msgid "Loading Spinner"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:13
+msgid "This tutorial will show how to create a simple loading spinner animation."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:15
+msgid "This highlights how to use the Trim Path feature."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:24
+msgid "Draw a Circle"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:26
+msgid "Draw a circle for the spinner. You can do this by selecting the \"Ellipse\" tool from the toolbar. Ensure in the tool options the Fill is disabled and Stroke is enabled. Click and drag on the canvas to create a circle of the desired size. If you hold Ctrl, Glaxnimate will ensure the ellipse is a perfect circle."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:33
+msgid "Drawing the circle"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:35
+msgid "You can change the stroke color and thickness, as well the cap style to Round."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:44
+msgid "Stroke Style"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:46
+msgid "To align the circle at the center of the canvas you can use the align view, just make sure you select :guilabel:`Canvas` from the dropdown."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:53
+msgid "Aligning to the center"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:56
+msgid "Trim Path"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:58
+msgid "The Trim Path is a modifier that allows you to animate a shape being \"drawn\" and similar effects."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:60
+msgid "We will use it to make the loading spinner appear, go around, and disappear."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:62
+msgid "To add it, you can right click on the :guilabel:`Ellipse` group in the timeline, then select :guilabel:`Add` and :guilabel:`Trim Path`."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:69
+msgid "Adding Trim Path"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:71
+msgid "The animation is going to be 60 frames long, ensure you have the correct timing from the document timing dialog."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:80
+msgid "Adjusting the timing"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:84
+msgid "Adding Keyframes"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:86
+msgid "We will now add some keyframes on the trim path properties."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:88
+msgid "To add a keyframe ensure you have the correct frame selected, change the property value, then right click on the property track on the timeline and select :guilabel:`Add Keyframe`."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:90
+msgid "At frame 0 add a keyframe setting :guilabel:`end` and :guilabel:`offset` to 0%. This will hide the circle as there's nothing between :guilabel:`start` and :guilabel:`end` on the trim path."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:97
+msgid "Keyframe 0"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:101
+msgid "At frame 20 add a keyframe setting :guilabel:`end` to 33%. This adds the first phase of the animation, a segment of the circle appearing from the top."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:109
+msgid "Keyframe 20"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:113
+msgid "At frame 40 add a keyframe setting :guilabel:`start` to 0%."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:120
+msgid "Keyframe 40"
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:124
+msgid "At frame 60 add a keyframe setting :guilabel:`start` to 33% and :guilabel:`offset` to 67%. This will make the spinner disappear in a similar fashion to how it appeared."
+msgstr ""
+
+#. +> trunk5
+#: ../../tutorials/loading_spinner.rst:131
+msgid "Keyframe 60"
+msgstr ""

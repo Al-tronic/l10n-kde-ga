@@ -1,0 +1,3237 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-09-30 22:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:8
+#, no-c-format
+msgid "KrViewer: &krusader;'s internal viewer-editor"
+msgstr ""
+
+#. Tag: primary
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:11
+#, no-c-format
+msgid "<primary>Viewer</primary>"
+msgstr ""
+
+#. Tag: seealso
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:12
+#, no-c-format
+msgid "<seealso>Editor</seealso>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:14
+#, no-c-format
+msgid "Pressing &Enter; on a selected file <emphasis>opens the file with the associated application</emphasis>. The editor-viewer is tabbed, configure it on the <link linkend=\"konfig-general\">Konfigurator General page</link>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:19
+#, no-c-format
+msgid "<title>Viewer</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:20
+#, no-c-format
+msgid "To view a file as fast as possible according to its type, just put it under the cursor and press <keycap>F3</keycap>. &krusader;'s internal viewer is actually a part of &konqueror;, which can basically view every file type viewable by &konqueror; (&eg; display pictures, play music, show the content of an archive). This is called the 'Generic viewer', for which you need to configure the &MIME; types."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:28
+#, no-c-format
+msgid ""
+"The viewer works as follows: "
+"<itemizedlist> "
+"<listitem> "
+"<para>It tries to view the file with the <emphasis>'Generic viewer'.</emphasis></para>"
+" </listitem>"
+" "
+"<listitem> "
+"<para>When the file type (&MIME; type) cannot be determined or when a file (&eg; a binary) does not have an associated action, it disables the 'generic viewer'. The file is treated as a text file, which is the <emphasis>'Text viewer'</emphasis>.</para>"
+" </listitem>"
+" "
+"<listitem> "
+"<para>The user can change in the <link linkend=\"kredit_krviewer_menu\">KrViewer menu</link> between: 'Generic viewer' (if available), 'Text viewer' and <emphasis>'Hex viewer'</emphasis>.</para>"
+" </listitem>"
+" </itemizedlist>"
+"You can configure the default viewer mode on the <link linkend=\"konfig-general\">Konfigurator General page</link> ."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:50
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Shift; <keycap>F3</keycap></keycombo> views a &URL; on demand, &eg;:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:56
+#, no-c-format
+msgid "<userinput> <command>man:/</command> </userinput>views the manpages."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:62
+#, no-c-format
+msgid "<userinput> <command>man:/</command><replaceable>krusader</replaceable> </userinput>views manpage of &krusader;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:68
+#, no-c-format
+msgid "<userinput> <command>info:/</command> </userinput>views the infopages."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:74
+#, no-c-format
+msgid "<userinput> <command>https://</command><replaceable>krusader.org</replaceable> </userinput>views a webpage."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:80
+#, no-c-format
+msgid "<userinput> <command>ftp://</command><replaceable>ftp.kde.org/pub/kde/</replaceable> </userinput>views a &FTP; server."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:86
+#, no-c-format
+msgid "<userinput> <command>sftp://</command><replaceable>sftp.foo/</replaceable> </userinput>views a secure &FTP; server."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:92
+#, no-c-format
+msgid "<userinput> <command>file:/</command><replaceable>home/frank</replaceable> </userinput>views Frank's home folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:98
+#, no-c-format
+msgid "<userinput> <command>tar:/</command><replaceable>home/frank/archive.tar.gz/</replaceable> </userinput>opens content browser window for the <literal role=\"extension\">tar.gz</literal> archive."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:105
+#, no-c-format
+msgid "KrViewer can have the following menus: <link linkend=\"katepart-menu-file\">File</link>, <link linkend=\"katepart-menu-edit\">Edit</link>, <link linkend=\"katepart-menu-view\">View</link>, <link linkend=\"katepart-menu-settings\">Settings</link> and <link linkend=\"kredit_krviewer_menu\">Krviewer</link>, depending on which file type is viewed. They will be discussed in the <link linkend=\"kredit\">Editor section</link>. The internal viewer can follow links on &HTML; pages. With <keycombo action=\"simul\">&Ctrl;&Shift; <keycap>E</keycap></keycombo> the viewer can start &krusader;'s internal editor (which is basically the same application)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:119
+#, no-c-format
+msgid "The embedded viewer is not written by us, it is supplied via &kde-frameworks; and KIO Slaves. We cannot and do not want to change it, using these libraries reduces the amount of written code. So we do not have to reinvent the wheel ;-)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:128
+#, no-c-format
+msgid "<title>Editor</title>"
+msgstr ""
+
+#. Tag: primary
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:130
+#, no-c-format
+msgid "<primary>Editor</primary>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:132
+#, no-c-format
+msgid "&krusader;'s internal editor has almost everything that you can expect of an editor. Editing is similar to viewing but with the <keycap>F4</keycap> key. The default editor is &krusader;'s internal editor. You can change the default editor in the <link linkend=\"konfig-general\">Konfigurator General page</link>, if you prefer to use an external editor."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:140
+#, no-c-format
+msgid "When you use &krusader;'s internal editor for the first time, it is recommended to look at each section of the <link linkend=\"katepart-menu-settings\">Settings</link> menu, and configure it the way you want it."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:148
+#, no-c-format
+msgid "Menu overview"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:151
+#, no-c-format
+msgid "There are different menus and menu items in simple and advanced mode. The advanced mode is enabled by checking the option <link linkend=\"katepart-appearance\"> Enable power user mode (&kde; 3 mode)</link> on the <guilabel>Appearance</guilabel> page in &kappname;s settings."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:157
+#, no-c-format
+msgid "The File Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:163
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Save</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:172
+#, no-c-format
+msgid "This saves the current document. If there has already been a save of the document then this will overwrite the previously saved file without asking for the user's consent. If it is the first save of a new document the save as dialog (described below) will be invoked."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:183
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Save As...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:189
+#, no-c-format
+msgid "This allows a document to be saved with a new file name."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:197
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\"><keycap>F5</keycap></keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Reload</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:206
+#, no-c-format
+msgid "Reloads the active file from disk. This command is useful if another program or process has changed the file while you have it open in &kappname;."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:215
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Print...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:224
+#, no-c-format
+msgid "Opens a simple print dialog allowing the user to specify what, where, and how to print."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:233
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Export as &HTML;</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:239
+#, no-c-format
+msgid "Export your file in &HTML; format so your document can be viewed as a web page. This item is only displayed when the plugin <guilabel>Exporter</guilabel> is loaded."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:251
+#, no-c-format
+msgid "The Edit Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:255
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo></shortcut> <guimenu>Edit</guimenu> <guimenuitem>Undo</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:261
+#, no-c-format
+msgid "This is used to eliminate or reverse the most recent user action or operation."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:268
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Z</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Redo</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:273
+#, no-c-format
+msgid "This will reverse the most recent change (if any) made using Undo"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:278
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>X</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Cut</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:283
+#, no-c-format
+msgid "This command deletes the current selection and places it on the clipboard. The clipboard is a feature that works invisibly to provide a way to transfer data between applications."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:291
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Copy</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:296
+#, no-c-format
+msgid "This copies the currently selected text to the clipboard so that it may be pasted elsewhere. The clipboard is a feature that works invisibly to provide a way to transfer data between applications."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:302
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Paste</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:307
+#, no-c-format
+msgid "This will insert the contents of the clipboard at the cursor position. The clipboard is a feature that works invisibly to provide a way to transfer data between applications."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:313
+#, no-c-format
+msgid "<guimenu>Edit</guimenu><guimenuitem>Copy as &HTML;</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:317
+#, no-c-format
+msgid "This copies the currently selected text to the clipboard as &HTML;. This item is only displayed when the plugin <guilabel>Exporter</guilabel> is loaded."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:324
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Select All</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:329
+#, no-c-format
+msgid "This will select the entire document. This could be very useful for copying the entire file to another application."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:335
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>A</keycap></keycombo> </shortcut> <guimenu>Edit</guimenu><guimenuitem>Deselect</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:341
+#, no-c-format
+msgid "Deselects the selected text in the editor if any."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:345
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>B</keycap></keycombo> </shortcut> <guimenu>Edit</guimenu><guimenuitem>Block Selection Mode</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:352
+#, no-c-format
+msgid "Toggles Selection Mode. When the Selection Mode is <guilabel>BLOCK</guilabel>, you can make vertical selections, &eg; select column 5 to 10 in lines 9 to 15. The status bar shows the current state of the Selection Mode, either <guilabel>BLOCK</guilabel> or <guilabel>LINE</guilabel>."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:359
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Meta;&Ctrl;<keycap>V</keycap></keycombo> </shortcut> <guimenu>Edit</guimenu><guimenuitem>VI input Mode</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:366
+#, no-c-format
+msgid "Switch to a vi-like, modal editing mode. This mode supports the most used commands and motions from vim's normal and visual mode and has an optional vi mode statusbar. This status bar shows commands while they are being entered, output from commands and the current mode.The behavior of this mode can be configured in the <link linkend=\"katepart-pref-edit-vi-input-mode\">Vi Input Mode</link> section of the <guilabel>Editing</guilabel> page in &kappname;'s settings dialog."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:375
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ins;</keycombo> </shortcut> <guimenu>Edit</guimenu><guimenuitem>Overwrite Mode</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:382
+#, no-c-format
+msgid "Toggles the Insert/Overwrite modes. When the mode is <guilabel>INS</guilabel>, you insert characters where the cursor is. When the mode is <guilabel>OVR</guilabel>, writing characters will replace the current characters if your cursor is positioned before any character. The status bar shows the current state of the Overwrite Mode, either <guilabel>INS</guilabel> or <guilabel>OVR</guilabel>."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:391
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:396
+#, no-c-format
+msgid "This opens the incremental search bar at the bottom of the editor window. On the left side of the bar is a button with an icon to close the bar, followed by a small text box for entering the search pattern."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:399
+#, no-c-format
+msgid "When you start entering characters of your search pattern, the search starts immediately. If there is a match in the text this is highlighted and the background color of the entry field changes to light green. If the search pattern does not match any string in the text, this is indicated by a light red background color of the entry field and <guilabel>Not found</guilabel> is displayed at the right side of the bar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:404 viewer-editor.docbook:465
+#, no-c-format
+msgid "Use the <guilabel>Next</guilabel> or <guilabel>Previous</guilabel> button to jump to the next or previous match in the document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:406
+#, no-c-format
+msgid "You can choose whether the search should be case sensitive. Selecting <guilabel>Match Case</guilabel> will limit finds to entries that match the case (upper or lower) of each of the characters in the search pattern."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:410
+#, no-c-format
+msgid "Click on the button with a green arrow icon at the right side of the incremental search bar to switch to the power search and replace bar."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:419
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\"><keycap>F3</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find Next</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:423
+#, no-c-format
+msgid "This repeats the last find operation, if any, without calling the incremental search bar."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:431
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Shift;<keycap>F3</keycap></keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Find Previous</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:440
+#, no-c-format
+msgid "This repeats the last find operation, if any, without calling the incremental search bar, and searching backwards instead of forwards through the document."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:449
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Replace...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:454
+#, no-c-format
+msgid "This command opens the power search and replace bar. On the upper left side of the bar is a button with an icon to close the bar, followed by a small text box for entering the search pattern."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:457
+#, no-c-format
+msgid "You can control the search mode by selecting <guilabel>Plain text</guilabel>, <guilabel>Whole words</guilabel>, <guilabel>Escape sequences</guilabel> or <guilabel>Regular expression</guilabel> from the drop down box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:461
+#, no-c-format
+msgid "If <guilabel>Escape sequences</guilabel> or <guilabel>Regular expression</guilabel> are selected, the <guibutton>Add...</guibutton> menuitem at the bottom of the context menu of the text boxes will be enabled and allows you to add escape sequences or regular expression items to the search or replace pattern from predefined lists."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:467
+#, no-c-format
+msgid "Enter the text to replace with in the text box labeled <guilabel>Replace</guilabel> and click the <guibutton>Replace</guibutton> button to replace only the highlighted text or the <guibutton>Replace All</guibutton> button to replace the search text in the whole document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:471
+#, no-c-format
+msgid "You can modify the search and replace behavior by selecting different options at the bottom of the bar. Selecting <guilabel>Match Case</guilabel> will limit finds to entries that match the case (upper or lower) of each of the characters in the search pattern. <guilabel>Selection Only</guilabel> will search and replace within the current selection only. The <guilabel>Find All</guilabel> button highlights all matches in the document and shows the number of found matches in a small popup."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:479
+#, no-c-format
+msgid "Click on the button with a green arrow icon at the right side of the power search and replace bar to switch to the incremental search bar."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:490
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find Selected</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:495
+#, no-c-format
+msgid "Finds next occurrence of selected text."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:501
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>H</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find Selected Backwards</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:506
+#, no-c-format
+msgid "Finds previous occurrence of selected text."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:512
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Go to Line...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:519
+#, no-c-format
+msgid "This opens the goto line bar at the bottom of the window which is used to have the cursor jump to a particular line (specified by number) in the document. The line number may be entered directly into the text box or graphically by clicking on the up or down arrow spin controls at the side of the text box. The little up arrow will increase the line number and the down arrow decrease it. Close the bar with a click on the button with an icon on the left side of the bar."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:534
+#, no-c-format
+msgid "The View Menu"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:536
+#, no-c-format
+msgid "The <guimenu>View</guimenu> menu allows you to manage settings specific to the active editor, and to manage frames."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:544
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>New Window</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:550
+#, no-c-format
+msgid "Create another window containing the current document. All changes to the document in one window are reflected in the other window and vice versa."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:558
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\"><keycap>F7</keycap></keycombo></shortcut> <guimenu>View</guimenu> <guimenuitem>Switch to Command Line</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:566
+#, no-c-format
+msgid "Displays the Katepart command line at the bottom of the window. In the command line, type <userinput>help</userinput> to get help and <userinput>help list</userinput> to get a list of commands."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:573
+#, no-c-format
+msgid "<guimenu>View</guimenu><guimenuitem>Show the Javascript Console</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:576
+#, no-c-format
+msgid "This opens a tool view that allows you to run Javascript code interactively. For more information, see <ulink url=\"help:/katepart/advanced-editing-tools-scripting.html\">Extending &kate; with Scripts</ulink>"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:585
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Schema</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:591
+#, no-c-format
+msgid "Select a font schema."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:598
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\"><keycap>F10</keycap></keycombo></shortcut> <guimenu>View</guimenu> <guimenuitem>Dynamic Word Wrap</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:605
+#, no-c-format
+msgid "The text lines will be wrapped at the view border on the screen."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:613
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Dynamic Word Wrap Indicators</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:619
+#, no-c-format
+msgid "Choose when and how the dynamic word wrap indicators should be displayed. This is only available if the <guilabel>Dynamic Word Wrap</guilabel> option is checked."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:628
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Show Static Word Wrap Marker</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:634 viewer-editor.docbook:1707
+#, no-c-format
+msgid "If this option is checked, a vertical line will be drawn at the word wrap column as defined in the <menuchoice> <guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem></menuchoice> in the Editing tab. Please note that the word wrap marker is only drawn if you use a fixed pitch font."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:646
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\"><keycap>F6</keycap></keycombo></shortcut> <guimenu>View</guimenu> <guimenuitem>Show Icon Border</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:653
+#, no-c-format
+msgid "This is a toggle item. Setting it on checked will make the Icon Border visible in the left side of the active editor, and vice versa. The Icon Border indicates the positions of the marked lines in the editor."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:662
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\"><keycap>F11</keycap></keycombo></shortcut> <guimenu>View</guimenu> <guimenuitem>Show Line Numbers</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:669
+#, no-c-format
+msgid "This is a toggle Item. Setting it on checked will make a pane displaying the line numbers of the document visible in the left border of the active editor, and vice versa."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:678
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Show Scrollbar Marks</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:684
+#, no-c-format
+msgid "If this option is checked, the view will show marks on the vertical scrollbar. The marks are equivalent to the marks on the <link linkend=\"katepart-menu-view-show-icon-border\">Icon Border</link>."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:693
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\"><keycap>F9</keycap></keycombo></shortcut> <guimenu>View</guimenu> <guimenuitem>Show Folding Markers</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:699
+#, no-c-format
+msgid "If this option is checked, the marks for code folding will be shown."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:707
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Code Folding</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:712
+#, no-c-format
+msgid "These options pertain to <ulink url=\"help:/katepart/advanced-editing-tools-code-folding.html\">code folding</ulink>:"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:718
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\"><keycap>F9</keycap></keycombo> </shortcut> <guimenuitem>Show Folding Markers</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:724
+#, no-c-format
+msgid "Toggles the display of the folding marker pane in the left side of the view."
+msgstr ""
+
+#. Tag: guimenuitem
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:730
+#, no-c-format
+msgid "Fold Current Node"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:732
+#, no-c-format
+msgid "Collapse the region that contains the cursor."
+msgstr ""
+
+#. Tag: guimenuitem
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:737
+#, no-c-format
+msgid "Unfold Current Node"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:739
+#, no-c-format
+msgid "Expand the region that contains the cursor."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:743
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>-</keycap></keycombo> </shortcut> <guimenuitem>Fold Toplevel Nodes</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:749
+#, no-c-format
+msgid "Collapse all toplevel regions in the document. Click on the right pointing triangle to expand all toplevel regions."
+msgstr ""
+
+#. Tag: guimenuitem
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:757
+#, no-c-format
+msgid "Enlarge Font"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:759
+#, no-c-format
+msgid "This increases the display font size."
+msgstr ""
+
+#. Tag: guimenuitem
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:763
+#, no-c-format
+msgid "Shrink Font"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:765
+#, no-c-format
+msgid "This decreases the display font size."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:771
+#, no-c-format
+msgid "The Bookmarks Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:776
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> </shortcut> <guimenu>Bookmarks</guimenu> <guimenuitem>Set Bookmark</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:785
+#, no-c-format
+msgid "Sets or removes a bookmark in the current line of the active document. (If it is there, it is removed, otherwise one is set)."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:794
+#, no-c-format
+msgid "<guimenu>Bookmarks</guimenu> <guimenuitem>Clear All Bookmarks</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:800
+#, no-c-format
+msgid "This command will remove all the markers from the document as well as the list of markers which is appended at the bottom of this menu item."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:808
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Alt; &PgUp;</keycombo></shortcut> <guimenu>Bookmarks</guimenu><guimenuitem>Previous</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:812
+#, no-c-format
+msgid "This will move the cursor to beginning of the first above line with a bookmark. The menuitem text will include the line number and the first piece of text on the line. This item is only available when there is a bookmark in a line above the cursor."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:819
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Alt; <keycap>PgDown</keycap></keycombo></shortcut> <guimenu>Bookmarks</guimenu><guimenuitem>Next</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:822
+#, no-c-format
+msgid "This will move the cursor to beginning of the next line with a bookmark. The menuitem text will include the line number and the first piece of text on the line. This item is only available when there is a bookmark in a line below the cursor."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:830
+#, no-c-format
+msgid "At the bottom of this menu, a list of bookmarks appears if any bookmarks are available for this window."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:840
+#, no-c-format
+msgid "The Tools Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:844
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Read Only Mode</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:848
+#, no-c-format
+msgid "Set the current document to Read Only mode. This prevents any text addition and any changes in the document formatting."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:854
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>Mode</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:858
+#, no-c-format
+msgid "Choose the filetype scheme you prefer for the active document. This overwrites the global filetype mode set in <menuchoice> <guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem></menuchoice> in the Filetypes tab for your current document only."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:868
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>Highlighting</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:872
+#, no-c-format
+msgid "Choose the Highlighting scheme you prefer for the active document. This overwrites the global highlighting mode set in <menuchoice> <guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem></menuchoice> for your current document only."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:881
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>Indentation</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:885
+#, no-c-format
+msgid "Choose the style of indentation you want for your active document. This overwrites the global indentation mode set in <menuchoice> <guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem></menuchoice> for your current document only."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:894
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>Encoding</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:898
+#, no-c-format
+msgid "You can overwrite the default encoding set in <menuchoice> <guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem></menuchoice> in the <guilabel>Open/Save</guilabel> page to set a different encoding for your current document. The encoding you set here will be only valid for your current document."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:908
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>End of Line</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:912
+#, no-c-format
+msgid "Choose your preferred end of line mode for your active document. This overwrites the global end of line mode set in <menuchoice> <guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem></menuchoice> for your current document only."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:921
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guisubmenu>Add Byte Mark Order (BOM)</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:925
+#, no-c-format
+msgid "Checking this action you can explicitly add a byte order mark for unicode encoded documents. The byte order mark (BOM) is a Unicode character used to signal the endianness (byte order) of a text file or stream, for more information see <ulink url=\"https://en.wikipedia.org/wiki/Byte_Order_Mark\">Byte Order Mark</ulink>."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:933
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Space;</keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Invoke Code Completion</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:941
+#, no-c-format
+msgid "Manually invoke command completion, usually by using a shortcut bound to this action."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:946
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Word Completion</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:951
+#, no-c-format
+msgid "<guimenuitem>Reuse Word Below</guimenuitem> (<keycombo action=\"simul\">&Ctrl; <keycap>9</keycap></keycombo>) and <guimenuitem>Reuse Word Above</guimenuitem> (<keycombo action=\"simul\">&Ctrl; <keycap>8</keycap></keycombo>) complete the currently typed text by searching for similar words backward or forward from the current cursor position. <guimenuitem>Shell Completion</guimenuitem> pops up a completion box with matching entries."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:961
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>O</keycap></keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Automatic Spell Checking</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:969
+#, no-c-format
+msgid "When <guimenuitem>Automatic Spell Checking</guimenuitem> is enabled, wrong text is underlined in the document on-the-fly."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:975
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Spelling...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:984
+#, no-c-format
+msgid "<action>This initiates the spellchecking program - a program designed to help the user catch and correct any spelling errors.</action> Clicking on this entry will start the checker and bring up the speller dialog box through which the user can control the process. There are four settings lined up vertically in the center of the dialog with their corresponding labels just to the left. Starting at the top they are:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:993
+#, no-c-format
+msgid "Unknown word:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:994
+#, no-c-format
+msgid "Here, the spellchecker indicates the word currently under consideration. This happens when the checker encounters a word not in its dictionary - a file containing a list of correctly spelled words against which it compares each word in the editor."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1000
+#, no-c-format
+msgid "Replace with:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1001
+#, no-c-format
+msgid "If the checker has any similar words in its dictionary the first one will be listed here. The user can accept the suggestion, type in his or her own correction, or choose a different suggestion from the next box."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1007
+#, no-c-format
+msgid "Language:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1008
+#, no-c-format
+msgid "If you have installed multiple dictionaries, here you can select which dictionary/language should be used."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1013
+#, no-c-format
+msgid "On the right side of the dialog box are 6 buttons that allow the user to control the spellcheck process. They are:"
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1018
+#, no-c-format
+msgid "Add to Dictionary"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1019
+#, no-c-format
+msgid "Pressing this button adds the <guilabel>Unknown word </guilabel> to the checker's dictionary. This means that in the future the checker will always consider this word to be correctly spelled."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1025
+#, no-c-format
+msgid "Suggest"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1026
+#, no-c-format
+msgid "The checker may list here a number of possible replacements for the word under consideration. Clicking on any one of the suggestions will cause that word to be entered in the <guilabel>Replace with</guilabel> box, above."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1032
+#, no-c-format
+msgid "Replace"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1033
+#, no-c-format
+msgid "This button has the checker replace the word under consideration in the document with the word in the <guilabel>Replace with</guilabel> box."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1038
+#, no-c-format
+msgid "Replace All"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1039
+#, no-c-format
+msgid "This button causes the checker to replace not only the current <guilabel>Unknown word:</guilabel> but to automatically make the same substitution for any other occurrences of this <guilabel>Unknown word</guilabel> in the document."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1045
+#, no-c-format
+msgid "Ignore"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1046
+#, no-c-format
+msgid "Activating this button will have the checker move on without making any changes."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1050
+#, no-c-format
+msgid "Ignore All"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1051
+#, no-c-format
+msgid "This button tells the checker to do nothing with the current <guilabel>Unknown word:</guilabel> and to pass over any other instances of the same word."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1053
+#, no-c-format
+msgid "This only applies to the current spellcheck run. If the checker is run again later it will stop on this same word."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1059
+#, no-c-format
+msgid "Three more buttons are located horizontally along the bottom of the spellcheck dialog. They are:"
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1064
+#, no-c-format
+msgid "Help"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1065
+#, no-c-format
+msgid "This invokes the &kde; help system with the help page for this dialog."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1070
+#, no-c-format
+msgid "Finished"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1071
+#, no-c-format
+msgid "This button ends the spellcheck process, and returns to the document."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1076
+#, no-c-format
+msgid "Cancel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1077
+#, no-c-format
+msgid "This button cancels the spellcheck process, all modifications are reverted, and you will return to your document."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1087
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Spelling (from cursor)...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1091
+#, no-c-format
+msgid "This initiates the spellchecking program but it starts where your cursor is instead of at the beginning of the document."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1097
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Spellcheck Selection...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1101
+#, no-c-format
+msgid "Spellchecks the current selection."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1106
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Change Dictionary</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1110
+#, no-c-format
+msgid "Displays a drop down box with all available dictionaries for spellchecking at the bottom of the editor window. This allows easy switching of the spellcheck dictionary &eg; for automatic spellcheck of text in different languages."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1117
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Clean Indentation</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1120
+#, no-c-format
+msgid "This cleans the indentation for the current selection or for the line the cursor is currently in. Cleaning the indentation ensures that all your selected text follows the indentation mode you choose."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1127
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Align</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1132
+#, no-c-format
+msgid "Causes a realign of the current line or selected lines using the indentation mode and indentation settings in the document."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1138
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>D</keycap></keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Comment</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1145
+#, no-c-format
+msgid "This adds one space to the beginning of the line where the text cursor is located or to the beginning of any selected lines."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1152
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>D</keycap></keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Uncomment</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1159
+#, no-c-format
+msgid "This removes one space (if any exist) from the beginning of the line where the text cursor is located or from the beginning of any selected lines."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1165
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Uppercase</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1172
+#, no-c-format
+msgid "Put the selected text or the letter after the cursor in uppercase."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1177
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>U</keycap></keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Lowercase</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1184
+#, no-c-format
+msgid "Put the selected text or the letter after the cursor in lowercase."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1189
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>U</keycap></keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Capitalize</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1196
+#, no-c-format
+msgid "Capitalize the selected text or the current word."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1201
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>J</keycap></keycombo> </shortcut> <guimenu>Tools</guimenu> <guimenuitem>Join Lines</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1208
+#, no-c-format
+msgid "Joins the selected lines, or the current line and the line below with one white space character as a separator. Leading/trailing white space on joined lines is removed in the affected ends."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1214
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Apply Word Wrap</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1218
+#, no-c-format
+msgid "Apply static word wrapping on all the document. That means that a new line of text will automatically start when the current line exceeds the length specified by the <guilabel>Wrap words at</guilabel> option in the Editing tab in <menuchoice> <guimenu>Settings</guimenu><guimenuitem>Configure Editor...</guimenuitem></menuchoice>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1227
+#, no-c-format
+msgid "If the <link linkend=\"katepart-pref-plugins\">plugin</link> Insert File is enabled, you will find here an additional menu item <guimenuitem>Insert File...</guimenuitem>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1236
+#, no-c-format
+msgid "The Settings Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1241
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Configure Editor...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1247
+#, no-c-format
+msgid "This menu item opens a dialog whereby several different <link linkend=\"kredit_config\">settings</link> may be adjusted."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1261
+#, no-c-format
+msgid "The KrViewer Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1265
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>G</keycap></keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Generic viewer</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1276
+#, no-c-format
+msgid "&krusader;'s internal viewer is actually part of &konqueror;, which can basically view every file type viewable by &konqueror; (&eg; display pictures, play music, show the content of an archive)."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1285
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift; <keycap>T</keycap></keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Text viewer</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1295
+#, no-c-format
+msgid "View the file in text mode."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1300
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>H</keycap></keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Hex viewer</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1311
+#, no-c-format
+msgid "View the file in hex mode."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1316
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>L</keycap></keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Lister</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1327
+#, no-c-format
+msgid "Fast text/hex viewer for huge filesizes, done by <link linkend=\"konfig-general\">Krusader lister</link>."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1333
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>E</keycap></keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Text editor</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1344
+#, no-c-format
+msgid "Edit the file in text mode."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1349
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\"> &Ctrl;&Shift; <keycap>D</keycap></keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Detach Tab</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1360
+#, no-c-format
+msgid "Detach browsing Tab and open in a new window."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1366
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\"> &Ctrl; <keycap>Q</keycap></keycombo> </shortcut> <guimenu>KrViewer</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1377
+#, no-c-format
+msgid "Closes &krusader;'s viewer/editor window."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1387
+#, no-c-format
+msgid "The Editor Component Configuration"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1388
+#, no-c-format
+msgid "This group contains all pages related to the editor component of &kappname;. Most of the settings here are defaults, they can be overridden by <link linkend=\"katepart-pref-open-save-modes-filetypes\">defining a filetype</link>, by <ulink url=\"help:/katepart/config-variables.html\">Document Variables</ulink> or by changing them per document during an editing session."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1394
+#, no-c-format
+msgid "Appearance"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1397 viewer-editor.docbook:1685
+#: viewer-editor.docbook:2079
+#, no-c-format
+msgid "<title>General</title>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1401
+#, no-c-format
+msgid "Dynamic Word Wrap"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1403
+#, no-c-format
+msgid "If this option is checked, the text lines will be wrapped at the view border on the screen."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1407
+#, no-c-format
+msgid "Dynamic word wrap indicators (if applicable)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1408
+#, no-c-format
+msgid "Choose when the Dynamic word wrap indicators should be displayed, either <guilabel>Off</guilabel>, <guilabel>Follow Line Numbers</guilabel> or <guilabel>Always on</guilabel>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1413
+#, no-c-format
+msgid "Align dynamically wrapped lines to indentation depth:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1416
+#, no-c-format
+msgid "Enables the start of dynamically wrapped lines to be aligned vertically to the indentation level of the first line. This can help to make code and markup more readable."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1419
+#, no-c-format
+msgid "Additionally, this allows you to set a maximum width of the screen, as a percentage, after which dynamically wrapped lines will no longer be vertically aligned. For example, at 50%, lines whose indentation levels are deeper than 50% of the width of the screen will not have vertical alignment applied to subsequent wrapped lines."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1431
+#, no-c-format
+msgid "Whitespace Highlighting"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1435
+#, no-c-format
+msgid "Highlight tabulators"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1436
+#, no-c-format
+msgid "The editor will display a &raquo; symbol to indicate the presence of a tab in the text."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1440
+#, no-c-format
+msgid "Highlight trailing spaces"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1441
+#, no-c-format
+msgid "The editor will display dots to indicate the presence of extra whitespace at the end of lines."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1449
+#, no-c-format
+msgid "<guilabel>Advanced</guilabel>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1454
+#, no-c-format
+msgid "Show indentation lines"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1456
+#, no-c-format
+msgid "If this is checked, the editor will display vertical lines to help identifying indent lines."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1460
+#, no-c-format
+msgid "Highlight range between selected brackets"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1462
+#, no-c-format
+msgid "If this is enabled, the range between the selected matching brackets will be highlighted."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1472
+#, no-c-format
+msgid "<title>Borders</title>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1476
+#, no-c-format
+msgid "<guilabel>Borders</guilabel>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1480
+#, no-c-format
+msgid "Show folding markers (if available)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1482
+#, no-c-format
+msgid "If this option is checked, the current view will display marks for code folding, if code folding is available."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1486
+#, no-c-format
+msgid "Show icon border"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1488
+#, no-c-format
+msgid "If this is checked, you will see an icon border on the left hand side. The icon border shows bookmark signs for instance."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1492
+#, no-c-format
+msgid "Show line numbers"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1494
+#, no-c-format
+msgid "If this is checked, you will see line numbers on the left hand side."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1498
+#, no-c-format
+msgid "Show scrollbar marks"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1500
+#, no-c-format
+msgid "If this option is checked the current view will show marks on the vertical scrollbar. These marks will for instance show bookmarks."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1509
+#, no-c-format
+msgid "Sort Bookmarks Menu"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1514
+#, no-c-format
+msgid "By creation"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1516
+#, no-c-format
+msgid "Each new bookmark will be added to the bottom, independently from where it is placed in the document."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1520
+#, no-c-format
+msgid "By position"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1522
+#, no-c-format
+msgid "The bookmarks will be ordered by the line numbers they are placed at."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1534
+#, no-c-format
+msgid "Fonts &amp; Colors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1536
+#, no-c-format
+msgid "This section of the dialog lets you configure all fonts and colors in any color scheme you have, as well creating new schemes or deleting existing ones. Each scheme has settings for colors, fonts and normal and highlight text styles."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1542
+#, no-c-format
+msgid "&kappname; will preselect the currently active scheme for you, if you want to work on a different scheme start by selecting that from the <guilabel>Schema</guilabel> combobox. With the <guibutton>New</guibutton> and <guibutton>Delete</guibutton> button you can create a new scheme or delete existing ones."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1546
+#, no-c-format
+msgid "At the bottom of the page you can select the <guilabel>Default schema for &kappname;</guilabel>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1549
+#, no-c-format
+msgid "Colors"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1553
+#, no-c-format
+msgid "Text Area Background"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1559
+#, no-c-format
+msgid "Normal text"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1560
+#, no-c-format
+msgid "This is the default background for the editor area, it will be the dominant color on the editor area."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1565
+#, no-c-format
+msgid "Selected text"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1566
+#, no-c-format
+msgid "This is the background for selected text. The default is the global selection color, as set in your &plasma; color preferences."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1572
+#, no-c-format
+msgid "Current line"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1573
+#, no-c-format
+msgid "Set the color for the current line. Setting this a bit different from the Normal text background helps to keep focus on the current line."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1579
+#, no-c-format
+msgid "Bookmark"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1580
+#, no-c-format
+msgid "This combobox lets you set overlay colors for various mark types. The color is mixed into the background color of a marked line, so that a line with more marks or a marked line that is current has a background that is a mix of more colors. The mark colors are also used if you enable display of scrollbar marks."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1592
+#, no-c-format
+msgid "Additional Elements"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1596
+#, no-c-format
+msgid "Left border background"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1597
+#, no-c-format
+msgid "This color is used for the marks, line numbers and folding marker borders in the left side of the editor view when they are displayed."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1602
+#, no-c-format
+msgid "Line numbers"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1603
+#, no-c-format
+msgid "This color is used to draw the line numbers on the left side of the view when displayed."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1607
+#, no-c-format
+msgid "Bracket highlight"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1608
+#, no-c-format
+msgid "This color is used to draw the background of matching brackets."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1612
+#, no-c-format
+msgid "Word wrap markers"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1613
+#, no-c-format
+msgid "This color is used to draw a pattern to the left of dynamically wrapped lines when those are aligned vertically, as well as for the static word wrap marker."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1618
+#, no-c-format
+msgid "Tab and space markers"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1619
+#, no-c-format
+msgid "This color is used to draw white space indicators when enabled."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1623
+#, no-c-format
+msgid "Spelling mistake line"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1624
+#, no-c-format
+msgid "sets the color of the line that is used to indicate spelling mistakes."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1635
+#, no-c-format
+msgid "Fonts"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1636
+#, no-c-format
+msgid "Here you can choose the font for the schema. You can choose from any font available on your system, and set a default size. A sample text displays at the bottom of the dialog, so you can see the effect of your choices."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1644
+#, no-c-format
+msgid "Normal Text Styles"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1645
+#, no-c-format
+msgid "The normal text styles are inherited by the highlight text styles, allowing the editor to present text in a very consistent way, for example comment text is using the same style in almost all of the text formats that &kappname; can highlight."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1649 viewer-editor.docbook:1664
+#, no-c-format
+msgid "The name in the list of styles is using the style configured for the item, providing you with an immediate preview when configuring a style."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1652
+#, no-c-format
+msgid "Each style lets you select common attributes as well as foreground and background colors. To unset a background color, rightclick to use the context menu."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1658
+#, no-c-format
+msgid "Highlighting Text Styles"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1659
+#, no-c-format
+msgid "Here you can edit the text styles used by a specific highlight definition. The editor preselects the highlight used by your current document. To work on a different highlight, select one in the <guilabel>Highlight</guilabel> combobox above the style list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1667
+#, no-c-format
+msgid "Each style lets you select common attributes as well as foreground and background colors. To unset a background color, rightclick to use the context menu. In addition you can see if a style is equal to the default style used for the item, and set it to that if not."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1671
+#, no-c-format
+msgid "You will notice that many highlights contain other highlights represented by groups in the style list. For example most highlights import the Alert highlight, and many source code formats imports the Doxygen highlight. Editing colors in those groups only affects the styles when used in the edited highlight format."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1682
+#, no-c-format
+msgid "Editing"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1689
+#, no-c-format
+msgid "Static Word Wrap"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1690
+#, no-c-format
+msgid "Word wrap is a feature that causes the editor to automatically start a new line of text and move (wrap) the cursor to the beginning of that new line. &kappname; will automatically start a new line of text when the current line reaches the length specified by the <link linkend=\"katepart-pref-wrap-words-at\">Wrap Words At:</link> option."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1698
+#, no-c-format
+msgid "Enable static word wrap"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1700
+#, no-c-format
+msgid "Turns static word wrap on or off."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1704
+#, no-c-format
+msgid "Show static word wrap markers (if applicable)"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1715
+#, no-c-format
+msgid "Wrap words at:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1717
+#, no-c-format
+msgid "If the <link linkend=\"katepart-pref-word-wrap\">Enable static word wrap</link> option is selected this entry determines the length (in characters) at which the editor will automatically start a new line."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1727
+#, no-c-format
+msgid "Misc"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1731
+#, no-c-format
+msgid "Remove trailing spaces while editing"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1732
+#, no-c-format
+msgid "&kappname; will automatically eliminate extra spaces at the ends of lines of text."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1736
+#, no-c-format
+msgid "Auto brackets"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1736
+#, no-c-format
+msgid "When the user types a left bracket ([, (, or {) &kappname; automatically enters the right bracket (}, ), or ]) to the right of the cursor."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1742
+#, no-c-format
+msgid "Copy/Cut the current line if no selection"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1743
+#, no-c-format
+msgid "If this option is enabled and the text selection is empty, copy and cut action are performed for the line of text at the actual cursor position."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1748
+#, no-c-format
+msgid "Allow scrolling past the end of the document"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1749
+#, no-c-format
+msgid "This option lets you scroll past the end of the document. This can be used to vertically centre the bottom of the document, or put it on top of the current view."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1760
+#, no-c-format
+msgid "Cursor &amp; Selection"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1765
+#, no-c-format
+msgid "Text Cursor Movement"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1769
+#, no-c-format
+msgid "Smart home and smart end"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1771
+#, no-c-format
+msgid "When selected, pressing the home key will cause the cursor to skip white space and go to the start of a line's text."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1776
+#, no-c-format
+msgid "Wrap cursor"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1778
+#, no-c-format
+msgid "When on, moving the insertion cursor using the &Left; and &Right; keys will go on to previous/next line at beginning/end of the line, similar to most editors."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1780
+#, no-c-format
+msgid "When off, the insertion cursor cannot be moved left of the line start, but it can be moved off the line end, which can be very handy for programmers. When this option is chosen, moving the cursor with the arrow keys off the end of a line (to the right) causes it to jump down to the beginning of the next line. Likewise when the cursor is moved past the beginning of a line (to the left) it jumps up to the end of the preceding line. When this option is not selected, moving the cursor right past the end of a line merely causes it to continue horizontally in the same line and trying to move it left past the beginning does nothing."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1792
+#, no-c-format
+msgid "PageUp/PageDown moves cursor"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1794
+#, no-c-format
+msgid "This option changes the behavior of the cursor when the user presses the &PgUp; or &PgDn; key. If unselected the text cursor will maintain its relative position within the visible text in &kappname; as new text becomes visible as a result of the operation. So if the cursor is in the middle of the visible text when the operation occurs it will remain there (except when one reaches the beginning or end.) With this option selected, the first key press will cause the cursor to move to either the top or bottom of the visible text as a new page of text is displayed."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1805
+#, no-c-format
+msgid "Autocenter cursor (lines):"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1807
+#, no-c-format
+msgid "Sets the number of lines to maintain visible above and below the cursor when possible."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1816
+#, no-c-format
+msgid "Text Selection Mode"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1820
+#, no-c-format
+msgid "Normal"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1822
+#, no-c-format
+msgid "Selections will be overwritten by typed text and will be lost on cursor movement."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1827
+#, no-c-format
+msgid "Persistent"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1829
+#, no-c-format
+msgid "Selections will stay even after cursor movement and typing."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1840
+#, no-c-format
+msgid "Indentation"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1845
+#, no-c-format
+msgid "Default Indentation mode:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1847
+#, no-c-format
+msgid "Select the automatic indentation mode you want to use as default. It is strongly recommended to use <userinput>None</userinput> or <userinput>Normal</userinput> here, and use filetype configurations to set other indentation modes for text formats like C/C++ code or &XML;."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1855
+#, no-c-format
+msgid "Indent using"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1859
+#, no-c-format
+msgid "Tabulators"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1861
+#, no-c-format
+msgid "When this is enabled the editor will insert tabulator characters when you press the &Tab; key or use <ulink url=\"help:/katepart/kate-part-autoindent.html\">automatic indentation</ulink>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1867
+#, no-c-format
+msgid "Spaces"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1869
+#, no-c-format
+msgid "When this is enabled the editor will insert a calculated number of spaces according to the position in the text and the <option>tab-width</option> setting when you press the &Tab; key or use <ulink url=\"help:/katepart/kate-part-autoindent.html\">automatic indentation</ulink>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1876
+#, no-c-format
+msgid "Tabulators and Spaces"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1878
+#, no-c-format
+msgid "When this is enabled, the editor will insert spaces as describe above when indenting or pressing &Tab; at the beginning of a line, but insert tabulators when the &Tab; key is pressed in the middle or end of a line."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1884
+#, no-c-format
+msgid "Tab width:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1886
+#, no-c-format
+msgid "This configures the number of spaces that are displayed in place of a tabulator character."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1891
+#, no-c-format
+msgid "Indentation width:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1893
+#, no-c-format
+msgid "The indentation width is the number of spaces which is used to indent a line. If configured to indent using tabulators, a tabulator character is inserted if the indentation is divisible by the tab width."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1903
+#, no-c-format
+msgid "Indentation Properties"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1907
+#, no-c-format
+msgid "Keep Extra Spaces"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1908
+#, no-c-format
+msgid "If this option is disabled, changing the indentation level aligns a line to a multiple of the width specified in <guilabel>Indentation width</guilabel>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1913
+#, no-c-format
+msgid "Adjust indentation of code pasted from the clipboard"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1915
+#, no-c-format
+msgid "If this option is selected, pasted code from the clipboard is indented. Triggering the <guimenuitem>Undo</guimenuitem> action removes the indentation."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1924
+#, no-c-format
+msgid "Indentation Actions"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1928
+#, no-c-format
+msgid "Backspace key in leading blank space unindents"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1930
+#, no-c-format
+msgid "If this option is selected, the &Backspace; key decreases the indentation level if the cursor is located in the leading blank space of a line."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1935
+#, no-c-format
+msgid "Tab key action (if no selection exists)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1937
+#, no-c-format
+msgid "If you want &Tab; to align the current line in the current code block like in emacs, make &Tab; a shortcut to the action <guimenuitem>Align</guimenuitem>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1943
+#, no-c-format
+msgid "Always advance to the next tab position"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1945
+#, no-c-format
+msgid "If this option is selected, the &Tab; key always inserts white space so that the next tab position is reached. If the option <guilabel>Insert spaces instead of tabulators</guilabel> on the <guilabel>General</guilabel> tab in the <guilabel>Editing</guilabel> page is enabled, spaces are inserted; otherwise, a single tabulator is inserted."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1952
+#, no-c-format
+msgid "Always increase indentation level"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1954
+#, no-c-format
+msgid "If this option is selected, the &Tab; key always indents the current line by the number of character positions specified in <guilabel>Indentation width</guilabel>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1960
+#, no-c-format
+msgid "Increase indentation level if in leading blank space"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1962
+#, no-c-format
+msgid "If this option is selected, the &Tab; key either indents the current line or advances to the next tab position. If the insertion point is at or before the first non-space character in the line, or if there is a selection, the current line is indented by the number of character positions specified in <guilabel>Indentation width</guilabel>. If the insertion point is located after the first non-space character in the line and there is no selection, white space is inserted so that the next tab position is reached: if the option <guilabel>Insert spaces instead of tabulators</guilabel> on the <guilabel>General</guilabel> tab in the <guilabel>Editing</guilabel> page is enabled, spaces are inserted; otherwise, a single tabulator is inserted."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1986
+#, no-c-format
+msgid "Auto Completion"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1989 viewer-editor.docbook:2020
+#, no-c-format
+msgid "<guilabel>General</guilabel>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1993
+#, no-c-format
+msgid "Enable auto completion"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:1995
+#, no-c-format
+msgid "If enabled, a word completion box automatically pops up during typing showing a list of text entries to complete the current text under the cursor."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2005
+#, no-c-format
+msgid "Minimal word length to complete"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2006
+#, no-c-format
+msgid "While typing text, the word completion searches for words in the document starting with the already typed text. This option configures the minimal amount of characters that are needed to make the word completion active and pop up a completion box."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2017
+#, no-c-format
+msgid "Vi Input Mode"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2024
+#, no-c-format
+msgid "Use VI input mode"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2026
+#, no-c-format
+msgid "When selected, the vi input mode will be enabled when opening a new view. You can still toggle the vi input mode on/off for a particular view in the <guimenu>Edit</guimenu> menu."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2032
+#, no-c-format
+msgid "Let Vi commands override Kate shortcuts"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2034
+#, no-c-format
+msgid "When selected, Vi commands will override &kappname;'s built-in commands. For example: <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> will redo, and override the standard action (showing the search and replace dialog)."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2040
+#, no-c-format
+msgid "Hide the Vi mode status bar"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2042
+#, no-c-format
+msgid "By default, an extra status bar will be used when the Vi input mode is enabled. This status bar shows commands while they are being typed and messages/errors produced by Vi commands."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2045
+#, no-c-format
+msgid "Checking this option will hide this extra status line."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2052
+#, no-c-format
+msgid "Key Mapping"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2053
+#, no-c-format
+msgid "Key mapping is used to change the meaning of typed keys. This allows you to move commands to other keys or make special keypresses for doing a series of commands."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2057
+#, no-c-format
+msgid "Example:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2058
+#, no-c-format
+msgid "<keycap>F2</keycap> -> <keycap>I--</keycap> &Esc;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2059
+#, no-c-format
+msgid "This will prepend <keycap>I--</keycap> to a line when pressing <keycap>F2</keycap>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2068
+#, no-c-format
+msgid "Spellcheck"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2069
+#, no-c-format
+msgid "These configuration options are described in the documentation for the &systemsettings; module <ulink url=\"help:/kcontrol/spellchecking\">Spell Checker</ulink>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2076
+#, no-c-format
+msgid "Open/Save"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2084
+#, no-c-format
+msgid "File Format"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2089
+#, no-c-format
+msgid "Encoding:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2091
+#, no-c-format
+msgid "This defines the standard encoding to use to open/save files, if not changed in the open/save dialog or by using a command line option."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2097
+#, no-c-format
+msgid "Encoding Detection"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2099
+#, no-c-format
+msgid "Select an item from the drop down box, either to disable autodetection or use <guilabel>Universal</guilabel> to enable autodetection for all encodings. But as this may probably only detect utf-8/utf-16, selecting a region will use custom heuristics for better results. If neither the encoding chosen as standard above, nor the encoding specified in the open/save dialog, nor the encoding specified on command line match the content of the file, this detection will be run."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2110
+#, no-c-format
+msgid "Fallback Encoding"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2112
+#, no-c-format
+msgid "This defines the fallback encoding to try for opening files if neither the encoding chosen as standard above, nor the encoding specified in the open/ save dialog, nor the encoding specified on command line match the content of the file. Before this is used, an attempt will be made to determine the encoding to use by looking for a byte order marker at start of file: if one is found, the right unicode encoding will be chosen; otherwise encoding detection will run, if both fail fallback encoding will be tried."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2123
+#, no-c-format
+msgid "End of line:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2125
+#, no-c-format
+msgid "Choose your preferred end of line mode for your active document. You have the choice between &UNIX;, DOS/&Windows; or Macintosh."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2130
+#, no-c-format
+msgid "Automatic end of line detection"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2132
+#, no-c-format
+msgid "Check this if you want the editor to autodetect the end of line type. The first found end of line type will be used for the whole file."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2138
+#, no-c-format
+msgid "Enable byte order marker"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2140
+#, no-c-format
+msgid "The byte order mark is a special sequence at the beginning of unicode encoded documents. It helps editors to open text documents with the correct unicode encoding. For more information see <ulink url=\"https://en.wikipedia.org/wiki/Byte_Order_Mark\">Byte Order Mark</ulink>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2154
+#, no-c-format
+msgid "Automatic Cleanups on Load/Save"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2158
+#, no-c-format
+msgid "Remove trailing spaces"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2160
+#, no-c-format
+msgid "The editor will automatically eliminate extra spaces at the ends of lines of text while loading/saving the file."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2172
+#, no-c-format
+msgid "<title>Advanced</title>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2175
+#, no-c-format
+msgid "Folder Config File"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2179
+#, no-c-format
+msgid "Search depth for config file:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2181
+#, no-c-format
+msgid "The editor will search the given number of folder levels upwards for &kappname; config file and load the settings line from it. Further information about these hidden folder config files you find in the <ulink url=\"help:/katepart/config-variables.html\">document variables section</ulink>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2193
+#, no-c-format
+msgid "Backup on Save"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2194
+#, no-c-format
+msgid "Backing up on save will cause &kappname; to copy the disk file to &lt;prefix&gt;&lt;filename&gt;&lt;suffix&gt; before saving changes. The suffix defaults to <emphasis role=\"bold\">~</emphasis> and prefix is empty by default."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2200
+#, no-c-format
+msgid "Local files"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2202
+#, no-c-format
+msgid "Check this if you want backups of local files when saving."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2207
+#, no-c-format
+msgid "Remote files"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2209
+#, no-c-format
+msgid "Check this if you want backups of remote files when saving."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2213
+#, no-c-format
+msgid "Prefix"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2215
+#, no-c-format
+msgid "Enter the prefix to prepend to the backup file names."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2219
+#, no-c-format
+msgid "Suffix"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2221
+#, no-c-format
+msgid "Enter the suffix to add to the backup file names."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2225
+#, no-c-format
+msgid "Disable swap file syncing"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2227
+#, no-c-format
+msgid "&kappname; is able to recover (most of) what was written after last save in case of a crash or power failure. A swap file (.swp.&lt;filename&gt;) is created after the first editing action on a document. If the user doesn’t save the changes and &kappname; crashes, the swap file remains on the disk. When opening a file, &kappname; checks if there is a swap file for the document and if it is, it asks the user whether he wants to recover the lost data or not. The user has the possibility to view the differences between the original file and the recovered one, too. The swap file is deleted after every save and on normal exit."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2235
+#, no-c-format
+msgid "&kappname; syncs the swap files on the disk every 15 seconds, but only if they have changed since the last sync. The user can disable the swap files syncing if he wants, by checking the <guilabel>Disable swap file syncing</guilabel> box, but this can lead to more data loss."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2250
+#, no-c-format
+msgid "Modes &amp; Filetypes"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2251
+#, no-c-format
+msgid "This page allows you to override the default configuration for documents of specified &MIME; types. When the editor loads a document, it will try if it matches the file masks or &MIME; types for one of the defined filetypes, and if so apply the variables defined. If more filetypes match, the one with the highest priority will be used."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2259
+#, no-c-format
+msgid "Filetype:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2260 viewer-editor.docbook:2280
+#, no-c-format
+msgid "The filetype with the highest priority is the one displayed in the first drop down box. If more filetypes were found, they are also listed."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2265
+#, no-c-format
+msgid "<guilabel>New</guilabel>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2266
+#, no-c-format
+msgid "This is used to create a new filetype. After you click on this button, the fields below get empty and you can fill the properties you want for the new filetype."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2271
+#, no-c-format
+msgid "Delete"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2272
+#, no-c-format
+msgid "To remove an existing filetype, select it from the drop down box and press the Delete button."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2279
+#, no-c-format
+msgid "Properties of <replaceable>current filetype</replaceable>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2285
+#, no-c-format
+msgid "Name:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2286
+#, no-c-format
+msgid "The name of the filetype will be the text of the corresponding menu item. This name is displayed in the <menuchoice><guimenu>Tools</guimenu><guimenuitem>Filetypes</guimenuitem> </menuchoice>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2292
+#, no-c-format
+msgid "Section:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2293
+#, no-c-format
+msgid "The section name is used to organize the file types in menus. This is also used in the <menuchoice><guimenu>Tools</guimenu><guimenuitem>Filetypes</guimenuitem> </menuchoice> menu."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2299
+#, no-c-format
+msgid "Variables:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2300
+#, no-c-format
+msgid "This string allows you to configure &kappname;'s settings for the files selected by this &MIME; type using &kappname; variables. You can set almost any configuration option, such as highlight, indent-mode, &etc;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2304
+#, no-c-format
+msgid "Press <guibutton>Edit</guibutton> to see a list of all available variables and their descriptions. Select the checkbox on the left to enable a particular variable and then set the value of the variable on the right. Some variables provide a drop-down box to select possible values from while others require you to enter a valid value manually."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2309
+#, no-c-format
+msgid "For complete information on these variables, see <ulink url=\"help:/katepart/config-variables.html\">Configuring with Document Variables</ulink>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2315
+#, no-c-format
+msgid "Highlighting:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2316
+#, no-c-format
+msgid "If you create a new file type, this drop down box allows you to select a filetype for highlighting."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2321
+#, no-c-format
+msgid "Indentation Mode:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2322
+#, no-c-format
+msgid "The drop down box specifies the indentation mode for new documents."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2327
+#, no-c-format
+msgid "File extensions:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2328
+#, no-c-format
+msgid "The wildcards mask allows you to select files by filename. A typical mask uses an asterisk and the file extension, for example <filename>*.txt; *.text</filename>. The string is a semicolon-separated list of masks."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2334
+#, no-c-format
+msgid "&MIME; types:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2335
+#, no-c-format
+msgid "Displays a wizard that helps you easily select &MIME; types."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2339
+#, no-c-format
+msgid "Priority:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2340
+#, no-c-format
+msgid "Sets a priority for this file type. If more than one file type selects the same file, the one with the highest priority will be used."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2347
+#, no-c-format
+msgid "Download Highlighting Files..."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2349
+#, no-c-format
+msgid "Click this button to download new or updated syntax highlight descriptions from the &kappname; website."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2362
+#, no-c-format
+msgid "Extensions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2363
+#, no-c-format
+msgid "The <guilabel>Plugins</guilabel> tab lists all available plugins and you can check those you want to use. Click on the <guibutton>Information</guibutton> button to open the <guilabel>About</guilabel> dialog of this plugin."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2366
+#, no-c-format
+msgid "Once a configurable plugin is checked, the <guibutton>Configure</guibutton> button is enabled and you can click it in order to configure the highlighted plugin."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2370
+#, no-c-format
+msgid "Editor Component Plugins"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2379
+#, no-c-format
+msgid "AutoBrace"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2380
+#, no-c-format
+msgid "The autobrace plugin supersedes the &kappname; internal <quote>Auto Brackets</quote> feature. It automatically inserts a closing brace <keycap>}</keycap> at the beginning of the next line after ending a line with an opening one <keycap>{</keycap> and pressing the &Enter; key."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2392
+#, no-c-format
+msgid "Data Tools"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2393
+#, no-c-format
+msgid "Enables data tools like thesaurus and spell check (if installed). Data tools are only available when text is selected, or when the &RMB; is clicked over a word. If no data tools are offered even when text is selected, you need to install them. If this plugin is enabled and data tools are installed, additional items appear at the end of the context menu."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2401
+#, no-c-format
+msgid "Exporter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2402
+#, no-c-format
+msgid "This command allows you to export the current document with all highlighting information into a &HTML; document using <menuchoice><guimenu>File</guimenu><guimenuitem>Export as &HTML;</guimenuitem></menuchoice>. Additionally you can use <menuchoice><guimenu>Edit</guimenu> <guimenuitem>Copy as &HTML;</guimenuitem></menuchoice> to copy the currently selected text as &HTML; to the system clipboard."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2415
+#, no-c-format
+msgid "IconInserter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2416
+#, no-c-format
+msgid "The icon inserter plugin is only of use for &kde; developers: It adds an item <guimenuitem>Insert KIcon-Code</guimenuitem> into the context menu of the editor. If activated, the &plasma;'s icon chooser opens (showing application icons, action icons &etc;..). If you click on it, the file name without file extension will be inserted as text. Useful only for setting icons via &kde-frameworks; through the KIcon() class."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2424
+#, no-c-format
+msgid "Insane (not ZEN) &HTML; coding (light edition)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2425
+#, no-c-format
+msgid "A plugin, which does zen-coding like selector completion. For more information see <ulink url=\"https://en.wikipedia.org/wiki/Zen_Coding\"> Zen Coding</ulink>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2430
+#, no-c-format
+msgid "Insert File"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: viewer-editor.docbook:2431
+#, no-c-format
+msgid "This plugin allows you to insert any readable file at the cursor position. If enabled, the <guimenu>Tools</guimenu> menu has an additional menu item <guimenuitem>Insert File</guimenuitem>."
+msgstr ""

@@ -1,0 +1,1459 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:9
+#, no-c-format
+msgid "The &kshisen; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:13
+#, no-c-format
+msgid "<firstname>Dirk</firstname> <surname>Doerflinger</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:16
+#, no-c-format
+msgid "&Dirk.Doerflinger.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:18
+#, no-c-format
+msgid "<firstname>Eugene</firstname><surname>Trounev</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: index.docbook:20
+#, no-c-format
+msgid "eugene.trounev@gmail.com"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:22
+#, no-c-format
+msgid "<firstname>Frederik</firstname> <surname>Schwarzer</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:25
+#, no-c-format
+msgid "&Frederik.Schwarzer.mail;"
+msgstr ""
+
+#. Tag: othercredit
+#. +> trunk6 stable6
+#: index.docbook:27
+#, no-c-format
+msgid "<firstname>Frerich</firstname><surname>Raabe</surname>"
+msgstr ""
+
+#. Tag: contrib
+#. +> trunk6 stable6
+#: index.docbook:29
+#, no-c-format
+msgid "Reviewer"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:30
+#, no-c-format
+msgid "&Frerich.Raabe.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:32
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:35
+#, no-c-format
+msgid "2021-06-15"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:36
+#, no-c-format
+msgid "1.10 (KDE Gear 21.08)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:40
+#, no-c-format
+msgid "This documentation describes the game of &kshisen; version 1.10"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:45
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:46
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:47
+#, no-c-format
+msgid "game"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:48
+#, no-c-format
+msgid "kshisen"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:50
+#, no-c-format
+msgid "arcade"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:51
+#, no-c-format
+msgid "board"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:52
+#, no-c-format
+msgid "mahjong"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:53
+#, no-c-format
+msgid "tiles"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:55
+#, no-c-format
+msgid "one player"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:59
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:60
+#, no-c-format
+msgid "Gametype:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:60
+#, no-c-format
+msgid "Arcade, Board"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:61
+#, no-c-format
+msgid "Number of possible players:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:61
+#, no-c-format
+msgid "<para>One</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:64
+#, no-c-format
+msgid "&kshisen; is a solitaire-like game played using the standard set of Mahjong tiles. Unlike Mahjong however, &kshisen; has only one layer of scrambled tiles. You can remove matching pieces if they can be connected with a line with at most two bends in it. At the same time, the line must not cross any other tiles. To win a game of &kshisen; the player has to remove all the tiles from the game board."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:74
+#, no-c-format
+msgid "How to Play"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:81
+#, no-c-format
+msgid "&kshisen; gameboard"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:86
+#, no-c-format
+msgid "Objective:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:86
+#, no-c-format
+msgid "Remove all the tiles from the game board within the shortest time possible."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:88
+#, no-c-format
+msgid "&kshisen; will load a default layout automatically once you start the game and you can start playing right away."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:91
+#, no-c-format
+msgid "You should carefully study the tiles lied out on the game board and find two tiles matching exactly. When you have found such a pair use your mouse to select them."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:94
+#, no-c-format
+msgid "Once you select a matching pair of tiles they will vanish from the game board. However, even if the tiles you select appear as open they will only be removed from the board if they can be connected with a line having at most two bends and not crossing any other tiles. Furthermore the line can only be drawn horizontally and vertically."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:98
+#, no-c-format
+msgid "Find as many matches as possible to remove all the tiles from the game board."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:103
+#, no-c-format
+msgid "Game Rules, Strategies and Tips"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:105
+#, no-c-format
+msgid "Rules"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:106
+#, no-c-format
+msgid "Standard Mahjong set of tiles includes:"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:111
+#, no-c-format
+msgid "Group name"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:111
+#, no-c-format
+msgid "Tile name"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:111
+#, no-c-format
+msgid "Quantity in a set"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:112
+#, no-c-format
+msgid "Dots"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:113
+#, no-c-format
+msgid "1 of Dots"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:113 index.docbook:114 index.docbook:115 index.docbook:116
+#: index.docbook:117 index.docbook:118 index.docbook:119 index.docbook:120
+#: index.docbook:121 index.docbook:123 index.docbook:124 index.docbook:125
+#: index.docbook:126 index.docbook:127 index.docbook:128 index.docbook:129
+#: index.docbook:130 index.docbook:131 index.docbook:133 index.docbook:134
+#: index.docbook:135 index.docbook:136 index.docbook:137 index.docbook:138
+#: index.docbook:139 index.docbook:140 index.docbook:141 index.docbook:143
+#: index.docbook:144 index.docbook:145 index.docbook:146 index.docbook:148
+#: index.docbook:149 index.docbook:150
+#, no-c-format
+msgid "<entry>2</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:114
+#, no-c-format
+msgid "2 of Dots"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:115
+#, no-c-format
+msgid "3 of Dots"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:116
+#, no-c-format
+msgid "4 of Dots"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:117
+#, no-c-format
+msgid "5 of Dots"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:118
+#, no-c-format
+msgid "6 of Dots"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:119
+#, no-c-format
+msgid "7 of Dots"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:120
+#, no-c-format
+msgid "8 of Dots"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:121
+#, no-c-format
+msgid "9 of Dots"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:122
+#, no-c-format
+msgid "Bamboos"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:123
+#, no-c-format
+msgid "1 of Bamboos"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:124
+#, no-c-format
+msgid "2 of Bamboos"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:125
+#, no-c-format
+msgid "3 of Bamboos"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:126
+#, no-c-format
+msgid "4 of Bamboos"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:127
+#, no-c-format
+msgid "5 of Bamboos"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:128
+#, no-c-format
+msgid "6 of Bamboos"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:129
+#, no-c-format
+msgid "7 of Bamboos"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:130
+#, no-c-format
+msgid "8 of Bamboos"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:131
+#, no-c-format
+msgid "9 of Bamboos"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:132
+#, no-c-format
+msgid "Characters"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:133
+#, no-c-format
+msgid "1 of Characters"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:134
+#, no-c-format
+msgid "2 of Characters"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:135
+#, no-c-format
+msgid "3 of Characters"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:136
+#, no-c-format
+msgid "4 of Characters"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:137
+#, no-c-format
+msgid "5 of Characters"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:138
+#, no-c-format
+msgid "6 of Characters"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:139
+#, no-c-format
+msgid "7 of Characters"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:140
+#, no-c-format
+msgid "8 of Characters"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:141
+#, no-c-format
+msgid "9 of Characters"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:142
+#, no-c-format
+msgid "Winds"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:143
+#, no-c-format
+msgid "East Wind"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:144
+#, no-c-format
+msgid "South Wind"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:145
+#, no-c-format
+msgid "West Wind"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:146
+#, no-c-format
+msgid "North Wind"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:147
+#, no-c-format
+msgid "Dragons"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:148
+#, no-c-format
+msgid "Red Dragon"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:149
+#, no-c-format
+msgid "Green Dragon"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:150
+#, no-c-format
+msgid "White Dragon"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:151
+#, no-c-format
+msgid "Flowers"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:152
+#, no-c-format
+msgid "Plum (1)"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:152 index.docbook:153 index.docbook:154 index.docbook:155
+#: index.docbook:157 index.docbook:158 index.docbook:159 index.docbook:160
+#, no-c-format
+msgid "<entry>1</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:153
+#, no-c-format
+msgid "Lily (2)"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:154
+#, no-c-format
+msgid "Chrysanthemum (3)"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:155
+#, no-c-format
+msgid "Bamboo (4)"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:156
+#, no-c-format
+msgid "Seasons"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:157
+#, no-c-format
+msgid "Spring (1)"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:158
+#, no-c-format
+msgid "Summer (2)"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:159
+#, no-c-format
+msgid "Autumn (3)"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:160
+#, no-c-format
+msgid "Winter (4)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:166
+#, no-c-format
+msgid "Matching tiles are such tiles where the face pictograms match exactly."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:168 index.docbook:178 index.docbook:188
+#, no-c-format
+msgid "Note:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:168
+#, no-c-format
+msgid "There are exceptions to this rule. In the traditional game of Mahjong each tile has a matching one except for the <quote>Flowers</quote> and <quote>Seasons</quote> tiles."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:174
+#, no-c-format
+msgid "The <quote>Flowers</quote> tiles have no doubles in the set and can be matched directly to each other."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:175
+#, no-c-format
+msgid "The <quote>Seasons</quote> tiles have no doubles in the set and can be matched directly to each other."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:176
+#, no-c-format
+msgid "Tiles can only be removed if they can be connected with a maximum of three connected lines that do not cross any other tile. Lines can be horizontal or vertical, but not diagonal."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:178
+#, no-c-format
+msgid "You do not have to draw the lines by yourself, the game does this for you. Just mark two matching tiles on the board, if they can be connected by a line with at most two bends, the line is drawn and the tiles are removed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:182
+#, no-c-format
+msgid "Lines may only cross empty areas of the board."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:183
+#, no-c-format
+msgid "Some games are unsolvable. If you would like to avoid unsolvable games check the option <guilabel>Create solvable games only</guilabel> in the configuration dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:184
+#, no-c-format
+msgid "The scores are awarded for the time the player needs to remove all the tiles from the game board. Games with more tiles give more scores."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:185
+#, no-c-format
+msgid "If you played with the <guilabel>Gravity</guilabel> setting enabled, the score will be doubled."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:186
+#, no-c-format
+msgid "To be eligible for a place amongst the high scores player has to complete a game instance within the shortest period of time possible."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:188
+#, no-c-format
+msgid "If the player uses the <quote>Undo</quote> or <quote>Hint</quote> feature the record will not be considered as a high score."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:191
+#, no-c-format
+msgid "Tips"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:192
+#, no-c-format
+msgid "Click on a tile with the &RMB; to highlight all matching tiles on the board. Unlike using the <quote>Undo</quote> or <quote>Hint</quote> feature, this help is allowed without being considered cheating."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:200
+#, no-c-format
+msgid "Interface Overview"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:203
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:205
+#, no-c-format
+msgid "The Game Menu"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:207
+#, no-c-format
+msgid "The <guimenu>Game</guimenu> menu lets you control the status of the current game:"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:214
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></shortcut> <guimenu>Game</guimenu><guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:219
+#, no-c-format
+msgid "<action>Finishes the current game</action> and starts a new session with new tiles."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:224
+#, no-c-format
+msgid "<shortcut><keycombo><keycap>F5</keycap></keycombo></shortcut> <guimenu>Game</guimenu><guimenuitem>Restart Game</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:229
+#, no-c-format
+msgid "Restarts the current game with the same tiles."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:234
+#, no-c-format
+msgid "<shortcut><keycombo><keycap>P</keycap></keycombo></shortcut> <guimenu>Game</guimenu><guimenuitem>Pause</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:239
+#, no-c-format
+msgid "<action>Pauses the game</action>, especially the timer which affects the scoring. The menu entry is also used for resuming the game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:244
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo></shortcut> <guimenu>Game</guimenu><guimenuitem>Show High Scores</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:249
+#, no-c-format
+msgid "Shows your top ten charts of &kshisen;."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:254
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></shortcut> <guimenu>Game</guimenu><guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:259
+#, no-c-format
+msgid "<action>Quits</action> &kshisen;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:264
+#, no-c-format
+msgid "Some of the menu items can also be controlled by keyboard shortcuts. See <xref linkend=\"key-bindings\"/> for a list."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:272
+#, no-c-format
+msgid "The Move Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:277
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo></shortcut> <guimenu>Move</guimenu><guimenuitem>Undo</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:282
+#, no-c-format
+msgid "<action>Undoes the last step</action>. Same as the <guibutton>Undo</guibutton> button in the toolbar."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:287
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Z</keycap></keycombo></shortcut> <guimenu>Move</guimenu><guimenuitem>Redo</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:292
+#, no-c-format
+msgid "<action>Redoes the last step</action>. Same as the <guibutton>Redo</guibutton> button in the toolbar."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:297
+#, no-c-format
+msgid "<shortcut><keycombo><keycap>H</keycap></keycombo></shortcut> <guimenu>Move</guimenu><guimenuitem>Hint</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:302
+#, no-c-format
+msgid "<action>Shows a hint</action>, which two tiles to remove next."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:310
+#, no-c-format
+msgid "The Settings Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:315
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Play Sounds</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:319
+#, no-c-format
+msgid "Plays a sound when you touch a tile by clicking with it the &LMB; and when a tile is falling down playing with <guilabel>Gravity</guilabel> enabled."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:325
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure &kshisen;…</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:329
+#, no-c-format
+msgid "Opens the <link linkend=\"configuration\">configuration dialog</link> to change &kshisen; settings."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:333
+#, no-c-format
+msgid "Additionally &kshisen; has the common &kde; <guimenu>Settings</guimenu> and <guimenu>Help</guimenu> menu items, for more information read the sections about the <ulink url=\"help:/fundamentals/menus.html#menus-settings\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:344
+#, no-c-format
+msgid "Default Key Bindings"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:346
+#, no-c-format
+msgid "Default shortcuts are:"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:351
+#, no-c-format
+msgid "<entry>New</entry>"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: index.docbook:351
+#, no-c-format
+msgid "&Ctrl;<keycap>N</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:352
+#, no-c-format
+msgid "Restart Game"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:352
+#, no-c-format
+msgid "<keycap>F5</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:353
+#, no-c-format
+msgid "Pause"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:353
+#, no-c-format
+msgid "<keycap>P</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:354
+#, no-c-format
+msgid "Show High Scores"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: index.docbook:354
+#, no-c-format
+msgid "&Ctrl;<keycap>H</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:355
+#, no-c-format
+msgid "Quit"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: index.docbook:355
+#, no-c-format
+msgid "&Ctrl;<keycap>Q</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:356
+#, no-c-format
+msgid "Undo"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: index.docbook:356
+#, no-c-format
+msgid "&Ctrl;<keycap>Z</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:357
+#, no-c-format
+msgid "Redo"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: index.docbook:357
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>Z</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:358
+#, no-c-format
+msgid "Hint"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:358
+#, no-c-format
+msgid "<keycap>H</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:359
+#, no-c-format
+msgid "&kshisen; Handbook"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:359
+#, no-c-format
+msgid "<keycap>F1</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:360
+#, no-c-format
+msgid "What's This"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: index.docbook:360
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>F1</keycap>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:369
+#, no-c-format
+msgid "Frequently asked questions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:373
+#, no-c-format
+msgid "I want to change the way this game looks. Can I?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:374
+#, no-c-format
+msgid "Yes. To change the way &kshisen; looks use the <link linkend=\"game-settings-settings\">menubar</link> to open the <link linkend=\"configuration\">configuration utility</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:377
+#, no-c-format
+msgid "Can I use keyboard?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:378
+#, no-c-format
+msgid "No. This game does not feature a keyboard play mode."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:381
+#, no-c-format
+msgid "I have to quit the game now, but I am not finished yet. Can I save my progress?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:382
+#, no-c-format
+msgid "No. This game does not feature a <quote>Save</quote> option."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:387
+#, no-c-format
+msgid "Game Configuration"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:389
+#, no-c-format
+msgid "Selecting the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kshisen;…</guimenuitem></menuchoice> menu item will open a configuration dialog which lets you alter the behavior of the game."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:395
+#, no-c-format
+msgid "<screeninfo>&kshisen; configuration dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:398
+#, no-c-format
+msgid "<phrase>&kshisen; configuration dialog</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:403
+#, no-c-format
+msgid "<guilabel>General</guilabel> page"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:405
+#, no-c-format
+msgid "Gravity"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:406
+#, no-c-format
+msgid "Checking this makes the game even harder: If a tile is removed, all tiles lying above it will fall down one step."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:413
+#, no-c-format
+msgid "Create solvable games only"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:414
+#, no-c-format
+msgid "If checked, you will only be presented with games that are possible to solve. Note: Even in solvable games you can fail to complete if you remove the tiles in the wrong order."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:422
+#, no-c-format
+msgid "Show message if board can no longer be solved"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:423
+#, no-c-format
+msgid "If checked, &kshisen; will try to analyze solvability of each game position and show a message to abort the game in case there are no possible moves left to win the game."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:430
+#, no-c-format
+msgid "Use Chinese style: any flower match any flower, any season match any season"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:431
+#, no-c-format
+msgid "Use the traditional rules for matching the tiles. Previous version of &kshisen; used to allow only exact tiles matches, which is inconsistent with Mahjong rules. It is recommended to keep this option checked."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:440
+#, no-c-format
+msgid "Tiles can slide, but you can connect only in 2 lines instead of 3"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:441
+#, no-c-format
+msgid "This option changes the rules to the point where it almost becomes a completely different game. When it is active, you can remove the tiles only if they can be connected by a line consisting of one or two segments instead of the customary three. However, you are allowed to slide the tiles on the board, if the row or column where they are placed has some empty space. To make a sliding move, you have to click first on the tile in the column or row that can slide, and then on the matching tile. If there are two possible sliding moves, blue lines are shown indicating these moves. You then have to click on one of the two lines to choose your preferred move."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:455
+#, no-c-format
+msgid "Board Difficulty"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:456
+#, no-c-format
+msgid "The slider controls the difficulty of the board (&ie; how much the tiles are shuffled) from <guilabel>Easy</guilabel> to <guilabel>Hard</guilabel>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:462
+#, no-c-format
+msgid "Piece Removal Speed"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:463
+#, no-c-format
+msgid "Adjusting this slider alters the speed at which the pieces are removed from the screen after a match has been made."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:469
+#, no-c-format
+msgid "Board Size"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:470
+#, no-c-format
+msgid "This slider allows you to change the number of tiles on the board. The more tiles you have, the harder (and longer) the game will be."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: index.docbook:478
+#, no-c-format
+msgid "<guilabel>Tiles</guilabel> and <guilabel>Background</guilabel> page"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:479
+#, no-c-format
+msgid "Select you favorite design for tiles and background."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6
+#: index.docbook:485
+#, no-c-format
+msgid "Help"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:486
+#, no-c-format
+msgid "Opens &kshisen; help pages (this document)."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6
+#: index.docbook:492
+#, no-c-format
+msgid "<guibutton>OK</guibutton>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:493
+#, no-c-format
+msgid "Saves your changes and closes the dialog."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6
+#: index.docbook:499
+#, no-c-format
+msgid "Apply"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:500
+#, no-c-format
+msgid "Saves your changes but does not close the dialog."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6
+#: index.docbook:506
+#, no-c-format
+msgid "Cancel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:507
+#, no-c-format
+msgid "Discards all your changes and closes the dialog."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:516
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:519
+#, no-c-format
+msgid "&kshisen; Copyright 1997 &Mario.Weilguni; &Mario.Weilguni.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:522
+#, no-c-format
+msgid "&kshisen; Copyright 2002-2004 Dave Corrie <email>kde@davecorrie.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:525
+#, no-c-format
+msgid "&kshisen; Copyright 2009-2012 &Frederik.Schwarzer; &Frederik.Schwarzer.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:529
+#, no-c-format
+msgid "Documentation Copyright 2000 &Dirk.Doerflinger; &Dirk.Doerflinger.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:532
+#, no-c-format
+msgid "Documentation Copyright 2009-2010 &Frederik.Schwarzer; &Frederik.Schwarzer.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:536
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:536
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

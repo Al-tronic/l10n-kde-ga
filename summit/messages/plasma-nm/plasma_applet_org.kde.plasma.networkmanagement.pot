@@ -1,0 +1,405 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-nm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-nm\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-09 15:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:62
+#, kde-format
+msgid "Connect"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/ConnectionItem.qml:290
+#, kde-format
+msgid "Connected"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:62
+#, kde-format
+msgid "Disconnect"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/ConnectionItem.qml:85
+#, kde-format
+msgid "Show Network's QR Code"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionItem.qml:90
+#, kde-format
+msgctxt "Share Wi-Fi network's password or QR code"
+msgid "Share"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:96
+#, kde-format
+msgid "Configure…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:136
+#, kde-format
+msgid "Speed"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:141
+#, kde-format
+msgid "Details"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:188
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Current download speed is %1 kibibytes per second; current upload speed is %2 kibibytes per second"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/ConnectionItem.qml:286
+#, kde-format
+msgid "Connected, ⬇ %1/s, ⬆ %2/s"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionItem.qml:298
+#, kde-format
+msgctxt "Download and upload rates in some unit per second"
+msgid "↓ %1/s, ↑ %2/s"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:33
+#, kde-format
+msgid "You need to log in to this network"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Log in"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionListPage.qml:118
+#, kde-format
+msgid "Airplane mode is enabled"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:122
+#, kde-format
+msgid "Wi-Fi and mobile data are deactivated"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/PopupDialog.qml:106
+#, kde-format
+msgid "Wireless and mobile networks are deactivated"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:124
+#, kde-format
+msgid "Wi-Fi is deactivated"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/PopupDialog.qml:108
+#, kde-format
+msgid "Wireless is deactivated"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:127
+#, kde-format
+msgid "Looking for Wi-Fi networks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:130
+#, kde-format
+msgid "Mobile data is deactivated"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/PopupDialog.qml:111
+#, kde-format
+msgid "Mobile network is deactivated"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionListPage.qml:133
+#, kde-format
+msgid "No matches"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionListPage.qml:136
+#, kde-format
+msgid "No available connections"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:145
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn off airplane mode to search for networks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:149
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn on Wi-Fi or mobile data to search for networks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:151
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn on Wi-Fi to search for networks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:154
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn on mobile data to search for networks"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: DetailsText.qml:49
+#, kde-format
+msgid "Copy"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:32
+#, kde-format
+msgid "Networks"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Middle-click to turn off Airplane Mode"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:43
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Middle-click to turn on Airplane Mode"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:71 Toolbar.qml:82
+#, kde-format
+msgid "Enable Wi-Fi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.qml:82
+#, kde-format
+msgid "Enable Mobile Data"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/main.qml:83
+#, kde-format
+msgid "Enable Mobile Network"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:94
+#, kde-format
+msgid "Enable Airplane Mode"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:106
+#, kde-format
+msgid "Open Network Login Page…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:116
+#, kde-format
+msgid "&Configure Network Connections…"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/main.qml:139
+#, kde-format
+msgctxt "@title:window"
+msgid "QR Code for %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: PopupDialog.qml:51
+#, kde-format
+msgctxt "@action:button"
+msgid "Return to Network Connections"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ShareNetworkQrCodePage.qml:33
+#, kde-format
+msgid "Scan this QR code with another device to connect to the \"%1\" network."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ShareNetworkQrCodePage.qml:108
+#, kde-format
+msgid "Wi-Fi password:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: Toolbar.qml:131
+#, kde-format
+msgid "Enable mobile data"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/Toolbar.qml:118
+#, kde-format
+msgid "Enable mobile network"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: Toolbar.qml:156
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Disable airplane mode<nl/>"
+"<nl/>"
+"This will enable Wi-Fi and Bluetooth"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: Toolbar.qml:157
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Enable airplane mode<nl/>"
+"<nl/>"
+"This will disable Wi-Fi and Bluetooth"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: Toolbar.qml:170
+#, kde-format
+msgid "Hotspot"
+msgstr ""
+
+#. +> trunk6 stable6
+#: Toolbar.qml:187
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot create a hotspot because Wi-Fi is disabled."
+msgstr ""
+
+#. +> trunk6 stable6
+#: Toolbar.qml:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot create a hotspot because all wireless radios are in use. Disconnect from the current Wi-Fi network or connect another wireless radio."
+msgstr ""
+
+#. +> trunk6 stable6
+#: Toolbar.qml:191
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Disable Hotspot"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/Toolbar.qml:178 contents/ui/Toolbar.qml:189
+#, kde-format
+msgid "Disable Hotspot"
+msgstr ""
+
+#. +> trunk6 stable6
+#: Toolbar.qml:193
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create Hotspot"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/Toolbar.qml:183 contents/ui/Toolbar.qml:189
+#, kde-format
+msgid "Create Hotspot"
+msgstr ""
+
+#. +> trunk6
+#: Toolbar.qml:221
+#, kde-format
+msgctxt "@action:button"
+msgid "Scan Wi-Fi QR Code"
+msgstr ""
+
+#. +> trunk6
+#: Toolbar.qml:226
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Scan QR Code to connect to a Wi-Fi network"
+msgstr ""
+
+#. +> trunk6
+#: Toolbar.qml:228
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Install QRCA Barcode Scanner to scan for a QR Code that connects to a Wi-Fi network"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: Toolbar.qml:247
+#, kde-format
+msgid "Configure network connections…"
+msgstr ""
+
+#. +> stable6 stable5
+#: TrafficMonitor.qml:37 TrafficMonitor.qml:111
+#, kde-format
+msgid "/s"
+msgstr ""
+
+#. +> stable6 stable5
+#: TrafficMonitor.qml:89
+#, kde-format
+msgid "Upload"
+msgstr ""
+
+#. +> stable6 stable5
+#: TrafficMonitor.qml:89
+#, kde-format
+msgid "Download"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/PasswordField.qml:16
+#, kde-format
+msgid "Password…"
+msgstr ""

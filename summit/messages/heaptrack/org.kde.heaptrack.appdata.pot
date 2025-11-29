@@ -1,0 +1,71 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-05-09 09:47+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: component/name
+#. +> trunk6 stable6
+#: org.kde.heaptrack.appdata.xml:6
+msgid "Heaptrack"
+msgstr ""
+
+#. (itstool) path: component/summary
+#. +> trunk6 stable6
+#: org.kde.heaptrack.appdata.xml:7
+msgid "A heap memory profiler for Linux"
+msgstr ""
+
+#. (itstool) path: description/p
+#. +> trunk6 stable6
+#: org.kde.heaptrack.appdata.xml:9
+msgid "Heaptrack traces all memory allocations and annotates these events with stack traces. Dedicated analysis tools then allow you to interpret the heap memory profile to:"
+msgstr ""
+
+#. (itstool) path: ul/li
+#. +> trunk6 stable6
+#: org.kde.heaptrack.appdata.xml:13
+msgid "find hotspots that need to be optimized to reduce the memory footprint of your application"
+msgstr ""
+
+#. (itstool) path: ul/li
+#. +> trunk6 stable6
+#: org.kde.heaptrack.appdata.xml:14
+msgid "find memory leaks, i.e. locations that allocate memory which is never deallocated"
+msgstr ""
+
+#. (itstool) path: ul/li
+#. +> trunk6 stable6
+#: org.kde.heaptrack.appdata.xml:15
+msgid "find allocation hotspots, i.e. code locations that trigger a lot of memory allocation calls"
+msgstr ""
+
+#. (itstool) path: ul/li
+#. +> trunk6 stable6
+#: org.kde.heaptrack.appdata.xml:16
+msgid "find temporary allocations, which are allocations that are directly followed by their deallocation"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#. +> trunk6 stable6
+#: org.kde.heaptrack.appdata.xml:25
+msgid "Summary of tracked heap memory allocation data"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#. +> trunk6 stable6
+#: org.kde.heaptrack.appdata.xml:29
+msgid "Flamegraph visualization of number of heap memory allocations"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#. +> trunk6 stable6
+#: org.kde.heaptrack.appdata.xml:33
+msgid "Chart of heap memory allocations over time"
+msgstr ""

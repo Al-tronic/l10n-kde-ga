@@ -1,0 +1,574 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#: details-search.docbook:5
+#, no-c-format
+msgid "&Darin.Strait; &Darin.Strait.mail;"
+msgstr ""
+
+#. Tag: author
+#: details-search.docbook:6
+#, no-c-format
+msgid "&Jack.H.Ostroff; &Jack.H.Ostroff.mail;"
+msgstr ""
+
+#. Tag: date
+#: details-search.docbook:8
+#, no-c-format
+msgid "2024-12-01"
+msgstr ""
+
+#. Tag: releaseinfo
+#: details-search.docbook:9
+#, no-c-format
+msgid "5.2.0"
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:11
+#, no-c-format
+msgid "Search Transactions"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:13
+#, no-c-format
+msgid ""
+"You can use the <guilabel>Search transactions</guilabel> dialog to search "
+"your data for transactions based on criteria that you specify. You can "
+"access the dialog by selecting the <menuchoice> <guimenu>Edit</guimenu> "
+"<guimenuitem>Find transaction...</guimenuitem></menuchoice> menu item, or "
+"typing <keycombo action=\"simul\">&Ctrl; &Shift;<keycap>F</keycap></"
+"keycombo>."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:21
+#, no-c-format
+msgid ""
+"There are two main tabs in this dialog. The <guilabel>Criteria</guilabel> "
+"tab displays a number of subtabs for specifying the search criteria. When "
+"the <guibutton>Find</guibutton> button is pressed, the search is initiated "
+"and all criteria that have been entered on any of the Criteria subtabs will "
+"be taken into account."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:29
+#, no-c-format
+msgid ""
+"After the search has completed, the results will be displayed under the "
+"<guilabel>Result</guilabel> tab. Below the list of results, &kmymoney; shows "
+"the number of transactions that met the search criteria. Double-clicking an "
+"individual transaction in the result list will bring up the appropriate "
+"ledger with that transaction selected."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:37
+#, no-c-format
+msgid ""
+"The <guibutton>Reset</guibutton> button resets all of the fields on all of "
+"the criteria subtabs back to the defaults. This allows you to specify new "
+"search criteria."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:43
+#, no-c-format
+msgid ""
+"The <guibutton>Close</guibutton> button closes the <guilabel>Search "
+"Transactions</guilabel> dialog box."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:48
+#, no-c-format
+msgid "Search Criteria"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:49
+#, no-c-format
+msgid ""
+"There are several subtabs under the main Criteria tab, each of which allows "
+"you to specify a different type of search criteria. Below the area for "
+"specifying the criteria, &kmymoney; lists each of the different types of "
+"criteria that are currently specified for the search."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:56
+#, no-c-format
+msgid "Text"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-search.docbook:58
+#, no-c-format
+msgid "<screeninfo>search transactions, criteria tab, text subtab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-search.docbook:64
+#, no-c-format
+msgid "<phrase>search transactions, criteria tab, text subtab</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:69
+#, no-c-format
+msgid ""
+"This tab allows you to specify text to search for. There are also a dropdown "
+"field and two check boxes that control how the text is used in the search."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:74
+#, no-c-format
+msgid "By default, the search will match on simple substrings. For example:"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:81
+#, no-c-format
+msgid "<quote>Best</quote> will find <quote>Best Cakes, Inc.</quote>"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:84
+#, no-c-format
+msgid "<quote>est</quote> will also find <quote>Best Cakes, Inc.</quote>"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:91
+#, no-c-format
+msgid ""
+"In the dropdown field next to the text field, select <guilabel>Contains</"
+"guilabel> if you want to find transactions that contain the text, or select "
+"<guilabel>Does not contain</guilabel> if you want to find transactions that "
+"do not contain the specified text."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:98
+#, no-c-format
+msgid ""
+"If you check the <guilabel>Case Sensitive</guilabel> box, the search will be "
+"case sensitive. For example, <quote>best</quote> would not find <quote>Best "
+"Cakes, Inc.</quote> if this option is set."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:104
+#, no-c-format
+msgid ""
+"If you check the <guilabel>Treat Text as regular expression</guilabel> box, "
+"the text will be treated as a regular expression. For details on how to "
+"craft a regular expression, visit the &Qt; documentation about the <ulink "
+"url=\"https://doc.qt.io/qt-5/qregularexpression.html\">QRegularExpression "
+"class</ulink>."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:113
+#, no-c-format
+msgid "Account"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-search.docbook:115
+#, no-c-format
+msgid ""
+"<screeninfo>search transactions, criteria tab, account subtab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-search.docbook:121
+#, no-c-format
+msgid "<phrase>search transactions, criteria tab, account subtab</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:126
+#, no-c-format
+msgid "This tab allows you to specify the accounts that should be searched."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:130
+#, no-c-format
+msgid ""
+"Accounts are displayed in a tree format. Accounts that are marked for search "
+"are indicated with a checkbox. If you click <guibutton>All</guibutton>, all "
+"accounts are marked for searching. If you click <guibutton>None</guibutton>. "
+"no accounts will be marked for searching. Individual accounts can be marked "
+"or unmarked by clicking the box next to the account name using the &LMB;. A "
+"complete hierarchy of accounts can be marked or unmarked by clicking the box "
+"using the &RMB;."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:140
+#, no-c-format
+msgid "Date"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-search.docbook:142
+#, no-c-format
+msgid "<screeninfo>search transactions, criteria tab, date subtab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-search.docbook:148
+#, no-c-format
+msgid "<phrase>search transactions, criteria tab, date subtab</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:153
+#, no-c-format
+msgid ""
+"This tab allows you to specify which dates should be searched. The date "
+"refers to the post date of the transaction."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:158
+#, no-c-format
+msgid ""
+"The <quote>Range</quote> dropdown provides a convenient way to set the From "
+"and To date controls. The From and To controls can be manipulated "
+"individually. Dates can be entered manually, and clicking the down arrow at "
+"the right of the field will bring up a typical calendar widget to select the "
+"date. The controls will prevent you from entering non-existing dates. Date "
+"values can also be changed by clicking the up and down arrows while the "
+"cursor in within a particular part of a date."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:169
+#, no-c-format
+msgid "Amount"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-search.docbook:171
+#, no-c-format
+msgid ""
+"<screeninfo>search transactions, criteria tab, amount subtab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-search.docbook:177
+#, no-c-format
+msgid "<phrase>search transactions, criteria tab, amount subtab</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:182
+#, no-c-format
+msgid "This tab allows you to specify what amounts should be searched for."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:186
+#, no-c-format
+msgid ""
+"You can search for an exact amount or for a range of amounts. If you click "
+"the calculator icon, a small on-screen calculator will pop up to assist you "
+"in entering a value."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:193
+#, no-c-format
+msgid "Category"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-search.docbook:195
+#, no-c-format
+msgid ""
+"<screeninfo>search transactions, criteria tab, category subtab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-search.docbook:201
+#, no-c-format
+msgid "<phrase>search transactions, criteria tab, category subtab</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:206
+#, no-c-format
+msgid "This tab allows you to specify which categories should be searched."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:210
+#, no-c-format
+msgid ""
+"Categories are displayed in a tree format, similar to Accounts. Categories "
+"that are marked for search are indicated with a checkbox. If you click "
+"<guibutton>All</guibutton>, all categories are marked for searching. If you "
+"click <guibutton>Income</guibutton>, all income categories will be marked "
+"and all expense categories will be unmarked. If you click "
+"<guibutton>Expense</guibutton>, all income categories will be unmarked and "
+"all expense categories will be marked. If you click <guibutton>None</"
+"guibutton>, no categories will be marked for searching."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:220
+#, no-c-format
+msgid ""
+"Individual categories can be marked or unmarked by clicking the checkbox "
+"next to the category name using the &LMB;. A complete hierarchy of "
+"categories can be marked or unmarked by clicking the box using the &RMB;."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:227
+#, no-c-format
+msgid "<title>Tag</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-search.docbook:229
+#, no-c-format
+msgid "<screeninfo>search transactions, criteria tab, tag subtab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-search.docbook:235
+#, no-c-format
+msgid "<phrase>search transactions, criteria tab, tag subtab</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:240
+#, no-c-format
+msgid "This tab allows you to specify which tags should be searched."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:244
+#, no-c-format
+msgid ""
+"Tags that are marked for search are indicated with a checked box. If you "
+"click <guibutton>Select all</guibutton>, all tags are marked for searching. "
+"If you click <guibutton>Select none</guibutton>, no tags will be marked for "
+"searching. Individual tags can be marked or unmarked by clicking the "
+"checkbox next to the payee name."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:252
+#, no-c-format
+msgid ""
+"If you check the <guilabel>Select transactions without tags</guilabel> box, "
+"only transactions with no tag will be selected."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:258
+#, no-c-format
+msgid "Payee"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-search.docbook:260
+#, no-c-format
+msgid ""
+"<screeninfo>search transactions, criteria tab, payee subtab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-search.docbook:266
+#, no-c-format
+msgid "<phrase>search transactions, criteria tab, payee subtab</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:271
+#, no-c-format
+msgid "This tab allows you to specify which payees should be searched."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:275
+#, no-c-format
+msgid ""
+"Payees that are marked for search are indicated with a box. If you click "
+"<guibutton>Select all</guibutton>, all payees are marked for searching. If "
+"you click <guibutton>Select none</guibutton>, no payees will be marked for "
+"searching. Individual payees can be marked or unmarked by clicking the box "
+"next to the payee name."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:283
+#, no-c-format
+msgid ""
+"If you check the <guilabel>Select transactions without payees</guilabel> "
+"box, only transactions with no payee will be selected."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:289
+#, no-c-format
+msgid "Details"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-search.docbook:291
+#, no-c-format
+msgid "search transactions, criteria tab, details subtab"
+msgstr ""
+
+#. Tag: phrase
+#: details-search.docbook:297
+#, no-c-format
+msgid "Search transactions Dialog, Details tab"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:302
+#, no-c-format
+msgid "This tab allows you to specify various additional search criteria."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:308
+#, no-c-format
+msgid "Type can be one of the following:"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:309
+#, no-c-format
+msgid "All Types"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:310
+#, no-c-format
+msgid "Payments"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:311
+#, no-c-format
+msgid "Deposits"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:312
+#, no-c-format
+msgid "Transfers"
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:316
+#, no-c-format
+msgid "State can be one of the following:"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:317
+#, no-c-format
+msgid "All states"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:318
+#, no-c-format
+msgid "Not reconciled"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:319
+#, no-c-format
+msgid "Cleared"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:320
+#, no-c-format
+msgid "Reconciled"
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:324
+#, no-c-format
+msgid "Validity can be one of the following:"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:325
+#, no-c-format
+msgid "Any transaction"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:326
+#, no-c-format
+msgid "Valid transaction"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:327
+#, no-c-format
+msgid "Invalid transaction"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:331
+#, no-c-format
+msgid ""
+"You can search for a particular transaction number or search for a range of "
+"transaction numbers."
+msgstr ""
+
+#. Tag: title
+#: details-search.docbook:338
+#, no-c-format
+msgid "Search results"
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:339
+#, no-c-format
+msgid ""
+"The <guilabel>Result</guilabel> tab displays the Entry (entry date, "
+"optional,) Date (posting date,) Account, Payee, Details (memo,) C "
+"(reconciliation status,) Decrease, and Increase for each transaction that "
+"matches the search criteria you have entered. Clicking the &RMB; on the "
+"header row of the results list allows you to toggle the display of the "
+"optional columns."
+msgstr ""
+
+#. Tag: para
+#: details-search.docbook:347
+#, no-c-format
+msgid ""
+"Double-clicking a transaction will display the corresponding account ledger "
+"with that transaction selected."
+msgstr ""

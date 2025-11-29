@@ -1,0 +1,302 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: code_import_and_generation.docbook:2
+#, no-c-format
+msgid "Code Import and Code Generation"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:3
+#, no-c-format
+msgid ""
+"&umbrello; is a &UML; modelling tool, and as such its main purpose is to "
+"help you in the <emphasis>analysis and design</emphasis> of your systems. "
+"However, to make the transition between your design and your "
+"<emphasis>implementation</emphasis>, &umbrello; allows you to generate "
+"source code in different programming languages to get you started. Also, if "
+"you want to start using &UML; in an already started C++ project, &umbrello; "
+"can help you create a model of your system from the source code by analysing "
+"your source code and importing the classes found in it."
+msgstr ""
+
+#. Tag: title
+#: code_import_and_generation.docbook:13
+#, no-c-format
+msgid "Code Generation"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:14
+#, no-c-format
+msgid ""
+"&umbrello; can generate source code for various programming languages based "
+"on your &UML; Model to help you get started with the implementation of your "
+"project. The code generated consists of the class declarations, with their "
+"methods and attributes so you can <quote>fill in the blanks</quote> by "
+"providing the functionality of your classes' operations."
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:20
+#, no-c-format
+msgid ""
+"&umbrello; 2 comes with code generation support for ActionScript, Ada, C++, "
+"C#, D, IDL, &Java;, JavaScript, MySQL, Pascal, Perl, PHP, PHP5, PostgreSQL, "
+"Python, Ruby, Tcl, Vala, and XMLSchema."
+msgstr ""
+
+#. Tag: title
+#: code_import_and_generation.docbook:25
+#, no-c-format
+msgid "Generating Code"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:26
+#, no-c-format
+msgid ""
+"In order to generate code with &umbrello;, you first need to create or load "
+"a Model containing at least one class. When you are ready to start writing "
+"some code, select the <guimenuitem>Code Generation Wizard</guimenuitem> "
+"entry from the <guimenuitem>Code</guimenuitem> menu to start a wizard which "
+"will guide you trough the code generation process."
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:32
+#, no-c-format
+msgid ""
+"The first step is to select the classes for which you want to generate "
+"source code. By default all the classes of your model are selected, and you "
+"can remove the ones for which you do not want to generate code by moving "
+"them to the left-hand side list."
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:37
+#, no-c-format
+msgid ""
+"The next step of the wizard allows you to modify the parameters the Code "
+"Generator uses while writing your code. The following options are available:"
+msgstr ""
+
+#. Tag: screeninfo
+#: code_import_and_generation.docbook:43
+#, no-c-format
+msgid "Code Generation Options"
+msgstr ""
+
+#. Tag: phrase
+#: code_import_and_generation.docbook:49
+#, no-c-format
+msgid "<phrase>Options for the Code Generation in &umbrello;</phrase>"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:52
+#, no-c-format
+msgid "<para>Options for the Code Generation in &umbrello;</para>"
+msgstr ""
+
+#. Tag: title
+#: code_import_and_generation.docbook:59
+#, no-c-format
+msgid "Generation Options"
+msgstr ""
+
+#. Tag: title
+#: code_import_and_generation.docbook:63
+#, no-c-format
+msgid "Comment Verbosity"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:64
+#, no-c-format
+msgid ""
+"The option <guilabel>Write documentation comments even if empty</guilabel> "
+"instructs the Code Generator to write comments of the /** blah */ style even "
+"if the comment blocks are empty. If you added documentation to your classes, "
+"methods or attributes in your Model, the Code Generator will write these "
+"comments as <application>Doxygen</application> documentation regardless of "
+"what you set here, but if you select this option &umbrello; will write "
+"comment blocks for all classes, methods and attributes even if there is no "
+"documentation in the Model, in which case you should document your classes "
+"later directly in the source code."
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:73
+#, no-c-format
+msgid ""
+"<guilabel>Write comments for sections even if section is empty</guilabel> "
+"causes &umbrello; to write comments in the source code to delimit the "
+"different sections of a class. For example <quote>public methods</quote> or "
+"<quote>Attributes</quote> before the corresponding sections. If you select "
+"this option &umbrello; will write comments for all sections of the class "
+"even if the section is empty. For example, it would write a comment saying "
+"<quote>protected methods</quote> even if there are no protected methods in "
+"your class."
+msgstr ""
+
+#. Tag: title
+#: code_import_and_generation.docbook:83
+#, no-c-format
+msgid "Folders"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:84
+#, no-c-format
+msgid ""
+"<guilabel>Write all generated files to folder</guilabel>. Here you should "
+"select the folder where you want &umbrello; to put the generated sources."
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:88
+#, no-c-format
+msgid ""
+"The <guilabel>Include heading files from folder</guilabel> option allows you "
+"to insert a heading at the beginning of each generated file. Heading files "
+"can contain copyright or licensing information and contain variables that "
+"are evaluated at generation time. You can take a look at the template "
+"heading files shipped with &umbrello; to see how to use these variables for "
+"replacing your name or the current date at generation time."
+msgstr ""
+
+#. Tag: title
+#: code_import_and_generation.docbook:97
+#, no-c-format
+msgid "Overwrite Policy"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:99
+#, no-c-format
+msgid ""
+"This option tells &umbrello; what to do if the file it wants to create "
+"already exists in the destination folder. &umbrello; <emphasis>cannot modify "
+"existing source files</emphasis>, so you have to choose between overwriting "
+"the existing file, skipping the generation of that particular file or "
+"letting &umbrello; choose a different file name. If you choose the option to "
+"use a different name, &umbrello; will add a suffix to the file name."
+msgstr ""
+
+#. Tag: title
+#: code_import_and_generation.docbook:108
+#, no-c-format
+msgid "Language"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:109
+#, no-c-format
+msgid ""
+"&umbrello; will by default generate code in the language you have selected "
+"as Active Language, but with the Code Generation Wizard you have the option "
+"to change this to another language."
+msgstr ""
+
+#. Tag: title
+#: code_import_and_generation.docbook:116
+#, no-c-format
+msgid "Generation Wizard Generation"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:117
+#, no-c-format
+msgid ""
+"The third and last step of the wizard shows the status of the Code "
+"Generation process. You need only to click on the Generate button to get "
+"your classes written for you."
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:121
+#, no-c-format
+msgid ""
+"Note that the Options you select during the Code Generation Wizard are only "
+"valid for the current generation. The next time you run the wizard you will "
+"need to re-select all the options (your headings folder, overwrite policy, "
+"and so on). You can set the defaults used by &umbrello; in the "
+"<guilabel>Code Generation</guilabel> section of the &umbrello; settings, "
+"available at <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
+"&umbrello;...</guimenuitem></menuchoice>"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:128
+#, no-c-format
+msgid ""
+"If you have set your Code Generation options to the right settings and want "
+"to generate some code right away without going through the wizard, you can "
+"select the entire <guimenuitem>Generate All Code</guimenuitem> from the "
+"<guimenu>Code</guimenu> menu. This will generate code for all the classes in "
+"your Model using the current settings (including Output Folder and Overwrite "
+"Policy, so use with care)."
+msgstr ""
+
+#. Tag: title
+#: code_import_and_generation.docbook:139
+#, no-c-format
+msgid "<title>Code Import</title>"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:140
+#, no-c-format
+msgid ""
+"&umbrello; can import source code from your existing projects to help you "
+"build Model of your systems. &umbrello; 2 supports ActionScript, Ada, C++, "
+"C#, D, IDL, &Java;, Javascript, MySQL, Pascal, PHP, and Vala source code."
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:144
+#, no-c-format
+msgid ""
+"To import classes into your Model, select the entry <guimenuitem>Code "
+"Importing Wizard...</guimenuitem> from the <guimenu>Code</guimenu> menu. In "
+"the file dialog select the files containing class declarations and press "
+"<guibutton>Next ></guibutton> then <guibutton>Start import</guibutton> and "
+"<guibutton>Finish</guibutton>. The classes will be imported and you will "
+"find them as part of your Model in the Tree View. Note that &umbrello; will "
+"not create any kind of Diagram for showing your classes, they will only be "
+"imported into your Model so that you can use them later in any diagram you "
+"want."
+msgstr ""
+
+#. Tag: screeninfo
+#: code_import_and_generation.docbook:155
+#, no-c-format
+msgid "<screeninfo>Code Import</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: code_import_and_generation.docbook:161
+#, no-c-format
+msgid "<phrase>Menu for importing source code in &umbrello;</phrase>"
+msgstr ""
+
+#. Tag: para
+#: code_import_and_generation.docbook:164
+#, no-c-format
+msgid "<para>Menu for importing source code in &umbrello;</para>"
+msgstr ""

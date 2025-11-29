@@ -1,0 +1,1149 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the libkcddb package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libkcddb\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-07-05 12:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.cpp:42
+#, kde-format
+msgid "Cache Locations"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.cpp:76
+#, kde-format
+msgid "Could not fetch mirror list."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.cpp:76
+#, kde-format
+msgid "Could Not Fetch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.cpp:80
+#, kde-format
+msgid "Select mirror"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.cpp:81
+#, kde-format
+msgid "Select one of these mirrors"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FreedbLookupTransport)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.cpp:98 kcmcddb/cddbconfigwidget.ui:144
+#, kde-format
+msgid "HTTP"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_FreedbLookupTransport)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.cpp:100 kcmcddb/cddbconfigwidget.ui:139
+#, kde-format
+msgid "CDDB"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CDDBConfigWidgetBase)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:7
+#, kde-format
+msgid "CDDB Settings"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabLookup)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:23
+#, kde-format
+msgid "&Lookup"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MusicBrainzLookupEnabled)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:29
+#, kde-format
+msgid "Enable MusicBrainz lookup"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FreedbLookupEnabled)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:36
+#, kde-format
+msgid "Enable freedb lookup"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, freedbServerBox)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:46
+#, kde-format
+msgid "Freedb Server"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel7)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:61
+#, kde-format
+msgid "Freedb server:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_hostname)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:79
+#, kde-format
+msgid "Name of CDDB server which will be used to look up CD information."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_hostname)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:82
+#, kde-format
+msgid "gnudb.gnudb.org"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_3)
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:95 kcmcddb/cddbconfigwidget.ui:260
+#, kde-format
+msgid "Port:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_port)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:108
+#, kde-format
+msgid "Port to connect to on CDDB server."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel9)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:123
+#, kde-format
+msgid "&Transport:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_FreedbLookupTransport)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:135
+#, kde-format
+msgid "Type of lookup which should be tried at the CDDB server."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, mirrorListButton)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:152
+#, kde-format
+msgid "Show &Mirror List"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabSubmit)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:168
+#, kde-format
+msgid "&Submit"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:189
+#, kde-format
+msgid "Email address:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:227
+#, kde-format
+msgid "Submit Method"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. +> trunk6 stable6
+#: kcmcddb/cddbconfigwidget.ui:242
+#, kde-format
+msgid "Server:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:28 libkcddb/genres.cpp:68
+#, kde-format
+msgid "Blues"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:28 libkcddb/genres.cpp:71
+#, kde-format
+msgid "Classical"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:28 libkcddb/genres.cpp:73
+#, kde-format
+msgctxt "music genre"
+msgid "Country"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:29
+#, kde-format
+msgid "Data"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:29 libkcddb/genres.cpp:78
+#, kde-format
+msgid "Folk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:29 libkcddb/genres.cpp:84
+#, kde-format
+msgid "Jazz"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:29
+#, kde-format
+msgid "Miscellaneous"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:30 libkcddb/genres.cpp:86
+#, kde-format
+msgid "New Age"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:30 libkcddb/genres.cpp:92
+#, kde-format
+msgid "Reggae"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:30 libkcddb/genres.cpp:93
+#, kde-format
+msgid "Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/categories.cpp:30 libkcddb/genres.cpp:96
+#, kde-format
+msgid "Soundtrack"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:64
+#, kde-format
+msgid "Unknown"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:64
+#, kde-format
+msgid "A Cappella"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:64
+#, kde-format
+msgid "Acid Jazz"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:65
+#, kde-format
+msgid "Acid Punk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:65
+#, kde-format
+msgid "Acid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:65
+#, kde-format
+msgid "Acoustic"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:65
+#, kde-format
+msgid "Alternative"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:66
+#, kde-format
+msgid "Alt. Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:66
+#, kde-format
+msgid "Ambient"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:66
+#, kde-format
+msgid "Anime"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:66
+#, kde-format
+msgid "Avantgarde"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:67
+#, kde-format
+msgid "Ballad"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:67
+#, kde-format
+msgid "Bass"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:67
+#, kde-format
+msgid "Beat"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:67
+#, kde-format
+msgid "Bebop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:68
+#, kde-format
+msgid "Big Band"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:68
+#, kde-format
+msgid "Black Metal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:68
+#, kde-format
+msgid "Bluegrass"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:69
+#, kde-format
+msgid "Booty Bass"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:69
+#, kde-format
+msgid "BritPop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:69
+#, kde-format
+msgid "Cabaret"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:69
+#, kde-format
+msgid "Celtic"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:70
+#, kde-format
+msgid "Chamber Music"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:70
+#, kde-format
+msgid "Chanson"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:70
+#, kde-format
+msgid "Chorus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:70
+#, kde-format
+msgid "Christian Gangsta Rap"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:71
+#, kde-format
+msgid "Christian Rap"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:71
+#, kde-format
+msgid "Christian Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:71
+#, kde-format
+msgid "Classic Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:72
+#, kde-format
+msgid "Club-house"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:72
+#, kde-format
+msgid "Club"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:72
+#, kde-format
+msgid "Comedy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:72
+#, kde-format
+msgid "Contemporary Christian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:73
+#, kde-format
+msgid "Crossover"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:73
+#, kde-format
+msgid "Cult"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:73
+#, kde-format
+msgid "Dance Hall"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:74
+#, kde-format
+msgid "Dance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:74
+#, kde-format
+msgid "Darkwave"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:74
+#, kde-format
+msgid "Death Metal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:74
+#, kde-format
+msgid "Disco"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:75
+#, kde-format
+msgid "Dream"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:75
+#, kde-format
+msgid "Drum & Bass"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:75
+#, kde-format
+msgid "Drum Solo"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:75
+#, kde-format
+msgid "Duet"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:76
+#, kde-format
+msgid "Easy Listening"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:76
+#, kde-format
+msgid "Electronic"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:76
+#, kde-format
+msgid "Ethnic"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:76
+#, kde-format
+msgid "Eurodance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:77
+#, kde-format
+msgid "Euro-House"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:77
+#, kde-format
+msgid "Euro-Techno"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:77
+#, kde-format
+msgid "Fast-Fusion"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:77
+#, kde-format
+msgid "Folklore"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:78
+#, kde-format
+msgid "Folk/Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:78
+#, kde-format
+msgid "Freestyle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:78
+#, kde-format
+msgid "Funk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:79
+#, kde-format
+msgid "Fusion"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:79
+#, kde-format
+msgid "Game"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:79
+#, kde-format
+msgid "Gangsta Rap"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:79
+#, kde-format
+msgid "Goa"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:80
+#, kde-format
+msgid "Gospel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:80
+#, kde-format
+msgid "Gothic Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:80
+#, kde-format
+msgid "Gothic"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:80
+#, kde-format
+msgid "Grunge"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:81
+#, kde-format
+msgid "Hardcore"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:81
+#, kde-format
+msgid "Hard Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:81
+#, kde-format
+msgid "Heavy Metal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:81
+#, kde-format
+msgid "Hip-Hop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:82
+#, kde-format
+msgid "House"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:82
+#, kde-format
+msgid "Humor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:82
+#, kde-format
+msgid "Indie"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:82
+#, kde-format
+msgid "Industrial"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:83
+#, kde-format
+msgid "Instrumental Pop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:83
+#, kde-format
+msgid "Instrumental Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:83
+#, kde-format
+msgid "Instrumental"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:83
+#, kde-format
+msgid "Jazz+Funk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:84
+#, kde-format
+msgid "JPop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:84
+#, kde-format
+msgid "Jungle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:84
+#, kde-format
+msgid "Latin"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:84
+#, kde-format
+msgid "Lo-Fi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:85
+#, kde-format
+msgid "Meditative"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:85
+#, kde-format
+msgid "Merengue"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:85
+#, kde-format
+msgid "Metal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:85
+#, kde-format
+msgid "Musical"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:86
+#, kde-format
+msgid "National Folk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:86
+#, kde-format
+msgid "Native American"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:86
+#, kde-format
+msgid "Afro-Punk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:87
+#, kde-format
+msgid "New Wave"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:87
+#, kde-format
+msgid "Noise"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:87
+#, kde-format
+msgid "Oldies"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:87
+#, kde-format
+msgid "Opera"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:88
+#, kde-format
+msgid "Other"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:88
+#, kde-format
+msgid "Polka"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:88
+#, kde-format
+msgid "Polsk Punk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:88
+#, kde-format
+msgid "Pop-Funk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:89
+#, kde-format
+msgid "Pop/Funk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:89
+#, kde-format
+msgid "Pop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:89
+#, kde-format
+msgid "Porn Groove"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:89
+#, kde-format
+msgid "Power Ballad"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:90
+#, kde-format
+msgid "Pranks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:90
+#, kde-format
+msgid "Primus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:90
+#, kde-format
+msgid "Progressive Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:90
+#, kde-format
+msgid "Psychedelic Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:91
+#, kde-format
+msgid "Psychedelic"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:91
+#, kde-format
+msgid "Punk Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:91
+#, kde-format
+msgid "Punk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:91
+#, kde-format
+msgid "R&B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:92
+#, kde-format
+msgid "Rap"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:92
+#, kde-format
+msgid "Rave"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:92
+#, kde-format
+msgid "Retro"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:93
+#, kde-format
+msgid "Revival"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:93
+#, kde-format
+msgid "Rhythmic Soul"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:93
+#, kde-format
+msgid "Rock & Roll"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:94
+#, kde-format
+msgid "Salsa"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:94
+#, kde-format
+msgid "Samba"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:94
+#, kde-format
+msgid "Satire"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:94
+#, kde-format
+msgid "Showtunes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:95
+#, kde-format
+msgid "Ska"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:95
+#, kde-format
+msgid "Slow Jam"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:95
+#, kde-format
+msgid "Slow Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:95
+#, kde-format
+msgid "Sonata"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:96
+#, kde-format
+msgid "Soul"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:96
+#, kde-format
+msgid "Sound Clip"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:96
+#, kde-format
+msgid "Southern Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:97
+#, kde-format
+msgid "Space"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:97
+#, kde-format
+msgid "Speech"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:97
+#, kde-format
+msgid "Swing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:97
+#, kde-format
+msgid "Symphonic Rock"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:98
+#, kde-format
+msgid "Symphony"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:98
+#, kde-format
+msgid "Synthpop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:98
+#, kde-format
+msgid "Tango"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:98
+#, kde-format
+msgid "Techno-Industrial"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:99
+#, kde-format
+msgid "Techno"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:99
+#, kde-format
+msgid "Terror"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:99
+#, kde-format
+msgid "Thrash Metal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:99
+#, kde-format
+msgid "Top 40"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:100
+#, kde-format
+msgid "Trailer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:100
+#, kde-format
+msgid "Trance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:100
+#, kde-format
+msgid "Tribal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:100
+#, kde-format
+msgid "Trip-Hop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/genres.cpp:101
+#, kde-format
+msgid "Vocal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/kcddb.cpp:19
+#, kde-format
+msgid "Success"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/kcddb.cpp:23
+#, kde-format
+msgid "Server error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/kcddb.cpp:27
+#, kde-format
+msgid "Host not found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/kcddb.cpp:31
+#, kde-format
+msgid "No response"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/kcddb.cpp:35
+#, kde-format
+msgid "No record found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/kcddb.cpp:39
+#, kde-format
+msgid "Multiple records found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/kcddb.cpp:43
+#, kde-format
+msgid "Cannot save"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/kcddb.cpp:47
+#, kde-format
+msgid "Invalid category"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/kcddb.cpp:51
+#, kde-format
+msgid "Unknown error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libkcddb/musicbrainz/musicbrainzlookup.cpp:112
+#, kde-format
+msgid "%1 (disc %2)"
+msgstr ""

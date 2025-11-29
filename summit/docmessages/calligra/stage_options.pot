@@ -1,0 +1,372 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: options.docbook:4
+#, no-c-format
+msgid "<firstname>Neil</firstname> <surname>Lucock</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: options.docbook:8
+#, no-c-format
+msgid "neil@nlucock.freeserve.co.uk"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: options.docbook:11
+#, no-c-format
+msgid "<firstname>Krishna</firstname> <surname>Tateneni</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: options.docbook:15
+#, no-c-format
+msgid "tateneni@pluto.njcc.com"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: options.docbook:18
+#, no-c-format
+msgid "<firstname>Anne-Marie</firstname> <surname>Mahfouf</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: options.docbook:22
+#, no-c-format
+msgid "annemarie.mahfouf@free.fr"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: options.docbook:25
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: options.docbook:28
+#, no-c-format
+msgid "Configuring &stage;"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: options.docbook:31
+#, no-c-format
+msgid "The Configure - Stage Dialog"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: options.docbook:34
+#, no-c-format
+msgid "<title>Misc</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: options.docbook:37
+#, no-c-format
+msgid "<screeninfo>Misc</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: options.docbook:42
+#, no-c-format
+msgid "<phrase>Misc</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:48
+#, no-c-format
+msgid "Units"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:49
+#, no-c-format
+msgid "Choose the default unit that will be used in your slides."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:53
+#, no-c-format
+msgid "Handle radius"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:54
+#, no-c-format
+msgid "If you select a shape with the default tool (arrow) you see the yellow and red rectangles. These are called handles (used for resizing, rotation, ...). The handle radius changes the size of the handles. If you make them bigger it is easier to hit them."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:61
+#, no-c-format
+msgid "Grab sensitivity"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:62
+#, no-c-format
+msgid "This option defines how exactly you need to hit a handle to select it."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:67
+#, no-c-format
+msgid "Paste offset"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:68
+#, no-c-format
+msgid "This is only active if <guilabel>Paste at Cursor</guilabel> is disabled. If you copy a shape with the shortcut <keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo> and paste it with <keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo>, and do that at a place where already a shape is this offset is used to paste the new shape to the bottom/right."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:76
+#, no-c-format
+msgid "Paste at Cursor"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:77
+#, no-c-format
+msgid "Disables the paste offset and insert a pasted shape at the mouse cursor position."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: options.docbook:86
+#, no-c-format
+msgid "<title>Grid</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: options.docbook:89
+#, no-c-format
+msgid "<screeninfo>Grid</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: options.docbook:94
+#, no-c-format
+msgid "<phrase>Grid</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:99
+#, no-c-format
+msgid "<guilabel>Grid</guilabel>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:101
+#, no-c-format
+msgid "Show grid"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:102
+#, no-c-format
+msgid "If enabled, &stage; will display a grid of dots representing the intersections of imaginary horizontal and vertical lines. You can use these dots to precisely position objects on the slide."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:109
+#, no-c-format
+msgid "Snap to grid"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:110
+#, no-c-format
+msgid "If this is enabled, when dropping or moving objects on the slide the top left corner of the object will <quote>snap</quote> or move, to the nearest grid point."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:113
+#, no-c-format
+msgid "This does reduce your freedom to freely position objects on the slide, however it also helps to line up objects precisely. It is easily disabled or enabled with this option, allowing you the best of both worlds."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:120
+#, no-c-format
+msgid "Grid color:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:121
+#, no-c-format
+msgid "You can change here the grid color which is black as default."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:127
+#, no-c-format
+msgid "Spacing"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:128
+#, no-c-format
+msgid "You can choose to keep the same ratio for the two settings below by having the <inlinemediaobject><imageobject> <imagedata fileref=\"link.png\" format=\"PNG\"/></imageobject></inlinemediaobject> icon or to separate the two settings by using the <inlinemediaobject><imageobject> <imagedata fileref=\"break.png\" format=\"PNG\"/></imageobject></inlinemediaobject> icon."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:132
+#, no-c-format
+msgid "Horizontal:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:133
+#, no-c-format
+msgid "Set the space in centimeters between two points on an horizontal line on the grid. Default is 0.5 centimeter."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:137
+#, no-c-format
+msgid "Vertical:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:138
+#, no-c-format
+msgid "Set the space in centimeters between two points on a vertical line on the grid. Default is 0.5 centimeter."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: options.docbook:145
+#, no-c-format
+msgid "<title>Document</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: options.docbook:148
+#, no-c-format
+msgid "<screeninfo>Document</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: options.docbook:153 options.docbook:182
+#, no-c-format
+msgid "<phrase>Document</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:158
+#, no-c-format
+msgid "Document Settings"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:160
+#, no-c-format
+msgid "Autosave interval:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:161
+#, no-c-format
+msgid "You can use this to adjust how often &stage; saves a temporary file. If you set this value to <guilabel>No autosave</guilabel>, &stage; will not autosave. You can adjust the autosave from 1 minute to 60 minutes."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: options.docbook:165
+#, no-c-format
+msgid "Create backup file:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:166
+#, no-c-format
+msgid "If checked, this will create a <filename>.&lt;name&gt;.odp.autosave.odp</filename> in the folder where your file is. This backup file can then be used in case of a problem. The backup file is updated everytime you save your document or everytime there is an autosave."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: options.docbook:174
+#, no-c-format
+msgid "<title>Author</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: options.docbook:177
+#, no-c-format
+msgid "<screeninfo>Author</screeninfo>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:186
+#, no-c-format
+msgid "Choose an author profile for your document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: options.docbook:189
+#, no-c-format
+msgid "You can add a new profile or delete the current profile using the buttons to the right of the profiles drop-down list."
+msgstr ""

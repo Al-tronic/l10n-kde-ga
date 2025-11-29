@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: commands.docbook:3
+#, no-c-format
+msgid "Command Reference"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: commands.docbook:6
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: commands.docbook:8
+#, no-c-format
+msgid "A brief overview of some special menu items in &kcalc;:"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:12
+#, no-c-format
+msgid "<guimenu>Constants</guimenu> <guimenuitem>Mathematics</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:16
+#, no-c-format
+msgid "Display Pi, Euler Number or Golden Ratio."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:21
+#, no-c-format
+msgid "<guimenu>Constants</guimenu> <guimenuitem>Electromagnetism</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:25
+#, no-c-format
+msgid "Display Light Speed, Elementary Charge, Impedance of Vacuum, Permeability of Vacuum or Permittivity of Vacuum."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:31
+#, no-c-format
+msgid "<guimenu>Constants</guimenu> <guimenuitem>Atomic &amp; Nuclear</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:35
+#, no-c-format
+msgid "Display Planck's Constant, Elementary Charge or Fine-Structure Constant."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:41
+#, no-c-format
+msgid "<guimenu>Constants</guimenu> <guimenuitem>Thermodynamics</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:45
+#, no-c-format
+msgid "Display Boltzmann Constant, Atomic Mass Unit, Molar Gas Constant, Stefan-Boltzmann Constant or Avogadro's Number."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:51
+#, no-c-format
+msgid "<guimenu>Constants</guimenu> <guimenuitem>Gravitation</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: commands.docbook:55
+#, no-c-format
+msgid "Display Constant of Gravitation or Earth Acceleration."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:60
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Simple Mode</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:64
+#, no-c-format
+msgid "Displays the simple math buttons."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:69
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Science Mode</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:73
+#, no-c-format
+msgid "Displays trigonometric and science buttons."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:78
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Statistic Mode</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:82
+#, no-c-format
+msgid "Displays <link linkend=\"statistical-mode\">statistic buttons.</link>"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:88
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Numeral System Mode</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:92
+#, no-c-format
+msgid "Displays <link linkend=\"and-or-xor\">logic buttons</link> and allows changing the numeral system."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:98
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Show History</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:102
+#, no-c-format
+msgid "Display the history."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:107
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Constants Buttons</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:111
+#, no-c-format
+msgid "Display constants buttons. They are available in <link linkend=\"science-mode\">science mode</link> and <link linkend=\"statistical-mode\">statistic mode</link>."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: commands.docbook:117
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Show Bit Edit</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: commands.docbook:121
+#, no-c-format
+msgid "Displays a bit edit field. Click on a bit to toggle it. Only available in <link linkend=\"numeral-system-mode\">numeral system mode</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: commands.docbook:128
+#, no-c-format
+msgid "Additionally &kcalc; has the common <guimenu>File</guimenu>, <guimenu>Edit</guimenu>, <guimenu>Settings</guimenu> and <guimenu>Help</guimenu> menu items, for more information read the sections about the <ulink url=\"help:/fundamentals/menus.html\">Menus</ulink> in the &kde; Fundamentals."
+msgstr ""

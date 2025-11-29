@@ -1,0 +1,801 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kconfigwidgets package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kconfigwidgets\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-04 13:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 trunk5
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 trunk5
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kcodecaction.cpp:62
+#, kde-format
+msgctxt "Encodings menu"
+msgid "Default"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kcodecaction.cpp:70
+#, kde-format
+msgctxt "Encodings menu"
+msgid "Autodetect"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kcolorschememenu.cpp:24
+#, kde-format
+msgid "Color Scheme"
+msgstr ""
+
+#. +> trunk6
+#: kcommandbar.cpp:658
+#, kde-format
+msgid "No commands to display"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kcommandbar.cpp:660
+#, kde-format
+msgid "No commands matching the filter"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kconfigdialog.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: khamburgermenu.cpp:126
+#, kde-format
+msgctxt "@action:inmenu General purpose menu"
+msgid "&Menu"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: khamburgermenu.cpp:329
+#, kde-format
+msgctxt "@action:inmenu A menu item that advertises and enables the menubar"
+msgid "Show &Menubar with All Actions"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: khamburgermenu.cpp:355
+#, kde-format
+msgctxt "@action:inmenu A menu text advertising its contents (more features)."
+msgid "More"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: khamburgermenu.cpp:356
+#, kde-format
+msgctxt "@action:inmenu A section heading advertising the contents of the menu bar"
+msgid "More Actions"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: krecentfilesaction.cpp:77
+#, kde-format
+msgid "No Entries"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: krecentfilesaction.cpp:83
+#, kde-format
+msgid "Clear List"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction.cpp:157
+#, kde-format
+msgctxt "go back"
+msgid "&Back"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction.cpp:164
+#, kde-format
+msgctxt "go forward"
+msgid "&Forward"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction.cpp:171
+#, kde-format
+msgctxt "home page"
+msgid "&Home"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction.cpp:175
+#, kde-format
+msgctxt "show help"
+msgid "&Help"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction.cpp:230
+#, kde-format
+msgid ""
+"Show Menubar"
+"<p>Shows the menubar again after it has been hidden</p>"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction.cpp:251
+#, kde-format
+msgid ""
+"Show Statusbar"
+"<p>Shows the statusbar, which is the bar at the bottom of the window used for status information.</p>"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:63
+msgid "&New"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:63
+msgid "Create new document"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:64
+msgid "&Open…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:31
+msgid "&Open..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:64
+msgid "Open an existing document"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:65
+msgid "Open &Recent"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:65
+msgid "Open a document which was recently opened"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:66
+msgid "&Save"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:92
+msgid "&Save Settings"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:66
+msgid "Save document"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:67
+msgid "Save &As…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:34
+msgid "Save &As..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:67
+msgid "Save document under a new name"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:68
+msgid "Re&vert"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:68
+msgid "Revert unsaved changes made to document"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:69
+msgid "&Close"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:69
+msgid "Close document"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:70
+msgid "&Print…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:37
+msgid "&Print..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:70
+msgid "Print document"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:71
+msgid "Print Previe&w"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:71
+msgid "Show a print preview of document"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:72
+msgid "&Mail…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:39
+msgid "&Mail..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:72
+msgid "Send document by mail"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:73
+msgid "&Quit"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:73
+msgid "Quit application"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:75
+msgid "&Undo"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:75
+msgid "Undo last action"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:76
+msgid "Re&do"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:76
+msgid "Redo last undone action"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:77
+msgid "Cu&t"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:77
+msgid "Cut selection to clipboard"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:78
+msgid "&Copy"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:78
+msgid "Copy selection to clipboard"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:79
+msgid "&Paste"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:79
+msgid "Paste clipboard content"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:80
+msgid "C&lear"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:81
+msgid "Select &All"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:82
+msgid "Dese&lect"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:83
+msgid "&Find…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:53
+msgid "&Find..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:84
+msgid "Find &Next"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:85
+msgid "Find Pre&vious"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:86
+msgid "&Replace…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:56
+msgid "&Replace..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:88
+msgid "Zoom to &Actual Size"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:88
+msgid "View document at its actual size"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:89
+msgid "&Fit to Page"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:89
+msgid "Zoom to fit page in window"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:90
+msgid "Fit to Page &Width"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:90
+msgid "Zoom to fit page width in window"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:91
+msgid "Fit to Page &Height"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:91
+msgid "Zoom to fit page height in window"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:92
+msgid "Zoom &In"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:93
+msgid "Zoom &Out"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:94
+msgid "&Zoom…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:64
+msgid "&Zoom..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:94
+msgid "Select zoom level"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:95
+msgid "&Refresh"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:95
+msgid "Refresh document"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:97
+msgid "&Up"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:97
+msgid "Go up"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:102
+msgid "&Previous Page"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:102
+msgid "Go to previous page"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:103
+msgid "&Next Page"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:103
+msgid "Go to next page"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:104
+msgid "&Go To…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:74
+msgid "&Go To..."
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:105
+msgid "&Go to Page…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:75
+msgid "&Go to Page..."
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:106
+msgid "&Go to Line…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:76
+msgid "&Go to Line..."
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:106
+msgid "Tip of the &Day"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:107
+msgid "&First Page"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:107
+msgid "Go to first page"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:108
+msgid "&Last Page"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:108
+msgid "Go to last page"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:109
+msgid "&Back"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:109
+msgid "Go back in document"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:110
+msgid "&Forward"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:110
+msgid "Go forward in document"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:112
+msgid "&Add Bookmark"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:113
+msgid "&Edit Bookmarks…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:83
+msgid "&Edit Bookmarks..."
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:115
+msgid "&Spelling…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:85
+msgid "&Spelling..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:115
+msgid "Check spelling in document"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:117
+msgid "Show &Menubar"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:117
+msgid "Show or hide menubar"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:118
+msgid "Show &Toolbar"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:118
+msgid "Show or hide toolbar"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:119
+msgid "Show St&atusbar"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:119
+msgid "Show or hide statusbar"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:120
+msgid "F&ull Screen Mode"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:121
+msgid "Configure Keyboard S&hortcuts…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:94
+msgid "Configure Keyboard S&hortcuts..."
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:122
+#, kde-format
+msgid "&Configure %1…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:95
+#, kde-format
+msgid "&Configure %1..."
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:123
+msgid "Configure Tool&bars…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:96
+msgid "Configure Tool&bars..."
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:124
+msgid "Configure &Notifications…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:97
+msgid "Configure &Notifications..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:128
+#, kde-format
+msgid "%1 &Handbook"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:129
+msgid "What's &This?"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:130
+msgid "&Report Bug…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:107
+msgid "&Report Bug..."
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:131
+msgid "Configure &Language…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:108
+msgid "Configure &Language..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:132
+#, kde-format
+msgid "&About %1"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:133
+msgid "About &KDE"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:134
+msgid "&Delete"
+msgstr ""
+
+#. +> trunk6
+#: kstandardaction_p.h:135
+msgid "&Rename…"
+msgstr ""
+
+#. +> trunk5
+#: kstandardaction_p.h:112
+msgid "&Rename..."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:136
+msgid "&Move to Trash"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:137
+msgid "&Donate"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:138
+msgid "Open &Menu"
+msgstr ""
+
+#. +> trunk6
+#: kstylemanager.cpp:74
+#, kde-format
+msgid "Application Style"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstylemanager.cpp:78
+#, kde-format
+msgid "Default"
+msgstr ""
+
+#. +> trunk5
+#: kcmodule.cpp:198
+#, kde-format
+msgid "You will be asked to authenticate before saving"
+msgstr ""
+
+#. +> trunk5
+#: kcmodule.cpp:202
+#, kde-format
+msgid "You are not allowed to save the configuration"
+msgstr ""
+
+#. +> trunk5
+#: ktipdialog.cpp:222
+#, kde-format
+msgctxt "@title:window"
+msgid "Tip of the Day"
+msgstr ""
+
+#. +> trunk5
+#: ktipdialog.cpp:238
+#, kde-format
+msgctxt "@title"
+msgid "Did you know...?\n"
+msgstr ""
+
+#. +> trunk5
+#: ktipdialog.cpp:291
+#, kde-format
+msgctxt "@option:check"
+msgid "&Show tips on startup"
+msgstr ""
+
+#. +> trunk5
+#: ktipdialog.cpp:296
+#, kde-format
+msgctxt "@action:button Goes to previous tip"
+msgid "&Previous"
+msgstr ""
+
+#. +> trunk5
+#: ktipdialog.cpp:301
+#, kde-format
+msgctxt "@action:button Goes to next tip, opposite to previous"
+msgid "&Next"
+msgstr ""

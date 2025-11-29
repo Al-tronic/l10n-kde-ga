@@ -1,0 +1,318 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-01-11 09:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6 stable5
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ActionEditor.cpp:60
+#, kde-format
+msgid "Editing Action '%1'"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ActionEditor.cpp:162
+#, kde-format
+msgid ""
+"It appears that the action name, command, icon or condition are not valid.\n"
+"Therefore, changes will not be applied."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ActionEditor.cpp:163
+#, kde-format
+msgid "Invalid action"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, GbParameter)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:17
+#, kde-format
+msgid "Edit Parameter"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, LblParameterType)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:43
+#, kde-format
+msgid "Parameter type:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:51
+#, kde-format
+msgid "Property Match"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:56
+#, kde-format
+msgid "Content Conjunction"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:61
+#, kde-format
+msgid "Content Disjunction"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbParameterType)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:66
+#, kde-format
+msgid "Device Interface Match"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, LblDeviceType)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:96
+#, kde-format
+msgid "Device type:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, LblValueName)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:135
+#, kde-format
+msgid "Value name:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbValueMatch)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:175
+#, kde-format
+msgid "Equals"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, CbValueMatch)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:180
+#, kde-format
+msgid "Contains"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, PbParameterReset)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:208
+#, kde-format
+msgid "Reset Parameter"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, PbParameterSave)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:215
+#, kde-format
+msgid "Save Parameter Changes"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KIconButton, IbActionIcon)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:247
+#, kde-format
+msgid "Action icon, click to change it"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, LeActionFriendlyName)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:254
+#, kde-format
+msgid "Action name"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, TlActionCommand)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:271
+#, kde-format
+msgid "Command: "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, LeActionCommand)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:283
+#, kde-format, no-c-format
+msgid ""
+"Command that will trigger the action\n"
+"This can include any or all of the following case insensitive expands:\n"
+"\n"
+"%f: The mountpoint for the device - Storage Access devices only\n"
+"%d: Path to the device node - Block devices only\n"
+"%i: The identifier of the device"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, TlPredicateTree)
+#. +> trunk6 stable6 stable5
+#: ActionEditor.ui:300
+#, kde-format
+msgid "Devices must match the following parameters for this action:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, LblActionName)
+#. +> trunk6 stable6 stable5
+#: AddAction.ui:19
+#, kde-format
+msgid "Action name:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, LeActionName)
+#. +> trunk6 stable6 stable5
+#: AddAction.ui:26
+#, kde-format
+msgid "Enter the name for your new action"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: DesktopFileGenerator.cpp:25
+#, kde-format
+msgid "Solid Action Desktop File Generator"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: DesktopFileGenerator.cpp:27
+#, kde-format
+msgid "Tool to automatically generate Desktop Files from Solid DeviceInterface classes for translation"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: DesktopFileGenerator.cpp:29
+#, kde-format
+msgid "(c) 2009, Ben Cooksley"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: DesktopFileGenerator.cpp:30
+#, kde-format
+msgid "Ben Cooksley"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: DesktopFileGenerator.cpp:30
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: PredicateItem.cpp:119
+#, kde-format
+msgid "The device must be of the type %1"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: PredicateItem.cpp:122
+#, kde-format
+msgid "Any of the contained properties must match"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: PredicateItem.cpp:125
+#, kde-format
+msgid "All of the contained properties must match"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: PredicateItem.cpp:134
+#, kde-format
+msgid "The device property %1 must equal %2"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: PredicateItem.cpp:137
+#, kde-format
+msgid "The device property %1 must contain %2"
+msgstr ""
+
+#. +> stable5
+#: SolidActions.cpp:33
+#, kde-format
+msgid "Solid Device Actions Editor"
+msgstr ""
+
+#. +> stable5
+#: SolidActions.cpp:35
+#, kde-format
+msgid "Solid Device Actions Control Panel Module"
+msgstr ""
+
+#. +> stable5
+#: SolidActions.cpp:37
+#, kde-format
+msgid "(c) 2009, 2014 Solid Device Actions team"
+msgstr ""
+
+#. +> stable5
+#: SolidActions.cpp:39
+#, kde-format
+msgid "Port to Plasma 5"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: SolidActions.cpp:137
+#, kde-format
+msgid "It appears that the predicate for this action is not valid."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: SolidActions.cpp:137
+#, kde-format
+msgid "Error Parsing Device Conditions"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: SolidActions.cpp:185
+#, kde-format
+msgid "No Action Selected"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: SolidActions.cpp:206
+#, kde-format
+msgid "Cannot be deleted"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, PbDeleteAction)
+#. +> trunk6 stable6 stable5
+#: SolidActions.ui:22
+#, kde-format
+msgid "Remove"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, PbEditAction)
+#. +> trunk6 stable6 stable5
+#: SolidActions.ui:29
+#, kde-format
+msgid "Edit…"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, PbAddAction)
+#. +> trunk6 stable6 stable5
+#: SolidActions.ui:36
+#, kde-format
+msgid "Add…"
+msgstr ""

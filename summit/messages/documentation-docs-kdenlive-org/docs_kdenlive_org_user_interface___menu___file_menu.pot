@@ -1,0 +1,288 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:48+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:31
+msgid "File Menu"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:33
+msgid "The File Menu contains the normal file operations as well as the option to import and export project files using the OpenTimelineIO format."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:38
+msgid "New"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:40
+msgid "Creates a new Kdenlive project. The default keyboard shortcut is :kbd:`Ctrl+N`."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:42
+msgid "See :ref:`quickstart`."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:44
+msgid "The default settings that appear on this feature are defined in :menuselection:`Menu --> Settings --> Configure Kdenlive`. See the chapter :doc:`Configure Kdenlive</getting_started/configuration>` for more details."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:49
+msgid "Open"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:51
+msgid "Opens a :file:`.kdenlive` project file. The default keyboard shortcut is :kbd:`Ctrl+O`."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:60
+msgid "Clip Problems"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:63
+msgid "When opening a project and the needed clips are moved to another place, Kdenlive gives you the possibility to search for the clips needed in the project."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:65
+msgid "In the dialog, sort the column as you need it when click on :guilabel:`Type`, :guilabel:`Status`, :guilabel:`Original Path`, :guilabel:`New Path`."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:67
+msgid ":guilabel:`Recreate missing proxies` if the proxies were deleted"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:69
+msgid "**Selected Items**"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:71
+msgid ":guilabel:`Search Manually` search manually for the new path"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:73
+msgid ":guilabel:`Remove` removes selected clips from re-assigning to a new path (useful when source clips are not available anymore)"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:75
+msgid "**All Missing Items**"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:77
+msgid ":guilabel:`Search Recursively` point to the new path where all project clips are stored and Kdenlive re-assign the clips automatically"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:79
+msgid ":guilabel:`Use Placeholders` instead of the original clips"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:84
+msgid "Open Recent"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:86
+msgid "Displays a picklist of recently saved files (up to 10) to choose from. Click the :menuselection:`Clear List` choice when you want to start over with a fresh list."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:89
+msgid "Save"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:91
+msgid "Saves the current state of the project. Prompts for a file name if this is the first time the file is being saved. The default keyboard shortcut is :kbd:`Ctrl+S`."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:94
+msgid "Save As"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:96
+msgid "Saves the current state of the project in a :file:`.kdenlive` file. Prompts for a file name. Kdenlive then continues with the new project. The default keyboard shortcut is :kbd:`Ctrl+Shift+S`."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:99
+msgid "Save Copy"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:101
+msgid "Saves the current state of the project in a :file:`.kdenlive` file as a copy. Prompts for a file name. Kdenlive returns to the current project."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:104
+msgid "Revert"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:106
+msgid "This abandons any changes to the project you have made since last saving and reverts back to the last saved version of the project."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:110
+msgid "Transcode Clips"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:119
+msgid "Transcode clips"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:122
+msgid "Use this to convert a video or audio clip from one codec/format to another."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:124
+msgid "Choose one source file or multiple source files and a profile that represents the desired destination codec/format. Optionally change the destination path and file name and hit :guilabel:`Start`. Otherwise, hit :guilabel:`Abort` to close the windows."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:126
+msgid "Transcoding a clip should be faster than loading the clip into the timeline and re-encoding it into a different format."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:128
+msgid ":guilabel:`Add clip to project` controls if after the conversion, the new clip is added to the :doc:`Project Bin </project_and_asset_management/project_bin>`."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:130
+msgid ":guilabel:`Close after encode` Uncheck this checkbox if there is the need to convert to another format after the conversion."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:139
+msgid "OpenTimelineIO Export"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:141
+msgid "Export a timeline with multiple tracks and clips"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:142
+#: ../../user_interface/menu/file_menu.rst:160
+msgid "Support for markers and guides"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:146
+msgid "Guides are converted to OTIO markers on the timeline stack."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:148
+msgid "Clip markers are converted to OTIO markers. Note that clip markers work differently between Kdenlive and OTIO; in Kdenlive they are shared between each instance of the clip, in OTIO they are unique to each instance of the clip."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:150
+msgid "The Kdenlive marker types are stored as OTIO metadata for round-tripping files. This allows the guides and clip markers to be properly recreated when importing an OTIO file that was created with Kdenlive. The metadata is stored under the key \"kdenlive\" to keep it separate from metadata of other applications."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:157
+msgid "OpenTimelineIO import"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:159
+msgid "Import a timeline with multiple tracks and clips"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:164
+msgid "OTIO files do not contain information about rendering, so we get the render resolution from the first video clip."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:166
+msgid "OTIO markers on the timeline stack are converted to Kdenlive guides."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:168
+msgid "OTIO markers on clips are converted to Kdenlive clip markers. Note that clip markers work differently between Kdenlive and OTIO; in Kdenlive they are shared between each instance of the clip, in OTIO the they are unique to each instance of the clip."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:170
+msgid "If the OTIO marker metadata does not contain the Kdenlive marker type, we pick the Kdenlive guide/marker with the closest color to the OTIO marker."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:174
+msgid "Quit"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:176
+msgid "Exits **Kdenlive**."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:178
+msgid "Prompts you to save any unsaved changes. The default keyboard shortcut is :kbd:`Ctrl+Q`."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:-1
+msgid "Kdenlive Documentation - File Menu"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:-1
+msgid "KDE, Kdenlive, file, menu, new, open, save, revert, transcode, clips, quit, documentation, user manual, video editor, open source, free, learn, easy"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:0
+msgid "kdenlive2402_clip-problems"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/menu/file_menu.rst:0
+msgid "kdenlive2304_transcode_2"
+msgstr ""

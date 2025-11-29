@@ -1,0 +1,337 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#: details-categories.docbook:5
+#, no-c-format
+msgid "&Roger.Lum; &Roger.Lum.mail;"
+msgstr ""
+
+#. Tag: author
+#: details-categories.docbook:6
+#, no-c-format
+msgid "&Michael.Carpino; &Michael.Carpino.mail;"
+msgstr ""
+
+#. Tag: author
+#: details-categories.docbook:7
+#, no-c-format
+msgid "&Jack.H.Ostroff; &Jack.H.Ostroff.mail;"
+msgstr ""
+
+#. Tag: date
+#: details-categories.docbook:9
+#, no-c-format
+msgid "2024-12-01"
+msgstr ""
+
+#. Tag: releaseinfo
+#: details-categories.docbook:10
+#, no-c-format
+msgid "5.2.0"
+msgstr ""
+
+#. Tag: title
+#: details-categories.docbook:13
+#, no-c-format
+msgid "Categories"
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:15
+#, no-c-format
+msgid ""
+"Internally, Categories are treated by &kmymoney; as a special type of "
+"account, so many of the features of Categories are very similar to those of "
+"other Accounts."
+msgstr ""
+
+#. Tag: title
+#: details-categories.docbook:20
+#, no-c-format
+msgid "Categories View"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-categories.docbook:22
+#, no-c-format
+msgid "<screeninfo>categories view</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-categories.docbook:28
+#, no-c-format
+msgid "<phrase>categories view</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:33
+#, no-c-format
+msgid ""
+"The Categories View provides a summary of all the existing categories in "
+"your current data file. Similar to the Accounts View, categories are grouped "
+"into Income and Expense. As with the Institutions View and Accounts View, "
+"the list of categories can be expanded or collapsed by clicking the arrow to "
+"the left of the type or name. As with Asset and Liability Accounts, "
+"Categories can be considered subcategories, with a parent of another "
+"category instead of the top-level Income or Expense."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:43
+#, no-c-format
+msgid ""
+"Similar to the Accounts View, the Categories View displays several columns "
+"with descriptive and summary information about each category. As with the "
+"Accounts View, you can select which columns are shown by right-clicking any "
+"column heading and selecting or unselecting the checkbox next to the name of "
+"the column."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:50
+#, no-c-format
+msgid ""
+"The columns available for Categories are identical to those for Accounts for "
+"Name, Type, Tax, VAT, Balance, and Total Value. Online, Account Number, and "
+"IBAN are not applicable to Categories. There is one additional column "
+"available."
+msgstr ""
+
+#. Tag: term
+#: details-categories.docbook:58
+#, no-c-format
+msgid "<term>CC</term>"
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:60
+#, no-c-format
+msgid ""
+"An indication that a cost center assignment is necessary under certain "
+"conditions when entering a transaction for this category. This is a recently "
+"added feature, which is not yet implemented, so this column is not currently "
+"used. In addition, it may not show up at all, depending on the value of a "
+"build time configuration setting."
+msgstr ""
+
+#. Tag: title
+#: details-categories.docbook:72
+#, no-c-format
+msgid "Creating a category"
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:73
+#, no-c-format
+msgid ""
+"There are 3 ways to create a new category: select the <menuchoice> "
+"<guimenu>Category</guimenu> <guimenuitem>New category</guimenuitem></"
+"menuchoice> menu item, right-click a parent in the tree in the Categories "
+"View and select the <guimenuitem>New Category</guimenuitem> option, or "
+"directly type the name of the new category when adding or editing a "
+"transaction in the Ledger. Doing any of these steps will direct you to the "
+"<guilabel>Create a new Category</guilabel> dialog. This dialog contains "
+"three tabs: <guilabel>General</guilabel>, <guilabel>Hierarchy</guilabel>, "
+"and <guilabel>Tax</guilabel>. The General tab includes editable fields for "
+"the new category name, type, and currency (with the default currency "
+"preselected,) as well as options for Last check number, Notes, and a "
+"checkbox for Cost Center assignment required. In the Hierarchy tab, you are "
+"able to select the appropriate parent for the category. Finally, in the Tax "
+"tab, there are fields to enable and configure VAT support, and a checkbox to "
+"include this category in tax related reports."
+msgstr ""
+
+#. Tag: screeninfo
+#: details-categories.docbook:91
+#, no-c-format
+msgid "<screeninfo>create new category</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-categories.docbook:97
+#, no-c-format
+msgid "<phrase>create new category</phrase>"
+msgstr ""
+
+#. Tag: title
+#: details-categories.docbook:103
+#, no-c-format
+msgid "Editing a Category"
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:104
+#, no-c-format
+msgid ""
+"To edit a category, right-click a category name in the Category View, and "
+"choose <guimenuitem>Edit category...</guimenuitem>. A window appears with "
+"the same three tabs as the <guilabel>Create a new Category</guilabel> "
+"dialog: General, Hierarchy, and Tax. Each tab allows you to edit certain "
+"details of the category."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:111
+#, no-c-format
+msgid ""
+"The General tab allows you to edit the name of the category, any notes you "
+"entered when you created the category, and the Last check number. The Type "
+"and Currency cannot be changed from their initial values."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:117
+#, no-c-format
+msgid ""
+"The Hierarchy tab allows you to change the parent of the selected category "
+"by clicking another category which then becomes the parent. In addition, you "
+"can drag a category and drop it under its new parent."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:123
+#, no-c-format
+msgid ""
+"The Tax tab allows you to assign or change VAT details, or to alter the "
+"automatic VAT assignment. It also allows you to toggle whether or not the "
+"category is included in tax related reports."
+msgstr ""
+
+#. Tag: author
+#: details-categories.docbook:132
+#, no-c-format
+msgid "&Thomas.Baumgart; &Thomas.Baumgart.mail;"
+msgstr ""
+
+#. Tag: title
+#: details-categories.docbook:134
+#, no-c-format
+msgid "VAT Support"
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:136
+#, no-c-format
+msgid ""
+"You can turn an expense/income category into a VAT category, which means "
+"that it receives all the splits that actually make up the VAT payment "
+"towards the government. You can also enter a specific percentage rate."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:142
+#, no-c-format
+msgid ""
+"Categories can be assigned a VAT category, which allows &kmymoney; to split "
+"a transaction for a category into two parts, one for the category and one "
+"for the VAT. Depending on the setting of the gross/net amount switch, the "
+"amount you enter for the transaction is the gross or net amount."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:149
+#, no-c-format
+msgid ""
+"Example: In Germany, there are three VAT percentages (0%, 7%, and 19%). So I "
+"have a main category \"VAT paid\" and three subcategories, one for each "
+"percentage rate. I create these on both the income and the expense sides so "
+"that I have six categories in total. For the goods I buy, I select one of "
+"the above mentioned categories as the \"VAT category assignment\"."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:157
+#, no-c-format
+msgid ""
+"When I buy goods, I enter them into a transaction. Let's assume I have "
+"selected the gross amount entry method, once I enter the category and "
+"amount, &kmymoney; will recognize that there's a VAT assignment and "
+"calculate the VAT part, create a second split with the VAT account and VAT "
+"amount and reduce the category amount."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:165
+#, no-c-format
+msgid ""
+"The same applies to income categories but the other way around. Hope that "
+"makes sense."
+msgstr ""
+
+#. Tag: title
+#: details-categories.docbook:172
+#, no-c-format
+msgid "Deleting a category"
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:173
+#, no-c-format
+msgid ""
+"Deleting a Category is similar to deleting an Account. To delete a category, "
+"right-click its name in the Categories View, and select <guimenuitem>Delete "
+"Category...</guimenuitem>. If the category has no transactions, schedules, "
+"or budgets associated with it, and it is not set as the default category for "
+"new transactions with any payee, it will be deleted."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:181
+#, no-c-format
+msgid ""
+"If the category has any of those items, a popup will be displayed allowing "
+"you to choose another category to which all those items can be reassigned "
+"before the category is deleted."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:187
+#, no-c-format
+msgid ""
+"If you delete a category which is the parent of any other categories, a "
+"dialog will be displayed for you to choose whether to delete that category "
+"and all its sub-categories or just the parent category. If you choose to "
+"just delete the parent category, then all its sub-categories will be moved "
+"to its parent category."
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:195
+#, no-c-format
+msgid ""
+"Note that deleting some categories may prompt both for where to reassign its "
+"data and also whether or not to delete any sub-categories."
+msgstr ""
+
+#. Tag: title
+#: details-categories.docbook:201
+#, no-c-format
+msgid "Open ledger for a category"
+msgstr ""
+
+#. Tag: para
+#: details-categories.docbook:202
+#, no-c-format
+msgid ""
+"The menu options for categories includes a choice to open a ledger for that "
+"category. When this option is selected &kmymoney; will display that category "
+"in a tab in the Ledgers View, showing all the transactions for the selected "
+"category. This allows you to quickly review all the transactions in detail "
+"for the selected category. You can then right-click any transaction to "
+"obtain additional details about the specific transaction, and can even edit "
+"the transaction."
+msgstr ""

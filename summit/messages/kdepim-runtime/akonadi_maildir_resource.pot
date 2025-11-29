@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdepim-runtime package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepim-runtime\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#: configwidget.cpp:36
+#, kde-format
+msgid "Archive Folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configwidget.cpp:39
+#, kde-format
+msgid "Activities"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configwidget.cpp:54
+#, kde-format
+msgid "The selected path is empty."
+msgstr ""
+
+#. +> trunk6 stable6
+#: configwidget.cpp:67
+#, kde-format
+msgid "The selected path contains valid Maildir folders."
+msgstr ""
+
+#. +> trunk6 stable6
+#: configwidget.cpp:74
+#, kde-format
+msgid "The selected path is a valid Maildir."
+msgstr ""
+
+#. +> trunk6 stable6
+#: configwidget.cpp:80
+#, kde-format
+msgid "The selected path does not exist yet, a new Maildir will be created."
+msgstr ""
+
+#. +> trunk6 stable6
+#: configwidget.cpp:84
+#, kde-format
+msgid "The selected path does not exist."
+msgstr ""
+
+#. +> trunk6 stable6
+#: libmaildir/maildir.cpp:214 libmaildir/maildir.cpp:219
+#, kde-format
+msgid "Error opening %1; this folder is missing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: libmaildir/maildir.cpp:225
+#, kde-format
+msgid "Error opening %1; either this is not a valid maildir folder, or you do not have sufficient access permissions."
+msgstr ""
+
+#. +> trunk6 stable6
+#: libmaildir/maildir.cpp:452 libmaildir/maildir.cpp:474
+#: libmaildir/maildir.cpp:492 libmaildir/maildir.cpp:512
+#: libmaildir/maildir.cpp:531 libmaildir/maildir.cpp:555
+#: libmaildir/maildir.cpp:630 libmaildir/maildir.cpp:780
+#, kde-format
+msgid "Cannot locate mail file %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: libmaildir/maildir.cpp:458 libmaildir/maildir.cpp:480
+#, kde-format
+msgid "Cannot open mail file %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: libmaildir/maildir.cpp:563 libmaildir/maildir.cpp:590
+#, kde-format
+msgid "Cannot write to mail file %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: libmaildir/maildir.cpp:604
+#, kde-format
+msgid "Failed to create mail file %1. The error was: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: libmaildir/maildir.cpp:698
+#, kde-format
+msgid "Failed to update the file name %1 to %2 on the disk. The error was: %3."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:122 maildirresource.cpp:254 maildirresource.cpp:293
+#: maildirresource.cpp:387 maildirresource.cpp:428 maildirresource.cpp:548
+#: maildirresource.cpp:578 maildirresource.cpp:621 maildirresource.cpp:654
+#, kde-format
+msgid "Unusable configuration."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:187
+#, kde-format
+msgid "Unable to fetch item: The maildir folder \"%1\" is not valid."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:265
+#, kde-format
+msgid "Error: Unsupported type."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:331
+#, kde-format
+msgid "Failed to change the flags for the mail. %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:366
+#, kde-format
+msgid "Maildir resource got a non-mail content."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:393
+#, kde-format
+msgid "Source folder is invalid: '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:399
+#, kde-format
+msgid "Destination folder is invalid: '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:416
+#, kde-format
+msgid "Could not move message '%1' from '%2' to '%3'. The error was %4."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:438
+#, kde-format
+msgid "Failed to delete message: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:527
+#, kde-format
+msgid "Maildir '%1' for collection '%2' is invalid."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:606
+#, kde-format
+msgid "Unable to rename maildir folder '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:627
+#, kde-format
+msgid "Cannot move root maildir folder '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:642
+#, kde-format
+msgid "Unable to move maildir folder '%1' from '%2' to '%3'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:660
+#, kde-format
+msgid "Cannot delete top-level maildir folder '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:669
+#, kde-format
+msgid "Failed to delete sub-folder '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:683
+#, kde-format
+msgid "Unable to create maildir '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: maildirresource.cpp:693
+#, kde-format
+msgid "No usable storage location configured."
+msgstr ""
+
+#. i18n: ectx: label, entry (Path), group (General)
+#. +> trunk6 stable6
+#: maildirresource.kcfg:10
+#, kde-format
+msgid "Path to maildir"
+msgstr ""
+
+#. i18n: ectx: label, entry (TopLevelIsContainer), group (General)
+#. +> trunk6 stable6
+#: maildirresource.kcfg:14
+#, kde-format
+msgid "Path points to a folder containing Maildirs instead of to a maildir itself."
+msgstr ""
+
+#. i18n: ectx: label, entry (ReadOnly), group (General)
+#. +> trunk6 stable6
+#: maildirresource.kcfg:18
+#, kde-format
+msgid "Do not change the actual backend data."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigWidget)
+#. +> trunk6 stable6
+#: settings.ui:15
+#, kde-format
+msgid "Mail Directory Settings"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. +> trunk6 stable6
+#: settings.ui:37
+#, kde-format
+msgid "Maildir"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: settings.ui:43
+#, kde-format
+msgid "Select the folder containing the maildir information:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReadOnly)
+#. +> trunk6 stable6
+#: settings.ui:53
+#, kde-format
+msgid "Open in read-only mode"
+msgstr ""

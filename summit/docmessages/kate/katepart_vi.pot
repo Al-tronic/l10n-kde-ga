@@ -1,0 +1,2206 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: vi.docbook:4
+#, no-c-format
+msgid "&Erlend.Hamberg; &Erlend.Hamberg.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: vi.docbook:7
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:11
+#, no-c-format
+msgid "The VI Input Mode"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:14
+#, no-c-format
+msgid "VI Input Mode"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:16
+#, no-c-format
+msgid "The goal of the VI mode is not to be a complete replacement for Vim and support all Vim’s features. Its aim is to make the <quote>Vim way</quote> of text editing - and the Vim habits learned - available for programs using the &kappname; text editor as their internal editor."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:21
+#, no-c-format
+msgid "The VI mode aims to integrate nicely with the program and deviate from Vim’s behavior where it makes sense. For example, <userinput><command>:w</command></userinput> will open a save dialog in &kappname;’s VI mode."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:25
+#, no-c-format
+msgid "To enable the VI Input Mode for all new views, go to <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kappname;...</guimenuitem> <guimenu>Editing</guimenu><guimenuitem>VI Input Mode</guimenuitem></menuchoice>. On this tab you can set options for the VI Input Mode and define and edit the key mapping in this mode. VI Input Mode can also be toggled with the <guimenuitem>VI Input Mode</guimenuitem> setting in the <guimenu>Edit</guimenu> menu. (The default shortcut key is <keycombo action=\"simul\">&Meta;&Ctrl;<keycap>V</keycap></keycombo> - where &Meta; usually is the <keysym>Windows</keysym> key)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:36
+#, no-c-format
+msgid "Many Vi Mode keyboard commands are case-sensitive, unlike most &kde; keyboard shortcuts. That means that <userinput>y</userinput> and <userinput>Y</userinput> are different commands. To enter the <userinput>y</userinput> (yank) command, make sure <keysym>Caps Lock</keysym> is disabled and press <keycap>Y</keycap>. To enter the <userinput>Y</userinput> (yank to end of line) command, <keycombo action=\"simul\">&Shift;<keycap>Y</keycap></keycombo>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:44
+#, no-c-format
+msgid "This does not apply to commands that use the &Ctrl; key, which may be entered regardless of <keycap>Caps Lock</keycap> mode and without pressing &Shift;. However, some commands require the use of a &Ctrl;-key combination followed by another key which is case sensitive. For instance, to input <quote><keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo>, <userinput>h</userinput></quote> (switch to split view right) make sure <keycap>Caps Lock</keycap> is disabled, press <keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo>, release, and then press <keycap>H</keycap>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:56
+#, no-c-format
+msgid "Incompatibilities with Vim"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:58
+#, no-c-format
+msgid "There are only a few features of &kappname;’s VI mode which are incompatible with Vim (not counting things missing). They are listed below together with the respective reasons."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:63
+#, no-c-format
+msgid "&kappname;: <userinput>U</userinput> and <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> is redo."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:65
+#, no-c-format
+msgid "Vim: <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> is normal redo, <keycap>U</keycap> is used to undo all latest changes on one line."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:67
+#, no-c-format
+msgid "The reason for having <keycap>U</keycap> act as redo in &kappname;’s VI mode is that the shortcut <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> by default is taken by &kappname;’s replace function (search and replace). By default, the VI mode won’t override &kappname;’s shortcuts (this can be configured in <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kappname;...</guimenuitem> <guimenu>Editing</guimenu><guimenuitem>Vi Input Mode</guimenuitem></menuchoice>), therefore a redo-action needs to be available as a <quote>regular</quote> key press, too. Besides, the behavior of the <userinput>U</userinput> command in Vim does not map well to &kappname;’s internal undo system, so it would be non-trivial to support anyway."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:78
+#, no-c-format
+msgid "&kappname;: <userinput><command>print</command></userinput> shows the <guilabel>Print</guilabel> dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:79
+#, no-c-format
+msgid "Vim: <userinput><command>print</command></userinput> prints the lines of the given range like its grandfather ed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:81
+#, no-c-format
+msgid "Commands like <userinput><command>:print</command></userinput> are available not only in the VI mode but for users using <quote>regular</quote> &kappname;, too - therefore the <userinput><command>:print</command></userinput> command opens the print dialog - following the principle of least surprise instead of mimicking Vim’s behavior."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:88
+#, no-c-format
+msgid "&kappname;: <userinput>Y</userinput> yanks to end of line."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:89
+#, no-c-format
+msgid "Vim: <userinput>Y</userinput> yanks whole line, just like <userinput>y</userinput><userinput>y</userinput>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:91
+#, no-c-format
+msgid "VI’s behavior for the <userinput>Y</userinput> command is in practice a bug. For both change and delete commands, <userinput>c</userinput><userinput>c</userinput>/ <userinput>d</userinput><userinput>d</userinput> will do its action on the current line and <userinput>C</userinput>/<userinput>D</userinput> will work from the cursor column to the end of the line. However, both <userinput>y</userinput><userinput>y</userinput> and <userinput>Y</userinput> yanks the current line. In &kappname;’s VI Mode <userinput>Y</userinput> will yank to the end of the line. This is described as <quote>more logical</quote> in the Vim <ulink url=\"http://vimdoc.sourceforge.net/htmldoc/change.html#Y\">documentation</ulink>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:104
+#, no-c-format
+msgid "&kappname;: <userinput>O</userinput> and <userinput>o</userinput> opens [<replaceable>count</replaceable>] new lines and puts you in insert mode."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:106
+#, no-c-format
+msgid "Vim: <userinput>O</userinput> and <userinput>o</userinput> opens a new line and inserts text [<replaceable>count</replaceable>] times when leaving insert mode."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:108
+#, no-c-format
+msgid "This is mostly done as a consequence of witnessing many people being confused by this behavior on a vim &irc; channel (#vim on Libera Chat)."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:116
+#, no-c-format
+msgid "Switching Modes"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:120
+#, no-c-format
+msgid "<emphasis>Normal Mode</emphasis> permits you to enter commands to navigate or edit a document, and is the default mode. You can return to it from any other mode by pressing &Esc;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:125
+#, no-c-format
+msgid "<emphasis>Visual Mode</emphasis> permits you to highlight text in a document. Most Normal Mode commands are also valid in this mode. You can enter it by pressing <userinput>v</userinput> to select characters or <userinput>V</userinput> to select lines."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:130
+#, no-c-format
+msgid "<emphasis>Insert Mode</emphasis> permits you to edit the document directly. You can enter it by pressing <userinput>i</userinput> or one of several other commands listed below."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:135
+#, no-c-format
+msgid "<emphasis>Command Mode</emphasis> invokes &kappname;'s command line, permitting you to run many commands available in Vi implementations as well as some specific to &kappname;. For more information on these commands, see <xref linkend=\"advanced-editing-tools-commandline\"/>. To use it, press <keycap>:</keycap>, enter the command, and press &Enter;."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:146
+#, no-c-format
+msgid "Integration with &kate; features"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:150
+#, no-c-format
+msgid "Visual Mode is entered automatically when text is selected with the mouse. It is also entered when using functions of &kate; that select text, such as Select All (either from the menu or via <keycombo action=\"simul\">&Ctrl;<keycap>A</keycap> </keycombo>.)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:157
+#, no-c-format
+msgid "Vi marks and <link linkend=\"kate-part-bookmarks\">&kate; bookmarks</link> are integrated. When a mark is created in Vi Mode, a corresponding &kate; bookmark is created and appears in the <guimenu>Bookmarks</guimenu> menu. Conversely, when a &kate; bookmark is created, a corresponding Vi mark at the 0 column is also created."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:168
+#, no-c-format
+msgid "Supported normal/visual mode commands"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:179
+#, no-c-format
+msgid "<userinput>a</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:180
+#, no-c-format
+msgid "Enter Insert Mode; append after cursor"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:182
+#, no-c-format
+msgid "<userinput>A</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:183
+#, no-c-format
+msgid "Enter Insert Mode; append after line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:185
+#, no-c-format
+msgid "<userinput>i</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:186 vi.docbook:189
+#, no-c-format
+msgid "Enter Insert Mode; insert before cursor"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:188
+#, no-c-format
+msgid "&Ins;"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:191
+#, no-c-format
+msgid "<userinput>I</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:192
+#, no-c-format
+msgid "Enter Insert Mode; insert before first non-blank char on line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:194
+#, no-c-format
+msgid "<userinput>gi</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:195
+#, no-c-format
+msgid "Enter Insert Mode; insert before place, where leaving the last insert mode"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:197
+#, no-c-format
+msgid "<userinput>v</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:198
+#, no-c-format
+msgid "Enter Visual Mode; select characters"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:200
+#, no-c-format
+msgid "<userinput>V</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:201
+#, no-c-format
+msgid "Enter Visual Mode; select lines"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:203
+#, no-c-format
+msgid "&Ctrl;<keycap>v</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:204
+#, no-c-format
+msgid "Enter Visual Mode; select blocks"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:206
+#, no-c-format
+msgid "<userinput>gb</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:207
+#, no-c-format
+msgid "Enter Visual Mode; reselect the last selection"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:209
+#, no-c-format
+msgid "<userinput>o</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:210
+#, no-c-format
+msgid "Open a new line below current line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:212
+#, no-c-format
+msgid "<userinput>O</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:213
+#, no-c-format
+msgid "Open a new line above current line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:215
+#, no-c-format
+msgid "<userinput>J</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:216
+#, no-c-format
+msgid "Join lines"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:218
+#, no-c-format
+msgid "<userinput>c</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:219
+#, no-c-format
+msgid "Change: follow by a motion to delete and enter Insert mode"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:221
+#, no-c-format
+msgid "<userinput>C</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:222
+#, no-c-format
+msgid "Change to end of line: Delete to end of line and enter Insert Mode"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:224
+#, no-c-format
+msgid "<userinput>cc</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:225
+#, no-c-format
+msgid "Change line: Delete line and enter Insert Mode"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:227
+#, no-c-format
+msgid "<userinput>s</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:228
+#, no-c-format
+msgid "Substitute character"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:230
+#, no-c-format
+msgid "<userinput>S</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:231
+#, no-c-format
+msgid "Substitute line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:233
+#, no-c-format
+msgid "<userinput>dd</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:234 vi.docbook:649
+#, no-c-format
+msgid "Delete line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:236
+#, no-c-format
+msgid "<userinput>d</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:237
+#, no-c-format
+msgid "Follow by a motion to delete"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:239
+#, no-c-format
+msgid "<userinput>D</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:240
+#, no-c-format
+msgid "Delete to end of line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:242
+#, no-c-format
+msgid "<userinput>x</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:243 vi.docbook:246
+#, no-c-format
+msgid "Delete character to right of cursor"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:245
+#, no-c-format
+msgid "&Del;"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:248
+#, no-c-format
+msgid "<userinput>X</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:249
+#, no-c-format
+msgid "Delete character to left of cursor"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:251
+#, no-c-format
+msgid "<userinput>gu</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:252
+#, no-c-format
+msgid "Follow with a motion to make lowercase"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:254
+#, no-c-format
+msgid "<userinput>guu</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:255
+#, no-c-format
+msgid "Make the current line lowercase"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:257
+#, no-c-format
+msgid "<userinput>gU</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:258
+#, no-c-format
+msgid "Follow with a motion to make uppercase"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:260
+#, no-c-format
+msgid "<userinput>gUU</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:261
+#, no-c-format
+msgid "Make the current line uppercase"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:263
+#, no-c-format
+msgid "<userinput>y</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:264
+#, no-c-format
+msgid "Follow by a motion to <quote>yank</quote> (copy)"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:266
+#, no-c-format
+msgid "<userinput>yy</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:267 vi.docbook:270
+#, no-c-format
+msgid "Yank (copy) line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:269
+#, no-c-format
+msgid "<userinput>Y</userinput>"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:272
+#, no-c-format
+msgid "<userinput>p</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:273
+#, no-c-format
+msgid "Paste after cursor"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:275
+#, no-c-format
+msgid "<userinput>P</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:276
+#, no-c-format
+msgid "Paste before cursor"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:278
+#, no-c-format
+msgid "<userinput>]p</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:279
+#, no-c-format
+msgid "Paste after cursor indented"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:281
+#, no-c-format
+msgid "<userinput>[p</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:282
+#, no-c-format
+msgid "Paste before cursor indented"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:284
+#, no-c-format
+msgid "<userinput>r</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:285
+#, no-c-format
+msgid "Follow with a character to replace the character after the cursor"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:287
+#, no-c-format
+msgid "<userinput>R</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:288
+#, no-c-format
+msgid "Enter Replace Mode"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:290
+#, no-c-format
+msgid "<userinput>:</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:291
+#, no-c-format
+msgid "Enter Command Mode"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:293
+#, no-c-format
+msgid "<userinput>/</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:294
+#, no-c-format
+msgid "Search"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:296
+#, no-c-format
+msgid "<userinput>u</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:297
+#, no-c-format
+msgid "Undo"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:299
+#, no-c-format
+msgid "&Ctrl;<keycap>R</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:300 vi.docbook:303
+#, no-c-format
+msgid "Redo"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:302
+#, no-c-format
+msgid "<userinput>U</userinput>"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:305
+#, no-c-format
+msgid "<userinput>m</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:306
+#, no-c-format
+msgid "Set mark (can be used by motions later)"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:308
+#, no-c-format
+msgid "<userinput>n</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:309
+#, no-c-format
+msgid "Find next"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:311
+#, no-c-format
+msgid "<userinput>N</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:312
+#, no-c-format
+msgid "Find previous"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:314
+#, no-c-format
+msgid "&gt;&gt;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:315
+#, no-c-format
+msgid "Indent line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:317
+#, no-c-format
+msgid "&lt;&lt;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:318
+#, no-c-format
+msgid "Unindent line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:320
+#, no-c-format
+msgid "&gt;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:321
+#, no-c-format
+msgid "Indent lines"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:323
+#, no-c-format
+msgid "&lt;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:324
+#, no-c-format
+msgid "Unindent lines"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:326
+#, no-c-format
+msgid "&Ctrl;<keycap>F</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:327
+#, no-c-format
+msgid "Page down"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:329
+#, no-c-format
+msgid "&Ctrl;<keycap>B</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:330
+#, no-c-format
+msgid "Page up"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:332
+#, no-c-format
+msgid "<userinput>ga</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:333
+#, no-c-format
+msgid "Print the &ASCII; value of the character"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:335
+#, no-c-format
+msgid "<userinput>.</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:336
+#, no-c-format
+msgid "Repeat last change"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:338
+#, no-c-format
+msgid "<userinput>==</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:339
+#, no-c-format
+msgid "commandAlignLine"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:341
+#, no-c-format
+msgid "<userinput>=</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:342
+#, no-c-format
+msgid "commandAlignLines"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:344
+#, no-c-format
+msgid "<userinput>~</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:345
+#, no-c-format
+msgid "Change case of current character"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:347
+#, no-c-format
+msgid "&Ctrl;<keycap>S</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:348
+#, no-c-format
+msgid "Split view horizontally"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:350
+#, no-c-format
+msgid "&Ctrl;<keycap>V</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:351
+#, no-c-format
+msgid "Split view vertically"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:353
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, <userinput>w</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:355
+#, no-c-format
+msgid "Cycle to next split window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:357
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, <userinput>h</userinput>"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:359
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Left;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:361
+#, no-c-format
+msgid "Go to left split window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:363
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, <userinput>l</userinput>"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:365
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Right;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:367
+#, no-c-format
+msgid "Go to right split window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:369
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, <userinput>k</userinput>"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:371
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Up;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:373
+#, no-c-format
+msgid "Go to above split window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:375
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>, <userinput>j</userinput>"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:377
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl; <keycap>W</keycap></keycombo>&Down;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:379
+#, no-c-format
+msgid "Go to below split window"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:387
+#, no-c-format
+msgid "Supported motions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:389
+#, no-c-format
+msgid "These may be used to move around a document in Normal or Visual mode, or in conjunction with one of the above commands. They may be preceded by a count, which indicates how many of the appropriate movements to make."
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:402
+#, no-c-format
+msgid "<userinput>h</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:403 vi.docbook:406 vi.docbook:409
+#, no-c-format
+msgid "Left"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:405
+#, no-c-format
+msgid "&Left;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:408
+#, no-c-format
+msgid "&Backspace;"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:411
+#, no-c-format
+msgid "<userinput>j</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:412 vi.docbook:415
+#, no-c-format
+msgid "Down"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:414
+#, no-c-format
+msgid "&Down;"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:417
+#, no-c-format
+msgid "<userinput>k</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:418 vi.docbook:421
+#, no-c-format
+msgid "<para>Up</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:420
+#, no-c-format
+msgid "&Up;"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:423
+#, no-c-format
+msgid "<userinput>l</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:424 vi.docbook:427 vi.docbook:430
+#, no-c-format
+msgid "Right"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:426
+#, no-c-format
+msgid "&Right;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:429
+#, no-c-format
+msgid "&Space;"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:432
+#, no-c-format
+msgid "<userinput>$</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:433 vi.docbook:436
+#, no-c-format
+msgid "End of line"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:435
+#, no-c-format
+msgid "&End;"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:438
+#, no-c-format
+msgid "<userinput>0</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:439
+#, no-c-format
+msgid "First character of line (Column 0)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:441
+#, no-c-format
+msgid "&Home;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:442
+#, no-c-format
+msgid "First character of line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:444
+#, no-c-format
+msgid "<userinput>^</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:445
+#, no-c-format
+msgid "First non-blank character of line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:447
+#, no-c-format
+msgid "<userinput>f</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:448
+#, no-c-format
+msgid "Follow by character to move to right of cursor"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:450
+#, no-c-format
+msgid "<userinput>F</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:451
+#, no-c-format
+msgid "Follow by character to move to left of cursor"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:453
+#, no-c-format
+msgid "<userinput>t</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:454
+#, no-c-format
+msgid "Follow by character to move to right of cursor, placing the cursor on character before it"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:456
+#, no-c-format
+msgid "<userinput>T</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:457
+#, no-c-format
+msgid "Follow by character to move to left of cursor, placing the cursor on character before it"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:459
+#, no-c-format
+msgid "<userinput>gg</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:460
+#, no-c-format
+msgid "First line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:462
+#, no-c-format
+msgid "<userinput>G</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:463
+#, no-c-format
+msgid "Last line"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:465
+#, no-c-format
+msgid "<userinput>w</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:466
+#, no-c-format
+msgid "Next Word"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:468
+#, no-c-format
+msgid "<userinput>W</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:469
+#, no-c-format
+msgid "Next word separated by whitespace"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:471
+#, no-c-format
+msgid "<userinput>b</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:472
+#, no-c-format
+msgid "Previous word"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:474
+#, no-c-format
+msgid "<userinput>B</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:475
+#, no-c-format
+msgid "Previous word separated by whitespace"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:477
+#, no-c-format
+msgid "<userinput>e</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:478
+#, no-c-format
+msgid "End of word"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:480
+#, no-c-format
+msgid "<userinput>E</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:481
+#, no-c-format
+msgid "End of word separated by whitespace"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:483
+#, no-c-format
+msgid "<userinput>ge</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:484
+#, no-c-format
+msgid "End of previous word"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:486
+#, no-c-format
+msgid "<userinput>gE</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:487
+#, no-c-format
+msgid "End of previous word separated by whitespace"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:489
+#, no-c-format
+msgid "<userinput>|</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:490
+#, no-c-format
+msgid "Follow by a column number to move to that column"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:492
+#, no-c-format
+msgid "<userinput>%</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:493
+#, no-c-format
+msgid "Follow by an item to move to that item"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:495
+#, no-c-format
+msgid "<userinput>`</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:496
+#, no-c-format
+msgid "Mark"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:498
+#, no-c-format
+msgid "<userinput>‘</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:499
+#, no-c-format
+msgid "First non-whitespace character of the line the mark is on"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:501
+#, no-c-format
+msgid "<userinput>[[</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:502
+#, no-c-format
+msgid "Previous opening bracket"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:504
+#, no-c-format
+msgid "<userinput>]]</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:505
+#, no-c-format
+msgid "Next opening bracket"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:507
+#, no-c-format
+msgid "<userinput>[]</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:508
+#, no-c-format
+msgid "Previous closing bracket"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:510
+#, no-c-format
+msgid "<userinput>][</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:511
+#, no-c-format
+msgid "Next closing bracket"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:513
+#, no-c-format
+msgid "&Ctrl;<keycap>I</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:514
+#, no-c-format
+msgid "Jump to next location"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:515
+#, no-c-format
+msgid "&Ctrl;<keycap>O</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:516
+#, no-c-format
+msgid "Jump to previous location"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:517
+#, no-c-format
+msgid "<userinput>H</userinput>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: vi.docbook:518
+#, no-c-format
+msgid "Go to first line of screen"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:519
+#, no-c-format
+msgid "<userinput>M</userinput>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: vi.docbook:520
+#, no-c-format
+msgid "Go to middle line of screen"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:521
+#, no-c-format
+msgid "<userinput>L</userinput>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: vi.docbook:522
+#, no-c-format
+msgid "Go to last line of screen"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:523
+#, no-c-format
+msgid "%<replaceable>percentage</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:524
+#, no-c-format
+msgid "Go to specified percentage of the document"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:525
+#, no-c-format
+msgid "<userinput>gk</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:526
+#, no-c-format
+msgid "Go one line up visually (when using dynamic word wrap)"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:527
+#, no-c-format
+msgid "<userinput>gj</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:528
+#, no-c-format
+msgid "Go one line down visually (when using dynamic word wrap)"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:529
+#, no-c-format
+msgid "&Ctrl;&Left;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:530
+#, no-c-format
+msgid "Move one word left"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:532
+#, no-c-format
+msgid "&Ctrl;&Right;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:533
+#, no-c-format
+msgid "Move one word right"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:541
+#, no-c-format
+msgid "Supported text objects"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:543
+#, no-c-format
+msgid "These may be used to select certain portions of a document."
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:554
+#, no-c-format
+msgid "<userinput>iw</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:555
+#, no-c-format
+msgid "Inner word: word including whitespace"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:557
+#, no-c-format
+msgid "<userinput>aw</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:558
+#, no-c-format
+msgid "A word: word excluding whitespace"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:560
+#, no-c-format
+msgid "<userinput>i\"</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:561
+#, no-c-format
+msgid "Previous double-quote (<userinput>\"</userinput>) to next double-quote, including quotation marks"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:564
+#, no-c-format
+msgid "<userinput>a”</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:565
+#, no-c-format
+msgid "Previous double-quote (<userinput>\"</userinput>) to next double-quote, excluding quotation marks"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:568
+#, no-c-format
+msgid "<userinput>i'</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:569
+#, no-c-format
+msgid "Previous single-quote (<userinput>'</userinput>) to next single-quote, including quotation marks"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:572
+#, no-c-format
+msgid "<userinput>a'</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:573
+#, no-c-format
+msgid "Previous single-quote (<userinput>'</userinput>) to next single-quote, excluding quotation marks"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:576
+#, no-c-format
+msgid "<userinput>i(</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:577
+#, no-c-format
+msgid "Previous opening parenthesis [<userinput>(</userinput>] to next closing parenthesis [<userinput>)</userinput>], including the parenthesis"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:580
+#, no-c-format
+msgid "<userinput>a(</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:581
+#, no-c-format
+msgid "Previous opening parenthesis [<userinput>(</userinput>] to next closing parenthesis [<userinput>)</userinput>], excluding the parenthesis"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:584
+#, no-c-format
+msgid "<userinput>i[</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:585
+#, no-c-format
+msgid "Previous opening square bracket (<userinput>[</userinput>) to next closing square bracket (<userinput>]</userinput>), including the brackets"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:588
+#, no-c-format
+msgid "<userinput>a[</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:589
+#, no-c-format
+msgid "Previous opening square bracket (<userinput>[</userinput>) to next closing square bracket (<userinput>]</userinput>), excluding the brackets"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:592
+#, no-c-format
+msgid "<userinput>i{</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:593
+#, no-c-format
+msgid "Previous opening curly bracket (<userinput>{</userinput>) to next closing curly bracket (<userinput>}</userinput>), including the brackets"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:596
+#, no-c-format
+msgid "<userinput>a{</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:597
+#, no-c-format
+msgid "Previous opening curly bracket (<userinput>{</userinput>) to next closing curly bracket (<userinput>}</userinput>), excluding the brackets"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:600
+#, no-c-format
+msgid "i&lt;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:601
+#, no-c-format
+msgid "Previous opening angle bracket (<userinput>&lt;</userinput>) to next closing angle bracket (<userinput>&gt;</userinput>), including the brackets"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:604
+#, no-c-format
+msgid "a&lt;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:605
+#, no-c-format
+msgid "Previous opening angle bracket (<userinput>&lt;</userinput>) to next closing square bracket (<userinput>&gt;</userinput>), excluding the brackets"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:608
+#, no-c-format
+msgid "<userinput>i`</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:609
+#, no-c-format
+msgid "Previous backtick (<userinput>`</userinput>) to next backtick, including the backticks"
+msgstr ""
+
+#. Tag: userinput
+#. +> trunk6 stable6
+#: vi.docbook:612
+#, no-c-format
+msgid "<userinput>a`</userinput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:613
+#, no-c-format
+msgid "Previous backtick (<userinput>`</userinput>) to next backtick, excluding the backticks"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:622
+#, no-c-format
+msgid "Supported insert mode commands"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:633
+#, no-c-format
+msgid "&Ctrl;<keycap>D</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:634
+#, no-c-format
+msgid "Unindent"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:636
+#, no-c-format
+msgid "&Ctrl;<keycap>T</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:637
+#, no-c-format
+msgid "Indent"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:639
+#, no-c-format
+msgid "&Ctrl;<keycap>E</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:640
+#, no-c-format
+msgid "Insert from below"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:642
+#, no-c-format
+msgid "&Ctrl;<keycap>Y</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:643 vi.docbook:646
+#, no-c-format
+msgid "Delete word"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:645
+#, no-c-format
+msgid "&Ctrl;<keycap>W</keycap>"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:648
+#, no-c-format
+msgid "&Ctrl;<keycap>U</keycap>"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:651
+#, no-c-format
+msgid "&Ctrl;<keycap>J</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:652
+#, no-c-format
+msgid "New line"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:654
+#, no-c-format
+msgid "&Ctrl;<keycap>H</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:655
+#, no-c-format
+msgid "Delete char backward"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:657
+#, no-c-format
+msgid "&Ctrl;&Home;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:658
+#, no-c-format
+msgid "Move to first character in the document"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:660
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> <userinput>n</userinput>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: vi.docbook:662
+#, no-c-format
+msgid "Insert the contents of register <literal>n</literal>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:663
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo>, <replaceable>command</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:665
+#, no-c-format
+msgid "Enter normal mode for one command only"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:666
+#, no-c-format
+msgid "&Ctrl;<keycap>A</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:667
+#, no-c-format
+msgid "Increment currently selected number"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: vi.docbook:668
+#, no-c-format
+msgid "&Ctrl;<keycap>X</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:669
+#, no-c-format
+msgid "Decrement currently selected number"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:676
+#, no-c-format
+msgid "The Comma Text Object"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:678
+#, no-c-format
+msgid "This object is missing in Vim. The comma text object makes it easy to modify parameter lists in C-like languages and other comma separated lists. It is basically the area between two commas or between a comma and a bracket. In the line shown in the illustration, the three ranges this text object can span are highlighted."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: vi.docbook:685
+#, no-c-format
+msgid "<screeninfo>An example of Comma Text Object</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: vi.docbook:688
+#, no-c-format
+msgid "<phrase>An example of Comma Text Object</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:689
+#, no-c-format
+msgid "Comma text object ranges. If the cursor is over &eg; <replaceable>arg2</replaceable>, pressing <userinput>ci</userinput>, (<quote>change inner comma</quote>) would delete <replaceable>double arg2</replaceable> and place the cursor between the two commas in insert mode. A very convenient way to change a function's parameters."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: vi.docbook:701
+#, no-c-format
+msgid "Missing Features"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: vi.docbook:703
+#, no-c-format
+msgid "As stated earlier, the goal of &kappname;’s VI Mode is not to support 100% of Vim’s features."
+msgstr ""

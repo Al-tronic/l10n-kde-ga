@@ -1,0 +1,1262 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:26
+#, no-c-format
+msgid "Technologies"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:28
+#, no-c-format
+msgid "Akonadi"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:29
+#, no-c-format
+msgid "The data storage access mechanism for all PIM (Personal Information Manager) data in &kde; SC 4. One single storage and retrieval system allows efficiency and extensibility not possible under &kde; 3, where each PIM component had its own system. Note that use of Akonadi does not change data storage formats (vcard, iCalendar, mbox, maildir etc.) - it just provides a new way of accessing and updating the data.&newpara; The main reasons for design and development of Akonadi are of technical nature, &eg; having a unique way to access PIM-data (contacts, calendars, emails..) from different applications (&eg; &kmail;, &calligrawords; &etc;), thus eliminating the need to write similar code here and there.&newpara; Another goal is to de-couple GUI applications like &kmail; from the direct access to external resources like mail-servers - which was a major reason for bug-reports/wishes with regard to performance/responsiveness in the past.&newpara; More info:&newpara; &linkstart;\"https://community.kde.org/KDE_PIM/Akonadi\"&linkmid;Akonadi for KDE's PIM&linkend;&newpara; &linkstart;\"https://en.wikipedia.org/wiki/Akonadi\"&linkmid;Wikipedia: Akonadi&linkend;&newpara; &linkstart;\"https://techbase.kde.org/KDE_PIM/Akonadi\"&linkmid;Techbase - Akonadi&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:38
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:44
+#, no-c-format
+msgid "<glossterm>Applications</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:45
+#, no-c-format
+msgid "Applications are based on the core libraries projects by the KDE community, currently &kde; Frameworks and previously &kde; Platform.&newpara; More info:&newpara; &linkstart;\"https://community.kde.org/Promo/Guidance/Branding/Quick_Guide/\"&linkmid;KDE Branding&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:47
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-frameworks\">Frameworks</glossseealso> <glossseealso otherterm=\"gloss-platform\">Platform</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:54
+#, no-c-format
+msgid "aRts"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:55
+#, no-c-format
+msgid "The sound framework in &kde; 2 and 3. Its single-tasking nature caused problems when two sources of sound were encountered. In the &plasma; desktop it is replaced by Phonon.&newpara; More info:&newpara; &linkstart;\"https://en.wikipedia.org/wiki/ARts\"&linkmid; Wikipedia: ARts&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:57
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-phonon\">Phonon</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:64
+#, no-c-format
+msgid "D-Bus"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:65
+#, no-c-format
+msgid "D-Bus or Desktop Bus is an inter-service messaging system. Developed by &RedHat;, it was heavily influenced by &kde; 3 DCOP, which it supersedes. Most POSIX operating systems support D-Bus, and a port for Windows exists. It is used by Qt 4 and GNOME.&newpara; More info:&newpara; &linkstart;\"https://freedesktop.org/wiki/Software/dbus/\"&linkmid;FreeDesktop.org: What is D-Bus?&linkend;&newpara; &linkstart;\"https://en.wikipedia.org/wiki/D-Bus\"&linkmid;Wikipedia: D-Bus&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:68
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-dcop\">DCOP</glossseealso> <glossseealso otherterm=\"gloss-gnome\">GNOME</glossseealso> <glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-qt\">&Qt;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:76
+#, no-c-format
+msgid "DCOP"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:77
+#, no-c-format
+msgid "<acronym>DCOP</acronym>, which stands for Desktop COmmunication Protocol, is a light-weight interprocess and software componentry communication system used in &kde; 3. Replaced with &DBus; in &kde; SC 4.&newpara; More info:&newpara; &linkstart;\"https://en.wikipedia.org/wiki/DCOP\"&linkmid;Wikipedia: DCOP&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:79
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-dbus\">D-Bus</glossseealso> <glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:85
+#, no-c-format
+msgid "Flake"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:86
+#, no-c-format
+msgid "Flake is a programming library to be used in &calligra;. Functionally, it provides Shapes to display content and Tools to manipulate content. Shapes can be zoomed or rotated and can be grouped to work as a single Shape, around which text flow is possible.&newpara; More info:&newpara; &linkstart;\"https://community.kde.org/Calligra/Libs/Flake\"&linkmid;&kde; Community Wiki: Flake&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:88
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-kparts\">KParts</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:94
+#, no-c-format
+msgid "Frameworks"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:95
+#, no-c-format
+msgid "&kde; Frameworks 5 is the next generation of &kde; libraries, modularized and optimized for easy integration in &Qt; applications. The Frameworks offer a wide variety of commonly needed functionality in mature, peer reviewed and well tested libraries with friendly licensing terms. There are over 70 different Frameworks providing solutions including hardware integration, file format support, additional widgets, plotting functions, spell checking and more. Many of the Frameworks are cross platform and have minimal or no extra dependencies making them easy to build and add to any &Qt; application.&newpara; More info:&newpara; &linkstart;\"https://community.kde.org/Frameworks\"&linkmid;&kde; Community Wiki: Frameworks&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:98
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-applications\">Applications</glossseealso> <glossseealso otherterm=\"gloss-platform\">Platform</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:106
+#, no-c-format
+msgid "<glossterm>Get Hot New Stuff</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:107
+#, no-c-format
+msgid "&emstart;G&emend;et &emstart;H&emend;ot &emstart;N&emend;ew &emstart;S&emend;tuff (GHNS) is an open standard that makes it easy for users to download and install various extensions for their applications. Our implementation of GHNS is used by &plasma; (for example to get new desktop themes), and by many applications and widgets."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:107 index.docbook:294
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:113
+#, no-c-format
+msgid "GHNS"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:114
+#, no-c-format
+msgid "<acronym>GHNS</acronym> is the acronym of Get Hot New Stuff."
+msgstr ""
+
+#. Tag: glossseealso
+#. +> trunk6 stable6
+#: index.docbook:115
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-ghns\">Get Hot New Stuff</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:119
+#, no-c-format
+msgid "<glossterm><acronym>IO</acronym> Worker</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:120
+#, no-c-format
+msgid "<acronym>IO</acronym> Workers enable &kde; applications to access remote resources as easily as local resources (making them \"network transparent\"). Remote resources (&eg; files) might be stored on <acronym>SMB</acronym> shares or similar."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:123
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-smb\"><acronym>SMB</acronym></glossseealso> <glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:129
+#, no-c-format
+msgid "KHTML"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:130
+#, no-c-format
+msgid "KHTML is the &HTML; rendering engine for the &kde; &plasma; desktop, as used by the &konqueror; browser. It also provides a KPart that enables all &kde; applications to display web content. A new introduction, &Qt; WebKit is also for Plasma and other application development."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:130
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-konqueror\">&konqueror;</glossseealso> <glossseealso otherterm=\"gloss-kparts\">KParts</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-webkit\">WebKit</glossseealso>"
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:139
+#, no-c-format
+msgid "<acronym>KIO</acronym>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:140
+#, no-c-format
+msgid "The &kde; Input/Output system which makes use of so-called \"<acronym>IO</acronym> Workers\"."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:141
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-ioworker\"><acronym>IO</acronym> Worker</glossseealso> <glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:148
+#, no-c-format
+msgid "Kiosk"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:149
+#, no-c-format
+msgid "Kiosk is a framework for restricting user capabilities on a &kde; platform system, ideal for use in locked-down environments such as Internet cafés. It is present in &kde; 3 and &kde; 4, but the administration tool, <application>Kiosktool</application> is &kde; 3 only. It can be used to configure &kde; 4 applications, or kiosk configurations can be maintained by editing config files manually."
+msgstr ""
+
+#. Tag: glossseealso
+#. +> trunk6 stable6
+#: index.docbook:150 index.docbook:199 index.docbook:207 index.docbook:287
+#: index.docbook:395 index.docbook:531
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:154
+#, no-c-format
+msgid "KParts"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:155
+#, no-c-format
+msgid "KParts is an embedding technology which allows &kde; applications to embed other &kde; applications. For example, the text view used by &konqueror; is a KPart."
+msgstr ""
+
+#. Tag: glossseealso
+#. +> trunk6 stable6
+#: index.docbook:158 index.docbook:376
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-konqueror\">&konqueror;</glossseealso>"
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:162
+#, no-c-format
+msgid "KSycoca"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:163
+#, no-c-format
+msgid "<acronym>KSycoca</acronym> (&kde; &emstart;Sy&emend;stem &emstart;Co&emend;nfiguration &emstart;Ca&emend;che) is a configuration cache which, for example, guarantees fast access to the menu entries."
+msgstr ""
+
+#. Tag: application
+#. +> trunk6 stable6
+#: index.docbook:168 index.docbook:261
+#, no-c-format
+msgid "KBuildSycoca"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:172
+#, no-c-format
+msgid "Platform"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:173
+#, no-c-format
+msgid "Previously the base of libraries and services needed to run &kde; applications. It is used by core and third-party developers to create &kde; software. Especially when including development frameworks and tools it may be referred to as &kde; Development Platform. &kde; Platform is built on a number of Pillars, for example Akonadi, Solid, Phonon."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:173
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-applications\">Applications</glossseealso> <glossseealso otherterm=\"gloss-frameworks\">Frameworks</glossseealso> <glossseealso otherterm=\"gloss-akonadi\">Akonadi</glossseealso> <glossseealso otherterm=\"gloss-solid\">Solid</glossseealso> <glossseealso otherterm=\"gloss-phonon\">Phonon</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:185
+#, no-c-format
+msgid "Phonon"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:186
+#, no-c-format
+msgid "A cross-platform multimedia API, interfacing with existing frameworks, such as gstreamer and xine engines. &kde; 2 and 3 depended on aRts for sound. Phonon replaces it.&newpara; More info:&newpara; &linkstart;\"https://en.wikipedia.org/wiki/Phonon_(software)\"&linkmid; Wikipedia: Phonon (software)&linkend;&newpara; &linkstart;\"https://phonon.kde.org/\"&linkmid;Phonon website&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:189
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-arts\">aRts</glossseealso> <glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:195
+#, no-c-format
+msgid "Solid"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:196
+#, no-c-format
+msgid "Solid provides a single API for hardware management. Hardware is grouped into 'domains'. Since the backends for Solid are pluggable, Solid helps application developers write less code, and have it platform independent.&newpara; More info:&newpara; &linkstart;\"https://solid.kde.org/\"&linkmid;Discover Solid&linkend;"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:203
+#, no-c-format
+msgid "Threadweaver"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:204
+#, no-c-format
+msgid "This thread programming library spreads work among multiple-core processors where available, prioritizing them before queuing them for execution. ThreadWeaver provides a high-level job interface for multithreaded programming.&newpara; More info:&newpara; &linkstart;\"https://api.kde.org/frameworks/threadweaver/html/index.html\"&linkmid;API Documentation – ThreadWeaver&linkend;"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:211
+#, no-c-format
+msgid "WebKit"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:212
+#, no-c-format
+msgid "HTML rendering engine, originating from a fork of KHTML. Adopted by <trademark>Apple</trademark> and developed for <trademark>Safari</trademark>. Webkit brings the whole functionality back to &kde; SC 4, where it is available through &Qt;.&newpara; More info:&newpara; &linkstart;\"https://webkit.org/\"&linkmid;WebKit home page&linkend;&newpara; &linkstart;\"https://en.wikipedia.org/wiki/WebKit\"&linkmid;Wikipedia: WebKit&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:215
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-khtml\">KHTML</glossseealso>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:223
+#, no-c-format
+msgid "X.Org"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:225
+#, no-c-format
+msgid "Antialiasing"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:226
+#, no-c-format
+msgid "If mentioned in context with &kde;, anti-aliasing often means the smoothing of the fonts visible on the screen. &Qt; version 3.3 or higher used together with X.Org server makes this possible under &kde; as well."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:229
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-qt\">&Qt;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:235
+#, no-c-format
+msgid "&X-Server;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:236
+#, no-c-format
+msgid "The &X-Server; represents a basic layer upon which the various &GUI;s like &kde; are built. It manages the basic mouse and keyboard input (from the local host as well as from remote hosts) and provides elementary graphic routines to draw rectangles and other primitives."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:240
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:248
+#, no-c-format
+msgid "<title>Applications</title>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:250
+#, no-c-format
+msgid "Dolphin"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:251
+#, no-c-format
+msgid "The default file manager in &kde; Applications. It has a side panel (Places), but navigation is mainly by the 'breadcrumb' trail above the main window. Split windows are possible, and views can be applied to individual windows. Mounting and unmounting <acronym>USB</acronym> devices can be done in the side panel. Other directories can be added to the Places panel. A Tree view is also possible.&newpara; More info:&newpara; &linkstart;\"https://www.kde.org/applications/system/dolphin/\"&linkmid;Dolphin&linkend;&newpara; &linkstart;\"https://en.wikipedia.org/wiki/Dolphin_(file_manager)\"&linkmid;Wikipedia: Dolphin&linkend;&newpara; &linkstart;\"https://userbase.kde.org/Dolphin/File_Management\"&linkmid;Userbase: File Management Tutorial&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:255
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-konqueror\">&konqueror;</glossseealso>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:262
+#, no-c-format
+msgid "<application>KBuildSycoca4</application> is a command line program and regenerates the so-called <acronym>KSycoca</acronym>. This is useful, for example, if some or all modules in &systemsettings; are missing."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:266
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-ksycoca\"><acronym>KSycoca</acronym></glossseealso> <glossseealso otherterm=\"gloss-systemsettings\">&systemsettings;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:272
+#, no-c-format
+msgid "KInfoCenter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:273
+#, no-c-format
+msgid "Kinfocenter originated as part of Kcontrol standing alone from KDE 3.1. In &kde; SC 4 it was replaced by modules configured in &systemsettings;, notably Solid, and is being reintroduced as an application in &plasma;.&newpara; More info:&newpara; &linkstart;\"https://www.kde.org/applications/system/kinfocenter/\"&linkmid;KInfoCenter&linkend;&newpara; &linkstart;\"https://en.wikipedia.org/wiki/Kinfocenter\"&linkmid;Wikipedia: KInfoCenter&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:276
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-solid\">Solid</glossseealso> <glossseealso otherterm=\"gloss-systemsettings\">&systemsettings;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:283
+#, no-c-format
+msgid "<glossterm>&konqueror;</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:284
+#, no-c-format
+msgid "&konqueror; is a web browser, picture viewer, file manager and more, and a core part of the &kde; project. You can find more information about &konqueror; at &linkstart;\"https://konqueror.org/\"&linkmid;www.konqueror.org&linkend;."
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:291
+#, no-c-format
+msgid "<glossterm>KRunner</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:292
+#, no-c-format
+msgid "The mini-command-line that is accessed from the Classic menu, the keyboard shortcut &Alt;+<keycap>F2</keycap>, or a right-click on the desktop. In &kde; SC 4 a partial name will display all possible matches.&newpara; More info:&newpara; &linkstart;\"https://userbase.kde.org/Plasma/Krunner\"&linkmid;UserBase: KRunner Usage&linkend;"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:300
+#, no-c-format
+msgid "KWin"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:301
+#, no-c-format
+msgid "KWin is the window manager. This is where window decorations can be changed and themes applied. &kde; SC 4 extends KWin to provide support for 3D Compositing effects on the desktop.&newpara; More info:&newpara; &linkstart;\"https://userbase.kde.org/KWin\"&linkmid;UserBase: KWin&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:303
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-xserver\">&X-Server;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:309
+#, no-c-format
+msgid "Mini-CLI"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:310
+#, no-c-format
+msgid "Mini &emstart;C&emend;ommand &emstart;L&emend;ine &emstart;I&emend;nterface. Synonym to KRunner."
+msgstr ""
+
+#. Tag: glossseealso
+#. +> trunk6 stable6
+#: index.docbook:311
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-krunner\">KRunner</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:315
+#, no-c-format
+msgid "Pager"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:316
+#, no-c-format
+msgid "A pager is a small program or panel applet which shows the position of windows on your desktop and usually if you have several Virtual Desktops gives an overview over all."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:316
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-application-starter\">Application Starter</glossseealso> <glossseealso otherterm=\"gloss-kicker\">Kicker</glossseealso> <glossseealso otherterm=\"gloss-panel\">Panel</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-virtualdesktops\">Virtual Desktops</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:326
+#, no-c-format
+msgid "&systemsettings;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:327
+#, no-c-format
+msgid "This is the project and filename of the &kde; control center. &systemsettings; allows you to customize virtually every configuration option of &kde;."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:329
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-kinfocenter\">KInfoCenter</glossseealso>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:337
+#, no-c-format
+msgid "Desktop Terminology"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:339
+#, no-c-format
+msgid "Activities"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:340
+#, no-c-format
+msgid "Activities are sets of &plasma; widgets that have their own wallpaper&newpara; A bit like Virtual Desktops, but not quite. For example you have a \"work activity\" with commit rss feeds, a note with your TODO, a Folder View with your work related files, and a subtle wallpaper.&newpara; Next to it, you have your freetime activity, with previews of family photos and dogs, rss feeds from your favorite blogs, a Folder View showing your movie collection, a twitter applet and of course that Iron Maiden wallpaper you have been loving since the early 80s.&newpara; At 17:00 hours sharp you switch from the work activity to your freetime activity.&newpara; More info:&newpara; &linkstart;\"https://userbase.kde.org/Plasma\"&linkmid;Plasma FAQ&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:345
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-virtualdesktops\">Virtual Desktops</glossseealso>"
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:351
+#, no-c-format
+msgid "Breeze"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:352
+#, no-c-format
+msgid "Breeze is the default theme for &plasma;. The new theme is a high-contrast, flat theme for the workspace. It is available in light and dark variants. Simpler and more monochromatic graphics assets and typography-centered layouts offer a clean and visually clear user experience."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:352
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-ksvg\">KSVG</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-oxygen\">Oxygen</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:360
+#, no-c-format
+msgid "Containment"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:361
+#, no-c-format
+msgid "A Containment is a top level grouping of widgets. Each Containment manages the layout and configuration data of its set of widgets independently from other Containments.&newpara; The end result is that you can group widgets within a Containment according to the significance to your working pattern, rather than by directory grouping.&newpara; More info:&newpara; &linkstart;\"https://userbase.kde.org/Plasma\"&linkmid;Plasma FAQ&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:364
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-widget\">Widget</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:370
+#, no-c-format
+msgid "Drag and Drop"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:371
+#, no-c-format
+msgid "This concept tries to replace many actions like copying files from one place to another by a certain mouse movement, &eg; clicking on an icon in a &konqueror; window, moving the mouse to another window while keeping the mouse button pressed, and releasing the mouse button (\"dropping\" the object) copies files."
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:380
+#, no-c-format
+msgid "GNOME"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:382
+#, no-c-format
+msgid "&emstart;G&emend;NU &emstart;N&emend;etwork &emstart;O&emend;bject &emstart;M&emend;odel &emstart;E&emend;nvironment, one of the leading &UNIX; &GUI;s."
+msgstr ""
+
+#. Tag: glossseealso
+#. +> trunk6 stable6
+#: index.docbook:385 index.docbook:415
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:389
+#, no-c-format
+msgid "<glossterm>&GUI;</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:390
+#, no-c-format
+msgid "Abbreviation for &emstart;G&emend;raphical &emstart;U&emend;ser &emstart;I&emend;nterface. Every desktop environment (like &kde;) is a &GUI;. Most &GUI;s feature mouse support and/or windows to manage the programs."
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:399
+#, no-c-format
+msgid "Home Directory"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:400
+#, no-c-format
+msgid "That's the place in system, where all your files are kept. You can write your files outside of this folder, but all applications are configured to propose this folder as place to write your files to. And this is easier, when you are keeping your things here.&newpara; More info:&newpara; &linkstart;\"https://en.wikipedia.org/wiki/Home_directory\"&linkmid;Wikipedia: Home Directory&linkend;"
+msgstr ""
+
+#. Tag: glossseealso
+#. +> trunk6 stable6
+#: index.docbook:403
+#, no-c-format
+msgid "&dolphin;"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:407
+#, no-c-format
+msgid "<glossterm>&kde;</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:408
+#, no-c-format
+msgid "&kde; is more than just software. It is a community made up of programmers, translators, contributors, artists, writers, distributors, and users from all over the world. Our international technology team is committed to creating the best free software for the desktop. And not only contributors, but users and fans of &kde; software can be found throughout the entire globe, giving help to other users, spreading the news, or just simply enjoying the experience. You can find more detailed information at &linkstart;\"https://www.kde.org\"&linkmid;www.kde.org&linkend;.&newpara; The name changed its meaning over time. You can discover more about its history over &linkstart;\"https://www.kde.org/community/history/\"&linkmid;the KDE history webpage&linkend;."
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:419
+#, no-c-format
+msgid "&kicker;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:421
+#, no-c-format
+msgid "In &kde; 3, the relocatable bar, usually at the bottom of the screen (sometimes called the Panel), on which application launchers, the Pager, and buttons for running applications reside."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:421
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-panel\">Panel</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:427
+#, no-c-format
+msgid "Application Starter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:429
+#, no-c-format
+msgid "In &plasma; an application launcher in which apps are sorted by functional group. 'Favorites' replaces the 'Most used applications' in Classic Menu, and applications can be added to it. Right-click also offers the possibility of adding applications to the desktop or panel. Rapid access to a less-used application can be by the search box. Alternatives like the classic Application Menu with cascading popup menus and the Application Dashboard, a fullscreen launcher are available. &plasma; can be used with more than one launcher, should that be required.&newpara;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:430
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-pager\">Pager</glossseealso> <glossseealso otherterm=\"gloss-panel\">Panel</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:438
+#, no-c-format
+msgid "Oxygen"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:440
+#, no-c-format
+msgid "Oxygen was the default theme of &kde; SC 4. Designed to bring 'a breath of fresh air' to the desktop by removing the simplistic, cartoonish icons, and replacing them with a clean theme and photo-realistic icons. Oxygen uses a desaturated palette to avoid the icons becoming a distraction and uses detailed scalable graphics (SVG).&newpara; More info:&newpara; &linkstart;\"https://en.wikipedia.org/wiki/Oxygen_Project\"&linkmid;Wikipedia: Oxygen Project&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:442
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-ksvg\">KSVG</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-breeze\">Breeze</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:450
+#, no-c-format
+msgid "Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:451
+#, no-c-format
+msgid "Refers to the panel which often resides at the bottom of the screen."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:452
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-kicker\">&kicker;</glossseealso> <glossseealso otherterm=\"gloss-application-starter\">Application Starter</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:460
+#, no-c-format
+msgid "Plasma"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:461
+#, no-c-format
+msgid "&plasma; replaces KDesktop, &kicker; and the SuperKaramba widget engine. The applets are called Widgets, and range from informational widgets to mini-apps such as a calculator or dictionary.&newpara; More info:&newpara; &linkstart;\"https://en.wikipedia.org/wiki/KDE_Plasma_5\"&linkmid;Wikipedia: KDE Plasma 5&linkend;&newpara; &linkstart;\"https://www.kde.org/workspaces/\"&linkmid;Plasma Workspaces&linkend;&newpara; &linkstart;\"https://userbase.kde.org/Plasma\"&linkmid;Plasma&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:465
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-kicker\">&kicker;</glossseealso> <glossseealso otherterm=\"gloss-widget\">Widget</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:472
+#, no-c-format
+msgid "Ripping"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:473
+#, no-c-format
+msgid "The process of reading audio and video data from a &cdrom; or DVD and storing it on the hard disk."
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:478
+#, no-c-format
+msgid "Virtual Desktops"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:479
+#, no-c-format
+msgid "A popular concept of &UNIX; based window managers is the one of virtual desktops. This means you have not only one screen where you can place your windows on but several. When you switch to a different desktop (usually with a pager) you will only see the windows which you started on your new desktop or moved to it. A window can also be made \"sticky\" which means it appears on all virtual desktops.&newpara; More info:&newpara; &linkstart;\"https://userbase.kde.org/Plasma\"&linkmid;Plasma FAQ&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:481
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-application-starter\">Application Starter</glossseealso> <glossseealso otherterm=\"gloss-pager\">Pager</glossseealso>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:490
+#, no-c-format
+msgid "&kde; Development"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:492
+#, no-c-format
+msgid "&Qt;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:493
+#, no-c-format
+msgid "The &GUI; of &kde; is built on top of the &Qt; toolkit, which provides many graphical elements (so-called \"Widgets\") which are used to construct the desktop. You can find more information about &Qt; at &linkstart; \"https://www.qt.io/developers/\"&linkmid;https://www.qt.io/developers/&linkend;."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:497
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso otherterm=\"gloss-widget\">Widget</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:504
+#, no-c-format
+msgid "<glossterm>Git</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:505
+#, no-c-format
+msgid "Git is a free and open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&newpara; Every Git clone is a full-fledged repository with complete history and full revision tracking capabilities, not dependent on network access or a central server. Branching and merging are fast and easy to do.&newpara; Git is used for version control of files, much like tools such as Mercurial, Bazaar, Subversion, CVS, Perforce, and Visual SourceSafe.&newpara; It was decided that Git will be the main version control system of &kde;, replacement of SVN. It has been already used for some &kde; projects like Konversation and Amarok.&newpara; More info:&newpara; &linkstart;\"https://git-scm.com/\"&linkmid;Git Homepage&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:510
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-svn\">SVN</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:516
+#, no-c-format
+msgid "<glossterm>i18n</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:517
+#, no-c-format
+msgid "Abbreviation for \"internationalization\". &kde; supports many different languages, and several i18n techniques make it easy to translate the &GUI; as well as the accompanying documents of &kde; into all these languages. More information about the i18n process is available at &linkstart; \"https://l10n.kde.org/\"&linkmid;l10n.kde.org&linkend;."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:522
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso otherterm=\"gloss-l10n\">l10n</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:529
+#, no-c-format
+msgid "Kross"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:530
+#, no-c-format
+msgid "Kross is a scripting framework, enabling support for multiple scripting languages. A plugin system allows for the support of further languages in the future."
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:535
+#, no-c-format
+msgid "KDOM"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:536
+#, no-c-format
+msgid "A KPart module making KHTML <acronym>DOM</acronym> (&emstart;D&emend;ocument &emstart;O&emend;bject &emstart;M&emend;odel) rendering capabilities available to all applications. KSVG2 is built on KDOM for &kde; SC 4."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:536
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-khtml\">KHTML</glossseealso> <glossseealso otherterm=\"gloss-kparts\">KParts</glossseealso> <glossseealso otherterm=\"gloss-khtml\">KSVG</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:544
+#, no-c-format
+msgid "<glossterm>KJS</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:545
+#, no-c-format
+msgid "&kde; platform's JavaScript engine."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:545
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-kparts\">KParts</glossseealso> <glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:552
+#, no-c-format
+msgid "KSVG"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:553
+#, no-c-format
+msgid "KSVG enables support for scalable vector graphics in a KHTML browser. KSVG2 extends this for &kde; SC 4."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:553
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-khtml\">KHTML</glossseealso> <glossseealso otherterm=\"gloss-kparts\">KParts</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:560
+#, no-c-format
+msgid "l10n"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:561
+#, no-c-format
+msgid "Abbreviation for \"localization\", the process of adapting a program to the local environment. This includes &eg; the currency used for monetary values or the time format and translating text.&newpara; More info:&newpara; &linkstart;\"https://l10n.kde.org/\"&linkmid;l10n.kde.org&linkend;"
+msgstr ""
+
+#. Tag: glossseealso
+#. +> trunk6 stable6
+#: index.docbook:566
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-i18n\">i18n</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:570
+#, no-c-format
+msgid "Widget"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:571
+#, no-c-format
+msgid "In general Widgets are graphical elements like scrollbars, buttons or input fields which are used to construct the &GUI;.&newpara; In &plasma; Widgets are the main components and take on a variety of functions, ranging from displaying the desktop and associated wallpaper, showing the laptop's battery level, displaying the plugged in devices, and drawing the taskbar: basically, they are small applications that live on the desktop. Additionally, widgets can be grouped together in \"Containers\", like the panel and even the desktop itself."
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:573
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-plasma\">&plasma;</glossseealso> <glossseealso otherterm=\"gloss-containment\">Containment</glossseealso> <glossseealso otherterm=\"gloss-kde\">&kde;</glossseealso> <glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso>"
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:581
+#, no-c-format
+msgid "<acronym>SVN</acronym>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:582
+#, no-c-format
+msgid "Abbreviation for &emstart;Subversion&emend;, a version control system. The <acronym>SVN</acronym> is a very elegant way of managing file versions that allow more than one developer to easily work on the same project. You can find a description of how to get the latest (developer) version of the &kde; sources via anonymous <acronym>SVN</acronym> on &linkstart;\"http://developer.kde.org/source/anonsvn.html\"&linkmid;http://developer.kde.org/source/anonsvn.html&linkend;.&newpara; More about <acronym>SVN</acronym> is available at &linkstart;\"http://subversion.tigris.org/\"&linkmid;http://subversion.tigris.org/&linkend;."
+msgstr ""
+
+#. Tag: glossseealso
+#. +> trunk6 stable6
+#: index.docbook:583
+#, no-c-format
+msgid "<glossseealso>Git</glossseealso>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:587
+#, no-c-format
+msgid "XMLGUI"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:588
+#, no-c-format
+msgid "A programmers' framework for designing the user interface. It is extensively used by KParts.&newpara; More info:&newpara; &linkstart;\"https://en.wikipedia.org/wiki/XMLGUI\"&linkmid;Wikipedia: XMLGUI&linkend;&newpara; &linkstart;\"http://en.wikipedia.org/wiki/Qt_Style_Sheets\"&linkmid;Wikipedia: Qt Style Sheets&linkend;"
+msgstr ""
+
+#. Tag: glossdef
+#. +> trunk6 stable6
+#: index.docbook:591
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-gui\">&GUI;</glossseealso> <glossseealso otherterm=\"gloss-kparts\">Kparts</glossseealso> <glossseealso otherterm=\"gloss-qt\">&Qt;</glossseealso>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:600
+#, no-c-format
+msgid "Miscellaneous"
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:602 index.docbook:629
+#, no-c-format
+msgid "<acronym>RFC</acronym>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:603
+#, no-c-format
+msgid "&emstart;R&emend;equest &emstart;F&emend;or &emstart;C&emend;omment. A common way to publish new protocol ideas or procedures for evaluation of the Internet community. Though <acronym>RFC</acronym>s are not mandatory, many applications try to adhere to them, once they have been approved by the community.&newpara; More information about <acronym>RFC</acronym>s can be found at the &linkstart;\"https://www.rfc-editor.org/\"&linkmid;RFC Homepage&linkend;."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:615
+#, no-c-format
+msgid "Various protocols"
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:617
+#, no-c-format
+msgid "<acronym>SMB</acronym>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:618
+#, no-c-format
+msgid "&emstart;S&emend;erver &emstart;M&emend;essage &emstart;B&emend;lock. A network protocol used in &Microsoft; &Windows; networks to access the file systems of other computers."
+msgstr ""
+
+#. Tag: glossseealso
+#. +> trunk6 stable6
+#: index.docbook:621
+#, no-c-format
+msgid "<glossseealso otherterm=\"gloss-ioworker\"><acronym>IO</acronym> Worker</glossseealso>"
+msgstr ""
+
+#. Tag: acronym
+#. +> trunk6 stable6
+#: index.docbook:625
+#, no-c-format
+msgid "<acronym>IRC</acronym>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:626
+#, no-c-format
+msgid "&emstart;I&emend;nternet &emstart;R&emend;elay &emstart;C&emend;hat. A protocol defined in <acronym>RFC</acronym> 1459, which handles the specification to enable real-time text chat."
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6 stable6
+#: index.docbook:633
+#, no-c-format
+msgid "Host"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:634
+#, no-c-format
+msgid "This can either be a name from your <filename>/etc/hosts</filename> file (<systemitem class=\"systemname\">mycomputer</systemitem>), an Internet name (<systemitem class=\"systemname\">www.kde.org</systemitem>) or an IP-Address (<systemitem>192.168.0.10</systemitem>)."
+msgstr ""
+
+#. Tag: glossary
+#. +> trunk6 stable6
+#: index.docbook:642
+#, no-c-format
+msgid "&glossary-kdeprinting;"
+msgstr ""

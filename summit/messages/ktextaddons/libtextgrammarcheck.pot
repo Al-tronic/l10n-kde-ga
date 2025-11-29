@@ -1,0 +1,503 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the ktextaddons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ktextaddons\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-21 13:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6 stable5
+#: common/grammarresulttextedit.cpp:37
+#, kde-format
+msgid "Any text to check."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: common/grammarresulttextedit.cpp:89
+#, kde-format
+msgid "Replacement"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: common/grammarresulttextedit.cpp:98
+#, kde-format
+msgid "Online Grammar Information"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: common/grammarresulttextedit.cpp:111
+#, kde-format
+msgid "Check Again"
+msgstr ""
+
+#. +> trunk6 stable6
+#: common/grammarresulttextedit.cpp:114
+#, kde-format
+msgid "Configure…"
+msgstr ""
+
+#. +> stable5
+#: common/grammarresulttextedit.cpp:118
+#, kde-format
+msgid "Configure..."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: common/grammarresultutil.cpp:49
+#, kde-format
+msgid "See on: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: common/grammarresultwidget.cpp:34
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close"
+msgstr ""
+
+#. +> stable5
+#: common/grammarresultwidget.cpp:32
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteconfigdialog.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Grammalecte"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteconfigwidget.cpp:37
+#, kde-format
+msgid "General"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteconfigwidget.cpp:38
+#, kde-format
+msgid "Grammar Settings"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteconfigwidget.cpp:63
+#, kde-format
+msgid "Impossible to get options. Please verify that you have grammalected installed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: grammalecte/grammalecteconfigwidget.cpp:64
+#, kde-format
+msgctxt "@title:window"
+msgid "Error during Extracting Options"
+msgstr ""
+
+#. +> stable5
+#: grammalecte/grammalecteconfigwidget.cpp:62
+#, kde-format
+msgid "Error during Extracting Options"
+msgstr ""
+
+#. +> trunk6 stable6
+#: grammalecte/grammalecteconfigwidget.cpp:113
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Press Button for Reloading Settings"
+msgstr ""
+
+#. +> stable5
+#: grammalecte/grammalecteconfigwidget.cpp:111
+#, kde-format
+msgid "Press Button for Reloading Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: grammalecte/grammalecteconfigwidget.cpp:121
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reload Settings"
+msgstr ""
+
+#. +> stable5
+#: grammalecte/grammalecteconfigwidget.cpp:118
+#, kde-format
+msgid "Reload Settings"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteconfigwidget.cpp:138
+#, kde-format
+msgid "Python Path:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: grammalecte/grammalecteconfigwidget.cpp:142
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Add full 'grammalecte-cli.py' path"
+msgstr ""
+
+#. +> stable5
+#: grammalecte/grammalecteconfigwidget.cpp:139
+#, kde-format
+msgid "Add full 'grammalecte-cli.py' path"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteconfigwidget.cpp:144
+#, kde-format
+msgid "Grammalecte Path:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: grammalecte/grammalecteconfigwidget.cpp:150
+#, kde-format
+msgid "Grammalecte can be found <a href=\"https://grammalecte.net/#download\">here</a>. Download it and extract it."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteresultwidget.cpp:54
+#, kde-format
+msgid "Python path is missing."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteresultwidget.cpp:58
+#, kde-format
+msgid "Grammalecte path not found."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteresultwidget.cpp:65
+#, kde-format
+msgid "Grammalecte program file not found."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteresultwidget.cpp:69
+#, kde-format
+msgid "Grammalecte cli file not found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: grammalecte/grammalecteresultwidget.cpp:73
+#, kde-format
+msgctxt "@title:window"
+msgid "Grammalecte error"
+msgstr ""
+
+#. +> stable5
+#: grammalecte/grammalecteresultwidget.cpp:73
+#, kde-format
+msgid "Grammalecte error"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: grammalecte/grammalecteurlrequesterwidget.cpp:35
+#, kde-format
+msgid "Select Path"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:32
+#, kde-format
+msgid "Asturian"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:33
+#, kde-format
+msgid "English"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:34
+#, kde-format
+msgid "English (Australian)"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:35
+#, kde-format
+msgid "English (Canadian)"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:36
+#, kde-format
+msgid "Belarusian"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:37
+#, kde-format
+msgid "Breton"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:38
+#, kde-format
+msgid "Catalan"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:39
+#, kde-format
+msgid "Chinese"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:40
+#, kde-format
+msgid "Danish"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:41
+#, kde-format
+msgid "Dutch"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:42
+#, kde-format
+msgid "Esperanto"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:43
+#, kde-format
+msgid "French"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:44
+#, kde-format
+msgid "Galician"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:45
+#, kde-format
+msgid "German"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:46
+#, kde-format
+msgid "Greek"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:47
+#, kde-format
+msgid "Italian"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:48
+#, kde-format
+msgid "Japanese"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:49
+#, kde-format
+msgid "Khmer"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:50
+#, kde-format
+msgid "Persian"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:51
+#, kde-format
+msgid "Polish"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:52
+#, kde-format
+msgid "Portuguese"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:53
+#, kde-format
+msgid "Romanian"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:54
+#, kde-format
+msgid "Russian"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:55
+#, kde-format
+msgid "Slovak"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:56
+#, kde-format
+msgid "Slovenian"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:57
+#, kde-format
+msgid "Spanish"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:58
+#, kde-format
+msgid "Swedish"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:59
+#, kde-format
+msgid "Tagalog"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:60
+#, kde-format
+msgid "Tamil"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolcombobox.cpp:61
+#, kde-format
+msgid "Ukrainian"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolconfigdialog.cpp:28
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure LanguageTool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: languagetool/languagetoolconfigwidget.cpp:24
+#, kde-format
+msgctxt "@option:check"
+msgid "Use Local Instance"
+msgstr ""
+
+#. +> stable5
+#: languagetool/languagetoolconfigwidget.cpp:22
+#, kde-format
+msgid "Use Local Instance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: languagetool/languagetoolconfigwidget.cpp:26
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Instance Path:"
+msgstr ""
+
+#. +> stable5
+#: languagetool/languagetoolconfigwidget.cpp:24
+#, kde-format
+msgid "Instance Path:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: languagetool/languagetoolconfigwidget.cpp:56
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Language:"
+msgstr ""
+
+#. +> stable5
+#: languagetool/languagetoolconfigwidget.cpp:52
+#, kde-format
+msgid "Language:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: languagetool/languagetoolconfigwidget.cpp:69
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Refresh"
+msgstr ""
+
+#. +> stable5
+#: languagetool/languagetoolconfigwidget.cpp:64
+#, kde-format
+msgid "Refresh"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolresultwidget.cpp:62
+#, kde-format
+msgid "An error was reported: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: languagetool/languagetoolresultwidget.cpp:62
+#, kde-format
+msgctxt "@title:window"
+msgid "Failed to check grammar."
+msgstr ""
+
+#. +> stable5
+#: languagetool/languagetoolresultwidget.cpp:60
+#, kde-format
+msgid "Failed to check grammar."
+msgstr ""
+
+#. +> trunk6 stable6
+#: languagetool/languagetoolresultwidget.cpp:78
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Check"
+msgstr ""
+
+#. +> stable5
+#: languagetool/languagetoolresultwidget.cpp:76
+#, kde-format
+msgid "Check"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: languagetool/languagetoolupdatecombobox.cpp:76
+#, kde-format
+msgid ""
+"An error occurred attempting to load the list of available languages:\n"
+"%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: languagetool/languagetoolupdatecombobox.cpp:77
+#, kde-format
+msgctxt "@title:window"
+msgid "List of Languages"
+msgstr ""
+
+#. +> stable5
+#: languagetool/languagetoolupdatecombobox.cpp:75
+#, kde-format
+msgid "List of Languages"
+msgstr ""

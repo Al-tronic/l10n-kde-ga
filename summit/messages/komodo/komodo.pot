@@ -1,0 +1,357 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the komodo package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: komodo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-16 11:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:31
+#, kde-format
+msgctxt "@title"
+msgid "KomoDo"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:35
+#, kde-format
+msgid "Work on To-Do lists"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:39
+#, kde-format
+msgid "© 2025 Akseli Lahtinen"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:40
+#, kde-format
+msgctxt "@info:credit"
+msgid "Akseli Lahtinen"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:41
+#, kde-format
+msgctxt "@info:credit"
+msgid "Author"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:47
+#, kde-format
+msgctxt "Longer description in about page"
+msgid "<p>KomoDo is a todo manager that uses todo.txt specification. It parses any compliant todo.txt files and turns them into easy to use list of tasks.</p>"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:55
+#, kde-format
+msgctxt "@info:shell"
+msgid "Inserts the given text in the search bar."
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:57
+#, kde-format
+msgctxt "@info:shell"
+msgid "Open the given filename. The one in the config will be ignored."
+msgstr ""
+
+#. +> trunk6
+#: src/Main.qml:17
+#, kde-format
+msgid "KomoDo"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:63
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Toggle completion status"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:99
+#, kde-format
+msgid "Priority"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:191
+#, kde-format
+msgid "Task completion date"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:204
+#, kde-format
+msgid "Task due date"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:217
+#, kde-format
+msgid "Task creation date"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:233
+#, kde-format
+msgctxt "@button"
+msgid "Edit"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:256
+#, kde-format
+msgctxt "@button"
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:293
+#, kde-format
+msgctxt "Placeholder text for creating new tasks"
+msgid "(A) YYYY-MM-DD Description +Project @Context key:value"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:329
+#, kde-format
+msgctxt "@button"
+msgid "Insert Date…"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:331
+#, kde-format
+msgid "Open a date picker and insert it at cursor position"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:343
+#, kde-format
+msgid "Syntax Information"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:348
+#, kde-format
+msgctxt "Syntax quick guide"
+msgid ""
+"<p>Order of items matters:</p>"
+"<pre>Completion Priority Creation-Date Description</pre>"
+"<ul>"
+"<li>x : Completion status. Remove to set task incompleted.</li>"
+"<li>(A) : Priority. Can be from A to Z. Optional.</li>"
+"<li>Completion Date: Date in Year-Month-Day format. Add only if there is creation date and task is completed.</li>"
+"<li>Creation date: Date in Year-Month-Day format. Optional, but recommended.</li>"
+"<li>Description: General task description. Mandatory."
+"<ul>"
+"<li>+Project: Projects this task is relevant to. Optional.</li>"
+"<li>@Context: In which contexts this task is relevant in. Optional.</li>"
+"<li>key:value: Various key-value pairs of information. Optional.</li>"
+"</ul>"
+"</li>"
+"</ul>"
+"<p>Description, contexts, key:value-pairs and projects can be mixed with each other.</p>"
+"<p>For more detailed information and examples, click on the Help button.</p>"
+"<br>"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:353
+#, kde-format
+msgid "Syntax Information…"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:361
+#, kde-format
+msgid "Show todo.txt syntax reference"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:375
+#, kde-format
+msgctxt "@button"
+msgid "Save"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoDelegate.qml:396
+#, kde-format
+msgctxt "@button"
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:71
+#, kde-format
+msgid "Delete To-Do"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:83
+#, kde-format
+msgid "Are you sure you wish to delete this To-Do?"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:139
+#, kde-format
+msgid "Filter:"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:150
+#, kde-format
+msgid "Show All"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:154
+#, kde-format
+msgid "Due Date"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:158
+#, kde-format
+msgid "Incomplete"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:162
+#, kde-format
+msgid "Completed"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:193
+#, kde-format
+msgid "This To-Do list has been changed externally. Reloading it is strongly advised!"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:199
+#, kde-format
+msgctxt "@action:button"
+msgid "Reload"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:211
+#, kde-format
+msgid "This To-Do list has been deleted! Open another To-Do list or create new one."
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:217 src/ui/TodoPage.qml:256
+#, kde-format
+msgctxt "@button"
+msgid "Create New To-Do List…"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:224
+#, kde-format
+msgctxt "@action:button"
+msgid "Open To-Do List…"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:236
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "New To-Do…"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:248
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open To-Do List…"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:262
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Help…"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:269
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Auto-insert creation date"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:273
+#, kde-format
+msgctxt "A checkbox for toggling this setting"
+msgid "Insert a creation date for any new task automatically"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:280
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "About KomoDo"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:306
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Welcome to KomoDo!"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:307
+#, kde-format
+msgctxt "Welcome introduction text"
+msgid ""
+"<p>KomoDo is a To-Do list application that uses <a href='https://github.com/todotxt/todo.txt'>todo.txt</a> rules.</p>"
+"<p>The rules are fairly quick to learn and KomoDo has help sections for it: <br>"
+"On the toolbar, click the <i><interface>Help…</interface></i> button.<br>"
+"While editing a task, click the <i><interface>Syntax Information…</interface></i> button.</p>"
+"<p>You can follow the rules as much or as little as you wish.<br>"
+" Feel free to experiment to find out your ideal way of managing tasks.</p>"
+"<p>Click <i><interface>Open To-Do list…</interface></i> to use an existing list or <i><interface>Create New To-Do list…</interface></i> to start a new list.</p>"
+msgstr ""
+
+#. +> trunk6
+#: src/ui/TodoPage.qml:319
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No To-Dos found."
+msgstr ""

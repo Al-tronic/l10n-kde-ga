@@ -1,0 +1,487 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the konqueror package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: konqueror\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-05-17 10:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:35 fsview.cpp:413
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:36
+#, kde-format
+msgid "Size"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:37
+#, kde-format
+msgid "File Count"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:38
+#, kde-format
+msgid "Directory Count"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:39
+#, kde-format
+msgid "Last Modified"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:40 fsview.cpp:414
+#, kde-format
+msgid "Owner"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:41 fsview.cpp:415
+#, kde-format
+msgid "Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:42 fsview.cpp:416
+#, kde-format
+msgid "Mime Type"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:283
+#, kde-format
+msgid "Go To"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:284 fsview_part.cpp:108
+#, kde-format
+msgid "Stop at Depth"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:285 fsview_part.cpp:105
+#, kde-format
+msgid "Stop at Area"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:286
+#, kde-format
+msgid "Stop at Name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:292
+#, kde-format
+msgid "Go Up"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:294
+#, kde-format
+msgid "Stop Refresh"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:296
+#, kde-format
+msgid "Refresh"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:301
+#, kde-format
+msgid "Refresh '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:313 fsview_part.cpp:115
+#, kde-format
+msgid "Color Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:316 fsview_part.cpp:111
+#, kde-format
+msgid "Visualization"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:411
+#, kde-format
+msgid "None"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview.cpp:412
+#, kde-format
+msgid "Depth"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:72
+#, kde-format
+msgid "Read 1 folder, in %2"
+msgid_plural "Read %1 folders, in %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:76
+#, kde-format
+msgid "1 folder"
+msgid_plural "%1 folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:89
+#, kde-format
+msgid ""
+"<p>This is the FSView plugin, a graphical browsing mode showing filesystem utilization by using a tree map visualization.</p>"
+"<p>Note that in this mode, automatic updating when filesystem changes are made is intentionally <b>not</b> done.</p>"
+"<p>For details on usage and options available, see the online help under menu 'Help/FSView Manual'.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:121
+#, kde-format
+msgid "&FSView Manual"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:123
+#, kde-format
+msgid "Show FSView manual"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:124
+#, kde-format
+msgid "Opens the help browser with the FSView documentation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:156
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Move to Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:163
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:168
+#, kde-format
+msgctxt "@action:inmenu Edit"
+msgid "&Edit File Type..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:172
+#, kde-format
+msgctxt "@action:inmenu File"
+msgid "Properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fsview_part.cpp:205
+#, kde-format
+msgid ""
+"FSView intentionally does not support automatic updates when changes are made to files or directories, currently visible in FSView, from the outside.\n"
+"For details, see the 'Help/FSView Manual'."
+msgstr ""
+
+#. i18n: ectx: Menu (edit)
+#. +> trunk6 stable6
+#: fsview_part.rc:4
+#, kde-format
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#. +> trunk6 stable6
+#: fsview_part.rc:13
+#, kde-format
+msgid "&View"
+msgstr ""
+
+#. i18n: ectx: Menu (help)
+#. +> trunk6 stable6
+#: fsview_part.rc:20
+#, kde-format
+msgid "&Help"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:23
+#, kde-format
+msgid "FSView"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:24
+#, kde-format
+msgid "Filesystem Viewer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:26
+#, kde-format
+msgid "(c) 2002, Josef Weidendorfer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "View filesystem starting from this folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:1435
+#, kde-format
+msgid "Text %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3168
+#, kde-format
+msgid "Recursive Bisection"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3170
+#, kde-format
+msgid "Columns"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3172
+#, kde-format
+msgid "Rows"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3174
+#, kde-format
+msgid "Always Best"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3176
+#, kde-format
+msgid "Best"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3178
+#, kde-format
+msgid "Alternate (V)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3180
+#, kde-format
+msgid "Alternate (H)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3182
+#, kde-format
+msgid "Horizontal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3184
+#, kde-format
+msgid "Vertical"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3236
+#, kde-format
+msgid "Nesting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3240
+#, kde-format
+msgid "Border"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3243
+#, kde-format
+msgid "Correct Borders Only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3246
+#, kde-format
+msgid "Width %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3249
+#, kde-format
+msgid "Allow Rotation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3250
+#, kde-format
+msgid "Shading"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3261
+#, kde-format
+msgid "Visible"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3262
+#, kde-format
+msgid "Take Space From Children"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3266
+#, kde-format
+msgid "Top Left"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3269
+#, kde-format
+msgid "Top Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3272
+#, kde-format
+msgid "Top Right"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3275
+#, kde-format
+msgid "Bottom Left"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3278
+#, kde-format
+msgid "Bottom Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3281
+#, kde-format
+msgid "Bottom Right"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3348
+#, kde-format
+msgid "No %1 Limit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3407
+#, kde-format
+msgid "No Area Limit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3413
+#, kde-format
+msgid "Area of '%1' (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3425 treemap.cpp:3438
+#, kde-format
+msgid "1 Pixel"
+msgid_plural "%1 Pixels"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3442
+#, kde-format
+msgid "Double Area Limit (to %1)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3444
+#, kde-format
+msgid "Halve Area Limit (to %1)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3480
+#, kde-format
+msgid "No Depth Limit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3486
+#, kde-format
+msgid "Depth of '%1' (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3498 treemap.cpp:3511
+#, kde-format
+msgid "Depth %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3515
+#, kde-format
+msgid "Decrement (to %1)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: treemap.cpp:3517
+#, kde-format
+msgid "Increment (to %1)"
+msgstr ""

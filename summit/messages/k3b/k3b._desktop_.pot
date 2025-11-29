@@ -1,0 +1,206 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-09 08:56+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#: kioworkers/videodvd/videodvd.desktop:5
+msgctxt "Name"
+msgid "Video DVD Browser"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/helper/k3b.actions:2
+msgctxt "Name"
+msgid "Update device and programs permissions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/helper/k3b.actions:58
+msgctxt "Description"
+msgid "Authentication is required to update permissions of devices and programs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/helper/k3b.actions:116
+msgctxt "Name"
+msgid "Adds current user to a specified group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/helper/k3b.actions:168
+msgctxt "Description"
+msgid "Authentication is required to add current user to a group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b-cue.desktop:6 src/k3b-iso.desktop:6 src/org.kde.k3b.desktop:121
+msgctxt "Name"
+msgid "K3b"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:4
+msgctxt "Comment"
+msgid "K3b"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:71
+msgctxt "Name"
+msgid "Process successful"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:136
+msgctxt "Comment"
+msgid "Process successfully finished"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:202
+msgctxt "Name"
+msgid "Process error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:267
+msgctxt "Comment"
+msgid "Process finished with errors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:336
+msgctxt "Name"
+msgid "Waiting for medium"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:400
+msgctxt "Comment"
+msgid "The user needs to insert a medium"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:466
+msgctxt "Name"
+msgid "Busy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:521
+msgctxt "Comment"
+msgid "K3b is currently busy and cannot start any other operations"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:577
+msgctxt "Name"
+msgid "No problems found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:630
+msgctxt "Comment"
+msgid "No problems found in system configuration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:686
+msgctxt "Name"
+msgid "Mount/unmount failed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:739
+msgctxt "Comment"
+msgid "Medium cannot be mount or unmounted"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:795
+msgctxt "Name"
+msgid "Track data not found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/k3b.notifyrc:848
+msgctxt "Comment"
+msgid "Track information has not been found in the online database"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/org.kde.k3b.desktop:6
+msgctxt "GenericName"
+msgid "Disk Burning"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/org.kde.k3b.desktop:63
+msgctxt "Comment"
+msgid "Disk writing program"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/services/k3b_audiocd_rip.desktop:9
+msgctxt "Name"
+msgid "Extract Digital Audio with K3b"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/services/k3b_copy_disc.desktop:9
+msgctxt "Name"
+msgid "Copy with K3b"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/services/k3b_create_audio_cd.desktop:9
+#: src/services/k3b_create_audio_cd_from_blank_medium.desktop:10
+msgctxt "Name"
+msgid "Create Audio CD with K3b"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/services/k3b_create_data_project.desktop:10
+#: src/services/k3b_create_data_project_from_blank_medium.desktop:10
+msgctxt "Name"
+msgid "Create data project with K3b"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/services/k3b_create_video_cd.desktop:9
+msgctxt "Name"
+msgid "Create Video CD with K3b"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/services/k3b_dvd_copy.desktop:8
+msgctxt "Name"
+msgid "Copy DVD with K3b"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/services/k3b_videodvd_rip.desktop:9
+msgctxt "Name"
+msgid "Rip Video DVD Titles with K3b"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/services/k3b_write_bin_image.desktop:9
+msgctxt "Name"
+msgid "Write CD Image with K3b"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/services/k3b_write_iso_image.desktop:9
+msgctxt "Name"
+msgid "Write image to disc with K3b"
+msgstr ""

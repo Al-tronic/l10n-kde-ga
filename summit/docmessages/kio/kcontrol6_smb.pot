@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-03-09 09:45+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5
+#: index.docbook:10 index.docbook:27
+#, no-c-format
+msgid "&Windows; Shares"
+msgstr ""
+
+#. Tag: author
+#. +> trunk5
+#: index.docbook:12
+#, no-c-format
+msgid "&Mike.McBride; &Mike.McBride.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk5
+#: index.docbook:13
+#, no-c-format
+msgid "&Jost.Schenck; &Jost.Schenck.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk5
+#: index.docbook:14
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk5
+#: index.docbook:17
+#, no-c-format
+msgid "2016-11-10"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk5
+#: index.docbook:18
+#, no-c-format
+msgid "Frameworks 5.29"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk5
+#: index.docbook:21
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk5
+#: index.docbook:22
+#, no-c-format
+msgid "Systemsettings"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk5
+#: index.docbook:23
+#, no-c-format
+msgid "Windows shares"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: index.docbook:30
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:32
+#, no-c-format
+msgid "In many small local area networks, the &SMB; protocol is used to offer network services. Names like <quote>&Windows; Network</quote> or <quote>&Windows; for Workgroups Network</quote> or <quote>LanManager</quote> are often used as well. Using &SMB; you can access so-called <quote>shares</quote> (&ie; folders made available by the server) as well as printers."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:40
+#, no-c-format
+msgid "&kde; comes with built-in support for the &SMB; protocol. As &kde; is network-transparent that means you can access &SMB; shares from everywhere you can access your local files, for example in the &konqueror; file manager and in the file dialog. To make use of this you should provide &kde; with some information on your &SMB; network. But don't worry, this is normally pretty simple as, for example, all the &Windows; clients in your network need and have the same information."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:58
+#, no-c-format
+msgid "For the &SMB; protocol to work, it is required to have &Samba; correctly installed."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: index.docbook:67
+#, no-c-format
+msgid "<title>Use</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:69
+#, no-c-format
+msgid "Although there are a lot of insecure &SMB; networks out there which allow access to anyone, in principle you have to authenticate yourself to access the services of an &SMB; server. By default, &kde; will use the data entered in the <guilabel>Default user name:</guilabel> and <guilabel>Default password:</guilabel> fields to authenticate itself on &SMB; hosts. If you leave the field <guilabel>Default user name:</guilabel> empty, &kde; will try to access &SMB; hosts without a username. If you leave the default password empty, it will try without a password. If &kde; is unsuccessful accessing the host using these settings, you will be asked for a username and a password."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:82
+#, no-c-format
+msgid "While it makes things more comfortable if &kde; stores your &SMB; password, this may be a security problem. If you are using &SMB; in a security conscious environment, you should not store your password here but rather enter it anew every time you need to access an &SMB; host."
+msgstr ""

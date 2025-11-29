@@ -1,0 +1,260 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: !ENTITY
+#. +> trunk6 stable6
+#: index.docbook:4
+#, no-c-format
+msgid "<!ENTITY i18n-archivemailagent \"<application>Archive Mail Agent</application>\">"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:13
+#, no-c-format
+msgid "The &i18n-archivemailagent; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:16
+#, no-c-format
+msgid "<personname> <firstname>Laurent</firstname> <surname>Montel</surname> </personname> <email>montel@kde.org</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:23
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:28
+#, no-c-format
+msgid "Laurent Montel"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:33
+#, no-c-format
+msgid "2019-09-21"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:34
+#, no-c-format
+msgid "5.13 (Applications 19.12)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:38
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:40
+#, no-c-format
+msgid "&i18n-archivemailagent; is an Akonadi agent which allows to archive mail folders automatically."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:45
+#, no-c-format
+msgid "Using &i18n-archivemailagent;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:48
+#, no-c-format
+msgid "Use <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Automatic Archiving...</guimenuitem> </menuchoice><action> in &kmail;'s reader window to open a dialog to set up automatic archiving of mail folders.</action>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:53
+#, no-c-format
+msgid "This is a powerful tool that can be used to assist in backing up your email. To use this, click the <guibutton>Add...</guibutton> button, and the <guilabel>Add Archive Mail</guilabel> dialog will pop up."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:57
+#, no-c-format
+msgid "<screeninfo>Add Archive Mail dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:63
+#, no-c-format
+msgid "<phrase>Add Archive Mail dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:66
+#, no-c-format
+msgid "<para>Add Archive Mail dialog</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:72
+#, no-c-format
+msgid "First select the folder you would like to archive."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:73
+#, no-c-format
+msgid "Select the format you would like to save it in. &eg; <literal role=\"extension\">.tar.bz2</literal> in the drop down list. The archive filename will consist of the prefix <userinput>Archive_</userinput>, the path of the selected folder in &kmail;'s folder list, the date in format <userinput>year-month-day</userinput> and the selected file extension &eg; <filename>Archive_Local Folder_inbox_2019-09-03.tar.bz2</filename>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:78
+#, no-c-format
+msgid "By default <guilabel>Archive all subfolders</guilabel> is enabled. Uncheck this if you only want the parent folder archived."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:80
+#, no-c-format
+msgid "You can type in the location you would like to save your archive, or click the <guibutton>Open File Dialog</guibutton> button to select the folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:82
+#, no-c-format
+msgid "Select how often you wish to backup through the dropdown menus next to <guilabel>Backup each:</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:84
+#, no-c-format
+msgid "If you are limited on drive space you will want to set a limit on <guilabel>Maximum number of archive:</guilabel>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:87
+#, no-c-format
+msgid "If you have added or modified an archive job it will be executed automatically after closing the dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:90
+#, no-c-format
+msgid "If you have already added mail archive jobs the <guilabel>Configure Archive Mail Agent</guilabel> dialog will list and allow to modify them."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:94
+#, no-c-format
+msgid "<screeninfo>Configure Archive Mail Agent</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:100
+#, no-c-format
+msgid "<phrase>Configure Archive Mail Agent</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:103
+#, no-c-format
+msgid "<para>Configure Archive Mail Agent</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:107
+#, no-c-format
+msgid "You can use the checkbox at the left of each entry in the list to enable or disable archiving of this job."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:110
+#, no-c-format
+msgid "It is possible to access this configurational dialog any time later using <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kmail;...</guimenuitem></menuchoice> then select the <guilabel>Plugins</guilabel> page in &kmail; main window and pressing the configuration button against the <guilabel>Archive Mail Agent</guilabel> item."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:114
+#, no-c-format
+msgid "Using the context menu launched with a &RMB; click on an archive job you can open the folder containing the archives or start the archive job immediately. This will overwrite an existing archive created earlier at the same day without notification."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:123
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:125
+#, no-c-format
+msgid "&i18n-archivemailagent;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:126
+#, no-c-format
+msgid "Program copyright 2013-2019 Laurent Montel montel@kde.org"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:129
+#, no-c-format
+msgid "Documentation Copyright &copy; 2013-2019 Laurent Montel montel@kde.org"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:133
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: sect2
+#. +> trunk6 stable6
+#: index.docbook:133
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

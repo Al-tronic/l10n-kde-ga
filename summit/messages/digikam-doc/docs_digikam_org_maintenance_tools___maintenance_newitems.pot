@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://spdx.org/licenses/GFDL-1.2-or-later.html">licensed under the terms of the GNU Free Documentation License 1.2+</a> unless stated otherwise
+# This file is distributed under the same license as the Digikam Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digikam Manual 8.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-30 10:26+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:14
+msgid ":ref:`Scan for New Items <maintenance_tools>`"
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:16
+msgid "Contents"
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:22
+msgid "The digiKam Maintenance Options to Scan for New Items"
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:24
+msgid "The **Scan for New Items** tool will scan the collections you defined in :menuselection:`Settings --> Configure digiKam...` and the **Collections** dialog page, looking for image files you have added to your collections while digiKam was not running. New entries are added to the digiKam database corresponding to each new image file found during the scan."
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:26
+msgid "The new items scans are performed in the background, so you can continue to use digikam during a scan. While scanning for new items, a progress indicator is displayed in the bottom right corner of the main window."
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:32
+msgid "The Scan for New Items Process Working in the background"
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:34
+msgid "This tool can also be directly called from the main menu item :menuselection:`Tools --> Scan for New Items`."
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:37
+msgid "Scanning for New Items Automatically at Startup"
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:39
+msgid "You can also run this process automatically on digiKam startup by checking **Scan for new items at startup** in :menuselection:`Settings --> Configure digiKam... --> Miscellaneous page --> Behavior tab`."
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:41
+msgid "Be aware that scanning for new items at startup can take a while, slowing-down application initialization. If your computer is fast enough, the background scan will have no effect on the usability of digiKam while scanning. Scanning can introduce delays if your collections are huge or if you use a remote database. In these cases you may want to disable automatic scans and instead use the maintenance tool to perform a manual scan when necessary."
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:43
+msgid "Another option from this setup panel named **Fast scan (detects new, deleted and renamed items)** can also be turned on to significantly speed up the scan. This scan only looks for new, deleted, or renamed items. This option must be deactivated in order to find items that have been otherwise edited or changed."
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:49
+msgid "The digiKam Options to Scan for New Items from the Setup Dialog"
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:53
+msgid "digiKam uses a hash to identify files quickly and register items changes in the database while scanning. For performance reasons this is not a full hash of the file, but the file size is included, so it's reliable enough. digiKam uses these same parameters to try to find files during a scan that have been externally moved or renamed. To have make the scan process as efficient as possible, we recommend doing file operations within digiKam, avoiding changing files and folders using external applications such as a file manager."
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:-1
+msgid "digiKam Maintenance Tool to Scan for New Items"
+msgstr ""
+
+#. +> trunk5
+#: ../../maintenance_tools/maintenance_newitems.rst:-1
+msgid "digiKam, documentation, user manual, photo management, open source, free, learn, easy, maintenance, scan, new, items"
+msgstr ""

@@ -1,0 +1,330 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kmines package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kmines\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-22 11:22+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: customgame.ui:16
+#, kde-format
+msgid "Width:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: customgame.ui:26
+#, kde-format
+msgid "Height:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: customgame.ui:36
+#, kde-format
+msgid "Mines:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseQuestionMarks)
+#. +> trunk6 stable6
+#: generalopts.ui:17
+#, kde-format
+msgid "Use '?' marks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowKminesReset)
+#. +> trunk6 stable6
+#: generalopts.ui:24
+#, kde-format
+msgid "Allow KMines reset"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DisableScoreOnReset)
+#. +> trunk6 stable6
+#: generalopts.ui:37
+#, kde-format
+msgid "Disable score on reset"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ExploreWithLeftClickOnNumberCells)
+#. +> trunk6 stable6
+#: generalopts.ui:44
+#, kde-format
+msgid "Explore with left click on number cells"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: generalopts.ui:53
+#, kde-format
+msgid "Place flag when mouse button is:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PlaceFlagOn)
+#. +> trunk6 stable6
+#: generalopts.ui:61
+#, kde-format
+msgid "Released"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PlaceFlagOn)
+#. +> trunk6 stable6
+#: generalopts.ui:66
+#, kde-format
+msgid "Pressed"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseQuestionMarks), group (General)
+#. +> trunk6 stable6
+#: kmines.kcfg:9
+#, kde-format
+msgid "Whether the \"unsure\" marker may be used."
+msgstr ""
+
+#. i18n: ectx: label, entry (ExploreWithLeftClickOnNumberCells), group (General)
+#. +> trunk6 stable6
+#: kmines.kcfg:21
+#, kde-format
+msgid "Left click on a number cell will have the same effect as mid click."
+msgstr ""
+
+#. i18n: ectx: label, entry (CustomWidth), group (Options)
+#. +> trunk6 stable6
+#: kmines.kcfg:35
+#, kde-format
+msgid "The width of the playing field."
+msgstr ""
+
+#. i18n: ectx: label, entry (CustomHeight), group (Options)
+#. +> trunk6 stable6
+#: kmines.kcfg:41
+#, kde-format
+msgid "The height of the playing field."
+msgstr ""
+
+#. i18n: ectx: label, entry (CustomMines), group (Options)
+#. +> trunk6 stable6
+#: kmines.kcfg:47
+#, kde-format
+msgid "The number of mines in the playing field."
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: kminesui.rc:12
+#, kde-format
+msgid "Main Toolbar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:45
+#, kde-format
+msgid "KMines"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgid "KMines is a classic minesweeper game"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:49
+#, kde-format
+msgid ""
+"(c) 1996-2005, Nicolas Hadacek\n"
+"(c) 2001, Mikhail Kourinny\n"
+"(c) 2006-2007, Mauricio Piacentini\n"
+"(c) 2007, Dmitry Suzdalev"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:52
+#, kde-format
+msgid "Nicolas Hadacek"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:53
+#, kde-format
+msgid "Original author"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Mauricio Piacentini"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, kde-format
+msgid "Code refactoring and SVG support. Current maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, kde-format
+msgid "Dmitry Suzdalev"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:58
+#, kde-format
+msgid "Rewrite to use QGraphicsView framework. Current maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:60
+#, kde-format
+msgid "Andreas Zehender"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:60
+#, kde-format
+msgid "Smiley pixmaps"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:61
+#, kde-format
+msgid "Mikhail Kourinny"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:61
+#, kde-format
+msgid "Solver/Adviser"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:62
+#, kde-format
+msgid "Thomas Capricelli"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:62
+#, kde-format
+msgid "Magic reveal mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:63
+#, kde-format
+msgid "Brian Croom"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:63
+#, kde-format
+msgid "Port to use KGameRenderer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:101
+#, kde-format
+msgid "Mines: 0/0"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:102 mainwindow.cpp:173
+#, kde-format
+msgid "Time: 00:00"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:125
+#, kde-format
+msgid "Custom"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:135
+#, kde-format
+msgid "Mines: %1/%2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:203
+#, kde-format
+msgid "Reset the Game?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:205
+#, kde-format
+msgctxt "@action;button"
+msgid "Reset"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:217
+#, kde-format
+msgid "Time: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:243
+#, kde-format
+msgctxt "@title:tab"
+msgid "General"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:244
+#, kde-format
+msgctxt "@title:tab"
+msgid "Theme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:245
+#, kde-format
+msgctxt "@title:tab"
+msgid "Custom Game"
+msgstr ""
+
+#. +> trunk6 stable6
+#: scene.cpp:117
+#, kde-format
+msgid "Game is paused."
+msgstr ""
+
+#. +> trunk6 stable6
+#: scene.cpp:125
+#, kde-format
+msgid "Congratulations! You have won!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: scene.cpp:127
+#, kde-format
+msgid "You have lost."
+msgstr ""

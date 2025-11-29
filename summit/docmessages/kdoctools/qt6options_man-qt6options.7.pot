@@ -1,0 +1,449 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-05-22 11:33+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:8
+#, no-c-format
+msgid "&Qt; Command Line Documentation"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:9
+#, no-c-format
+msgid "&Lauri.Watts; &Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:10
+#, no-c-format
+msgid "&Burkhard.Lueck; &Burkhard.Lueck.mail;"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:11
+#, no-c-format
+msgid "2016-06-04"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6
+#: man-qt6options.7.docbook:12
+#, no-c-format
+msgid "Qt 6"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk5
+#: man-qt5options.7.docbook:12
+#, no-c-format
+msgid "Qt 5.4"
+msgstr ""
+
+#. Tag: productname
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:13
+#, no-c-format
+msgid "KDE Frameworks"
+msgstr ""
+
+#. Tag: refentrytitle
+#. +> trunk6
+#: man-qt6options.7.docbook:17
+#, no-c-format
+msgid "<refentrytitle>qt6options</refentrytitle>"
+msgstr ""
+
+#. Tag: refentrytitle
+#. +> trunk5
+#: man-qt5options.7.docbook:17
+#, no-c-format
+msgid "<refentrytitle>qt5options</refentrytitle>"
+msgstr ""
+
+#. Tag: manvolnum
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:18
+#, no-c-format
+msgid "<manvolnum>7</manvolnum>"
+msgstr ""
+
+#. Tag: refname
+#. +> trunk6
+#: man-qt6options.7.docbook:22
+#, no-c-format
+msgid "<refname>qt6options</refname>"
+msgstr ""
+
+#. Tag: refname
+#. +> trunk5
+#: man-qt5options.7.docbook:22
+#, no-c-format
+msgid "<refname>qt5options</refname>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:23
+#, no-c-format
+msgid "Common commandline options for all applications based on the &Qt; toolkit"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:27
+#, no-c-format
+msgid "<command><replaceable>Qt application</replaceable></command> <arg choice=\"opt\"><option>-style=</option> <replaceable>style</replaceable> / <option>-style</option> <replaceable>style</replaceable></arg> <arg choice=\"opt\"><option>-stylesheet=</option> <replaceable>stylesheet</replaceable> / <option>-stylesheet</option> <replaceable>stylesheet</replaceable></arg> <arg choice=\"opt\"><option>-widgetcount</option></arg> <arg choice=\"opt\"><option>-reverse</option></arg> <arg choice=\"opt\"><option>-qmljsdebugger=</option> <replaceable>port</replaceable></arg> <arg choice=\"opt\"><option>-platform</option> <replaceable>platformName[:options]</replaceable></arg> <arg choice=\"opt\"><option>-platformpluginpath</option> <replaceable>path</replaceable></arg> <arg choice=\"opt\"><option>-platformtheme</option> <replaceable>platformTheme</replaceable></arg> <arg choice=\"opt\"><option>-plugin</option> <replaceable>plugin</replaceable></arg> <arg choice=\"opt\"><option>-qwindowgeometry</option> <replaceable>geometry</replaceable></arg> <arg choice=\"opt\"><option>-qwindowicon</option> <replaceable>icon</replaceable></arg> <arg choice=\"opt\"><option>-qwindowtitle</option> <replaceable>title</replaceable></arg> <arg choice=\"opt\"><option>-reverse</option></arg> <arg choice=\"opt\"><option>-session</option> <replaceable>session</replaceable></arg> <arg choice=\"opt\"><option>-display</option> <replaceable>hostname:screen_number</replaceable></arg> <arg choice=\"opt\"><option>-geometry</option> <replaceable>geometry</replaceable></arg> <arg choice=\"opt\"><option>-dialogs=</option> <replaceable>[xp|none]</replaceable></arg> <arg choice=\"opt\"><option>-fontengine=</option> <replaceable>freetype</replaceable></arg> <arg choice=\"opt\"><option>-h, --help and -? on &Windows;</option></arg> <arg choice=\"opt\"><option>-v --version</option></arg>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:57
+#, no-c-format
+msgid "Options"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:59
+#, no-c-format
+msgid "The following options apply to all &Qt; applications:"
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:64
+#, no-c-format
+msgid "<option>-style=</option> <replaceable>style</replaceable> / <option>-style</option> <replaceable>style</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:67
+#, no-c-format
+msgid "Set the application &GUI; style. Possible values depend on the system configuration. If &Qt; is compiled with additional styles or has additional styles as plugins these will be available to the <option>-style</option> command line option."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:74
+#, no-c-format
+msgid "<option>-stylesheet=</option> <replaceable>stylesheet</replaceable> / <option>-stylesheet</option> <replaceable>stylesheet</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:77
+#, no-c-format
+msgid "Set the application styleSheet. The value must be a path to a file that contains the Style Sheet."
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:84
+#, no-c-format
+msgid "-widgetcount"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:86
+#, no-c-format
+msgid "Print debug message at the end about number of widgets left undestroyed and maximum number of widgets existed at the same time."
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:93
+#, no-c-format
+msgid "-reverse"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:95
+#, no-c-format
+msgid "Set the application's layout direction to <methodname>Qt::RightToLeft</methodname>. This option is intended to aid debugging and should not be used in production. The default value is automatically detected from the user's locale (see also <methodname>QLocale::textDirection()</methodname>)."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:104
+#, no-c-format
+msgid "<option>-qmljsdebugger=</option> <replaceable>port</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:107
+#, no-c-format
+msgid "Activate the QML/JS debugger with a specified port. The value must be of format port:1234[,block], where block is optional and will make the application wait until a debugger connects to it."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:114
+#, no-c-format
+msgid "<option>-platform</option> <replaceable>platformName[:options]</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:117
+#, no-c-format
+msgid "Specify the &Qt; Platform Abstraction (QPA) plugin."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:123
+#, no-c-format
+msgid "<option>-platformpluginpath</option> <replaceable>path</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:126
+#, no-c-format
+msgid "Specify the path to platform plugins."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:132
+#, no-c-format
+msgid "<option>-platformtheme</option> <replaceable>platformTheme</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:135
+#, no-c-format
+msgid "Specify the platform theme."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:141
+#, no-c-format
+msgid "<option>-plugin</option> <replaceable>plugin</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:144
+#, no-c-format
+msgid "Specify additional plugins to load. The argument may appear multiple times."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:150
+#, no-c-format
+msgid "<option>-qwindowgeometry</option> <replaceable>geometry</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:153
+#, no-c-format
+msgid "Specify the window geometry for the main window using the &X11;-syntax. For example: -qwindowgeometry 100x100+50+50"
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:159
+#, no-c-format
+msgid "<option>-qwindowicon</option> <replaceable>icon</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:162
+#, no-c-format
+msgid "Set the default window icon."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:168
+#, no-c-format
+msgid "<option>-qwindowtitle</option> <replaceable>title</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:171
+#, no-c-format
+msgid "Set the title of the first window."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:177
+#, no-c-format
+msgid "<option>-session</option> <replaceable>session</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:180
+#, no-c-format
+msgid "Restore the application from an earlier session."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:186
+#, no-c-format
+msgid "<option>-display</option> <replaceable>hostname:screen_number</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:189
+#, no-c-format
+msgid "Switch displays on &X11;. Overrides the <envar>DISPLAY</envar> environment variable."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:195
+#, no-c-format
+msgid "<option>-geometry</option> <replaceable>geometry</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:198
+#, no-c-format
+msgid "Specify the window geometry for the main window on &X11;. For example: -geometry 100x100+50+50"
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:204
+#, no-c-format
+msgid "<option>-dialogs=</option> <replaceable>[xp|none]</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:207
+#, no-c-format
+msgid "Only available for the &Windows; platform. XP uses native style dialogs and none disables them."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:213
+#, no-c-format
+msgid "<option>-fontengine=</option> <replaceable>freetype</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:216
+#, no-c-format
+msgid "Use the FreeType font engine."
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:224
+#, no-c-format
+msgid "-h, --help and -? on &Windows;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:226
+#, no-c-format
+msgid "Print all options and the application description."
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:233
+#, no-c-format
+msgid "-v --version"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:235
+#, no-c-format
+msgid "Display the version string of the application."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:246
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: man-qt6options.7.docbook:247
+#, no-c-format
+msgid "<replaceable>kf6options</replaceable>(7)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: man-qt5options.7.docbook:247
+#, no-c-format
+msgid "<replaceable>kf5options</replaceable>(7)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:252
+#, no-c-format
+msgid "Authors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:253
+#, no-c-format
+msgid "Man page originally written by &Lauri.Watts; &Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: man-qt6options.7.docbook:254
+#, no-c-format
+msgid "Updated to &frameworks; 5 by &Burkhard.Lueck; &Burkhard.Lueck.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: man-qt6options.7.docbook:255
+#, no-c-format
+msgid "The infos for this man page are from <ulink url=\"https://doc.qt.io/qt-6/qapplication.html#QApplication\">QApplication documentation</ulink>, <ulink url=\"https://doc.qt.io/qt-6/qguiapplication.html#QGuiApplication\">QGuiApplication documentation</ulink> and <ulink url=\"https://doc.qt.io/qt-6/qcommandlineparser.html\">QCommandLineParser documentation</ulink>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: man-qt5options.7.docbook:255
+#, no-c-format
+msgid "The infos for this man page are from <ulink url=\"https://doc.qt.io/qt-5/qapplication.html#QApplication\">QApplication documentation</ulink>, <ulink url=\"https://doc.qt.io/qt-5/qguiapplication.html#QGuiApplication\">QGuiApplication documentation</ulink> and <ulink url=\"https://doc.qt.io/qt-5/qcommandlineparser.html\">QCommandLineParser documentation</ulink>."
+msgstr ""

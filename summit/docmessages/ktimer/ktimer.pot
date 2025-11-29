@@ -1,0 +1,302 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:14
+#, no-c-format
+msgid "The &ktimer; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:17
+#, no-c-format
+msgid "<firstname>A. L.</firstname> <othername></othername> <surname>Spehr</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:22
+#, no-c-format
+msgid "&A.L.Spehr.email;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:25
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:30
+#, no-c-format
+msgid "2018-03-04"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:31
+#, no-c-format
+msgid "Applications 18.04"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:34
+#, no-c-format
+msgid "&ktimer; is an application that lets you start an application after a certain amount of time has passed."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:41
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:42
+#, no-c-format
+msgid "kdeutils"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:43
+#, no-c-format
+msgid "ktimer"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:44
+#, no-c-format
+msgid "countdown"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:50
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:51
+#, no-c-format
+msgid "&ktimer; allows you to enter several tasks and to set a timer for each of them. When the timer reaches zero, the task is executed. The timers for each task can be started, stopped, changed, or looped."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:56
+#, no-c-format
+msgid "Using &ktimer;"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:59
+#, no-c-format
+msgid "Here's a screenshot of &ktimer; when you start it for the first time"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:66
+#, no-c-format
+msgid "&ktimer; main window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:71
+#, no-c-format
+msgid "To start, first add a task by selecting <guibutton>New</guibutton>. Then type the command you wish to execute into the <guilabel>Command line:</guilabel> box. You can then adjust the settings, or start the timer countdown. When the time is up, the command will be run."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:74
+#, no-c-format
+msgid "Here's a screenshot of &ktimer; after you have told it to run &konqueror;."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:80
+#, no-c-format
+msgid "add a task"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:85
+#, no-c-format
+msgid "Let's use &konqueror; as an example. By default, it will start in 100 seconds once the timer countdown is started."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:88
+#, no-c-format
+msgid "Here it is counting down: in 56 seconds &konqueror; will be run."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:94
+#, no-c-format
+msgid "56 seconds to go"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:99
+#, no-c-format
+msgid "Now let's start the task. Here it has been running for a bit and is partway through the countdown. In 56 seconds, &konqueror; will be started."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:101
+#, no-c-format
+msgid "See that sliding bar? You can use it to quickly increase or decrease the amount of time on a task."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:104
+#, no-c-format
+msgid "Let's add a second task."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:110
+#, no-c-format
+msgid "start another &konqueror;, you can never have too many!"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:115
+#, no-c-format
+msgid "Now two &konqueror;s are scheduled to be run. The top one will be run in 20 seconds, and the bottom one is currently stopped. You can add more commands. While you can never have too many &konqueror;s, you probably want to use other executables. Your own shell script, perhaps."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:117
+#, no-c-format
+msgid "If you want to start a new task with a certain delay after the previous task in the list is finished check the option <guilabel>Consecutive task</guilabel> and adjust the time specified in the column <guilabel>Delay</guilabel>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:123
+#, no-c-format
+msgid "Settings"
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6
+#: index.docbook:128
+#, no-c-format
+msgid "<guibutton>New</guibutton>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:129
+#, no-c-format
+msgid "Adds a new task."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6
+#: index.docbook:133
+#, no-c-format
+msgid "Remove"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:134
+#, no-c-format
+msgid "Removes the current task."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6
+#: index.docbook:138
+#, no-c-format
+msgid "Help"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:139
+#, no-c-format
+msgid "Opens the Handbook."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:153
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:155
+#, no-c-format
+msgid "&ktimer;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:161
+#, no-c-format
+msgid "Program Copyright 2001 &Stefan.Schimanski; &Stefan.Schimanski.email;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:163
+#, no-c-format
+msgid "Documentation Copyright 2008 &A.L.Spehr; &A.L.Spehr.email;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:165
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:165
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

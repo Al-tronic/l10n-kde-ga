@@ -1,0 +1,708 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-nm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-nm\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-18 18:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. i18n: ectx: property (text), widget (QLabel, labelGateway)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:19
+#, kde-format
+msgid "Gateway:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, gateway)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:35
+#, kde-format
+msgid "L2TP server IP or name."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelAuthType)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:45
+#, kde-format
+msgid "Authentication type:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cmbAuthType)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:67 l2tpipsec.ui:68
+#, kde-format
+msgid "Select an authentication mode."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbAuthType)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:71
+#, kde-format
+msgid "Password"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbAuthType)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:76 l2tpipsec.ui:77
+#, kde-format
+msgid "Certificates (TLS)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, Label_1)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:90
+#, kde-format
+msgctxt "like in Username for athentication"
+msgid "Username:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, username)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:103
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Set the name used for authenticating the local system to the peer to &lt;name&gt;.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, Label_2)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:113
+#, kde-format
+msgid "Password:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (PasswordField, password)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:128
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Password passed to PPPD when prompted for it.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, Label_3)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:140
+#, kde-format
+msgid "NT Domain:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, domain)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:150
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Append the domain name &lt;domain&gt; to the local host name for</p>"
+"<p>authentication purposes.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:174 l2tpipsec.ui:205
+#, kde-format
+msgid "CA Certificate:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, machineCA)
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, userCA)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:187 l2tpipsec.ui:119
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Certificate authority (CA) file in .pem, .der, .crt, .cer or .p12 formats.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, machineCA)
+#. i18n: ectx: property (filter), widget (KUrlRequester, machineCert)
+#. i18n: ectx: property (filter), widget (KUrlRequester, userCA)
+#. i18n: ectx: property (filter), widget (KUrlRequester, userCert)
+#. +> stable5
+#: l2tp.ui:190 l2tp.ui:213 l2tpipsec.ui:122 l2tpipsec.ui:145
+#, kde-format
+msgid "*.pem *.der *.crt *.cer *.p12"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:199
+#, kde-format
+msgid "User Certificate:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, userCert)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:212
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Certificate in .pem, .der, .crt, .cer or .p12 formats.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:224 l2tpipsec.ui:156
+#, kde-format
+msgid "Private Key:"
+msgstr ""
+
+#. i18n: ectx: property (filter), widget (KUrlRequester, machineKey)
+#. i18n: ectx: property (filter), widget (KUrlRequester, userKey)
+#. +> stable5
+#: l2tp.ui:236 l2tpipsec.ui:168
+#, kde-format
+msgid "*.pem *der *.key *.pk8 *.p12"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, machineKey)
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, userKey)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:237 l2tpipsec.ui:169
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Private key in .pem, .der, .key, .pk8 or .p12 formats.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:249 l2tpipsec.ui:181
+#, kde-format
+msgid "Private Key Password:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (PasswordField, machineKeyPassword)
+#. i18n: ectx: property (toolTip), widget (PasswordField, userKeyPassword)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:261 l2tpipsec.ui:193
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Password for private key or PKCS#12 certificate.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btnIPSecSettings)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:292
+#, kde-format
+msgid "IPsec Settings…"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, btnPPPSettings)
+#. +> trunk6 stable6 stable5
+#: l2tp.ui:299
+#, kde-format
+msgid "PPP Settings…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: l2tpauth.cpp:64
+#, kde-format
+msgid "User Password:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: l2tpauth.cpp:72
+#, kde-format
+msgid "User Certificate Password:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: l2tpauth.cpp:83
+#, kde-format
+msgid "Machine Certificate Password:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6 stable5
+#: l2tpauth.cpp:93 l2tpipsec.ui:91
+#, kde-format
+msgid "Pre-shared Key:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbEnableTunnelToHost)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:20
+#, kde-format
+msgid "Enable IPsec tunnel to L2TP host"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbAuthentication)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:38
+#, kde-format
+msgid "Machine Authentication"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelAuthType)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:46
+#, kde-format
+msgid "Type:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cmbAuthType)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:72
+#, kde-format
+msgid "Pre-shared Key (PSK)"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (PasswordField, presharedKey)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:103
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Pre-shared key (PSK) secret.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:131
+#, kde-format
+msgid "Machine Certificate:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, machineCert)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:144
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Certificate in .pem, .der or .p12 formats.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbAdvanced)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:225
+#, kde-format
+msgid "Advanced"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:231
+#, kde-format
+msgid "Phase1 Algorithms:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:241
+#, kde-format
+msgid "Phase2 Algorithms:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, esp)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:251
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Optional. A list of proposals for ESP - Quick Mode. The format is “enc-integ,enc-integ, …”.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QTimeEdit, ikelifetime)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:261
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>How long the keying channel of a connection should last before being renegotiated.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, ikelifetime)
+#. i18n: ectx: property (displayFormat), widget (QTimeEdit, salifetime)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:264 l2tpipsec.ui:298
+#, kde-format
+msgid "hh:mm:ss"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbIkelifetime)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:271
+#, kde-format
+msgid "Phase1 Lifetime:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, ike)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:278
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Optional. A list of proposals for IKE - Main Mode. The format is “enc-integ-group,enc-integ-group, …”.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbSalifetime)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:285
+#, kde-format
+msgid "Phase2 Lifetime:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QTimeEdit, salifetime)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:295
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>How long a particular instance of a connection (a set of encryption/authentication keys for user packets) should last, from successful negotiation to expiry.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, remoteId)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:305
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Optional. How the IPsec server should be identified for authentication. Sometimes referred to as Peer ID or Gateway ID, also referred to as rightid by strongSwan, Libreswan, Openswan and FreeS/WAN. See strongSwan or Libreswan documentation for leftid/rightid syntax and identity parsing.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbIPComp)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:312
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>IPComp compresses raw IP packets before they get encrypted. This saves some bandwidth, but uses more processing power.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbIPComp)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:315
+#, kde-format
+msgid "Use IP compression"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbPFS)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:322
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Disable perfect forward secrecy. Enable this option only if the server doesn’t support PFS.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbPFS)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:325
+#, kde-format
+msgid "Disable PFS"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbForceEncaps)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:332
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>Some firewalls block ESP traffic. Enforcing UDP encapsulation even if no NAT situation is detected might help in such cases.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbForceEncaps)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:335
+#, kde-format
+msgid "Enforce UDP encapsulation"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk6 stable6 stable5
+#: l2tpipsec.ui:345
+#, kde-format
+msgid "Remote ID:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: l2tpipsecwidget.cpp:46
+#, kde-format
+msgid "L2TP IPsec Options"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grp_authenfication)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:26
+#, kde-format
+msgid "Authentication"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblauth)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:35
+#, kde-format
+msgid "Allow following authentication methods:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QListWidget, listWidget)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:45
+#, kde-format
+msgid "Allow/disable authentication methods"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:49
+#, kde-format
+msgid "PAP"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:57
+#, kde-format
+msgid "CHAP"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:65
+#, kde-format
+msgid "MSCHAP"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:73
+#, kde-format
+msgid "MSCHAPv2"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, listWidget)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:81
+#, kde-format
+msgid "EAP"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grp_cryptoAndCompression)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:95
+#, kde-format
+msgid "Compression"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbBSD)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:107
+#, kde-format
+msgid "Allow/disable BSD-Compress compression."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbBSD)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:110
+#, kde-format
+msgid "Allow BSD compression"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbdeflate)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:120
+#, kde-format
+msgid "Allow/disable Deflate compression."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbdeflate)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:123
+#, kde-format
+msgid "Allow Deflate compression"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbTCPheaders)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:134
+#, kde-format
+msgid ""
+"Allow/disable Van Jacobson style TCP/IP header compression in both the transmit\n"
+"and the receive directions."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbTCPheaders)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:137
+#, kde-format
+msgid "Allow TCP header compression"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbCompressionNegotiation)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:148
+#, kde-format
+msgid ""
+"Allow protocol field compression negotiation in both the receive and the\n"
+" transmit directions."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbCompressionNegotiation)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:151
+#, kde-format
+msgid "Use protocol field compression negotiation"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbAddressControlCompression)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:164
+#, kde-format
+msgid "Use Address/Control compression in both directions (send and receive)."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbAddressControlCompression)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:167
+#, kde-format
+msgid "Use Address/Control compression"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grp_echo)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:180
+#, kde-format
+msgid "Echo"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbsendEcho)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:189
+#, kde-format
+msgid "Send LCP echo-requests to find out whether peer is alive."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbsendEcho)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:192
+#, kde-format
+msgid "Send PPP echo packets"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grp_other)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:215
+#, kde-format
+msgid "Other Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbMRU)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:224
+#, kde-format
+msgid "MRU: "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lbMTU)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:238
+#, kde-format
+msgid "MTU: "
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QGroupBox, gbMPPE)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:257
+#, kde-format
+msgid ""
+"Note: MPPE encryption is only available with MSCHAP authentication methods. To\n"
+"enable this checkbox, select one or more of the MSCHAP authentication\n"
+"methods: MSCHAP or MSCHAPv2."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbMPPE)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:260
+#, kde-format
+msgid "Use MPPE Encryption"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblMMPEcrypto)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:281
+#, kde-format
+msgid "Crypto:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QComboBox, cbMPPECrypto)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:297
+#, kde-format
+msgid "Require the use of MPPE, with 40/128-bit encryption or all."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMPPECrypto)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:301
+#, kde-format
+msgctxt "like in use Any configuration"
+msgid "Any"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMPPECrypto)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:306
+#, kde-format
+msgid "128 bit"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, cbMPPECrypto)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:311
+#, kde-format
+msgid "40 bit"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, cbstatefulEncryption)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:319
+#, kde-format
+msgid "Allow MPPE to use stateful mode. Stateless mode is still attempted first."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbstatefulEncryption)
+#. +> trunk6 stable6 stable5
+#: l2tpppp.ui:322
+#, kde-format
+msgid "Use stateful encryption"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: l2tppppwidget.cpp:22
+#, kde-format
+msgid "L2TP PPP Options"
+msgstr ""

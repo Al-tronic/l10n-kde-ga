@@ -1,0 +1,807 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:9
+#, no-c-format
+msgid "The &systemsettings; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Richard.Johnson; &Richard.Johnson.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:16
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:21
+#, no-c-format
+msgid "&Richard.Johnson;"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:25
+#, no-c-format
+msgid "2021-04-11"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:26
+#, no-c-format
+msgid "Plasma 5.20"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:29
+#, no-c-format
+msgid ""
+"This documentation describes system configuration and administration center "
+"for your desktop."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:35
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:36
+#, no-c-format
+msgid "System"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:37
+#, no-c-format
+msgid "Settings"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:38
+#, no-c-format
+msgid "configuration"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:39
+#, no-c-format
+msgid "administration"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:40
+#, no-c-format
+msgid "config"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:41
+#, no-c-format
+msgid "admin"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:47
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:49
+#, no-c-format
+msgid ""
+"The &systemsettings; provides the user with a centralized and convenient way "
+"to configure all of the settings for your desktop."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:53
+#, no-c-format
+msgid ""
+"&systemsettings; is made up of multiple modules. Each module is a separate "
+"application, however the &systemsettings; organizes all of these "
+"applications into a single location."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:58
+#, no-c-format
+msgid "Each &systemsettings; module can be executed individually"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:61
+#, no-c-format
+msgid ""
+"See section entitled <link linkend=\"run-modules-individually\">Running "
+"individual &systemsettings; modules</link> for more information."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:67
+#, no-c-format
+msgid ""
+"&systemsettings; groups all of the configuration modules into several "
+"categories:"
+msgstr ""
+
+#. Tag: link
+#: index.docbook:70
+#, no-c-format
+msgid "<link linkend=\"appearance\">Appearance</link>"
+msgstr ""
+
+#. Tag: link
+#: index.docbook:71
+#, no-c-format
+msgid "<link linkend=\"workspace\">Workspace</link>"
+msgstr ""
+
+#. Tag: link
+#: index.docbook:72
+#, no-c-format
+msgid "<link linkend=\"personalization\">Personalization</link>"
+msgstr ""
+
+#. Tag: link
+#: index.docbook:73
+#, no-c-format
+msgid "<link linkend=\"network\">Network</link>"
+msgstr ""
+
+#. Tag: link
+#: index.docbook:74
+#, no-c-format
+msgid "<link linkend=\"hardware\">Hardware</link>"
+msgstr ""
+
+#. Tag: link
+#: index.docbook:75
+#, no-c-format
+msgid "<link linkend=\"system_administration\">System Administration</link>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:79
+#, no-c-format
+msgid ""
+"The modules that make up &systemsettings; fall under one of the above "
+"categories, making it easier to locate the correct configuration module."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:86
+#, no-c-format
+msgid "Using &systemsettings;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:88
+#, no-c-format
+msgid ""
+"This section details the use of &systemsettings; itself. For information on "
+"each individual module, please see <link linkend=\"modules"
+"\">&systemsettings; Modules</link>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:93
+#, no-c-format
+msgid "Starting &systemsettings;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:95
+#, no-c-format
+msgid "The &systemsettings; can be started in one of three ways:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:101
+#, no-c-format
+msgid ""
+"By selecting <menuchoice><guimenu>Settings</guimenu><guimenuitem>System "
+"Settings</guimenuitem></menuchoice> from the <guilabel>Application Menu</"
+"guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:106
+#, no-c-format
+msgid ""
+"By pressing <keycombo>&Alt;<keycap>F2</keycap></keycombo> or <keycombo>&Alt;"
+"<keycap>Space</keycap></keycombo>. This will bring up the &krunner; dialog. "
+"Type <command>systemsettings</command>, and press &Enter;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:111
+#, no-c-format
+msgid "Type <command>systemsettings &amp;</command> at any command prompt."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:117
+#, no-c-format
+msgid "All three of these methods are equivalent, and produce the same result."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:123
+#, no-c-format
+msgid "The &systemsettings; Screen"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:125
+#, no-c-format
+msgid ""
+"When you start &systemsettings;, you are presented with a window, which is "
+"divided into two functional parts."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:129
+#, no-c-format
+msgid ""
+"Across the top is a toolbar. The toolbar provides the user with the ability "
+"to go back into the main view from within a module using <guibutton>All "
+"Settings</guibutton>. You can also find a <guimenu>Help</guimenu> menu as "
+"well as a <guibutton>Configure</guibutton> button which provides you a "
+"dialog with alternate view settings."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:133
+#, no-c-format
+msgid ""
+"To search for something within all of the modules, start to type keywords "
+"into the search field at the right of the toolbar in the <guibutton>All "
+"Settings</guibutton> view. When you start typing, a list of matching topics "
+"will popup. Select one and only the groups with settings for this keyword "
+"are enabled, the other are greyed out."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:134
+#, no-c-format
+msgid ""
+"When the icon window has the focus, you can type the first letter of any "
+"module or module group name to select it. Typing this letter again the "
+"selection moves to the next match."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:138
+#, no-c-format
+msgid ""
+"Underneath the toolbar is an icon view of the individual modules or module "
+"groups that make up &systemsettings; grouped by different categories. By "
+"default, if your mouse stays a few seconds over an icon, a tooltip appears, "
+"either explaining the purpose of the module or showing the modules in this "
+"group."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:147
+#, no-c-format
+msgid "&systemsettings; Categories and Modules"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:148
+#, no-c-format
+msgid "A brief overview of all categories and their modules:"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:152
+#, no-c-format
+msgid "<term>Appearance</term>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:155
+#, no-c-format
+msgid "Global Theme"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:158
+#, no-c-format
+msgid "Plasma Style"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:161
+#, no-c-format
+msgid "Application Style (Application Style, Window Decorations)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:164
+#, no-c-format
+msgid "Colors"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:167
+#, no-c-format
+msgid "Font (Fonts, Font Management)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:170
+#, no-c-format
+msgid "Icons"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:173
+#, no-c-format
+msgid "Cursors"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:181
+#, no-c-format
+msgid "<term>Workspace</term>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:184
+#, no-c-format
+msgid ""
+"Workspace Behavior (General Behavior, Desktop Effects, Screen Edges, Touch "
+"Screen, Screen Locking, Virtual Desktops, Activities)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:187
+#, no-c-format
+msgid ""
+"Window Management (Window Behavior, Task Switcher, KWin Scripts, Window "
+"Rules)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:190
+#, no-c-format
+msgid "Shortcuts (Shortcuts, Custom Shortcuts)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:193
+#, no-c-format
+msgid ""
+"Startup and Shutdown (Login Screen (SDDM), Autostart, Background Services, "
+"Desktop Session, Splash Screen)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:196
+#, no-c-format
+msgid "Search (File Search, Krunner, Web Search Keywords)"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:204
+#, no-c-format
+msgid "<term>Personalization</term>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid "Notifications"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:210
+#, no-c-format
+msgid "Users"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:213
+#, no-c-format
+msgid "Regional Settings (Language, Formats, Spell Check, Date &amp; Time)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:216
+#, no-c-format
+msgid "Accessibility"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:219
+#, no-c-format
+msgid ""
+"Applications (Default Applications, File Associations, Locations, Launch "
+"Feedback)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:222
+#, no-c-format
+msgid "KDE Wallet"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:225
+#, no-c-format
+msgid "Online Accounts"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:228
+#, no-c-format
+msgid "User Feedback"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:236
+#, no-c-format
+msgid "<term>Network</term>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:239
+#, no-c-format
+msgid ""
+"Settings (Proxy, Connection Preferences, SSL Preferences, Cache, Cookies, "
+"Browser Identification, Windows Shares)"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:247
+#, no-c-format
+msgid "<term>Hardware</term>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:250
+#, no-c-format
+msgid ""
+"Input Devices (Keyboard, Mouse, Game Controller, Graphic Tablet, Touchpad)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:253
+#, no-c-format
+msgid ""
+"Display and Monitor (Display Configuration, Compositor, Gamma, Night Color)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:256
+#, no-c-format
+msgid "Audio"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:259
+#, no-c-format
+msgid "Multimedia (Audio CDs, CDDB Retrieval)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:262
+#, no-c-format
+msgid "Power Management (Energy Saving, Activity Settings, Advanced Settings)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:265
+#, no-c-format
+msgid "Bluetooth"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:268
+#, no-c-format
+msgid "Removable Storage (Device Actions, Digital Camera, Removable Devices)"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:276
+#, no-c-format
+msgid "<term>System Administration</term>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:279
+#, no-c-format
+msgid "System Information"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:288
+#, no-c-format
+msgid ""
+"Use the search field at the top right in <guibutton>All Settings</guibutton> "
+"view to find all matching modules for a given keyword. Start typing a "
+"keyword opens a list of keywords and only the matching modules are enabled."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:292
+#, no-c-format
+msgid "Exiting the &systemsettings;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:294
+#, no-c-format
+msgid "&systemsettings; can be exited in one of two ways:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:300
+#, no-c-format
+msgid "Press <keycombo>&Ctrl;<keycap>Q</keycap></keycombo> on the keyboard."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:305
+#, no-c-format
+msgid ""
+"Click on the <guibutton>Close</guibutton> button located in the toolbar."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:313
+#, no-c-format
+msgid "Configuring &systemsettings;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:315
+#, no-c-format
+msgid ""
+"The <guiicon>Configure</guiicon> icon in the toolbar allows you to change "
+"some &systemsettings; parameters. You can change from <guilabel>Icon View</"
+"guilabel> (default view) to <guilabel>Sidebar View</guilabel>. In "
+"<guilabel>Sidebar View</guilabel> mode, the welcome page shows the "
+"frequently used modules for quick access."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:322
+#, no-c-format
+msgid ""
+"You can also turn off the detailed tooltips by unchecking <guilabel>Show "
+"detailed tooltips</guilabel>. You will then get only normal tooltips and not "
+"the content of a module group."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:330
+#, no-c-format
+msgid "Running Individual &systemsettings; Modules"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:332
+#, no-c-format
+msgid ""
+"Individual modules can be run without running &systemsettings; using the "
+"command <command>kcmshell5</command> from the command line. Type "
+"<command>kcmshell5 --list</command> to see a list of the available "
+"&systemsettings; modules."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:335
+#, no-c-format
+msgid ""
+"Additionally you can start KRunner and start type keywords. When you start "
+"typing, a list of matching modules prefixed with &systemsettings; will popup."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:342
+#, no-c-format
+msgid "The &systemsettings; Modules"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:344
+#, no-c-format
+msgid ""
+"In order to make it as easy as possible, the &systemsettings; has organized "
+"options into six categories. Under each category, there are icons grouped "
+"together under subcategories. Each icon is called a module. When you double "
+"click on a module icon, you will be presented with the options of the module "
+"in the main window."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:348
+#, no-c-format
+msgid "Each module will have some or all of the following buttons:"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:354
+#, no-c-format
+msgid "Help"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:356
+#, no-c-format
+msgid ""
+"This button will provide help specific to the current module. Clicking the "
+"button will open &khelpcenter; in a new window providing detailed "
+"information on the module."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:363
+#, no-c-format
+msgid "Defaults"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:365
+#, no-c-format
+msgid ""
+"Clicking this button will restore this module to its default values. You "
+"must click <guibutton>Apply</guibutton> to save the options."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:372
+#, no-c-format
+msgid "Reset"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:374
+#, no-c-format
+msgid ""
+"This button will <quote>Reset</quote> the module to the previous settings."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:381
+#, no-c-format
+msgid "Apply"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:383
+#, no-c-format
+msgid ""
+"Clicking this button will save all changes. If you have changed anything, "
+"clicking <guibutton>Apply</guibutton> will cause the changes to take effect."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:391
+#, no-c-format
+msgid ""
+"You must either <quote>Reset</quote> or <quote>Apply</quote> the changes "
+"before changing to another module."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:394
+#, no-c-format
+msgid ""
+"If you try to change without saving or resetting your options, you will be "
+"asked if you want to save your changes, or discard them."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:403
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:405
+#, no-c-format
+msgid "&systemsettings;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:408
+#, no-c-format
+msgid "Program copyright 2007 Benjamin C. Meyer."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:411
+#, no-c-format
+msgid "Program copyright 2009 Ben Cooksley."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:414
+#, no-c-format
+msgid "Contributors:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:418
+#, no-c-format
+msgid "Will Stephenson <email>wstepheson@kde.org</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:423
+#, no-c-format
+msgid "Michael D. Stemle, Jr. <email>manchicken@notsosoft.net</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:427
+#, no-c-format
+msgid "Matthias Kretz <email>kretz@kde.org</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:432
+#, no-c-format
+msgid "&Daniel.Molkentin; &Daniel.Molkentin.mail;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:437
+#, no-c-format
+msgid "&Matthias.Elter; &Matthias.Elter.mail;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:442
+#, no-c-format
+msgid "Frans Englich <email>englich@kde.org</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:447
+#, no-c-format
+msgid "Michael Jansen <email>kde@michael-jansen.biz</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:454
+#, no-c-format
+msgid ""
+"Documentation Copyright &copy; 2008 &Richard.Johnson; &Richard.Johnson.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:458
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:458
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

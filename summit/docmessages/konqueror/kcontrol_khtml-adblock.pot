@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-03-09 09:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:10
+#, no-c-format
+msgid "AdBlocK Filters"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:12
+#, no-c-format
+msgid "&Krishna.Tateneni; &Krishna.Tateneni.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:16
+#, no-c-format
+msgid "2016-11-08"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:17
+#, no-c-format
+msgid "Applications 16.12"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:20
+#, no-c-format
+msgid "&konqueror; AdBlocK can be configured to replace or remove images or frames from web pages that match a series of filters."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:23
+#, no-c-format
+msgid "The setting <guilabel>Enable filters</guilabel> enables or disables the use of list of URL filters."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:25
+#, no-c-format
+msgid "If <guilabel>Hide filtered images</guilabel> is enabled then blocked images are completely removed from the page and the space they occupied is reclaimed. If the option is disabled then a placeholder image is used in place of filtered images."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:32
+#, no-c-format
+msgid "Manual Filter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:34
+#, no-c-format
+msgid "The main part of this tab is a list of URLs that will be compared against image and frame names to decide on fitlering actions. The wildcards can be given as filename style regular expressions."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:39
+#, no-c-format
+msgid "Each filter can either be expressed as a file style wildcard string (e.g. http://www.site.com/ads/*) or as a full regular expression by enclosing the filter with forward slashes (e.g. //(ads|dclk)\\./)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:43
+#, no-c-format
+msgid "Any filter string can be preceded by <literal>@@</literal> to whitelist (allow) any matching &URL;, which takes priority over any blacklist (blocking) filter."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:47
+#, no-c-format
+msgid "<guilabel>Import</guilabel> and <guilabel>Export</guilabel> will save or read the current filter list to a plain text file. The file begins with a header line <userinput>[AdBlock]</userinput>, then all of the filters follow each on a separate line. Lines prefixed with an exclamation mark (<userinput>!</userinput>) and the header line are treated as comments and can be used to clarify or label a set of filters."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:54
+#, no-c-format
+msgid "Highlight an entry from the list to change it in the edit box or remove this item. Enter a new filter string here and add it to the list using the <guibutton> Insert</guibutton> button."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:61
+#, no-c-format
+msgid "Automatic Filter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:63
+#, no-c-format
+msgid "This tab shows a list of names and &URL;’s with predefined AdBlock filter entries. To enable an entry tick the checkbox beside the filter name and adjust the <guilabel>Automatic update interval</guilabel> (default 7 days)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:77
+#, no-c-format
+msgid "If AdBlock filters are enabled, an icon at the right side of status bar is shown. Use a &RMB; click on this icon to open the context menu with actions to show all blockable elements on a web page, open this &systemsettings; module and disable blocking for a site or page temporarily."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:82
+#, no-c-format
+msgid "A click with the &LMB; shows the dialog with all blockable elements on the opened web page as well. From this dialog you can add new filters directly without opening this &systemsettings; module."
+msgstr ""

@@ -1,0 +1,540 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-01-11 09:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:9 index.docbook:29
+#, no-c-format
+msgid "Accessibility"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6 stable5
+#: index.docbook:12
+#, no-c-format
+msgid "&Mike.McBride; &Mike.McBride.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6 stable5
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6 stable5
+#: index.docbook:16
+#, no-c-format
+msgid "2021-04-08"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6 stable5
+#: index.docbook:17
+#, no-c-format
+msgid "Plasma 5.20"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:20
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:21
+#, no-c-format
+msgid "Systemsettings"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:22
+#, no-c-format
+msgid "accessibility"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:23
+#, no-c-format
+msgid "keys"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:24
+#, no-c-format
+msgid "bell"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:32
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:34
+#, no-c-format
+msgid "This module is designed to help users who have difficulty hearing audible cues, or who have difficulty using a keyboard."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:37
+#, no-c-format
+msgid "The module is divided into six tabs: <link linkend=\"access-bell\"><guilabel>Bell</guilabel></link>, <link linkend=\"access-modifier-keys\"><guilabel>Modifier keys</guilabel></link>, <link linkend=\"access-keyboard-filters\"><guilabel>Keyboard Filters</guilabel></link>, <link linkend=\"access-activation-gestures\"><guilabel>Activation Gestures</guilabel></link>, <link linkend=\"mouse-navigation\"><guilabel>Mouse Navigation</guilabel></link>, and <link linkend=\"access-screenreader\"><guilabel>Screen Reader</guilabel></link>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:48
+#, no-c-format
+msgid "Bell"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:50
+#, no-c-format
+msgid "This panel is divided into an <guilabel>Audible Bell</guilabel> section and a <guilabel>Visible Bell</guilabel> section."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:55
+#, no-c-format
+msgid "The top check box labeled <guilabel>Use System Bell</guilabel>, determines whether the normal System bell rings. If this option is disabled, the System bell will be silenced."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:61
+#, no-c-format
+msgid "The next check box down can be used to play a different sound whenever the system bell is triggered. To activate, place a mark in the check box labeled <guilabel>Use customized bell</guilabel>, and enter the complete pathname to the sound file in the text box labeled <guilabel>Sound to play</guilabel>. If you want, you can select the <guibutton>Browse</guibutton> button to navigate through your filesystem to find the exact file."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:71
+#, no-c-format
+msgid "For those users who have difficulty hearing the System bell, or those users who have a silent computer, &kde; offers the <emphasis>visual bell</emphasis>. This provides a visual signal (inverting the screen or flashing a color across it) when the system bell would normally sound."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:78
+#, no-c-format
+msgid "To use the visual bell, first place a mark in the check box labeled <guilabel>Use visual bell</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:83
+#, no-c-format
+msgid "You can then select between <guilabel>Invert screen</guilabel>, or <guilabel>Flash screen</guilabel>. If you select <guilabel>Invert screen</guilabel>, all colors on the screen will be reversed. If you choose <guilabel>Flash screen</guilabel>, you can choose the color by clicking the button to the right of the <guilabel>Flash screen</guilabel> selection."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:92
+#, no-c-format
+msgid "The spin box can be used to adjust the duration of the visible bell. The default value is 500 msec, or half a second."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:100
+#, no-c-format
+msgid "Modifier keys"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:102
+#, no-c-format
+msgid "There are the two sections <guilabel>Sticky Keys</guilabel> and <guilabel>Locking Keys</guilabel> to this panel."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:107
+#, no-c-format
+msgid "Use Sticky Keys"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:109
+#, no-c-format
+msgid "If this option is enabled, you can press and release the &Shift;, &Alt; or &Ctrl; keys, and then press another key to get a key combo (example: <keycombo action=\"simul\">&Ctrl;&Alt;&Del;</keycombo> could be done with &Ctrl;, then &Alt; and then &Del;)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:116
+#, no-c-format
+msgid "Also in this section is a check box labeled <guilabel>Lock Sticky Keys</guilabel>. If this check box is enabled, the &Alt;, &Ctrl; and &Shift; keys stay <quote>selected</quote> until you <quote>de-selected</quote> them."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:123
+#, no-c-format
+msgid "As an example:"
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6 stable5
+#: index.docbook:128
+#, no-c-format
+msgid "With <guilabel>Lock Sticky Keys</guilabel> disabled:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:130
+#, no-c-format
+msgid "If you press the &Shift; key then press the <keycap>F</keycap> key, the computer interprets this as <keycombo action=\"simul\">&Shift;<keycap>F</keycap></keycombo>. Now if you type a <keycap>P</keycap>, the computer interprets this as the letter p (no shift)."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6 stable5
+#: index.docbook:140
+#, no-c-format
+msgid "With <guilabel>Lock Sticky Keys</guilabel> enabled:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:142
+#, no-c-format
+msgid "If you press the &Shift; key <emphasis>twice</emphasis> then press the <keycap>F</keycap> key, the computer interprets this as <keycombo action=\"simul\">&Shift;<keycap>F</keycap></keycombo>. Now if you type a <keycap>P</keycap>, the computer interprets this as the letter P (<keycombo action=\"simul\">&Shift;<keycap>P</keycap></keycombo>). To de-select the &Shift; key, press it again."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:177
+#, no-c-format
+msgid "Keyboard Filters"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:179 index.docbook:216
+#, no-c-format
+msgid "There are two sections to this panel."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:183
+#, no-c-format
+msgid "Use slow keys"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:185
+#, no-c-format
+msgid "If this option is enabled, you must hold the key down for a specified length of time (adjustable with the spin box) before the keystroke will be accepted. This helps prevent accidental key strokes."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:196
+#, no-c-format
+msgid "Use bounce keys"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:198
+#, no-c-format
+msgid "If this option is enabled, you must wait for a specified length of time (configurable with the spin box) before the next key press can be accepted. This prevents accidental multiple key strokes."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:214
+#, no-c-format
+msgid "Activation Gestures"
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6 stable5
+#: index.docbook:220
+#, no-c-format
+msgid "<guilabel>Activation Gestures</guilabel> with these options:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:224
+#, no-c-format
+msgid "Use gestures for activating sticky keys and slow keys"
+msgstr ""
+
+#. Tag: member
+#. +> trunk6 stable6 stable5
+#: index.docbook:225
+#, no-c-format
+msgid "Here you can activate keyboard gestures that turn on the following features:"
+msgstr ""
+
+#. Tag: member
+#. +> trunk6 stable6 stable5
+#: index.docbook:226
+#, no-c-format
+msgid "Mouse Keys: Press &Shift;+NumLock"
+msgstr ""
+
+#. Tag: member
+#. +> trunk6 stable6 stable5
+#: index.docbook:227
+#, no-c-format
+msgid "Sticky keys: Press &Shift; key 5 consecutive times"
+msgstr ""
+
+#. Tag: member
+#. +> trunk6 stable6 stable5
+#: index.docbook:228
+#, no-c-format
+msgid "Slow keys: Hold down &Shift; for 8 seconds"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:229
+#, no-c-format
+msgid "Turn sticky keys and slow keys off after a certain period of inactivity"
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6 stable5
+#: index.docbook:236
+#, no-c-format
+msgid "<guilabel>Notification</guilabel> with these options:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:240
+#, no-c-format
+msgid "Use the system bell whenever a gesture is used to turn an accessibility feature on or off"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:243
+#, no-c-format
+msgid "Show a confirmation dialog whenever a keyboard accessibility feature is turned on or off"
+msgstr ""
+
+#. Tag: member
+#. +> trunk6 stable6 stable5
+#: index.docbook:245
+#, no-c-format
+msgid "If this option is checked, &kde; will show a confirmation dialog whenever a keyboard accessibility feature is turned on or off."
+msgstr ""
+
+#. Tag: member
+#. +> trunk6 stable6 stable5
+#: index.docbook:247
+#, no-c-format
+msgid "Ensure you know what you are doing if you uncheck it, as the keyboard accessibility settings will then always be applied without confirmation."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:250
+#, no-c-format
+msgid "Use &kde;'s system notification mechanism whenever a keyboard accessibility feature is turned on or off"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:257
+#, no-c-format
+msgid "Click the <guibutton>Configure Notifications</guibutton> button to open a dialog which allows you to edit the notifications for status changes of all keys."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:263
+#, no-c-format
+msgid "Mouse Navigation"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:265
+#, no-c-format
+msgid "This tab allows you to configure the keyboard number pad keys as a mouse-type device. This may be useful when you are working on a device without another pointing device, or where you have no other use for the number pad."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:272
+#, no-c-format
+msgid "Move pointer with keyboard (using the num pad)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:274
+#, no-c-format
+msgid "To enable keyboard mouse mode, you need to select the check box labeled <guilabel>Move pointer with keyboard (using the num pad)</guilabel>. When you do this, the other settings will become enabled, and you can customize the keyboard pointer behavior further, if required."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:277
+#, no-c-format
+msgid "The various keys on the number pad move in the direction you would expect. Note that you can move diagonally as well as up, down, left and right. The <keycap>5</keycap> key emulates a click to a pointer button, typically &LMB;. You change which button is emulated by using the <keycap>/</keycap> key (which makes it &LMB;), <keycap>*</keycap> key (which makes it &MMB;) and <keycap>-</keycap> (which makes it &RMB;). Using the <keycap>+</keycap> emulates a double click to the selected pointer button. You can use the <keycap>0</keycap> key to emulate holding down the selected pointer button (for easy dragging), and then use the <keycap>.</keycap> to emulate releasing the selected pointer button."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:284
+#, no-c-format
+msgid "Acceleration delay"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:286
+#, no-c-format
+msgid "This is the time (in milliseconds) between the initial key press and the first repeated motion event for mouse key acceleration."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:293
+#, no-c-format
+msgid "Repeat interval"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:295
+#, no-c-format
+msgid "This is the time in milliseconds between repeated motion events for mouse key acceleration."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:302
+#, no-c-format
+msgid "Acceleration time"
+msgstr ""
+
+#. Tag: guilabel
+#. +> stable5
+#: index.docbook:320
+#, no-c-format
+msgid "Acceleration profile"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:304
+#, no-c-format
+msgid "This is the time in milliseconds before the pointer reaches a maximum speed for mouse key acceleration."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:311
+#, no-c-format
+msgid "Maximum speed"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:313
+#, no-c-format
+msgid "This is the maximum speed in pixels per second the pointer can reach for mouse key acceleration."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:320
+#, no-c-format
+msgid "Pointer acceleration"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:322
+#, no-c-format
+msgid "This is the amount of acceleration to apply to mouse key acceleration."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:322
+#, no-c-format
+msgid "This is the slope of the acceleration curve for mouse key acceleration."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:333
+#, no-c-format
+msgid "Screen Reader"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:335
+#, no-c-format
+msgid "Install a screen reader application like <ulink url=\"https://en.wikipedia.org/wiki/Orca_(assistive_technology)\">Orca</ulink> together with <application>speech-dispatcher</application>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:340
+#, no-c-format
+msgid "Test that sound from speech dispatcher works using the command <command>spd-say hello</command> in a terminal."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:344
+#, no-c-format
+msgid "In addition you need a text to speech synthesizer like &eg; <application>espeak</application>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:347
+#, no-c-format
+msgid "Enable the screen reader in the checkbox, logout and restart your desktop session."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:350
+#, no-c-format
+msgid "For &plasma; itself, make sure to use the traditional <guilabel>Application Menu</guilabel>, and check that this menu has a keyboard shortcut associated (<keycombo action=\"simul\">&Alt;<keycap>F1</keycap></keycombo>). When pressing this shortcut, the menu should open and be read when navigating the menu with the arrow keys."
+msgstr ""

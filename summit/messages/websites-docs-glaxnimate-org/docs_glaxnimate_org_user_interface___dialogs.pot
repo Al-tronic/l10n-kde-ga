@@ -1,0 +1,385 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Glaxnimate Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Glaxnimate Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:10
+msgid "Dialogs"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:13
+msgid "About"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:15
+msgid "Shows various information about Glaxnimate."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:18
+msgid "Credits"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:25
+msgid "dialogs/About dialog"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:25 ../../user_interface/dialogs.rst:37
+#: ../../user_interface/dialogs.rst:49
+msgid "About dialog"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:27
+msgid "General information and links."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:30
+msgid "Paths"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:39
+msgid "Here you can see and open the settings file, and all paths where Glaxnimate looks for data."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:42
+msgid "System"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:51
+msgid "Shows the system information. You can click on :guilabel:`Copy` to copy them to the clipboard."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:54
+msgid "Move To"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:61
+msgid "Move To dialog"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:63
+msgid "Allows you to choose a destination to move the selected shapes."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:66
+msgid "Resize"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:73
+msgid "Resize dialog"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:75
+msgid "Allows to resize the animation and scale all layers."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:78
+msgid "Timing"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:85
+msgid "Timing dialog"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:87
+msgid "Allows you to change framerate and duration."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:92
+msgid "Trace Bitmap"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:94
+msgid "This dialog allows you to convert raster images (bitmaps) into vector paths."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:97
+msgid "Closest Color"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:104 ../../user_interface/dialogs.rst:124
+#: ../../user_interface/dialogs.rst:137 ../../user_interface/dialogs.rst:144
+#: ../../user_interface/dialogs.rst:162 ../../user_interface/dialogs.rst:183
+msgid "Trace dialog"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:106
+msgid "In the :guilabel:`Closest Color` mode, you can select a set of colors and they will be used to determine how shapes are defined."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:108
+msgid "This algorithm works by using the color on the list that most closely matches the pixel values, and pixels with the same resulting color will end up in the same shape."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:110
+msgid "You can edit the list of colors by using the buttons to add or remove colors, then you can click on the list to change the color."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:112
+msgid "Alternatively, you can click on :guilabel:`Detect Colors` which will fill the list with the most common colors in the image (you select how many colors you want with the spin box next to the button."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:114
+msgid "Sometimes there might be gaps between shapes of different colors, you can increase :guilabel:`Outline` to fill them up. When you have large outlines, the order of the colors in the list is important (shapes higher up on the list are drawn over the ones below). You can drag and drop colors in the list to rearrange them."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:117
+msgid "Extract Colors"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:126
+msgid "This mode has the same image options as :guilabel:`Closest Color` but it will only use pixels that match the specified colors exactly."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:128
+msgid "The difference is more obvious when you have fewer colors; in the following example the two modes are operating on the same image with the same colors:"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:148
+msgid "As you can see, :guilabel:`Extract Colors` only used the parts of the image that had matching colors, resulting in fewer shapes being extracted; while :guilabel:`Closest Color` assigned the best available color for each area."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:150
+msgid "Generally, :guilabel:`Closest Color` is the best choice when you want to trace the whole image, :guilabel:`Extract Colors` when you only need specific elements."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:152
+msgid ":guilabel:`Extract Colors` has the option :guilabel:`Tolerance`, which determines how close the pixels have to be to the specified color."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:155
+msgid "Transparency"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:164
+msgid "This mode ignore colors and just looks at the transparency (Alpha channel) of the image."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:166
+msgid "It has the following options:"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:168
+msgid "Output Color - This is the color of the shapes you get"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:169
+msgid "Invert - Will generate the inverse image: shapes will occupy the transparent areas"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:170
+msgid "Threshold - Alpha value below which a pixel is considered transparent"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:172
+msgid "This mode is best suited for converting monochrome logos and the like."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:176
+msgid "Pixel"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:185
+msgid "This mode is designed for pixel art and is only available for small pictures."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:187
+msgid "It keeps the edges of every pixel intact and uses all colors from the source image."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:189
+msgid "With this mode there are no extra options."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:192
+msgid "Curve Options"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:194
+msgid "These options affect the appearance of the output shapes"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:196
+msgid "Smoothness - A value of 0% will create polygons, a value of 100% will avoid any sharp corners"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:197
+msgid "Minimum Area - If a region with the same color doesn't have more than these many pixels, it will be discarder. Useful to remove speckles."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:201
+msgid "Preview"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:203
+msgid "The right half of the dialog shows a preview of the operation."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:205
+msgid "Since tracing might be slow, you need to press :guilabel:`Update` for the preview to be updated."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:207
+msgid "The slider below the preview area shows the tracing result side by side with the original image. The area to the left of the slider marker shows the trace result, while the area to the right shows the original image. By default the slider is all the way to the right, only revealing the trace result."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:211
+msgid "Emoji Selection"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:213
+msgid "Glaxnimate support downloading and importing emoji as a form of vector assets."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:215
+msgid "All the supported sets have a free and open source license so you can use them in you animations as long as you respect their licensing terms."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:218
+msgid "Emoji Sets"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:225
+msgid "Emoji Set Dialog"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:227
+msgid "Here you can manage the installed sets."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:229
+msgid "By default no emoji set is installed. To install them, you can select one and click download. The ones you already downloaded show a checkmark at the end."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:231
+msgid "On the list of available sets you see their name, license, a preview of some emoji, and the download status."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:233
+msgid "Note that not all sets support all emoji, and this is reflected on the previews."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:235
+msgid "Clicking :guilabel:`Reload` will update the list of available emoji based on the [emoji data file](/contributing/assets/#emoji-sets)."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:237
+msgid "When you have a set selected, you can click on one of the following buttons:"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:239
+msgid ":guilabel:`View Website` Will open the browser to the website of the selected set"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:240
+msgid ":guilabel:`Download` Will download the set"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:241
+msgid ":guilabel:`Add Emoji..` Will show the emoji selection dialog to import emoji in your animation"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:245 ../../user_interface/dialogs.rst:252
+msgid "Emoji Select Dialog"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:254
+msgid "This dialog shows you all the emoji for the set you have selected."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:256
+msgid "At the top you have buttons to jump to a specific emoji category."
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:258
+msgid "Clicking on an emoji will import it in you animation as a precomposition:"
+msgstr ""
+
+#. +> trunk5
+#: ../../user_interface/dialogs.rst:265
+msgid "Imported emoji"
+msgstr ""

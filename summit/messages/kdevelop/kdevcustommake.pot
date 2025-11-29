@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdevelop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevelop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:230
+#, kde-format
+msgid "Tried include path resolution while another resolution process was still running"
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:276
+#, kde-format
+msgid "Makefile is missing in folder \"%1\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:276
+#, kde-format
+msgid "Problem while trying to resolve include paths for %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:310
+#, kde-format
+msgid "Cached: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:339
+#, kde-format
+msgid "Filename %1 seems to be malformed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:472
+#, kde-format
+msgid "Failed to extract new working directory"
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:472
+#: makefileresolver/makefileresolver.cpp:501
+#, kde-format
+msgid "Output was: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:494
+#: makefileresolver/makefileresolver.cpp:497
+#, kde-format
+msgid "Recursive make call failed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:494
+#, kde-format
+msgid "The parameter string \"%1\" does not seem to be valid. Output was: %2."
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:497
+#, kde-format
+msgid "The directory \"%1\" does not exist. Output was: %2."
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:501
+#, kde-format
+msgid "Malformed recursive make call"
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:513
+#, kde-format
+msgid "Could not extract include paths from make output"
+msgstr ""
+
+#. +> trunk6 stable6
+#: makefileresolver/makefileresolver.cpp:514
+#, kde-format
+msgid "Folder: \"%1\"  Command: \"%2\"  Output: \"%3\""
+msgstr ""

@@ -1,0 +1,974 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:10
+#, no-c-format
+msgid "The &ksnakeduel; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:13
+#, no-c-format
+msgid "<firstname>Fabian</firstname> <surname>Dal Santo</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:17
+#, no-c-format
+msgid "&Fabian.DalSanto.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:21
+#, no-c-format
+msgid "<firstname>Stas</firstname> <surname>Verberkt</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:25
+#, no-c-format
+msgid "&Stas.Verberkt.mail;"
+msgstr ""
+
+#. Tag: othercredit
+#. +> trunk6 stable6
+#: index.docbook:29
+#, no-c-format
+msgid "<firstname>Lauri</firstname> <surname>Watts</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:33
+#, no-c-format
+msgid "&Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: contrib
+#. +> trunk6 stable6
+#: index.docbook:35
+#, no-c-format
+msgid "Reviewer"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:37
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:43
+#, no-c-format
+msgid "&Matthias.Kiefer;"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:48
+#, no-c-format
+msgid "&Fabian.Dal.Santo;"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:53
+#, no-c-format
+msgid "&Stas.Verberkt;"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:58
+#, no-c-format
+msgid "2021-08-17"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:59
+#, no-c-format
+msgid "2.1 (KDE Gear 21.08)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:62
+#, no-c-format
+msgid "&ksnakeduel; is a simple snake duel game, which you can play alone or against a friend."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:68
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:69
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:70
+#, no-c-format
+msgid "KTron"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:71
+#, no-c-format
+msgid "KSnakeDuel"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:72
+#, no-c-format
+msgid "game"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:73
+#, no-c-format
+msgid "tron"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:74
+#, no-c-format
+msgid "snakeduel"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:75
+#, no-c-format
+msgid "KSnake"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:76
+#, no-c-format
+msgid "snake"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:77
+#, no-c-format
+msgid "duel"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:82
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:84
+#, no-c-format
+msgid "&ksnakeduel; is a simple snake duel game. You can play against the computer or a friend. The aim of the game is to live longer than your opponent. To do that, avoid running into a wall, your own tail and that of your opponent."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:90
+#, no-c-format
+msgid "&ksnakeduel; is a simple Snake-like game. The aim is to survive as long as possible and eat as many fruits as you can."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:95
+#, no-c-format
+msgid "You can switch between these games using the game type selector in the configuration dialog."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:102
+#, no-c-format
+msgid "Playing &ksnakeduel;"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:105 index.docbook:191
+#, no-c-format
+msgid "Rules"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:107
+#, no-c-format
+msgid "Once a round is started, the players do not stop moving forward (unless the game is paused). All you have to do is avoid crashing by changing your players direction. Additionally you can try to hinder your opponent. For this it is possible to increase the velocity by pressing your accelerator key."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:114
+#, no-c-format
+msgid "A round starts when all human players press a direction key. The initial moving direction is then in this direction."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:119
+#, no-c-format
+msgid "If you want to interrupt playing, select the <menuchoice> <shortcut><keycombo action=\"simul\"><keycap>P</keycap></keycombo></shortcut> <guimenu>Game</guimenu> <guimenuitem>Pause</guimenuitem></menuchoice> menu item. Additionally the game is paused when the game loses the keyboard focus, &eg; when switching to an other window."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:126 index.docbook:208
+#, no-c-format
+msgid "To continue the game, select again this menu item or hit the keyboard shortcut. The game will also continue if you press one of the direction keys. But be careful, your player switches to this direction immediately."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:133
+#, no-c-format
+msgid "A game consists of several rounds, and ends if a player has at least nine points, and additionally two more points than the opponent. The current score is always displayed in the status bar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:138 index.docbook:226
+#, no-c-format
+msgid "You can change the difficulty level of the game using the <menuchoice><guimenu>Settings</guimenu> <guisubmenu>Difficulty</guisubmenu></menuchoice> submenu or the drop-down box on the status bar. The difficulty influences the speed of the game and the computer player."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:147
+#, no-c-format
+msgid "The Computer Player"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:149
+#, no-c-format
+msgid "You can play against a computer. The difficulty level of the game influences the intelligence of the computer player."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:153
+#, no-c-format
+msgid "At low levels the computer doesn't care about the opponent and just moves around. At higher skill levels the computer tries to hinder the opponent when he comes near."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:161
+#, no-c-format
+msgid "Using the Keyboard"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:163
+#, no-c-format
+msgid "Each player has five keys. Four keys for changing the direction and one to accelerate."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:168
+#, no-c-format
+msgid "The direction keys do not have to be held down. Simply press them once to change the direction of your player."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:174
+#, no-c-format
+msgid "Acceleration only occurs while the acceleration key remains depressed. When you release the acceleration key, velocity returns to normal."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:179 index.docbook:244
+#, no-c-format
+msgid "You can <ulink url=\"help:/fundamentals/shortcuts.html\">alter the keys</ulink> using the <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure Shortcuts…</guimenuitem></menuchoice> menu item."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:188
+#, no-c-format
+msgid "Playing KSnake mode"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:193
+#, no-c-format
+msgid "Once the game is started, the player does not stop moving forward (unless the game is paused). All you have to do is avoid crashing by changing your direction. A game starts when you press a direction key. The initial moving direction is then in this direction."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:200
+#, no-c-format
+msgid "If you want to pause playing, select the <menuchoice> <shortcut><keycombo action=\"simul\"><keycap>P</keycap></keycombo></shortcut> <guimenu>Game</guimenu> <guimenuitem>Pause</guimenuitem></menuchoice> menu item or hit the keyboard shortcut. Additionally the game is paused when the game loses the keyboard focus, &eg; when switching to an other window."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:214
+#, no-c-format
+msgid "In the game there will always be a piece of fruit on the map. If you collect it your score will increase with 5 points. The current score is always displayed in the status bar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:220
+#, no-c-format
+msgid "When you are moving through the map there will also appear obstacles. Hitting them will also result in a crash. However, every time an obstacle appears and you survive you'll be rewarded 2 points"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:236
+#, no-c-format
+msgid "Using the keyboard"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:238
+#, no-c-format
+msgid "Each player has four keys. These are used for changing the direction. The direction keys do not have to be held down. Simply press them once to change the direction of your player."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:254
+#, no-c-format
+msgid "Interface Overview"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:257
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:259
+#, no-c-format
+msgid "The following list briefly describes each menubar option."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:263
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:270
+#, no-c-format
+msgid "Starts a new game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:274
+#, no-c-format
+msgid "<shortcut> <keycap>P</keycap> </shortcut> <guimenu>Game</guimenu> <guimenuitem>Pause</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:281
+#, no-c-format
+msgid "Toggles whether the game is paused."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:285
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>Show High Scores</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:292
+#, no-c-format
+msgid "Displays the high score table."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:296
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:303
+#, no-c-format
+msgid "Quit &ksnakeduel;."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:307
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Difficulty</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:311
+#, no-c-format
+msgid "A submenu that allows you to change the difficulty level of the game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:316
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Configure &ksnakeduel;…</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:320
+#, no-c-format
+msgid "Opens a <link linkend=\"configuration\">comprehensive dialog</link> to configure various options."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:325
+#, no-c-format
+msgid "Additionally &ksnakeduel; has the common &kde; <guimenu>Settings</guimenu> and <guimenu>Help</guimenu> menu items, for more information read the sections about the <ulink url=\"help:/fundamentals/menus.html#menus-settings\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:335
+#, no-c-format
+msgid "Default Shortcuts"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:337
+#, no-c-format
+msgid "The following tables show you the default shortcuts."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:341
+#, no-c-format
+msgid "Player 1 Shortcuts"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:345 index.docbook:379 index.docbook:411
+#, no-c-format
+msgid "Key Combo"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:346 index.docbook:380 index.docbook:412
+#, no-c-format
+msgid "Action"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:351
+#, no-c-format
+msgid "&Up; arrow"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:352 index.docbook:384
+#, no-c-format
+msgid "Move up"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:355
+#, no-c-format
+msgid "&Down; arrow"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:356 index.docbook:388
+#, no-c-format
+msgid "Move down"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:359
+#, no-c-format
+msgid "&Right; arrow"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:360 index.docbook:392
+#, no-c-format
+msgid "Move on the right"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:363
+#, no-c-format
+msgid "&Left; arrow"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:364 index.docbook:396
+#, no-c-format
+msgid "Move on the left"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:367
+#, no-c-format
+msgid "<keycap>0</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:368 index.docbook:400
+#, no-c-format
+msgid "Accelerate"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:375
+#, no-c-format
+msgid "Player 2 Shortcuts"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:383
+#, no-c-format
+msgid "<keycap>R</keycap>"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:387
+#, no-c-format
+msgid "<keycap>F</keycap>"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:391
+#, no-c-format
+msgid "<keycap>G</keycap>"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:395
+#, no-c-format
+msgid "<keycap>D</keycap>"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:399
+#, no-c-format
+msgid "<keycap>A</keycap>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:407
+#, no-c-format
+msgid "General Shortcuts"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:417
+#, no-c-format
+msgid "<keycap>P</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:418
+#, no-c-format
+msgid "Pause/Resume the Game"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: index.docbook:421
+#, no-c-format
+msgid "&Ctrl;<keycap>H</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:422
+#, no-c-format
+msgid "High Scores"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: index.docbook:425
+#, no-c-format
+msgid "&Ctrl;<keycap>N</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:426
+#, no-c-format
+msgid "New Game"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: index.docbook:429
+#, no-c-format
+msgid "&Ctrl;<keycap>Q</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:430
+#, no-c-format
+msgid "Quit &ksnakeduel;"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: index.docbook:433
+#, no-c-format
+msgid "<keycap>F1</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:434
+#, no-c-format
+msgid "This Manual"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: index.docbook:438
+#, no-c-format
+msgid "&Shift;<keycap>F1</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:439
+#, no-c-format
+msgid "What's This help"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:445
+#, no-c-format
+msgid "These shortcuts <ulink url=\"help:/fundamentals/shortcuts.html\">can be changed</ulink> by selecting the <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure Shortcuts…</guimenuitem></menuchoice> menu item."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:457
+#, no-c-format
+msgid "The Configuration Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:459
+#, no-c-format
+msgid "Selecting the <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &ksnakeduel;…</guimenuitem></menuchoice> menu item will open a further dialog which lets you tweak &ksnakeduel;'s behavior."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:463
+#, no-c-format
+msgid "This dialog is divided into two pages."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:466
+#, no-c-format
+msgid "<title>General Configuration</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:469
+#, no-c-format
+msgid "Configure &ksnakeduel; - General"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:475
+#, no-c-format
+msgid "<phrase>General Configuration</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:482
+#, no-c-format
+msgid "Game type"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:483
+#, no-c-format
+msgid "This will let you change the game type. There are three options:"
+msgstr ""
+
+#. Tag: guimenuitem
+#. +> trunk6 stable6
+#: index.docbook:487
+#, no-c-format
+msgid "&ksnakeduel;: Player vs Player"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:488
+#, no-c-format
+msgid "A &ksnakeduel; game between two human players."
+msgstr ""
+
+#. Tag: guimenuitem
+#. +> trunk6 stable6
+#: index.docbook:492
+#, no-c-format
+msgid "&ksnakeduel;: Player vs Computer"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:493
+#, no-c-format
+msgid "A &ksnakeduel; game between a human player and the computer."
+msgstr ""
+
+#. Tag: guimenuitem
+#. +> trunk6 stable6
+#: index.docbook:497
+#, no-c-format
+msgid "KSnake mode: Single player"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:498
+#, no-c-format
+msgid "A single player &ksnakeduel; game."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:506
+#, no-c-format
+msgid "Disable acceleration"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:507
+#, no-c-format
+msgid "Checking this box will disable the acceleration feature - pressing the acceleration key will have no effect, both vehicles will always travel with constant velocity."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:513
+#, no-c-format
+msgid "Player Names"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:514
+#, no-c-format
+msgid "Specify custom names to use for the players to override the use of default ones."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:516
+#, no-c-format
+msgid "The default name for player one is the name of the current logged in user."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:523
+#, no-c-format
+msgid "Game Options"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:524
+#, no-c-format
+msgid "Specify the <guilabel>Rounds to win:</guilabel> to define how many rounds are required before a winner is declared."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:532
+#, no-c-format
+msgid "<title>Theme Configuration</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:535
+#, no-c-format
+msgid "Configure &ksnakeduel; - Theme"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:541
+#, no-c-format
+msgid "<phrase>Theme Configuration</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:546
+#, no-c-format
+msgid "This page will allow you to change the theme &ksnakeduel; uses."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:554
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:556
+#, no-c-format
+msgid "&ksnakeduel;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:560
+#, no-c-format
+msgid "Program Copyright 1998-2000 &Matthias.Kiefer; &Matthias.Kiefer.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:564
+#, no-c-format
+msgid "Program Copyright 2008-2009 &Stas.Verberkt; &Stas.Verberkt.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:568
+#, no-c-format
+msgid "Parts of the code are from xtron-1.1 by Rhett D. Jacobs <email>rhett@hotel.canberra.edu.au&gt;</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:573
+#, no-c-format
+msgid "Documentation Copyright 1999 &Matthias.Kiefer; &Matthias.Kiefer.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:578
+#, no-c-format
+msgid "Documentation updated for &kde; 2.0 by &Fabian.Dal.Santo; &Fabian.DalSanto.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:581
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:581
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

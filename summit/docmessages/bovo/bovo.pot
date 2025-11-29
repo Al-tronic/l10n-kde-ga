@@ -1,0 +1,694 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:10
+#, no-c-format
+msgid "The &bovo; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:13
+#, no-c-format
+msgid "<firstname>Aron</firstname><surname>Bostrom</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:15
+#, no-c-format
+msgid "&Aron.Bostrom.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:17
+#, no-c-format
+msgid "<firstname>Eugene</firstname><surname>Trounev</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: index.docbook:19
+#, no-c-format
+msgid "eugene.trounev@gmail.com"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:21
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:26
+#, no-c-format
+msgid "Aron Bostrom"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:30
+#, no-c-format
+msgid "2021-06-21"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:31
+#, no-c-format
+msgid "KDE Gear 21.04"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:34
+#, no-c-format
+msgid "This documentation describes the game of &bovo; version 1.1"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:39
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:40
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:41
+#, no-c-format
+msgid "game"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:42
+#, no-c-format
+msgid "bovo"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:44
+#, no-c-format
+msgid "arcade"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:45
+#, no-c-format
+msgid "board"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:46
+#, no-c-format
+msgid "noughts and crosses"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:48
+#, no-c-format
+msgid "two players"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:50
+#, no-c-format
+msgid "noughts"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:51
+#, no-c-format
+msgid "crosses"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:52
+#, no-c-format
+msgid "Gomoku"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:53
+#, no-c-format
+msgid "Connect Five"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:54
+#, no-c-format
+msgid "Connect5"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:55
+#, no-c-format
+msgid "Board game"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:56
+#, no-c-format
+msgid "X and O"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:57
+#, no-c-format
+msgid "Five in a row"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:58
+#, no-c-format
+msgid "Puzzle"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:62
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:63
+#, no-c-format
+msgid "Gametype:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:63
+#, no-c-format
+msgid "Board, Arcade"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:64
+#, no-c-format
+msgid "Number of possible players:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:64
+#, no-c-format
+msgid "<para>Two</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:67
+#, no-c-format
+msgid "&bovo; is a Gomoku (from Japanese <foreignphrase lang=\"ja\">五目並べ</foreignphrase>, <quote>five points</quote>) like game for two players, where the opponents alternate in placing their respective pictogram on the game board. The aim of this game is to connect five of your own pieces in an unbroken row vertically, horizontally or diagonally."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:71 index.docbook:92
+#, no-c-format
+msgid "Note:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:71
+#, no-c-format
+msgid "Also known as: Connect Five, Five in a row, X and O, Noughts and Crosses"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:74
+#, no-c-format
+msgid "How to play"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:82
+#, no-c-format
+msgid "&bovo; main screen"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:88
+#, no-c-format
+msgid "Objective:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:88
+#, no-c-format
+msgid "Connect five of your own pieces in an unbroken row vertically, horizontally or diagonally."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:89
+#, no-c-format
+msgid "The first time &bovo; is started it is launched in demo mode where two AI players battle each other. You can always start a new game using the <guibutton>New</guibutton> button on the toolbar, the <menuchoice><guimenu>Game</guimenu><guimenuitem>New</guimenuitem></menuchoice> menu entry on the menubar or using the default shortcut <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:92
+#, no-c-format
+msgid "Because the first player always has an advantage over the second player, &bovo; will alternate the players, switching them every new game."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:95
+#, no-c-format
+msgid "If you are the first player - start the game by placing your pictogram anywhere on the playing field. If you are the second player wait until the first player places the pictogram and then do the same yourself. You can place your mark into any square on the field, unless it’s already occupied by another game piece (regardless of whether it’s your pictogram or that of your opponent’s)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:98
+#, no-c-format
+msgid "You have to place your pieces in a way that prevents your opponent from connecting five marks in an unbroken row vertically, horizontally or diagonally. In the same time you have to connect five of your own pieces in an unbroken row vertically, horizontally or diagonally. Whoever succeeds in doing so first – wins the round."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:103
+#, no-c-format
+msgid "Game Rules, Strategies and Tips"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:106
+#, no-c-format
+msgid "Game Rules"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:108
+#, no-c-format
+msgid "Players take turn to place their respective marks on the playing board."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:109
+#, no-c-format
+msgid "A player cannot move their already placed mark or put their mark upon an already placed mark."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:110
+#, no-c-format
+msgid "Players cannot forfeit their turns."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:111
+#, no-c-format
+msgid "Player who reaches five marks connected in a straight line (be it vertical, horizontal or diagonal) wins the game."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:115
+#, no-c-format
+msgid "Game Tips"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:117
+#, no-c-format
+msgid "When &bovo; is started the first time, it needs resizing. Resize the game window to desired size, and &bovo; will scale up the playing board."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:118
+#, no-c-format
+msgid "The first time &bovo; is started it is launched in demo mode, where two AI players battle each other."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:119
+#, no-c-format
+msgid "When &bovo; is exited prior to game over, the active game is auto saved. If &bovo; detects an auto saved game at startup, it is restored. If not, &bovo; launches a demo mode."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:120
+#, no-c-format
+msgid "You can always start a new game with the <guibutton>New</guibutton> button in the toolbar, the <menuchoice><guimenu>Game</guimenu><guimenuitem>New</guimenuitem></menuchoice> menu entry in the menubar or with the default shortcut <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:121
+#, no-c-format
+msgid "If a new game is started when a game is already active, it is counted as a loss."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:122
+#, no-c-format
+msgid "Changing the difficulty can be done with the <guilabel>Difficulty</guilabel> drop down box in the right end of the status bar, or from the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Difficulty</guimenuitem></menuchoice> menu entry in the menubar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:123
+#, no-c-format
+msgid "The effect of changing difficulty takes place immediately."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:124
+#, no-c-format
+msgid "You can switch the theme of &bovo; from the <menuchoice><guimenu>Settings</guimenu> <guisubmenu>Theme</guisubmenu></menuchoice> menu entry in the menubar. The theme is then switched immediately."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:125
+#, no-c-format
+msgid "Animation can be switched on or off as you like from the <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Animation</guimenuitem></menuchoice> menu entry in the menubar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:126
+#, no-c-format
+msgid "If you just realized you made a very bad move, you have the possibility to undo your last move from the toolbar, the menubar or with the default undo keyboard shortcut <keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:126
+#, no-c-format
+msgid "You can keep on undoing moves until you reaches the beginning of the game."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:127
+#, no-c-format
+msgid "If you don't know what move to make, you can get a hint from the computer player with the <guibutton>Hint</guibutton> button. The game piece suggested by the &bovo; AI then flashes for a brief period of time."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:128
+#, no-c-format
+msgid "When a game is over, the <guibutton>Replay</guibutton> action is enabled, which starts a replay of the last game."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:133
+#, no-c-format
+msgid "Interface Overview"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:136
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:140
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:145
+#, no-c-format
+msgid "Starts a new game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:150
+#, no-c-format
+msgid "<guimenu>Game</guimenu> <guimenuitem>Replay</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:153
+#, no-c-format
+msgid "Replay the last game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:157
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:162
+#, no-c-format
+msgid "Selecting this item will end your current game, and exit &bovo;."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:167
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap> </keycombo> </shortcut> <guimenu>Move</guimenu> <guimenuitem>Undo</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:177
+#, no-c-format
+msgid "Undo the last move you made."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:182
+#, no-c-format
+msgid "<shortcut> <keycap>H</keycap> </shortcut> <guimenu>Move</guimenu> <guimenuitem>Hint</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:190
+#, no-c-format
+msgid "<action>Display</action> a hint for the next move. The game piece suggested by the &bovo; AI then flashes for a brief period of time."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:195
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guisubmenu>Theme</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:196
+#, no-c-format
+msgid "Choose one of the themes <guimenuitem>Scribble</guimenuitem>, <guimenuitem>High Contrast</guimenuitem>, <guimenuitem>Spacy</guimenuitem> or <guimenuitem>Gomoku</guimenuitem> for the game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:201
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Animation </guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:203
+#, no-c-format
+msgid "Switch the animation on or off."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:207
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guisubmenu>Difficulty</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:208
+#, no-c-format
+msgid "Choose the game difficulty from various levels from <guimenuitem>Ridiculously Easy</guimenuitem> up to <guimenuitem>Impossible</guimenuitem>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:214
+#, no-c-format
+msgid "Additionally &bovo; has the common &kde; <guimenu>Settings</guimenu> and <guimenu>Help</guimenu> menu items, for more information read the sections about the <ulink url=\"help:/fundamentals/menus.html#menus-settings\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:223
+#, no-c-format
+msgid "Frequently asked questions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:228
+#, no-c-format
+msgid "I want to change the way this game looks. Can I?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:229
+#, no-c-format
+msgid "Yes. To change &bovo;'s visual theme you can use the <menuchoice><guimenu>Settings</guimenu><guisubmenu>Theme</guisubmenu> </menuchoice> menu entry on the menubar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:233
+#, no-c-format
+msgid "Can I use the keyboard to play this game?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:234
+#, no-c-format
+msgid "No. The game of &bovo; cannot be played using keyboard."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:237
+#, no-c-format
+msgid "I have to quit the game now, but I am not finished yet. Can I save my progress?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:238
+#, no-c-format
+msgid "No. There is no <quote>Save</quote> feature in &bovo; but &bovo; restores the latest unfinished game on startup."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:241
+#, no-c-format
+msgid "Where are the highscores?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:242
+#, no-c-format
+msgid "&bovo; does not have this feature."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:249
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:252
+#, no-c-format
+msgid "&bovo;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:255
+#, no-c-format
+msgid "Program copyright 2002, 2007 &Aron.Bostrom; &Aron.Bostrom.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:259
+#, no-c-format
+msgid "Documentation copyright 2007 &Aron.Bostrom; &Aron.Bostrom.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:262
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:262
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

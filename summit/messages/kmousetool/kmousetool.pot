@@ -1,0 +1,228 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kmousetool package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kmousetool\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-16 10:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:394
+#, kde-format
+msgid "The drag time must be less than or equal to the dwell time."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:394
+#, kde-format
+msgid "Invalid Value"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:463 kmousetool.cpp:604
+#, kde-format
+msgid "&Stop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:465 kmousetool.cpp:584 kmousetool.cpp:607
+#, kde-format
+msgctxt "Start tracking the mouse"
+msgid "&Start"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:526
+#, kde-format
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before closing the configuration window or discard the changes?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:528
+#, kde-format
+msgid "Closing Configuration Window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:549
+#, kde-format
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before quitting KMousetool or discard the changes?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:550
+#, kde-format
+msgid "Quitting KMousetool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:586
+#, kde-format
+msgid "&Configure KMouseTool..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:589
+#, kde-format
+msgid "KMousetool &Handbook"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:591
+#, kde-format
+msgid "&About KMouseTool"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KMouseToolUI)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:14 main.cpp:23 main.cpp:25
+#, kde-format
+msgid "KMouseTool"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:20
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, dragTimeLabel)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:62
+#, kde-format
+msgid "&Drag time (1/10 sec):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, movementLabel)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:97
+#, kde-format
+msgid "&Minimum movement:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStart)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:107
+#, kde-format
+msgid "Start with &desktop session"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDrag)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:114
+#, kde-format
+msgid "Smar&t drag"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStroke)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:124
+#, kde-format
+msgid "&Enable strokes"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, dwellTimeLabel)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:131
+#, kde-format
+msgid "Dwell &time (1/10 sec):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbClick)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:154
+#, kde-format
+msgid "A&udible click"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:191
+#, kde-format
+msgid "KMouseTool will run as a background application after you close this dialog. To change the settings again, restart KMouseTool or use the system tray."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonStartStop)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:223
+#, kde-format
+msgid "&Start"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:27
+#, kde-format
+msgid ""
+"(c) 2002-2003, Jeff Roush\n"
+"(c) 2003 Gunnar Schmidt "
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:32
+#, kde-format
+msgid "Gunnar Schmidt"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:32
+#, kde-format
+msgid "Current maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "Olaf Schmidt"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "Usability improvements"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "Jeff Roush"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "Original author"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:36
+#, kde-format
+msgid "Joe Betts"
+msgstr ""

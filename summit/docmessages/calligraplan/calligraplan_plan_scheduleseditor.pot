@@ -1,0 +1,407 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-24 23:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6
+#: scheduleseditor.docbook:2
+#, no-c-format
+msgid "<title>Description</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:3
+#, no-c-format
+msgid "The Schedule Editor is used to create, edit, calculate and delete schedules."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:19
+#, no-c-format
+msgid "The Schedule Editor has three sub-views that show the results of the scheduling."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:21
+#, no-c-format
+msgid "The Result sub-view shows the values needed for PERT analysis including early start and -finish, late start and -finish along with different types of float."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:36
+#, no-c-format
+msgid "The Critical Path sub-view shows the tasks that belong to the critical path."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:51
+#, no-c-format
+msgid "The Scheduling Log sub-view shows a list of messages produced during scheduling."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: scheduleseditor.docbook:67
+#, no-c-format
+msgid "Toolbar"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:68
+#, no-c-format
+msgid "The toolbar provides the means to create, delete and calculate schedules:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: scheduleseditor.docbook:75
+#, no-c-format
+msgid "Button"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: scheduleseditor.docbook:76
+#, no-c-format
+msgid "Shortcut"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: scheduleseditor.docbook:77 scheduleseditor.docbook:162
+#, no-c-format
+msgid "<guilabel>Description</guilabel>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:83
+#, no-c-format
+msgid "Add Schedule"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: scheduleseditor.docbook:86
+#, no-c-format
+msgid "&Ctrl;<keycap>I</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:89
+#, no-c-format
+msgid "Button to create a resource group. The new group is appended at the end of the groups."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:94
+#, no-c-format
+msgid "Add Subschedule"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: scheduleseditor.docbook:97
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>I</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:100
+#, no-c-format
+msgid "Button to create a sub-schedule. The new schedule is appended as a child to the currently selected schedule."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:105
+#, no-c-format
+msgid "<para>Delete</para>"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: scheduleseditor.docbook:108
+#, no-c-format
+msgid "<keycap>Delete</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:111
+#, no-c-format
+msgid "Deletes the selected schedule."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:116
+#, no-c-format
+msgid "Calculate"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:122
+#, no-c-format
+msgid "Calculates the selected schedule."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:127
+#, no-c-format
+msgid "Baseline"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:133
+#, no-c-format
+msgid "Baselines the selected schedule. Prevents the schedule from being re-calculated or deleted."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:138
+#, no-c-format
+msgid "Detach"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:144
+#, no-c-format
+msgid "Make the selected sub-schedule a top schedule"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: scheduleseditor.docbook:151
+#, no-c-format
+msgid "Editing data"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:152
+#, no-c-format
+msgid "Data can be edited in-line as described <link linkend=\"using-the-views\">here</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:154
+#, no-c-format
+msgid "The following columns are displayed as default:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: scheduleseditor.docbook:161
+#, no-c-format
+msgid "Column"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:168
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:171
+#, no-c-format
+msgid "The name of the schedule."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:176
+#, no-c-format
+msgid "State"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:179
+#, no-c-format
+msgid "The schedules state. Shows a progress bar during scheduling."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:184
+#, no-c-format
+msgid "Direction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:187
+#, no-c-format
+msgid "The scheduling direction."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:187
+#, no-c-format
+msgid "If the direction is Forward, the project is scheduled starting at the project's earliest start time specified in the main project dialog. If the direction is Backward, the project is scheduled starting at the project's latest finish time specified in the main project dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:194
+#, no-c-format
+msgid "Overbooking"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:197
+#, no-c-format
+msgid "Controls resource overbooking when scheduling."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:197
+#, no-c-format
+msgid "If overbooking is allowed, a resource may be booked (on working days) to work more than it is available. This can happen if the resource is allocated to multiple tasks or are booked on other projects."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:199
+#, no-c-format
+msgid "If overbooking is to be avoided, resources will not be booked more than they are available. On resource conflict, tasks will be delayed until the resource is available."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:206
+#, no-c-format
+msgid "Distribution"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:209
+#, no-c-format
+msgid "The distribution to be used during scheduling."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:209
+#, no-c-format
+msgid "If the distribution is 'None', the estimate of the task is used as-is during scheduling."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:211
+#, no-c-format
+msgid "If the distribution is 'PERT', the estimate (E) used is calculated based on the entered optimistic- (O), pessimistic-(P) and most likely (M) estimate. The formula used for this is:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:213
+#, no-c-format
+msgid "E = (O + 4 * M + P) / 6."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:220
+#, no-c-format
+msgid "Planned Start"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:223
+#, no-c-format
+msgid "The scheduled start time."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:228
+#, no-c-format
+msgid "Planned Finish"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:231
+#, no-c-format
+msgid "The scheduled finish time."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:236
+#, no-c-format
+msgid "Scheduler"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:239
+#, no-c-format
+msgid "The scheduler used for calculating the project schedule."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:239
+#, no-c-format
+msgid "The default built-in scheduler is the Network Scheduler."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: scheduleseditor.docbook:248
+#, no-c-format
+msgid "Configuration"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:255
+#, no-c-format
+msgid "Using the context menu, the view can be configured to split/unsplit the tree view or it can be configured using the configure dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: scheduleseditor.docbook:255
+#, no-c-format
+msgid "The configure dialog enables you to tailor the amount of information the view displays to fit your needs."
+msgstr ""

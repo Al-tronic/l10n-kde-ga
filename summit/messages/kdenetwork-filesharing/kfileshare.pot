@@ -1,0 +1,805 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdenetwork-filesharing package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kdenetwork-filesharing\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:58
+#, kde-format
+msgctxt "@option:radio an entry denying permissions"
+msgid "Deny"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:60
+#, kde-format
+msgctxt "@option:radio an entry allowing permissions"
+msgid "Allow"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:64
+#, kde-format
+msgctxt "@option:radio an unknown permission entry type (doesn't really happen)"
+msgid "Unknown"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:71
+#, kde-format
+msgctxt "@option:radio permission applicability type"
+msgid "This folder only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:73
+#, kde-format
+msgctxt "@option:radio permission applicability type"
+msgid "This folder, subfolders and files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:75
+#, kde-format
+msgctxt "@option:radio permission applicability type"
+msgid "This folder and subfolders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:77
+#, kde-format
+msgctxt "@option:radio permission applicability type"
+msgid "This folder and files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:79
+#, kde-format
+msgctxt "@option:radio permission applicability type"
+msgid "Subfolders and files only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:81
+#, kde-format
+msgctxt "@option:radio permission applicability type"
+msgid "Subfolders only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:83
+#, kde-format
+msgctxt "@option:radio permission applicability type"
+msgid "Files only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:86
+#, kde-format
+msgctxt "@option:radio permission applicability type (doesn't really happen)"
+msgid "Unknown"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/plugin.cpp:184
+#, kde-format
+msgctxt "@title:tab"
+msgid "Remote Permissions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:29
+msgctxt "@info"
+msgid "This permission entry was inherited from a parent container and can only be modified on that parent (e.g. a higher level directory)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:36
+msgctxt "@label"
+msgid "Type:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:46
+msgctxt "@label"
+msgid "Applies to:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:59
+msgctxt "@option:check"
+msgid "Traverse folder / execute file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:63
+msgctxt "@option:check"
+msgid "List folder / read data"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:67
+msgctxt "@option:check"
+msgid "Read attributes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:71
+msgctxt "@option:check"
+msgid "Read extended attributes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:75
+msgctxt "@option:check"
+msgid "Create files / write data"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:79
+msgctxt "@option:check"
+msgid "Create folders / append data"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:83
+msgctxt "@option:check"
+msgid "Write attributes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:87
+msgctxt "@option:check"
+msgid "Write extended attributes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:91
+msgctxt "@option:check"
+msgid "Delete subfolders and files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:95
+msgctxt "@option:check"
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:99
+msgctxt "@option:check"
+msgid "Read permissions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:103
+msgctxt "@option:check"
+msgid "Change permissions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:107
+msgctxt "@option:check"
+msgid "Take ownership"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/ACEPage.qml:112
+msgctxt "@option:check"
+msgid "Only apply these permissions to objects and/or containers within this container"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/MainPage.qml:13
+msgctxt "@title"
+msgid "Access Control Entries"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/MainPage.qml:29
+msgctxt "@title file/folder owner info"
+msgid "Ownership"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/MainPage.qml:33
+msgctxt "@label"
+msgid "Owner:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/MainPage.qml:37
+msgctxt "@label"
+msgid "Group:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/NoDataPage.qml:17
+msgctxt "@info"
+msgid "No Permissions Found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/aclproperties/qml/NoDataPage.qml:18
+msgctxt "@info"
+msgid "There are probably no SMB/Windows/Advanced permissions set on this file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/authhelper.cpp:48
+#, kde-kuit-format
+msgctxt "@info"
+msgid "User name <resource>%1</resource> is not valid as the name of a Samba user; cannot check for its existence."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/authhelper.cpp:67
+#, kde-kuit-format
+msgctxt "@info '%1 %2' together make up a terminal command; %3 is the command's output"
+msgid ""
+"Command <command>%1 %2</command> failed:<nl/>"
+"<nl/>"
+"%3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/authhelper.cpp:84
+#: samba/filepropertiesplugin/authhelper.cpp:130
+#, kde-kuit-format
+msgctxt "@info error while looking up uid from dbus"
+msgid "Could not resolve calling user."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/authhelper.cpp:90
+#, kde-format
+msgctxt "@info"
+msgid "For security reasons, creating Samba users with empty passwords is not allowed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/authhelper.cpp:136
+#, kde-kuit-format
+msgctxt "@info"
+msgid "<resource>%1</resource> is not a valid group name; cannot make user <resource>%2</resource> a member of it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/authhelper.cpp:146
+#, kde-kuit-format
+msgctxt "@info"
+msgid "For security reasons, cannot make user <resource>%1</resource> a member of group <resource>%2</resource>.                                                    The group name is insecure; valid group names do not                                                    include the text <resource>admin</resource> or <resource>root</resource>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:36
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Your Samba installation appears to be broken."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:41
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "This error is caused by your distribution not setting up Samba sharing properly. Please file a bug with your distribution or check your distribution's documentation on setting up Samba sharing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:46
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid ""
+"This error is caused by your distribution not setting up Samba sharing properly. Please file a bug with your distribution or check your distribution's documentation on setting up Samba sharing. Error:<nl/>"
+"<message>%1</message>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:55
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "This folder can't be shared because <filename>%1</filename> does not exist."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:58
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "This error is caused by your distribution not setting up Samba sharing properly. You can fix it yourself by creating that folder manually, then close and re-open this window."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:71
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "This folder can't be shared because your user account isn't a member of the <resource>%1</resource> group."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:74
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "You can fix this by making your user a member of that group, then restart the system."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:78
+#, kde-format
+msgctxt "action@button makes user a member of the samba share group"
+msgid "Make Me a Group Member"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:85
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "This folder can't be shared because your user account doesn't have permission to write into <filename>%1</filename>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:89
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "You can fix this by ensuring that the <resource>%1</resource> group has write permission for <filename>%2</filename>, then close and re-open this window."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:120
+#, kde-kuit-format
+msgctxt "@label kauth action description %1 is a username %2 a group name"
+msgid "Adding user <resource>%1</resource> to group <resource>%2</resource> so they can configure Samba user shares"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/groupmanager.cpp:131
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Failed to make user <resource>%1</resource> a member of group <resource>%2</resource>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/permissionshelper.cpp:95
+#, kde-format
+msgctxt "@title"
+msgid "File Path"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/permissionshelper.cpp:97
+#, kde-format
+msgctxt "@title"
+msgid "Current Permissions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/permissionshelper.cpp:99
+#, kde-format
+msgctxt "@title"
+msgid "Required Permissions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:57
+msgctxt "@title"
+msgid "Denying Access"
+msgstr ""
+
+#. i18n markup; this also means newlines are ignored!
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:71
+msgctxt "@info"
+msgid ""
+"\n"
+"Denying access prevents using this share even when another access rule might grant access. A denial rule always\n"
+"takes precedence. In particular denying access to <resource>Everyone</resource> actually disables access for everyone.\n"
+"It is generally not necessary to deny anyone because the regular directory and file permissions still apply to shared\n"
+"directories. A user who does not have access to the directory locally will still not be able to access it remotely even\n"
+"when the Share access rules would allow it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:89
+msgctxt "@label"
+msgid "This folder needs extra permissions for sharing to work."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:93
+msgctxt "@action:button opens the change permissions page"
+msgid "Fix Permissions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:105
+msgctxt "@label"
+msgid "The share might not work properly because share folder or its paths has Advanced Permissions: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:112
+msgctxt "@option:check"
+msgid "Share this folder with other computers on the local network"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:137
+msgctxt "@label"
+msgid "Name:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:164
+msgctxt "@action:button network addresses"
+msgid "View Addresses"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:176
+msgctxt "@label"
+msgid "This name cannot be used. Share names must not be user names and there must not be two shares with the same name on the entire system."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:185
+msgctxt "@label"
+msgid "This name may be too long. It can cause interoperability problems or get rejected by Samba."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:192
+msgctxt "@option:check"
+msgid "Allow guests to connect"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:205
+msgctxt "@label"
+msgid "Guest access is disabled by the system's Samba configuration."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:288
+msgctxt "@button"
+msgid "Change Password…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:302
+msgctxt "@option:radio user can read&write"
+msgid "Full Control"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:303
+msgctxt "@option:radio user can read"
+msgid "Read Only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:304
+msgctxt "@option:radio user not allowed to access share"
+msgid "No Access"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ACLPage.qml:330
+msgctxt "@button"
+msgid "View Samba Status"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePassword.qml:25
+msgctxt "@title"
+msgid "Change password for '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePassword.qml:25
+msgctxt "@title"
+msgid "Set password for '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePassword.qml:64
+msgctxt "@label:textbox"
+msgid "Password"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePassword.qml:75
+msgctxt "@label:textbox"
+msgid "Confirm password"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePassword.qml:86
+msgctxt "@label error message"
+msgid "Passwords must match."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePassword.qml:117
+msgctxt "@action:button creates a new samba user with the user-specified password"
+msgid "Set Password"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePassword.qml:124
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePermissionsPage.qml:37
+msgctxt "@info"
+msgid ""
+"\n"
+"<para>The folder <filename>%1</filename> needs extra permissions for sharing to work.</para>"
+"\n"
+"<para>Add these permissions now?</para>"
+"<nl/>"
+"\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePermissionsPage.qml:74
+msgctxt "@action:button changes permissions"
+msgid "Change Permissions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePermissionsPage.qml:80
+msgctxt "@label"
+msgid "Could not change permissions for: %1. All permissions changes have been reverted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ChangePermissionsPage.qml:89
+msgctxt "@action:button cancels permissions change"
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ConnectionAddresses.qml:17
+msgctxt "@title"
+msgid "Connection Addresses"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ConnectionAddresses.qml:24
+msgctxt "@info:usagetip"
+msgid "Use any of the following addresses to connect to this share:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/ConnectionAddresses.qml:57
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/InstallPage.qml:36
+msgctxt "@info"
+msgid "The <application>Samba</application> file sharing service must be installed before folders can be shared."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/InstallPage.qml:39
+msgctxt "@button"
+msgid "Install Samba"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/InstallPage.qml:47
+msgctxt "@label"
+msgid "The Samba package failed to install."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:22
+msgctxt "@info"
+msgid "File sharing service unavailable"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:23
+msgid ""
+"Please ensure the Samba service is enabled and running.\n"
+"If you haven't disabled it manually, consider reporting a bug to your distribution."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/MissingSambaPage.qml:27
+msgid "Report a bug"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/RebootPage.qml:20
+msgctxt "@label"
+msgid "Restart the computer to apply changes."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/RebootPage.qml:23
+msgctxt "@button restart the system"
+msgid "Restart"
+msgstr ""
+
+#. i18n markup
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/UserPage.qml:56
+msgctxt "@info"
+msgid ""
+"\n"
+"<para>\n"
+"Samba uses a separate user database from the system one.\n"
+"This requires you to set a separate Samba password for every user that you want to\n"
+"be able to authenticate with.\n"
+"</para>"
+"\n"
+"<para>\n"
+"Before you can access shares with your current user account you need to set a Samba password.\n"
+"</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/UserPage.qml:71
+msgctxt "@action:button opens dialog to create new user"
+msgid "Set Samba password"
+msgstr ""
+
+#. i18n markup
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/qml/UserPage.qml:79
+msgctxt "@info"
+msgid ""
+"\n"
+"Additional user management and password management can be done using Samba's <command>smbpasswd</command>\n"
+"command line utility."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:241
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "You have exhausted the maximum amount of shared directories you may have active at the same time."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:243
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "The share name is invalid."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:245
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "The share name is already in use for a different directory."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:247
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "The path is invalid."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:249
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "The path does not exist."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:251
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "The path is not a directory."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:253
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "The path is relative."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:255
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "This path may not be shared."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:257
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "The access rule is invalid."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:259
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "An access rule's user is not valid."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:261
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "The 'Guest' access rule is invalid."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:263
+#, kde-format
+msgctxt "@info detailed error messsage"
+msgid "Enabling guest access is not allowed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:281
+#, kde-kuit-format
+msgctxt "@info error in the underlying binaries. %1 is CLI output"
+msgid ""
+"<para>An error occurred while trying to share the directory. The share has not been created.</para>"
+"<para>Samba internals report:</para>"
+"<message>%1</message>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:286
+#, kde-format
+msgctxt "@info/title"
+msgid "Failed to Create Network Share"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:299
+#, kde-kuit-format
+msgctxt "@info error in the underlying binaries. %1 is CLI output"
+msgid ""
+"<para>An error occurred while trying to un-share the directory. The share has not been removed.</para>"
+"<para>Samba internals report:</para>"
+"<message>%1</message>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/sambausershareplugin.cpp:304
+#, kde-format
+msgctxt "@info/title"
+msgid "Failed to Remove Network Share"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/usermanager.cpp:95
+#, kde-format
+msgctxt "@label kauth action description %1 is a username"
+msgid "Checking if Samba user '%1' exists"
+msgstr ""
+
+#. +> trunk6 stable6
+#: samba/filepropertiesplugin/usermanager.cpp:116
+#, kde-format
+msgctxt "@label kauth action description %1 is a username"
+msgid "Creating new Samba user '%1'"
+msgstr ""

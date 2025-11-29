@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-24 23:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6
+#: contenteditor.docbook:1
+#, no-c-format
+msgid "Portfolio Content"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6
+#: contenteditor.docbook:1
+#, no-c-format
+msgid "&WORK-IN-PROGRESS;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: contenteditor.docbook:3
+#, no-c-format
+msgid "This editor enables you to configure the content of your portfolio."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: contenteditor.docbook:5
+#, no-c-format
+msgid "Select <menuchoice> <shortcut><keycap>Insert</keycap></shortcut> <guimenu>Edit</guimenu><guimenuitem>Add</guimenuitem> </menuchoice> or press <guibutton>Add</guibutton> to add projects to your portfolio."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: contenteditor.docbook:12
+#, no-c-format
+msgid "Select <menuchoice> <shortcut><keycap>Delete</keycap></shortcut> <guimenu>Edit</guimenu><guimenuitem>Remove</guimenuitem> </menuchoice> or press <guibutton>Remove</guibutton> to remove selected projects."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: contenteditor.docbook:19
+#, no-c-format
+msgid "Add the projects you are managing and set <guilabel>Portfolio</guilabel> = <emphasis>Yes</emphasis>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: contenteditor.docbook:21
+#, no-c-format
+msgid "If you have resources that is used by projects not part of your portfolio and you want to re-schedule or inspect resource usage, you need to add all relevant projects and set <guilabel>Portfolio</guilabel> = <emphasis>No</emphasis> for these projects."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: contenteditor.docbook:25
+#, no-c-format
+msgid "Storage"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: contenteditor.docbook:28
+#, no-c-format
+msgid "Project changes can be saved to the original project file or it can be embedded into the portfolio file. If you are managing projects, they should normally be saved to their original files. Set <guilabel>Store</guilabel> = <emphasis>External</emphasis> in this case. However, if you just want to see what impact changes might have, you may want to store projects embedded while you are working on different scenarios. Set <guilabel>Store</guilabel> = <emphasis>Embedded</emphasis> in this case. The projects external url is preserved if you later want to save the changes to the original file."
+msgstr ""

@@ -1,0 +1,937 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: docbook-reference.docbook:7
+#, no-c-format
+msgid "<firstname>David</firstname> <othername>C.</othername> <surname>Bryant</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: docbook-reference.docbook:11
+#, no-c-format
+msgid "davidbryant@gvtc.com"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: docbook-reference.docbook:14
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: docbook-reference.docbook:20
+#, no-c-format
+msgid "David C. Bryant"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: docbook-reference.docbook:25
+#, no-c-format
+msgid "2019-08-26"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:26
+#, no-c-format
+msgid "5.10.3 (Applications 18.12.3)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:29
+#, no-c-format
+msgid "&kaddressbook; is a very complicated program with lots of built-in features. Some of the more advanced features of &kaddressbook; are documented in this appendix, primarily to keep the main document from getting too large and unwieldy."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: docbook-reference.docbook:37
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: docbook-reference.docbook:38
+#, no-c-format
+msgid "KAddressBook"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: docbook-reference.docbook:39
+#, no-c-format
+msgid "kdepim"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: docbook-reference.docbook:40
+#, no-c-format
+msgid "Email"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:45
+#, no-c-format
+msgid "&kaddressbook; Advanced Features Reference Section"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:53
+#, no-c-format
+msgid "The New Group Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:55
+#, no-c-format
+msgid "When you invoke the <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"user-group-new.png\" format=\"PNG\"/> </imageobject></inlinemediaobject>New Group</guibutton> function, a dialog will begin, as shown below."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:60
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s <quote>New Group</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:66
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s <quote>New Group</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:69
+#, no-c-format
+msgid "&kaddressbook;'s <quote>New Group</quote> dialog after choosing the <menuchoice><guimenu>File</guimenu><guisubmenu>New&nbsp; &nbsp;&gt;</guisubmenu><guimenuitem><inlinemediaobject><imageobject><imagedata fileref=\"user-group-new.png\" format=\"PNG\"/> </imageobject></inlinemediaobject>New Group</guimenuitem></menuchoice> function."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:77 docbook-reference.docbook:110
+#: docbook-reference.docbook:145 docbook-reference.docbook:173
+#: docbook-reference.docbook:199 docbook-reference.docbook:222
+#: docbook-reference.docbook:257 docbook-reference.docbook:269
+#: docbook-reference.docbook:292 docbook-reference.docbook:310
+#: docbook-reference.docbook:343 docbook-reference.docbook:374
+#: docbook-reference.docbook:414 docbook-reference.docbook:458
+#: docbook-reference.docbook:480 docbook-reference.docbook:485
+#: docbook-reference.docbook:507 docbook-reference.docbook:513
+#: docbook-reference.docbook:544 docbook-reference.docbook:552
+#: docbook-reference.docbook:582 docbook-reference.docbook:614
+#: docbook-reference.docbook:646 docbook-reference.docbook:671
+#: docbook-reference.docbook:702 docbook-reference.docbook:709
+#: docbook-reference.docbook:732 docbook-reference.docbook:754
+#: docbook-reference.docbook:764
+#, no-c-format
+msgid "&nbsp;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:79
+#, no-c-format
+msgid "Use the <quote>Add To:</quote> drop-down box to choose the address book to which the new group should be added. Use the <quote>Name</quote> field to give the new group a name. Enter e-mail addresses, or portions of email addresses, in the blue <quote>&plus;</quote> area. A list of potential matches will appear. Select an item in the list that pops up, and a new name will be added to the list. Continue adding individual contacts to the list until it is complete, then click the <guibutton>&nbsp;✔&nbsp;OK&nbsp;</guibutton> button to add this group to your address book. If you want to delete a name from the list, click the <inlinemediaobject><imageobject><imagedata fileref=\"list-remove.png\" format=\"PNG\"/></imageobject> </inlinemediaobject> icon to the right of that particular name. If you need to make changes to the group later, simply select the group and use the <quote>Edit</quote> menu, or the <quote>Edit Contact</quote> button on the toolbar, to open a substantially similar dialog that will let you make the desired changes."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:89
+#, no-c-format
+msgid "The &kmail; program provides an alternative method of creating a new group in &kaddressbook;. After you have addressed an e-mail message to several people, you are given the option of adding a new group to your address book, as shown below."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:94
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kmail;'s <quote>New Group</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:100
+#, no-c-format
+msgid "<phrase>A screenshot of &kmail;'s <quote>New Group</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:103
+#, no-c-format
+msgid "&kmail;'s <quote>New Group</quote> dialog after choosing the <guibutton>&nbsp;Save List... &nbsp;</guibutton> function."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:112
+#, no-c-format
+msgid "After addressing a message to a group of people, clicking the <guibutton>&nbsp;Save List...&nbsp;</guibutton> button to the right of the address input area will cause the illustrated dialog box to appear. Give the list a name and left click the <guibutton>&nbsp;Save List&nbsp;</guibutton> button. Another dialog box will pop up, asking you to select an address book. Make your selection, and a new group will be created for you."
+msgstr ""
+
+#. Tag: link
+#. +> trunk6 stable6
+#: docbook-reference.docbook:117 docbook-reference.docbook:224
+#: docbook-reference.docbook:312 docbook-reference.docbook:386
+#: docbook-reference.docbook:430 docbook-reference.docbook:515
+#: docbook-reference.docbook:616 docbook-reference.docbook:673
+#: docbook-reference.docbook:766 docbook-reference.docbook:791
+#, no-c-format
+msgid "Click here to return to the Table of Contents for this Appendix."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:122
+#, no-c-format
+msgid "The Print-Preview Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:124
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Print Preview</quote> function lets you tailor a hard-copy of your address book data just about any way you want."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:129 docbook-reference.docbook:205
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s <quote>Print Preview</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:135 docbook-reference.docbook:163
+#: docbook-reference.docbook:211
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s <quote>Print Preview</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:138
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Print Preview</quote> dialog. You may select one or more entire address books, or just a smattering of individual contacts."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:147
+#, no-c-format
+msgid "The first step is to select the contacts to be included in the printout. If you wish to print just a smattering of individual contacts, you must choose the contacts to be printed before invoking the <menuchoice><guisubmenu><inlinemediaobject><imageobject><imagedata fileref=\"document-preview-archive.png\" format=\"PNG\"/></imageobject></inlinemediaobject>Print Preview</guisubmenu></menuchoice> dialog. If you wish to select all your contacts, or all the contacts in a particular address book, you can do it here. Click <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"go-next.png\" format=\"PNG\"/></imageobject> </inlinemediaobject>Next</guibutton> when you have made your selection. A new screen will appear."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:157
+#, no-c-format
+msgid "A second screenshot of &kaddressbook;'s <quote>Print Preview</quote> dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:166
+#, no-c-format
+msgid "The second screen in &kaddressbook;'s <quote>Print Preview</quote> dialog. You may choose a sort field and a sort direction (up or down). You may also choose among seven different print layouts."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:175
+#, no-c-format
+msgid "Here you can choose a sort field (any one of the 47 named fields in the contact record), the direction of the sort, and any one of seven different report formats. When you click <guibutton> <inlinemediaobject><imageobject><imagedata fileref=\"go-next.png\" format=\"PNG\"/></imageobject> </inlinemediaobject>Next</guibutton>, you will be given a chance to tailor the color scheme to be used."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:183
+#, no-c-format
+msgid "<screeninfo>A third screenshot of &kaddressbook;'s <quote>Print Preview</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:189
+#, no-c-format
+msgid "<phrase>A third screenshot of &kaddressbook;'s <quote>Print Preview</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:192
+#, no-c-format
+msgid "The third screen in &kaddressbook;'s <quote>Print Preview</quote> dialog. You may select a color scheme here."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:201
+#, no-c-format
+msgid "Here is a picture of the completed report. It is now ready for printing."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:214
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Print Preview</quote> after the report has been generated and is ready to print. You may select alternative print orientations (landscape or portrait) and launch the print task from this window."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:229
+#, no-c-format
+msgid "The Configure LDAP Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:231
+#, no-c-format
+msgid "Here is a picture of the first configuration screen that appears when you choose either the <guibutton>Configure LDAP Servers...</guibutton> button in the <menuchoice><guimenu>File</guimenu> <guisubmenu>Import&nbsp; &nbsp;&gt;</guisubmenu><guimenuitem>Import from LDAP Server...</guimenuitem> </menuchoice> dialog or the <menuchoice><guimenu>Settings</guimenu><guisubmenu><inlinemediaobject> <imageobject><imagedata fileref=\"configure.png\" format=\"PNG\"/></imageobject></inlinemediaobject>Configure &kaddressbook;...</guisubmenu></menuchoice> menu item."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:240
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s <quote>Configure LDAP Server</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:246
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s <quote>Configure LDAP Server</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:249
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Configure LDAP Server</quote> dialog after choosing the <menuchoice><guimenu>File</guimenu><guisubmenu>Import&nbsp; &nbsp;&gt;</guisubmenu><guimenuitem>Import from LDAP Server...</guimenuitem></menuchoice> function and left clicking the <guibutton>Configure LDAP Servers...</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:259
+#, no-c-format
+msgid "If you have already configured one or more <acronym>LDAP</acronym> servers, use this screen to select the servers that should be queried when you search for a name or email address. Use the <guibutton>Add host...</guibutton> button to add a new server to the list of available <acronym>LDAP</acronym> hosts. Use the <guibutton>Edit host...</guibutton> button to reconfigure a server that's already on the list, and the <guibutton>Remove host</guibutton> button to delete an entry you don't need any more. The <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"edit-undo.png\" format=\"PNG\"/></imageobject></inlinemediaobject>Reset</guibutton> button can be used to undo the last <quote>Add</quote> or <quote>Remove</quote> action performed. The <quote>Defaults</quote> button is inoperative in release 5.10.3. The rest of the buttons (OK, Apply, Cancel) have their ordinary functions: apply changes and exit, apply changes and stay here, and exit the dialog without making any changes, respectively."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:271
+#, no-c-format
+msgid "When you choose either the <guibutton>Add host...</guibutton> button or the <guibutton>Edit host...</guibutton> button, the following dialog will appear."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:276
+#, no-c-format
+msgid "<screeninfo>A second screenshot of &kaddressbook;'s <quote>Configure LDAP Server</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:282
+#, no-c-format
+msgid "<phrase>A second screenshot of &kaddressbook;'s <quote>Configure LDAP Server</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:285
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Configure LDAP Server</quote> dialog after left clicking either the <guibutton>Add Host...</guibutton> or the <guibutton>Edit Host...</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:294
+#, no-c-format
+msgid "The first four fields (<quote>User:</quote>, <quote>Bind DN:</quote>, <quote>Realm:</quote>, and <quote>Password:</quote>) will all be grayed out unless authentication is required. Obtain these credentials from the LDAP server's administrator. Enter the appropriate &URI; in the <quote>Host:</quote> field. The default values for <quote>Port:</quote>, <quote>Size limit:</quote>, &etc; will work OK for most users. You can use the <guibutton>Query Server</guibutton> button to set up the <quote>DN:</quote> field. I have no idea what the <quote>Filter:</quote> field is for. If you figure it out, please let me know (davidbryant AT gvtc.com)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:301
+#, no-c-format
+msgid "Use the <quote>Security</quote> section to specify the encryption method to use: <quote>No</quote> for an unencrypted connection, <glossterm linkend=\"gloss-tls\"><acronym>TLS</acronym></glossterm> for Transport Layer Security, or <glossterm linkend=\"gloss-ssl\"><acronym>SSL</acronym></glossterm> for Secure Socket Layer. Use the <quote>Authentication</quote> options to specify what level of authentication the server requires: <quote>Anonymous</quote> for no name or password at all, <quote>Simple</quote> if <quote>Bind DN</quote> and <quote>Password</quote> must be given, and <glossterm linkend=\"gloss-sasl\"><acronym>SASL</acronym></glossterm> (Simple Authentication and Security Layer) for the whole schmear (four data items). If <quote>SASL</quote> is chosen, use the <guibutton>Query Server</guibutton> button to set the advanced options for this host."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:317
+#, no-c-format
+msgid "The Import CSV File Function"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:319
+#, no-c-format
+msgid "When you choose the <menuchoice><guimenu>File</guimenu><guisubmenu>Import&nbsp; &nbsp;&gt;</guisubmenu> <guimenuitem>Import CSV file...</guimenuitem></menuchoice> function, you will be presented with a dialog. After you click the <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"document-open.png\" format=\"PNG\"/> </imageobject></inlinemediaobject></guibutton> button and choose the file to be imported, the screen will look like this."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:327
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s <quote>Import CSV File</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:333
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s <quote>Import CSV File</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:336
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Import CSV File</quote> dialog after choosing the <menuchoice><guimenu>File</guimenu><guisubmenu>Import&nbsp; &nbsp;&gt;</guisubmenu><guimenuitem>Import CSV file...</guimenuitem></menuchoice> function and selecting the file to be imported."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:345
+#, no-c-format
+msgid "Use the <quote>Delimiter</quote> section of this dialog to specify which separator character defines the end of a field in the chosen input file. If quote marks are used to delimit fields with embedded separator characters, you may specify the style (single or double quote) used via the <quote>Text quote:</quote> drop-down box. If the input file contains dates, use the <quote>Date format:</quote> field to define the way dates have been encoded. The default is yyyy-mm-dd. If that's the wrong format, hover your cursor over the <quote>Date format:</quote> box and a handy set of formatting instructions will be displayed. If the input file is not UTF-8 encoded, use the <quote>Text codec:</quote> drop-down box to specify the binary encoding scheme to use. If the first row of the file contains column headers, check the <quote>Skip first row of file</quote> box to avoid importing the column headers as data. Use the <quote>Undefined</quote> boxes at the top of each column to specify which data fields are to be imported, and where they should be stored, as shown below."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:357
+#, no-c-format
+msgid "<screeninfo>A second screenshot of &kaddressbook;'s <quote>Import CSV File</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:363
+#, no-c-format
+msgid "<phrase>A second screenshot of &kaddressbook;'s <quote>Import CSV File</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:366
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Import CSV File</quote> dialog after choosing the <menuchoice><guimenu>File</guimenu><guisubmenu>Import&nbsp; &nbsp;&gt;</guisubmenu><guimenuitem>Import CSV file...</guimenuitem></menuchoice> function, selecting the file to be imported, and beginning to define the fields to be imported."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:376
+#, no-c-format
+msgid "If you wish the contents of the current column to be imported, choose a destination from the list of field names appearing beneath the blue <quote>Undefined</quote> box. See <link linkend=\"export-csv-data\">the next section</link> for a list of the pre-defined fields. Use the horizontal scrollbar near the bottom of the dialog to view all the columns in the input file. When your selections are complete, click the <guibutton>&nbsp;✔&nbsp;OK&nbsp;</guibutton> button. If you have defined multiple address books, you will be asked to specify which address book is to be used. &kaddressbook; will then import the selected data as new contacts."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:382
+#, no-c-format
+msgid "If you intend to import additional datasets in the same format sometime in the future, you may click the <guibutton>Save template...</guibutton> button (cf. the first illustration in this section) to save the selections you have made. You will be prompted to give the template a name. Later, when you import another file with the same layout, you can save time by clicking the <guibutton>Apply template...</guibutton> button."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:391
+#, no-c-format
+msgid "The Export CSV File Function"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:393
+#, no-c-format
+msgid "When you invoke the <menuchoice><guimenu>File</guimenu><guisubmenu>Export&nbsp;&nbsp;&gt;</guisubmenu><guimenuitem>Export CSV file ...</guimenuitem></menuchoice> function, a dialog box appears."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:398
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s <quote>Export CSV File</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:404
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s <quote>Export CSV File</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:407
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Export CSV File</quote> dialog after choosing the <menuchoice><guimenu>File</guimenu><guisubmenu>Export&nbsp; &nbsp;&gt;</guisubmenu><guimenuitem>Export CSV file ...</guimenuitem></menuchoice> function."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:416
+#, no-c-format
+msgid "You may select all your contact data, or just a portion of it. When you press the <guibutton>&nbsp;✔&nbsp;OK&nbsp;</guibutton> button, you will be allowed to choose the name of the generated file, and the directory in which it will be written. The output file will contain the following forty-seven (47) output fields, in this order, left to right. This list of field names is included as the first record in the file."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:420
+#, no-c-format
+msgid "Formatted Name | Honorific Prefixes | Given Name | Additional Names | Family Name | Honorific Suffixes | Nick Name | Birthday | Anniversary | EMail (preferred) | EMail (2) | EMail (3) | EMail (4) | Home Address Street | Home Address Post Office Box | Home Address City | Home Address State | Home Address Zip Code | Home Address Country | Home Address Label | Business Address Street | Business Address Post Office Box | Business Address City | Business Address State | Business Address Zip Code | Business Address Country | Business Address Label | Home Phone | Business Phone | Mobile Phone | Home Fax | Business Fax | Car Phone | ISDN | Pager | Mail Client | Title | Role | Organization | Note | Homepage | Blog Feed | Profession | Office | Manager | Assistant | Spouse"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:427
+#, no-c-format
+msgid "All fields are formatted as character class data. Dates (Birthday and Anniversary, if present) are coded as yyyy-mm-dd (Year, Month, Day)."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:436
+#, no-c-format
+msgid "The Change Number of Columns Function"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:438
+#, no-c-format
+msgid "When you open the <menuchoice><guimenu>View</guimenu></menuchoice> menu, the following screen appears."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:442
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s <quote>View</quote> menu.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:448
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s <quote>View</quote> menu.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:451
+#, no-c-format
+msgid "&kaddressbook;'s <quote>View</quote> menu after choosing the <menuchoice><guimenu>View</guimenu></menuchoice> menu on the main Menubar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:460
+#, no-c-format
+msgid "Not happy with the hum-drum three column layout appearing above? Jazz things up a little with this minimalist approach."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:464
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s single panel layout.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:470
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s single panel layout.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:473
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Simple (one column)</quote> layout. Only the basic contact data are visible."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:482
+#, no-c-format
+msgid "Notice that the information about which address books exist and are in use is not visible when this <quote>Simple</quote> layout is in effect. Only the contacts from the address books that were selected before choosing this view are displayed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:487
+#, no-c-format
+msgid "If the <quote>Simple</quote> layout does not appeal to you, you may want to try the <quote>Two columns</quote> style."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:491
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s double panel layout.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:497
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s double panel layout.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:500
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Two columns</quote> layout. The list of address books is stacked on top of the alphabetized contact list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:509
+#, no-c-format
+msgid "At &kde;, our motto is \"Be Free!\" We aim to give you maximum flexibility when it comes to tailoring and configuring our software to suit your tastes. We toyed with the idea of adding even more views to &kaddressbook; (Four columns! Five!), but eventually concluded that enough is enough."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:520
+#, no-c-format
+msgid "The Configure Shortcuts Option"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:522
+#, no-c-format
+msgid "When you first select the <menuchoice><guimenu>Settings</guimenu><guisubmenu><inlinemediaobject><imageobject> <imagedata fileref=\"input-keyboard.png\" format=\"PNG\"/></imageobject></inlinemediaobject>Configure Shortcuts...</guisubmenu> </menuchoice> option, this is what you will see."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:528
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s <quote>Configure Shortcuts</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:534
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s <quote>Configure Shortcuts</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:537
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Configure Shortcuts</quote> dialog. Use the <quote>Search</quote> field, or the vertical scrollbar, to locate the action for which a new keyboard shortcut is to be defined."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:546
+#, no-c-format
+msgid "The &kaddressbook; actions for which keyboard shortcuts have already been defined are clearly marked in the <quote>Shortcut</quote> column. You may either assign additional shortcuts via the <quote>Alternate</quote>, <quote>Global</quote>, and <quote>Global Alternate</quote> columns in this table, or assign a new shortcut to an action for which no keyboard shortcut has as yet been defined. Select the action to be configured by clicking its name, as illustrated above."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:554
+#, no-c-format
+msgid "When you left-click the <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"configure.png\" format=\"PNG\"/> </imageobject></inlinemediaobject>None</guibutton> button, its name will change to <quote>Input...</quote>; you can then record the combination of keystrokes you wish to assign to the selected action. (Hover the cursor over the <guibutton> <inlinemediaobject><imageobject><imagedata fileref=\"configure.png\" format=\"PNG\"/></imageobject></inlinemediaobject>None</guibutton> button to view a handy hint about this procedure.) The program will note which keys you have pressed, and record the new keyboard shortcut, as illustrated below. If you choose a combination that conflicts with an existing shortcut assignment, you will see an error message, and you will be prompted to make a different selection. You may use the <guibutton><inlinemediaobject> <imageobject><imagedata fileref=\"edit-clear.png\" format=\"PNG\"/></imageobject></inlinemediaobject></guibutton> button to erase your selection."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:566
+#, no-c-format
+msgid "<screeninfo>A second screenshot of &kaddressbook;'s <quote>Configure Shortcuts</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:572
+#, no-c-format
+msgid "<phrase>A second screenshot of &kaddressbook;'s <quote>Configure Shortcuts</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:575
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Configure Shortcuts</quote> dialog after a new keyboard shortcut has been entered, but before the new configuration has been saved."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:584
+#, no-c-format
+msgid "Click the <guibutton>&nbsp;✔&nbsp;OK&nbsp;</guibutton> button to save your changes. Click on <guibutton>&nbsp;⦸&nbsp;Cancel&nbsp;</guibutton> to exit without saving your changes. Click <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"document-revert.png\" format=\"PNG\"/> </imageobject></inlinemediaobject>Defaults</guibutton> to restore &kaddressbook;'s default set of keyboard shortcuts. Choose <guibutton>&nbsp;Manage Schemes&nbsp;&gt;&gt;&nbsp;</guibutton> to integrate your custom assignments into a larger scheme of shortcut assignments; see the <ulink url=\"help:/fundamentals/config.html\">Customizing &kde; Software</ulink> chapter of the &kde; Fundamentals handbook."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:593
+#, no-c-format
+msgid "You may select the <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"document-print.png\" format=\"PNG\"/></imageobject></inlinemediaobject>Print</guibutton> button to produce a hard-copy version of the keyboard shortcut assignments. Here is a sample from the printed table."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:599
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s <quote>Print</quote> output.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:605
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s <quote>Print</quote> output.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:608
+#, no-c-format
+msgid "An excerpt from &kaddressbook;'s printed list of keyboard shortcuts."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:621
+#, no-c-format
+msgid "The Configure Toolbars Option"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:623
+#, no-c-format
+msgid "Here is a picture of the screen that appears when you click on the <menuchoice><guimenu>Settings</guimenu> <guisubmenu><inlinemediaobject><imageobject><imagedata fileref=\"configure.png\" format=\"PNG\"/></imageobject> </inlinemediaobject>Configure Toolbars...</guisubmenu></menuchoice> menu item."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:629
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s <quote>Configure Toolbars</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:635
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s <quote>Configure Toolbars</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:638
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Configure Toolbars</quote> dialog. Actions that are already displayed on the Toolbar appear in the large window on the right. Actions in the left-hand window may be added to the Toolbar, as explained below."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:648
+#, no-c-format
+msgid "Use either one of the <quote>Filter</quote> fields to restrict the range of choices displayed in the corresponding window. Select an action in the left-hand window (as shown above) if you wish to add it to the Toolbar. Left click the <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"go-next.png\" format=\"PNG\"/></imageobject></inlinemediaobject> </guibutton> button to add the item to the list in the right-hand window (and thence to &kaddressbook;'s Toolbar). If you want to delete an item from the Toolbar simply reverse the procedure: highlight the item to be deleted from the right-hand window and click the <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"go-previous.png\" format=\"PNG\"/></imageobject> </inlinemediaobject></guibutton> button. The selected item will be removed from the Toolbar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:656
+#, no-c-format
+msgid "You may tailor the order in which selected items appear on the Toolbar by using drag and drop within the right-hand window. The order of items on the Toolbar, left to right, corresponds with the order in the window, top to bottom. You may make additional changes to the appearance of the Toolbar by using the <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"change-icon.png\" format=\"PNG\"/></imageobject></inlinemediaobject>Change Icon...</guibutton> button to alter the icon associated with a particular action. Similarly, you may change the description of each item on the Toolbar by clicking the <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"document-edit.png\" format=\"PNG\"/></imageobject> </inlinemediaobject>Change Text...</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:664
+#, no-c-format
+msgid "Use the <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"document-revert.png\" format=\"PNG\"/></imageobject> </inlinemediaobject>Defaults</guibutton> button to restore the default Toolbar settings. Choose <quote>OK</quote> to save your changes and exit the dialog, <quote>Apply</quote> to apply your changes while keeping the dialog open, or <quote>Cancel</quote> to exit the dialog without saving your changes. (See the <ulink url=\"help:/fundamentals/config.html\">Customizing &kde; Software</ulink> chapter of the &kde; Fundamentals handbook for a more detailed explanation of this procedure.)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:678
+#, no-c-format
+msgid "The Configure &kaddressbook; Option"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:680
+#, no-c-format
+msgid "When the <menuchoice><guimenu>Settings</guimenu><guisubmenu><inlinemediaobject><imageobject><imagedata fileref=\"configure.png\" format=\"PNG\"/></imageobject></inlinemediaobject>Configure &kaddressbook;...</guisubmenu></menuchoice> option is selected, this screen will appear."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:686
+#, no-c-format
+msgid "<screeninfo>A screenshot of &kaddressbook;'s <quote>Configure &kaddressbook;</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:692
+#, no-c-format
+msgid "<phrase>A screenshot of &kaddressbook;'s <quote>Configure &kaddressbook;</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:695
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Configure Contact Actions</quote> dialog. These features are still experimental, and not yet entirely operational."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:704
+#, no-c-format
+msgid "The first dialog that appears supports experimental features that have not yet been completely implemented. You may select from several different options under the headings <quote>Show Address</quote>, <quote>Dial Phone Number</quote>, or <quote>Send SMS</quote>, but there isn't yet any software to do anything with the options you choose."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:711
+#, no-c-format
+msgid "The next option, <quote>LDAP Server Settings</quote>, is the same dialog that is documented in the preceding section entitled <link linkend=\"configure-ldap-server\"><quote>The Configure LDAP Dialog</quote></link>."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:716
+#, no-c-format
+msgid "<screeninfo>A second screenshot of &kaddressbook;'s <quote>Configure &kaddressbook;</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:722
+#, no-c-format
+msgid "<phrase>A second screenshot of &kaddressbook;'s <quote>Configure &kaddressbook;</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:725
+#, no-c-format
+msgid "&kaddressbook;'s <quote>LDAP Server Settings</quote> dialog. This dialog, and its child, are documented in <link linkend=\"configure-ldap-server\">a preceding section</link> of this appendix."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:734
+#, no-c-format
+msgid "The final set of options for configuring &kaddressbook; appears when you select <quote>Plugins</quote>."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: docbook-reference.docbook:738
+#, no-c-format
+msgid "<screeninfo>A third screenshot of &kaddressbook;'s <quote>Configure &kaddressbook;</quote> dialog.</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: docbook-reference.docbook:744
+#, no-c-format
+msgid "<phrase>A third screenshot of &kaddressbook;'s <quote>Configure &kaddressbook;</quote> dialog.</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:747
+#, no-c-format
+msgid "&kaddressbook;'s <quote>Plugins</quote> dialog. There are ten plugins all together. Seven of them have been activated by default, as shown above."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:756
+#, no-c-format
+msgid "The actions supported by the seven default <quote>Plugins</quote> are documented in preceding sections of this manual. The <quote>Import Export <glossterm linkend=\"gloss-gmx\"><acronym>GMX</acronym></glossterm></quote> and <quote>Import/Export <glossterm linkend=\"gloss-ldif\"><acronym>LDIF</acronym></glossterm></quote> actions will appear as part of the <menuchoice><guimenu>File</guimenu></menuchoice> menu when activated. The <quote>Check <glossterm linkend=\"gloss-gravatar\">Gravatar</glossterm></quote> item will appear in the <menuchoice><guimenu>Tools</guimenu> </menuchoice> menu when it is activated. Notice that &kaddressbook; must be stopped and restarted before any changes to the <quote>Plugins</quote> will take effect."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: docbook-reference.docbook:771
+#, no-c-format
+msgid "Credits and Licenses"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:773
+#, no-c-format
+msgid "&kaddressbook;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:777
+#, no-c-format
+msgid "Copyright &copy; 2007–2019 KAddressBook authors <email>montel@kde.org</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: docbook-reference.docbook:781
+#, no-c-format
+msgid "Documentation Copyright &copy; 2019 David C. Bryant <email>davidbryant@gvtc.com</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: docbook-reference.docbook:785
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: sect1
+#. +> trunk6 stable6
+#: docbook-reference.docbook:785
+#, no-c-format
+msgid "&underCCBYSA4;"
+msgstr ""

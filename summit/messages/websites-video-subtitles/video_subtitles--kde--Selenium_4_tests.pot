@@ -1,0 +1,138 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-09 09:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. visible for 3 seconds
+#. +> trunk5
+#: 00:00:06.320--%3E00:00:10.160
+msgid "In this video we will see how we can write selenium based tests."
+msgstr ""
+
+#. visible for 3 seconds
+#. +> trunk5
+#: 00:00:11.040--%3E00:00:14.880
+msgid "So a prerequisite to this video would be the `Setting up Selenium` video."
+msgstr ""
+
+#. visible for 6 seconds
+#. +> trunk5
+#: 00:00:14.880--%3E00:00:21.640
+msgid "So you really need to have selenium installed and running in you system so that you can start writing test."
+msgstr ""
+
+#. visible for 8 seconds
+#. +> trunk5
+#: 00:00:22.400--%3E00:00:30.520
+msgid "We can follow the setup guide here, we can use the boilerplate stuff which is already mentioned in the 'Writing Tests' section."
+msgstr ""
+
+#. visible for 7 seconds
+#. +> trunk5
+#: 00:00:31.560--%3E00:00:39.200
+msgid "So here I have VS Code opened and as you can see I have all the boilerplate code written"
+msgstr ""
+
+#. visible for 8 seconds
+#. +> trunk5
+#: 00:00:39.200--%3E00:00:47.280
+msgid "And then I've written a code for '9 + 6' which should be '15' which was also shown in the accerciser video."
+msgstr ""
+
+#. visible for 1 seconds
+#. +> trunk5
+#: 00:00:48.600--%3E00:00:49.760
+msgid "Let's go through it"
+msgstr ""
+
+#. visible for 7 seconds
+#. +> trunk5
+#: 00:00:54.280--%3E00:01:01.720
+msgid "We are trying to find the value '9', if I open the Accerciser once again, and find '9' here"
+msgstr ""
+
+#. visible for 10 seconds
+#. +> trunk5
+#: 00:01:03.320--%3E00:01:14.120
+msgid "We saw the push button value here is '9' which is also used here. Similarly for plus, we can see the push button value is '+' sign which is also mentioned here."
+msgstr ""
+
+#. visible for 10 seconds
+#. +> trunk5
+#: 00:01:14.920--%3E00:01:25.720
+msgid "What we are doing here is triggering a click. So '9' is being clicked here, then the '+' symbol and then '6' and then '=' symbol."
+msgstr ""
+
+#. visible for 2 seconds
+#. +> trunk5
+#: 00:01:29.360--%3E00:01:31.920
+msgid "Equal to symbol is also '='"
+msgstr ""
+
+#. visible for 7 seconds
+#. +> trunk5
+#: 00:01:32.200--%3E00:01:39.240
+msgid "And then we are trying to extract the text from the result display section"
+msgstr ""
+
+#. visible for 7 seconds
+#. +> trunk5
+#: 00:01:40.120--%3E00:01:47.720
+msgid "So if we go to the Accerciser and try to find description for the display text area."
+msgstr ""
+
+#. visible for 9 seconds
+#. +> trunk5
+#: 00:01:55.200--%3E00:02:04.680
+msgid "This is the display text area and as we can see, description it says 'Result Display'. So this is what we are doing here."
+msgstr ""
+
+#. visible for 6 seconds
+#. +> trunk5
+#: 00:02:04.680--%3E00:02:10.880
+msgid "We are using 'Result Display' and we are trying to extract text from what is being displayed."
+msgstr ""
+
+#. visible for 3 seconds
+#. +> trunk5
+#: 00:02:12.200--%3E00:02:15.600
+msgid "This is a basic test, so let's just try to run it."
+msgstr ""
+
+#. visible for 5 seconds
+#. +> trunk5
+#: 00:02:28.520--%3E00:02:33.520
+msgid "As we can see, the test was successful and we get an OK."
+msgstr ""
+
+#. visible for 13 seconds
+#. +> trunk5
+#: 00:02:34.600--%3E00:02:48.240
+msgid "This is how you can write multiple tests, this can also be written for division, subtraction and anything else that you can find with the Accerciser utility"
+msgstr ""
+
+#. visible for 9 seconds
+#. +> trunk5
+#: 00:02:49.840--%3E00:02:59.800
+msgid "One thing to note is some applications may not have the GUI code for accessibility, in that case you will have to manually add the accessibility code."
+msgstr ""
+
+#. visible for 4 seconds
+#. +> trunk5
+#: 00:03:00.640--%3E00:03:04.720
+msgid "After that you will be able to access those elements with Selenium."
+msgstr ""
+
+#. visible for 3 seconds
+#. +> trunk5
+#: 00:03:05.800--%3E00:03:09.640
+msgid "Thanks for watching :)"
+msgstr ""

@@ -1,0 +1,2155 @@
+# Translations template for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-11-26 10:41+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. # Dear potential translators:          Thank you for your interest in KDE
+#. Connect! We do not actually handle our own translations.         All
+#. translations for all KDE apps are handled by the [localization
+#. team](https://l10n.kde.org).         We really appreciate your translations,
+#. but make sure to submit them by working with the proper team!
+#. +> trunk5
+msgctxt "kde_connect"
+msgid "KDE Connect"
+msgstr ""
+
+#. +> trunk5
+msgctxt "manifest_label_share"
+msgid "Send to Device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "foreground_notification_no_devices"
+msgid "Not connected to any device"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "foreground_notification_devices"
+msgid "Connected to: %s"
+msgstr ""
+
+#. +> trunk5
+msgctxt "foreground_notification_send_clipboard"
+msgid "Send Clipboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_telephony"
+msgid "Telephony notifier"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_telephony_desc"
+msgid "Send notifications for incoming calls"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_battery"
+msgid "Battery report"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_battery_desc"
+msgid "Periodically report battery status"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_connectivity_report"
+msgid "Connectivity report"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_connectivity_report_desc"
+msgid "Report network signal strength and status"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_digitizer"
+msgid "Drawing tablet"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_digitizer_desc"
+msgid "Use your device as a pressure sensitive drawing tablet"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_sftp"
+msgid "Filesystem access"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_sftp_desc"
+msgid "Allows to browse this device's filesystem remotely"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_clipboard"
+msgid "Clipboard sync"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_clipboard_desc"
+msgid "Share the clipboard content"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_clipboard_sent"
+msgid "Clipboard Sent"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_mousepad"
+msgid "Remote input"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_mousepad_desc_nontv"
+msgid "Use your phone or tablet as a touchpad and keyboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_mousepad_desc_tv"
+msgid "Use your phone or tablet as a TV remote"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_presenter"
+msgid "Presentation remote"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_presenter_desc"
+msgid "Use your device to change slides in a presentation"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_remotekeyboard"
+msgid "Receive remote keypresses"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_remotekeyboard_desc"
+msgid "Receive keypress events from remote devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_mpris"
+msgid "Multimedia controls"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_mpris_desc"
+msgid "Provides a remote control for your media player"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_runcommand"
+msgid "Run Command"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_runcommand_desc"
+msgid "Trigger remote commands from your phone or tablet"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_contacts"
+msgid "Contacts Synchronizer"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_contacts_desc"
+msgid "Allow synchronizing the device's contacts book"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_ping"
+msgid "Ping"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_ping_desc"
+msgid "Send and receive pings"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_notifications"
+msgid "Notification sync"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_notifications_desc"
+msgid "Access your notifications from other devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_receive_notifications"
+msgid "Receive notifications"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_receive_notifications_desc"
+msgid "Receive notifications from the other device and display them on Android"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_sharereceiver"
+msgid "Share and receive"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_sharereceiver_desc"
+msgid "Share files and URLs between devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "device_list_empty"
+msgid "No devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "ok"
+msgid "OK"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sad_ok"
+msgid "OK :("
+msgstr ""
+
+#. +> trunk5
+msgctxt "cancel"
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk5
+msgctxt "open_settings"
+msgid "Open settings"
+msgstr ""
+
+#. +> trunk5
+msgctxt "no_permissions"
+msgid "You need to grant permission to access notifications"
+msgstr ""
+
+#. +> trunk5
+msgctxt "no_permission_mprisreceiver"
+msgid "To be able to control your media players you need to grant access to the notifications"
+msgstr ""
+
+#. +> trunk5
+msgctxt "no_permissions_remotekeyboard"
+msgid "To receive keypresses you need to activate the KDE Connect Remote Keyboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "send_ping"
+msgid "Send ping"
+msgstr ""
+
+#. +> trunk5
+msgctxt "open_mpris_controls"
+msgid "Multimedia control"
+msgstr ""
+
+#. +> trunk5
+msgctxt "remotekeyboard_editing_only_title"
+msgid "Handle remote keys only when editing"
+msgstr ""
+
+#. +> trunk5
+msgctxt "remotekeyboard_not_connected"
+msgid "There is no active remote keyboard connection, establish one in kdeconnect"
+msgstr ""
+
+#. +> trunk5
+msgctxt "remotekeyboard_connected"
+msgid "Remote keyboard connection is active"
+msgstr ""
+
+#. +> trunk5
+msgctxt "remotekeyboard_multiple_connections"
+msgid "There is more than one remote keyboard connection, select the device to configure"
+msgstr ""
+
+#. +> trunk5
+msgctxt "open_mousepad"
+msgid "Remote input"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_info"
+msgid "Move a finger on the screen to move the mouse cursor. Tap for a click, and use two/three fingers for right and middle buttons. Use 2 fingers to scroll. Use a long press to drag'n drop. Gyro mouse functionality can be enabled from plugin preferences"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_info_no_gestures"
+msgid "Move a finger on the screen to move the mouse cursor, tap for a click."
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_keyboard_input_not_supported"
+msgid "Keyboard input not supported by the paired device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_single_tap_settings_title"
+msgid "Set one finger tap action"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_double_tap_settings_title"
+msgid "Set two finger tap action"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_triple_tap_settings_title"
+msgid "Set three finger tap action"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_sensitivity_settings_title"
+msgid "Set touchpad sensitivity"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_mouse_buttons_title"
+msgid "Show mouse buttons"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_acceleration_profile_settings_title"
+msgid "Set pointer acceleration"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_scroll_direction_title"
+msgid "Reverse Scrolling Direction"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_scroll_sensitivity_title"
+msgid "Scroll sensitivity"
+msgstr ""
+
+#. +> trunk5
+msgctxt "gyro_mouse_enabled_title"
+msgid "Enable gyroscope mouse"
+msgstr ""
+
+#. +> trunk5
+msgctxt "gyro_mouse_sensitivity_title"
+msgid "Gyroscope sensitivity"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_show_home_title"
+msgid "Show Home button"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_show_back_title"
+msgid "Show Back button"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_tap_entries:0"
+msgid "Left click"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_tap_entries:1"
+msgid "Right click"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_tap_entries:2"
+msgid "Middle click"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_tap_entries:3"
+msgid "Nothing"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_sensitivity_entries:0"
+msgid "Slowest"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_sensitivity_entries:1"
+msgid "Above Slowest"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_sensitivity_entries:2"
+msgid "Default"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_sensitivity_entries:3"
+msgid "Above Default"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_sensitivity_entries:4"
+msgid "Fastest"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_acceleration_profile_entries:0"
+msgid "No Acceleration"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_acceleration_profile_entries:1"
+msgid "Weakest"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_acceleration_profile_entries:2"
+msgid "Weaker"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_acceleration_profile_entries:3"
+msgid "Medium"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_acceleration_profile_entries:4"
+msgid "Stronger"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mousepad_acceleration_profile_entries:5"
+msgid "Strongest"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sendkeystrokes_send_to"
+msgid "Send keystrokes to"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sendkeystrokes_textbox_hint"
+msgid "Send keystrokes to host"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sendkeystrokes_disabled_toast"
+msgid "Sending keystrokes is disabled - enable it in the settings"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sendkeystrokes_wrong_data"
+msgid "Invalid mime type - needs to be 'text/x-keystrokes'"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "sendkeystrokes_sent_text"
+msgid "Sent %1$s to device %2$s"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sendkeystrokes_pref_category_summary"
+msgid "This module allows other apps to share text segments as keystrokes which will get send to the connected host"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sendkeystrokes_pref_category_title"
+msgid "Send Keystrokes"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sendkeystrokes_pref_enabled"
+msgid "Enable Keystrokes sending"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sendkeystrokes_pref_enabled_summary"
+msgid "Listen for data with mime type 'text/x-keystrokes'"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sendkeystrokes_safe_text_enabled"
+msgid "Send safe text immediately"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sendkeystrokes_safe_text_enabled_summary"
+msgid "Send short only-numeric strings without confirmation"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_mousepad_send_keystrokes"
+msgid "Send as keystrokes"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mouse_receiver_plugin_description"
+msgid "Receive remote mouse movement"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mouse_receiver_plugin_name"
+msgid "Mouse receiver"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mouse_receiver_no_permissions"
+msgid "To receive touch inputs remotely you need to grant Accessibility permissions to fully control your device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "view_status_title"
+msgid "Status"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "battery_status_format"
+msgid "Battery: %d%%"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "battery_status_low_format"
+msgid "Battery: %d%% Low Battery"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "battery_status_charging_format"
+msgid "Battery: %d%% charging"
+msgstr ""
+
+#. +> trunk5
+msgctxt "category_connected_devices"
+msgid "Connected devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "category_not_paired_devices"
+msgid "Available devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "category_remembered_devices"
+msgid "Remembered devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "device_menu_plugins"
+msgid "Plugin settings"
+msgstr ""
+
+#. +> trunk5
+msgctxt "device_menu_unpair"
+msgid "Unpair"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pair_new_device"
+msgid "Pair new device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "cancel_pairing"
+msgid "Cancel pairing"
+msgstr ""
+
+#. +> trunk5
+msgctxt "unknown_device"
+msgid "Unknown device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "error_not_reachable"
+msgid "Device not reachable"
+msgstr ""
+
+#. +> trunk5
+msgctxt "error_already_paired"
+msgid "Device already paired"
+msgstr ""
+
+#. +> trunk5
+msgctxt "error_timed_out"
+msgid "Timed out"
+msgstr ""
+
+#. +> trunk5
+msgctxt "error_clocks_not_match"
+msgid "Device clocks are out of sync"
+msgstr ""
+
+#. +> trunk5
+msgctxt "error_canceled_by_user"
+msgid "Canceled by user"
+msgstr ""
+
+#. +> trunk5
+msgctxt "error_canceled_by_other_peer"
+msgid "Canceled by other peer"
+msgstr ""
+
+#. +> trunk5
+msgctxt "encryption_info_title"
+msgid "Encryption Info"
+msgstr ""
+
+#. +> trunk5
+msgctxt "my_device_fingerprint"
+msgid "SHA256 fingerprint of your device certificate is:"
+msgstr ""
+
+#. +> trunk5
+msgctxt "remote_device_fingerprint"
+msgid "SHA256 fingerprint of remote device certificate is:"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pair_requested"
+msgid "Pair requested"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pair_succeeded"
+msgid "Pair succeeded"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "pairing_request_from"
+msgid "Pairing request from '%1s'"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "incoming_file_title"
+msgid "Receiving %1$d file from %2$s"
+msgid_plural "Receiving %1$d files from %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk5
+#, c-format
+msgctxt "incoming_files_text"
+msgid "File: %1s"
+msgid_plural "(File %2$d of %3$d) : %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk5
+#, c-format
+msgctxt "outgoing_file_title"
+msgid "Sending %1$d file to %2$s"
+msgid_plural "Sending %1$d files to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk5
+#, c-format
+msgctxt "outgoing_files_text"
+msgid "File: %1$s"
+msgid_plural "(File %2$d of %3$d) : %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk5
+#, c-format
+msgctxt "received_files_title"
+msgid "Received file from %1$s"
+msgid_plural "Received %2$d files from %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk5
+#, c-format
+msgctxt "received_files_fail_title"
+msgid "Failed receiving file from %1$s"
+msgid_plural "Failed receiving %2$d of %3$d files from %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk5
+#, c-format
+msgctxt "sent_files_title"
+msgid "Sent file to %1$s"
+msgid_plural "Sent %2$d files to %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk5
+#, c-format
+msgctxt "send_files_fail_title"
+msgid "Failed sending file to %1$s"
+msgid_plural "Failed sending %2$d of %3$d files to %1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk5
+msgctxt "tap_to_open"
+msgid "Tap to open"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "received_file_text"
+msgid "Tap to open '%1s'"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "cannot_create_file"
+msgid "Cannot create file %s"
+msgstr ""
+
+#. +> trunk5
+msgctxt "tap_to_answer"
+msgid "Tap to answer"
+msgstr ""
+
+#. +> trunk5
+msgctxt "left_click"
+msgid "Send Left Click"
+msgstr ""
+
+#. +> trunk5
+msgctxt "right_click"
+msgid "Send Right Click"
+msgstr ""
+
+#. +> trunk5
+msgctxt "middle_click"
+msgid "Send Middle Click"
+msgstr ""
+
+#. +> trunk5
+msgctxt "show_keyboard"
+msgid "Show Keyboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "show_mouse_and_keyboard"
+msgid "Show Mouse and Keyboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "device_not_paired"
+msgid "Device not paired"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pairing_duplicate_names"
+msgid "Caution: There are multiple devices with the same name."
+msgstr ""
+
+#. +> trunk5
+msgctxt "request_pairing"
+msgid "Request pairing"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pairing_accept"
+msgid "Accept"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pairing_reject"
+msgid "Reject"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pairing_explanation"
+msgid "Pairing two devices will give them access to each other. Only pair together your own devices."
+msgstr ""
+
+#. +> trunk5
+msgctxt "settings"
+msgid "Settings"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_play"
+msgid "Play"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_pause"
+msgid "Pause"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_previous"
+msgid "Previous"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_rew"
+msgid "Rewind"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_ff"
+msgid "Fast-forward"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_next"
+msgid "Next"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_loop"
+msgid "Loop"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_shuffle"
+msgid "Shuffle"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_volume"
+msgid "Volume"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_time_settings_title"
+msgid "Forward/rewind buttons"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_time_settings_summary"
+msgid "Adjust the time to fast forward/rewind when pressed"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_time_entries:0"
+msgid "10 seconds"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_time_entries:1"
+msgid "20 seconds"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_time_entries:2"
+msgid "30 seconds"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_time_entries:3"
+msgid "1 minute"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_time_entries:4"
+msgid "2 minutes"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_notifications_explanation"
+msgid "The notifications permission is needed to show remote media in the notifications drawer"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_notification_settings_title"
+msgid "Show media control notification"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_notification_settings_summary"
+msgid "Allow controlling your media players without opening KDE Connect"
+msgstr ""
+
+#. +> trunk5
+msgctxt "share_to"
+msgid "Share to…"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "unreachable_device_dynamic_shortcut"
+msgid "%s (✕)"
+msgstr ""
+
+#. +> trunk5
+msgctxt "unreachable_device_url_share_text"
+msgid ""
+"URLs shared to an unreachable device will be delivered to it once it becomes reachable.\n"
+"\n"
+msgstr ""
+
+#. +> trunk5
+msgctxt "protocol_version"
+msgid "Protocol version:"
+msgstr ""
+
+#. +> trunk5
+msgctxt "protocol_version_newer"
+msgid "This device uses a newer protocol version"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "plugin_settings_with_name"
+msgid "%s settings"
+msgstr ""
+
+#. +> trunk5
+msgctxt "invalid_device_name"
+msgid "Invalid device name"
+msgstr ""
+
+#. +> trunk5
+msgctxt "shareplugin_text_saved"
+msgid "Received text, saved to clipboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "custom_devices_settings"
+msgid "Custom device list"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "custom_devices_settings_summary"
+msgid "%d devices added manually"
+msgstr ""
+
+#. +> trunk5
+msgctxt "custom_device_list"
+msgid "Add devices by IP"
+msgstr ""
+
+#. +> trunk5
+msgctxt "custom_device_deleted"
+msgid "Custom device deleted"
+msgstr ""
+
+#. +> trunk5
+msgctxt "custom_device_list_help"
+msgid "If your device is not automatically detected, you can add its IP address or hostname by clicking on the button below"
+msgstr ""
+
+#. +> trunk5
+msgctxt "custom_device_fab_hint"
+msgid "Add a device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "undo"
+msgid "Undo"
+msgstr ""
+
+#. +> trunk5
+msgctxt "share_notification_preference"
+msgid "Noisy notifications"
+msgstr ""
+
+#. +> trunk5
+msgctxt "share_notification_preference_summary"
+msgid "Vibrate and play a sound when receiving a file"
+msgstr ""
+
+#. +> trunk5
+msgctxt "share_destination_customize"
+msgid "Customize destination directory"
+msgstr ""
+
+#. +> trunk5
+msgctxt "share_destination_customize_summary_disabled"
+msgid "Received files will appear in Downloads"
+msgstr ""
+
+#. +> trunk5
+msgctxt "share_destination_customize_summary_enabled"
+msgid "Files will be stored in the directory below"
+msgstr ""
+
+#. +> trunk5
+msgctxt "share_destination_folder_preference"
+msgid "Destination directory"
+msgstr ""
+
+#. +> trunk5
+msgctxt "share"
+msgid "Share"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "share_received_file"
+msgid "Share \"%s\""
+msgstr ""
+
+#. +> trunk5
+msgctxt "title_activity_notification_filter"
+msgid "Notification filter"
+msgstr ""
+
+#. +> trunk5
+msgctxt "filter_apps_info"
+msgid "Notifications will be synchronized for the selected apps."
+msgstr ""
+
+#. +> trunk5
+msgctxt "show_notification_if_screen_off"
+msgid "Send notifications only if the screen is off"
+msgstr ""
+
+#. +> trunk5
+msgctxt "add_device_dialog_title"
+msgid "Add device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "add_device_hint"
+msgid "Hostname or IP address"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_preference_configured_storage_locations"
+msgid "Configured storage locations"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_preference_add_storage_location_title"
+msgid "Add storage location"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_preference_edit_storage_location"
+msgid "Edit storage location"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_storage_preference_storage_location"
+msgid "Storage location"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_storage_preference_storage_location_already_configured"
+msgid "This location has already been configured"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_storage_preference_click_to_select"
+msgid "click to select"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_storage_preference_display_name"
+msgid "Display name"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_storage_preference_display_name_already_used"
+msgid "This display name is already used"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_storage_preference_display_name_cannot_be_empty"
+msgid "Display name cannot be empty"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_action_mode_menu_delete"
+msgid "Delete"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_no_storage_locations_configured"
+msgid "No storage locations configured"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_saf_permission_explanation"
+msgid "To access files remotely you have to configure storage locations"
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_manage_storage_permission_explanation"
+msgid "To allow remote access to files on this device you need to allow KDE Connect to manage the storage."
+msgstr ""
+
+#. +> trunk5
+msgctxt "sftp_missing_permission_error"
+msgid "Permissions missing: filesystem access"
+msgstr ""
+
+#. +> trunk5
+msgctxt "no_players_connected"
+msgid "No players found"
+msgstr ""
+
+#. +> trunk5
+msgctxt "send_files"
+msgid "Send files"
+msgstr ""
+
+#. +> trunk5
+msgctxt "use_digitizer"
+msgid "Use as drawing tablet"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_draw_button"
+msgid "Draw using finger"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_title_hide_draw_button"
+msgid "Hide draw button"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_summary_hide_draw_button"
+msgid "Completely hides the draw button, making finger drawing impossible. Only enable this if your device supports stylus input."
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_title_draw_button_side"
+msgid "Side of “Draw with finger” button"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_title_enable_exit_fullscreen_gesture"
+msgid "Enable fullscreen exit gesture"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_summary_enable_exit_fullscreen_gesture"
+msgid "If enabled, tapping and holding on the drawing pad with your finger will disable fullscreen mode."
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_entries_draw_button_side:0"
+msgid "Top left"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_entries_draw_button_side:1"
+msgid "Top right"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_entries_draw_button_side:2"
+msgid "Bottom left"
+msgstr ""
+
+#. +> trunk5
+msgctxt "digitizer_preference_entries_draw_button_side:3"
+msgid "Bottom right"
+msgstr ""
+
+#. +> trunk5
+msgctxt "block_notification_contents"
+msgid "Block notification contents"
+msgstr ""
+
+#. +> trunk5
+msgctxt "block_notification_images"
+msgid "Block notification images"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pairing_title"
+msgid "KDE Connect Devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pairing_description"
+msgid "Other devices running KDE Connect in your same network should appear here."
+msgstr ""
+
+#. +> trunk5
+msgctxt "device_rename_title"
+msgid "Rename device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "device_rename_confirm"
+msgid "Rename"
+msgstr ""
+
+#. +> trunk5
+msgctxt "refresh"
+msgid "Refresh"
+msgstr ""
+
+#. +> trunk5
+msgctxt "unreachable_description"
+msgid "This paired device is not reachable. Make sure it is connected to your same network."
+msgstr ""
+
+#. +> trunk5
+msgctxt "no_wifi"
+msgid "You're not connected to a Wi-Fi network, so you may not be able to see any devices. Click here to enable Wi-Fi."
+msgstr ""
+
+#. +> trunk5
+msgctxt "on_non_trusted_message"
+msgid "Not on a trusted network: autodiscovery is disabled."
+msgstr ""
+
+#. +> trunk5
+msgctxt "no_file_browser"
+msgid "There are no file browsers installed."
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_telepathy"
+msgid "Send SMS"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_telepathy_desc"
+msgid "Send text messages from your desktop"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_telepathy_mms"
+msgid "Send MMS"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_telepathy_mms_desc"
+msgid "To be able to send MMS from KDE Connect you need to set it as the default SMS app."
+msgstr ""
+
+#. +> trunk5
+msgctxt "findmyphone_title"
+msgid "Find my phone"
+msgstr ""
+
+#. +> trunk5
+msgctxt "findmyphone_title_tablet"
+msgid "Find my tablet"
+msgstr ""
+
+#. +> trunk5
+msgctxt "findmyphone_title_tv"
+msgid "Find my TV"
+msgstr ""
+
+#. +> trunk5
+msgctxt "findmyphone_description"
+msgid "Rings this device so you can find it"
+msgstr ""
+
+#. +> trunk5
+msgctxt "findmyphone_found"
+msgid "Found it"
+msgstr ""
+
+#. +> trunk5
+msgctxt "open"
+msgid "Open"
+msgstr ""
+
+#. +> trunk5
+msgctxt "close"
+msgid "Close"
+msgstr ""
+
+#. +> trunk5
+msgctxt "plugins_need_permission"
+msgid "Some Plugins need permissions to work (tap for more info):"
+msgstr ""
+
+#. +> trunk5
+msgctxt "permission_explanation"
+msgid "This plugin needs permissions to work"
+msgstr ""
+
+#. +> trunk5
+msgctxt "all_permissions_granted"
+msgid "All permissions granted 🎉"
+msgstr ""
+
+#. +> trunk5
+msgctxt "optional_permission_explanation"
+msgid "You need to grant extra permissions to enable all functions"
+msgstr ""
+
+#. +> trunk5
+msgctxt "plugins_need_optional_permission"
+msgid "Some plugins have features disabled because of lack of permission (tap for more info):"
+msgstr ""
+
+#. +> trunk5
+msgctxt "share_optional_permission_explanation"
+msgid "To receive files you need to allow storage access"
+msgstr ""
+
+#. +> trunk5
+msgctxt "share_notifications_explanation"
+msgid "To see the progress when sending and receiving files you need to allow notifications"
+msgstr ""
+
+#. +> trunk5
+msgctxt "telepathy_permission_explanation"
+msgid "To read and write SMS from your desktop you need to give permission to SMS"
+msgstr ""
+
+#. +> trunk5
+msgctxt "telephony_permission_explanation"
+msgid "To see phone calls on the desktop you need to give permission to phone call logs and phone state"
+msgstr ""
+
+#. +> trunk5
+msgctxt "telephony_optional_permission_explanation"
+msgid "To see a contact name instead of a phone number you need to give access to the phone's contacts"
+msgstr ""
+
+#. +> trunk5
+msgctxt "contacts_permission_explanation"
+msgid "To share your contacts book with the desktop, you need to give contacts permission"
+msgstr ""
+
+#. +> trunk5
+msgctxt "contacts_per_device_confirmation"
+msgid "Your phone contacts will be copied over to this device, so they can be used by the KDE Connect SMS app and other apps."
+msgstr ""
+
+#. +> trunk5
+msgctxt "select_ringtone"
+msgid "Select a ringtone"
+msgstr ""
+
+#. +> trunk5
+msgctxt "telephony_pref_blocked_title"
+msgid "Blocked numbers"
+msgstr ""
+
+#. +> trunk5
+msgctxt "telephony_pref_blocked_dialog_desc"
+msgid "Don't show calls and SMS from these numbers. Please specify one number per line"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_coverart_description"
+msgid "Cover art of current media"
+msgstr ""
+
+#. +> trunk5
+msgctxt "settings_icon_description"
+msgid "Settings icon"
+msgstr ""
+
+#. +> trunk5
+msgctxt "presenter_fullscreen"
+msgid "Fullscreen"
+msgstr ""
+
+#. +> trunk5
+msgctxt "presenter_exit"
+msgid "Exit presentation"
+msgstr ""
+
+#. +> trunk5
+msgctxt "presenter_lock_tip"
+msgid "You can lock your device and use the volume keys to go to the previous/next slide"
+msgstr ""
+
+#. +> trunk5
+msgctxt "add_command"
+msgid "Add a command"
+msgstr ""
+
+#. +> trunk5
+msgctxt "addcommand_explanation"
+msgid "There are no commands registered"
+msgstr ""
+
+#. +> trunk5
+msgctxt "addcommand_explanation2"
+msgid "You can add new commands in the KDE Connect System Settings"
+msgstr ""
+
+#. +> trunk5
+msgctxt "add_command_description"
+msgid "You can add commands on the desktop"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_mprisreceiver"
+msgid "Media Player Control"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_mprisreceiver_desc"
+msgid "Control your phone's media players from another device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "notification_channel_default"
+msgid "Other notifications"
+msgstr ""
+
+#. +> trunk5
+msgctxt "notification_channel_persistent"
+msgid "Persistent indicator"
+msgstr ""
+
+#. +> trunk5
+msgctxt "notification_channel_media_control"
+msgid "Media control"
+msgstr ""
+
+#. +> trunk5
+msgctxt "notification_channel_filetransfer"
+msgid "Incoming file transfer"
+msgstr ""
+
+#. +> trunk5
+msgctxt "notification_channel_filetransfer_complete"
+msgid "Incoming file transfer complete"
+msgstr ""
+
+#. +> trunk5
+msgctxt "notification_channel_filetransfer_upload"
+msgid "Outgoing file transfer"
+msgstr ""
+
+#. +> trunk5
+msgctxt "notification_channel_filetransfer_error"
+msgid "File transfer error"
+msgstr ""
+
+#. +> trunk5
+msgctxt "notification_channel_high_priority"
+msgid "High priority"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_stop"
+msgid "Stop the current player"
+msgstr ""
+
+#. +> trunk5
+msgctxt "copy_url_to_clipboard"
+msgid "Copy URL to clipboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "clipboard_toast"
+msgid "Copied to clipboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "runcommand_notreachable"
+msgid "Device is not reachable"
+msgstr ""
+
+#. +> trunk5
+msgctxt "runcommand_notpaired"
+msgid "Device is not paired"
+msgstr ""
+
+#. +> trunk5
+msgctxt "runcommand_nosuchdevice"
+msgid "There is no such device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "runcommand_noruncommandplugin"
+msgid "This device does not have the Run Command Plugin enabled"
+msgstr ""
+
+#. +> trunk5
+msgctxt "runcommand_category_device_controls_title"
+msgid "Device Controls"
+msgstr ""
+
+#. +> trunk5
+msgctxt "runcommand_device_controls_summary"
+msgid "If your device supports Device Controls, commands you have configured will appear there."
+msgstr ""
+
+#. +> trunk5
+msgctxt "set_runcommand_name_as_title"
+msgid "set_runcommand_name_as_title"
+msgstr ""
+
+#. +> trunk5
+msgctxt "runcommand_name_as_title_title"
+msgid "Show name as title"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_findremotedevice"
+msgid "Find remote device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_findremotedevice_desc"
+msgid "Ring your remote device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "ring"
+msgid "Ring"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_systemvolume"
+msgid "System volume"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_systemvolume_desc"
+msgid "Control the system volume of the remote device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mute"
+msgid "Mute"
+msgstr ""
+
+#. +> trunk5
+msgctxt "all"
+msgid "All"
+msgstr ""
+
+#. +> trunk5
+msgctxt "devices"
+msgid "Devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "settings_rename"
+msgid "Device name"
+msgstr ""
+
+#. +> trunk5
+msgctxt "settings_dark_mode"
+msgid "Dark theme"
+msgstr ""
+
+#. +> trunk5
+msgctxt "settings_export_logs"
+msgid "Export KDE Connect logs"
+msgstr ""
+
+#. +> trunk5
+msgctxt "settings_export_logs_text"
+msgid "Generate a file with execution information that can help troubleshoot issues."
+msgstr ""
+
+#. +> trunk5
+msgctxt "settings_more_settings_title"
+msgid "More settings"
+msgstr ""
+
+#. +> trunk5
+msgctxt "settings_more_settings_text"
+msgid "Per-device settings can be found under 'Plugin settings' from within a device."
+msgstr ""
+
+#. +> trunk5
+msgctxt "setting_persistent_notification"
+msgid "Show persistent notification"
+msgstr ""
+
+#. +> trunk5
+msgctxt "setting_persistent_notification_oreo"
+msgid "Persistent notification"
+msgstr ""
+
+#. +> trunk5
+msgctxt "setting_persistent_notification_description"
+msgid "Tap to enable/disable in Notification settings"
+msgstr ""
+
+#. +> trunk5
+msgctxt "extra_options"
+msgid "Extra options"
+msgstr ""
+
+#. +> trunk5
+msgctxt "privacy_options"
+msgid "Privacy options"
+msgstr ""
+
+#. +> trunk5
+msgctxt "set_privacy_options"
+msgid "Set your privacy options"
+msgstr ""
+
+#. +> trunk5
+msgctxt "block_contents"
+msgid "Block contents of notifications"
+msgstr ""
+
+#. +> trunk5
+msgctxt "block_images"
+msgid "Block images in notifications"
+msgstr ""
+
+#. +> trunk5
+msgctxt "notification_channel_receivenotification"
+msgid "Notifications from other devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "no_app_for_opening"
+msgid "No suitable app found to open this file"
+msgstr ""
+
+#. +> trunk5
+msgctxt "remote_keyboard_service"
+msgid "KDE Connect Remote Keyboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "presenter_pointer"
+msgid "Pointer"
+msgstr ""
+
+#. +> trunk5
+msgctxt "trusted_networks"
+msgid "Trusted networks"
+msgstr ""
+
+#. +> trunk5
+msgctxt "trusted_networks_desc"
+msgid "Restrict autodiscovery to known networks"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "add_trusted_network"
+msgid "Add %1s"
+msgstr ""
+
+#. +> trunk5
+msgctxt "empty_trusted_networks_list_text"
+msgid "You haven't added any trusted network yet"
+msgstr ""
+
+#. +> trunk5
+msgctxt "allow_all_networks_text"
+msgid "Allow all"
+msgstr ""
+
+#. +> trunk5
+msgctxt "location_permission_needed_title"
+msgid "Permission required"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bluetooth_permission_needed_desc"
+msgid "KDE Connect needs permission to connect to nearby devices to make devices paired using Bluetooth available in KDE Connect."
+msgstr ""
+
+#. +> trunk5
+msgctxt "location_permission_needed_desc"
+msgid "KDE Connect needs the background location permission to know the WiFi network you are connected to even when the app is in the background. This is because the name of the WiFi networks around you could be used to find your location, even when this is not what KDE Connect does."
+msgstr ""
+
+#. +> trunk5
+msgctxt "clipboard_android_x_incompat"
+msgid "Android 10 has removed clipboard access to all apps. This plugin will be disabled."
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_open_url"
+msgid "Continue playing here"
+msgstr ""
+
+#. +> trunk5
+msgctxt "cant_open_url"
+msgid "Can't open URL to continue playing"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_home"
+msgid "Home"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_up"
+msgid "Up"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_left"
+msgid "Left"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_select"
+msgid "Select"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_right"
+msgid "Right"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_down"
+msgid "Down"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_back"
+msgid "Back"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_mic"
+msgid "Mic"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_bigscreen"
+msgid "Bigscreen remote"
+msgstr ""
+
+#. +> trunk5
+msgctxt "pref_plugin_bigscreen_desc"
+msgid "Use your device as a remote for Plasma Bigscreen"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_optional_permission_explanation"
+msgid "To share microphone input from your phone you need to give access to the phone's audio input"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bigscreen_speech_extra_prompt"
+msgid "Speech"
+msgstr ""
+
+#. +> trunk5
+msgctxt "message_reply_label"
+msgid "REPLY"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mark_as_read_label"
+msgid "MARK AS READ"
+msgstr ""
+
+#. +> trunk5
+msgctxt "user_display_name"
+msgid "You"
+msgstr ""
+
+#. +> trunk5
+msgctxt "set_default_sms_app_title"
+msgid "Send MMS"
+msgstr ""
+
+#. +> trunk5
+msgctxt "set_group_message_as_mms_title"
+msgid "Send group MMS"
+msgstr ""
+
+#. +> trunk5
+msgctxt "set_long_text_as_mms_title"
+msgid "Send long text as MMS"
+msgstr ""
+
+#. +> trunk5
+msgctxt "convert_to_mms_after_title"
+msgid "Convert to MMS"
+msgstr ""
+
+#. +> trunk5
+msgctxt "convert_to_mms_after_entries:0"
+msgid "After one message"
+msgstr ""
+
+#. +> trunk5
+msgctxt "convert_to_mms_after_entries:1"
+msgid "After two messages"
+msgstr ""
+
+#. +> trunk5
+msgctxt "convert_to_mms_after_entries:2"
+msgid "After three messages"
+msgstr ""
+
+#. +> trunk5
+msgctxt "convert_to_mms_after_entries:3"
+msgid "After four messages"
+msgstr ""
+
+#. +> trunk5
+msgctxt "convert_to_mms_after_entries:4"
+msgid "After five messages"
+msgstr ""
+
+#. +> trunk5
+msgctxt "theme_dialog_title"
+msgid "Choose theme"
+msgstr ""
+
+#. +> trunk5
+msgctxt "theme_list:0"
+msgid "Set by Battery Saver"
+msgstr ""
+
+#. +> trunk5
+msgctxt "theme_list:1"
+msgid "Light"
+msgstr ""
+
+#. +> trunk5
+msgctxt "theme_list:2"
+msgid "Dark"
+msgstr ""
+
+#. +> trunk5
+msgctxt "theme_list_v28:0"
+msgid "System Default"
+msgstr ""
+
+#. +> trunk5
+msgctxt "theme_list_v28:1"
+msgid "Light"
+msgstr ""
+
+#. +> trunk5
+msgctxt "theme_list_v28:2"
+msgid "Dark"
+msgstr ""
+
+#. +> trunk5
+msgctxt "report_bug"
+msgid "Report Bug"
+msgstr ""
+
+#. +> trunk5
+msgctxt "donate"
+msgid "Donate"
+msgstr ""
+
+#. +> trunk5
+msgctxt "source_code"
+msgid "Source Code"
+msgstr ""
+
+#. +> trunk5
+msgctxt "licenses"
+msgid "Licenses"
+msgstr ""
+
+#. +> trunk5
+msgctxt "website"
+msgid "Website"
+msgstr ""
+
+#. +> trunk5
+msgctxt "about"
+msgid "About"
+msgstr ""
+
+#. +> trunk5
+msgctxt "authors"
+msgid "Authors"
+msgstr ""
+
+#. +> trunk5
+msgctxt "thanks_to"
+msgid "Thanks To"
+msgstr ""
+
+#. +> trunk5
+msgctxt "easter_egg"
+msgid "Easter Egg"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "email_contributor"
+msgid ""
+"Email contributor\n"
+"%s"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "visit_contributors_homepage"
+msgid ""
+"Visit contributor's homepage\n"
+"%s"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "version"
+msgid "Version %s"
+msgstr ""
+
+#. +> trunk5
+msgctxt "about_kde"
+msgid "About KDE"
+msgstr ""
+
+#. +> trunk5
+msgctxt "kde_be_free"
+msgid "KDE - Be Free!"
+msgstr ""
+
+#. +> trunk5
+msgctxt "kde"
+msgid "KDE"
+msgstr ""
+
+#. +> trunk5
+msgctxt "konqi"
+msgid "Konqi"
+msgstr ""
+
+#. +> trunk5
+msgctxt "rise_up"
+msgid "Rise Up"
+msgstr ""
+
+#. +> trunk5
+msgctxt "rise_down"
+msgid "Rise Down"
+msgstr ""
+
+#. +> trunk5
+msgctxt "click_here_to_type"
+msgid "Tap here to type"
+msgstr ""
+
+#. +> trunk5
+msgctxt "clear_compose"
+msgid "Clear"
+msgstr ""
+
+#. +> trunk5
+msgctxt "send_compose"
+msgid "Send"
+msgstr ""
+
+#. +> trunk5
+msgctxt "compose_send_title"
+msgid "Compose send"
+msgstr ""
+
+#. +> trunk5
+msgctxt "open_compose_send"
+msgid "Compose text"
+msgstr ""
+
+#. +> trunk5
+msgctxt "double_tap_to_drag"
+msgid "Double tap to drag"
+msgstr ""
+
+#. +> trunk5
+msgctxt "hold_to_drag"
+msgid "Hold to drag"
+msgstr ""
+
+#. +> trunk5
+msgctxt "about_kde_about"
+msgid "&lt;h1&gt;About&lt;/h1&gt; &lt;p&gt;KDE is a world-wide community of software engineers, artists, writers, translators and creators who are committed to &lt;a href=https://www.gnu.org/philosophy/free-sw.html&gt;Free Software&lt;/a&gt; development. KDE produces the Plasma desktop environment, hundreds of applications, and the many software libraries that support them.&lt;/p&gt; &lt;p&gt;KDE is a cooperative enterprise: no single entity controls its direction or products. Instead, we work together to achieve the common goal of building the world's finest Free Software. Everyone is welcome to &lt;a href=https://community.kde.org/Get_Involved&gt;join and contribute&lt;/a&gt; to KDE, including you.&lt;/p&gt; Visit &lt;a href=https://www.kde.org/&gt;https://www.kde.org/&lt;/a&gt; for more information about the KDE community and the software we produce."
+msgstr ""
+
+#. +> trunk5
+msgctxt "about_kde_report_bugs_or_wishes"
+msgid "&lt;h1&gt;Report Bugs or Wishes&lt;/h1&gt; &lt;p&gt;Software can always be improved, and the KDE team is ready to do so. However, you - the user - must tell us when something does not work as expected or could be done better.&lt;/p&gt; &lt;p&gt;KDE has a bug tracking system. Visit &lt;a href=https://bugs.kde.org/&gt;https://bugs.kde.org/&lt;/a&gt; or use the \"Report Bug\" button from the about screen to report bugs.&lt;/p&gt; If you have a suggestion for improvement then you are welcome to use the bug tracking system to register your wish. Make sure you use the severity called \"Wishlist\"."
+msgstr ""
+
+#. +> trunk5
+msgctxt "about_kde_join_kde"
+msgid "&lt;h1&gt;Join KDE&lt;/h1&gt; &lt;p&gt;You do not have to be a software developer to be a member of the KDE team. You can join the language teams that translate program interfaces. You can provide graphics, themes, sounds, and improved documentation. You decide!&lt;/p&gt; &lt;p&gt;Visit &lt;a href=https://community.kde.org/Get_Involved&gt;https://community.kde.org/Get_Involved&lt;/a&gt; for information on some projects in which you can participate.&lt;/p&gt; If you need more information or documentation, then a visit to &lt;a href=https://techbase.kde.org/&gt;https://techbase.kde.org/&lt;/a&gt; will provide you with what you need."
+msgstr ""
+
+#. +> trunk5
+msgctxt "about_kde_support_kde"
+msgid "&lt;h1&gt;Support KDE&lt;/h1&gt; &lt;p&gt;KDE software is and will always be available free of charge, however creating it is not free.&lt;/p&gt; &lt;p&gt;To support development the KDE community has formed the KDE e.V., a non-profit organization legally founded in Germany. KDE e.V. represents the KDE community in legal and financial matters. See &lt;a href=https://ev.kde.org/&gt;https://ev.kde.org/&lt;/a&gt; for information on KDE e.V.&lt;/p&gt; &lt;p&gt;KDE benefits from many kinds of contributions, including financial. We use the funds to reimburse members and others for expenses they incur when contributing. Further funds are used for legal support and organizing conferences and meetings.&lt;/p&gt; &lt;p&gt;We would like to encourage you to support our efforts with a financial donation, using one of the ways described at &lt;a href=https://www.kde.org/community/donations/&gt;https://www.kde.org/community/donations/&lt;/a&gt;.&lt;/p&gt; Thank you very much in advance for your support."
+msgstr ""
+
+#. Authors tasks
+#. +> trunk5
+msgctxt "maintainer_and_developer"
+msgid "Maintainer and developer"
+msgstr ""
+
+#. +> trunk5
+msgctxt "developer"
+msgid "Developer"
+msgstr ""
+
+#. +> trunk5
+msgctxt "apple_support"
+msgid "macOS support. Working on iOS support"
+msgstr ""
+
+#. +> trunk5
+msgctxt "bug_fixes_and_general_improvements"
+msgid "Bug fixes and general improvements"
+msgstr ""
+
+#. +> trunk5
+msgctxt "samoilenko_yuri_task"
+msgid "SFTP implementation, bug fixes and general improvements"
+msgstr ""
+
+#. +> trunk5
+msgctxt "aniket_kumar_task"
+msgid "SMS plugin improvements"
+msgstr ""
+
+#. +> trunk5
+msgctxt "alex_fiestas_task"
+msgid "Contacts plugin improvements"
+msgstr ""
+
+#. +> trunk5
+msgctxt "maxim_leshchenko_task"
+msgid "UI improvements and this about page"
+msgstr ""
+
+#. +> trunk5
+msgctxt "holger_kaelberer_task"
+msgid "Remote keyboard plugin and bug fixes"
+msgstr ""
+
+#. +> trunk5
+msgctxt "saikrishna_arcot_task"
+msgid "Support for using the keyboard in the remote input plugin, bug fixes and general improvements"
+msgstr ""
+
+#. +> trunk5
+msgctxt "shellwen_chen_task"
+msgid "Improve the security of SFTP, improve the maintainability of this project, bug fixes and general improvements"
+msgstr ""
+
+#. +> trunk5
+msgctxt "everyone_else"
+msgid "Everyone else who has contributed to KDE Connect over the years"
+msgstr ""
+
+#. +> trunk5
+msgctxt "send_clipboard"
+msgid "Send clipboard"
+msgstr ""
+
+#. +> trunk5
+msgctxt "tap_to_execute"
+msgid "Tap to execute"
+msgstr ""
+
+#. +> trunk5
+msgctxt "plugin_stats"
+msgid "Plugin stats"
+msgstr ""
+
+#. +> trunk5
+msgctxt "enable_udp_broadcast"
+msgid "Enable UDP device discovery"
+msgstr ""
+
+#. +> trunk5
+msgctxt "enable_mdns_broadcast"
+msgid "Enable MDNS device discovery"
+msgstr ""
+
+#. +> trunk5
+msgctxt "enable_mdns_broadcast_explanation"
+msgid "MDNS discovery is being deprecated. Please report a bug if KDE Connect only works when this is enabled."
+msgstr ""
+
+#. +> trunk5
+msgctxt "enable_bluetooth"
+msgid "Enable bluetooth (beta)"
+msgstr ""
+
+#. +> trunk5
+msgctxt "receive_notifications_permission_explanation"
+msgid "Notifications need to be allowed to receive them from other devices"
+msgstr ""
+
+#. +> trunk5
+msgctxt "findmyphone_notifications_explanation"
+msgid "The notifications permission is needed so the phone can ring when the app is in the background"
+msgstr ""
+
+#. +> trunk5
+msgctxt "no_notifications"
+msgid "Notifications are disabled, you won't receive incoming pair notifications."
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_keepwatching"
+msgid "Continue playing"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_keepwatching_settings_title"
+msgid "Continue playing"
+msgstr ""
+
+#. +> trunk5
+msgctxt "mpris_keepwatching_settings_summary"
+msgid "Show a silent notification to continue playing on this device after closing media"
+msgstr ""
+
+#. +> trunk5
+msgctxt "notification_channel_keepwatching"
+msgid "Continue playing"
+msgstr ""
+
+#. +> trunk5
+#, c-format
+msgctxt "ping_result"
+msgid "Pinged in %1$d milliseconds"
+msgstr ""
+
+#. +> trunk5
+msgctxt "ping_failed"
+msgid "Could not ping device"
+msgstr ""
+
+#. +> trunk5
+msgctxt "ping_in_progress"
+msgid "Pinging…"
+msgstr ""
+
+#. +> trunk5
+msgctxt "device_host_invalid"
+msgid "Host is invalid. Use a valid hostname, IPv4, or IPv6"
+msgstr ""
+
+#. +> trunk5
+msgctxt "device_host_duplicate"
+msgid "Host already exists in the list"
+msgstr ""
+
+#. +> trunk5
+msgctxt "enable_fullscreen"
+msgid "Enable fullscreen"
+msgstr ""

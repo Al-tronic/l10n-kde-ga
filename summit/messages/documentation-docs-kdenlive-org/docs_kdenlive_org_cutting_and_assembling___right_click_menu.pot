@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-18 09:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:18
+msgid "Right-Click Menus"
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:22
+msgid "Clip in Timeline"
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:25
+msgid "This is the context menu that appears when you right-click on a clip in the timeline.  A different menu appears if you click in empty space in the timeline."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:31
+msgid ":menuselection:`Copy` will copy the clip and selected clips to the clipboard."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:34
+msgid ":menuselection:`Paste Effects` will paste only the effects of the last copied clip to the selected clip.  See :ref:`paste_effects`."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:37
+msgid ":menuselection:`Delete Effects` will remove all effects from the selected clip."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:40
+msgid ":menuselection:`Group Clips` - see :ref:`grouping`"
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:43
+msgid ":menuselection:`Ungroup Clips` - see :ref:`grouping`"
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:46
+msgid ":menuselection:`Edit Duration` - will open the Duration Dialog and will allow you to adjust the position of the clip in the timeline, what time point of the source clip to start on the timeline, the duration of the clip, and what time point of the source clip to end on the timeline. Note that Kdenlive will automatically adjust co-related values."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:52
+msgid ":menuselection:`Restore audio` will add any audio track that is part of the original clip to the timeline"
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:58
+msgid ":menuselection:`Disable clip` will disable the clip so it will not render in the project monitor or in a final video render. To disable the video or audio part of an A/V clip you have to un-group the A/V clip, disable the video or audio part and group the A/V clip again."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:62
+msgid ":menuselection:`Delete Selected Item` will delete the item you have selected. Add to the selection: Holding down :kbd:`Shift` and click on additional items. :menuselection:`Timeline --> Current track --> Remove All Clips After Cursor` handles AV clips as 1 element, doesn't matter on which track they are. This function is only in the Timeline menu available this to avoid clutter."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:64
+msgid ":menuselection:`Extract clip` will remove the clip from the timeline and the space it occupied."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:70
+msgid ":menuselection:`Save timeline zone to bin` will take the selected timeline zone and add markers to your clips in the project bin."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:75
+msgid "The markers sub-menu allows you to add, edit and remove markers from your clips that are displayed on the timeline.  These markers will move with the clips.  See :ref:`markers`."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:82
+msgid "The :menuselection:`Align to Reference` sub-menu allows you to set either audio or SMPTE-esque timecode to a reference. This is useful if two or more cameras recorded the same scene simultaneously."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:84
+msgid ":menuselection:`Set Audio Reference` and :menuselection:`Align Audio to Reference` are used to align clips on different tracks in the timeline based on the audio in the tracks. **Kdenlive** can use the almost identical audio track to align the two clips."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:86
+msgid ":menuselection:`Set Timecode Reference` and :menuselection:`Align Timecode to Reference` are used to align clips on different tracks in the timeline based on the SMPTE-esque timecode in the tracks."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:89
+msgid "To use these features:"
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:92
+msgid "Select the clip that you would like to align *to*."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:95
+msgid "Right click, select :menuselection:`Set Audio Reference` or :menuselection:`Set Timecode Reference`."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:98
+msgid "Select all the clips that you would like to get aligned."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:101
+msgid "Right-click and select :menuselection:`Align Audio to Reference` or :menuselection:`Align Timecode to Reference`."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:109
+msgid "Change speed"
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:111
+msgid ":menuselection:`Change speed` will open the change speed dialog that will allow you to increase or decrease the playback speed of a clip, allow you to play the clip in reverse, and will enable / disable pitch compensation for the audio on a speed-adjusted clip."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:116
+msgid "Doing speed change of a clip with the mouse see: :ref:`change_speed_of_a_clip`"
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:119
+msgid ":menuselection:`Clip in project bin` will highlight the selected clip in the project bin."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:122
+msgid ":menuselection:`Cut Clip` Selecting this will cause the selected clip to be cut at the location of the :ref:`timeline`. See also  :ref:`editing`."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:125
+msgid ":menuselection:`Insert Effect` will open a sub-menu to allow you to quickly add the :doc:`/effects_and_filters/video_effects/transform_distort_perspective/transform` or the :doc:`/effects_and_filters/video_effects/color_image_correction/lift_gamma_gain` effects."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:128
+#: ../../cutting_and_assembling/right_click_menu.rst:163
+msgid ":menuselection:`Insert composition` will open a sub-menu to allow you to quickly add the :ref:`Composite and Transform <composite_with_transparency>` or the :doc:`Wipe </compositing/transitions/wipe>` composition."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:132
+msgid "Empty Space in Timeline"
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:136
+msgid "A different menu appears if you click in empty space in the timeline."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:142
+msgid ":menuselection:`Paste` will paste a clip from the clipboard into the timeline"
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:145
+msgid ":menuselection:`Insert Space` will open the Insert Space dialog and will allow you to insert blank space in the timeline in a single track."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:148
+msgid ":menuselection:`Remove Space` will remove all space between clips on the track."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:151
+msgid ":menuselection:`Remove Space in All Tracks` will remove space between clips on all the tracks."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:154
+msgid ":menuselection:`Add/Remove Guide` will add a guide to the timeline."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:157
+msgid ":menuselection:`Edit Guide` will allow you to edit the guide label."
+msgstr ""
+
+#. +> trunk5
+#: ../../cutting_and_assembling/right_click_menu.rst:160
+msgid ":menuselection:`Go to Guide` will pop-up a sub-menu with a list of your guides and will move the timeline position marker to that guide."
+msgstr ""

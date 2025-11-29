@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the polkit-kde-agent-1 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: polkit-kde-agent-1\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-07-11 09:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6 stable5
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: IdentitiesModel.cpp:27
+#, kde-format
+msgid "Select User"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: IdentitiesModel.cpp:45
+#, kde-format
+msgctxt "%1 is the full user name, %2 is the user login name"
+msgid "%1 (%2)"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:48
+#, kde-format
+msgid "(c) 2009 Red Hat, Inc."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:49
+#, kde-format
+msgid "Lukáš Tinkl"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:49
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:50
+#, kde-format
+msgid "Jaroslav Reznik"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:50
+#, kde-format
+msgid "Former maintainer"
+msgstr ""
+
+#. +> stable5
+#: main.cpp:50
+#, kde-format
+msgid "PolicyKit1 KDE Agent"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: policykitlistener.cpp:90
+#, kde-format
+msgid "Another client is already authenticating, please try again later."
+msgstr ""
+
+#. +> trunk6 stable6
+#: policykitlistener.cpp:97
+#, kde-format
+msgctxt "Error response when polkit calls us with an empty list of identities"
+msgid "No user to authenticate as. Please check your system configuration."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/MobileQuickAuthDialog.qml:16 qml/MobileQuickAuthDialog.qml:108
+#: qml/QuickAuthDialog.qml:16 QuickAuthDialog.cpp:110
+#, kde-format
+msgid "Authentication Required"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/MobileQuickAuthDialog.qml:57 qml/QuickAuthDialog.qml:72
+#, kde-format
+msgid "Authentication failure, please try again."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/MobileQuickAuthDialog.qml:141
+#, kde-format
+msgid "User: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/MobileQuickAuthDialog.qml:146 qml/QuickAuthDialog.qml:181
+#, kde-format
+msgid "Switch…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/MobileQuickAuthDialog.qml:167 qml/QuickAuthDialog.qml:201
+#, kde-format
+msgid "Password…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/MobileQuickAuthDialog.qml:175 qml/QuickAuthDialog.qml:210
+#, kde-format
+msgid "Details"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/MobileQuickAuthDialog.qml:185 qml/QuickAuthDialog.qml:222
+#, kde-format
+msgid "OK"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/MobileQuickAuthDialog.qml:191 qml/QuickAuthDialog.qml:228
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/MobileQuickAuthDialog.qml:201 qml/QuickAuthDialog.qml:240
+#, kde-format
+msgid "Action:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/MobileQuickAuthDialog.qml:205 qml/QuickAuthDialog.qml:244
+#, kde-format
+msgid "ID:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: qml/MobileQuickAuthDialog.qml:209 qml/QuickAuthDialog.qml:248
+#, kde-format
+msgid "Vendor:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/QuickAuthDialog.qml:175
+#, kde-format
+msgid "Authenticating as %1"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, action_label)
+#. +> stable5
+#: authdetails.ui:39
+#, kde-format
+msgid "<null>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, action_id_label)
+#. +> stable5
+#: authdetails.ui:94
+#, kde-format
+msgid "Action ID:"
+msgstr ""
+
+#. +> stable5
+#: AuthDialog.cpp:163
+#, kde-format
+msgid "Password for root:"
+msgstr ""
+
+#. +> stable5
+#: AuthDialog.cpp:165
+#, kde-format
+msgid "Password for %1:"
+msgstr ""
+
+#. +> stable5
+#: AuthDialog.cpp:168
+#, kde-format
+msgid "Password:"
+msgstr ""
+
+#. +> stable5
+#: AuthDialog.cpp:173
+#, kde-format
+msgid "Password or swipe finger for root:"
+msgstr ""
+
+#. +> stable5
+#: AuthDialog.cpp:175
+#, kde-format
+msgid "Password or swipe finger for %1:"
+msgstr ""
+
+#. +> stable5
+#: AuthDialog.cpp:178
+#, kde-format
+msgid "Password or swipe finger:"
+msgstr ""
+
+#. +> stable5
+#: AuthDialog.cpp:188
+#, kde-format
+msgid "An application is attempting to perform an action that requires privileges. Authentication is required to perform this action."
+msgstr ""
+
+#. +> stable5
+#: AuthDialog.cpp:326
+#, kde-format
+msgctxt "%1 is the name of a detail about the current action provided by polkit"
+msgid "%1:"
+msgstr ""
+
+#. +> stable5
+#: AuthDialog.cpp:344
+#, kde-format
+msgid "'Description' not provided"
+msgstr ""
+
+#. +> stable5
+#: AuthDialog.cpp:356 AuthDialog.cpp:360
+#, kde-format
+msgid "Click to open %1"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblPassword)
+#. +> stable5
+#: AuthDialog.ui:93
+#, kde-format
+msgid "P&assword:"
+msgstr ""

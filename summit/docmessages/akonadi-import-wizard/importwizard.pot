@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: !ENTITY
+#. +> trunk6 stable6
+#: index.docbook:4
+#, no-c-format
+msgid "<!ENTITY i18n-importwizard \"<application>Import Wizard</application>\">"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:13
+#, no-c-format
+msgid "The &i18n-importwizard; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:16
+#, no-c-format
+msgid "<personname> <firstname>Laurent</firstname> <surname>Montel</surname> </personname> <email>montel@kde.org</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:23
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:28
+#, no-c-format
+msgid "Laurent Montel"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:31
+#, no-c-format
+msgid "2016-07-27"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:32
+#, no-c-format
+msgid "5.3.40 (Applications 16.08)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:37
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:39
+#, no-c-format
+msgid "&i18n-importwizard; allows to import emails, settings, addressbook and calendar data detected in your user account from the following mailers:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:42
+#, no-c-format
+msgid "<application>Trojitá</application>, <application>Evolution 1.x - 3.x</application>, <application>OS X Mail</application>, <application>Opera</application>, <application>Sylpheed</application>, <application>Thunderbird/Mozilla</application>, <application>The Bat!</application>, <application>Outlook Express</application>, <application>Balsa</application>, <application>Pegasus-Mail</application>, and <application>Claws Mail</application>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:51
+#, no-c-format
+msgid "Additionally you can use the manual import for <application>KMail Archive</application>, <application>mbox (Unix, Evolution)</application>, &kmail; Maildirs, <application>Icedove</application>, <application>Lotus Notes</application>, <application>Plain Text</application> and <application>Mailman</application> Archives."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:57
+#, no-c-format
+msgid "If no mail data are detected automatically then click on <guibutton>Manual Selection</guibutton> in the start window and use the <link linkend=\"manual-import\">Manual Import</link> features."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:62
+#, no-c-format
+msgid "You can start &i18n-importwizard; directly from the application launcher or from &kmail; with <menuchoice><guimenu>Tools</guimenu><guimenuitem>Import Wizard</guimenuitem></menuchoice> for automatic detection or from &kmail; with <menuchoice><guimenu>File</guimenu> <guimenuitem>Import Messages</guimenuitem></menuchoice> for manual import."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:69
+#, no-c-format
+msgid "Close &kmail; before importing data. Some plugins will modify &kmail;'s configuration file."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:72
+#, no-c-format
+msgid "For information about other utilities to import mails please read the <ulink url=\"help:/pimdataexporter\">PIM Data Exporter</ulink> handbook."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:76
+#, no-c-format
+msgid "Detected Mail Applications"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:78
+#, no-c-format
+msgid "At startup the import wizard will detect all supported email applications, and list them for you in the window. Select the email application you want to import from, and click the <guibutton>Next</guibutton> button. The wizard will then ask if you want to import everything, or give you options to select which types of materials you want to import."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:84
+#, no-c-format
+msgid "<screeninfo>Import Selection</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:90
+#, no-c-format
+msgid "<phrase>Import Selection</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:93
+#, no-c-format
+msgid "<para>Import Selection</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:98
+#, no-c-format
+msgid "Depending on your selections in the materials to import screen, you will see one or more of the following screens:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:103
+#, no-c-format
+msgid "To import mail messages, you need to select the folder you want your email messages to import into. Once selected, click the <guibutton>Import Mails</guibutton> button. Once the progress bar reaches 100%, click the <guibutton>Next</guibutton> button, or the <guibutton>Finish</guibutton> button, if this was your last material selection."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:110
+#, no-c-format
+msgid "To import mail filters, click the <guibutton>Import Filters</guibutton> button and it will import any filters it found, once finished click the <guibutton>Next</guibutton> button, or the <guibutton>Finish</guibutton> button, if this was your last material selection."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:115
+#, no-c-format
+msgid "To import settings, click the <guibutton>Import Settings</guibutton> button. The wizard will ask you some questions &eg; which folder to use for account folders that do not exist. The wizard will also create your identity. Once complete, click the <guibutton>Next</guibutton> button, or the <guibutton>Finish</guibutton> button, if this was your last material selection."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:121
+#, no-c-format
+msgid "To import address books or calendars, click the <guibutton>Import address book</guibutton> or <guibutton>Import Calendar</guibutton> button, and it will import all address books or calendars it finds. Once complete, click the <guibutton>Next</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:127
+#, no-c-format
+msgid "Click the <guibutton>Finish</guibutton> button to complete and exit the wizard. If at any time you wish to end the wizard, you can click the <guibutton>Cancel</guibutton> button."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:134
+#, no-c-format
+msgid "<title>Manual Import</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:138
+#, no-c-format
+msgid "<screeninfo>Manual Import</screeninfo>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:147
+#, no-c-format
+msgid "Please make sure that you compact your folders in the other email client."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:148
+#, no-c-format
+msgid "Select your previous email program from the drop down box. The center text area of the dialog will update with special instructions (if applicable), and the known location of email message storage for that application. Follow these instructions, then select the folder you wish to import your messages to."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:151
+#, no-c-format
+msgid "If you want to remove duplicate messages, check <guilabel>Remove duplicate messages during import</guilabel>. A file select dialog will pop up and you need to select the file/folder noted in the instructions. Click the <guibutton>Next</guibutton> button to complete the import. When the import is finished you can click the <guibutton>Back</guibutton> button to import from another application or the <guibutton>Finish</guibutton> button to exit."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:162
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:164
+#, no-c-format
+msgid "&i18n-importwizard;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:165
+#, no-c-format
+msgid "Program copyright 2013 Laurent Montel montel@kde.org"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:168
+#, no-c-format
+msgid "Section Manual Import is a modified copy of the KMailCVT handbook"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:169
+#, no-c-format
+msgid "Documentation Copyright &copy; 2013 Laurent Montel montel@kde.org and Scarlett Clark scarlett@scarlettgatelyclark.com"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:174
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: sect1
+#. +> trunk6 stable6
+#: index.docbook:174
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

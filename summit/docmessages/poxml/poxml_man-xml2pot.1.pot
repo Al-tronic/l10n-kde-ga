@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:8
+#, no-c-format
+msgid "<personname><firstname>Ben</firstname><surname>Burton</surname></personname><email>bab@debian.org</email>"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:9
+#, no-c-format
+msgid "2003-04-07"
+msgstr ""
+
+#. Tag: manvolnum
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:14
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:19
+#, no-c-format
+msgid "Creates a PO template file from a DocBook XML file."
+msgstr ""
+
+#. Tag: cmdsynopsis
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:23
+#, no-c-format
+msgid "<command>xml2pot</command> <group><option><replaceable>original-XML</replaceable></option></group>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:32
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:34
+#, no-c-format
+msgid "<command>xml2pot</command> is a command-line tool that produces a gettext message template file from the DocBook XML file <filename>original-XML</filename>. The template file is sent to standard output."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:39
+#, no-c-format
+msgid "The resulting template file can be used to create gettext message files (PO-files) for a variety of languages. These can then be used in conjunction with <command>po2xml</command>(1) to translate the original XML file into these other languages."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:45
+#, no-c-format
+msgid "This utility is part of the KDE Software Development Kit."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:50
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:52
+#, no-c-format
+msgid "po2xml(1), split2po(1), swappo(1)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:57
+#, no-c-format
+msgid "Authors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:59
+#, no-c-format
+msgid "The PO XML tools were written by &Stephan.Kulow; &Stephan.Kulow.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-xml2pot.1.docbook:60
+#, no-c-format
+msgid "This manual page was prepared by <personname><firstname>Ben</firstname><surname>Burton</surname></personname><email>bab@debian.org</email>"
+msgstr ""

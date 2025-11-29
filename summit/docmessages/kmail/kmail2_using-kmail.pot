@@ -1,0 +1,4122 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: using-kmail.docbook:5
+#, no-c-format
+msgid "&Daniel.Naber; &Daniel.Naber.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: using-kmail.docbook:9
+#, no-c-format
+msgid "&Scarlett.Clark; &Scarlett.Clark.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: using-kmail.docbook:13
+#, no-c-format
+msgid "&David.Bryant; &David.Bryant.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: using-kmail.docbook:17
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: using-kmail.docbook:20
+#, no-c-format
+msgid "2020-09-12"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: using-kmail.docbook:21
+#, no-c-format
+msgid "5.14.2 (Applications 20.04.2)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:24
+#, no-c-format
+msgid "Using &kmail;"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:27
+#, no-c-format
+msgid "The Main Window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:29
+#, no-c-format
+msgid "The main window is the window that appears when &kmail; is started. It is by default divided into three panes:"
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:34
+#, no-c-format
+msgid "Folder List (on the left)"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: using-kmail.docbook:37
+#, no-c-format
+msgid "<screeninfo>Folder Pane</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: using-kmail.docbook:43
+#, no-c-format
+msgid "<phrase>Folder Pane</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:46
+#, no-c-format
+msgid "The Folder List"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:50 using-kmail.docbook:63 using-kmail.docbook:84
+#: using-kmail.docbook:105 using-kmail.docbook:125 using-kmail.docbook:354
+#: using-kmail.docbook:442 using-kmail.docbook:455 using-kmail.docbook:518
+#: using-kmail.docbook:543 using-kmail.docbook:688 using-kmail.docbook:734
+#: using-kmail.docbook:767 using-kmail.docbook:792 using-kmail.docbook:811
+#: using-kmail.docbook:877 using-kmail.docbook:1147 using-kmail.docbook:1200
+#: using-kmail.docbook:1323 using-kmail.docbook:1514 using-kmail.docbook:1741
+#: using-kmail.docbook:1874
+#, no-c-format
+msgid "&nbsp;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:52
+#, no-c-format
+msgid "This pane contains the list of your message folders (other email programs may call them mailboxes). To select a folder, simply click on it. The message header information contained in the folder will then appear in the Message List pane. The folder list can be displayed in both a short view, which takes up only a small portion of the left side of the screen, and a long view, which takes up the entire left side of the screen (and can show more folders). You can toggle between these two views by using the <guilabel>Appearance</guilabel>/<guilabel>Layout</guilabel> tab in the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kmail;...</guimenuitem></menuchoice> dialog. The top section of the folder pane provides quick links to your favorite folders. Drag and drop folders here, or add them via the &RMB; context menu item <guimenuitem>Add Favorite Folder</guimenuitem>. Please see the <link linkend=\"folders\">Folders Section</link> for more details about folders."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:68
+#, no-c-format
+msgid "Message List (on the upper right by default)"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: using-kmail.docbook:71
+#, no-c-format
+msgid "<screeninfo>The Message List</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: using-kmail.docbook:77
+#, no-c-format
+msgid "<phrase>The Message List</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:80
+#, no-c-format
+msgid "The Message List (Smart Theme)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:85
+#, no-c-format
+msgid "This pane lists header information (Subject, Sender, and Date) for the messages in the currently selected folder. Clicking on an item in the Message List will select that message and display it in the Preview pane; you can also select more than one message by holding down the &Ctrl; key (or the &Shift; key) when clicking on messages."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:90
+#, no-c-format
+msgid "Change the appearance of your message list by selecting <menuchoice><guimenu>View</guimenu><guimenuitem>Message List</guimenuitem> <guimenuitem>Theme</guimenuitem></menuchoice>. You have several options here."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:94
+#, no-c-format
+msgid "<guilabel>Classic</guilabel> A simple, backward compatible single row with clickable sort columns."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:95
+#, no-c-format
+msgid "<guilabel>Smart</guilabel> A smart multi-line, multi-item list with status icons, and no sort columns."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:96
+#, no-c-format
+msgid "<guilabel>Smart with Clickable Status</guilabel> A smart multi-line, multi-item list with clickable status icons."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:97
+#, no-c-format
+msgid "<guilabel>Configure...</guilabel> Allows you to customize your own Message List Theme (&eg; add or remove columns from the clickable sort bar.)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:99
+#, no-c-format
+msgid "If you have chosen the Classic theme, you may sort the messages by clicking on the column that you wish to sort; if you click on the same column again, the sort order will toggle between ascending/descending. Clicking the &RMB; on the list header shows a pop up menu, which allows you to show or hide several columns in the list. You can customize the columns visible on the sort bar; see <link linkend=\"customize-messagelist-theme\">Configure Appearance of Message List</link> for details."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:109
+#, no-c-format
+msgid "Preview Pane (in the lower right by default)"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: using-kmail.docbook:112
+#, no-c-format
+msgid "<screeninfo>The Message Preview Pane</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: using-kmail.docbook:118
+#, no-c-format
+msgid "<phrase>The Message Preview Pane</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:121
+#, no-c-format
+msgid "The Preview Pane"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:127
+#, no-c-format
+msgid "This pane displays the currently selected message. Here are some ways to adjust the Preview pane."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:128
+#, no-c-format
+msgid "The top of the Preview pane displays the message headers. Several display options are available. Go to <menuchoice><guimenu>View</guimenu><guisubmenu>Headers</guisubmenu></menuchoice> and try them out until you find one you like!"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:132
+#, no-c-format
+msgid "<guilabel>Fancy Headers</guilabel> Colorful header with a spam status / attachments notification."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:133
+#, no-c-format
+msgid "<guilabel>Brief Headers</guilabel> Title, and in parentheses: From, CCs (if any), and the date."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:134
+#, no-c-format
+msgid "<guilabel>&kmail; 5.2</guilabel> An avatar (if available) with Title, From, To, CCs (if any), and spam status / attachments on separate lines."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:136
+#, no-c-format
+msgid "<guilabel>Download New Themes...</guilabel> Allows you to download custom themes created by other &kmail; users."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:138
+#, no-c-format
+msgid "Click on the bar located on the left hand side of the pane to toggle between plain text and &HTML; (if and only if the message is coded both ways). The text on the bar will inform you which view you are in. The <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kmail;...</guimenuitem><guisubmenu>Security</guisubmenu></menuchoice> dialog allows you to select HTML as the default message display option, if you prefer &HTML; to plain text."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:142
+#, no-c-format
+msgid "If you would like to change the way your attachments appear in your messages, go to <menuchoice><guimenu>View</guimenu> <guisubmenu>Attachments</guisubmenu></menuchoice>. These are your options."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:146
+#, no-c-format
+msgid "<guimenuitem>As Icons</guimenuitem>, all attachments appear as icons at the bottom of the message."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:147
+#, no-c-format
+msgid "<guimenuitem>Smart</guimenuitem> will show attachments as icons, unless the message suggests that they should be displayed inline. You can suggest that certain attachments should be shown inline in messages you compose by selecting <guilabel>Suggest automatic display</guilabel> in <link linkend=\"the-composer-window\">the composer window</link> via the attachment's properties dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:150
+#, no-c-format
+msgid "<guimenuitem>Inline</guimenuitem> shows the contents of the attachments at the bottom of the message. Attachments that cannot be displayed, &eg; compressed files, will still be shown as an icon."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:152
+#, no-c-format
+msgid "<guimenuitem>Hide</guimenuitem> will not show attachments."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:153
+#, no-c-format
+msgid "<guimenuitem>In Header Only</guimenuitem> will suppress inline displays, but list the attachments along with the message headers."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:156
+#, no-c-format
+msgid "The interactions among the header themes, the attachment views, and the plain text versus &HTML; preferences is rather complex. For example, if you attach an HTML file to a plain text message, &kmail; will probably interpret your message as being coded in two different formats, even though this is not really the case. Similarly, &HTML; messages may display embedded images even when you have selected the \"Hide\" option for attachments."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:161
+#, no-c-format
+msgid "The structure of each message can be displayed by pressing <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>D</keycap></keycombo>. This will open a message structure viewer below the preview pane. Turn the message structure viewer off by pressing the same three keys."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:165
+#, no-c-format
+msgid "You can scroll through the message page-by-page using the &PgUp; and &PgDn; keys, or line-by-line using the &Up; and &Down; keys; you can also use <link linkend=\"keyboard-shortcuts\">keyboard shortcuts</link> to skip through your messages without having to use the mouse."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:174
+#, no-c-format
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:176
+#, no-c-format
+msgid "The following keyboard shortcuts are supported by default in the main window. Notice that many \"universal\" shortcuts (&eg; <keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo> to copy selected text to the clipboard, or <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> to open a \"Find\" dialog) are recognized by &kmail;, but are not documented here."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:185
+#, no-c-format
+msgid "Keyboard Shortcut"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:186
+#, no-c-format
+msgid "Action"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:191
+#, no-c-format
+msgid "&Space;"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:192
+#, no-c-format
+msgid "Scroll down in the current message."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:195
+#, no-c-format
+msgid "<keycap>→</keycap> or <keycap>N</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:196
+#, no-c-format
+msgid "Go to the next message in the current folder and display the message preview."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:199
+#, no-c-format
+msgid "<keycap>←</keycap> or <keycap>P</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:200
+#, no-c-format
+msgid "Go to the previous message in the current folder and display the message preview."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:203 using-kmail.docbook:295
+#, no-c-format
+msgid "&Ctrl;&Home;"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:204
+#, no-c-format
+msgid "Go to the very first message in the current folder and display the message preview."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:207 using-kmail.docbook:301
+#, no-c-format
+msgid "&Ctrl;&End;"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:208
+#, no-c-format
+msgid "Go to the very last message in the current folder and display the message preview."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: using-kmail.docbook:211
+#, no-c-format
+msgid "<keycap>+</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:212
+#, no-c-format
+msgid "Go to the next unread message in the current folder."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: using-kmail.docbook:215
+#, no-c-format
+msgid "<keycap>-</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:216
+#, no-c-format
+msgid "Go to the previous unread message in the current folder."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: using-kmail.docbook:219
+#, no-c-format
+msgid "<keycap>C</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:220
+#, no-c-format
+msgid "Copy this message to another folder."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: using-kmail.docbook:223
+#, no-c-format
+msgid "<keycap>M</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:224
+#, no-c-format
+msgid "Move this message to another folder."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: using-kmail.docbook:227
+#, no-c-format
+msgid "<keycap>A</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:228
+#, no-c-format
+msgid "Reply to all recipients of this message (with quote)."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: using-kmail.docbook:231
+#, no-c-format
+msgid "<keycap>R</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:232
+#, no-c-format
+msgid "Reply to sender with quote."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:235
+#, no-c-format
+msgid "&Shift;<keycap>R</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:236
+#, no-c-format
+msgid "Reply to sender without quoting anything."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: using-kmail.docbook:239
+#, no-c-format
+msgid "<keycap>S</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:240
+#, no-c-format
+msgid "Launch the message search dialog."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: using-kmail.docbook:243
+#, no-c-format
+msgid "<keycap>T</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:244
+#, no-c-format
+msgid "Open this message in the composition window."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:247
+#, no-c-format
+msgid "&Enter;"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:248
+#, no-c-format
+msgid "View selected message in the full-screen message viewer."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6 stable6
+#: using-kmail.docbook:251
+#, no-c-format
+msgid "<keycap>V</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:252
+#, no-c-format
+msgid "View the raw message, headers and all, as a text file."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:255
+#, no-c-format
+msgid "&Ctrl;<keycap>L</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:256
+#, no-c-format
+msgid "Check for new messages on the server(s)."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:259
+#, no-c-format
+msgid "&Ctrl;<keycap>N</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:260
+#, no-c-format
+msgid "Open the composition window to write a new message."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:263
+#, no-c-format
+msgid "&Ctrl;<keycap>+</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:264
+#, no-c-format
+msgid "Zoom in on the current message, in increments of 20%."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:267
+#, no-c-format
+msgid "&Ctrl;<keycap>-</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:268
+#, no-c-format
+msgid "Zoom out of the current message, in increments of 20%."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:271
+#, no-c-format
+msgid "&Ctrl;<keycap>0</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:272
+#, no-c-format
+msgid "Reset message Zoom factor to 100% (full size)."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:275
+#, no-c-format
+msgid "&Ctrl;&Alt;<keycap>D</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:276
+#, no-c-format
+msgid "Toggle message structure display (below the message preview pane)."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:279
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>O</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:280
+#, no-c-format
+msgid "Create the tabbing toolbar (appears above the message list)."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:283
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>W</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:284
+#, no-c-format
+msgid "Remove the currently active tab from the tabbing toolbar."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:287
+#, no-c-format
+msgid "&Alt;<keycap>↑</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:288
+#, no-c-format
+msgid "Go to the previous folder in the folder list (if the folder list has focus)."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:291
+#, no-c-format
+msgid "&Alt;<keycap>↓</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:292
+#, no-c-format
+msgid "Go to the next folder in the folder list (if the folder list has focus)."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:296
+#, no-c-format
+msgid "Focus on the very first folder. Use <keycombo action=\"simul\">&Ctrl;&Space;</keycombo> to actually enter the folder."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:302
+#, no-c-format
+msgid "Focus on the very last folder. Use <keycombo action=\"simul\">&Ctrl;&Space;</keycombo> to actually enter the folder."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:307
+#, no-c-format
+msgid "&Ctrl;&Space;"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:308
+#, no-c-format
+msgid "Enter the folder that has focus, &ie; the folder that you navigated to using <keycombo action=\"simul\">&Ctrl;&Home;</keycombo> or <keycombo action=\"simul\">&Ctrl;&End;</keycombo>."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6 stable6
+#: using-kmail.docbook:313
+#, no-c-format
+msgid "&Shift;<keycap>H</keycap>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:314
+#, no-c-format
+msgid "Toggle between plain text and &HTML; (unless &HTML; has been preferred via the <guilabel>Settings</guilabel> dialog)."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:318
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Shift;<keycap>←</keycap></keycombo> &amp; <keycombo action=\"simul\">&Shift;<keycap>→</keycap></keycombo>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:320
+#, no-c-format
+msgid "Select messages sequentially in the message list, starting with the current message."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:326
+#, no-c-format
+msgid "For more keyboard shortcuts, take a look at the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Shortcuts...</guimenuitem></menuchoice> dialog. If you're not happy with the defaults, you can change them!"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:329
+#, no-c-format
+msgid "Two mouse actions deserve mention here. First, you can select multiple noncontiguous messages to be processed all at once (&eg; copied, deleted, or moved) by pressing &Ctrl; and selecting them with the &LMB;. Second, you can open a message in an external window by double-clicking an item in the message list. If the message is in the outbox, drafts, or templates folder, it will be opened in a composition window. Otherwise, it will be opened with the external message viewer, an abbreviated version of &kmail;'s main window without the folder and message lists, and with shorter menus."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:339
+#, no-c-format
+msgid "The Composer Window"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: using-kmail.docbook:341
+#, no-c-format
+msgid "<screeninfo>Composer Window</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: using-kmail.docbook:347
+#, no-c-format
+msgid "<phrase>Composer Window</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:350
+#, no-c-format
+msgid "The Composer Window in &HTML; composition mode."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:355
+#, no-c-format
+msgid "The composer window is used to write new messages, to compose replies, and to forward messages. It can be opened in several ways. Here are the various options for composing messages."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:358
+#, no-c-format
+msgid "Composing a Message"
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:360
+#, no-c-format
+msgid "New Message..."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:362
+#, no-c-format
+msgid "The New Message composer window can be invoked in four different ways:"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:365
+#, no-c-format
+msgid "<guimenu>File</guimenu><guisubmenu>New</guisubmenu><guimenuitem>New Message...</guimenuitem>"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:368
+#, no-c-format
+msgid "<guimenu>Message</guimenu><guimenuitem>New Message...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:371
+#, no-c-format
+msgid "Via the <guiicon><inlinemediaobject><imageobject><imagedata fileref=\"mail-message-new.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> New</guiicon> icon on the main toolbar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:375
+#, no-c-format
+msgid "Via the keyboard shortcut <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:378
+#, no-c-format
+msgid "To write your message, fill in the appropriate fields in the composer window. Use the <guimenu>View</guimenu> menu to select which header fields are displayed. Any selection you make will remain as the default when you open a new composer window. These items are available."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:384
+#, no-c-format
+msgid "The <guimenuitem>Identity</guimenuitem> drop down box lets you select an identity to use."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:387
+#, no-c-format
+msgid "The <guimenuitem>Dictionary</guimenuitem> drop down box lets you choose a dictionary for spell checking."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:390
+#, no-c-format
+msgid "<guimenuitem>Sent-Mail Folder</guimenuitem> lets you specify where a local copy of this message will be saved when you send it."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:393
+#, no-c-format
+msgid "<guimenuitem>Mail Transport</guimenuitem> lets you select an outgoing mail server."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:396
+#, no-c-format
+msgid "The traditional From:, To:, and Subject: fields. (The Reply To: field will appear only if you have specified an alternative <guilabel>Reply To</guilabel> address on the <guilabel>Advanced</guilabel> tab in the <menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure &kmail;...</guisubmenu> <guisubmenu>Accounts</guisubmenu><guimenuitem>Identities</guimenuitem></menuchoice> dialog.)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:402
+#, no-c-format
+msgid "<guimenuitem>Use Fixed Font</guimenuitem> toggles fixed width fonts on and off."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:405
+#, no-c-format
+msgid "<guimenuitem>Snippets</guimenuitem> displays the snippets window, where you may save frequently used bits of verbiage."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:409
+#, no-c-format
+msgid "There are a variety of shortcuts to help you select recipients. The <guibutton>Select...</guibutton> button next to the <guilabel>To:</guilabel>, <guilabel>CC:</guilabel>, and <guilabel>BCC:</guilabel> fields opens a list from &kaddressbook; so you can select one or more people who should receive this message."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:415
+#, no-c-format
+msgid "Alternatively, when you start typing an address in one of the <guilabel>To:</guilabel>/<guilabel>CC:</guilabel>/<guilabel>BCC:</guilabel> fields, a popup will appear that suggests similar recently used addresses and closely matching addresses from &kaddressbook;; if you do not like this automatic popup, you can disable it by clicking the &RMB; in the field where you're typing, then choosing a different <guilabel>Text Completion &gt;</guilabel> mode. You can also use this context menu to fine-tune the order in which suggested completions appear (via <guilabel>Configure Completion...</guilabel>)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:423
+#, no-c-format
+msgid "Whenever you want to add more than one recipient in one of the fields, use a comma to separate one address from the next one. You may have to specify fully qualified addresses (&ie; <userinput>user@example.com</userinput>) even for local users, depending on your system configuration."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:431
+#, no-c-format
+msgid "When you are finished with your message, click the <guiicon><inlinemediaobject><imageobject> <imagedata fileref=\"mail-send.png\" format=\"PNG\"/></imageobject></inlinemediaobject> Send</guiicon> icon to send the message now, or click the <guiicon><inlinemediaobject><imageobject><imagedata fileref=\"mail-queue.png\" format=\"PNG\"/></imageobject> </inlinemediaobject> Queue</guiicon> icon to put the message in the outbox. If your message is not finished yet, select <menuchoice><guimenu>Message</guimenu><guimenuitem>Save as Draft</guimenuitem></menuchoice> to save it for later editing. If you want to print your message, select <menuchoice><guimenu>Message</guimenu><guimenuitem>Print Preview</guimenuitem></menuchoice> to preview the message, and <menuchoice><guimenu>Message</guimenu><guimenuitem>Print</guimenuitem></menuchoice> to print it."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:439
+#, no-c-format
+msgid "<menuchoice><guimenu>Message</guimenu><guimenuitem>Send Later</guimenuitem></menuchoice> lets you schedule your emails to be sent at a specific date and time. Please see <ulink url=\"help:/akonadi_sendlater_agent\">Send Later Agent</ulink> for details."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:446
+#, no-c-format
+msgid "<guimenu>File</guimenu><guisubmenu>New</guisubmenu><guisubmenu>Message From Template</guisubmenu> <guimenuitem><replaceable>My Super Template</replaceable></guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:449
+#, no-c-format
+msgid "Composing a new message from a template is useful when you have created a masterpiece that you would like to use as a template for future new messages. Select <menuchoice><guimenu>Message</guimenu><guimenuitem>Save as Template</guimenuitem></menuchoice>; this will place your new template in the <guilabel>templates</guilabel> folder. You can revise the template at any time by selecting it from this folder. Double click on the template's name (or press the shortcut key, <keycap>T</keycap>) to open it in a composition window. You may also select the template via the <guimenu>File</guimenu> menu, as shown above."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:462
+#, no-c-format
+msgid "Signing and Encrypting Messages"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:464
+#, no-c-format
+msgid "If you want to send an <link linkend=\"pgp-encrypt-your-messages\">encrypted</link> or <link linkend=\"pgp-sign-your-messages\">digitally signed</link> message, select the <guiicon><inlinemediaobject><imageobject><imagedata fileref=\"document-edit.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Sign</guiicon> and / or <guiicon><inlinemediaobject><imageobject><imagedata fileref=\"document-decrypt.png\" format=\"PNG\"/></imageobject></inlinemediaobject> Encrypt</guiicon> icon in the toolbar. Use the <menuchoice><guimenuitem>Options</guimenuitem><guisubmenu>Cryptographic Message Format &gt;</guisubmenu></menuchoice> dropdown list to select the format used to encrypt the message. (The <guilabel>Options</guilabel> menu also lets you sign / encrypt the message.) You may choose one of five formatting options."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:478
+#, no-c-format
+msgid "<guilabel>Any</guilabel>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:480
+#, no-c-format
+msgid "&kmail; will use a format which is understood by all recipients of the message. The preferred format for each recipient can be specified via <ulink url=\"help:/kaddressbook\">&kaddressbook;</ulink>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:485
+#, no-c-format
+msgid "Inline OpenPGP (deprecated)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:487
+#, no-c-format
+msgid "This format is deprecated, but is supported for backward compatibility. If you use this format then only the message text will be signed and/or encrypted. <emphasis>Attachments will neither be signed nor encrypted.</emphasis> &HTML; messages cannot be signed with this format. You should only use this format when necessary, &ie; if you send messages to people who use email clients that cannot handle the more advanced formats."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:495
+#, no-c-format
+msgid "OpenPGP/&MIME;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:497
+#, no-c-format
+msgid "This format is the successor to the inline OpenPGP format. If you use this format then the message text and all attachments will be signed and/or encrypted (at least by default). This is the recommended format if you use OpenPGP encryption."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:503
+#, no-c-format
+msgid "S/&MIME;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:505
+#, no-c-format
+msgid "This format is an alternative format to OpenPGP/&MIME;. If you use this format then the message text and all attachments will be signed and/or encrypted (at least by default). This format is mostly used by corporations. It relies on an x.509 certificate, not a PGP / GPG key."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:511
+#, no-c-format
+msgid "S/&MIME; opaque"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:513
+#, no-c-format
+msgid "This format is a variant of the S/&MIME; format. Because it rolls the message, any attachments, and the digital signature into a single &MIME; object, it is cpu-intensive and should only be used if necessary."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:522
+#, no-c-format
+msgid "Creating &HTML; Messages"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:524
+#, no-c-format
+msgid "Note that &HTML; messages are often regarded as an annoyance; therefore, you should use &HTML; messages judiciously. In particular, you should never send &HTML; messages to mailing list recipients unless &HTML; messages are explicitly allowed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:529
+#, no-c-format
+msgid "To create &HTML; messages, you must first enable the markup tools. To do this, enable <guimenuitem>Rich Text Editing</guimenuitem> in the <menuchoice><guimenu>Options</guimenu></menuchoice> menu, or click on the <guiicon><inlinemediaobject><imageobject><imagedata fileref=\"preferences-desktop-font.png\" format=\"PNG\"/></imageobject></inlinemediaobject> Rich Text</guiicon> icon on the &kmail; toolbar. An additional toolbar with several formatting tools will appear. Via the &HTML; toolbar you can choose standard text or bulleted / numbered lists. (Use the <guilabel>None <inlinemediaobject><imageobject> <imagedata fileref=\"go-down.png\" format=\"PNG\"/></imageobject></inlinemediaobject></guilabel> drop-down list at the left edge of the toolbar to control the style of bulleted / numbered lists.) You can also control the font family, the font size, the font style (bold, italic, underlined, or strike-through) and the text / background color. And you can specify the alignment of the text (left aligned, centered, right aligned, or justified) and insert anchor tags (aka links), horizontal lines, images, tables, and arbitrary &HTML; code (although support for some of the more advanced &HTML; tags is still incomplete)."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:547
+#, no-c-format
+msgid "Adding Attachments"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:549
+#, no-c-format
+msgid "You can attach files to your message by using any of these methods."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:553
+#, no-c-format
+msgid "Use the <menuchoice><guimenu>Attach</guimenu><guisubmenu>Attach &gt;</guisubmenu></menuchoice> dropdown list and ensuing dialog to choose a file;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:557
+#, no-c-format
+msgid "Click the <guiicon><inlinemediaobject><imageobject><imagedata fileref=\"mail-attachment.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Attach </guiicon> icon and select the file you wish to attach;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:561
+#, no-c-format
+msgid "Drag a file from the desktop or another folder into the composer window;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:565
+#, no-c-format
+msgid "Drag a message from &kmail;'s message list into the composer window – that message will then be attached;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:569
+#, no-c-format
+msgid "Select one of the additional options in the <menuchoice><guimenu>Attach</guimenu></menuchoice> menu; or"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:573
+#, no-c-format
+msgid "Select <menuchoice><guimenu>Message</guimenu><guimenuitem><inlinemediaobject><imageobject> <imagedata fileref=\"document-open.png\" format=\"PNG\"/></imageobject></inlinemediaobject> Insert Text File ...</guimenuitem></menuchoice> or <menuchoice><guimenu>Message</guimenu><guimenuitem><inlinemediaobject><imageobject><imagedata fileref=\"document-open.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Insert Recent Text File &gt;</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:580
+#, no-c-format
+msgid "Once a file is attached to your message, it appears in the attachments pane at the bottom of the composer window. You can use the &RMB; on each attachment to <guimenuitem>View</guimenuitem>, <guimenuitem>Open</guimenuitem>, <guimenuitem>Edit</guimenuitem>, <guimenuitem>Reload</guimenuitem>, <guimenuitem>Save As...</guimenuitem>, or <guimenuitem>Remove</guimenuitem> the attachment. (This context menu varies a little, depending on the file type of the attachment.) Several options (Compress / Encrypt / Sign / Suggest Automatic Display) may be toggled on or off for each file attached to a message."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:589
+#, no-c-format
+msgid "Use the <guimenuitem>Properties</guimenuitem> item in the context menu to open the <guilabel>Attachment Properties</guilabel> dialog. The first field contains the attachment's &MIME; type. Just like the <guilabel>Name</guilabel> field, it is automatically filled with an appropriate value. Sometimes the &MIME; type may be wrong. You can then type in any &MIME; type or choose from the list of common &MIME; types. You can also select an encoding method for your file from the list of encoding options (normally, the default value works fine). Check the <guilabel>Suggest automatic display</guilabel> option if you want to suggest to the recipient the automatic (inline) display of this attachment. Whether this works, or not, depends on the recipient's email client, and on his settings."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:601
+#, no-c-format
+msgid "You can also attach public crypto keys to the message by choosing the appropriate options in the <menuchoice><guimenu>Attach</guimenu></menuchoice> menu. <application>GnuPG</application> keys and x.509 certificates are (usually) handled as file attachments."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:608
+#, no-c-format
+msgid "Checking the Spelling of your Message"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:610
+#, no-c-format
+msgid "&kmail; can automatically check the spelling of your message and underline unknown words in red. If there are too many unknown words, &kmail; will disable its checking. To select the language used when checking, select <menuchoice><guimenu>View</guimenu> <guimenuitem>Dictionary</guimenuitem></menuchoice>. You can disable automatic spell checking in the <menuchoice><guimenu>Options</guimenu></menuchoice> menu."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:616
+#, no-c-format
+msgid "If you need to write mails in different languages, enable the <guilabel>Dictionary</guilabel> drop down box with <menuchoice><guimenu>View</guimenu> <guimenuitem>Dictionary</guimenuitem></menuchoice> from the menu. Using this drop down box allows you to change the spell checker's language with one mouse click."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:620
+#, no-c-format
+msgid "To check the spelling of your message via a dialog, select <menuchoice><guimenu>Tools</guimenu> <guimenuitem>Spelling...</guimenuitem></menuchoice>. &kmail; uses &sonnet; to check spelling; &sonnet; is the &kde; frontend to the <application>Aspell</application>, <application>Hspell</application>, <application>Enchant</application>, and <application>HUNSPELL</application> spell checking programs. Note that you may need to configure the spell checker using <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Spellchecker...</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:633
+#, no-c-format
+msgid "Setting Up the Text Snippets Tool"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:634
+#, no-c-format
+msgid "When editing in the composer window you can insert frequently used bits of text as snippets. To configure mail snippets, select <menuchoice> <guimenu>View</guimenu> <guimenuitem>Snippets</guimenuitem> </menuchoice> from the menubar. A new panel will appear on the right side of the composer window."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:638
+#, no-c-format
+msgid "To add a new snippet to the Snippet Panel, right click on the panel, then click <menuchoice><guimenu>Add Snippet</guimenu></menuchoice> in the context menu. A snippet editor dialog will appear, in which new text can be added and the snippet can be given a name. A <guilabel>Shortcut</guilabel> can also be associated with the snippet. Snippets can be grouped together by creating groups and adding snippets to a particular group. Use the &RMB; context menu to add, edit, or remove snippets of text from the saved collection."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:644
+#, no-c-format
+msgid "The <guilabel>Snippets</guilabel> tool enables insertion of variable text in predefined places any time you insert a snippet in a file. To do this, <guilabel>Snippets</guilabel> provides its own variables mechanism. You can insert variables in the snippet text itself by using separators ( $ ) to enclose the variable names. For example: $variablename$, $invoicenumber$, $weekno$."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:648
+#, no-c-format
+msgid "The variable separator can be changed to another character by changing <varname>snippetDelimiter</varname> in the [SnippetPart] section in the Text Snippet configuration file, which can be found at ~./config/kmailsnippetrc."
+msgstr ""
+
+#. Tag: programlisting
+#. +> trunk6 stable6
+#: using-kmail.docbook:651
+#, no-c-format
+msgid "snippetDelimiter=$"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:657
+#, no-c-format
+msgid "Using the Built-in Translator"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:658
+#, no-c-format
+msgid "The &kmail; 2 composer provides a built-in translator that can be accessed by selecting <menuchoice><guimenu>Tools</guimenu><guimenuitem>Translator</guimenuitem></menuchoice> from the menu bar. A new panel will appear at the bottom of the composer window."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:661
+#, no-c-format
+msgid "To translate a section of text, first enter the text you would like translated in the box labeled <guilabel>Drag text that you want to translate.</guilabel>. Select the language in which it is written in the <guilabel>From:</guilabel> drop down box. Select the language you would like to translate to in the <guilabel>To:</guilabel> drop down box, then click the <guibutton>Translate</guibutton> button. After being translated by Google Translate, a free online service, your translated text will appear in the next box. If you need to translate in the other direction you can just click the <guibutton>Invert</guibutton> button. To clear all text, click the <guibutton>Clear</guibutton> button."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:673
+#, no-c-format
+msgid "Message Folders"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: using-kmail.docbook:675
+#, no-c-format
+msgid "<screeninfo>Folder Setup Example</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: using-kmail.docbook:681
+#, no-c-format
+msgid "<phrase>Folder Setup Example</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:684
+#, no-c-format
+msgid "&kmail;'s default folders."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:689
+#, no-c-format
+msgid "Message Folders are used to organize your email messages. When you first start &kmail; the <quote>Local Folders</quote> containing <guilabel>inbox</guilabel>, <guilabel>outbox</guilabel>, <guilabel>sent-mail</guilabel>, <guilabel>trash</guilabel>, <guilabel>drafts</guilabel> and <guilabel>templates</guilabel> folders are created. Each of these folders has a special function."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:696
+#, no-c-format
+msgid "inbox:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:698
+#, no-c-format
+msgid "Where &kmail; by default puts your new messages when you tell it to check your mail."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:699
+#, no-c-format
+msgid "&IMAP; accounts will not use this inbox. The &IMAP; inbox is located on the &IMAP; server."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:703
+#, no-c-format
+msgid "outbox:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:705
+#, no-c-format
+msgid "Where messages are put while they are waiting to be delivered. You must not just drag and drop messages here to send them; use the <guiicon><inlinemediaobject> <imageobject><imagedata fileref=\"mail-send.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Send</guiicon> icon in the composer window instead."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:712
+#, no-c-format
+msgid "sent-mail:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:714
+#, no-c-format
+msgid "By default, a copy of every message you send is saved in this folder."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:717
+#, no-c-format
+msgid "trash:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:719
+#, no-c-format
+msgid "By default, all messages that you have designated as trash are moved into this folder."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:722
+#, no-c-format
+msgid "drafts:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:724
+#, no-c-format
+msgid "Contains messages you started to write but then saved to this folder with <menuchoice><guimenu>Message</guimenu><guimenuitem>Save as Draft</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:728
+#, no-c-format
+msgid "templates:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:730
+#, no-c-format
+msgid "This folder holds your templates created via <menuchoice><guimenu>Message</guimenu><guimenuitem>Save as Template</guimenuitem></menuchoice> from the composer window. Please see <link linkend=\"new-compose-from-templates\">New Composer Templates</link> for details."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:736
+#, no-c-format
+msgid "Creating and Using Folders"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:738
+#, no-c-format
+msgid "Organize your emails (&eg; mailing lists, bills and receipts, &etc;) by creating new folders. To create a new folder, select <menuchoice><guimenu>Folder</guimenu><guimenuitem>Add Folder...</guimenuitem></menuchoice>, or <guimenuitem>Add Folder...</guimenuitem> from the &RMB; context menu. A dialog will pop up. Enter the name of the new folder in the text box. You can fully customize each folder (&ie; views, replies, &etc;) by selecting the folder you wish to modify in the folders pane and then choosing <guimenuitem>Folder Properties</guimenuitem> from the &RMB; context menu. See <link linkend=\"folders-properties-window\">Properties of Folders</link> for details."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:745
+#, no-c-format
+msgid "To move messages from one folder into another, select the message(s) you want to move and press the <keycap>M</keycap> key or select <menuchoice><guimenu>Message</guimenu><guimenuitem>Move Message To... &gt;</guimenuitem></menuchoice>. A list of folders will appear; select the folder into which you wish to move the message from that list. Messages can also be moved by dragging them from the Message list to a folder in the Folder list, or by using a context menu invoked with the &RMB;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:750
+#, no-c-format
+msgid "If you have folders that are frequently accessed, you can add them to your favorite folders pane (above the list of folders). Add them with the &RMB; context menu option <guimenuitem>Add to Favorite Folders</guimenuitem>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:753
+#, no-c-format
+msgid "You can create a virtual folder with search parameters by going to <menuchoice><guimenu>Tools</guimenu> <guimenuitem>Find Messages...</guimenuitem></menuchoice>, or by using keyboard shortcut <keycap>S</keycap>. Enter your search parameters into the dialog. Name your search with the <guilabel>Search folder name:</guilabel> textbox, &eg; <replaceable>emails with the word Blog</replaceable>. Click the <guibutton>Search</guibutton> button. Now select the <guibutton>Open Search Folder</guibutton> button. A results folder will open, positioned at the bottom of the Folder pane. (By default, each new search is named \"Last Search\". You can save particular search parameters by assigning a special name as described above.)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:759
+#, no-c-format
+msgid "Creating filters to automatically move messages to specified folders is a great way to organize messages by mailing list, sender, subject &etc; Please see <link linkend=\"filters\">Filters</link> for details."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:762
+#, no-c-format
+msgid "If you receive emails from a trusted source (&eg; a Blog you signed up for) that is formatted in &HTML; and you would like to enable &HTML; view for those emails only, you can create a new folder, set up a <link linkend=\"filters\">filter</link> to place all email from the Blog in the new folder, select the folder, and then choose <menuchoice><guimenu>Folder</guimenu><guimenuitem>Message Default Format &gt;</guimenuitem> <guimenuitem>Prefer &HTML; to Plain Text</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:769
+#, no-c-format
+msgid "Some common folder actions are"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:772
+#, no-c-format
+msgid "<guimenu>Folder</guimenu><guimenuitem>Move All Messages to Trash</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:774
+#, no-c-format
+msgid "<action>Move</action> all the messages in the selected folder to the trash folder."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:777
+#, no-c-format
+msgid "<guimenu>Folder</guimenu><guimenuitem>Archive Folder</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:779
+#, no-c-format
+msgid "<action>Create an archive</action> of the folder. See <link linkend=\"folder-archive\">Archive Folder</link> for details."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:782
+#, no-c-format
+msgid "<guimenu>Folder</guimenu><guimenuitem>Delete Folder</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:784
+#, no-c-format
+msgid "<action>Remove a folder</action> with all its messages and sub-folders."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:787
+#, no-c-format
+msgid "<guimenu>Folder</guimenu><guimenuitem>Remove Duplicate Messages</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:789
+#, no-c-format
+msgid "<action>Search</action> the currently selected folder for duplicates and <action>delete</action> them."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:796
+#, no-c-format
+msgid "Folder Properties"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: using-kmail.docbook:798
+#, no-c-format
+msgid "<screeninfo>Folder Properties Example</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: using-kmail.docbook:804
+#, no-c-format
+msgid "<phrase>Folder Properties Example</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:807
+#, no-c-format
+msgid "The Folder Properties Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:812
+#, no-c-format
+msgid "The <guilabel>Properties of Folder</guilabel> dialog lets you specify its properties. Note that some properties are only available for the folders you create and not for default folders like <guilabel>inbox</guilabel> &etc; The six default folders cannot be renamed."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:816
+#, no-c-format
+msgid "General tab"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:817
+#, no-c-format
+msgid "If you want to rename a folder, change the entry in the <guilabel>Name:</guilabel> field."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:819
+#, no-c-format
+msgid "<guilabel>Act on new/unread mail in this folder</guilabel> is enabled by default on new folders. It enables notifications about new mail that arrives in the folder. Uncheck this option on folders like SPAM and trash for which you do not desire notifications."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:820
+#, no-c-format
+msgid "Check <guilabel>Keep replies in this folder</guilabel> if you want replies to these messages to be stored in this folder rather than in the default configured sent-mail folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:823
+#, no-c-format
+msgid "Check <guilabel>Hide this folder in the folder selection dialog</guilabel> if you do not want this folder to be shown in folder selection dialogs, such as the <guimenuitem>Jump to Folder</guimenuitem> and <guimenuitem>Move Message to</guimenuitem> dialogs."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:826
+#, no-c-format
+msgid "New folders use the default identity. If you wish to associate a folder with a different identity, uncheck <guilabel>Use default identity</guilabel> and select a different one from the <guilabel>Sender identity</guilabel> drop down menu. See <link linkend=\"configure-identity\">Identities configuration</link> for information on Identities. Replies to messages that were sent directly to you will still default to the message's <quote>To</quote> address if a matching identity is found."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:840
+#, no-c-format
+msgid "View tab"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:841
+#, no-c-format
+msgid "The <guilabel>Use custom icons</guilabel> option lets you choose icons that are different from the defaults in the folder list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:842
+#, no-c-format
+msgid "With the <guilabel>Show column</guilabel> drop down list you can set the visible columns in the header pane to Default, Sender, or Receiver. This may be useful if you use a custom folder to save some of your own sent messages."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:844
+#, no-c-format
+msgid "In the <guilabel>Message List</guilabel> section you can select and configure an <guilabel>Aggregation</guilabel> and <guilabel>Theme</guilabel> for this folder that differs from the default configured in &kmail;s settings. For more details see the <link linkend=\"configure-appearance-message-list\"> Message List</link> tab on the <guilabel>Appearance</guilabel> page."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:847
+#, no-c-format
+msgid "The <guilabel>Message Default Format</guilabel> section lets you choose between plain and &HTML; displays for messages in this folder."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:851
+#, no-c-format
+msgid "Retrieval tab"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:852
+#, no-c-format
+msgid "If you have an account that does not receive much mail and you don't want &kmail; to query the server too often, you can uncheck <guilabel>Use options from parent folder or account</guilabel> to set a longer interval in the <guilabel>Automatically synchronize after:</guilabel> spin box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:854
+#, no-c-format
+msgid "In <guilabel>Retrieval Options</guilabel> you can change the <guilabel>Always retrieve full messages</guilabel> option to <guilabel>Retrieve message bodies on demand</guilabel> if you have a slow connection. You can also set how long the message will be retained locally via the spin box."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:860
+#, no-c-format
+msgid "Templates tab"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:861
+#, no-c-format
+msgid "On this tab you can define folder-specific templates for your custom folders. For more details see the <link linkend=\"configure-composer-standard-templates\"> Standard Templates</link> tab on the <guilabel>Composer</guilabel> page."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:868
+#, no-c-format
+msgid "Expiry tab"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:869
+#, no-c-format
+msgid "You can set up automatic cleanup or deletion of emails. Check the box if you would like to automatically expire read or unread messages respectively. Set the number of days in the spin box. If you do not want to delete the messages permanently, you can assign a folder to keep them in via the <guilabel>Move expired messages to:</guilabel> text box / folder selection dialog. Once you have reviewed the messages and want to delete them permanently, you can go to the folder expiry options of the folder you chose to move them to and set the option <guilabel>Delete expired messages permanently</guilabel>, then click the <guibutton>Save Settings and Expire Now</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:876
+#, no-c-format
+msgid "Messages that are deleted cannot be restored, so be careful with this setting."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:881
+#, no-c-format
+msgid "Mailing List tab"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:883
+#, no-c-format
+msgid "If you are going to use the folder for a mailing list open the <guilabel>Mailing List Folder Properties</guilabel> dialog with <menuchoice><guimenu>Folder</guimenu> <guimenuitem>Mailing List Management</guimenuitem> </menuchoice> from the menu. Then you should check <guilabel>Folder holds a mailing list</guilabel> to associate this folder with the mailing list. Next you should click on <guilabel>Detect Automatically</guilabel>. &kmail; will then try to guess some information about the mailing list from the currently selected message. If &kmail; could not determine some addresses then you can add the missing information manually. To do this first select the <guilabel>Address type</guilabel> for which you want to add an address. You can choose among five options."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:896
+#, no-c-format
+msgid "Post to List"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:898
+#, no-c-format
+msgid "This address is used for sending messages to the mailing list. This is usually an email address."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:901
+#, no-c-format
+msgid "Subscribe to List"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:903
+#, no-c-format
+msgid "This address is used for subscribing to the mailing list. This can be an email address or the address of a web page."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:906
+#, no-c-format
+msgid "Unsubscribe From List"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:907
+#, no-c-format
+msgid "This address is used for unsubscribing from the mailing list. This can be an email address or the address of a web page."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:910
+#, no-c-format
+msgid "List Archives"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:911
+#, no-c-format
+msgid "This is the address of the archive of the mailing list. This is usually the address of a web page."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:914
+#, no-c-format
+msgid "List Help"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:916
+#, no-c-format
+msgid "This address is used for requesting help for this mailing list. This is usually an email address."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:920
+#, no-c-format
+msgid "After selecting the appropriate <guilabel>Address type</guilabel>, enter the email address or the address of the web page and then click on <guilabel>Add</guilabel>. With <guilabel>Remove</guilabel> you can remove addresses."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:925
+#, no-c-format
+msgid "When all the addresses have been added, you can execute an action, &eg; go to the list archives, by selecting the appropriate <guilabel>Address type</guilabel> and then clicking on <guilabel>Invoke Handler</guilabel>. If there is an email address and an address of a web page for the desired action, you will have to select the <guilabel>Preferred handler</guilabel> prior to clicking on <guilabel>Invoke Handler</guilabel>. Select <guilabel>KMail</guilabel> if you want to send a message to the email address and select <guilabel>Browser</guilabel> if you want to go to the web page."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:935
+#, no-c-format
+msgid "You can also send a new message to the mailing list via <menuchoice><guimenu>Message</guimenu><guimenuitem>New Message to Mailing-List...</guimenuitem></menuchoice> (instead of <guilabel>Invoke Handler</guilabel>)."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:941
+#, no-c-format
+msgid "Shortcut tab"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:942
+#, no-c-format
+msgid "You can define a keyboard shortcut to access the folder."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:946
+#, no-c-format
+msgid "Maintenance tab"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:947
+#, no-c-format
+msgid "This tab shows an overview about the folder type and its size, the number of read and unread messages in the folder and allows you to enable text indexing."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:953
+#, no-c-format
+msgid "Quota tab (&IMAP; only)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:954
+#, no-c-format
+msgid "This tab will show you how much space has been allocated to your &IMAP; account by the server, and also how much of the allocated space you are currently using."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:961
+#, no-c-format
+msgid "Access Control tab (&IMAP; only)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:962
+#, no-c-format
+msgid "Here you can manage the access control lists (&acl;s) of &IMAP; folders."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:963
+#, no-c-format
+msgid "The &IMAP; server must have user level &acl; configured and enabled for this tab to be visible."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:964
+#, no-c-format
+msgid ""
+"The currently active &acl; is shown in the list. It consists of pairs of <guilabel>User Id</guilabel>s and the <guilabel>Permissions</guilabel> granted to users identified by that <guilabel>User Id</guilabel>. <footnote> "
+"<para>Note that a single <guilabel>User Id</guilabel> might refer to more than one user. Depending on the &IMAP; server and its configuration, there may be User Ids that correspond to groups of users, anonymous users, or any user. Consult the manual of your specific &IMAP; server implementation for more information.</para>"
+" </footnote> &acl;s are settable per-folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:971
+#, no-c-format
+msgid "As with everything else when using <emphasis>disconnected &IMAP;</emphasis>, you need to sync with the server for the changes to be transferred to the server."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:973
+#, no-c-format
+msgid "&IMAP; &acl;s define a lot of fine-grained permissions that you can grant or deny other users. For the sake of clarity, &kmail; will present them as the following five categories that you can choose from (see <xref linkend=\"table-acl-summary\"/> for the details if you already know &IMAP; &acl;s)."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:978
+#, no-c-format
+msgid "None"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:980
+#, no-c-format
+msgid "Grants the users identified by <guilabel>User Id</guilabel> no rights at all. This is also the default for users not explicitly (or implicitly, as a group) listed in the &acl;. These users will not see this folder in the list of &IMAP; folders presented to them by their mail clients."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:985
+#, no-c-format
+msgid "<guilabel>Read</guilabel>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:987
+#, no-c-format
+msgid "Grants the users identified by <guilabel>User Id</guilabel> reading rights for this folder. This also includes the ability for their mail clients to mark mails as read and store this information on the server."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:990
+#, no-c-format
+msgid "Every user has their own list of read mail, so none of your unread mails will suddenly be marked as read just because someone else has already read them."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:994
+#, no-c-format
+msgid "These users will see this folder in the list of &IMAP; folders presented to them by their mail clients."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:995
+#, no-c-format
+msgid "Use this to create a shared folder that others can read, but not modify."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:997
+#, no-c-format
+msgid "If you were the editor of a company's news letter, you could create a folder for the purpose of distributing the news letter, grant everyone reading rights, and save the letter to this folder instead of sending it out by email to a catch-all address."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1003
+#, no-c-format
+msgid "Append"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1005
+#, no-c-format
+msgid "(also known as <guilabel>Post</guilabel>)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1006
+#, no-c-format
+msgid "Grants the users identified by <guilabel>User Id</guilabel> reading (see above) and posting rights for this folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1007
+#, no-c-format
+msgid "Use this to create a shared folder that others can read and post messages to, but cannot otherwise modify."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1009
+#, no-c-format
+msgid "If you wanted to create a company-wide discussion forum, instead of using a web-based form or a separate company-private usenet server, you could create a bunch of folders (one per topic), and grant everyone reading and posting rights. Instead of posting to an &nntp; server or writing their messages into a web form, people would just write emails and store them in the folder suiting the topic of the message."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1015
+#, no-c-format
+msgid "Write"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1017
+#, no-c-format
+msgid "Grants the users identified by <guilabel>User Id</guilabel> reading, posting (see above), and writing rights for this folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1018
+#, no-c-format
+msgid "The right to write to a folder includes deleting of messages, creating subfolders, and storing other attributes than read/unread on the server (&eg; answered)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1020
+#, no-c-format
+msgid "Use this to create a shared folder that everyone has (almost, see <xref linkend=\"folders-properties-acl-all\"/>) the same rights for."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1022
+#, no-c-format
+msgid "In the <xref linkend=\"folders-properties-acl-append\"/> example, you could assign write rights to a group of people acting as moderators, who would then be able to remove off-topic posts, and create sub-topic folders for high-traffic folders."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1027
+#, no-c-format
+msgid "<guilabel>All</guilabel>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1029
+#, no-c-format
+msgid "Grants the users identified by <guilabel>User Id</guilabel> reading, posting, writing (see above), as well as administration rights, &ie; the right to modify the &acl; of this folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1031
+#, no-c-format
+msgid "This is the default set of rights for the owner of a folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1034
+#, no-c-format
+msgid "summarizes the &IMAP; &acl; rights associated with each permission level."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1036
+#, no-c-format
+msgid "&acl; Rights Summary"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1040
+#, no-c-format
+msgid "&acl; right"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1051
+#, no-c-format
+msgid "Lookup"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1053 using-kmail.docbook:1054 using-kmail.docbook:1055
+#: using-kmail.docbook:1056 using-kmail.docbook:1061 using-kmail.docbook:1062
+#: using-kmail.docbook:1063 using-kmail.docbook:1064 using-kmail.docbook:1069
+#: using-kmail.docbook:1070 using-kmail.docbook:1071 using-kmail.docbook:1072
+#: using-kmail.docbook:1078 using-kmail.docbook:1079 using-kmail.docbook:1080
+#: using-kmail.docbook:1086 using-kmail.docbook:1087 using-kmail.docbook:1088
+#: using-kmail.docbook:1095 using-kmail.docbook:1096 using-kmail.docbook:1103
+#: using-kmail.docbook:1104 using-kmail.docbook:1111 using-kmail.docbook:1112
+#: using-kmail.docbook:1120
+#, no-c-format
+msgid "<entry>x</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1059
+#, no-c-format
+msgid "<entry>Read</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1067
+#, no-c-format
+msgid "Store Seen"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1075
+#, no-c-format
+msgid "Insert"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1083
+#, no-c-format
+msgid "Post"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1091
+#, no-c-format
+msgid "Write Flags"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1099
+#, no-c-format
+msgid "Create"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1107
+#, no-c-format
+msgid "Delete"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1115
+#, no-c-format
+msgid "Administer"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1131
+#, no-c-format
+msgid "Message Filters"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: using-kmail.docbook:1134
+#, no-c-format
+msgid "<screeninfo>The Filter Dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: using-kmail.docbook:1140
+#, no-c-format
+msgid "<phrase>The Filter Dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1143
+#, no-c-format
+msgid "The Filter Creation Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1149
+#, no-c-format
+msgid "After using &kmail; for a while, you may find that you have trouble sorting out the new messages in your inbox when they arrive. Filters allow you to automatically perform certain actions on incoming messages and to manually perform actions on selected messages in a folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1154
+#, no-c-format
+msgid "Filters consist of filter criteria, whose rules are used to determine whether this filter should be applied to a given message, and a list of filter actions, which describe what is to be done with, or to, the message if the search pattern matches."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1159
+#, no-c-format
+msgid "Filters are considered one after the other, starting with the first filter in the list. The first one whose pattern matches the given message is applied; you can request that the remaining filters also be processed, but the default is to stop processing at the first matching filter."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1165
+#, no-c-format
+msgid "Usually, filters are used on incoming messages, but they can also be applied to sent messages or to an arbitrary message or group of messages. To selectively filter messages, select the messages you want to filter in the message list and either type <keycombo action=\"simul\">&Ctrl;<keycap>J</keycap> </keycombo> or select <menuchoice><guimenu>Message</guimenu> <guimenuitem>Apply Filter</guimenuitem></menuchoice>. This will apply the filters (the ones that have been marked for manual filtering in the <link linkend=\"filter-dialog\">advanced filter dialog</link>) to those messages."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1176
+#, no-c-format
+msgid "Fast Filter Creation"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1178
+#, no-c-format
+msgid "There are two methods for creating a filter; the quick method is to use <menuchoice><guimenu>Message</guimenu><guimenuitem>Create Filter</guimenuitem></menuchoice> and select a criterion from the submenu. This will open the filter dialog and present you with a new filter which has the first rule of the search pattern and the first action (as <guilabel>Move into Folder</guilabel>) preset. In most cases, all you have to do is select the folder where the message should be moved, but you can, of course, edit the filter as you like."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1187
+#, no-c-format
+msgid "When creating a filter on mailing list messages, this method will try to find a criterion that uniquely identifies messages from the list. If it succeeds, the guessed name of the list is presented in the <menuchoice><guimenu>Message</guimenu><guisubmenu>Create Filter</guisubmenu><guimenuitem>Filter on Mailing-List...</guimenuitem></menuchoice> menu entry."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1195
+#, no-c-format
+msgid "The second method is to manually construct a filter from scratch by calling the filter dialog through <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Filters...</guimenuitem></menuchoice>. The filter dialog is described in detail in the following subsection."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1204
+#, no-c-format
+msgid "<title>The Filter Dialog</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1207
+#, no-c-format
+msgid "This dialog allows you to manage and edit your list of filters."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1210
+#, no-c-format
+msgid "You can reach it either via <menuchoice><guimenu>Message</guimenu><guisubmenu>Create Filter</guisubmenu></menuchoice> or <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Filters...</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1216
+#, no-c-format
+msgid "The dialog is divided into three main sections on the <guilabel>General</guilabel> and <guilabel>Advanced</guilabel> tabs."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1220
+#, no-c-format
+msgid "Available Filters"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1221
+#, no-c-format
+msgid "This group contains the list of filters and some action buttons to modify the filters, namely: create new filters; move them up or down the list; copy one of them; delete them; or rename them. If you select a filter from the list, its properties are shown in the right-hand half of the dialog."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1228
+#, no-c-format
+msgid "Filter Criteria"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1228
+#, no-c-format
+msgid "In this group you can edit the pattern that messages must match before the filter is applied to them. You can select whether all of the defined rules must match, or whether a single match is enough. See <link linkend=\"filter-criteria\">Search Patterns</link> below for a detailed description of each search rule type."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1235
+#, no-c-format
+msgid "You can click on <guibutton>&nbsp;&plus;&nbsp;</guibutton> to get an additional (initially empty) rule if you want to define more complex patterns, and on <guibutton>&nbsp;&minus;&nbsp;</guibutton> to remove the selected rule. <guibutton>Clear</guibutton> clears the pattern, &ie;, it removes all but one rule from the screen and resets it."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1243
+#, no-c-format
+msgid "Filter Actions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1243
+#, no-c-format
+msgid "In this group you can edit the list of actions that are applied to all messages that match the defined filter criteria. See <link linkend=\"filter-action\">Filter Actions</link> below for a detailed description of each action type."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1249
+#, no-c-format
+msgid "You can click on <guibutton>&nbsp;&plus;&nbsp;</guibutton> to get a new, empty action (if you want to define more than one action), and on <guibutton>&nbsp;&minus;&nbsp;</guibutton> to remove the selected action. <guibutton>Clear</guibutton> clears the list, &ie; it removes all but one action and resets that one."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1258
+#, no-c-format
+msgid "Advanced Options"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1262
+#, no-c-format
+msgid "In this group you can define a few advanced options that allow you to fine tune your filtering."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1265
+#, no-c-format
+msgid "Using the first row of check boxes, you can toggle when the filter is applied: the <guilabel>Apply this filter to incoming messages</guilabel> option means that the filter is applied to messages when you receive them (&ie; on <guiicon><inlinemediaobject><imageobject><imagedata fileref=\"mail-receive.png\" format=\"PNG\"/></imageobject></inlinemediaobject> Check Mail</guiicon>). The filter can be applied to all messages, to all but online IMAP accounts, or to particular incoming email accounts."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1272
+#, no-c-format
+msgid "The <guilabel>Apply this filter to sent messages</guilabel> option means that the filter is applied to messages when you send them, and the <guilabel>Apply this filter on manual filtering</guilabel> option controls whether to apply this filter when filtering is specifically selected (&ie; via <menuchoice><guimenu>Message</guimenu> <guimenuitem>Apply Filters</guimenuitem></menuchoice>.)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1279
+#, no-c-format
+msgid "If <guilabel>Apply this filter to sent messages</guilabel> is checked the filter will be triggered <emphasis>after</emphasis> the message is sent and it will only affect the local copy of the message. If the recipient's copy also needs to be modified, please use <guilabel>Apply this filter before sending messages</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1285
+#, no-c-format
+msgid "The <guilabel>If this filter matches, stop processing here</guilabel> check box controls whether or not the filters after the current filter will be processed when the current filter matches."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1289
+#, no-c-format
+msgid "If the <guilabel>Add this filter to the Apply Filter menu</guilabel> check box is selected, this filter will be inserted in the <menuchoice><guimenu>Message</guimenu> <guimenuitem>Apply Filter</guimenuitem></menuchoice> submenu. You can then apply this single filter to a message or a set of messages. If you select this option, you may optionally select a keyboard shortcut and insert a special icon to invoke this filter from the toolbar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1297
+#, no-c-format
+msgid "Another way of applying filters is to use the <menuchoice><guimenu>Message</guimenu> <guimenuitem>Apply Filters</guimenuitem></menuchoice> menu option, which applies <emphasis>all</emphasis> the filters – one after another – until they are all used or one of the filters that matches specifies the <guilabel>If this filter matches, stop processing here</guilabel> option."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1308
+#, no-c-format
+msgid "Filters are automatically named unless you explicitly rename them using the <guibutton><inlinemediaobject><imageobject> <imagedata fileref=\"document-edit.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Rename...</guibutton> button. The dialog assumes that it should continue auto-naming the filter as long as the filter name starts with <quote>&lt;</quote>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1316
+#, no-c-format
+msgid "If you apply filter changes, via <guibutton>OK</guibutton> or <guibutton>Apply</guibutton>, only the valid filters are actually copied to the internal filter manager."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1320
+#, no-c-format
+msgid "Similarly, empty rules and actions are removed from the pattern and action lists, respectively, before the filter is saved."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1327
+#, no-c-format
+msgid "Search Patterns"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1329
+#, no-c-format
+msgid "The most common use of filters is to filter on the sender of messages. This can be done by choosing <guilabel>From</guilabel>. A good bet for a mailing list would be <guilabel>All Recipients</guilabel>, but there are other criteria a filter can search for (note that all patterns are interpreted case-insensitively)."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1338 using-kmail.docbook:1447
+#, no-c-format
+msgid "Complete Message"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1340
+#, no-c-format
+msgid "Searches the whole message (&ie; headers, body and attachments, if any)."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1345
+#, no-c-format
+msgid "Body of Message"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1347
+#, no-c-format
+msgid "Searches the body of the message (&ie; the whole message except the headers)."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1351
+#, no-c-format
+msgid "Anywhere in Headers"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1353
+#, no-c-format
+msgid "Searches all the headers in the message."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1357
+#, no-c-format
+msgid "All Recipients"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1359
+#, no-c-format
+msgid "Searches the <quote>To</quote> and <quote>CC</quote> header fields of the message."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1363
+#, no-c-format
+msgid "Size in Bytes"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1365
+#, no-c-format
+msgid "Sets upper or lower bounds on the message's size."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1369
+#, no-c-format
+msgid "Age in Days"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1371
+#, no-c-format
+msgid "Sets upper or lower bounds on the message's age."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1375 using-kmail.docbook:1498
+#, no-c-format
+msgid "Message Status"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1377
+#, no-c-format
+msgid "Sets restrictions on the status of the message (Important / Read / Unread / &etc; see <menuchoice><guimenu>Message</guimenu><guimenuitem>Mark Message &gt;</guimenuitem></menuchoice>)."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1382
+#, no-c-format
+msgid "Message Tag"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1384
+#, no-c-format
+msgid "Checks for tagged messages. See <menuchoice><guimenu>Message</guimenu><guimenuitem>Mark Message &gt;</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1388
+#, no-c-format
+msgid "Encrypted"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1390
+#, no-c-format
+msgid "Checks for encrypted messages."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:1394
+#, no-c-format
+msgid "Any other value (<guilabel>From</guilabel>, <guilabel>To</guilabel>, <guilabel>Date</guilabel>, &etc;)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1396
+#, no-c-format
+msgid "Searches the header field with that name."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1401
+#, no-c-format
+msgid "The list of possible rules depends on what you selected in the first drop down box. The available rules are:"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1408
+#, no-c-format
+msgid "Rule"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1409
+#, no-c-format
+msgid "Available for"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1410
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1415
+#, no-c-format
+msgid "<guilabel>contains</guilabel>/<guilabel>does not contain</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1416 using-kmail.docbook:1440
+#, no-c-format
+msgid "all textual search items"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1417
+#, no-c-format
+msgid "Matches if the searched item contains (or does not contain) the given text."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1421
+#, no-c-format
+msgid "<guilabel>equals</guilabel>/<guilabel>does not equal</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1422 using-kmail.docbook:1428 using-kmail.docbook:1434
+#, no-c-format
+msgid "most textual search items"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1423
+#, no-c-format
+msgid "Matches if the searched item is equal to (or not equal to) the given text."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1427
+#, no-c-format
+msgid "<guilabel>starts with</guilabel>/<guilabel>does not start with</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1429
+#, no-c-format
+msgid "Matches if the searched item begins with (or does not begin with) the given text."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1433
+#, no-c-format
+msgid "<guilabel>ends with</guilabel>/<guilabel>does not end with</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1435
+#, no-c-format
+msgid "Matches if the searched item ends with (or does not end with) the given text."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1439
+#, no-c-format
+msgid "<guilabel>matches regular expr.</guilabel>/<guilabel>does not match reg. expr.</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1441
+#, no-c-format
+msgid "Matches if a part of the searched item matches the given regular expression (or does not match it). If the regular expression editor is installed then you can edit the regular expression by clicking on the <guilabel>Edit...</guilabel> button."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1446
+#, no-c-format
+msgid "<guilabel>has an attachment</guilabel>/<guilabel>has no attachment</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1448
+#, no-c-format
+msgid "Matches if the message has an attachment (or does not have an attachment)."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1467
+#, no-c-format
+msgid "<guilabel>is equal to</guilabel>/<guilabel>is not equal to</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1468 using-kmail.docbook:1474 using-kmail.docbook:1480
+#: using-kmail.docbook:1486 using-kmail.docbook:1492
+#, no-c-format
+msgid "numerical search items"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1469
+#, no-c-format
+msgid "Matches if the value of the search item is equal to (or not equal to) the specified value."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1473
+#, no-c-format
+msgid "is less than"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1475
+#, no-c-format
+msgid "Matches if the value of the search item is less than the specified value."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1479
+#, no-c-format
+msgid "is greater than"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1481
+#, no-c-format
+msgid "Matches if the value of the search item is greater than the specified value."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1485
+#, no-c-format
+msgid "is less than or equal to"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1487
+#, no-c-format
+msgid "Matches if the value of the search item is less than or equal to the specified value."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1491
+#, no-c-format
+msgid "is greater than or equal to"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1493
+#, no-c-format
+msgid "Matches if the value of the search item is greater than or equal to the specified value."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1497
+#, no-c-format
+msgid "<guilabel>is</guilabel>/<guilabel>is not</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1499
+#, no-c-format
+msgid "Matches if the message has (or does not have) the specified status."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1502
+#, no-c-format
+msgid "<guilabel>is after</guilabel>/<guilabel>is before or equal to</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1503 using-kmail.docbook:1508
+#, no-c-format
+msgid "<guilabel>Date</guilabel> header"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1504
+#, no-c-format
+msgid "Matches if the message was sent after (not after) the specified date."
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1507
+#, no-c-format
+msgid "<guilabel>is before</guilabel>/<guilabel>is after or equal to</guilabel>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: using-kmail.docbook:1509
+#, no-c-format
+msgid "Matches if the message was sent before (not before) the specified date."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1518
+#, no-c-format
+msgid "Filter Action"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1520
+#, no-c-format
+msgid "The most common use of filters is to divert some incoming messages to particular folders; this can be done by choosing <guilabel>Move into Folder</guilabel>. Here is a list of all possible actions."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1526
+#, no-c-format
+msgid "Move Into Folder"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1528
+#, no-c-format
+msgid "This will move the message into another folder, and remove it from its current folder."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1534
+#, no-c-format
+msgid "Copy Into Folder"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1536
+#, no-c-format
+msgid "This will copy the message to another folder, and leave the message in the current folder."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1542
+#, no-c-format
+msgid "Set Identity To"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1544
+#, no-c-format
+msgid "This will set the identity that will be used when you reply to this message."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1549
+#, no-c-format
+msgid "Mark As"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1551
+#, no-c-format
+msgid "This allows you to mark the message as read or important (flagged), but also as forwarded, replied, &etc;"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1556
+#, no-c-format
+msgid "Add Tag"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1558
+#, no-c-format
+msgid "This will add a tag to the message. You may choose from a list of all the tags that have been defined."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1563
+#, no-c-format
+msgid "Send Fake MDN"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1565
+#, no-c-format
+msgid "This will send a faked message disposition notification (&ie; a read receipt) to the sender of the message."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1570
+#, no-c-format
+msgid "Set Transport To"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1572
+#, no-c-format
+msgid "This will set the method of transport (&eg; &SMTP;) that will be used when you reply to the message. You may choose from a list of all your outgoing email accounts."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1577
+#, no-c-format
+msgid "Set Reply-To To"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1578
+#, no-c-format
+msgid "This will modify the <guilabel>Reply-To</guilabel> field of this message. This can be useful for mailing lists that automatically set a Reply-To address you do not wish to use."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1584
+#, no-c-format
+msgid "Forward To"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1585
+#, no-c-format
+msgid "This will forward the message inline (&ie; as if you selected <menuchoice><guimenu>Message</guimenu> <guimenuitem>Forward</guimenuitem><guimenuitem>Inline...</guimenuitem></menuchoice>) to another email address. You may select a custom forwarding template if such a template has been defined. If &kaddressbook; is installed, you may choose the <quote>Forward To</quote> address from a pop-up window."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1592
+#, no-c-format
+msgid "Redirect To"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1593
+#, no-c-format
+msgid "This will redirect the message as-is to another email address. If &kaddressbook; is installed, you may choose the <quote>Redirect To</quote> address from a pop-up window."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1598
+#, no-c-format
+msgid "Confirm Delivery"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1599
+#, no-c-format
+msgid "Will return a message to the sender that verifies successful delivery of their message, if the sender requested that."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1601
+#, no-c-format
+msgid "This action allows you to select who will get delivery receipts from you. Though you can globally enable the sending of delivery confirmations in the <guilabel>Configure &kmail;...</guilabel> dialog (<link linkend=\"configure-security\"><guilabel>Security</guilabel> page</link>) we do not recommend that you send them to everyone, since this makes tracking of spam messages very easy for the spammers."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:1610
+#, no-c-format
+msgid "<guilabel>Execute Command</guilabel> (for advanced users only)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1612
+#, no-c-format
+msgid "This will execute a program, but will not modify the message. Specify the full path to the program you want to execute; &kmail; will then wait until the program returns. If you do not want &kmail; to wait, append '&amp;' to the command. You can feed the segments of the message into the program one by one: <symbol>&percnt;0</symbol>, <symbol>&percnt;1</symbol>, &etc; stand for files representing the message segments. For common messages, <symbol>&percnt;0</symbol> is the plain text message, <symbol>&percnt;1</symbol> the first attachment and so on. Additionally, the whole message is fed into the program's <acronym>stdin</acronym>; and every occurrence of <symbol>&percnt;{foo}</symbol> is replaced by the content of the foo header. If you need to identify the message via its storage location in the Akonadi database, you can use the %{itemid} or %{itemurl} placeholders to achieve that."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1629
+#, no-c-format
+msgid "This currently only works if the message has <emphasis>at least one</emphasis> attachment. No, not even <symbol>&percnt;0</symbol> will work in the general case!"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1634
+#, no-c-format
+msgid "You can enter arbitrarily-complex shell commands here, since &kmail; uses a sub shell to execute the command line; therefore, even this command will work (within its limits): <userinput><command>uudecode</command> <option>-o</option> <parameter>$(mktemp kmail-uudecoded.XXXXXX)</parameter> &amp;&amp; <command>echo</command> <parameter>$'\\a'</parameter></userinput>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1644
+#, no-c-format
+msgid "Pipe Through"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1646
+#, no-c-format
+msgid "This will feed the message to a program: if the program returns output, the entire message (including the headers) will be replaced with this output; if the program does not return output or exits with a return code other than 0 (indicating an error occurred), the message will not change. Specify the full path to the program. The same substitutions (<symbol>&percnt;n</symbol>, <symbol>&percnt;{foo}</symbol> as with <guilabel>Execute Command</guilabel> may be performed on the command line."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1654
+#, no-c-format
+msgid "Both the Anti-Spam Wizard and the Anti-Virus Wizard use the <quote>Pipe Through</quote> action to check for spam / malware. The commonly available anti-spam and anti-virus programs return the message, and insert an extra header record, if spam (or a virus) is detected."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1657
+#, no-c-format
+msgid "Be cautious with this action, as it can damage your messages if the filter program returns garbage or extra lines."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1663
+#, no-c-format
+msgid "Remove Header"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1665
+#, no-c-format
+msgid "Will remove all header fields with the given name from the message. This is useful mainly for removing bogus <quote>Reply-To:</quote> headers."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1671
+#, no-c-format
+msgid "Add Header"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1673
+#, no-c-format
+msgid "If no such field is already present this will add a new header field with the given name and value to the message; if there already is a header field with that name, it is overwritten with the given value; if there are already multiple headers with the given name (&eg; <quote>Received:</quote> headers), an arbitrary one of them is overwritten and the others are left unchanged -- this is a known limitation. You may want to combine this filter with the <guilabel>Remove Header</guilabel> filter above to make sure that there are no other headers with that name in the message."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1685
+#, no-c-format
+msgid "Rewrite Header"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1687
+#, no-c-format
+msgid "Will scan the given header field, modify its contents and write it back. The search string is always interpreted as a case-sensitive regular expression. The replacement string is inserted literally except for occurrences of <userinput>\\n</userinput>, <userinput>$n</userinput> and <userinput>${nn}</userinput>, where <userinput>n</userinput> is a positive (single-digit, except for the third form) number or <userinput>0</userinput>. These constructs are interpreted as back references to substrings captured with parentheses in the search string."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1695
+#, no-c-format
+msgid "Analogous restrictions as in the <guilabel>Add Header</guilabel> action apply here, too."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1700
+#, no-c-format
+msgid "Play Sound"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1702
+#, no-c-format
+msgid "Will play the specified sound. A browse button lets you choose a pre-recorded sound (&eg; .wav) file."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1706
+#, no-c-format
+msgid "Add to Address Book"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1708
+#, no-c-format
+msgid "If &kaddressbook; is installed, this action will let you specify which header to scan (From, To, CC, or BCC), what tag to assign, if any, and which named address book to store the addresses in."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1714
+#, no-c-format
+msgid "Delete Message"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1716
+#, no-c-format
+msgid "Deletes the selected message(s). Use this option cautiously. Deleted messages cannot be recovered."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1720
+#, no-c-format
+msgid "Unset Status"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1722
+#, no-c-format
+msgid "This is the inverse of <guilabel>Mark As</guilabel>, above. Instead of marking the selected message as important, read, &etc;, this action will clear the specified flag."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1727
+#, no-c-format
+msgid "Encrypt"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1729
+#, no-c-format
+msgid "Will encrypt the selected message(s) with the specified public key. You may choose from any public / private key pairs saved on your key ring."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:1734
+#, no-c-format
+msgid "Decrypt"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1736
+#, no-c-format
+msgid "Will decrypt the selected message(s). Use this action with caution. &kmail; will decrypt messages automatically when you open them for viewing, so you probably don't really need to use this action."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1745
+#, no-c-format
+msgid "Filter Examples"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1747
+#, no-c-format
+msgid "As of yet &kmail; does not highlight or mark mails that have an extra <replaceable>Priority:</replaceable> header. If you want to flag all <quote>urgent</quote> messages as being <emphasis>important</emphasis>, you can use a filter:"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1753
+#, no-c-format
+msgid "Tagging urgent messages as <emphasis>important</emphasis>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1755
+#, no-c-format
+msgid "Open up the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Filters...</guimenuitem></menuchoice> dialog and click the <guiicon><inlinemediaobject><imageobject><imagedata fileref=\"document-new.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> New</guiicon> icon below the <guilabel>Available Filters</guilabel> list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1762
+#, no-c-format
+msgid "In the <guilabel>Filter Criteria</guilabel> area, select <guilabel>Anywhere in Headers</guilabel> and <guilabel>contains</guilabel> from the drop down boxes and type <userinput>Priority</userinput> in the text field. Select the same criterion in the next line and type <userinput>urgent</userinput> in the text field of the second drop down box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1767
+#, no-c-format
+msgid "So your filter will match all messages containing a <quote>Priority: urgent</quote> header field."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1771
+#, no-c-format
+msgid "Skip down to the <guilabel>Filter Actions</guilabel> area. Select <guilabel>Mark As</guilabel> from the first drop down box. A new drop down box containing a list of marker flags is shown to the right. Select <guilabel>Important</guilabel> from the drop down box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1778
+#, no-c-format
+msgid "Since you want this filter to <emphasis>not</emphasis> prevent other filters' message rules from being applied, carefully <emphasis>uncheck</emphasis> the <guilabel>If this filter matches, stop processing here</guilabel> option on the <quote>Advanced</quote> tab."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1784
+#, no-c-format
+msgid "Click on <guibutton>OK</guibutton>, and you are done."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1785
+#, no-c-format
+msgid "Just remember to move the <quote>Priority: urgent</quote> filter entry to the top of the <guilabel>Available Filters</guilabel> list each time you add a new filter, so that your flow-through filter is always applied first."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1792
+#, no-c-format
+msgid "If you are subscribed to the (general) &kde; List, you could create a folder for the list (let's call it <replaceable>KDE-General</replaceable>) and use a filter to automatically transfer new messages from your inbox to your <replaceable>KDE-General</replaceable> folder if they came from the &kde; List. Here is how to create this filter:"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1800
+#, no-c-format
+msgid "Filtering a mailing list"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1802
+#, no-c-format
+msgid "Check if <menuchoice><guimenu>Message</guimenu><guisubmenu>Create filter</guisubmenu><guimenuitem>Filter on Mailing-List...</guimenuitem></menuchoice> can identify the mailing list (the name of the list should then appear in the menu item); in this case, this works and you are presented with a filter that has <quote>List-Id <guilabel>contains</guilabel> &lt;kde.kde.org&gt;</quote> preset. Then select the desired destination folder from the folder pull-down menu in the <guilabel>Filter Action</guilabel> group and that is it."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1812
+#, no-c-format
+msgid "If that does not work, think of a unique way of identifying the messages you want to filter. The (almost) unique property of &kde; List messages is that they always contain <quote>kde@kde.org</quote> in the <guilabel>To:</guilabel> or <guilabel>CC:</guilabel> field. It is not quite perfect, because this fails for cross-posted messages."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1820
+#, no-c-format
+msgid "Select <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Filters...</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1824
+#, no-c-format
+msgid "Press the <guibutton><inlinemediaobject><imageobject><imagedata fileref=\"document-new.png\" format=\"PNG\"/></imageobject></inlinemediaobject></guibutton> button to create an empty filter. It will appear as <guilabel>&lt;unknown&gt;</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1829
+#, no-c-format
+msgid "In the <guilabel> Filter Criteria</guilabel> area, select <guilabel>All Recipients</guilabel> from the first drop down box, <guilabel>contains</guilabel> from the second drop down box, and type <userinput>kde@kde.org</userinput> in the text field."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1836
+#, no-c-format
+msgid "Skip down to the <guilabel>Filter Actions</guilabel> section. Select <guilabel>Move Into Folder</guilabel> from the first drop down box. Click on the folder icon and a window containing a list of folders will appear. Select the folder that you want the filtered messages to be transferred to. For this example, you would select <guilabel>KDE-General</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1844
+#, no-c-format
+msgid "You may find that you need to use more powerful criteria to properly filter your messages; for example, you may only want to filter the &kde; List messages that are written by your friend <replaceable>Fred Johnson &lt;fj@anywhere.com&gt;</replaceable>. This is where the rest of the matching criteria section comes into play:"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1851
+#, no-c-format
+msgid "Extending the filter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1853
+#, no-c-format
+msgid "Open up the <guilabel>Configure Filters...</guilabel> window and select the filter you just created."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1857
+#, no-c-format
+msgid "Since you want to filter all messages that have <replaceable>kde@kde.org</replaceable> in the <guilabel>To:</guilabel> or <guilabel>CC:</guilabel> field <emphasis>and</emphasis> that are from Fred, check the <guibutton>Match all of the following</guibutton> radio button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1865
+#, no-c-format
+msgid "Now, go to the second search rule and select the following from the pull-down menus: <guilabel>From</guilabel>, <guilabel>contains</guilabel>. Now, type <userinput>fj@anywhere.com</userinput> in the text field."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1872
+#, no-c-format
+msgid "You now have a filter that identifies all &kde; List messages that are from <userinput>fj@anywhere.com</userinput>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1880
+#, no-c-format
+msgid "Filter Optimization"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1882
+#, no-c-format
+msgid "It is important to realize that the order of the filters has an impact on the speed of the filtering process. Here are some ideas which can help you to improve filter performance."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:1889
+#, no-c-format
+msgid "Stop filter processing as soon as possible:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1891
+#, no-c-format
+msgid "If you know that a filter finally processes a certain class of messages, please make sure to check the option <guilabel>If this filter matches, stop processing here</guilabel> for the filter. This will avoid the evaluation of the filter rules of all subsequent filters. (See the advanced options in the <link linkend=\"filter-dialog-id\"> Filter Dialog</link>)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1897
+#, no-c-format
+msgid "An example is filtering messages from mailing lists via List-Id header into separate folders. Having found out that a message came from list A means that you can avoid checking the next filter for messages from list B."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:1906
+#, no-c-format
+msgid "Consider the costs of the evaluation of filter rules:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1908
+#, no-c-format
+msgid "The time required to evaluate a filter rule depends on the way the rule is constructed. In particular, scanning for a substring using the <guilabel>contains</guilabel> operation is faster than a pattern matching using the <guilabel>matches regular expr.</guilabel> operation."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1914
+#, no-c-format
+msgid "Another dependency is on the amount of data which is used for the evaluation of a filter rule. If the rule is based on a message header, its evaluation should normally be much faster than the evaluation of a rule based on the complete message."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1919
+#, no-c-format
+msgid "Try to keep the filter rules as simple as possible."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:1926
+#, no-c-format
+msgid "Check the order of your filters:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1928
+#, no-c-format
+msgid "The various filter actions have different degrees of complexity. The most expensive filter actions are <guilabel>Pipe Through</guilabel> and <guilabel>Execute Command</guilabel>, because both need external programs to be run. Placing filters containing these filter actions behind other filters that can reduce the number of times these complex actions are required is useful, if the filter logic allows this."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1935
+#, no-c-format
+msgid "An example is filtering messages from a mailing list and detecting spam messages. For the spam detection you will usually use an external tool via a <guilabel>Pipe Through</guilabel> action. Filtering the messages for the mailing list is done via the List-Id header. If you do not want to check the messages from the mailing list for spam too, it is better to use the filter for the mailing list messages before the filter for the spam detection. This way you avoid the expensive and slow spam check for all messages which were identified as mailing list messages."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1950
+#, no-c-format
+msgid "Filter Log"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1951
+#, no-c-format
+msgid "If you want to verify that your filters work as intended, you can open a viewer for the filter log via <menuchoice><guimenu>Tools</guimenu> <guimenuitem>Filter Log Viewer...</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1955
+#, no-c-format
+msgid "In the viewer you can configure logging of the filter process. You can control the level of detail recorded, clear the log, limit the size of the log, and save the log as a file. The log can provide valuable information when you want to improve your filter rules."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1964
+#, no-c-format
+msgid "Backing up &kmail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1965
+#, no-c-format
+msgid "This section describes various backup solutions within &kmail;."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:1967
+#, no-c-format
+msgid "Archiving"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:1970
+#, no-c-format
+msgid "<guimenu>Folder</guimenu><guimenuitem>Archive Folder...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1972
+#, no-c-format
+msgid "This feature is also available through the context menu launched with a &RMB;, then select <guimenuitem>Archive Folder...</guimenuitem>. This will <action>open a dialog</action> that allows you to create a single archive of the currently selected folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1974
+#, no-c-format
+msgid "The <guilabel>Folder:</guilabel> shows the currently selected folder, if you wish to change the folder to be archived click the folder icon. The <guilabel>Format:</guilabel> drop down menu allows you to choose a format (choices are: zip, tar, tar.bz2, and tar.gz). If you would like to change the default name or location, click the folder button to the right of <guilabel>Archive File</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1977
+#, no-c-format
+msgid "Check the <guilabel>Delete folder and subfolders after completion</guilabel> button if you would like everything you archived deleted from the &kmail; database after the external archive has been saved. By default all subfolders will be archived. Uncheck <guilabel>Archive all subfolders</guilabel> if you only want to archive the parent folder."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:1982
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure Automatic Archiving...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:1984
+#, no-c-format
+msgid "This is a powerful tool that can be used to assist in backing up your email. Please see <ulink url=\"help:/akonadi_archivemail_agent\">Automatic Archiving</ulink> for details."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2038
+#, no-c-format
+msgid "Exporting"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:2041
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Import/Export &kmail; Data...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2043
+#, no-c-format
+msgid "This feature exports settings and local mail to a compressed file. Please see <ulink url=\"help:/pimdataexporter\">pim data exporter</ulink> for details."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2050
+#, no-c-format
+msgid "Restore and Import in &kmail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2051
+#, no-c-format
+msgid "This section describes restoring backups and importing data into &kmail;."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2054
+#, no-c-format
+msgid "Restoring backed up email and settings"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:2057
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Export &kmail; Data...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2059
+#, no-c-format
+msgid "If you used PIM Data Exporter to backup local email and / or settings, please use it again to restore data into &kmail;. See <ulink url=\"help:/pimdataexporter\">PIM Data Exporter</ulink> for details."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2066
+#, no-c-format
+msgid "Importing options in &kmail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2068
+#, no-c-format
+msgid "&kmail; has an import wizard to make the transition from another email application easier."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:2074
+#, no-c-format
+msgid "<guimenu>Tools</guimenu> <guimenuitem>Import from another Email Client...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2079
+#, no-c-format
+msgid "This starts the import wizard and tries to automatically detect data from another email application. In case the mail data you want to import is not found, use the <guilabel>Manual Selection</guilabel> option."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: using-kmail.docbook:2085
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem><inlinemediaobject> <imageobject><imagedata fileref=\"document-import.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Import Messages...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2089
+#, no-c-format
+msgid "Starts the import wizard and lets you select the desired data manually."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2093
+#, no-c-format
+msgid "Please read the <ulink url=\"help:/importwizard\">Import Wizard</ulink> documentation for details."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2101
+#, no-c-format
+msgid "Using Multiple Accounts"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2103
+#, no-c-format
+msgid "Multiple accounts are used to check for messages from more than one email address and/or mail server. Select <menuchoice><guimenu>Settings</guimenu> <guimenuitem><inlinemediaobject><imageobject><imagedata fileref=\"configurebutton.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Configure &kmail;...</guimenuitem></menuchoice> and click on the <guilabel>Accounts</guilabel> page to add or change your account settings. See the <link linkend=\"getting-started\">Getting started</link> section for more information on the settings in the <guilabel>Accounts</guilabel> page."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2111
+#, no-c-format
+msgid "To check for messages from a particular account, use the <menuchoice><guimenu>File</guimenu><guimenuitem><inlinemediaobject> <imageobject><imagedata fileref=\"mail-receive.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Check Mail In</guimenuitem></menuchoice> submenu to select the account to check for mail. You can also press and hold the &LMB; on the <guiicon><inlinemediaobject> <imageobject><imagedata fileref=\"mail-receive.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Check Mail</guiicon> icon (on the toolbar) for a few seconds to get a list of accounts."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2126
+#, no-c-format
+msgid "Signing and Encrypting Messages with <application>GnuPG</application>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2135
+#, no-c-format
+msgid "This is a short introduction on how to set up &kmail;'s <application>GnuPG</application> (<application>&GNU; Privacy Guard</application>) support; it gives some hints on the use of <application>GnuPG</application> too. It is written for people who are beginners in this area; if you are familiar with the use of <application>GnuPG</application>, you can skip most of the steps."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2142
+#, no-c-format
+msgid "Please also check out the <link linkend=\"pgp-faq\">&FAQ; item about <application>GnuPG</application></link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2146
+#, no-c-format
+msgid "Attachments will not be signed/encrypted if you are using inline OpenPGP. To sign/encrypt attachments, you have to install GnuPG and some necessary libraries. Then, you can decide for each attachment whether it should be signed/encrypted or not."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2160
+#, no-c-format
+msgid "To set up and use <application>GnuPG</application> support in &kmail; it is necessary to have <application>GnuPG</application> installed and configured properly. Of course, we cannot give you a full introduction to <application>GnuPG</application> here. We will only mention the steps you must perform to get <application>GnuPG</application> going. For details you should look at <ulink url=\"https://www.gnupg.org/docs.html#guides\">The &GNU; Privacy Handbook</ulink>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2167
+#, no-c-format
+msgid "It is certainly a good idea to study the GnuPG documentation as well as an introduction to public key cryptography. That way you can learn a lot about the basic concepts, which will help you understand what is going on. Also, many security related issues you should know about are discussed there."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2173
+#, no-c-format
+msgid "Preconditions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2175
+#, no-c-format
+msgid "&kmail; expects that your <application>GnuPG</application> binary is called <command>gpg</command>. If this is not the case for you, just make a symlink."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2179
+#, no-c-format
+msgid "If you have not yet done so, you must generate a key pair (secret and public keys) for your identity. You may do this using &kgpg; or &kleopatra; or at the command line: <userinput><command>gpg</command> <option>--gen-key</option></userinput>. Or you can ask &kmail; to create a new key pair when you create a new email account. The identity (normally your name followed by your email address within brackets, such as <userinput>John Doe &lt;john@example.com&gt;</userinput>) and your passphrase are important for the co-operation between &kmail; and <application>GnuPG</application>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2191
+#, no-c-format
+msgid "<application>GnuPG</application>-Related Settings in &kmail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2193
+#, no-c-format
+msgid "Select the <guilabel>Composing</guilabel> tab on the <guilabel>Security</guilabel> settings page. There you will find the following options:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:2212
+#, no-c-format
+msgid "When encrypting emails, always also encrypt to the certificate of my own identity"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2214
+#, no-c-format
+msgid "If this option is off and you want to send an encrypted message to somebody, then you cannot read this message any longer after you have composed and encrypted it. Turn this option on to keep the encrypted messages you send readable for you, too."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:2222
+#, no-c-format
+msgid "Store sent messages encrypted"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2224
+#, no-c-format
+msgid "When this box is checked, sent messages are stored encrypted, as they were sent. This is not recommended, as you will not be able to read the messages any longer if a necessary certificate expires. (Notice that GPG keys do not expire, as a general rule; this caution is primarily relevant for x.509 certificate users.)"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:2232
+#, no-c-format
+msgid "Always show the encryption keys for approval"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2234
+#, no-c-format
+msgid "This will always open a dialog that lets you choose the keys used for each recipient when you are sending an encrypted message. If this option is off, &kmail; will show the dialog only when it cannot find a key for a recipient or when there are conflicting or unset encryption preferences."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:2243
+#, no-c-format
+msgid "When saving as draft, always sign/encrypt as indicated"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2244
+#, no-c-format
+msgid "If this option is on, &kmail; will automatically encrypt (and / or sign) messages that you save in the <guilabel>drafts</guilabel> folder (when you specify signing / encryption)."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: using-kmail.docbook:2249
+#, no-c-format
+msgid "Show sign/encrypt indicator in editor"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2250
+#, no-c-format
+msgid "If this option is on, &kmail; will display an indicator in the composition window to inform you that this message will be signed / encrypted whenever that is the case."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2256
+#, no-c-format
+msgid "Now that you have set up the encryption tool, you must tell &kmail; which OpenPGP key you want to use for signing and encrypting messages. To do this go to the <link linkend=\"configure-identity\">Identities configuration</link> and set the key that should be used via the <guilabel>Cryptography</guilabel> tab in the identity configuration dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2262
+#, no-c-format
+msgid "Now you can sign outgoing messages. To let people send you encrypted messages, and to let them verify your signature, you must send them your public key, or upload your public key to a public <application>GnuPG</application> key server (so people can fetch your key from the server). To send encrypted messages to other people, or to verify their signed messages, you will need their public keys. You can search for public keys on a public <application>GnuPG</application> key server. Or you can ask your friends to send you one or more of their public keys."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2274
+#, no-c-format
+msgid "Sign your Messages"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2276
+#, no-c-format
+msgid "Compose your message as usual in the composer window. Before you send the message, check the <guibutton><inlinemediaobject> <imageobject><imagedata fileref=\"document-edit.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Sign</guibutton> icon on the toolbar of the composer window, or select <menuchoice> <guimenu>Options</guimenu><guimenuitem><inlinemediaobject><imageobject> <imagedata fileref=\"document-edit.png\" format=\"PNG\"/></imageobject> </inlinemediaobject> Sign Message</guimenuitem></menuchoice>. Then, you can send the message. The identity you are using to write the current message needs to be connected to an <guilabel>OpenPGP Key</guilabel> in the <guilabel>Identity</guilabel> section of the <guilabel>Configure</guilabel> dialog. To sign the message, &kmail; needs to know your <application>GnuPG</application> passphrase. You may be asked to supply it, or, if you have previously given the phrase to &kmail;, the message will be signed automatically."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2295
+#, no-c-format
+msgid "Encrypt your Messages"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2297
+#, no-c-format
+msgid "To send an encrypted message to somebody whose public key is on your gpg key ring, simply create the message in the composer window. Before you send the message, check the <guibutton><inlinemediaobject><imageobject> <imagedata fileref=\"document-decrypt.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Encrypt</guibutton> button in the toolbar of the composer window (or select <menuchoice> <guimenu>Options</guimenu><guimenuitem><inlinemediaobject><imageobject> <imagedata fileref=\"document-decrypt.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Encrypt Message</guimenuitem></menuchoice>). Then send the message."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2308
+#, no-c-format
+msgid "If you checked the <guibutton><inlinemediaobject><imageobject> <imagedata fileref=\"document-decrypt.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> Encrypt</guibutton> button and &kmail; cannot find a matching key for a recipient, it will allow you to modify your key ring before trying again. If &kmail; finds more than one trusted key for a recipient, it will display a list containing all matching keys for this recipient. In either case you can select the key(s) which should be used for encrypting this message for the recipient in question."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2319
+#, no-c-format
+msgid "If you are using a key for the first time, if there are conflicting Encryption Preferences, or if <guilabel>Always show the encryption keys for approval</guilabel> is selected in the <guilabel>Security</guilabel> section of &kmail;'s configuration dialog, the <guilabel>Encryption Key Approval</guilabel> dialog will appear. You can select different keys for the recipients and can set the <guilabel>Encryption Preference</guilabel> for each recipient. The option, <guilabel>Encrypt whenever encryption is possible</guilabel> (on the <guilabel>Cryptography</guilabel> tab of the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kmail;...</guimenuitem> </menuchoice> dialog), will automatically encrypt your message if there is a trusted key for each recipient."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2332
+#, no-c-format
+msgid "As mentioned above, you will not be able to read your own encrypted sent messages if you do not check <guilabel>When encrypting emails, always also encrypt to the certificate of my own identity</guilabel> in the settings' <guilabel>Security</guilabel> page."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2340
+#, no-c-format
+msgid "Send your Public Key"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2342
+#, no-c-format
+msgid "Prepare a message to the person to whom you want to send your public key. Then choose, in the composer window's menu, <menuchoice><guimenu>Attach</guimenu><guimenuitem>Attach Public Key</guimenuitem></menuchoice>. This will attach your public key – the one you are currently using – to the message."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2348
+#, no-c-format
+msgid "Remember that it is not perfectly safe to just sign the message to ensure that the receiver gets the correct key. There can (possibly) be a \"man-in-the-middle\" attack: somebody could intercept your message, change the attached key, and then sign the message with that other key. The recipient should verify the attached key by checking the key's fingerprint against the one he received in a secure way from you. Alternatively, just ask him to use the key he received to compose and send an encrypted message back to you. If your secret key decrypts that message, he has a copy of your public key. See the <application>GnuPG</application> documentation for further details."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2360
+#, no-c-format
+msgid "You received an encrypted Message"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2362
+#, no-c-format
+msgid "All you have to do is to select the message in &kmail;. You may be prompted for your passphrase. Then, &kmail; will decrypt the message and show you the plain text if the message was encrypted with your public key. If not, you will not be able to read it. By default, &kmail; stores messages encrypted, so nobody can read these messages without knowing your passphrase, or, at a minimum, your login password."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2371
+#, no-c-format
+msgid "Receiving a Public Key"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2373
+#, no-c-format
+msgid "You can receive a public key as an attachment, or via http, ftp, or a floppy. Before you use this key to encrypt a message to the owner of the key, you should verify the key (check its fingerprint or look for trusted signatures); then, you can add this key to your public keyring by typing <userinput><command>gpg</command> <option>--import</option> <replaceable>filename</replaceable></userinput> at the command line. If the key is not certified with another signature that you have already trusted, you cannot use it to encrypt messages unless you sign (certify) the key with your own key."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2388
+#, no-c-format
+msgid "The Anti-Spam Wizard"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2391 using-kmail.docbook:2572
+#, no-c-format
+msgid "Basics"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2393
+#, no-c-format
+msgid "&kmail; does not have a built-in spam detection solution: the developers believe using external, but specialized, tools is the better approach. &kmail; uses these tools through its flexible filter architecture. The Anti-Spam Wizard helps you with the initial filter setup."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:2401 using-kmail.docbook:2582
+#, no-c-format
+msgid "What can the wizard do to help you?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2403
+#, no-c-format
+msgid "It will give you some choices about how you want the spam filtering to be set up. Afterwards it will automatically create the appropriate filter rules."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:2409 using-kmail.docbook:2590
+#, no-c-format
+msgid "What are the limitations of the wizard?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2411
+#, no-c-format
+msgid "All it can do is set up the filters for you; it will provide a standard setup. Manual modifications that have been applied to existing anti-spam filters are not recognized. Instead, such filters are overwritten by the wizard."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2419
+#, no-c-format
+msgid "You can activate the wizard via <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Anti-Spam Wizard...</guisubmenu></menuchoice>. If this choice is not available, click <menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure &kmail;...</guisubmenu><guimenuitem>Plugins</guimenuitem></menuchoice> and check the box next to <guilabel>Antispam</guilabel>. You will be prompted to restart &kmail;; when you do, the wizard will appear on the <guilabel>Tools</guilabel> menu."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2426
+#, no-c-format
+msgid "The wizard scans for known anti-spam tools on your computer. It is also possible to use the results of spam checks made by your service provider, by evaluating header information which has been added to the messages. You can let the wizard prepare &kmail; to use one or more of these in parallel. However, note that anti-spam tool operations are unusually time consuming. &kmail; can appear to be frozen during the scan of messages for spam, so you may encounter problems with the responsiveness of &kmail;. Please consider deleting the filter rules created by the wizard if the filtering becomes too slow for you. (This has been a problem with older hardware. It probably won't afflict more modern machines.)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2435
+#, no-c-format
+msgid "Here are some observations about a few anti-spam tools."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:2439
+#, no-c-format
+msgid "Bogofilter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2441
+#, no-c-format
+msgid "Bogofilter is a Bayesian filter. Its spam detection ability relies on an initial training phase. On the other hand, it's a pretty fast tool. That's why it is recommended for people who want fast spam detection, and who aren't worried about putting some effort into the initial training, before the detection rate increases significantly."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:2451
+#, no-c-format
+msgid "SpamAssassin"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2453
+#, no-c-format
+msgid "SpamAssassin is a fairly complex tool to use against spam. Although its behavior depends heavily on its configuration, it can detect spam quite well without any training. However, scanning a message takes a little longer compared to pure Bayesian filters. Let's say it's not the tool of choice for people without some background information about SpamAssassin's capabilities."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:2463
+#, no-c-format
+msgid "Annoyance Filter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2465
+#, no-c-format
+msgid "Perhaps not so often used until more distributions pick it up. It's clearly a tool for specialists."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: using-kmail.docbook:2471
+#, no-c-format
+msgid "GMX Spam Filter"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2473
+#, no-c-format
+msgid "If you get your mail via the GMX freemail provider, your messages have already been scanned for spam. The result of that process is documented in a special header field in each message. It's possible to use the content of this header field to filter out spam. There is very little slowdown in the filtering when this tool is used, as the messages have already been processed by the external email server."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2488 using-kmail.docbook:2610
+#, no-c-format
+msgid "Advanced"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2490
+#, no-c-format
+msgid "&kmail; can use several external tools to detect spam messages; it will try to automatically find out which tools are installed on your system, and will display all of these in a list. The list is ordered by the average speed of the filtering process of the tools. You can mark the tools which you want &kmail; to utilize to detect spam. If you want more choices, you can simply close the wizard, install a new tool, then restart the wizard."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2499
+#, no-c-format
+msgid "If you have marked at least one tool, &kmail; is able to provide filters which allow the classification of the messages as spam or not spam. It will also provide actions to let you manually classify messages. These actions will be available in the <menuchoice><guimenu>Message</guimenu><guisubmenu>Apply Filter &gt;</guisubmenu></menuchoice> menu item, and also via a pair of icons on the toolbar. If any of the tools you selected support Bayesian filtering (&ie; a method to detect spam based on statistical analysis of the messages) then these messages are not only marked but additionally piped through the tools to help them learn, thereby improving their detection rate."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2510
+#, no-c-format
+msgid "On the second page, you will be able to select some additional actions to be performed in &kmail; with regard to spam messages: if you want messages detected as spam to be moved into a certain folder, select the appropriate folder and mark the <guilabel>Move known spam to:</guilabel> option; if messages detected as spam should additionally be marked as read, then mark the <guilabel>Mark detected spam messages as read</guilabel> option."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2518
+#, no-c-format
+msgid "Selecting at least one of the available tools will allow the wizard to finish the filter setup. The wizard will not take any modifications in existing filters, formerly created by it, into consideration, but will either append new filters or replace existing filters. In any case you may want to inspect the result of this process in the <link linkend=\"filter-dialog\">Filter Dialog</link>. The wizard will also create toolbar buttons for marking messages as spam or as ham. Keep in mind that classifying messages as spam will also move those messages to the folder you have specified for spam messages, when you select the <quote>spam</quote> option."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2533
+#, no-c-format
+msgid "Some More Details for Experts"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2535
+#, no-c-format
+msgid "The wizard uses information stored in a special configuration file named <filename>kmail.antispamrc</filename> (stored in the global or local &kde; config directory). It will first check the global config file and then the local config file. If the local config file contains an entry with a higher (newer) version number, the configuration data from the local file (for that tool) is used, so both administrators and users can update the wizard's configuration."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2544
+#, no-c-format
+msgid "The local detection of spam messages is achieved by creating <guilabel>pipe through</guilabel> actions per-tool within a special filter. Another filter contains rules to check for detected spam messages and actions to mark them and (optionally, depending on the choice in the wizard) to move them into a folder. Both filters are configured to be applied to incoming messages and for manual filtering."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2552
+#, no-c-format
+msgid "Two filters are needed for the classification of ham and spam. They contain actions to mark the messages appropriately. As mentioned above, the filter for classification as spam can have another supplementary action to move the messages into a predefined folder. If the selected tools support Bayesian filtering, the wizard will create additional filter actions to pass the messages to the tools (via <guilabel>Execute Command</guilabel> actions) in the appropriate learning mode."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2561
+#, no-c-format
+msgid "If you want to fine-tune the filtering process, you might be interested in the chapter about <link linkend=\"filter-optimization\">Filter Optimization</link>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2569
+#, no-c-format
+msgid "The Anti-Virus Wizard"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2574
+#, no-c-format
+msgid "&kmail; does not have a built-in virus detection solution: the developers believe using external, but specialized, tools is the better approach. &kmail; uses these tools through its flexible filter architecture. The Anti-Virus Wizard helps you with the initial filter setup."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2584
+#, no-c-format
+msgid "It will give you some choices about how you want virus filtering to be set up. Afterwards it will automatically create the appropriate filter rules."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2592
+#, no-c-format
+msgid "All it can do is set up the filters for you; it will provide a standard setup. Manual modifications that have been applied to existing anti-virus filters are not recognized. Instead, such filters are overwritten by the wizard."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2600
+#, no-c-format
+msgid "You can activate the wizard via <menuchoice><guimenu>Tools</guimenu> <guisubmenu>Anti-Virus Wizard...</guisubmenu></menuchoice>. If this choice is not available, click <menuchoice><guimenu>Settings</guimenu><guisubmenu>Configure &kmail;...</guisubmenu><guimenuitem>Plugins</guimenuitem></menuchoice> and check the box next to <guilabel>Antivirus</guilabel>. You will be prompted to restart &kmail;; when you do, the wizard will appear on the <guilabel>Tools</guilabel> menu."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2612
+#, no-c-format
+msgid "The Anti-Virus Wizard basically works the same way as the <link linkend=\"the-anti-spam-wizard\">Anti-Spam Wizard</link> does. &kmail; can use several external tools to detect messages containing viruses. It will determine which of these tools are installed on your system, and will show you the results from the search. You can mark the tools which you want &kmail; to use for virus detection. If you want more choices, you can simply close the wizard, install a new tool, then restart the wizard."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2622
+#, no-c-format
+msgid "If you have chosen at least one tool you will be able to select actions for &kmail; to perform on messages containing viruses. To let &kmail; detect messages containing viruses, you should mark the <guilabel>Check messages using the anti-virus tools</guilabel> option. If you want messages infected by a virus to be moved into a certain folder, select the appropriate folder and mark the <guilabel>Move detected viral messages to the selected folder</guilabel> option. If such messages should also be marked as read, select the <guilabel>Additionally, mark detected viral messages as read</guilabel> option."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2632
+#, no-c-format
+msgid "Selecting at least one of these options will allow the wizard to finish the filter setup. The wizard will not take any existing filter rules into account, but will append new rules. In any case you may want to inspect the result of this process in the <link linkend=\"filter-dialog\">Filter Dialog</link>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: using-kmail.docbook:2642
+#, no-c-format
+msgid "Details"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2644
+#, no-c-format
+msgid "The wizard uses information stored in a special configuration file named <filename>kmail.antivirusrc</filename> (stored in the global or local &kde; config directory). If the local config file contains an entry with a higher (newer) version number, the configuration data from the local file (for that tool) is used, so both administrators and users can update the wizard's configuration."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: using-kmail.docbook:2652
+#, no-c-format
+msgid "The detection of messages containing viruses is achieved by creating <guilabel>pipe through</guilabel> actions per-tool within a special filter. Another filter contains rules to check for infected messages, and actions to mark them and (optionally, depending on the choice in the wizard) to move them into a folder. Both filters are configured to be applied to incoming messages and for manual filtering."
+msgstr ""

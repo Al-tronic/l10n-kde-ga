@@ -1,0 +1,1357 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-03-02 11:13+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:18
+#, no-c-format
+msgid "The &ktimetracker; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6
+#: index.docbook:21
+#, no-c-format
+msgid "<firstname>Jonathan</firstname> <surname>Singer</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6
+#: index.docbook:24
+#, no-c-format
+msgid "&Jonathan.Singer.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6
+#: index.docbook:27
+#, no-c-format
+msgid "<firstname>Mark</firstname> <surname>Bucciarelli</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6
+#: index.docbook:30
+#, no-c-format
+msgid "mark@hubcapconsulting.com"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6
+#: index.docbook:33
+#, no-c-format
+msgid "<firstname>Sirtaj</firstname> <othername>Singh</othername> <surname>Kang</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6
+#: index.docbook:37
+#, no-c-format
+msgid "&Sirtaj.Singh.Kang.mail;"
+msgstr ""
+
+#. Tag: othercredit
+#. +> trunk6
+#: index.docbook:40
+#, no-c-format
+msgid "<firstname>Lauri</firstname> <surname>Watts</surname>"
+msgstr ""
+
+#. Tag: contrib
+#. +> trunk6
+#: index.docbook:43
+#, no-c-format
+msgid "Reviewer"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6
+#: index.docbook:44
+#, no-c-format
+msgid "&Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6
+#: index.docbook:47
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6
+#: index.docbook:52
+#, no-c-format
+msgid "&Jonathan.Singer;"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6
+#: index.docbook:57
+#, no-c-format
+msgid "Mark Bucciarelli"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6
+#: index.docbook:62
+#, no-c-format
+msgid "2019-11-19"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6
+#: index.docbook:63
+#, no-c-format
+msgid "<releaseinfo>5.0</releaseinfo>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:65
+#, no-c-format
+msgid "&ktimetracker; tracks time spent on various tasks."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:68
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:69
+#, no-c-format
+msgid "ktimetracker"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:70
+#, no-c-format
+msgid "time"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:71
+#, no-c-format
+msgid "tracker"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:72
+#, no-c-format
+msgid "project"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:77
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:79
+#, no-c-format
+msgid "&ktimetracker; tracks time spent on various tasks. It is useful for tracking billable hours and can report the hours logged by task and day."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:82
+#, no-c-format
+msgid "This time history can be exported to a comma-delimited text file for import into other billing and/or project management tools."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:85
+#, no-c-format
+msgid "&ktimetracker; detects when your keyboard and mouse are idle and can associate different tasks with different desktops, two tools that can help keep the timer running on the correct task."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:89
+#, no-c-format
+msgid "&ktimetracker; was originally written by &Sirtaj.Singh.Kang;. Its home page is <ulink url=\"https://userbase.kde.org/KTimeTracker\">https://userbase.kde.org/KTimeTracker</ulink>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:97
+#, no-c-format
+msgid "Using &ktimetracker;"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:100
+#, no-c-format
+msgid "Starting &ktimetracker;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:102
+#, no-c-format
+msgid "Type <command>ktimetracker</command> at a command prompt or select <guimenuitem>Personal Time Tracker</guimenuitem> from the <menuchoice> <guimenu>Applications</guimenu><guisubmenu>Utilities</guisubmenu> </menuchoice> group in the <guimenu>Plasma Application Launcher</guimenu>. The generic &Qt; and &kf5-full; command options are available, see man pages qt5options and kf5options."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:109
+#, no-c-format
+msgid "&ktimetracker; provides an additional command option that allows you to enter the name of the iCalendar file that is used to store your labor history. You enter a remote iCalendar file by using &HTTP; or &FTP; as part of the file name; for example, https://www.mysite.com/mydata/mylabor.ics."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:117
+#, no-c-format
+msgid "Tasks"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:120
+#, no-c-format
+msgid "<emphasis>Problem:</emphasis> You are a freelance software consultant with many clients. Some clients have multiple projects. During the course of a day, you switch back and forth between different projects. You need to track your time to generate monthly invoices."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:124
+#, no-c-format
+msgid "<emphasis>Solution:</emphasis> Create one top-level task for each client and a subtask for each client project. For projects that require more detailed tracking, create a list of project subtasks. Track time by double-clicking on the task you are currently working on."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:130
+#, no-c-format
+msgid "&ktimetracker; provides great flexibility in tracking your time, allowing unlimited tasks and task depth. Time may be logged to any task, and more than one task can be active at any given time."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:133
+#, no-c-format
+msgid "&ktimetracker; allows you to edit your task's history and to put a comment for every event that you have stopped."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:135
+#, no-c-format
+msgid "To create a top-level task, select <menuchoice> <shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>T</keycap></keycombo> </shortcut> <guimenu>Task</guimenu> <guimenuitem>New Task...</guimenuitem> </menuchoice>. To create a subtask, highlight the parent task and select <menuchoice> <shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> </shortcut> <guimenu>Task</guimenu> <guimenuitem>New Subtask...</guimenuitem> </menuchoice>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:156
+#, no-c-format
+msgid "When &ktimetracker; exits, the task list is saved to a file on your disk. When it next opens, it reloads the task list from the same file."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:159
+#, no-c-format
+msgid "&ktimetracker; can import and export tasks to minimize your work. See <xref linkend=\"interfaces\"/>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:164
+#, no-c-format
+msgid "Timers"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:167
+#, no-c-format
+msgid "<emphasis>Problem:</emphasis> To remain solvent, you must bill an average of five hours a day. To stay on track, you watch your daily and weekly totals."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:170
+#, no-c-format
+msgid "<emphasis>Solution:</emphasis> Reset the session timer at the beginning of each work day and reset all timers at the beginning of each week."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:174
+#, no-c-format
+msgid "&ktimetracker; makes tracking time simple. To start logging time against a task, double-click on the task. To stop logging time, double-click the task again. Active tasks display a small clock in the <guilabel>Session Time</guilabel> column."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:179
+#, no-c-format
+msgid "Another visual clue of logging activity is the &ktimetracker; system tray icon. When a task is active, the second hand in the icon moves. If you rest the mouse pointer over this icon, the name of the active task will display in a tooltip. If more than one task is active, the task names in the tooltip are separated by commas."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:185
+#, no-c-format
+msgid "&ktimetracker; maintains two timers for each task: one for the session time and one for the total time. In the default configuration, &ktimetracker; displays two columns for each timer, resulting in a total of four columns for each task:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:190 index.docbook:610
+#, no-c-format
+msgid "Session Time"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:191 index.docbook:611
+#, no-c-format
+msgid "The time spent on the task since the session began."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:194 index.docbook:633
+#, no-c-format
+msgid "Time"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:194 index.docbook:634
+#, no-c-format
+msgid "The time spent on the task since all times were reset."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:198 index.docbook:630
+#, no-c-format
+msgid "Total Session Time"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:199 index.docbook:631
+#, no-c-format
+msgid "The time spent on the task and all its subtasks since the session began."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6
+#: index.docbook:202 index.docbook:637
+#, no-c-format
+msgid "Total Time"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:203 index.docbook:638
+#, no-c-format
+msgid "The time spent on the task and all its subtasks since all times were reset."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:207
+#, no-c-format
+msgid "To start a new session, select <menuchoice> <guimenu>File</guimenu> <guimenuitem>Start New Session</guimenuitem> </menuchoice>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:214
+#, no-c-format
+msgid "To reset all times, select <menuchoice> <guimenu>File</guimenu> <guimenuitem>Reset All Times</guimenuitem> </menuchoice>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:221
+#, no-c-format
+msgid "Desktop Tracking"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:224
+#, no-c-format
+msgid "<emphasis>Problem:</emphasis> You have two main projects that you switch between each day. To help organize your work, you keep your project 1 files on Desktop 1 and your project 2 files on Desktop 2."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:229
+#, no-c-format
+msgid "<emphasis>Solution:</emphasis> Associate project 1 task with Desktop 1 and the project 2 task with Desktop 2. When you switch from Desktop 2 to Desktop 1 active, &ktimetracker; automatically stops the project 2 task and starts the project 1 task."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:235
+#, no-c-format
+msgid "To associate a task with one or more desktops, select <menuchoice> <shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> </shortcut> <guimenu>Task</guimenu> <guimenuitem>Properties</guimenuitem> </menuchoice>. Turn on <guilabel>Auto Tracking</guilabel> and select the desktop or desktops to associate with this task. When any of the selected desktops becomes active, after a short delay &ktimetracker; will be automatically start logging time against that task."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:251
+#, no-c-format
+msgid "Idle Detection"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:253
+#, no-c-format
+msgid "<emphasis>Problem:</emphasis> You leave work early on Friday to run an errand and forget to stop the timer. When you return on Monday, the timer is still running."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:256
+#, no-c-format
+msgid "<emphasis>Solution:</emphasis> Turn on idle detection on the <guilabel>Behavior</guilabel> page of the settings dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:260
+#, no-c-format
+msgid "&ktimetracker; can be configured to detect when the mouse and keyboard become idle. If the mouse and keyboard are idle for longer than the specified number of minutes, &ktimetracker; displays the following dialog:"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6
+#: index.docbook:265
+#, no-c-format
+msgid "&ktimetracker; Idle Detection"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6
+#: index.docbook:271
+#, no-c-format
+msgid "&ktimetracker; Idle Detection Dialog"
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6
+#: index.docbook:277
+#, no-c-format
+msgid "Continue Timing"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:278
+#, no-c-format
+msgid "Apply the idle time to all active timers and keep them running."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:279
+#, no-c-format
+msgid "You were working on the task(s) while your computer was idle and still are."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6
+#: index.docbook:282
+#, no-c-format
+msgid "Revert Timing"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:283
+#, no-c-format
+msgid "Subtract the amount of idle time from all active timers and stop them."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:284
+#, no-c-format
+msgid "You were not working on the task(s) while your computer was idle and you are still not."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:293
+#, no-c-format
+msgid "Other Systems"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:294
+#, no-c-format
+msgid "&korganizer;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:296
+#, no-c-format
+msgid "&ktimetracker;, like &korganizer; and Apple's iCal, uses the industry standard <ulink url=\"https://tools.ietf.org/html/rfc2445\">iCalendar</ulink> format for its data. &ktimetracker; can read and write the to-do lists created by these two applications."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:300
+#, no-c-format
+msgid "You can even work synchronously on one file with &korganizer; and &ktimetracker;. If one program changes the file, the updates will be propagated to the other application automatically."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:308
+#, no-c-format
+msgid "Planner"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:310
+#, no-c-format
+msgid "As a typical usecase, you might want to plan a project with the project management tool <ulink url=\"&Planner.web;\">&Planner;</ulink> and import its tasks to &ktimetracker; with <menuchoice><guimenu>File</guimenu> <guisubmenu>Import</guisubmenu><guimenuitem>Import Tasks From Planner...</guimenuitem> </menuchoice>, to have them in the industry standard <ulink url=\"https://tools.ietf.org/html/rfc2445\">iCalendar</ulink> format. Having done so, you are able to schedule the tasks in &korganizer;, and account your time to them in &ktimetracker;. That's one way to help ensure your project stays on time and under budget."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:322
+#, no-c-format
+msgid "<title>&DBus;</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:324
+#, no-c-format
+msgid "&ktimetracker; does support numerous methods that can be used with &DBus;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:326
+#, no-c-format
+msgid "There are two ways to use the &DBus; interface: &Qt;'s &GUI; <application>qdbusviewer</application> and the command line <application>qdbus</application>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:332
+#, no-c-format
+msgid "Bash script that echoes &ktimetracker;'s version"
+msgstr ""
+
+#. Tag: programlisting
+#. +> trunk6
+#: index.docbook:333
+#, no-c-format
+msgid "qdbus org.kde.ktimetracker /KTimeTracker version 2>/dev/null || echo \"ktimetracker not running\""
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:336
+#, no-c-format
+msgid "&ktimetracker;'s current &DBus; interface is currently used mainly for automated testing, so it is very limited. For the full interface definition, see the <xref linkend=\"dbusappendix\"/>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:340
+#, no-c-format
+msgid "To see the full &DBus; interface of the &ktimetracker; version installed on your system, run the following Bash script:"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:343
+#, no-c-format
+msgid "List &ktimetracker;'s &DBus; interface to console"
+msgstr ""
+
+#. Tag: programlisting
+#. +> trunk6
+#: index.docbook:344
+#, no-c-format
+msgid "qdbus org.kde.ktimetracker /KTimeTracker 2>/dev/null || echo \"ktimetracker not running\""
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:348
+#, no-c-format
+msgid "Export Totals to CSV"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:350
+#, no-c-format
+msgid "&ktimetracker; can export both totals and history to a comma-delimited file format. To export totals, select <menuchoice> <guimenu>File</guimenu> <guimenuitem>Export...</guimenuitem> </menuchoice> and &ktimetracker; displays the export dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:358
+#, no-c-format
+msgid "Select option <guibutton>Times as CSV</guibutton> in group <guilabel>Report Type</guilabel>. The dialog is going to look as follows:"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6
+#: index.docbook:364
+#, no-c-format
+msgid "<screeninfo>Export Times as CSV</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6
+#: index.docbook:370
+#, no-c-format
+msgid "<phrase>Export Times as CSV</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:375
+#, no-c-format
+msgid "Modify the dialog defaults if necessary. You can preview the CSV output on the right side of the dialog. Click <guibutton>Save As...</guibutton> and &ktimetracker; exports the totals for all tasks to the file you enter in a file dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:380 index.docbook:414
+#, no-c-format
+msgid "Use the <guibutton>Copy to Clipboard</guibutton> button to export the times to the clipboard."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:382
+#, no-c-format
+msgid "Here is another example of the output format:"
+msgstr ""
+
+#. Tag: literallayout
+#. +> trunk6
+#: index.docbook:384
+#, no-c-format
+msgid ""
+"<computeroutput>\n"
+"\"kde\",,,,,0.00,0.00,6.88,9.83\n"
+",\"ktimetracker\",,,,6.88,8.70,6.88,9.83\n"
+",,\"3.2 feature plan\",,,0.00,0.00,0.00,0.00\n"
+",,\"bugs\",,,0.00,1.13,0.00,1.13\n"
+",,\"checkin changes - translation strings\",,,0.00,0.00,0.00,0.00\n"
+",,\"time card report\",,,0.00,0.00,0.00,0.00\n"
+",\"kopete\",,,,0.00,0.00,0.00,0.00\n"
+",\"promo\",,,,0.00,0.00,0.00,0.00\n"
+",\"web stuff\",,,,0.00,0.00,0.00,0.00\n"
+"</computeroutput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:386
+#, no-c-format
+msgid "Top-level tasks are output in the first column, sub-tasks in the second, and so on. The time data is output after the maximum task depth (five in this example). The first time column is <guilabel>Session Time</guilabel>, the second is <guilabel>Time</guilabel>, the third is <guilabel>Total Session Time</guilabel> and the fourth is the <guilabel>Total Time</guilabel>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:396
+#, no-c-format
+msgid "Export History to CSV"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:398
+#, no-c-format
+msgid "To export task history, select <menuchoice> <guimenu>File</guimenu> <guisubmenu>Export</guisubmenu> <guimenuitem>Export...</guimenuitem> </menuchoice> and &ktimetracker; displays the same export dialog as shown above. Select option <guibutton>History as CSV</guibutton> in group <guilabel>Report Type</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:407
+#, no-c-format
+msgid "Select a date range that you want the task history to cover. Modify the dialog defaults if necessary. You can preview the CSV output on the right side of the dialog. Click <guibutton>Save As...</guibutton> and &ktimetracker; exports the totals for all tasks to the file you enter in a file dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:416
+#, no-c-format
+msgid "Here is an example of the output format:"
+msgstr ""
+
+#. Tag: literallayout
+#. +> trunk6
+#: index.docbook:418
+#, no-c-format
+msgid ""
+"<computeroutput>\n"
+"Task History\n"
+"From Tuesday 06 July 2004 to Tuesday 13 July 2004\n"
+"Printed on: 2004-07-13 18:10\n"
+"2004-07-06,2004-07-07,2004-07-08,2004-07-09,2004-07-10,2004-07-11,2004-07-12,2004-07-13,\n"
+",,,,,,,,0.00,\"kde\"\n"
+",,1.77,3.23,1.73,,1.37,0.82,8.95,,\"ktimetracker\"\n"
+",,,,,,,,0.00,,,\"3.2 feature plan\"\n"
+",1.13,,,,,,,1.13,,,\"bugs\"\n"
+",,,,,,,,0.00,,,\"checkin changes - translation strings\"\n"
+",,,,,,,,0.00,,,\"time card report\"\n"
+",,,,,,,,0.00,,\"kopete\"\n"
+",,,,,,,,0.00,,\"promo\"\n"
+",,,,,,,,0.00,,\"web stuff\"\n"
+"</computeroutput>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:420
+#, no-c-format
+msgid "The first three lines identify when the report was generated and for which date range. The fourth row is a comma-delimited list of the dates in the date range, in ISO 8601 format (YYYY-MM-DD). All subsequent rows list the time logged against each task. The last numeric column is the row total across all days. The task name prints after the total column, and is indented to indicate the task/sub-task relationship. Top level task names appear in the first column after the total."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:434
+#, no-c-format
+msgid "The &ktimetracker; interface"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:436
+#, no-c-format
+msgid "The main &ktimetracker; window has the following components: menubar, toolbar, searchbar, task/time window and status bar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:439
+#, no-c-format
+msgid "The searchbar is a combined field. As long as you do not press &Enter;, it acts as a filter. Then, only tasks that match your input are shown. As soon as you press &Enter;, your input is used as a name to create a new task."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:444
+#, no-c-format
+msgid "Choose <guilabel>Configuration for PDA</guilabel> in the <guilabel>Appearance</guilabel> page of the settings dialog if you have a touchscreen and your screen real estate is precious. It will disable the search bar and every click will pop up a context menu."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6
+#: index.docbook:450
+#, no-c-format
+msgid "<screeninfo>&ktimetracker; Screen</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6
+#: index.docbook:456
+#, no-c-format
+msgid "<phrase>&ktimetracker; Screen</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:462
+#, no-c-format
+msgid "The Task/Time window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:464
+#, no-c-format
+msgid "The various tasks are displayed in this window, along with the time accumulated for each in the current session and in total. Tasks being timed have a small clock icon next to the session time."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:468
+#, no-c-format
+msgid "Subtasks can be created for each task. Clicking the plus sign and minus sign in front of the main task toggles the view of its associated subtasks. The total time accrued for a task includes the times for its subtasks, as well as its own accumulated time."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:476
+#, no-c-format
+msgid "The Toolbar and Statusbar"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:477
+#, no-c-format
+msgid "The toolbar contains icons for the following commands:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:479
+#, no-c-format
+msgid "All behave identically to the menu command."
+msgstr ""
+
+#. Tag: guiicon
+#. +> trunk6
+#: index.docbook:482
+#, no-c-format
+msgid "New Task"
+msgstr ""
+
+#. Tag: guiicon
+#. +> trunk6
+#: index.docbook:483
+#, no-c-format
+msgid "New Subtask"
+msgstr ""
+
+#. Tag: guiicon
+#. +> trunk6
+#: index.docbook:484
+#, no-c-format
+msgid "Start"
+msgstr ""
+
+#. Tag: guiicon
+#. +> trunk6
+#: index.docbook:485
+#, no-c-format
+msgid "Stop"
+msgstr ""
+
+#. Tag: guiicon
+#. +> trunk6
+#: index.docbook:486
+#, no-c-format
+msgid "Delete"
+msgstr ""
+
+#. Tag: guiicon
+#. +> trunk6
+#: index.docbook:487
+#, no-c-format
+msgid "Edit"
+msgstr ""
+
+#. Tag: guiicon
+#. +> trunk6
+#: index.docbook:488
+#, no-c-format
+msgid "Open"
+msgstr ""
+
+#. Tag: guiicon
+#. +> trunk6
+#: index.docbook:489
+#, no-c-format
+msgid "Save"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:492
+#, no-c-format
+msgid "The statusbar reports the name of the file where the data was saved."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:499
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:501
+#, no-c-format
+msgid "&ktimetracker;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:505
+#, no-c-format
+msgid "Program copyright:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:509
+#, no-c-format
+msgid "1997-2000 &Sirtaj.Singh.Kang; &Sirtaj.Singh.Kang.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:513
+#, no-c-format
+msgid "2001-2002 Tomas Pospisek <email>tpo_deb@sourcepole.ch</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:517
+#, no-c-format
+msgid "2003-2004 Mark Bucciarelli <email>mark@hubcapconsulting.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:521
+#, no-c-format
+msgid "2004-2011 Thorsten St&auml;rk <email>dev@staerk.de</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:525
+#, no-c-format
+msgid "2019 Alexander Potashev <email>aspotashev@gmail.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:531
+#, no-c-format
+msgid "Contributors (in alphabetical order)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:533
+#, no-c-format
+msgid "Alexander Potashev <email>aspotashev@gmail.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:534
+#, no-c-format
+msgid "Allen Winter <email>winter@kde.org</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:535
+#, no-c-format
+msgid "&David.Faure; &David.Faure.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:536
+#, no-c-format
+msgid "&Espen.Sand; <email>espen@kde.org</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:537
+#, no-c-format
+msgid "Gioele Barabucci <email>gioele@gioelebarabucci.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:538
+#, no-c-format
+msgid "Jan Schaumann <email>jschauma@netmeister.org</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:539
+#, no-c-format
+msgid "&Jesper.Pedersen; <email>blackie@ifad.dk</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:540
+#, no-c-format
+msgid "Kalle Dalheimer &Matthias.Kalle.Dalheimer.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:541
+#, no-c-format
+msgid "Klar&auml;lvdalens Datakonsult AB"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:542
+#, no-c-format
+msgid "Mark Bucciarelli <email>mark@hubcapconsulting.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:543
+#, no-c-format
+msgid "Thorsten St&auml;rk <email>dev@staerk.de</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:544
+#, no-c-format
+msgid "Tomas Pospisek <email>tpo_deb@sourcepole.ch</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:545
+#, no-c-format
+msgid "Willi Richert <email>w.richert@cox.net</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:548
+#, no-c-format
+msgid "&ktimetracker; was inspired by Harald Tveit Alvestrand's very useful utility called <application>titrax</application>, the only failing of which is that it is based on the Xt toolkit."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:552
+#, no-c-format
+msgid "Documentation copyright 2000-2004 &Jonathan.Singer; &Jonathan.Singer.mail; and &Sirtaj.Singh.Kang; &Sirtaj.Singh.Kang.mail;."
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6
+#: index.docbook:555
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6
+#: index.docbook:555
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:562
+#, no-c-format
+msgid "Glossary"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:565
+#, no-c-format
+msgid "<title>A</title>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6
+#: index.docbook:567
+#, no-c-format
+msgid "active task"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:568
+#, no-c-format
+msgid "A task which has a timer running."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:573
+#, no-c-format
+msgid "<title>D</title>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6
+#: index.docbook:575
+#, no-c-format
+msgid "<glossterm>&DBus;</glossterm>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:576
+#, no-c-format
+msgid "An interprocess communication protocol. Short for Desktop Bus."
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6
+#: index.docbook:580
+#, no-c-format
+msgid "desktop"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:581
+#, no-c-format
+msgid "&GNU;/&Linux;, FreeBSD and other systems that run X.Org Server have multiple desktops. You can typically have four different desktops installed by default. Each desktop can display its own set of programs and files. When &kde; &plasma; first starts up, the desktop you see is Desktop 1. If you press <keycombo action=\"simul\">&Ctrl;<keycap>F2</keycap></keycombo>, you will see Desktop 2. Pressing <keycombo action=\"simul\">&Ctrl;<keycap>F1</keycap></keycombo> will bring back Desktop 1."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:592
+#, no-c-format
+msgid "<title>H</title>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6
+#: index.docbook:594
+#, no-c-format
+msgid "history"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:595
+#, no-c-format
+msgid "If &ktimetracker; is configured to log history, it will record every start/stop timer event. This history is not cleared when times are reset and remains on file until the task is deleted."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:602
+#, no-c-format
+msgid "<title>S</title>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6
+#: index.docbook:603
+#, no-c-format
+msgid "session"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:604
+#, no-c-format
+msgid "A user-defined starting point for the session timers. A new session begins when you select <menuchoice> <guimenu>File</guimenu> <guimenuitem>Start New Session</guimenuitem> </menuchoice>. Session data is not saved when you create a new session."
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6
+#: index.docbook:614
+#, no-c-format
+msgid "system tray"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:615
+#, no-c-format
+msgid "The system tray is in the bar that (by default in &kde; &plasma;) appears at the bottom of the screen. In this system tray <inlinemediaobject> <imageobject> <imagedata fileref=\"systray.png\" format=\"PNG\"/></imageobject> </inlinemediaobject> the &ktimetracker; icon is on the far right."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:624
+#, no-c-format
+msgid "<title>T</title>"
+msgstr ""
+
+#. Tag: glossterm
+#. +> trunk6
+#: index.docbook:626
+#, no-c-format
+msgid "top level task"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:627
+#, no-c-format
+msgid "A task with no parent tasks."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:644
+#, no-c-format
+msgid "&DBus; Interface"
+msgstr ""
+
+#. Tag: refentrytitle
+#. +> trunk6
+#: index.docbook:648
+#, no-c-format
+msgid "<refentrytitle>version</refentrytitle>"
+msgstr ""
+
+#. Tag: refname
+#. +> trunk6
+#: index.docbook:651
+#, no-c-format
+msgid "<refname>version</refname>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk6
+#: index.docbook:652
+#, no-c-format
+msgid "Return &ktimetracker;'s version."
+msgstr ""
+
+#. Tag: synopsis
+#. +> trunk6
+#: index.docbook:655
+#, no-c-format
+msgid "QString version()"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:658 index.docbook:677 index.docbook:743
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:659
+#, no-c-format
+msgid "<function>version()</function> is a &DBus; call that returns &ktimetracker;'s version number; for example 4.3.1. The version number is returned as a string in the typical &GNU; format of major.minor.bugfix."
+msgstr ""
+
+#. Tag: refentrytitle
+#. +> trunk6
+#: index.docbook:667
+#, no-c-format
+msgid "<refentrytitle>quit</refentrytitle>"
+msgstr ""
+
+#. Tag: refname
+#. +> trunk6
+#: index.docbook:670
+#, no-c-format
+msgid "<refname>quit</refname>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk6
+#: index.docbook:671
+#, no-c-format
+msgid "Quit &ktimetracker;'."
+msgstr ""
+
+#. Tag: synopsis
+#. +> trunk6
+#: index.docbook:674
+#, no-c-format
+msgid "QString quit()"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:678
+#, no-c-format
+msgid "<function>quit()</function> is a &DBus; call that provides a way that an external program can gracefully shutdown &ktimetracker;."
+msgstr ""
+
+#. Tag: refentrytitle
+#. +> trunk6
+#: index.docbook:721
+#, no-c-format
+msgid "<refentrytitle>addTask</refentrytitle>"
+msgstr ""
+
+#. Tag: refname
+#. +> trunk6
+#: index.docbook:724
+#, no-c-format
+msgid "<refname>addTask</refname>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk6
+#: index.docbook:725
+#, no-c-format
+msgid "Add new task."
+msgstr ""
+
+#. Tag: synopsis
+#. +> trunk6
+#: index.docbook:728
+#, no-c-format
+msgid "QString addTask(QString taskname)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:730
+#, no-c-format
+msgid "Parameters"
+msgstr ""
+
+#. Tag: parameter
+#. +> trunk6
+#: index.docbook:733
+#, no-c-format
+msgid "taskname"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:735
+#, no-c-format
+msgid "The name of new task."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:744
+#, no-c-format
+msgid "<function>addTask(QString taskname)</function> is a &DBus; call that adds a new top-level to-do to the current storage. The UID of the new task is returned."
+msgstr ""

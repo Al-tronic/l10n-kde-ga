@@ -1,0 +1,673 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:9
+#, no-c-format
+msgid "The &kfourinline; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:12
+#, no-c-format
+msgid "<firstname>Martin</firstname> <surname>Heni</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:16
+#, no-c-format
+msgid "&Martin.Heni.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:19
+#, no-c-format
+msgid "<firstname>Eugene</firstname> <surname>Trounev</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: index.docbook:23
+#, no-c-format
+msgid "eugene.trounev@gmail.com"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:25
+#, no-c-format
+msgid "<firstname>Benjamin</firstname> <surname>Meyer</surname>"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:29
+#, no-c-format
+msgid "<firstname>Johann Ollivier</firstname> <surname>Lapeyre</surname>"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:33
+#, no-c-format
+msgid "<firstname>Anton</firstname> <surname>Brondz</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: index.docbook:37
+#, no-c-format
+msgid "dinolinux@gmail.com"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:42
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:47
+#, no-c-format
+msgid "&Martin.Heni;"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:52
+#, no-c-format
+msgid "2021-06-05"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:53
+#, no-c-format
+msgid "KDE Gear 21.04"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:56
+#, no-c-format
+msgid "&kfourinline; is a four-in-a-row game by &kde;."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:61
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:62
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:63
+#, no-c-format
+msgid "game"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:64
+#, no-c-format
+msgid "board"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:65
+#, no-c-format
+msgid "board game"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:66
+#, no-c-format
+msgid "four wins"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:67
+#, no-c-format
+msgid "four"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:68
+#, no-c-format
+msgid "four in a row"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:69
+#, no-c-format
+msgid "four in line"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:70
+#, no-c-format
+msgid "kfourinline"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:71
+#, no-c-format
+msgid "connect four"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:72
+#, no-c-format
+msgid "connect 4"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:77
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:79
+#, no-c-format
+msgid "Game type: Strategy, Board"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:83
+#, no-c-format
+msgid "&kfourinline; is a board game for two players based on the &nbsp;<trademark>Connect-Four</trademark> game."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:88
+#, no-c-format
+msgid "The players try to build up a row of four pieces using different strategies. Pieces are placed on a board. The game can also be played against a computer, as well on network."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:96
+#, no-c-format
+msgid "How to Play"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:104
+#, no-c-format
+msgid "&kfourinline; Game Board"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:109
+#, no-c-format
+msgid "When &kfourinline; loads, you can select the difficulty or start a two player game. If you like, you can also pick your color and select which color starts the game."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:114
+#, no-c-format
+msgid "Each player is represented by a color (for example yellow or white for player one and red for player two). The goal of the game is to get four connected pieces of your color into any row, column or diagonal. The players move in turns. Each turn the player can place one of his or her pieces into any of the seven columns where each piece will fall to the lowest possible free place &ie; it will fall down until it reaches the ground level or another piece."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:123
+#, no-c-format
+msgid "After one player's move is done the second player can make his or her input. This is repeated until the game is over, which is when one of the players has four pieces in a row, column or diagonal or no more moves are possible because the board is filled."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:130
+#, no-c-format
+msgid "A player who first manages to get four pieces in a row, column or diagonal wins the game. If no more moves can be made but no player has won, the game ends drawn."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:138
+#, no-c-format
+msgid "Game rules, strategies and tips"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:140
+#, no-c-format
+msgid "The board is separated into several regions."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:144
+#, no-c-format
+msgid "The <firstterm>game board</firstterm> is constructed out of 7x6 fields which will be filled from bottom to top. The fields are marked with pieces in the color of the player who made the move to this position. On top of each column a colored arrow shows were the last piece had been put."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:151
+#, no-c-format
+msgid "The <firstterm>status display</firstterm> shows which player is controlled by which input device. A local player can input moves using keyboard or mouse, a remote player is shown as network input and finally the computer can control the input for a player. The status display further shows the player's names and the level of the computer opponent. Additionally the number of won, drawn, lost and ended games is noted for both players. Which player is next to move is indicated by one of the player's names being highlighted."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:161
+#, no-c-format
+msgid "The <firstterm>statusbar</firstterm> at the bottom of the screen displays the status of the game and which player is next to play."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:167
+#, no-c-format
+msgid "Remote Connections"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:169
+#, no-c-format
+msgid "It is possible to play the game over a network connection with another computer. One of the computers will act as game server. This one can determine who should play which color. You can configure the network options in the menu <menuchoice><guimenu>Settings</guimenu><guimenuitem>Network Configuration…</guimenuitem></menuchoice>. In the menu <menuchoice><guimenu>Game</guimenu><guimenuitem>Network Chat…</guimenuitem></menuchoice>. you find a chat dialog box which allows you to speak with your friend."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:181
+#, no-c-format
+msgid "When a network connection is built you will be asked to enter a remote host and a port. The port can usually just be left untouched, but if you know what you are doing replace it by another number, which has to be the same in both player games of course. The hostname should be the name of the remote host to which you are connecting. Only the client in the connection has to supply a hostname. It is often wise that the player behind a firewall chooses to be client as the firewall might not allow incoming connections."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:196
+#, no-c-format
+msgid "Interface Overview"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:199
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:203
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:211
+#, no-c-format
+msgid "Starts a new game. In a network game this option is only available for the network server. The network client will be automatically started by the server."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:220
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>Load…</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:228
+#, no-c-format
+msgid "Loads a saved game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:235
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>Save</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:243
+#, no-c-format
+msgid "Saves the current game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:250
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&End;</keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>End Game</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:257
+#, no-c-format
+msgid "Ends a running game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:264
+#, no-c-format
+msgid "<guimenu>Game</guimenu> <guimenuitem>Network Chat…</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:268
+#, no-c-format
+msgid "Pops up a chat widget which allows you to send messages to the other party."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:276
+#, no-c-format
+msgid "<guimenu>Game</guimenu> <guimenuitem>Show Statistics</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:281
+#, no-c-format
+msgid "Shows a dialog containing information about the overall game statistics, that is games won, lost or drawn by both players. The dialog also allows to clear this all time statistics."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:290
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:298
+#, no-c-format
+msgid "Quits the program."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:305
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo> </shortcut> <guimenu>Move</guimenu> <guimenuitem>Undo</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:313
+#, no-c-format
+msgid "Undo the last move. If the previous player is played by the computer two moves are taken back so that it is the player's turn again."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:321
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Z</keycap></keycombo> </shortcut> <guimenu>Move</guimenu> <guimenuitem>Redo</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:329
+#, no-c-format
+msgid "Replay a move which had been undone. If one of the players is played by the computer two moves are redone so that it is the player's turn again."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:337
+#, no-c-format
+msgid "<shortcut> <keycap>H</keycap> </shortcut> <guimenu>Move</guimenu> <guimenuitem>Hint</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:345
+#, no-c-format
+msgid "The computer will calculate the best possible move for you and mark it with a sign on the game board. How good the move actually is depends on the level of the computer."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:354
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guisubmenu>Theme</guisubmenu>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:359
+#, no-c-format
+msgid "Choose a graphical theme for the game. Which themes are available depends on the current installation."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:364
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Network Configuration…</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:368
+#, no-c-format
+msgid "Pops up a dialog for the network configuration. You can choose to be server or client. If you are server you can also choose what color the remote player should take over. If a network game is running you can also disconnect it in this menu."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:379
+#, no-c-format
+msgid "Additionally &kfourinline; has the common &kde; <guimenu>Settings</guimenu> and <guimenu>Help</guimenu> menu items, for more information read the sections about the <ulink url=\"help:/fundamentals/menus.html#menus-settings\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:390
+#, no-c-format
+msgid "<title>Game Configuration</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:391
+#, no-c-format
+msgid "&kfourinline; can be configured using the configuration dialog with the <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kfourinline;…</guimenuitem></menuchoice> menu item."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:399
+#, no-c-format
+msgid "<phrase>Game Configuration</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:404
+#, no-c-format
+msgid "<guilabel>Starting Player Color</guilabel>: Determine which player color (<guilabel>Red</guilabel> or <guilabel>Black</guilabel>) has the first move in the next game."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:405
+#, no-c-format
+msgid "<guilabel>Player Names</guilabel>: Change the names of the players."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:406
+#, no-c-format
+msgid "<guilabel>Black Plays With</guilabel>: Choose who should play for player 1. It can be either <guilabel>Mouse</guilabel> or <guilabel>Keyboard</guilabel>, &ie; a local player using the mouse or keyboard as input device or <guilabel>Computer</guilabel>, &ie; the computer plays for this player."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:412
+#, no-c-format
+msgid "<guilabel>Red Plays With</guilabel>: Same as <guilabel>Black Plays With</guilabel> but for player 2 (red)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:414
+#, no-c-format
+msgid "<guilabel>Computer Difficulty</guilabel>: Select the level of the computer player."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:415
+#, no-c-format
+msgid "<guilabel>Use AI learning</guilabel>: The computer AI can learn from mistakes made in one game."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:420
+#, no-c-format
+msgid "Frequently asked questions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:425
+#, no-c-format
+msgid "Can I change the look of the game?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:430
+#, no-c-format
+msgid "You can change the color of the pieces by opening the <menuchoice><guimenu>Settings</guimenu> <guisubmenu>Theme</guisubmenu></menuchoice> menu item."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:438
+#, no-c-format
+msgid "Can I use the keyboard to play the game?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:443
+#, no-c-format
+msgid "You cannot use the keyboard to control the pieces."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:451
+#, no-c-format
+msgid "I have lost control of who is in the lead, can I find it out?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:456
+#, no-c-format
+msgid "Yes, you can see statistics by opening the <menuchoice><guimenu>Game</guimenu> <guimenuitem>Show Statistics</guimenuitem></menuchoice> menu item."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:467
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:469
+#, no-c-format
+msgid "&kfourinline;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:472
+#, no-c-format
+msgid "Program copyright 1995-2007 &Martin.Heni; &Martin.Heni.mail; and Benjamin Meyer."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:476
+#, no-c-format
+msgid "Graphics copyright 2007 Eugene Trounev <email>eugene.trounev@gmail.com</email> and Johann Ollivier Lapeyre."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:480
+#, no-c-format
+msgid "Documentation copyright 2007 &Martin.Heni; &Martin.Heni.mail; and Benjamin Meyer."
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:484
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:484
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:10
+#, no-c-format
+msgid "<personname><firstname>Ben</firstname><surname>Burton</surname></personname> <email>bab@debian.org</email>"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:12
+#, no-c-format
+msgid "2003-03-08"
+msgstr ""
+
+#. Tag: refentrytitle
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:16
+#, no-c-format
+msgid "<refentrytitle>&cvslastchange;</refentrytitle>"
+msgstr ""
+
+#. Tag: manvolnum
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:17
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refname
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:21
+#, no-c-format
+msgid "<refname>&cvslastchange;</refname>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:22
+#, no-c-format
+msgid "Display the last change committed to &CVS; for a file"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:26
+#, no-c-format
+msgid "&cvslastchange; <group><replaceable>file</replaceable></group>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:33
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:35
+#, no-c-format
+msgid "&cvslastchange; displays the last change committed to &CVS; for a file. It uses <command>cvs diff</command> and <command>cvs log</command> to do this."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:39
+#, no-c-format
+msgid "&cvslastchange; works on any &CVS; branch, not just HEAD."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:41
+#, no-c-format
+msgid "This utility is part of the &kde; Software Development Kit."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:46
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-cvslastchange.1.docbook:48
+#, no-c-format
+msgid "cvslastlog(1) cvsrevertlast(1) cvs(1)"
+msgstr ""

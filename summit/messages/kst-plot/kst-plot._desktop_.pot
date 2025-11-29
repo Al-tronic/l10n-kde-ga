@@ -1,0 +1,866 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-08 08:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: old_datasources/dmc/kstdata_dmc.desktop:7
+msgctxt "Name"
+msgid "PLANCK DMC Plugin"
+msgstr ""
+
+#. +> trunk5
+#: old_datasources/dmc/kstdata_dmc.desktop:34
+msgctxt "Comment"
+msgid "Plugin to read PLANCK DMC data."
+msgstr ""
+
+#. +> trunk5
+#: old_datasources/healpix/kstdata_healpix.desktop:7
+msgctxt "Name"
+msgid "Healpix File Reader"
+msgstr ""
+
+#. +> trunk5
+#: old_datasources/healpix/kstdata_healpix.desktop:33
+msgctxt "Comment"
+msgid "Plugin to read Healpix FITS files."
+msgstr ""
+
+#. +> trunk5
+#: old_datasources/lfiio/kstdata_lfiio.desktop:7
+msgctxt "Name"
+msgid "LFIIO Reader"
+msgstr ""
+
+#. +> trunk5
+#: old_datasources/lfiio/kstdata_lfiio.desktop:33
+msgctxt "Comment"
+msgid "Implements support for reading FITS files into Kst."
+msgstr ""
+
+#. +> trunk5
+#: old_datasources/plankIDEF/kstdata_planckIDEF.desktop:7
+msgctxt "Name"
+msgid "Planck IDIS DMC Exchange Format Reader"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/ascii/kstdata_ascii.desktop:7
+msgctxt "Name"
+msgid "ASCII File Reader"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/ascii/kstdata_ascii.desktop:34
+msgctxt "Comment"
+msgid "Implements support for reading ASCII files into Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/bis/kstdata_bissource.desktop:7
+msgctxt "Name"
+msgid "Bit Image Stream Reader"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/dirfilesource/kstdata_dirfilesource.desktop:7
+msgctxt "Name"
+msgid "DirFile Reader"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/dirfilesource/kstdata_dirfilesource.desktop:33
+msgctxt "Comment"
+msgid "Plugin to read the dirfile format."
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/fitsimage/kstdata_fitsimage.desktop:7
+msgctxt "Name"
+msgid "fitsimage"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/fitsimage/kstdata_fitsimage.desktop:33
+msgctxt "Comment"
+msgid "Plugin to read a FITS image."
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/fitstable/kstdata_fitstable.desktop:7
+msgctxt "Name"
+msgid "FITS Table reader"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/fitstable/kstdata_fitstable.desktop:29
+msgctxt "Comment"
+msgid "FITS table reader plugin for Kst"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/hdf5/kstdata_hdf5.desktop:7
+msgctxt "Name"
+msgid "HDF5 Reader"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/hdf5/kstdata_hdf5.desktop:29
+msgctxt "Comment"
+msgid "Plugin that reads HDF5 files"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/its/kstdata_itssource.desktop:7
+msgctxt "Name"
+msgid "Indexed Thumbnail Stream Reader"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/matlab/kstdata_matlab.desktop:7
+msgctxt "Name"
+msgid "Matlab's .mat reader"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/matlab/kstdata_matlab.desktop:31
+msgctxt "Comment"
+msgid "Matlab file reader plugin for Kst"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/netcdf/kstdata_netcdf.desktop:7
+msgctxt "Name"
+msgid "netCDF File Reader"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/netcdf/kstdata_netcdf.desktop:33
+msgctxt "Comment"
+msgid "Implements support for reading netCDF files into Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/qimagesource/kstdata_qimagesource.desktop:7
+msgctxt "Name"
+msgid "qimagesource"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/qimagesource/kstdata_qimagesource.desktop:32
+msgctxt "Comment"
+msgid "Plugin to read a qimage compatible image."
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/sampledatasource/kstdata_sampledatasource.desktop:7
+msgctxt "Name"
+msgid "File Reader Template"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/sampledatasource/kstdata_sampledatasource.desktop:32
+msgctxt "Comment"
+msgid "Code template for a file reader plugin."
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/sourcelist/kstdata_sourcelist.desktop:7
+msgctxt "Name"
+msgid "Data Source List"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/tiff16source/kstdata_tiff16source.desktop:7
+msgctxt "Name"
+msgid "tiff16source"
+msgstr ""
+
+#. +> trunk5
+#: src/datasources/tiff16source/kstdata_tiff16source.desktop:27
+msgctxt "Comment"
+msgid "Plugin to read a 16 bit grayscale tiff image."
+msgstr ""
+
+#. +> trunk5
+#: src/kst/org.kde.kst.desktop:9
+msgctxt "Name"
+msgid "Kst2"
+msgstr ""
+
+#. +> trunk5
+#: src/kst/org.kde.kst.desktop:37
+msgctxt "GenericName"
+msgid "Data Viewer"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/activitylevel/kstplugin_activitylevel.desktop:7
+msgctxt "Name"
+msgid "Activity Level Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/activitylevel/kstplugin_activitylevel.desktop:29
+msgctxt "Comment"
+msgid "Computes an activity level (workload) based on signal reversals and amplitude of changes."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/bin/kstplugin_bin.desktop:7
+#: src/plugins/dataobject/correlation/autocorrelation/kstplugin_autocorrelation.desktop:7
+msgctxt "Name"
+msgid "Bin Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/bin/kstplugin_bin.desktop:28
+msgctxt "Comment"
+msgid "Implements a Bin Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/chop/kstplugin_chop.desktop:7
+msgctxt "Name"
+msgid "Chop Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/chop/kstplugin_chop.desktop:28
+msgctxt "Comment"
+msgid "Implements a Chop Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/convolution/convolve/kstplugin_convolve.desktop:7
+msgctxt "Name"
+msgid "Convolve Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/convolution/convolve/kstplugin_convolve.desktop:28
+msgctxt "Comment"
+msgid "Implements a Convolve Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/convolution/deconvolve/kstplugin_deconvolve.desktop:7
+msgctxt "Name"
+msgid "Deconvolve Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/convolution/deconvolve/kstplugin_deconvolve.desktop:28
+msgctxt "Comment"
+msgid "Implements a Deconvolve Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/correlation/autocorrelation/kstplugin_autocorrelation.desktop:28
+msgctxt "Comment"
+msgid "Implements a Auto Correlation Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/correlation/crosscorrelation/kstplugin_crosscorrelation.desktop:7
+msgctxt "Name"
+msgid "Cross Correlation Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/correlation/crosscorrelation/kstplugin_crosscorrelation.desktop:28
+msgctxt "Comment"
+msgid "Implements a Cross Correlation Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/crossspectrum/kstplugin_crossspectrum.desktop:7
+msgctxt "Name"
+msgid "Cross Spectrum Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/crossspectrum/kstplugin_crossspectrum.desktop:28
+msgctxt "Comment"
+msgid "Implements a Cross Spectrum Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/effectivebandwidth/kstplugin_effectivebandwidth.desktop:7
+msgctxt "Name"
+msgid "Effective Bandwidth Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/effectivebandwidth/kstplugin_effectivebandwidth.desktop:28
+msgctxt "Comment"
+msgid "Implements a Effective Bandwidth Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/genericfilter/kstplugin_genericfilter.desktop:7
+msgctxt "Name"
+msgid "Generic Filter Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/genericfilter/kstplugin_genericfilter.desktop:28
+msgctxt "Comment"
+msgid "Implements a Generic Filter Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/akima/kstplugin_akima.desktop:7
+msgctxt "Name"
+msgid "Akima Interpolation Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/akima/kstplugin_akima.desktop:28
+msgctxt "Comment"
+msgid "Implements a Akima Interpolation Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/akimaperiodic/kstplugin_akimaperiodic.desktop:7
+msgctxt "Name"
+msgid "Akima Periodic Interpolation Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/akimaperiodic/kstplugin_akimaperiodic.desktop:28
+msgctxt "Comment"
+msgid "Implements a Akima Periodic Interpolation Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/cspline/kstplugin_akima.desktop:7
+msgctxt "Name"
+msgid "CSpline Interpolation Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/cspline/kstplugin_akima.desktop:28
+msgctxt "Comment"
+msgid "Implements a CSpline Interpolation Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/csplineperiodic/kstplugin_csplineperiodic.desktop:7
+msgctxt "Name"
+msgid "Cubic Spline Periodic Interpolation Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/csplineperiodic/kstplugin_csplineperiodic.desktop:28
+msgctxt "Comment"
+msgid "Implements a Cubic Spline Periodic Interpolation Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/linear/kstplugin_linear.desktop:7
+msgctxt "Name"
+msgid "Linear Interpolation Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/linear/kstplugin_linear.desktop:28
+msgctxt "Comment"
+msgid "Implements a Linear Interpolation Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/polynomial/kstplugin_polynomial.desktop:7
+msgctxt "Name"
+msgid "Polynomial Interpolation Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/interpolations/polynomial/kstplugin_polynomial.desktop:28
+msgctxt "Comment"
+msgid "Implements a Polynomial Interpolation Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/linefit/kstplugin_linefit.desktop:7
+msgctxt "Name"
+msgid "Line Fit Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/linefit/kstplugin_linefit.desktop:28
+msgctxt "Comment"
+msgid "Implements a Line Fit Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/lockin/kstplugin_lockin.desktop:7
+msgctxt "Name"
+msgid "Lock-In Amplification Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/lockin/kstplugin_lockin.desktop:28
+msgctxt "Comment"
+msgid "Lock-In amplification of channel to reference Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/noiseaddition/kstplugin_noiseaddition.desktop:7
+msgctxt "Name"
+msgid "Noise Addition Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/noiseaddition/kstplugin_noiseaddition.desktop:28
+msgctxt "Comment"
+msgid "Implements a Noise Addition Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/periodogram/kstplugin_periodogram.desktop:7
+msgctxt "Name"
+msgid "Periodogram Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/periodogram/kstplugin_periodogram.desktop:28
+msgctxt "Comment"
+msgid "Implements a Periodogram Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/phase/kstplugin_phase.desktop:7
+msgctxt "Name"
+msgid "Phase Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/phase/kstplugin_phase.desktop:28
+msgctxt "Comment"
+msgid "Implements a Phase Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/shift/kstplugin_shift.desktop:7
+msgctxt "Name"
+msgid "Shift Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/shift/kstplugin_shift.desktop:28
+msgctxt "Comment"
+msgid "Implements a Shift Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/statistics/kstplugin_statistics.desktop:7
+msgctxt "Name"
+msgid "Statistics Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/statistics/kstplugin_statistics.desktop:28
+msgctxt "Comment"
+msgid "Implements a Statistics Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/syncbin/kstplugin_syncbin.desktop:7
+msgctxt "Name"
+msgid "Sync Bin Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/dataobject/syncbin/kstplugin_syncbin.desktop:28
+msgctxt "Comment"
+msgid "Implements a Sync Bin Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/boxcar/kstplugin_boxcar.desktop:7
+msgctxt "Name"
+msgid "Boxcar Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/boxcar/kstplugin_boxcar.desktop:24
+#: src/plugins/filters/hpboxcar/kstplugin_hpboxcar.desktop:23
+msgctxt "Comment"
+msgid "Implements a boxcar lowpass filter Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/butterworth_bandpass/kstplugin_filter_butterworth_bandpass.desktop:7
+msgctxt "Name"
+msgid "Filter - Butterworth Band Pass Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/butterworth_bandpass/kstplugin_filter_butterworth_bandpass.desktop:28
+msgctxt "Comment"
+msgid "Implements a Butterworth Band Pass Filter Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/butterworth_bandstop/kstplugin_filter_butterworth_bandstop.desktop:7
+msgctxt "Name"
+msgid "Filter - Butterworth Band Stop Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/butterworth_bandstop/kstplugin_filter_butterworth_bandstop.desktop:28
+msgctxt "Comment"
+msgid "Implements a Butterworth Band Stop Filter Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/butterworth_highpass/kstplugin_filter_butterworth_highpass.desktop:7
+msgctxt "Name"
+msgid "Filter - Butterworth High Pass Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/butterworth_highpass/kstplugin_filter_butterworth_highpass.desktop:28
+msgctxt "Comment"
+msgid "Implements a Butterworth High Pass Filter Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/butterworth_lowpass/kstplugin_filter_butterworth_lowpass.desktop:7
+msgctxt "Name"
+msgid "Filter - Butterworth Low Pass Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/butterworth_lowpass/kstplugin_filter_butterworth_lowpass.desktop:28
+msgctxt "Comment"
+msgid "Implements a Butterworth Low Pass Filter Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/cumulativeaverage/kstplugin_cumulativeaverage.desktop:7
+msgctxt "Name"
+msgid "Cumulative Average Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/cumulativeaverage/kstplugin_cumulativeaverage.desktop:28
+msgctxt "Comment"
+msgid "Implements a Cumulative Averge Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/cumulativesum/kstplugin_cumulativesum.desktop:7
+msgctxt "Name"
+msgid "Cumulative Sum Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/cumulativesum/kstplugin_cumulativesum.desktop:28
+msgctxt "Comment"
+msgid "Implements a Cumulative Sum Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/despike/kstplugin_filter_despike.desktop:7
+msgctxt "Name"
+msgid "Filter - Despike Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/despike/kstplugin_filter_despike.desktop:28
+msgctxt "Comment"
+msgid "Implements a Despike Filter Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/differentiation/kstplugin_differentiation.desktop:7
+msgctxt "Name"
+msgid "Differentiation Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/differentiation/kstplugin_differentiation.desktop:28
+msgctxt "Comment"
+msgid "Implements a Differentiation Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/exponential/kstplugin_exponential.desktop:7
+msgctxt "Name"
+msgid "Exponential Filter Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/exponential/kstplugin_exponential.desktop:24
+msgctxt "Comment"
+msgid "Implements a Exponential Filter Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/flag/kstplugin_filter_flag.desktop:7
+msgctxt "Name"
+msgid "Filter - Flag Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/flag/kstplugin_filter_flag.desktop:25
+msgctxt "Comment"
+msgid "Implements a Flag Filter Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/hpboxcar/kstplugin_hpboxcar.desktop:7
+msgctxt "Name"
+msgid "Boxcar Highpass Filter Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/movingaverage/kstplugin_movingaverage.desktop:7
+msgctxt "Name"
+msgid "Moving Average Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/movingaverage/kstplugin_movingaverage.desktop:24
+msgctxt "Comment"
+msgid "Implements a Moving Average Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/movingmedian/kstplugin_movingmedian.desktop:7
+msgctxt "Name"
+msgid "Moving Median Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/movingmedian/kstplugin_movingmedian.desktop:24
+msgctxt "Comment"
+msgid "Implements a Moving Median Data Object Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/unwind/kstplugin_filter_unwind.desktop:7
+msgctxt "Name"
+msgid "Filter - Unwind Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/unwind/kstplugin_filter_unwind.desktop:28
+msgctxt "Comment"
+msgid "Implements an angle unwind Filter Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/window/kstplugin_filter_window.desktop:7
+msgctxt "Name"
+msgid "Filter - Window Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/filters/window/kstplugin_filter_window.desktop:27
+msgctxt "Comment"
+msgid "Implements a Windowing Filter Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/exponential_unweighted/kstplugin_fits_exponential_unweighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Exponential Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/exponential_unweighted/kstplugin_fits_exponential_unweighted.desktop:28
+msgctxt "Comment"
+msgid "Implements an Exponential Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/exponential_weighted/kstplugin_fits_exponential_weighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Gradient Exponential Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/exponential_weighted/kstplugin_fits_exponential_weighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Gradient Exponential Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/gaussian_unweighted/kstplugin_fits_gaussian_unweighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Gaussian Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/gaussian_unweighted/kstplugin_fits_gaussian_unweighted.desktop:29
+msgctxt "Comment"
+msgid "Implements a Gaussian Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/gaussian_weighted/kstplugin_fits_gaussian_weighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Gradient Gaussian Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/gaussian_weighted/kstplugin_fits_gaussian_weighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Gradient Gaussian Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/gradient_unweighted/kstplugin_fits_gradient_unweighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Gradient Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/gradient_unweighted/kstplugin_fits_gradient_unweighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Gradient Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/gradient_weighted/kstplugin_fits_gradient_weighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Gradient Weighted Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/gradient_weighted/kstplugin_fits_gradient_weighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Gradient Weighted Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/kneefrequency/kstplugin_fits_kneefrequency.desktop:7
+msgctxt "Name"
+msgid "Fits - Knee Frequency Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/kneefrequency/kstplugin_fits_kneefrequency.desktop:28
+msgctxt "Comment"
+msgid "Implements a Knee Frequency Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/linear_unweighted/kstplugin_fits_linear_unweighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Linear Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/linear_unweighted/kstplugin_fits_linear_unweighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Linear Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/linear_weighted/kstplugin_fits_linear_weighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Linear Weighted Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/linear_weighted/kstplugin_fits_linear_weighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Linear Weighted Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/lorentzian_unweighted/kstplugin_fits_lorentzian_unweighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Lorentzian Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/lorentzian_unweighted/kstplugin_fits_lorentzian_unweighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Lorentzian Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/lorentzian_weighted/kstplugin_fits_lorentzian_weighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Gradient Lorentzian Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/lorentzian_weighted/kstplugin_fits_lorentzian_weighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Gradient Lorentzian Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/polynomial_unweighted/kstplugin_fits_polynomial_unweighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Polynomial Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/polynomial_unweighted/kstplugin_fits_polynomial_unweighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Polynomial Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/polynomial_weighted/kstplugin_fits_polynomial_weighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Polynomial Weighted Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/polynomial_weighted/kstplugin_fits_polynomial_weighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Polynomial Weighted Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/sinusoid_unweighted/kstplugin_fits_sinusoid_unweighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Sinusoid Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/sinusoid_unweighted/kstplugin_fits_sinusoid_unweighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Sinusoid Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/sinusoid_weighted/kstplugin_fits_sinusoid_weighted.desktop:7
+msgctxt "Name"
+msgid "Fits - Sinusoid Weighted Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/fits/sinusoid_weighted/kstplugin_fits_sinusoid_weighted.desktop:28
+msgctxt "Comment"
+msgid "Implements a Sinusoid Weighted Fits Plugin for Kst."
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/sampleplugin/kstplugin_sampleplugin.desktop:7
+msgctxt "Name"
+msgid "Sample Data Object Plugin"
+msgstr ""
+
+#. +> trunk5
+#: src/plugins/sampleplugin/kstplugin_sampleplugin.desktop:28
+msgctxt "Comment"
+msgid "Implements a sample Data Object Plugin for Kst."
+msgstr ""

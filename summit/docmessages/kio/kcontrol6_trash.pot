@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-01-13 20:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 trunk5 stable6
+#: index.docbook:8
+#, no-c-format
+msgid "Trash"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 trunk5 stable6
+#: index.docbook:11
+#, no-c-format
+msgid "&Burkhard.Lueck;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 trunk5 stable6
+#: index.docbook:12
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 trunk5 stable6
+#: index.docbook:15
+#, no-c-format
+msgid "2018-05-31"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 trunk5 stable6
+#: index.docbook:16
+#, no-c-format
+msgid "Frameworks 5.48"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 trunk5 stable6
+#: index.docbook:19
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 trunk5 stable6
+#: index.docbook:20
+#, no-c-format
+msgid "Systemsettings"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 trunk5 stable6
+#: index.docbook:21
+#, no-c-format
+msgid "trash"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5 stable6
+#: index.docbook:25
+#, no-c-format
+msgid "This module allows you to configure the settings for the trash."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 trunk5 stable6
+#: index.docbook:30
+#, no-c-format
+msgid "Cleanup:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5 stable6
+#: index.docbook:31
+#, no-c-format
+msgid "Check this box to allow automatic deletion of files that are older than the value specified. Leave this disabled to <emphasis>not</emphasis> automatically delete any items after a certain timespan. Set the number of days that files can remain in the trash. Any files older than this will be automatically deleted."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 trunk5 stable6
+#: index.docbook:40
+#, no-c-format
+msgid "Size:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5 stable6
+#: index.docbook:41
+#, no-c-format
+msgid "Check this box to limit the trash to the maximum amount of disk space that you specify. Otherwise, it will be unlimited."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 trunk5 stable6
+#: index.docbook:47
+#, no-c-format
+msgid "Limit to"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5 stable6
+#: index.docbook:48
+#, no-c-format
+msgid "This is the maximum percent of disk space that will be used for the trash. The calculated amount of disk space that will be allowed for the trash is displayed right of the spinbox."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 trunk5 stable6
+#: index.docbook:55
+#, no-c-format
+msgid "Full trash:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5 stable6
+#: index.docbook:56
+#, no-c-format
+msgid "When the size limit is reached, the selected action will be performed, either the oldest or biggest files will be deleted automatically or you will be warned."
+msgstr ""

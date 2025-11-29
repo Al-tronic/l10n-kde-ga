@@ -1,0 +1,932 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:11
+#, no-c-format
+msgid "The &kwordquiz; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:14
+#, no-c-format
+msgid "<firstname>Peter</firstname> <surname>Hedlund</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: index.docbook:18
+#, no-c-format
+msgid "peter.hedlund@kdemail.net"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:21
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:30
+#, no-c-format
+msgid "Peter B. Hedlund"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:36
+#, no-c-format
+msgid "2023-07-04"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:37
+#, no-c-format
+msgid "Applications 23.08"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:40
+#, no-c-format
+msgid "&kwordquiz; is a flashcard and vocabulary learning program by &kde;."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:46
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:47
+#, no-c-format
+msgid "kdeedu"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:48
+#, no-c-format
+msgid "KWordQuiz"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:49
+#, no-c-format
+msgid "flashcard"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:50
+#, no-c-format
+msgid "vocabulary"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:51
+#, no-c-format
+msgid "language"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:52
+#, no-c-format
+msgid "education"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:53
+#, no-c-format
+msgid "school"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:54
+#, no-c-format
+msgid "college"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:55
+#, no-c-format
+msgid "university"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:61
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:62
+#, no-c-format
+msgid "&kwordquiz; is a tool that gives you a powerful way to master new vocabularies. It may be a language or any other kind of terminology."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:66
+#, no-c-format
+msgid "Easy to use"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:68
+#, no-c-format
+msgid "With &kwordquiz; you build your own vocabulary documents in a simple and intuitive way. The basic layout is a two-column spreadsheet where you type vocabulary entries in one form that you know and in another form that you want to learn. You change the titles of the columns to reflect what you are practicing."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:73
+#, no-c-format
+msgid "Quiz types"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:75
+#, no-c-format
+msgid "When you have entered your vocabulary, you are ready to start a quiz. Maybe you want to start with a flashcard session. Later you can move on to a multiple choice quiz, or do the powerful question and answer quiz. You get instant feedback on correct and incorrect answers, and you have the option to repeat any errors, further improving your learning efficiency. If you need a little extra help you can use the hint function."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:81
+#, no-c-format
+msgid "Practice modes"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:83
+#, no-c-format
+msgid "You can select how you want to practice. &kwordquiz; offers three different modes to make practicing more efficient. The different modes make it possible to decide which column is used as a question, answer or both. Additionally you can choose whether to use a sequential or random order."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:88
+#, no-c-format
+msgid "Vocabulary documents"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:89
+#, no-c-format
+msgid "&kwordquiz; can open several types of vocabulary data. The default format is <filename class=\"extension\">.kvtml</filename>, a file format shared by several &kde; programs. &kwordquiz; should also open <filename class=\"extension\">.wql</filename> files created by &kwordquiz; for &Windows;, <filename class=\"extension\">.csv</filename> files with comma separated text, <ulink url=\"http://www.vokabeln.de/v1/download.htm\"><filename class=\"extension\">.voc</filename> files</ulink> created by the old version of Vokabeltrainer, <ulink url=\"https://sourceforge.net/projects/xdxf/files/dicts-XDXF/\"><filename class=\"extension\">.xdxf</filename> files</ulink>, and <filename class=\"extension\">.xml.gz</filename> files created by the old versions of <ulink url=\"http://pauker.sourceforge.net\">Pauker</ulink>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:92
+#, no-c-format
+msgid "&kwordquiz; can save your vocabulary documents in several different formats. The default is the <filename class=\"extension\">.kvtml</filename> format used by other &kde; programs. Another available option is comma separated text <filename class=\"extension\">.csv</filename>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:95
+#, no-c-format
+msgid "You can have several files open at the same time, and easily copy or move entries between files."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:103
+#, no-c-format
+msgid "Command Reference"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:105
+#, no-c-format
+msgid "The Options Menu"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:106
+#, no-c-format
+msgid "The menu provides 3 different options for the quiz which are not mutually exclusive."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:109
+#, no-c-format
+msgid "The menu names will change to reflect the column titles of the currently active vocabulary document. The selected mode will apply to Flashcard, Multiple Choice and Question &amp; Answer."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:115
+#, no-c-format
+msgid "<guimenu>Options</guimenu> <guimenuitem>Shuffle</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:121
+#, no-c-format
+msgid "During the quiz you will be given the entries in a random order, but each entry will be processed once."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:130
+#, no-c-format
+msgid "<guimenu>Options</guimenu> <guimenuitem>Column 1 -&gt; Column 2</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:136
+#, no-c-format
+msgid "During the quiz you will be given the entries of Column 1 and asked to provide the corresponding Column 2 entries."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:144
+#, no-c-format
+msgid "<guimenu>Mode</guimenu> <guimenuitem>Column 2 -&gt; Column 1</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:150
+#, no-c-format
+msgid "During the quiz you will be given the entries of Column 2 and asked to provide the corresponding Column 1 entries."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:160
+#, no-c-format
+msgid "<title>The Welcome Page</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:162
+#, no-c-format
+msgid "When opening KWordQuiz, you will land on the welcome page. This page will list all the previously opened deck. Additionally it lets you create a new deck, open a deck from a file or download deck from the internet. Finally you can also choose which main mode you want to use."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:167
+#, no-c-format
+msgid "<screeninfo>The Welcome Page</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:173
+#, no-c-format
+msgid "<phrase>The Welcome Page</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:180
+#, no-c-format
+msgid "<title>The Vocabulary Editor</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:182
+#, no-c-format
+msgid "The vocabulary document area has the appearance of a spreadsheet-like grid. The grid consists of cells organized in two columns and a number of rows. Each column and row has a header. The column headers are used to specify the titles of the vocabulary document. They can be set by editing the first row."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:186
+#, no-c-format
+msgid "You can click in a cell of the grid to make it the active cell. You can use the up and down arrow to move up and down in the table and tab to move to the next element."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:190
+#, no-c-format
+msgid "<screeninfo>The Vocabulary Editor</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:196
+#, no-c-format
+msgid "<phrase>The Vocabulary Editor</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:201
+#, no-c-format
+msgid "In the document, you build a vocabulary of pair-wise entries in the two columns. You can enter text into the active cell simply by starting to type. The cell will now be in edit mode and you can select all or part of the text. You can also edit a cell by double-clicking it or by pressing <keycap>F2</keycap> and making changes directly in the cell."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:204
+#, no-c-format
+msgid "When you have finished typing one entry, press the return key and the next cell will automatically become active. Hence, it's easy to quickly type several entries. There is really no limit to the number of rows you can have in a document."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:211
+#, no-c-format
+msgid "<title>Flashcard Session</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:213
+#, no-c-format
+msgid "Select Flashcard from the navigation panel to start a flashcard session on the entries of the active vocabulary document. The mode selected in the <guimenu>Options</guimenu> menu will be used. If you change the options during a session, the session will be restarted."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:216
+#, no-c-format
+msgid "If you are working with long expressions, the window can be resized to make more space available. The font size will also influence how much will fit in the different parts of the window."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:221
+#, no-c-format
+msgid "<screeninfo>Flashcard Session</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:227
+#, no-c-format
+msgid "<phrase>Flashcard Session</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:231
+#, no-c-format
+msgid "Initially the front of the card is displayed. Use the <guibutton>Check</guibutton> to see the other side."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:234
+#, no-c-format
+msgid "To move on to the next card, either select <guibutton>I Know</guibutton> to count the card as correct or <guibutton>I Don't Know</guibutton> to count the card as incorrect."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:237 index.docbook:276 index.docbook:318
+#, no-c-format
+msgid "Select <guibutton>Repeat Errors</guibutton> to repeat the cards you have counted as incorrect."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:240 index.docbook:279 index.docbook:321
+#, no-c-format
+msgid "Select <guibutton>Try again</guibutton> to start the session from the beginning again. If you are using a random mode the cards will be reshuffled."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:243
+#, no-c-format
+msgid "The score section at the top of the screen shows the number of cards, the number of cards you have seen, the number of cards counted as correct, and the number counted as incorrect."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:250
+#, no-c-format
+msgid "<title>Multiple Choice Session</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:252
+#, no-c-format
+msgid "Select Multiple Choice in the welcome page to start a multiple choice quiz on the entries in the active vocabulary document. The mode selected in the <guimenu>Options</guimenu> menu will be used. If you change options during a session, the session will be restarted."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:255
+#, no-c-format
+msgid "If you are working with long expressions the window can be resized to make more room. The font size (selected for the editor) will also influence how much will fit in the different parts of the window."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:258
+#, no-c-format
+msgid "In the example below the user gave an incorrect answer to the previous question. He/she is now about to answer the next question."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:263
+#, no-c-format
+msgid "<screeninfo>Multiple Choice Session</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:269
+#, no-c-format
+msgid "<phrase>Multiple Choice Session</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:273
+#, no-c-format
+msgid "Your choices are shown on the middle of the screen. Select the one you think is correct. Use <guibutton>Check</guibutton> to see if the answer is correct. If you have activated the automatic mode in <menuchoice><guimenu>Settings</guimenu></menuchoice> your selection is checked immediately."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:282 index.docbook:324
+#, no-c-format
+msgid "The score section at the top of the screen shows the number of questions, the number of questions you have answered, the number of correct answers, and the number of incorrect answers."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:290
+#, no-c-format
+msgid "<title>Question &amp; Answer Session</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:291
+#, no-c-format
+msgid "Select Question &amp; Answer from the navigation panel to start a question &amp; answer session on the entries in the active vocabulary. The mode selected in the <guimenu>Mode</guimenu> menu will be used. If you change mode during a session, the session will be restarted."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:294
+#, no-c-format
+msgid "If you are working with long expressions, the window can be resized to make more room. The font size (selected for the editor) will also influence how much will fit in the different parts of the window."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:297
+#, no-c-format
+msgid "In the example below the user gave a correct answer to the previous question (to see how incorrect answers are handled, see the <link linkend=\"multiple\">Multiple Choice</link> chapter). He/she is now about to answer the next question."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:302
+#, no-c-format
+msgid "<screeninfo>Question &amp; Answer Session</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:308
+#, no-c-format
+msgid "<phrase>Question &amp; Answer Session</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:312
+#, no-c-format
+msgid "Your question is shown on the center. Type your answer in the edit field. Use <guibutton>Check</guibutton> or &Enter; to see if the answer is correct."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:315
+#, no-c-format
+msgid "Select <guibutton>Hint</guibutton> to get the next correct letter of the answer. In <menuchoice><guimenu>Settings</guimenu></menuchoice> you may choose to count any questions where you use the hint function as incorrect."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:330
+#, no-c-format
+msgid "Fill-in-the-blank"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:332
+#, no-c-format
+msgid "'Fill-in-the-blank' is a powerful way to practice in &kwordquiz;. It is a special kind of question and answer quiz that needs to be described in more detail."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:336
+#, no-c-format
+msgid "Consider the following table. It could be a vocabulary in &kwordquiz;:"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:344
+#, no-c-format
+msgid "English"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:345
+#, no-c-format
+msgid "German"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:351
+#, no-c-format
+msgid "<entry>1</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:352 index.docbook:358 index.docbook:364 index.docbook:370
+#, no-c-format
+msgid "We own a computer"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:353
+#, no-c-format
+msgid "Wir besitzen einen Computer"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:357
+#, no-c-format
+msgid "<entry>2</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:359
+#, no-c-format
+msgid "Wir [besitzen] einen Computer"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:363
+#, no-c-format
+msgid "<entry>3</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:365
+#, no-c-format
+msgid "Wir [besitzen einen] Computer"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:369
+#, no-c-format
+msgid "<entry>4</entry>"
+msgstr ""
+
+#. Tag: entry
+#. +> trunk6 stable6
+#: index.docbook:371
+#, no-c-format
+msgid "Wir [besitzen] einen [Computer]"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:377
+#, no-c-format
+msgid "The important thing to note is the placement of the brackets. They tell &kwordquiz; how the quiz should be performed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:380
+#, no-c-format
+msgid "In 1. there are no brackets. Assuming English is the question and German the answer you have to give the entire expression 'Wir besitzen einen Computer' for a correct answer."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:383
+#, no-c-format
+msgid "In 2. &kwordquiz; would display the question but also 'Wir ........ einen Computer'. For a correct answer it is sufficient to write 'besitzen'."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:386
+#, no-c-format
+msgid "3. shows that a blank can consist of more than one word. The correct answer is 'besitzen einen'."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:389
+#, no-c-format
+msgid "In 4. there are two separate blanks. To specify that in the answer you have to write 'besitzen; Computer', &ie; separate the blanks with a semicolon in order to get a correct answer."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:392
+#, no-c-format
+msgid "Marked blanks are only of relevance if they appear in the answer. Otherwise the brackets are ignored. Furthermore, brackets have no effect in multiple choice quizzes. To simplify the creation of 'Fill-in-the-blank' vocabularies there are menu commands to mark and unmark blanks. Of course you can also just type the brackets. &kwordquiz; checks the syntax. If the text appears in red there is something wrong with the brackets and a quiz cannot be started."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:398
+#, no-c-format
+msgid "Printing"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:399
+#, no-c-format
+msgid "&kwordquiz; provides the ability to print vocabulary documents in several different ways. The printing options are available in the &kwordquiz; editor. When selecting <guibutton>Print...</guibutton> you are presented with a menu where you can select to print the document as a vocabulary list (&ie; as displayed in the editor), a vocabulary exam, or as flashcards. Once the mode is selected, you will be presented with the standard &kde; print dialog."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:403
+#, no-c-format
+msgid "<screeninfo>Vocabulary Printing Options</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:409
+#, no-c-format
+msgid "<phrase>Vocabulary Printing Options</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:415
+#, no-c-format
+msgid "Vocabulary list"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:416
+#, no-c-format
+msgid "The vocabulary will be printed as displayed in the editor. This includes font, row heights, and column widths. Make sure that the columns are narrow enough to fit on the page."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:419
+#, no-c-format
+msgid "<screeninfo>Print Vocabulary List</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:425
+#, no-c-format
+msgid "<phrase>Print Vocabulary List</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:431
+#, no-c-format
+msgid "Vocabulary exam"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:432
+#, no-c-format
+msgid "The vocabulary will be printed as displayed in the editor, except that the right column will be left empty and a third column for scoring is added. Settings used include font, row heights, and column widths. Make sure that the columns are narrow enough to fit on the page."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:435
+#, no-c-format
+msgid "<screeninfo>Print Vocabulary Exam</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:441
+#, no-c-format
+msgid "<phrase>Print Vocabulary Exam</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:447
+#, no-c-format
+msgid "Flashcards"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:448
+#, no-c-format
+msgid "Two 3\" x 5\" cards per page. The cards will always be printed in landscape."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:451
+#, no-c-format
+msgid "<screeninfo>Print Flashcards</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:457
+#, no-c-format
+msgid "<phrase>Print Flashcards</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:465
+#, no-c-format
+msgid "Dialogs"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:468
+#, no-c-format
+msgid "<title>General Settings</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:470
+#, no-c-format
+msgid "<screeninfo>General Settings</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:476
+#, no-c-format
+msgid "<phrase>General Settings</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:480
+#, no-c-format
+msgid "You can select what type of session a newly opened vocabulary should start in. Going directly to a quiz can prevent you from seeing any entries in advance."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:483
+#, no-c-format
+msgid "For all sessions you can select if the scores should be displayed as percentages instead of absolute numbers."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:487
+#, no-c-format
+msgid "Note that the settings are automatically applied."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:494
+#, no-c-format
+msgid "<title>Column Settings</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:495
+#, no-c-format
+msgid "You can open this dialog from the editor."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:497
+#, no-c-format
+msgid "<screeninfo>Column Settings</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:503
+#, no-c-format
+msgid "<phrase>Column Settings</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:507
+#, no-c-format
+msgid "Use this dialog to define the column titles and column languages. Click on a language to selected it or close the dialog to discard any changes."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:515
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:517
+#, no-c-format
+msgid "&kwordquiz;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:520
+#, no-c-format
+msgid "Program copyright 2003-2008 Peter B. Hedlund <email>peter.hedlund@kdemail.net</email> 2023 Carl Schwan <email>carl@carlchwan.eu</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:524
+#, no-c-format
+msgid "Documentation copyright 2003-2008 Peter B. Hedlund <email>peter.hedlund@kdemail.net</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:528
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:528
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

@@ -1,0 +1,204 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-01-11 09:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:8
+#, no-c-format
+msgid "Device Auto-Mount"
+msgstr ""
+
+#. Tag: title
+#. +> stable5
+#: index.docbook:8
+#, no-c-format
+msgid "Removable Devices"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6 stable5
+#: index.docbook:11
+#, no-c-format
+msgid "<firstname>Trever</firstname><surname>Fischer</surname>"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6 stable5
+#: index.docbook:12
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6 stable5
+#: index.docbook:15
+#, no-c-format
+msgid "2021-04-08"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6 stable5
+#: index.docbook:16
+#, no-c-format
+msgid "&plasma; 5.20"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:19
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:20
+#, no-c-format
+msgid "Systemsettings"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:21
+#, no-c-format
+msgid "automount"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:22
+#, no-c-format
+msgid "device"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:26
+#, no-c-format
+msgid "This dialog allows you to configure automatic mounting of disks and volumes."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:26
+#, no-c-format
+msgid "This dialog allows you to configure automatic handling of removable storage media."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:30
+#, no-c-format
+msgid "If you enable the automatic mounting features in this module, you will not need to use the device notifier applet or the navigation panel in the file manager to get access to a recently plugged in device."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:35
+#, no-c-format
+msgid "At the top of the dialog you find the global settings, which can be overridden for each single device in the <guilabel>Device Overrides</guilabel> list. For a single-user desktop it is recommended to have all the check boxes above the overrides list enabled."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:41
+#, no-c-format
+msgid "Enable automatic mounting of removable media"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:42
+#, no-c-format
+msgid "When this is unchecked, no device automounting of any kind will happen, regardless of anything selected in the <guilabel>Device Overrides</guilabel> section."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:48
+#, no-c-format
+msgid "Only automatically mount removable media that has been manually mounted before"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:50
+#, no-c-format
+msgid "When this is checked, &plasma; will only automatically mount devices it remembers. A device is <quote>remembered</quote> if it has ever been mounted before; &eg; plugging in a &USB; media player to charge is not sufficient to <quote>remember</quote> it. If the files are not accessed, &plasma; will not automatically mount the player next time it is seen. Once they have been accessed, however, &plasma; will remember to automatically make the contents accessible to your system."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:61
+#, no-c-format
+msgid "Automatically mount all removable media at login"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:62
+#, no-c-format
+msgid "If any removable storage devices are connected to your system when you login to your desktop, &plasma; will automatically make the contents available to your system for other programs to read."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:69
+#, no-c-format
+msgid "Automatically mount removable media when attached"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:70
+#, no-c-format
+msgid "When this is checked, &plasma; will automatically make the contents of any storage device available to the system when it is plugged in or attached."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6 stable5
+#: index.docbook:76
+#, no-c-format
+msgid "Automatic mount"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:77
+#, no-c-format
+msgid "This list contains the storage devices known to &plasma;. If <guilabel>On Login</guilabel> is checked, the device will be automatically mounted even though <guilabel>Automatically mount all removable media at login</guilabel> is unchecked. The same applies for <guilabel>On Attach</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:82
+#, no-c-format
+msgid "If <guilabel>Enable automatic mounting of removable media</guilabel> is unchecked, the overrides do not apply and no devices will be automatically mounted."
+msgstr ""
+
+#. Tag: guibutton
+#. +> trunk6 stable6 stable5
+#: index.docbook:88
+#, no-c-format
+msgid "Forget Device"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:89
+#, no-c-format
+msgid "Clicking this button causes &plasma; to <quote>forget</quote> that the selected devices ever existed. This is only useful if <guilabel>Only automatically mount removable media that has been manually mounted before</guilabel> is checked. Once a device is forgotten and &plasma; is set to only automatically mount familiar devices, the device will not be automatically mounted."
+msgstr ""

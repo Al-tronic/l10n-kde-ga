@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Glaxnimate Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Glaxnimate Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-14 09:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../formats.rst:10
+msgid "Supported Formats"
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:15
+msgid "Lottie"
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:17
+msgid "`Lottie animations <http://airbnb.io/lottie/>`_ can be opened and saved, not all features are implemented."
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:20
+msgid "You can also preview how the animation looks on Lottie web from the :menuselection:`Document` menu."
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:23
+msgid "Telegram Animated Stickers"
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:25
+msgid "TGS files can be opened and saved, since they are based on :ref:`lottie`."
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:27
+msgid "In the :menuselection:`Document` menu you can validate the `restrictions for this format <https://core.telegram.org/animated_stickers>`_. The same validation is performed when saving, if there are some issues the file will be saved anyway but you'll see some warnings."
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:30
+msgid "Scalable Vector Graphics"
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:32
+msgid "`SVG files <https://developer.mozilla.org/en-US/docs/Web/SVG>`_ can be opened and saved."
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:34
+msgid "You can also copy and paste SVG documents from the canvas view."
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:36
+msgid "Glaxnimate can load and export SMIL animations for SVG."
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:39
+msgid "In particular, Glaxnimate support most of the extra attributes used by `Inkscape <https://inkscape.org/>`_, making interoperability with it rather easy."
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:42
+msgid "Raster Images"
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:44
+msgid "Raster Images (such as PNG, etc) can be rendered from individual frames and there's an option to copy the selection as an image."
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:46
+msgid "Some animated format (namely WebP and GIF) are supported."
+msgstr ""
+
+#. +> trunk5
+#: ../../formats.rst:48
+msgid "You can also convert imported raster images into vector data using the :ref:`trace_bitmap` action."
+msgstr ""

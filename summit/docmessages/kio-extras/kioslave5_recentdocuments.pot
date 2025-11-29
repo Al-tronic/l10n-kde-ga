@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-22 09:50+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5
+#: index.docbook:8
+#, no-c-format
+msgid "Recent Documents"
+msgstr ""
+
+#. Tag: author
+#. +> trunk5
+#: index.docbook:13
+#, no-c-format
+msgid "&Burkhard.Lueck;&Burkhard.Lueck.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk5
+#: index.docbook:15
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk5
+#: index.docbook:18
+#, no-c-format
+msgid "2016-12-01"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk5
+#: index.docbook:19
+#, no-c-format
+msgid "Applications 16.12"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:23
+#, no-c-format
+msgid "A KIO worker to display recent documents or &URL;s in the file dialog, in the file manager, in &krunner; and in the Application Menu."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:25
+#, no-c-format
+msgid "You can use the KIO worker like this:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:27
+#, no-c-format
+msgid "Type <userinput>recentdocuments:/</userinput> in the location bar of &dolphin;, &konqueror; and the file dialog to list the recently opened documents or &URL;s."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:29
+#, no-c-format
+msgid "You can add an entry to the Places sidebar: right click on the sidebar, choose <guimenuitem>Add Entry</guimenuitem>, enter <userinput>recentdocuments:/</userinput> in the <guilabel>Location</guilabel> field and save it. It should be available now in all file dialogs unless you check to show the entry only in this application."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:31
+#, no-c-format
+msgid "In the &systemsettings; module <guilabel>Plasma Search</guilabel> enable the search plugin <guilabel>Recent Documents</guilabel> to use this KIO worker in &krunner;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:33
+#, no-c-format
+msgid "In the <guilabel>Application Menu</guilabel> add a menu item with recent documents at the top of the menu by enabling <guilabel>Show recent documents</guilabel> on the settings page."
+msgstr ""

@@ -1,0 +1,526 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:10
+#, no-c-format
+msgid "The &krfb; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:13
+#, no-c-format
+msgid "&Brad.Hards; &Brad.Hards.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:17
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:22
+#, no-c-format
+msgid "&Brad.Hards;"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:27
+#, no-c-format
+msgid "2016-07-25"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:28
+#, no-c-format
+msgid "5.0 (Applications 16.08)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:31 index.docbook:56
+#, no-c-format
+msgid "&krfb; is a server application that allows you to share your current session with a user on another machine, who can use a <acronym>VNC</acronym> client to view or even control the desktop."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:39
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:40
+#, no-c-format
+msgid "kdenetwork"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:41
+#, no-c-format
+msgid "krfb"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:42
+#, no-c-format
+msgid "<keyword>VNC</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:43
+#, no-c-format
+msgid "<keyword>RFB</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:44
+#, no-c-format
+msgid "krdc"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:45
+#, no-c-format
+msgid "Desktop Sharing"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:46
+#, no-c-format
+msgid "Remote Control"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:47
+#, no-c-format
+msgid "Remote Assistance"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:48
+#, no-c-format
+msgid "Remote Desktop"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:54
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:62
+#, no-c-format
+msgid "You would typically use &krfb; with the &kde; <acronym>VNC</acronym> client, which is &krdc;, since it closely matches the special features of &krfb;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:67
+#, no-c-format
+msgid "&krfb; doesn't require you to start a new X session - it can share the current session. This makes it very useful when you want someone to help you perform a task."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:73
+#, no-c-format
+msgid "Please report any problems or feature requests to the &kde; mailing lists or file a bug at <ulink url=\"https://bugs.kde.org\">https://bugs.kde.org</ulink>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:81
+#, no-c-format
+msgid "The Remote Frame Buffer protocol"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:83
+#, no-c-format
+msgid "This chapter provides a brief description of the Remote Frame Buffer protocol used by &krfb; and by other compatible systems. If you are already familiar with Remote Frame Buffer, you can safely skip this chapter."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:90
+#, no-c-format
+msgid "The high level implementation of a system using the Remote Frame Buffer protocol is known as Virtual Network Computer, or more often just as <acronym>VNC</acronym>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:96
+#, no-c-format
+msgid "Remote Frame Buffer (or <acronym>RFB</acronym> for short) is a simple protocol for remote access to graphical user interfaces. It works at the frame-buffer level, which roughly corresponds to the rendered screen image, which means that it can be applied to all windowing systems (including X11, &MacOS; and &Microsoft; &Windows;). Remote Frame Buffer applications exist for many platforms, and can often be freely re-distributed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:106
+#, no-c-format
+msgid "In the Remote Frame Buffer protocol, the application that runs on the machine where the user sits (containing the display, keyboard and pointer) is called the client. The application that runs on the machine where the framebuffer is located (which is running the windowing system and applications that the user is remotely controlling) is called the server. &krfb; is the &kde; server for the Remote Frame Buffer protocol. &krdc; is the &kde; client for the Remote Frame Buffer protocol."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:117
+#, no-c-format
+msgid "It takes a reasonable amount of network traffic to send an image of the framebuffer, so Remote Frame Buffer works best over high bandwidth links, such as a local area network. It is still possible to use &krfb; over other links, but performance is unlikely to be as good."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:127
+#, no-c-format
+msgid "Using &krfb;"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:130
+#, no-c-format
+msgid "&krfb; Main Window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:131
+#, no-c-format
+msgid "It is very easy to use &krfb; - it has a simple interface, as shown in the screenshot below."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:138
+#, no-c-format
+msgid "Here's a screenshot of &krfb;"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:144
+#, no-c-format
+msgid "&krfb; main window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:150
+#, no-c-format
+msgid "When you want to allow someone to access your desktop, you have to enable the checkbox <guilabel>Enable Desktop Sharing</guilabel>, which will start the server."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:157
+#, no-c-format
+msgid "Connection Details"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:159
+#, no-c-format
+msgid "The <guilabel>Address</guilabel> contains the address of your computer and the port number, separated by a colon. The address is just a hint - you can use any address that can reach your computer. &krfb; tries to guess your address from your network configuration, but does not always succeed in doing so. If your computer is behind a firewall it may have a different address or be unreachable for other computers."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:168
+#, no-c-format
+msgid "You can change the port on the <guilabel>Network</guilabel> page in the configuration dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:172
+#, no-c-format
+msgid "The next field is prefilled with an automatically generated password. Click in the icon at the right of the field to change the password."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:179
+#, no-c-format
+msgid "Unattended Access"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:181
+#, no-c-format
+msgid "Any remote user with the desktop sharing password will have to be authenticated. If unattended access is activated, and the remote user provides the password for unattended mode, desktop sharing access will be granted without explicit confirmation."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:187
+#, no-c-format
+msgid "By default the password for this mode is empty, to change that click on the button and enter a password."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:191
+#, no-c-format
+msgid "If unattended access is allowed, then you should probably specify a password."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:196
+#, no-c-format
+msgid "If the machine is a server and you are using &krfb; for remote administration, you probably want to use unattended access."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:204
+#, no-c-format
+msgid "Transfer Login Information"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:206
+#, no-c-format
+msgid "&krfb; has no invitation feature any more as in previous versions. So you have to transfer the login information yourself using email or a personal invitation."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:211
+#, no-c-format
+msgid "If you cannot encrypt the email (or otherwise secure the link), sending a password by email is a very serious security risk, since anyone can read the password and address from the email as it passes over the network. This means that they can potentially take control of your machine."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:218
+#, no-c-format
+msgid "If you cannot encrypt the email message, it may be better to use a personal invitation, telephone the person you are giving access to, verify the identity of that person, and provide the required information that way."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:226
+#, no-c-format
+msgid "&krfb; uses the normal <acronym>RFB</acronym> password system, which does not transfer your password in the clear across the network. Instead, it uses a challenge-response system. This is reasonably secure, as long as the password is securely guarded."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:237
+#, no-c-format
+msgid "Quit &krfb;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:239
+#, no-c-format
+msgid "If you close the &krfb; main window by clicking on the window close icon or using the shortcut <keycombo action=\"simul\">&Alt;<keycap>F4</keycap></keycombo> the server keeps running, which is indicated by an icon in the system tray. To stop &krfb; either use <menuchoice><guimenu>File</guimenu><guimenuitem>Quit</guimenuitem></menuchoice> in the main window or right click on the icon in the system tray and select <guimenuitem>Quit</guimenuitem>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:252
+#, no-c-format
+msgid "Configuring &krfb;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:253
+#, no-c-format
+msgid "In addition to the main &krfb; interface shown and described above, you can also control &krfb; using the <guimenuitem>Configure...</guimenuitem> on the &krfb; main window. The &krfb; configuration has two pages, as shown in the screenshot below:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:260
+#, no-c-format
+msgid "The <guilabel>Network</guilabel> page allows control over the port that &krfb; uses, as shown below."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:267
+#, no-c-format
+msgid "<screeninfo>&krfb; Configuration (Network page)</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:273
+#, no-c-format
+msgid "<phrase>&krfb; Configuration (Network page)</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:279
+#, no-c-format
+msgid "The <guilabel>Announce service on the local network</guilabel> checkbox controls whether &krfb; announces the service over the local network using Service Location Protocol. This is normally a good idea, but only works really well with a Service Location Protocol aware client, such as &krdc;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:287
+#, no-c-format
+msgid "If you select the <guilabel>Use default port</guilabel> checkbox, then &krfb; will locate a suitable port. If you deselect this checkbox, you can specify a particular port. Specifying a particular port may be useful if you are using port-forwarding on the firewall. Note that if Service Location Protocol is turned on, this will automatically deal with identifying the correct port."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:297
+#, no-c-format
+msgid "The <guilabel>Security</guilabel> page allows you to configure whether the person connecting to the &krfb; server can control the desktop, or only view."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:304
+#, no-c-format
+msgid "<screeninfo>&krfb; Configuration (Security page)</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:310
+#, no-c-format
+msgid "<phrase>&krfb; Configuration (Security page)</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:319
+#, no-c-format
+msgid "Connecting to &krfb;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:321
+#, no-c-format
+msgid "When someone connects to &krfb; on your machine, you will get a pop-up notification that looks like the following screenshot, unless you are accepting unattended access without confirmation."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:328
+#, no-c-format
+msgid "<screeninfo>&krfb; Connection Window</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:334
+#, no-c-format
+msgid "<phrase>&krfb; Connection Window</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:340
+#, no-c-format
+msgid "If you <guibutton>Accept Connection</guibutton>, the client can proceed to authenticate, which requires the correct password for a login. If you <guibutton>Refuse Connection</guibutton>, then the attempt to connect will be terminated."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:347
+#, no-c-format
+msgid "The <guilabel>Allow remote user to control keyboard and mouse</guilabel> check box determines whether this client can only observe, or can take control of your machine."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:358
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:360
+#, no-c-format
+msgid "&krfb;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:363
+#, no-c-format
+msgid "Program copyright 2002 Tim Jansen <email>tim@tjansen.de</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:366
+#, no-c-format
+msgid "Contributors:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:369
+#, no-c-format
+msgid "Ian Reinhart Geiser <email>geiseri@kde.org</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:374
+#, no-c-format
+msgid "Documentation Copyright &copy; 2003 &Brad.Hards; &Brad.Hards.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:378
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:378
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

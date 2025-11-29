@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-10 09:17+0100\n"
+
+#. +> trunk5 stable5
+#: audiooutput.cpp:481 audiooutput.cpp:519
+#, qt-format
+msgctxt "Phonon::AudioOutput|"
+msgid ""
+"<html>The audio playback device <b>%1</b> does not work.<br/>"
+"Falling back to <b>%2</b>.</html>"
+msgstr ""
+
+#. +> trunk5 stable5
+#: audiooutput.cpp:494
+#, qt-format
+msgctxt "Phonon::AudioOutput|"
+msgid ""
+"<html>Switching to the audio playback device <b>%1</b><br/>"
+"which just became available and has higher preference.</html>"
+msgstr ""
+
+#. +> trunk5 stable5
+#: audiooutput.cpp:497 audiooutput.cpp:515
+#, qt-format
+msgctxt "Phonon::AudioOutput|"
+msgid "Revert back to device '%1'"
+msgstr ""
+
+#. +> trunk5 stable5
+#: audiooutput.cpp:512
+#, qt-format
+msgctxt "Phonon::AudioOutput|"
+msgid ""
+"<html>Switching to the audio playback device <b>%1</b><br/>"
+"which has higher preference or is specifically configured for this stream.</html>"
+msgstr ""
+
+#. +> trunk5 stable5
+#: mediacontroller.cpp:162
+msgctxt "Phonon::MediaController|"
+msgid "Main Menu"
+msgstr ""
+
+#. +> trunk5 stable5
+#: mediacontroller.cpp:164
+msgctxt "Phonon::MediaController|"
+msgid "Title Menu"
+msgstr ""
+
+#. +> trunk5 stable5
+#: mediacontroller.cpp:166
+msgctxt "Phonon::MediaController|"
+msgid "Audio Menu"
+msgstr ""
+
+#. +> trunk5 stable5
+#: mediacontroller.cpp:168
+msgctxt "Phonon::MediaController|"
+msgid "Subtitle Menu"
+msgstr ""
+
+#. +> trunk5 stable5
+#: mediacontroller.cpp:170
+msgctxt "Phonon::MediaController|"
+msgid "Chapter Menu"
+msgstr ""
+
+#. +> trunk5 stable5
+#: mediacontroller.cpp:172
+msgctxt "Phonon::MediaController|"
+msgid "Angle Menu"
+msgstr ""
+
+#. +> trunk5 stable5
+#: phononnamespace.cpp:55
+msgctxt "Phonon::|"
+msgid "Notifications"
+msgstr ""
+
+#. +> trunk5 stable5
+#: phononnamespace.cpp:57
+msgctxt "Phonon::|"
+msgid "Music"
+msgstr ""
+
+#. +> trunk5 stable5
+#: phononnamespace.cpp:59
+msgctxt "Phonon::|"
+msgid "Video"
+msgstr ""
+
+#. +> trunk5 stable5
+#: phononnamespace.cpp:61 phononnamespace.cpp:77
+msgctxt "Phonon::|"
+msgid "Communication"
+msgstr ""
+
+#. +> trunk5 stable5
+#: phononnamespace.cpp:63
+msgctxt "Phonon::|"
+msgid "Games"
+msgstr ""
+
+#. +> trunk5 stable5
+#: phononnamespace.cpp:65
+msgctxt "Phonon::|"
+msgid "Accessibility"
+msgstr ""
+
+#. +> trunk5 stable5
+#: phononnamespace.cpp:79
+msgctxt "Phonon::|"
+msgid "Recording"
+msgstr ""
+
+#. +> trunk5 stable5
+#: phononnamespace.cpp:81
+msgctxt "Phonon::|"
+msgid "Control"
+msgstr ""
+
+#. +> trunk5 stable5
+#: pulsesupport.cpp:275 pulsesupport.cpp:286
+msgctxt "QObject|"
+msgid "PulseAudio Sound Server"
+msgstr ""
+
+#. +> trunk5 stable5
+#: volumeslider.cpp:40 volumeslider.cpp:62 volumeslider.cpp:208
+#: volumeslider.cpp:223
+#, qt-format
+msgctxt "Phonon::VolumeSlider|"
+msgid "Volume: %1%"
+msgstr ""
+
+#. +> trunk5 stable5
+#: volumeslider.cpp:43 volumeslider.cpp:65 volumeslider.cpp:123
+#, qt-format
+msgctxt "Phonon::VolumeSlider|"
+msgid "Use this slider to adjust the volume. The leftmost position is 0%, the rightmost is %1%"
+msgstr ""
+
+#. +> trunk5 stable5
+#: volumeslider.cpp:203
+msgctxt "Phonon::VolumeSlider|"
+msgid "Muted"
+msgstr ""

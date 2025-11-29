@@ -1,0 +1,3453 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kate package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kate\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-20 14:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:119
+#, kde-format
+msgid "Kate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:121
+#, kde-format
+msgid "Kate - Advanced Text Editor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:123 kwrite/main.cpp:50
+#, kde-format
+msgid "(c) 2000-2024 The Kate Authors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:169 lib/autotests/kate_view_mgmt_test2.cpp:218
+#, kde-format
+msgid "Start Kate with a given session."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:170 lib/autotests/kate_view_mgmt_test2.cpp:219
+#, kde-format
+msgid "session"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:175
+#, kde-format
+msgid "Start Kate with a new anonymous session, implies '-n'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:180
+#, kde-format
+msgid "Force start of a new kate instance (is ignored if start is used and another kate instance already has the given session opened), forced if no parameters and no URLs are given at all."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:186
+#, kde-format
+msgid "If using an already running kate instance, block until it exits, if URLs given to open."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:192
+#, kde-format
+msgid "Only try to reuse kate instance with this pid (is ignored if start is used and another kate instance already has the given session opened)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:193
+#, kde-format
+msgid "pid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:198 kwrite/main.cpp:101
+#, kde-format
+msgid "Set encoding for the file to open."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:199 kwrite/main.cpp:102
+#, kde-format
+msgid "encoding"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:203 kwrite/main.cpp:106
+#, kde-format
+msgid "Navigate to this line."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:203 kwrite/main.cpp:106
+#, kde-format
+msgid "line"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:207 kwrite/main.cpp:110
+#, kde-format
+msgid "Navigate to this column."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:207 kwrite/main.cpp:110
+#, kde-format
+msgid "column"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:211 kwrite/main.cpp:114
+#, kde-format
+msgid "Read the contents of stdin."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:216 kwrite/main.cpp:118
+#, kde-format
+msgid "The files/URLs opened by the application will be deleted after use"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:220 kwrite/main.cpp:122
+#, kde-format
+msgid "Documents to open."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kate/main.cpp:220 kwrite/main.cpp:122
+#, kde-format
+msgid "[urls...]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kwrite/main.cpp:46
+#, kde-format
+msgid "KWrite"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kwrite/main.cpp:48
+#, kde-format
+msgid "KWrite - Text Editor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/commitfilesview.cpp:444 lib/kateviewmanager.cpp:365
+#: lib/kateviewmanager.cpp:367
+#, kde-format
+msgid "Open File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/commitfilesview.cpp:450 lib/katemainwindow.cpp:456
+#, kde-format
+msgid "Copy Location"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/commitfilesview.cpp:473 lib/commitfilesview.cpp:580
+#: lib/commitfilesview.cpp:586 lib/filehistorywidget.cpp:693
+#, kde-format
+msgid "Git"
+msgstr ""
+
+#. +> trunk6
+#: lib/commitfilesview.cpp:560
+#, kde-format
+msgid "Renamed %1 => %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/commitfilesview.cpp:580
+#, kde-format
+msgid "Invalid hash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/commitfilesview.cpp:586 lib/filehistorywidget.cpp:693
+#, kde-format
+msgid "%1 doesn't exist in a git repo."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/commitfilesview.cpp:601
+#, kde-format
+msgctxt "@title:tab"
+msgid "Commit %1"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:6
+#, kde-format
+msgid "&File"
+msgstr ""
+
+#. i18n: ectx: Menu (file_file_actions)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:31
+#, kde-format
+msgid "File Act&ions"
+msgstr ""
+
+#. i18n: ectx: Menu (edit)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:45
+#, kde-format
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (selection)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:56
+#, kde-format
+msgid "Sele&ction"
+msgstr ""
+
+#. i18n: ectx: Menu (go)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:59
+#, kde-format
+msgid "&Go"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:75
+#, kde-format
+msgid "&View"
+msgstr ""
+
+#. i18n: ectx: Menu (view-split)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:77 lib/kateviewspace.cpp:139
+#, kde-format
+msgid "Split View"
+msgstr ""
+
+#. i18n: ectx: Menu (tools)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:113 lib/diagnostics/ui.rc:6
+#, kde-format
+msgid "&Tools"
+msgstr ""
+
+#. i18n: ectx: Menu (tools_diagnosticsview)
+#. i18n: ectx: Menu (tools)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:128 lib/diagnostics/diagnosticview.cpp:305
+#: lib/diagnostics/ui.rc:8
+#, kde-format
+msgid "Diagnostics View"
+msgstr ""
+
+#. i18n: ectx: Menu (settings)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:133
+#, kde-format
+msgid "&Settings"
+msgstr ""
+
+#. i18n: ectx: Menu (help)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:142
+#, kde-format
+msgid "&Help"
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:147
+#, kde-format
+msgid "Main Toolbar"
+msgstr ""
+
+#. i18n: ectx: ToolBar (hamburgerBar)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:163
+#, kde-format
+msgid "Hamburger Menu Toolbar"
+msgstr ""
+
+#. i18n: ectx: Menu (viewspace_popup_statusbar)
+#. +> trunk6 stable6
+#: lib/data/kateui.rc:177
+#, kde-format
+msgid "&Status Bar Items"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnostic_suppression.h:37
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Error in regular expression: %1\n"
+"offset %2: %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:62
+#, kde-format
+msgid "All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:312
+#, kde-format
+msgid "Diagnostics limit reached, ignoring further diagnostics. The limit can be configured in settings."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:355
+#, kde-format
+msgctxt "@action:inmenu Diagnostics View actions menu"
+msgid "Diagnostics View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:360
+#, kde-format
+msgid "Quick Fix"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:366
+#, kde-format
+msgid "Next Item"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:372
+#, kde-format
+msgid "Previous Item"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:380
+#, kde-format
+msgid "Clear Diagnostics Filter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:390
+#, kde-format
+msgid "Show Hover Info"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:449 lib/kateconfigdialog.cpp:392
+#, kde-format
+msgid "Diagnostics"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:495
+#, kde-format
+msgid "Errors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:511
+#, kde-format
+msgid "Warnings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:525 lib/filehistorywidget.cpp:466
+#: lib/kateconfigplugindialogpage.cpp:109
+#, kde-format
+msgid "Filter…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:531
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Clear diagnostics"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1170 lib/kateconfigdialog.cpp:165
+#, kde-format
+msgid "Error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1174 lib/kateconfigdialog.cpp:165
+#: lib/kateconfigdialog.cpp:810
+#, kde-format
+msgid "Warning"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1178
+#, kde-format
+msgid "Information"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1306
+#, kde-format
+msgctxt "@info"
+msgid "%1 [suppressed: %2]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1432
+#, kde-format
+msgid "Expand All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1433
+#, kde-format
+msgid "Collapse All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1439
+#, kde-format
+msgid "Copy to Clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1481
+#, kde-format
+msgid "Remove Global Suppression"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1483
+#, kde-format
+msgid "Add Global Suppression"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1487
+#, kde-format
+msgid "Remove Local Suppression"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1489
+#, kde-format
+msgid "Add Local Suppression"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1504
+#, kde-format
+msgid "Disable Suppression"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diagnostics/diagnosticview.cpp:1506
+#, kde-format
+msgid "Enable Suppression"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:195
+#, kde-format
+msgid "Change Style"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:197 lib/kateconfigdialog.cpp:372
+#, kde-format
+msgid "Side By Side"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:200 lib/kateconfigdialog.cpp:373
+#, kde-format
+msgid "Unified"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:203 lib/kateconfigdialog.cpp:374
+#, kde-format
+msgid "Raw"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:214
+#, kde-format
+msgid "Edit Line"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:253
+#, kde-format
+msgid "Stage Line"
+msgid_plural "Stage Lines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:258
+#, kde-format
+msgid "Stage Hunk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:265
+#, kde-format
+msgid "Discard Line"
+msgid_plural "Discard Lines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:270
+#, kde-format
+msgid "Discard Hunk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:277
+#, kde-format
+msgid "Unstage Line"
+msgid_plural "Unstage Lines"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffeditor.cpp:282
+#, kde-format
+msgid "Unstage Hunk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:43
+#, kde-format
+msgid "<b>git</b> not found. Git is needed to diff the documents. If git is already installed, make sure it is your PATH variable. See https://git-scm.com/downloads"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:46 lib/diff/diffwidget.cpp:1246
+#: lib/kateconfigdialog.cpp:366
+#, kde-format
+msgid "Diff"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:80
+#, kde-format
+msgid "Diff %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:82
+#, kde-format
+msgid "Diff %1..%2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:111
+#, kde-format
+msgid "Diff %1 .. %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:141
+#, kde-format
+msgid "Show/Hide Commit Info"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:146
+#, kde-format
+msgid "Jump to Next File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:150
+#, kde-format
+msgid "Jump to Previous File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:154
+#, kde-format
+msgid "Jump to Next Hunk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:158
+#, kde-format
+msgid "Jump to Previous Hunk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:162
+#, kde-format
+msgctxt "Tooltip for a button, clicking the button reloads the diff"
+msgid "Reload Diff"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:166
+#, kde-format
+msgctxt "Tooltip for a button"
+msgid "Show diff with full context, not just the changed lines"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:854 lib/diff/diffwidget.cpp:1058
+#, kde-format
+msgid "New file %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:856 lib/diff/diffwidget.cpp:1060
+#, kde-format
+msgid "Deleted file %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/diff/diffwidget.cpp:1229 lib/diff/diffwidget.cpp:1230
+#, kde-format
+msgid "No differences found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/filehistorywidget.cpp:252
+#, kde-format
+msgctxt "error message"
+msgid "Invalid date: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/filehistorywidget.cpp:474
+#, kde-format
+msgctxt "Help text"
+msgid ""
+"Filter the log."
+"<ul>"
+"<li>Use <code>\"a:\"</code> prefix to filter by author name. For e.g., <b>a:john doe</b></li>"
+"<li>Use <code>\"!a:\"</code> prefix to exclude an author. For e.g., <b>!a:john doe</b></li>"
+"<li>Use <code>\"since:\"</code> prefix to show commits after the given date. The author date of each commit will be checked. The date format is yyyy-MM-dd For e.g., <b>since:2025-04-17</b></li>"
+"<li>Use <code>\"until:\"</code> prefix to show commits before the given date. The author date of each commit will be checked. The date format is yyyy-MM-dd For e.g., <b>until:2025-04-17</b></li>"
+"<li>To filter messages, just type the search term. If multiple search terms are given then messages matching all the search terms will be shown.</li>"
+"</ul>"
+"To trigger the filter, press the <b>Enter</b> key."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/filehistorywidget.cpp:537
+#, kde-format
+msgid "Failed to get file history: git executable not found in PATH"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/filehistorywidget.cpp:553
+#, kde-format
+msgid "Failed to get file history: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/filehistorywidget.cpp:568
+#, kde-format
+msgctxt "@menu:action"
+msgid "Copy Commit Hash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/filehistorywidget.cpp:576
+#, kde-format
+msgctxt "@menu:action"
+msgid "Show Full Commit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/filehistorywidget.cpp:702
+#, kde-format
+msgctxt "@title:tab"
+msgid "File History - %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:146
+msgid "Running this editor with sudo can cause bugs and expose you to security vulnerabilities. Instead use this editor normally and you will be prompted for elevated privileges when saving documents if needed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:153
+msgid "Running this editor with kdesu can cause bugs and expose you to security vulnerabilities. Instead use this editor normally and you will be prompted for elevated privileges when saving documents if needed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:366
+#, kde-format
+msgid "Christoph Cullmann"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:366
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:367
+#, kde-format
+msgid "Dominik Haumann"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:367 lib/kateapp.cpp:370 lib/kateapp.cpp:371
+#: lib/kateapp.cpp:372 lib/kateapp.cpp:373 lib/kateapp.cpp:379
+#, kde-format
+msgid "Core Developer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:368
+#, kde-format
+msgid "Sven Brauch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:368 lib/kateapp.cpp:369 lib/kateapp.cpp:374
+#, kde-format
+msgid "Developer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:369
+#, kde-format
+msgid "Kåre Särs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:370
+#, kde-format
+msgid "Waqar Ahmed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:371
+#, kde-format
+msgid "Anders Lund"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:372
+#, kde-format
+msgid "Joseph Wenninger"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:373
+#, kde-format
+msgid "Hamish Rodda"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:374
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:375
+#, kde-format
+msgid "Waldo Bastian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:375
+#, kde-format
+msgid "The cool buffersystem"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:376
+#, kde-format
+msgid "Charles Samuels"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:376
+#, kde-format
+msgid "The Editing Commands"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:377
+#, kde-format
+msgid "Matt Newell"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:377
+#, kde-format
+msgid "Testing, ..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:378
+#, kde-format
+msgid "Michael Bartl"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:378
+#, kde-format
+msgid "Former Core Developer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:379
+#, kde-format
+msgid "Michael McCallum"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:380
+#, kde-format
+msgid "Jochen Wilhemly"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:380
+#, kde-format
+msgid "KWrite Author"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:381
+#, kde-format
+msgid "Michael Koch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:381
+#, kde-format
+msgid "KWrite port to KParts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:382
+#, kde-format
+msgid "Christian Gebauer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:383
+#, kde-format
+msgid "Simon Hausmann"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:384
+#, kde-format
+msgid "Glen Parker"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:384
+#, kde-format
+msgid "KWrite Undo History, Kspell integration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:385
+#, kde-format
+msgid "Scott Manson"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:385
+#, kde-format
+msgid "KWrite XML Syntax highlighting support"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:386
+#, kde-format
+msgid "John Firebaugh"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:386
+#, kde-format
+msgid "Patches and more"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:387
+#, kde-format
+msgid "Pablo Martín"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:388
+#, kde-format
+msgid "Python Plugin Developer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:391
+#, kde-format
+msgid "Gerald Senarclens de Grancy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:391
+#, kde-format
+msgid "QA and Scripting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:394
+#, kde-format
+msgid "Tyson Tan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:395
+#, kde-format
+msgid "Designer of Kate's mascot 'Kate the Cyber Woodpecker'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:398
+#, kde-format
+msgid "Matteo Merli"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:398
+#, kde-format
+msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:399
+#, kde-format
+msgid "Rocky Scaletta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:399
+#, kde-format
+msgid "Highlighting for VHDL"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:400
+#, kde-format
+msgid "Yury Lebedev"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:400
+#, kde-format
+msgid "Highlighting for SQL"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:401
+#, kde-format
+msgid "Chris Ross"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:401
+#, kde-format
+msgid "Highlighting for Ferite"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:402
+#, kde-format
+msgid "Nick Roux"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:402
+#, kde-format
+msgid "Highlighting for ILERPG"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:403
+#, kde-format
+msgid "Carsten Niehaus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:403
+#, kde-format
+msgid "Highlighting for LaTeX"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:404
+#, kde-format
+msgid "Per Wigren"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:404
+#, kde-format
+msgid "Highlighting for Makefiles, Python"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:405
+#, kde-format
+msgid "Jan Fritz"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:405
+#, kde-format
+msgid "Highlighting for Python"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:406
+#, kde-format
+msgid "Daniel Naber"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:407
+#, kde-format
+msgid "Roland Pabel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:407
+#, kde-format
+msgid "Highlighting for Scheme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:408
+#, kde-format
+msgid "Cristi Dumitrescu"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:408
+#, kde-format
+msgid "PHP Keyword/Datatype list"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:409
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:409
+#, kde-format
+msgid "Very nice help"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:410
+#, kde-format
+msgid "All people who have contributed and I have forgotten to mention"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:564
+#, kde-format
+msgid "Folders can only be opened when the projects plugin is enabled"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateapp.cpp:656
+#, kde-format
+msgid "The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:57
+#, kde-format
+msgid "Configure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:111
+#, kde-format
+msgid "Behavior"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:113
+#, kde-format
+msgid "Behavior Options"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:120
+#, kde-format
+msgid "PATH"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:126
+#, kde-format
+msgid "List of %1 separated directories where Kate will look for programs to run. This list will be prepended to your PATH environment variable. E.g '/home/USER/myapps/bin/:/home/USER/.local/bin'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:142
+#, kde-format
+msgid "&Behavior"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:147
+#, kde-format
+msgid "Open each document in its own window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:150
+#, kde-format
+msgid "If enabled, each document will be opened in its own window. If not enabled, each document will be opened in a new tab in the current window."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:160
+#, kde-format
+msgid "&Switch to output view upon message type:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:165
+#, kde-format
+msgid "Never"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:165
+#, kde-format
+msgid "Info"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:165
+#, kde-format
+msgid "Log"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:171
+#, kde-format
+msgid "&Limit output view history:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:177 lib/kateconfigdialog.cpp:248
+#: lib/kateconfigdialog.cpp:400
+#, kde-format
+msgid "Unlimited"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:184
+#, kde-format
+msgid "Use a separate &dialog for handling externally modified files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:187
+#, kde-format
+msgid "If enabled, a modal dialog will be used to show all of the modified files. If not enabled, you will be individually asked what to do for each modified file only when that file's view receives focus."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:192
+#, kde-format
+msgid "Output timestamps with date"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:194
+#, kde-format
+msgid "When enabled, the output line timestamp headers will be prefixed with date."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:202
+#, kde-format
+msgid "&Sidebars"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:205
+#, kde-format
+msgid "Sync section size with tab positions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:208
+#, kde-format
+msgid ""
+"When enabled the section size will be determined by the position of the tabs.\n"
+"This option does not affect the bottom sidebar."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:213
+#, kde-format
+msgid "Show text for left and right sidebar buttons"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:218
+#, kde-format
+msgid "Icon size for left and right sidebar buttons:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:238
+#, kde-format
+msgid "&Tabs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:242
+#, kde-format
+msgid "&Limit number of tabs:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:253
+#, kde-format
+msgid "A high limit can increase the window size, please enable 'Allow tab scrolling' to prevent it. Unlimited tabs are always scrollable."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:257
+#, kde-format
+msgid "&Auto hide tabs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:259
+#, kde-format
+msgid "When checked tabs will be hidden if only one document is open."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:263
+#, kde-format
+msgid "&Show close button"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:265
+#, kde-format
+msgid "When checked each tab will display a close button."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:269
+#, kde-format
+msgid "&Expand tabs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:271
+#, kde-format
+msgid "When checked tabs take as much size as possible."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:275
+#, kde-format
+msgid "&Double click opens a new document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:277
+#, kde-format
+msgid "When checked double click opens a new document."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:281
+#, kde-format
+msgid "&Middle click closes a document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:283
+#, kde-format
+msgid "When checked middle click closes a document."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:287
+#, kde-format
+msgid "Allow tab scrolling"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:289
+#, kde-format
+msgid "When checked this will allow scrolling in tab bar when number of tabs is large."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:293
+#, kde-format
+msgid "Elide tab text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:295
+#, kde-format
+msgid "When checked tab text might be elided if it is too long."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:299
+#, kde-format
+msgid "Open new tabs to the right of the current tab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:301
+#, kde-format
+msgid "If unchecked the new tab will open at the end."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:312
+#, kde-format
+msgid "Allow cycling through tabs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:314
+#, kde-format
+msgctxt "If 'Allow cycling through tabs' is disabled."
+msgid "If unchecked, the action '%1'/'%2' will not go to first/last tab after reaching the end."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:337
+#, kde-format
+msgid "&Mouse"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:342
+#, kde-format
+msgid "&Backward button pressed:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:347
+#, kde-format
+msgid "Previous tab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:347
+#, kde-format
+msgid "History back"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:353
+#, kde-format
+msgid "&Forward button pressed:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:358
+#, kde-format
+msgid "Next tab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:358
+#, kde-format
+msgid "History forward"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:375
+#, kde-format
+msgid "Diff Style:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:382
+#, kde-format
+msgid "Navigation Bar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:387
+#, kde-format
+msgid "Show current symbol in navigation bar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:397
+#, kde-format
+msgid "Diagnostics limit:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:402
+#, kde-format
+msgid "Max number of diagnostics allowed in the Diagnostics toolview."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:408 lib/texthint/hintview.cpp:25
+#, kde-format
+msgid "Context"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:413
+#, kde-format
+msgid "Enable tool view"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:415
+#, kde-format
+msgid "A tool view to display context associated with the current cursor position (LSP hints, diagnostics)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:430
+#, kde-format
+msgid "Session"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:432
+#, kde-format
+msgid "Session Management"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:444
+#, kde-format
+msgctxt "The special case of 'Delete unused meta-information after'"
+msgid "(never)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:446
+#, kde-format
+msgctxt "The suffix of 'Delete unused meta-information after'"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:476
+#, kde-format
+msgid "When a window is closed the documents opened only in this window are closed as well."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:511
+#, kde-format
+msgid "Plugins"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:513
+#, kde-format
+msgid "Plugin Manager"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:531 lib/kateconfigdialog.cpp:533
+#, kde-format
+msgid "User Feedback"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:725
+#, kde-format
+msgid "Bad PATH value"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:725
+#, kde-format
+msgid "The path '%1' doesn't exist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigdialog.cpp:809
+#, kde-format
+msgid "You have unsaved changes. Do you want to apply the changes or discard them?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigplugindialogpage.cpp:78
+#, kde-format
+msgid "Here you can see all available Kate plugins. Those with a check mark are loaded, and will be loaded again the next time Kate is started."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigplugindialogpage.cpp:82
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateconfigplugindialogpage.cpp:82
+#, kde-format
+msgid "Description"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katedocmanager.cpp:292
+#, kde-format
+msgid ""
+"<p>The document '%1' has been modified, but not saved.</p>"
+"<p>Do you want to save your changes or discard them?</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katedocmanager.cpp:295 lib/katesavemodifieddialog.cpp:133
+#, kde-format
+msgid "Close Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katedocmanager.cpp:304
+#, kde-format
+msgid "Save As"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katedocmanager.cpp:322 lib/katemainwindow.cpp:847
+#, kde-format
+msgid "New file opened while trying to close Kate, closing aborted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katedocmanager.cpp:322 lib/katemainwindow.cpp:847
+#, kde-format
+msgid "Closing Aborted"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katedocmanager.cpp:396
+#, kde-format
+msgid "Starting Up"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katedocmanager.cpp:397
+#, kde-format
+msgid "Reopening files from the last session..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katedocmanager.cpp:572
+#, kde-format
+msgid "Cannot pin untitled documents."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katedocmanager.cpp:577
+#, kde-format
+msgid "Cannot pin non local documents."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katefileactions.cpp:80
+#, kde-format
+msgid "Rename file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katefileactions.cpp:80
+#, kde-format
+msgid "New file name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katefileactions.cpp:114
+#, kde-format
+msgid "File \"%1\" could not be moved to \"%2\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katefileactions.cpp:135
+#, kde-format
+msgid "Do you really want to delete file \"%1\"?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katefileactions.cpp:136
+#, kde-format
+msgid "Delete file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katefileactions.cpp:157
+#, kde-format
+msgid "File \"%1\" could not be deleted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katefileactions.cpp:212
+#, kde-format
+msgid "&Other Application..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:299
+#, kde-format
+msgid "Use this command to show or hide the view's statusbar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:305
+#, kde-format
+msgid "Show &Tabs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:308
+#, kde-format
+msgid "Use this command to show or hide the tabs for the views"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:310
+#, kde-format
+msgid "Sho&w Path in Titlebar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:315
+#, kde-format
+msgid "Show the complete document path in the window caption"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:317
+#, kde-format
+msgid "Show Navigation Bar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:335
+#, kde-format
+msgid "&Window Color Scheme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:339
+#, kde-format
+msgid "&Previous Tab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:340
+#, kde-format
+msgid "Focus the previous tab."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:347
+#, kde-format
+msgid "&Next Tab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:348
+#, kde-format
+msgid "Focus the next tab."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:357
+#, kde-format
+msgctxt "@action Shortcut entry"
+msgid "Switch to Tab %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:377
+#, kde-format
+msgid "&Quick Open"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:380
+#, kde-format
+msgid "Open a form to quick open documents."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:417
+#, kde-format
+msgid "Output"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:428
+#, kde-format
+msgid "Create a new document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:430
+#, kde-format
+msgid "Open an existing document for editing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:440
+#, kde-format
+msgid "This lists files which you have opened recently, and allows you to easily open them again."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:444
+#, kde-format
+msgid "Sa&ve All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:447
+#, kde-format
+msgid "Save all open, modified documents to disk."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:450
+#, kde-format
+msgid "Reload A&ll"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:452
+#, kde-format
+msgid "Reload all open documents."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:461 lib/katemainwindow.cpp:471
+#: lib/katemainwindow.cpp:480
+#, kde-format
+msgid "Copies the file path of the current file to clipboard."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:465
+#, kde-format
+msgid "Copy Filename"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:475 lib/welcomeview/welcomeview.cpp:268
+#, kde-format
+msgid "&Open Containing Folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:484
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Rename..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:489
+#, kde-format
+msgid "Renames the file belonging to the current document."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:493
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:498 lib/katemainwindow.cpp:507
+#, kde-format
+msgid "Deletes the file belonging to the current document."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:502
+#, kde-format
+msgid "Properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:510 lib/katemainwindow.cpp:512
+#, kde-format
+msgid "Compare"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:512
+#, kde-format
+msgid "Use the Tabbar context menu to compare two documents"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:514
+#, kde-format
+msgid "Shows a hint how to compare documents."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:517
+#, kde-format
+msgid "Close Orp&haned"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:519
+#, kde-format
+msgid "Close all documents in the file list that could not be reopened, because they are not accessible anymore."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:523
+#, kde-format
+msgid "Close the current document."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:526
+#, kde-format
+msgid "Close O&ther"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:530
+#, kde-format
+msgid "Close other open documents."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:533
+#, kde-format
+msgid "Clos&e All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:535
+#, kde-format
+msgid "Close all open documents."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:538
+#, kde-format
+msgid "&Reopen Latest Closed Document(s)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:540
+#, kde-format
+msgid "Reopen the document or documents that were most recently closed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:543
+#, kde-format
+msgid "Close &Window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:547
+#, kde-format
+msgid "Close this window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:552
+#, kde-format
+msgid "Quit the application"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:556
+#, kde-format
+msgid "New &Window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:559
+#, kde-format
+msgid "Create a new window."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:566
+#, kde-format
+msgid "Open W&ith"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:568
+#, kde-format
+msgid "Open the current document using another application registered for its file type, or an application of your choice."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:576
+#, kde-format
+msgid "Configure the application's keyboard shortcut assignments."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:579
+#, kde-format
+msgid "Configure which items should appear in the toolbar(s)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:582
+#, kde-format
+msgid "Configure various aspects of this application and the editing component."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:586
+#, kde-format
+msgid "&Plugins Handbook"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:588
+#, kde-format
+msgid "This shows help files for various available plugins."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:605
+#, kde-format
+msgid "Sess&ions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:611
+#, kde-format
+msgctxt "Menu entry Session->New Session"
+msgid "&New Session"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:616
+#, kde-format
+msgid "&Recent Sessions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:621
+#, kde-format
+msgid "&All Sessions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:628
+#, kde-format
+msgid "&Manage Sessions..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:637
+#, kde-format
+msgid "&Save Session"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:643
+#, kde-format
+msgid "Save Session &As..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:651
+#, kde-format
+msgid "Pin/Unpin Active Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:660
+#, kde-format
+msgid "Open Next Pinned Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:667 lib/kateviewspace.cpp:57
+#, kde-format
+msgid "Go to Previous Location"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:676 lib/kateviewspace.cpp:69
+#, kde-format
+msgid "Go to Next Location"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:684
+#, kde-format
+msgid "Show File Git History"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:695
+#, kde-format
+msgid "&Windows"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:754
+#, kde-format
+msgid "This will close all open documents. Are you sure you want to continue?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:755
+#, kde-format
+msgid "Close all documents?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:756
+#, kde-format
+msgid "Close All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:770
+#, kde-format
+msgid "This will close all open documents beside the current one. Are you sure you want to continue?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:771
+#, kde-format
+msgid "Close all documents beside current one?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:772
+#, kde-format
+msgid "Close Others"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:1002
+#, kde-format
+msgid "This will hide the menu bar completely. You can show it again by typing %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:1005
+#, kde-format
+msgid "Hide menu bar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:1180
+#, kde-format
+msgid "You dropped the directory %1 into Kate. Do you want to open all files contained in it?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:1183
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Files Recursively"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:1184
+#, kde-format
+msgctxt "@action:button"
+msgid "Open All Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemainwindow.cpp:1391
+#, kde-format
+msgid " [read only]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:78
+#, kde-format
+msgid "Toolview Manager"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:96
+#, kde-format
+msgid "Sidebar Buttons"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:99
+#, kde-format
+msgid "Focus Toolview"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:102
+#, kde-format
+msgid "Tool &Views"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:104
+#, kde-format
+msgid "Show Side&bars"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:112
+#, kde-format
+msgid "Hide All Tool Views"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:160
+#, kde-format
+msgid "Show %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:182
+#, kde-format
+msgid "Show %1 Button"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:201
+#, kde-format
+msgid "Focus %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1119
+#, kde-format
+msgid "Configure..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1123
+#, kde-format
+msgid "Hide Button"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1125
+#, kde-format
+msgid "Move To"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1130
+#, kde-format
+msgid "Own Section"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1136 lib/katemdi.cpp:1144
+#, kde-format
+msgid "One Down"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1138 lib/katemdi.cpp:1149
+#, kde-format
+msgid "One Right"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1142
+#, kde-format
+msgid "One Up"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1147
+#, kde-format
+msgid "One Left"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1156
+#, kde-format
+msgid "Left Sidebar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1160
+#, kde-format
+msgid "Right Sidebar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1164
+#, kde-format
+msgid "Top Sidebar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1168
+#, kde-format
+msgid "Bottom Sidebar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemdi.cpp:1782
+#, kde-format
+msgid "<qt>You are about to hide the sidebars. With hidden sidebars it is not possible to directly access the tool views with the mouse anymore, so if you need to access the sidebars again invoke <b>View &gt; Tool Views &gt; Show Sidebars</b> in the menu. It is still possible to show/hide the tool views with the assigned shortcuts.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:54
+#, kde-format
+msgid "Documents Modified on Disk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:69
+#, kde-format
+msgid ""
+"<qt>The documents listed below have changed on disk."
+"<p>Select one or more at once, and press an action button until the list is empty.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:79
+#, kde-format
+msgid "Filename"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:79
+#, kde-format
+msgid "Status on Disk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:84
+#, kde-format
+msgid "Modified"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:84
+#, kde-format
+msgid "Created"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:84
+#, kde-format
+msgid "Deleted"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:107
+#, kde-format
+msgid "&View Difference"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:108
+#, kde-format
+msgid "Calculates the difference between the editor contents and the disk file for the selected document."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:116
+#, kde-format
+msgid "&Ignore Changes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:117
+#, kde-format
+msgid "Remove modified flag from selected documents"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:123
+#, kde-format
+msgid "Overwrite selected documents, discarding disk changes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:127
+#, kde-format
+msgid "&Reload"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:129
+#, kde-format
+msgid "Reload selected documents from disk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:193
+#, kde-format
+msgid ""
+"Could not save the document \n"
+"'%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:291
+#, kde-format
+msgid "Please install git to view diffs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:315
+#, kde-format
+msgid "The diff command failed. Please make sure that git is installed and in your PATH."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:317
+#, kde-format
+msgid "Error Creating Diff"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:324
+#, kde-format
+msgid "[OLD]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katemwmodonhddialog.cpp:325
+#, kde-format
+msgid "[NEW]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateoutputview.cpp:176
+#, kde-format
+msgid "Search..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateoutputview.cpp:192
+#, kde-format
+msgid "Copy all text to clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateoutputview.cpp:197
+#, kde-format
+msgid "Clear all messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateoutputview.cpp:409
+#, kde-format
+msgctxt "@info"
+msgid "Error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateoutputview.cpp:413
+#, kde-format
+msgctxt "@info"
+msgid "Warning"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateoutputview.cpp:417
+#, kde-format
+msgctxt "@info"
+msgid "Info"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateoutputview.cpp:422
+#, kde-format
+msgctxt "@info"
+msgid "Log"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katesavemodifieddialog.cpp:81
+#, kde-format
+msgid "Save As (%1)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katesavemodifieddialog.cpp:133
+#, kde-format
+msgid "Save Documents"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katesavemodifieddialog.cpp:157
+#, kde-format
+msgid "The document \"%1\" has been modified. Do you want to save your changes or discard them?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katesavemodifieddialog.cpp:161
+#, kde-format
+msgid "<qt>The following documents have been modified. Do you want to save them before closing?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katesavemodifieddialog.cpp:170
+#, kde-format
+msgid "Documents"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katesavemodifieddialog.cpp:170
+#, kde-format
+msgid "Location"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katesavemodifieddialog.cpp:180
+#, kde-format
+msgid "Se&lect All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/katesavemodifieddialog.cpp:258
+#, kde-format
+msgid "Data you requested to be saved could not be written. Please choose how you want to proceed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateurlbar.cpp:919
+#, kde-format
+msgctxt "@menu:action"
+msgid "Copy Location"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateurlbar.cpp:925
+#, kde-format
+msgctxt "@menu:action"
+msgid "Copy Filename"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:146
+#, kde-format
+msgid "Split Ve&rtical"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:150
+#, kde-format
+msgid "Split the currently active view vertically into two views."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:154
+#, kde-format
+msgid "Split &Horizontal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:158
+#, kde-format
+msgid "Split the currently active view horizontally into two views."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:162
+#, kde-format
+msgid "Move Document to New Vertical Split"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:166
+#, kde-format
+msgid "Split the currently active view vertically into two views and move the currently active document to right view."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:171
+#, kde-format
+msgid "Move Document to New Horizontal Split"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:175
+#, kde-format
+msgid "Split the currently active view horizontally into two views and move the currently active document to view below."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:180
+#, kde-format
+msgid "Cl&ose Current View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:184
+#, kde-format
+msgid "Close the currently active split view"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:188
+#, kde-format
+msgid "Close Inactive Views"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:191
+#, kde-format
+msgid "Close every view but the active one"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:195
+#, kde-format
+msgid "Hide Inactive Views"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:199
+#, kde-format
+msgid "Hide every view but the active one"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:202
+#, kde-format
+msgid "Toggle Orientation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:205
+#, kde-format
+msgid "Toggles the orientation of the current split view"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:208
+#, kde-format
+msgid "Next Split View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:213
+#, kde-format
+msgid "Make the next split view the active one."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:216
+#, kde-format
+msgid "Previous Split View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:221
+#, kde-format
+msgid "Make the previous split view the active one."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:224
+#, kde-format
+msgid "Left Split View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:229
+#, kde-format
+msgid "Make the split view intuitively on the left the active one."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:232
+#, kde-format
+msgid "Right Split View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:237
+#, kde-format
+msgid "Make the split view intuitively on the right the active one."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:240
+#, kde-format
+msgid "Upward Split View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:245
+#, kde-format
+msgid "Make the split view intuitively upward the active one."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:248
+#, kde-format
+msgid "Downward Split View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:253
+#, kde-format
+msgid "Make the split view intuitively downward the active one."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:256
+#, kde-format
+msgid "Move Splitter Right"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:259
+#, kde-format
+msgid "Move the splitter of the current view to the right"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:262
+#, kde-format
+msgid "Move Splitter Left"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:265
+#, kde-format
+msgid "Move the splitter of the current view to the left"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:268
+#, kde-format
+msgid "Move Splitter Up"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:271
+#, kde-format
+msgid "Move the splitter of the current view up"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:274
+#, kde-format
+msgid "Move Splitter Down"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:277
+#, kde-format
+msgid "Move the splitter of the current view down"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:280
+#, kde-format
+msgid "Focus Navigation Bar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:281
+#, kde-format
+msgid "Focus the navigation bar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:288
+#, kde-format
+msgid "Welcome Page"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:293
+#, kde-format
+msgid "Show the welcome page"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:299
+#, kde-format
+msgid "Toggle Scroll Synchronization"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:300
+#, kde-format
+msgid "Toggle scroll synchronization for the current view"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:310
+#, kde-format
+msgid "Detach Active Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:311
+#, kde-format
+msgid "Opens the active document in a new window and closes it in the current window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:386
+#, kde-format
+msgid ""
+"<p>You are attempting to open one or more large files:</p>"
+"<ul>%1</ul>"
+"<p>Do you want to proceed?</p>"
+"<p><strong>Beware that kate may stop responding for some time when opening large files.</strong></p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:389
+#, kde-format
+msgid "Opening Large File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:593
+#, kde-format
+msgid "%1 cannot open folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:610
+#, kde-format
+msgid "The plugin required to open folders was not found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:616
+#, kde-format
+msgid "In order to open folders, the <b>%1</b> plugin must be enabled. Enable it?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:619
+#, kde-format
+msgctxt "@title:window"
+msgid "Open Folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:620
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:627
+#, kde-format
+msgid "Failed to enable <b>%1</b> plugin"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewmanager.cpp:648
+#, kde-format
+msgid "The file '%1' does not exist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:94
+#, kde-format
+msgid "Synchronize Scrolling"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:96
+#, kde-format
+msgid "Synchronize scrolling of this split-view with other synchronized split-views"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:118
+#, kde-format
+msgctxt "indicator for more documents"
+msgid "+%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:123 lib/kateviewspace.cpp:251
+#, kde-format
+msgid "Click here to switch to the Quick Open view."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:140
+#, kde-format
+msgid "Control view space splitting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:252
+#, kde-format
+msgid "Currently, there is one more document open. To see all open documents, switch to the Quick Open view by clicking here."
+msgid_plural "Currently, there are %1 more documents open. To see all open documents, switch to the Quick Open view by clicking here."
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:1135
+#, kde-format
+msgid "&Close Tab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:1142
+#, kde-format
+msgid "Close &Other Tabs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:1155
+#, kde-format
+msgid "Close All &Tabs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:1186
+#, kde-format
+msgid "D&etach Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:1191
+#, kde-format
+msgid "Opens the document in a new window and closes it in the current window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:1232
+#, kde-format
+msgid "Compare with Active Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:1238
+#, kde-format
+msgid "Compare with Active Document Using"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:1246
+#, kde-format
+msgid "Unpin Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/kateviewspace.cpp:1248
+#, kde-format
+msgid "Pin Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/ktexteditor_utils.cpp:244
+#, kde-format
+msgid "Can not open %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/mainwindow_commands.cpp:45
+#, kde-format
+msgid "No toolview found for name: '%1'. Is the plugin for it disabled or the name is misspelled?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/mainwindow_commands.cpp:48
+#, kde-format
+msgid "Script error. Expected a toolview name. Available: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/mainwindow_commands.cpp:56
+#, kde-format
+msgid "Scripting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/mainwindow_commands.cpp:77
+#, kde-format
+msgid "'showtoolview $toolview_name'. Show a toolview panel. Available panels: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/mainwindow_commands.cpp:79
+#, kde-format
+msgid "'showtoolview $toolview_name'. Hide a toolview panel. Available panels: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/quickopen/katequickopenlineedit.cpp:47
+#, kde-format
+msgctxt "The text is shown as a placeholder in an input line edit, keep it short"
+msgid "Search files in all projects (right click to configure)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/quickopen/katequickopenlineedit.cpp:50
+#, kde-format
+msgctxt "The text is shown as a placeholder in an input line edit, keep it short"
+msgid "Search files in current project (right click to configure)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/quickopen/katequickopenlineedit.cpp:72
+#, kde-format
+msgid "All Projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/quickopen/katequickopenlineedit.cpp:85
+#, kde-format
+msgid "Current Project"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/quickopen/katequickopenlineedit.cpp:101
+#, kde-format
+msgid "Fuzzy Filtering"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/quickopen/katequickopenlineedit.cpp:112
+#, kde-format
+msgid "Wildcard Filtering"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/quickopen/katequickopenmodel.cpp:168
+#, kde-format
+msgid "Project: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.cpp:28
+#, kde-format
+msgid "Manage Sessions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.cpp:67
+#, kde-format
+msgid "Session Chooser"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.cpp:151
+#, kde-format
+msgid "Restore"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.cpp:315
+#, kde-format
+msgid "Session will be deleted on dialog close"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_filterBox)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:30
+#, kde-format
+msgid "Filter Sessions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_sessionList)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:55
+#, kde-format
+msgid "Session Name"
+msgstr ""
+
+#. i18n: The number of open documents
+#. i18n: ectx: property (text), widget (QTreeWidget, m_sessionList)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:60
+#, kde-format
+msgid "Files"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_sessionList)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:68
+#, kde-format
+msgid "Last opened"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_openButton)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:87
+#, kde-format
+msgid "&Open"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNewSession)
+#. i18n: ectx: property (text), widget (QPushButton, m_newButton)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:97 lib/welcomeview/welcomeview.ui:363
+#, kde-format
+msgid "New Session"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_templateButton)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:107
+#, kde-format
+msgid "Open as Template"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_dontAskCheckBox)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:114
+#, kde-format
+msgid "Don't ask again"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_copyButton)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:134
+#, kde-format
+msgid "Duplicate..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_renameButton)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:141
+#, kde-format
+msgid "&Rename..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_deleteButton)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:161
+#, kde-format
+msgid "Delete"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_closeButton)
+#. +> trunk6 stable6
+#: lib/session/katesessionmanagedialog.ui:183
+#, kde-format
+msgid "Close"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanager.cpp:147
+#, kde-format
+msgid "Session '%1' is already opened in another Kate instance. Switch to that or reopen in this instance?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanager.cpp:149
+#, kde-format
+msgctxt "@action:button"
+msgid "Switch to Instance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanager.cpp:150
+#, kde-format
+msgctxt "@action:button"
+msgid "Reopen"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanager.cpp:366
+#, kde-format
+msgid "The session could not be renamed to \"%1\". Failed to write to \"%2\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanager.cpp:367
+#, kde-format
+msgid "Session Renaming"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanager.cpp:535
+#, kde-format
+msgid "Session name:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanager.cpp:537
+#, kde-format
+msgid ""
+"There is already an existing session with your chosen name: %1\n"
+"Please choose a different one."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanager.cpp:539
+#, kde-format
+msgid "To save a session, you must specify a name."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanager.cpp:566
+#, kde-format
+msgid "Specify a name for this session"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/session/katesessionmanager.cpp:568
+#, kde-format
+msgid "Specify a new name for session: %1"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbAppStartup)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:17
+#, kde-format
+msgid "Application Startup Behavior"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, startNewSessionRadioButton)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:23
+#, kde-format
+msgid "&Start new session"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, loadLastUserSessionRadioButton)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:30
+#, kde-format
+msgid "&Load last used session"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, manuallyChooseSessionRadioButton)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:37
+#, kde-format
+msgid "&Manually choose a session"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:47
+#, kde-format
+msgid "Application Startup/Shutdown Behavior"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:55
+#, kde-format
+msgid "Automatically save and restore:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, stashNewUnsavedFiles)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:67
+#, kde-format
+msgid "Newly-created unsaved files"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, stashUnsavedFilesChanges)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:77
+#, kde-format
+msgid "Files with unsaved changes"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, showWelcomeViewForNewWindow)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:88
+#, kde-format
+msgid "If disabled, an untitled document will be shown for new windows."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showWelcomeViewForNewWindow)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:91
+#, kde-format
+msgid "Show welcome view for new windows"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, modCloseAfterLast)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:98
+#, kde-format
+msgid "If enabled, the application will shutdown when the last file being edited is closed, otherwise a blank page will open so that you can start a new file."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, modCloseAfterLast)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:101
+#, kde-format
+msgid "Close the application entirely when the last file is closed"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, winClosesDocuments)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:108
+#, kde-format
+msgid "Close documents with the window they belong to"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbElements)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:118
+#, kde-format
+msgid "Session Elements"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:124
+#, kde-format
+msgid "The session contains the list of open documents, recently opened files list, bookmarks, cursor position etc. When the session is loaded all elements are restored."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:136
+#, kde-format
+msgid "Maximum number of entries in recent file list:"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, restoreVC)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:164
+#, kde-format
+msgid "Check this if you want all your views and frames restored each time you open the application."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, restoreVC)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:167
+#, kde-format
+msgid "Include &window configuration"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, saveMetaInfos)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:177
+#, kde-format
+msgid "Check this if you want document configuration like for example bookmarks to be saved past editor sessions. The configuration will be restored if the document has not changed when reopened."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, saveMetaInfos)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:180
+#, kde-format
+msgid "Keep &meta-information past sessions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: lib/ui/sessionconfigwidget.ui:191
+#, kde-format
+msgid "Delete unused meta-information after:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.cpp:57
+#, kde-format
+msgid "Welcome to %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.cpp:61
+#, kde-format
+msgid "Recent Documents and Projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.cpp:61
+#, kde-format
+msgid "Recent Documents"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.cpp:64
+#, kde-format
+msgid "No recent documents or projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.cpp:64
+#, kde-format
+msgid "No recent documents"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.cpp:118
+#, kde-format
+msgid "No saved sessions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.cpp:248
+#, kde-format
+msgid "Open Selected Files..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.cpp:261
+#, kde-format
+msgid "Copy &Location"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.cpp:276
+#, kde-format
+msgid "&Remove"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QScrollArea, WelcomeView)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:17
+#, kde-format
+msgid "Welcome"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonNewFile)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:179
+#, kde-format
+msgid "New File"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonOpenFolder)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:186
+#, kde-format
+msgid "Open Folder..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelRecentItems)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:193
+#, kde-format
+msgid "Recent Files"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonOpenFile)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:203
+#, kde-format
+msgid "Open File..."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, buttonClearRecentItems)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:242
+#, kde-format
+msgid "Clear Recent Files"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelHelp)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:270
+#, kde-format
+msgid "Help"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KUrlLabel, labelHomepage)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:280
+#, kde-format
+msgid "Visit homepage"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KUrlLabel, labelContribute)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:293
+#, kde-format
+msgid "Get involved"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KUrlLabel, labelHandbook)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:306
+#, kde-format
+msgid "Read handbook"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelSavedSessions)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:353
+#, kde-format
+msgid "Saved Sessions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonManageSessions)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:389
+#, kde-format
+msgid "Manage Sessions..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBoxShowForNewWindow)
+#. +> trunk6 stable6
+#: lib/welcomeview/welcomeview.ui:442
+#, kde-format
+msgid "Show welcome page for new window"
+msgstr ""

@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-09-06 10:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5
+#: building-specific-modules.docbook:9
+#, no-c-format
+msgid "Building specific modules"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: building-specific-modules.docbook:11
+#, no-c-format
+msgid "Rather than building every module all the time, you may only want to build a single module, or other small subset. Rather than editing your configuration file, you can simply pass the names of modules or module sets to build to the command line."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: building-specific-modules.docbook:16
+#, no-c-format
+msgid "Example output of a kdesrc-build specific module build"
+msgstr ""
+
+#. Tag: screen
+#. +> trunk5
+#: building-specific-modules.docbook:17
+#, no-c-format
+msgid ""
+"<prompt>&percnt;</prompt> <userinput><command>kdesrc-build</command> <option>--include-dependencies</option> <replaceable>dolphin</replaceable></userinput>\n"
+"Updating kde-build-metadata (to branch master)\n"
+"Updating sysadmin-repo-metadata (to branch master)\n"
+"\n"
+"Building extra-cmake-modules from frameworks-set (1/79)\n"
+"        Updating extra-cmake-modules (to branch master)\n"
+"        No changes to extra-cmake-modules source, proceeding to build.\n"
+"        Running cmake...\n"
+"        Compiling... succeeded (after 0 seconds)\n"
+"        Installing.. succeeded (after 0 seconds)\n"
+"\n"
+"Building phonon from phonon (2/79)\n"
+"        Updating phonon (to branch master)\n"
+"        No changes to phonon source, proceeding to build.\n"
+"        Compiling... succeeded (after 0 seconds)\n"
+"        Installing.. succeeded (after 0 seconds)\n"
+"\n"
+"Building attica from frameworks-set (3/79)\n"
+"        Updating attica (to branch master)\n"
+"        No changes to attica source, proceeding to build.\n"
+"        Compiling... succeeded (after 0 seconds)\n"
+"        Installing.. succeeded (after 0 seconds)\n"
+"\n"
+"        ...\n"
+"\n"
+"Building dolphin from base-apps (79/79)\n"
+"        Updating dolphin (to branch master)\n"
+"        No changes to dolphin source, proceeding to build.\n"
+"        Compiling... succeeded (after 0 seconds)\n"
+"        Installing.. succeeded (after 0 seconds)\n"
+"\n"
+"&lt;&lt;&lt;  PACKAGES SUCCESSFULLY BUILT  &gt;&gt;&gt;\n"
+"Built 79 modules\n"
+"\n"
+"Your logs are saved in /home/kde-src/kdesrc/log/2018-01-20-07"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: building-specific-modules.docbook:20
+#, no-c-format
+msgid "In this case, although only the <replaceable>dolphin</replaceable> application was specified, the <option>--include-dependencies</option> flag caused &kdesrc-build; to include the dependencies listed for <replaceable>dolphin</replaceable> (by setting the <link linkend=\"conf-include-dependencies\">include-dependencies</link> option)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: building-specific-modules.docbook:27
+#, no-c-format
+msgid "The dependency resolution worked in this case only because <replaceable>dolphin</replaceable> happened to be specified in a <literal>kde-projects</literal>-based module set (in this example, named <literal>base-apps</literal>). See <xref linkend=\"module-sets-kde\"/>."
+msgstr ""

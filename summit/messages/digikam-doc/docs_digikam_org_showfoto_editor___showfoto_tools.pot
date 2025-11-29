@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://spdx.org/licenses/GFDL-1.2-or-later.html">licensed under the terms of the GNU Free Documentation License 1.2+</a> unless stated otherwise
+# This file is distributed under the same license as the Digikam Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digikam Manual 8.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-30 10:26+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:14
+msgid ":ref:`Tools <showfoto_editor>`"
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:16
+msgid "Contents"
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:19
+msgid "Overview"
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:21
+msgid "Showfoto mostly provides the same tools as the digiKam Image Editor, in native form or as plugins. All :ref:`Colors <colors_tools>`, :ref:`Effects <effects_tools>`, :ref:`Transform <transform_tools>`, :ref:`Decorate <decorate_tools>`, and :ref:`Enhancement <enhancement_tools>` tools are there. Showfoto also inherits the **Raw Import** tool to handle RAW demosaicing operations."
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:27
+msgid "The Showfoto loading a DNG-Based Apple ProRAW File Taken with an iPhone"
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:32
+msgid "Post-Processing"
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:34
+msgid "Even if Showfoto does not provide something like the digiKam **Batch Queue Manager**, it can batch process files. Plugins such as **Time Adjust**, **Print Wizard**, **Metadata Editor**, **HTML Gallery**, etc. are compatible with Showfoto. The main difference with these tools compared to digiKam is the way items are passed into the tools for processing. Showfoto does not have an Icon-View like digiKam, but it has the **Stack View** and **Thumbbar** containers. When a :ref:`Post Processing <post_processing>` tool is called from Showfoto, the contents of the Stack or the Thumbbar are loaded into the tool, and of course, you can make adjustments to this list later in the plugin."
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:40
+msgid "The Showfoto Running Time Adjust Plugin Over the Contents loaded from the Current Stack"
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:42
+msgid "With Showfoto, you can also export items with :ref:`web-service tools <export_tools>`, such as Flickr or Google, exactly like you can do in digiKam."
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:48
+msgid "The Showfoto Exporting the Current Stack to Dropbox Web-Service"
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:53
+msgid "DNG Converter"
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:55
+msgid "One very important tool available in digiKam's Batch Queue Manager is also usable in Showfoto. It's the famous :ref:`DNG Converter <dng_converter>` used to migrate proprietary RAW data containers to the open-standardized `Digital Negative format <https://en.wikipedia.org/wiki/Digital_Negative>`_."
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:57
+msgid "In Showfoto, this tool runs as a stand-alone version like the **Time Adjust** plugin. It works mostly like the original from the digiKam Batch Queue Manager. You can start it from the :menuselection:`Tools --> DNG Converter...` menu entry."
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:63
+msgid "The Showfoto Running DNG Converter Plugin"
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:-1
+msgid "The Showfoto Tools"
+msgstr ""
+
+#. +> trunk5
+#: ../../showfoto_editor/showfoto_tools.rst:-1
+msgid "digiKam, documentation, user manual, photo management, open source, free, learn, easy, image, editor, showfoto, tools"
+msgstr ""

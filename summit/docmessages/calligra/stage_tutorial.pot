@@ -1,0 +1,554 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: tutorial.docbook:10
+#, no-c-format
+msgid "<firstname>Neil</firstname> <surname>Lucock</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: tutorial.docbook:14
+#, no-c-format
+msgid "neil@nlucock.freeserve.co.uk"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: tutorial.docbook:17
+#, no-c-format
+msgid "<firstname>Krishna</firstname> <surname>Tateneni</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: tutorial.docbook:21
+#, no-c-format
+msgid "tateneni@pluto.njcc.com"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: tutorial.docbook:24
+#, no-c-format
+msgid "<firstname>Anne-Marie</firstname> <surname>Mahfouf</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: tutorial.docbook:28
+#, no-c-format
+msgid "annemarie.mahfouf@free.fr"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: tutorial.docbook:31
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: tutorial.docbook:34
+#, no-c-format
+msgid "A Step-By-Step Tutorial"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:36
+#, no-c-format
+msgid "In this chapter, &stage; is introduced using a simple tutorial. We shall walk through the most basic steps that are involved in creating a presentation, and adding some basic effects."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: tutorial.docbook:43
+#, no-c-format
+msgid "Start a new document"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:45
+#, no-c-format
+msgid "When you start &stage;, the usual &calligra; startup dialog appears."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:50
+#, no-c-format
+msgid "The <guilabel>&calligra;</guilabel> startup dialog"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:55
+#, no-c-format
+msgid "The &calligra; startup dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:59
+#, no-c-format
+msgid "Select <guilabel>Screen</guilabel> on the left then select the template labeled <guilabel>Empty</guilabel> (highlighted in blue in the screenshot above) by clicking on it. You can check <guilabel>Always use this template</guilabel> to make it the default template."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:66
+#, no-c-format
+msgid "Now click <guibutton>Use This Template</guibutton>. This brings up the slide editor window, where you can view and edit the slides (and objects contained in them) in your document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:72
+#, no-c-format
+msgid "At the moment, we just have one empty slide, so select the upper left slide with the single text box from the <guilabel>Slide Layouts</guilabel> docker."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:75
+#, no-c-format
+msgid "Double-click the text box. The cursor changes to a vertical bar to show that you can now type some text."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:81
+#, no-c-format
+msgid "<screeninfo>The text insertion cursor</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:85
+#, no-c-format
+msgid "<phrase>The text insertion cursor</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:89
+#, no-c-format
+msgid "Go ahead, type some text!"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:94
+#, no-c-format
+msgid "<screeninfo>Adding text</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:98
+#, no-c-format
+msgid "<phrase>Adding text</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:102
+#, no-c-format
+msgid "Click away from the text to de-select the text box when you are done typing."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: tutorial.docbook:110
+#, no-c-format
+msgid "Add a new page"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:112
+#, no-c-format
+msgid "Let's now add a new slide to our document. To do so, click the <guimenu>Slide</guimenu> menu, and then click on <guimenuitem>Insert Slide</guimenuitem>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:118
+#, no-c-format
+msgid "Now we can decide what the new slide should look like. This time, select one column layout (highlighted in blue.)"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:124
+#, no-c-format
+msgid "<screeninfo>Choosing a layout for the new page</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:127
+#, no-c-format
+msgid "<phrase>Choosing a layout for the new page</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:132
+#, no-c-format
+msgid "The new slide layout now appears in the editing window. To change between pages of your presentation, you can select slides in the pane to the left (highlighted in blue for this screenshot)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:138
+#, no-c-format
+msgid "The newly inserted slide has two text boxes. There is one for a title, and another to contain a bulleted list of items."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:144
+#, no-c-format
+msgid "<screeninfo>The new slide</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:147
+#, no-c-format
+msgid "<phrase>The new slide</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:151
+#, no-c-format
+msgid "Double-click and type a title. Then double-click on the second text box with the bullet. Type some text and end the paragraph by pressing the <keycap>Enter</keycap> or <keycap>Return</keycap> key. As you type new paragraphs, bullets automatically appear in front of them."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:159
+#, no-c-format
+msgid "<screeninfo>Adding text to the second slide</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:162
+#, no-c-format
+msgid "<phrase>Adding text to the second slide</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:166
+#, no-c-format
+msgid "You can de-select the text box by clicking away from it."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: tutorial.docbook:173
+#, no-c-format
+msgid "Insert a picture"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:175
+#, no-c-format
+msgid "Let's go back to the first slide now. Use the list of slides on the left of your screen."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:180
+#, no-c-format
+msgid "In this section, we'll liven our presentation up a bit by adding a nice logo to the title page. To do so, the first step is to enable the <guilabel>Add Shape</guilabel> docker using <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Dockers</guimenuitem></menuchoice> from the menu."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:187
+#, no-c-format
+msgid "Now select Image in the <guilabel>Add Shape</guilabel> docker and click with the &LMB; where you want to place the loge in it's original size or draw a rectangle with the left mouse (click the &LMB; and keep the button pressed) to specify the position and size for the logo."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:193
+#, no-c-format
+msgid "A file selection dialog appears. To learn about this or other standard &kde; dialog boxes in detail, please consult the &kde; documentation. You can browse by clicking on <guiicon>folder</guiicon> icons or by using the <guiicon>browser</guiicon> style buttons on the toolbar. Clicking the <guiicon>up arrow</guiicon> takes you up one folder level."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:202
+#, no-c-format
+msgid "Select a file and click <guibutton>OK</guibutton>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:206
+#, no-c-format
+msgid "Now the image is inserted in the slide and there are selection handles (little squares) visible around the border of the graphic."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:212
+#, no-c-format
+msgid "<screeninfo>The newly added image</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:215
+#, no-c-format
+msgid "<phrase>The newly added image</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:219
+#, no-c-format
+msgid "Place the mouse cursor anywhere in the middle of the logo, and drag it to the middle of the title page. Then use the selection handles to resize it correctly."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:225
+#, no-c-format
+msgid "That's it. Now you have a picture on the title page!"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: tutorial.docbook:232
+#, no-c-format
+msgid "Insert a &calligra; object"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:233
+#, no-c-format
+msgid "Let's insert another &calligra; object under the picture, for example a chart."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:236
+#, no-c-format
+msgid "Every &calligra; supported object can be embedded in a &stage; slide. Let's choose a chart from the <guilabel>Add Shape</guilabel> docker."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:241
+#, no-c-format
+msgid "Select <guilabel>Chart</guilabel> and then outline with your mouse the area you want to put your chart in on the &stage; slide."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:247
+#, no-c-format
+msgid "<screeninfo>Select the area where to put the chart</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:250
+#, no-c-format
+msgid "<phrase>Select the area where to put the chart</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:254
+#, no-c-format
+msgid "Once you release the mouse button, a template chart is added on the slide. Whenever you work in the chart, its <guilabel>Tool Options</guilabel> appear in the docker."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:260
+#, no-c-format
+msgid "<screeninfo>&kchart; Tool Options</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:263
+#, no-c-format
+msgid "<phrase>&kchart; Tool Options</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:267
+#, no-c-format
+msgid "To move, resize or even delete the embedded chart switch to the <guibutton>Basic shape manipulation</guibutton> tool and click anywhere within the chart area. It should now appear with a green border and with a small yellow square at each corner and in the middle of each edge."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:272
+#, no-c-format
+msgid "If you move the cursor over any of the squares it should change to a double headed arrow. You can resize the chart by dragging one of these squares with the <mousebutton>left</mousebutton> mouse button pressed. To delete the chart <mousebutton>right</mousebutton> click on one of the squares and select <guimenuitem>Delete</guimenuitem>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:277
+#, no-c-format
+msgid "To move the chart move the cursor into the chart. The cursor should then change to a cross, press the <mousebutton>left</mousebutton> mouse button and you will be able to drag the chart to where you want it to be."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:281
+#, no-c-format
+msgid "To restore the chart to its normal appearance simply click anywhere outside of the chart area."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:283
+#, no-c-format
+msgid "To change the format of the chart itself <mousebutton>left</mousebutton> click twice within the chart area. The chart <guilabel>Tools Options</guilabel> should appear in the docker. You can then use these tools to edit the chart properties like chart type, labels, axis and data."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:288
+#, no-c-format
+msgid "Click anywhere with the &LMB; outside the chart to go back to &stage; slide."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:291
+#, no-c-format
+msgid "A single click on the chart will allow you to drag it to change its location and also to drag the borders to make it bigger as with any other &stage; object. Double click on the chart to get into &kchart; mode and modify any of the chart property."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: tutorial.docbook:363
+#, no-c-format
+msgid "Change the color of the title text"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:365
+#, no-c-format
+msgid "Let's finish by changing the color of the title text from black to blue. To do so, select the title text by double-clicking the text box and select the text."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:370
+#, no-c-format
+msgid "Open the color selector by clicking on the <inlinemediaobject><imageobject> <imagedata fileref=\"22x22-actions-format-text-color.png\" format=\"PNG\"/></imageobject> </inlinemediaobject> icon in the Text editing Tools Options (this icon has a Text Color... tooltip)."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:377 tutorial.docbook:385
+#, no-c-format
+msgid "<screeninfo>The color selector</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:380 tutorial.docbook:388
+#, no-c-format
+msgid "<phrase>The color selector</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:389
+#, no-c-format
+msgid "Change the color to blue."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:393
+#, no-c-format
+msgid "Changing the color of the selected text to blue changes its appearance. The exact color that highlighted text turns depends on your system color scheme."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:400
+#, no-c-format
+msgid "Text color selection is also available on the <guilabel>Decorations</guilabel> tab of the <guilabel>Select Font</guilabel> dialog. Open this dialog with <guimenuitem>Font</guimenuitem> in the <guimenu>Format</guimenu> menu or context menu."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:406
+#, no-c-format
+msgid "Now click away from the text to de-select it."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: tutorial.docbook:412
+#, no-c-format
+msgid "<screeninfo>The finished title</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: tutorial.docbook:415
+#, no-c-format
+msgid "<phrase>The finished title</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:419
+#, no-c-format
+msgid "Now that there are two slides, why not try a slide show! To start the slide show, press the <guiicon>Start Presentation</guiicon> button in the toolbar. The first slide should appear on your screen."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:425
+#, no-c-format
+msgid "To advance from the first slide to the next, just click anywhere on the screen, or use the <keycap>Page Down</keycap> key."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: tutorial.docbook:430
+#, no-c-format
+msgid "To exit the slide show, press the &Esc; key."
+msgstr ""

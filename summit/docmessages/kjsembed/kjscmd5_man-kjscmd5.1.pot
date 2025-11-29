@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-03-05 16:10+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5
+#: man-kjscmd5.1.docbook:9
+#, no-c-format
+msgid "kjscmd5 User's Manual"
+msgstr ""
+
+#. Tag: author
+#. +> trunk5
+#: man-kjscmd5.1.docbook:13
+#, no-c-format
+msgid "<firstname>Harri</firstname> <surname>Porten</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk5
+#: man-kjscmd5.1.docbook:17
+#, no-c-format
+msgid "porten@kde.org"
+msgstr ""
+
+#. Tag: date
+#. +> trunk5
+#: man-kjscmd5.1.docbook:21
+#, no-c-format
+msgid "2015-07-31"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk5
+#: man-kjscmd5.1.docbook:22
+#, no-c-format
+msgid "Frameworks 5.13"
+msgstr ""
+
+#. Tag: productname
+#. +> trunk5
+#: man-kjscmd5.1.docbook:23
+#, no-c-format
+msgid "KDE Frameworks"
+msgstr ""
+
+#. Tag: manvolnum
+#. +> trunk5
+#: man-kjscmd5.1.docbook:29
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk5
+#: man-kjscmd5.1.docbook:34
+#, no-c-format
+msgid "&frameworks; KJSEmbed interpreter"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: man-kjscmd5.1.docbook:38
+#, no-c-format
+msgid "Synopsis"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#. +> trunk5
+#: man-kjscmd5.1.docbook:40
+#, no-c-format
+msgid "<command>kjscmd5</command> <arg choice=\"opt\">--help</arg> <group> <arg choice=\"opt\">-e</arg> <arg choice=\"opt\">--exec</arg> </group> <group> <arg choice=\"opt\">-i</arg> <arg choice=\"opt\">-interactive</arg> </group> <arg choice=\"opt\">file</arg>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: man-kjscmd5.1.docbook:58
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: man-kjscmd5.1.docbook:60
+#, no-c-format
+msgid "<command>kjscmd5</command> is a tool for launching KJSEmbed scripts from the command line. It will run the scripts contained in the named <parameter>file</parameter> using KJSEmbed. It does not accept - (stdin) as a <parameter>file</parameter>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: man-kjscmd5.1.docbook:67
+#, no-c-format
+msgid "Application Options"
+msgstr ""
+
+#. Tag: term
+#. +> trunk5
+#: man-kjscmd5.1.docbook:71
+#, no-c-format
+msgid "<option>-e</option>,<option>--exec</option>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: man-kjscmd5.1.docbook:73
+#, no-c-format
+msgid "execute script in <parameter>file</parameter> without &GUI; support."
+msgstr ""
+
+#. Tag: term
+#. +> trunk5
+#: man-kjscmd5.1.docbook:80
+#, no-c-format
+msgid "<option>-i</option>,<option>--interactive</option>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: man-kjscmd5.1.docbook:82
+#, no-c-format
+msgid "start interactive <command>kjs</command> interpreter."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: man-kjscmd5.1.docbook:91
+#, no-c-format
+msgid "Usage"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: man-kjscmd5.1.docbook:92
+#, no-c-format
+msgid ""
+"The most common way to run <command>kjscmd5</command> is simply as <literallayout>\n"
+"<userinput><command>kjscmd5</command> <parameter>file</parameter>\n"
+"</userinput>\n"
+"</literallayout> If no parameter <parameter>file</parameter> is used, it executes a predefined test script that measures the start speed of <command>kjscmd5</command>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: man-kjscmd5.1.docbook:101
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: man-kjscmd5.1.docbook:102
+#, no-c-format
+msgid "<replaceable>kjs5</replaceable>(1)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5
+#: man-kjscmd5.1.docbook:106
+#, no-c-format
+msgid "Bugs"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: man-kjscmd5.1.docbook:107
+#, no-c-format
+msgid "Please use <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</ulink> to report bugs."
+msgstr ""

@@ -1,0 +1,197 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-07-05 12:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-kig.1.docbook:8
+#, no-c-format
+msgid "KDE User's Manual"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: man-kig.1.docbook:9
+#, no-c-format
+msgid "<personname> <firstname>Ben</firstname> <surname>Burton</surname> </personname><email>bab@debian.org</email>"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: man-kig.1.docbook:13
+#, no-c-format
+msgid "2020-12-23"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: man-kig.1.docbook:14
+#, no-c-format
+msgid "Applications 20.12"
+msgstr ""
+
+#. Tag: productname
+#. +> trunk6 stable6
+#: man-kig.1.docbook:15
+#, no-c-format
+msgid "KDE Applications"
+msgstr ""
+
+#. Tag: manvolnum
+#. +> trunk6 stable6
+#: man-kig.1.docbook:20
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk6 stable6
+#: man-kig.1.docbook:25
+#, no-c-format
+msgid "An interactive geometry program by &kde;"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#. +> trunk6 stable6
+#: man-kig.1.docbook:29
+#, no-c-format
+msgid "<command>kig</command> <group choice=\"opt\"><option>-c, --convert-to-native</option> <group choice=\"opt\"><option>-o, --outfile <replaceable>filename</replaceable></option> </group> </group> <arg choice=\"opt\">options</arg>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-kig.1.docbook:40
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:41
+#, no-c-format
+msgid "&kig; is an application for interactive geometry. It is intended to serve two purposes:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:43
+#, no-c-format
+msgid "To allow students to interactively explore mathematical figures and concepts using the computer;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:45
+#, no-c-format
+msgid "To serve as a WYSIWYG tool for drawing mathematical figures and including them in other documents."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:47
+#, no-c-format
+msgid "With this program you can do geometry on a computer just like you would on a blackboard in a classroom. However the program allows you to move and change parts of a geometrical drawing so that you can see how other parts change as a result."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:51
+#, no-c-format
+msgid "&kig; supports loci and user-defined macros. It also imports and exports both to and from foreign file formats including <application>Cabri</application>, <application>Dr. Geo</application>, &kgeo;, <application>KSeg</application> and <application>XFig</application>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:55
+#, no-c-format
+msgid "This application is part of the official &kde; edutainment module."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-kig.1.docbook:59
+#, no-c-format
+msgid "Options"
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 stable6
+#: man-kig.1.docbook:63
+#, no-c-format
+msgid "-c, --convert-to-native"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:64
+#, no-c-format
+msgid "Do not show a &GUI;. Instead convert the specified file to native &kig; format. The native &kig; file will be written to standard output unless <option>--outfile</option> is passed."
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 stable6
+#: man-kig.1.docbook:69
+#, no-c-format
+msgid "-o, --outfile <replaceable>filename</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:70
+#, no-c-format
+msgid "Used with <option>--convert-to-native</option> to specify where to save the newly created &kig; file. Not specifying this option, or providing a filename of <filename>-</filename> will output the file to standard output."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-kig.1.docbook:81
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:82
+#, no-c-format
+msgid "More detailed user documentation is available from <ulink url=\"help:/kig\">help:/kig</ulink> (either enter this &URL; into &konqueror;, or run <userinput><command>khelpcenter</command> <parameter>help:/kig</parameter></userinput>)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:88
+#, no-c-format
+msgid "There is also further information available at the <ulink url=\"https://edu.kde.org/kig/\">&kde; Education website</ulink>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-kig.1.docbook:93
+#, no-c-format
+msgid "Authors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:94
+#, no-c-format
+msgid "&kig; was written by <personname><firstname>Dominique</firstname><surname>Devriese</surname></personname> <email>devriese@kde.org</email>, <personname><firstname>Maurizio</firstname><surname>Paolini</surname></personname> <email>paolini@dmf.bs.unicatt.it</email>, <personname><firstname>Franco</firstname><surname>Pasquarelli</surname></personname> <email>pasqui@dmf.bs.unicatt.it</email>, <personname><firstname>Pino</firstname><surname>Toscano</surname></personname> <email>toscano.pino@tiscali.it</email>, <personname><firstname>David E.</firstname><surname>Narvaez</surname></personname> <email>david.narvaez@computer.org</email>, and others."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-kig.1.docbook:105
+#, no-c-format
+msgid "This man page based on the one prepared for &Debian; by <personname><firstname>Ben</firstname><surname>Burton</surname></personname> <email>bab@debian.org</email>."
+msgstr ""

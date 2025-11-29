@@ -1,0 +1,217 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-workspace package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-workspace\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-14 12:46+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. i18n: ectx: label, entry (Theme), group (Icons)
+#. +> trunk6 stable6 stable5
+#: iconssettingsbase.kcfg:9
+#, kde-format
+msgid "Name of the current icon theme"
+msgstr ""
+
+#. i18n: ectx: label, entry (desktopSize), group (DesktopIcons)
+#. +> stable5
+#: iconssettingsbase.kcfg:15
+#, kde-format
+msgid "Desktop icons size"
+msgstr ""
+
+#. i18n: ectx: label, entry (toolbarSize), group (ToolbarIcons)
+#. +> stable5
+#: iconssettingsbase.kcfg:21
+#, kde-format
+msgid "Toolbar icons size"
+msgstr ""
+
+#. i18n: ectx: label, entry (mainToolbarSize), group (MainToolbarIcons)
+#. +> stable5
+#: iconssettingsbase.kcfg:27
+#, kde-format
+msgid "Main toolbar icons size"
+msgstr ""
+
+#. i18n: ectx: label, entry (smallSize), group (SmallIcons)
+#. +> stable5
+#: iconssettingsbase.kcfg:33
+#, kde-format
+msgid "Small icons size"
+msgstr ""
+
+#. i18n: ectx: label, entry (panelSize), group (PanelIcons)
+#. +> stable5
+#: iconssettingsbase.kcfg:39
+#, kde-format
+msgid "Panel icons size"
+msgstr ""
+
+#. i18n: ectx: label, entry (dialogSize), group (DialogIcons)
+#. +> stable5
+#: iconssettingsbase.kcfg:45
+#, kde-format
+msgid "Dialog icons size"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:147
+#, kde-format
+msgid "Unable to create a temporary file."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:158
+#, kde-format
+msgid "Unable to download the icon theme archive: %1"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:172
+#, kde-format
+msgid "The file is not a valid icon theme archive."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:177
+#, kde-format
+msgid "A problem occurred during the installation process; however, most of the themes in the archive have been installed"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:181
+#, kde-format
+msgid "Theme installed successfully."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:225
+#, kde-format
+msgid "Installing icon themes…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:235
+#, kde-format
+msgid "Installing %1 theme…"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:22
+#, kde-format
+msgid "This module allows you to choose the icons for your desktop."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:67
+#, kde-format
+msgid "Install from File…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:72
+#, kde-format
+msgid "Get New…"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:251
+#, kde-format
+msgid "Get New Icons…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:188
+#, kde-format
+msgid "Remove Icon Theme"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:195
+#, kde-format
+msgid "Restore Icon Theme"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:229
+#, kde-format
+msgid "Configure Icon Sizes"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:244
+#, kde-format
+msgid "Open Theme"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:246
+#, kde-format
+msgid "Theme Files (*.tar.gz *.tar.bz2)"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:273
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Icon Sizes"
+msgstr ""
+
+#. +> stable5
+#: iconsizecategorymodel.cpp:14
+#, kde-format
+msgid "Main Toolbar"
+msgstr ""
+
+#. +> stable5
+#: iconsizecategorymodel.cpp:15
+#, kde-format
+msgid "Secondary Toolbars"
+msgstr ""
+
+#. +> stable5
+#: iconsizecategorymodel.cpp:16
+#, kde-format
+msgid "Small Icons"
+msgstr ""
+
+#. +> stable5
+#: iconsizecategorymodel.cpp:17
+#, kde-format
+msgid "Dialogs"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/IconSizePopup.qml:34
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Here you can configure the default sizes of various icon types at a system-wide level. Note that not all apps will respect these settings.<nl/>"
+"<nl/>"
+"If you find that objects on screen are generally too small or too large, consider adjusting the global scale instead."
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/IconSizePopup.qml:41
+#, kde-format
+msgid "Adjust Global Scale…"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/IconSizePopup.qml:117
+#, kde-format
+msgctxt "@label:slider"
+msgid "Size:"
+msgstr ""

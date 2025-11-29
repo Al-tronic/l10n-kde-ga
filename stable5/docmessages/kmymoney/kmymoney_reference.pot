@@ -1,0 +1,1167 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: date
+#: reference.docbook:4
+#, no-c-format
+msgid "2024-12-01"
+msgstr ""
+
+#. Tag: releaseinfo
+#: reference.docbook:5
+#, no-c-format
+msgid "5.2.0"
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:7
+#, no-c-format
+msgid "Reference"
+msgstr ""
+
+#. Tag: author
+#: reference.docbook:11
+#, no-c-format
+msgid "&Roger.Lum; &Roger.Lum.mail;"
+msgstr ""
+
+#. Tag: author
+#: reference.docbook:12
+#, no-c-format
+msgid "&Jack.H.Ostroff; &Jack.H.Ostroff.mail;"
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:14
+#, no-c-format
+msgid "Menus"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:16
+#, no-c-format
+msgid ""
+"Below is a complete list of the menu selections in &kmymoney;, with a very "
+"brief description of what each one does. Note that many of these menu "
+"choices will be unavailable, or grayed out, depending on the current display "
+"or state of the application. In addition, some may not be present if it "
+"relates to a feature not included in your particular version. For example, "
+"you are not able to edit an account unless you have an account selected or "
+"displayed in the current view."
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:25
+#, no-c-format
+msgid "File Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:28
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>N</keycap></keycombo> </shortcut> "
+"<guimenu>File</guimenu><guimenuitem>New book</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:35
+#, no-c-format
+msgid ""
+"Creates a new, empty &kmymoney; data file. Only one &kmymoney; file can be "
+"open at once, so this will close your current file first, if one is open."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:43
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>O</keycap></keycombo> </shortcut> "
+"<guimenu>File</guimenu><guimenuitem>Open</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:50
+#, no-c-format
+msgid "Opens an existing &kmymoney; data file."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:55
+#, no-c-format
+msgid ""
+"<guimenu>File</guimenu> <guimenuitem>Open Recent</"
+"guimenuitem><guimenuitem>...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:60
+#, no-c-format
+msgid "Provides quick access to recently opened files."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:65
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>Open Database...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:69
+#, no-c-format
+msgid "Opens an existing database."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:74
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>S</keycap></keycombo> </shortcut> "
+"<guimenu>File</guimenu><guimenuitem>Save</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:81
+#, no-c-format
+msgid ""
+"Saves the currently open file. Only enabled if there are any changes to save."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:90
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Shift;<keycap>S</keycap></keycombo> </shortcut> "
+"<guimenu>File</guimenu><guimenuitem>Save As...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:97
+#, no-c-format
+msgid "Saves the currently open file with a different filename."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:102
+#, no-c-format
+msgid ""
+"<guimenu>File</guimenu> <guisubmenu>Import</guisubmenu> <guimenuitem>...</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:108
+#, no-c-format
+msgid ""
+"Imports financial data from other file types, such as QIF and &gnucash;, or "
+"a template file of accounts and categories that can be used in setting up "
+"new accounts."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:117
+#, no-c-format
+msgid ""
+"<guimenu>File</guimenu> <guimenuitem>Export</guimenuitem> <guimenuitem>...</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:123
+#, no-c-format
+msgid ""
+"Exports the current file as a different file type, such as QIF, or exports a "
+"list of your accounts and categories as a template."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:131
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>P</keycap></keycombo> </shortcut> "
+"<guimenu>File</guimenu><guimenuitem>Print...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:138
+#, no-c-format
+msgid "Prints the current file."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:143
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>Backup...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:147
+#, no-c-format
+msgid "Saves a backup the current file."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:152
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>Personal Data...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:156
+#, no-c-format
+msgid "Allows to edit personal data."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:161
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>File information...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:165
+#, no-c-format
+msgid "Displays information about the currently open &kmymoney; file."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:170
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>W</keycap></keycombo> </shortcut> "
+"<guimenu>File</guimenu><guimenuitem>Close</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:177
+#, no-c-format
+msgid "Closes the currently open data file."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:182
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>Q</keycap></keycombo> </shortcut> "
+"<guimenu>File</guimenu><guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:189
+#, no-c-format
+msgid ""
+"Quits &kmymoney;. Offers to save the currently open data file, if there are "
+"any changes."
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:198
+#, no-c-format
+msgid "Edit Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:201
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>Z</keycap></keycombo> </shortcut> "
+"<guimenu>Edit</guimenu><guimenuitem>Undo</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:208
+#, no-c-format
+msgid "Reverses the most recent action."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:215
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Shift;<keycap>Z</keycap></keycombo> </shortcut> "
+"<guimenu>Edit</guimenu><guimenuitem>Redo</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:222
+#, no-c-format
+msgid "Re-applies the most recently undone action."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:229
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Shift;<keycap>F</keycap></keycombo> </shortcut> "
+"<guimenu>Edit</guimenu><guimenuitem>Find transaction...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:236
+#, no-c-format
+msgid "Searches transactions."
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:242
+#, no-c-format
+msgid "View Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:245
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>T</keycap></keycombo> </shortcut> "
+"<guimenu>View</guimenu> <guimenuitem>Show Transaction Detail</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:253
+#, no-c-format
+msgid ""
+"Shows transaction details in the <link linkend=\"details.ledgers\">Ledgers</"
+"link> View. With this option turned on, all lines of the transaction will be "
+"shown. When it is turned off, only one line will be shown."
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:259
+#, no-c-format
+msgid ""
+"If you only want to see details for the currently selected transaction, but "
+"only one line for the others, you can turn on the <link linkend=\"details."
+"settings.register.lens\">Ledger Lens</link>."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:268
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>R</keycap></keycombo> </shortcut> "
+"<guimenu>View</guimenu> <guimenuitem>Hide reconciled transactions</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:276
+#, no-c-format
+msgid "Hides reconciled transactions in the ledger."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:281
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>U</keycap></keycombo> </shortcut> "
+"<guimenu>View</guimenu> <guimenuitem>Hide unused categories</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:289
+#, no-c-format
+msgid "Hides unused categories in the views."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:294
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Shift;<keycap>A</keycap></keycombo> </shortcut> "
+"<guimenu>View</guimenu><guimenuitem>Show all accounts</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:301
+#, no-c-format
+msgid ""
+"Shows all accounts in the views, including closed accounts and accounts with "
+"zero balance."
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:310
+#, no-c-format
+msgid "Institution Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:313
+#, no-c-format
+msgid ""
+"<guimenu>Institution</guimenu> <guimenuitem>New institution...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:318
+#, no-c-format
+msgid "Add a new institution."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:323
+#, no-c-format
+msgid ""
+"<guimenu>Institution</guimenu> <guimenuitem>Edit institution...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:328
+#, no-c-format
+msgid "Edit an institution."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:333
+#, no-c-format
+msgid ""
+"<guimenu>Institution</guimenu> <guimenuitem>Delete institution...</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:338
+#, no-c-format
+msgid "Delete an institution."
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:344
+#, no-c-format
+msgid "Account Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:347
+#, no-c-format
+msgid "<guimenu>Account</guimenu> <guimenuitem>New account...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:352
+#, no-c-format
+msgid "Adds a new account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:357
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Edit account...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:361
+#, no-c-format
+msgid "Edits an account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:366
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Delete account...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:370
+#, no-c-format
+msgid "Deletes an account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:375
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Open ledger</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:379
+#, no-c-format
+msgid "Displays the Ledgers View of the selected account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:384
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Shift;<keycap>R</keycap></keycombo> </shortcut> "
+"<guimenu>Account</guimenu><guimenuitem>Reconcile...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:391
+#, no-c-format
+msgid "Reconciles an account through the reconciliation wizard."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:396
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Postpone</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:400
+#, no-c-format
+msgid "Postpones reconciliation of an account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:405
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Finish</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:409
+#, no-c-format
+msgid "Finishes reconciliation of an account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:414
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Cancel</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:418
+#, no-c-format
+msgid "Cancels reconciliation of an account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:423
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Transaction report</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:427
+#, no-c-format
+msgid "Opens a transaction report of the selected account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:432
+#, no-c-format
+msgid ""
+"<guimenu>Account</guimenu><guimenuitem>Show balance chart...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:436
+#, no-c-format
+msgid ""
+"Opens a YTD (Year to date) chart of the balance of the selected account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:441
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Close account</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:445
+#, no-c-format
+msgid "Closes an account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:450
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Reopen account</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:454
+#, no-c-format
+msgid "Reopens an account, if closed."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:459
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Unmap account...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:463
+#, no-c-format
+msgid "Unmaps an online account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:468
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Map account...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:472
+#, no-c-format
+msgid "Maps an account to an online account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:477
+#, no-c-format
+msgid "<guimenu>Account</guimenu><guimenuitem>Update account...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:481
+#, no-c-format
+msgid "Imports transactions from online banking for the selected account."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:486
+#, no-c-format
+msgid ""
+"<guimenu>Account</guimenu> <guimenuitem>Update all accounts...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:491
+#, no-c-format
+msgid "Import transactions from online banking for all mapped accounts."
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:497
+#, no-c-format
+msgid "Category Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:500
+#, no-c-format
+msgid "<guimenu>Category</guimenu><guimenuitem>New category...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:504
+#, no-c-format
+msgid "Adds a new category."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:509
+#, no-c-format
+msgid "<guimenu>Category</guimenu><guimenuitem>Edit category...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:513
+#, no-c-format
+msgid "Edits a category."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:518
+#, no-c-format
+msgid ""
+"<guimenu>Category</guimenu><guimenuitem>Delete category...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:522
+#, no-c-format
+msgid "Deletes a category."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:527
+#, no-c-format
+msgid "<guimenu>Category</guimenu><guimenuitem>Open ledger</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:531
+#, no-c-format
+msgid "Displays the Ledgers View of a category."
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:537
+#, no-c-format
+msgid "Transaction Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:540
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Ins;</keycombo> </shortcut> "
+"<guimenu>Transaction</guimenu><guimenuitem>New transaction</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:547
+#, no-c-format
+msgid "Adds a new transaction."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:552
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>E</keycap></keycombo> </shortcut> "
+"<guimenu>Transaction</guimenu><guimenuitem>Edit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:559
+#, no-c-format
+msgid "Edits a transaction."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:564
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Shift;<keycap>E</keycap></keycombo> </shortcut> "
+"<guimenu>Transaction</guimenu><guimenuitem>Edit splits</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:571
+#, no-c-format
+msgid "Edits the splits of a transaction."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:576
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Del;</keycombo> </shortcut> "
+"<guimenu>Transaction</guimenu><guimenuitem>Delete</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:583
+#, no-c-format
+msgid "Deletes a transaction."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:588
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>D</keycap></keycombo> </shortcut> "
+"<guimenu>Transaction</guimenu><guimenuitem>Duplicate</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:595
+#, no-c-format
+msgid "Duplicates a transaction."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:600
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Alt;&Shift;&Space;</keycombo> </shortcut> "
+"<guimenu>Transaction</guimenu> <guimenuitem>Mark transaction as ...</"
+"guimenuitem> <guimenuitem>Not Reconciled</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:609
+#, no-c-format
+msgid ""
+"Changes the status of the selected transaction(s) to Not Reconciled status."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:616
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Alt;&Space;</keycombo> </shortcut> "
+"<guimenu>Transaction</guimenu> <guimenuitem>Mark transaction as ...</"
+"guimenuitem> <guimenuitem>Cleared</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:625
+#, no-c-format
+msgid "Changes the status of the selected transaction(s) to Cleared."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:630
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Shift;&Space;</keycombo> </shortcut> "
+"<guimenu>Transaction</guimenu> <guimenuitem>Mark transaction as ...</"
+"guimenuitem> <guimenuitem>Reconciled</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:639
+#, no-c-format
+msgid "Changes the status of the selected transaction(s) to Reconciled."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:644
+#, no-c-format
+msgid ""
+"<guimenu>Transaction</guimenu><guimenuitem>Go to \"account\"</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:648
+#, no-c-format
+msgid "Displays the other account of a transaction in the Ledger."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:653
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Shift;<keycap>P</keycap></keycombo> </shortcut> "
+"<guimenu>Transaction</guimenu><guimenuitem>Go to payee</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:660
+#, no-c-format
+msgid ""
+"Displays the Payees View and focuses on the payee of the selected "
+"transaction."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:667
+#, no-c-format
+msgid ""
+"<guimenu>Transaction</guimenu> <guimenuitem>Create scheduled transaction...</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:672
+#, no-c-format
+msgid ""
+"Creates a new scheduled transaction using the details of the selected "
+"transaction."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:680
+#, no-c-format
+msgid "<guimenu>Transaction</guimenu><guimenuitem>Match</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:684
+#, no-c-format
+msgid ""
+"Matches two transactions. This is most commonly used to match an imported "
+"and a manually entered transaction, but other combinations also work."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:692
+#, no-c-format
+msgid "<guimenu>Transaction</guimenu><guimenuitem>Unmatch</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:696
+#, no-c-format
+msgid ""
+"Unmatches a transaction that &kmymoney; has proposed as a match of imported "
+"transactions. Note that this menu choice is only present if a matched "
+"transaction exists and is selected."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:705
+#, no-c-format
+msgid "<guimenu>Transaction</guimenu><guimenuitem>Accept</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:709
+#, no-c-format
+msgid "Accepts a proposed merge of two transactions."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:714
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;<keycap>A</keycap></keycombo> </shortcut> "
+"<guimenu>Transaction</guimenu><guimenuitem>Select all</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:721
+#, no-c-format
+msgid "Selects all transactions in the ledger."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:726
+#, no-c-format
+msgid "<guimenu>Transaction</guimenu><guimenuitem>Print check</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:730
+#, no-c-format
+msgid ""
+"Prints the contents of the selected transaction in the displayed ledger, "
+"formatted according to the selected template. See the section on configuring "
+"the <link linkend=\"details.settings.plugins\">Print check</link> plugin for "
+"more information."
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:741
+#, no-c-format
+msgid "Tools Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:744
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Currencies...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:748
+#, no-c-format
+msgid "Lists the currencies known to &kmymoney;."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:753
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Prices...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:757
+#, no-c-format
+msgid "Lists stock and currency prices."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:762
+#, no-c-format
+msgid ""
+"<guimenu>Tools</guimenu> <guimenuitem>Update Stock and Currency Prices...</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:767
+#, no-c-format
+msgid ""
+"Updates stock and currency prices from online sources using the <link "
+"linkend=\"details.investments.onlinequotes\">Online Price Quotes</link> "
+"feature."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:776
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Consistency Check</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:780
+#, no-c-format
+msgid ""
+"Runs a check on your file, fixes any problems it can, and displays a report "
+"of the results."
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:784
+#, no-c-format
+msgid "Make a backup of your file before running this option."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:789
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Performance-Test</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:793
+#, no-c-format
+msgid "Runs a performance test on your file and displays the results."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:798
+#, no-c-format
+msgid ""
+"<guimenu>Tools</guimenu><guimenuitem>Generate Database SQL</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:802
+#, no-c-format
+msgid "Generates the SQL necessary to create a database."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:807
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Debug timers</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:811
+#, no-c-format
+msgid "This is a tool for developers."
+msgstr ""
+
+#. Tag: title
+#: reference.docbook:817
+#, no-c-format
+msgid "Settings and Help Menus"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:818
+#, no-c-format
+msgid ""
+"The Settings and Help menus of &kmymoney; are based on those described in "
+"<ulink url=\"help:/fundamentals/menus.html\">&kde; Fundamentals</ulink> with "
+"some additional items."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:826
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu><guimenuitem>Enable all messages</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:830
+#, no-c-format
+msgid ""
+"Re-enables any messages you may have turned off by checking "
+"<guimenuitem>Don't tell me about this again</guimenuitem> in a dialog box."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:837
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu><guimenuitem>Configure Language...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:841
+#, no-c-format
+msgid ""
+"By default, the language used by &kmymoney; depends on the system wide "
+"settings for location or locale. This allows you to change that language, "
+"and to set a fallback language, which is used for text which has not been "
+"translated into the primary language."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:851
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Alt;<keycap>,</keycap></keycombo> </shortcut> "
+"<guimenu>Settings</guimenu><guimenuitem>Configure Keyboard Shortcuts...</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:858
+#, no-c-format
+msgid "Allows you to add or modify keyboard shortcuts for various actions."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:867
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu><guimenuitem>Configure Aqbanking</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:871
+#, no-c-format
+msgid ""
+"Configure online banking settings, but only if the KBanking module is "
+"enabled. More information may be found in the section on configuring the "
+"<link linkend=\"details.settings.plugins.kbanking\">KBanking plugin</link> "
+"as well as in the <ulink url=\"https://www.gnucash.org/docs/v5/C/gnucash-"
+"manual/tools-on-line-banking.html#tool-aqb-modules\">&gnucash; "
+"documentation</ulink>."
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:879
+#, no-c-format
+msgid ""
+"The process of setting up online access in AqBanking is described in <ulink "
+"url=\"https://wiki.gnucash.org/wiki/De/Onlinebanking-Einrichtungsassistent"
+"\">the &gnucash; wiki (German only)</ulink>. This menu entry brings you to "
+"the dialog shown in step #3. The process until step #18 is the same for "
+"KMyMoney. Once done, you can map the account in &kmymoney; using "
+"<guimenu>Account</guimenu> <guisubmenu>Map account</guisubmenu> and select "
+"the account from the list provided. From there, simply use <guimenu>Account</"
+"guimenu> <guisubmenu>Update account</guisubmenu>, or in case you have more "
+"than one online account mapped <guimenu>Account</guimenu> <guisubmenu>Update "
+"all accounts</guisubmenu>."
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:892
+#, no-c-format
+msgid ""
+"See <ulink url=\"https://userbase.kde.org/KMyMoney/"
+"FAQ#How_do_I_configure_online_banking_.3F\">How do I configure online "
+"banking</ulink> for further details."
+msgstr ""
+
+#. Tag: menuchoice
+#: reference.docbook:901
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo>&Ctrl;&Alt;<keycap>I</keycap></keycombo> </shortcut> "
+"<guimenu>Help</guimenu><guimenuitem>Find Action...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: reference.docbook:908
+#, no-c-format
+msgid ""
+"Displays the names and shortcuts of all actions in &kmymoney;. Clicking on "
+"one will invoke that action, if it is currently enabled."
+msgstr ""
+
+#. Tag: chapter
+#: reference.docbook:916
+#, no-c-format
+msgid "&details-widgets;"
+msgstr ""

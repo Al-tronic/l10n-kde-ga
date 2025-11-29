@@ -1,0 +1,259 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: json files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Modules/about-distro/src/kcm_about-distro.json
+msgctxt "X-KDE-Keywords"
+msgid "about,info,information,distribution,distro,system,kernel,qt,kde,version"
+msgstr ""
+
+#: Modules/cpu/kcm_cpu.json
+msgctxt "X-KDE-Keywords"
+msgid "cpu,amd,intel,arm,instructions,cores,architecture,byte order"
+msgstr ""
+
+#: Modules/devinfo/devinfo.json
+msgctxt "X-KDE-Keywords"
+msgid "device,devices,disk,drive,processor,cpu"
+msgstr ""
+
+#: Modules/egl/kcm_egl.json
+msgctxt "X-KDE-Keywords"
+msgid "OpenGL,DRI,3D,VideoCard,Hardware Acceleration,Graphics,EGL"
+msgstr ""
+
+#: Modules/energy/kcm_energyinfo.json
+msgctxt "X-KDE-Keywords"
+msgid "Battery,Energy,Statistics,History,Power"
+msgstr ""
+
+#: Modules/firmware_security/kcm_firmware_security.json
+msgctxt "X-KDE-Keywords"
+msgid "firmware,security,hsi,secureboot,fwupd,bootguard,lockdown"
+msgstr ""
+
+#: Modules/glx/kcm_glx.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
+"Server,XFree86,Display"
+msgstr ""
+
+#: Modules/interrupts/kcm_interrupts.json
+msgctxt "X-KDE-Keywords"
+msgid "Interrupts,IRQ,System Information"
+msgstr ""
+
+#: Modules/opencl/kcm_opencl.json
+msgctxt "X-KDE-Keywords"
+msgid "OpenCL,VideoCard,Hardware Acceleration,Graphics"
+msgstr ""
+
+#: Modules/pci/kcm_pci.json.cmake
+msgctxt "X-KDE-Keywords"
+msgid "PCI,PCI-Devices,PCI-Bus,System Information"
+msgstr ""
+
+#: Modules/samba/smbstatus.json
+msgctxt "X-KDE-Keywords"
+msgid "SMB,SAMBA,Windows network,LAN,System Information"
+msgstr ""
+
+#: Modules/usbview/kcmusb.json
+msgctxt "X-KDE-Keywords"
+msgid "USB,devices,viewer,control"
+msgstr ""
+
+#: Modules/vulkan/kcm_vulkan.json
+msgctxt "X-KDE-Keywords"
+msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics"
+msgstr ""
+
+#: Modules/wayland/kcm_wayland.json
+msgctxt "X-KDE-Keywords"
+msgid "Wayland,Compositor,Display,System Information"
+msgstr ""
+
+#: Modules/xserver/kcm_xserver.json
+msgctxt "X-KDE-Keywords"
+msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
+msgstr ""
+
+#: Modules/about-distro/src/kcm_about-distro.json
+msgctxt "Name"
+msgid "About this System"
+msgstr ""
+
+#: Modules/cpu/kcm_cpu.json
+msgctxt "Name"
+msgid "CPU"
+msgstr ""
+
+#: Modules/devinfo/devinfo.json
+msgctxt "Name"
+msgid "Device Viewer"
+msgstr ""
+
+#: Modules/egl/kcm_egl.json
+msgctxt "Name"
+msgid "OpenGL (EGL)"
+msgstr ""
+
+#: Modules/energy/kcm_energyinfo.json
+msgctxt "Name"
+msgid "Energy"
+msgstr ""
+
+#: Modules/firmware_security/kcm_firmware_security.json
+msgctxt "Name"
+msgid "Firmware Security"
+msgstr ""
+
+#: Modules/glx/kcm_glx.json
+msgctxt "Name"
+msgid "OpenGL (GLX)"
+msgstr ""
+
+#: Modules/interrupts/kcm_interrupts.json
+msgctxt "Name"
+msgid "Interrupts"
+msgstr ""
+
+#: Modules/kwinsupportinfo/kcm_kwinsupportinfo.json.in
+msgctxt "Name"
+msgid "Window Manager"
+msgstr ""
+
+#: Modules/nics/kcm_nic.json
+msgctxt "Name"
+msgid "Network Interfaces"
+msgstr ""
+
+#: Modules/opencl/kcm_opencl.json
+msgctxt "Name"
+msgid "OpenCL"
+msgstr ""
+
+#: Modules/pci/kcm_pci.json.cmake
+msgctxt "Name"
+msgid "PCI"
+msgstr ""
+
+#: Modules/samba/smbstatus.json
+msgctxt "Name"
+msgid "Samba Status"
+msgstr ""
+
+#: Modules/usbview/kcmusb.json
+msgctxt "Name"
+msgid "USB Devices"
+msgstr ""
+
+#: Modules/vulkan/kcm_vulkan.json
+msgctxt "Name"
+msgid "Vulkan"
+msgstr ""
+
+#: Modules/wayland/kcm_wayland.json
+msgctxt "Name"
+msgid "Wayland"
+msgstr ""
+
+#: Modules/xserver/kcm_xserver.json
+msgctxt "Name"
+msgid "X-Server"
+msgstr ""
+
+#: Modules/about-distro/src/kcm_about-distro.json
+msgctxt "Description"
+msgid "Information About This System"
+msgstr ""
+
+#: Modules/cpu/kcm_cpu.json
+msgctxt "Description"
+msgid "Advanced CPU Information"
+msgstr ""
+
+#: Modules/devinfo/devinfo.json
+msgctxt "Description"
+msgid "Device Viewer"
+msgstr ""
+
+#: Modules/egl/kcm_egl.json
+msgctxt "Description"
+msgid "EGL information"
+msgstr ""
+
+#: Modules/energy/kcm_energyinfo.json
+msgctxt "Description"
+msgid "Energy Consumption Statistics"
+msgstr ""
+
+#: Modules/firmware_security/kcm_firmware_security.json
+msgctxt "Description"
+msgid "Firmware Security Information"
+msgstr ""
+
+#: Modules/glx/kcm_glx.json
+msgctxt "Description"
+msgid "GLX information"
+msgstr ""
+
+#: Modules/interrupts/kcm_interrupts.json
+msgctxt "Description"
+msgid "Interrupt information"
+msgstr ""
+
+#: Modules/kwinsupportinfo/kcm_kwinsupportinfo.json.in
+msgctxt "Description"
+msgid "KWin Support information"
+msgstr ""
+
+#: Modules/nics/kcm_nic.json
+msgctxt "Description"
+msgid "Network interface information"
+msgstr ""
+
+#: Modules/opencl/kcm_opencl.json
+msgctxt "Description"
+msgid "OpenCL API information"
+msgstr ""
+
+#: Modules/pci/kcm_pci.json.cmake
+msgctxt "Description"
+msgid "PCI information"
+msgstr ""
+
+#: Modules/samba/smbstatus.json
+msgctxt "Description"
+msgid "Samba status monitor"
+msgstr ""
+
+#: Modules/usbview/kcmusb.json
+msgctxt "Description"
+msgid "USB devices attached to this computer"
+msgstr ""
+
+#: Modules/vulkan/kcm_vulkan.json
+msgctxt "Description"
+msgid "Vulkan graphics API information"
+msgstr ""
+
+#: Modules/wayland/kcm_wayland.json
+msgctxt "Description"
+msgid "Information about the Wayland Compositor"
+msgstr ""
+
+#: Modules/xserver/kcm_xserver.json
+msgctxt "Description"
+msgid "X-Server information"
+msgstr ""

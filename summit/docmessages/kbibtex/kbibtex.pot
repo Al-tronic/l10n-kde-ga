@@ -1,0 +1,2456 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-12-27 09:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:17
+#, no-c-format
+msgid "The &kbibtex; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk5 stable5
+#: index.docbook:20
+#, no-c-format
+msgid "<firstname>Yuri</firstname><surname>Chornoivan</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk5 stable5
+#: index.docbook:23
+#, no-c-format
+msgid "yurchor@ukr.net"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk5 stable5
+#: index.docbook:27
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk5 stable5
+#: index.docbook:32
+#, no-c-format
+msgid "Thomas Fischer"
+msgstr ""
+
+#. Tag: date
+#. +> trunk5 stable5
+#: index.docbook:35
+#, no-c-format
+msgid "2019-05-07"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk5 stable5
+#: index.docbook:36
+#, no-c-format
+msgid "<releaseinfo>0.9</releaseinfo>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:43
+#, no-c-format
+msgid "&kbibtex; is a graphical &bibtex; editor and shell."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk5 stable5
+#: index.docbook:49
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk5 stable5
+#: index.docbook:50
+#, no-c-format
+msgid "kbibtex"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk5 stable5
+#: index.docbook:51
+#, no-c-format
+msgid "LaTeX"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk5 stable5
+#: index.docbook:52
+#, no-c-format
+msgid "<keyword>TeX</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk5 stable5
+#: index.docbook:53
+#, no-c-format
+msgid "bibliography"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:59
+#, no-c-format
+msgid "Preface"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:61
+#, no-c-format
+msgid "Requirements"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:62
+#, no-c-format
+msgid "To run &kbibtex;, you need to have the following components installed on your system:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:67
+#, no-c-format
+msgid "<ulink url=\"https://www.kde.org/\">&kf5-full; libraries</ulink>."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:67
+#, no-c-format
+msgid "<ulink url=\"http://www.kde.org/\">&kf5-full; libraries</ulink>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:72
+#, no-c-format
+msgid "<ulink url=\"https://www.ctan.org/\">&latex;</ulink>: high-quality document typesetting program. Most likely you want the &texlive; (or on older systems the &tetex;) package, if you are on a Unix-like system. It is an optional dependency, but without it &kbibtex; provides very limited functionality."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:72
+#, no-c-format
+msgid "<ulink url=\"http://www.ctan.org/\">&latex;</ulink>: high-quality document typesetting program. Most likely you want the &texlive; (or on older systems the &tetex;) package, if you are on a Unix-like system. It is an optional dependency, but without it &kbibtex; provides very limited functionality."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:77
+#, no-c-format
+msgid "<ulink url=\"https://www.lri.fr/~filliatr/bibtex2html/\">bibtex2html</ulink> collection of tools for translating from &bibtex; to &HTML; to enhance &kbibtex; entry previewing capabilities (optional dependency)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:82
+#, no-c-format
+msgid "Most of these items as well as &kbibtex; itself might be included in your &Linux; distribution; please refer to your distribution documentation, or refer to your installation &CD; or DVD, for adding these packages to your computer."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:87
+#, no-c-format
+msgid "Intended Audience"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:90
+#, no-c-format
+msgid "This manual is intended for any individual, regardless of her or his experience with &latex;, &kde;, &kbibtex; or &Linux;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:93
+#, no-c-format
+msgid "Advanced users are not likely to read this manual, but all suggestions on documentation will be considered. If you would like to contribute to this project or the documentation, please consult the <ulink url=\"https://userbase.kde.org/KBibTeX\">&kbibtex; web page</ulink>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:101
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:105
+#, no-c-format
+msgid "About &kbibtex;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:108
+#, no-c-format
+msgid "&kbibtex; is an integrated environment for creating and editing bibliographies in &bibtex; format. &kbibtex; gives you the ability to use all the functionalities of &bibtex; in a graphical interface, giving you easy, immediate, and customized access to local and online bibliographies with ability of entries completing, compiling, previewing and searching."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:112
+#, no-c-format
+msgid "About &bibtex;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:113
+#, no-c-format
+msgid "&bibtex; is a program and file format designed by Oren Patashnik and Leslie Lamport in 1985 for the &latex; document preparation system <citation>Lamport86</citation>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:116
+#, no-c-format
+msgid "The format is entirely character based, so it can be used by any program (although the standard character set for accents is &tex;). It is field (tag) based and the &bibtex; program will ignore unknown fields, so it is expandable. It is probably the most common format for bibliographies on the Internet."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:119
+#, no-c-format
+msgid "The &bibtex; program uses style files, a list of citations from &latex;, and a &bibtex; database to create a &latex; file listing the cited references. The idea of style files is that final copy in any journal-specific form can be done automatically."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:122
+#, no-c-format
+msgid "An example of &bibtex; database entry:"
+msgstr ""
+
+#. Tag: programlisting
+#. +> trunk5
+#: index.docbook:125
+#, no-c-format
+msgid ""
+"@article{PAM_doi:10.1007/BF00048294,\n"
+"        author = {Streitenberger, P. and Knott, John F.},\n"
+"        doi = {10.1007/BF00048294},\n"
+"        issn = {1573-2673},\n"
+"        journal = {{International Journal of Fracture}},\n"
+"        number = {3},\n"
+"        pages = {R49},\n"
+"        publisher = {Springer},\n"
+"        title = {{The calculation of crack opening area and crack opening volume from stress intensity factors}},\n"
+"        url = {https://dx.doi.org/10.1007/BF00048294},\n"
+"        volume = {76},\n"
+"        x-fetchedfrom = {SpringerLink},\n"
+"        year = {1995}\n"
+"}"
+msgstr ""
+
+#. Tag: programlisting
+#. +> stable5
+#: index.docbook:125
+#, no-c-format
+msgid ""
+"@article{PAM_doi:10.1007/BF00048294,\n"
+"        author = {Streitenberger, P. and Knott, John F.},\n"
+"        doi = {10.1007/BF00048294},\n"
+"        issn = {1573-2673},\n"
+"        journal = {{International Journal of Fracture}},\n"
+"        number = {3},\n"
+"        pages = {R49},\n"
+"        publisher = {Springer},\n"
+"        title = {{The calculation of crack opening area and crack opening volume from stress intensity factors}},\n"
+"        url = {http://dx.doi.org/10.1007/BF00048294},\n"
+"        volume = {76},\n"
+"        x-fetchedfrom = {SpringerLink},\n"
+"        year = {1995}\n"
+"}"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:128
+#, no-c-format
+msgid "&kbibtex; and &latex; Editors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:129
+#, no-c-format
+msgid "&latex; code can be edited with a wide variety of tools from simple minimalistic text editors to powerful visual suites. For the comparison of &latex; editors, see <ulink url=\"https://en.wikipedia.org/wiki/Comparison_of_TeX_editors\">this page</ulink>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:132
+#, no-c-format
+msgid "&kbibtex; provides out-of-box <link linkend=\"integration\">integration with &kile; and &lyx;</link> though it can be successfully used with any kind of &latex; editor."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:138
+#, no-c-format
+msgid "&kbibtex;'s Main Features"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:141
+#, no-c-format
+msgid "&kbibtex; allows you to do the following things:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:146
+#, no-c-format
+msgid "Enter a preamble that defines how special text should be formatted in your bibliography using <menuchoice><guimenu>Element</guimenu><guisubmenu>New element</guisubmenu><guimenuitem>New preamble</guimenuitem></menuchoice> menu item or <link linkend=\"main-toolbar\">Main Toolbar</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:151
+#, no-c-format
+msgid "Choose an entry encoding using <guilabel>Encoding</guilabel> item in <guilabel>Save as</guilabel> dialog or on the <link linkend=\"file-settings\">File Settings panel</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:156
+#, no-c-format
+msgid "Enter comments that are not taken in regard by &bibtex; using <menuchoice><guimenu>Element</guimenu><guisubmenu>New element</guisubmenu><guimenuitem>New comment</guimenuitem></menuchoice> menu item or <link linkend=\"main-toolbar\">Main Toolbar</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:161
+#, no-c-format
+msgid "Preview and save bibliography entries in various formats (Source (&bibtex;), Source (RIS), Wikipedia, standard (&XML;/XSLT), fancy (&XML;/XSLT), and abstract-only (&XML;/XSLT)) using <link linkend=\"reference-preview\">Reference Preview panel</link>. Additional preview styles become available when <application>bibtex2html</application> is installed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:166
+#, no-c-format
+msgid "Search for the bibliography entries data in online databases using <link linkend=\"online-search\">Online Search panel</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:171
+#, no-c-format
+msgid "View local or remote (online) resources (such as files) <link linkend=\"adding-link\">linked</link> in the &bibtex; entry using <link linkend=\"document-preview\">Document Preview panel</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:176
+#, no-c-format
+msgid "Find and fix duplicate entries in bibliography using <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find Duplicates</guimenuitem></menuchoice> menu item or <link linkend=\"main-toolbar\">Main Toolbar</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:181
+#, no-c-format
+msgid "Import your <ulink url=\"https://www.zotero.org/\">Zotero</ulink> library using <link linkend=\"zotero\">Zotero panel</link>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:190
+#, no-c-format
+msgid "Quickstart"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:194
+#, no-c-format
+msgid "Writing a Bibliography File for Beginners"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:206
+#, no-c-format
+msgid "After the first run, &kbibtex; will propose to make it the default editor for bibliography formats. We recommend you to do so."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:207
+#, no-c-format
+msgid "If for some reasons you will decide to reconsider please remove the strings with <literal>kbibtex</literal> substring from <filename>mimeapps.list</filename> file in <filename role=\"directory\">.local/share/applications</filename> folder of your home folder."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:209
+#, no-c-format
+msgid "Then you will see a window that looks similar to this:"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:213
+#, no-c-format
+msgid "<screeninfo>&kbibtex; window after the first start</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:219
+#, no-c-format
+msgid "<phrase>&kbibtex; window after the first start</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:223
+#, no-c-format
+msgid "To start a new bibliography document press the <guibutton>New</guibutton> button on the right panel, the <guibutton>New</guibutton> button on the toolbar or choose the <menuchoice><shortcut><keycombo>&Ctrl;<keycap>N</keycap></keycombo></shortcut><guimenu>File</guimenu><guimenuitem>New</guimenuitem></menuchoice> menu item."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:226
+#, no-c-format
+msgid "Now it is time to add some entries."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:229
+#, no-c-format
+msgid "Users of &kbibtex; have two choices when adding a new entry: they can use the <link linkend=\"online-search\">Online Search panel</link> to find entry data online or they can write the code by hand."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:232
+#, no-c-format
+msgid "Let's try to add a book entry manually."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:237
+#, no-c-format
+msgid "Choose <menuchoice><guimenu>Element</guimenu><guisubmenu>New element</guisubmenu><guimenuitem>New entry</guimenuitem></menuchoice> from the &kbibtex; menu. &kbibtex; should open <guilabel>Edit Element</guilabel> window."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:241
+#, no-c-format
+msgid "<screeninfo>&kbibtex; element's editing window</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:247
+#, no-c-format
+msgid "<phrase>&kbibtex; element's editing window</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:253
+#, no-c-format
+msgid "Choose <guimenuitem>Book</guimenuitem> from the <guilabel>Type:</guilabel> drop down list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:258
+#, no-c-format
+msgid "Enter <userinput>Lamport86</userinput> into the <guilabel>Id:</guilabel> field."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:262
+#, no-c-format
+msgid "The <quote>Id</quote> is used for referencing the bibliography entry in your main document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:268
+#, no-c-format
+msgid "Go to the <guilabel>Title</guilabel> tab and enter <userinput>LaTeX: A Document Preparation System</userinput> into the <guilabel>Title:</guilabel> text box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:273
+#, no-c-format
+msgid "Go to the <guilabel>Author/Editor</guilabel> tab, click on <guibutton>Add</guibutton> button and enter <userinput>Lamport, Leslie</userinput>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:278
+#, no-c-format
+msgid "Go to the <guilabel>Publication</guilabel> tab then enter <userinput>1986</userinput> into the <guilabel>Year:</guilabel> text box and <userinput>Addison-Wesley</userinput> into the <guilabel>Publisher:</guilabel> text box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:283
+#, no-c-format
+msgid "Click <guibutton>OK</guibutton>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:288
+#, no-c-format
+msgid "Choose <menuchoice><shortcut><keycombo>&Ctrl;<keycap>S</keycap></keycombo></shortcut><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></menuchoice> menu item and save your bibliography file as <filename>example.bib</filename> in your to-be-written paper folder."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:296
+#, no-c-format
+msgid "Using the bibliography in your &latex; document"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:299
+#, no-c-format
+msgid "To actually use the bibliography in your paper, you need to add the following commands in your &latex; file (these commands are usually can be found at the end of the document - where the <quote>References</quote> section to appear):"
+msgstr ""
+
+#. Tag: programlisting
+#. +> trunk5 stable5
+#: index.docbook:302
+#, no-c-format
+msgid ""
+"\\bibliography{<replaceable>foo</replaceable>}\n"
+"\\bibliographystyle{plain}"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:303
+#, no-c-format
+msgid "Here, <replaceable>foo</replaceable> is the name of your <filename role=\"extension\">bib</filename> file created with &kbibtex; and <quote><literal>plain</literal></quote> is the name of bibliography style."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:303
+#, no-c-format
+msgid "Here, <replaceable>foo</replaceable> is the name of your <filename role=\"extension\">bib</filename> file created with &kbibtex; and <quote>plain</quote> is the name of bibliography style."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:306
+#, no-c-format
+msgid "There is a plenty of specific bibliography styles. Please consult your publisher for the one to choose or try and find the one that suits the best for your purposes."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:309
+#, no-c-format
+msgid "Below is a list of some generic styles available everywhere:"
+msgstr ""
+
+#. Tag: literal
+#. +> trunk5 stable5
+#: index.docbook:315
+#, no-c-format
+msgid "plain"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:318
+#, no-c-format
+msgid "normal style, listed in alphabetic order and labeled numerically"
+msgstr ""
+
+#. Tag: literal
+#. +> trunk5 stable5
+#: index.docbook:325
+#, no-c-format
+msgid "unsrt"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:328
+#, no-c-format
+msgid "same as <literal>plain</literal> except entries appear in order of citation"
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:328
+#, no-c-format
+msgid "same as plain except entries appear in order of citation"
+msgstr ""
+
+#. Tag: literal
+#. +> trunk5 stable5
+#: index.docbook:335
+#, no-c-format
+msgid "alpha"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:338
+#, no-c-format
+msgid "same as <literal>plain</literal> except entry identifiers are used"
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:338
+#, no-c-format
+msgid "same as plain except entry identifiers are used"
+msgstr ""
+
+#. Tag: literal
+#. +> trunk5 stable5
+#: index.docbook:345
+#, no-c-format
+msgid "abbrv"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:348
+#, no-c-format
+msgid "same as <literal>plain</literal> except uses abbreviations for first names, month names, and journal names"
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:348
+#, no-c-format
+msgid "same as plain except uses abbreviations for first names, month names, and journal names"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:354
+#, no-c-format
+msgid "So you can use your &latex; editor's capabilities (please consult the editor documentation for this) or just enter the following code in a generic text editor then save the file with <filename role=\"extension\">tex</filename> name extension."
+msgstr ""
+
+#. Tag: programlisting
+#. +> trunk5 stable5
+#: index.docbook:357
+#, no-c-format
+msgid ""
+"\\documentclass{article}\n"
+" \\begin{document}\n"
+" \\bibliographystyle{plain}% Choose a bibliographic style\n"
+" Test file with a reference (see~\\cite{Lamport86}).\n"
+" \\bibliography{example}\n"
+" \\end{document}"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:358
+#, no-c-format
+msgid "For our testing purposes, let this file be named <userinput>example.tex</userinput>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:362
+#, no-c-format
+msgid "Please save this file to the same folder as your <filename>example.bib</filename>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:366
+#, no-c-format
+msgid "Now that you have the basis for a document, you have to run both <application>latex</application> and <application>bibtex</application> to process it."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:369
+#, no-c-format
+msgid "First, you should run <application>latex</application> (to create a <filename>foo.aux</filename> file, which <application>bibtex</application> reads). Then run <application>bibtex</application> once to get some of the citations and create a <filename role=\"extension\">bbl</filename> file. Then run <application>latex</application> again so that the cross references between the text file and the bibliography are correct. You may want to repeat running <application>bibtex</application> and <application>latex</application> on the file to make sure that all cross references are correct. Be warned that adding/deleting citations and sources will require running <application>bibtex</application> again."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:369
+#, no-c-format
+msgid "First, you should run <application>latex</application> (to create a foo.aux file, which <application>bibtex</application> reads). Then run <application>bibtex</application> once to get some of the citations and create a <filename role=\"extension\">bbl</filename> file. Then run <application>latex</application> again so that the cross references between the text file and the bibliography are correct. You may want to repeat running <application>bibtex</application> and <application>latex</application> on the file to make sure that all cross references are correct. Be warned that adding/deleting citations and sources will require running <application>bibtex</application> again."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:372
+#, no-c-format
+msgid "Thus, the following commands can be used to compile the document from console:"
+msgstr ""
+
+#. Tag: screen
+#. +> trunk5 stable5
+#: index.docbook:375
+#, no-c-format
+msgid ""
+"latex example\n"
+"bibtex example\n"
+"latex example\n"
+"latex example"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:377
+#, no-c-format
+msgid "If you are using some advanced &latex; shell like &kile; or &lyx;, there is no need to worry about running all these commands from console emulator. Just use a hot key (<keycombo>&Alt;<keycap>6</keycap></keycombo> in &kile;) or a toolbar button to see the results."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:381
+#, no-c-format
+msgid "Now, you can see the results as a &DVI; or &PDF; file (the format depends on your configuration), stored in the same folder as your source files."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:385
+#, no-c-format
+msgid "Congratulations! You have just created your first document with &bibtex; bibliography."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:393
+#, no-c-format
+msgid "&kbibtex; Interface"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:397
+#, no-c-format
+msgid "&kbibtex;'s Panels"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:400
+#, no-c-format
+msgid "The main functionality of &kbibtex; is available through its nine panels. It is possible to rearrange these panels or even detach them from the main window by clicking with &LMB; on the panel's header and dragging it to the new place."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:403
+#, no-c-format
+msgid "You can make the &kbibtex; panels visible or hide them using the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Show Panels</guimenuitem></menuchoice> submenu. It is enough to check the panel's item to make it visible or uncheck it to hide the panel."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:407
+#, no-c-format
+msgid "List of Documents Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:410
+#, no-c-format
+msgid "The <guilabel>List of Documents</guilabel> panel allows to switch between the opened bibliography documents (<guilabel>Open Files</guilabel> tab), open recently used documents (<guilabel>Recently Used</guilabel> tab), open your main bibliography documents (<guilabel>Favorites</guilabel> tab), or browse your computer file system to find bibliography documents (<guilabel>Filesystem Browser</guilabel> tab)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:414
+#, no-c-format
+msgid "To add a bibliography file to favorites select it on any tab except <guilabel>Favorites</guilabel>, click with &RMB; and choose <guimenuitem>Add to Favorites</guimenuitem>. To remove the bibliography from favorites select it on <guilabel>Favorites</guilabel> tab, click with &RMB; and choose <guimenuitem>Remove from Favorites</guimenuitem>."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:420
+#, no-c-format
+msgid "<screeninfo>List of documents panel</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:426
+#, no-c-format
+msgid "<phrase>List of documents panel</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:433
+#, no-c-format
+msgid "List of Values Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:436
+#, no-c-format
+msgid "The <guilabel>List of Values</guilabel> panel can be used to easy up viewing statistics on usage of values in the entries fields and batch editing of these values."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:439
+#, no-c-format
+msgid "The upper drop down box is used to choose the bibliography field to display statistic data (a count of entries with the same value for the field) on the lower list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:442
+#, no-c-format
+msgid "You can click with &RMB; on an entry in the lower list to access the batch editing capabilities. It is possible to <guimenuitem>Replace all occurrences</guimenuitem> of the value, <guimenuitem>Delete all occurrences</guimenuitem> of the value, <guimenuitem>Search for selected values</guimenuitem> using the <link linkend=\"filter-toolbar\">Filter Toolbar</link>, <guimenuitem>Add value to selected entries</guimenuitem>, <guimenuitem>Replace value of selected entries</guimenuitem> or <guimenuitem>Remove value from selected entries</guimenuitem> (some entries should be selected in the main entry list first)."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:447
+#, no-c-format
+msgid "<screeninfo>List of values panel</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:453
+#, no-c-format
+msgid "<phrase>List of values panel</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:460
+#, no-c-format
+msgid "Statistics Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:463
+#, no-c-format
+msgid "The <guilabel>Statistics</guilabel> panel is designed to display a comprehensive list of statistical information about the current bibliography document."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:468
+#, no-c-format
+msgid "<screeninfo>Statistics panel</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:474
+#, no-c-format
+msgid "<phrase>Statistics panel</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:481
+#, no-c-format
+msgid "Reference Preview Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:484
+#, no-c-format
+msgid "The <guilabel>Reference Preview</guilabel> panel is used to preview and save in &HTML; format the currently selected bibliography entry."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:489
+#, no-c-format
+msgid "<screeninfo>Reference preview panel</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:495
+#, no-c-format
+msgid "<phrase>Reference preview panel</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:500
+#, no-c-format
+msgid "It is possible to preview the reference as Source (&bibtex;), Source (RIS), Wikipedia, standard (&XML;/XSLT), fancy (&XML;/XSLT), and abstract-only (&XML;/XSLT) formats. Additional options become available when <application>bibtex2html</application> is installed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:504
+#, no-c-format
+msgid "When you click on the elements of the reference in &XML;-based format &kbibtex; will apply the corresponding <link linkend=\"filter-toolbar\">filtering</link> to the bibliography list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:508
+#, no-c-format
+msgid "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"document-open.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Open</guibutton> button to open the reference in the default Internet browser. The <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"document-save.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Save as &HTML;</guibutton> button can be used to save the reference in &HTML; for further use on your website."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:523
+#, no-c-format
+msgid "You can click with &RMB; on the panel to select <guimenuitem>Reload</guimenuitem> to update the reference according to the latest changes in the entry."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:528
+#, no-c-format
+msgid "File Settings Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:531
+#, no-c-format
+msgid "The <guilabel>File Settings</guilabel> panel can be used to define some parameters of the <filename role=\"extension\">bib</filename> file of the current bibliography."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:536
+#, no-c-format
+msgid "<screeninfo>File settings panel</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:542
+#, no-c-format
+msgid "<phrase>File settings panel</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:547
+#, no-c-format
+msgid "It is possible to select <guilabel>Encoding</guilabel>, <guilabel>String Delimiters</guilabel>, <guilabel>Comment Quoting</guilabel>, <guilabel>Keyword Casing</guilabel>, and <guilabel>Person Names Formatting</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:550
+#, no-c-format
+msgid "By default &bibtex; will lowercase all intermediate words in sentences. Check <guilabel>Protect Titles</guilabel> check box to protect the case in the entry titles."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:555
+#, no-c-format
+msgid "Online Search Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:558
+#, no-c-format
+msgid "The <guilabel>Online Search</guilabel> panel can be used to perform a search in the Internet bibliography databases to find the needed entries or to obtain the complete set of data for a manually entered entry."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:563
+#, no-c-format
+msgid "<screeninfo>Online Search panel</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:569
+#, no-c-format
+msgid "<phrase>Online Search panel</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:574
+#, no-c-format
+msgid "The entries can be searched by <guilabel>Free text</guilabel>, <guilabel>Title</guilabel>, <guilabel>Author</guilabel>, or <guilabel>Year</guilabel>. The number of results shown on the <link linkend=\"search-results\">Search Results panel</link> can be tweaked using the <guilabel>Number of Results</guilabel> spin box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:577
+#, no-c-format
+msgid "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"go-up.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Use Entry</guibutton> button to fill the search criteria fields from the currently selected bibliography entry. This way you can complete the existing entry with the data from the Internet databases. The <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"media-playback-start.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Search</guibutton> button can be used to start the search."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:592
+#, no-c-format
+msgid "&kbibtex; can perform a search in the most popular Internet databases. To select the set of the databases for your search switch to the <guilabel>Engines</guilabel> tab or click with &LMB; on the <guilabel>change</guilabel> link on the <guilabel>Query Terms</guilabel> tab."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:595
+#, no-c-format
+msgid "To visit the database homepage in the Internet click with &RMB; on its entry in the <guilabel>Engines</guilabel> tab and select <guimenuitem>Go to Homepage</guimenuitem>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:600
+#, no-c-format
+msgid "Zotero Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:603
+#, no-c-format
+msgid "The <guilabel>Zotero</guilabel> panel can be used to import your <ulink url=\"https://www.zotero.org/\">Zotero</ulink> library."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:606
+#, no-c-format
+msgid "Zotero uses specialized browser add-ons to save bibliography entries from Internet pages. The data are stored in an online database that can be reached from anywhere. Zotero documentation can be found <ulink url=\"https://www.zotero.org/support/\">here</ulink>."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:611
+#, no-c-format
+msgid "<screeninfo>Zotero panel</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:617
+#, no-c-format
+msgid "<phrase>Zotero panel</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:622
+#, no-c-format
+msgid "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"preferences-web-browser-identification.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Get New Credentials</guibutton> button on <guilabel>Credentials</guilabel> tab to start the Zotero authorization wizard. Follow the instructions to allow &kbibtex; access your Zotero library."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:622
+#, no-c-format
+msgid "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"preferences-web-browser-identification.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Get Credentials</guibutton> button on <guilabel>Credentials</guilabel> tab to start the Zotero authorization wizard. Follow the instructions to allow &kbibtex; access your Zotero library."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:631
+#, no-c-format
+msgid "To access the library entries double-click on the corresponding item on <guilabel>Collections</guilabel> or <guilabel>Tags</guilabel> tabs. The entries that satisfy the chosen criteria will be shown on the <link linkend=\"search-results\">Search Results panel</link>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:636
+#, no-c-format
+msgid "Search Results Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:639
+#, no-c-format
+msgid "The <guilabel>Search Results</guilabel> panel is used to handle the search results obtained using <link linkend=\"online-search\">Online Search panel</link>."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:644
+#, no-c-format
+msgid "<screeninfo>Search Results panel</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:650
+#, no-c-format
+msgid "<phrase>Search Results panel</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:655
+#, no-c-format
+msgid "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"svn-update.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Import</guibutton> button to import the currently selected search result into your bibliography."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:664
+#, no-c-format
+msgid "To access other actions for the currently selected search result click on it with &RMB;. From the opened menu you can review the result (<guimenuitem>View Element</guimenuitem> item) or copy it for further pasting in &bibtex; format elsewhere with <keycombo>&Ctrl;<keycap>V</keycap></keycombo> (<guimenuitem>Copy</guimenuitem> item)."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:669
+#, no-c-format
+msgid "Element Editor Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:672
+#, no-c-format
+msgid "The <guilabel>Element Editor</guilabel> panel can be used to edit the currently selected bibliography element."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:677
+#, no-c-format
+msgid "<screeninfo>Element Editor panel</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:683
+#, no-c-format
+msgid "<phrase>Element Editor panel</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:688
+#, no-c-format
+msgid "Click the <inlinemediaobject> <imageobject> <imagedata fileref=\"view-filter.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> button to select a <link linkend=\"config-id-suggestions\">suggested identifier</link> for the element."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:697
+#, no-c-format
+msgid "Enter the respective data in the editor fields. The field data format can be switched between <guimenuitem>Text</guimenuitem>, <guimenuitem>Reference</guimenuitem> and <guimenuitem>Source Code</guimenuitem> using the drop down box to the left of the text box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:700
+#, no-c-format
+msgid "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"configure.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Options</guibutton> button to open a drop down menu with two items."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:709
+#, no-c-format
+msgid "The <guimenuitem>Show all fields</guimenuitem> item can be used to show or hide all empty fields of the current element."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:712
+#, no-c-format
+msgid "It is possible to switch keyboard focus between the fields using the &Tab; key. So the second menu item, <guimenuitem>Tab key visits only editable fields</guimenuitem>, can be used to switch on and off navigation between editable fields only."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:715
+#, no-c-format
+msgid "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"tools-check-spelling.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Check with &bibtex;</guibutton> button to preview the editing entry as it will be shown in the compiled &PDF; file."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:724
+#, no-c-format
+msgid "Check the <guilabel>Automatically apply changes</guilabel> box to have all your changes automatically applied to the entry without the need to click the <guibutton>Apply</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:727
+#, no-c-format
+msgid "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"edit-undo.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Reset</guibutton> button to revert all your changes."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:738
+#, no-c-format
+msgid "Document Preview Panel"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:741
+#, no-c-format
+msgid "The <guilabel>Document Preview</guilabel> panel can be used to preview pages or documents <link linkend=\"adding-link\">linked</link> with the currently selected bibliography entry."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:745
+#, no-c-format
+msgid "By default, the <guilabel>Document Preview</guilabel> panel can be opened by pressing <keycombo>&Ctrl;&Shift;<keycap>D</keycap></keycombo> keyboard shortcut."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:751
+#, no-c-format
+msgid "<screeninfo>Document Preview panel</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:757
+#, no-c-format
+msgid "<phrase>Document Preview panel</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:762
+#, no-c-format
+msgid "Click the <inlinemediaobject> <imageobject> <imagedata fileref=\"applications-internet.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> button to toggle between local files only and all documents including the remote ones."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:771
+#, no-c-format
+msgid "Click the <inlinemediaobject> <imageobject> <imagedata fileref=\"document-open.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> button to open the page or the document in the default external application."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:780
+#, no-c-format
+msgid "The <guilabel>Address</guilabel> drop down box can be used to switch between the pages and documents."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:780
+#, no-c-format
+msgid "The address drop down box can be used to switch between the pages and documents."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:786
+#, no-c-format
+msgid "&kbibtex;'s Toolbars"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:789
+#, no-c-format
+msgid "&kbibtex; has two completely customizable toolbars located on the top part of its window."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:792
+#, no-c-format
+msgid "More information on customizing the toolbars can be found in the <ulink url=\"help:/fundamentals/config.html#toolbars\">corresponding section of &kde; Fundamentals manual</ulink>. Below is the short description of the default buttons of &kbibtex; toolbars."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:792
+#, no-c-format
+msgid "More information on customizing the toolbars can be found in the <ulink url=\"Help:/fundamentals/config.html#toolbars\">corresponding section of &kde; Fundamentals manual</ulink>. Below is the short description of the default buttons of &kbibtex; toolbars."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:796
+#, no-c-format
+msgid "<title>Main Toolbar</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:801
+#, no-c-format
+msgid "<screeninfo>Main Toolbar</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:807
+#, no-c-format
+msgid "<phrase>Main Toolbar</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:810
+#, no-c-format
+msgid "The default Main Toolbar of &kbibtex;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:820
+#, no-c-format
+msgid "<guibutton>New</guibutton>: creates a new bibliography document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:825
+#, no-c-format
+msgid "<guibutton>Open</guibutton>: opens the <ulink url=\"help:/fundamentals/files.html\">generic &kde; Open/Save dialog</ulink> to open some existing bibliography to edit."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:830
+#, no-c-format
+msgid "<guibutton>Close</guibutton>: closes the currently active bibliography document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:835
+#, no-c-format
+msgid "<guibutton>Save</guibutton>: saves the currently active bibliography document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:840
+#, no-c-format
+msgid "<guibutton>Save as</guibutton>: allows to save the currently open bibliography document under the new name using the <ulink url=\"help:/fundamentals/files.html\">generic &kde; Open/Save dialog</ulink>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:845
+#, no-c-format
+msgid "<guibutton>New element</guibutton>: allows to create the new entry, comment, preamble or <link linkend=\"macros\">macro</link> in the current bibliography document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:850
+#, no-c-format
+msgid "<guibutton>Find Duplicates</guibutton>: finds and fixes duplicate elements in the current bibliography document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:855
+#, no-c-format
+msgid "<guibutton>Send to &lyx;/&kile;</guibutton>: sends a reference on the currently selected bibliography entry to &lyx; or &kile;. More on this in the <link linkend=\"integration\">corresponding chapter of this manual</link>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:863
+#, no-c-format
+msgid "<title>Filter Toolbar</title>"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:868
+#, no-c-format
+msgid "<screeninfo>Filter Toolbar</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:874
+#, no-c-format
+msgid "<phrase>Filter Toolbar</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:877
+#, no-c-format
+msgid "The default Filter Toolbar of &kbibtex;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:884
+#, no-c-format
+msgid "The simplest method to navigate in large bibliographies is to use the <guilabel>Filter</guilabel> toolbar: &kbibtex; will filter the displayed list according to your input. If you are searching for some element, but you do not know its exact position in the list, just type some letters from its data in the <guilabel>Filter</guilabel> text box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:887
+#, no-c-format
+msgid "When you enter the first few letters, you will see the list changing. The more letters you enter, the more reduced list you will see. This filtering occurs immediately as you type."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:890
+#, no-c-format
+msgid "If you look at the right part of the <guilabel>Filter</guilabel> toolbar, you will notice two drop-down menus. The drop-down menus were designed for you to be able to quickly tailor filtering criteria to your needs. The first drop-down menu is used to define matching mode (<guimenuitem>any word</guimenuitem>, <guimenuitem>every word</guimenuitem> or <guimenuitem>exact phrase</guimenuitem>). The second is to define the field where the filtering should be done. You can choose <guimenuitem>any field</guimenuitem> or select a field to narrow down the list of the results in large bibliographies."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:893
+#, no-c-format
+msgid "There are also two buttons on this toolbar:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:903
+#, no-c-format
+msgid "<guibutton>Include &PDF; files in fulltext search</guibutton>: allows you to include fulltext &PDF; in the filtering."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:913
+#, no-c-format
+msgid "<guibutton>Reset filter criteria</guibutton>: resets filtering criteria."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:923
+#, no-c-format
+msgid "&kbibtex;'s Menus"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:926
+#, no-c-format
+msgid "&kbibtex; follows the standard &kde; menu scheme. So it has many menu entries that are common for all &kde; applications. More information on these menu entries can be found <ulink url=\"help:/fundamentals/menus.html\">this help section</ulink>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:929
+#, no-c-format
+msgid "Below, you can find descriptions for &kbibtex;-specific menu entries."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:935
+#, no-c-format
+msgid "<guimenu>Edit</guimenu> <guimenuitem>Delete</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:941
+#, no-c-format
+msgid "Delete currently selected element in the bibliography list."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:948
+#, no-c-format
+msgid "<guimenu>Edit</guimenu> <guimenuitem>Find Duplicates</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:954
+#, no-c-format
+msgid "Allows you to find and remove duplicates in the currently opened bibliography."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:961
+#, no-c-format
+msgid "<guimenu>Element</guimenu> <guisubmenu>New element</guisubmenu> <guimenuitem>New entry</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:968
+#, no-c-format
+msgid "Open <link linkend=\"element-editor\">Edit Element</link> window to enter a new bibliography entry."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:975
+#, no-c-format
+msgid "<guimenu>Element</guimenu> <guisubmenu>New element</guisubmenu> <guimenuitem>New comment</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:982
+#, no-c-format
+msgid "Open <link linkend=\"element-editor\">Edit Element</link> window to enter a new comment that are not taken in regard by &bibtex;."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:989
+#, no-c-format
+msgid "<guimenu>Element</guimenu> <guisubmenu>New element</guisubmenu> <guimenuitem>New macro</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:996
+#, no-c-format
+msgid "Open <link linkend=\"element-editor\">Edit Element</link> window to enter a new <link linkend=\"macros\">macro</link>."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:1003
+#, no-c-format
+msgid "<guimenu>Element</guimenu> <guisubmenu>New element</guisubmenu> <guimenuitem>New preamble</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1010
+#, no-c-format
+msgid "Open <link linkend=\"element-editor\">Edit Element</link> window to enter a new bibliography preamble that defines how special text should be formatted in your bibliography."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:1017
+#, no-c-format
+msgid "<shortcut> <keycombo> &Ctrl; <keycap>E</keycap> </keycombo> </shortcut> <guimenu>Element</guimenu> <guimenuitem>Edit Element</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1029
+#, no-c-format
+msgid "Open <link linkend=\"element-editor\">Edit Element</link> window to edit the currently selected bibliography element."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:1036
+#, no-c-format
+msgid "<shortcut> <keycombo> &Ctrl; <keycap>D</keycap> </keycombo> </shortcut> <guimenu>Element</guimenu> <guisubmenu>View Document</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1048
+#, no-c-format
+msgid "Open local or remote document for the currently selected entry in the bibliography list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1051
+#, no-c-format
+msgid "The link to the document can be added or edited using <guilabel>External</guilabel> tab of <link linkend=\"element-editor\">Edit Element</link> window."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1055
+#, no-c-format
+msgid "<screeninfo>External documents tab of entry's editing dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1061
+#, no-c-format
+msgid "<phrase>External documents tab of entry's editing dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1065
+#, no-c-format
+msgid "The <guilabel> <inlinemediaobject> <imageobject> <imagedata fileref=\"list-add.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Add</guilabel> button can be used to add a link to remote page."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1075
+#, no-c-format
+msgid "The <guilabel> <inlinemediaobject> <imageobject> <imagedata fileref=\"list-add.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Add file...</guilabel> drop down box is used to select some local file and add a reference or the whole file to the current bibliography."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1085
+#, no-c-format
+msgid "If you click on <inlinemediaobject> <imageobject> <imagedata fileref=\"edit-clear-locationbar-rtl.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> the currently selected item will be cleared."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1093
+#, no-c-format
+msgid "Click on the <inlinemediaobject> <imageobject> <imagedata fileref=\"document-open-remote.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> button to open the document link in the browser."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1101
+#, no-c-format
+msgid "Click on the <inlinemediaobject> <imageobject> <imagedata fileref=\"list-remove.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> button to remove the currently selected document item."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1109
+#, no-c-format
+msgid "To rearrange items in the document list use <inlinemediaobject> <imageobject> <imagedata fileref=\"go-down.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> and <inlinemediaobject> <imageobject> <imagedata fileref=\"go-up.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> buttons."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1122
+#, no-c-format
+msgid "Eventually, the <inlinemediaobject> <imageobject> <imagedata fileref=\"document-save.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> button can be used to save remote documents locally."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:1134
+#, no-c-format
+msgid "<guimenu>Element</guimenu> <guimenuitem>Find &PDF;...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1140
+#, no-c-format
+msgid "Try to find some &PDF; documents for the currently selected bibliography entry in the Internet."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1144
+#, no-c-format
+msgid "<screeninfo>Find &PDF; dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1150
+#, no-c-format
+msgid "<phrase>Find &PDF; dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1154
+#, no-c-format
+msgid "You can <guilabel>Ignore</guilabel>, <guilabel>Download</guilabel> or just <guilabel>Use &URL; only</guilabel> for the entry."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:1161
+#, no-c-format
+msgid "<guimenu>Element</guimenu> <guimenuitem>Format entry ids</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1167
+#, no-c-format
+msgid "Allows you to format identifiers for the currently selected bibliography entries according to the default formatting."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1170
+#, no-c-format
+msgid "The default identifiers formatting can be defined using <link linkend=\"config-id-suggestions\">Id Suggestions page</link> of &kbibtex; configuration dialog."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:1177
+#, no-c-format
+msgid "<guimenu>Element</guimenu> <guisubmenu>Color</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1183
+#, no-c-format
+msgid "Allows you to select a color label to the currently selected bibliography entries or remove such label (<guimenuitem>No color</guimenuitem>)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1186
+#, no-c-format
+msgid "The color labels can be configured using <link linkend=\"config-color\">Color &amp; Labels page</link> of &kbibtex; configuration dialog."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:1193
+#, no-c-format
+msgid "<guimenu>Element</guimenu> <guimenuitem>Send to &lyx;/&kile;</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1199
+#, no-c-format
+msgid "<link linkend=\"integration\">Send references</link> to the currently selected bibliography entries to &lyx; or &kile;."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk5 stable5
+#: index.docbook:1206
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Configure &kbibtex;...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1212
+#, no-c-format
+msgid "Open <link linkend=\"config-dialog\">&kbibtex; configuration dialog</link>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1220
+#, no-c-format
+msgid "&kbibtex;'s Configuration Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:1223
+#, no-c-format
+msgid "Several &kbibtex; parameters can be configured via the <guilabel>Preferences</guilabel> dialog. This dialog can be opened using the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kbibtex;...</guimenuitem></menuchoice> menu item. Below you can find a description of &kbibtex; configuration pages."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:1223
+#, no-c-format
+msgid "Several &kbibtex; parameters can be configured via the <guilabel>Preferences</guilabel> dialog. This dialog can be opened using the <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kbibtex;</guimenuitem></menuchoice> menu item. Below you can find a description of &kbibtex; configuration pages."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1226
+#, no-c-format
+msgid "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"document-revert.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Defaults</guibutton> button to reset all items to their default values."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1235
+#, no-c-format
+msgid "The <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"edit-undo.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Reset</guibutton> button can be used to discard all current configuration changes without closing the <guilabel>Preferences</guilabel> window."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1245
+#, no-c-format
+msgid "General Configuration"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1249
+#, no-c-format
+msgid "<screeninfo>General configuration</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1255
+#, no-c-format
+msgid "<phrase>General configuration</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1259
+#, no-c-format
+msgid "This configuration page allows you to change the default <guilabel>Person Names formatting</guilabel> which will be automatically applied to the names entered in the <link linkend=\"element-editor\">Element Editor</link> dialog."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1264
+#, no-c-format
+msgid "Keywords Configuration"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1268
+#, no-c-format
+msgid "<screeninfo>Keywords configuration</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1274
+#, no-c-format
+msgid "<phrase>Keywords configuration</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1278
+#, no-c-format
+msgid "This page can be used to edit keyword list. The keywords applied to the bibliography entries with <link linkend=\"element-editor\">Element Editor</link> are useful to structurize your bibliography. <link linkend=\"filter-toolbar\">Filtering</link> by keywords can give you a fine-grained results by topics."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1281
+#, no-c-format
+msgid "The <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"list-add.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Add</guibutton> button can be used to add a keyword to the list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1291
+#, no-c-format
+msgid "Click on the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"list-remove.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Remove</guibutton> button to remove the currently selected keyword item."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1302
+#, no-c-format
+msgid "Color &amp; Labels Configuration"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1306
+#, no-c-format
+msgid "<screeninfo>Color &amp; Labels configuration</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1312
+#, no-c-format
+msgid "<phrase>Color &amp; Labels configuration</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1316
+#, no-c-format
+msgid "Color labels are another useful way to structurize your bibliography. This configuration page can be used to define the labels and their colors."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1319
+#, no-c-format
+msgid "The <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"list-add.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Add</guibutton> button can be used to add a label to the list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1328
+#, no-c-format
+msgid "Click on the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"list-remove.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Remove</guibutton> button to remove the currently selected label."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1337
+#, no-c-format
+msgid "Double click on an item in the <guilabel>Color</guilabel> or <guilabel>Label</guilabel> column to start editing it."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1342
+#, no-c-format
+msgid "Id Suggestions Configuration"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1346
+#, no-c-format
+msgid "<screeninfo>Id suggestions configuration</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1352
+#, no-c-format
+msgid "<phrase>Id suggestions configuration</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1356
+#, no-c-format
+msgid "This configuration page is used to handle identifier suggestion schemes for <link linkend=\"element-editor\">Element Editor</link>. You can add, edit, remove and rearrange the schemes using the respective buttons to the right of the suggestions list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1359
+#, no-c-format
+msgid "Click the <guibutton> <inlinemediaobject> <imageobject> <imagedata fileref=\"favorites.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> Toggle Default</guibutton> button to switch the default id suggestion scheme to the currently selected item. This button can be used to define format for the <link linkend=\"format-entry-ids\">Format entry ids</link> action."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1370
+#, no-c-format
+msgid "User Interface Configuration"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1374
+#, no-c-format
+msgid "<screeninfo>User interface configuration</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1380
+#, no-c-format
+msgid "<phrase>User interface configuration</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1384
+#, no-c-format
+msgid "Using this configuration page you can make &kbibtex; show or hide comments and macros in the bibliography list, choose bibliography system (&bibtex; or &biblatex;) and define what to do when you double-click an element in the bibliography list (<guimenuitem>Open Editor</guimenuitem> or <link linkend=\"document-preview\"><guimenuitem>View Document</guimenuitem></link>)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1388
+#, no-c-format
+msgid "&biblatex; is a reimplementation of &bibtex;. With &biblatex; the formatting of the bibliography is entirely controlled by &latex; macros, not <filename role=\"extension\">bst</filename> files. It supports subdivided bibliographies, multiple bibliographies within one document, and separate lists of bibliographic shorthands. Bibliographies may be subdivided into parts and/or segmented by topics. Just like the bibliography styles, all citation commands may be freely defined. The &biblatex; package is completely localized and can interface with the babel package."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1389
+#, no-c-format
+msgid "From &biblatex; documentation."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1391
+#, no-c-format
+msgid "Also &biblatex; can use <ulink url=\"http://biblatex-biber.sourceforge.net/\">biber</ulink> as a backend. With &biblatex; it is possible to use UTF-8 symbols in bibliography entries."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1394
+#, no-c-format
+msgid "So you can use &biblatex; to create sophisticated bibliographies."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1400
+#, no-c-format
+msgid "Saving and Exporting Configuration"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1404
+#, no-c-format
+msgid "<screeninfo>Saving and exporting configuration</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1410
+#, no-c-format
+msgid "<phrase>Saving and exporting configuration</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1414
+#, no-c-format
+msgid "This page allows you to choose a &latex; command (&eg; <userinput>\\cite{...}</userinput>) which will be used as a wrapper for the reference copied with <menuchoice><shortcut><keycombo>&Ctrl;&Shift;<keycap>C</keycap></keycombo></shortcut><guimenuitem>Copy Reference</guimenuitem></menuchoice> item of popup menu from the bibliography list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1417
+#, no-c-format
+msgid "It is also possible to make &kbibtex; determine <link linkend=\"lyx-integration\">&lyx; data pipe</link> automatically by checking the corresponding box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1420
+#, no-c-format
+msgid "When <guilabel>Detect &lyx; pipe automatically</guilabel> item is not checked, you can add the pipe address manually in the text box <guilabel>Manually specified &lyx; pipe</guilabel> or select it using the <ulink url=\"help:/fundamentals/files.html\">generic &kde; Open/Save dialog</ulink> by pressing the button to the right of the text box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1423
+#, no-c-format
+msgid "Eventually, you can configure backups here. It is possible to select the backup subject (<guimenuitem>Local files only</guimenuitem>, <guimenuitem>No backups</guimenuitem> or <guimenuitem>Both local and remote files</guimenuitem>) using <guilabel>Backups when saving</guilabel> drop down box and the number of backups to store."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1428
+#, no-c-format
+msgid "&PDF; &amp; Postscript Configuration"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1432
+#, no-c-format
+msgid "<screeninfo>&PDF; &amp; Postscript configuration</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1438
+#, no-c-format
+msgid "<phrase>&PDF; &amp; Postscript configuration</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:1442
+#, no-c-format
+msgid "This configuration page can be used to choose some options for <link linkend=\"element-editor\">previewing of &kbibtex; entries</link>. You can select <guilabel>Paper Size</guilabel>, language for <ulink url=\"https://www.ctan.org/pkg/babel\">babel</ulink> &latex; package and the <link linkend=\"quick-using\">bibliography style</link>."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:1442
+#, no-c-format
+msgid "This configuration page can be used to choose some options for <link linkend=\"element-editor\">previewing of &kbibtex; entries</link>. You can select <guilabel>Paper Size</guilabel>, language for <ulink url=\"http://www.ctan.org/pkg/babel\">babel</ulink> &latex; package and the <link linkend=\"quick-using\">bibliography style</link>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1450
+#, no-c-format
+msgid "Advanced Usage"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1454
+#, no-c-format
+msgid "Cross References"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1457
+#, no-c-format
+msgid "Cross references allows you to save some time by creating links between <quote>parent</quote> entry (can be treated as a proceedings or collection of articles) and <quote>children</quote> entries (reports or articles)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1460
+#, no-c-format
+msgid "To create a cross reference just add its identifier in the <guilabel>Cross-Reference:</guilabel> field of the entry's <guilabel>Publication</guilabel> tab."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1464
+#, no-c-format
+msgid "<screeninfo>Publication tab of entry's editing dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1470
+#, no-c-format
+msgid "<phrase>Publication tab of entry's editing dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1474
+#, no-c-format
+msgid "You can either enter the identifier directly or click on the <inlinemediaobject> <imageobject> <imagedata fileref=\"flag.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> button to choose it from the list of available identifiers."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1484
+#, no-c-format
+msgid "Macros"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1487
+#, no-c-format
+msgid "Suppose your bibliography contains many references to the same journal and you do not want to enter its title over and over again. Then you can define a macro for the journal title."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1490
+#, no-c-format
+msgid "Let's say, we want to define a macro <replaceable>efm</replaceable> for <quote>Engineering Fracture Mechanics</quote>. Then we should do as follows:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1495
+#, no-c-format
+msgid "Choose <menuchoice><guimenu>Element</guimenu><guisubmenu>New element</guisubmenu><guimenuitem>New macro</guimenuitem></menuchoice> menu item."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1500
+#, no-c-format
+msgid "Enter an identifier (abbreviation) for the title in the <guilabel>Id:</guilabel> text box. The default identifier is <userinput>New1</userinput>. We should enter <userinput>efm</userinput>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1505
+#, no-c-format
+msgid "Choose <inlinemediaobject> <imageobject> <imagedata fileref=\"draw-text.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> (<guilabel>Plain Text</guilabel>). The other option, <inlinemediaobject> <imageobject> <imagedata fileref=\"code-context.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> (<guilabel>Source Code</guilabel>) can be used if you want to insert some macro with &latex; commands in it."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1520
+#, no-c-format
+msgid "Enter <userinput>Engineering Fracture Mechanics</userinput> in the <guilabel>Value:</guilabel> textbox."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1524
+#, no-c-format
+msgid "<screeninfo>Defining macro</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1530
+#, no-c-format
+msgid "<phrase>Defining macro</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1536
+#, no-c-format
+msgid "Click on the <guibutton>Apply</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1541
+#, no-c-format
+msgid "Optionally, switch to the <guilabel>Source</guilabel> tab to inspect the code of the macro."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1545
+#, no-c-format
+msgid "<screeninfo>Defining macro (source code)</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1551
+#, no-c-format
+msgid "<phrase>Defining macro (source code)</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1557
+#, no-c-format
+msgid "Click on <guibutton>OK</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1562
+#, no-c-format
+msgid "The same procedure can be used to fix the titles, author and month names, &etc; according to abbreviation rules of your publisher for the entries from online databases. By default, these rules (macros) should be defined in the bibliography style files (<filename role=\"extension\">bst</filename>)."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1569
+#, no-c-format
+msgid "Integration with &kile; and &lyx;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1572
+#, no-c-format
+msgid "&kbibtex; can be easily integrated with common &latex; editors, namely &kile; and &lyx;."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1576
+#, no-c-format
+msgid "Integration with &kile;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1579
+#, no-c-format
+msgid "<ulink url=\"http://kile.sourceforge.net/\">&kile;</ulink> is a &tex; and &latex; source editor and shell."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1582
+#, no-c-format
+msgid "&kbibtex; is a default viewer/editor for &bibtex; files in &kile;, so there is no need for additional configuration."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1585
+#, no-c-format
+msgid "To add selected citations from bibliography files start &kile;, open some &latex; file, place the cursor there you want to add the citation, then switch to &kbibtex; window, select elements in the element list and choose <menuchoice><guimenu>Element</guimenu><guimenuitem>Send to &lyx;/&kile;</guimenuitem></menuchoice> or use the <guimenuitem>Send to &lyx;/&kile;</guimenuitem> element's context (&RMB;-click) menu item."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1588
+#, no-c-format
+msgid "The citations will be inserted as <userinput>\\cite{<replaceable>element identifiers</replaceable>}</userinput> at the cursor position in the current &kile; document."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1593
+#, no-c-format
+msgid "Integration with &lyx;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5
+#: index.docbook:1596
+#, no-c-format
+msgid "<ulink url=\"https://www.lyx.org/\">&lyx;</ulink> is a document processor that encourages an approach to writing based on the structure of your documents (WYSIWYM) and not simply their appearance (WYSIWYG)."
+msgstr ""
+
+#. Tag: para
+#. +> stable5
+#: index.docbook:1596
+#, no-c-format
+msgid "<ulink url=\"http://www.lyx.org/\">&lyx;</ulink> is a document processor that encourages an approach to writing based on the structure of your documents (WYSIWYM) and not simply their appearance (WYSIWYG)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1599
+#, no-c-format
+msgid "&kbibtex; can be integrated into &lyx; via &lyx; input/output pipe."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1604
+#, no-c-format
+msgid "First, you have to configure &lyx; to use the pipe. Choose <menuchoice><guimenu>Tools</guimenu><guimenuitem>Preferences</guimenuitem></menuchoice> from &lyx; main menu. Open <guilabel>Paths</guilabel> page and enter some path (&eg; <filename>~/.lyx/lyxpipe</filename>) into the <guilabel>LyXServer pipe</guilabel> text box."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk5 stable5
+#: index.docbook:1608
+#, no-c-format
+msgid "<screeninfo>&lyx; configuration</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk5 stable5
+#: index.docbook:1614
+#, no-c-format
+msgid "<phrase>&lyx; configuration</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1620
+#, no-c-format
+msgid "Click <guibutton>Save</guibutton> to save the changes."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1625
+#, no-c-format
+msgid "Choose <menuchoice><guimenu>Tools</guimenu><guimenuitem>Reconfigure</guimenuitem></menuchoice> to reconfigure &lyx; and restart it."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1630
+#, no-c-format
+msgid "To add selected citations from bibliography files, open some document, place the cursor there you want to add a bibliography and select <menuchoice><guimenu>Insert</guimenu><guisubmenu>List / TOC</guisubmenu><guimenuitem>&bibtex; Bibliography...</guimenuitem></menuchoice> from the &lyx; main menu."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1635
+#, no-c-format
+msgid "Press <guibutton>Add...</guibutton> then <guibutton>Browse...</guibutton>. Point &lyx; to a &kbibtex; <filename role=\"extension\">bib</filename> file. Click on <guibutton>Add</guibutton> then click on <guibutton>OK</guibutton>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1640
+#, no-c-format
+msgid "Then place the cursor where you want to add the citation and switch to &kbibtex; window. Select elements in the element list and choose <menuchoice><guimenu>Element</guimenu><guimenuitem>Send to &lyx;/&kile;</guimenuitem></menuchoice> or use <guimenuitem>Send to &lyx;/&kile;</guimenuitem> element's context (&RMB;-click) menu item."
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1645
+#, no-c-format
+msgid "The citations will be inserted as a reference at the cursor position in the current &lyx; document."
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1654
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1655
+#, no-c-format
+msgid "&kbibtex;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1658
+#, no-c-format
+msgid "Program copyright &copy; 2004-2014 Thomas Fischer <email>fischer@unix-ag.uni-kl.de</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk5 stable5
+#: index.docbook:1662
+#, no-c-format
+msgid "Documentation copyright &copy; 2013 Yuri Chornoivan <email>yurchor@ukr.net</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk5 stable5
+#: index.docbook:1666
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk5 stable5
+#: index.docbook:1666
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""
+
+#. Tag: personname
+#. +> trunk5 stable5
+#: index.docbook:1675
+#, no-c-format
+msgid "<firstname>Leslie</firstname> <surname>Lamport</surname>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk5 stable5
+#: index.docbook:1680
+#, no-c-format
+msgid "Latex: a document preparation system"
+msgstr ""

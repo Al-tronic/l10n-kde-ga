@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: man-cvslastlog.1.docbook:8
+#, no-c-format
+msgid "<personname><firstname>Ben</firstname><surname>Burton</surname></personname> <email></email>"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: man-cvslastlog.1.docbook:10
+#, no-c-format
+msgid "2003-04-06"
+msgstr ""
+
+#. Tag: manvolnum
+#. +> trunk6 stable6
+#: man-cvslastlog.1.docbook:15
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk6 stable6
+#: man-cvslastlog.1.docbook:20
+#, no-c-format
+msgid "Prints the log entry for the last commit for a file."
+msgstr ""
+
+#. Tag: cmdsynopsis
+#. +> trunk6 stable6
+#: man-cvslastlog.1.docbook:24
+#, no-c-format
+msgid "<command>cvslastlog</command> <group><option><replaceable>filename</replaceable></option></group>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-cvslastlog.1.docbook:32
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-cvslastlog.1.docbook:34
+#, no-c-format
+msgid "<command>cvslastlog</command> shows the log associated with the last CVS commit for the given file. It depends on the version of the local file, not the one on the server."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-cvslastlog.1.docbook:38
+#, no-c-format
+msgid "This utility is part of the &kde; Software Development Kit."
+msgstr ""

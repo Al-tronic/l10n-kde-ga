@@ -1,0 +1,493 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-01-11 09:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:13
+#, no-c-format
+msgid "The &kdesu; handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6 stable5
+#: index.docbook:16
+#, no-c-format
+msgid "&Geert.Jansen; &Geert.Jansen.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6 stable5
+#: index.docbook:17
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6 stable5
+#: index.docbook:22
+#, no-c-format
+msgid "&Geert.Jansen;"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6 stable5
+#: index.docbook:27
+#, no-c-format
+msgid "2010-09-21"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6 stable5
+#: index.docbook:28
+#, no-c-format
+msgid "KDE 4.5"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:31
+#, no-c-format
+msgid "&kdesu; is a graphical front end for the &UNIX; <command>su</command> command."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:35
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:36
+#, no-c-format
+msgid "<keyword>su</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:37
+#, no-c-format
+msgid "password"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:38
+#, no-c-format
+msgid "root"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:44
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:60
+#, no-c-format
+msgid "Welcome to &kdesu;! &kdesu; is a graphical front end for the &UNIX; <command>su</command> command for the K Desktop Environment. It allows you to run a program as different user by supplying the password for that user. &kdesu; is an unprivileged program; it uses the system's <command>su</command>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:66
+#, no-c-format
+msgid "&kdesu; has one additional feature: it can remember passwords for you. If you are using this feature, you only need to enter the password once for each command. See <xref linkend=\"sec-password-keeping\"/> for more information on this and a security analysis."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:72
+#, no-c-format
+msgid "This program is meant to be started from the command line or from <filename>.desktop</filename> files. Although it asks for the <systemitem class=\"username\">root</systemitem> password using a &GUI; dialog, I consider it to be more of a command line &lt;-&gt; &GUI; glue instead of a pure &GUI; program."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:78
+#, no-c-format
+msgid "Since <command>kdesu</command> is no longer installed in <userinput> $(kf5-config --prefix)</userinput>/bin but in <userinput>kf5-config --path libexec</userinput> and therefore not in your <envar>Path</envar>, you have to use <userinput>$(kf5-config --path libexec)<command>kdesu</command></userinput> to launch <command>kdesu</command>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:85
+#, no-c-format
+msgid "Using &kdesu;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:87
+#, no-c-format
+msgid "Usage of &kdesu; is easy. The syntax is like this:"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#. +> trunk6 stable6 stable5
+#: index.docbook:89
+#, no-c-format
+msgid "<command>kdesu</command> <group choice=\"opt\"><option>-c</option> <replaceable> command</replaceable></group> <group choice=\"opt\"><option>-d</option></group> <group choice=\"opt\"><option>-f</option> <replaceable> file</replaceable></group> <group choice=\"opt\"><option>-i</option> <replaceable> icon name</replaceable></group> <group choice=\"opt\"><option>-n</option></group> <group choice=\"opt\"><option>-p</option> <replaceable> priority</replaceable></group> <group choice=\"opt\"><option>-r</option></group> <group choice=\"opt\"><option>-s</option></group> <group choice=\"opt\"><option>-t</option></group> <group choice=\"opt\"><option>-u</option> <replaceable> user</replaceable></group> <group choice=\"opt\"><option>--noignorebutton</option></group> <group choice=\"opt\"><option>--attach</option> <replaceable> winid</replaceable></group>"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#. +> trunk6 stable6 stable5
+#: index.docbook:110
+#, no-c-format
+msgid "<command>kdesu</command> <arg choice=\"opt\">&kde; Generic Options</arg> <arg choice=\"opt\">&Qt; Generic Options</arg>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:116
+#, no-c-format
+msgid "The command line options are explained below."
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 stable6 stable5
+#: index.docbook:120
+#, no-c-format
+msgid "-c <replaceable>command</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:121
+#, no-c-format
+msgid "This specifies the command to run as root. It has to be passed in one argument. So if, for example, you want to start a new file manager, you would enter at the prompt: <userinput>$(kf5-config --path libexec)<command>kdesu <option>-c <replaceable> &dolphin;</replaceable></option></command></userinput>"
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 stable6 stable5
+#: index.docbook:127
+#, no-c-format
+msgid "<option>-d</option>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:128
+#, no-c-format
+msgid "Show debug information."
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 stable6 stable5
+#: index.docbook:131
+#, no-c-format
+msgid "-f <replaceable>file</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:132
+#, no-c-format
+msgid "This option allow efficient use of &kdesu; in <filename>.desktop</filename> files. It tells &kdesu; to examine the file specified by <parameter>file</parameter>. If this file is writable by the current user, &kdesu; will execute the command as the current user. If it is not writable, the command is executed as user <parameter>user</parameter> (defaults to root)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:138
+#, no-c-format
+msgid "<parameter>file</parameter> is evaluated like this: if <parameter>file</parameter> starts with a <literal>/</literal>, it is taken as an absolute filename. Otherwise, it is taken as the name of a global &kde; configuration file."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6 stable5
+#: index.docbook:144
+#, no-c-format
+msgid "<option>-i</option> <replaceable>icon name</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:145
+#, no-c-format
+msgid "Specify icon to use in the password dialog. You may specify just the name, without any extension."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:147
+#, no-c-format
+msgid "For instance to run &konqueror; in filemanager mode and show the &konqueror; icon in the password dialog:"
+msgstr ""
+
+#. Tag: screen
+#. +> trunk6 stable6 stable5
+#: index.docbook:149
+#, no-c-format
+msgid ""
+"<userinput>$(kf5-config --path libexec)<command>kdesu</command>  <option>-i konqueror</option>\n"
+"<option>-c \"konqueror --profile filemanagement\"</option></userinput>"
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 stable6 stable5
+#: index.docbook:154
+#, no-c-format
+msgid "<option>-n</option>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:155
+#, no-c-format
+msgid "Do not keep the password. This disables the <guilabel>keep password</guilabel> checkbox in the password dialog."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6 stable5
+#: index.docbook:159
+#, no-c-format
+msgid "<option>-p</option> <replaceable>priority</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:161
+#, no-c-format
+msgid "Set priority value. The priority is an arbitrary number between 0 and 100, where 100 means highest priority, and 0 means lowest. The default is 50."
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 stable6 stable5
+#: index.docbook:167
+#, no-c-format
+msgid "<option>-r</option>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:168
+#, no-c-format
+msgid "Use realtime scheduling."
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 stable6 stable5
+#: index.docbook:173
+#, no-c-format
+msgid "<option>-s</option>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:174
+#, no-c-format
+msgid "Stop the kdesu daemon. See <xref linkend=\"sec-password-keeping\"/>."
+msgstr ""
+
+#. Tag: option
+#. +> trunk6 stable6 stable5
+#: index.docbook:178
+#, no-c-format
+msgid "<option>-t</option>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:179
+#, no-c-format
+msgid "Enable terminal output. This disables password keeping. This is largely for debugging purposes; if you want to run a console mode app, use the standard <command>su</command> instead."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6 stable5
+#: index.docbook:184
+#, no-c-format
+msgid "<option>-u</option> <replaceable> user</replaceable>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:185
+#, no-c-format
+msgid "While the most common use for &kdesu; is to run a command as the superuser, you can supply any user name and the appropriate password."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:196
+#, no-c-format
+msgid "Internals"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:199
+#, no-c-format
+msgid "X authentication"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:201
+#, no-c-format
+msgid "The program you execute will run under the root user id and will generally have no authority to access your X display. &kdesu; gets around this by adding an authentication cookie for your display to a temporary <filename>.Xauthority</filename> file. After the command exits, this file is removed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:207
+#, no-c-format
+msgid "If you don't use X cookies, you are on your own. &kdesu; will detect this and will not add a cookie but you will have to make sure that root is allowed to access to your display."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:214
+#, no-c-format
+msgid "Interface to <command>su</command>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:216
+#, no-c-format
+msgid "&kdesu; uses the sytem's <command>su</command> for acquiring priviliges. In this section, I explain the details of how &kdesu; does this."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:220
+#, no-c-format
+msgid "Because some <command>su</command> implementations (&ie; the one from &RedHat;) don't want to read the password from <literal>stdin</literal>, &kdesu; creates a pty/tty pair and executes <command>su</command> with its standard filedescriptors connected to the tty."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:226
+#, no-c-format
+msgid "To execute the command the user selected, rather than an interactive shell, &kdesu; uses the <option>-c</option> argument with <command>su</command>. This argument is understood by every shell that I know of so it should work portably. <command>su</command> passes this <option>-c</option> argument to the target user's shell, and the shell executes the program. Example command: <command>su <option>root -c <replaceable>the_program</replaceable></option></command>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:234
+#, no-c-format
+msgid "Instead of executing the user command directly with <command>su</command>, &kdesu; executes a little stub program called <application>kdesu_stub</application>. This stub (running as the target user), requests some information from &kdesu; over the pty/tty channel (the stub's stdin and stdout) and then executes the user's program. The information passed over is: the X display, an X authentication cookie (if available), the <envar>PATH</envar> and the command to run. The reason why a stub program is used is that the X cookie is private information and therefore cannot be passed on the command line."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:248
+#, no-c-format
+msgid "Password Checking"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:250
+#, no-c-format
+msgid "&kdesu; will check the password you entered and gives an error message if it is not correct. The checking is done by executing a test program: <filename>/bin/true</filename>. If this succeeds, the password is assumed to be correct."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:258
+#, no-c-format
+msgid "Password Keeping"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:260
+#, no-c-format
+msgid "For your comfort, &kdesu; implements a <quote>keep password</quote> feature. If you are interested in security, you should read this paragraph."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:264
+#, no-c-format
+msgid "Allowing &kdesu; to remember passwords opens up a (small) security hole in your system. Obviously, &kdesu; does not allow anybody but your user id to use the passwords, but, if done without caution, this would lowers <systemitem class=\"username\">root</systemitem>'s security level to that of a normal user (you). A hacker who breaks into your account, would get <systemitem class=\"username\">root</systemitem> access. &kdesu; tries to prevent this. The security scheme it uses is, in my opinion at least, reasonably safe and is explained here."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:274
+#, no-c-format
+msgid "&kdesu; uses a daemon, called <application>kdesud</application>. The daemon listens to a &UNIX; socket in <filename>/tmp</filename> for commands. The mode of the socket is 0600 so that only your user id can connect to it. If password keeping is enabled, &kdesu; executes commands through this daemon. It writes the command and <systemitem class=\"username\">root</systemitem>'s password to the socket and the daemon executes the command using <command>su</command>, as describe before. After this, the command and the password are not thrown away. Instead, they are kept for a specified amount of time. This is the timeout value from in the control module. If another request for the same command is coming within this time period, the client does not have to supply the password. To keep hackers who broke into your account from stealing passwords from the daemon (for example, by attaching a debugger), the daemon is installed set-group-id nogroup. This should prevent all normal users (including you) from getting passwords from the <application>kdesud</application> process. Also, the daemon sets the <envar>DISPLAY</envar> environment variable to the value it had when it was started. The only thing a hacker can do is execute an application on your display."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:295
+#, no-c-format
+msgid "One weak spot in this scheme is that the programs you execute are probably not written with security in mind (like setuid <systemitem class=\"username\">root</systemitem> programs). This means that they might have buffer overruns or other problems and a hacker could exploit those."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:301
+#, no-c-format
+msgid "The use of the password keeping feature is a tradeoff between security and comfort. I encourage you to think it over and decide for yourself if you want to use it or not."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:309
+#, no-c-format
+msgid "Author"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:311
+#, no-c-format
+msgid "&kdesu;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:313
+#, no-c-format
+msgid "Copyright 2000 &Geert.Jansen;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:315
+#, no-c-format
+msgid "&kdesu; is written by &Geert.Jansen;. It is somewhat based on Pietro Iglio's &kdesu;, version 0.3. Pietro and I agreed that I will maintain this program in the future."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:319
+#, no-c-format
+msgid "The author can be reached through email at &Geert.Jansen.mail;. Please report any bugs you find to me so that I can fix them. If you have a suggestion, feel free to contact me."
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6 stable5
+#: index.docbook:323
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6 stable5
+#: index.docbook:323
+#, no-c-format
+msgid "&underFDL; &underArtisticLicense;"
+msgstr ""

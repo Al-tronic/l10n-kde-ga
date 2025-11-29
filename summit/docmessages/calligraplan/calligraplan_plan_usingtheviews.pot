@@ -1,0 +1,274 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-24 23:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6
+#: usingtheviews.docbook:2
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:3
+#, no-c-format
+msgid "The Task Editor is a view that displays task data in a tree structure. Most data in the Task Editor can be edited in situ."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: usingtheviews.docbook:20
+#, no-c-format
+msgid "Navigation"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:21
+#, no-c-format
+msgid "You can navigate the tree structure using the keyboard:"
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: usingtheviews.docbook:29
+#, no-c-format
+msgid "<keycap>+</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:32
+#, no-c-format
+msgid "Expand an expandable row."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: usingtheviews.docbook:37
+#, no-c-format
+msgid "<keycap>-</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:40
+#, no-c-format
+msgid "Collapse a collapsible item."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: usingtheviews.docbook:45
+#, no-c-format
+msgid "Arrow left"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:48
+#, no-c-format
+msgid "Go to previous column in the same row."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: usingtheviews.docbook:53
+#, no-c-format
+msgid "Arrow right"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:56
+#, no-c-format
+msgid "Go to next column in the same row."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: usingtheviews.docbook:61
+#, no-c-format
+msgid "Arrow up"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:64
+#, no-c-format
+msgid "Go to previous row in the same column."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: usingtheviews.docbook:69
+#, no-c-format
+msgid "Arrow down"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:72
+#, no-c-format
+msgid "Go to next row in the same column."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: usingtheviews.docbook:77
+#, no-c-format
+msgid "Home"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:80
+#, no-c-format
+msgid "Go to first row, first column."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: usingtheviews.docbook:85
+#, no-c-format
+msgid "<keycap>End</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:88
+#, no-c-format
+msgid "Go to last row, last column."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: usingtheviews.docbook:93
+#, no-c-format
+msgid "Page up"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:96
+#, no-c-format
+msgid "Go to first visible row in the same column."
+msgstr ""
+
+#. Tag: keycap
+#. +> trunk6
+#: usingtheviews.docbook:101
+#, no-c-format
+msgid "Page down"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:104
+#, no-c-format
+msgid "Go to last visible row in the same column."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: usingtheviews.docbook:111
+#, no-c-format
+msgid "Editing data"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:112
+#, no-c-format
+msgid "Editable items are opened for editing by double-clicking on the item or, if using the keyboard, pressing <keycap>F2</keycap> will open the current item."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:114
+#, no-c-format
+msgid "When editing an item you can navigate to the next editable item as follows:"
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: usingtheviews.docbook:122
+#, no-c-format
+msgid "&Ctrl;&Alt;<keycap>Arrow left</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:125
+#, no-c-format
+msgid "Go to the previous editable item in the same row."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: usingtheviews.docbook:130
+#, no-c-format
+msgid "&Ctrl;&Alt;<keycap>Arrow right</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:133
+#, no-c-format
+msgid "Go to the next editable item in the same row."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: usingtheviews.docbook:138
+#, no-c-format
+msgid "&Ctrl;&Alt;<keycap>Arrow up</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:141
+#, no-c-format
+msgid "Go to the next editable item in preceding rows."
+msgstr ""
+
+#. Tag: keycombo
+#. +> trunk6
+#: usingtheviews.docbook:146
+#, no-c-format
+msgid "&Ctrl;&Alt;<keycap>Arrow down</keycap>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:149
+#, no-c-format
+msgid "Go to the next editable item in succeeding rows."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: usingtheviews.docbook:156
+#, no-c-format
+msgid "Drag &amp; drop and copy/paste"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: usingtheviews.docbook:157
+#, no-c-format
+msgid "Most views support drag &amp; drop and copy/paste. Charts and Gantt charts can be dragged to applications that support images. Table data uses the html mime type, so can be dropped on any applications that supports this. If the view supports moving or copying items internally &eg; the <link linkend=\"task-editor\">Task Editor</link>, items can also be moved or copied."
+msgstr ""

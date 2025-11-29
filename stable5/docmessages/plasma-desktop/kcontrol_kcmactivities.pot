@@ -1,0 +1,258 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:9 index.docbook:28
+#, no-c-format
+msgid "<title>Activities</title>"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid ""
+"<firstname>Yuri</firstname><surname>Chornoivan</surname> <email>yurchor@ukr."
+"net</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:14
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:17
+#, no-c-format
+msgid "2021-04-12"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:18
+#, no-c-format
+msgid "Plasma 5.20"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:21
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:22
+#, no-c-format
+msgid "Systemsettings"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:23
+#, no-c-format
+msgid "activity"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:31
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:33
+#, no-c-format
+msgid ""
+"This module allows configuring activities. Activities are a way to have "
+"multiple &plasma; setups, with each a different set of widgets and themes. "
+"Some activities can be private. Such activities do not track your actions. "
+"For example, they do not track what recent document you opened."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:37
+#, no-c-format
+msgid ""
+"The module is divided into three tabs: <link linkend=\"activities-main"
+"\"><guilabel>Activities</guilabel></link>, <link linkend=\"activities-"
+"switching\"><guilabel>Switching</guilabel></link>, and <link linkend="
+"\"activities-privacy\"><guilabel>Privacy</guilabel></link>."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:45
+#, no-c-format
+msgid "<guilabel>Activities</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:47
+#, no-c-format
+msgid ""
+"This tab lists your current activities. Hover items in the list with the "
+"mouse pointer to reveal the buttons to configure or remove activities."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:51
+#, no-c-format
+msgid ""
+"Use the <inlinemediaobject><imageobject><imagedata fileref=\"configure.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> overlay button to "
+"configure activity. You can change the following activity parameters:"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:57
+#, no-c-format
+msgid "Icon"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:59
+#, no-c-format
+msgid ""
+"The icon of activity can be seen on the activity manager selector of the "
+"&plasma; panel. Click on the current icon to choose some system-wide icon or "
+"browse the file system to select a custom icon."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:65
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:67
+#, no-c-format
+msgid "Give your activity a recognizable name."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:73
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:75
+#, no-c-format
+msgid ""
+"A free-form description of the activity that is shown below the name on the "
+"activity manager selector of the &plasma; panel."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:81 index.docbook:117
+#, no-c-format
+msgid "Privacy"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:83
+#, no-c-format
+msgid ""
+"Check the <guilabel>Do not track usage for this activity</guilabel> item to "
+"switch off any tracking for your activity."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:89
+#, no-c-format
+msgid "Shortcut for switching"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:91
+#, no-c-format
+msgid ""
+"Press the first button to input the new shortcut to switch to the activity. "
+"Press the second button to remove the current shortcut."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:97
+#, no-c-format
+msgid ""
+"Clicking on the <inlinemediaobject><imageobject><imagedata fileref=\"edit-"
+"delete.png\" format=\"PNG\"/></imageobject></inlinemediaobject> button "
+"removes the activity."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:100
+#, no-c-format
+msgid ""
+"Clicking on the <guibutton>Create New...</guibutton> button below the list "
+"opens <guilabel>Create a New Activity</guilabel> dialog which is similar to "
+"the activity configuration dialog described above."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:106
+#, no-c-format
+msgid "Switching"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:108
+#, no-c-format
+msgid ""
+"Here, you can configure if &plasma; should remember the <guilabel>Current "
+"virtual desktop</guilabel> for each activity (needs restart). It is also "
+"possible to configure shortcuts for walking through the list of activities."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:111
+#, no-c-format
+msgid ""
+"For more information on how to use the &kde; shortcut system, see the <ulink "
+"url=\"help:/fundamentals/shortcuts.html\"><emphasis>Using and Customizing "
+"Shortcuts</emphasis> section of the <emphasis>&kde; Fundamentals</emphasis> "
+"documentation</ulink>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:119
+#, no-c-format
+msgid ""
+"This tab allows configuring the time for activities to <guilabel>Keep "
+"history</guilabel> and clean some tracking data. Use the <guibutton>Clear "
+"History</guibutton> drop-down button to make &plasma; <guimenuitem>Forget "
+"the last hour</guimenuitem>, <guimenuitem>Forget the last two hours</"
+"guimenuitem>, <guimenuitem>Forget a day</guimenuitem>, or "
+"<guimenuitem>Forget everything</guimenuitem>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:122
+#, no-c-format
+msgid ""
+"Below, you can configure the range of applications for memorizing opened "
+"documents in your activities. Use the <guilabel>For all applications</"
+"guilabel> item to store all data, the <guilabel>Do not remember</guilabel> "
+"item to switch off storing data, or <guilabel>Only for specific "
+"applications</guilabel> item for fine-grained selection (clicking on the "
+"application item toggles its current mode)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:125
+#, no-c-format
+msgid ""
+"Check the <guilabel>Blacklist applications not on the list</guilabel> item "
+"to switch off tracking for all applications that are not on the list."
+msgstr ""

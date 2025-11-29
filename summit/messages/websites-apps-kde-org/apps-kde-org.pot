@@ -1,0 +1,1590 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: websites-apps-kde-org 1.0\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-01 09:51+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: config.yaml:0
+msgid "KDE Applications"
+msgstr ""
+
+#. +> trunk5
+#: config.yaml:0
+msgid "KDE is a community of friendly people who create over 200 apps which run on any Linux desktop, and often other platforms too. Here is the complete list."
+msgstr ""
+
+#. +> trunk5
+#: config.yaml:0
+msgid "Get Involved"
+msgstr ""
+
+#. +> trunk5
+#: config.yaml:0
+msgid "Donate"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kanagram.yaml:0
+msgid "How to make a list of new words: [PDF tutorial](/education/kanagram/tutorials/kanagram-addwords.pdf) - [ODF tutorial](/education/kanagram/tutorials/kanagram-addwords.odp)"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kgeography.yaml:0
+msgid "How to add a map: [PDF tutorial](/education/kgeography/tutorials/kgeography-addmaps.pdf) - [ODF tutorial](/education/kgeography/tutorials/kgeography-addmaps.odp)"
+msgstr ""
+
+#. +> trunk5
+#: data/education/khangman.yaml:0
+msgid "How to make a list of new words: [PDF tutorial](/education/khangman/tutorials/khangman-addwords.pdf) - [ODF tutorial](/education/khangman/tutorials/khangman-addwords.odp)"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "Since Kig can import and use third-party macros as built-in objects, it can have new objects, being more and more powerful."
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "You can extend Kig with macros written in Python. Please look at the [Kig Python Scripting API Documentation](/education/kig/scripting-api/)."
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "You can also download and import these macros:"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "[cirkel](https://cdn.kde.org/edu/kig/macros/circleBTP_by_circleBCP.kigt): A circle BTP constructed using the circle BCP"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "[ConicByLocus](https://cdn.kde.org/edu/kig/macros/conic_by_locus.kigt): A conic constructed as a locus"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "[ConicCenter](https://cdn.kde.org/edu/kig/macros/ConicCenter.kigt): The center of a conic"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "[LineConicMainAxis](https://cdn.kde.org/edu/kig/macros/LineConicMainAxis.kigt): The main axis of a conic"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "[LineConicSecondAxis](https://cdn.kde.org/edu/kig/macros/LineConicSecondAxis.kigt): The secondary axis of a conic"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "[Translatie](https://cdn.kde.org/edu/kig/macros/mirrorpoint_by_translationpoint.kigt): Mirror a point using the translation"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "[Baricenter - Circumcenter - Gauss Segment - Incenter - Inscribed circle - Ortocenter](https://cdn.kde.org/edu/kig/macros/triangle_centers.kigt):"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "Baricenter of a triangle, given the vertices"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "Circumcenter of a triangle, given the vertices"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "Gauss Segment of a triangle, given the vertices"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "Incenter of a triangle, given the vertices"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "Inscribed circle on a triangle, given the vertices"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "Ortocenter of a triangle, given the vertices"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "[star5 - star5b](https://cdn.kde.org/edu/kig/macros/starswith5points.kigt): Two different ways to construct a star"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "[TropicalLine1pt - TropicalLine2pt - TropicalLineLineIntersection - TropicalConic](https://cdn.kde.org/edu/kig/macros/tropical_geometry.kigt):"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "A tropical line constructed using its centre point"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "The stable tropical line passing through two points"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "The stable intersection of two tropical lines, to select a tropical line, select its centre point"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "Stable Conic Passing through 5 points"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kig.yaml:0
+msgid "These macros require a Kig version with the Python script."
+msgstr ""
+
+#. +> trunk5
+#: data/education/kturtle.yaml:0
+msgid "KTurtle Presentation"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kturtle.yaml:0
+msgid "See it [here](/education/kturtle/presentation)"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kturtle.yaml:0
+msgid "Logo Scripts"
+msgstr ""
+
+#. +> trunk5
+#: data/education/kturtle.yaml:0
+msgid "You can download these Logo files and freely use them with KTurtle."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Editing Vocabulary"
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Select multiple rows by pressing a mouse button on the first entry and dragging. Alternatively you can press shift or ctrl when selecting entries."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "When you have selected multiple rows, you can for example change the word type for the entire selection. Simply use the edit dialog. Even when that dialog is open, you can change the selection."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Resetting the grades: Use \"Edit Entry\" (right click on the word) choose the language combination you want and click reset grades. You can do this for any selection. To reset all grades simply use \"Select All\" and reset the grades."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Search for words beginning with \"the\" by typing \"^the\" into the search field. Words ending with \"end\" can be selected by entering \"end$\"."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Search for a certain word type e.g. \"noun\" by entering \"type:noun\" in the search line."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "It is possible to import version **1** files from www.vokabeln.de. If they have missing or strange letters, converting them to unicode might help. On the command line use `$recode ISO_8859-1..UTF8 filename.voc`. Open the file with Parley and save again in the native kvtml format to enable all features properly."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Images and sound files are saved relative to the document if they are in the same folder or in a subfolder. So to copy a document including images, put the images in the same folder or make a subfolder containing the images. Currently only local files work for images."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Sound file locations are saved the same way as images but using remote files like `http://something.org/soundfile.ogg` works just fine."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Sound and **ogg**: It seems that xine-lib has problems with short ogg files (<2.7 seconds). So if ogg files don't work (KDEs Phonon currently uses xine as backend for sound) test them in the xine player. If they don't work there, please bug the xine people."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Practicing"
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "To select which words you practice check the lessons on the left."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Use \"Practice\"->\"Configure Practice\" to set the languages and type of test. For example Multiple Choice or Written (you type the word) or Grammar, etc."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "If you have to switch the type of practice often, you can add \"Configure Practice\" as button to the toolbar. You can also assign it a shortcut."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "You probably want to enable blocking in the \"Settings\"->\"Configure Parley\" menu."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "**Blocking**: if you had an entry right, it will not be asked for the time set here."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "**Conjugations**: use \"Language\"->\"Articles and pronouns\". To set up the pronouns first. They will be displayed in the edit and practice dialogs. Here you can also enable dual conjugations and select for each language if conjugations differentiate male/female/neuter."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Creating Parley Themes"
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "To create a Parley theme you mainly have to draw or better redraw a SVG file (scalable vector graphics). We suggest to use <a href=\"http://www.inkscape.org/\">Inkscape</a> for this."
+msgstr ""
+
+#. +> trunk5
+#: data/education/parley.yaml:0
+msgid "Download the [theme_reference.svgz](https://invent.kde.org/education/parley/-/raw/master/themes/theme_reference.svgz?inline=false). Once you have opened it you will find a tutorial how to proceed."
+msgstr ""
+
+#. +> trunk5
+#: data/education/step.yaml:0
+msgid "**StepCore Library**:"
+msgstr ""
+
+#. +> trunk5
+#: data/education/step.yaml:0
+msgid "StepCore is the physical simulation library on which Step is based. It can be used without Step for complex simulations which require coding or in other software which require physical simulation functionality. It is designed in order to be extensible, tunable and to provide accurate simulation."
+msgstr ""
+
+#. +> trunk5
+#: data/games/bovo.yaml:0
+msgid "**Objective:** *Connect five of your own pieces in an unbroken row vertically, horizontally or diagonally.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/bovo.yaml:0
+msgid "The first time Bovo is started it is launched in demo mode where two AI players battle each other. You can always start a new game using the **New** button on the toolbar, the **Game->New** menu entry on the menubar or using the default shortcut **Ctrl+N**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/bovo.yaml:0
+msgid "**Note:** *Because the first player always has an advantage over the second player, Bovo will alternate the players, switching them every new game.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/bovo.yaml:0
+msgid "If you are the first player - start the game by placing your pictogram anywhere on the playing field. If you are the second player wait until the first player places the pictogram and then do the same yourself. You can place your mark into any square on the field, unless it’s already occupied by another game piece (regardless of whether it’s your pictogram or that of your opponent’s)."
+msgstr ""
+
+#. +> trunk5
+#: data/games/bovo.yaml:0
+msgid "You have to place your pieces in a way that prevents your opponent from connecting five marks in an unbroken row vertically, horizontally or diagonally. In the same time you have to connect five of your own pieces in an unbroken row vertically, horizontally or diagonally. Whoever succeeds in doing so first – wins the round."
+msgstr ""
+
+#. +> trunk5
+#: data/games/katomic.yaml:0
+msgid "**Objective:** *Reassemble molecules from compound atoms by sliding them around.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/katomic.yaml:0
+msgid "Katomic will load level one once you start the game and you can begin playing right away."
+msgstr ""
+
+#. +> trunk5
+#: data/games/katomic.yaml:0
+msgid "To see how the molecule you are supposed to make looks like, take a look at the upper right corner. To play - click on an atom. You will see green arrows pointing in the directions where atom can move. To move the atom, click on the desired arrow. When an atom starts moving, it will not stop until it hits another atom or a wall, so make sure you think before you do your next move."
+msgstr ""
+
+#. +> trunk5
+#: data/games/katomic.yaml:0
+msgid "You can assemble your molecule wherever you like on the game board, but some places are easier to access than others. When the molecule is assembled, you can move to the next level."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kblackbox.yaml:0
+msgid "**Objective:** *Use laser beams to deduce the placement of the atomic particles inside the black box.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kblackbox.yaml:0
+msgid "Using lasers and placing balls and markers deduce the position of the hidden atoms inside the black box."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kblackbox.yaml:0
+msgid "The cursor can be moved around the box with the standard cursor movement keys or the mouse. Switching of lasers or marking of black boxes is done with the **Left Mouse Button**, or by pressing the **Return** or **Enter** key."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kblackbox.yaml:0
+msgid "You can also drag and drop the balls and the markers with the mouse."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kblackbox.yaml:0
+msgid "You can mark the fields where you think a ball cannot be, too. Just press the **Right Mouse Button**. It often helps you to find an area where a ball could possibly be. To clear any marks, press the same key or mouse button again."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kblackbox.yaml:0
+msgid "When you think the configuration of balls you have placed is correct, press the \"Done!\" button. You will be informed whether you are correct or not, and be given your score."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kblackbox.yaml:0
+msgid "If you placed any balls incorrectly, the right solution will be displayed."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kbounce.yaml:0
+msgid "**Objective:** *Fill at least 75% of the field and advance to the next level.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kbounce.yaml:0
+msgid "The player is presented a rectangular tiled field surrounded by wall. Two or more balls move about in the field and bounce off of the walls. The object of the game is to limit the size of room in which the balls are."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kbounce.yaml:0
+msgid "The size of the active area of the field is decreased by making new walls that enclose areas without balls in them. To complete a level, the player must decrease the size of the active field by at least 75% within the time allowed."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kbounce.yaml:0
+msgid "New walls are built by clicking the left mouse button in an active area of the field, at which point two walls will begin to grow in opposite directions from the square the mouse was clicked in. Only one wall in each direction may be growing on the screen at any given time."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kbounce.yaml:0
+msgid "When the mouse is on the field, the cursor is shown as a pair of arrows pointing in opposite directions, either horizontally or vertically. The arrows point in the direction the walls will grow when the **left mouse button** is clicked. This direction can be changed by clicking the **right mouse button**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kbounce.yaml:0
+msgid "A new wall has a **\"head\"** which moves away from the point where the mouse was clicked. A wall is not permanent until this **\"head\"** runs into another wall. If a ball collides with any part of the wall except the head, before the head has run into another wall, the new wall will disappear completely and one life will be lost. If a ball collides with the head in the direction of the wall's growth, the wall will stop growing there, and become permanent, with no loss of life. If a ball collides with the head from any other side, the ball will bounce off and the wall will continue to grow normally."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kbreakout.yaml:0
+msgid "The player is presented with a game field containing a number of bricks. A ball travels across the screen, bouncing off the top and side walls. When a brick is hit, the ball bounces away and the brick is destroyed. The player loses a life when the ball touches the bottom of the field. To prevent this from happening, the player has to use a movable bar to bounce the ball upward, situated at the bottom of the window. The purpose of the game is to progress through the levels destroying all bricks present in each, and trying to get a highscore."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kdiamond.yaml:0
+msgid "The player is presented with a rectangular grid containing several types of diamonds. The object of the game is to swap neighbored diamonds to assemble a line of three similar diamonds. These lines will vanish and the board will be refilled with new diamonds. The game time is limited, try to build as much lines as possible to earn a high score."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kdiamond.yaml:0
+msgid "Click on one diamond, then on one of its neighbors. The diamonds will then be swapped. If no line of at least three diamonds is formed by the swap, it will be reverted. The status bar displays the game time left, and the number of points you have earned."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kfourinline.yaml:0
+msgid "When **KFourInLine** loads, you can select the difficulty or start a two player game. If you like, you can also pick your color and select which color starts the game."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kfourinline.yaml:0
+msgid "Each player is represented by a color (for example yellow or white for player one and red for player two)."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kfourinline.yaml:0
+msgid "The goal of the game is to get four connected pieces of your color into any row, column or diagonal."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kfourinline.yaml:0
+msgid "The players move in turns. Each turn the player can place one of his or her pieces into any of the seven columns where each piece will fall to the lowest possible free place. **Note**: *Bear in mind that you can only select the tiles which have either of their vertical sides open.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kfourinline.yaml:0
+msgid "After one player's move is done the second player can make his or her input. This is repeated until the game is over, which is when one of the players has four pieces in a row, column or diagonal or no more moves are possible because the board is filled."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kfourinline.yaml:0
+msgid "A player who first manages to get four pieces in a row, column or diagonal wins the game. If no more moves can be made but no player has won, the game ends drawn."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kgoldrunner.yaml:0
+msgid "You control a **hero** who must collect all the **gold** in the level while avoiding enemies trying to catch him."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kgoldrunner.yaml:0
+msgid "Each level has a different maze layout. The mazes use a multi-story platform scheme, with ladders and hand-to-hand bars for climbing. There are usually several ways to travel through the maze."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kgoldrunner.yaml:0
+msgid "You can dig holes in the floor and temporarily trap **enemies**. The **hero** may safely walk on top of an enemy trapped in a hole. After a while, the floor regenerates. If a hole fills up before an enemy climbs out, he is consumed and then reappears at another place in the maze."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kgoldrunner.yaml:0
+msgid "The **hero** and **enemies** can fall from any height without being injured, but cannot jump upwards, so it is possible for the **hero** to become trapped in a pit and then the player must kill the **hero**. The game starts with five lives and each level completed earns an extra life."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kgoldrunner.yaml:0
+msgid "Certain parts of the floor are trapdoors through which the player and **enemies** will fall and other parts are rocks which cannot be dug. The player finishes a level by collecting all the **gold** and then travelling to the top of the screen."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kiriki.yaml:0
+msgid "**Objective:** *Earn more score points than either of the opponents.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kiriki.yaml:0
+msgid "Once Kiriki starts, it right away gives out the first combination for the **player one**. If you are the **player one**, then it is now your turn, otherwise you will have to wait until all other players make their moves."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kiriki.yaml:0
+msgid "**Note**: By default, unless the game settings have been changed, and in single player mode, the first player is controlled by human (you), while all other five players are controlled by Artificial Intelligence."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kiriki.yaml:0
+msgid "Once it is your turn, the first thing you should do is examine the current roll. Each of the five dice on the left hand side of the game screen has a specific value. Check the sequence to see if these values form any of the **score patterns**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kiriki.yaml:0
+msgid "Keep in mind that the combination can match more than one **score pattern**. In this case you will have to determine which **score pattern** will result in greater points for you."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kiriki.yaml:0
+msgid "In case the current sequence matches no **score pattern**, or matches a **score pattern** you have already used up, you have two more rolls to fix the situation. To use your second (third) roll select the dice you are not satisfied with by clicking on them with your mouse and then clicking **Roll** button located right under the dice screen. This will cause the dice in question to reroll, thus changing their values."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kiriki.yaml:0
+msgid "After you have done the third reroll you must choose the **score pattern** which fits the dice sequence on hand. If none of the **score patterns** fits the sequence - you can either use **Chance score pattern**, or just select any **score pattern** on your scoreboard."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kiriki.yaml:0
+msgid "**Note**: *If you select score pattern that does not fit current dice sequence, the score pattern you select will become void and of zero value.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kiriki.yaml:0
+msgid "As soon as you choose the **score pattern** its value updates to reflect the dice sequence you currently have."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kiriki.yaml:0
+msgid "Right after that your turn ends and the next participant’s turn begins. This sequence repeats some thirteen times and then the game ends, the scores are calculated and the high scores are awarded."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kjumpingcube.yaml:0
+msgid "Objective: Conquer all the squares on the game board to win the round."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kjumpingcube.yaml:0
+msgid "KJumpingcube loads directly into the game mode, so you can start playing right away."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kjumpingcube.yaml:0
+msgid "You move by clicking on a **vacant square** or the one you already own. If you click on a **vacant square**, you gain an **ownership** over it and square’s color changes to your **playing color**. Each time you click on a square, the value of the square increases by one. If square's value reaches **maximum** (the maximum value any square can reach is six points), its points are distributed amongst the square’s immediate neighbors (the points ‘jump’ around). If a neighboring square happens to be owned by the **other player**, it gets taken over together with all of its points and changes color to your playing color."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kjumpingcube.yaml:0
+msgid "**Example**: If a square in the centre reaches five points, four of its points go to its four neighbors leaving the source square with a single point. It is possible for a cascade of automatic moves to occur if the neighboring squares also reach a maximum due to the points’ distribution."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kjumpingcube.yaml:0
+msgid "**Note**: *Large parts of the playing area can change hands very rapidly.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kjumpingcube.yaml:0
+msgid "The winner is the player who ends up owning all the squares on the board."
+msgstr ""
+
+#. +> trunk5
+#: data/games/klickety.yaml:0
+msgid "**Objective:** *Clear all the multicolored marbles off the game board.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/klickety.yaml:0
+msgid "Once the game starts you will be presented with a board filled with multicolored **marbles**. You can erase some of them as long as they are of the same color and are aligned either vertically or horizontally. If there are pieces of other color located over the erased **marbles**, they will drop down. In the same manner, all the **marbles** located on the right from the erased ones will shift to the left. You are expected to clear as much of the game board area as possible."
+msgstr ""
+
+#. +> trunk5
+#: data/games/klickety.yaml:0
+msgid "**Note**: Remember, you will be penalized for each remaining **marble**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/klines.yaml:0
+msgid "**Objective:** *Move the colored balls around the game board, gathering them into the lines of the same color by five.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/klines.yaml:0
+msgid "When **Klines** starts you are presented with the game board split into 81 squares (the game board is 9x9 squares), and right away three new colored balls appear on the board. Use your mouse to move the balls from cell to cell to group them into the lines of the **same color**. However, after each of your moves computer drops three more balls onto the board. To avoid feeling up the board you should gather the balls into **lines of 5 or more balls**. When such line is complete, balls are removed from the field and your **score** grows."
+msgstr ""
+
+#. +> trunk5
+#: data/games/klines.yaml:0
+msgid "**Note**: The new balls will not be added to the field after a line removal. Instead you will be **rewarded** with yet another move before a new triplet of balls is added."
+msgstr ""
+
+#. +> trunk5
+#: data/games/klines.yaml:0
+msgid "The increase in **score** depends solely on the amount of the erased balls."
+msgstr ""
+
+#. +> trunk5
+#: data/games/klines.yaml:0
+msgid "**Note**: *If you are playing with ‘Show Next’ feature enabled the increase in score is less than if ‘Show Next’ feature is disabled.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/klines.yaml:0
+msgid "**KLines** can not be won, and is played against the **highscore** exclusively. The game ends once the whole game board becomes filled up with balls."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmahjongg.yaml:0
+msgid "**Objective:** *Remove all the tiles off the game board by locating each tile’s matching pair as fast as possible.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmahjongg.yaml:0
+msgid "**KMahjongg** will load a default **layout** automatically one once you start the game and you can start playing right away."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmahjongg.yaml:0
+msgid "**Note:** *The game timer will not start until you make the first move.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmahjongg.yaml:0
+msgid "You should carefully study the stack of tiles laid out on the game board and find two tiles matching exactly (a matching pair). When you have found such a **pair** use your mouse to select them."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmahjongg.yaml:0
+msgid "**Note**: *Bear in mind that you can only select the tiles which have either of their vertical sides open.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmahjongg.yaml:0
+msgid "Once you have selected the right **pair** of tiles they will vanish off the game board, thus opening the tiles previously located underneath."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmahjongg.yaml:0 data/games/kshisen.yaml:0
+msgid "Find as many matches as possible to remove all the tiles from the game board."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmines.yaml:0
+msgid "**Objective:** *Locate all the mines hidden on the minefield.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmines.yaml:0
+msgid "To play **KMines**, you need to use the mouse and its three buttons to **uncover** or to flag the squares (with two-buttoned mice, clicking the **Middle Mouse Button** is generally achieved by simultaneously pressing the **Left Mouse Button** and the **Right Mouse Button** buttons)."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmines.yaml:0
+msgid "Clicking the **Left Mouse Button** on your mouse will **uncover** a square. If there is a **mine** there, it will detonate, and the game will be over. If there is not a **mine** under the square, the square is cleared and if there are no other **mines** nearby, the square will disappear including any nearby squares without **mines**. If there are **mines** nearby, a number will appear showing how many neighboring squares contain **mines**. For each square (*excluding edge and corner squares*), there are eight neighboring squares."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmines.yaml:0
+msgid "**Note**: ***Left Mouse Button clicking*** *a flagged square is safe and does nothing.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kmines.yaml:0
+msgid "The **Right Mouse Button** will mark a square as containing a **mine** (by placing a red flag on it). Clicking the button twice will set it as being uncertain (by placing a question mark on it). The uncertain tag can be useful when you are puzzled about the positions of **mines**. **The Middle Mouse Button** will clear the surrounding squares if the right number of squares is already flagged. It is very useful since it is much quicker than uncovering all individual squares. Make sure your flags are correctly placed, if not, you might detonate a **mine**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "**Objective:** *Sink all of the opponent’s ships before the opponent sink all the ships of your own.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "If you want to play Naval Battle, you will need two players, either play against the computer or in a network against another player. To play against your computer, first select the difficulty level on the right of the status bar, and then select **Single player** on the welcome screen, or directly on the **Game** menu."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "To start a network game, one player has to host the game by selecting **Host network game** on the welcome screen, or choosing **Game → Host Game…**. A dialog box opens which asks for a **Nickname:** and **Port:**. Normally, Naval Battle will suggest your full name, but you can enter any string you want. The predefined port should be ok. However, if you encounter problems, you can choose any other free port above 1024."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "**Note:** *You need to tell the other player in case you use a port other than the default as both players need to use the same port in order to be able to establish a connection.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "The other player has to choose **Connect to network game**, or click **Game → Connect to Game…**. Again, a **Nickname:** is suggested, but you can choose any name you like. In the field **Hostname:** you have to enter the host name of the server (the machine of the player that initiated the game)."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "When you are done, you can start the game. Simply follow the instructions in the statusbar. It will issue hints and suggest what to do next. When you now look at the screen, you will find two grid fields, the so-called \"battle areas\". The left area belongs to you. This is where you place your ships and where you can follow the military actions of your enemy. The right area is where your enemy's fleet is located. When it's your turn to fire, you need to click on a certain sector (a field of the battle area) where you suppose the ships to be located."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "First, you need to place your ships. The game initiator starts. When he/she is done, player two sets his/her ships."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "Ship placement is very easy: simply click on the field where you want to place your ships. You have four ships to place: the first one will have a length of one square, the next will be two squares long etc. Click on the field where you want to start the placement. By default, ships will be placed horizontally; to rotate them 90 degrees, click the **Right Mouse Button before the placement**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "When a ship is hit, fire will break out on it. To sink it, hit all the squares it occupies. A sunk ship will appear faded."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "Now you can use the **Left Mouse Button** to fire on the battle area of your enemy. The status bar indicates who is about to shoot."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "You can restart the game by choosing **Game → Restart Game**, or by pressing F5."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knavalbattle.yaml:0
+msgid "The first player to destroy all their opponents ships wins the game."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knetwalk.yaml:0
+msgid "The player is presented with a rectangular grid containing a **server**, several terminals (clients), and pieces of **wire**. The object of the game is to rotate these elements until every client is **connected** to the **server**, and no **wires** are left unconnected. Optionally, you can try to get a **high score** by minimizing the number of rotations needed."
+msgstr ""
+
+#. +> trunk5
+#: data/games/knetwalk.yaml:0
+msgid "Left clicking on a square rotates it counterclockwise, while right clicking rotates it clockwise. Middle clicking on a square marks it as blocked and prevents it from being rotated unless it gets unblocked by another middle click; this can be very useful for marking squares which are known to be in the correct orientation. The status bar displays the number of clicks so far."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kollision.yaml:0
+msgid "Click on the empty field to start a game: a blue ball immediately replaces your mouse cursor, and a number of red balls start to fade into the field."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kollision.yaml:0
+msgid "When the red balls finish materializing, they move at a random speed in a random direction, and you have to promptly dodge them moving the blue ball inside the field with your mouse. After some time, other red balls will appear, fading in as before and then starting to move. Be prepared to avoid them, too."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "When you start Konquest, press New Game to start a new game you will see a dialog in which you need to enter player names, decide the number of **planets**, and how many turns are allowed. You can also use the reject button to get a new map. When you're done, click OK to start the game."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Once the game starts, you will be presented with the game board. Blank squares are empty space, while filled squares identify the existing **planets**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "At first, each player owns one **planet**. The **planet's** background is the player color. If you move your mouse over a **planet**, you can view additional information. On **planets** which have not yet been conquered by anyone, you will only see the **planet's** name. The information includes:"
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Planet name"
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Owner"
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Ships"
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Production"
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Kill percent"
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "The name of the **planet** is how the **planet** is referred to in the game. Planets are named alphabetically with uppercase letters."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Owner is the player who owns the **planet**. If the **planet** is conquered by another player, this will change."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Ships are the current number of ships on the **planet**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Production is the number of ships the **planet** will produce each turn."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "The production varies from **planet** to **planet**, but always remains the same."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Kill percent is a measure of the effectiveness of the ships produced at that **planet**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "Attack fleets take the kill percentage of their **planet** of departure, and defense fleets use the kill percentage of the **planet** they are defending."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "You can easily see the **planet** name, the owner and the current number of ships on a **planet** in the square in which the **planet** lies. The owner is represented by the background color of the **planet**, the name is in the upper left corner and the number of ships is in the lower right corner."
+msgstr ""
+
+#. +> trunk5
+#: data/games/konquest.yaml:0
+msgid "To send ships from one **planet** to another, select the **planet** you want to send ships from, enter the number of ships in the green box in the upper right corner and press enter. Repeat this procedure until you have sent out all the ships you want. When you're done, press End Turn. When all players have played one turn, dialog boxes will appear and give you the latest news. The game will proceed like this until one of the players owns the entire galaxy."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kpat.yaml:0
+msgid "**Objective:** *Rearrange the cards by suite within shortest time possible.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kpat.yaml:0
+msgid "Essentially there are two types of **solitaire** games – the ones that let you arrange the cards **by same color** and the ones that let you arrange the cards by **alternating color**. You can easily determine which game you are trying out using trial-and-error method. Once you know which one you are dealing with, rest is easy; keep arranging and rearranging the cards, collecting the **matching** ones."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kpat.yaml:0
+msgid "From the beginning however, pay attention to your card stacks. Do not rush to move individual cards around, see if it might be more useful elsewhere."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kpat.yaml:0
+msgid "For additional help you can also take quick peeks onto the statusbar. For the most of the games there is a built in **solver** which informs you whether the game you are currently playing can be completed or not. If you see that **solver** could not complete the current game, chances are you will not be able to do so as well. At this point you can either **restart** the current game, or start a completely **new game**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kpat.yaml:0
+msgid "**Note**: *Playing solitaire games helps you to greatly improve your attention span and enhance the ability to concentrate.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kreversi.yaml:0
+msgid "**Objective:** *Get control over the majority of squares on the board.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kreversi.yaml:0
+msgid "**KReversi** loads directly into the game play mode. As a first player you have the right to move first."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kreversi.yaml:0
+msgid "**Note:** *By default the human player always has a right to the first move.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kreversi.yaml:0
+msgid "Now, imagine yourself that with each move your **stone** has to hop (jump) over the enemy's one (or ones, as there might be more than one stone). Yet, your **stone** does not relocate after the move, instead a new **stone** is placed on the board onto where your **stone** would have appeared if it indeed could jump. Once the move is done, all the enemy **stones** that you jump over, become yours and change their color respectively."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kreversi.yaml:0
+msgid "Every single move you do in KReversi has to be done in this manner. And you can jump your stones vertically, horizontally and diagonally. But, in case there is nowhere to jump, your turn will automatically skip."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kreversi.yaml:0
+msgid "**Note**: *The same rule applies to your enemy. If there is no possibility to make a move the turn is skipped.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kreversi.yaml:0
+msgid "The idea here is to fill the board with the **stones** of your own color. The player who manages to conquer the most of the game board is announced the winner."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kshisen.yaml:0
+msgid "**Objective:** *Remove all the tiles from the game board within the shortest time possible.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kshisen.yaml:0
+msgid "**KShisen** will load a default layout automatically once you start the game and you can start playing right away."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kshisen.yaml:0
+msgid "You should carefully study the tiles laid out on the game board and find two tiles matching exactly. When you have found such a pair use your mouse to select them."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kshisen.yaml:0
+msgid "Once you select a matching pair of tiles they will vanish from the game board. However, even if the tiles you select appear as open they will only be removed from the board if they can be connected with a line having at most two bends and not crossing any other tiles (the line can not be diagonal)."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksirk.yaml:0
+msgid "When you start **KsirK**, press **New Game** to start a new game you will see a dialog in which you need to choose the skin (map and countries) to use, how much players there will be and if they are played by the computers. You will also be able to start a network game if needed. Finally, you can choose the type of game: conquer the world or reach a specific goal like e.g. conquer Africa and Asia continents."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksirk.yaml:0
+msgid "Then you will choose the nationality and name of local players. At the beginning of the game, countries are distributed to all the players. Each country contain one army (represented by an infantryman in the default skin) at this moment. Each player has some armies to distribute to his countries. Note that five armies are represented by a cavalryman and 10 by a cannon."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksirk.yaml:0
+msgid "On each turn, each player can attack his neighbours, eventually conquering one or more countries. At the end of each turn, some bonus armies are distributed to the players in function of the number of countries they own."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kspaceduel.yaml:0
+msgid "**Objective:** *Destroy the opponent's **satellite**, while keeping the own one in tact.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kspaceduel.yaml:0
+msgid "**KSpaceduel** loads directly into the game mode; however, the action does not start until either player makes the first move."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kspaceduel.yaml:0
+msgid "**Note**: *If the opponent’s **satellite** is controlled by the built in artificial intelligence, game action does not start until the human player makes the first move.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kspaceduel.yaml:0
+msgid "In **KSpaceduel** you control the ship’s rotation, acceleration, and weaponry. Your **satellite** is constantly drawn towards the sun by gravity. You have to adjust the rotation and acceleration of your ship to make it stay on course."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kspaceduel.yaml:0
+msgid "**Note**: *Approaching the sun too close causes the satellite to explode.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/kspaceduel.yaml:0
+msgid "In the same time you have to monitor the opponent’s movement and use your weapons consisting of bullets and mines, to destroy the enemy spacecraft."
+msgstr ""
+
+#. +> trunk5
+#: data/games/kspaceduel.yaml:0
+msgid "**Note**: *Your own weapons are as harmful to your satellite as they are to the enemy one.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksquares.yaml:0
+msgid "**Objective:** *Complete more squares than any of your opponents.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksquares.yaml:0
+msgid "At the start of the game, the game board is empty. There is simply a grid of dots showing where lines can be drawn."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksquares.yaml:0
+msgid "**Note**: *Depending on the game difficulty chosen, the game field may already contain lines at the beginning of the game round.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksquares.yaml:0
+msgid "Each player takes it in turns to draw a line between two adjacent dots on the board. By hovering the mouse over the game board, a yellow indicator line will show you where your line will be placed when you click. Once you have decided where you want to draw your line, click - and the line will be drawn. If by drawing a line, you completed a square then this square now belongs to you and earns you a point. Each time you complete a square, you must draw another line. If your line did not complete a square then the next player(s) take their turn. The game will continue until every square on the board is owned by one of the players."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksquares.yaml:0
+msgid "To start a new game with custom settings (number of players, player names, board size) click on the \"New\" toolbar item or go to **Game->New**. To start a new game with the same settings as the current game, click on **Reset** button on the toolbar."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksudoku.yaml:0
+msgid "**Objective:** *Fill the grid so that each column, row as well as each square sector on the game field contains only one instance of each symbol.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksudoku.yaml:0
+msgid "At the game start you are prompted to choose which game type you are interested in."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksudoku.yaml:0
+msgid "**Note**: *The game experience may change slightly depending on the game type you choose.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksudoku.yaml:0
+msgid "Take a look at left hand side of the game field. There is a selection list which contains all the symbols available for you to use in the current game."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksudoku.yaml:0
+msgid "**Note**: The set of **symbols** varies depending on the game type you choose."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksudoku.yaml:0
+msgid "First, note the boundaries of the game field. The thick black lines outline the sectors. Every one of this sectors has to be completed using the **symbols** available, in such a way that each **symbol** is used within the sector area once and only once."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksudoku.yaml:0
+msgid "Now you can start entering the **symbols** into the vacant squares on the game field. You can do that by selecting the **symbol** you wish to enter from the selection list on the left, and then using your mouse to click on the vacant square on the game field."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksudoku.yaml:0
+msgid "Notice that the squares change color while you hover your mouse over them. This is to help you keep up with the rules of **KSudoku**. Use the vertical and horizontal lines to check if the **symbol**, you are about to enter into the vacant spot, is already in use anywhere in the vertical or horizontal line that square is a part of. The coloring also highlights the sector which, if you remember, must also contain only one instance of each **symbol**."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ksudoku.yaml:0
+msgid "Keep entering **symbols** in accordance with the rules until the whole game field is filled up. At this point the application will check if all the entries are valid and will either correct you or accept your solution."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ktuberling.yaml:0
+msgid "**KTuberling** is a game intended for small children. Of course, it may be suitable for adults who have remained young at heart."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ktuberling.yaml:0
+msgid "It is a **\"potato editor\"**. That means that you can drag and drop eyes, mouths, mustache, and other parts of face and goodies onto a potato-like guy. Similarly, you have other playgrounds with different themes."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ktuberling.yaml:0
+msgid "There is no winner for the game. The only purpose is to make the funniest faces you can."
+msgstr ""
+
+#. +> trunk5
+#: data/games/ktuberling.yaml:0
+msgid "**KTuberling** can also \"speak\". It will spell out the name of the objects you drag and drop. It will \"speak\" in a language that you can choose. You can even use it to learn a bit of vocabulary in foreign languages."
+msgstr ""
+
+#. +> trunk5
+#: data/games/lskat.yaml:0
+msgid "**Objective:** *Score more than 60 points in a single game.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/lskat.yaml:0
+msgid "Once dealing is finished each player ends up with 16 **cards** each. **Cards** are displayed in two horizontal rows - four **cards** per row. Half of the cards are face down and half are face up. As a player you can see the opponent's **cards** as well as your own. You can make a move then by clicking on any of your **cards** which are currently face up. The opponent has to reply by choosing a corresponding card form his/her own stack."
+msgstr ""
+
+#. +> trunk5
+#: data/games/lskat.yaml:0
+msgid "**Note**: *If your opponent is artificial intelligence, its cards will be chosen automatically.*"
+msgstr ""
+
+#. +> trunk5
+#: data/games/lskat.yaml:0
+msgid "Once the exchange is finished values of the played **cards** are evaluated and either you or your opponent is awarded points. The game is complete in 16 rounds *(when all of your and your opponent's cards have been played)*. After the game ends your score is being compared to that of your opponent and the player with the higher score wins the round."
+msgstr ""
+
+#. +> trunk5
+#: data/games/picmi.yaml:0
+msgid "**Objective**: The player is presented with a blank board, and a list of numbers for each row and column. These numbers represent how runs are organized within any given row or column. For example, a number sequence of **4 8 3** would mean there are sets of four, eight, and three filled cells, in that order, with at least one blank cell between successive groups. The objective of the game is to use these hints to uncover the actual solution, and do this as quickly as possible."
+msgstr ""
+
+#. +> trunk5
+#: data/games/picmi.yaml:0
+msgid "A left-click (un)marks a cell as occupied, while a right click (un)marks a cell as empty. Dragging may be used to mark several cells in a row or column in one go. The elapsed time is displayed in the status bar, and an overview of the game board is located in the upper left corner. A game is completed once all occupied cells have been marked correctly."
+msgstr ""
+
+#. +> trunk5
+#: data/games/picmi.yaml:0
+msgid "The current placement of boxes and crosses (referred to as 'states' from now on) can be saved at any time. Saving a new state does not overwrite previous saved states. Restoring a state always returns to the most recently saved state. This can be repeated until no more saved states remain. The number of actions since the latest saved state is displayed in the status bar."
+msgstr ""
+
+#. +> trunk5
+#: data/games/picmi.yaml:0
+msgid "Picmi includes two game modes. Random puzzles (generated by selecting **New** from the menu) are generated according to the selected difficulty settings. Alternatively, the included preset puzzles can be played by selecting **Load**."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Applications"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Windows"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Android"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "macOS"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "iOS"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Unmaintained"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Categories"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Other platforms"
+msgstr ""
+
+#. Label for sub-category of apps that do not belong to any sub-categories
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Others"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Popular"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Filter by name and description"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Filter by category"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Filter by platform"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "All categories"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "All platforms"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Sort applications by"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Popularity, descending"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Popularity, ascending"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Name, ascending"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Name, descending"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Other platforms KDE applications are available on"
+msgstr ""
+
+#. %1 app name
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "%1 icon"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "This app is unmaintained and no longer released by the KDE community."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "This app is still in development and isn't released yet by the KDE community."
+msgstr ""
+
+#. Label for a list of apps that an addon extends
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Extends:"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Install on Linux"
+msgstr ""
+
+#. %1 app name
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "%1 nightly installers are also available to download from the [KDE CDN](https://cdn.kde.org/ci-builds/). These versions are intended for testing purpose. [Get involved and help us make them better!](https://community.kde.org/Get_Involved)"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Nightly installers"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Stable version."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Generated from the latest version of the stable branch. Contains the latest bugfixes."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Unstable version."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Generated from the latest version of the development branch."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "macOS ARM"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "macOS Intel"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Releases"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "AppImage"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Extensions"
+msgstr ""
+
+#. %1 app name
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Details for %1"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Project website"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Report a bug"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Browse source code"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Get help"
+msgstr ""
+
+#. %1 app name
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "%1 Handbook"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Forum"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid " on Libera.chat"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Get involved"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "How to contribute"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Developer blogs:"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Bug list"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Legacy API Documentation"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Trunk GUI"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Stable GUI"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Doc"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Author(s):"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Thanks to:"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Supported by:"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Support %1 too by joining our yearly fundraiser."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Mastodon"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Vocabulary Files"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Here we present some contributions to our applications."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid ""
+"All the files here are distributed under free licenses. If not otherwise stated this is the <b>GNU General Public License</b>. You are encouraged to download and use the files according to their license.<br />"
+"<b>And you are even more encouraged to contribute your own files or improve the existing ones!</b>"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Create Your Files"
+msgstr ""
+
+#. %1 link
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "You can create a vocabulary file using [KWordQuiz](%1). You add the back and front for each cards and then you save your data."
+msgstr ""
+
+#. %1 link
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "You can also use [Parley](%1). Parley offers a wealth of editing possibilities."
+msgstr ""
+
+#. %1 link
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Please see [here](%1) for an example of a vocabulary file if you want to create one with an editor."
+msgstr ""
+
+#. %1, %2, %3, %4 links
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "The learning files listed here are intended for use with [Parley](%1) and [KWordQuiz](%2). To some extent these files also work with [Kanagram](%3) and [KHangMan](%4)."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Vocabulary / Languages"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Anatomy / Physiology"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Joints"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Bones"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Muscles"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Ligamenti"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Miscellaneous"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Music"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Guitar"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Music Theory"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "History"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Geography"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Maths"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Chemistry"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Exam Preparation"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Additional information"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "KDE Games"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "High Quality Gaming and Entertainment Software"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "**KDE Games** is a part of the [KDE community](https://kde.org) focusing on providing desktop users with high quality gaming and entertainment software."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "We realize that games are first and foremost about fun and our greatest ambition is to create only the most enjoyable and amusing playware. The **KDE Games** team achieves this goal by paying greater attention to gaming details, using the latest **KDE** based technology, and listening closely to our users' feedback."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "To date **KDE Games** has accumulated an impressive selection of quality games in nearly all genres. Each of these small masterpieces have been carefully tailored to satisfy the demands of all, even the most pretentious gamers."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "All Games"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "older games"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "How to play"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Development"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Education"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Games"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Graphics"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Internet"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Multimedia"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Office"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "System"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Utilities"
+msgstr ""

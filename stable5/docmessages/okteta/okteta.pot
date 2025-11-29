@@ -1,0 +1,2177 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:10
+#, no-c-format
+msgid "The &okteta; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:13
+#, no-c-format
+msgid ""
+"<firstname>Friedrich</firstname><othername>W. H.</"
+"othername><surname>Kossebau</surname>"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:16
+#, no-c-format
+msgid "&Friedrich.Kossebau.email;"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:19
+#, no-c-format
+msgid "<firstname>Alex</firstname><surname>Richardson</surname>"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:22
+#, no-c-format
+msgid "&Alex.Richardson.email;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:25
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:30
+#, no-c-format
+msgid "&Friedrich.Kossebau; and &Alex.Richardson;"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:34
+#, no-c-format
+msgid "2018-03-23"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:35
+#, no-c-format
+msgid "&okteta; 0.24.60"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:38
+#, no-c-format
+msgid ""
+"&okteta; is a simple editor for the raw data of files. This type of program "
+"is also called hex editor or binary editor."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:43
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:44
+#, no-c-format
+msgid "Okteta"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:45
+#, no-c-format
+msgid "view"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:46
+#, no-c-format
+msgid "edit"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:47
+#, no-c-format
+msgid "bits"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:48
+#, no-c-format
+msgid "bytes"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:49
+#, no-c-format
+msgid "binary"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:50
+#, no-c-format
+msgid "octal"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:51
+#, no-c-format
+msgid "hexadecimal"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:52
+#, no-c-format
+msgid "hex editor"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:53
+#, no-c-format
+msgid "raw data"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:58
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:60
+#, no-c-format
+msgid "&okteta; is a simple editor for the raw data of files."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:62
+#, no-c-format
+msgid ""
+"The data is displayed in two variants: as the numeric values of the bytes "
+"and as the character assigned to the values. Values and characters can be "
+"shown either in two columns (the traditional display in hex editors) or in "
+"rows with the value on top of the character. Editing can be done both for "
+"the values and for the characters."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:68
+#, no-c-format
+msgid ""
+"Besides the usual editing capabilities &okteta; also brings a small set of "
+"tools, like a table listing decodings into common simple data types, a table "
+"listing all possible bytes with their character and value equivalents, an "
+"info view with a statistic, a checksum calculator, a filter tool and a "
+"string extraction tool."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid "All modifications to the data loaded can be endlessly undone or redone."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:79
+#, no-c-format
+msgid "Basics"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:82
+#, no-c-format
+msgid "Starting &okteta;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:84
+#, no-c-format
+msgid ""
+"Type <userinput><command>okteta</command></userinput> at a command prompt or "
+"select <guimenuitem>Hex Editor</guimenuitem> from the "
+"<menuchoice><guisubmenu>Applications</guisubmenu><guisubmenu>Utilities</"
+"guisubmenu> </menuchoice> group in the application launcher."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:89
+#, no-c-format
+msgid ""
+"The standard &Qt; and &kf5-full; command line options are available, and can "
+"be listed by entering <userinput><command>okteta</command> <option>--help</"
+"option></userinput>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:93
+#, no-c-format
+msgid "Command line options specific to &okteta; are:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:95
+#, no-c-format
+msgid ""
+"<option><replaceable>&lt;&URL;(s)&gt;</replaceable></option> - open file(s) "
+"from the specified &URL;(s)"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:101
+#, no-c-format
+msgid "Usage"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:103
+#, no-c-format
+msgid ""
+"The main &okteta; window has the following components: a menu bar, a "
+"toolbar, a status bar, one or several sidebars with tools, and the main view "
+"with the tabbed data views."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:107
+#, no-c-format
+msgid ""
+"When a file is opened or a new byte array is created, the bytes contained "
+"are listed consecutively in lines with a given number of bytes per line. "
+"They are displayed in two variants: as the numeric values of the bytes and "
+"as the characters assigned to the values. Values and characters can be shown "
+"either separated in two columns or next to each other with the value on top "
+"of the character. On the left side the offsets of the first byte in each "
+"line are shown."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:115
+#, no-c-format
+msgid ""
+"The handling is similar to that of most text editors: the data can be "
+"edited, cut, copied, pasted, dragged and dropped much as text in these can. "
+"A cursor marks the current position. Pressing the <keycap>Insert</keycap> "
+"key toggles between the overwrite and insert modes. The overwrite mode is "
+"stricter than in text editors, as it doesn't allow any operation which "
+"changes the size of the byte array."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:122
+#, no-c-format
+msgid ""
+"Other than in text editors the content is displayed in two variants. Only "
+"one of these is active with regard to new input. There are two linked "
+"cursors shown for the value and the character display, the cursor of the "
+"active one is blinking. With the characters active, characters can be "
+"entered as known from text editors. With the values active, typing a digit "
+"will open a minimal editor to enter the rest of the value."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:129
+#, no-c-format
+msgid ""
+"The search dialog allows the user to search for a specific string of bytes, "
+"definable as values (hexadecimal, decimal, octal, binary) or text (current 8-"
+"bit encoding or UTF-8)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:133
+#, no-c-format
+msgid ""
+"Multiple byte arrays can be open at the same time, but only one can be "
+"active. Use the <guimenu>Windows</guimenu> menu to select which byte array "
+"will be active."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:142
+#, no-c-format
+msgid "Tools"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:155
+#, no-c-format
+msgid "Overview"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:156
+#, no-c-format
+msgid ""
+"&okteta; brings some tools, some to analyze and manipulate the byte arrays "
+"and some with more general purpose. These tools can be activated or "
+"deactivated from the <guimenu>Tools</guimenu> entry in the menu bar. Each "
+"tool has a small view, which docks either in one of the sidebars or freely "
+"floats as a window. You can dock, undock, rearrange and also stack the tool "
+"views with the mouse, by pressing the &LMB; on the title bar of a tool view, "
+"moving it as you like and releasing the &LMB; to complete the action, "
+"otherwise cancel it by pressing the &Esc; key."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:166
+#, no-c-format
+msgid "Analyzers and Manipulators"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:169
+#, no-c-format
+msgid "Value/Char Table"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:170
+#, no-c-format
+msgid ""
+"The table lists all possible byte values, both as character and in the "
+"different numerical codings."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:172
+#, no-c-format
+msgid ""
+"The selected value can be inserted at the cursor position for a defined "
+"number of bytes. This can be achieved by using the <guibutton>Insert</"
+"guibutton> button or double-clicking the line in the table."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:178
+#, no-c-format
+msgid "Binary Filter"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:179
+#, no-c-format
+msgid ""
+"The filter performs binary operations on the selected bytes. After choosing "
+"the operation (AND, OR, ROTATE..) the parameters, if any, can be set in the "
+"box below. The filter is executed on the use of the <guibutton>Filter</"
+"guibutton> button."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:186
+#, no-c-format
+msgid "Strings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:187
+#, no-c-format
+msgid ""
+"This tool locates the strings in the selected bytes. After choosing the "
+"minimum string length, the strings are grepped for on the use of the "
+"<guibutton>Extract</guibutton> button. The list of the strings displayed can "
+"be narrowed by entering a filter term."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:195
+#, no-c-format
+msgid "Statistics"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:196
+#, no-c-format
+msgid ""
+"This tool builds a statistic for the selected bytes. The statistic gives the "
+"frequency of the occurrence of each byte value in the selection. It can be "
+"calculated by using the <guibutton>Build</guibutton> button."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:204
+#, no-c-format
+msgid "Checksum"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:205
+#, no-c-format
+msgid ""
+"This tool calculates various checksums or hashsums for the selected bytes. "
+"After choosing the algorithm and setting the parameter, if any, the sum is "
+"computed on the use of the <guibutton>Calculate</guibutton> button."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:212
+#, no-c-format
+msgid "Decoding Table"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:213
+#, no-c-format
+msgid ""
+"The table displays the values of the byte or the bytes starting at the "
+"cursor for some common simple data types like Integer or Float, but also "
+"UTF-8. Double-clicking on a line in the table opens an editor, so the value "
+"can be edited and changed."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:220
+#, no-c-format
+msgid "Structures"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:221
+#, no-c-format
+msgid ""
+"This tool enables investigating and editing of byte arrays based on user-"
+"creatable structure definitions. Detailed instructions are in an own <link "
+"linkend=\"tools-structures\">section</link>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:229
+#, no-c-format
+msgid "General tools"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:232
+#, no-c-format
+msgid "Filesystem"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:233
+#, no-c-format
+msgid ""
+"This tool offers an embedded file browser which can be used to select files "
+"to open."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:238
+#, no-c-format
+msgid "Documents"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:239
+#, no-c-format
+msgid ""
+"This tool shows all currently created or loaded files. Symbols mark the file "
+"with the currently active view and also show which files have unsaved "
+"changes or which storage copy has been modified by another program."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:246
+#, no-c-format
+msgid "Bookmarks"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:247
+#, no-c-format
+msgid ""
+"This tool can be used to manage the bookmarks, alternatively to the <link "
+"linkend=\"bookmarks-menu\"><guimenu>Bookmarks</guimenu></link> menu."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:249 index.docbook:1055
+#, no-c-format
+msgid ""
+"Bookmarks are currently only transient and not saved if you close a byte "
+"array or the whole program."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:254
+#, no-c-format
+msgid "File Info"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:255
+#, no-c-format
+msgid ""
+"This tool displays some information about the current file, including its "
+"type, the location of storage and the size."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:260
+#, no-c-format
+msgid "Terminal"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:261
+#, no-c-format
+msgid ""
+"An embedded Terminal, the working directory is not coupled with the active "
+"file."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:265
+#, no-c-format
+msgid "Charset Conversion"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:266
+#, no-c-format
+msgid ""
+"The tool rewrites the bytes so the respective chars are the same as with the "
+"other charset. Only 8-bit charsets are supported, and unmatched chars are "
+"currently substituted with a value hardcoded to 0."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:281
+#, no-c-format
+msgid "Structures Tool"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:284
+#, no-c-format
+msgid "General"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:286
+#, no-c-format
+msgid ""
+"The Structures tool enables analyzing and editing of byte arrays based on "
+"user-creatable structure definitions, which can be built from arrays, "
+"unions, primitive types and enum values."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:290
+#, no-c-format
+msgid ""
+"It has an own settings dialog, which can be reached by using the "
+"<guibutton>Settings</guibutton> button. There are various options that can "
+"be configured, like the style (decimal, hexadecimal or binary) in which the "
+"values are displayed. Moreover it is possible to choose which structure "
+"definitions get loaded and which structures are shown in the view."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:295
+#, no-c-format
+msgid ""
+"Structures are defined in &okteta; Structure Definition files (based on "
+"&XML;, with the file extension <literal role=\"extension\">.osd</literal>). "
+"Additionally a <literal role=\"extension\">.desktop</literal> file contains "
+"metadata about that structure description file, such as author, homepage and "
+"license."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:300
+#, no-c-format
+msgid ""
+"Currently there is no built-in support for creating or editing structure "
+"definitions, therefore this must be done manually as described in the next "
+"sections."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:306
+#, no-c-format
+msgid "Installing structure definitions"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:309
+#, no-c-format
+msgid "Installing using KNewStuff"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:310
+#, no-c-format
+msgid ""
+"The easiest way of installing new structure definitions is by using the "
+"built-in KNewStuff support in &okteta;. To install an existing structure "
+"open the settings dialog of the Structures tool. There select the "
+"<guilabel>Structures Management</guilabel> tab and press the <guibutton>Get "
+"New Structures...</guibutton> button. The dialog that shows up now allows "
+"you to install and uninstall structures."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:317
+#, no-c-format
+msgid "Installing structure definitions manually"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:318
+#, no-c-format
+msgid ""
+"The Structures tool looks for structure descriptions in the subdirectory "
+"<filename class=\"directory\">okteta/structures/</filename> of the user's "
+"directory for program data (find that by executing "
+"<userinput><command>qtpaths</command> <option>--paths GenericDataLocation</"
+"option></userinput>). You may need to create this directory if there are no "
+"structure definitions installed yet."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:324
+#, no-c-format
+msgid ""
+"Two files exist for every structure definition: One file for the actual "
+"definition and a <literal role=\"extension\">.desktop</literal> file for the "
+"metadata (author, version, etc.)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:326
+#, no-c-format
+msgid ""
+"In that directory there is a subdirectory for each structure definition, "
+"which contains both the <literal role=\"extension\">.desktop</literal> file "
+"and the <literal role=\"extension\">.osd</literal> or <filename>main.js</"
+"filename> file of that definition."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:330
+#, no-c-format
+msgid ""
+"For example, with the program data directory <filename class=\"directory"
+"\"><userinput><command>qtpaths</command> <option>--paths "
+"GenericDataLocation</option></userinput></filename> and a structure "
+"definition named ExampleStructure there is the directory <filename class="
+"\"directory\">okteta/structures/ExampleStructure</filename> which contains a "
+"file <filename>ExampleStructure.desktop</filename> and a file "
+"<filename>ExampleStructure.osd</filename>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:338
+#, no-c-format
+msgid "Using the newly installed structures"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:339
+#, no-c-format
+msgid ""
+"After having installed a new structure definition you need to restart "
+"&okteta; before you can use it. Once &okteta; has started, open the settings "
+"dialog of the Structures tool. There select the <guilabel>Structures "
+"Management</guilabel> tab and make sure the relevant structure definition is "
+"checked. Then switch to the <guilabel>Structures</guilabel> tab and make "
+"sure the desired element is listed on the right-hand side."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:349
+#, no-c-format
+msgid "Sharing structure definitions"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:350
+#, no-c-format
+msgid ""
+"For common structures you may not need to create a definition yourself, but "
+"instead can reuse an already existing definition from places like <ulink url="
+"\"https://store.kde.org/browse/cat/214\">store.kde.org</ulink>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:353
+#, no-c-format
+msgid ""
+"You also may want to share a definition yourself. To do so, create a file "
+"archive (&eg; a zipped tar archive, <literal role=\"extension\">.tar.gz</"
+"literal>) containing just the subdirectory with the <literal role=\"extension"
+"\">.desktop</literal> file and the structure definition file. Looking at the "
+"example in the last section this would be the directory <filename class="
+"\"directory\">ExampleStructure</filename> with all its contents. Using this "
+"format for sharing the structure definitions allows installing them inside "
+"&okteta; and requires no manual installation."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:364
+#, no-c-format
+msgid "Creating structure definitions"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:366 index.docbook:384 index.docbook:562
+#, no-c-format
+msgid ""
+"A more up to date, but not completed guide to writing structure definitions "
+"can be found <ulink url=\"https://userbase.kde.org/Okteta/"
+"Writing_structure_definitions\">on the KDE UserBase Wiki</ulink>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:370
+#, no-c-format
+msgid ""
+"There are two different ways of creating structure definitions. The first is "
+"writing the definition in &XML; the other is using JavaScript. The "
+"JavaScript approach allows you to create more complex structures with "
+"features like &eg; validating the structure. Using &XML; gives you less "
+"features but if a static structure is all you need this may be the easiest "
+"approach. If you need a dynamic structure i.e. where array lengths depend on "
+"other values in the structure or the structure layout is different when some "
+"member value changes, then you will have to write the structure definition "
+"in JavaScript. There is one exception to that rule: if you have an array "
+"where the length is supposed to be <emphasis role=\"bold\">exactly</"
+"emphasis> the same as another value in the structure, then you can use "
+"&XML;. But if it is something like <emphasis>length - 1</emphasis> it has to "
+"be JavaScript."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:383
+#, no-c-format
+msgid "Structure definition &XML; file format"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:387
+#, no-c-format
+msgid ""
+"The <literal role=\"extension\">.osd</literal> &XML; file has one root "
+"element: <emphasis>&lt;data&gt;</emphasis> with no attributes. Inside this "
+"element there must be one of the following elements:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:394
+#, no-c-format
+msgid "&lt;primitive&gt;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:395
+#, no-c-format
+msgid ""
+"To create a primitive data types like &eg; <emphasis>int</emphasis> and "
+"<emphasis>float</emphasis>. This element accepts no subelements and can have "
+"the following attributes:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:399 index.docbook:426 index.docbook:459 index.docbook:536
+#, no-c-format
+msgid "type"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:401
+#, no-c-format
+msgid "The type of this primitive type. It must be one of the following:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:403
+#, no-c-format
+msgid "<emphasis>char</emphasis> for a 8 bit ASCII character"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:404
+#, no-c-format
+msgid ""
+"<emphasis>int8, int16, int32, int64</emphasis> for a signed integer of that "
+"size"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:405
+#, no-c-format
+msgid ""
+"<emphasis>uint8, uint16, uint32, uint64</emphasis> for an unsigned integer "
+"of that size"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:406
+#, no-c-format
+msgid ""
+"<emphasis>bool8, bool16, bool32, bool64</emphasis> for an unsigned boolean "
+"(0 = false, any other value = true) of that size"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:407
+#, no-c-format
+msgid "<emphasis>float</emphasis> for a 32 bit IEEE754 floating point number"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:408
+#, no-c-format
+msgid "<emphasis>double</emphasis> for a 64 bit IEEE754 floating point number"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:417
+#, no-c-format
+msgid "&lt;bitfield&gt;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:418
+#, no-c-format
+msgid ""
+"To create a bitfield. This element accepts no subelements and can have the "
+"following attributes:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:422
+#, no-c-format
+msgid "width"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:423
+#, no-c-format
+msgid "The number of bits used by this bitfield. Must be between 1 and 64."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:428
+#, no-c-format
+msgid "The type of this bitfield. It must be one of the following:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:430
+#, no-c-format
+msgid ""
+"<emphasis>unsigned</emphasis> for a bitfield where the value will be "
+"interpreted as an unsigned value (value range from 0 to 2<superscript>width</"
+"superscript> - 1)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:432
+#, no-c-format
+msgid ""
+"<emphasis>signed</emphasis> for a bitfield where the value will be "
+"interpreted as a signed value (value range from -2<superscript>width - 1</"
+"superscript> to 2<superscript>width - 1</superscript> - 1)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:435
+#, no-c-format
+msgid ""
+"<emphasis>bool</emphasis> for a bitfield where the value will be interpreted "
+"as a boolean value"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:438
+#, no-c-format
+msgid ""
+"Always remember to add padding after a <emphasis>&lt;bitfield&gt;</"
+"emphasis>, since otherwise the next element (except for strings and arrays, "
+"since they add padding automatically) will start in the middle of a byte. "
+"Obviously padding is not necessary if you want this behavior."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:448
+#, no-c-format
+msgid "&lt;enum&gt;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:449
+#, no-c-format
+msgid ""
+"To create a primitive type, but where the values are displayed as members of "
+"an enumeration if possible. This element accepts no subelements (however you "
+"will need an <emphasis>&lt;enumDef&gt;</emphasis> tag in the file to "
+"reference it). It has the following attributes:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:454
+#, no-c-format
+msgid "enum"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:455
+#, no-c-format
+msgid ""
+"The underlying enum for this value. Must match the <emphasis>name</emphasis> "
+"attribute of one of the <emphasis>&lt;enumDef&gt;</emphasis> tags in this "
+"file."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:461
+#, no-c-format
+msgid ""
+"The type of this enum. See type attribute of <emphasis>&lt;primitive&gt;</"
+"emphasis>. Only difference is that <emphasis>Double</emphasis> and "
+"<emphasis>Float</emphasis> make no sense."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:471
+#, no-c-format
+msgid "&lt;flags&gt;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:472
+#, no-c-format
+msgid ""
+"This is the same as <emphasis>&lt;enum&gt;</emphasis> with the only "
+"difference being that values are represented as a <emphasis>bitwise-or</"
+"emphasis> of all the values of the enumeration."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:477
+#, no-c-format
+msgid "&lt;struct&gt;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:478
+#, no-c-format
+msgid ""
+"To create a structure. All other elements (including <emphasis>&lt;struct&gt;"
+"</emphasis>) can be a child of this and will then be part of the resulting "
+"structure"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:483
+#, no-c-format
+msgid "&lt;union&gt;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:484
+#, no-c-format
+msgid ""
+"To create a union. Basically the same as <emphasis>&lt;struct&gt;</emphasis> "
+"except for the fact that all child elements will start from the same offset. "
+"Useful for interpreting the same sequence of bytes in various ways."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:490
+#, no-c-format
+msgid "&lt;array&gt;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:491
+#, no-c-format
+msgid ""
+"To create an array. This element accepts exactly one child (the underlying "
+"type of the array), which can be any of the elements, even <emphasis>&lt;"
+"array&gt;</emphasis> itself. It also has the following attributes:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:496
+#, no-c-format
+msgid "length"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:497
+#, no-c-format
+msgid ""
+"The number of elements in this array as a decimal number. Alternatively it "
+"can also be a string which matches the name attribute of a previously "
+"defined <emphasis>&lt;primitive&gt;</emphasis>, <emphasis>&lt;enum&gt;</"
+"emphasis> or <emphasis>&lt;flags&gt;</emphasis> element. Then the length "
+"will be the value of that element. Currently it is limited to 10000, because "
+"larger arrays would use too much memory and slow down the tool too much."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:510
+#, no-c-format
+msgid "&lt;string&gt;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:511
+#, no-c-format
+msgid ""
+"To create a string in various encodings. By default you get a "
+"<emphasis>NULL</emphasis>- terminated C-style string. However different "
+"types of string can be created with the following attributes:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:515
+#, no-c-format
+msgid "terminatedBy"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:516
+#, no-c-format
+msgid ""
+"This attribute determines what unicode codepoint the string is terminated "
+"by. It must be a hexadecimal number (optionally with leading <emphasis>0x</"
+"emphasis>). When encoding is ASCII, only values up to 0x7f are meaningful. "
+"If neither this nor <emphasis>maxCharCount</emphasis> nor "
+"<emphasis>maxByteCount</emphasis> are set, this is assumed to be set to 0 (C-"
+"style string)"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:523
+#, no-c-format
+msgid "maxCharCount"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:524
+#, no-c-format
+msgid ""
+"The maximum number of chars this string can have. If <emphasis>terminatedBy</"
+"emphasis> is set too then whatever is reached first terminates the string. "
+"This is mutually exclusive with <emphasis>maxByteCount</emphasis>"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:529
+#, no-c-format
+msgid "maxByteCount"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:530
+#, no-c-format
+msgid ""
+"The maximum number of bytes this string can be long. If "
+"<emphasis>terminatedBy</emphasis> is set too then whatever is reached first "
+"terminates the string. This is mutually exclusive with "
+"<emphasis>maxCharCount</emphasis>. With encodings like <emphasis>ASCII</"
+"emphasis> this is the same as <emphasis>maxCharCount</emphasis>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:537
+#, no-c-format
+msgid "The encoding of this string. Can be one of the following:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:539
+#, no-c-format
+msgid "ASCII"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:540
+#, no-c-format
+msgid "LATIN-1"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:541
+#, no-c-format
+msgid "UTF-8"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:542
+#, no-c-format
+msgid ""
+"<emphasis>UTF-16-LE</emphasis> or <emphasis>UTF-16-BE</emphasis>. If neither "
+"<emphasis>-LE</emphasis> or <emphasis>-BE</emphasis> suffix is given, little "
+"endian is assumed."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:545
+#, no-c-format
+msgid ""
+"<emphasis>UTF-32-LE</emphasis> or <emphasis>UTF-32-BE</emphasis>. If neither "
+"<emphasis>-LE</emphasis> or <emphasis>-BE</emphasis> suffix is given, little "
+"endian is assumed."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:555
+#, no-c-format
+msgid ""
+"Every element also accepts an attribute <emphasis>name</emphasis> which is "
+"then visible in the structures view."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:561
+#, no-c-format
+msgid "An example structure definition in both &XML; and JavaScript"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:567
+#, no-c-format
+msgid "The common step shared by both approaches"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:568
+#, no-c-format
+msgid ""
+"Our metadata file looks like this: <screen>\n"
+"        [Desktop Entry]\n"
+"        Icon=arrow-up<co id=\"icon\" />\n"
+"        Type=Service\n"
+"        ServiceTypes=KPluginInfo\n"
+"\n"
+"        Name=Simple test structure\n"
+"        Comment=A very simple test structure containing only two items\n"
+"\n"
+"        X-KDE-PluginInfo-Author=Alex Richardson\n"
+"        X-KDE-PluginInfo-Email=foo.bar@email.org\n"
+"        X-KDE-PluginInfo-Name=simplestruct\n"
+"        X-KDE-PluginInfo-Version=1.0\n"
+"        X-KDE-PluginInfo-Website=https://www.plugin.org/\n"
+"        X-KDE-PluginInfo-Category=structure\n"
+"        X-KDE-PluginInfo-License=LGPL\n"
+"        X-KDE-PluginInfo-EnabledByDefault=false\n"
+"        </screen> <calloutlist> <callout arearefs=\"icon\"> <para>The icon "
+"displayed in &okteta; for this structure can be anything found by executing "
+"<userinput><command>kdialog</command> <option>--geticon</option></userinput> "
+"or a path to an icon</para> </callout> </calloutlist> These fields should "
+"all be pretty much self-explanatory, except for <literal>X-KDE-PluginInfo-"
+"Name</literal>. The value of this field must match the name of the directory "
+"containing the file as well as the name of the <literal role=\"extension\">."
+"desktop</literal> file. When creating &XML; structure definitions the name "
+"of the <literal role=\"extension\">.osd</literal> file must also match the "
+"name."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:581
+#, no-c-format
+msgid ""
+"In this example we would have a directory named <filename>simplestruct</"
+"filename> containing the file <filename>simplestruct.desktop</filename>. "
+"When defining structures in &XML; the directory would also contain a file "
+"named <filename>simplestruct.osd</filename>. Using JavaScript we would have "
+"a file named <filename>main.js</filename> instead."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:586
+#, no-c-format
+msgid "A simple &XML; structure definition"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:587
+#, no-c-format
+msgid ""
+"To start we create a definition for a very simple test structure containing "
+"only integral data types (one char, one 32-bit signed integer, and a "
+"bitfield). This would be expressed in C/C++ as: <screen>\n"
+"          struct simple {\n"
+"            char aChar;\n"
+"            int anInt;\n"
+"            bool bitFlag :1;\n"
+"            unsigned padding :7;\n"
+"          };\n"
+"          </screen> The first step is writing the <literal role=\"extension"
+"\">.osd</literal> file according to the file format defined in the previous "
+"section. We will call <filename>simplestruct.osd</filename>: "
+"<screen><markup>\n"
+"          &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\n"
+"          &lt;data&gt;\n"
+"            &lt;struct name=\"simple\"&gt;\n"
+"              &lt;primitive name=\"aChar\" type=\"Char\"/&gt;\n"
+"              &lt;primitive name=\"anInt\" type=\"Int32\"/&gt;\n"
+"              &lt;bitfield name=\"bitFlag\" type=\"bool\" width=\"1\"/&gt;\n"
+"              &lt;bitfield name=\"padding\" type=\"unsigned\" width=\"7\"/"
+"&gt;\n"
+"            &lt;/struct&gt;\n"
+"          &lt;/data&gt;\n"
+"          </markup></screen> which is fairly similar to the C/C++ definition."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:597
+#, no-c-format
+msgid ""
+"Now create a directory <filename class=\"directory\">simplestruct</filename> "
+"inside the structure installation directory (see manually installing "
+"structure definitions) and copy the two files to this directory. Now you can "
+"restart &okteta; and use the new structure."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:602
+#, no-c-format
+msgid "The simple structure in JavaScript"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:603
+#, no-c-format
+msgid ""
+"To implement the structure above in JavaScript, create a file named "
+"<filename>main.js</filename> instead of <filename>simplestruct.osd</"
+"filename> and change X-KDE-PluginInfo-Category=structure to X-KDE-PluginInfo-"
+"Category=structure/js. The contents of that file should be: <screen>\n"
+"        function init() {\n"
+"          var structure = struct({\n"
+"            aChar : char(),\n"
+"            anInt : int32(),\n"
+"            bitFlag : bitfield(\"bool\", 1),\n"
+"            padding : bitfield(\"unsigned\", 7),\n"
+"          })\n"
+"          return structure;\n"
+"        }\n"
+"        </screen> The structure displayed by &okteta; is always the return "
+"value of the <literal>init</literal> function."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:609
+#, no-c-format
+msgid ""
+"The following functions can be called to create a primitive type: "
+"<itemizedlist> <listitem><para>char()</para></listitem> "
+"<listitem><para>int8(), int16(), int32() or int64()</para></listitem> "
+"<listitem><para>uint8(), uint16(), uint32() or uint64()</para></listitem> "
+"<listitem><para>bool8(), bool16(), bool32() or bool64()</para></listitem> "
+"<listitem><para>float()</para></listitem> <listitem><para>double()</para></"
+"listitem> </itemizedlist> The bitfield function takes two parameters, the "
+"first being a string consisting of <literal>bool</literal>, <literal>signed</"
+"literal> or <literal>unsigned</literal>. The second parameter is an integer "
+"which sets the width in bits."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:624
+#, no-c-format
+msgid "More complex structures"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:625
+#, no-c-format
+msgid ""
+"Next we create a definition of a more complex structure which we will call "
+"\"complex\" and save in a file named <filename>complex.osd</filename>. This "
+"structure will contain two arrays (one with fixed length and one where the "
+"length is determined at runtime) as well as a nested structure and a union. "
+"<screen><markup>\n"
+"          &lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;\n"
+"          &lt;data&gt;\n"
+"            &lt;struct name=\"complex\"&gt;\n"
+"              &lt;primitive name=\"size\" type=\"UInt8\" /&gt;\n"
+"              &lt;union name=\"aUnion\"&gt;\n"
+"                &lt;array name=\"fourBytes\" length=\"4\"&gt;\n"
+"                  &lt;primitive type=\"Int8\" /&gt;\n"
+"                &lt;/array&gt;\n"
+"              &lt;/union&gt;\n"
+"              &lt;struct name=\"nested\"&gt;\n"
+"                &lt;array name=\"string\" length=\"size\"&gt; &lt;!-- "
+"references the field size above --&gt;\n"
+"                  &lt;primitive type=\"Char\" /&gt;\n"
+"                &lt;/array&gt;\n"
+"              &lt;/struct&gt;\n"
+"            &lt;/struct&gt;\n"
+"          &lt;/data&gt;\n"
+"          </markup></screen> This would correspond to the following in "
+"pseudo-C/C++"
+msgstr ""
+
+#. Tag: screen
+#: index.docbook:633
+#, no-c-format
+msgid ""
+"struct complex {\n"
+"            uint8_t size;\n"
+"            union aUnion {\n"
+"              int8_t fourBytes[4];\n"
+"            };\n"
+"            struct nested {\n"
+"              char string[size] //not valid C++, references value of the "
+"uint8 size\n"
+"            };\n"
+"          };"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:635
+#, no-c-format
+msgid ""
+"You can obviously only have dynamic length arrays reference fields before "
+"the array."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:637
+#, no-c-format
+msgid ""
+"Next we create the <filename>complex.desktop</filename> file just as in the "
+"example before (make sure you set <literal>X-KDE-PluginInfo-Name</literal> "
+"correctly) and also do the same to install both files."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:642
+#, no-c-format
+msgid "Further information"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:643
+#, no-c-format
+msgid ""
+"A few example structure definitions can be found in the <ulink url=\"https://"
+"commits.kde.org/okteta?path=kasten/controllers/view/structures/examples/"
+"okteta/structures/\">Git repository.</ulink> This includes for example the "
+"file header for PNG files and the ELF file header. An &XML; schema "
+"describing the structure of the <literal role=\"extension\">.osd</literal> "
+"file can be found <ulink url=\"https://commits.kde.org/okteta?path=kasten/"
+"controllers/view/structures/schema/\">here.</ulink> If more information is "
+"needed feel free to contact me at &Alex.Richardson.email;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:658
+#, no-c-format
+msgid "Interface Overview"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:661
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:663
+#, no-c-format
+msgid ""
+"Apart from the common &kde; menus described in the <ulink url=\"help:/"
+"fundamentals/ui.html#menus\">Menu</ulink> chapter of the &kde; Fundamentals "
+"documentation &okteta; has these application specific menu entries:"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:668
+#, no-c-format
+msgid "File Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:672
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> </"
+"shortcut> <guimenu>File</guimenu> <guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:679
+#, no-c-format
+msgid "Create a new byte array..."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:681
+#, no-c-format
+msgid "<guimenuitem>Empty</guimenuitem>: ... as Empty one."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:683
+#, no-c-format
+msgid ""
+"<guimenuitem>From Clipboard</guimenuitem>: ... by the current content of the "
+"clipboard."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:685
+#, no-c-format
+msgid "<guimenuitem>Pattern...</guimenuitem>: ... with a given pattern."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:687
+#, no-c-format
+msgid "<guimenuitem>Random Data...</guimenuitem>: ...with random data."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:688
+#, no-c-format
+msgid ""
+"<guimenuitem>Sequence</guimenuitem>: ... with all the bytes from 0 to 255."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:695
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guisubmenu>Export</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:699
+#, no-c-format
+msgid "Export the selected bytes to a file..."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:701
+#, no-c-format
+msgid ""
+"<guimenuitem>Values</guimenuitem>: ... encoded as byte values. By default "
+"the values are separated with one whitespace. The <guilabel>Separation</"
+"guilabel> characters can be changed in the <guilabel>Export</guilabel> "
+"dialog."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:706
+#, no-c-format
+msgid "<guimenuitem>Characters</guimenuitem>: ... encoded as plain text."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:708
+#, no-c-format
+msgid ""
+"<guimenuitem>Base64</guimenuitem>: ... encoded in the <ulink url=\"https://"
+"en.wikipedia.org/wiki/Base64\">Base64</ulink> format."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:711
+#, no-c-format
+msgid ""
+"<guimenuitem>Base32</guimenuitem>: ... encoded in the <ulink url=\"https://"
+"en.wikipedia.org/wiki/Base32\">Base32</ulink> format."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:714
+#, no-c-format
+msgid ""
+"<guimenuitem>Ascii85</guimenuitem>: ... encoded in the <ulink url=\"https://"
+"en.wikipedia.org/wiki/Ascii85\">Ascii85</ulink> format."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:717
+#, no-c-format
+msgid ""
+"<guimenuitem>Uuencoding</guimenuitem>: ... encoded in the <ulink url="
+"\"https://en.wikipedia.org/wiki/Uuencoding\">Uuencoding</ulink> format."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:720
+#, no-c-format
+msgid ""
+"<guimenuitem>Xxencoding</guimenuitem>: ... encoded in the <ulink url="
+"\"https://en.wikipedia.org/wiki/Xxencoding\">Xxencoding</ulink> format."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:723
+#, no-c-format
+msgid ""
+"<guimenuitem>Intel Hex</guimenuitem>: ... encoded in the <ulink url="
+"\"https://en.wikipedia.org/wiki/Intel_Hex\">Intel Hex</ulink> format."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:726
+#, no-c-format
+msgid ""
+"<guimenuitem>S-Record</guimenuitem>: ... encoded in the <ulink url=\"https://"
+"en.wikipedia.org/wiki/S-record\">S-Record</ulink> format."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:729
+#, no-c-format
+msgid ""
+"<guimenuitem>C array</guimenuitem>: ... defined as an array in the "
+"programming language C."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:731
+#, no-c-format
+msgid ""
+"<guimenuitem>View in Plain Text</guimenuitem>: ... as in the data view with "
+"offset, byte values and characters."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:739
+#, no-c-format
+msgid ""
+"<guimenu>File</guimenu> <guisubmenu>Permissions</guisubmenu><guimenuitem>Set "
+"Read-only</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:743
+#, no-c-format
+msgid "When set, changes may not be made to the loaded byte array."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:748
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Close All Other</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:752
+#, no-c-format
+msgid "Close all besides the current byte array."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:759
+#, no-c-format
+msgid "Edit Menu"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:761
+#, no-c-format
+msgid ""
+"Simple copy and cut send data to the clipboard with the mimetype "
+"<quote>application/octetstream</quote>, &klipper; is not able to display "
+"this data. And almost all other applications cannot handle this, too, as "
+"this is simply raw data. So also see for the <guisubmenu>Copy as</"
+"guisubmenu> submenu."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:766
+#, no-c-format
+msgid "<guimenu>Edit</guimenu> <guisubmenu>Copy as</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:770
+#, no-c-format
+msgid ""
+"Copy the selected bytes in one of different formats to the clipboard. For a "
+"list of available formats see the menu item <menuchoice><guimenu>File</"
+"guimenu> <guisubmenu>Export</guisubmenu></menuchoice>"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:778
+#, no-c-format
+msgid "<guimenu>Edit</guimenu> <guisubmenu>Insert</guisubmenu>"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:786
+#, no-c-format
+msgid "Insert Pattern..."
+msgstr ""
+
+#. Tag: action
+#: index.docbook:788
+#, no-c-format
+msgid "Insert a specified string of bytes at the cursor."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:789
+#, no-c-format
+msgid ""
+"Options in the dialog box allow you to specify the number of insertion of "
+"the pattern and it's format (Hexadecimal, Decimal, Octal, Binary, "
+"Character(s) or UTF-8)."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:799
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>A</keycap></"
+"keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Deselect</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:806
+#, no-c-format
+msgid "Deselect the current selection."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:810
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo> </"
+"shortcut> <guimenu>Edit</guimenu> <guimenuitem>Select Range...</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:817
+#, no-c-format
+msgid "Opens an embedded dialog to enter the range to select."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:822
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\"><keycap>Ins</keycap></keycombo> </"
+"shortcut> <guimenu>Edit</guimenu> <guimenuitem>Overwrite Mode</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:829
+#, no-c-format
+msgid "<action>Switch between Insert mode and Overwrite mode</action>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:831
+#, no-c-format
+msgid ""
+"Overwrite mode is implemented to be very strict, it is not possible to "
+"change the size of the data (no appending or removing of bytes)."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:837
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo> </"
+"shortcut> <guimenu>Edit</guimenu> <guimenuitem>Find...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:844
+#, no-c-format
+msgid ""
+"<action>Find a specified pattern in the document.</action> Hexadecimal, "
+"decimal, octal, binary or text patterns can be searched for."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:846
+#, no-c-format
+msgid ""
+"Options in the dialog box allow you to specify the starting point, direction "
+"and range of the search."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:851
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>G</keycap></keycombo> </"
+"shortcut> <guimenu>Edit</guimenu> <guimenuitem>Goto Offset...</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:858
+#, no-c-format
+msgid "Move the cursor to a specified offset."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:866
+#, no-c-format
+msgid "View Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:871
+#, no-c-format
+msgid ""
+"<shortcut> <keycap>F11</keycap> </shortcut> <guimenu>View</guimenu> "
+"<guimenuitem>Show Line Offset</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:878
+#, no-c-format
+msgid "Toggle display of the line offset on a pane to the left on and off."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:883
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Show Values or Chars</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:887
+#, no-c-format
+msgid ""
+"<action>Select which of the byte interpretations are shown.</action> "
+"Possible are:"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:890
+#, no-c-format
+msgid "Values"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:892
+#, no-c-format
+msgid "Chars"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:893
+#, no-c-format
+msgid "Values and Chars"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:899
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Value Coding</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:903
+#, no-c-format
+msgid "<action>Select the coding of the values</action> from:"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:905
+#, no-c-format
+msgid "Hexadecimal"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:906
+#, no-c-format
+msgid "Decimal"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:907
+#, no-c-format
+msgid "Octal"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:908
+#, no-c-format
+msgid "Binary"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:914
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Char Coding</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:918
+#, no-c-format
+msgid "<action>Select the coding of the chars</action> from the submenu."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:925
+#, no-c-format
+msgid ""
+"<guimenu>View</guimenu> <guimenuitem>Show Non-printing Chars</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:929
+#, no-c-format
+msgid ""
+"<action>Toggle display of non-printing chars on and off.</action> If the "
+"display is turned off, at the corresponding places in the character column a "
+"substitute char is shown instead."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:935
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Set Bytes per Line</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:939
+#, no-c-format
+msgid ""
+"<action>Select the displayed bytes per line</action> from the dialog, the "
+"default value is 16 bytes."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:945
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Set Bytes per Group</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:949
+#, no-c-format
+msgid ""
+"<action>By default the hexadecimal values are displayed in groups of 4 bytes."
+"</action> Using this menu item you can adapt this to your preferences in a "
+"dialog."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:955
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>Dynamic Layout</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:959
+#, no-c-format
+msgid ""
+"<action>Set the rules for the layout of the data display.</action> This "
+"defines how many bytes are displayed per line, depending on the width of the "
+"view. Possible rules are:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:963
+#, no-c-format
+msgid ""
+"<guimenuitem>Off</guimenuitem>: The layout is fixed to the current number of "
+"bytes per line and not adapted on the change of the view size."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:966
+#, no-c-format
+msgid ""
+"<guimenuitem>Wrap only complete byte groups</guimenuitem>: Puts as many "
+"bytes per line as possible, as long as groups of bytes are complete."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:969
+#, no-c-format
+msgid ""
+"<guimenuitem>On</guimenuitem>: Same as previous, but allows also incomplete "
+"groups of bytes."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:976
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guisubmenu>View Mode</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:980
+#, no-c-format
+msgid "<action>Select the layout for the view</action> from:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:982
+#, no-c-format
+msgid ""
+"<guimenuitem>Columns</guimenuitem>: The values and chars interpretations are "
+"shown in the classic layout with each listed in a separate column."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:985
+#, no-c-format
+msgid ""
+"<guimenuitem>Rows</guimenuitem>: The char interpretation of a byte is "
+"directly shown under the value interpretation."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:992
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>T</keycap></"
+"keycombo> </shortcut> <guimenu>View</guimenu> <guimenuitem>Split Horizontal</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:999
+#, no-c-format
+msgid ""
+"Split the view area with the currently focused view into two parts and add a "
+"copy of the current view to the new, lower area."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:1004
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>L</keycap></"
+"keycombo> </shortcut> <guimenu>View</guimenu> <guimenuitem>Split Vertically</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:1011
+#, no-c-format
+msgid ""
+"Split the view area with the currently focused view into two parts and add a "
+"copy of the current view to the new, right area."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:1016
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>R</keycap></"
+"keycombo> </shortcut> <guimenu>View</guimenu> <guimenuitem>Close View Area</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:1023
+#, no-c-format
+msgid "Close the view area with the currently focused view."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:1027
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>View Profile</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1031
+#, no-c-format
+msgid ""
+"View settings can be separately stored as view profiles. The currently "
+"selected profile can be updated directly from the current view settings, or "
+"a new one can be created from them. All view profiles can be managed in a "
+"dialog available from <menuchoice><guimenu>Settings</"
+"guimenu><guimenuitem>Manage View Profiles...</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1042
+#, no-c-format
+msgid "Windows Menu"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1044
+#, no-c-format
+msgid "Provides a list of the current views. Select the active window."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1049
+#, no-c-format
+msgid "Bookmarks Menu"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1051
+#, no-c-format
+msgid ""
+"Multiple bookmarks can be set for a single byte array. Each byte array has "
+"its own set of bookmarks, and the appropriate set is displayed at the bottom "
+"of the <guimenu>Bookmarks</guimenu> menu. Choose a bookmark from the menu to "
+"move the cursor and the view to it."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:1060
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo> </"
+"shortcut> <guimenu>Bookmarks</guimenu> <guimenuitem>Add Bookmark</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1067
+#, no-c-format
+msgid "Bookmark a location within the byte array."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:1071
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>B</keycap></"
+"keycombo> </shortcut> <guimenu>Bookmarks</guimenu> <guimenuitem>Remove "
+"Bookmark</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1078
+#, no-c-format
+msgid ""
+"<action>Remove the current bookmark.</action> This command is only available "
+"if the cursor is at a bookmarked location."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:1083
+#, no-c-format
+msgid ""
+"<guimenu>Bookmarks</guimenu> <guimenuitem>Remove All Bookmarks</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:1087
+#, no-c-format
+msgid "Clear the bookmark list."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:1091
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Alt;<keycap>Up</keycap></keycombo> </"
+"shortcut> <guimenu>Bookmarks</guimenu> <guimenuitem>Goto Previous Bookmark</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:1098
+#, no-c-format
+msgid "Move the cursor to the previous bookmark."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:1103
+#, no-c-format
+msgid ""
+"<shortcut> <keycombo action=\"simul\">&Alt;<keycap>Down</keycap></keycombo> "
+"</shortcut> <guimenu>Bookmarks</guimenu> <guimenuitem>Go to Next Bookmark</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:1110
+#, no-c-format
+msgid "Move the cursor to the next bookmark."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1119
+#, no-c-format
+msgid "Tools Menu"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1121
+#, no-c-format
+msgid ""
+"Provides a list of installed tools. Toggle the display of each tools on or "
+"off. A detailed description of each tool you find in the <link linkend="
+"\"tools\">Tools</link> section."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1127
+#, no-c-format
+msgid "Settings Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:1130
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu> <guimenuitem>Manage View Profiles...</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1134
+#, no-c-format
+msgid "Open a dialog to create, edit, delete and set a default view profile."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1145
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1147
+#, no-c-format
+msgid "&okteta;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1152
+#, no-c-format
+msgid ""
+"Program Copyright 2006-2012 &Friedrich.Kossebau; &Friedrich.Kossebau.email;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1155
+#, no-c-format
+msgid ""
+"Documentation Copyright 2008,2010 &Friedrich.Kossebau; &Friedrich.Kossebau."
+"email;, &Alex.Richardson; &Alex.Richardson.email;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:1158
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:1158
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

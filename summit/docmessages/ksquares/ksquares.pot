@@ -1,0 +1,708 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:10
+#, no-c-format
+msgid "The &ksquares; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:14
+#, no-c-format
+msgid "<personname> <firstname>Matt</firstname> <surname>Williams</surname> </personname> <email>matt@milliams.com</email>"
+msgstr ""
+
+#. Tag: othercredit
+#. +> trunk6 stable6
+#: index.docbook:22
+#, no-c-format
+msgid "<firstname>Eugene</firstname> <surname>Trounev</surname>"
+msgstr ""
+
+#. Tag: contrib
+#. +> trunk6 stable6
+#: index.docbook:25
+#, no-c-format
+msgid "Reviewer"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:26
+#, no-c-format
+msgid "eugene.trounev@gmail.com"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:28
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:33
+#, no-c-format
+msgid "Matt Williams"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:37
+#, no-c-format
+msgid "2021-10-03"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:38
+#, no-c-format
+msgid "0.6 (KDE Gear 21.08)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:42
+#, no-c-format
+msgid "This documentation describes the game of &ksquares; version 0.6"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:47
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:48
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:49
+#, no-c-format
+msgid "game"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:50
+#, no-c-format
+msgid "Ksquares"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:52
+#, no-c-format
+msgid "board"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:53
+#, no-c-format
+msgid "Dots and Boxes"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:54
+#, no-c-format
+msgid "Boxes"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:55
+#, no-c-format
+msgid "Squares"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:57
+#, no-c-format
+msgid "four players"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:59
+#, no-c-format
+msgid "Paddocks"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:60
+#, no-c-format
+msgid "Square-it"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:61
+#, no-c-format
+msgid "Dots and Dashes"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:62
+#, no-c-format
+msgid "Dot Game"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:66
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:67
+#, no-c-format
+msgid "Gametype:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:67
+#, no-c-format
+msgid "Board"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:68
+#, no-c-format
+msgid "Number of possible players:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:68
+#, no-c-format
+msgid "Four"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:69
+#, no-c-format
+msgid "&ksquares; is a fun and exciting game. &ksquares; is modeled after the well known pen and paper based game of Dots and Boxes."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:70
+#, no-c-format
+msgid "The idea behind &ksquares; is to construct squares by interconnecting the dots on the grid. Up to four players can play this game together, taking turns. The trick is – regardless of who has constructed most of the square, it is the player who completes the square that gets the point for it."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:71
+#, no-c-format
+msgid "To win the game round player has to collect the most points by covering the most area with the squares of player's own color."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:74
+#, no-c-format
+msgid "How to Play"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:76
+#, no-c-format
+msgid "Objective:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:76
+#, no-c-format
+msgid "Complete more squares than any of your opponents."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:78
+#, no-c-format
+msgid "At the start of the game, the game board is empty. There is simply a grid of dots showing where lines can be drawn."
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:88
+#, no-c-format
+msgid "&ksquares; Game Board"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:93
+#, no-c-format
+msgid "Each player takes it in turns to draw a line between two adjacent dots on the board. By hovering the mouse over the game board, a yellow indicator line will show you where your line will be placed when you click. Once you have decided where you want to draw your line, click - and the line will be drawn. If by drawing a line, you completed a square then this square now belongs to you and earns you a point. Each time you complete a square, you must draw another line. If your line did not complete a square then the next player(s) take their turn. The game will continue until every square on the board is owned by one of the players."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:98
+#, no-c-format
+msgid "To start a new game with custom settings (number of players, player names, board size) click on the <guibutton>New</guibutton> toolbar button or go to <menuchoice><shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></shortcut> <guimenu>Game</guimenu> <guimenuitem>New</guimenuitem></menuchoice> menu item. To start a new game with the same settings as the current game, click on <guibutton>Restart Game</guibutton> button on the toolbar."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:103
+#, no-c-format
+msgid "Game Rules, Strategies and Tips"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:106
+#, no-c-format
+msgid "Game Rules"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:107
+#, no-c-format
+msgid "There is very little to be said when it come to the rules, as the game concept in itself is rather a simple one. Nevertheless, here are the game regulations you, as a player will defiantly face while playing &ksquares;:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:109
+#, no-c-format
+msgid "You may only connect the dots on the grid if they are not previously connected by you, your opponent, or the computer."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:110
+#, no-c-format
+msgid "To gain the points you have to connect the dots to form a square."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:111
+#, no-c-format
+msgid "The square can be no larger than the four adjacent dots on the grid allow for."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:112
+#, no-c-format
+msgid "Once a square is complete the player who draws the last line of that square is granted the right of possession over it. The square then is colored and the player is given a point."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:113
+#, no-c-format
+msgid "The player who completes the square is given an extra turn which the player cannot forfeit."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:117
+#, no-c-format
+msgid "Strategies and Tips"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:119
+#, no-c-format
+msgid "Try not to play at random. Such game practice will most certainly result in loss."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:120
+#, no-c-format
+msgid "Construct long chains of lines over the gameboard. Once one such chain is complete start to build another one going parallel to the first."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:121
+#, no-c-format
+msgid "Try not to build contraptions where only one line remains undone. Your opponent will almost certainly take an advantage of it."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:122
+#, no-c-format
+msgid "If you are to let the opponent get a square or more, try to select the combination resulting in the least damage."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:123
+#, no-c-format
+msgid "Try to push your opponent into the situation where he/she(it) will have no choice but to let you get the square."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:124
+#, no-c-format
+msgid "If you are to get a chance to start completing a whole chain of squares, remember that by leaving two squares at the end of such chain incomplete you are pushing your opponent into completing them, thus giving you the opportunity to continue onto yet another chain. Such a situation is called the double-cross."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:130
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:134
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></shortcut> <guimenu>Game</guimenu> <guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:137
+#, no-c-format
+msgid "Start a new game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:140
+#, no-c-format
+msgid "<shortcut><keycap>F5</keycap></shortcut> <guimenu>Game</guimenu> <guimenuitem>Restart Game</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:143
+#, no-c-format
+msgid "Starts a new game with the same settings as the current game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:146
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo></shortcut> <guimenu>Game</guimenu> <guimenuitem>Show High Scores…</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:149
+#, no-c-format
+msgid "<action>Displays</action> the high score table."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:152
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></shortcut> <guimenu>Game</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:155
+#, no-c-format
+msgid "<action>Quits</action> &ksquares;."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:158
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Configure &ksquares;…</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:161
+#, no-c-format
+msgid "<action>Opens a dialog to configure &ksquares;.</action> See <link linkend=\"configuration\">Game Configuration</link> section for details."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:165
+#, no-c-format
+msgid "Additionally &ksquares; has the common &kde; <guimenu>Settings</guimenu> and <guimenu>Help</guimenu> menu items, for more information read the sections about the <ulink url=\"help:/fundamentals/menus.html#menus-settings\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:175
+#, no-c-format
+msgid "Frequently asked questions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:180
+#, no-c-format
+msgid "I want to change the way this game looks. Can I?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:181
+#, no-c-format
+msgid "Currently the only thing you can change about the game look is the color of the lines. To do so use the <menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &ksquares;…</guimenuitem></menuchoice> menu item. See <link linkend=\"configuration\">Game Configuration</link> section for details."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:184
+#, no-c-format
+msgid "I have made a mistake. Can I undo?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:185
+#, no-c-format
+msgid "No. &ksquares; doesn't currently have an <quote>Undo</quote> feature."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:188
+#, no-c-format
+msgid "Can I use the keyboard to play the game?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:189
+#, no-c-format
+msgid "No. &ksquares; cannot be played using keyboard."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:192
+#, no-c-format
+msgid "I cannot figure out what to do here! Are there hints?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:193
+#, no-c-format
+msgid "No. There is no <quote>Hint</quote> feature implemented yet."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:196
+#, no-c-format
+msgid "I have to quit the game now, but I am not finished yet. Can I save my progress?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:197
+#, no-c-format
+msgid "&ksquares; does not have a <quote>Save</quote> feature."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:204
+#, no-c-format
+msgid "Game Configuration"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:206
+#, no-c-format
+msgid "New Game Dialog"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:213
+#, no-c-format
+msgid "New game"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:217
+#, no-c-format
+msgid "The <guilabel>New Game</guilabel> dialog consistes of the following groupboxes:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:220
+#, no-c-format
+msgid "Players"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:221
+#, no-c-format
+msgid "Here you can change the number of participating players, as well as determine who will be played by human and who by the artificial intelligence. Use the <guilabel>Number of players:</guilabel> spin-box to specify the number of participants. Then type a name for each participant and use the <guilabel>Human?</guilabel> check box to specify the player type."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:224
+#, no-c-format
+msgid "Game Board"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:225
+#, no-c-format
+msgid "Here you can regulate the size of the game board. Use the <guilabel>Width:</guilabel> and <guilabel>Height:</guilabel> spin-boxes to change the width and height of the game board."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:228
+#, no-c-format
+msgid "Game Settings"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:229
+#, no-c-format
+msgid "This part of the configuration dialog regulates the difficulty of the game. If you leave the <guilabel>Quick start</guilabel> check box unchecked - the game will begin with the empty grid. Otherwise the game will start with the game board partially filled."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:234
+#, no-c-format
+msgid "Configuration Dialog"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:241
+#, no-c-format
+msgid "Configuration dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:245
+#, no-c-format
+msgid "The <guilabel>Configure - &ksquares;</guilabel> dialog consists of the following tabs:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:248
+#, no-c-format
+msgid "Display"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:249
+#, no-c-format
+msgid "Here you can change the &ksquares; color settings."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:252
+#, no-c-format
+msgid "Computer Player"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:253
+#, no-c-format
+msgid "Use this tab to regulate the game difficulty."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:259
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:262
+#, no-c-format
+msgid "&ksquares;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:266
+#, no-c-format
+msgid "Program copyright 2006 Matt Williams <email>matt@milliams.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:270
+#, no-c-format
+msgid "Documentation Copyright &copy; 2006 Matt Williams <email>matt@milliams.com</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:272
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:272
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the dragon package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: dragon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-27 09:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/fileopen.cpp:84
+#, kde-format
+msgctxt "@title"
+msgid "Open Video File or Network Stream"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:35
+#, kde-format
+msgid "Dragon Player"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:37
+#, kde-format
+msgid "A video player that has a usability focus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:39
+#, kde-format
+msgid ""
+"Copyright 2006, Max Howell\n"
+"Copyright 2007, Ian Monroe\n"
+"Copyright 2022 Harald Sitter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ControlsBar.qml:129
+msgctxt "@action:button"
+msgid "Application Menu"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ControlsBar.qml:160
+msgctxt "@action:button stop playback"
+msgid "Stop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ControlsBar.qml:168
+msgctxt "@action:button"
+msgid "Unmute"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ControlsBar.qml:168
+msgctxt "@action:button"
+msgid "Mute"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ControlsBar.qml:178
+msgctxt "@action:button video subtitle"
+msgid "Subtitles"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ControlsBar.qml:185
+msgctxt "@action:button selector for no subtitle"
+msgid "None"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ControlsBar.qml:195
+msgctxt "@action:button subtitle selector %1 is usually a language (e.g. chinese) and %2 is usually a subtitle (e.g. Traditional)"
+msgid "%1 [%2]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ControlsBar.qml:212
+msgctxt "@action:button track selector"
+msgid "Audio Track"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ControlsBar.qml:227
+msgctxt "@action:button track selector"
+msgid "Video Track"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/ControlsBar.qml:245
+msgctxt "@action opens about app page"
+msgid "About"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/Main.qml:53
+msgctxt "@action:button open file dialog"
+msgid "Open…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/PlayerPage.qml:38
+msgctxt "@action:button"
+msgid "Play"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/PlayerPage.qml:38
+msgctxt "@action:button"
+msgid "Pause"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/PlayerPage.qml:46
+msgctxt "@action:button"
+msgid "Exit Fullscreen"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/PlayerPage.qml:46
+msgctxt "@action:button"
+msgid "Enter Fullscreen"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/PlayerPage.qml:78
+msgctxt "@info %2 is the name of a distribution"
+msgid ""
+"Dragon Player only supports the QtMultimedia library’s “ffmpeg” backend, but a different one is currently in use.\n"
+"<nl/>"
+"<nl/>"
+"\n"
+"Please <link url=\"%1\">contact the %2 developers</link> about this issue."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/PlayerPage.qml:87
+msgctxt "@info"
+msgid ""
+"Not all video codecs are installed. Video playback support may be less reliable than expected.\n"
+"Please install codecs-extra by running:\n"
+"<para><command>flatpak install org.freedesktop.Platform.codecs-extra//25.08-extra</command></para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/PlayerPage.qml:94
+msgctxt "@info %2 is the name of a distribution"
+msgid ""
+"Could not locate full support for the H.264 video codec; video playback support may be less reliable than expected.\n"
+"<nl/>"
+"<nl/>"
+"\n"
+"Please <link url=\"%1\">contact the %2 developers</link> about this issue, or to find out how to install the missing video codecs."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/PlayerPage.qml:335
+msgctxt "@info overlay on top of video. %1 is the amount of time played %2 is the total duration of the video"
+msgid "%1 / %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/VolumeButton.qml:31
+msgctxt "@action:button open volume slider popup"
+msgid "Show volume controls"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/WelcomeView.qml:16
+msgctxt "@title"
+msgid "Welcome to Dragon Player"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/WelcomeView.qml:17
+msgctxt "@info"
+msgid "Dragon Player is a simple video player. Open a video to get started:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/qml/WelcomeView.qml:20
+msgctxt "@action:button"
+msgid "Open Video File or Network Stream"
+msgstr ""

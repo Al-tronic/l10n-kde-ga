@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdevelop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevelop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#: configwidget.cpp:25
+#, kde-format
+msgctxt "@item:inlistbox build action"
+msgid "Build"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configwidget.cpp:26
+#, kde-format
+msgctxt "@item:inlistbox build action"
+msgid "Configure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configwidget.cpp:27
+#, kde-format
+msgctxt "@item:inlistbox build action"
+msgid "Install"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configwidget.cpp:28
+#, kde-format
+msgctxt "@item:inlistbox build action"
+msgid "Clean"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configwidget.cpp:29
+#, kde-format
+msgctxt "@item:inlistbox build action"
+msgid "Prune"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: configwidget.ui:19
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Build directory:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, buildDir)
+#. +> trunk6 stable6
+#: configwidget.ui:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Select the directory where the tools are being executed in.\n"
+"If this is the same as the source directory you can leave it empty."
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, buildDir)
+#. +> trunk6 stable6
+#: configwidget.ui:30
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "The directory where the tools are executed in"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: configwidget.ui:42
+#, kde-format
+msgctxt "@title:group"
+msgid "Build Tools"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk6 stable6
+#: configwidget.ui:48
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Action:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. +> trunk6 stable6
+#: configwidget.ui:58
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, execLabel)
+#. +> trunk6 stable6
+#: configwidget.ui:75
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Executable:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, actionExecutable)
+#. +> trunk6 stable6
+#: configwidget.ui:85
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "This is the executable that should be executed when selecting the action from the Project menu"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, argLabel)
+#. +> trunk6 stable6
+#: configwidget.ui:95
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Arguments:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, actionArguments)
+#. +> trunk6 stable6
+#: configwidget.ui:105
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The arguments that the tool needs to execute properly."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, envLabel)
+#. +> trunk6 stable6
+#: configwidget.ui:115
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Environment:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KDevelop::EnvironmentSelectionWidget, actionEnvironment)
+#. +> trunk6 stable6
+#: configwidget.ui:125
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Choose a pre-configured environment for your tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:67
+#, kde-format
+msgctxt "Building: <command> <project item name>"
+msgid "Building: %1 %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:70
+#, kde-format
+msgctxt "Cleaning: <command> <project item name>"
+msgid "Cleaning: %1 %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:73
+#, kde-format
+msgctxt "Installing: <command> <project item name>"
+msgid "Installing: %1 %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:74
+#, kde-format
+msgctxt "Installing: <command> <project item name> <installPrefix>"
+msgid "Installing: %1 %2 %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:77
+#, kde-format
+msgctxt "Configuring: <command> <project item name>"
+msgid "Configuring: %1 %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:80
+#, kde-format
+msgctxt "Pruning: <command> <project item name>"
+msgid "Pruning: %1 %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:95
+#, kde-format
+msgid "Undefined Build type"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:99
+#, kde-format
+msgid "No command given for custom %1 tool in project \"%2\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:104
+#, kde-format
+msgid "The custom %1 tool in project \"%2\" is disabled"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:116
+#, kde-format
+msgid "The given arguments would need a real shell, this is not supported currently."
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:166
+#, kde-format
+msgid "Failed to start command."
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:169
+#, kde-format
+msgid "Command crashed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:172
+#, kde-format
+msgid "Unknown error executing command."
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:189
+#, kde-format
+msgid "*** Failed ***"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildjob.cpp:191
+#, kde-format
+msgid "*** Finished ***"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildsystemconfig.cpp:14
+#, kde-format
+msgctxt "@item:intext custom 'build' tool"
+msgid "build"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildsystemconfig.cpp:15
+#, kde-format
+msgctxt "@item:intext custom 'configure' tool"
+msgid "configure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildsystemconfig.cpp:16
+#, kde-format
+msgctxt "@item:intext custom 'install' tool"
+msgid "install"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildsystemconfig.cpp:17
+#, kde-format
+msgctxt "@item:intext custom 'clean' tool"
+msgid "clean"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildsystemconfig.cpp:18
+#, kde-format
+msgctxt "@item:intext custom 'prune' tool"
+msgid "prune"
+msgstr ""
+
+#. +> trunk6 stable6
+#: custombuildsystemconfig.cpp:19
+#, kde-format
+msgctxt "@item:intext custom 'unknown' tool"
+msgid "unknown"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: custombuildsystemconfigwidget.ui:31
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Build configuration:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, addConfig)
+#. +> trunk6 stable6
+#: custombuildsystemconfigwidget.ui:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Add"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, removeConfig)
+#. +> trunk6 stable6
+#: custombuildsystemconfigwidget.ui:64
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kcm_custombuildsystem.cpp:53
+#, kde-format
+msgctxt "@title:tab"
+msgid "Custom Build System"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kcm_custombuildsystem.cpp:58
+#, kde-format
+msgid "Configure a projects custom build tool and includes/defines for the language support."
+msgstr ""

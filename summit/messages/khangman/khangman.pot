@@ -1,0 +1,754 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the khangman package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: khangman\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-20 14:05+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. i18n: tag theme attribute uiname
+#. +> trunk6 stable6
+#: ../themes/standardthemes.xml:4
+#, kde-format
+msgid "Notes Theme"
+msgstr ""
+
+#. i18n: tag theme attribute uiname
+#. +> trunk6 stable6
+#: ../themes/standardthemes.xml:20
+#, kde-format
+msgid "Sea Theme"
+msgstr ""
+
+#. i18n: tag theme attribute uiname
+#. +> trunk6 stable6
+#: ../themes/standardthemes.xml:36
+#, kde-format
+msgid "Winter Theme"
+msgstr ""
+
+#. i18n: tag theme attribute uiname
+#. +> trunk6 stable6
+#: ../themes/standardthemes.xml:52
+#, kde-format
+msgid "Bee Theme"
+msgstr ""
+
+#. i18n: tag theme attribute uiname
+#. +> trunk6 stable6
+#: ../themes/standardthemes.xml:68
+#, kde-format
+msgid "Desert Theme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: data.i18n:2
+#, kde-format
+msgctxt "NOTE_TO_THE_TRANSLATORS"
+msgid ""
+"The translators have the opportunity to translate the\n"
+"words in the game.\n"
+"See the file README.languages in khangman's source directory\n"
+"for more information on how to do that.\n"
+"(translate this message as \"DONE\" when you have translated\n"
+"the words; otherwise leave it untranslated as a reminder)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: khangman.cpp:72
+#, kde-format
+msgid "No theme files found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: khangman.cpp:130
+#, kde-format
+msgid ""
+"File $KDEDIR/share/apps/kvtml/%1/%2 not found.\n"
+"Please check your installation."
+msgstr ""
+
+#. +> trunk6 stable6
+#: khangman.cpp:144
+#, kde-format
+msgid "No word list loaded"
+msgstr ""
+
+#. +> trunk6 stable6
+#: khangman.cpp:411
+#, kde-format
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr ""
+
+#. +> trunk6 stable6
+#: khangman.cpp:433
+#, kde-format
+msgid "No kvtml files found."
+msgstr ""
+
+#. i18n: ectx: label, entry (CurrentLevel), group (Language)
+#. +> trunk6 stable6
+#: khangman.kcfg:10
+#, kde-format
+msgid "Level"
+msgstr ""
+
+#. i18n: ectx: label, entry (SelectedLanguage), group (Language)
+#. +> trunk6 stable6
+#: khangman.kcfg:17
+#, kde-format
+msgid "The language selected by the user"
+msgstr ""
+
+#. i18n: ectx: label, entry (Theme), group (Look)
+#. +> trunk6 stable6
+#: khangman.kcfg:33
+#, kde-format
+msgid "Background theme name"
+msgstr ""
+
+#. i18n: ectx: label, entry (OneLetter), group (General)
+#. +> trunk6 stable6
+#: khangman.kcfg:40
+#, kde-format
+msgid "Check this if you do not want to discover each instance of the same letter."
+msgstr ""
+
+#. i18n: ectx: label, entry (EnableAnimations), group (General)
+#. +> trunk6 stable6
+#: khangman.kcfg:44
+#, kde-format
+msgid "Enable Animations"
+msgstr ""
+
+#. i18n: ectx: label, entry (Sound), group (General)
+#. +> trunk6 stable6
+#: khangman.kcfg:48
+#, kde-format
+msgid "If checked, sounds will be played for New Game and Win Game"
+msgstr ""
+
+#. i18n: ectx: label, entry (Hint), group (General)
+#. +> trunk6 stable6
+#: khangman.kcfg:53
+#, kde-format
+msgid ""
+"If checked, hints will always been displayed. If this is not checked (default)\n"
+"            hints will be displayed only per word when the user chooses to show the hint."
+msgstr ""
+
+#. i18n: ectx: label, entry (resolveTime), group (General)
+#. +> trunk6 stable6
+#: khangman.kcfg:57
+#, kde-format
+msgid "This setting allows you to set in seconds how much time is available for resolving the word."
+msgstr ""
+
+#. i18n: ectx: label, entry (AccentedLetters), group (Advanced)
+#. +> trunk6 stable6
+#: khangman.kcfg:64
+#, kde-format
+msgid "Type accented letters separately from normal letters"
+msgstr ""
+
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
+#. +> trunk6 stable6
+#: khangman.kcfg:71
+#, kde-format
+msgid "The Providers path for KHangMan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:36
+#, kde-format
+msgid "KHangMan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:38
+#, kde-format
+msgid "Classical hangman game by KDE"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:40
+#, kde-format
+msgid "(c) 2001-2011, Anne-Marie Mahfouf"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "Primoz Anzur"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "Previous maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgid "Original Author"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:50
+#, kde-format
+msgid "Rahul Chowdhury"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:50
+#, kde-format
+msgid "Developer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:52
+#, kde-format
+msgid "Stefan Böhmann"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:53 main.cpp:98 main.cpp:100 main.cpp:102
+#, kde-format
+msgid "Coding help"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Stefan Asserhäll"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, kde-format
+msgid "Swedish data files, coding help, transparent pictures and i18n fixes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, kde-format
+msgid "eXParTaKus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:58
+#, kde-format
+msgid "Spanish data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:59
+#, kde-format
+msgid "Erik Kjær Pedersenn"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:60
+#, kde-format
+msgid "Danish data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:61
+#, kde-format
+msgid "Niko Lewman"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:62
+#, kde-format
+msgid "Finnish data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:63
+#, kde-format
+msgid "João Sebastião de Oliveira Bueno"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:64
+#, kde-format
+msgid "Brazilian Portuguese data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:65
+#, kde-format
+msgid "Antoni Bella"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:66
+#, kde-format
+msgid "Catalan data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:67
+#, kde-format
+msgid "Giovanni Venturi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:68
+#, kde-format
+msgid "Italian data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:69
+#, kde-format
+msgid "Rinse"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:70
+#, kde-format
+msgid "Dutch data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:71
+#, kde-format
+msgid "Lukáš Tinkl"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:72
+#, kde-format
+msgid "Czech data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:73
+#, kde-format
+msgid "Kristóf Kiszel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:74
+#, kde-format
+msgid "Hungarian data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:75
+#, kde-format
+msgid "Torger Åge Sinnes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:76
+#, kde-format
+msgid "Norwegian (Bokmål) data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:77
+#, kde-format
+msgid "Roger Kovacs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:78
+#, kde-format
+msgid "Tajik data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:79
+#, kde-format
+msgid "Chusslove Illich"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:80
+#, kde-format
+msgid "Serbian (Cyrillic and Latin) data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:81
+#, kde-format
+msgid "Jure Repinc"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:82
+#, kde-format
+msgid "Slovenian data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:83
+#, kde-format
+msgid "Pedro Morais"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:84
+#, kde-format
+msgid "Portuguese data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:85
+#, kde-format
+msgid "Gaute Hvoslef Kvalnes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:86
+#, kde-format
+msgid "Norwegian (Nynorsk) data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:87
+#, kde-format
+msgid "Mehmet Özel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:88
+#, kde-format
+msgid "Turkish data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:89
+#, kde-format
+msgid "Черепанов Андрей"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:90
+#, kde-format
+msgid "Russian data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:91
+#, kde-format
+msgid "Radostin Radnev"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:92
+#, kde-format
+msgid "Bulgarian data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:93
+#, kde-format
+msgid "Kevin Patrick Scannell"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:94
+#, kde-format
+msgid "Irish (Gaelic) data files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:95
+#, kde-format
+msgid "Matt Howe"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:96
+#, kde-format
+msgid "Softer Hangman Pictures"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:97
+#, kde-format
+msgid "Benjamin Meyer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:99
+#, kde-format
+msgid "Robert Gogolok"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:101
+#, kde-format
+msgid "Lubos Lunàk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:103
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:104
+#, kde-format
+msgid "Coding help, fixed a lot of things"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:105
+#, kde-format
+msgid "Peter Hedlund"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:106
+#, kde-format
+msgid "Code for generating icons for the characters toolbar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:107
+#, kde-format
+msgid "Inge Wallin"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:108
+#, kde-format
+msgid "Code cleaning"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:109
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:109
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:128
+#, kde-format
+msgid "Choose the word category"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:163
+#, kde-format
+msgid "Select a language"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:186
+#, kde-format
+msgid "Select a theme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:241
+#, kde-format
+msgid "Pause"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:241
+#, kde-format
+msgid "Play"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:272
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:286
+#, kde-format
+msgid "Configure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:314
+#, kde-format
+msgid "Get new language files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:327
+#, kde-format
+msgid "View the KHangMan Handbook"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:338 qml/GamePage.qml:344
+#, kde-format
+msgid "About KHangMan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:351 qml/GamePage.qml:358
+#, kde-format
+msgid "About KDE"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:379
+#, kde-format
+msgid "Remaining guesses: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:404
+#, kde-format
+msgid "Score: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:438
+#, kde-format
+msgid "Wins: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:466
+#, kde-format
+msgid "Losses: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:605
+#, kde-format
+msgid "Hint"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:606
+#, kde-format
+msgid "Display the hint."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:621
+#, kde-format
+msgid "Change the category."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:634
+#, kde-format
+msgid "Change the language."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:646
+#, kde-format
+msgid "Reveal Word"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:647
+#, kde-format
+msgid "Reveal the current word."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:674
+#, kde-format
+msgid "Load the next word and start a new game."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Main.qml:55
+#, kde-format
+msgid "Error: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SelectionDialog.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:20
+#, kde-format
+msgid "KHangMan Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:47
+#, kde-format
+msgid "Word resolve time in seconds"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:68
+#, kde-format
+msgid "The duration for showing the hint for the actual word"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:81
+#, kde-format
+msgid "Score Multiplying Factor:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:85
+#, kde-format
+msgid "Determine the factor by which the scores will be multiplied."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:96
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable sounds"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:107
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:117
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr ""

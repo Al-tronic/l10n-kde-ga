@@ -1,0 +1,139 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: json files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/service/plugins/activitytemplates/kactivitymanagerd-plugin-activitytemplates.json
+msgctxt "Name"
+msgid "Activity Templates"
+msgstr ""
+
+#: src/service/plugins/eventspy/kactivitymanagerd-plugin-eventspy.json
+msgctxt "Name"
+msgid "Event Spy"
+msgstr ""
+
+#: src/service/plugins/globalshortcuts/kactivitymanagerd-plugin-globalshortcuts.json
+msgctxt "Name"
+msgid "Global Shortcuts"
+msgstr ""
+
+#: src/service/plugins/gtk-eventspy/kactivitymanagerd-plugin-gtk-eventspy.json
+msgctxt "Name"
+msgid "Gtk Event Spy"
+msgstr ""
+
+#: src/service/plugins/krunner/kactivitymanagerd-plugin-activityrunner.json
+msgctxt "Name"
+msgid "Activity Runner"
+msgstr ""
+
+#: src/service/plugins/runapplication/kactivitymanagerd-plugin-runapplication.json
+msgctxt "Name"
+msgid "Run applications on activity state change"
+msgstr ""
+
+#: src/service/plugins/slc/kactivitymanagerd-plugin-slc.json
+msgctxt "Name"
+msgid "Share-Like-Connect"
+msgstr ""
+
+#: src/service/plugins/sqlite/kactivitymanagerd-plugin-sqlite.json
+msgctxt "Name"
+msgid "SQLite Feeder"
+msgstr ""
+
+#: src/service/plugins/virtualdesktopswitch/kactivitymanagerd-plugin-virtualdesktopswitch.json
+msgctxt "Name"
+msgid "Virtual desktop switcher"
+msgstr ""
+
+#: src/service/plugins/activitytemplates/kactivitymanagerd-plugin-activitytemplates.json
+msgctxt "Description"
+msgid "Support for creating templated activities"
+msgstr ""
+
+#: src/service/plugins/eventspy/kactivitymanagerd-plugin-eventspy.json
+msgctxt "Description"
+msgid ""
+"Collects events from applications that support recent documents specification"
+msgstr ""
+
+#: src/service/plugins/globalshortcuts/kactivitymanagerd-plugin-globalshortcuts.json
+msgctxt "Description"
+msgid "Adds global keyboard shortcuts for activity switching"
+msgstr ""
+
+#: src/service/plugins/gtk-eventspy/kactivitymanagerd-plugin-gtk-eventspy.json
+msgctxt "Description"
+msgid ""
+"Collects events from applications that use GtkFileChooser and "
+"GtkRecentManager as specified by https://www.freedesktop.org/wiki/"
+"Specifications/desktop-bookmark-spec/"
+msgstr ""
+
+#: src/service/plugins/krunner/kactivitymanagerd-plugin-activityrunner.json
+msgctxt "Description"
+msgid "KRunner plugin to list and switch activities"
+msgstr ""
+
+#: src/service/plugins/runapplication/kactivitymanagerd-plugin-runapplication.json
+msgctxt "Description"
+msgid ""
+"When switching activities, or when starting and stopping them, execute "
+"specified applications"
+msgstr ""
+
+#: src/service/plugins/slc/kactivitymanagerd-plugin-slc.json
+msgctxt "Description"
+msgid "Provides data to Share-Like-Connect applet"
+msgstr ""
+
+#: src/service/plugins/sqlite/kactivitymanagerd-plugin-sqlite.json
+msgctxt "Description"
+msgid "Plugin to store and score events in SQLite"
+msgstr ""
+
+#: src/service/plugins/virtualdesktopswitch/kactivitymanagerd-plugin-virtualdesktopswitch.json
+msgctxt "Description"
+msgid ""
+"When switching to an activity, opens the virtual desktop last used with that "
+"activity"
+msgstr ""
+
+#: src/service/plugins/activitytemplates/kactivitymanagerd-plugin-activitytemplates.json
+#: src/service/plugins/eventspy/kactivitymanagerd-plugin-eventspy.json
+msgctxt "Authors Name"
+msgid "Ivan Čukić"
+msgstr ""
+
+#: src/service/plugins/globalshortcuts/kactivitymanagerd-plugin-globalshortcuts.json
+msgctxt "Authors Name"
+msgid "Makis Marimpis"
+msgstr ""
+
+#: src/service/plugins/gtk-eventspy/kactivitymanagerd-plugin-gtk-eventspy.json
+msgctxt "Authors Name"
+msgid "Méven Car"
+msgstr ""
+
+#: src/service/plugins/krunner/kactivitymanagerd-plugin-activityrunner.json
+msgctxt "Authors Name"
+msgid "Alexander Lohnau"
+msgstr ""
+
+#: src/service/plugins/runapplication/kactivitymanagerd-plugin-runapplication.json
+#: src/service/plugins/slc/kactivitymanagerd-plugin-slc.json
+#: src/service/plugins/sqlite/kactivitymanagerd-plugin-sqlite.json
+#: src/service/plugins/virtualdesktopswitch/kactivitymanagerd-plugin-virtualdesktopswitch.json
+msgctxt "Authors Name"
+msgid "Ivan Cukic"
+msgstr ""

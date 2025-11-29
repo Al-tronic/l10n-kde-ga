@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-01-11 09:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6 stable5
+#: index.docbook:10
+#, no-c-format
+msgid "Screen Locking"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6 stable5
+#: index.docbook:12
+#, no-c-format
+msgid "&Mike.McBride; &Mike.McBride.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6 stable5
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6 stable5
+#: index.docbook:16
+#, no-c-format
+msgid "2020-07-02"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6 stable5
+#: index.docbook:17
+#, no-c-format
+msgid "Plasma 5.20"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:20
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:21
+#, no-c-format
+msgid "systemsettings"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:22
+#, no-c-format
+msgid "screenlocker"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6 stable5
+#: index.docbook:23
+#, no-c-format
+msgid "screen locker"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:26
+#, no-c-format
+msgid "Using this module, you can determine how much time must pass before the screen locker is activated, configure the grace period for unlocking the screen without password, and choose the appearance of your screen locker."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:29
+#, no-c-format
+msgid "At the top is a check box to have the screen locker <guilabel>Lock screen automatically</guilabel>, and a spin box which determines the period of inactivity before the screen locker should be started. You can enter any positive number of minutes in this box."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:33
+#, no-c-format
+msgid "The <guilabel>After waking from sleep</guilabel> check box can be used to switch locking the desktop screen after the system suspension on and off."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:35
+#, no-c-format
+msgid "Below that is a spinbox labeled <guilabel>Allow unlocking without password for</guilabel>. When you press a key or click a mouse button to end the screen locker before the time in the spinbox and return to your work, you must not enter a password. The password used is the same password you used to login to your machine."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:39
+#, no-c-format
+msgid "Locking the screen manually causes the password protection to engage immediately."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:41
+#, no-c-format
+msgid "You can define a shortcut to lock the screen using the <guilabel>Keyboard shortcut</guilabel> field."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:43
+#, no-c-format
+msgid "The default shortcut <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>L</keycap></keycombo> provides a quick way to lock the screen manually."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:46
+#, no-c-format
+msgid "If you would like to change the background in locked status press the <guibutton>Configure</guibutton> button besides the <guilabel>Appearance</guilabel> label. Then you can change the <guilabel>Wallpaper type</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:48
+#, no-c-format
+msgid "You can select a <guilabel>Plain Color</guilabel> as wallpaper type."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6 stable5
+#: index.docbook:50
+#, no-c-format
+msgid "Alternatively use a single image or a slideshow with images from a folder or load new wallpapers from the Internet."
+msgstr ""

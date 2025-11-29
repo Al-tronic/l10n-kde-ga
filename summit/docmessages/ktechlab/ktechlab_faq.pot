@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-05-12 09:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 trunk5
+#: faq.docbook:3
+#, no-c-format
+msgid "<title>FAQ</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: faq.docbook:8
+#, no-c-format
+msgid "&ktechlab; uses lots of CPU"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: faq.docbook:12
+#, no-c-format
+msgid "There are several possible causes. Simulation of circuits that contain both reactive and nonlinear components (such as capacitors and transistors) take a lot of CPU time to simulate. You can pause and resume the simulation via the <guimenu>Tools</guimenu> menu."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: faq.docbook:14
+#, no-c-format
+msgid "Drawing of the work area (in particular, redrawing lots of rapidly updating voltage bars on pins) is also CPU intensive. You can reduce the refresh rate or turn off the voltage bars via the <guilabel>Settings</guilabel> dialog. The refresh rate of the <guilabel>Oscilloscope</guilabel> can also be reduced by right clicking on its display."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 trunk5
+#: faq.docbook:16
+#, no-c-format
+msgid "Note that the next major release of &ktechlab; can be a lot faster in both displaying the work area and simulating reactive and nonlinear components."
+msgstr ""

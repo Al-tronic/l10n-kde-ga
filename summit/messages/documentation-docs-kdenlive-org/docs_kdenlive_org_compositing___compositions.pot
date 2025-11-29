@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-18 09:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../<rst_epilog>:130
+msgid "edit-download"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:166
+msgid "favorite"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:230
+msgid "help-about"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:438
+msgid "show-all-effects"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:510
+msgid "transform-move-horizontal"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:526
+msgid "view-filter"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:17
+msgid "Compositions"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:19
+msgid "Compositions, outside of the use for :doc:`transitioning <transitions>` from one clip to another, are mostly used for aesthetic or artistic purposes, or to combine images and/or videos to create the illusion that all the elements are parts of the same scene."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:25
+msgid "Compositions Tab"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:29
+msgid "Make the Compositions widget visible in :menuselection:`Menu --> View --> Compositions`."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:31
+msgid "The Compositions widget has six control icons that show or hide the different effect categories:"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:39
+msgid "kdenlive_compositions_tab"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:39
+msgid "Kdenlive Compositions widget as a tab in the Project Bin area"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:41
+msgid "|show-all-effects|\\ :guilabel:`Main effects` shows all compositions (default view)"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:43
+msgid "|transform-move-horizontal|\\ :guilabel:`Show transitions only` shows the transitions only"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:45
+msgid "|favorite|\\ :guilabel:`Show all favorite items` shows all compositions and transitions that were flagged as a favorite. This is the same list that appears when selecting :guilabel:`Insert a composition` from the right-click menu of a clip in the Timeline."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:47
+msgid "|edit-download|\\ :guilabel:`Download New Effects` opens a dialog window where compositions templates are listed from the KDE Store"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:49
+msgid "|view-filter|\\ :guilabel:`Only show reviewed assets` toggles between the compositions which are reviewed and tested by the Kdenlive team and not tested compositions (still in test phase)"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:51
+msgid "|help-about|\\ :guilabel:`Show/hide description of effects` toggles the information display below the compositions list where a short description of what the composition does is displayed when on. Clicking on the link opens the online documentation to this effect."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:57
+msgid "How to Composite Two Clips"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:58
+msgid "Alpha channels are taken into account automatically so that clips with alpha can be stacked on top of each other without the need of compositions. You can create alpha channels in clips using effects from the :doc:`/effects_and_filters/video_effects/alpha_mask_keying` category."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:61
+msgid "Click on the grey dot in the lower left or right hand corner of the clip you want to composite with the one below. The default composition **Wipe** is added (which is more a :doc:`transition <transitions>`, so you need to :ref:`change the composition type <compositing-composition_type>` to something like **Cairo Blend**)."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:66
+msgid "Using the left-hand grey dot creates a Wipe composition going from the lower track to the upper track; using the right-hand grey dot creates a Wipe composition going from the upper track to lower track."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:69
+msgid "Right-click the clip you want to composite with the one below, select :guilabel:`Insert Composition`, and select :guilabel:`Composite and Transform` or :guilabel:`Wipe`."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:74
+msgid "You can add compositions to your favorites by right-clicking on the composition in the Compositions widget and selecting :guilabel:`Add to favorites`. Your favorite compositions show up as options when using this method."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:77
+msgid "Drag a composition from the Compositions widget and drop it on the clip you want to composite with the one below. Adjust the start and end points by dragging the left and/or right edge of the composition bar in the timeline."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:86
+msgid "Composition Track"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:88
+msgid "By default, Kdenlive uses the clip in the track immediately below for the compositing. In most cases, this is what you want. But you can instruct Kdenlive to use the clip in another track by changing the :guilabel:`Composition track`. Kdenlive lists all possible tracks for the composition, and they are all below the one in which the clip with the composition is. It is not possible to composite upwards."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:94
+msgid "Composition Type"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:96
+msgid "With method #1 and #2, Kdenlive by default creates a composition with a composition type **Wipe**, **Composite and Transform**, or whatever composition you may have added as a favorite. A **Wipe** is really more of a :doc:`transition <transitions>`, and **Composite and Transform** may not be needed all the time due to its wealth of additional parameters."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:98
+msgid "You can change the composition type in the Effect/Composition Stack widget. Kdenlive uses the same space in the UI to display effects or compositions. See the section about :doc:`/user_interface`."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:107
+msgid "Composition type drop-down"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:109
+msgid "In the top left corner of the :guilabel:`Composition Stack` is the drop-down list for the composition type. It lists both compositions, :doc:`blend modes </compositing/compositions/blend_modes>` and transitions, as well as :doc:`alpha channel operations </compositing/compositions/alpha_operations>`. Depending on the selected composition type, additional fields (or parameters) are displayed."
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:-1
+msgid "Kdenlive Documentation - Compositing: Compositions"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:-1
+msgid "KDE, Kdenlive, documentation, user manual, video editor, open source, free, learn, easy, compositing, composition, compositions"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:0
+msgid "Method 1"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:0
+msgid "Method 2"
+msgstr ""
+
+#. +> trunk5
+#: ../../compositing/compositions.rst:0
+msgid "Method 3"
+msgstr ""

@@ -1,0 +1,583 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: websites-kdenlive-org 1.0\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-15 09:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:15
+msgid "![](team-amsterdam-scaled.jpg)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:17
+msgid "Last week, part of the Kdenlive core team met in Amsterdam for a short sprint, the highlight of which was a visit to the Blender Foundation."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:19
+msgid "Francesco Siddi, COO at Blender, provided us with a rare insight into Blender’s history and precious advice about product management for Kdenlive – we hope to implement some of these advices soon."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:21
+msgid "As the meeting took place on a Friday afternoon, we also had the opportunity to attend their “Weekly”, which is an open session where artists and developers share their progress of the past week on various Blender related projects."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:23
+msgid "So thanks again to Francesco and everyone at the Blender Foundation for their hospitality."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:25
+msgid "On the next day, we discussed a few topics, including:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:27
+msgid "Refining the [audio workflow task][1]"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:28
+msgid "Proof of concept on how we can [improve clip timecode][2] – define a start timecode when rendering"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:29
+msgid "Finalized an [MLT patch][3] to make rendering work without a display server (required to make Flatpak pass our render test suite)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:30
+msgid "Scratched [a][4] [few][5] [itches][6]"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:0
+msgid "Kdenlive in Amsterdam"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:0
+#: content/news/2025/berlin-sprint/index.md:0
+#: content/news/2025/fundraising-final-report/index.md:0
+msgid "Jean-Baptiste Mardelle"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:0
+#: content/news/2025/berlin-sprint/index.md:0
+msgid "Inside"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:0
+#: content/news/2025/berlin-sprint/index.md:0
+#: content/news/2025/kdenlive-cafe-01/index.md:0
+msgid "Event"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/amsterdam-sprint-report/index.md:0
+#: content/news/2025/berlin-sprint/index.md:0
+msgid "Sprint"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:13
+msgid "![](berlin-1.jpg \"Kdenlive team working\")"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:15
+msgid "From the 3rd to the 5th of September, the Kdenlive team was reunited in Berlin for a sprint and to attend [Akademy][1], KDE's annual conference. This was an occasion for us to meet in person since our team is spread across continents, and to join our forces to make Kdenlive better. And I must say this was one of the most productive sprints in Kdenlive's history!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:17
+msgid "We were kindly hosted by [c-base][2] for our Sprint so a big thanks to the team for welcoming us there!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:19
+msgid "Let's get into the details of what we did:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:21
+msgid "We started by reviewing and updating our [roadmap][3], so it is easier to understand what we are working on, what we plan and when. Another important step towards improving our workflows is that we created issues for each of these goals where the details will be discussed, so everyone can follow and possibly help us on the road to success."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:23
+msgid "Dopesheet"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:24
+msgid "Very exciting, I received a grant from the [NGI Zero Commons Fund][4] through [NLnet][5] to work on a dopesheet feature in Kdenlive. This will bring a much improved keyframing interface with powerful features. We discussed what core features we want in it and some drafts on how that would work. This feature won't be ready for the December release, but I will post updates on the progress of this task in the coming months."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:26
+msgid "We then reviewed specific parts of the UI that we would like to improve. All these ideas will be discussed in specific issues so that we can refine the implementation."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:28
+msgid "Menu reorganization"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:29
+msgid "This task started two years ago but we never took time to finalize it. We progressed a lot on this and you can expect it to land in the December release. Among the changes, we decided to rename the `Project Bin` to `Media`, `Render` to `Export`, and reorganize the menus to make things more logical. We will make another blog to present these changes in detail once this is done."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:31
+msgid "Timeline toolbar"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:32
+msgid "We want to cleanup the UI, make the timeline timecode display cleaner and get rid of the large *Master* button currently taking a lot of space."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:34
+msgid "Monitor UI"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:35
+msgid "We plan to move the audio vu-meter to a collapsible vertical widget on the right side of the monitor to free some space in the toolbar, make the zone duration always visible and move the insert/overwrite actions currently in the timeline toolbar there."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:37
+msgid "Audio monitor"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:38
+msgid "When selecting an audio clip, the Clip Monitor currently displays a huge audio waveform that is not that useful. We reviewed the UI to also display an overview at the top, making it easier to zoom and see where you are in the clip."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:42
+msgid "Layout and docks"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:43
+msgid "We have several open issues regarding docking. One of the frequent request we have is to save the layout per project file, since sometimes you want very specific layouts for a project. We discussed how to make it happen and are also evaluating switching the library managing the widgets docking to [KDDockWidgets][6] that would bring us some very nice improvements like being able to detach the timeline or group several undocked widgets together"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:45
+msgid "![](team-berlin.jpg \"Kdenlive team working\")"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:46
+msgid "Titler"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:47
+msgid "Our current titler does the job for simple tasks but many users would like to be able to use some animation presets to make their titles more dynamic. We discussed the possible options to make this a reality. Among the ideas, we could use Lottie animations, since our video backend MLT already has support to play them through the Glaxnimate module. Another option would be to implement a Qml producer for MLT, allowing to play Qml files directly as a video. Any help on that topic is welcome."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:49
+msgid "Website"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:50
+msgid "We have some planned changes to make our website look better and discussed some of the options."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:52
+msgid "And all the rest"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:53
+msgid "![](team-restaurant.jpg \"Kdenlive team in a nice restaurant\") We discussed tons of other things and even managed to shoot some interviews of our team members. Less relevant maybe for users but we also reviewed some of the administrative and trademark issues, and CI/CD issues"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:56
+msgid "Akademy 2025"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:57
+msgid "Akademy was also an occasion to have interesting exchanges, notably with Glaxnimate's maintainer, Plasma developers and more. We are now back home with tons of ideas and TODO's, and the next release of Kdenlive, to be launched in December, will shine with some of the improvements we prepared during this week in Berlin !"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:59
+msgid "If you would like to help our small team, you are always welcome to contribute by giving some feedback, talk about us, create a merge request or donate."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:0
+msgid "Kdenlive in Berlin"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/berlin-sprint/index.md:0
+msgid "kdenlive"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:14
+msgid "From 6th to 10th of September 2024, part of the [Kdenlive Team was in Germany][1] to attend the annual KDE convention [Akademy][2] and used that opportunity of being together at the same location to have a sprint. It was good to meet face to face and to sit down and tackle some issues together. One of the topic discussed was improving our communication towards users, so here is a much needed update on the status of our fundraiser! This post should have been published a few months earlier but there were so much things happening around Kdenlive that it was hard to follow, so sorry for the delay!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:16
+msgid "It’s been a bit more than 2 years since we launched our very successful fundraiser. This allowed us to fund some much wanted features, and as a side goal, allowed me to spend more time on Kdenlive. Thanks to your donations, I will be able to dedicate two days per week to Kdenlive instead of one. Note that this only sponsors part of my work as I spend much more time to Kdenlive, but hopefully this will relieve some stress and I will have a healthier weekly rhythm."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:18
+msgid "During this time, there were around 1,900 commits to the Kdenlive repository, meaning about 3.8 commits per day! We didn’t take that much vacation, did we? Also worth noting is that we handled the port to Qt6 during that time, which was a big task and took a lot of effort."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:20
+msgid "So now for the status of the fundraiser, here is what has been done so far and what is left. All major things were implemented in the 24.12 release so that we can move on to our next goals soon."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:22
+msgid "Timeline Nesting"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:24
+msgid "**merged in 23.04**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:26
+msgid "![](nested-timelines.gif)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:28
+msgid "This was by far the biggest update since 2019, and can now be enjoyed by all *(we recommend using the upcoming 24.12.2 version for the best experience)*. What remains for this task is to do some code cleanup that will be done in the 24.12 cycle. On a side note, the feature was merged too early and caused some annoying instabilities that are now solved. And I promise we are working to improve our development processes."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:30
+msgid "Improving the effects workflow"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:32
+msgid "Several changes were made to improve the user experience and make our effects more powerful."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:35
+msgid "Group effects"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:37
+msgid "**merged in 24.05**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:39
+msgid "Ability to control the parameters affecting all effects within the group."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:41
+msgid "![](effect-groups.gif)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:43
+msgid "Built-in effects"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:45
+#: content/news/2025/fundraising-final-report/index.md:71
+#: content/news/2025/fundraising-final-report/index.md:79
+msgid "**merged in 24.12**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:47
+msgid "The effects panel gives direct access to effect parameters, allowing to quickly and easily adjust them."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:49
+msgid "![](builtin-effects.gif)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:51
+msgid "More Easing Modes"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:53
+msgid "**merged in 24.02**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:55
+msgid "In addition to the existing easing modes (linear, smooth, and constant), we’ve added several new options like: Cubic In/Out, Exponential In/Out, Circular In/Out, Elastic In/Out, and Bounce In/Out for transitions and effects."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:57
+msgid "![](easingmodes-fund.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:59
+msgid "Transform effect improvements"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:61
+msgid "The Transform effect now has a monitor grid to easily align clips – merged in 24.12"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:63
+msgid "![](monitor-grid.gif)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:65
+msgid "Added ability to directly select clips from the monitor overlay – merged in 24.08"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:67
+msgid "![](monitor-select.gif)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:69
+msgid "Redesigned effects interface"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:73
+msgid "The Effect Stack redesign enhances usability with clearer organization of keyframeable and non-keyframeable parameters, improved layout consistency, more compact and clean."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:75
+msgid "![](effects-comparison.jpg)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:77
+msgid "Help button"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:81
+msgid "Added a contextual help button in the effect / transition stack which redirects to the effect’s documentation on our fantastic [documentation website][3]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:83
+msgid "![](documentation-info.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:86
+msgid "Performance boost"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:88
+msgid "Performance improvements is an always running task, but among some of the recent changes you will find:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:90
+msgid "Spacer tool boost – merged in 24.05, the Spacer tool that was previously very laggy when moving more than 10 clips was optimized to allow almost instant move"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:91
+msgid "Improve speed for audio or video only rendering – merged in 24.08, a small improvement in the way the rendering is passed to MLT means slightly faster render times for the timeline preview"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:92
+msgid "Improve support for hardware encoders – cleanup and improve the detection of the GPU used for timeline preview and proxy clips – merged in 23.08"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:93
+msgid "Optimize parts of the timeline qml code – merged in 24.05, we now better handle out of view items"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:95
+msgid "But wait, there’s more!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:97
+msgid "Thanks to your support we managed to achieve more than planned. We worked in improving our automated testing as well as hired third party developers for extra features."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:99
+msgid "Regression Testing"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:101
+msgid "One thing we wanted for a long time was a way to automatically check for rendering regressions. We are now entering the final phase of this automated tests and it will soon be run automatically. Hopefully this will make future releases more stable and avoid some of the issues we had in the last years!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:103
+msgid "Audio Waveform Upgrade"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:105
+msgid "**merged for 25.04**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:107
+msgid "The next major release of Kdenlive brings a 300% performance boost for generating audio thumbnails, along with higher-resolution waveforms for greater precision and a refactored sampling method that accurately renders the audio signal. This work was done by [Étienne Paul André][4], check out the in depth details about thew work done [here][5]."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:109
+msgid "![](659ac759bcbe564f.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:111
+msgid "OpenTimelineIO Integration"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:113
+msgid "**expected in 25.08**"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:115
+msgid "[Darby Jonhston][6] is working on implementing a native C++ [OpenTimelineIO][7] integration to allow importing and exporting project files to/from other applications implementing this open standard. This has many advantages over the currently existing but very broken Python adapter based OTIO integration."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:117
+msgid "Export features:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:119
+msgid "Export a timeline with multiple tracks and clips. (working)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:120
+#: content/news/2025/fundraising-final-report/index.md:126
+msgid "Support for markers and guides. (working)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:121
+#: content/news/2025/fundraising-final-report/index.md:127
+msgid "Support for transitions. (not started)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:123
+msgid "Import features:"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:125
+msgid "Import a timeline with multiple tracks and clips. (working)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:130
+msgid "What’s next"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:132
+msgid "During our sprint in Germany, we also updated our [roadmap][8] so that it better reflects the current status of our development and goals. We have something big planned for this year so stay tuned."
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:134
+msgid "On behalf of the team, we would like to thank you all for your support that helps make Kdenlive better every day!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:0
+msgid "Kdenlive fundraising final report"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/fundraising-final-report/index.md:0
+msgid "Fundraising"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/kdenlive-cafe-01/index.md:12
+msgid "Grab your favorite drink and join us for the first Kdenlive Café of the year! Come hangout with the developer team, share your ideas and feedback, get some scoops on what’s brewing for future releases and connect with fellow editors. Join the community!"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/kdenlive-cafe-01/index.md:14
+msgid "📅 Tuesday, January 28th, at 8 PM (UTC)"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/kdenlive-cafe-01/index.md:16
+msgid "🌐 https://meet.kde.org/b/far-twm-ebr"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/kdenlive-cafe-01/index.md:0
+msgid "First Kdenlive Café of 2025"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/kdenlive-cafe-01/index.md:0
+msgid "Farid Abdelnour"
+msgstr ""
+
+#. +> trunk5
+#: content/news/2025/kdenlive-cafe-01/index.md:0
+msgid "Café"
+msgstr ""

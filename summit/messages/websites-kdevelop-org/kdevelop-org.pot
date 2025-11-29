@@ -1,0 +1,634 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: websites-kdevelop-org 1.0\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-02-27 09:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: config.yaml:0 content/_index.md:0 i18n/en.yaml:0
+msgid "KDevelop"
+msgstr ""
+
+#. +> trunk5
+#: config.yaml:0
+msgid "A cross-platform IDE for C, C++, Python, QML/JavaScript and PHP"
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:0
+msgid "KDevelop - A cross-platform IDE for C, C++, Python, QML/JavaScript and PHP"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:12
+msgid "Linux"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:14
+msgid "Install [KDevelop](https://apps.kde.org/kdevelop) from [your distribution](https://kde.org/distributions/)."
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:18
+msgid "Install [KDevelop's Snap package from Snapcraft](https://snapcraft.io/kdevelop)."
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:26
+msgid "Windows"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:28
+msgid "Download [the nightly KDevelop 64-bit build](https://cdn.kde.org/ci-builds/kdevelop/kdevelop/master/windows/). \\*\\*"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:29
+msgid "Install [KDevelop via Chocolatey](https://chocolatey.org/packages/kdevelop). \\*\\*\\*"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:35
+msgid "macOS"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:37
+msgid "Download the [KDevelop release installer](https://binary-factory.kde.org/view/MacOS/job/KDevelop_Release_macos/lastSuccessfulBuild/artifact/). *"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:43
+msgid "Source Code"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:45
+msgid "The [source code for KDevelop](https://invent.kde.org/kdevelop/kdevelop) is available on KDE’s GitLab instance. For detailed instructions on how to build KDevelop from source, check the [Build it](/build-it) page."
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:52
+msgid ""
+"**About the releases:** <br>"
+" [KDevelop](https://apps.kde.org/kdevelop) is part of KDE Gear, which are [released typically 3 times a year en-masse](https://community.kde.org/Schedules). The [text editing](https://api.kde.org/frameworks/ktexteditor/html/) and the [syntax highlighting](https://api.kde.org/frameworks/syntax-highlighting/html/) engines are provided by [KDE Frameworks](https://kde.org/announcements/kde-frameworks-5.0/), which is [updated monthly](https://community.kde.org/Schedules/Frameworks). New releases are announced [here](https://kde.org/announcements/)."
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:55
+msgid "\\* The **release** packages contain the latest version of KDevelop and KDE Frameworks."
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:57
+msgid "\\*\\* The **nightly** packages are automatically compiled from the source code of the `master` branch, therefore they may be unstable and contain bugs or incomplete features. These are only recommended for testing purposes."
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:59
+msgid "\\*\\*\\* The Chocolatey packages are developed independently from KDE. It may or may not be up to date."
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0 i18n/en.yaml:0
+msgid "Download"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:8
+msgid "Supported languages"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:10
+msgid "![KDevelop's C/C++ language support](/images/kdevelop-code.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:12
+msgid "The following languages are fully supported, which means they have semantic syntax highlighting, code navigation and completion:"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:13
+msgid "C/C++ and ObjC (backed by the [Clang/LLVM](https://clang.llvm.org/docs/Tooling.html) libraries)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:14
+msgid "Including some extra features for the [Qt Framework](https://www.qt.io/developers/)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:15
+msgid "Including language support for [CUDA](https://developer.nvidia.com/cuda-zone) and [OpenCL](https://www.khronos.org/opencl/)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:16
+msgid "[Qt QML](https://doc.qt.io/qt-5/qtqml-index.html) and JavaScript"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:17
+msgid "Python (optional plugin)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:18
+msgid "PHP (optional plugin)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:20
+msgid "For virtually all non-supported languages, there is still basic syntax highlighting and text-based code completion."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:22
+msgid "Supported version control systems"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:24
+msgid "![The \"Show annotation\" feature with the Git VCS.](/images/annotate2.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:26
+msgid "The following version control systems have GUI integration:"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:28
+msgid "Git"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:29
+msgid "Bazaar"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:30
+msgid "Subversion"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:31
+msgid "CVS"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:32
+msgid "Mercurial (hg) (optional plugin)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:33
+msgid "Perforce (since 5.1)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:35
+msgid "An especially useful feature is the _Annotate_ border, which shows who last changed a line and when. Showing the diff which introduced this change is just one click away!"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:37
+msgid "Supported build systems"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:39
+msgid "![KDevelop's CMake settings dialog](/images/kdevelop-cmake-settings.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:41
+msgid "The following build systems are supported, which means that KDevelop can automatically obtain run and build targets as well as include paths from them:"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:43
+msgid "CMake"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:44
+msgid "QMake"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:45
+msgid "Custom Makefiles (partially)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:46
+msgid "Generic build system (no automatic include path detection)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:48
+msgid "KDevelop knows how to invoke build automation tools such as _make_ and _ninja_ and has dedicated configuration pages for them."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:50
+msgid "Language support features"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:52
+msgid "For all supported languages, KDevelop supports the following features:"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:54
+msgid "Quick code navigation"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:56
+msgid "![Navigation widget](/images/nav_0.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:58
+msgid "Navigation widget popup when moving the mouse over items, or when pressing Alt with the text cursor over them. The widget allows navigation, i.e. you can for example navigate to the parent class of the class you are viewing to look at the navigation widget of that parent class."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:60
+msgid "Find uses of symbols (variables, types, etc.)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:61
+msgid "Jump to declaration / definition"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:62
+msgid "**Quick Open**, allowing to search for any function, class or file project-wide."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:63
+msgid "Project, class and function browser"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:65
+msgid "The code browser mode (press Ctrl when clicking on an symbol) makes it super easy to browse through an unknown code base."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:67
+msgid "Remarkable code comprehension"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:69
+msgid "![KDevelop's code completion](/images/kdevelop-completion.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:71
+msgid "KDevelop always prided itself for its state of the art C/C++ language support. With the Clang adoption in 5.0, we get 100% correct code parsing functionality, which means the IDE can accurately check for coding faults even without having you to invoke the compiler! Not limited to C/C++, all supported languages share below features."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:73
+msgid "**Semantic highlighting**: Highlighting which takes the semantics of the language into account, and for example highlights class names differently from variable names, even if this cannot be recognized from the syntax of the code alone."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:74
+msgid "**Rainbow highlighting**: Highlights each occurrence of the same variable in a specific color, changing on a per-variable basis. Try it out, you will love it once you get used to it. Optional."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:75
+msgid "**Context-sensitive, semantic code completion**: KDevelop has sophisticated heuristics designed to present you with the most likely suggestions at the current cursor position. For Python, PHP and JS, those completions are generated from KDevelop's cached code representation and are thus available instantly -- without noticeable delay."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:77
+msgid "**Persistent disk cache** for the code database. Depending on the size of complexity of your project, analysis might take a while at first; but after that first time, everything is cached on disk and loaded in few seconds on each subsequent startup of the IDE."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:79
+msgid "Customizable"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:81
+msgid "![KDevelop under a dark theme](/images/kdevelop-darktheme-small.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:83
+msgid "Easy to adapt to your own style!"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:85
+msgid "Free to reorder, enable or disable any buttons in the menu bar"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:86
+msgid "Arbitrary split views"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:87
+msgid "Arbitrary layout of tool views inside the main window"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:88
+msgid "Freely configurable color scheme, separately for application and editor."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:89
+msgid "Can assign shortcuts to almost every action in the IDE"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:91
+msgid "Documentation integration"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:93
+msgid "![KDevelop's documentation integration (here: QtHelp)](/images/kdevelop-documentation.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:95
+msgid "KDevelop provides seamless integration with a variety of documentation providers. The supported systems are:"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:97
+msgid "QtHelp documentation files (QCH)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:98
+msgid "Man pages (the ones you can just view with `man` on command line)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:99
+msgid "CMake help pages"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:101
+msgid "You can simply open a documentation page by hovering a symbol and then selecting \"Show documentation for ...\""
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:103
+msgid "Other bits and pieces"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:105
+msgid "Fast startup and typically small memory footprint."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:106
+msgid "Generally designed to behave like a simple text editor in many cases, for example you can just run kdevelop file.cpp from your terminal and it will open that file in the current session."
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:107
+msgid "Fully scriptable, powerful code snippets with template fields (press Tab to cycle between user-defined fields, can have fields with scriptable contents, etc); those can also be configured to show up in the code completion list"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:108
+msgid "Powerful find and replace, also across whole projects, optionally with regular expressions"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:109
+msgid "Unit test integration"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:110
+msgid "Filterable Problems toolview, showing all problems (syntax and semantic errors, TODOs, etc)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:111
+msgid "Graphical debugger support (C/C++ and Python, PHP through an extra plugin)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:112
+msgid "Code formatter support (several predefined ones for C/C++ and Python, as well as custom formatter scripts)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:113
+msgid "File and project templates (extra templates can be downloaded or installed)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:114
+msgid "Can view almost any file type as a tab / document inside the IDE through KParts (e.g. a PDF)"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:115
+msgid "Console toolview"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:116
+msgid "External script support"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:117
+msgid "Vim compatible input mode"
+msgstr ""
+
+#. +> trunk5
+#: content/features.md:0 i18n/en.yaml:0
+msgid "Features"
+msgstr ""
+
+#. +> trunk5
+#: content/support.md:8
+msgid "Before looking for support, be sure to read the available documentation, whether that is the [application handbook](http://docs.kde.org/stable/en/applications/kdevelop/index.html), developer documentation or other documentation."
+msgstr ""
+
+#. +> trunk5
+#: content/support.md:10
+msgid "Get in touch"
+msgstr ""
+
+#. +> trunk5
+#: content/support.md:12
+msgid "When in need for help, you have the following options to get in touch with KDevelop developers and users:"
+msgstr ""
+
+#. +> trunk5
+#: content/support.md:14
+msgid "Use our mailing list, <kdevelop-devel@kde.org>. The mailing list is open, that is you do not need to be subscribed to contact us. Do not forget to ask to be CC&#8217;d in answers in that case. To subscribe, visit the [kdevelop-devel mailing list](http://mail.kde.org/mailman/listinfo/kdevelop-devel). For archives, go [here](http://lists.kde.org/?l=kdevelop-devel&r=1&w=2). Mark Mail has a [great overview](http://markmail.org/search/?q=kdevelop-devel#query:kdevelop-devel%20list%3Aorg.kde.kdevelop-devel%20order%3Adate-backward+page:1+state:facets) of our list, too."
+msgstr ""
+
+#. +> trunk5
+#: content/support.md:16
+msgid "Visit our IRC channel [#kdevelop on irc.libera.chat](irc://irc.libera.chat/kdevelop). You can often meet KDevelop developers there, and we are usually willing to help with user support requests as well as development questions. Alternatively, try [#kde](irc://irc.libera.chat/kde) for user support and [#kde-devel](irc://irc.libera.chat/kde-devel) for development help."
+msgstr ""
+
+#. +> trunk5
+#: content/support.md:19
+msgid "Many of the bigger applications using Kate Part such as Kate or KWrite have their own support channels, mailing lists, IRC channels and web forums. If you have a problem with one of these applications and you are not sure if this is a bug of the Kate Part then please first report it to them. Please prefer these public channels over contacting the authors in private."
+msgstr ""
+
+#. +> trunk5
+#: content/support.md:21
+msgid "Using the KDE bug system"
+msgstr ""
+
+#. +> trunk5
+#: content/support.md:23
+msgid "The KDE bug tracking system at [bugs.kde.org](https://bugs.kde.org) is used for managing all bugs related to KDevelop. You can use the _Help->Report Bug_ menu item found in most KDE applications to report bugs or wishes. It will start the bug report wizard and fill in some information for you."
+msgstr ""
+
+#. +> trunk5
+#: content/support.md:25
+msgid "Be sure to include as much information as possible when reporting bugs, the better the report the better the chances we can fix the reported problem."
+msgstr ""
+
+#. +> trunk5
+#: content/support.md:0
+msgid "Support"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Available for Linux, Windows and macOS"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "KDevelop is a Feature-Packed Integrated Development Environment"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "KDevelop is a fully-featured Integrated Development Environment, perfect for C and C++ projects and other supported languages. It has great code completion and project support, along with documentation integration that keeps you close to where you're editing code."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "All Features"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Understand your code better with remarkable code comprehension"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "KDevelop parses your project on the fly to give you accurate code completion. C/C++, Objective-C, and QML have first-class support in KDevelop!"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Program in every language"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid ""
+"KDevelop has great support for C and C++, Objective-C and QML. It even supports some parts of Qt's dialect. Python and PHP have optional plugins enabling better support.\n"
+"\n"
+"KDevelop has support for CMake and QMake as well."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Work on multiple projects simultaneously"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid ""
+"KDevelop is a fantastic multi-project IDE, open multiple projects inside of one session and decide the order in which they can be built. KDevelop is a good fit for large scale software projects like KDE or Qt where development happens across several inter-connected frameworks and libraries.\n"
+"\n"
+"KDevelop also has a Git plugin, enabling you to work with an easy to use Git interface, to keep all of your projects up to date easily."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Check again with documentation integration"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Forgot what `strcmp` returns? Need to check Qt documentation quickly without the help of a search engine? KDevelop can show you Qt documentation, CMake help pages, and Man pages directly from the editor!"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "Plugins"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "KDevelop is very extensible, such as enabling Clang-Tidy, Heaptrack and Perforce support."
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "News"
+msgstr ""
+
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "View all news"
+msgstr ""
+
+#. %1 link, %2 link
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "These buttons only work with [Discover](%1) and other AppStream application stores, such as [GNOME Software](https://wiki.gnome.org/Apps/Software). You can also use your distribution's package manager, such as [Muon](%2) or [Synaptic](https://wiki.debian.org/Synaptic)."
+msgstr ""
+
+#. %1 link
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "[Download the release KDevelop 64-bit installer](%1) *"
+msgstr ""
+
+#. %1, %2, %3, %4, %5 links
+#. +> trunk5
+#: i18n/en.yaml:0
+msgid "If you want to help KDevelop with patches or new plugins, we are more than willing to help you get your feet wet! Chat with us on [#kdevelop on irc.libera.chat](%1), or drop us an email on our [developer mailinglist](%2). If you already have a patch, please create a review request on the [KDE GitLab](%3) instance. If you are looking for bugs to squash or ideas for new features, try to look into the KDevelop bug reports on our [Bugzilla instance](%4). For a list of relatively trivial tasks, check out the so called [Junior Jobs](%5)."
+msgstr ""

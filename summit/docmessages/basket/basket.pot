@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-12-17 08:19+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:11
+#, no-c-format
+msgid "The &basket; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6
+#: index.docbook:13
+#, no-c-format
+msgid "<personname> <firstname>Gleb</firstname> <surname>Baryshev</surname> </personname> <email>gleb.baryshev@gmail.com</email>"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6
+#: index.docbook:21
+#, no-c-format
+msgid "2016-11-07"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6
+#: index.docbook:22
+#, no-c-format
+msgid "2.11"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:25
+#, no-c-format
+msgid "Taking care of your ideas."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:28
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6
+#: index.docbook:29
+#, no-c-format
+msgid "BasKet"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:35
+#, no-c-format
+msgid "NOTICE: handbook not written yet"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:36
+#, no-c-format
+msgid "&basket; still does not have a handbook, so contributors are welcome! Check the <ulink url=\"https://l10n.kde.org/docs/doc-primer/index.html\"> KDE documentation</ulink> for the hints on the DocBook format."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:39
+#, no-c-format
+msgid "Meanwhile, you can look for help on the Internet. In particular, look through the <ulink url=\"https://basket-notepads.github.io\">old website</ulink> or check Linux magazines if you have access to them, for example:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:43
+#, no-c-format
+msgid "<quote>Tutorial: Basket: Capture your thoughts.</quote> Linux Format 120 (Andy Channelle)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:47
+#, no-c-format
+msgid "<quote>A Virtual Basket. Storing, sorting, and filing with KDE&apos;s Basket</quote> Linux Magazine 54 (Stefanie Teufel)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:56 index.docbook:103
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:57
+#, no-c-format
+msgid "&basket; is mainly an all-purpose notes taker, but a particular one:"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:61
+#, no-c-format
+msgid "Using BasKet"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:64
+#, no-c-format
+msgid "Version Sync"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:65
+#, no-c-format
+msgid "When enabled, Version Sync puts your baskets and notes under version control. Currently this is an experimental feature and only very basic functions are implemented, so it may require additional software and some manual setup. These are some of the things that can be done using external tools (but not Basket interface yet):"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:68
+#, no-c-format
+msgid "check out old revisions and revert the changes"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:71
+#, no-c-format
+msgid "synchronize baskets on several computers (merge the changes)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:74
+#, no-c-format
+msgid "push baskets backup to remote repository"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:77
+#, no-c-format
+msgid "To enable it, select <menuchoice> <guimenu>Settings</guimenu> <guimenuitem>Configure BasKet Note Pads</guimenuitem> </menuchoice> → <guibutton>Version Sync</guibutton> and <guibutton>Enable distributed version control</guibutton>. It will initialize git repository in <filename>~/.kde/share/apps/basket/baskets</filename>, upon which standard git tools can be used."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:84
+#, no-c-format
+msgid "Clearing version history"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:85
+#, no-c-format
+msgid "Clearing the history can be useful in these cases:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:88
+#, no-c-format
+msgid "you have locked a basket and want to remove any previous unencrypted versions (which are still stored in the system)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:91
+#, no-c-format
+msgid "you want to free some disk space (can be topical if you insert a lot of images or other files into Basket)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:94
+#, no-c-format
+msgid "Note that you will have to redo any manual setup you did on the git repository."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:100
+#, no-c-format
+msgid "BasKet file structure"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:108
+#, no-c-format
+msgid "BasKet Archive file format"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:109
+#, no-c-format
+msgid "The BasKet file format (.baskets) is a structure which wraps a compressed tar and a preview image. The latest archive format version is 0.6.1."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:112
+#, no-c-format
+msgid "File Structure"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:113
+#, no-c-format
+msgid "The archive file is divided into the structures: file header, preview image header, a preview image (.png), archive header, and a gunzipped tar archive (.tar.gz) containing a baskets file tree as illustrated in the following sketch"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:121
+#, no-c-format
+msgid "Archive file header"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:122
+#, no-c-format
+msgid "The file header is a short structure, consisting of lines of strings, the file declarator, and the format version"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:124
+#, no-c-format
+msgid "The first 17 bytes contain the literal string <code>BasKetNP:archive</code> followed by a new line feed symbol (0x0A) in ISO-8859-1 encoding."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:125
+#, no-c-format
+msgid "The second string is a literal string <code>version:0.6.1</code> followed by a line feed symbol (0x0A) in ISO-8859-1 encoding."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:126 index.docbook:134 index.docbook:147
+#, no-c-format
+msgid "An example:"
+msgstr ""
+
+#. Tag: programlisting
+#. +> trunk6
+#: index.docbook:127
+#, no-c-format
+msgid ""
+"<![CDATA[\n"
+"BasKetNP:archive\n"
+"version:0.6.1\n"
+"                                                                        ]]>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:131
+#, no-c-format
+msgid "Preview image header"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:132
+#, no-c-format
+msgid "Currently, the basket archive file contains a preview file which is derived from the first basket's content."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:133
+#, no-c-format
+msgid "Directly following the file header, a literal string <code>preview*:&lt;size&gt;</code> in ISO-8859-1 encoding, again followed by a line feed symbol. The parameter <code>&lt;size&gt;</code> is a string of decimal numbers. It declares the size in bytes of the preview image. <code>&lt;size&gt;</code> is of type unsigned long."
+msgstr ""
+
+#. Tag: programlisting
+#. +> trunk6
+#: index.docbook:135
+#, no-c-format
+msgid ""
+"<![CDATA[\n"
+"preview*:12000\n"
+"                                                                        ]]>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:139
+#, no-c-format
+msgid "Preview image file"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:140
+#, no-c-format
+msgid "The preview image is of type .png. Its size is specified by the preview image header. The preview image file is inserted as file stream, and directly follows the preview image header."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:144
+#, no-c-format
+msgid "BasKet content archive header"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:145
+#, no-c-format
+msgid "Just like for the preview image file, the content archive is preceded by a string specifying its size. That string directly follows the file stream of the archive."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:146
+#, no-c-format
+msgid "That string must be <code>archive*:&lt;size&gt;</code> followed by a line feed symbol, in ISO-8869-1 encoding. The parameter <code>&lt;size&gt;</code> is a unsigned long integer in string format."
+msgstr ""
+
+#. Tag: programlisting
+#. +> trunk6
+#: index.docbook:148
+#, no-c-format
+msgid ""
+"<![CDATA[\n"
+"archive*:1245000\n"
+"                                                                        ]]>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:152
+#, no-c-format
+msgid "BasKet content archive"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:153
+#, no-c-format
+msgid "The content archive contains the BasKet file tree compressed in to a gzipped tar archive (.tar.gz). Its size is specified by the content header."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:157
+#, no-c-format
+msgid "Example byte stream"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:158
+#, no-c-format
+msgid "The following table shows key parts of the basket archive file content. The left column specifies the offset in the file stream. The center column gives the byte stream at the current offset in hexadecimal format. The right column shows printable characters within the file stream at the current offset."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:170
+#, no-c-format
+msgid "Questions, Answers, and Tips"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6
+#: index.docbook:173
+#, no-c-format
+msgid "Frequently asked questions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:176
+#, no-c-format
+msgid "Question 1"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6
+#: index.docbook:179
+#, no-c-format
+msgid "The answer"
+msgstr ""

@@ -1,0 +1,431 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-18 09:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../<rst_epilog>:310
+msgid "kdenlive-show-video"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:518
+msgid "tools-wizard"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:624
+msgid "Linux"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:629
+msgid "appimage"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:634
+msgid "Windows"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:639
+msgid "MacOS"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:17
+msgid "Dynamic Text"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:28
+msgid "Maintained"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:30
+msgid "Yes"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:32
+msgid "MLT"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:34
+msgid "dynamictext"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:36
+msgid "|linux| |appimage| |windows| |apple|"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:38
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:40
+msgid "No"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:46
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:59
+msgid "Description"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:47
+msgid "This effect allows you to overlay specific keywords to the image source, for example the timecode that counts up relative to the start of the clip or the track it is applied to, respectively. It can be :ref:`controlled directly on the monitor <ui-monitors_effect_direct_control>`."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:50
+msgid "Parameters"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:57
+msgid "Parameter"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:58
+msgid "Value"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:60
+msgid "Font Family / Size / Weight"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:61
+msgid "Selection / Integer"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:62
+msgid "Select the font and its attributes for the text. **Font Weight** seems to behave differently depending on the selected font family."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:63
+msgid "Outline Width"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:64
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:67
+msgid "Integer"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:65
+msgid "Set the width of the outline in pixels to 0, 1, 2 or 3"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:66
+msgid "Padding"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:68
+msgid "The number of pixels to pad the background rectangle beyond the edges of text"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:69
+msgid "Horizontal / Vertical Alignment"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:70
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:76
+msgid "Selection"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:71
+msgid "Set the horizontal and vertical alignment within the geometry rectangle"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:72
+msgid "Text"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:73
+msgid "String"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:74
+msgid "What will be displayed as the overlay. You can add any other text between keywords."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:75
+msgid "<Select a Keyword>"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:77
+msgid "Select the keywords to add to the text field"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:78
+msgid "X / Y / W / H / Size / Opacity"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:80
+msgid "X and Y coordinates, Width and Height, Size and Opacity of the overlay rectangle. You can use these parameters to fine tune the position, size and :term:`opacity` of the overlay."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:81
+msgid "Foreground / Background / Outline Color"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:82
+msgid "Picker"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:83
+msgid "Specify the colors for the text, the background rectangle defined by :guilabel:`Padding` and the outline color (if :guilabel:`Outline Width` is greater than 0)."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:86
+msgid "The following selection items are available:"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:88
+msgid ":guilabel:`Horizontal Alignment` :guilabel:`Vertical Alignment`"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:95
+msgid "Left"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:96
+msgid "Default"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:97
+msgid "Center"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:99
+msgid "Right"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:106
+msgid "The following keywords are available:"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:113
+msgid "timecode"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:114
+msgid "SMPTE drop-frame timecode of the frame"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:115
+msgid "frame"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:116
+msgid "frame number of the frame"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:117
+msgid "file date"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:118
+msgid "modification date of the file (GMT)"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:119
+msgid "local file date"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:120
+msgid "modification date of the file (local)"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:121
+msgid "source frame rate"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:122
+msgid "frame rate of the source video"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:123
+msgid "source codec"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:124
+msgid "codec used in the source video"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:125
+msgid "source bit rate"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:126
+msgid "bit rate of the source video"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:127
+msgid "source width"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:128
+msgid "width of the source video"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:129
+msgid "source height"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:130
+msgid "height of the source video"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:131
+msgid "source comment"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:132
+msgid "comment embedded in the source video"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:134
+msgid "Timecode keywords are based on the frame rate (fps) and position of the frame. Time-based keywords can include a ``strftime``\\ [#]_ format string to customize the output as long as you put some delimiter except '#' between the keyword and the format string and the keyword comes first. For example, ``#localtime %I:%M:%S %p#`` shows only the time in 12-hour format. The '#' may be escaped with '\\'."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:137
+msgid "This effect uses the clip's properties for the calculation of the keywords' values. For example, **#timecode#** will start counting at the beginning of the clip and not at the position of the clip in the timeline. **#timecode#** will reset at the start of every clip it is assigned to. In order to have **#timecode#** count across the whole length of your project you must assign the effect to the (main) video track or the Master."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:140
+msgid ":ref:`Render` option in the render dialog to add time code or frame count to the entire rendered project."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:143
+msgid "In order to use a semi-transparent background color, click on the color panel, click on :guilabel:`+` and use the horizontal slider to change the transparency."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:146
+msgid "You can add effects to entire video tracks by clicking on the |tools-wizard| icon in the track header and choosing :menuselection:`Menu --> Timeline --> Add Effect`. Video tracks that have effects added to them have the white |tools-wizard|, tracks without have a grey |tools-wizard| icon. See also :ref:`effects-track_effect`."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:156
+msgid "See this list of |possible_formats|."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:-1
+msgid "Kdenlive Video Effects - Dynamic Text"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:-1
+msgid "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, generate, draw grid"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:-1
+msgid "effects-dynamic_text-2504.webp"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:0
+msgid "**Status**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:0
+msgid "**Keyframes**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:0
+msgid "**Source library**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:0
+msgid "**Source filter**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:0
+msgid "**Available**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:0
+msgid "**On Master only**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/generate/dynamic_text.rst:0
+msgid "**Known bugs**"
+msgstr ""

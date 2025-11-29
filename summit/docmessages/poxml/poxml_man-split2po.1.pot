@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:8
+#, no-c-format
+msgid "<personname><firstname>Ben</firstname><surname>Burton</surname></personname><email>bab@debian.org</email>"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:9
+#, no-c-format
+msgid "2003-04-07"
+msgstr ""
+
+#. Tag: manvolnum
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:14
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:19
+#, no-c-format
+msgid "Creates a po file from two DocBook XML files"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:23
+#, no-c-format
+msgid "<command>split2po</command> <group choice=\"req\"><option><replaceable>Original-XML</replaceable></option> <option><replaceable>Translated-XML</replaceable></option></group>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:31
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:33
+#, no-c-format
+msgid "<command>split2po</command> is a command-line tool that takes the two given DocBook XML files and produces a <command>gettext</command> message file (PO-file) that represents the changes between them. The resulting PO-file is sent to standard output."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:39
+#, no-c-format
+msgid "<filename>translated-XML</filename> must be the result of translating <filename>original-XML</filename> into another language. It is this translation that the resulting PO-file will represent."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:44
+#, no-c-format
+msgid "This utility is part of the KDE Software Development Kit."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:49
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:51
+#, no-c-format
+msgid "po2xml(1), swappo(1), xml2pot(1)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:56
+#, no-c-format
+msgid "Authors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:58
+#, no-c-format
+msgid "The PO XML tools were written by &Stephan.Kulow; &Stephan.Kulow.mail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-split2po.1.docbook:60
+#, no-c-format
+msgid "This manual page was prepared by <personname><firstname>Ben</firstname><surname>Burton</surname></personname><email>bab@debian.org</email>"
+msgstr ""

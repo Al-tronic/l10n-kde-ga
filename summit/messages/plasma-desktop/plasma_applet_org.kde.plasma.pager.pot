@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the plasma-desktop package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma-desktop\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-28 10:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. +> trunk6 stable6 stable5
+#: package/contents/config/config.qml:13
+#, kde-format
+msgid "General"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:39
+#, kde-format
+msgid "General:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/configGeneral.qml:41
+#, kde-format
+msgid "Show window outlines"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:46
+#, kde-format
+msgid "Show application icons on window outlines"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:52
+#, kde-format
+msgid "Show only current screen"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:57
+#, kde-format
+msgid "Navigation wraps around"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:69
+#, kde-format
+msgid "Layout:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:71
+#, kde-format
+msgctxt "The pager layout"
+msgid "Default"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:71
+#, kde-format
+msgid "Horizontal"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:71
+#, kde-format
+msgid "Vertical"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:85
+#, kde-format
+msgid "Text display:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:88
+#, kde-format
+msgid "No text"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:96
+#, kde-format
+msgid "Activity number"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:96
+#, kde-format
+msgid "Desktop number"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:104
+#, kde-format
+msgid "Activity name"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/configGeneral.qml:104
+#, kde-format
+msgid "Desktop name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/configGeneral.qml:119
+#, kde-format
+msgctxt "@label Start of the sentence 'Selecting current activity does nothing/shows the desktop'"
+msgid "Selecting current Activity:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/configGeneral.qml:113
+#, kde-format
+msgid "Selecting current Activity:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/configGeneral.qml:120
+#, kde-format
+msgctxt "@label Start of the sentence 'Selecting current virtual desktop does nothing/shows the desktop'"
+msgid "Selecting current virtual desktop:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/configGeneral.qml:113
+#, kde-format
+msgid "Selecting current virtual desktop:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/configGeneral.qml:123
+#, kde-format
+msgctxt "option:check completes the sentence 'Selecting current activity/virtual desktop does nothing'"
+msgid "Does nothing"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/configGeneral.qml:116
+#, kde-format
+msgid "Does nothing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/configGeneral.qml:131
+#, kde-format
+msgctxt "option:check completes the sentence 'Selecting current activity/virtual desktop shows the desktop'"
+msgid "Shows the desktop"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/configGeneral.qml:124
+#, kde-format
+msgid "Shows the desktop"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/main.qml:87
+#, kde-format
+msgid "…and %1 other window"
+msgid_plural "…and %1 other windows"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/main.qml:351
+#, kde-format
+msgid "%1 Window:"
+msgid_plural "%1 Windows:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/main.qml:363
+#, kde-format
+msgid "%1 Minimized Window:"
+msgid_plural "%1 Minimized Windows:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/main.qml:439
+#, kde-format
+msgid "Desktop %1"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: package/contents/ui/main.qml:440
+#, kde-format
+msgctxt "@info:tooltip %1 is the name of a virtual desktop or an activity"
+msgid "Switch to %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/main.qml:592
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Show Activity Manager"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:595
+#, kde-format
+msgid "Show Activity Manager…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/main.qml:598
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Add Virtual Desktop"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:598
+#, kde-format
+msgid "Add Virtual Desktop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/main.qml:604
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Remove Virtual Desktop"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:599
+#, kde-format
+msgid "Remove Virtual Desktop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/main.qml:611
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "&Configure Activities…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: package/contents/ui/main.qml:616
+#, kde-format
+msgctxt "@action:inmenu widget context menu"
+msgid "Configure Virtual Desktops…"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:602
+#, kde-format
+msgid "Configure Virtual Desktops…"
+msgstr ""

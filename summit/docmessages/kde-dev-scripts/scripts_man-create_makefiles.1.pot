@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:28+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: date
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:9
+#, no-c-format
+msgid "2003-03-08"
+msgstr ""
+
+#. Tag: refentrytitle
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:13
+#, no-c-format
+msgid "<refentrytitle>&create_makefiles;</refentrytitle>"
+msgstr ""
+
+#. Tag: manvolnum
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:14
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refname
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:18
+#, no-c-format
+msgid "<refname>&create_makefiles;</refname>"
+msgstr ""
+
+#. Tag: refpurpose
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:19
+#, no-c-format
+msgid "Recreates all <filename>Makefile</filename>s beneath a directory"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:23
+#, no-c-format
+msgid "&create_makefiles; <group><replaceable>dir</replaceable></group>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:31
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:33
+#, no-c-format
+msgid "&create_makefiles; recreates all <filename>Makefile</filename>s in <replaceable>dir</replaceable> and its (recursed) subdirectories from the corresponding <filename>Makefile.am</filename> templates."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:38
+#, no-c-format
+msgid "This script must be run from the toplevel directory (the one containing configure). This script saves time compared to re-running configure completely."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:42
+#, no-c-format
+msgid "If the source directory is different from the build directory (see the environment variables below), it will be assumed that each <filename>Makefile.am</filename> and <filename>Makefile.in</filename> belongs beneath the source directory and that each <filename>Makefile</filename> belongs beneath the build directory."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:49
+#, no-c-format
+msgid "This utility is part of the &kde; Software Development Kit."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:54
+#, no-c-format
+msgid "Environment"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:55
+#, no-c-format
+msgid "One of the following variables (but not both) should be set if the source directory is different from the build directory. If the build directory is simply a subdirectory of the source directory, the simpler variable <envar>OBJ_SUBDIR</envar> should be used."
+msgstr ""
+
+#. Tag: envar
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:62
+#, no-c-format
+msgid "OBJ_SUBJDIR"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:63
+#, no-c-format
+msgid "Indicates that the build directory is in the given subdirectory of the source directory. For instance, if the source directory is <filename class=\"directory\">kdesdk</filename> and the build directory is <filename class=\"directory\">kdesdk/obj-i386-linux</filename>, then <envar>OBJ_SUBDIR</envar> should be set to <parameter>obj-i386-linux</parameter>."
+msgstr ""
+
+#. Tag: envar
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:66
+#, no-c-format
+msgid "OBJ_REPLACEMENT"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:67
+#, no-c-format
+msgid "A <command>sed</command> expression that is used to transform the source directory into the build directory. For instance, if the source directory is <filename class=\"directory\">kdesdk/obj-i386-linux</filename>, then <envar>OBJ_REPLACEMENT</envar> should be set to <parameter>s#kdesdk#kdesdk-obj#</parameter>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:74
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:76
+#, no-c-format
+msgid "create_makefile(1) make(2)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:81
+#, no-c-format
+msgid "Authors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:83
+#, no-c-format
+msgid "&create_makefiles; was written by &David.Faure; &David.Faure.mail;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: man-create_makefiles.1.docbook:85
+#, no-c-format
+msgid "This manual page was prepared by <personname><firstname>Ben</firstname><surname>Burton</surname></personname> <email>bab@debian.org</email> for the Debian GNU/Linux system (but may be used by others)."
+msgstr ""

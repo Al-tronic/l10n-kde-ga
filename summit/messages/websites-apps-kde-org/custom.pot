@@ -1,0 +1,248 @@
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: websites-apps-kde-org 1.0\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-08-09 10:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:7
+msgid "![](https://apps.kde.org/app-icons/org.kde.itinerary.svg)"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:9
+msgid "KDE Itinerary"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:11
+msgid "KDE Itinerary is a digital travel assistant that protects your privacy. It makes collecting all the information about your travel inside a single application easy and straightforward. KDE Itinerary is available for [Plasma Mobile](https://plasma-mobile.org/) and Android."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:17
+msgid "Store your reservations"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:19
+msgid "Store all the information about your reservations in Itinerary. This includes QR-codes, check-in times, arrivial times, real-time delays, seat reservations, coach layout, and more."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:21
+msgid "Itinerary supports train, bus and flight bookings, as well as hotel, restaurant, event and rental car reservations. Traveling in a group? Not a problem, Itinerary supports multi-traveler bookings."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:27
+msgid "Local first"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:29
+msgid "Itinerary automatically extracts booking data from various input formats. It's all performed locally on **your** device and your data is not sent to any remote servers."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:31
+msgid "This works best when using [KMail](https://kontact.kde.org/components/kmail/) to extract tickets from your email and then [KDE Connect](https://kdeconnect.kde.org) to transfer tickets to your phone. This also works great with [Nextcloud Mail](https://apps.nextcloud.com/apps/mail) and [DavDroid](https://f-droid.org/en/packages/at.bitfire.davdroid/) to sync your tickets from [Nextcloud](https://nextcloud.com/)."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:33
+msgid "![KMail ticket extraction showing a train trip from Berlin to Tübingen](https://kde.org/for/travelers/kmail.png)"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:39
+msgid "Add your connections"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:41
+msgid "Aside from finding reservations automatically in your email, Itinerary lets you add train trips manually to your journey, find alternative connections if your train is cancelled, or, for some providers, import your train trip directly from your reservation number."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:47
+msgid "Find your way"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:49
+msgid "Powered by [OpenStreetMap](https://www.openstreetmap.org), the indoor map at train stations or airports can be a life saver. Use Itinerary to locate your platform, and, if you have seat reservation and the train layout is available, it can even show you exactly which platform section is best for you."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:51
+msgid "![Train station map in KDE Itinerary, highlighting relevant platform sections.](https://www.volkerkrause.eu/assets/posts/139/kde-itinerary-platform-section-highlighting.jpg)"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:53
+msgid "The indoor map also shows you which shops and restaurants are currently open, which elevator is broken (yet again!), where the toilets are and where the correct exit is."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:59
+msgid "Real time"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:61
+msgid "It is rare that a train or bus departs or arrives on time. Itinerary keeps you updated when delays are announced."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/itinerary.en.md:63
+msgid "On supported train and long distance buses, Itinerary will also use the onboard APIs to fetch the current live status of the vehicle and keep you updated on your current position and any announcements."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:7
+msgid "![](https://apps.kde.org/app-icons/org.kde.kleopatra.svg)"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:9
+msgid "Kleopatra"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:11
+msgid "Kleopatra is an open-source certificate manager and graphical front-end for cryptographic services, primarily designed to handle OpenPGP and S/MIME (X.509) certificates. Part of the KDE ecosystem, it provides an accessible interface for managing encryption keys, signing and verifying data, and encrypting or decrypting files and emails."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:21
+msgid "Key Management"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:23
+msgid "**Create, Import, Export Keys**: Users can create new public and private encryption keys, import existing ones, and export keys to share with others."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:25
+msgid "**Key Servers**: Kleopatra can connect to public key servers, allowing users to look up and import public keys from others or upload their own public keys to make them available globally."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:28
+msgid "**LDAP and WKD**: Aside from key servers, Kleopatra can also connect to LDAP and WKD (Web Key Directory) servers and fetch certificates from there."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:30
+msgid "**Trust and Expiry Management**: Users can set trust levels for keys and manage expiration dates to ensure only trusted keys are in use."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:37
+msgid "Data Encryption and Decryption"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:39
+msgid "**Encrypt Files and Texts**: With Kleopatra, users can encrypt files and texts to protect the content and ensure it is only accessible by recipients with the correct private key."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:42
+msgid "**Decrypt Content**: It supports decryption for files, text and emails, making it easy for users to access data they received securely."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:45
+msgid "**Digital Signatures**: Kleopatra lets users sign files or notes with their private key, which helps verify the authenticity of the sender and integrity of the data."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:53
+msgid "Support for OpenPGP and S/MIME"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:55
+msgid "**OpenPGP**: Commonly used in personal and enterprise settings for encrypting and signing emails and files. Kleopatra provides full support for creating, managing, and using OpenPGP certificates."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:57
+msgid "**S/MIME**: Often used in enterprise environments for email security. Kleopatra supports S/MIME certificates, enabling it to handle encryption and signing based on the [CMS](https://en.m.wikipedia.org/wiki/Cryptographic_Message_Syntax) standard."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:63
+msgid "Support for OpenPGP and PIV Smartcards"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:65
+msgid "**Manage your Smartcard**: Kleopatra lets users change their the PIN and PUK code of the smartcard, change metadata like the cardholder's name, copy existing private keys to the card and even generate directly new keys on the card."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:66
+msgid "**Authentification Keys**: Create and use authentification keys from smartcards for SSH logins and more."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:67
+msgid "**Compatibility**: Kleopatra is compatible with Yubikey, [Gnuk](https://www.fsif.org/doc-gnuk/) and other cards without the need for extra device drivers."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:73
+msgid "Integration and Usability"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:75
+msgid "**Gpg4win**: On Windows, Kleopatra is bundled as part of the [Gpg4win suite](https://gpg4win.org), making it the primary tools for managing GnuPG (GPG) encryption on Windows. Kleopatra is also bundled as part of [GnuPG Desktop®️](https://gnupg.com/gnupg-desktop.html) which comes with enterprise support and as part of [GnuPG VS-Desktop®️](https://gnupg.com/gnupg-vs-desktop.html) which is compliant for use with EU and NATO RESTRICTED material and the German VS-NfD."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:76
+msgid "**Seamless Integration with KDE Applications**: For Linux users, Kleopatra integrates well within the KDE Plasma, working alongside other KDE apps like [KMail](https://kontact.kde.org/components/kmail/) for secure document handling."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:77
+msgid "**File Encryption from File Managers**: It enables direct encryption, signing, and verification of files from file managers, making it very user-friendly for everyday use."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:83
+msgid "User-Friendly Interface"
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:85
+msgid "**Graphical Interface**: Kleopatra provides a GUI to manage cryptographic tasks, which is beneficial for users unfamiliar with command-line tools like GPG."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:86
+msgid "**Notepad**: Encrypt, decrypt and verify texts with the Notepad. Copy and paste encrypted text to possibly insecure or unreliable messaging and chat services."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:87
+msgid "**Alerts**: Kleopatra notifies users about key status, trust levels, and any potential issues, providing insights for users to manage security settings appropriately."
+msgstr ""
+
+#. +> trunk5
+#: content/custom/kleopatra.en.md:88
+msgid "**Configuration**: Configure Kleopatra to your needs. kleopatra's configurations can be centrally configured to meet organizational requirements."
+msgstr ""

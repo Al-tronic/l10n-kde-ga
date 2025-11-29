@@ -1,0 +1,1074 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:15
+#, no-c-format
+msgid "The &kbruch; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:18
+#, no-c-format
+msgid "<firstname>Sebastian</firstname> <surname>Stein</surname> <email>seb.kde@hpfsc.de</email>"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:23
+#, no-c-format
+msgid "<author>&Anne-Marie.Mahfouf;</author>"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:26
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:32
+#, no-c-format
+msgid "Sebastian Stein"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:36
+#, no-c-format
+msgid "<holder>&Anne-Marie.Mahfouf;</holder>"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:40
+#, no-c-format
+msgid "2020-12-21"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:41
+#, no-c-format
+msgid "Applications 20.12"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:44
+#, no-c-format
+msgid "&kbruch; is a small program to practice calculating with fractions and percentages. Different exercises are provided for this purpose and you can use the learning mode to practice with fractions. The program checks the user's input and gives feedback."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:52
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:53
+#, no-c-format
+msgid "education"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:54
+#, no-c-format
+msgid "fraction"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:55
+#, no-c-format
+msgid "percentage"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:56
+#, no-c-format
+msgid "mathematics"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:57
+#, no-c-format
+msgid "denominator"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:58
+#, no-c-format
+msgid "kbruch"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:64
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:66
+#, no-c-format
+msgid "&kbruch; is a small program to practice calculating with fractions and percentages. Six different exercises are offered as well as a learning mode."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:72
+#, no-c-format
+msgid "<guilabel>Arithmetic</guilabel> - in this exercise you have to solve a given fraction task. You have to enter the numerator and the denominator. This is the main exercise."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:76
+#, no-c-format
+msgid "<guilabel>Comparison</guilabel> - in this exercise you have to compare the size of 2 given fractions, using the symbols <guibutton>&gt;</guibutton>, <guibutton>&lt;</guibutton> or <guibutton>=</guibutton>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:81
+#, no-c-format
+msgid "<guilabel>Conversion</guilabel> - in this exercise you have to convert a given number into a fraction."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:85
+#, no-c-format
+msgid "<guilabel>Mixed Numbers</guilabel> - in this exercise you have to convert a mixed number into an improper fraction (ratio) and vice versa."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:89
+#, no-c-format
+msgid "<guilabel>Factorization</guilabel> - in this exercise you have to factorize a given number into its prime factors."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:93
+#, no-c-format
+msgid "<guilabel>Percentage</guilabel> - in this exercise you have to calculate percentages."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:98
+#, no-c-format
+msgid "In each different exercise &kbruch; will generate a task and the user has to solve it. The program checks the input and gives a feedback about it."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:103
+#, no-c-format
+msgid "&kbruch; counts how many tasks were solved at all and how many tasks were solved correctly. The statistics are shown to the user."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:109
+#, no-c-format
+msgid "&kbruch; is very compact and focuses on the core idea of a task generator. An online help system provides context-sensitive help for the different situations."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:119
+#, no-c-format
+msgid "Using &kbruch;"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:122
+#, no-c-format
+msgid "Choosing the mode: learning or exercises"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:123
+#, no-c-format
+msgid "When you start &kbruch;, it offers you two modes: <guilabel>Exercise</guilabel> which is the training mode and <guilabel>Learning</guilabel> where you can understand fractions. Clicking one of the pictures will enter the chosen mode. Here is a screenshot of &kbruch;'s mode choices:"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:130
+#, no-c-format
+msgid "<screeninfo>&kbruch; mode choices</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:136
+#, no-c-format
+msgid "<phrase>&kbruch; mode choices</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:140
+#, no-c-format
+msgid "Click one of the picture to choose the mode."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:144
+#, no-c-format
+msgid "Main Exercise Screen"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:146
+#, no-c-format
+msgid "Here is a screenshot of &kbruch;'s main Exercise screen:"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:149
+#, no-c-format
+msgid "&kbruch; main screen, directly after the exercise start"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:155
+#, no-c-format
+msgid "&kbruch; main screen"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:160
+#, no-c-format
+msgid ""
+"All exercises take place in this screen. This ensures that &kbruch; is easy to use even for young users! The main screen is separated into 5 parts: "
+"<itemizedlist> "
+"<listitem>"
+"<para> the menubar with the 3 menus <guimenu>File</guimenu>, <guimenu>Settings</guimenu> and <guimenu>Help</guimenu> </para>"
+"</listitem>"
+" "
+"<listitem>"
+"<para> the toolbar, where you can switch between the different exercises </para>"
+"</listitem>"
+" "
+"<listitem>"
+"<para> the <guilabel>Options:</guilabel> on the left, where you can define the difficulty and various settings for the tasks </para>"
+"</listitem>"
+" "
+"<listitem>"
+"<para> the task part, where you have to enter the result of the given task </para>"
+"</listitem>"
+" "
+"<listitem>"
+"<para> the statistical part, where you can see how many tasks have been solved correctly or attempted </para>"
+"</listitem>"
+" </itemizedlist>"
+" At any time, you can go back to Modes using the <guiicon>Back</guiicon> icon in the toolbar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:189
+#, no-c-format
+msgid "You can hide the <guilabel>Options:</guilabel> section by dragging it to the left."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:191
+#, no-c-format
+msgid "First you have to choose an exercise in the toolbar. Default is <guilabel>Arithmetic</guilabel>. The task part will change according to the chosen task. Some settings in the <guilabel>Options</guilabel> section will be enabled, depending on the task you have chosen."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:196
+#, no-c-format
+msgid "You will find an icon to generate a new task in the toolbar as well. This action is also available in the menu <menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem></menuchoice>. This action is always enabled. If you have not solved the currently given task, a new task is generated and the statistics are set back."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:207
+#, no-c-format
+msgid "If you terminate &kbruch; the currently chosen exercise will be saved and restored on next startup."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:214
+#, no-c-format
+msgid "Statistical Part"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:216
+#, no-c-format
+msgid "<screeninfo>&kbruch; statistics</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:222
+#, no-c-format
+msgid "<phrase>&kbruch; statistics</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:227
+#, no-c-format
+msgid "In this part of the main screen you can see:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:230
+#, no-c-format
+msgid "on the left, how many tasks have been solved"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:233
+#, no-c-format
+msgid "on the right, in green, how many tasks have been solved correctly"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:236
+#, no-c-format
+msgid "on the right, in red, how many tasks have been solved incorrectly"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:239
+#, no-c-format
+msgid "on the right, in orange, how many tasks have been skipped"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:244
+#, no-c-format
+msgid "You can reset the statistics by clicking on the <guimenu>New</guimenu> button in the toolbar or choosing <menuchoice><guimenu>File</guimenu> <guimenuitem>New</guimenuitem></menuchoice> in the menubar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:249
+#, no-c-format
+msgid "The statistics will be saved when &kbruch; is closed and restored on next startup."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:256
+#, no-c-format
+msgid "Configuring &kbruch; appearance"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:257
+#, no-c-format
+msgid "In this dialog you can adjust some general settings for the task display. To open this dialog use <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure &kbruch;...</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:265
+#, no-c-format
+msgid "<screeninfo>&kbruch; settings dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:271
+#, no-c-format
+msgid "<phrase>&kbruch; settings dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:276
+#, no-c-format
+msgid "There are two sections to adjust the setting:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:283
+#, no-c-format
+msgid "<guilabel>Colors</guilabel>: Choose the colors for the different parts of a mathematical expression: numbers, operational sign, fraction bar."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:287
+#, no-c-format
+msgid "<guilabel>Fonts</guilabel>: Choose a font for displaying the task."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:292
+#, no-c-format
+msgid "The settings will be saved on &kbruch;'s termination and restored on the next startup."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:299
+#, no-c-format
+msgid "Main Learning Screen"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:301
+#, no-c-format
+msgid "<screeninfo>&kbruch; learning mode</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:307
+#, no-c-format
+msgid "<phrase>&kbruch; learning mode</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:311
+#, no-c-format
+msgid "Clicking the <guibutton>Hint</guibutton> button toggles the display of the help on the right which explains you how the rings work."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:318
+#, no-c-format
+msgid "Exercises"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:321
+#, no-c-format
+msgid "Exercise Arithmetic"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:323
+#, no-c-format
+msgid "In this exercise you have to solve a given task. Therefore you have to enter the integer part of a fraction and the numerator and the denominator. The difficulty of the generated task can be adjusted by using some options on the left."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:329
+#, no-c-format
+msgid "Options"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:330
+#, no-c-format
+msgid "There are several parameters which influence the difficulty of the generated tasks:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:336
+#, no-c-format
+msgid "Question:"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:341 index.docbook:367
+#, no-c-format
+msgid "Mixed number:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:342
+#, no-c-format
+msgid "Set if the fractions will appear as mixed numbers or not in the question expression ( mixed number example: 1 4/5 = 9/5 )."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:346
+#, no-c-format
+msgid "Number of terms:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:347
+#, no-c-format
+msgid "The number of terms (separate fractions) given in each task. From 2 to 5, inclusive."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:352
+#, no-c-format
+msgid "Maximum denominator:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:353
+#, no-c-format
+msgid "The highest number &kbruch; will use as the main denominator in the tasks it sets. From a minimum of 10 to a maximum of 50."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:362
+#, no-c-format
+msgid "Answer:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:368
+#, no-c-format
+msgid "Set if the fractions will appear as mixed numbers or not in the answer ( mixed number example: 1 4/5 = 9/5 )."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:372
+#, no-c-format
+msgid "Reduced Form:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:373
+#, no-c-format
+msgid "Check this to force the use of the reduced form."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:396
+#, no-c-format
+msgid "Operations:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:397
+#, no-c-format
+msgid "Operations which should be used in the task: <guilabel>Addition:</guilabel>, <guilabel>Subtraction:</guilabel>, <guilabel>Multiplication:</guilabel> or <guilabel>Division:</guilabel>. Check all operations you want to use."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:405
+#, no-c-format
+msgid "After you have changed the parameters you have to click on the <guimenu>New</guimenu> button in the toolbar to generate a task which uses the new parameters. You can also call this action from the menubar with <menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem></menuchoice>. This will reset the statistics. To avoid that, click the <guibutton>Next</guibutton> button to proceed with the changed parameters."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:426
+#, no-c-format
+msgid "The chosen parameters will be saved on &kbruch;'s termination and restored on next startup."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:433
+#, no-c-format
+msgid "Solving Tasks"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:434
+#, no-c-format
+msgid "After you have solved a given task, you need to enter the result into the three input boxes. In the left box you enter the integer part of the fraction, in the upper box the numerator and in the lower box the denominator. If the option <guilabel>Mixed number:</guilabel> in the <guilabel>Answer:</guilabel> section is unchecked, the left box for the integer part of the fraction is hidden. Then you use only the numerator box and the denominator box for your input."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:442
+#, no-c-format
+msgid "If the result is negative, you can enter a minus sign in front of the numerator or denominator. If the result is 0, just type a 0 in the numerator input field. If the result has a denominator of 1, you can leave the lower box empty."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:447
+#, no-c-format
+msgid "After you have entered the result you should click the <guibutton>Check</guibutton> button below the input boxes. &kbruch; will check your input and present the correct result on the right below the <guilabel>Incorrect!</guilabel> string:"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:453
+#, no-c-format
+msgid "<screeninfo>Checked Task</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:459
+#, no-c-format
+msgid "<phrase>Checked Task</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:463
+#, no-c-format
+msgid "This task was solved incorrectly. The correct value is shown in 2 different forms: normal (reduced) and mixed number."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:468
+#, no-c-format
+msgid "If you checked the <guilabel>Reduced form:</guilabel> in the Options in the <guilabel>Answers:</guilabel> section then you always have to enter the result reduced. &kbruch; will show you a short message like the one in the screenshot below, if you enter the correct result unreduced. The answer will then be counted as incorrect."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:476
+#, no-c-format
+msgid "<screeninfo>Unreduced Result</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:482
+#, no-c-format
+msgid "<phrase>Unreduced Result</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:487
+#, no-c-format
+msgid "To continue with the next task, click on the <guibutton>Next</guibutton> button. If you want to change the parameters for the next task please do this before clicking on the <guibutton>Next</guibutton> button."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:496
+#, no-c-format
+msgid "<title>Exercise Comparison</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:498
+#, no-c-format
+msgid "In this exercise you have to compare 2 given fractions. You have to choose the bigger fraction of both by selecting the correct comparison sign."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:503
+#, no-c-format
+msgid "<screeninfo>Exercise Comparison</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:509
+#, no-c-format
+msgid "<phrase>Exercise Comparison</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:514
+#, no-c-format
+msgid "First choose the correct comparison sign. After you have chosen the comparison sign, the result will show on the right. A green square with <guilabel>Correct!</guilabel> will tell you that your answer was correct while a red square with <guilabel>Incorrect!</guilabel> will indicate that your answer was wrong. You will get to the next task by clicking the <guibutton>Next</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:521
+#, no-c-format
+msgid "In this exercise only the option <guilabel>Mixed number:</guilabel> is enabled. If checked the fractions will appear as mixed numbers."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:525
+#, no-c-format
+msgid "<title>Exercise Conversion</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:527
+#, no-c-format
+msgid "In this exercise you have to convert a given number into a fraction. You have to enter numerator and denominator."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:532
+#, no-c-format
+msgid "<screeninfo>Exercise Conversion</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:538
+#, no-c-format
+msgid "<phrase>Exercise Conversion</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:543
+#, no-c-format
+msgid "On the left side of the equal sign in the screenshot above you can see a recurring decimal. This means, that the fraction shown as a decimal has a repeating part. The repeating part is marked with the small bar above the numbers. Those numbers repeat ad infinitum."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:549 index.docbook:592
+#, no-c-format
+msgid "After you have entered the numerator and denominator click on the <guibutton>Check</guibutton> button. &kbruch; will check your input and present the correct result. After this step you will get to the next task by clicking on the <guibutton>Next</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:556 index.docbook:599
+#, no-c-format
+msgid "Do not forget to enter the result reduced. Unreduced results will be counted as solved not correctly."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:562 index.docbook:605 index.docbook:652 index.docbook:680
+#, no-c-format
+msgid "In this exercise all options are disabled."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:567
+#, no-c-format
+msgid "<title>Exercise Mixed Numbers</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:569
+#, no-c-format
+msgid "In this exercise you have to convert a given mixed number into an improper fraction (ratio) and vice versa. You have to enter numerator and denominator for improper fraction or a whole number, numerator and denominator for mixed number."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:575
+#, no-c-format
+msgid "<screeninfo>Exercise Mixed Numbers</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:581
+#, no-c-format
+msgid "<phrase>Exercise Mixed Numbers</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:586
+#, no-c-format
+msgid "On the left side of the equal sign in the screenshot above you can see a mixed number. This means, that the number is made up of a whole number and a proper fraction. You should enter the equal improper fraction (the numerator part of such fraction is greater or equal to the denominator part)."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:610
+#, no-c-format
+msgid "<title>Exercise Factorization</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:612
+#, no-c-format
+msgid "In this exercise you have to factorize a given number into its prime factors. You have to enter all prime factors of the number."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:617
+#, no-c-format
+msgid "<screeninfo>Exercise Factorization</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:623
+#, no-c-format
+msgid "<phrase>Exercise Factorization</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:628
+#, no-c-format
+msgid "You can enter a factor by clicking on the prime factor buttons. The <quote>x</quote> sign is automatically inserted, when you click the next prime factor button. You can remove the last entered prime factor by clicking on the <guibutton>Backspace</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:633
+#, no-c-format
+msgid "After you have entered all prime factors click on the <guibutton>Check</guibutton> button. &kbruch; will check your input and present the correct result. After this step you will get to the next task by clicking on the <guibutton>Next</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:640
+#, no-c-format
+msgid "In the screenshot at the top of this page you can see a <quote>x</quote> between the prime factors. This is the multiplication sign. The product of all prime factors must be the number you try to factorize."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:646
+#, no-c-format
+msgid "You have to enter all prime factors even when a prime factor repeats several times. Example: As prime factors of number 18 you have to enter 2, 3 and 3."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:657
+#, no-c-format
+msgid "<title>Exercise Percentage</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:659
+#, no-c-format
+msgid "In this exercise you have to answer some percentage questions."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:662
+#, no-c-format
+msgid "<screeninfo>Exercise Percentage</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:668
+#, no-c-format
+msgid "<phrase>Exercise Percentage</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:673
+#, no-c-format
+msgid "After you have entered your answer click on the <guibutton>Check</guibutton> button. &kbruch; will check your input and present the correct result. After this step you will get to the next task by clicking on the <guibutton>Next</guibutton> button."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:688
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:689
+#, no-c-format
+msgid "&kbruch;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:690
+#, no-c-format
+msgid "Program and documentation Copyright: 2001-2011 Sebastian Stein <email>seb.kde@hpfsc.de</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:697
+#, no-c-format
+msgid "Thank you goes to:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:700
+#, no-c-format
+msgid "&Anne-Marie.Mahfouf; for managing the &kde; Edu project"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:701
+#, no-c-format
+msgid "Klas Kalass for helping design the interface"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:702
+#, no-c-format
+msgid "Eva Brucherseifer for writing <application>KMath</application> (&kbruch;'s &GUI; is based on this work)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:703
+#, no-c-format
+msgid "Dominique Devriese for bug fixing"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:704
+#, no-c-format
+msgid "<ulink url=\"http://www.net-tex.de/\">Stefan Schumacher</ulink> for testing a very early version"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:705
+#, no-c-format
+msgid "<ulink url=\"https://www.guckes.net/\">Sven Guckes</ulink> for testing the text interface (which has been removed)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:706
+#, no-c-format
+msgid "&David.Faure; for helping with &kde; <acronym>CVS</acronym> and &kde; Bugzilla"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:707
+#, no-c-format
+msgid "&Robert.Gogolok; for helping with &kde; <acronym>CVS</acronym>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:708
+#, no-c-format
+msgid "John Kesson for proof reading the handbook"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:711
+#, no-c-format
+msgid "New interface design and usability improvements for &kde; 4.1:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:713
+#, no-c-format
+msgid "Paulo Cattai <email>paulo.cattai@ltia.fc.unesp.br</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:714
+#, no-c-format
+msgid "Danilo Balzaque <email>danilo.balzaque@ltia.fc.unesp.br</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:715
+#, no-c-format
+msgid "Roberto Cunha <email>roberto.cunha@ltia.fc.unesp.br</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:716
+#, no-c-format
+msgid "Tadeu Araujo <email>tadeu.araujo@ltia.fc.unesp.br</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:717
+#, no-c-format
+msgid "Tiago Porangaba <email>tiago.porangaba@ltia.fc.unesp.br</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:720
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:720
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

@@ -1,0 +1,468 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://spdx.org/licenses/GFDL-1.2-or-later.html">licensed under the terms of the GNU Free Documentation License 1.2+</a> unless stated otherwise
+# This file is distributed under the same license as the Digikam Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digikam Manual 8.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-30 10:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:14
+msgid ":ref:`Effects Tools <image_editor>`"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:16
+msgid "Contents"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:21
+msgid "Blur Effects"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:23
+msgid "The digiKam **Blur Effects** tool can apply a series of blurring effects for digital still images."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:25
+#: ../../image_editor/effects_tools.rst:170
+msgid "With this filter set, you can transform an ordinary photograph into a work of art suitable for framing."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:31
+msgid "The digiKam Image Editor Blur FX Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:33
+msgid "The available blurring effects include:"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:35
+msgid "**Zoom Blur**: blurs the image along radial lines starting from a specified center point. This simulates the blur of a zooming camera, thereby giving the photograph a dynamic expression as often seen in sports photography."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:37
+msgid "**Radial Blur**: blurs the image by rotating the pixels around the specified center point. This simulates the blur of a rotating camera."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:39
+msgid "**Far Blur**: blurs the image to simulate the effect of an unfocused camera lens. The subject seems to recede into the background."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:41
+msgid "**Motion Blur**: blurs the image horizontally, simulating the blur of a linearly moving camera, i.e. like a shot taken from a car or train."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:43
+msgid "**Focus Blur**: blurs the image corners to reproduce the astigmatism distortion of a lens."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:45
+msgid "**Softener Blur**: blurs the image softly in the darker tones and strongly in the high lights. This gives photographs a dreamy and glossy soft focus effect (Hamilton effect). It's ideal for creating romantic portraits, glamour photography, or adding a warm and subtle glow."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:47
+msgid "**Shake Blur**: blurs the image by randomly moving the pixels simulating the blur of an arbitrarily moving camera."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:49
+msgid "**Smart Blur**: finds the edges of color in photograph and blurs them without muddying the rest of the image."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:51
+msgid "**Frost Glass**: blurs the image by simulating randomly dispersed light filtering through coarse frosted glass."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:53
+msgid "**Mosaic**: blurs the image by dividing the photograph into rectangular cells and then fills those cells with the average pixel value from the cell."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:57
+msgid "Some effects can take a long time to run and cause high CPU load. You can always abort an effect by pressing the **Abort** button during preview rendering."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:63
+msgid "Charcoal Drawing"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:65
+msgid "The digiKam **Charcoal Drawing** tool is an effect filter that creates a charcoal sketch-like result."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:67
+msgid "The digiKam Charcoal Drawing filter uses the gradients of color and luminosity to produce a grey-scale charcoal sketch. The lines defining the outline of the image are pronounced. Images with slowly changing gradients are not ideal for this effect. When selecting an image to use with this filter, it might be helpful to imagine what scene you would pick to do as a hand sketch yourself."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:73
+msgid "The digiKam Image Editor Charcoal Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:75
+msgid "There are two sliders to control the effect on a scale of 1-100. The upper slider selects the **Pencil size**, whereas the second slider adjusts the contrast (**Smooth**)."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:79
+msgid "The result can often be improved by adjusting the luminosity levels."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:85
+msgid "Color Filter Effects"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:87
+msgid "The digiKam **Color Effects** tool provides five color effects: a Solarization effect, a Vivid filter, a Neon effect, an Edge filter, and a Lut3D filter."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:92
+msgid "The Solarization Effect"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:94
+msgid "In the age of chemical image processing, solarizing (also known as Sabatier) was an effect created by exposing a partially developed print to a brief flash of light, then completing the development. The colored, darker areas shield the additional light from the sensitive photo layers, which has the net effect of making the lighter areas darker and inverting the colors. The result resembles a partially negative image."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:96
+msgid "The **Level** control helps to preview the solarization by simply increasing it. At about 50% intensity the image shows what was once chemically possible. If you further increase the effect it will finally become a negative image, a stage of inversion not achievable on photographic paper."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:102
+msgid "The digiKam Image Editor Solarize Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:107
+msgid "The Vivid Filter"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:109
+msgid "The vivid filter simulates what is known as *Velvia* effect. It is different from saturation in that it has a more pronounced contrast effect that bring colors brilliantly alive and glowing. Try it, it can a beautiful effect for many subjects."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:111
+msgid "Velvia is a brand of daylight-balanced color reversal film produced by the Japanese company Fujifilm. The name is a contraction of *Velvet Media*, a reference to its smooth image structure. Velvia has very saturated colors under daylight, high contrast. These characteristics make it the slide film of choice for most nature photographers. Velvia's highly saturated colors are, however, considered overdone by some photographers, especially those who don't primarily shoot landscapes. You can control the Velvia intensity with the **Level** setting."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:117
+msgid "The digiKam Image Editor Vivid Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:122
+msgid "The Neon Filter"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:124
+msgid "The neon filter simulates neon light along the contrast edges. The **Level** parameter controls the lightness of the result, whereas the **Iteration** slider determines the thickness of the neon light. With big images, the filter might keep your CPU busy for a moment or two."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:130
+msgid "The digiKam Image Editor Neon Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:135
+msgid "The Find Edges Filter"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:137
+msgid "The find edges filter detects the location and gradients of edges in a photograph. A low value for the **Level** parameter results in a light, low-contrast image with thin edges. A high value results in thick edges with high contrast and more colors in dark areas. **Iteration** allows you to increase or decrease the density of edges in the image."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:143
+msgid "The digiKam Image Editor Find Edges Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:148
+msgid "The Lut3D Effect"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:150
+msgid "The **Lut3D** filter colors images by applying a transformation based on a 3D lookup table."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:152
+msgid "In the film industry, 3D lookup tables are used to map one color space to another. They are commonly used to calculate preview colors for a monitor or digital projector to show how an image will be reproduced on another display device, typically the final digitally projected image or release print of a movie. A 3D LUT is a 3D lattice of output RGB color values that can be indexed by sets of input RGB color values. Each axis of the lattice represents one of the three input color components, so the input color defines a point inside the lattice. Since the point may not be on a lattice point, the lattice values must be interpolated; most products use trilinear interpolation."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:154
+msgid "The tool provides a list of 3D lookup tables to apply to the image. The **Intensity** setting is used to adjust the percentage of the effect that is applied to the image."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:160
+msgid "The digiKam Image Editor Lut3D Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:166
+msgid "Distortion Effects"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:168
+msgid "The digiKam **Distortion Effects** tool provides a series of geometric distorting effects for digital still images. This would be a very bad tool to use for correct lens distortions."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:176
+msgid "The digiKam Image Editor Distortion FX Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:178
+msgid "The distorting effects provided by this tool include:"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:180
+msgid "**Fish Eyes**: warps the photograph around a 3D spherical shape to reproduce the common photograph 'Fish Eyes' effect."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:182
+msgid "**Twirl**: spins the photograph to produce a Twirl pattern."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:184
+msgid "**Cylinder Horizontal**: warps the photograph around a horizontal cylinder."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:186
+msgid "**Cylinder Vertical**: warps the photograph around a vertical cylinder."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:188
+msgid "**Cylinder H/V**: warps the photograph around 2 cylinders, one vertical and one horizontal."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:190
+msgid "**Caricature**: distorts photograph with an inverted 'Fish Eyes' effect."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:192
+msgid "**Multiple Corners**: splits the photograph like a multiple corners pattern."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:194
+msgid "**Waves Horizontal**: distorts the photograph with horizontal waves."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:196
+msgid "**Waves Vertical**: distorts the photograph with vertical waves."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:198
+msgid "**Block Waves 1**: divides the image into cells and makes it look as if it is being viewed through glass blocks."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:200
+msgid "**Block Waves 2**: like Block Waves 1 but with another version of glass blocks distortion."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:202
+msgid "**Circular Waves 1**: distorts the photograph with circular waves."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:204
+msgid "**Circular Waves 2**: other variation of the Circular Waves effect."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:206
+msgid "**Polar Coordinates**: converts the photograph from rectangular to polar coordinates."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:208
+msgid "**Unpolar Coordinates**: Polar Coordinate effect inverted."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:210
+msgid "**Tiles**: splits the photograph into square blocks and moves them randomly inside the image."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:214
+msgid "Some effects can take a long time to run and cause high CPU loading. You can always abort an effect by pressing **Abort** button during preview rendering."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:220
+msgid "Emboss"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:222
+msgid "The digiKam **Emboss** filter sculptures your image into 3-D as if it was stamped into wax."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:224
+msgid "The digiKam Emboss filter is a quick tool to render your images in a 3-D effect. It works particularly well on images with simple structure where color is not the most important content. The filter uses the difference between colors and luminosity to convert it into a grey, moon-like landscape lit from the 10 o'clock position."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:226
+msgid "The **Depth** control allows you to define the contrast of the filtering. A value of 30 (10%) is standard."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:232
+msgid "The digiKam Image Editor Emboss Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:238
+msgid "Add Film Grain"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:240
+msgid "The digiKam **Add Film Grain** filter reproduces the traditional film grain associated with high speed films."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:242
+msgid "This filter adds film grain to your images as if they were taken with classical high speed film material such as the famous B/W KodaK Tri-X. In order to increase film sensitivity, manufacturers employed larger silver grains in the photo emulsion."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:244
+msgid "The film grain effect can give your shot a particular mood, transporting it backwards in time. The treated image acquires a timeless atmosphere, detached from every day life. If you want that gritty, art-house, street-photography grainy film look, especially in monochromatic photos, use this filter."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:250
+msgid "The digiKam Image Editor Film Grain Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:252
+msgid "A common slider controls the **Grain size**, and you can turn on the granularity simulating a photographic distribution. Separate **Luminance**, **Chrominance Blue**, and **Chrominance Red** channels allow you to adjust the grain **Intensity** with differing effects on **Shadows**, **Middletones**, and **Highlight**."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:256
+msgid "If you process a black and white image, the grain needs to be applied only on the **Luminance** channel."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:262
+msgid "Oil Paint"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:264
+msgid "The digiKam **Oil Paint** filter gives your image the look of an oil painting."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:266
+msgid "This filter gives your digital images a nice oil painting-like look. Images of nature and still lives are well suited for this effect."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:272
+msgid "The digiKam Image Editor Oil Paint Tool"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:274
+msgid "There are two sliders to control the effect. The upper slider selects the **Brush Size** between 1 and 5. Bigger brushes are better suited for large images. **Smooth** controls the smoothness or jaggedness of the effect."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:280
+msgid "Raindrops"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:282
+msgid "The digiKam **Raindrops** filter puts beautiful raindrops on your image. Naturally, it gives your image a kind of wet look. It can also be used in combination with the Oil Paint tool to make your photos look like a Donald Roller Wilson painting."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:284
+msgid "Three sliders give you control over the effect filter: **Drop size** obviously allows you to change the size of the drops. The drop size doesn't automatically scale with the image size, so it is often necessary to reduce the size for small images. **Number** changes the number and density of drops. and **Fish eye** changes the optical effect of the drops across the image."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:288
+msgid "You can keep a zone clear of raindrops with the digiKam Image Editor **Select** tool. Selecting the area to avoid (for example a face) before launching the Raindrops filter will keep it free from rain drops."
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:294
+msgid "Rain Drops Tool Applying Effect to Whole Image Excepted on Dog's Face"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:-1
+msgid "digiKam Image Editor Effects Tools"
+msgstr ""
+
+#. +> trunk5
+#: ../../image_editor/effects_tools.rst:-1
+msgid "digiKam, documentation, user manual, photo management, open source, free, learn, easy, image, editor, blur, charcoal, solarize, vivid, neon, edges, lut3D, distortion, emboss, film, grain, oil, paint, rain, drops"
+msgstr ""

@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-07-06 11:09+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: intro.docbook:5
+#, no-c-format
+msgid "&Daniel.Naber; &Daniel.Naber.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: intro.docbook:9
+#, no-c-format
+msgid "&Scarlett.Clark; &Scarlett.Clark.mail;"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: intro.docbook:13
+#, no-c-format
+msgid "&David.Bryant; &David.Bryant.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: intro.docbook:17
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: intro.docbook:19
+#, no-c-format
+msgid "2020-08-16"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: intro.docbook:20
+#, no-c-format
+msgid "5.14.2 (Applications 20.04.2)"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: intro.docbook:24
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: intro.docbook:27
+#, no-c-format
+msgid "<screeninfo>&kmail; Welcome Screen</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: intro.docbook:33
+#, no-c-format
+msgid "<phrase>&kmail; Welcome Screen</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:36
+#, no-c-format
+msgid "<para>&kmail; Welcome Screen</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:41
+#, no-c-format
+msgid "The &kmail; Team welcomes you to &kmail;, a user-friendly email client by &kde;. Our goal is to make &kmail; a program that is both beautiful and intuitive without sacrificing power."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:44
+#, no-c-format
+msgid "If you have never set up an email client on a &UNIX; system before, we suggest that you read through the <link linkend=\"getting-started\">Getting Started</link> section first."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: intro.docbook:48
+#, no-c-format
+msgid "Some &kmail; Features"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:49
+#, no-c-format
+msgid "Here is a brief guide to some of the great features available in &kmail;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:52
+#, no-c-format
+msgid "You do not have to use your mouse when working with &kmail;. Everything can be done with <link linkend=\"keyboard-shortcuts\">Keyboard Shortcuts</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:56
+#, no-c-format
+msgid "Although &kmail; is very reliable, you should keep backups of your messages, &ie;, use one of the export/archive options listed in <link linkend=\"backups\">Backup Options</link> to back up your settings and email regularly."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:61
+#, no-c-format
+msgid "&kmail; makes it easy to import email from many different email applications. The options are described in <link linkend=\"import-restore\">Restore and Import in &kmail;</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:65
+#, no-c-format
+msgid "You can separate your messages into different categories by using &kmail;'s extensive <link linkend=\"folders\">Folders</link> options. Features include special handling for specified folders: mailing lists, acl (&IMAP; only), and archiving."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:69
+#, no-c-format
+msgid "You can complement your folder setup with highly configurable <link linkend=\"filters\">filters</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:72
+#, no-c-format
+msgid "By default &kmail; will detect common email <link linkend=\"configure-security-email-scams\">scams</link>. You can also fight SPAM and viruses by creating filters that work with external programs to scan email as it comes in. See <link linkend=\"the-anti-spam-wizard\">Anti Spam</link> and <link linkend=\"the-anti-virus-wizard\">Anti Virus</link> for details."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:78
+#, no-c-format
+msgid "It's easy to manage several email accounts by using different <link linkend=\"configure-identity\">identities</link>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:81
+#, no-c-format
+msgid "We hope you will enjoy &kmail;!"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: intro.docbook:83
+#, no-c-format
+msgid "Getting Help"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: intro.docbook:85
+#, no-c-format
+msgid "&kmail;'s homepage can be found at <ulink url=\"https://apps.kde.org/kmail2/\">https://apps.kde.org/kmail2/</ulink>. There you will find useful links (&eg;, to the user and developer mailing lists, and to the community wiki pages.) Please report any bugs in &kmail; using <menuchoice><guimenu>Help</guimenu><guimenuitem>Report Bug...</guimenuitem></menuchoice>."
+msgstr ""

@@ -1,0 +1,666 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:18+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#. +> trunk6 stable6
+#: configuring.docbook:4
+#, no-c-format
+msgid "&Anders.Lund; &Anders.Lund.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: configuring.docbook:5
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: configuring.docbook:8
+#, no-c-format
+msgid "Configuring &kate;"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: configuring.docbook:11
+#, no-c-format
+msgid "Overview"
+msgstr ""
+
+#. Tag: primary
+#. +> trunk6 stable6
+#: configuring.docbook:14
+#, no-c-format
+msgid "configure"
+msgstr ""
+
+#. Tag: secondary
+#. +> trunk6 stable6
+#: configuring.docbook:15
+#, no-c-format
+msgid "settings"
+msgstr ""
+
+#. Tag: tertiary
+#. +> trunk6 stable6
+#: configuring.docbook:16
+#, no-c-format
+msgid "preferences"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:16
+#, no-c-format
+msgid "&kate; offers several means of tweaking the application to behave as desired. The most important ones are:"
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: configuring.docbook:30
+#, no-c-format
+msgid "The Configuration Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:31
+#, no-c-format
+msgid "The main configuration tool, allowing you to configure the &kate; application, the editor component and the usage of plugins."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: configuring.docbook:35
+#, no-c-format
+msgid "The <guimenu>Settings</guimenu> Menu"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:36
+#, no-c-format
+msgid "Allows you to change often used settings, and to launch the configuration dialogs."
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: configuring.docbook:40
+#, no-c-format
+msgid "The <guimenu>View</guimenu> Menu"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:41
+#, no-c-format
+msgid "Allows you to split the current frame, as well as to display the icons and line numbers pane for the currently edited document."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:47
+#, no-c-format
+msgid "The embedded terminal uses the configuration defined in the &systemsettings;, and may also be configured by clicking the &RMB; to display a context menu."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: configuring.docbook:54
+#, no-c-format
+msgid "The Main Configuration Dialog"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:62
+#, no-c-format
+msgid "The &kate; configuration dialog displays a tree of topics on the left, and a configuration page corresponding to the selected topic on the right."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:66
+#, no-c-format
+msgid "The configuration is divided into two groups, namely:"
+msgstr ""
+
+#. Tag: link
+#. +> trunk6 stable6
+#: configuring.docbook:68
+#, no-c-format
+msgid "Application configuration"
+msgstr ""
+
+#. Tag: link
+#. +> trunk6 stable6
+#: configuring.docbook:70
+#, no-c-format
+msgid "Editor component configuration"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: configuring.docbook:79
+#, no-c-format
+msgid "The &kate; Application Configuration"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:80
+#, no-c-format
+msgid "This group contains pages to configure the main &kate; application"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: configuring.docbook:83
+#, no-c-format
+msgid "General"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:84
+#, no-c-format
+msgid "This section contains a few global options for &kate;"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:90
+#, no-c-format
+msgid "Behavior"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:96
+#, no-c-format
+msgid "Open each document in its own window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:97
+#, no-c-format
+msgid "If enabled, each document will be opened in its own window. If not enabled, each document will be opened in a new tab in the current window."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:105
+#, no-c-format
+msgid "Switch to output view upon message type"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:106
+#, no-c-format
+msgid "This option allows configuring when &kate; should show an output pane depending on the type of action output."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:108
+#, no-c-format
+msgid "It is possible to choose between <guimenuitem>Never</guimenuitem>, <guimenuitem>Error</guimenuitem> (on error), <guimenuitem>Warning</guimenuitem> (on warning or above), <guimenuitem>Info</guimenuitem> (on info or above), and <guimenuitem>Log</guimenuitem> (on log or above)."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:117
+#, no-c-format
+msgid "Use a separate dialog for handling externally modified files"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:118
+#, no-c-format
+msgid "When enabled, &kate; will notify you with a modal dialog about all files modified from outside the application whenever the main window receives input focus. You will be able to deal with several modified files at once, you can reload, save or discard changed files in groups."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:122
+#, no-c-format
+msgid "If not enabled, &kate; will individually ask you what to do for each modified file only when that file's view receives focus."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:133
+#, no-c-format
+msgid "Quick Open"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:139
+#, no-c-format
+msgid "Match Mode"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:140
+#, no-c-format
+msgid "Set the list mode for the <link linkend=\"view-quick-open\">Quick Open</link> tool. The files can be matched by their name or by their path."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:145
+#, no-c-format
+msgid "List Mode"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:146
+#, no-c-format
+msgid "Set the list mode for the <link linkend=\"view-quick-open\">Quick Open</link> tool. It is possible to choose from <guilabel>Current Project Files</guilabel> and <guilabel>All Projects Files</guilabel>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:156 configuring.docbook:214
+#, no-c-format
+msgid "Tabs"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:162
+#, no-c-format
+msgid "Limit number of tabs"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:163
+#, no-c-format
+msgid "Set the maximum number of tabs. Choose <guimenuitem>Unlimited</guimenuitem> if you do not want to restrict this number."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:168
+#, no-c-format
+msgid "Auto hide tabs"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:169
+#, no-c-format
+msgid "When checked tabs will be hidden if only one document is open."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:174
+#, no-c-format
+msgid "Show close button"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:175
+#, no-c-format
+msgid "When checked each tab will display a close button."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:180
+#, no-c-format
+msgid "Expand tabs"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:181
+#, no-c-format
+msgid "When checked tabs take as much size as possible."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:186
+#, no-c-format
+msgid "Double click opens a new document"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:187
+#, no-c-format
+msgid "When checked double click opens a new document."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:192
+#, no-c-format
+msgid "Middle click closes a document"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:193
+#, no-c-format
+msgid "When checked middle click closes a document."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:198
+#, no-c-format
+msgid "Allow tab scrolling"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:199
+#, no-c-format
+msgid "When checked this will allow scrolling in tab bar when number of tabs is large."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:204
+#, no-c-format
+msgid "Elide tab text"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:205
+#, no-c-format
+msgid "When checked tab text might be elided if its too long."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:220
+#, no-c-format
+msgid "Backward button pressed"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:221
+#, no-c-format
+msgid "Allows selecting the mouse back button action between the <guimenuitem>Previous tab</guimenuitem> and the <guimenuitem>History back</guimenuitem> items."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:226
+#, no-c-format
+msgid "Forward button pressed"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:227
+#, no-c-format
+msgid "Allows selecting the mouse forward button action between the <guimenuitem>Next tab</guimenuitem> and the <guimenuitem>History forward</guimenuitem> items."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: configuring.docbook:237
+#, no-c-format
+msgid "Session"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:239
+#, no-c-format
+msgid "This section contains options related to <link linkend=\"fundamentals-using-sessions\">using sessions</link>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:246
+#, no-c-format
+msgid "Application Startup Behavior"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:248
+#, no-c-format
+msgid "Select how you want &kate; to behave at startup. This setting can be overridden by specifying what to do on the <link linkend=\"command-line-options\">command line</link>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:253
+#, no-c-format
+msgid "Start new session"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:254
+#, no-c-format
+msgid "With this option, &kate; will start a new, unnamed session when you start the application."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:258
+#, no-c-format
+msgid "Load last-used session"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:259
+#, no-c-format
+msgid "&kate; will use the most recently opened session at startup. This is good if you want to use the same session always or switch rarely."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:264
+#, no-c-format
+msgid "Manually choose a session"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:265
+#, no-c-format
+msgid "&kate; will display a small dialog that lets you choose your preferred session, or load the default session if none have been saved. This is the default behavior. Nice if you use a lot of different sessions frequently."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:276
+#, no-c-format
+msgid "Application Startup/Shutdown Behavior"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:278
+#, no-c-format
+msgid "Select how you want &kate; to behave at shutdown. It is possible to define what &kate; should <guilabel>Automatically save and restore</guilabel>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:282
+#, no-c-format
+msgid "Newly-created unsaved files"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:283
+#, no-c-format
+msgid "With this item checked, &kate; will automatically save all newly-created unsaved files."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:287
+#, no-c-format
+msgid "Files with unsaved changes"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:288
+#, no-c-format
+msgid "This item allows configuring &kate; for automatically saving all files with unsaved changes on shutdown."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:293
+#, no-c-format
+msgid "Close Kate entirely when the last file is closed"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:294
+#, no-c-format
+msgid "If enabled, &kate; will shutdown when the last file being edited is closed, otherwise a blank page will open so that you can start a new file."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:305
+#, no-c-format
+msgid "Session Elements"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:310
+#, no-c-format
+msgid "Include window configuration"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:311
+#, no-c-format
+msgid "If enabled, &kate; will save the window configuration with each session."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:320
+#, no-c-format
+msgid "Keep meta-information past sessions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:321
+#, no-c-format
+msgid "When enabled, &kate; will store meta data such as bookmarks and session configuration even when you close your documents. The data will be used if the document is unchanged when reopened."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: configuring.docbook:328
+#, no-c-format
+msgid "Delete unused meta-information after"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:329
+#, no-c-format
+msgid "Set the maximum number of days to keep meta information for previously opened files. This helps keep the database of meta information reasonably sized."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:335
+#, no-c-format
+msgid "Any changes to the session data (opened files and, if enabled, window configuration) will always be saved."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: configuring.docbook:341
+#, no-c-format
+msgid "Plugins"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:343
+#, no-c-format
+msgid "This page provides a list of installed plugins for the &kate; application. Each plugin is represented with its name and a short description. You can check the checkbox with an item to enable the plugin it represents."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:348
+#, no-c-format
+msgid "If a plugin provides configuration options, a section to access those will appear as a child of this page."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:351
+#, no-c-format
+msgid "For more information about the available plugins, see <xref linkend=\"plugins\"/>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: configuring.docbook:357
+#, no-c-format
+msgid "The Editor Component Configuration"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:359
+#, no-c-format
+msgid "For information about this section of the configuration dialog, see the <ulink url=\"help:/katepart/config-dialog.html\">Editor Component Configuration section of the &katepart; Handbook</ulink>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: configuring.docbook:366
+#, no-c-format
+msgid "Configuring With Document Variables"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: configuring.docbook:368
+#, no-c-format
+msgid "For information about using document variables with &kate;, see the <ulink url=\"help:/katepart/config-variables.html\">Configuring with Document Variables section of the &katepart; Handbook</ulink>."
+msgstr ""

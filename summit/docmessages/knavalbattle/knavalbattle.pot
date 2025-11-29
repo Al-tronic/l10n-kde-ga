@@ -1,0 +1,778 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:05+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: !ENTITY
+#. +> trunk6 stable6
+#: index.docbook:3
+#, no-c-format
+msgid "<!ENTITY i18n-knavalbattle \"<application>Naval Battle</application>\">"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:10
+#, no-c-format
+msgid "The &knavalbattle; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:13
+#, no-c-format
+msgid "<author>&Daniel.Molkentin; &Daniel.Molkentin.mail;</author>"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:17
+#, no-c-format
+msgid "<author>&Nikolas.Zimmermann; &Nikolas.Zimmermann.mail;</author>"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:21
+#, no-c-format
+msgid "<firstname>Anton</firstname> <surname>Brondz</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: index.docbook:25
+#, no-c-format
+msgid "dinolinux@gmail.com"
+msgstr ""
+
+#. Tag: othercredit
+#. +> trunk6 stable6
+#: index.docbook:29
+#, no-c-format
+msgid "&Frerich.Raabe; &Frerich.Raabe.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:35
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:43
+#, no-c-format
+msgid "&Daniel.Molkentin;"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:47
+#, no-c-format
+msgid "&Nikolas.Zimmermann;"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:51
+#, no-c-format
+msgid "Kevin Krammer"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:54
+#, no-c-format
+msgid "2020-12-10"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:55
+#, no-c-format
+msgid "Applications 20.12"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:58
+#, no-c-format
+msgid "&i18n-knavalbattle; is a network-enabled implementation of the famous ship sinking game by &kde;."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:63
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:64
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:65
+#, no-c-format
+msgid "knavalbattle"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:66
+#, no-c-format
+msgid "game"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:67
+#, no-c-format
+msgid "battleship"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:68
+#, no-c-format
+msgid "battle"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:69
+#, no-c-format
+msgid "naval"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:75
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:76
+#, no-c-format
+msgid "Gametype:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:76
+#, no-c-format
+msgid "Strategy, Board"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:77
+#, no-c-format
+msgid "Number of possible players:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:77
+#, no-c-format
+msgid "<para>Two</para>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:85
+#, no-c-format
+msgid "&i18n-knavalbattle; Game Board"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:90
+#, no-c-format
+msgid "&i18n-knavalbattle; is a ship sinking game by &kde;. Ships are placed on a board which represents the sea. Players try to hit each others ships in turns without knowing where they are placed. The first player to destroy all ships wins the game."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:97
+#, no-c-format
+msgid "How to Play"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:98
+#, no-c-format
+msgid "Objective:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:98
+#, no-c-format
+msgid "Sink all of the opponent’s ships before the opponent sink all the ships of your own."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:99
+#, no-c-format
+msgid "If you want to play &i18n-knavalbattle;, you will need two players, either play against the computer or in a network against another player. To play against your computer, first select the difficulty level on the right of the status bar, and then select <guilabel>Single Player</guilabel> on the welcome screen, or directly on the <menuchoice><guimenu>Game</guimenu> <guimenuitem>Single Player</guimenuitem></menuchoice> menu item."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:103
+#, no-c-format
+msgid "To start a network game, one player has to host the game by selecting <guilabel>Host Network Game</guilabel> on the welcome screen, or choosing <menuchoice><guimenu>Game</guimenu> <guimenuitem>Host Game…</guimenuitem></menuchoice>. A dialog box opens which asks for a <guilabel>Nickname:</guilabel> and <guilabel>Port:</guilabel>. Normally, &i18n-knavalbattle; will suggest your full name, but you can enter any string you want. The predefined port should be ok. However, if you encounter problems, you can choose any other free port above 1024."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:113
+#, no-c-format
+msgid "You need to tell the other player in case you use a port other than the default as both players need to use the same port in order to be able to establish a connection."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:118
+#, no-c-format
+msgid "The other player has to choose <guilabel>Connect to Network Game</guilabel>, or click on the <menuchoice><guimenu>Game</guimenu> <guimenuitem>Connect to Game…</guimenuitem></menuchoice> menu item. Again, a <guilabel>Nickname:</guilabel> is suggested, but you can choose any nickname you like. In the field <guilabel>Hostname:</guilabel> you have to enter the host name of the server (the machine of the player that initiated the game)."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:125
+#, no-c-format
+msgid "When you are done, you can start the game. Simply follow the instructions in the statusbar. It will issue hints and suggest what to do next. When you now look at the screen, you will find two grid fields, the so-called <quote>battle areas</quote>. The left area belongs to you. This is where you place your ships and where you can follow the military actions of your enemy. The right area is where your enemy's fleet is located. When it's your turn to fire, you need to click on a certain sector (a field of the battle area) where you suppose the ships to be located."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:137
+#, no-c-format
+msgid "First, you need to place your ships. The game initiator starts. When he/she is done, player two sets his/her ships."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:142
+#, no-c-format
+msgid "Ship placement is very easy: simply click on the field where you want to place your ships. You have four ships to place: the first one will have a length of one square, the next will be two squares long &etc; Click on the field where you want to start the placement. By default, ships will be placed horizontally; to rotate them 90 degrees, click the &RMB; before the placement."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:151
+#, no-c-format
+msgid "When a ship is hit, fire will break out on it. To sink it, hit all the squares it occupies. A sunk ship will appear faded."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:156
+#, no-c-format
+msgid "Now you can use the &LMB; to fire on the battle area of your enemy. The status bar indicates who is about to shoot."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:161
+#, no-c-format
+msgid "You can restart the game by choosing the <menuchoice><guimenu>Game</guimenu> <guimenuitem>Restart Game</guimenuitem></menuchoice> menu item, or by pressing <keycap>F5</keycap>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:167
+#, no-c-format
+msgid "The first player to destroy all their opponent's ships wins the game."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:174
+#, no-c-format
+msgid "Game Rules, Strategies and Tips"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:176
+#, no-c-format
+msgid "Rules"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:178
+#, no-c-format
+msgid "A player can only fire one shot per turn."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:179
+#, no-c-format
+msgid "Players must place all their ships."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:180
+#, no-c-format
+msgid "Ships cannot be moved once placed."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:181
+#, no-c-format
+msgid "A ship is sunk when all the squares it occupies are hit."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:186
+#, no-c-format
+msgid "Strategies and Tips"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:188
+#, no-c-format
+msgid "Never place ships next to one another."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:189
+#, no-c-format
+msgid "Once you hit a ship, try shooting around the place you hit."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:190
+#, no-c-format
+msgid "Try to place ships away from the edges of the board."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:191
+#, no-c-format
+msgid "Small ships are harder to hit, make sure you place them where they are hard to find."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:192
+#, no-c-format
+msgid "Think before you shoot. Hits on water gives less points."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:199
+#, no-c-format
+msgid "The Menus"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:202
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:207
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:217
+#, no-c-format
+msgid "Exit the current game and reload the welcome screen."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:224
+#, no-c-format
+msgid "<shortcut><keycap>F5</keycap></shortcut> <guimenu>Game</guimenu> <guimenuitem>Restart Game</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:232
+#, no-c-format
+msgid "Restart the game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:239
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo></shortcut> <guimenu>Game</guimenu> <guimenuitem>Show High Scores</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:247
+#, no-c-format
+msgid "Show the highest scores so far."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:254
+#, no-c-format
+msgid "<guimenu>Game</guimenu> <guimenuitem>Single Player</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:262
+#, no-c-format
+msgid "Start a game with your computer as the opponent."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:269
+#, no-c-format
+msgid "<guimenu>Game</guimenu> <guimenuitem>Host Game…</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:277
+#, no-c-format
+msgid "Start the server so another player can connect to you."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:284
+#, no-c-format
+msgid "<guimenu>Game</guimenu> <guimenuitem>Connect to Game…</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:292
+#, no-c-format
+msgid "Connect to a server to start a game."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:299
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </shortcut> <guimenu>Game</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:308
+#, no-c-format
+msgid "<action>Exit</action> &i18n-knavalbattle;."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:316
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Change Nickname…</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#. +> trunk6 stable6
+#: index.docbook:323
+#, no-c-format
+msgid "Change the default nickname."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:330
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Play Sounds</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:336
+#, no-c-format
+msgid "<action>Toggle whether sounds (played when shooting) should be played.</action> The default is on."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:345
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Adjacent Ships</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:351
+#, no-c-format
+msgid "<action>Toggle whether the ships can be put on a desk without one empty space between them.</action> The default is on. This setting should be defined on a host when <link linkend=\"howtoplay\">playing &i18n-knavalbattle; via network</link>."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:360
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Show End-of-Game Message</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:366
+#, no-c-format
+msgid "If you won the game and have a new highscore, the highscore dialog will be shown. Otherwise the result is displayed in the statusbar or, if this option is enabled, additionally in a dialog."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:374
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Show Left Grid</guimenuitem> <guimenu>Settings</guimenu> <guimenuitem>Show Right Grid</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:382
+#, no-c-format
+msgid "Using the grids makes it easier to place a shot with the mouse pointer."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:389
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guisubmenu>Difficulty</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:395
+#, no-c-format
+msgid "The game difficulty setting (<guimenuitem>Easy</guimenuitem>, <guimenuitem>Medium</guimenuitem>, <guimenuitem>Hard</guimenuitem>) has effect only in single player games against the computer. In higher levels the AI uses a smarter strategy for shooting and placing ships."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:404
+#, no-c-format
+msgid "Additionally &i18n-knavalbattle; has the common &kde; <guimenu>Settings</guimenu> and <guimenu>Help</guimenu> menu items, for more information read the sections about the <ulink url=\"help:/fundamentals/menus.html#menus-settings\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:414
+#, no-c-format
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:420
+#, no-c-format
+msgid "I'm not sure where to shoot, can I get a hint?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:425
+#, no-c-format
+msgid "No, there is no hint system in &i18n-knavalbattle;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:433
+#, no-c-format
+msgid "How can I rotate a ship?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:438
+#, no-c-format
+msgid "Move the ship where you want to place it, then press the &RMB;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:446
+#, no-c-format
+msgid "Can I change how the game looks?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:451
+#, no-c-format
+msgid "No, the theme is not changeable."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:461
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:463
+#, no-c-format
+msgid "&knavalbattle; Copyright 2000-2007"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:466
+#, no-c-format
+msgid "Authors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:468
+#, no-c-format
+msgid "Paolo Capriotti <email>p.capriotti@gmail.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:473
+#, no-c-format
+msgid "<para>&Nikolas.Zimmermann; &Nikolas.Zimmermann.mail;</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:478
+#, no-c-format
+msgid "<para>&Daniel.Molkentin; &Daniel.Molkentin.mail;</para>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:483
+#, no-c-format
+msgid "Kevin Krammer <email>kevin.krammer@gmx.at</email>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:490
+#, no-c-format
+msgid "Contributors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:492
+#, no-c-format
+msgid "Johann Ollivier Lapeyre <email>johann.ollivierlapeyre@gmail.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:497
+#, no-c-format
+msgid "Eugene Trounev <email>irs_me@hotmail.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:502
+#, no-c-format
+msgid "&Robert.Wadley; <email>rob@robntina.fastmail.us</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:507
+#, no-c-format
+msgid "Riccardo Iaconelli <email>ruphy@fsfe.org</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:512
+#, no-c-format
+msgid "Benjamin Adler <email>benadler@bigfoot.de</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:517
+#, no-c-format
+msgid "Nils Trzebin <email>nils.trzebin@stud.uni-hannover.de</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:522
+#, no-c-format
+msgid "Elmar Hoefner <email>elmar.hoefner@uibk.ac.at</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:527
+#, no-c-format
+msgid "Documentation updated for &kde; 3.4 by <personname><firstname>Brian</firstname><surname>Beck</surname></personname> <email>brian.beck@mchsi.com</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:531
+#, no-c-format
+msgid "Documentation updated for &kde; 4 by <personname><firstname>Elisa</firstname><surname>Tonello</surname></personname> <email>elisa.tonello@gmail.com</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:535
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:535
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 16:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:10
+#, no-c-format
+msgid "Icons"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Mike.McBride; &Mike.McBride.mail;"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:13
+#, no-c-format
+msgid "&Jost.Schenck; &Jost.Schenck.mail;"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:14
+#, no-c-format
+msgid "&Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:15
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:18
+#, no-c-format
+msgid "2021-04-09"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:19
+#, no-c-format
+msgid "Plasma 5.20"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:22
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:23
+#, no-c-format
+msgid "KControl"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:24
+#, no-c-format
+msgid "icon"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:28
+#, no-c-format
+msgid ""
+"&plasma; comes with a full set of icons in several sizes. These icons are "
+"being used all over &plasma;: the desktop, the panel, the &dolphin; file "
+"manager, in every toolbar of every &plasma; application, etc. The icons "
+"control module offers you very flexible ways of customizing the way &plasma; "
+"handles icons."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:36
+#, no-c-format
+msgid "Here's a screenshot of the icon theme manager"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:42
+#, no-c-format
+msgid "Customizing &plasma; icons"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:48
+#, no-c-format
+msgid "In this module you can:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:50
+#, no-c-format
+msgid "install and choose icon themes"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:51
+#, no-c-format
+msgid "choose different icon sizes"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:52
+#, no-c-format
+msgid "remove icon themes"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:55
+#, no-c-format
+msgid ""
+"Please note that some of these settings may depend on your selected icon "
+"theme. &plasma; comes with several icon themes by default, Breeze, Breeze "
+"Dark and Oxygen."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:59
+#, no-c-format
+msgid ""
+"At the top is a preview of the current theme icons. Most default "
+"installations will have only a few icon theme available, amongst them the "
+"&plasma; default Breeze theme. You can also download more from the Internet "
+"from <ulink url=\"https://store.kde.org/\">https://store.kde.org/</ulink> or "
+"install them from a local file."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:65
+#, no-c-format
+msgid ""
+"On hover an animated preview shows a random selection, common mime types and "
+"common folder icons."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:70
+#, no-c-format
+msgid ""
+"If you want to remove a theme, use the "
+"<inlinemediaobject><imageobject><imagedata fileref=\"edit-delete.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> overlay icon at the "
+"bottom right of the theme icon. To undo this action click on the "
+"<inlinemediaobject><imageobject><imagedata fileref=\"edit-undo.png\" format="
+"\"PNG\"/></imageobject></inlinemediaobject> icon. If you hit the "
+"<guibutton>Apply</guibutton> button the themes selected for removal are "
+"actually deleted, so you cannot undo individual or all deletions."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:82
+#, no-c-format
+msgid "<guilabel>Configure Icon Sizes</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:84
+#, no-c-format
+msgid ""
+"Select one of the components and use the slider to adapt the corresponding "
+"size."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:89
+#, no-c-format
+msgid "<screeninfo>Configure Icon Sizes</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:95
+#, no-c-format
+msgid "<phrase>Configure Icon Sizes</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:102
+#, no-c-format
+msgid "Get New Icons..."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:104
+#, no-c-format
+msgid ""
+"You need to be connected to the Internet to use it. Clicking on this button "
+"will display a dialog where you can choose a new icon theme. Clicking on "
+"<guibutton>Install</guibutton> in the dialog will install the chosen icon "
+"theme and after you <guibutton>Close</guibutton> the installer your new "
+"theme is immediately available."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:109
+#, no-c-format
+msgid "<screeninfo>Get New Icons</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:115
+#, no-c-format
+msgid "<phrase>Get New Icons</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:122
+#, no-c-format
+msgid "Install from File..."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:124
+#, no-c-format
+msgid ""
+"If you downloaded new themes from the internet, you can use this to browse "
+"to the location of those newly downloaded themes. Clicking on this button "
+"will bring you the file dialog to point to the icon theme tarball you have "
+"on your disk."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:128
+#, no-c-format
+msgid ""
+"Clicking <guibutton>Open</guibutton> in this dialog will install the theme "
+"you pointed to and make it available in the theme list."
+msgstr ""

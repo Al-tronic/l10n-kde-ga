@@ -1,0 +1,1835 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:10
+#, no-c-format
+msgid "The &akregator; Handbook"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:14
+#, no-c-format
+msgid "<firstname>Frank</firstname> <surname>Osterfeld</surname>"
+msgstr ""
+
+#. Tag: email
+#. +> trunk6 stable6
+#: index.docbook:17
+#, no-c-format
+msgid "frank.osterfeld@kdemail.net"
+msgstr ""
+
+#. Tag: author
+#. +> trunk6 stable6
+#: index.docbook:20
+#, no-c-format
+msgid "<firstname>Anne-Marie</firstname> <surname>Mahfouf</surname>"
+msgstr ""
+
+#. Tag: address
+#. +> trunk6 stable6
+#: index.docbook:23
+#, no-c-format
+msgid "&Anne-Marie.Mahfouf.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:27
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:31
+#, no-c-format
+msgid "Frank Osterfeld"
+msgstr ""
+
+#. Tag: holder
+#. +> trunk6 stable6
+#: index.docbook:35
+#, no-c-format
+msgid "&Anne-Marie.Mahfouf;"
+msgstr ""
+
+#. Tag: date
+#. +> trunk6 stable6
+#: index.docbook:40
+#, no-c-format
+msgid "2021-03-31"
+msgstr ""
+
+#. Tag: releaseinfo
+#. +> trunk6 stable6
+#: index.docbook:41
+#, no-c-format
+msgid "Applications 21.08"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:46
+#, no-c-format
+msgid "&akregator; is a program to read <acronym>RSS</acronym> and other online news feeds."
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:53
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#. +> trunk6 stable6
+#: index.docbook:54
+#, no-c-format
+msgid "Akregator"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:60
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:63
+#, no-c-format
+msgid "What is &akregator;?"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:65
+#, no-c-format
+msgid "&akregator; is a &kde; application for reading online news feeds. It has a powerful, user-friendly interface for reading feeds and the management of them."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:69
+#, no-c-format
+msgid "&akregator; is a lightweight and fast program for displaying news items provided by feeds, supporting all commonly-used versions of <acronym>RSS</acronym> and Atom feeds. Its interface is similar to those of e-mail programs, thus hopefully being very familiar to the user. Useful features include searching within article titles, management of feeds in folders and setting archiving preferences. Feeds can be displayed in a similar manner to e-mails. Websites related to a feed can be shown in &akregator;'s embedded browser or, at the users' choice, opened in an external browser."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:77
+#, no-c-format
+msgid "<acronym>RSS</acronym> and Atom feeds"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:79
+#, no-c-format
+msgid "<acronym>RSS</acronym> (Really Simple Syndication) is an &XML;-based format used for publishing news or articles in a machine-readable form. An <acronym>RSS</acronym> or Atom file is also called a feed. A program that can be used to read such feeds is called a feed reader or aggregator, hence the title of the application, &akregator;."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:83
+#, no-c-format
+msgid "&akregator; automatically extracts new items from the feed and displays them in a human-friendly form to the user. The user can therefore save time with regularly-visited websites, as they need no longer manually check whether there are new pieces of information available."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:84
+#, no-c-format
+msgid "<acronym>RSS</acronym> is available in different versions which are not compatible with each other (this situation caused by competing companies): <acronym>RSS</acronym> 0.9, <acronym>RSS</acronym> 1.0 and <acronym>RSS</acronym> 2.0. Atom is also an &XML;-based feed language which has been redesigned to fit the needs of webloggers and news sites. Atom attempts to replace <acronym>RSS</acronym> feeds and remove the uncertainty with incompatibilities in the different <acronym>RSS</acronym> versions."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:97
+#, no-c-format
+msgid "Quick Start to &akregator;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:99
+#, no-c-format
+msgid "This section describes how to start using &akregator;. It explains the user interface and shows you how to add your own feed to the list. This section is particularly interesting if you are not yet familiar with the general <acronym>RSS</acronym>/Atom and feed aggregator concept."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:107
+#, no-c-format
+msgid "The Main Window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:110
+#, no-c-format
+msgid "When you first start &akregator;, you see its main window:"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:112
+#, no-c-format
+msgid "<screeninfo>&akregator; main window</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:115
+#, no-c-format
+msgid "<phrase>&akregator; main window</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:120
+#, no-c-format
+msgid "The main window consists of the feed list, the article list and the article viewer."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:124
+#, no-c-format
+msgid "The feed list is on the left. In the tree, you have news feeds you can select. A news feed is a collection of articles: for example, the recent news of a news site or the new entries of a blog. The default list contains feeds related to the &kde; project, but of course you can add your own feeds and remove the ones you are not interested in."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:131
+#, no-c-format
+msgid "In the upper right is the article list. It contains all the articles of the feed selected in the feed list (if it is empty, you must first fetch the feed). The list shows the headlines of the articles and the date when they were published. By default, the newest articles are at the top."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:136
+#, no-c-format
+msgid "The article list"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:139
+#, no-c-format
+msgid "The article list for one feed"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:143
+#, no-c-format
+msgid "If you select an article, it will be displayed in the article viewer in the lower right of the window. Depending on the feed, it contains either only a headline, a short summary, or the complete article content."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:148
+#, no-c-format
+msgid "<screeninfo>Reading an article from Planet &kde;</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:151
+#, no-c-format
+msgid "<phrase>Reading an article from Planet &kde;</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:158
+#, no-c-format
+msgid "Adding a feed"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:159
+#, no-c-format
+msgid "&akregator; provides you with some default feeds related to &kde; - of course, you probably want to add your own feeds. Good candidates are the news sites you visit regularly."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:164
+#, no-c-format
+msgid "Go to the menu <guimenu>Feed</guimenu> and choose <guimenuitem>Add Feed...</guimenuitem> or use the default keyboard shortcut (<keycap>Ins</keycap>). The following dialog appears, with an input line labeled <guilabel>Feed URL:</guilabel>."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:170
+#, no-c-format
+msgid "<screeninfo>Add a new feed</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:173
+#, no-c-format
+msgid "<phrase>Add a new feed</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:178
+#, no-c-format
+msgid "Enter <userinput>planet.ubuntu.com</userinput> or <userinput>http://planet.ubuntu.com</userinput> in the line edit next to <guilabel>Feed URL</guilabel> and click <guibutton>OK</guibutton>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:184
+#, no-c-format
+msgid "The feed settings dialog appears and you can modify the default options. When you are happy with the feed settings, click <guibutton>OK</guibutton> again."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:188
+#, no-c-format
+msgid "<screeninfo>The feed properties dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:191
+#, no-c-format
+msgid "<phrase>The feed properties dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:195
+#, no-c-format
+msgid "Now Planet Ubuntu has been added to your feed list."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:199
+#, no-c-format
+msgid "There are multiple other ways to find and add interesting feeds. Within &kde;, websites browsed with &konqueror; will display the recognizable <quote>RSS</quote> icon <inlinemediaobject> <imageobject> <imagedata fileref=\"feed.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject>in the bottom-right if a compatible news feed is detected at the website. Just left-click on the icon and choose <guimenuitem>Add Feed to &akregator;</guimenuitem>: <screenshot> <screeninfo>Automatically finding feeds through &konqueror;</screeninfo> <mediaobject> <imageobject><imagedata fileref=\"konq2.png\" format=\"PNG\"/></imageobject> <textobject><phrase>Automatically finding feeds through &konqueror;</phrase></textobject> </mediaobject> </screenshot> On pages with this <quote>RSS</quote> or this icon<inlinemediaobject> <imageobject> <imagedata fileref=\"rss.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject>, right-click on the icon and choose in the context menu <guimenuitem>Copy Link Address</guimenuitem>:"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:223
+#, no-c-format
+msgid "<screeninfo>Automatically finding feeds through &konqueror;</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:226
+#, no-c-format
+msgid "<phrase>Automatically finding feeds through &konqueror;</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:231
+#, no-c-format
+msgid "Switch to &akregator;, select <guimenuitem>Add Feed...</guimenuitem> and the <guilabel>Feed URL</guilabel> is filled out with the link address."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:235
+#, no-c-format
+msgid "All feeds added using this procedures appear under <guilabel>Imported Feeds</guilabel> folder in the feed list, and from there you can use your mouse to drag it to a different folder."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:241
+#, no-c-format
+msgid "Creating a Folder"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:242
+#, no-c-format
+msgid "After adding your own feeds, you may want to group them in some way, rather than just leave them unsorted. So let us create a folder for the Planet Ubuntu feed we just added:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:246
+#, no-c-format
+msgid "Select the parent folder of the new folder. In this example, we select <guilabel>All Feeds</guilabel>."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:249
+#, no-c-format
+msgid "Open <menuchoice><guimenu>Feed</guimenu> <guimenuitem>New Folder...</guimenuitem></menuchoice>. Enter <userinput>News</userinput> (or a more appropriate name for the feed category) in the line edit and choose <guibutton>OK</guibutton>."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:253
+#, no-c-format
+msgid "<screeninfo>The New Folder dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:256
+#, no-c-format
+msgid "<phrase>The New Folder dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:260
+#, no-c-format
+msgid "Now you can drag the Planet Ubuntu feed to the new folder."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:262
+#, no-c-format
+msgid "<screeninfo>The News folder in the feed list</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:265
+#, no-c-format
+msgid "<phrase>The News folder in the feed list</phrase>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:273
+#, no-c-format
+msgid "Browsing inside of &akregator;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:274
+#, no-c-format
+msgid "When reading feed articles, often you may want to read the web page that belongs to the article: some articles only contain the headline, and not the actual content. In this case, you need to visit the web page to read the complete article. Or perhaps an article links to some website, or you are reading a blog and want to comment on an entry. For these situations, &akregator; contains a simple web browser. Whenever you follow a link in the article viewer, by default &akregator; opens the link in new tab."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:281
+#, no-c-format
+msgid "Note that the browser in &akregator; is not intended to replace your favorite Web Browser. It is meant for reading articles, commenting on them, or following up a link quickly. It is not meant for browsing the web in general. It lacks many features fully-fledged web browsers offer."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:289
+#, no-c-format
+msgid "Configuring &akregator;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:290
+#, no-c-format
+msgid "Most of &akregator;'s options are listed in the &akregator; configuration dialog. The configuration dialog can be found in the menu under <menuchoice> <guimenu>Settings</guimenu><guimenuitem>Configure &akregator;...</guimenuitem> </menuchoice>"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:295
+#, no-c-format
+msgid "General"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:296
+#, no-c-format
+msgid "The General tab contains the basic and otherwise-uncategorizable options of &akregator;."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:298
+#, no-c-format
+msgid "<screeninfo>The General tab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:301
+#, no-c-format
+msgid "<phrase>The General tab</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:307
+#, no-c-format
+msgid "Global"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:312
+#, no-c-format
+msgid "Show tray icon"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:313
+#, no-c-format
+msgid "Display the &akregator; icon in the systray."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:317
+#, no-c-format
+msgid "Show unread articles in Taskbar"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:318
+#, no-c-format
+msgid "Defines if the number of unread articles should be shown on the system taskbar item."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:322
+#, no-c-format
+msgid "Hide feeds with no unread articles"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:323
+#, no-c-format
+msgid "If checked, hides feeds with no unread articles."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:327
+#, no-c-format
+msgid "Lock feeds in place"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:328
+#, no-c-format
+msgid "If checked, prevents feeds from being moved in the list, all feeds will be locked where they are."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:332
+#, no-c-format
+msgid "Auto-expand folders containing unread articles"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:333
+#, no-c-format
+msgid "If checked, auto-expands folders with unread articles."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:337
+#, no-c-format
+msgid "Use notifications for all feeds"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:338
+#, no-c-format
+msgid "Set global notifications for all feeds. This setting will override the individual notification value of each feed. When enabled, &akregator; will notify you of all new articles fetched in any feed. If you only want to enable notifications for some (but not all) feeds, leave this option disabled and enable notifications for each specific feed using the individual feed properties dialog."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:343
+#, no-c-format
+msgid "Use interval fetching"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:344
+#, no-c-format
+msgid "If this is unchecked, interval checking is disabled. However, if this is checked, you can set in <guilabel>Fetch feeds every:</guilabel> the interval that &akregator; will automatically check for new feed entries. Note that fetching articles generates traffic and therefore may be costly to the provider hosting the feed you're reading. Some sites may even block connections from your computer if you attempt to fetch the feed too often. In general, 30 minutes is a good choice."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:349
+#, no-c-format
+msgid "Fetch feeds every:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:350
+#, no-c-format
+msgid "This is enabled when <guilabel>Use interval fetching</guilabel> is checked. You can specify a time interval, after which feeds are checked for new articles. Default is 30 minutes."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:360
+#, no-c-format
+msgid "Startup"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:365
+#, no-c-format
+msgid "Mark all feeds as read on startup"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:366
+#, no-c-format
+msgid "When enabled, &akregator; marks all articles as read when started."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:371
+#, no-c-format
+msgid "Fetch all feeds on startup"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:372
+#, no-c-format
+msgid "When enabled, &akregator; fetches all feeds right after start."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:381
+#, no-c-format
+msgid "Network"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:385
+#, no-c-format
+msgid "Use the browser cache (less network traffic)"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:386
+#, no-c-format
+msgid "When enabled, the &kde;-wide browser cache settings are used when updating feeds. You can configure the &kde;-wide browser cache in &konqueror;'s configuration dialog."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:389
+#, no-c-format
+msgid "You should leave this option enabled whenever possible. Disabling this option leads to increased network traffic. The traffic caused by aggregators not using caching increases the costs for providers and may decrease the number of feeds that are offered in future."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:402
+#, no-c-format
+msgid "URL Interceptor"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:403
+#, no-c-format
+msgid "&akregator; can be configured to replace or remove images or frames from web pages that match a series of filters."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:406
+#, no-c-format
+msgid "<screeninfo>The URL Interceptor tab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:409
+#, no-c-format
+msgid "<phrase>The URL Interceptor tab</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:413
+#, no-c-format
+msgid "For a detailed description of this feature see <ulink url=\"help:/kcontrol/khtml-adblock\">AdBlock Filters</ulink>."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:418
+#, no-c-format
+msgid "<title>Archive</title>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:419
+#, no-c-format
+msgid "Archiving articles means storing the links of articles. Here you can limit the number of articles stored and the method used for archiving. These settings are global settings, used by all feeds within &akregator;. If you want to use a custom setting for a feed, you can set it in each feed properties dialog in the archive tab."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:425
+#, no-c-format
+msgid "<screeninfo>The Archive tab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:428
+#, no-c-format
+msgid "<phrase>The Archive tab</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:434
+#, no-c-format
+msgid "Default Archive Settings"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:439
+#, no-c-format
+msgid "Keep all articles"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:440
+#, no-c-format
+msgid "All articles are kept forever."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:444
+#, no-c-format
+msgid "Limit feed archive size to:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:445
+#, no-c-format
+msgid "If the number of articles exceeds the chosen limit, the oldest articles are deleted. Note that flagged articles are ignored when counting the number of articles: if your limit is 500, and you have 510 unflagged and 50 flagged articles, &akregator; will ignore the 50 flagged ones and only delete the 10 oldest unflagged articles. So in this example, 550 articles would be kept."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:453
+#, no-c-format
+msgid "Delete articles older than:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:454
+#, no-c-format
+msgid "Articles older than the specified number of days are deleted from the archive, unless they have the keep flag set. &akregator; checks for expired articles at startup and then once per hour, so expiry may be delayed."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:457
+#, no-c-format
+msgid "Disable archiving"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:458
+#, no-c-format
+msgid "No articles are stored - all articles are discarded when quitting &akregator;."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:467
+#, no-c-format
+msgid "Do not expire important articles"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:468
+#, no-c-format
+msgid "Right clicking on an article opens a context menu where you can mark this article as Important. Articles marked as Important will not expire, they will be kept."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:477
+#, no-c-format
+msgid "Appearance"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:478
+#, no-c-format
+msgid "On this page you can configure the appearance of the article viewer and the browser tabs. You can specify the colors, font sizes and families to be used."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:482
+#, no-c-format
+msgid "<screeninfo>The Appearance tab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:485
+#, no-c-format
+msgid "<phrase>The Appearance tab</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:491
+#, no-c-format
+msgid "Article List Colors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:492
+#, no-c-format
+msgid "Selecting <guilabel>Use custom colors</guilabel> allows you to select own colors for <guilabel>Unread articles</guilabel> and <guilabel>New articles</guilabel>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:499
+#, no-c-format
+msgid "Font Size"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:504
+#, no-c-format
+msgid "Minimum font size"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:505
+#, no-c-format
+msgid "Set the minimum size for the article viewer"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:509
+#, no-c-format
+msgid "Medium font size"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:510
+#, no-c-format
+msgid "Set the default font size for the article viewer"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:518
+#, no-c-format
+msgid "Fonts"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:523
+#, no-c-format
+msgid "Standard font:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:524
+#, no-c-format
+msgid "In the article viewer, the content is rendered using the Standard font in Medium font size. If you change the Standard font, the change will be applied in the article viewer."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:530
+#, no-c-format
+msgid "Fixed font:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:531
+#, no-c-format
+msgid "If the article uses a fixed-width font in the article viewer, the content will be rendered using this font family in Medium font size."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:536
+#, no-c-format
+msgid "Serif font:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:537
+#, no-c-format
+msgid "If the article uses Serif fonts, they will be rendered using the family you choose here in Medium font size."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:542
+#, no-c-format
+msgid "Sans serif font:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:543
+#, no-c-format
+msgid "If the article uses Sans-serif fonts, they will be rendered using the family you choose here in Medium font size."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:552
+#, no-c-format
+msgid "Underline links"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:553
+#, no-c-format
+msgid "Check this if you want links to be underlined by default."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:560
+#, no-c-format
+msgid "Browser"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:561
+#, no-c-format
+msgid "This tab allows you to customize the behavior of the internal browser tabs."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:564
+#, no-c-format
+msgid "<screeninfo>The Browser tab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:567
+#, no-c-format
+msgid "<phrase>The Browser tab</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:573
+#, no-c-format
+msgid "Left mouse click"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:574
+#, no-c-format
+msgid "You can choose three actions for the Left mouse click action: <guilabel>Open in Tab</guilabel> (open the link in a tab and put this tab in focus), <guilabel>Open in Background Tab</guilabel> (open the link in a tab but keep the current tab in focus) and <guilabel>Open in External Browser</guilabel> to open an article in a new window with your default browser."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:582
+#, no-c-format
+msgid "Middle mouse click"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:583
+#, no-c-format
+msgid "As above, you can set one of the three actions for the middle mouse click."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:588
+#, no-c-format
+msgid "External Browsing"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:593
+#, no-c-format
+msgid "Use default web browser"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:594
+#, no-c-format
+msgid "If this is checked, &akregator; will use the web browser you set in &systemsettings;. It may be the &kde; default, &konqueror;, or another browser depending on what you set here."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:600
+#, no-c-format
+msgid "Use this command:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:601
+#, no-c-format
+msgid "You can use another web browser for &akregator; other than your &kde; default. If you wish to do so, check this option and enter the command for the browser, provided it is in your $<envar>PATH</envar>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:611
+#, no-c-format
+msgid "Tabs"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:616
+#, no-c-format
+msgid "Always show the tab bar"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:617
+#, no-c-format
+msgid "If this option is checked, the tab will be always shown, even when only one tab is open. This allows you to create tabs directly from the tab bar. Otherwise, the tab bar will be shown only when several tabs are open."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:621
+#, no-c-format
+msgid "Show close button on each tab"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:622
+#, no-c-format
+msgid "If this option is checked, the close button will appear when you move your mouse on the left side of the tab title so you can more easily close tabs."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:628
+#, no-c-format
+msgid "Open links in new tab instead of in new window"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:629
+#, no-c-format
+msgid "If checked, &akregator; will open a link which would normally open in a new window (external browser) in a new tab instead."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:638
+#, no-c-format
+msgid "Security"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:643
+#, no-c-format
+msgid "Verify URLs using Google's Safe Browsing API"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:644
+#, no-c-format
+msgid "If this option is checked, <ulink url=\"https://safebrowsing.google.com/\">Google Safe Browsing</ulink> API will be used to check &URL;s against Google's constantly updated lists of unsafe web resources. Examples of unsafe web resources are social engineering sites (phishing and deceptive sites) and sites that host malware or unwanted software."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:648
+#, no-c-format
+msgid "Enable Javascript"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:649
+#, no-c-format
+msgid "If checked, &akregator; will use &javascript; when processing web resources. &javascript; usage has several <ulink url=\"https://en.wikipedia.org/wiki/JavaScript#Security\">security implications</ulink>."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:653
+#, no-c-format
+msgid "Misc"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:658
+#, no-c-format
+msgid "Access Key Enabled"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:659
+#, no-c-format
+msgid "This is an accessibility option. When checked, &akregator; will process the web page accessKey property, which defines the keyboard shortcut used to jump to a given element."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:674
+#, no-c-format
+msgid "Advanced"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:675
+#, no-c-format
+msgid "The Advanced tab allows you to set more advanced options. If you are not sure about their effect, you can just leave the default ones."
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:678
+#, no-c-format
+msgid "<screeninfo>The Advanced tab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:681
+#, no-c-format
+msgid "<phrase>The Advanced tab</phrase>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:687
+#, no-c-format
+msgid "<guilabel>Archive</guilabel>"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:692
+#, no-c-format
+msgid "Archive backend:"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:693
+#, no-c-format
+msgid "&akregator; currently only uses the Metakit database."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:702
+#, no-c-format
+msgid "Article List"
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:707
+#, no-c-format
+msgid "Mark selected article read after"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:708
+#, no-c-format
+msgid "Default is 0 seconds, which means that as soon as you click on an article it is marked as read. You can choose to mark any article as read after a specified number of seconds."
+msgstr ""
+
+#. Tag: guilabel
+#. +> trunk6 stable6
+#: index.docbook:714
+#, no-c-format
+msgid "Reset search bar when changing feeds"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:715
+#, no-c-format
+msgid "This will clear the search bar when you change feed."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:728
+#, no-c-format
+msgid "Command Reference"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:731
+#, no-c-format
+msgid "Menus and Shortcut Keys"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:734
+#, no-c-format
+msgid "The File Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:738
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Import Feeds</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:742
+#, no-c-format
+msgid "<action>Open</action> the import feeds dialog to load <quote>OPML Outlines</quote> with feed subscriptions."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:748
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Export Feeds</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:752
+#, no-c-format
+msgid "<action>Open</action> the save as dialog and export your feeds and folder structure as <filename class=\"extension\">.opml</filename> file."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:757
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </shortcut> <guimenu>File</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:764
+#, no-c-format
+msgid "<action>Quit</action> &akregator;"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:771
+#, no-c-format
+msgid "The Edit Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:775
+#, no-c-format
+msgid "<shortcut> <keycap>F2</keycap> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Edit Feed...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:782
+#, no-c-format
+msgid "<action>Edit</action> current feed to change its properties in the Properties dialog"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:786
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Alt;<keycap>Del</keycap></keycombo> </shortcut> <guimenu>Edit</guimenu> <guimenuitem>Delete feed</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:793
+#, no-c-format
+msgid "<action>Delete</action> current feed"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:800
+#, no-c-format
+msgid "The View Menu"
+msgstr ""
+
+#. Tag: term
+#. +> trunk6 stable6
+#: index.docbook:804
+#, no-c-format
+msgid "<menuchoice><shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>1</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Normal View</guimenuitem></menuchoice>, <menuchoice><shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>2</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Widescreen View</guimenuitem> </menuchoice> and <menuchoice><shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>3</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Combined View</guimenuitem> </menuchoice>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:815
+#, no-c-format
+msgid "<action>Choose</action> the View Mode for &akregator;"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:819
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo></shortcut> <guimenu>View</guimenu> <guimenuitem>Enlarge Font</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:825
+#, no-c-format
+msgid "<action>Increase</action> the font size in the article viewer"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:830
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo></shortcut> <guimenu>View</guimenu> <guimenuitem>Shrink Font</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:836
+#, no-c-format
+msgid "<action>Decrease</action> the font size in the article viewer"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:845
+#, no-c-format
+msgid "The Go Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:849
+#, no-c-format
+msgid "<shortcut><keycap>Left</keycap></shortcut> <guimenu>Go</guimenu> <guimenuitem>Previous Article</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:854
+#, no-c-format
+msgid "<action>Go</action> to the previous article in the article list"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:858
+#, no-c-format
+msgid "<shortcut><keycap>-</keycap></shortcut> <guimenu>Go</guimenu> <guimenuitem>Previous Unread Article</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:863
+#, no-c-format
+msgid "<action>Go</action> to the previous unread article in the article list"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:867
+#, no-c-format
+msgid "<shortcut><keycap>Right</keycap></shortcut> <guimenu>Go</guimenu> <guimenuitem>Next Article</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:872
+#, no-c-format
+msgid "<action>Go</action> to the next article in the article list"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:876
+#, no-c-format
+msgid "<shortcut><keycap>+</keycap></shortcut> <guimenu>Go</guimenu> <guimenuitem>Next Unread Article</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:881
+#, no-c-format
+msgid "<action>Go</action> to the next unread article in the article list"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:885
+#, no-c-format
+msgid "<shortcut><keycap>P</keycap></shortcut> <guimenu>Go</guimenu> <guimenuitem>Previous Feed</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:890
+#, no-c-format
+msgid "<action>Go</action> to the previous feed in the feed list"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:894
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Alt;<keycap>-</keycap></keycombo></shortcut> <guimenu>Go</guimenu> <guimenuitem>Previous Unread Feed</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:900
+#, no-c-format
+msgid "<action>Go</action> to the previous unread feed in the feed list"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:904
+#, no-c-format
+msgid "<shortcut><keycap>N</keycap></shortcut> <guimenu>Go</guimenu> <guimenuitem>Next Feed</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:909
+#, no-c-format
+msgid "<action>Go</action> to the next feed in the feed list"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:913
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Alt;<keycap>+</keycap></keycombo></shortcut> <guimenu>Go</guimenu> <guimenuitem>Next Unread Feed</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:919
+#, no-c-format
+msgid "<action>Go</action> to the next unread feed in the feed list"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:927
+#, no-c-format
+msgid "The Feed Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:931
+#, no-c-format
+msgid "<shortcut><keycap>Ins</keycap></shortcut> <guimenu>Feed</guimenu> <guimenuitem>Add Feed...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:936
+#, no-c-format
+msgid "<action>Open</action> the Add Feed dialog"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:939
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Shift;<keycap>Ins</keycap></keycombo></shortcut> <guimenu>Feed</guimenu> <guimenuitem>New Folder...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:945
+#, no-c-format
+msgid "<action>Open</action> the Add Folder dialog"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:948
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo></shortcut> <guimenu>Feed</guimenu> <guimenuitem>Mark Feed as Read</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:954
+#, no-c-format
+msgid "<action>Mark</action> the current feed as read"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:957
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl; &Shift;<keycap>R</keycap></keycombo></shortcut> <guimenu>Feed</guimenu> <guimenuitem>Mark All Feeds as Read</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:963
+#, no-c-format
+msgid "<action>Mark</action> all feeds as already read"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:967
+#, no-c-format
+msgid "<shortcut><keycap>F5</keycap></shortcut> <guimenu>Feed</guimenu> <guimenuitem>Fetch Feed</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:972
+#, no-c-format
+msgid "<action>Fetch</action> the current feed"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:975
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>L</keycap></keycombo></shortcut> <guimenu>Feed</guimenu> <guimenuitem>Fetch All Feeds</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:981
+#, no-c-format
+msgid "<action>Fetch</action> all feeds"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:984
+#, no-c-format
+msgid "<shortcut><keycap>Esc</keycap></shortcut> <guimenu>Feed</guimenu> <guimenuitem>Abort Fetches</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:989
+#, no-c-format
+msgid "<action>Stop</action> &akregator; fetching feeds"
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:997
+#, no-c-format
+msgid "The Article Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:1001
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Shift;<keycap>Return</keycap></keycombo></shortcut> <guimenu>Article</guimenu> <guimenuitem>Open in Tab</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1007
+#, no-c-format
+msgid "<action>Open</action> the current article in a tab within &akregator;"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:1011
+#, no-c-format
+msgid "<shortcut><keycap>Return</keycap></shortcut> <guimenu>Article</guimenu> <guimenuitem>Open in Background Tab</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1016
+#, no-c-format
+msgid "<action>Load</action> the current article in into a new tab, but not automatically activate that tab. That is useful to browse a feed, open all interesting articles into background tabs and later read them all."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:1023
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl; &Shift;<keycap>Return</keycap></keycombo></shortcut> <guimenu>Article</guimenu> <guimenuitem>Open in External Browser.</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1029
+#, no-c-format
+msgid "<action>Open</action> the current article in an external browser"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:1033
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>I</keycap></keycombo></shortcut> <guimenu>Article</guimenu> <guimenuitem>Mark as Important</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1039
+#, no-c-format
+msgid "<action>Mark</action> the current article as important"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:1043
+#, no-c-format
+msgid "<guimenu>Article</guimenu> <guimenuitem>Mark as</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1047
+#, no-c-format
+msgid "<action>Mark</action> the current article as Read <keycombo action=\"simul\">&Ctrl;<keycap>E</keycap></keycombo>, New <keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo> or Unread <keycombo action=\"simul\">&Ctrl;<keycap>U</keycap></keycombo>"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:1053
+#, no-c-format
+msgid "<shortcut><keycap>Del</keycap></shortcut> <guimenu>Article</guimenu> <guimenuitem>Delete</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1058
+#, no-c-format
+msgid "<action>Delete</action> the current article"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:1061
+#, no-c-format
+msgid "<guimenu>Article</guimenu> <guimenuitem>Send Link Address...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1065
+#, no-c-format
+msgid "<action>Open</action> your mail client and attach the link in the mail."
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:1069
+#, no-c-format
+msgid "<guimenu>Article</guimenu> <guimenuitem>Send File...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1073
+#, no-c-format
+msgid "<action>Open</action> your mail client and attach the file in the mail."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:1094
+#, no-c-format
+msgid "The Settings and Help Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#. +> trunk6 stable6
+#: index.docbook:1098
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Show Quick Filter</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1102
+#, no-c-format
+msgid "<action>Toggle</action> the Quick Filter (Show/Hide it)"
+msgstr ""
+
+#. Tag: screeninfo
+#. +> trunk6 stable6
+#: index.docbook:1104
+#, no-c-format
+msgid "<screeninfo>The Quick Filter</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#. +> trunk6 stable6
+#: index.docbook:1107
+#, no-c-format
+msgid "<phrase>The Quick Filter</phrase>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1115
+#, no-c-format
+msgid "Additionally &akregator; has the common &kde; <guimenu>Settings</guimenu> and <guimenu>Help</guimenu> menu items, for more information read the sections about the <ulink url=\"help:/fundamentals/menus.html#menus-settings\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1121
+#, no-c-format
+msgid "Many actions provided in the menu are also available in the context menus of the feed list, the article list and the article viewer."
+msgstr ""
+
+#. Tag: title
+#. +> trunk6 stable6
+#: index.docbook:1132
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1134
+#, no-c-format
+msgid "&akregator;"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1137
+#, no-c-format
+msgid "Program copyright 2004-2010 Akregator authors"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1141
+#, no-c-format
+msgid "Documentation copyright 2006 Frank Osterfeld <email>frank.osterfeld@kdemail.net</email>"
+msgstr ""
+
+#. Tag: para
+#. +> trunk6 stable6
+#: index.docbook:1146
+#, no-c-format
+msgid "Documentation copyright 2006 &Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#. +> trunk6 stable6
+#: index.docbook:1151
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#. +> trunk6 stable6
+#: index.docbook:1151
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

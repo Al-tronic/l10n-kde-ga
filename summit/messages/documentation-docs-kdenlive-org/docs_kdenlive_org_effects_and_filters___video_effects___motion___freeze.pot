@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) licensed under the  <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons License SA 4.0</a> unless stated otherwise
+# This file is distributed under the same license as the Kdenlive Manual package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Kdenlive Manual \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-18 09:44+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk5
+#: ../../<rst_epilog>:310
+msgid "kdenlive-show-video"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:624
+msgid "Linux"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:629
+msgid "appimage"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:634
+msgid "Windows"
+msgstr ""
+
+#. +> trunk5
+#: ../../<rst_epilog>:639
+msgid "MacOS"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:19
+msgid "Freeze"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:30
+msgid "Maintained"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:32
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:40
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:42
+msgid "No"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:34
+msgid "MLT"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:36
+msgid "freeze"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:38
+msgid "|linux| |appimage| |windows| |apple|"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:48
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:62
+msgid "Description"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:49
+msgid "This effect causes the video to freeze. By default, the clip will be frozen for its entire length when the effect is added to the clip. To change this, check either the :guilabel:`Freeze Before` or :guilabel:`Freeze After` option and move the :guilabel:`Freeze at` slider to the time where you want the freeze to start or end. The audio in the video plays for the entire length, i.e. the **Freeze** effect does *not* affect the audio."
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:53
+msgid "Parameters"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:60
+msgid "Parameter"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:61
+msgid "Value"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:63
+msgid "Freeze at"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:65
+msgid "Set the position via the slider or the time code (using the format :abbr:`hh:mm:ss:ff(hours:minutes:seconds:frames)`)"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:66
+msgid "Freeze Before"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:68
+msgid "If checked, freezes the video from the start of the clip to the set :guilabel:`Freeze at` position. Default is **off**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:69
+msgid "Freeze After"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:71
+msgid "If checked, freezes the video from set :guilabel:`Freeze at` position to the end of the clip. Default is **off**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:-1
+msgid "Kdenlive Video Effects - Freeze"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:-1
+msgid "KDE, Kdenlive, video editor, help, learn, easy, effects, filter, video effects, motion, freeze"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:-1
+msgid "effects-freeze-2504.webp"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:0
+msgid "**Status**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:0
+msgid "**Keyframes**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:0
+msgid "**Source library**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:0
+msgid "**Source filter**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:0
+msgid "**Available**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:0
+msgid "**On Master only**"
+msgstr ""
+
+#. +> trunk5
+#: ../../effects_and_filters/video_effects/motion/freeze.rst:0
+msgid "**Known bugs**"
+msgstr ""

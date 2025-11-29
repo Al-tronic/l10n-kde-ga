@@ -1,0 +1,2714 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kosmindoormap package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kosmindoormap\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-07-05 12:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. +> trunk6 stable6
+#: app/main.cpp:70
+#, kde-format
+msgid "KDE OSM Indoor Map"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/amenitymodel.cpp:89
+#, kde-format
+msgctxt "amenity category"
+msgid "Food & Drinks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/amenitymodel.cpp:91
+#, kde-format
+msgctxt "amenity category"
+msgid "Shops"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/amenitymodel.cpp:93
+#, kde-format
+msgctxt "amenity category"
+msgid "Toilets"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/amenitymodel.cpp:95
+#, kde-format
+msgctxt "amenity category"
+msgid "Healthcare"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/amenitymodel.cpp:97
+#, kde-format
+msgctxt "amenity category"
+msgid "Amenities"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/amenitymodel.cpp:99
+#, kde-format
+msgctxt "amenity category"
+msgid "Accommodations"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/floorlevelchangemodel.cpp:225
+#, kde-format
+msgid "Elevator"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/floorlevelchangemodel.cpp:232
+#, kde-format
+msgid "Staircase"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:20
+msgctxt "OSM::amenity/shop"
+msgid "Alcohol"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:21
+msgctxt "OSM::shop"
+msgid "Antiques"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:22
+msgctxt "OSM::amenity/shop"
+msgid "Apartment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:23
+msgctxt "OSM::tourism"
+msgid "Aquarium"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:24
+msgctxt "OSM::historic"
+msgid "Archaeological Site"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:25
+msgctxt "OSM::shop"
+msgid "Art"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:26
+msgctxt "OSM::amenity/shop"
+msgid "Arts Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:27
+msgctxt "OSM::amenity/shop"
+msgid "Artwork"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:28
+msgctxt "OSM::amenity/shop"
+msgid "ATM"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:29
+msgctxt "OSM::amenity/shop"
+msgid "Attraction"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:30
+msgctxt "OSM::room"
+msgid "Auditorium"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:31
+msgctxt "OSM::shop"
+msgid "Baby Goods"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:32
+msgctxt "OSM::amenity/shop"
+msgid "Bag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:33
+msgctxt "OSM::amenity"
+msgid "Baggage Claim"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:34
+msgctxt "OSM::amenity/shop"
+msgid "Bakery"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:35
+msgctxt "OSM::amenity/shop"
+msgid "Bank"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:36
+msgctxt "OSM::amenity/shop"
+msgid "Bar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:37
+msgctxt "OSM::amenity/shop"
+msgid "Beauty"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:38
+msgctxt "OSM::amenity/shop"
+msgid "Bed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:39
+msgctxt "OSM::amenity"
+msgid "Bench"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:40
+msgctxt "OSM::amenity/shop"
+msgid "Beverages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:41
+msgctxt "OSM::amenity/shop"
+msgid "Bicycle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:42
+msgctxt "OSM::amenity/shop"
+msgid "Bicycle Parking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:43
+msgctxt "OSM::amenity/shop"
+msgid "Bicycle Rental"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:44
+msgctxt "OSM::amenity"
+msgid "Bicycle Repair Station"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:45
+msgctxt "OSM::amenity"
+msgid "Beer Garden"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:46
+msgctxt "OSM::amenity/shop"
+msgid "Books"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:47
+msgctxt "OSM::amenity/shop"
+msgid "Boutique"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:48
+msgctxt "OSM::leisure"
+msgid "Bowling Alley"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:49
+msgctxt "OSM::amenity/shop"
+msgid "Bureau de Change"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:50
+msgctxt "OSM::amenity/shop"
+msgid "Butcher"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:51
+msgctxt "OSM::amenity/shop"
+msgid "Cafe"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:52
+msgctxt "OSM::amenity/shop"
+msgid "Car"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:53
+msgctxt "OSM::amenity/shop"
+msgid "Car Rental"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:54
+msgctxt "OSM::shop"
+msgid "Car Repair"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:55
+msgctxt "OSM::amenity/shop"
+msgid "Car Sharing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:56
+msgctxt "OSM::amenity"
+msgid "Car Wash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:57
+msgctxt "OSM::historic"
+msgid "Castle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:58
+msgctxt "OSM::amenity/shop"
+msgid "Charging Station"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:59
+msgctxt "OSM::shop"
+msgid "Charity Shop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:60
+msgctxt "OSM::shop"
+msgid "Cheese"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:61
+msgctxt "OSM::amenity/shop"
+msgid "Chemist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:62
+msgctxt "OSM::amenity/shop"
+msgid "Chocolate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:63
+msgctxt "OSM::amenity/shop"
+msgid "Cinema"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:64
+msgctxt "OSM::historic"
+msgid "Citywall"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:65 map-quick/localization_data.cpp:66
+msgctxt "OSM::room"
+msgid "Classroom"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:67
+msgctxt "OSM::healthcare"
+msgid "Clinic"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:68
+msgctxt "OSM::amenity/shop"
+msgid "Clothes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:69
+msgctxt "OSM::amenity/shop"
+msgid "Coffee"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:70
+msgctxt "OSM::amenity"
+msgid "Community Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:71
+msgctxt "OSM::amenity/shop"
+msgid "Computer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:72
+msgctxt "OSM::room"
+msgid "Computer Lab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:73
+msgctxt "OSM::amenity/shop"
+msgid "Confectionery"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:74
+msgctxt "OSM::room"
+msgid "Conference Room"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:75
+msgctxt "OSM::amenity"
+msgid "Conference Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:76
+msgctxt "OSM::diplomatic"
+msgid "Consulate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:77
+msgctxt "OSM::amenity/shop"
+msgid "Convenience Store"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:78
+msgctxt "OSM::amenity/shop"
+msgid "Copy Shop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:79
+msgctxt "OSM::amenity/shop"
+msgid "Cosmetics"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:80
+msgctxt "OSM::amenity/shop"
+msgid "Court House"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:81 map-quick/localization_data.cpp:82
+msgctxt "OSM::amenity"
+msgid "Coworking Space"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:83
+msgctxt "OSM::shop"
+msgid "Art and Craft Supplies"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:84
+msgctxt "OSM::shop"
+msgid "Curtains"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:85
+msgctxt "OSM::amenity/shop"
+msgid "Deli"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:86
+msgctxt "OSM::healthcare"
+msgid "Dentist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:87
+msgctxt "OSM::amenity/shop"
+msgid "Department Store"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:88 map-quick/localization_data.cpp:89
+msgctxt "OSM::healthcare"
+msgid "Doctor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:90
+msgctxt "OSM::amenity/shop"
+msgid "Hardware Store"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:91
+msgctxt "OSM::amenity/shop"
+msgid "Drinking Water"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:92
+msgctxt "OSM::vending"
+msgid "Drinks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:93
+msgctxt "OSM::amenity/shop"
+msgid "Dry Cleaning"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:94
+msgctxt "OSM::shop"
+msgid "Electrical"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:95
+msgctxt "OSM::amenity/shop"
+msgid "Electronics"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:96
+msgctxt "OSM::diplomatic"
+msgid "Embassy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:97
+msgctxt "OSM::amenity"
+msgid "Events Venue"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:98
+msgctxt "OSM::amenity"
+msgid "Exhibition Hall"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:99
+msgctxt "OSM::shop"
+msgid "Fabric"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:100
+msgctxt "OSM::amenity/shop"
+msgid "Fashion"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:101
+msgctxt "OSM::shop"
+msgid "Fashion Accessories"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:102
+msgctxt "OSM::amenity/shop"
+msgid "Fast Food"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:103
+msgctxt "OSM::amenity/shop"
+msgid "Ferry Terminal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:104
+msgctxt "OSM::amenity"
+msgid "Fire Station"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:105
+msgctxt "OSM::leisure"
+msgid "Fitness Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:106
+msgctxt "OSM::leisure"
+msgid "Fitness Station"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:107
+msgctxt "OSM::amenity/shop"
+msgid "Florist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:108
+msgctxt "OSM::shop"
+msgid "Food"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:109
+msgctxt "OSM::amenity/shop"
+msgid "Food Court"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:110
+msgctxt "OSM::amenity/shop"
+msgid "Fountain"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:111
+msgctxt "OSM::amenity"
+msgid "Gas Station"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:112
+msgctxt "OSM::amenity/shop"
+msgid "Furniture"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:113
+msgctxt "OSM::amenity/shop"
+msgid "Gallery"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:114
+msgctxt "OSM::shop"
+msgid "Games"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:115
+msgctxt "OSM::amenity/shop"
+msgid "Garden"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:116
+msgctxt "OSM::amenity/shop"
+msgid "Garden Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:117
+msgctxt "OSM::amenity/shop"
+msgid "Gift Shop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:118
+msgctxt "OSM::leisure"
+msgid "Golf Course"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:119
+msgctxt "OSM::office"
+msgid "Government"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:120
+msgctxt "OSM::amenity/shop"
+msgid "Greengrocer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:121
+msgctxt "OSM::amenity/shop"
+msgid "Guest House"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:122
+msgctxt "OSM::amenity/shop"
+msgid "Hairdresser"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:123
+msgctxt "OSM::shop"
+msgid "Hardware"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:124
+msgctxt "OSM::shop"
+msgid "Health Food"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:125
+msgctxt "OSM::amenity/shop"
+msgid "Hearing Aids"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:126
+msgctxt "OSM::shop"
+msgid "Hi-fi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:127
+msgctxt "OSM::amenity/shop"
+msgid "Hospital"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:128
+msgctxt "OSM::amenity/shop"
+msgid "Hostel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:129
+msgctxt "OSM::amenity/shop"
+msgid "Hotel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:130
+msgctxt "OSM::amenity/shop"
+msgid "Houseware"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:131
+msgctxt "OSM::amenity/shop"
+msgid "Ice Cream"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:132
+msgctxt "OSM::amenity/shop"
+msgid "Information"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:133
+msgctxt "OSM::amenity/shop"
+msgid "Interior Decoration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:134
+msgctxt "OSM::amenity/shop"
+msgid "Internet Cafe"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:135
+msgctxt "OSM::amenity/shop"
+msgid "Jewelry"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:136
+msgctxt "OSM::amenity/shop"
+msgid "Kiosk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:137
+msgctxt "OSM::room"
+msgid "Kitchen"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:138
+msgctxt "OSM::room"
+msgid "Laboratory"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:139
+msgctxt "OSM::amenity/shop"
+msgid "Laundry"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:140 map-quick/localization_data.cpp:141
+msgctxt "OSM::room"
+msgid "Lecture Hall"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:142
+msgctxt "OSM::amenity/shop"
+msgid "Library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:143 map-quick/localization_data.cpp:144
+#: map-quick/localization_data.cpp:149
+msgctxt "OSM::amenity"
+msgid "Locker"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:145
+msgctxt "OSM::amenity/shop"
+msgid "Locksmith"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:146 map-quick/localization_data.cpp:147
+#: map-quick/localization_data.cpp:148
+msgctxt "OSM::amenity"
+msgid "Lost & Found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:150
+msgctxt "OSM::amenity/shop"
+msgid "Mall"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:151
+msgctxt "OSM::amenity"
+msgid "Marketplace"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:152
+msgctxt "OSM::amenity/shop"
+msgid "Medical Supply"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:153
+msgctxt "OSM::room"
+msgid "Meeting Room"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:154
+msgctxt "OSM::historic"
+msgid "Memorial"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:155
+msgctxt "OSM::amenity/shop"
+msgid "Mobile Phone"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:156
+msgctxt "OSM::amenity/shop"
+msgid "Money Transfer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:157
+msgctxt "OSM::historic"
+msgid "Monument"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:158
+msgctxt "OSM::shop"
+msgid "Motorcycle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:159
+msgctxt "OSM::amenity/shop"
+msgid "Motorcycle Parking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:160
+msgctxt "OSM::amenity/shop"
+msgid "Motorcycle Rental"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:161
+msgctxt "OSM::amenity/shop"
+msgid "Museum"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:162
+msgctxt "OSM::amenity/shop"
+msgid "Music"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:163
+msgctxt "OSM::amenity/shop"
+msgid "Musical Instruments"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:164
+msgctxt "OSM::amenity/shop"
+msgid "Newsagent"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:165
+msgctxt "OSM::amenity"
+msgid "Nightclub"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:166
+msgctxt "OSM::shop"
+msgid "Nutrition Supplements"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:167
+msgctxt "OSM::amenity/shop"
+msgid "Office"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:168
+msgctxt "OSM::amenity/shop"
+msgid "Optician"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:169
+msgctxt "OSM::healthcare"
+msgid "Optometrist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:170
+msgctxt "OSM::amenity/shop"
+msgid "Outdoor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:171
+msgctxt "OSM::amenity/shop"
+msgid "Paint"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:172
+msgctxt "outdoor recreational area"
+msgid "Park"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:173
+msgctxt "OSM::amenity/shop"
+msgid "Parking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:174
+msgctxt "OSM::amenity/shop"
+msgid "Parking Tickets"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:175
+msgctxt "OSM::amenity/shop"
+msgid "Pastry"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:176
+msgctxt "OSM::amenity/shop"
+msgid "Perfumery"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:177
+msgctxt "OSM::amenity/shop"
+msgid "Pet"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:178
+msgctxt "OSM::amenity/shop"
+msgid "Pharmacy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:179
+msgctxt "OSM::amenity/shop"
+msgid "Photo"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:180
+msgctxt "OSM::healthcare"
+msgid "Physiotherapist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:181
+msgctxt "OSM::amenity/shop"
+msgid "Place of Worship"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:182
+msgid "Playground"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:183
+msgctxt "OSM::amenity/shop"
+msgid "Police"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:184
+msgctxt "OSM::amenity/shop"
+msgid "Post Box"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:185
+msgctxt "OSM::amenity/shop"
+msgid "Post Office"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:186
+msgctxt "OSM::shop"
+msgid "Potery"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:187
+msgctxt "OSM::healthcare"
+msgid "Psychotherapist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:188
+msgctxt "OSM::amenity/shop"
+msgid "Pub"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:189
+msgctxt "OSM::amenity/shop"
+msgid "Public Transport Tickets"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:190 map-quick/localization_data.cpp:227
+msgctxt "OSM::building"
+msgid "Train Station"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:191
+msgctxt "place to welcome guests, e.g. in a hotel"
+msgid "Reception"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:192
+msgctxt "OSM::amenity/shop"
+msgid "Recycling"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:193
+msgctxt "OSM::amenity"
+msgid "Research Institute"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:194
+msgctxt "OSM::amenity/shop"
+msgid "Restaurant"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:195
+msgctxt "OSM::amenity"
+msgid "Sauna"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:196
+msgctxt "OSM::amenity/shop"
+msgid "School"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:197
+msgctxt "OSM::amenity/shop"
+msgid "Kick Scooter Rental"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:198
+msgctxt "OSM::amenity/shop"
+msgid "Seafood"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:199
+msgctxt "OSM::shop"
+msgid "Second Hand"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:200
+msgctxt "OSM::room"
+msgid "Seminar Room"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:201
+msgctxt "OSM::shop"
+msgid "Shoe Repair"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:202
+msgctxt "OSM::shop"
+msgid "Shoes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:203
+msgctxt "OSM::amenity/shop"
+msgid "Shop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:204
+msgctxt "OSM::amenity"
+msgid "Shower"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:205
+msgctxt "OSM::amenity/shop"
+msgid "Social Facility"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:206
+msgctxt "OSM::amenity/shop"
+msgid "Souvenirs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:207
+msgctxt "OSM::amenity/shop"
+msgid "Sports"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:208
+msgctxt "OSM::amenity"
+msgid "Sports Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:209
+msgctxt "OSM::amenity"
+msgid "Sports Hall"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:210
+msgctxt "OSM::amenity/shop"
+msgid "Stationery"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:211
+msgctxt "OSM::amenity/shop"
+msgid "Supermarket"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:212
+msgctxt "OSM::vending"
+msgid "Sweets"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:213
+msgctxt "OSM::amenity/shop"
+msgid "Tailor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:214
+msgctxt "OSM::amenity/shop"
+msgid "Tattoo"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:215
+msgctxt "OSM::amenity/shop"
+msgid "Taxi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:216
+msgctxt "OSM::amenity/shop"
+msgid "Tea"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:217
+msgctxt "OSM::shop"
+msgid "Telecommunication"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:218
+msgctxt "OSM::room"
+msgid "Terrace"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:219
+msgctxt "OSM::amenity/shop"
+msgid "Theatre"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:220
+msgctxt "OSM::tourism"
+msgid "Theme Park"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:221
+msgctxt "OSM::amenity/shop"
+msgid "Tickets"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:222
+msgctxt "OSM::amenity/shop"
+msgid "Tobacco"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:223 map-quick/localization_data.cpp:224
+msgctxt "OSM::amenity/shop"
+msgid "Toilets"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:225
+msgctxt "OSM::amenity/shop"
+msgid "Town Hall"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:226
+msgctxt "OSM::amenity/shop"
+msgid "Toys"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:228 map-quick/localization_data.cpp:229
+msgctxt "OSM::amenity/shop"
+msgid "Travel Agency"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:230
+msgctxt "OSM::amenity/shop"
+msgid "University"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:231
+msgctxt "OSM::amenity/shop"
+msgid "Variety Store"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:232
+msgctxt "OSM::amenity"
+msgid "Vending Machine"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:233
+msgctxt "OSM::amenity"
+msgid "Veterinary"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:234
+msgctxt "OSM::amenity/shop"
+msgid "Video Games"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:235
+msgctxt "OSM::tourism"
+msgid "Viewpoint"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:236 map-quick/localization_data.cpp:237
+#: map-quick/localization_data.cpp:238
+msgctxt "OSM::amenity/shop"
+msgid "Waiting Area"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:239
+msgctxt "OSM::amenity"
+msgid "Waste Basket"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:240
+msgctxt "OSM::shop"
+msgid "Watches"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:241
+msgctxt "OSM::vending"
+msgid "Water"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:242
+msgctxt "OSM::amenity/shop"
+msgid "Wine"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:243
+msgctxt "OSM::tourism"
+msgid "Zoo"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:249
+msgctxt "OSM::cuisine"
+msgid "African"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:250
+msgctxt "OSM::cuisine"
+msgid "American"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:251
+msgctxt "OSM::cuisine"
+msgid "Arab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:252
+msgctxt "OSM::cuisine"
+msgid "Argentinian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:253
+msgctxt "OSM::cuisine"
+msgid "Asian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:254
+msgctxt "OSM::cuisine"
+msgid "Austrian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:255
+msgctxt "OSM::cuisine"
+msgid "Bagel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:256
+msgctxt "OSM::cuisine"
+msgid "Balkan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:257 map-quick/localization_data.cpp:258
+#: map-quick/localization_data.cpp:260
+msgctxt "OSM::cuisine"
+msgid "Barbecue"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:259
+msgctxt "OSM::cuisine"
+msgid "Bavarian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:261
+msgctxt "OSM::cuisine"
+msgid "Beef Bowl"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:262
+msgctxt "OSM::cuisine"
+msgid "Bolivian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:263
+msgctxt "OSM::cuisine"
+msgid "Brazilian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:264
+msgctxt "OSM::cuisine"
+msgid "Breakfast"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:265
+msgctxt "OSM::cuisine"
+msgid "British"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:266
+msgctxt "OSM::cuisine"
+msgid "Brunch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:267
+msgctxt "OSM::cuisine"
+msgid "Bubble Tea"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:268
+msgctxt "OSM::cuisine"
+msgid "Buffet"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:269
+msgctxt "OSM::cuisine"
+msgid "Burger"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:270
+msgctxt "OSM::cuisine"
+msgid "Cake"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:271
+msgctxt "OSM::cuisine"
+msgid "Caribbean"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:272
+msgctxt "OSM::cuisine"
+msgid "Chicken"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:273
+msgctxt "OSM::cuisine"
+msgid "Chinese"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:274
+msgctxt "OSM::cuisine"
+msgid "Coffee"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:275
+msgctxt "OSM::cuisine"
+msgid "Coffee Shop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:276
+msgctxt "OSM::cuisine"
+msgid "Cookies"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:277
+msgctxt "OSM::cuisine"
+msgid "Crêpe"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:278
+msgctxt "OSM::cuisine"
+msgid "Curry"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:279
+msgctxt "OSM::cuisine"
+msgid "Czech"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:280
+msgctxt "OSM::cuisine"
+msgid "Dessert"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:281
+msgctxt "OSM::cuisine"
+msgid "Donut"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:282 map-quick/localization_data.cpp:283
+msgctxt "OSM::cuisine"
+msgid "Dumplings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:284
+msgctxt "OSM::cuisine"
+msgid "Ethiopian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:285
+msgctxt "OSM::cuisine"
+msgid "Falafel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:286
+msgctxt "OSM::cuisine"
+msgid "Fast Food"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:287
+msgctxt "OSM::cuisine"
+msgid "Filipino"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:288
+msgctxt "OSM::cuisine"
+msgid "Fish"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:289
+msgctxt "OSM::cuisine"
+msgid "Fish & Chips"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:290
+msgctxt "OSM::cuisine"
+msgid "French"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:291
+msgctxt "OSM::cuisine"
+msgid "Fries"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:292
+msgctxt "OSM::cuisine"
+msgid "Georigan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:293
+msgctxt "OSM::cuisine"
+msgid "German"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:294
+msgctxt "OSM::cuisine"
+msgid "Greek"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:295
+msgctxt "OSM::cuisine"
+msgid "Grill"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:296
+msgctxt "OSM::cuisine"
+msgid "Gyros"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:297
+msgctxt "OSM::cuisine"
+msgid "Hawaiian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:298 map-quick/localization_data.cpp:299
+msgctxt "OSM::cuisine"
+msgid "Hot Dog"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:300
+msgctxt "OSM::cuisine"
+msgid "Ice Cream"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:301
+msgctxt "OSM::cuisine"
+msgid "Indian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:302
+msgctxt "OSM::cuisine"
+msgid "Indonesian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:303
+msgctxt "OSM::cuisine"
+msgid "International"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:304
+msgctxt "OSM::cuisine"
+msgid "Irish"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:305
+msgctxt "OSM::cuisine"
+msgid "Italian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:306 map-quick/localization_data.cpp:327
+msgctxt "OSM::cuisine"
+msgid "Pizza"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:307
+msgctxt "OSM::cuisine"
+msgid "Japanese"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:308
+msgctxt "OSM::cuisine"
+msgid "Juice"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:309
+msgctxt "OSM::cuisine"
+msgid "Kebab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:310
+msgctxt "OSM::cuisine"
+msgid "Korean"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:311
+msgctxt "OSM::cuisine"
+msgid "Lebanese"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:312
+msgctxt "OSM::cuisine"
+msgid "Local"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:313
+msgctxt "OSM::cuisine"
+msgid "Malaysian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:314
+msgctxt "OSM::cuisine"
+msgid "Meat"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:315
+msgctxt "OSM::cuisine"
+msgid "Mediterranean"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:316
+msgctxt "OSM::cuisine"
+msgid "Mexican"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:317
+msgctxt "OSM::cuisine"
+msgid "Moroccan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:318
+msgctxt "OSM::cuisine"
+msgid "Nepalese"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:319 map-quick/localization_data.cpp:320
+msgctxt "OSM::cuisine"
+msgid "Noodle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:321
+msgctxt "OSM::cuisine"
+msgid "Pakistani"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:322
+msgctxt "OSM::cuisine"
+msgid "Pancake"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:323
+msgctxt "OSM::cuisine"
+msgid "Pasta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:324
+msgctxt "OSM::cuisine"
+msgid "Pastry"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:325
+msgctxt "OSM::cuisine"
+msgid "Persian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:326
+msgctxt "OSM::cuisine"
+msgid "Peruvian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:328
+msgctxt "OSM::cuisine"
+msgid "Poke"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:329
+msgctxt "OSM::cuisine"
+msgid "Polish"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:330
+msgctxt "OSM::cuisine"
+msgid "Portuguese"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:331
+msgctxt "OSM::cuisine"
+msgid "Pretzel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:332
+msgctxt "OSM::cuisine"
+msgid "Ramen"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:333
+msgctxt "OSM::cuisine"
+msgid "Regional"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:334
+msgctxt "OSM::cuisine"
+msgid "Russian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:335
+msgctxt "OSM::cuisine"
+msgid "Salad"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:336
+msgctxt "OSM::cuisine"
+msgid "Sandwich"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:337
+msgctxt "OSM::cuisine"
+msgid "Sausage"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:338
+msgctxt "OSM::cuisine"
+msgid "Seafood"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:339
+msgctxt "OSM::cuisine"
+msgid "Shawarma"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:340
+msgctxt "OSM::cuisine"
+msgid "Soup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:341
+msgctxt "OSM::cuisine"
+msgid "Spanish"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:342 map-quick/localization_data.cpp:343
+msgctxt "OSM::cuisine"
+msgid "Steak"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:344
+msgctxt "OSM::cuisine"
+msgid "Sushi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:345
+msgctxt "OSM::cuisine"
+msgid "Syrian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:346
+msgctxt "OSM::cuisine"
+msgid "Tacos"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:347
+msgctxt "OSM::cuisine"
+msgid "Taiwanese"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:348
+msgctxt "OSM::cuisine"
+msgid "Tapas"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:349
+msgctxt "OSM::cuisine"
+msgid "Tea"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:350
+msgctxt "OSM::cuisine"
+msgid "Teahouse"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:351
+msgctxt "OSM::cuisine"
+msgid "Tex-Mex"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:352
+msgctxt "OSM::cuisine"
+msgid "Thai"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:353
+msgctxt "OSM::cuisine"
+msgid "Turkish"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:354
+msgctxt "OSM::cuisine"
+msgid "Vegetarian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:355
+msgctxt "OSM::cuisine"
+msgid "Vietnamese"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:356
+msgctxt "OSM::cuisine"
+msgid "Waffles"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:357
+msgctxt "OSM::cuisine"
+msgid "Chicken Wings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:363
+msgctxt "OSM::gender_segregation"
+msgid "female"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:364
+msgctxt "OSM::gender_segregation"
+msgid "male"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/localization_data.cpp:365
+msgctxt "OSM::gender_segregation"
+msgid "unisex"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:27
+#, kde-format
+msgid "%1m"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:30
+#: map-quick/osmelementinformationmodel.cpp:32
+#, kde-format
+msgid "%1km"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:148
+#, kde-format
+msgid "Wikipedia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:538
+#, kde-format
+msgid "Opening Hours"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:539
+#, kde-format
+msgid "Contact"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:540
+#, kde-format
+msgid "Payment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:541
+#, kde-format
+msgid "Toilets"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:542
+#, kde-format
+msgid "Accessibility"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:543
+#, kde-format
+msgid "Parking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:544
+#, kde-format
+msgid "Operator"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:592
+#, kde-format
+msgid "Formerly"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:593
+#, kde-format
+msgid "Description"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:594
+#, kde-format
+msgid "Routes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:595
+#, kde-format
+msgid "Cuisine"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:596
+#, kde-format
+msgid "Diet"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:597
+#, kde-format
+msgid "Takeaway"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:598
+#, kde-format
+msgctxt "electrical power socket"
+msgid "Socket"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:600
+#, kde-format
+msgid "Available vehicles"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:601
+#, kde-format
+msgid "Fee"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:602
+#, kde-format
+msgid "Authentication"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:603
+#, kde-format
+msgid "Bicycle parking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:604
+#, kde-format
+msgid "Capacity"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:605
+#, kde-format
+msgid "Disabled parking spaces"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:606
+#, kde-format
+msgid "Women parking spaces"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:607
+#, kde-format
+msgid "Parent parking spaces"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:608
+#, kde-format
+msgid "Parking spaces for charging"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:609
+#, kde-format
+msgid "Maximum stay"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:610
+#, kde-format
+msgid "Diaper changing table"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:611
+#, kde-format
+msgid "Gender"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:613
+#, kde-format
+msgid "Address"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:614
+#, kde-format
+msgid "Phone"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:615
+#, kde-format
+msgid "Email"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:616
+#, kde-format
+msgid "Website"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:617
+#, kde-format
+msgid "Cash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:618
+#, kde-format
+msgid "Digital"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:619
+#, kde-format
+msgid "Debit cards"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:620
+#, kde-format
+msgid "Credit cards"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:621
+#, kde-format
+msgid "Stored value cards"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:622
+#, kde-format
+msgid "Wheelchair access"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:623
+#, kde-format
+msgid "Wheelchair lift"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:624
+#, kde-format
+msgid "Central key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:625
+#, kde-format
+msgid "Speech output"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:626
+#, kde-format
+msgid "Tactile writing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:628
+#, kde-format
+msgctxt "transport network"
+msgid "Network"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:630
+#, kde-format
+msgctxt "remaining travel range of a battery powered vehicle"
+msgid "Remaining range"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:700
+#, kde-format
+msgctxt "local name (transliterated name)"
+msgid "%1 (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:790
+#, kde-format
+msgid "only %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:792
+#, kde-format
+msgid "no %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:817
+#, kde-format
+msgctxt "electrical current/Ampere value"
+msgid "%1 A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:825
+#, kde-format
+msgctxt "electrical power/kilowatt value"
+msgid "%1 kW"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:856
+#, kde-format
+msgid "%1 (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:915
+#: map-quick/osmelementinformationmodel.cpp:1103
+#, kde-format
+msgid "yes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:918
+#, kde-format
+msgctxt "payment option"
+msgid "coins only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:921
+#, kde-format
+msgctxt "payment option"
+msgid "notes only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel.cpp:923
+#: map-quick/osmelementinformationmodel.cpp:974
+#: map-quick/osmelementinformationmodel.cpp:1106
+#, kde-format
+msgid "no"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:19
+msgctxt "OSM::diet_type"
+msgid "gluten free"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:20
+msgctxt "OSM::diet_type"
+msgid "halal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:21
+msgctxt "OSM::diet_type"
+msgid "kosher"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:22
+msgctxt "OSM::diet_type"
+msgid "lactose free"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:23
+msgctxt "OSM::diet_type"
+msgid "vegan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:24
+msgctxt "OSM::diet_type"
+msgid "vegetarian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:52
+msgctxt "OSM::payment_method"
+msgid "American Express"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:53
+msgctxt "OSM::payment_method"
+msgid "Apple Pay"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:54
+msgctxt "OSM::payment_method"
+msgid "Diners Club"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:55
+msgctxt "OSM::payment_method"
+msgid "Discover Card"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:56
+msgctxt "OSM::payment_method"
+msgid "Girocard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:57
+msgctxt "OSM::payment_method"
+msgid "Google Pay"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:58
+msgctxt "OSM::payment_method"
+msgid "JCB"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:59
+msgctxt "OSM::payment_method"
+msgid "Maestro"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:60
+msgctxt "OSM::payment_method"
+msgid "Mastercard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:61
+msgctxt "OSM::payment_method"
+msgid "UnionPay"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:62
+#: map-quick/osmelementinformationmodel_data.cpp:64
+msgctxt "OSM::payment_method"
+msgid "V Pay"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:63
+msgctxt "OSM::payment_method"
+msgid "Visa"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:69
+msgctxt "OSM::wheelchair_access"
+msgid "limited"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:70
+msgctxt "OSM::wheelchair_access"
+msgid "no"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:71
+msgctxt "OSM::wheelchair_access"
+msgid "yes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:80
+msgctxt "OSM::charging_station_socket"
+msgid "Chademo"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:81
+msgctxt "OSM::charging_station_socket"
+msgid "Schuko"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:82
+msgctxt "OSM::charging_station_socket"
+msgid "Tesla"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:83
+msgctxt "OSM::charging_station_socket"
+msgid "Tesla Supercharger"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:84
+msgctxt "OSM::charging_station_socket"
+msgid "Tesla Supercharger CCS"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:85
+msgctxt "OSM::charging_station_socket"
+msgid "Type 2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:86
+msgctxt "OSM::charging_station_socket"
+msgid "Type 2 cable"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:87
+msgctxt "OSM::charging_station_socket"
+msgid "Type 2 CCS"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:88
+msgctxt "OSM::charging_station_socket"
+msgid "Type E"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:97
+msgctxt "OSM::charging_station_authentication"
+msgid "app"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:98
+msgctxt "OSM::charging_station_authentication"
+msgid "membership card"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:99
+msgctxt "OSM::charging_station_authentication"
+msgid "NFC"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:100
+msgctxt "OSM::charging_station_authentication"
+msgid "none"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:101
+msgctxt "OSM::charging_station_authentication"
+msgid "phone call"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:102
+msgctxt "OSM::charging_station_authentication"
+msgid "SMS"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:109
+msgctxt "OSM::bicycle_parking"
+msgid "anchors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:110
+msgctxt "OSM::bicycle_parking"
+msgid "bollard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:111
+msgctxt "OSM::bicycle_parking"
+msgid "building"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:112
+msgctxt "OSM::bicycle_parking"
+msgid "ground slots"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:113
+msgctxt "OSM::bicycle_parking"
+msgid "lockers"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:114
+msgctxt "OSM::bicycle_parking"
+msgid "racks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:115
+msgctxt "OSM::bicycle_parking"
+msgid "shed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:116
+msgctxt "OSM::bicycle_parking"
+msgid "stands"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:117
+msgctxt "OSM::bicycle_parking"
+msgid "wall loops"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:118
+msgctxt "OSM::bicycle_parking"
+msgid "wide stands"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:125
+#, kde-format
+msgctxt "available rental vehicles"
+msgid "%1 bike"
+msgid_plural "%1 bikes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:126
+#, kde-format
+msgctxt "available rental vehicles"
+msgid "%1 pedelec"
+msgid_plural "%1 pedelecs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:127
+#, kde-format
+msgctxt "available rental vehicles"
+msgid "%1 kick scooter"
+msgid_plural "%1 kick scooters"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:128
+#, kde-format
+msgctxt "available rental vehicles"
+msgid "%1 moped"
+msgid_plural "%1 mopeds"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:129
+#, kde-format
+msgctxt "available rental vehicles"
+msgid "%1 car"
+msgid_plural "%1 cars"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:137
+msgctxt "tactile writing"
+msgid "braille"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:138
+msgctxt "tactile writing"
+msgid "embossed printed letters"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/osmelementinformationmodel_data.cpp:139
+msgctxt "tactile writing"
+msgid "engraved printed letters"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/platformutil.cpp:15
+#, kde-format
+msgctxt "mode of transport"
+msgid "Railway"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/platformutil.cpp:16
+#, kde-format
+msgctxt "mode of transport"
+msgid "Light Rail"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/platformutil.cpp:17
+#, kde-format
+msgctxt "mode of transport"
+msgid "Subway"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/platformutil.cpp:18
+#, kde-format
+msgctxt "mode of transport"
+msgid "Tram"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/platformutil.cpp:19
+#, kde-format
+msgctxt "mode of transport"
+msgid "Monorail"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/platformutil.cpp:20
+#, kde-format
+msgctxt "mode of transport"
+msgid "Bus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/roommodel.cpp:129
+#, kde-format
+msgid "Ground floor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: map-quick/roommodel.cpp:131
+#, kde-format
+msgid "Floor %1"
+msgstr ""
