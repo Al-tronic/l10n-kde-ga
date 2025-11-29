@@ -1,0 +1,5654 @@
+# Irish translation of desktop_koffice
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_koffice package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-22 02:05+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: krita/data/paintoppresets/Digital.tag:3
+msgctxt "Name"
+msgid "Digital"
+msgstr ""
+
+#: krita/data/paintoppresets/Digital.tag:48
+msgctxt "Comment"
+msgid "Brush presets with a digital look and feel."
+msgstr ""
+
+#: krita/data/paintoppresets/Erasers.tag:4
+msgctxt "Name"
+msgid "Erasers"
+msgstr ""
+
+#: krita/data/paintoppresets/Erasers.tag:40
+#, fuzzy
+msgctxt "Comment"
+msgid "Eraser Brush Presets"
+msgstr "Scuab Théacs"
+
+#: krita/data/paintoppresets/Favorites.tag:4
+msgctxt "Name"
+msgid "★ My Favorites"
+msgstr ""
+
+#: krita/data/paintoppresets/Favorites.tag:40
+#, fuzzy
+msgctxt "Comment"
+msgid "Your favorite brush presets"
+msgstr "Scuab Théacs"
+
+#: krita/data/paintoppresets/FX.tag:4
+msgctxt "Name"
+msgid "FX"
+msgstr ""
+
+#: krita/data/paintoppresets/FX.tag:41
+msgctxt "Comment"
+msgid "Special Effects.kpp"
+msgstr ""
+
+#: krita/data/paintoppresets/Ink.tag:4
+msgctxt "Name"
+msgid "Ink"
+msgstr ""
+
+#: krita/data/paintoppresets/Ink.tag:41
+#, fuzzy
+msgctxt "Comment"
+msgid "Inking Brush Presets"
+msgstr "Scuab Théacs"
+
+#: krita/data/paintoppresets/Paint.tag:4
+msgctxt "Name"
+msgid "Paint"
+msgstr ""
+
+#: krita/data/paintoppresets/Paint.tag:41
+#, fuzzy
+msgctxt "Comment"
+msgid "Paint Brushes"
+msgstr "Scuab dhinimiciúil"
+
+#: krita/data/paintoppresets/Pixel_Art.tag:4
+msgctxt "Name"
+msgid "Pixel Art"
+msgstr ""
+
+#: krita/data/paintoppresets/Pixel_Art.tag:39
+msgctxt "Comment"
+msgid "Presets for working with individual pixels"
+msgstr ""
+
+#: krita/data/paintoppresets/Sketch.tag:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Krita"
+msgctxt "Name"
+msgid "Sketch"
+msgstr "Krita"
+
+#: krita/data/paintoppresets/Sketch.tag:41
+#, fuzzy
+msgctxt "Comment"
+msgid "Sketching brush presets"
+msgstr "Scuab Théacs"
+
+#: krita/data/paintoppresets/Textures.tag:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Text"
+msgctxt "Name"
+msgid "Textures"
+msgstr "Téacs"
+
+#: krita/data/paintoppresets/Textures.tag:42
+#, fuzzy
+msgctxt "Comment"
+msgid "Textured Brush Presets"
+msgstr "Scuab Théacs"
+
+#: krita/data/templates/animation/Anim-Jp-EN.desktop:5
+msgctxt "Name"
+msgid "Animation-Japanese-En"
+msgstr ""
+
+#: krita/data/templates/animation/Anim-Jp-JP.desktop:5
+msgctxt "Name"
+msgid "Animation-Japanese-JP"
+msgstr ""
+
+#: krita/data/templates/animation/.directory:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Animation Tool"
+msgctxt "Name"
+msgid "Animation Templates"
+msgstr "Uirlis Bheochana"
+
+#: krita/data/templates/comics/a4_waffle_grid.desktop:5
+msgctxt "Name"
+msgid "waffle-iron grid"
+msgstr ""
+
+#: krita/data/templates/comics/a4_waffle_grid.desktop:46
+msgctxt "Comment"
+msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
+msgstr ""
+
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:5
+#, fuzzy
+msgctxt "Name"
+msgid "European BD template"
+msgstr "Teimpléad Facs"
+
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:49
+msgctxt "Comment"
+msgid "template for European BD-style comics"
+msgstr ""
+
+#: krita/data/templates/comics/Comics-USTemplate.desktop:5
+#, fuzzy
+msgctxt "Name"
+msgid "US-style comics template"
+msgstr "Teimpléid"
+
+#: krita/data/templates/comics/Comics-USTemplate.desktop:48
+msgctxt "Comment"
+msgid "template for US-style comics"
+msgstr ""
+
+#: krita/data/templates/comics/.directory:2
+#, fuzzy
+msgctxt "Name"
+msgid "Comic Templates"
+msgstr "Teimpléid"
+
+#: krita/data/templates/comics/Manga-JpTemplate.desktop:5
+#, fuzzy
+msgctxt "Name"
+msgid "Manga template"
+msgstr "Teimpléad Facs"
+
+#: krita/data/templates/comics/Manga-JpTemplate.desktop:50
+#: krita/data/templates/comics/Tsukirino.desktop:28
+#: krita/data/templates/comics/TsukirinoF.desktop:28
+msgctxt "Comment"
+msgid "template for Japanese Manga-style comics"
+msgstr ""
+
+#: krita/data/templates/comics/Tsukirino.desktop:5
+msgctxt "Name"
+msgid "Tsukirino"
+msgstr ""
+
+#: krita/data/templates/comics/TsukirinoF.desktop:5
+msgctxt "Name"
+msgid "TsukirinoF"
+msgstr ""
+
+#: krita/data/templates/design/Designcinema16_10_2484x1200_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design cinema 16:10 [ 2484x1200 , 96dpi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/design/Designcinema2.39_1_2484x1040_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design cinema 2.39:1 [ 2484x1040 , 96dpi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/design/DesignpresentationA3Landscape_4960x3508_300dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design presentation A3 Landscape [ 4960x3508 , 300dpi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/design/DesignpresentationA4portrait_2480x3508,300dpiRGB_8bit_.desktop:3
+#: krita/data/templates/design/DesignpresentationA4portrait_2480x3508_300dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design presentation A4 portrait [ 2480x3508 , 300dpi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/design/Designscreen4_3_2250x1680_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design screen 4:3 [ 2250x1680 , 96dpi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/design/.directory:2
+#, fuzzy
+msgctxt "Name"
+msgid "Design Templates"
+msgstr "Teimpléid"
+
+#: krita/data/templates/design/web_design.desktop:3
+msgctxt "Name"
+msgid "Web Design [ 2160x1440 , 72ppi RGB , 8bit ]"
+msgstr ""
+
+#: krita/data/templates/dslr/Canon_550D_5184x3456.desktop:3
+msgctxt "Name"
+msgid "Canon_550D_5184x3456"
+msgstr ""
+
+#: krita/data/templates/dslr/Canon_5Dmk3_5760x3840.desktop:3
+msgctxt "Name"
+msgid "Canon_5Dmk3_5760x3840"
+msgstr ""
+
+#: krita/data/templates/dslr/.directory:2
+#, fuzzy
+msgctxt "Name"
+msgid "DSLR Templates"
+msgstr "Teimpléid"
+
+#: krita/data/templates/dslr/Nikon_D3000_3872x2592.desktop:3
+msgctxt "Name"
+msgid "Nikon_D3000_3872x2592"
+msgstr ""
+
+#: krita/data/templates/dslr/Nikon_D5000_4288x2848.desktop:3
+msgctxt "Name"
+msgid "Nikon_D5000_4288x2848"
+msgstr ""
+
+#: krita/data/templates/dslr/Nikon_D7000_4928x3264.desktop:3
+msgctxt "Name"
+msgid "Nikon_D7000_4928x3264"
+msgstr ""
+
+#: krita/data/templates/texture/.directory:2
+#, fuzzy
+msgctxt "Name"
+msgid "Texture Templates"
+msgstr "Teimpléid"
+
+#: krita/data/templates/texture/Texture1024x10248bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 1024x1024 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture1k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 1k 32bit scalar"
+msgstr ""
+
+#: krita/data/templates/texture/Texture1k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 1k 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture2048x20488bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 2048x2048 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture256x2568bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 256x256 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture2k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 2k 32bit scalar"
+msgstr ""
+
+#: krita/data/templates/texture/Texture2k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 2k 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture4096x40968bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 4096x4096 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture4k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 4k 32bit scalar"
+msgstr ""
+
+#: krita/data/templates/texture/Texture4k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 4k 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture512x5128bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 512x512 8bit srgb"
+msgstr ""
+
+#: krita/data/templates/texture/Texture8k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 8k 32bit scalar"
+msgstr ""
+
+#: krita/data/templates/texture/Texture8k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 8k 8bit srgb"
+msgstr ""
+
+#: krita/org.kde.krita.desktop:2 plugins/impex/brush/krita_brush.desktop:2
+#: plugins/impex/csv/krita_csv.desktop:2 plugins/impex/exr/krita_exr.desktop:58
+#: plugins/impex/gif/krita_gif.desktop:2
+#: plugins/impex/heif/krita_heif.desktop:58
+#: plugins/impex/heightmap/krita_heightmap.desktop:7
+#: plugins/impex/jp2/krita_jp2.desktop:55
+#: plugins/impex/jpeg/krita_jpeg.desktop:6
+#: plugins/impex/jxl/krita_jxl.desktop:58 plugins/impex/kra/krita_kra.desktop:7
+#: plugins/impex/krz/krita_krz.desktop:7 plugins/impex/ora/krita_ora.desktop:7
+#: plugins/impex/pdf/krita_pdf.desktop:6 plugins/impex/png/krita_png.desktop:2
+#: plugins/impex/psd/krita_psd.desktop:6
+#: plugins/impex/qimageio/krita_qimageio.desktop:2
+#: plugins/impex/raw/krita_raw.desktop:2
+#: plugins/impex/rgbe/krita_rgbe.desktop:2
+#: plugins/impex/spriter/krita_spriter.desktop:2
+#: plugins/impex/svg/krita_svg.desktop:2 plugins/impex/tga/krita_tga.desktop:2
+#: plugins/impex/tiff/krita_tiff.desktop:6
+#: plugins/impex/webp/krita_webp.desktop:2
+#: plugins/impex/xcf/krita_xcf.desktop:6
+msgctxt "Name"
+msgid "Krita"
+msgstr "Krita"
+
+#: krita/org.kde.krita.desktop:67
+msgctxt "GenericName"
+msgid "Digital Painting"
+msgstr ""
+
+#: krita/org.kde.krita.desktop:113
+msgctxt "Comment"
+msgid "Digital Painting"
+msgstr ""
+
+#: plugins/impex/exr/krita_exr.desktop:4
+#: plugins/impex/heif/krita_heif.desktop:4
+#: plugins/impex/jp2/krita_jp2.desktop:3 plugins/impex/jxl/krita_jxl.desktop:4
+msgctxt "GenericName"
+msgid "Application for Drawing and Handling of Images"
+msgstr "Feidhmchlár le haghaidh Líníochta agus Láimhseála Íomhánna"
+
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:6
+msgctxt "Name"
+msgid "Assign Profile to Image"
+msgstr ""
+
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:44
+msgctxt "Comment"
+msgid "Assign a profile to an image without converting it."
+msgstr ""
+
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:6
+msgctxt "Name"
+msgid "Batch Exporter"
+msgstr ""
+
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:43
+msgctxt "Comment"
+msgid ""
+"Smart export tool that uses layer names to scale and (re-)export art assets "
+"in batches fast"
+msgstr ""
+
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:6
+#, fuzzy
+msgctxt "Name"
+msgid "Channels to layers"
+msgstr "Uirlisí Réamhshocraithe"
+
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:45
+msgctxt "Comment"
+msgid "Extract channels as color layers"
+msgstr ""
+
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Colorrange"
+msgctxt "Name"
+msgid "Color Space"
+msgstr "Raon datha"
+
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:45
+msgctxt "Comment"
+msgid "Plugin to change color space to selected documents"
+msgstr ""
+
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:6
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Management"
+msgctxt "Name"
+msgid "Comics Project Management Tools"
+msgstr "Bainisteoireacht Tionscadal"
+
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:43
+msgctxt "Comment"
+msgid "Tools for managing comics."
+msgstr ""
+
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:6
+#, fuzzy
+msgctxt "Name"
+msgid "Document Tools"
+msgstr "Cáipéis Fholamh"
+
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:44
+msgctxt "Comment"
+msgid "Plugin to manipulate properties of selected documents"
+msgstr ""
+
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:6
+msgctxt "Name"
+msgid "Export Layers"
+msgstr ""
+
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:43
+msgctxt "Comment"
+msgid "Plugin to export layers from a document"
+msgstr ""
+
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Filters Gallery"
+msgctxt "Name"
+msgid "Filter Manager"
+msgstr "Gailearaí na Scagairí"
+
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:44
+msgctxt "Comment"
+msgid "Plugin to filters management"
+msgstr ""
+
+#: plugins/python/highpass/kritapykrita_highpass.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Noise Filter"
+msgctxt "Name"
+msgid "Highpass Filter"
+msgstr "Scagaire Torainn"
+
+#: plugins/python/highpass/kritapykrita_highpass.desktop:42
+msgctxt "Comment"
+msgid "Highpass Filter, based on http://registry.gimp.org/node/7385"
+msgstr ""
+
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KritaShape Shape"
+msgctxt "Name"
+msgid "Krita Script Starter"
+msgstr "Giuirléid KritaShape"
+
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:43
+msgctxt "Comment"
+msgid "Create the metadata and file structure for a new Krita script"
+msgstr ""
+
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:6
+#, fuzzy
+msgctxt "Name"
+msgid "Last Documents Docker"
+msgstr "Uirlisí Réamhshocraithe"
+
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:43
+msgctxt "Comment"
+msgid "A Python-based docker for show thumbnails to last ten documents"
+msgstr ""
+
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:6
+msgctxt "Name"
+msgid "Mixer Slider docker"
+msgstr ""
+
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:40
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Color Filters"
+msgctxt "Comment"
+msgid "A color slider."
+msgstr "Scagairí Datha"
+
+#: plugins/python/mutator/kritapykrita_mutator.desktop:6
+msgctxt "Name"
+msgid "Mutator"
+msgstr ""
+
+#: plugins/python/mutator/kritapykrita_mutator.desktop:25
+msgctxt "Comment"
+msgid "Manually mutate your brush and color settings to add variation."
+msgstr ""
+
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:6
+#, fuzzy
+msgctxt "Name"
+msgid "Palette docker"
+msgstr "Uirlisí Réamhshocraithe"
+
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:43
+msgctxt "Comment"
+msgid "A Python-based docker to edit color palettes."
+msgstr ""
+
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Krita PhotoShop Import Filter"
+msgctxt "Name"
+msgid "Krita Photobash Images"
+msgstr "Scagaire Iompórtála PhotoShop Krita"
+
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:40
+msgctxt "Comment"
+msgid ""
+"A plugin to fetch images from a specified folder. Very useful for "
+"photobashing!"
+msgstr ""
+
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:6
+msgctxt "Name"
+msgid "Python Plugin Importer"
+msgstr ""
+
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:42
+msgctxt "Comment"
+msgid "Imports Python plugins from zip files."
+msgstr ""
+
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Selection Tools"
+msgctxt "Name"
+msgid "Quick Settings Docker"
+msgstr "Uirlisí Roghnúcháin"
+
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:43
+msgctxt "Comment"
+msgid "A Python-based docker for quickly changing brush size and opacity."
+msgstr ""
+
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:5
+#, fuzzy
+msgctxt "Name"
+msgid "Script Docker"
+msgstr "Scripteanna"
+
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:42
+msgctxt "Comment"
+msgid "A Python-based docker for create actions and point to Python scripts"
+msgstr ""
+
+#: plugins/python/scripter/kritapykrita_scripter.desktop:6
+#, fuzzy
+msgctxt "Name"
+msgid "Scripter"
+msgstr "Scripteanna"
+
+#: plugins/python/scripter/kritapykrita_scripter.desktop:43
+msgctxt "Comment"
+msgid "Plugin to execute ad-hoc Python code"
+msgstr ""
+
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Selection Tools"
+msgctxt "Name"
+msgid "Selections Bag Docker"
+msgstr "Uirlisí Roghnúcháin"
+
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:40
+msgctxt "Comment"
+msgid "A docker that allow to store a list of selections"
+msgstr ""
+
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:6
+msgctxt "Name"
+msgid "Ten Brushes"
+msgstr ""
+
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:43
+msgctxt "Comment"
+msgid "Assign a brush preset to any of ten configurable shortcuts."
+msgstr ""
+
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:6
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Scripts"
+msgctxt "Name"
+msgid "Ten Scripts"
+msgstr "Scripteanna"
+
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:43
+msgctxt "Comment"
+msgid "Assign a Python script to any of ten configurable shortcuts."
+msgstr ""
+
+#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:6
+msgctxt "Name"
+msgid "Workflow Buttons"
+msgstr ""
+
+#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:28
+msgctxt "Comment"
+msgid ""
+"A Python-based docker to create multi-action buttons to improve your "
+"workflow."
+msgstr ""
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Brush plugin for Krita"
+#~ msgctxt "Comment"
+#~ msgid "Basic plugin to test PyKrita"
+#~ msgstr "Breiseán scuaibe le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Pixel-based image manipulation program for the Calligra Suite"
+#~ msgstr "Breiseán beochana giuirléidí le haghaidh KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "Grayscale"
+#~ msgstr "Liathscála"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita Gemini"
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita Documents"
+#~ msgstr "Scríobh cáipéisí téacs"
+
+#~ msgctxt "Name"
+#~ msgid "RulerAssistantTool"
+#~ msgstr "RulerAssistantTool"
+
+#~ msgctxt "Name"
+#~ msgid "bigbrother"
+#~ msgstr "bigbrother"
+
+#~ msgctxt "Comment"
+#~ msgid "bigbrother"
+#~ msgstr "bigbrother"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Clones Array Plugin"
+#~ msgstr "Breiseán Migration"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "ColorSelectorNG"
+#~ msgstr "Gineadóir Datha Soladaigh"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Animation Docker"
+#~ msgstr "Breiseán scagaire le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Docker for animating"
+#~ msgstr "Breiseán scagaire le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Composition Docker"
+#~ msgstr "Ceangail"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Default Dockers"
+#~ msgstr "Uirlisí Réamhshocraithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita Undo History Docker plugin"
+#~ msgstr "KPresenter"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Image Docker"
+#~ msgstr "Uirlisí Réamhshocraithe"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Docker for reference images"
+#~ msgstr "Breiseán scagaire le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Docker for selecting luts"
+#~ msgstr "Breiseán scagaire le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Overview Docker"
+#~ msgstr "KPresenter"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Pattern Docker"
+#~ msgstr "Uirlisí Réamhshocraithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Preset Docker"
+#~ msgstr "KPresenter"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Docker for selecting presets"
+#~ msgstr "Breiseán scagaire le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Preset History Docker"
+#~ msgstr "KPresenter"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Show Related Words"
+#~ msgctxt "Comment"
+#~ msgid "Show the last used presets"
+#~ msgstr "Taispeáin Focail Ghaolmhara"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "SmallColorSelector"
+#~ msgstr "Gineadóir Datha Soladaigh"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "SmallColorSelector"
+#~ msgstr "Gineadóir Datha Soladaigh"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "SpecificColorSelector"
+#~ msgstr "Gineadóir Datha Soladaigh"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "SpecificColorSelector"
+#~ msgstr "Gineadóir Datha Soladaigh"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Taskset Docker"
+#~ msgstr "KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "Histogram Plugin"
+#~ msgstr "Breiseán Histeagraim"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Image Splitter"
+#~ msgstr "Litir"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Layer Splitter"
+#~ msgstr "Litir"
+
+#~ msgctxt "Name"
+#~ msgid "metadataeditor"
+#~ msgstr "metadataeditor"
+
+#~ msgctxt "Comment"
+#~ msgid "metadataeditor"
+#~ msgstr "metadataeditor"
+
+#~ msgctxt "Name"
+#~ msgid "Modify Selection"
+#~ msgstr "Athraigh an Roghnúchán"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Offset Image Plugin"
+#~ msgstr "Breiseán Rothlaithe Íomhánna"
+
+#~ msgctxt "Name"
+#~ msgid "Rotate Image Plugin"
+#~ msgstr "Breiseán Rothlaithe Íomhánna"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Separate Channels Plugin"
+#~ msgstr "Breiseán Rothlaithe Íomhánna"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Shear Image Plugin"
+#~ msgstr "Breiseán Rothlaithe Íomhánna"
+
+#~ msgctxt "Name"
+#~ msgid "Convolution Filters (Extension)"
+#~ msgstr "Scagairí Conbhlóide (Eisínteacht)"
+
+#~ msgctxt "Name"
+#~ msgid "Color Filters"
+#~ msgstr "Scagairí Datha"
+
+#~ msgctxt "Comment"
+#~ msgid "Color filters"
+#~ msgstr "Scagairí datha"
+
+#~ msgctxt "Name"
+#~ msgid "Color Filters (Extension)"
+#~ msgstr "Scagairí Datha (Eisínteacht)"
+
+#~ msgctxt "Name"
+#~ msgid "Convolution Filters"
+#~ msgstr "Scagairí Conbhlóide"
+
+#~ msgctxt "Comment"
+#~ msgid "Convolution filters"
+#~ msgstr "Scagairí conbhlóide"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Dodge and Burn Filter"
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Dodge and Burn Filter"
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Emboss Filter"
+#~ msgstr "Scagaire Torainn"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Emboss filter"
+#~ msgstr "Scagaire ciúbachais"
+
+#~ msgctxt "Name"
+#~ msgid "Invert Filter"
+#~ msgstr "Scagaire Inbhéartaithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Color Transfer Filter"
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Enhancement Filters"
+#~ msgstr "Scagaire Inbhéartaithe"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color Filters"
+#~ msgctxt "Name"
+#~ msgid "Index Colors Filter"
+#~ msgstr "Scagairí Datha"
+
+#~ msgctxt "Comment"
+#~ msgid "Add noise to an image"
+#~ msgstr "Cuir torann le híomhá"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Noise Filter"
+#~ msgctxt "Name"
+#~ msgid "Normalize Filter"
+#~ msgstr "Scagaire Torainn"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Oilpaint Filter"
+#~ msgstr "Scagaire Picteilínithe"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Oilpaint filter"
+#~ msgstr "Scagaire picteilínithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Phong Bumpmap Filter"
+#~ msgstr "Scagaire Bumpmap"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Phong Bumpmap filter"
+#~ msgstr "Scagaire Bumpmap"
+
+#~ msgctxt "Name"
+#~ msgid "Pixelize Filter"
+#~ msgstr "Scagaire Picteilínithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Pixelize filter"
+#~ msgstr "Scagaire picteilínithe"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Pixelize Filter"
+#~ msgctxt "Name"
+#~ msgid "Posterize Filter"
+#~ msgstr "Scagaire Picteilínithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Raindrops Filter"
+#~ msgstr "Scagaire Torainn"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Raindrops filter"
+#~ msgstr "Scagaire ciúbachais"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Random pick to an image"
+#~ msgstr "Cuir torann le híomhá"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Random pick Filter"
+#~ msgstr "Scagaire Torainn"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Round Corners Filter"
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Small Tiles Filter"
+#~ msgstr "Scagaire Picteilínithe"
+
+#~ msgctxt "Name"
+#~ msgid "Sobel Filter"
+#~ msgstr "Scagaire Sobel"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Image enhancement Filters (Extension)"
+#~ msgstr "Scagairí Conbhlóide (Eisínteacht)"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Wave Filter"
+#~ msgstr "Scagaire Inbhéartaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Krita BMP Export Filter"
+#~ msgstr "Scagaire Easpórtála BMP Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita BMP Import Filter"
+#~ msgstr "Scagaire Iompórtála BMP Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita exr Export Filter"
+#~ msgstr "Scagaire Easpórtála exr Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita exr Import Filter"
+#~ msgstr "Scagaire Iompórtála exr Krita"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Krita BMP Export Filter"
+#~ msgctxt "Name"
+#~ msgid "Krita HeightMap Export Filter"
+#~ msgstr "Scagaire Easpórtála BMP Krita"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Krita Gimp Import Filter"
+#~ msgctxt "Name"
+#~ msgid "Krita HeightMap Import Filter"
+#~ msgstr "Scagaire Iompórtála Gimp Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita jp2 Export Filter"
+#~ msgstr "Scagaire Easpórtála jp2 Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita jp2 Import Filter"
+#~ msgstr "Scagaire Iompórtála jp2 Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita JPEG Export Filter"
+#~ msgstr "Scagaire Easpórtála JPEG Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita JPEG Import Filter"
+#~ msgstr "Scagaire Iompórtála JPEG Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita ODG Import Filter"
+#~ msgstr "Scagaire Iompórtála GIF Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita ora Export Filter"
+#~ msgstr "Scagaire Easpórtála ora Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita ora Import Filter"
+#~ msgstr "Scagaire Iompórtála ora Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita PDF Import Filter"
+#~ msgstr "Scagaire Iompórtála PDF Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita PNG Export Filter"
+#~ msgstr "Scagaire Easpórtála PNG Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita PNG Import Filter"
+#~ msgstr "Scagaire Iompórtála PNG Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita PPM Export Filter"
+#~ msgstr "Scagaire Easpórtála PPM Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita PPM Import Filter"
+#~ msgstr "Scagaire Iompórtála PPM Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita PhotoShop Export Filter"
+#~ msgstr "Scagaire Easpórtála PhotoShop Krita"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Krita BMP Export Filter"
+#~ msgctxt "Name"
+#~ msgid "Krita QML Export Filter"
+#~ msgstr "Scagaire Easpórtála BMP Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita RAW Import Filter"
+#~ msgstr "Scagaire Iompórtála RAW Krita"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Krita PNG Export Filter"
+#~ msgctxt "Name"
+#~ msgid "Krita TGA Export Filter"
+#~ msgstr "Scagaire Easpórtála PNG Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita TGA Import Filter"
+#~ msgstr "Scagaire Iompórtála GIF Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita TIFF Export Filter"
+#~ msgstr "Scagaire Easpórtála TIFF Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita TIFF Import Filter"
+#~ msgstr "Scagaire Iompórtála TIFF Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita Gimp Import Filter"
+#~ msgstr "Scagaire Iompórtála Gimp Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Solid Pattern Layer"
+#~ msgstr "Uirlisí Réamhshocraithe"
+
+#~ msgctxt "Name"
+#~ msgid "Solid Color Generator"
+#~ msgstr "Gineadóir Datha Soladaigh"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Chalk brush"
+#~ msgstr "Scuab shaincheaptha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Color Smudge Brush"
+#~ msgstr "Scuab Choimpléascach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Curve brush"
+#~ msgstr "Scuab shaincheaptha"
+
+#~ msgctxt "Name"
+#~ msgid "Default Paint Operations"
+#~ msgstr "Oibríochtaí Réamhshocraithe Péinteála"
+
+#~ msgctxt "Comment"
+#~ msgid "Default paint operations"
+#~ msgstr "Oibríochtaí réamhshocraithe péinteála"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Deform brush"
+#~ msgstr "Scuab shaincheaptha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Dyna"
+#~ msgstr "Uirlis Dyna"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Filter Op"
+#~ msgstr "Scagaire Inbhéartaithe"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Filter Op"
+#~ msgstr "Scagaire Inbhéartaithe"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Chinese Brush"
+#~ msgctxt "Name"
+#~ msgid "Grid Brush"
+#~ msgstr "Scuab Shíneach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Hairy brushes"
+#~ msgstr "Scuab dhinimiciúil"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Hatching brush"
+#~ msgstr "Scuab Théacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Particle brush"
+#~ msgstr "Scuab dhinimiciúil"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Spray"
+#~ msgstr "KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "Default Tools"
+#~ msgstr "Uirlisí Réamhshocraithe"
+
+#~ msgctxt "Name"
+#~ msgid "Crop Tool"
+#~ msgstr "Uirlis Bhearrtha"
+
+#~ msgctxt "Name"
+#~ msgid "Dyna Tool"
+#~ msgstr "Uirlis Dyna"
+
+#~ msgctxt "Name"
+#~ msgid "Grid"
+#~ msgstr "Greille"
+
+#~ msgctxt "Name"
+#~ msgid "Polygon Tool"
+#~ msgstr "Uirlis Pholagáin"
+
+#~ msgctxt "Name"
+#~ msgid "Polyline Tool"
+#~ msgstr "Uirlis Il-líne"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Text Tool"
+#~ msgstr "Uirlis Réiltín"
+
+#~ msgctxt "Name"
+#~ msgid "Transform Tool"
+#~ msgstr "Uirlis Trasfhoirmithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Basic Flakes"
+#~ msgstr "Sreabhchairteacha Bunúsacha"
+
+#~ msgctxt "Name"
+#~ msgid "Artistic Text Shape"
+#~ msgstr "Giuirléid Téacs Ealaíonta"
+
+#~ msgctxt "Name"
+#~ msgid "Default Flake Tools"
+#~ msgstr "Uirlisí Réamhshocraithe Flake"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Dockers plugin"
+#~ msgstr "Breiseán Dugairí KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "Karbon Tools"
+#~ msgstr "Uirlisí Karbon"
+
+#~ msgctxt "Name"
+#~ msgid "Path Shapes"
+#~ msgstr "Giuirléidí Conaire"
+
+#~ msgctxt "Name"
+#~ msgid "Text Shape"
+#~ msgstr "Giuirléid Téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita Oiio OpenColorIO-based export Filter"
+#~ msgstr "Scagaire Easpórtála ora Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita OpenColorIO-based Import Filter"
+#~ msgstr "Scagaire Iompórtála ora Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Film Templates"
+#~ msgstr "Teimpléid"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Braindump"
+#~ msgstr "Meamram"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Quickstates Plugin"
+#~ msgstr "Breiseán Histeagraim"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "State Shape"
+#~ msgstr "Giuirléid Chairte"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Web Shape"
+#~ msgstr "Giuirléid Téacs"
+
+#~ msgctxt "Name"
+#~ msgid "Illustration Document..."
+#~ msgstr "Cáipéis Learáide..."
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "New Karbon document:"
+#~ msgstr "Cáipéis nua Karbon14:"
+
+#~ msgctxt "Name"
+#~ msgid "Presentation Document..."
+#~ msgstr "Cáipéis Láithreoireachta..."
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "New KPresenter presentation document:"
+#~ msgctxt "Comment"
+#~ msgid "New Stage presentation document:"
+#~ msgstr "Cáipéis nua láithreoireachta KPresenter:"
+
+#~ msgctxt "Name"
+#~ msgid "Spread Sheet Document..."
+#~ msgstr "Cáipéis Scarbhileoige..."
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "New KSpread document:"
+#~ msgctxt "Comment"
+#~ msgid "New Sheets document:"
+#~ msgstr "Cáipéis nua KSpread:"
+
+#~ msgctxt "Name"
+#~ msgid "Text Document..."
+#~ msgstr "Cáipéis Téacs..."
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "New Words document:"
+#~ msgstr "Cáipéis nua KWord:"
+
+#~ msgctxt "Name"
+#~ msgid "OpenDocument Presentation Document"
+#~ msgstr "Cáipéis Láithreoireachta OpenDocument"
+
+#~ msgctxt "Comment"
+#~ msgid "Odp for okular"
+#~ msgstr "Odp le haghaidh okular"
+
+#~ msgctxt "Name"
+#~ msgid "okular"
+#~ msgstr "okular"
+
+#~ msgctxt "GenericName"
+#~ msgid "Document Viewer"
+#~ msgstr "Amharcán Cáipéisí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "OpenDocument Presentation Document"
+#~ msgctxt "Name"
+#~ msgid "OpenDocument Text Document"
+#~ msgstr "Cáipéis Láithreoireachta OpenDocument"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Odp for okular"
+#~ msgctxt "Comment"
+#~ msgid "Odt for okular"
+#~ msgstr "Odp le haghaidh okular"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Print with Calligra Flow..."
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Print with Calligra Sheets..."
+#~ msgstr "Breiseán maisíochta leathanaigh le haghaidh KPresenter"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "OpenDocument Drawings"
+#~ msgstr "Grafaic OpenDocument OASIS"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "OpenDocument Spreadsheets"
+#~ msgstr "Scarbhileog OpenDocument OASIS"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "OpenDocument Presentations"
+#~ msgstr "Cáipéis Láithreoireachta OpenDocument"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "OpenDocument Texts"
+#~ msgstr "Téacs OpenDocument OASIS"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Flow Image Export Filter"
+#~ msgstr "Scagaire Easpórtála Íomhá Kivio"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Flow Visio Import Filter"
+#~ msgstr "Scagaire Easpórtála Íomhá Kivio"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Karbon WPG Import Filter"
+#~ msgctxt "Name"
+#~ msgid "Flow WPG Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon WPG"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Karbon EPS Import Filter"
+#~ msgstr "Scagaire Iompórtála EPS Karbon14"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Karbon JPEG/PNG Export Filter"
+#~ msgstr "Scagaire Easpórtála PNG Karbon14"
+
+#~ msgctxt "Name"
+#~ msgid "Karbon 1.x Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon 1.x"
+
+#~ msgctxt "Name"
+#~ msgid "Karbon PDF Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon PDF"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Karbon SVG Export Filter"
+#~ msgstr "Scagaire Easpórtála SVG Karbon14"
+
+#~ msgctxt "Name"
+#~ msgid "Karbon SVG Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon SVG"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Karbon WMF Export Filter"
+#~ msgstr "Scagaire Easpórtála WMF Karbon14"
+
+#~ msgctxt "Name"
+#~ msgid "Karbon WMF Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon WMF"
+
+#~ msgctxt "Name"
+#~ msgid "Karbon WPG Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon WPG"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Karbon WVG Export Filter"
+#~ msgstr "Scagaire Easpórtála WVG Karbon14"
+
+#~ msgctxt "Name"
+#~ msgid "Karbon XAML Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon XAML"
+
+#~ msgctxt "Name"
+#~ msgid "Karbon XFig Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon XFig"
+
+#~ msgctxt "Name"
+#~ msgid "KSpread Applix Spreadsheet Import Filter"
+#~ msgstr "Scagaire Iompórtála Scarbhileog Applix le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "CSV Import Filter for KSpread"
+#~ msgstr "Scagaire Iompórtála CSV le haghaidh KSpread"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "CSV Export Filter for KSpread"
+#~ msgctxt "Name"
+#~ msgid "CSV Export Filter for Calligra Sheets"
+#~ msgstr "Scagaire Easpórtála CSV le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "KSpread dBASE Import Filter"
+#~ msgstr "Scagaire Iompórtála dBASE le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "KSpread Microsoft Excel Export Filter"
+#~ msgstr "Scagaire Easpórtála Microsoft Excel le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "KSpread Microsoft Excel Import Filter"
+#~ msgstr "Scagaire Iompórtála Microsoft Excel le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "GNUMERIC Import Filter for KSpread"
+#~ msgstr "Scagaire Iompórtála GNUmeric le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "GNUmeric Export Filter for KSpread"
+#~ msgstr "Scagaire Easpórtála GNUmeric le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "HTML Import Filter for KSpread"
+#~ msgstr "Scagaire Iompórtála HTML le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "HTML Export Filter for KSpread"
+#~ msgstr "Scagaire Easpórtála HTML le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "KSpread LATEX Export Filter"
+#~ msgstr "Scagaire Easpórtála LaTeX le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "OpenOffice.org Calc Import Filter for KSpread"
+#~ msgstr "Scagaire Iompórtála OpenOffice.org Calc le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "OpenOffice.org Calc Export Filter for KSpread"
+#~ msgstr "Scagaire Easpórtála OpenOffice.org Calc le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "Quattro Pro Import Filter for KSpread"
+#~ msgstr "Scagaire Iompórtála Quattro Pro le haghaidh KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "MS Excel 2007 Import Filter for KSpread"
+#~ msgstr "Scagaire Iompórtála Microsoft Excel 2007 le haghaidh KSpread"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Krita OpenEXR Import Filter"
+#~ msgctxt "Name"
+#~ msgid "Stage Apple Keynote Import Filter"
+#~ msgstr "Scagaire Iompórtála OpenEXR Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Apple Keynote Documents"
+#~ msgstr "Scríobh cáipéisí téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "KPresenter Presentations"
+#~ msgstr "Cáipéis nua láithreoireachta KPresenter:"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Microsoft PowerPoint Import Filter for KPresenter"
+#~ msgctxt "Name"
+#~ msgid "Microsoft PowerPoint Import Filter for Stage"
+#~ msgstr "Scagaire Iompórtála Microsoft PowerPoint le haghaidh KSpread"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Microsoft PowerPoint Presentation"
+#~ msgstr "Scagaire Iompórtála Microsoft PowerPoint le haghaidh KSpread"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Odp for okular"
+#~ msgctxt "Comment"
+#~ msgid "PPT for Okular"
+#~ msgstr "Odp le haghaidh okular"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Microsoft Powerpoint Presentations"
+#~ msgstr "Scagaire Iompórtála Microsoft PowerPoint le haghaidh KSpread"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "MS PowerPoint 2007 Import Filter for KPresenter"
+#~ msgctxt "Name"
+#~ msgid "MS PowerPoint 2007 Import Filter for Stage"
+#~ msgstr ""
+#~ "Scagaire Iompórtála Microsoft PowerPoint 2007 le haghaidh KPresenter"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Odp for okular"
+#~ msgctxt "Comment"
+#~ msgid "PPTX for Okular"
+#~ msgstr "Odp le haghaidh okular"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Microsoft Powerpoint 2007 Presentations"
+#~ msgstr "Scagaire Iompórtála Microsoft PowerPoint le haghaidh KSpread"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Words Applixword Import Filter"
+#~ msgstr "Scagaire Iompórtála Applixword KWord"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Words ASCII Import Filter"
+#~ msgstr "Scagaire Iompórtála ASCII KWord"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Words ASCII Export Filter"
+#~ msgstr "Scagaire Iompórtála ASCII KWord"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "MS Word DOCX Export Filter"
+#~ msgstr "Scagaire Iompórtála ASCII KWord"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "MS Word 2007 Import Filter for Words"
+#~ msgstr "Scagaire Iompórtála MS Word 2007 le haghaidh KWord"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Odp for okular"
+#~ msgctxt "Comment"
+#~ msgid "DOCX for Okular"
+#~ msgstr "Odp le haghaidh okular"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "ODT to Epub2 Export Filter"
+#~ msgstr "Scagaire Easpórtála jp2 Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "ODT to HTML Export Filter"
+#~ msgstr "Scagaire Easpórtála jp2 Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "ODT to Mobi Export Filter"
+#~ msgstr "Scagaire Easpórtála jp2 Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Words MS Word-ODF Import Filter"
+#~ msgstr "Scagaire Iompórtála MS Word-ODF le haghaidh KWord"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Microsoft Word Documents"
+#~ msgstr "Scríobh cáipéisí téacs"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Odp for okular"
+#~ msgctxt "Comment"
+#~ msgid "DOC for Okular"
+#~ msgstr "Odp le haghaidh okular"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Words RTF Import Filter"
+#~ msgstr "Scagaire Iompórtála RTF le haghaidh KWord"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "RTF Documents"
+#~ msgstr "Cáipéisí Téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Words Wiki Export Filter"
+#~ msgstr "Scagaire Iompórtála ASCII KWord"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Words WordPerfect Import Filter"
+#~ msgstr "Scagaire Iompórtála WordPerfect le haghaidh KWord"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "WordPerfect Documents"
+#~ msgstr "Cáipéisí Téacs"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Odp for okular"
+#~ msgctxt "Comment"
+#~ msgid "WPD for Okular"
+#~ msgstr "Odp le haghaidh okular"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Microsoft Works Document"
+#~ msgstr "Cáipéis nua KWord:"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Docker for Flow"
+#~ msgstr "Breiseán scagaire le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Flow"
+#~ msgstr "Scagairí Datha"
+
+#~ msgctxt "GenericName"
+#~ msgid "Flowchart & Diagram Editing"
+#~ msgstr "Eagarthóireacht Sreabhchairteacha agus Léaráidí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Flowchart & Diagram Editing Component"
+#~ msgstr ""
+#~ "Comhpháirt Eagarthóireacht Sreabhchairteacha agus Léaráidí le haghaidh "
+#~ "KOffice"
+
+#~ msgctxt "GenericName"
+#~ msgid "Flowchart & Diagram"
+#~ msgstr "Sreabhchairteacha agus Léaráidí"
+
+#~ msgctxt "Name"
+#~ msgid "Basic Flowcharting"
+#~ msgstr "Sreabhchairteacha Bunúsacha"
+
+#~ msgctxt "Name"
+#~ msgid "Basic"
+#~ msgstr "Bunúsach"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Empty Document"
+#~ msgctxt "Name"
+#~ msgid "Empty Landscape Document"
+#~ msgstr "Cáipéis Fholamh"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Creates an A4 document with two columns per page."
+#~ msgctxt "Comment"
+#~ msgid "Creates a landscape-oriented document with no stencils loaded."
+#~ msgstr "Cruthaigh cáipéis A4 le dhá cholún sa leathanach."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Empty Document"
+#~ msgctxt "Name"
+#~ msgid "Empty Portrait Document"
+#~ msgstr "Cáipéis Fholamh"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Creates an A4 document with two columns per page."
+#~ msgctxt "Comment"
+#~ msgid "Creates a portrait-oriented document with no stencils loaded."
+#~ msgstr "Cruthaigh cáipéis A4 le dhá cholún sa leathanach."
+
+#, fuzzy
+#~ msgctxt "GenericName"
+#~ msgid "Word Processing and Presentation"
+#~ msgstr "Cáipéis nua láithreoireachta KPresenter:"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Karbon"
+#~ msgstr "Karbon14"
+
+#~ msgctxt "GenericName"
+#~ msgid "Scalable Graphics"
+#~ msgstr "Grafaic Inscálaithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Create scalable vector drawings"
+#~ msgstr "Cruthaigh líníochtaí veicteoireacha inscálaithe"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Docker for Karbon"
+#~ msgstr "Breiseán scagaire le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Scalable Graphics Component"
+#~ msgstr "Comhpháirt Ghrafaice Inscálaithe le haghaidh KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Karbon Round Corners plugin"
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Karbon Stencil Box plugin"
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Pentagon"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Up Arrow"
+#~ msgstr "Saigheada"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Perfect Circle"
+#~ msgstr "Oracle"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Quarter Circle"
+#~ msgstr "Oracle"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Trapezoid"
+#~ msgstr "Tablóid"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Isosceles Triangle"
+#~ msgstr "Teideal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Card"
+#~ msgstr "Cairt"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Basic Flowchart"
+#~ msgstr "Sreabhchairteacha Bunúsacha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Database"
+#~ msgstr "Cruthaitheoir Bunachar Sonraí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Internal Storage"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Manual Operation"
+#~ msgstr "Oibríochtaí Réamhshocraithe Péinteála"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Paper Tape"
+#~ msgstr "Giuirléid Bhreiseáin"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Predefined Process"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Preparation"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Process"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Start 1"
+#~ msgstr "Uirlis Réiltín"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Start 2"
+#~ msgstr "Uirlis Réiltín"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Stored Data"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Terminator"
+#~ msgstr "Teirminéal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Compensation"
+#~ msgstr "Ceangail"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Data-Object"
+#~ msgstr "Réad Íomhá"
+
+#~ msgctxt "Name"
+#~ msgid "Group"
+#~ msgstr "Grúpa"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Task"
+#~ msgstr "Táblaí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Text-Annotation"
+#~ msgstr "Feidhmeanna Téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Transaction"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Proportioning Batcher"
+#~ msgstr "Giuirléid Chóimheasa Diaga"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Central Data Processing"
+#~ msgstr "Próiseáil Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Litter"
+#~ msgstr "Litir"
+
+#~ msgctxt "Name"
+#~ msgid "Modem"
+#~ msgstr "Modem"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "PatchPanel24P"
+#~ msgstr "Giuirléidí Conaire"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "StorageRack3U"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "aircooler"
+#~ msgstr "Oracle"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "bigtraycol"
+#~ msgstr "Liathscála"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "compr"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "ejector"
+#~ msgstr "Ginearálta"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "fan"
+#~ msgstr "Fóilió"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "flowfan"
+#~ msgstr "Fóilió"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "furnace"
+#~ msgstr "Oracle"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "gasholder"
+#~ msgstr "Céimnigh"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "kettle"
+#~ msgstr "Litir"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "mixer"
+#~ msgstr "Teideal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "plate"
+#~ msgstr "KPlato"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "reactor"
+#~ msgstr "Ginearálta"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "recipr"
+#~ msgstr "Tuairiscí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "regval"
+#~ msgstr "Dlí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "regvalv"
+#~ msgstr "Dlí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "spray"
+#~ msgstr "KSpread"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "spraydrier"
+#~ msgstr "KSpread"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "storagesphere"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "traycol"
+#~ msgstr "Liathscála"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "val"
+#~ msgstr "Dlí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "valv"
+#~ msgstr "Dlí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "vessel"
+#~ msgstr "KFormDesigner"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "beaker"
+#~ msgstr "Mórleabhar"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "burette"
+#~ msgstr "Litir"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "condenser-black"
+#~ msgstr "Ceangail"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "condenser-blue"
+#~ msgstr "Ceangail"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "condenser"
+#~ msgstr "Ceangail"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "condenser-green"
+#~ msgstr "Raon datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "condenser-orange"
+#~ msgstr "Raon datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "condenser-pale-blue"
+#~ msgstr "Raon datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "condenser-red"
+#~ msgstr "Raon datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "ring"
+#~ msgstr "Teideal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "stirplate"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "stirplate-front"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Ramp Wave"
+#~ msgstr "Tonnta Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Sine Wave"
+#~ msgstr "Tonnta Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Square Wave"
+#~ msgstr "Tonnta Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Triangle Wave"
+#~ msgstr "Teideal"
+
+#~ msgctxt "Name"
+#~ msgid "Circuit"
+#~ msgstr "Circuit"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Ground"
+#~ msgstr "Greille"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "NPN Transistor"
+#~ msgstr "Uirlis Trasfhoirmithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "PNP Transistor"
+#~ msgstr "Uirlis Trasfhoirmithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "AccessPoint"
+#~ msgstr "MS Access"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "ASIC Processor"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Branch office blue"
+#~ msgstr "Comhaid Oifige Eile"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Branch office"
+#~ msgstr "KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Branch office subdued"
+#~ msgstr "Sraith Feidhmchlár Oifige"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Bridge"
+#~ msgstr "Greille"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Car"
+#~ msgstr "Cairt"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Channelized Pipe"
+#~ msgstr "Uirlisí Réamhshocraithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "CiscoWorks workstation"
+#~ msgstr "Láithreoireacht"
+
+#~ msgctxt "Name"
+#~ msgid "Cloud"
+#~ msgstr "Cloud"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Content Switch module"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Dual Mode AccessPoint"
+#~ msgstr "MS Access"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "DWDM Filter"
+#~ msgstr "Scagaire Ciúbachais"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "End Office"
+#~ msgstr "KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "EtherClient"
+#~ msgstr "Fáiscealaín"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "FC Storage"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "File cabinet"
+#~ msgstr "Breiseán Flake"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "File Engine"
+#~ msgstr "Breiseán Flake"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Front End Processor"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Generic processor"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Guard"
+#~ msgstr "Greille"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Home office"
+#~ msgstr "KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "HP Mini"
+#~ msgstr "Simplí"
+
+#~ msgctxt "Name"
+#~ msgid "Key"
+#~ msgstr "Eochair"
+
+#~ msgctxt "Name"
+#~ msgid "Laptop"
+#~ msgstr "Ríomhaire Glúine"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Location server"
+#~ msgstr "Cruthaitheoir Bunachar Sonraí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Macintosh"
+#~ msgstr "Macraí"
+
+#~ msgctxt "Name"
+#~ msgid "Monitor"
+#~ msgstr "Monitor"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Network Management"
+#~ msgstr "Bainisteoireacht Tionscadal"
+
+#~ msgctxt "Name"
+#~ msgid "Pager"
+#~ msgstr "Brabhsálaí Leathanach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "PC Card"
+#~ msgstr "Cairt"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "PC Man"
+#~ msgstr "Simplí"
+
+#~ msgctxt "Name"
+#~ msgid "Phone"
+#~ msgstr "Fón"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Printer"
+#~ msgstr "KPresenter"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Router with Firewall"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Route Switch Processor"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Route Switch Processor with Si"
+#~ msgstr "Próiseálaí Focal"
+
+#~ msgctxt "Name"
+#~ msgid "Scanner"
+#~ msgstr "Scanóir"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Small Business"
+#~ msgstr "Gnó"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Small hub"
+#~ msgstr "Gnó"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Storage array"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "SUN workstation"
+#~ msgstr "Láithreoireachtaí Scáileáin"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Switch Processor"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Tablet"
+#~ msgstr "Táblaí"
+
+#~ msgctxt "Name"
+#~ msgid "Terminal"
+#~ msgstr "Teirminéal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Turret"
+#~ msgstr "Téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "uBR910"
+#~ msgstr "B10"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "uMG series"
+#~ msgstr "Iarratais"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Unity server"
+#~ msgstr "Cruthaitheoir Bunachar Sonraí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Video camera"
+#~ msgstr "Giuirléid Fhíseáin"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Video Camera right"
+#~ msgstr "Giuirléid Fhíseáin"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Web browser"
+#~ msgstr "Scagaire Inbhéartaithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Web cluster"
+#~ msgstr "Scagaire Inbhéartaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Wireless"
+#~ msgstr "Gan Sreang"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Workstation"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "WWW server"
+#~ msgstr "Cruthaitheoir Bunachar Sonraí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Aerator"
+#~ msgstr "Ginearálta"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Basin"
+#~ msgstr "Bunúsach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Container"
+#~ msgstr "Ceangail"
+
+#~ msgctxt "Name"
+#~ msgid "Rotor"
+#~ msgstr "Rotor"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Soil"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Civil"
+#~ msgstr "Kivio"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Horizontal Compressor"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Vertical Compressor"
+#~ msgstr "Próiseálaí Focal"
+
+#~ msgctxt "Name"
+#~ msgid "Contact"
+#~ msgstr "Teagmháil"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "relay"
+#~ msgstr "KSpread"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "outr"
+#~ msgstr "okular"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "b-integrator"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "empty-func"
+#~ msgstr "Folamh"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "l-integrator"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "r-integrator"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "saturation"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "sine"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "t-integrator"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "And Operator"
+#~ msgstr "Ginearálta"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Function"
+#~ msgstr "Feidhmeanna Téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Or Operator"
+#~ msgstr "Gineadóir Cairteacha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "generator"
+#~ msgstr "Ginearálta"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "transformer"
+#~ msgstr "Uirlis Trasfhoirmithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "connpoint"
+#~ msgstr "MS Access"
+
+#~ msgctxt "Name"
+#~ msgid "Electronic"
+#~ msgstr "Leictreonach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "crystal"
+#~ msgstr "Liathscála"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "diac"
+#~ msgstr "Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "diode zener"
+#~ msgstr "Scagaire Torainn"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "engine"
+#~ msgstr "Breiseán Flake"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "ground"
+#~ msgstr "Greille"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "potentiometer"
+#~ msgstr "Litir"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "source"
+#~ msgstr "Oracle"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "triac"
+#~ msgstr "Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "vacuum diode"
+#~ msgstr "Luchtaíodh cáipéis"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "vacuum pentode"
+#~ msgstr "Luchtaíodh cáipéis"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "vacuum triode"
+#~ msgstr "Luchtaíodh cáipéis"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "voltmeter"
+#~ msgstr "Litir"
+
+#~ msgctxt "Name"
+#~ msgid "Afghanistan"
+#~ msgstr "An Afganastáin"
+
+#~ msgctxt "Name"
+#~ msgid "Albania"
+#~ msgstr "An Albáin"
+
+#~ msgctxt "Name"
+#~ msgid "Algeria"
+#~ msgstr "An Ailgéir"
+
+#~ msgctxt "Name"
+#~ msgid "Andorra"
+#~ msgstr "Andóra"
+
+#~ msgctxt "Name"
+#~ msgid "Angola"
+#~ msgstr "Angóla"
+
+#~ msgctxt "Name"
+#~ msgid "Argentina"
+#~ msgstr "An Airgintín"
+
+#~ msgctxt "Name"
+#~ msgid "Armenia"
+#~ msgstr "An Airméin"
+
+#~ msgctxt "Name"
+#~ msgid "Australia"
+#~ msgstr "An Astráil"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Austria"
+#~ msgstr "Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Azerbaijan"
+#~ msgstr "An Asarbaiseáin"
+
+#~ msgctxt "Name"
+#~ msgid "Bahamas"
+#~ msgstr "Na Bahámaí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Bahrain"
+#~ msgstr "Bunúsach"
+
+#~ msgctxt "Name"
+#~ msgid "Bangladesh"
+#~ msgstr "An Bhanglaidéis"
+
+#~ msgctxt "Name"
+#~ msgid "Barbados"
+#~ msgstr "Barbadós"
+
+#~ msgctxt "Name"
+#~ msgid "Belarus"
+#~ msgstr "An Bhílearúis"
+
+#~ msgctxt "Name"
+#~ msgid "Belgium"
+#~ msgstr "An Bheilg"
+
+#~ msgctxt "Name"
+#~ msgid "Belize"
+#~ msgstr "An Bheilís"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Benin"
+#~ msgstr "Breiseán Flake"
+
+#~ msgctxt "Name"
+#~ msgid "Bhutan"
+#~ msgstr "An Bhútáin"
+
+#~ msgctxt "Name"
+#~ msgid "Bolivia"
+#~ msgstr "An Bholaiv"
+
+#~ msgctxt "Name"
+#~ msgid "Botswana"
+#~ msgstr "An Bhotsuáin"
+
+#~ msgctxt "Name"
+#~ msgid "Brazil"
+#~ msgstr "An Bhrasaíl"
+
+#~ msgctxt "Name"
+#~ msgid "Brunei Darussalam"
+#~ msgstr "Brúiné"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Bulgaria"
+#~ msgstr "Kugar"
+
+#~ msgctxt "Name"
+#~ msgid "Burkina Faso"
+#~ msgstr "Buircíne Fasó"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Burundi"
+#~ msgstr "Greille"
+
+#~ msgctxt "Name"
+#~ msgid "Cambodia"
+#~ msgstr "An Chambóid"
+
+#~ msgctxt "Name"
+#~ msgid "Cameroon"
+#~ msgstr "Camarún"
+
+#~ msgctxt "Name"
+#~ msgid "Canada"
+#~ msgstr "Ceanada"
+
+#~ msgctxt "Name"
+#~ msgid "Cape Verde"
+#~ msgstr "Rinn Verde"
+
+#~ msgctxt "Name"
+#~ msgid "Central African Republic"
+#~ msgstr "Poblacht na hAfraice Láir"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Chad"
+#~ msgstr "Cairt"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Chile"
+#~ msgstr "Teideal"
+
+#~ msgctxt "Name"
+#~ msgid "Colombia"
+#~ msgstr "An Cholóim"
+
+#~ msgctxt "Name"
+#~ msgid "Comoros"
+#~ msgstr "Oileáin Chomóra"
+
+#~ msgctxt "Name"
+#~ msgid "Costa Rica"
+#~ msgstr "Cósta Ríce"
+
+#~ msgctxt "Name"
+#~ msgid "Croatia"
+#~ msgstr "An Chróit"
+
+#~ msgctxt "Name"
+#~ msgid "Cuba"
+#~ msgstr "Cúba"
+
+#~ msgctxt "Name"
+#~ msgid "Cyprus"
+#~ msgstr "An Chipir"
+
+#~ msgctxt "Name"
+#~ msgid "Czech Republic"
+#~ msgstr "Poblacht na Seice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Denmark"
+#~ msgstr "Ginearálta"
+
+#~ msgctxt "Name"
+#~ msgid "Djibouti"
+#~ msgstr "Djibouti"
+
+#~ msgctxt "Name"
+#~ msgid "Dominica"
+#~ msgstr "Doiminice"
+
+#~ msgctxt "Name"
+#~ msgid "Dominican Republic"
+#~ msgstr "An Phoblacht Dhoiminiceach"
+
+#~ msgctxt "Name"
+#~ msgid "Ecuador"
+#~ msgstr "Eacuadór"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Egypt"
+#~ msgstr "Folamh"
+
+#~ msgctxt "Name"
+#~ msgid "El Salvador"
+#~ msgstr "An tSalvadóir"
+
+#~ msgctxt "Name"
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Guine Mheánchiorclach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Eritrea"
+#~ msgstr "Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Estonia"
+#~ msgstr "An Eastóin"
+
+#~ msgctxt "Name"
+#~ msgid "Ethiopia"
+#~ msgstr "An Aetóip"
+
+#~ msgctxt "Name"
+#~ msgid "Fiji"
+#~ msgstr "Fidsí"
+
+#~ msgctxt "Name"
+#~ msgid "Finland"
+#~ msgstr "An Fhionlainn"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "France"
+#~ msgstr "Oracle"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Gabon"
+#~ msgstr "Karbon14"
+
+#~ msgctxt "Name"
+#~ msgid "Gambia"
+#~ msgstr "An Ghaimbia"
+
+#~ msgctxt "Name"
+#~ msgid "Georgia"
+#~ msgstr "An tSeoirsia"
+
+#~ msgctxt "Name"
+#~ msgid "Germany"
+#~ msgstr "An Ghearmáin"
+
+#~ msgctxt "Name"
+#~ msgid "Ghana"
+#~ msgstr "Gána"
+
+#~ msgctxt "Name"
+#~ msgid "Greece"
+#~ msgstr "An Ghréig"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Grenada"
+#~ msgstr "Greille"
+
+#~ msgctxt "Name"
+#~ msgid "Guatemala"
+#~ msgstr "Guatamala"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Guinea"
+#~ msgstr "Ginearálta"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Guyana"
+#~ msgstr "Uirlis Dyna"
+
+#~ msgctxt "Name"
+#~ msgid "Haiti"
+#~ msgstr "Háítí"
+
+#~ msgctxt "Name"
+#~ msgid "Honduras"
+#~ msgstr "Hondúras"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Hungary"
+#~ msgstr "Kugar"
+
+#~ msgctxt "Name"
+#~ msgid "Iceland"
+#~ msgstr "An Íoslainn"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "India"
+#~ msgstr "Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Indonesia"
+#~ msgstr "An Indinéis"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Iran"
+#~ msgstr "Simplí"
+
+#~ msgctxt "Name"
+#~ msgid "Iraq"
+#~ msgstr "An Iaráic"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Ireland"
+#~ msgstr "KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "Israel"
+#~ msgstr "Iosrael"
+
+#~ msgctxt "Name"
+#~ msgid "Italy"
+#~ msgstr "An Iodáil"
+
+#~ msgctxt "Name"
+#~ msgid "Jamaica"
+#~ msgstr "Iamáice"
+
+#~ msgctxt "Name"
+#~ msgid "Japan"
+#~ msgstr "An tSeapáin"
+
+#~ msgctxt "Name"
+#~ msgid "Jordan"
+#~ msgstr "An Iordáin"
+
+#~ msgctxt "Name"
+#~ msgid "Kazakhstan"
+#~ msgstr "An Chasacstáin"
+
+#~ msgctxt "Name"
+#~ msgid "Kenya"
+#~ msgstr "An Chéinia"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Kiribati"
+#~ msgstr "Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Kuwait"
+#~ msgstr "Cuáit"
+
+#~ msgctxt "Name"
+#~ msgid "Kyrgyzstan"
+#~ msgstr "An Chirgeastáin"
+
+#~ msgctxt "Name"
+#~ msgid "Laos"
+#~ msgstr "Laos"
+
+#~ msgctxt "Name"
+#~ msgid "Latvia"
+#~ msgstr "An Laitvia"
+
+#~ msgctxt "Name"
+#~ msgid "Lebanon"
+#~ msgstr "An Liobáin"
+
+#~ msgctxt "Name"
+#~ msgid "Lesotho"
+#~ msgstr "Leosóta"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Liberia"
+#~ msgstr "Litir"
+
+#~ msgctxt "Name"
+#~ msgid "Liechtenstein"
+#~ msgstr "Lichtinstéin"
+
+#~ msgctxt "Name"
+#~ msgid "Lithuania"
+#~ msgstr "An Liotuáin"
+
+#~ msgctxt "Name"
+#~ msgid "Luxembourg"
+#~ msgstr "Lucsamburg"
+
+#~ msgctxt "Name"
+#~ msgid "Macedonia"
+#~ msgstr "An Mhacadóin (IPIM)"
+
+#~ msgctxt "Name"
+#~ msgid "Madagascar"
+#~ msgstr "Madagascar"
+
+#~ msgctxt "Name"
+#~ msgid "Malawi"
+#~ msgstr "An Mhaláiv"
+
+#~ msgctxt "Name"
+#~ msgid "Malaysia"
+#~ msgstr "An Mhalaeisia"
+
+#~ msgctxt "Name"
+#~ msgid "Maldives"
+#~ msgstr "Oileáin Mhaildíve"
+
+#~ msgctxt "Name"
+#~ msgid "Mali"
+#~ msgstr "Mailí"
+
+#~ msgctxt "Name"
+#~ msgid "Malta"
+#~ msgstr "Málta"
+
+#~ msgctxt "Name"
+#~ msgid "Marshall Islands"
+#~ msgstr "Oileáin Mharshall"
+
+#~ msgctxt "Name"
+#~ msgid "Mauritania"
+#~ msgstr "An Mháratáin"
+
+#~ msgctxt "Name"
+#~ msgid "Mauritius"
+#~ msgstr "Oileán Mhuirís"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Mexico"
+#~ msgstr "Kexi"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Micronesia"
+#~ msgstr "Macraí"
+
+#~ msgctxt "Name"
+#~ msgid "Moldova"
+#~ msgstr "An Mholdóiv"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Monaco"
+#~ msgstr "Macraí"
+
+#~ msgctxt "Name"
+#~ msgid "Mongolia"
+#~ msgstr "An Mhongóil"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Montenegro"
+#~ msgstr "Ceangail"
+
+#~ msgctxt "Name"
+#~ msgid "Morocco"
+#~ msgstr "Maracó"
+
+#~ msgctxt "Name"
+#~ msgid "Mozambique"
+#~ msgstr "Mósaimbíc"
+
+#~ msgctxt "Name"
+#~ msgid "Myanmar"
+#~ msgstr "Maenmar"
+
+#~ msgctxt "Name"
+#~ msgid "Namibia"
+#~ msgstr "An Namaib"
+
+#~ msgctxt "Name"
+#~ msgid "Nauru"
+#~ msgstr "Nárúis"
+
+#~ msgctxt "Name"
+#~ msgid "Nepal"
+#~ msgstr "Neipeal"
+
+#~ msgctxt "Name"
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Aintillí na hÍsiltíre"
+
+#~ msgctxt "Name"
+#~ msgid "Netherlands"
+#~ msgstr "An Ísiltír"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "New Zealand"
+#~ msgstr "An Ísiltír"
+
+#~ msgctxt "Name"
+#~ msgid "Nicaragua"
+#~ msgstr "Nicearagua"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Niger"
+#~ msgstr "Teideal"
+
+#~ msgctxt "Name"
+#~ msgid "Nigeria"
+#~ msgstr "An Nigéir"
+
+#~ msgctxt "Name"
+#~ msgid "North Korea"
+#~ msgstr "An Chóiré Thuaidh"
+
+#~ msgctxt "Name"
+#~ msgid "Norway"
+#~ msgstr "An Iorua"
+
+#~ msgctxt "Name"
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Pakistan"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Palau"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Palestine"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Panama"
+#~ msgstr "panorama"
+
+#~ msgctxt "Name"
+#~ msgid "Papua New Guinea"
+#~ msgstr "Nua-Ghuine Phapua"
+
+#~ msgctxt "Name"
+#~ msgid "Paraguay"
+#~ msgstr "Paragua"
+
+#~ msgctxt "Name"
+#~ msgid "Peru"
+#~ msgstr "Peiriú"
+
+#~ msgctxt "Name"
+#~ msgid "Philippines"
+#~ msgstr "Na hOileáin Fhilipíneacha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Poland"
+#~ msgstr "Simplí"
+
+#~ msgctxt "Name"
+#~ msgid "Portugal"
+#~ msgstr "An Phortaingéil"
+
+#~ msgctxt "Name"
+#~ msgid "Qatar"
+#~ msgstr "Catar"
+
+#~ msgctxt "Name"
+#~ msgid "Romania"
+#~ msgstr "An Rómáin"
+
+#~ msgctxt "Name"
+#~ msgid "Rwanda"
+#~ msgstr "Ruanda"
+
+#~ msgctxt "Name"
+#~ msgid "Samoa"
+#~ msgstr "Samó"
+
+#~ msgctxt "Name"
+#~ msgid "San Marino"
+#~ msgstr "San Mairíne"
+
+#~ msgctxt "Name"
+#~ msgid "Saudi Arabia"
+#~ msgstr "An Araib Shádach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Senegal"
+#~ msgstr "Ginearálta"
+
+#~ msgctxt "Name"
+#~ msgid "Serbia"
+#~ msgstr "An tSeirbia"
+
+#~ msgctxt "Name"
+#~ msgid "Seychelles"
+#~ msgstr "Na Séiséil"
+
+#~ msgctxt "Name"
+#~ msgid "Sierra Leone"
+#~ msgstr "Siarra Leon"
+
+#~ msgctxt "Name"
+#~ msgid "Singapore"
+#~ msgstr "Singeapór"
+
+#~ msgctxt "Name"
+#~ msgid "Slovakia"
+#~ msgstr "An tSlóvaic"
+
+#~ msgctxt "Name"
+#~ msgid "Slovenia"
+#~ msgstr "An tSlóivéin"
+
+#~ msgctxt "Name"
+#~ msgid "Solomon Islands"
+#~ msgstr "Oileáin Sholamón"
+
+#~ msgctxt "Name"
+#~ msgid "Somalia"
+#~ msgstr "An tSomáil"
+
+#~ msgctxt "Name"
+#~ msgid "South Africa"
+#~ msgstr "An Afraic Theas"
+
+#~ msgctxt "Name"
+#~ msgid "South Korea"
+#~ msgstr "An Chóiré Theas"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Spain"
+#~ msgstr "Bunúsach"
+
+#~ msgctxt "Name"
+#~ msgid "Sri Lanka"
+#~ msgstr "Srí Lanca"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Sudan"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Switzerland"
+#~ msgstr "An tSuasalainn"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Suriname"
+#~ msgstr "Oracle"
+
+#~ msgctxt "Name"
+#~ msgid "Swaziland"
+#~ msgstr "An tSuasalainn"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Sweden"
+#~ msgstr "Scáileán"
+
+#~ msgctxt "Name"
+#~ msgid "Tajikistan"
+#~ msgstr "An Táidsíceastáin"
+
+#~ msgctxt "Name"
+#~ msgid "Thailand"
+#~ msgstr "An Téalainn"
+
+#~ msgctxt "Name"
+#~ msgid "Timor-Leste"
+#~ msgstr "An Tíomór Thoir"
+
+#~ msgctxt "Name"
+#~ msgid "Togo"
+#~ msgstr "Tóga"
+
+#~ msgctxt "Name"
+#~ msgid "Tunisia"
+#~ msgstr "An Túinéis"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Turkey"
+#~ msgstr "Téacs"
+
+#~ msgctxt "Name"
+#~ msgid "Turkmenistan"
+#~ msgstr "An Tuircméanastáin"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Tuvalu"
+#~ msgstr "Dlí"
+
+#~ msgctxt "Name"
+#~ msgid "Uganda"
+#~ msgstr "Uganda"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Ukraine"
+#~ msgstr "Simplí"
+
+#~ msgctxt "Name"
+#~ msgid "United Arab Emirates"
+#~ msgstr "Aontas na nÉimíríochtaí Arabacha"
+
+#~ msgctxt "Name"
+#~ msgid "United Kingdom"
+#~ msgstr "An Ríocht Aontaithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "United Nations"
+#~ msgstr "Láithreoireacht"
+
+#~ msgctxt "Name"
+#~ msgid "Uruguay"
+#~ msgstr "Uragua"
+
+#~ msgctxt "Name"
+#~ msgid "Uzbekistan"
+#~ msgstr "Úisbéiceastáin"
+
+#~ msgctxt "Name"
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatú"
+
+#~ msgctxt "Name"
+#~ msgid "Venezuela"
+#~ msgstr "Veiniséala"
+
+#~ msgctxt "Name"
+#~ msgid "Vietnam"
+#~ msgstr "Vítneam"
+
+#~ msgctxt "Name"
+#~ msgid "Western Sahara"
+#~ msgstr "An Sahára Thiar"
+
+#~ msgctxt "Name"
+#~ msgid "Yemen"
+#~ msgstr "Éimin"
+
+#~ msgctxt "Name"
+#~ msgid "Zambia"
+#~ msgstr "An tSaimbia"
+
+#~ msgctxt "Name"
+#~ msgid "Zimbabwe"
+#~ msgstr "An tSiombáib"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Data Store"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part iiio"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part iioi"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part iioo"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part ioii"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part ioio"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part iooi"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part iooo"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part oiio"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part oioi"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part oioo"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "part ooio"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Blinders"
+#~ msgstr "Gnó"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Fresnel"
+#~ msgstr "KFormDesigner"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Connector"
+#~ msgstr "Ceangail"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Inverter"
+#~ msgstr "Scagaire Inbhéartaithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Channel Network"
+#~ msgstr "Uirlisí Réamhshocraithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Converter"
+#~ msgstr "Scagaire Inbhéartaithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Decider"
+#~ msgstr "Mórleabhar"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Decoder"
+#~ msgstr "Mórleabhar"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Ingestor"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Memory"
+#~ msgstr "Meamram"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "ME Storage"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Timer"
+#~ msgstr "Teideal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Car1"
+#~ msgstr "Cairt"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Car2"
+#~ msgstr "Cairt"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "T-Junction"
+#~ msgstr "Feidhmeanna Téacs"
+
+#~ msgctxt "Name"
+#~ msgid "Misc"
+#~ msgstr "Éagsúil"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "File"
+#~ msgstr "Teideal"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Folder"
+#~ msgstr "Céimnigh"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Node Center"
+#~ msgstr "Scagaire Torainn"
+
+#~ msgctxt "Name"
+#~ msgid "Network"
+#~ msgstr "Líonra"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Storage"
+#~ msgstr "Stóras Inmheánach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "WAN Connection"
+#~ msgstr "Ceangal 01"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "A Workstation Monitor"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Patch Panel"
+#~ msgstr "Giuirléidí Conaire"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Plotter"
+#~ msgstr "Litir"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "General Printer"
+#~ msgstr "Ginearálta"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "A Workstation"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Coupler"
+#~ msgstr "okular"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Tuneable Coupler"
+#~ msgstr "Táblaí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "compilh"
+#~ msgstr "Scuab Choimpléascach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "compilp"
+#~ msgstr "Scuab Choimpléascach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "compush"
+#~ msgstr "Scuab Choimpléascach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "drain"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "press"
+#~ msgstr "Próiseálaí Focal"
+
+#~ msgctxt "Name"
+#~ msgid "RDP"
+#~ msgstr "RDP"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "place"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "transition"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "timed transition"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "component"
+#~ msgstr "Comhpháirt KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "separator"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "shape"
+#~ msgstr "Giuirléid Téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "soselection"
+#~ msgstr "Uirlisí Roghnúcháin"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "switch"
+#~ msgstr "Bunúsach"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "transform"
+#~ msgstr "Uirlis Trasfhoirmithe"
+
+#~ msgctxt "Name"
+#~ msgid "Block"
+#~ msgstr "Bloc"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "SDL"
+#~ msgstr "DLE"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Comment"
+#~ msgstr "Uirlis Bhearrtha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Function Header"
+#~ msgstr "Feidhmeanna Téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Macro"
+#~ msgstr "Macraí"
+
+#~ msgctxt "Name"
+#~ msgid "Note"
+#~ msgstr "Nóta"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Save"
+#~ msgstr "Sybase"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Send"
+#~ msgstr "Scáileán"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "State"
+#~ msgstr "Foshraith"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Client Application"
+#~ msgstr "Feidhmchlár Samplach KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "Sybase"
+#~ msgstr "Sybase"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Dataserver"
+#~ msgstr "Cruthaitheoir Bunachar Sonraí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Stable Queue"
+#~ msgstr "Táblaí"
+
+#~ msgctxt "Name"
+#~ msgid "Empty Document"
+#~ msgstr "Cáipéis Fholamh"
+
+#~ msgctxt "Comment"
+#~ msgid "Creates an empty document"
+#~ msgstr "Cruthaigh cáipéis fholamh"
+
+#~ msgctxt "Comment"
+#~ msgid "Kexi Project Handlers"
+#~ msgstr "Láimhseálaithe Tionscadal Kexi"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Basic Widgets"
+#~ msgctxt "Name"
+#~ msgid "Standard Widgets"
+#~ msgstr "Bunghiuirléidí"
+
+#~ msgctxt "Name"
+#~ msgid "Kexi"
+#~ msgstr "Kexi"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Develop desktop database applications"
+#~ msgctxt "Comment"
+#~ msgid "Visually develop database applications"
+#~ msgstr "Forbair feidhmchláir bhunachair sonraí don deasc"
+
+#~ msgctxt "Comment"
+#~ msgid "Kexi Data Migration Driver"
+#~ msgstr "Tiománaí Ascnaimh Sonraí Kexi"
+
+#~ msgctxt "Name"
+#~ msgid "MS Access"
+#~ msgstr "MS Access"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "MS Access (MDB) Import Plugin for Kexi"
+#~ msgstr "Tiománaí Ascnaimh MS Access (MDB) le haghaidh Kexi"
+
+#~ msgctxt "Name"
+#~ msgid "MySQL"
+#~ msgstr "MySQL"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "MySQL Import Plugin for Kexi"
+#~ msgstr "Tiománaí Ascnaimh MySQL le haghaidh Kexi"
+
+#~ msgctxt "Name"
+#~ msgid "PostgreSQL"
+#~ msgstr "PostgreSQL"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "PostgreSQL Import Plugin for Kexi"
+#~ msgstr "Tiománaí Ascnaimh PostgreSQL le haghaidh Kexi"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Sybase Import Plugin for Kexi"
+#~ msgstr "Tiománaí Ascnaimh Sybase le haghaidh Kexi"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "\"Tab Separated Values\" Document Import Plugin for Kexi"
+#~ msgstr "Breiseán scuaibe le haghaidh Krita"
+
+#~ msgctxt "Name"
+#~ msgid "xBase"
+#~ msgstr "xBase"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "xBase Import Plugin for Kexi"
+#~ msgstr "Tiománaí Ascnaimh xBase le haghaidh Kexi"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Form"
+#~ msgstr "Foirmeacha"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Basic Widgets"
+#~ msgctxt "Name"
+#~ msgid "Database Widgets"
+#~ msgstr "Bunghiuirléidí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Basic Widgets"
+#~ msgctxt "Name"
+#~ msgid "Map Widget"
+#~ msgstr "Bunghiuirléidí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Web Browser Widget"
+#~ msgstr "Scagaire Inbhéartaithe"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Kexi CSV Data Import/Export Plugin"
+#~ msgctxt "Comment"
+#~ msgid "Kexi Plugin for CSV data import/export"
+#~ msgstr "Breiseán Iompórtála/Easpórtála Sonraí CSV le haghaidh Kexi"
+
+#~ msgctxt "GenericName"
+#~ msgid "Migration Plugin"
+#~ msgstr "Breiseán Migration"
+
+#~ msgctxt "Name"
+#~ msgid "Migration Plugin"
+#~ msgstr "Breiseán Migration"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Query"
+#~ msgstr "Iarratais"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Kexi plugin for handling queries"
+#~ msgstr "Breiseán maisíochta leathanaigh le haghaidh KPresenter"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Report"
+#~ msgstr "Tuairiscí"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Kexi plugin for handling reports"
+#~ msgstr "Breiseán maisíochta leathanaigh le haghaidh KPresenter"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Table"
+#~ msgstr "Táblaí"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Kexi plugin for handling tables"
+#~ msgstr "Breiseán maisíochta leathanaigh le haghaidh KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "Flake Plugin"
+#~ msgstr "Breiseán Flake"
+
+#~ msgctxt "Comment"
+#~ msgid "A plugin that contains a set of a shape and a tool"
+#~ msgstr "Breiseán a bhfuil giuirléid agus uirlis ann"
+
+#~ msgctxt "Name"
+#~ msgid "Shape definition"
+#~ msgstr "Sainmhíniú ar ghiuirléid"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Tool for Calligra Page Applications"
+#~ msgstr "Feidhmchlár Samplach KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Text Editing plugin for the Calligra text tool"
+#~ msgstr "Breiseán beochana giuirléidí le haghaidh KPresenter"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Docker Plugin"
+#~ msgstr "Breiseán Dugairí KOffice"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Shape definition"
+#~ msgctxt "Name"
+#~ msgid "Semantic item definition"
+#~ msgstr "Sainmhíniú ar ghiuirléid"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Plan Scheduler Plugin"
+#~ msgstr "Breiseán Flake"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Plan"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Project Management Component"
+#~ msgstr "Comhpháirt Phróiseála Focal KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Plan iCalendar Export Filter"
+#~ msgstr "Scagaire Easpórtála iCalendar KPlato"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Plan KPlato Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon Kontour"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "TJ Scheduler"
+#~ msgstr "Breiseán Flake"
+
+#~ msgctxt "Name"
+#~ msgid "Scripting plugin"
+#~ msgstr "Breiseán scriptithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Allow execution of scripts"
+#~ msgstr "Ceadaigh scripteanna a rith"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Scripting plugin"
+#~ msgctxt "Name"
+#~ msgid "Plan Scripting Plugin"
+#~ msgstr "Breiseán scriptithe"
+
+#~ msgctxt "Name"
+#~ msgid "Basic project"
+#~ msgstr "Buntionscadal"
+
+#~ msgctxt "Name"
+#~ msgid "Simple"
+#~ msgstr "Simplí"
+
+#~ msgctxt "Name"
+#~ msgid "Plain"
+#~ msgstr "Simplí"
+
+#~ msgctxt "Name"
+#~ msgid "Chart Shape"
+#~ msgstr "Giuirléid Chairte"
+
+#~ msgctxt "Name"
+#~ msgid "Comment Shape"
+#~ msgstr "Giuirléid Tráchta"
+
+#~ msgctxt "Name"
+#~ msgid "Formula Shape"
+#~ msgstr "Giuirléid Fhoirmle"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Formula Component"
+#~ msgstr "Comhpháirt Phróiseála Focal KOffice"
+
+#~ msgctxt "GenericName"
+#~ msgid "Formula Editor"
+#~ msgstr "Eagarthóir Foirmlí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Spreadsheet"
+#~ msgstr "Scarbhileog"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Spreadsheet Import Plugin for Kexi"
+#~ msgstr "Breiseán scuaibe le haghaidh Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Music Shape"
+#~ msgstr "Giuirléid Cheoil"
+
+#~ msgctxt "Name"
+#~ msgid "Picture Shape"
+#~ msgstr "Giuirléid Phictiúir"
+
+#~ msgctxt "Name"
+#~ msgid "Plugin Shape"
+#~ msgstr "Giuirléid Bhreiseáin"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Rotate Image Plugin"
+#~ msgctxt "Name"
+#~ msgid "RDF Contact Plugin"
+#~ msgstr "Breiseán Rothlaithe Íomhánna"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Migration Plugin"
+#~ msgctxt "Name"
+#~ msgid "RDF Location Plugin"
+#~ msgstr "Breiseán Migration"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Template Shape"
+#~ msgstr "Giuirléid Téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "3D Scene Shape"
+#~ msgstr "Giuirléid Chairte"
+
+#~ msgctxt "Name"
+#~ msgid "Autocorrection plugin"
+#~ msgstr "Breiseán uathcheartaithe"
+
+#~ msgctxt "Name"
+#~ msgid "SpellCheck plugin"
+#~ msgstr "Breiseán Litreora"
+
+#~ msgctxt "Name"
+#~ msgid "Thesaurus Tool"
+#~ msgstr "Uirlis Teasárais"
+
+#~ msgctxt "Comment"
+#~ msgid "Show Related Words"
+#~ msgstr "Taispeáin Focail Ghaolmhara"
+
+#~ msgctxt "Name"
+#~ msgid "Text Variables"
+#~ msgstr "Athróga Téacs"
+
+#~ msgctxt "Name"
+#~ msgid "Video Shape"
+#~ msgstr "Giuirléid Fhíseáin"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Calligra Filter"
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Calligra Component"
+#~ msgstr "Comhpháirt Phróiseála Focal KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "Balance Sheet"
+#~ msgstr "Clár Comhardaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Business"
+#~ msgstr "Gnó"
+
+#~ msgctxt "Name"
+#~ msgid "Expense Report"
+#~ msgstr "Tuairisc Costas"
+
+#~ msgctxt "Name"
+#~ msgid "Invoice"
+#~ msgstr "Sonrasc"
+
+#~ msgctxt "Name"
+#~ msgid "Packing Slip"
+#~ msgstr "Lastliosta"
+
+#~ msgctxt "Name"
+#~ msgid "Price Quotation"
+#~ msgstr "Luach Luaite"
+
+#~ msgctxt "Name"
+#~ msgid "General"
+#~ msgstr "Ginearálta"
+
+#~ msgctxt "Name"
+#~ msgid "Blank Worksheet"
+#~ msgstr "Bileog Bhán Oibre"
+
+#~ msgctxt "Comment"
+#~ msgid "BITAND, BITOR, BITXOR, BITLSHIFT, BITRSHIFT"
+#~ msgstr "BITAND, BITOR, BITXOR, BITLSHIFT, BITRSHIFT"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "ARABIC, ASCIITOCHAR, BOOL2INT, BOOL2STRING, CARX, CARY, CHARTOASCII, "
+#~ "DECSEX, INT2BOOL, NUM2STRING, POLA, POLR, ROMAN, SEXDEC, STRING"
+#~ msgstr ""
+#~ "ARABIC, ASCIITOCHAR, BOOL2INT, BOOL2STRING, CARX, CARY, CHARTOASCII, "
+#~ "DECSEX, INT2BOOL, NUM2STRING, POLA, POLR, ROMAN, SEXDEC, STRING"
+
+#~ msgctxt "Name"
+#~ msgid "Database Functions"
+#~ msgstr "Feidhmeanna Bunachar Sonraí"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "DAVERAGE, DCOUNT, DCOUNTA, DGET, DMAX, DMIN, DPRODUCT, DSTDEV, DSTDEVP, "
+#~ "DSUM, DVAR, DVARP, GETPIVOTDATA"
+#~ msgstr ""
+#~ "DAVERAGE, DCOUNT, DCOUNTA, DGET, DMAX, DMIN, DPRODUCT, DSTDEV, DSTDEVP, "
+#~ "DSUM, DVAR, DVARP, GETPIVOTDATA"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "CURRENTDATE, CURRENTDATETIME, CURRENTTIME, DATE, DATE2UNIX, DATEDIF, "
+#~ "DATEVALUE, DAY, DAYNAME, DAYOFYEAR, DAYS, DAYS360, DAYSINMONTH, "
+#~ "DAYSINYEAR, EASTERSUNDAY, EDATE, EOMONTH, HOUR, HOURS, ISLEAPYEAR, "
+#~ "ISOWEEKNUM, MINUTE, MINUTES, MONTH, MONTHNAME, MONTHS, NETWORKDAY, NOW, "
+#~ "SECOND, SECONDS, TIME, TIMEVALUE, TODAY, UNIX2DATE, WEEKDAY, WEEKNUM, "
+#~ "WEEKS, WEEKSINYEAR, WORKDAY, YEAR, YEARFRAC, YEARS"
+#~ msgstr ""
+#~ "CURRENTDATE, CURRENTDATETIME, CURRENTTIME, DATE, DATE2UNIX, DATEDIF, "
+#~ "DATEVALUE, DAY, DAYNAME, DAYOFYEAR, DAYS, DAYS360, DAYSINMONTH, "
+#~ "DAYSINYEAR, EASTERSUNDAY, EDATE, EOMONTH, HOUR, HOURS, ISLEAPYEAR, "
+#~ "ISOWEEKNUM, MINUTE, MINUTES, MONTH, MONTHNAME, MONTHS, NETWORKDAY, NOW, "
+#~ "SECOND, SECONDS, TIME, TIMEVALUE, TODAY, UNIX2DATE, WEEKDAY, WEEKNUM, "
+#~ "WEEKS, WEEKSINYEAR, WORKDAY, YEAR, YEARFRAC, YEARS"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "BASE, BESSELI, BESSELJ, BESSELK, BESSELY, BIN2DEC, BIN2HEX, BIN2OCT, "
+#~ "COMPLEX, CONVERT, DEC2BIN, DEC2HEX, DEC2OCT, DELTA, ERF, ERFC, GESTEP, "
+#~ "HEX2BIN, HEX2DEC, HEX2OCT, IMABS, IMAGINARY, IMARGUMENT, IMCONJUGATE, "
+#~ "IMCOS, IMCOSH, IMDIV, IMEXP, IMLN, IMLOG10, IMLOG2, IMPOWER, IMPRODUCT, "
+#~ "IMREAL, IMSIN, IMSINH, IMSQRT, IMSUB, IMSUM, IMTAN, IMTANH, OCT2BIN, "
+#~ "OCT2DEC, OCT2HEX"
+#~ msgstr ""
+#~ "BASE, BESSELI, BESSELJ, BESSELK, BESSELY, BIN2DEC, BIN2HEX, BIN2OCT, "
+#~ "COMPLEX, CONVERT, DEC2BIN, DEC2HEX, DEC2OCT, DELTA, ERF, ERFC, GESTEP, "
+#~ "HEX2BIN, HEX2DEC, HEX2OCT, IMABS, IMAGINARY, IMARGUMENT, IMCONJUGATE, "
+#~ "IMCOS, IMCOSH, IMDIV, IMEXP, IMLN, IMLOG10, IMLOG2, IMPOWER, IMPRODUCT, "
+#~ "IMREAL, IMSIN, IMSINH, IMSQRT, IMSUB, IMSUM, IMTAN, IMTANH, OCT2BIN, "
+#~ "OCT2DEC, OCT2HEX"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "ACCRINT, ACCRINTM, AMORDEGRC, AMORLINC, COMPOUND, CONTINUOUS, COUPNUM, "
+#~ "CUMIPMT, CUMPRINC, DB, DDB, DISC, DOLLARDE, DOLLARFR, DURATION, "
+#~ "DURATION_ADD, EFFECT, EFFECTIVE, EURO, EUROCONVERT, FV, FV_ANNUITY, "
+#~ "INTRATE, IPMT, ISPMT, LEVEL_COUPON, MDURATION, MIRR, NOMINAL, NPER, NPV, "
+#~ "ODDLPRICE, ODDLYIELD, PMT, PPMT, PRICEMAT, PV, PV_ANNUITY, RECEIVED, RRI, "
+#~ "SLN, SYD, TBILLEQ, TBILLPRICE, TBILLYIELD, VDB, XIRR, XNPV, YIELDDISC, "
+#~ "YIELDMAT, ZERO_COUPON"
+#~ msgstr ""
+#~ "ACCRINT, ACCRINTM, AMORDEGRC, AMORLINC, COMPOUND, CONTINUOUS, COUPNUM, "
+#~ "CUMIPMT, CUMPRINC, DB, DDB, DISC, DOLLARDE, DOLLARFR, DURATION, "
+#~ "DURATION_ADD, EFFECT, EFFECTIVE, EURO, EUROCONVERT, FV, FV_ANNUITY, "
+#~ "INTRATE, IPMT, ISPMT, LEVEL_COUPON, MDURATION, MIRR, NOMINAL, NPER, NPV, "
+#~ "ODDLPRICE, ODDLYIELD, PMT, PPMT, PRICEMAT, PV, PV_ANNUITY, RECEIVED, RRI, "
+#~ "SLN, SYD, TBILLEQ, TBILLPRICE, TBILLYIELD, VDB, XIRR, XNPV, YIELDDISC, "
+#~ "YIELDMAT, ZERO_COUPON"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "ERRORTYPE, FILENAME, INFO, ISBLANK, ISDATE, ISERR, ISERROR, ISEVEN, "
+#~ "ISLOGICAL, ISNA, ISNONTEXT, ISNOTTEXT, ISNUM, ISNUMBER, ISODD, ISREF, "
+#~ "ISTEXT, ISTIME, N, NA, TYPE"
+#~ msgstr ""
+#~ "ERRORTYPE, FILENAME, INFO, ISBLANK, ISDATE, ISERR, ISERROR, ISEVEN, "
+#~ "ISLOGICAL, ISNA, ISNONTEXT, ISNOTTEXT, ISNUM, ISNUMBER, ISODD, ISREF, "
+#~ "ISTEXT, ISTIME, N, NA, TYPE"
+
+#~ msgctxt "Comment"
+#~ msgid "AND, FALSE, IF, NAND, NOR, NOT, OR, TRUE, XOR"
+#~ msgstr "AND, FALSE, IF, NAND, NOR, NOT, OR, TRUE, XOR"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "ABS, CEIL, CEILING, COUNT, COUNTA, COUNTBLANK, COUNTIF, CUR, DIV, EPS, "
+#~ "EVEN, EXP, FACT, FACTDOUBLE, FIB, FLOOR, GAMMA, GCD, G_PRODUCT, INT, INV, "
+#~ "KPRODUCT, LCM, LN, LOG, LOG10, LOG2, LOGN, MAX, MAXA, MDETERM, MIN, MINA, "
+#~ "MINVERSE, MMULT, MOD, MROUND, MULTINOMIAL, MULTIPLY, MUNIT, ODD, POW, "
+#~ "POWER, PRODUCT, QUOTIENT, RAND, RANDBERNOULLI, RANDBETWEEN, RANDBINOM, "
+#~ "RANDEXP, RANDNEGBINOM, RANDNORM, RANDPOISSON, ROOTN, ROUND, ROUNDDOWN, "
+#~ "ROUNDUP, SERIESSUM, SIGN, SQRT, SQRTPI, SUBTOTAL, SUM, SUMA, SUMIF, "
+#~ "SUMSQ, TRANSPOSE, TRUNC"
+#~ msgstr ""
+#~ "ABS, CEIL, CEILING, COUNT, COUNTA, COUNTBLANK, COUNTIF, CUR, DIV, EPS, "
+#~ "EVEN, EXP, FACT, FACTDOUBLE, FIB, FLOOR, GAMMA, GCD, G_PRODUCT, INT, INV, "
+#~ "KPRODUCT, LCM, LN, LOG, LOG10, LOG2, LOGN, MAX, MAXA, MDETERM, MIN, MINA, "
+#~ "MINVERSE, MMULT, MOD, MROUND, MULTINOMIAL, MULTIPLY, MUNIT, ODD, POW, "
+#~ "POWER, PRODUCT, QUOTIENT, RAND, RANDBERNOULLI, RANDBETWEEN, RANDBINOM, "
+#~ "RANDEXP, RANDNEGBINOM, RANDNORM, RANDPOISSON, ROOTN, ROUND, ROUNDDOWN, "
+#~ "ROUNDUP, SERIESSUM, SIGN, SQRT, SQRTPI, SUBTOTAL, SUM, SUMA, SUMIF, "
+#~ "SUMSQ, TRANSPOSE, TRUNC"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "ADDRESS, AREAS, CHOOSE, COLUMN, COLUMNS, HLOOKUP, INDEX, INDIRECT, "
+#~ "LOOKUP, MULTIPLE.OPERATIONS ROW, ROWS, VLOOKUP"
+#~ msgstr ""
+#~ "ADDRESS, AREAS, CHOOSE, COLUMN, COLUMNS, HLOOKUP, INDEX, INDIRECT, "
+#~ "LOOKUP, MULTIPLE.OPERATIONS ROW, ROWS, VLOOKUP"
+
+#~ msgctxt "Name"
+#~ msgid "Text Functions"
+#~ msgstr "Feidhmeanna Téacs"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "ASC, BAHTTEXT, CHAR, CLEAN, CODE, COMPARE, CONCATENATE, DOLLAR, EXACT, "
+#~ "FIND, FIXED, JIS, LEFT, LEN, LOWER, MID, PROPER, REGEXP, REGEXPRE, "
+#~ "REPLACE, REPT, RIGHT, ROT, SEARCH, SLEEK, SUBSTITUTE, T, TEXT, TOGGLE, "
+#~ "TRIM, UNICHAR, UNICODE, UPPER, VALUE"
+#~ msgstr ""
+#~ "ASC, BAHTTEXT, CHAR, CLEAN, CODE, COMPARE, CONCATENATE, DOLLAR, EXACT, "
+#~ "FIND, FIXED, JIS, LEFT, LEN, LOWER, MID, PROPER, REGEXP, REGEXPRE, "
+#~ "REPLACE, REPT, RIGHT, ROT, SEARCH, SLEEK, SUBSTITUTE, T, TEXT, TOGGLE, "
+#~ "TRIM, UNICHAR, UNICODE, UPPER, VALUE"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "ACOS, ACOSH, ACOT, ASIN, ASINH, ATAN, ATAN2, ATANH, COS, COSH, DEGREES, "
+#~ "PI, RADIANS, SIN, SINH, TAN, TANH"
+#~ msgstr ""
+#~ "ACOS, ACOSH, ACOT, ASIN, ASINH, ATAN, ATAN2, ATANH, COS, COSH, DEGREES, "
+#~ "PI, RADIANS, SIN, SINH, TAN, TANH"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar Tool"
+#~ msgstr "Uirlis Fhéilire"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Scripting plugin"
+#~ msgctxt "Name"
+#~ msgid "Sheets Scripting Plugin"
+#~ msgstr "Breiseán scriptithe"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Sheets Solver Plugin"
+#~ msgstr "Breiseán Flake"
+
+#~ msgctxt "Name"
+#~ msgid "Spreadsheet Shape"
+#~ msgstr "Giuirléid Scarbhileoige"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Sheets"
+#~ msgstr "Scagairí Datha"
+
+#~ msgctxt "GenericName"
+#~ msgid "Spreadsheet"
+#~ msgstr "Scarbhileog"
+
+#~ msgctxt "Comment"
+#~ msgid "Write spreadsheet documents"
+#~ msgstr "Scríobh cáipéisí scarbhileoige"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Spreadsheet Component"
+#~ msgstr "Comhpháirt Phróiseála Focal KOffice"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Plugin for Calligra Sheets"
+#~ msgstr "Breiseán maisíochta leathanaigh le haghaidh KPresenter"
+
+#~ msgctxt "GenericName"
+#~ msgid "Presentation"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Page effect plugin for Calligra Stage"
+#~ msgstr "Breiseán maisíochta leathanaigh le haghaidh KPresenter"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Tool for Calligra Stage"
+#~ msgstr "Breiseán maisíochta leathanaigh le haghaidh KPresenter"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Stage Component"
+#~ msgstr "Comhpháirt Phróiseála Focal KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "Fade"
+#~ msgstr "Céimnigh"
+
+#~ msgctxt "Name"
+#~ msgid "Jiggle and Wiggle"
+#~ msgstr "Croith agus Suaith"
+
+#~ msgctxt "Comment"
+#~ msgid "Jiggle and Wiggle that Shape!"
+#~ msgstr "Croith agus Suaith an Ghiuirléid sin!"
+
+#~ msgctxt "Name"
+#~ msgid "Presentation Variables"
+#~ msgstr "Athróga Láithreoireachta"
+
+#~ msgctxt "Name"
+#~ msgid "Empty"
+#~ msgstr "Folamh"
+
+#~ msgctxt "Comment"
+#~ msgid "Empty presentation"
+#~ msgstr "Láithreoireacht fholamh"
+
+#~ msgctxt "Name"
+#~ msgid "Empty 16:10"
+#~ msgstr "Folamh 16:10"
+
+#~ msgctxt "Comment"
+#~ msgid "Empty presentation 10:16"
+#~ msgstr "Láithreoireacht fholamh 10:16"
+
+#~ msgctxt "Comment"
+#~ msgid "Business"
+#~ msgstr "Gnó"
+
+#~ msgctxt "Name"
+#~ msgid "Templates"
+#~ msgstr "Teimpléid"
+
+#~ msgctxt "Name"
+#~ msgid "Simple Waves"
+#~ msgstr "Tonnta Simplí"
+
+#~ msgctxt "Comment"
+#~ msgid "Simple Waves"
+#~ msgstr "Tonnta Simplí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Skyline Wide"
+#~ msgstr "Tonnta Simplí"
+
+#~ msgctxt "Name"
+#~ msgid "Screen"
+#~ msgstr "Scáileán"
+
+#~ msgctxt "GenericName"
+#~ msgid "Word Processor"
+#~ msgstr "Próiseálaí Focal"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Write documents"
+#~ msgstr "Scríobh cáipéisí téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Author"
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Author Component"
+#~ msgstr "Comhpháirt Phróiseála Focal KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Word Processing Component"
+#~ msgstr "Comhpháirt Phróiseála Focal KOffice"
+
+#, fuzzy
+#~ msgctxt "GenericName"
+#~ msgid "Word processor"
+#~ msgstr "Próiseálaí Focal"
+
+#~ msgctxt "Name"
+#~ msgid "Blank Document"
+#~ msgstr "Cáipéis Fholamh"
+
+#~ msgctxt "Name"
+#~ msgid "Colorful Document"
+#~ msgstr "Cáipéis Ildathach"
+
+#~ msgctxt "Name"
+#~ msgid "Blank Documents"
+#~ msgstr "Cáipéisí Folmha"
+
+#~ msgctxt "Name"
+#~ msgid "Fax Template"
+#~ msgstr "Teimpléad Facs"
+
+#~ msgctxt "Name"
+#~ msgid "Professional Letter"
+#~ msgstr "Litir Phroifisiúta"
+
+#~ msgctxt "Name"
+#~ msgid "Print..."
+#~ msgstr "Priontáil..."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Krita exr Export Filter"
+#~ msgctxt "Comment"
+#~ msgid "Krita FileFilter"
+#~ msgstr "Scagaire Easpórtála exr Krita"
+
+#~ msgctxt "Comment"
+#~ msgid "Filter plugin for Krita"
+#~ msgstr "Breiseán scagaire le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Layer data Generator plugin for Krita"
+#~ msgstr "Breiseán scagaire le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Paint operation plugin for Krita"
+#~ msgstr "Breiseán scagaire le haghaidh Krita"
+
+#~ msgctxt "Comment"
+#~ msgid "Tool plugin for Krita"
+#~ msgstr "Breiseán uirlisí le haghaidh Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita Encapsulated PostScript Export Filter"
+#~ msgstr "Scagaire Easpórtála PhotoShop Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita Encapsulated PostScript Import Filter"
+#~ msgstr "Scagaire Iompórtála PhotoShop Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "MS Project Import Filter"
+#~ msgstr "Scagaire Iompórtála WordPerfect le haghaidh KWord"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "MS Project Exchange Import Filter"
+#~ msgstr "Scagaire Iompórtála WordPerfect le haghaidh KWord"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Planner Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon Kontour"
+
+#~ msgctxt "GenericName"
+#~ msgid "Database Creator"
+#~ msgstr "Cruthaitheoir Bunachar Sonraí"
+
+#~ msgctxt "GenericName"
+#~ msgid "Forms"
+#~ msgstr "Foirmeacha"
+
+#~ msgctxt "GenericName"
+#~ msgid "Queries"
+#~ msgstr "Iarratais"
+
+#~ msgctxt "GenericName"
+#~ msgid "Reports"
+#~ msgstr "Tuairiscí"
+
+#~ msgctxt "GenericName"
+#~ msgid "Tables"
+#~ msgstr "Táblaí"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Flow Dockers plugin"
+#~ msgstr "Breiseán Dugairí KOffice"
+
+#~ msgctxt "Comment"
+#~ msgid "Kexi database driver for accessing Sybase servers"
+#~ msgstr ""
+#~ "Tiománaí bunachair sonraí Kexi lenar féidir freastalaithe Sybase a "
+#~ "rochtain"
+
+#~ msgctxt "Comment"
+#~ msgid "Kexi database driver for accessing xBase database files"
+#~ msgstr ""
+#~ "Tiománaí bunachair sonraí Kexi lenar féidir comhaid bhunachar sonraí "
+#~ "xBase a rochtain"
+
+#~ msgctxt "Comment"
+#~ msgid "Kexi SQL-Driver plugin"
+#~ msgstr "Breiseán Tiománaí-SQL Kexi"
+
+#~ msgctxt "Name"
+#~ msgid "SQLite3"
+#~ msgstr "SQLite3"
+
+#~ msgctxt "Comment"
+#~ msgid "SQLite is default Kexi embedded SQL engine"
+#~ msgstr "Is é SQLite an t-inneall réamhshocraithe leabaithe SQL i Kexi"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Barcode Report Plugin"
+#~ msgstr "KoReport_Chart"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "KoReport Barcode Plugin"
+#~ msgstr "KoReport_Barcode"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Chart Report Plugin"
+#~ msgstr "Breiseán Dugairí KOffice"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Calligra Reports Chart Plugin"
+#~ msgstr "Breiseán Dugairí KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Maps Report Plugin"
+#~ msgstr "KoReport_Chart"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Calligra Reports Maps Plugin"
+#~ msgstr "Breiseán Dugairí KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Web Report Plugin"
+#~ msgstr "KoReport_Chart"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Calligra Reports Web Plugin"
+#~ msgstr "Breiseán Dugairí KOffice"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color Filters (Extension)"
+#~ msgctxt "Name"
+#~ msgid "Layer Styles Filter (Extension)"
+#~ msgstr "Scagairí Datha (Eisínteacht)"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Karbon PNG Export Filter"
+#~ msgstr "Scagaire Easpórtála PNG Karbon14"
+
+#~ msgctxt "Name"
+#~ msgid "Karbon SVGZ Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon SVGZ"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Sheets Pivot Plugin"
+#~ msgstr "Breiseán Dugairí KOffice"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita Animation Documents"
+#~ msgstr "Scríobh cáipéisí téacs"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Animator"
+#~ msgstr "Ginearálta"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Animator"
+#~ msgstr "Ginearálta"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Krita PNG Export Filter"
+#~ msgctxt "Name"
+#~ msgid "Krita PNG Sequence Export Filter"
+#~ msgstr "Scagaire Easpórtála PNG Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Painting and Image Editor Component"
+#~ msgstr "Péinteáil agus Eagarthóireacht Íomhánna"
+
+#~ msgctxt "GenericName"
+#~ msgid "Image Object"
+#~ msgstr "Réad Íomhá"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Krita Animation"
+#~ msgstr "Láithreoireacht"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Animation Editor"
+#~ msgstr "Scagairí Datha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Flipbook Docker"
+#~ msgstr "Ceangail"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Krita Gimp Import Filter"
+#~ msgctxt "Name"
+#~ msgid "Krita Flipbook Import Filter"
+#~ msgstr "Scagaire Iompórtála Gimp Krita"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "KoReport Chart Plugin"
+#~ msgstr "KoReport_Chart"
+
+#~ msgctxt "Name"
+#~ msgid "ODBC"
+#~ msgstr "ODBC"
+
+#~ msgctxt "Comment"
+#~ msgid "Kexi Open Database Connectivity Driver"
+#~ msgstr "Tiománaí ODBC (Open Database Connectivity) Kexi"
+
+#~ msgctxt "Name"
+#~ msgid "Oracle"
+#~ msgstr "Oracle"
+
+#~ msgctxt "Comment"
+#~ msgid "Kexi database driver for accessing Oracle servers"
+#~ msgstr ""
+#~ "Tiománaí bunachair sonraí Kexi lenar féidir freastalaithe Oracle a "
+#~ "rochtain"
+
+#, fuzzy
+#~ msgctxt "GenericName"
+#~ msgid "AutoForm"
+#~ msgstr "Foirmeacha"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "AutoForm"
+#~ msgstr "Foirmeacha"
+
+#~ msgctxt "GenericName"
+#~ msgid "Relationships"
+#~ msgstr "Gaolta"
+
+#~ msgctxt "Name"
+#~ msgid "Relationships"
+#~ msgstr "Gaolta"
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "Text Import Plugin for Kexi"
+#~ msgstr "Tiománaí Ascnaimh Téacs le haghaidh Kexi"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Gradient"
+#~ msgstr "Gradient Blue-Red"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Plan MS Project Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon Kontour"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME}"
+#~ msgstr "%{APPNAME}"
+
+#~ msgctxt "Comment"
+#~ msgid "%{APPNAME}"
+#~ msgstr "%{APPNAME}"
+
+#~ msgctxt "Name"
+#~ msgid "Krita %{APPNAMELC} Export Filter"
+#~ msgstr "Scagaire Easpórtála %{APPNAMELC}  Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita %{APPNAMELC} Import Filter"
+#~ msgstr "Scagaire Iompórtála %{APPNAMELC} Krita"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Calligra Chart Component"
+#~ msgstr "Comhpháirt Phróiseála Focal KOffice"
+
+#~ msgctxt "GenericName"
+#~ msgid "Chart"
+#~ msgstr "Cairt"
+
+#~ msgctxt "Name"
+#~ msgid "KChart BMP Export Filter"
+#~ msgstr "Scagaire Easpórtála BMP KChart"
+
+#~ msgctxt "Name"
+#~ msgid "KChart JPEG Export Filter"
+#~ msgstr "Scagaire Easpórtála JPEG KChart"
+
+#~ msgctxt "Name"
+#~ msgid "KChart MNG Export Filter"
+#~ msgstr "Scagaire Easpórtála MNG KChart"
+
+#~ msgctxt "Name"
+#~ msgid "KChart PNG Export Filter"
+#~ msgstr "Scagaire Easpórtála PNG KChart"
+
+#~ msgctxt "Name"
+#~ msgid "KChart XBM Export Filter"
+#~ msgstr "Scagaire Easpórtála XBM KChart"
+
+#~ msgctxt "Name"
+#~ msgid "KChart XPM Export Filter"
+#~ msgstr "Scagaire Easpórtála XPM KChart"
+
+#~ msgctxt "Name"
+#~ msgid "Kontour Applixgraphics Import Filter"
+#~ msgstr "Scagaire Iompórtála Kontour"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Karbon EPS Export Filter"
+#~ msgstr "Scagaire Easpórtála EPS Karbon14"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Creates an A4 document with two columns per page."
+#~ msgctxt "Comment"
+#~ msgid "Creates a document with no stencils loaded."
+#~ msgstr "Cruthaigh cáipéis A4 le dhá cholún sa leathanach."
+
+#, fuzzy
+#~ msgctxt "Comment"
+#~ msgid "New KSpread document:"
+#~ msgstr "Cáipéis nua KWord:"
+
+#~ msgctxt "Name"
+#~ msgid "Other Office Files"
+#~ msgstr "Comhaid Oifige Eile"
+
+#~ msgctxt "Name"
+#~ msgid "Star Tool"
+#~ msgstr "Uirlis Réiltín"
+
+#~ msgctxt "Name"
+#~ msgid "KSpread"
+#~ msgstr "KSpread"
+
+#~ msgctxt "Comment"
+#~ msgid "KSpread Spreadsheet"
+#~ msgstr "Scarbhileog KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "Document loaded"
+#~ msgstr "Luchtaíodh cáipéis"
+
+#~ msgctxt "Comment"
+#~ msgid "A document was loaded"
+#~ msgstr "Luchtaíodh cáipéis"
+
+#~ msgctxt "Name"
+#~ msgid "Document saved"
+#~ msgstr "Sábháladh cáipéis"
+
+#~ msgctxt "Comment"
+#~ msgid "A document was saved"
+#~ msgstr "Sábháladh cáipéis"
+
+#~ msgctxt "Name"
+#~ msgid "CMYK"
+#~ msgstr "CMYK"
+
+#~ msgctxt "Name"
+#~ msgid "White 2000 x 800"
+#~ msgstr "Bán 2000×800"
+
+#~ msgctxt "Name"
+#~ msgid "White Background, 640 x 480"
+#~ msgstr "Cúlra Bán, 640×480"
+
+#~ msgctxt "Name"
+#~ msgid "RGB"
+#~ msgstr "RGB"
+
+#~ msgctxt "Name"
+#~ msgid "Transparent 1024 x 768"
+#~ msgstr "Trédhearcach 1024×768"
+
+#~ msgctxt "Comment"
+#~ msgid "Creates a transparent image of 1024 x 768 pixels."
+#~ msgstr "Cruthaigh íomhá thrédhearcach le 1024×768 picteilín."
+
+#~ msgctxt "Name"
+#~ msgid "Transparent 1280 x 1024"
+#~ msgstr "Trédhearcach 1280×1024"
+
+#~ msgctxt "Comment"
+#~ msgid "Creates a transparent image of 1280 x 1024 pixels."
+#~ msgstr "Cruthaigh íomhá thrédhearcach le 1280×1024 picteilín."
+
+#~ msgctxt "Name"
+#~ msgid "Transparent 1600 x 1200"
+#~ msgstr "Trédhearcach 1600×1200"
+
+#~ msgctxt "Comment"
+#~ msgid "Creates a transparent image of 1600 x 1200 pixels."
+#~ msgstr "Cruthaigh íomhá thrédhearcach le 1600×1200 picteilín."
+
+#~ msgctxt "Name"
+#~ msgid "Transparent 640 x 480"
+#~ msgstr "Trédhearcach 640×480"
+
+#~ msgctxt "Comment"
+#~ msgid "Creates a transparent image of 640 x 480 pixels."
+#~ msgstr "Cruthaigh íomhá thrédhearcach le 640×480 picteilín."
+
+#~ msgctxt "Name"
+#~ msgid "White 1024 x 768"
+#~ msgstr "Bán 1024×768"
+
+#~ msgctxt "Comment"
+#~ msgid "Creates a white RGB image of 1024 x 768 pixels."
+#~ msgstr "Cruthaigh íomhá bhán RGB le 1024×768 picteilín."
+
+#~ msgctxt "Name"
+#~ msgid "White 1280 x 1024"
+#~ msgstr "Bán 1280×1024"
+
+#~ msgctxt "Comment"
+#~ msgid "Creates a white RGB image of 1280 x 1024 pixels."
+#~ msgstr "Cruthaigh íomhá bhán RGB le 1280×1024 picteilín."
+
+#~ msgctxt "Name"
+#~ msgid "White 1600 x 1200"
+#~ msgstr "Bán 1600×1200"
+
+#~ msgctxt "Comment"
+#~ msgid "Creates a white RGB image of 1600 x 1200 pixels."
+#~ msgstr "Cruthaigh íomhá bhán RGB le 1600×1200 picteilín."
+
+#~ msgctxt "Name"
+#~ msgid "White 640x480"
+#~ msgstr "Bán 640×480"
+
+#~ msgctxt "Comment"
+#~ msgid "Creates a white RGB image of 640 x 480 pixels."
+#~ msgstr "Cruthaigh íomhá bhán RGB le 640×480 picteilín."
+
+#~ msgctxt "GenericName"
+#~ msgid "Painting and Image Editing"
+#~ msgstr "Péinteáil agus Eagarthóireacht Íomhánna"
+
+#~ msgctxt "Comment"
+#~ msgid "Edit and paint images"
+#~ msgstr "Cuir íomhánna in eagar agus péinteáil"
+
+#~ msgctxt "Name"
+#~ msgid "Cubism Filter"
+#~ msgstr "Scagaire Ciúbachais"
+
+#~ msgctxt "Comment"
+#~ msgid "Cubism filter"
+#~ msgstr "Scagaire ciúbachais"
+
+#~ msgctxt "Name"
+#~ msgid "Karbon Kontour Import Filter"
+#~ msgstr "Scagaire Iompórtála Karbon Kontour"
+
+#~ msgctxt "Name"
+#~ msgid "KChart SVG Export Filter"
+#~ msgstr "Scagaire Easpórtála SVG KChart"
+
+#~ msgctxt "Name"
+#~ msgid "KFormula LaTeX Export Filter"
+#~ msgstr "Scagaire Easpórtála LaTeX KFormula"
+
+#~ msgctxt "Name"
+#~ msgid "KFormula PNG Export Filter"
+#~ msgstr "Scagaire Easpórtála PNG KFormula"
+
+#~ msgctxt "Name"
+#~ msgid "KFormula SVG Export Filter"
+#~ msgstr "Scagaire Easpórtála SVG KFormula"
+
+#~ msgctxt "Name"
+#~ msgid "KPresenter BMP Export Filter"
+#~ msgstr "Scagaire Easpórtála BMP KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "KPresenter JPEG Export Filter"
+#~ msgstr "Scagaire Easpórtála JPEG KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "KPresenter MNG Export Filter"
+#~ msgstr "Scagaire Easpórtála MNG KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "KPresenter PNG Export Filter"
+#~ msgstr "Scagaire Easpórtála PNG KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "KPresenter XBM Export Filter"
+#~ msgstr "Scagaire Easpórtála XBM KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "KPresenter XPM Export Filter"
+#~ msgstr "Scagaire Easpórtála XPM KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "KPresenter Old File Format Filter"
+#~ msgstr "Scagaire Seanfhormáid Chomhaid KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "Magicpoint Import Filter for KPresenter"
+#~ msgstr "Scagaire Iompórtála Magicpoint le haghaidh KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "OpenOffice.org Impress Export Filter for KPresenter"
+#~ msgstr "Scagaire Easpórtála OpenOffice.org Impress le haghaidh KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "OpenOffice.org Impress Import Filter for KPresenter"
+#~ msgstr "Scagaire Iompórtála OpenOffice.org Impress le haghaidh KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "PPT Import Filter for KPresenter"
+#~ msgstr "Scagaire Iompórtála PPT le haghaidh KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "KPresenter SVG Export Filter"
+#~ msgstr "Scagaire Easpórtála SVG KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "Bracketing2HDR"
+#~ msgstr "Bracketing2HDR"
+
+#~ msgctxt "Comment"
+#~ msgid "Bracketing2HDR"
+#~ msgstr "Bracketing2HDR"
+
+#~ msgctxt "Name"
+#~ msgid "Together"
+#~ msgstr "Together"
+
+#~ msgctxt "Comment"
+#~ msgid "Together"
+#~ msgstr "Together"
+
+#~ msgctxt "Name"
+#~ msgid "tonemapping"
+#~ msgstr "tonemapping"
+
+#~ msgctxt "Comment"
+#~ msgid "tonemapping"
+#~ msgstr "tonemapping"
+
+#~ msgctxt "Name"
+#~ msgid "Bumpmap Filter"
+#~ msgstr "Scagaire Bumpmap"
+
+#~ msgctxt "Comment"
+#~ msgid "Bumpmap filter"
+#~ msgstr "Scagaire Bumpmap"
+
+#~ msgctxt "Name"
+#~ msgid "Complex Brush"
+#~ msgstr "Scuab Choimpléascach"
+
+#~ msgctxt "Name"
+#~ msgid "Curves Tool"
+#~ msgstr "Uirlis Cuar"
+
+#~ msgctxt "Name"
+#~ msgid "Paragraph Tool"
+#~ msgstr "Uirlis Ailt"
+
+#~ msgctxt "Name"
+#~ msgid "KThesaurus"
+#~ msgstr "KThesaurus"
+
+#~ msgctxt "GenericName"
+#~ msgid "Related Words"
+#~ msgstr "Focail Ghaolmhara"
+
+#~ msgctxt "Comment"
+#~ msgid "KSpread Migration Driver for Kexi"
+#~ msgstr "Tiománaí Ascnaimh KSpread le haghaidh Kexi"
+
+#~ msgctxt "Name"
+#~ msgid "Kexi DB Widgets"
+#~ msgstr "Giuirléidí Bunachair Sonraí Kexi"
+
+#~ msgctxt "Name"
+#~ msgid "KoReport_Barcode"
+#~ msgstr "KoReport_Barcode"
+
+#~ msgctxt "Name"
+#~ msgid "KoReport_Chart"
+#~ msgstr "KoReport_Chart"
+
+#~ msgctxt "Name"
+#~ msgid "KoReport_Shape"
+#~ msgstr "KoReport_Shape"
+
+#~ msgctxt "Name"
+#~ msgid "KChart"
+#~ msgstr "KChart"
+
+#~ msgctxt "GenericName"
+#~ msgid "Chart Generator"
+#~ msgstr "Gineadóir Cairteacha"
+
+#~ msgctxt "Comment"
+#~ msgid "Create graphics and charts"
+#~ msgstr "Cruthaigh graificí agus cairteacha"
+
+#~ msgctxt "Name"
+#~ msgid "Bar Chart"
+#~ msgstr "Barra-Chairt"
+
+#~ msgctxt "Comment"
+#~ msgid "An example of a bar chart"
+#~ msgstr "Barra-chairt shamplach"
+
+#~ msgctxt "Name"
+#~ msgid "Charts"
+#~ msgstr "Cairteacha"
+
+#~ msgctxt "Name"
+#~ msgid "KFormula"
+#~ msgstr "KFormula"
+
+#~ msgctxt "Name"
+#~ msgid "Simple Text Edit"
+#~ msgstr "Eagarthóir Simplí Téacs"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice"
+#~ msgstr "KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Chart Component"
+#~ msgstr "Comhpháirt Chairte KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Formula Component"
+#~ msgstr "Comhpháirt Fhoirmle KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Dockers plugin"
+#~ msgstr "Breiseán Dugairí KOffice"
+
+#~ msgctxt "Comment"
+#~ msgid "KOffice Component"
+#~ msgstr "Comhpháirt KOffice"
+
+#~ msgctxt "Comment"
+#~ msgid "KOffice Filter"
+#~ msgstr "Scagaire KOffice"
+
+#~ msgctxt "Comment"
+#~ msgid "KOffice Plugin"
+#~ msgstr "Breiseán KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Spreadsheet Component"
+#~ msgstr "Comhpháirt Scarbhileoige KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Files"
+#~ msgstr "Comhaid KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "Krita Gif Export Filter"
+#~ msgstr "Scagaire Easpórtála GIF Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita Gif Import Filter"
+#~ msgstr "Scagaire Iompórtála GIF Krita"
+
+#~ msgctxt "Name"
+#~ msgid "DivineProportion Shape"
+#~ msgstr "Giuirléid Chóimheasa Diaga"
+
+#~ msgctxt "Name"
+#~ msgid "Tables"
+#~ msgstr "Táblaí"
+
+#~ msgctxt "Name"
+#~ msgid "Cards and Labels"
+#~ msgstr "Cártaí agus Lipéid"
+
+#~ msgctxt "Name"
+#~ msgid "Labels L16"
+#~ msgstr "Lipéid L16"
+
+#~ msgctxt "Name"
+#~ msgid "Envelopes"
+#~ msgstr "Clúdaigh"
+
+#~ msgctxt "Name"
+#~ msgid "Envelope C6"
+#~ msgstr "Clúdach C6"
+
+#~ msgctxt "Name"
+#~ msgid "Envelope DL"
+#~ msgstr "Clúdach DL"
+
+#~ msgctxt "Name"
+#~ msgid "Blank Page"
+#~ msgstr "Leathanach Folamh"
+
+#~ msgctxt "Name"
+#~ msgid "Memorandum"
+#~ msgstr "Meamram"
+
+#~ msgctxt "Name"
+#~ msgid "Two Columns"
+#~ msgstr "Dhá Cholún"
+
+#~ msgctxt "Name"
+#~ msgid "KPresenter"
+#~ msgstr "KPresenter"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for KSpread"
+#~ msgstr "Breiseán KSpread"
+
+#~ msgctxt "Name"
+#~ msgid "KWord MS Word-ODF Import Filter"
+#~ msgstr "Scagaire Iompórtála MS Word-ODF le haghaidh KWord"
+
+#~ msgctxt "Name"
+#~ msgid "A4"
+#~ msgstr "A4"
+
+#~ msgctxt "Name"
+#~ msgid "One Column"
+#~ msgstr "Colún Amháin"
+
+#~ msgctxt "Name"
+#~ msgid "Two Column"
+#~ msgstr "Dhá Cholún"
+
+#~ msgctxt "Name"
+#~ msgid "Blue Breeze Double"
+#~ msgstr "Blue Breeze Double"
+
+#~ msgctxt "Name"
+#~ msgid "Blue Breeze Picture"
+#~ msgstr "Blue Breeze Picture"
+
+#~ msgctxt "Name"
+#~ msgid "Blue Breeze Single"
+#~ msgstr "Blue Breeze Single"
+
+#~ msgctxt "Name"
+#~ msgid "Classroom"
+#~ msgstr "Classroom"
+
+#~ msgctxt "Comment"
+#~ msgid "Classroom by dannya"
+#~ msgstr "Classroom le dannya"
+
+#~ msgctxt "Name"
+#~ msgid "Copper Plain"
+#~ msgstr "Copper Plain"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 2"
+#~ msgstr "KDE 2"
+
+#~ msgctxt "Comment"
+#~ msgid "A presentation with KDE 2 theming"
+#~ msgstr "Láithreoireacht le téamaí KDE 2"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 3"
+#~ msgstr "KDE 3"
+
+#~ msgctxt "Comment"
+#~ msgid "A presentation with KDE 3 theming"
+#~ msgstr "Láithreoireacht le téamaí KDE 3"
+
+#~ msgctxt "Name"
+#~ msgid "KDE"
+#~ msgstr "KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "A presentation with original KDE theming"
+#~ msgstr "Láithreoireacht le téamaí nuachumtha KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Savannah"
+#~ msgstr "Savannah"
+
+#~ msgctxt "Comment"
+#~ msgid "Savannah by dannya"
+#~ msgstr "Savannah le dannya"
+
+#~ msgctxt "Name"
+#~ msgid "Snowy Mountains"
+#~ msgstr "Snowy Mountains"
+
+#~ msgctxt "Name"
+#~ msgid "Totally New Product"
+#~ msgstr "Totally New Product"
+
+#~ msgctxt "Name"
+#~ msgid "KWord"
+#~ msgstr "KWord"
+
+#~ msgctxt "Comment"
+#~ msgid "Write text documents"
+#~ msgstr "Scríobh cáipéisí téacs"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Word Processing Component"
+#~ msgstr "Comhpháirt Phróiseála Focal KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "Reports(test)"
+#~ msgstr "Tuairiscí(tástáil)"
+
+#~ msgctxt "Name"
+#~ msgid "Link activated"
+#~ msgstr "Gníomhachtaíodh nasc"
+
+#~ msgctxt "Comment"
+#~ msgid "A hyperlink was activated"
+#~ msgstr "Gníomhachtaíodh hipearnasc"
+
+#~ msgctxt "Comment"
+#~ msgid "panorama"
+#~ msgstr "panorama"
+
+#~ msgctxt "Name"
+#~ msgid "Kexi Report Widgets"
+#~ msgstr "Giuirléidí Tuairisce Kexi"
+
+#~ msgctxt "Name"
+#~ msgid "Krita OpenEXR Export Filter"
+#~ msgstr "Scagaire Easpórtála OpenEXR Krita"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Database Component"
+#~ msgstr "Comhpháirt Bhunachair Sonraí le haghaidh KOffice"
+
+#~ msgctxt "Comment"
+#~ msgid "Chinese Brush"
+#~ msgstr "Scuab Shíneach"
+
+#~ msgctxt "Name"
+#~ msgid "Dynamic Brush"
+#~ msgstr "Scuab Dhinimiciúil"
+
+#~ msgctxt "Name"
+#~ msgid "Krita Magick Export Filter"
+#~ msgstr "Scagaire Easpórtála Magick Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita Magick Import Filter"
+#~ msgstr "Scagaire Iompórtála Magick Krita"
+
+#~ msgctxt "GenericName"
+#~ msgid "Form Designer"
+#~ msgstr "Dearthóir Foirme"
+
+#~ msgctxt "Name"
+#~ msgid "Form Designer"
+#~ msgstr "Dearthóir Foirme"
+
+#~ msgctxt "Name"
+#~ msgid "SQLite2"
+#~ msgstr "SQLite2"
+
+#~ msgctxt "Comment"
+#~ msgid "SQLite 2 is the old and obsolete version of Kexi embedded SQL engine"
+#~ msgstr ""
+#~ "Is é SQLite 2 an seanleagan den inneall leabaithe SQL le haghaidh Kexi"
+
+#~ msgctxt "Name"
+#~ msgid "RulerAssistantView"
+#~ msgstr "RulerAssistantView"
+
+#~ msgctxt "Comment"
+#~ msgid "RulerAssistantView"
+#~ msgstr "RulerAssistantView"
+
+#~ msgctxt "Name"
+#~ msgid "Kugar KugarXML Import Filter"
+#~ msgstr "Scagaire Iompórtála KugarXML Kugar"
+
+#~ msgctxt "Name"
+#~ msgid "KWord PDF Import Filter"
+#~ msgstr "Scagaire Iompórtála PDF le haghaidh KWord"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 10"
+#~ msgstr "Ceangal 10"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 11"
+#~ msgstr "Ceangal 11"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 12"
+#~ msgstr "Ceangal 12"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 02"
+#~ msgstr "Ceangal 02"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 03"
+#~ msgstr "Ceangal 03"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 04"
+#~ msgstr "Ceangal 04"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 05"
+#~ msgstr "Ceangal 05"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 06"
+#~ msgstr "Ceangal 06"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 07"
+#~ msgstr "Ceangal 07"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 08"
+#~ msgstr "Ceangal 08"
+
+#~ msgctxt "Name"
+#~ msgid "Connection 09"
+#~ msgstr "Ceangal 09"
+
+#~ msgctxt "GenericName"
+#~ msgid "Slide Presentations"
+#~ msgstr "Láithreoireachtaí Sleamhnán"
+
+#~ msgctxt "Comment"
+#~ msgid "KWord mailmerge plugin"
+#~ msgstr "Breiseán postchumaisc KWord"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Addressbook Plugin"
+#~ msgstr "Breiseán Leabhair Seoltaí KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "This datasource type lets you use your KDE Address Book entries."
+#~ msgstr ""
+#~ "Leis an gcineál seo foinse sonraí is féidir leat do chuid iontrálacha sa "
+#~ "Leabhar Seoltaí KDE a úsáid."
+
+#~ msgctxt "Name"
+#~ msgid "KSpread Table Source"
+#~ msgstr "Foinse Tábla KSpread"
+
+#~ msgctxt "Comment"
+#~ msgid "This datasource type lets you use your entries from a kspread file."
+#~ msgstr ""
+#~ "Leis an gcineál seo foinse sonraí is féidir leat do chuid iontrálacha a "
+#~ "úsáid ó chomhad kspread."
+
+#~ msgctxt "Comment"
+#~ msgid "This datasource type stores the data directly in the KWord file"
+#~ msgstr "Stórálann an cineál seo na sonraí go díreach sa chomhad KWord"
+
+#~ msgctxt "Name"
+#~ msgid "Qt-SQL Source (single table)"
+#~ msgstr "Foinse Qt-SQL (tábla aonair)"
+
+#~ msgctxt "Name"
+#~ msgid "Qt-SQL Source (power user)"
+#~ msgstr "Foinse Qt-SQL (ardúsáideoir)"
+
+#~ msgctxt "Name"
+#~ msgid "List of Resources"
+#~ msgstr "Liosta Acmhainní"
+
+#~ msgctxt "Name"
+#~ msgid "List of Tasks"
+#~ msgstr "Liosta Tascanna"
+
+#~ msgctxt "Name"
+#~ msgid "Simple Text Shape"
+#~ msgstr "Cruth Simplí Téacs"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Workspace"
+#~ msgstr "Spás Oibre KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "Kugar Designer"
+#~ msgstr "Dearthóir Kugar"
+
+#~ msgctxt "Name"
+#~ msgid "A0"
+#~ msgstr "A0"
+
+#~ msgctxt "Name"
+#~ msgid "A1"
+#~ msgstr "A1"
+
+#~ msgctxt "Name"
+#~ msgid "A2"
+#~ msgstr "A2"
+
+#~ msgctxt "Name"
+#~ msgid "A3"
+#~ msgstr "A3"
+
+#~ msgctxt "Name"
+#~ msgid "A5"
+#~ msgstr "A5"
+
+#~ msgctxt "Name"
+#~ msgid "A6"
+#~ msgstr "A6"
+
+#~ msgctxt "Name"
+#~ msgid "A7"
+#~ msgstr "A7"
+
+#~ msgctxt "Name"
+#~ msgid "A8"
+#~ msgstr "A8"
+
+#~ msgctxt "Name"
+#~ msgid "A9"
+#~ msgstr "A9"
+
+#~ msgctxt "Name"
+#~ msgid "B0"
+#~ msgstr "B0"
+
+#~ msgctxt "Name"
+#~ msgid "B1"
+#~ msgstr "B1"
+
+#~ msgctxt "Name"
+#~ msgid "B2"
+#~ msgstr "B2"
+
+#~ msgctxt "Name"
+#~ msgid "B3"
+#~ msgstr "B3"
+
+#~ msgctxt "Name"
+#~ msgid "B4"
+#~ msgstr "B4"
+
+#~ msgctxt "Name"
+#~ msgid "B5"
+#~ msgstr "B5"
+
+#~ msgctxt "Name"
+#~ msgid "B6"
+#~ msgstr "B6"
+
+#~ msgctxt "Name"
+#~ msgid "B7"
+#~ msgstr "B7"
+
+#~ msgctxt "Name"
+#~ msgid "B8"
+#~ msgstr "B8"
+
+#~ msgctxt "Name"
+#~ msgid "B9"
+#~ msgstr "B9"
+
+#~ msgctxt "Name"
+#~ msgid "C5E"
+#~ msgstr "C5E"
+
+#~ msgctxt "Name"
+#~ msgid "Comm10E"
+#~ msgstr "Comm10E"
+
+#~ msgctxt "Name"
+#~ msgid "US Letter"
+#~ msgstr "Litir Mheiriceánach (US Letter)"
+
+#~ msgctxt "GenericName"
+#~ msgid "Report Generator"
+#~ msgstr "Gineadóir Tuairiscí"
+
+#~ msgctxt "Name"
+#~ msgid "Imagehose Brush"
+#~ msgstr "Scuab Imagehose"
+
+#~ msgctxt "Comment"
+#~ msgid "Imagehose brush"
+#~ msgstr "Scuab Imagehose"
+
+#~ msgctxt "Name"
+#~ msgid "sybase"
+#~ msgstr "sybase"
+
+#~ msgctxt "Name"
+#~ msgid "Custom Brush"
+#~ msgstr "Scuab Shaincheaptha"
+
+#~ msgctxt "GenericName"
+#~ msgid "Painting and Image Editing Application"
+#~ msgstr "Feidhmchlár Péinteála agus Eagarthóir Íomhánna"
+
+#~ msgctxt "Name"
+#~ msgid "ConnectorTool for Kivio"
+#~ msgstr "ConnectorTool le haghaidh Kivio"
+
+#~ msgctxt "Name"
+#~ msgid "SelectTool for Kivio"
+#~ msgstr "SelectTool le haghaidh Kivio"
+
+#~ msgctxt "Name"
+#~ msgid "SML Based ConnectorTool for Kivio"
+#~ msgstr "ConnectorTool le haghaidh Kivio bunaithe ar SML"
+
+#~ msgctxt "Name"
+#~ msgid "Target Tool for Kivio"
+#~ msgstr "TargetTool le haghaidh Kivio"
+
+#~ msgctxt "Name"
+#~ msgid "TextTool for Kivio"
+#~ msgstr "TextTool le haghaidh Kivio"
+
+#~ msgctxt "Name"
+#~ msgid "ZoomTool for Kivio"
+#~ msgstr "ZoomTool le haghaidh Kivio"
+
+#~ msgctxt "Name"
+#~ msgid "Performance Test"
+#~ msgstr "Tástáil Fheidhmíochta"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Example Component"
+#~ msgstr "Comhpháirt Shamplach KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "Invert Filter with Threads"
+#~ msgstr "Inbhéartaigh Scagaire le Snáitheanna"
+
+#~ msgctxt "Name"
+#~ msgid "Collaboration plugin"
+#~ msgstr "Breiseán comhoibrithe"
+
+#~ msgctxt "Comment"
+#~ msgid "SQLite2 Database File"
+#~ msgstr "Comhad Bunachair Shonraí SQLite2"
+
+#~ msgctxt "Comment"
+#~ msgid "SQLite3 Database File"
+#~ msgstr "Comhad Bunachair Shonraí SQLite3"
+
+#~ msgctxt "Name"
+#~ msgid "Abiword Info"
+#~ msgstr "Eolas faoi Abiword"
+
+#~ msgctxt "Name"
+#~ msgid "Gnumeric Info"
+#~ msgstr "Ginearálta"
+
+#~ msgctxt "Name"
+#~ msgid "Zoom Tool"
+#~ msgstr "Uirlis Súmála"
+
+#~ msgctxt "Name"
+#~ msgid "KFormula MathML Export Filter"
+#~ msgstr "Scagaire Easpórtála MathML KFormula"
+
+#~ msgctxt "Name"
+#~ msgid "KFormula MathML Import Filter"
+#~ msgstr "Scagaire Iompórtála MathML KFormula"
+
+#~ msgctxt "Name"
+#~ msgid "Krita XCF Export Filter"
+#~ msgstr "Scagaire Easpórtála XCF Krita"
+
+#~ msgctxt "Name"
+#~ msgid "Krita XCF Import Filter"
+#~ msgstr "Scagaire Iompórtála XCF Krita"
+
+#~ msgctxt "Name"
+#~ msgid "KPresenter PowerPoint 97 Filter"
+#~ msgstr "Scagaire PowerPoint 97 le haghaidh KPresenter"
+
+#~ msgctxt "Name"
+#~ msgid "Image Tool"
+#~ msgstr "Uirlis Íomhá"
+
+#~ msgctxt "Name"
+#~ msgid "Screenshot"
+#~ msgstr "Seat den Scáileán"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Chart"
+#~ msgstr "Cairt OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Formula"
+#~ msgstr "Foirmle OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Graphics Template"
+#~ msgstr "Teimpléad Grafaice OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument SpreadSheet Template"
+#~ msgstr "Teimpléad Scarbhileoige OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Text Template"
+#~ msgstr "Teimpléad Téacs OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "RAW Camera Image"
+#~ msgstr "Íomhá Cheamara RAW"
+
+#~ msgctxt "Name"
+#~ msgid "OpenOffice.org Info"
+#~ msgstr "Eolas faoi OpenOffice.org"
+
+#~ msgid "Comment=Smeary brush"
+#~ msgstr "Comment=Scuab smeartha"
+
+#~ msgid "Name=Siox Tool"
+#~ msgstr "Name=Uirlis Siox"
+
+#~ msgid "Name=WriteUp"
+#~ msgstr "Name=WriteUp"
+
+#~ msgid "GenericName=Simplified Word Processing"
+#~ msgstr "GenericName=Próiseáil Focal Simplí"
+
+#~ msgid "Name=SQLite"
+#~ msgstr "Name=SQLite"
+
+#~ msgid "Name=KSpread Excel 97 Filter"
+#~ msgstr "Name=Scagaire Excel 97 le haghaidh KSpread"
+
+#~ msgid "Name=KWord WinWord 97 Filter"
+#~ msgstr "Name=Scagaire WinWord 97 le haghaidh KWord"
+
+#~ msgid "Name=Plain Text"
+#~ msgstr "Name=Gnáth-théacs"
+
+#~ msgid "Name=Simple Layout"
+#~ msgstr "Name=Leagan Amach Simplí"
+
+#~ msgid "Name="
+#~ msgstr "Name="
+
+#~ msgid "Name=mySQL"
+#~ msgstr "Name=mySQL"
+
+#~ msgid "GenericName=Image Manipulation Program"
+#~ msgstr "GenericName=Clár Ionramhála na nÍomhánna"
+
+#~ msgid "Comment=StarOffice Chart"
+#~ msgstr "Comment=Cairt StarOffice"
+
+#~ msgid "Comment=StarOffice Drawing"
+#~ msgstr "Comment=Dearadh StarOffice"
+
+#~ msgid "Name=Page Layout"
+#~ msgstr "Name=Leagan Amach Leathanaigh"

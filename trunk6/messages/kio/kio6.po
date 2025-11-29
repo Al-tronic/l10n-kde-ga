@@ -2,31 +2,32 @@
 # Copyright (C) 2002, 2004 Free Software Foundation, Inc.
 # Séamus Ó Ciardhuáin <seoc@cnds.ucd.ie>, 2002.
 # Kevin Scannell <kscanne@gmail.com>, 2004.
+# SPDX-FileCopyrightText: 2025 charlotte <altronic25@protonmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-28 00:39+0000\n"
-"PO-Revision-Date: 2004-12-14 15:11-0600\n"
-"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
-"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2025-11-24 00:39+0000\n"
+"PO-Revision-Date: 2025-11-28 15:21+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: \n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
-"3 : 4\n"
+"X-Generator: Lokalize 25.08.3\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : "
+"4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell,Charlotte"
 
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com,altronic25@protonmail.com"
 
 #: core/chmodjob.cpp:197
 #, fuzzy, kde-format
@@ -68,7 +69,7 @@ msgstr ""
 "Seiceáil na ceadanna."
 
 #: core/copyjob.cpp:179
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "Could not create \"%1\".\n"
 "The destination filesystem (%2) disallows the following characters in folder "
@@ -76,9 +77,13 @@ msgid ""
 "Selecting Replace will replace any invalid characters (in the destination "
 "folder name) with an underscore \"_\"."
 msgstr ""
+"Níorbh fhéidir a chruthú \"%1\".\n"
+"An chórais chomhad (%2) dícheadaigh an carachtair a leanas den ainmneacha fill"
+"teán: %3\n"
+"Má roghnaíonn Ionadaigh beidh athchuir neamhbhailí carachtair (san "
 
 #: core/copyjob.cpp:187
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "Could not create \"%1\".\n"
 "The destination filesystem (%2) disallows the following characters in file "
@@ -86,6 +91,8 @@ msgid ""
 "Selecting Replace will replace any invalid characters (in the destination "
 "file name) with an underscore \"_\"."
 msgstr ""
+"Níorbh fhéidir a chruthú \"%1\".\n"
+"An chórais chomhaid (%2) dícheadaigh an carachtair"
 
 #: core/copyjob.cpp:1387 core/job_error.cpp:588
 #, kde-format
@@ -104,7 +111,7 @@ msgid "Already Exists as Folder"
 msgstr "Ann cheana mar chomhadlann"
 
 #: core/copyjob.cpp:1865 kioworkers/trash/kio_trash.cpp:294
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "KFile System Bookmarks"
 #| msgid "Trash"
 msgid "Trash"
@@ -129,7 +136,7 @@ msgstr ""
 #: core/desktopexecparser.cpp:365
 #, kde-format
 msgid "The program '%1' is missing executable permissions."
-msgstr ""
+msgstr "Tá an ríomhchlár '%1' ceadanna inrite ar iarraidh."
 
 #: core/desktopexecparser.cpp:379
 #, kde-format
@@ -317,7 +324,7 @@ msgid "Could not start process %1."
 msgstr "Níorbh fhéidir tús a chur le próiseas %1."
 
 #: core/job_error.cpp:46
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Internal Error\n"
 #| "Please send a full bug report at http://bugs.kde.org\n"
@@ -328,7 +335,7 @@ msgid ""
 "%1"
 msgstr ""
 "Earráid inmheánach\n"
-"Seol tuairisc iomlán ag http://bugs.kde.org, le do thoil\n"
+"Seol tuairisc iomlán ag https://bugs.kde.org, le do thoil\n"
 "%1"
 
 #: core/job_error.cpp:49
@@ -717,6 +724,8 @@ msgid ""
 "Cannot transfer <filename>%1</filename> because it is too large. The "
 "destination filesystem only supports files up to 4GiB"
 msgstr ""
+"Ní féidir aistrigh <filename>%1</filename> mar gheall ar is ró-mór. An chórais"
+" chomhad dícheadaigh tacaíonn amháin suas go 4GiB."
 
 #: core/job_error.cpp:258
 #, kde-format
@@ -1683,7 +1692,7 @@ msgstr "Níorbh Fhéidir Stádas na hAcmhainne a Dhéanamh Amach"
 #: core/job_error.cpp:910
 #, kde-format
 msgid "Could Not Stat Resource"
-msgstr ""
+msgstr "Níorbh fhéidir dearna Stat Acmhainn"
 
 #: core/job_error.cpp:912
 #, kde-format
@@ -2360,10 +2369,10 @@ msgid "Unknown protocol '%1'."
 msgstr "Prótacal anaithnid '%1'."
 
 #: core/worker.cpp:403
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Can not find io-slave for protocol '%1'."
 msgid "Can not find a KIO worker for protocol '%1'."
-msgstr "Ní féidir sclábhaí I/A a aimsiú le haghaidh prótacal '%1'."
+msgstr "Ní féidir KIO I/A oibrí a aimsiú le haghaidh prótacal '%1'."
 
 #: core/worker.cpp:410
 #, kde-format
@@ -2427,7 +2436,7 @@ msgstr "&Cealaigh: Fillteán a Chruthú"
 #, kde-format
 msgctxt "Loading bar percent value"
 msgid "%p%"
-msgstr ""
+msgstr "%p%"
 
 #: filewidgets/kdiroperator.cpp:724 filewidgets/kdiroperator.cpp:757
 #, kde-format
@@ -2487,12 +2496,12 @@ msgid "Reload"
 msgstr "Athluchtaigh"
 
 #: filewidgets/kdiroperator.cpp:2036
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Default name for a new folder"
 #| msgid "New Folder"
 msgctxt "@action"
 msgid "New Folder…"
-msgstr "Fillteán Nua"
+msgstr "Fillteán Nua..."
 
 #: filewidgets/kdiroperator.cpp:2046 widgets/jobuidelegate.cpp:271
 #: widgets/jobuidelegate.cpp:272 widgets/jobuidelegate.cpp:281
@@ -2651,13 +2660,13 @@ msgstr "&Amharc"
 #, kde-format
 msgctxt "Sort descending"
 msgid "Z-A"
-msgstr ""
+msgstr "Z-A"
 
 #: filewidgets/kdiroperator.cpp:2355 filewidgets/kdiroperator.cpp:2367
 #, kde-format
 msgctxt "Sort ascending"
 msgid "A-Z"
-msgstr ""
+msgstr "A-Z"
 
 #: filewidgets/kdiroperator.cpp:2358
 #, fuzzy, kde-format
@@ -2707,11 +2716,11 @@ msgid "Save As"
 msgstr "Sábháil Mar"
 
 #: filewidgets/kfilecopytomenu.cpp:71
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Copy"
 msgctxt "@title:menu"
 msgid "Copy To"
-msgstr "Cóipeáil"
+msgstr "Cóipeáil Chuig"
 
 #: filewidgets/kfilecopytomenu.cpp:77
 #, fuzzy, kde-format
@@ -2721,7 +2730,7 @@ msgid "Move To"
 msgstr "Cuir sa Bhruscar"
 
 #: filewidgets/kfilecopytomenu.cpp:102
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Home Folder"
 msgctxt "@title:menu"
 msgid "Home Folder"
@@ -2736,34 +2745,34 @@ msgid "Root Folder"
 msgstr "1 Fhillteán"
 
 #: filewidgets/kfilecopytomenu.cpp:146
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Browse..."
 msgctxt "@action:inmenu in Copy To or Move To submenu"
 msgid "Browse…"
-msgstr "&Brabhsáil..."
+msgstr "Brabhsáil..."
 
 #: filewidgets/kfilecopytomenu.cpp:225
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Copy"
 msgctxt "@title:menu"
 msgid "Copy Here"
-msgstr "Cóipeáil"
+msgstr "Cóipeáil Anseo"
 
 #: filewidgets/kfilecopytomenu.cpp:225
 #, kde-format
 msgctxt "@title:menu"
 msgid "Move Here"
-msgstr ""
+msgstr "Aistrigh Anseo"
 
 #: filewidgets/kfilefiltercombo.cpp:37
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "*|All Files"
 msgctxt "Default mime type filter that shows all file types"
 msgid "*|All Files"
 msgstr "*|Gach Comhad"
 
 #: filewidgets/kfilefiltercombo.cpp:123
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 (%2)"
 msgctxt "%1 is the mimetype name, %2 is the extensions"
 msgid "%1 (%2)"
@@ -2862,7 +2871,7 @@ msgstr ""
 "seo, beidh an iontráil ar fáil i ngach feidhmchlár.</qt>"
 
 #: filewidgets/kfileplacesitem.cpp:221
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:window"
 #| msgid "Places"
 msgctxt "@item"
@@ -2910,11 +2919,11 @@ msgid "Tags"
 msgstr ""
 
 #: filewidgets/kfileplacesitem.cpp:344
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 (%2)"
 msgctxt "@info:tooltip path (mounted from)"
 msgid "%1 (from %2)"
-msgstr "%1 (%2)"
+msgstr "%1 (de %2)"
 
 #: filewidgets/kfileplacesmodel.cpp:158
 msgctxt "KFile System Bookmarks"
@@ -2931,19 +2940,18 @@ msgstr "Baile"
 #: filewidgets/kfileplacesmodel.cpp:263
 msgctxt "KFile System Bookmarks"
 msgid "Desktop"
-msgstr ""
+msgstr "Deasc"
 
 #: filewidgets/kfileplacesmodel.cpp:270
-#, fuzzy
 #| msgid "FIXME: Document this"
 msgctxt "KFile System Bookmarks"
 msgid "Documents"
-msgstr "FIXME: Doiciméadaigh é seo"
+msgstr "Cáipéisí"
 
 #: filewidgets/kfileplacesmodel.cpp:277
 msgctxt "KFile System Bookmarks"
 msgid "Downloads"
-msgstr ""
+msgstr "Íoslódála"
 
 #: filewidgets/kfileplacesmodel.cpp:282
 msgctxt "KFile System Bookmarks"
@@ -3010,11 +3018,11 @@ msgid "Only folders can be added to the Places panel."
 msgstr "Níl comhad nó comhadlann %1 ann."
 
 #: filewidgets/kfileplacesmodel.cpp:1341
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Configure &Policy..."
 msgctxt "@action:inmenu"
 msgid "Configure…"
-msgstr "Cumraigh &Polasaí..."
+msgstr "Cumraigh..."
 
 #: filewidgets/kfileplacesmodel.cpp:1377
 #, fuzzy, kde-format
@@ -3038,33 +3046,33 @@ msgid "Safely Removing…"
 msgstr "Bain '%1' go &sábháilte"
 
 #: filewidgets/kfileplacesmodel.cpp:1385
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Safely Remove '%1'"
 msgctxt "@action:inmenu"
 msgid "&Safely Remove"
-msgstr "Bain '%1' go &sábháilte"
+msgstr "Bain go &sábháilte"
 
 #: filewidgets/kfileplacesmodel.cpp:1390
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title job"
 #| msgid "Unmounting"
 msgctxt "@action:inmenu"
 msgid "Unmounting…"
-msgstr "Dífheistiú"
+msgstr "Dífheistiú..."
 
 #: filewidgets/kfileplacesmodel.cpp:1392
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Unmount"
 msgctxt "@action:inmenu"
 msgid "&Unmount"
-msgstr "Dífheistigh"
+msgstr "Dí&fheistigh"
 
 #: filewidgets/kfileplacesmodel.cpp:1416
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Eject"
 msgctxt "@action:inmenu"
 msgid "&Eject"
-msgstr "Díchuir"
+msgstr "&Díchuir"
 
 #: filewidgets/kfileplacesmodel.cpp:1463
 #, kde-format
@@ -3104,7 +3112,7 @@ msgstr[4] ""
 #, kde-format
 msgctxt "separator in list of apps blocking device unmount"
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: filewidgets/kfileplacesmodel.cpp:1579
 #, kde-format
@@ -3113,7 +3121,7 @@ msgid "Reformat or Edit with Partition Manager"
 msgstr ""
 
 #: filewidgets/kfileplacesview.cpp:338
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "items: folders, files (size)"
 #| msgid "%1: %2"
 msgctxt "@info:tooltip full display text since it is elided: original tooltip"
@@ -3130,7 +3138,7 @@ msgstr "%1 saor as %2 (%3% in úsáid)"
 #: filewidgets/kfileplacesview.cpp:665
 #, kde-format
 msgid "%1 (hidden)"
-msgstr ""
+msgstr "%1 (i bhfolach)"
 
 #: filewidgets/kfileplacesview.cpp:1218
 #, kde-format
@@ -3139,7 +3147,7 @@ msgid "Empty Trash"
 msgstr "Folmhaigh an Bruscar"
 
 #: filewidgets/kfileplacesview.cpp:1243
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mount"
 msgctxt "@action:inmenu"
 msgid "Mount"
@@ -3159,25 +3167,25 @@ msgid "Open in New Window"
 msgstr ""
 
 #: filewidgets/kfileplacesview.cpp:1265
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Add Entry..."
 msgctxt "@action:inmenu"
 msgid "Add Entry…"
 msgstr "Cuir Iontráil Leis..."
 
 #: filewidgets/kfileplacesview.cpp:1271
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Edit"
 msgctxt "@action:inmenu"
 msgid "&Edit…"
-msgstr "Eagar"
+msgstr "&Eagar..."
 
 #: filewidgets/kfileplacesview.cpp:1276
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Remove"
 msgctxt "@action:inmenu"
 msgid "Remove from Places"
-msgstr "Bain"
+msgstr "Bain de Áiteanna"
 
 #: filewidgets/kfileplacesview.cpp:1280
 #, kde-format
@@ -3224,26 +3232,26 @@ msgstr "Braith go h&Uathoibríoch"
 #, kde-format
 msgctxt "Small icon size"
 msgid "Small (%1x%1)"
-msgstr ""
+msgstr "Beag (%1x%1)"
 
 #: filewidgets/kfileplacesview.cpp:1445
 #, kde-format
 msgctxt "Medium icon size"
 msgid "Medium (%1x%1)"
-msgstr ""
+msgstr "Meánach (%1x%1)"
 
 #: filewidgets/kfileplacesview.cpp:1448
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Drive: %1"
 msgctxt "Large icon size"
 msgid "Large (%1x%1)"
-msgstr "Tiomántán: %1"
+msgstr "Mór (%1x%1)"
 
 #: filewidgets/kfileplacesview.cpp:1451
 #, kde-format
 msgctxt "Huge icon size"
 msgid "Huge (%1x%1)"
-msgstr ""
+msgstr "Ollmhór (%1x%1)"
 
 #: filewidgets/kfilewidget.cpp:404
 #, fuzzy, kde-format
@@ -3302,7 +3310,7 @@ msgid "Cannot open file"
 msgstr "Ní féidir an comhad a oscailt"
 
 #: filewidgets/kfilewidget.cpp:1219
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<qt>Click this button to enter the parent folder.<br /><br />For "
 #| "instance, if the current location is file:/home/%1 clicking this button "
@@ -3313,7 +3321,7 @@ msgid ""
 "you to file:/home.</qt>"
 msgstr ""
 "<qt>Cliceáil an cnaipe seo chun dul isteach sa mháthairfhillteán.<br /><br /"
-">Mar shampla, más é file:/home/%1 an suíomh reatha, rachaidh tú go file:/"
+">Mar shampla, más é file:/home/konqi an suíomh reatha, rachaidh tú go file:/"
 "home nuair a chliceálann tú an cnaipe seo.</qt>"
 
 #: filewidgets/kfilewidget.cpp:1223
@@ -3354,7 +3362,7 @@ msgid "Options"
 msgstr "Roghanna"
 
 #: filewidgets/kfilewidget.cpp:1248
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "<qt>This is the preferences menu for the file dialog. Various options can "
 #| "be accessed from this menu including: <ul><li>how files are sorted in the "
@@ -3372,7 +3380,7 @@ msgstr ""
 "roghanna a shocrú ón roghchlár seo, mar shampla: <ul><li>conas a "
 "shórtáiltear na comhaid sa liosta</li><li>cineál an amhairc, deilbhíní nó "
 "liosta san áireamh</li><li>taispeáint comhaid fholaithe</li><li>an painéal "
-"nascleanúna Áiteanna</li><li>réamhamhairc</li><li>dealú fillteáin agus "
+"Áiteanna</li><li>réamhamhairc</li><li>dealú fillteáin agus "
 "comhaid</li></ul></qt>"
 
 #: filewidgets/kfilewidget.cpp:1267
@@ -3476,10 +3484,10 @@ msgid "Remote Files Not Accepted"
 msgstr "Ní Ghlactar Le Cianchomhaid"
 
 #: filewidgets/kfilewidget.cpp:2054
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "*|All Folders"
 msgid "All Folders"
-msgstr "*|Gach Fillteán"
+msgstr "Gach Fillteán"
 
 #: filewidgets/kfilewidget.cpp:2194 widgets/kfileitemactions.cpp:777
 #, kde-format
@@ -3682,21 +3690,19 @@ msgid "New Folder"
 msgstr "Fillteán Nua"
 
 #: filewidgets/knewfilemenu.cpp:1572
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Und&o: Create Folder"
 msgctxt "@title:window"
 msgid "Create New Folder"
-msgstr "&Cealaigh: Fillteán a Chruthú"
+msgstr "Chruthaigh Fillteán Nua"
 
 #: filewidgets/knewfilemenu.cpp:1574
-#, fuzzy, kde-format
+#, kde-format
 #| msgid ""
 #| "Create new folder in:\n"
 #| "%1"
 msgid "Create new folder in %1:"
-msgstr ""
-"Cruthaigh fillteán nua i:\n"
-"%1"
+msgstr "Cruthaigh fillteán nua i %1:"
 
 #: filewidgets/knewfilemenu.cpp:1577 widgets/kpropertiesdialogbuiltin_p.cpp:365
 #, fuzzy, kde-format
@@ -3707,18 +3713,18 @@ msgid "Enter folder name"
 msgstr "Iontráil ainm difriúil"
 
 #: filewidgets/knewfilemenu.cpp:1634
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Default"
 msgid "Default"
 msgstr "Réamhshocrú"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, NewFileDialog)
 #: filewidgets/knewfilemenu_newfiledialog.ui:20
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Create New File Type"
 msgctxt "@title:window"
 msgid "Create New File"
-msgstr "Cruthaigh Cineál Nua Comhaid"
+msgstr "Cruthaigh Comhad Nua"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, lineEdit)
 #: filewidgets/knewfilemenu_newfiledialog.ui:57
@@ -3855,7 +3861,7 @@ msgid "You are not authorized to execute this file."
 msgstr "Níl cead agat an comhad seo a rith."
 
 #: gui/applicationlauncherjob.cpp:136 gui/commandlauncherjob.cpp:117
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Launching %1"
 msgctxt "Launching application"
 msgid "Launching %1"
@@ -4107,7 +4113,7 @@ msgstr ""
 #: kioexec/main.cpp:307
 #, kde-format
 msgid "David Faure"
-msgstr ""
+msgstr "David Faure"
 
 #: kioexec/main.cpp:308
 #, kde-format
@@ -4117,18 +4123,18 @@ msgstr "Stephan Kulow"
 #: kioexec/main.cpp:309
 #, kde-format
 msgid "Bernhard Rosenkraenzer"
-msgstr ""
+msgstr "Bernhard Rosenkraenzer"
 
 #: kioexec/main.cpp:310
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(C) 2004 Waldo Bastian"
 msgid "Waldo Bastian"
-msgstr "© 2004 Waldo Bastian"
+msgstr "Waldo Bastian"
 
 #: kioexec/main.cpp:311
 #, kde-format
 msgid "Oswald Buddenhagen"
-msgstr ""
+msgstr "Oswald Buddenhagen"
 
 #: kioexec/main.cpp:316
 #, kde-format
@@ -4210,10 +4216,10 @@ msgid "Connected to host %1"
 msgstr "Ceangailte le hóstríomhaire %1"
 
 #: kioworkers/ftp/ftp.cpp:477
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "%1 (%2)"
 msgid "%1 (Error %2)"
-msgstr "%1 (%2)"
+msgstr "%1 (Earráid %2)"
 
 #: kioworkers/ftp/ftp.cpp:507
 #, kde-format
@@ -4344,13 +4350,13 @@ msgstr "Fíordheimhniú den Fhreastalaí"
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> ag <b>%2</b>"
 
-#: kioworkers/http/http.cpp:1392
+#: kioworkers/http/http.cpp:1367
 #, kde-format
 msgid "Otherwise, the request would have succeeded."
 msgstr ""
 
 # SEE BELOW - all "attempting to...", or "unable to..."
-#: kioworkers/http/http.cpp:1395
+#: kioworkers/http/http.cpp:1370
 #, kde-format
 msgctxt "request type"
 msgid "retrieve property values"
@@ -4360,7 +4366,7 @@ msgstr ""
 "             unable-to 'luachanna airíonna a fháil'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1397
+#: kioworkers/http/http.cpp:1372
 #, kde-format
 msgctxt "request type"
 msgid "set property values"
@@ -4370,7 +4376,7 @@ msgstr ""
 "             unable-to 'luachanna airíonna a shocrú'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1399
+#: kioworkers/http/http.cpp:1374
 #, kde-format
 msgctxt "request type"
 msgid "create the requested folder"
@@ -4380,7 +4386,7 @@ msgstr ""
 "             unable-to 'an fillteán iarrtha a chruthú'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1401
+#: kioworkers/http/http.cpp:1376
 #, kde-format
 msgctxt "request type"
 msgid "copy the specified file or folder"
@@ -4390,7 +4396,7 @@ msgstr ""
 "             unable-to 'an comhad nó fillteán sonraithe a chóipeáil'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1403
+#: kioworkers/http/http.cpp:1378
 #, kde-format
 msgctxt "request type"
 msgid "move the specified file or folder"
@@ -4400,7 +4406,7 @@ msgstr ""
 "             unable-to 'an comhad nó fillteán sonraithe a bhogadh'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1405
+#: kioworkers/http/http.cpp:1380
 #, kde-format
 msgctxt "request type"
 msgid "search in the specified folder"
@@ -4410,7 +4416,7 @@ msgstr ""
 "             unable-to 'an fillteán sonraithe a chuardach'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1407
+#: kioworkers/http/http.cpp:1382
 #, kde-format
 msgctxt "request type"
 msgid "lock the specified file or folder"
@@ -4420,7 +4426,7 @@ msgstr ""
 "             unable-to 'an comhad nó fillteán sonraithe a chur faoi ghlas'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1409
+#: kioworkers/http/http.cpp:1384
 #, kde-format
 msgctxt "request type"
 msgid "unlock the specified file or folder"
@@ -4431,7 +4437,7 @@ msgstr ""
 "oscailt'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1411
+#: kioworkers/http/http.cpp:1386
 #, kde-format
 msgctxt "request type"
 msgid "delete the specified file or folder"
@@ -4441,7 +4447,7 @@ msgstr ""
 "             unable-to 'an comhad nó an fillteán sonraithe a scriosadh'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1413
+#: kioworkers/http/http.cpp:1388
 #, kde-format
 msgctxt "request type"
 msgid "query the server's capabilities"
@@ -4451,7 +4457,7 @@ msgstr ""
 "             unable-to 'cumas an fhreastalaí a fháil amach'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1415
+#: kioworkers/http/http.cpp:1390
 #, kde-format
 msgctxt "request type"
 msgid "retrieve the contents of the specified file or folder"
@@ -4461,13 +4467,13 @@ msgstr ""
 "             unable-to 'inneachar an comhad nó fillteán sonraithe a fháil'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1417
+#: kioworkers/http/http.cpp:1392
 #, kde-format
 msgctxt "request type"
 msgid "run a report in the specified folder"
 msgstr ""
 
-#: kioworkers/http/http.cpp:1425
+#: kioworkers/http/http.cpp:1400
 #, kde-format
 msgctxt "%1: code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
@@ -4475,7 +4481,7 @@ msgstr ""
 "Tharla earráid gan súil léi (%1) nuair a bhíothas ag iarraidh %2.|/|Tharla "
 "earráid gan súil léi (%1) agus $[attempting-to %2]."
 
-#: kioworkers/http/http.cpp:1465
+#: kioworkers/http/http.cpp:1440
 #, kde-format
 msgctxt "%1: request type, %2: url"
 msgid ""
@@ -4485,7 +4491,7 @@ msgstr ""
 "Tharla earráid nuair a bhíothas ag iarraidh %1, %2.  Achoimre thíos.|/|"
 "Tharla earráid agus $[attempting-to %1], %2.  Achoimre thíos."
 
-#: kioworkers/http/http.cpp:1483 kioworkers/http/http.cpp:1627
+#: kioworkers/http/http.cpp:1458 kioworkers/http/http.cpp:1602
 #, kde-format
 msgctxt "%1: request type"
 msgid "Access was denied while attempting to %1."
@@ -4493,14 +4499,14 @@ msgstr ""
 "Rochtain diúltaithe nuair a bhíothas ag iarraidh %1.|/|Rochtain diúltaithe "
 "agus $[attempting-to %1]."
 
-#: kioworkers/http/http.cpp:1497 kioworkers/http/http.cpp:1634
+#: kioworkers/http/http.cpp:1472 kioworkers/http/http.cpp:1609
 #, kde-format
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
 msgstr ""
 
-#: kioworkers/http/http.cpp:1506
+#: kioworkers/http/http.cpp:1481
 #, kde-format
 msgid ""
 "The server was unable to maintain the liveness of the\n"
@@ -4510,17 +4516,17 @@ msgid ""
 " %1"
 msgstr ""
 
-#: kioworkers/http/http.cpp:1514
+#: kioworkers/http/http.cpp:1489
 #, kde-format
 msgid "The requested lock could not be granted. %1"
 msgstr ""
 
-#: kioworkers/http/http.cpp:1520
+#: kioworkers/http/http.cpp:1495
 #, kde-format
 msgid "The server does not support the request type of the body."
 msgstr ""
 
-#: kioworkers/http/http.cpp:1525 kioworkers/http/http.cpp:1642
+#: kioworkers/http/http.cpp:1500 kioworkers/http/http.cpp:1617
 #, kde-format
 msgctxt "%1: request type"
 msgid "Unable to %1 because the resource is locked."
@@ -4528,12 +4534,12 @@ msgstr ""
 "Ní féidir %1 toisc go bhfuil an acmhainn faoi ghlas.|/|Ní féidir $[unable-to "
 "%1] toisc go bhfuil an acmhainn faoi ghlas."
 
-#: kioworkers/http/http.cpp:1529
+#: kioworkers/http/http.cpp:1504
 #, kde-format
 msgid "This action was prevented by another error."
 msgstr ""
 
-#: kioworkers/http/http.cpp:1536 kioworkers/http/http.cpp:1649
+#: kioworkers/http/http.cpp:1511 kioworkers/http/http.cpp:1624
 #, kde-format
 msgctxt "%1: request type"
 msgid ""
@@ -4544,19 +4550,19 @@ msgstr ""
 "leis an bhfillteán.|/|Ní féidir $[unable-to %1] toisc nach nglacann an "
 "freastalaí sprice leis an gcomhad nó leis an bhfillteán."
 
-#: kioworkers/http/http.cpp:1545 kioworkers/http/http.cpp:1658
+#: kioworkers/http/http.cpp:1520 kioworkers/http/http.cpp:1633
 #, kde-format
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
 msgstr ""
 
-#: kioworkers/http/http.cpp:1598
+#: kioworkers/http/http.cpp:1573
 #, kde-format
 msgid "The resource cannot be deleted."
 msgstr "Ní féidir an acmhainn a scriosadh."
 
-#: kioworkers/http/http.cpp:1618
+#: kioworkers/http/http.cpp:1593
 #, kde-format
 msgctxt "request type"
 msgid "upload %1"
@@ -4565,7 +4571,7 @@ msgstr ""
 "             unable-to %1' a uasluchtú'\n"
 "]"
 
-#: kioworkers/http/http.cpp:1669
+#: kioworkers/http/http.cpp:1644
 #, kde-format
 msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
@@ -4574,7 +4580,7 @@ msgstr ""
 "earráid gan súil léi (%1) agus $[attempting-to %2]."
 
 #: kioworkers/remote/remoteimpl.cpp:98
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "KFile System Bookmarks"
 #| msgid "Network"
 msgid "Network"
@@ -4584,10 +4590,10 @@ msgstr "Líonra"
 #: kioworkers/trash/kio_trash.cpp:220 kioworkers/trash/kio_trash.cpp:383
 #: kioworkers/trash/kio_trash.cpp:415 kioworkers/trash/kio_trash.cpp:591
 #: kioworkers/trash/kio_trash.cpp:601
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Malformed URL %1."
 msgid "Malformed URL %1"
-msgstr "URL míchumtha %1."
+msgstr "URL míchumtha %1"
 
 #: kioworkers/trash/kio_trash.cpp:135
 #, kde-format
@@ -4611,10 +4617,10 @@ msgid "This file is already in the trash bin."
 msgstr "Is nasc é an comhad seo agus níl ceadanna aige."
 
 #: kioworkers/trash/kio_trash_win.cpp:244
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Writing to %1 is not supported."
 msgid "not supported"
-msgstr "Ní thacaítear le scríobh chuig %1."
+msgstr "Ní thacaítear"
 
 #: kioworkers/trash/kio_trash_win.cpp:253
 #, fuzzy, kde-format
@@ -4650,10 +4656,10 @@ msgid "The trash is full. Empty it or remove items manually."
 msgstr ""
 
 #: kpasswdserver/kpasswdserver.cpp:529
-#, fuzzy, kde-format
+#, kde-format
 #| msgid " Do you want to retry?"
 msgid "Do you want to retry?"
-msgstr " An bhfuil fonn ort é a thriail arís?"
+msgstr "An bhfuil fonn ort é a thriail arís?"
 
 #: kpasswdserver/kpasswdserver.cpp:533
 #, fuzzy, kde-format
@@ -4662,7 +4668,7 @@ msgid "Retry Authentication"
 msgstr "Fíordheimhniú den Fhreastalaí"
 
 #: kpasswdserver/kpasswdserver.cpp:536
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Retry"
 msgctxt "@action:button filter-continue"
 msgid "Retry"
@@ -4675,7 +4681,7 @@ msgid "Authentication Dialog"
 msgstr "Dialóg Údaraithe"
 
 #: schemehandlers/telnet/ktelnetservice.cpp:54
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Access Denied"
 msgid "Access denied"
 msgstr "Cead Rochtana Diúltaithe"
@@ -4805,28 +4811,28 @@ msgstr ""
 #: widgets/checksumswidget.ui:70
 #, kde-format
 msgid "MD5:"
-msgstr ""
+msgstr "MD5:"
 
 #. i18n: SHA1 is the hashing algorithm
 #. i18n: ectx: property (text), widget (QLabel, sha1Label)
 #: widgets/checksumswidget.ui:80
 #, kde-format
 msgid "SHA1:"
-msgstr ""
+msgstr "SHA1:"
 
 #. i18n: SHA256 is the hashing algorithm
 #. i18n: ectx: property (text), widget (QLabel, sha256Label)
 #: widgets/checksumswidget.ui:90
 #, kde-format
 msgid "SHA256:"
-msgstr ""
+msgstr "SHA256:"
 
 #. i18n: SHA512 is the hashing algorithm
 #. i18n: ectx: property (text), widget (QLabel, sha512Label)
 #: widgets/checksumswidget.ui:100
 #, kde-format
 msgid "SHA512:"
-msgstr ""
+msgstr "SHA512:"
 
 #. i18n: ectx: property (text), widget (QPushButton, md5Button)
 #. i18n: ectx: property (text), widget (QPushButton, sha1Button)
@@ -4902,14 +4908,14 @@ msgid "What do you wish to do with this file?"
 msgstr "An bhfuil fonn ort an frása faire a shábháil i do sparán?"
 
 #: widgets/executablefileopendialog.cpp:90
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Open"
 msgctxt "@action:button"
 msgid "&Open"
 msgstr "&Oscail"
 
 #: widgets/executablefileopendialog.cpp:92
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Open with %1"
 msgctxt "@action:button"
 msgid "&Open with %1"
@@ -4953,7 +4959,7 @@ msgid "Destination"
 msgstr "Comhad Sprice"
 
 #: widgets/fileundomanager.cpp:131
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title job"
 #| msgid "Copying"
 msgid "Copying"
@@ -4972,10 +4978,10 @@ msgid "Renaming"
 msgstr "&Athainmnigh"
 
 #: widgets/fileundomanager.cpp:147
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Move to Trash"
 msgid "Moving to Trash"
-msgstr "Cuir sa Bhruscar"
+msgstr "Cuirim sa Bhruscar"
 
 # not "Á" here
 #: widgets/fileundomanager.cpp:152
@@ -5019,10 +5025,10 @@ msgid "Und&o: Create Folder"
 msgstr "&Cealaigh: Fillteán a Chruthú"
 
 #: widgets/fileundomanager.cpp:344
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Und&o: Create Folder"
 msgid "Und&o: Create Folder(s)"
-msgstr "&Cealaigh: Fillteán a Chruthú"
+msgstr "&Cealaigh: Fillteáin a Chruthú"
 
 #: widgets/fileundomanager.cpp:346
 #, kde-format
@@ -5124,20 +5130,20 @@ msgstr ""
 
 #: widgets/jobuidelegate.cpp:233 widgets/jobuidelegate.cpp:247
 #: widgets/jobuidelegate.cpp:259 widgets/widgetsaskuseractionhandler.cpp:203
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Delete Entry"
 msgid "Delete Permanently"
-msgstr "Bain Iontráil"
+msgstr "Bain go Buan"
 
 #: widgets/jobuidelegate.cpp:234 widgets/jobuidelegate.cpp:248
 #: widgets/widgetsaskuseractionhandler.cpp:246
 #: widgets/widgetsaskuseractionhandler.cpp:268
 #: widgets/widgetsaskuseractionhandler.cpp:290
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Delete Entry"
 msgctxt "@action:button"
 msgid "Delete Permanently"
-msgstr "Bain Iontráil"
+msgstr "Bain go Buan"
 
 #: widgets/jobuidelegate.cpp:243
 #, kde-kuit-format
@@ -5169,14 +5175,16 @@ msgid "Empty Trash"
 msgstr "Folmhaigh an Bruscar"
 
 #: widgets/jobuidelegate.cpp:270 widgets/widgetsaskuseractionhandler.cpp:305
-#, fuzzy, kde-kuit-format
+#, kde-kuit-format
 #| msgid "Do you really want to move this item to the trash?"
 #| msgid_plural "Do you really want to move these %1 items to the trash?"
 msgctxt "@info"
 msgid ""
 "Do you really want to move this item to the Trash?<nl/><filename>%1</"
 "filename>"
-msgstr "An bhfuil tú cinnte gur mian leat an mhír seo a chur sa bhruscar?"
+msgstr ""
+"An bhfuil tú cinnte gur mian leat an mhír seo a chur sa bhruscar?<nl/><filenam"
+"e>%1</filename>"
 
 #: widgets/jobuidelegate.cpp:279
 #, fuzzy, kde-format
@@ -5197,49 +5205,49 @@ msgid "Add…"
 msgstr ""
 
 #: widgets/kacleditwidget.cpp:75
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Edit"
 msgctxt "@action:button"
 msgid "Edit…"
-msgstr "Eagar"
+msgstr "Eagar..."
 
 #: widgets/kacleditwidget.cpp:79
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Delete"
 msgctxt "@action:button"
 msgid "Delete"
 msgstr "Scrios"
 
 #: widgets/kacleditwidget.cpp:227
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Owner"
 msgctxt "Unix permissions"
 msgid "Owner"
 msgstr "Úinéir"
 
 #: widgets/kacleditwidget.cpp:231
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Owning Group"
 msgctxt "UNIX permissions"
 msgid "Owning Group"
 msgstr "Grúpa an Chomhaid"
 
 #: widgets/kacleditwidget.cpp:235 widgets/kacleditwidget.cpp:247
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Others"
 msgctxt "UNIX permissions"
 msgid "Others"
 msgstr "Eile"
 
 #: widgets/kacleditwidget.cpp:239
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mask"
 msgctxt "UNIX permissions"
 msgid "Mask"
 msgstr "Masc"
 
 #: widgets/kacleditwidget.cpp:243
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Named User"
 msgctxt "UNIX permissions"
 msgid "Named User"
@@ -5345,10 +5353,10 @@ msgid "Updating System Configuration"
 msgstr "Cumraíocht an chórais á nuashonrú"
 
 #: widgets/kbuildsycocaprogressdialog.cpp:30
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Updating system configuration."
 msgid "Updating system configuration…"
-msgstr "Cumraíocht an chórais á nuashonrú."
+msgstr "Cumraíocht an chórais á nuashonrú..."
 
 #: widgets/kdirmodel.cpp:1262
 #, kde-format
@@ -5418,12 +5426,12 @@ msgid "&Open Folder With…"
 msgstr "&Oscail Le"
 
 #: widgets/kfileitemactions.cpp:704
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@title:menu"
 #| msgid "&Open With"
 msgctxt "@action:inmenu"
 msgid "&Open With…"
-msgstr "&Oscail Le"
+msgstr "&Oscail Le..."
 
 #: widgets/kfileitemactions.cpp:766
 #, fuzzy, kde-format
@@ -5436,7 +5444,7 @@ msgstr "&Oscail le %1"
 msgid "&Open with %1"
 msgstr "&Oscail le %1"
 
-#: widgets/kfileitemactions.cpp:798
+#: widgets/kfileitemactions.cpp:807
 #, fuzzy, kde-format
 #| msgctxt "@title:menu"
 #| msgid "&Open With"
@@ -5444,13 +5452,13 @@ msgctxt "@title:menu"
 msgid "&Open Folder With"
 msgstr "&Oscail Le"
 
-#: widgets/kfileitemactions.cpp:798
+#: widgets/kfileitemactions.cpp:807
 #, kde-format
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "&Oscail Le"
 
-#: widgets/kfileitemactions.cpp:809
+#: widgets/kfileitemactions.cpp:818
 #, fuzzy, kde-format
 #| msgid "&Application"
 msgctxt "@action:inmenu Open With"
@@ -5490,17 +5498,17 @@ msgstr "Inneachar:"
 
 #. i18n: ectx: property (text), widget (QLabel, defaultHandlerLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:138
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Open With"
 msgid "Open With:"
-msgstr "Oscail Le"
+msgstr "Oscail Le:"
 
 #. i18n: ectx: property (text), widget (QPushButton, configureMimeBtn)
 #: widgets/kfilepropspluginwidget.ui:192
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "C&hange..."
 msgid "Change..."
-msgstr "A&thraigh..."
+msgstr "Athraigh..."
 
 #. i18n: ectx: property (text), widget (QLabel, locationLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:204 widgets/kurlrequesterdialog.cpp:44
@@ -5572,24 +5580,24 @@ msgstr "Rochtain:"
 
 #. i18n: ectx: property (text), widget (QLabel, fsLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:455
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "File system:"
 msgid "File System:"
-msgstr "Córas comhaid:"
+msgstr "Córas Comhaid:"
 
 #. i18n: ectx: property (text), widget (QLabel, mountPointLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:481
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mounted on:"
 msgid "Mounted On:"
-msgstr "Feistithe ar:"
+msgstr "Feistithe Ar:"
 
 #. i18n: ectx: property (text), widget (QLabel, mountSrcLabel_Left)
 #: widgets/kfilepropspluginwidget.ui:507
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Mounted on:"
 msgid "Mounted From:"
-msgstr "Feistithe ar:"
+msgstr "Feistithe De:"
 
 #. i18n: ectx: property (text), widget (QLabel, freespaceLabel)
 #: widgets/kfilepropspluginwidget.ui:533
@@ -5732,10 +5740,10 @@ msgstr ""
 "comhaid seo"
 
 #: widgets/kopenwithdialog.cpp:754
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Terminal options:"
 msgid "Terminal options"
-msgstr "&Roghanna an teirminéil:"
+msgstr "Roghanna an teirminéil"
 
 #: widgets/kopenwithdialog.cpp:759
 #, kde-format
@@ -5772,17 +5780,17 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, terminalCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:42
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Run in terminal"
 msgid "Run in terminal"
-msgstr "&Rith i dteirminéal"
+msgstr "Rith i dteirminéal"
 
 #. i18n: ectx: property (text), widget (QLabel, terminalEditLabel)
 #: widgets/kpropertiesdesktopadvbase.ui:49
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Terminal options:"
 msgid "Terminal options:"
-msgstr "&Roghanna an teirminéil:"
+msgstr "Roghanna an teirminéil:"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, terminalCloseCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:59
@@ -5795,10 +5803,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, terminalCloseCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:62
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Do not close when command exits"
 msgid "Do not close when command exits"
-msgstr "Ná &dún nuair a stopann an t-ordú"
+msgstr "Ná dún nuair a stopann an t-ordú"
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup2_2)
 #: widgets/kpropertiesdesktopadvbase.ui:75
@@ -5821,10 +5829,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, suidCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:84
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Ru&n as a different user"
 msgid "Run as a different user"
-msgstr "Rith &mar úsáideoir eile"
+msgstr "Rith mar úsáideoir eile"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, suidEditLabel)
 #: widgets/kpropertiesdesktopadvbase.ui:107
@@ -5858,7 +5866,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, buttonGroup4)
 #: widgets/kpropertiesdesktopadvbase.ui:146
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt ""
 #| "@title:group Title of a group that lets the user choose options regargin "
 #| "program startup"
@@ -5879,10 +5887,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, startupInfoCheck)
 #: widgets/kpropertiesdesktopadvbase.ui:155
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Enable &launch feedback"
 msgid "Enable launch feedback"
-msgstr "Cumasaigh &aiseolas tosaithe"
+msgstr "Cumasaigh aiseolas tosaithe"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, nameLabel)
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, nameEdit)
@@ -6185,11 +6193,11 @@ msgid "Show <filename>%1</filename>"
 msgstr "An bhfuil tú cinnte gur mian leat an mhír seo a chur sa bhruscar?"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:564
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@item:inmenu Create New"
 #| msgid "%1"
 msgid "%1:"
-msgstr "%1"
+msgstr "%1:"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:686
 #, fuzzy, kde-format
@@ -6266,11 +6274,11 @@ msgid "Create…"
 msgstr "Cruthaithe:"
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1007
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "C&hange..."
 msgctxt "@action:button"
 msgid "Change…"
-msgstr "A&thraigh..."
+msgstr "Athraigh..."
 
 #: widgets/kpropertiesdialogbuiltin_p.cpp:1009
 #, kde-format
@@ -6870,7 +6878,7 @@ msgid "Search for '%1' with"
 msgstr ""
 
 #: widgets/kurifiltersearchprovideractions.cpp:85
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "@item:inmenu Create New"
 #| msgid "%1"
 msgctxt "@action:inmenu Search for <text> with"
@@ -6942,14 +6950,14 @@ msgstr[3] "%1 Mír"
 msgstr[4] "%1 Mír"
 
 #: widgets/paste.cpp:257
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "&Paste Clipboard Contents"
 msgctxt "@action:inmenu"
 msgid "Paste Clipboard Contents…"
-msgstr "&Greamaigh Inneachar na Gearrthaisce"
+msgstr "Greamaigh Inneachar na Gearrthaisce..."
 
 #: widgets/paste.cpp:261
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Paste"
 msgctxt "@action:inmenu"
 msgid "Paste"
@@ -6978,10 +6986,10 @@ msgid "Date: %1"
 msgstr "Tiomántán: %1"
 
 #: widgets/renamedialog.cpp:75
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Size:"
 msgid "Size: %1"
-msgstr "Méid:"
+msgstr "Méid: %1"
 
 #: widgets/renamedialog.cpp:231
 #, kde-format
@@ -7581,14 +7589,14 @@ msgstr[3] "An bhfuil tú cinnte gur mian leat an mhír seo a chur sa bhruscar?"
 msgstr[4] "An bhfuil tú cinnte gur mian leat an mhír seo a chur sa bhruscar?"
 
 #: widgets/widgetsaskuseractionhandler.cpp:367
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Do not ask again"
 msgctxt "@option:checkbox"
 msgid "Do not ask again"
 msgstr "Ná fiafraigh díom arís"
 
 #: widgets/widgetsaskuseractionhandler.cpp:411
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Do not ask again"
 msgctxt "@option:check"
 msgid "Do not ask again"
@@ -7612,7 +7620,7 @@ msgid "SSL"
 msgstr "SSL"
 
 #: widgets/widgetsuntrustedprogramhandler.cpp:110
-#, fuzzy, kde-format
+#, kde-format
 #| msgctxt "Warning about executing unknown .desktop file"
 #| msgid "Warning"
 msgctxt "Warning about executing unknown program"

@@ -5,16 +5,16 @@ msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-17 11:59+0000\n"
-"PO-Revision-Date: 2004-12-03 14:52-0500\n"
-"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"PO-Revision-Date: 2025-11-28 17:01+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
-"3 : 4\n"
+"3 : 4;\n"
+"X-Generator: Poedit 3.7\n"
 
 #: desktop/konsole.notifyrc:4
 msgctxt "Comment"
@@ -22,52 +22,44 @@ msgid "Konsole"
 msgstr "Konsole"
 
 #: desktop/konsole.notifyrc:97
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Bell in Visible Session"
 msgctxt "Name"
 msgid "Bell in Focused Session"
-msgstr "Cloigín i Seisiún Infheicthe"
+msgstr "Clog i Seisiún Dírithe"
 
 #: desktop/konsole.notifyrc:146
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Bell emitted within a visible session"
 msgctxt "Comment"
 msgid "Bell emitted within a focused session"
-msgstr "Baineadh an cloigín i seisiún infheicthe"
+msgstr "Cloigín a eisíodh laistigh de sheisiún dírithe"
 
 #: desktop/konsole.notifyrc:198
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Bell in Non-Visible Session"
 msgctxt "Name"
 msgid "Bell in Non-Focused Session"
-msgstr "Cloigín i Seisiún Dofheicthe"
+msgstr "Clog i Seisiún Neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:247
-#, fuzzy
-#| msgctxt "Comment"
-#| msgid "Bell emitted within a non-visible session"
 msgctxt "Comment"
 msgid "Bell emitted within a non-focused session"
-msgstr "Baineadh an cloigín i seisiún dofheicthe"
+msgstr "Cloigín a eisíodh laistigh de sheisiún neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:300
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Activity in Monitored Session"
 msgctxt "Name"
 msgid "Activity in Non-Focused Monitored Session"
-msgstr "Gníomhaíocht i Seisiún Monatóirithe"
+msgstr "Gníomhaíocht i Seisiún Monatóireachta Neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:349
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Activity detected in a monitored session"
 msgctxt "Comment"
 msgid "Activity detected in a non-focused monitored session"
-msgstr "Braitheadh gníomhaíocht i seisiún monatóirithe"
+msgstr "Gníomhaíocht braite i seisiún monatóireachta neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:401
 msgctxt "Name"
@@ -80,20 +72,18 @@ msgid "Activity detected in a monitored session"
 msgstr "Braitheadh gníomhaíocht i seisiún monatóirithe"
 
 #: desktop/konsole.notifyrc:572
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Silence in Monitored Session"
 msgctxt "Name"
 msgid "Silence in Non-Focused Monitored Session"
-msgstr "Ciúnas i Seisiún Monatóirithe"
+msgstr "Ciúnas i Seisiún Monatóireachta Neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:621
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Silence detected in a monitored session"
 msgctxt "Comment"
 msgid "Silence detected in a non-focused monitored session"
-msgstr "Braitheadh ciúnas i seisiún monatóirithe"
+msgstr "Tost braite i seisiún monatóireachta neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:673
 msgctxt "Name"
@@ -106,36 +96,32 @@ msgid "Silence detected in a monitored session"
 msgstr "Braitheadh ciúnas i seisiún monatóirithe"
 
 #: desktop/konsole.notifyrc:844
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Silence in Monitored Session"
 msgctxt "Name"
 msgid "Process finished in Non-Focused Monitored Session"
-msgstr "Ciúnas i Seisiún Monatóirithe"
+msgstr "Próiseas críochnaithe i Seisiún Monatóireachta Neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:888
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Silence detected in a monitored session"
 msgctxt "Comment"
 msgid "Process finished in a non-focused monitored session"
-msgstr "Braitheadh ciúnas i seisiún monatóirithe"
+msgstr "Próiseas críochnaithe i seisiún monatóireachta neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:935
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Silence in Monitored Session"
 msgctxt "Name"
 msgid "Process finished in Monitored Session"
-msgstr "Ciúnas i Seisiún Monatóirithe"
+msgstr "Próiseas críochnaithe i Seisiún Monatóireachta"
 
 #: desktop/konsole.notifyrc:980
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Silence detected in a monitored session"
 msgctxt "Comment"
 msgid "Process finished in a monitored session"
-msgstr "Braitheadh ciúnas i seisiún monatóirithe"
+msgstr "Próiseas críochnaithe i seisiún monatóireachta"
 
 #: desktop/konsole.notifyrc:1028
 msgctxt "Name"
@@ -148,62 +134,56 @@ msgid "A session has exited with non-zero status"
 msgstr "Chríochnaigh seisiún le stádas nach bhfuil 0"
 
 #: desktop/konsole.notifyrc:1204
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Silence in Monitored Session"
 msgctxt "Name"
 msgid "Process Triggered a Notification in a Focused Session"
-msgstr "Ciúnas i Seisiún Monatóirithe"
+msgstr "Chuir an próiseas fógra i ngníomh i seisiún dírithe"
 
 #: desktop/konsole.notifyrc:1241
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Bell emitted within a visible session"
 msgctxt "Comment"
 msgid "Notification emitted by a process in a focused session"
-msgstr "Baineadh an cloigín i seisiún infheicthe"
+msgstr "Fógra arna eisiúint ag próiseas i seisiún dírithe"
 
 #: desktop/konsole.notifyrc:1281
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Silence in Monitored Session"
 msgctxt "Name"
 msgid "Process Triggered a Notification in a Non-Focused Session"
-msgstr "Ciúnas i Seisiún Monatóirithe"
+msgstr "Chuir an próiseas fógra i ngníomh i seisiún neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:1318
-#, fuzzy
 #| msgctxt "Comment"
 #| msgid "Bell emitted within a non-visible session"
 msgctxt "Comment"
 msgid "Notification emitted by a process in a non-focused session"
-msgstr "Baineadh an cloigín i seisiún dofheicthe"
+msgstr "Fógra a eisítear ag próiseas i seisiún neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:1358
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Silence in Monitored Session"
 msgctxt "Name"
 msgid "Shell prompt triggered a notification in a non-focused session"
-msgstr "Ciúnas i Seisiún Monatóirithe"
+msgstr "Spreag leid Shell fógra i seisiún neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:1395
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Silence in Monitored Session"
 msgctxt "Comment"
 msgid "Shell prompt triggered a notification in a non-focused session"
-msgstr "Ciúnas i Seisiún Monatóirithe"
+msgstr "Spreag leid Shell fógra i seisiún neamhfhócasaithe"
 
 #: desktop/konsole.notifyrc:1435
 msgctxt "Name"
 msgid "Shell prompt triggered a notification"
-msgstr ""
+msgstr "Spreag leid Shell fógra"
 
 #: desktop/konsole.notifyrc:1472
 msgctxt "Comment"
 msgid "Shell prompt triggered a notification"
-msgstr ""
+msgstr "Spreag leid Shell fógra"
 
 #: desktop/konsolepart.desktop:15 desktop/terminalemulator.desktop:6
 msgctxt "Name"
@@ -212,28 +192,25 @@ msgstr "Aithriseoir Teirminéil"
 
 #: desktop/konsolepart.desktop:107 desktop/org.kde.konsole.desktop:239
 #: desktop/terminalemulator.desktop:98
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Command Line"
 msgctxt "Comment"
 msgid "Command line access"
-msgstr "Líne na nOrduithe"
+msgstr "Rochtain líne ordaithe"
 
 #: desktop/konsolerun.desktop:13
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Run Konsole"
 msgctxt "Name"
 msgid "Run In Konsole"
-msgstr "Rith Konsole"
+msgstr "Rith i Konsole"
 
 #: desktop/konsolerun.desktop:70
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Run Konsole"
 msgctxt "Comment"
 msgid "Run within Konsole"
-msgstr "Rith Konsole"
+msgstr "Rith laistigh de Konsole"
 
 #: desktop/org.kde.konsole.desktop:13
 msgctxt "Keywords"
@@ -241,6 +218,8 @@ msgid ""
 "terminal;console;script;run;execute;command;command-line;commandline;cli;"
 "bash;sh;shell;zsh;cmd;command prompt"
 msgstr ""
+"terminal;console;script;run;execute;command;command-line;commandline;cli;"
+"bash;sh;shell;zsh;cmd;command prompt"
 
 #: desktop/org.kde.konsole.desktop:57
 msgctxt "Name"
@@ -253,20 +232,18 @@ msgid "Terminal"
 msgstr "Teirminéal"
 
 #: desktop/org.kde.konsole.desktop:293
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Open in New Window"
 msgctxt "Name"
 msgid "Open a New Window"
-msgstr "Oscail i bhFuinneog Nua"
+msgstr "Oscail Fuinneog Nua"
 
 #: desktop/org.kde.konsole.desktop:353
-#, fuzzy
 #| msgctxt "Name"
 #| msgid "Open in New Window"
 msgctxt "Name"
 msgid "Open a New Tab"
-msgstr "Oscail i bhFuinneog Nua"
+msgstr "Oscail Cluaisín Nua"
 
 #~ msgctxt "Name"
 #~ msgid "Open Terminal Here"
@@ -2080,11 +2057,11 @@ msgstr "Oscail i bhFuinneog Nua"
 
 #~ msgctxt "Query"
 #~ msgid ""
-#~ "http://www.google.com/search?q=allintitle%3A\\\\{@}+world+fact+book+site"
-#~ "%3Awww.cia.gov&ie=UTF-8&btnI=I%27m+Feeling+Lucky"
+#~ "http://www.google.com/search?q=allintitle%3A\\"
+#~ "\\{@}+world+fact+book+site%3Awww.cia.gov&ie=UTF-8&btnI=I%27m+Feeling+Lucky"
 #~ msgstr ""
-#~ "http://www.google.com/search?q=allintitle%3A\\\\{@}+world+fact+book+site"
-#~ "%3Awww.cia.gov&ie=UTF-8&btnI=I%27m+Feeling+Lucky"
+#~ "http://www.google.com/search?q=allintitle%3A\\"
+#~ "\\{@}+world+fact+book+site%3Awww.cia.gov&ie=UTF-8&btnI=I%27m+Feeling+Lucky"
 
 #~ msgctxt "Name"
 #~ msgid "CiteSeer: Scientific Literature Digital Library"
@@ -2381,15 +2358,15 @@ msgstr "Oscail i bhFuinneog Nua"
 #~ "&btnG=Google+Search&as_epq=\\\\{exact,\"\"}&as_oq=\\\\{any,\"\"}&as_eq=\\"
 #~ "\\{without,\"\"}&lr=\\\\{lang,\"\"}&as_ft=\\\\{ft,\"i\"}&as_filetype=\\"
 #~ "\\{filetype,\"\"}&as_qdr=\\\\{date,\"all\"}&as_occt=\\\\{occ,\"any\"}"
-#~ "&as_dt=\\\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,\"active"
-#~ "\"}&ie=UTF-8&oe=UTF-8"
+#~ "&as_dt=\\\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,"
+#~ "\"active\"}&ie=UTF-8&oe=UTF-8"
 #~ msgstr ""
 #~ "http://www.google.com/search?as_q=\\\\{all,@}&num=\\\\{num,\"10\"}"
 #~ "&btnG=Google+Search&as_epq=\\\\{exact,\"\"}&as_oq=\\\\{any,\"\"}&as_eq=\\"
 #~ "\\{without,\"\"}&lr=\\\\{lang,\"\"}&as_ft=\\\\{ft,\"i\"}&as_filetype=\\"
 #~ "\\{filetype,\"\"}&as_qdr=\\\\{date,\"all\"}&as_occt=\\\\{occ,\"any\"}"
-#~ "&as_dt=\\\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,\"active"
-#~ "\"}&ie=UTF-8&oe=UTF-8"
+#~ "&as_dt=\\\\{siteop,\"i\"}&as_sitesearch=\\\\{site}&safe=\\\\{safe,"
+#~ "\"active\"}&ie=UTF-8&oe=UTF-8"
 
 #~ msgctxt "Name"
 #~ msgid "Google Code"
@@ -2429,11 +2406,11 @@ msgstr "Oscail i bhFuinneog Nua"
 
 #~ msgctxt "Query"
 #~ msgid ""
-#~ "http://www.google.com/search?q=\\\\{@}&btnI=I%27m+Feeling"
-#~ "+Lucky&ie=UTF-8&oe=UTF-8"
+#~ "http://www.google.com/search?q=\\\\{@}"
+#~ "&btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8"
 #~ msgstr ""
-#~ "http://www.google.com/search?q=\\\\{@}&btnI=I%27m+Feeling"
-#~ "+Lucky&ie=UTF-8&oe=UTF-8"
+#~ "http://www.google.com/search?q=\\\\{@}"
+#~ "&btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8"
 
 #~ msgctxt "Name"
 #~ msgid "Google Maps"
@@ -2920,11 +2897,11 @@ msgstr "Oscail i bhFuinneog Nua"
 
 #~ msgctxt "Query"
 #~ msgid ""
-#~ "http://vivisimo.com/search?query=\\\\{@}&se=Yahoo%2CAltaVista%2CMSN%2CFast"
-#~ "%2COD%2CExcite%2CDirectHit%2CLooksmart%2CEuroseek&x=49&y=16"
+#~ "http://vivisimo.com/search?query=\\\\{@}"
+#~ "&se=Yahoo%2CAltaVista%2CMSN%2CFast%2COD%2CExcite%2CDirectHit%2CLooksmart%2CEuroseek&x=49&y=16"
 #~ msgstr ""
-#~ "http://vivisimo.com/search?query=\\\\{@}&se=Yahoo%2CAltaVista%2CMSN%2CFast"
-#~ "%2COD%2CExcite%2CDirectHit%2CLooksmart%2CEuroseek&x=49&y=16"
+#~ "http://vivisimo.com/search?query=\\\\{@}"
+#~ "&se=Yahoo%2CAltaVista%2CMSN%2CFast%2COD%2CExcite%2CDirectHit%2CLooksmart%2CEuroseek&x=49&y=16"
 
 #~ msgctxt "Name"
 #~ msgid "Voila"
@@ -6427,15 +6404,15 @@ msgstr "Oscail i bhFuinneog Nua"
 #~ "next song). The 'Send to specific window' checkbox is checked and a "
 #~ "window with its class containing 'XMMS_Player' is specified; this will "
 #~ "make the input always be sent to this window. This way, you can control "
-#~ "XMMS even if, for instance, it is on a different virtual desktop.\\n"
-#~ "\\n(Run 'xprop' and click on the XMMS window and search for WM_CLASS to "
-#~ "see 'XMMS_Player')."
+#~ "XMMS even if, for instance, it is on a different virtual desktop."
+#~ "\\n\\n(Run 'xprop' and click on the XMMS window and search for WM_CLASS "
+#~ "to see 'XMMS_Player')."
 #~ msgstr ""
 #~ "Léigh an nóta a bhaineann leis an ngníomh \"Clóscríobh 'Hello'\" ar dtús."
 #~ "\\n\\nDíreach cosúil leis an ngníomh \"Clóscríobh 'Hello'\", déanann an "
-#~ "gníomh seo insamhladh ar ionchur ón mhéarchlár.  Go sonrach, tar éis Ctrl"
-#~ "+Alt+B a bhrú, seolann sé 'B' chuig XMMS (ciallaíonn 'B' 'Léim go dtí an "
-#~ "chéad amhrán eile' i XMMS). Cuirtear tic sa ticbhosca 'Seol chuig "
+#~ "gníomh seo insamhladh ar ionchur ón mhéarchlár.  Go sonrach, tar éis "
+#~ "Ctrl+Alt+B a bhrú, seolann sé 'B' chuig XMMS (ciallaíonn 'B' 'Léim go dtí "
+#~ "an chéad amhrán eile' i XMMS). Cuirtear tic sa ticbhosca 'Seol chuig "
 #~ "fuinneog ar leith' agus tá fuinneog ann lena aicme agus a bhfuil "
 #~ "'XMMS_Player' inti sonraithe; leis seo, seolfar an t-ionchur chuig an "
 #~ "bhfuinneog seo i gcónaí. Sa chaoi seo, is féidir leat XMMS a rialú fiú má "
@@ -6457,8 +6434,8 @@ msgstr "Oscail i bhFuinneog Nua"
 
 #~ msgctxt "Comment"
 #~ msgid ""
-#~ "Konqueror in KDE3.1 has tabs, and now you can also have gestures.\\n"
-#~ "\\nJust press the middle mouse button and start drawing one of the "
+#~ "Konqueror in KDE3.1 has tabs, and now you can also have gestures."
+#~ "\\n\\nJust press the middle mouse button and start drawing one of the "
 #~ "gestures, and after you are finished, release the mouse button. If you "
 #~ "only need to paste the selection, it still works, just click the middle "
 #~ "mouse button. (You can change the mouse button to use in the global "
@@ -6493,10 +6470,10 @@ msgstr "Oscail i bhFuinneog Nua"
 #~ "tú an gotha beacht a dhéanamh chun an gníomh a chur ar obair. Dá bharr "
 #~ "seo, is féidir leat tuilleadh gothaí a iontráil do ghníomh amháin. Ba "
 #~ "chóir duit gothaí casta a sheachaint.  Mar shampla, is gothaí simplí iad "
-#~ "45654 agus 74123, ach is dócha go bhfuil 1236987 ró-dheacair cheana.\\n"
-#~ "\\nSainmhínítear an coinníoll do gach gotha sa ghrúpa seo. Níl na gothaí "
-#~ "uile seo gníomhach murab é Konqueror an fhuinneog ghníomhach (.i. tá "
-#~ "'konqueror' san aicme)."
+#~ "45654 agus 74123, ach is dócha go bhfuil 1236987 ró-dheacair cheana."
+#~ "\\n\\nSainmhínítear an coinníoll do gach gotha sa ghrúpa seo. Níl na "
+#~ "gothaí uile seo gníomhach murab é Konqueror an fhuinneog ghníomhach (.i. "
+#~ "tá 'konqueror' san aicme)."
 
 #~ msgctxt "Name"
 #~ msgid "Konqi Gestures"
@@ -6580,8 +6557,8 @@ msgstr "Oscail i bhFuinneog Nua"
 #~ msgctxt "Comment"
 #~ msgid ""
 #~ "Going up in URL/directory structure.\\nOpera-style: Press, move up, move "
-#~ "left, move up, release.\\nNOTE: Conflicts with  \"Activate Previous Tab"
-#~ "\", and as such is disabled by default."
+#~ "left, move up, release.\\nNOTE: Conflicts with  \"Activate Previous "
+#~ "Tab\", and as such is disabled by default."
 #~ msgstr ""
 #~ "Bog suas i struchtúr URL/comhadlann.\\nDe chineál Opera: Brúigh, bog "
 #~ "suas, bog faoi chlé, bog suas, scaoil.\\nNÓTA: Tagann sé salach ar "
@@ -11895,9 +11872,9 @@ msgstr "Oscail i bhFuinneog Nua"
 
 #~ msgctxt "Name"
 #~ msgid ""
-#~ "Please help us improve the software you use by filing a report at <a href="
-#~ "\"http://bugs.kde.org\">http://bugs.kde.org</a>. Useful details include "
-#~ "how to reproduce the error, documents that were loaded, etc."
+#~ "Please help us improve the software you use by filing a report at <a "
+#~ "href=\"http://bugs.kde.org\">http://bugs.kde.org</a>. Useful details "
+#~ "include how to reproduce the error, documents that were loaded, etc."
 #~ msgstr ""
 #~ "Cabhraigh linn an bogearra seo a fheabhsú trí thuairisc a sheoladh chuig "
 #~ "<a href=\"http://bugs.kde.org\">http://bugs.kde.org/</a> maidir leis an "

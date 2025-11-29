@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop files\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-11-29 00:49+0000\n"
+"POT-Creation-Date: 2025-11-18 00:50+0000\n"
 "PO-Revision-Date: 2004-12-03 14:52-0500\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -39,7 +39,7 @@ msgctxt "Name"
 msgid "Empty File..."
 msgstr "Téacschomhad..."
 
-#: src/new_file_templates/EmptyFile.desktop:59
+#: src/new_file_templates/EmptyFile.desktop:58
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Enter text filename:"
@@ -65,7 +65,7 @@ msgctxt "Name"
 msgid "Link to File or Directory..."
 msgstr "Nasc bunúsach le comhad nó comhadlann..."
 
-#: src/new_file_templates/linkPath.desktop:62
+#: src/new_file_templates/linkPath.desktop:61
 msgctxt "Comment"
 msgid "File or directory to link to:"
 msgstr ""
@@ -197,7 +197,7 @@ msgctxt "Name"
 msgid "Arch Linux Package Search"
 msgstr "Cuardach Pacáistí Debian"
 
-#: src/urifilters/ikws/searchproviders/archpkg.desktop:67
+#: src/urifilters/ikws/searchproviders/archpkg.desktop:66
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.backports.org/package.php?search=\\\\{@}"
@@ -213,7 +213,7 @@ msgctxt "Name"
 msgid "ArchWiki"
 msgstr "Wikia"
 
-#: src/urifilters/ikws/searchproviders/archwiki.desktop:63
+#: src/urifilters/ikws/searchproviders/archwiki.desktop:62
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.backports.org/package.php?search=\\\\{@}"
@@ -286,7 +286,7 @@ msgctxt "Name"
 msgid "openSUSE Bugzilla"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/boo.desktop:52
+#: src/urifilters/ikws/searchproviders/boo.desktop:51
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "https://bugs.kde.org/show_bug.cgi?id=\\\\{@}"
@@ -302,7 +302,7 @@ msgctxt "Name"
 msgid "KDE Bugs"
 msgstr "Fóraim KDE"
 
-#: src/urifilters/ikws/searchproviders/bug.desktop:63
+#: src/urifilters/ikws/searchproviders/bug.desktop:62
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://bugs.kde.org/buglist.cgi?quicksearch=\\\\{@}"
@@ -328,7 +328,7 @@ msgctxt "Name"
 msgid "Can I Use…"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/caniuse.desktop:40
+#: src/urifilters/ikws/searchproviders/caniuse.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://vimeo.com/videos/search:\\\\{@}"
@@ -369,7 +369,7 @@ msgctxt "Name"
 msgid "Codeberg"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/codeberg.desktop:52
+#: src/urifilters/ikws/searchproviders/codeberg.desktop:51
 msgctxt "Query"
 msgid ""
 "https://codeberg.org/explore/repos?sort=recentupdate&language=&q=\\\\{@}"
@@ -397,7 +397,7 @@ msgctxt "Name"
 msgid "CPlusPlus"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/cplusplus.desktop:62
+#: src/urifilters/ikws/searchproviders/cplusplus.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.flickr.com/search/?q=\\\\{@}"
@@ -412,7 +412,7 @@ msgctxt "Name"
 msgid "CPP Reference"
 msgstr "Name=Sainroghanna"
 
-#: src/urifilters/ikws/searchproviders/cppreference.desktop:61
+#: src/urifilters/ikws/searchproviders/cppreference.desktop:60
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://duckduckgo.com/?q=\\\\{@}&t=kde"
@@ -506,7 +506,7 @@ msgctxt "Name"
 msgid "DeepL"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/deepl.desktop:63
+#: src/urifilters/ikws/searchproviders/deepl.desktop:62
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.wordreference.com/it/translation.asp?enit=\\\\{@}"
@@ -545,7 +545,7 @@ msgctxt "Name"
 msgid "Docker Hub"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/dockerhub.desktop:40
+#: src/urifilters/ikws/searchproviders/dockerhub.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.flickr.com/search/?q=\\\\{@}"
@@ -575,7 +575,7 @@ msgctxt "Name"
 msgid "DuckDuckGo"
 msgstr "Duck Duck Go"
 
-#: src/urifilters/ikws/searchproviders/duckduckgo.desktop:42
+#: src/urifilters/ikws/searchproviders/duckduckgo.desktop:41
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://duckduckgo.com/?q=\\\\{@}&t=kde"
@@ -701,7 +701,7 @@ msgctxt "Name"
 msgid "Fedora Packages"
 msgstr "Pacáiste na gClónna"
 
-#: src/urifilters/ikws/searchproviders/fedora.desktop:40
+#: src/urifilters/ikws/searchproviders/fedora.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://directory.fsf.org/search/?query=\\\\{@}"
@@ -733,7 +733,7 @@ msgctxt "Name"
 msgid "Flatpak Documentation"
 msgstr "Doiciméadú Ar Líne Qt3"
 
-#: src/urifilters/ikws/searchproviders/flatpak.desktop:62
+#: src/urifilters/ikws/searchproviders/flatpak.desktop:61
 msgctxt "Query"
 msgid ""
 "https://docs.flatpak.org/en/latest/search.html?q=\\\\{@}"
@@ -805,7 +805,7 @@ msgctxt "Name"
 msgid "Freecode"
 msgstr "An Ghréig"
 
-#: src/urifilters/ikws/searchproviders/freecode.desktop:75
+#: src/urifilters/ikws/searchproviders/freecode.desktop:74
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.flickr.com/search/?q=\\\\{@}"
@@ -854,7 +854,7 @@ msgctxt "Name"
 msgid "GitLab"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/gitlab.desktop:66
+#: src/urifilters/ikws/searchproviders/gitlab.desktop:65
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://search.excite.com/search.gw?search=\\\\{@}"
@@ -1011,7 +1011,7 @@ msgctxt "Name"
 msgid "Google Shopping"
 msgstr "Siopadóireacht Yahoo"
 
-#: src/urifilters/ikws/searchproviders/google_shopping.desktop:75
+#: src/urifilters/ikws/searchproviders/google_shopping.desktop:74
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.google.com/search?q=\\\\{@}&ie=UTF-8&oe=UTF-8"
@@ -1028,7 +1028,7 @@ msgctxt "Name"
 msgid "Great Dictionary of the Catalan Language (GRan Enciclopèdia Catalana)"
 msgstr "OllFhoclóir Catalóinise (GRan Enciclopèdia  Catalana)"
 
-#: src/urifilters/ikws/searchproviders/grec.desktop:68
+#: src/urifilters/ikws/searchproviders/grec.desktop:67
 msgctxt "Query"
 msgid "http://ec.grec.net/cgi-bin/AppDLC3.exe?APP=CERCADLC&GECART=\\\\{@}"
 msgstr "http://ec.grec.net/cgi-bin/AppDLC3.exe?APP=CERCADLC&GECART=\\\\{@}"
@@ -1113,7 +1113,7 @@ msgctxt "Name"
 msgid "KDE Invent"
 msgstr "Roghchlár KDE"
 
-#: src/urifilters/ikws/searchproviders/invent.desktop:62
+#: src/urifilters/ikws/searchproviders/invent.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://search.excite.com/search.gw?search=\\\\{@}"
@@ -1129,7 +1129,7 @@ msgctxt "Name"
 msgid "KDE Invent Issues"
 msgstr "Roghchlár KDE"
 
-#: src/urifilters/ikws/searchproviders/invent_issues.desktop:60
+#: src/urifilters/ikws/searchproviders/invent_issues.desktop:59
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://search.excite.com/search.gw?search=\\\\{@}"
@@ -1142,7 +1142,7 @@ msgctxt "Name"
 msgid "KDE Invent Merge Requests"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/invent_mr.desktop:59
+#: src/urifilters/ikws/searchproviders/invent_mr.desktop:58
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://search.excite.com/search.gw?search=\\\\{@}"
@@ -1155,7 +1155,7 @@ msgctxt "Name"
 msgid "KDE Invent Repositories"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/invent_repo.desktop:62
+#: src/urifilters/ikws/searchproviders/invent_repo.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://dict.leo.org/?search=\\\\{@}"
@@ -1199,7 +1199,7 @@ msgctxt "Name"
 msgid "Plasma Add-Ons and Extensions"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/kde_apps.desktop:40
+#: src/urifilters/ikws/searchproviders/kde_apps.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://search.excite.com/search.gw?search=\\\\{@}"
@@ -1247,7 +1247,7 @@ msgctxt "Name"
 msgid "KDE Store"
 msgstr "Múchadh KDE"
 
-#: src/urifilters/ikws/searchproviders/kde_store.desktop:62
+#: src/urifilters/ikws/searchproviders/kde_store.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid ""
@@ -1292,7 +1292,7 @@ msgctxt "Name"
 msgid "KDE Reddit"
 msgstr "Roghchlár KDE"
 
-#: src/urifilters/ikws/searchproviders/kreddit.desktop:62
+#: src/urifilters/ikws/searchproviders/kreddit.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.bing.com/search?q=\\\\{@}"
@@ -1308,7 +1308,7 @@ msgctxt "Name"
 msgid "Krita Manual"
 msgstr "Lámhleabhar Plasma"
 
-#: src/urifilters/ikws/searchproviders/krita.desktop:62
+#: src/urifilters/ikws/searchproviders/krita.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://identi.ca/search/group?q=\\\\{@}"
@@ -1321,7 +1321,7 @@ msgctxt "Name"
 msgid "Learn CPP"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/learncpp.desktop:62
+#: src/urifilters/ikws/searchproviders/learncpp.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.flickr.com/search/?q=\\\\{@}"
@@ -1347,7 +1347,7 @@ msgctxt "Name"
 msgid "Linguee"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/linguee.desktop:62
+#: src/urifilters/ikws/searchproviders/linguee.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.bing.com/search?q=\\\\{@}"
@@ -1376,7 +1376,7 @@ msgctxt "Name"
 msgid "Mozilla Developer Network (MDN)"
 msgstr "Cuardach Microsoft Developer Network"
 
-#: src/urifilters/ikws/searchproviders/mdn.desktop:40
+#: src/urifilters/ikws/searchproviders/mdn.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://identi.ca/search/group?q=\\\\{@}"
@@ -1405,7 +1405,7 @@ msgctxt "Name"
 msgid "Microsoft C++ Documentation"
 msgstr "Doiciméadú Ar Líne Qt3"
 
-#: src/urifilters/ikws/searchproviders/microsoft_cpp.desktop:61
+#: src/urifilters/ikws/searchproviders/microsoft_cpp.desktop:60
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://directory.fsf.org/search/?query=\\\\{@}"
@@ -1525,7 +1525,7 @@ msgctxt "Name"
 msgid "Nix Packages"
 msgstr "Pacáiste na gClónna"
 
-#: src/urifilters/ikws/searchproviders/nixpkgs.desktop:40
+#: src/urifilters/ikws/searchproviders/nixpkgs.desktop:39
 msgctxt "Query"
 msgid ""
 "https://search.nixos.org/packages?sort=relevance&type=packages&query=\\\\{@}"
@@ -1558,7 +1558,7 @@ msgctxt "Name"
 msgid "npm"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/npm.desktop:40
+#: src/urifilters/ikws/searchproviders/npm.desktop:39
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.bing.com/search?q=\\\\{@}"
@@ -1587,7 +1587,7 @@ msgctxt "Name"
 msgid "openSUSE Software"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/opensuse.desktop:61
+#: src/urifilters/ikws/searchproviders/opensuse.desktop:60
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.flickr.com/search/?q=\\\\{@}"
@@ -1626,7 +1626,7 @@ msgctxt "Name"
 msgid "ProtonDB"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/protondb.desktop:62
+#: src/urifilters/ikws/searchproviders/protondb.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.bing.com/search?q=\\\\{@}"
@@ -1639,7 +1639,7 @@ msgctxt "Name"
 msgid "PyPI"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/pypi.desktop:51
+#: src/urifilters/ikws/searchproviders/pypi.desktop:50
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://vimeo.com/videos/search:\\\\{@}"
@@ -1674,7 +1674,7 @@ msgctxt "Name"
 msgid "Qt5 Online Documentation"
 msgstr "Doiciméadú Ar Líne Is Déanaí Qt4"
 
-#: src/urifilters/ikws/searchproviders/qt5.desktop:62
+#: src/urifilters/ikws/searchproviders/qt5.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://identi.ca/search/group?q=\\\\{@}"
@@ -1690,7 +1690,7 @@ msgctxt "Name"
 msgid "Qt6 Online Documentation"
 msgstr "Doiciméadú Ar Líne Is Déanaí Qt4"
 
-#: src/urifilters/ikws/searchproviders/qt6.desktop:62
+#: src/urifilters/ikws/searchproviders/qt6.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://identi.ca/search/group?q=\\\\{@}"
@@ -1703,7 +1703,7 @@ msgctxt "Name"
 msgid "Qwant"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qwant.desktop:71
+#: src/urifilters/ikws/searchproviders/qwant.desktop:70
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.facebook.com/search/?q=\\\\{@}&init=quick"
@@ -1719,7 +1719,7 @@ msgctxt "Name"
 msgid "Qwant Images"
 msgstr "Íomhánna Yahoo"
 
-#: src/urifilters/ikws/searchproviders/qwant_images.desktop:70
+#: src/urifilters/ikws/searchproviders/qwant_images.desktop:69
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.facebook.com/search/?q=\\\\{@}&init=quick"
@@ -1732,7 +1732,7 @@ msgctxt "Name"
 msgid "Qwant News"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qwant_news.desktop:71
+#: src/urifilters/ikws/searchproviders/qwant_news.desktop:70
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.facebook.com/search/?q=\\\\{@}&init=quick"
@@ -1748,7 +1748,7 @@ msgctxt "Name"
 msgid "Qwant Shopping"
 msgstr "Siopadóireacht Yahoo"
 
-#: src/urifilters/ikws/searchproviders/qwant_shopping.desktop:70
+#: src/urifilters/ikws/searchproviders/qwant_shopping.desktop:69
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.facebook.com/search/?q=\\\\{@}&init=quick"
@@ -1761,7 +1761,7 @@ msgctxt "Name"
 msgid "Qwant Social"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/qwant_social.desktop:71
+#: src/urifilters/ikws/searchproviders/qwant_social.desktop:70
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.facebook.com/search/?q=\\\\{@}&init=quick"
@@ -1777,7 +1777,7 @@ msgctxt "Name"
 msgid "Qwant Videos"
 msgstr "Fís Yahoo"
 
-#: src/urifilters/ikws/searchproviders/qwant_videos.desktop:70
+#: src/urifilters/ikws/searchproviders/qwant_videos.desktop:69
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.facebook.com/search/?q=\\\\{@}&init=quick"
@@ -1806,7 +1806,7 @@ msgctxt "Name"
 msgid "Dictionary of the Galician Academy (RAG)"
 msgstr "Diccionario de la lengua española (RAE)"
 
-#: src/urifilters/ikws/searchproviders/rag.desktop:73
+#: src/urifilters/ikws/searchproviders/rag.desktop:72
 msgctxt "Query"
 msgid "https://academia.gal/dicionario/-/termo/busca/\\\\{@}"
 msgstr ""
@@ -1816,7 +1816,7 @@ msgctxt "Name"
 msgid "Reddit"
 msgstr ""
 
-#: src/urifilters/ikws/searchproviders/reddit.desktop:61
+#: src/urifilters/ikws/searchproviders/reddit.desktop:60
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.bing.com/search?q=\\\\{@}"
@@ -1871,7 +1871,7 @@ msgctxt "Name"
 msgid "Rust STD Documentation"
 msgstr "Doiciméadú Ar Líne Qt3"
 
-#: src/urifilters/ikws/searchproviders/rust.desktop:60
+#: src/urifilters/ikws/searchproviders/rust.desktop:59
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.backports.org/package.php?search=\\\\{@}"
@@ -1887,7 +1887,7 @@ msgctxt "Name"
 msgid "Soundcloud"
 msgstr "Fuaim"
 
-#: src/urifilters/ikws/searchproviders/soundcloud.desktop:68
+#: src/urifilters/ikws/searchproviders/soundcloud.desktop:67
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.flickr.com/search/?q=\\\\{@}"
@@ -1976,7 +1976,7 @@ msgctxt "Name"
 msgid "Ubuntu Package Search"
 msgstr "Cuardach Pacáistí Debian"
 
-#: src/urifilters/ikws/searchproviders/ubuntu.desktop:62
+#: src/urifilters/ikws/searchproviders/ubuntu.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://packages.debian.org/\\\\{@}"
@@ -2076,7 +2076,7 @@ msgctxt "Name"
 msgid "Wikipedia"
 msgstr "Wikia"
 
-#: src/urifilters/ikws/searchproviders/wikipedia.desktop:42
+#: src/urifilters/ikws/searchproviders/wikipedia.desktop:41
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://en.wikipedia.org/wiki/Special:Search?search=\\\\{@}&go=Go"
@@ -2105,7 +2105,7 @@ msgctxt "Name"
 msgid "WineHQ Database"
 msgstr "Bunachar Sonraí Acrainmneacha"
 
-#: src/urifilters/ikws/searchproviders/wine.desktop:62
+#: src/urifilters/ikws/searchproviders/wine.desktop:61
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://www.bing.com/search?q=\\\\{@}"
@@ -2244,7 +2244,7 @@ msgctxt "Name"
 msgid "Yandex"
 msgstr "Innéacs"
 
-#: src/urifilters/ikws/searchproviders/yandex.desktop:60
+#: src/urifilters/ikws/searchproviders/yandex.desktop:59
 #, fuzzy
 #| msgctxt "Query"
 #| msgid "http://dict.leo.org/?search=\\\\{@}"
@@ -2280,7 +2280,7 @@ msgctxt "Name"
 msgid "C++ Worker (KF6)"
 msgstr ""
 
-#: templates/kioworker6/kioworker6.kdevtemplate:44
+#: templates/kioworker6/kioworker6.kdevtemplate:43
 msgctxt "Comment"
 msgid "KIO Worker Template"
 msgstr ""
