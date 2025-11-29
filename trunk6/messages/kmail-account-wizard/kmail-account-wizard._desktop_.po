@@ -1,0 +1,2588 @@
+# Irish translation of desktop_kdepim
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdepim package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:58+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: src/org.kde.accountwizard.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Accounts"
+msgctxt "Name"
+msgid "Account Wizard"
+msgstr "Cuntais"
+
+#: src/org.kde.accountwizard.desktop:54
+msgctxt "Comment"
+msgid "Launch the account wizard to configure PIM accounts."
+msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Kolab Groupware Server"
+#~ msgctxt "Name"
+#~ msgid "Tine 2.0 Groupware Server"
+#~ msgstr "Freastalaí Groupware Kolab"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Kolab Groupware Server"
+#~ msgctxt "Comment"
+#~ msgid "Tine 2.0 Groupware Server"
+#~ msgstr "Freastalaí Groupware Kolab"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Console"
+#~ msgstr "Consól Akonadi"
+
+#~ msgctxt "Comment"
+#~ msgid "Akonadi Management and Debugging Console"
+#~ msgstr "Consól Bainisteoireachta agus Dífhabhtaithe Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Advanced"
+#~ msgstr "Ardsocruithe"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "akregator, configure, settings, advanced"
+#~ msgstr "akregator, cumraigh, socruithe, casta, ardsocruithe"
+
+#~ msgctxt "Name"
+#~ msgid "Appearance"
+#~ msgstr "Cuma"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "akregator, configure, settings, appearance, look, feel"
+#~ msgstr "akregator, cumraigh, socruithe, cuma, brath"
+
+#~ msgctxt "Name"
+#~ msgid "Archive"
+#~ msgstr "Cartlann"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Feed Archive"
+#~ msgstr "Cumraigh Cartlann na bhFothaí"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "akregator, configure, settings, archive"
+#~ msgstr "akregator, cumraigh, socruithe, cartlann"
+
+#~ msgctxt "Name"
+#~ msgid "Browser"
+#~ msgstr "Brabhsálaí"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "akregator, configure, settings, Browser, Web, Internal"
+#~ msgstr "akregator, cumraigh, socruithe, Brabhsálaí, Gréasán, Inmheánach"
+
+#~ msgctxt "Name"
+#~ msgid "General"
+#~ msgstr "Ginearálta"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Feeds"
+#~ msgstr "Cumraigh Fothaí"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "akregator, configure, settings, General"
+#~ msgstr "akregator, cumraigh, socruithe, Ginearálta"
+
+#, fuzzy
+#~| msgctxt "X-KDE-Keywords"
+#~| msgid "akregator, configure, settings, online readers"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "akregator, configure, settings, webEngine, url interceptor"
+#~ msgstr "akregator, cumraigh, socruithe, léitheoirí ar líne"
+
+#~ msgctxt "Comment"
+#~ msgid "Akregator Plugin"
+#~ msgstr "Breiseán Akregator"
+
+#~ msgctxt "Name"
+#~ msgid "Feeds"
+#~ msgstr "Fothaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Feed Reader"
+#~ msgstr "Léitheoir Fothaí"
+
+#~ msgctxt "Name"
+#~ msgid "Metakit storage backend"
+#~ msgstr "Inneall stórála Metakit"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for Akregator"
+#~ msgstr "Breiseán Akregator"
+
+#~ msgctxt "Comment"
+#~ msgid "Akregator"
+#~ msgstr "Akregator"
+
+#~ msgctxt "Name"
+#~ msgid "Feed added"
+#~ msgstr "Cuireadh fotha leis"
+
+#~ msgctxt "Comment"
+#~ msgid "A new feed was remotely added to Akregator"
+#~ msgstr "Cuireadh fotha nua le hAkregator go cianda"
+
+#~ msgctxt "Name"
+#~ msgid "New Articles"
+#~ msgstr "Altanna Nua"
+
+#~ msgctxt "Comment"
+#~ msgid "New articles were fetched"
+#~ msgstr "Fuarthas ailt nua"
+
+#~ msgctxt "Name"
+#~ msgid "aKregatorPart"
+#~ msgstr "aKregatorPart"
+
+#~ msgctxt "Name"
+#~ msgid "Akregator"
+#~ msgstr "Akregator"
+
+#~ msgctxt "GenericName"
+#~ msgid "Feed Reader"
+#~ msgstr "Léitheoir Fothaí"
+
+#~ msgctxt "Comment"
+#~ msgid "A KDE News Feed Reader"
+#~ msgstr "Léitheoir Fothaí KDE"
+
+#~ msgctxt "Name"
+#~ msgid "KonsoleKalendar"
+#~ msgstr "KonsoleKalendar"
+
+#~ msgctxt "Name"
+#~ msgid "Kontact Administration"
+#~ msgstr "Riarachán Kontact"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "KMail Import Wizard"
+#~ msgctxt "Name"
+#~ msgid "KMail Import Wizard"
+#~ msgstr "Treoraí Iompórtála KMail"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact KAddressBook Plugin"
+#~ msgstr "Breiseán KAddressBook Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "Contacts"
+#~ msgstr "Teagmhálacha"
+
+#~ msgctxt "Comment"
+#~ msgid "Address Book Component"
+#~ msgstr "Comhpháirt Leabhair Seoltaí"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KAddressBook Import/Export Plugin"
+#~ msgctxt "Name"
+#~ msgid "KAddressbook import file"
+#~ msgstr "Breiseán Iompórtála/Easpórtála KAddressBook"
+
+#~ msgctxt "Name"
+#~ msgid "KAddressBook"
+#~ msgstr "KAddressBook"
+
+#~ msgctxt "GenericName"
+#~ msgid "Contact Manager"
+#~ msgstr "Bainisteoir na dTeagmhálacha"
+
+#~ msgctxt "Name"
+#~ msgid "Default"
+#~ msgstr "Réamhshocrú"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Personal Information"
+#~ msgctxt "Name"
+#~ msgid "Full Information"
+#~ msgstr "Eolas Pearsanta"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Personal Information"
+#~ msgctxt "Description"
+#~ msgid "Display All Information"
+#~ msgstr "Eolas Pearsanta"
+
+#~ msgctxt "Name"
+#~ msgid "KAlarm"
+#~ msgstr "KAlarm"
+
+#~ msgctxt "Comment"
+#~ msgid "KAlarm autostart at login"
+#~ msgstr "Tosaigh KAlarm go huathoibríoch ag am logála isteach"
+
+#~ msgctxt "GenericName"
+#~ msgid "Personal Alarm Scheduler"
+#~ msgstr "Sceidealóir Aláram Pearsanta"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Directory Services"
+#~ msgctxt "Name"
+#~ msgid "Directory does not exist"
+#~ msgstr "Seirbhísí Eolaire"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Mail Client"
+#~ msgctxt "Name"
+#~ msgid "Mail is sent"
+#~ msgstr "Cliant Ríomhphoist"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "New mail arrived"
+#~ msgctxt "Name"
+#~ msgid "Send mail failed"
+#~ msgstr "Tháinig ríomhphost nua"
+
+#~ msgctxt "Comment"
+#~ msgid "Mail program with a D-Bus interface"
+#~ msgstr "Clár ríomhphoist a bhfuil comhéadan D-Bus aige"
+
+#~ msgctxt "Comment"
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Archive && Encrypt Folder"
+#~ msgctxt "Name"
+#~ msgid "Archive Mails in Folder done"
+#~ msgstr "Cuir Fillteán i gCartlann agus Criptigh É"
+
+#~ msgctxt "Name"
+#~ msgid "Accounts"
+#~ msgstr "Cuntais"
+
+#~ msgctxt "Comment"
+#~ msgid "Setup for Sending and Receiving Messages"
+#~ msgstr "Socrú le Teachtaireachtaí a Sheoladh agus a Fháil"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "kmail,accounts"
+#~ msgstr "kmail,cuntais"
+
+#~ msgctxt "Comment"
+#~ msgid "Customize Visual Appearance"
+#~ msgstr "Saincheap an Chuma"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "kmail,appearance"
+#~ msgstr "kmail,cuma"
+
+#~ msgctxt "Name"
+#~ msgid "Composer"
+#~ msgstr "Cumadóir"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "kmail,composer"
+#~ msgstr "kmail,cumadóir"
+
+#~ msgctxt "Name"
+#~ msgid "Identities"
+#~ msgstr "Aitheantais"
+
+#~ msgctxt "Comment"
+#~ msgid "Manage Identities"
+#~ msgstr "Bainistiú na nAitheantas"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "kmail,identity"
+#~ msgstr "kmail,aitheantas"
+
+#~ msgctxt "Name"
+#~ msgid "Misc"
+#~ msgstr "Éagsúil"
+
+#~ msgctxt "Comment"
+#~ msgid "Settings that don't fit elsewhere"
+#~ msgstr "Socruithe nach bhfuil oiriúnach in aon áit eile"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "kmail,misc"
+#~ msgstr "kmail,éagsúil"
+
+#~ msgctxt "Name"
+#~ msgid "Security"
+#~ msgstr "Slándáil"
+
+#~ msgctxt "Comment"
+#~ msgid "Security & Privacy Settings"
+#~ msgstr "Socruithe Slándála agus Príobháideachta"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "kmail,security"
+#~ msgstr "kmail,slándáil"
+
+#~ msgctxt "Name"
+#~ msgid "KMail view"
+#~ msgstr "Amharc KMail"
+
+#~ msgctxt "Name"
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgctxt "GenericName"
+#~ msgid "Mail Client"
+#~ msgstr "Cliant Ríomhphoist"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "New Messages"
+#~ msgctxt "Name"
+#~ msgid "New Message"
+#~ msgstr "Teachtaireachtaí Nua"
+
+#~ msgctxt "Name"
+#~ msgid "New Messages"
+#~ msgstr "Teachtaireachtaí Nua"
+
+#~ msgctxt "Comment"
+#~ msgid "Mail Summary Setup"
+#~ msgstr "Socrú Achoimre ar Ríomhphost"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "email, summary, configure, settings"
+#~ msgstr "ríomhphost, achoimre, cumraigh, socruithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact KMail Plugin"
+#~ msgstr "Breiseán KMail le haghaidh Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "Mail"
+#~ msgstr "Ríomhphost"
+
+#~ msgctxt "Comment"
+#~ msgid "Mail Component"
+#~ msgstr "Comhpháirt Ríomhphoist"
+
+#~ msgctxt "Name"
+#~ msgid "Summaries"
+#~ msgstr "Achoimrí"
+
+#~ msgctxt "Comment"
+#~ msgid "Summary Selection"
+#~ msgstr "Roghnú Achoimrí"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact SummaryView Plugin"
+#~ msgstr "Breiseán Amharc Achoimre Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "Summary"
+#~ msgstr "Achoimre"
+
+#~ msgctxt "Comment"
+#~ msgid "Summary View"
+#~ msgstr "Amharc Achoimre"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Notes"
+#~ msgctxt "Comment"
+#~ msgid "Notes Agent"
+#~ msgstr "Nótaí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Notes"
+#~ msgctxt "Name"
+#~ msgid "Notes Agent"
+#~ msgstr "Nótaí"
+
+#~ msgctxt "Name"
+#~ msgid "Actions"
+#~ msgstr "Gníomhartha"
+
+#~ msgctxt "Comment"
+#~ msgid "Setup actions for notes"
+#~ msgstr "Socraigh gníomhartha le haghaidh nótaí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Actions"
+#~ msgctxt "Name"
+#~ msgid "Collections"
+#~ msgstr "Gníomhartha"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Setup actions for notes"
+#~ msgctxt "Comment"
+#~ msgid "Setup collections for notes"
+#~ msgstr "Socraigh gníomhartha le haghaidh nótaí"
+
+#~ msgctxt "Name"
+#~ msgid "Display"
+#~ msgstr "Taispeáint"
+
+#~ msgctxt "Comment"
+#~ msgid "Setup display for notes"
+#~ msgstr "Socraigh taispeáint na nótaí"
+
+#~ msgctxt "Name"
+#~ msgid "Editor"
+#~ msgstr "Eagarthóir"
+
+#~ msgctxt "Comment"
+#~ msgid "Setup editor"
+#~ msgstr "Socraigh an t-eagarthóir"
+
+#~ msgctxt "Name"
+#~ msgid "Network"
+#~ msgstr "Líonra"
+
+#~ msgctxt "Comment"
+#~ msgid "Network Settings"
+#~ msgstr "Socruithe Líonra"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Setup actions for notes"
+#~ msgctxt "Comment"
+#~ msgid "Setup printing for notes"
+#~ msgstr "Socraigh gníomhartha le haghaidh nótaí"
+
+#~ msgctxt "GenericName"
+#~ msgid "Popup Notes"
+#~ msgstr "Preabnótaí"
+
+#~ msgctxt "Name"
+#~ msgid "KNotes"
+#~ msgstr "KNotes"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Notes"
+#~ msgctxt "Name"
+#~ msgid "New Notes"
+#~ msgstr "Nótaí"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "News Ticker Summary Setup"
+#~ msgctxt "Comment"
+#~ msgid "Notes Summary Setup"
+#~ msgstr "Socrú Achoimre ar Theilitéip Nuachta"
+
+#, fuzzy
+#~| msgctxt "X-KDE-Keywords"
+#~| msgid "email, summary, configure, settings"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "notes, summary, configure, settings"
+#~ msgstr "ríomhphost, achoimre, cumraigh, socruithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact KNotes Plugin"
+#~ msgstr "Breiseán KNotes le haghaidh Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "Popup Notes"
+#~ msgstr "Preabnótaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Popup Notes Component"
+#~ msgstr "Comhpháirt Preabnótaí"
+
+#~ msgctxt "Name"
+#~ msgid "Kontact Configuration"
+#~ msgstr "Cumraíocht Kontact"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "kontact"
+#~ msgstr "kontact"
+
+#~ msgctxt "Name"
+#~ msgid "Kontact"
+#~ msgstr "Kontact"
+
+#~ msgctxt "GenericName"
+#~ msgid "Personal Information Manager"
+#~ msgstr "Bainisteoir Faisnéise Pearsanta"
+
+#~ msgctxt "Name"
+#~ msgid "KOrganizer Reminder Client"
+#~ msgstr "Cliant Meabhrúchán KOrganizer"
+
+#~ msgctxt "GenericName"
+#~ msgid "KOrganizer Reminder Daemon Client"
+#~ msgstr "Cliant Deamhain Meabhrúchán KOrganizer"
+
+#~ msgctxt "Name"
+#~ msgid "DBUSCalendar"
+#~ msgstr "Féilire DBUS"
+
+#~ msgctxt "Comment"
+#~ msgid "Organizer with a D-Bus interface"
+#~ msgstr "Eagraí a bhfuil comhéadan D-Bus aige"
+
+#~ msgctxt "Name"
+#~ msgid "KOrganizer Part Interface"
+#~ msgstr "Comhéadan Comhpháirte KOrganizer"
+
+#~ msgctxt "Comment"
+#~ msgid "KOrganizer Part"
+#~ msgstr "Comhpháirt KOrganizer"
+
+#~ msgctxt "Name"
+#~ msgid "Colors and Fonts"
+#~ msgstr "Dathanna agus Clónna"
+
+#~ msgctxt "Comment"
+#~ msgid "KOrganizer Colors and Fonts Configuration"
+#~ msgstr "Cumraíocht na nDathanna/gClónna le haghaidh KOrganizer"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "korganizer,colors,fonts"
+#~ msgstr "korganizer,dathanna,clófhoirne,clónna"
+
+#~ msgctxt "Name"
+#~ msgid "Custom Pages"
+#~ msgstr "Leathanaigh Shaincheaptha"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the Custom Pages"
+#~ msgstr "Cumraigh na Leathanaigh Shaincheaptha"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "korganizer, configure, settings, custom fields"
+#~ msgstr "korganizer, cumraigh, socruithe, réimsí saincheaptha"
+
+#~ msgctxt "Name"
+#~ msgid "Free/Busy"
+#~ msgstr "Saor/Gafa"
+
+#~ msgctxt "Comment"
+#~ msgid "KOrganizer Free/Busy Configuration"
+#~ msgstr "Cumraíocht Saor/Gafa KOrganizer"
+
+#~ msgctxt "Name"
+#~ msgid "Group Scheduling"
+#~ msgstr "Sceidealadh Grúpa"
+
+#~ msgctxt "Comment"
+#~ msgid "KOrganizer Group Scheduling Configuration"
+#~ msgstr "Cumraíocht Sceidealta Grúpa KOrganizer"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "korganizer,group,scheduling"
+#~ msgstr "korganizer,grúpa,sceidealadh"
+
+#~ msgctxt "Comment"
+#~ msgid "KOrganizer Main Configuration"
+#~ msgstr "Príomhchumraíocht KOrganizer"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "korganizer,main"
+#~ msgstr "korganizer,príomh"
+
+#~ msgctxt "Name"
+#~ msgid "Plugins"
+#~ msgstr "Breiseáin"
+
+#~ msgctxt "Comment"
+#~ msgid "KOrganizer Plugin Configuration"
+#~ msgstr "Cumraíocht Breiseán KOrganizer"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "korganizer,plugin,module"
+#~ msgstr "korganizer,breiseán,modúl"
+
+#~ msgctxt "Name"
+#~ msgid "Time and Date"
+#~ msgstr "Am agus Dáta"
+
+#~ msgctxt "Comment"
+#~ msgid "KOrganizer Time and Date Configuration"
+#~ msgstr "Cumraíocht Ama agus Dáta le haghaidh KOrganizer"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "korganizer,time"
+#~ msgstr "korganizer,am"
+
+#~ msgctxt "Name"
+#~ msgid "Views"
+#~ msgstr "Amhairc"
+
+#~ msgctxt "Comment"
+#~ msgid "KOrganizer View Configuration"
+#~ msgstr "Cumraíocht Amhairc KOrganizer"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "korganizer,view"
+#~ msgstr "korganizer,amharc"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact KOrganizer Journal Plugin"
+#~ msgstr "Breiseán Dialainne Korganizer le haghaidh Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "Journal"
+#~ msgstr "Dialann"
+
+#~ msgctxt "Name"
+#~ msgid "Upcoming Events"
+#~ msgstr "Imeachtaí atá ag teacht"
+
+#~ msgctxt "Comment"
+#~ msgid "Upcoming Events Summary Setup"
+#~ msgstr "Socrú Achoimre ar Imeachtaí atá ag teacht"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "calendar, events, configure, settings"
+#~ msgstr "féilire, imeachtaí, cumraigh, socruithe"
+
+#~ msgctxt "Name"
+#~ msgid "Pending To-dos"
+#~ msgstr "Tascanna Le Déanamh"
+
+#~ msgctxt "Comment"
+#~ msgid "Pending To-dos Summary Setup"
+#~ msgstr "Socrú Achoimre ar Thascanna Le Déanamh"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "calendar, todos, configure, settings"
+#~ msgstr "féilire, tascanna, cumraigh, socruithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact KOrganizer Plugin"
+#~ msgstr "Breiseán KOrganizer le haghaidh Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar"
+#~ msgstr "Féilire"
+
+#~ msgctxt "Comment"
+#~ msgid "Calendar Component"
+#~ msgstr "Comhpháirt Fhéilire"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact KOrganizer To-do List Plugin"
+#~ msgstr "Breiseán Tascliosta KOrganizer le haghaidh Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "To-do List"
+#~ msgstr "Tascliosta"
+
+#~ msgctxt "Name"
+#~ msgid "Upcoming Special Dates"
+#~ msgstr "Dátaí Speisialta Le Teacht"
+
+#~ msgctxt "Comment"
+#~ msgid "Upcoming Special Dates Summary Setup"
+#~ msgstr "Socrú Achoimre ar Dhátaí Speisialta Le Teacht"
+
+#~ msgctxt "Name"
+#~ msgid "Special Dates"
+#~ msgstr "Dátaí Speisialta"
+
+#~ msgctxt "Comment"
+#~ msgid "Special Dates Plugin"
+#~ msgstr "Breiseán Dátaí Speisialta"
+
+#~ msgctxt "Name"
+#~ msgid "Special Dates Summary"
+#~ msgstr "Achoimre ar Dhátaí Speisialta"
+
+#~ msgctxt "Comment"
+#~ msgid "Special Dates Summary Component"
+#~ msgstr "Comhpháirt Achoimre ar Dhátaí Speisialta"
+
+#~ msgctxt "Comment"
+#~ msgid "Calendar and Scheduling Program"
+#~ msgstr "Ríomhchlár Sceidealta/Féilire"
+
+#~ msgctxt "Name"
+#~ msgid "KOrganizer"
+#~ msgstr "KOrganizer"
+
+#~ msgctxt "GenericName"
+#~ msgid "Personal Organizer"
+#~ msgstr "Eagraí Pearsanta"
+
+#~ msgctxt "Name"
+#~ msgid "KTnef"
+#~ msgstr "KTnef"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Editor"
+#~ msgctxt "Name"
+#~ msgid "Sieve Editor"
+#~ msgstr "Eagarthóir"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Editor"
+#~ msgctxt "GenericName"
+#~ msgid "Sieve Editor"
+#~ msgstr "Eagarthóir"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Actions"
+#~ msgctxt "Name"
+#~ msgid "Action Failed"
+#~ msgstr "Gníomhartha"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Contact Manager"
+#~ msgctxt "Name"
+#~ msgid "Cloud Storage Manager"
+#~ msgstr "Bainisteoir na dTeagmhálacha"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Contact Manager"
+#~ msgctxt "GenericName"
+#~ msgid "Cloud Storage Manager"
+#~ msgstr "Bainisteoir na dTeagmhálacha"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the Address Book"
+#~ msgctxt "Comment"
+#~ msgid "Configure AdBlock"
+#~ msgstr "Cumraigh an Leabhar Seoltaí"
+
+#, fuzzy
+#~| msgctxt "X-KDE-Keywords"
+#~| msgid "akregator, configure, settings, advanced"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "akregator, configure, settings, AdBlock"
+#~ msgstr "akregator, cumraigh, socruithe, casta, ardsocruithe"
+
+#~ msgctxt "Name"
+#~ msgid "Application Octetstream"
+#~ msgstr "Application Octetstream"
+
+#~ msgctxt "Comment"
+#~ msgid "Colors & Fonts Configuration"
+#~ msgstr "Cumraíocht na nDathanna/gClónna"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "color,font, configuration"
+#~ msgstr "dath,cló,cumraíocht"
+
+#~ msgctxt "Name"
+#~ msgid "Crypto Operations"
+#~ msgstr "Oibríochtaí Criptithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Configuration of Crypto Operations"
+#~ msgstr "Cumraíocht na nOibríochtaí Criptithe"
+
+#~ msgctxt "Name"
+#~ msgid "Directory Services"
+#~ msgstr "Seirbhísí Eolaire"
+
+#~ msgctxt "Comment"
+#~ msgid "Configuration of directory services"
+#~ msgstr "Cumraíocht seirbhísí eolaire"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "ldap,directory,services,hkp,keyserver"
+#~ msgstr "ldap,eolaire,seirbhísí,hkp,freastalaí eochracha"
+
+#~ msgctxt "Name"
+#~ msgid "GnuPG System"
+#~ msgstr "Córas GnuPG"
+
+#~ msgctxt "Name"
+#~ msgid "Kleopatra"
+#~ msgstr "Kleopatra"
+
+#~ msgctxt "Name"
+#~ msgid "Sign & Encrypt File"
+#~ msgstr "Sínigh agus Criptigh Comhad"
+
+#~ msgctxt "Name"
+#~ msgid "Encrypt File"
+#~ msgstr "Criptigh Comhad"
+
+#~ msgctxt "Name"
+#~ msgid "Archive, Sign && Encrypt Folder"
+#~ msgstr "Cuir Fillteán i gCartlann, Sínigh agus Criptigh É"
+
+#~ msgctxt "Name"
+#~ msgid "Archive && Encrypt Folder"
+#~ msgstr "Cuir Fillteán i gCartlann agus Criptigh É"
+
+#~ msgctxt "Name"
+#~ msgid "TNEF"
+#~ msgstr "TNEF"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar Plugin Interface"
+#~ msgstr "Comhéadan Breiseáin Féilire"
+
+#~ msgctxt "Comment"
+#~ msgid "Calendar Plugin"
+#~ msgstr "Breiseán Féilire"
+
+#~ msgctxt "Name"
+#~ msgid "List Print Style"
+#~ msgstr "Priontáil mar Liosta"
+
+#~ msgctxt "Name"
+#~ msgid "What's Next Print Style"
+#~ msgstr "Priontáil Rudaí Le Teacht"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar Decoration Interface"
+#~ msgstr "Comhéadan Maisíochta Féilire"
+
+#~ msgctxt "Comment"
+#~ msgid "Calendar Decoration Plugin"
+#~ msgstr "Breiseán Maisíochta Féilire"
+
+#~ msgctxt "Name"
+#~ msgid "LDAP Server Settings"
+#~ msgstr "Socruithe Freastalaí LDAP"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the available LDAP servers"
+#~ msgstr "Cumraigh na freastalaithe LDAP atá ar fáil"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "kaddressbook, configure, settings, LDAP"
+#~ msgstr "kaddressbook, cumraigh, cumraíocht, socruithe, LDAP"
+
+#~ msgctxt "Name"
+#~ msgid "TAR (PGP®-compatible)"
+#~ msgstr "TAR (comhoiriúnach le PGP®)"
+
+#~ msgctxt "Name"
+#~ msgid "sha1sum"
+#~ msgstr "sha1sum"
+
+#~ msgctxt "Name"
+#~ msgid "md5sum"
+#~ msgstr "md5sum"
+
+#~ msgctxt "Name"
+#~ msgid "Other Keys"
+#~ msgstr "Eochracha Eile"
+
+#~ msgctxt "Name"
+#~ msgid "sha256sum"
+#~ msgstr "sha256sum"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Simple"
+#~ msgctxt "Name"
+#~ msgid "Example fancy"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Simple"
+#~ msgctxt "Name"
+#~ msgid "Example"
+#~ msgstr "Simplí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Mbox"
+#~ msgctxt "Name"
+#~ msgid "box"
+#~ msgstr "Mbox"
+
+#~ msgctxt "Name"
+#~ msgid "Jewish Calendar Plugin"
+#~ msgstr "Breiseán Féilire Giúdaí"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Standard profile"
+#~ msgctxt "Name"
+#~ msgid "Standards Header Style"
+#~ msgstr "Próifíl chaighdeánach"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Notes"
+#~ msgctxt "Name"
+#~ msgid "Create Note"
+#~ msgstr "Nótaí"
+
+#~ msgctxt "Name"
+#~ msgid "CoisceimPart"
+#~ msgstr "Comhpháirt Coiscéim"
+
+#~ msgctxt "Comment"
+#~ msgid "Coisceim Plugin"
+#~ msgstr "Breiseán Coiscéim"
+
+#~ msgctxt "Name"
+#~ msgid "Trips"
+#~ msgstr "Cuairteanna"
+
+#~ msgctxt "Name"
+#~ msgid "Online Readers"
+#~ msgstr "Léitheoirí Ar Líne"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Online Readers"
+#~ msgstr "Cumraigh Léitheoirí Ar Líne"
+
+#~ msgctxt "Name"
+#~ msgid "Akregator Online Feed Reader Support"
+#~ msgstr "Tacaíocht Akregator do Léitheoirí Fothaí Ar Líne"
+
+#~ msgctxt "Name"
+#~ msgid "Share Services"
+#~ msgstr "Seirbhísí Comhroinnte"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Share Services"
+#~ msgstr "Cumraigh Seirbhísí Comhroinnte"
+
+#~ msgctxt "Keywords"
+#~ msgid "mobile"
+#~ msgstr "móibíleach, soghluaiste"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Kontact Touch e-mail client"
+#~ msgstr "Cliant ríomhphoist KDE Kontact Touch"
+
+#~ msgctxt "Name"
+#~ msgid "Kontact Touch Mail"
+#~ msgstr "Ríomhphost Kontact Touch"
+
+#~ msgctxt "Name"
+#~ msgid "Notes"
+#~ msgstr "Nótaí"
+
+#~ msgctxt "Name"
+#~ msgid "Reminder Daemon"
+#~ msgstr "Deamhan Meabhrúchán"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Notes"
+#~ msgctxt "Comment"
+#~ msgid "notes"
+#~ msgstr "Nótaí"
+
+#~ msgctxt "Name"
+#~ msgid "KJotsPart"
+#~ msgstr "KJotsPart"
+
+#~ msgctxt "Name"
+#~ msgid "KJots"
+#~ msgstr "KJots"
+
+#~ msgctxt "GenericName"
+#~ msgid "Note Taker"
+#~ msgstr "Eagarthóir Nótaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact KJots Plugin"
+#~ msgstr "Breiseán KJots le haghaidh Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "Notebooks"
+#~ msgstr "Leabhair Nótaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Notebooks Component"
+#~ msgstr "Comhpháirt Leabhair Nótaí"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "A KDE4 Application"
+#~ msgctxt "GenericName"
+#~ msgid "A KDE5 Application"
+#~ msgstr "Feidhmchlár KDE4"
+
+#~ msgctxt "Name"
+#~ msgid "Letter home/private address"
+#~ msgstr "Seoladh baile/pearsanta"
+
+#~ msgctxt "Name"
+#~ msgid "Letter business/work address"
+#~ msgstr "Seoladh gnó/oibre"
+
+#~ msgctxt ""
+#~ "Comment|KMail plasma widget's comment, NOT translators' e-mail addresses."
+#~ msgid "Your emails"
+#~ msgstr "Do sheoladh ríomhphoist"
+
+#~ msgctxt "Name"
+#~ msgid "Alarms"
+#~ msgstr "Aláraim"
+
+#~ msgctxt "Name"
+#~ msgid "Alarms in Local File"
+#~ msgstr "Aláraim i gComhad Logánta"
+
+#~ msgctxt "Name"
+#~ msgid "Alarms in Local Directory"
+#~ msgstr "Aláraim i gComhadlann Logánta"
+
+#~ msgctxt "Name"
+#~ msgid "Alarms in Remote File"
+#~ msgstr "Aláraim i gCianchomhad"
+
+#~ msgctxt "Comment"
+#~ msgid "Setup for Newsgroup and Mail Servers"
+#~ msgstr "Socrú Freastalaithe Nuachta/Ríomhphoist"
+
+#~ msgctxt "Name"
+#~ msgid "Cleanup"
+#~ msgstr "Glan"
+
+#~ msgctxt "Comment"
+#~ msgid "Preserving Disk Space"
+#~ msgstr "Spás Diosca á Chaomhnú"
+
+#~ msgctxt "Name"
+#~ msgid "Identity"
+#~ msgstr "Aitheantas"
+
+#~ msgctxt "Comment"
+#~ msgid "Personal Information"
+#~ msgstr "Eolas Pearsanta"
+
+#~ msgctxt "Name"
+#~ msgid "Posting News"
+#~ msgstr "Nuacht a Phostáil"
+
+#~ msgctxt "Name"
+#~ msgid "Signing/Verifying"
+#~ msgstr "Síniú/Fíorú"
+
+#~ msgctxt "Comment"
+#~ msgid "Protect your privacy by signing and verifying postings"
+#~ msgstr ""
+#~ "Le do phríobháideacht a chosaint, ba chóir duit postálacha a shíniú agus "
+#~ "a fhíorú"
+
+#~ msgctxt "Name"
+#~ msgid "Reading News"
+#~ msgstr "Nuacht á Léamh"
+
+#~ msgctxt "Name"
+#~ msgid "KNode"
+#~ msgstr "KNode"
+
+#~ msgctxt "GenericName"
+#~ msgid "News Reader"
+#~ msgstr "Léitheoir Nuachta"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact KNode Plugin"
+#~ msgstr "Breiseán KNode le haghaidh Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "Usenet"
+#~ msgstr "Usenet"
+
+#~ msgctxt "Comment"
+#~ msgid "Usenet Component"
+#~ msgstr "Comhpháirt Usenet"
+
+#~ msgctxt "Comment"
+#~ msgid "TimeTracker Plugin"
+#~ msgstr "Breiseán TimeTracker"
+
+#~ msgctxt "Name"
+#~ msgid "Time Tracker"
+#~ msgstr "TimeTracker"
+
+#~ msgctxt "Comment"
+#~ msgid "Time Tracker Component"
+#~ msgstr "Comhpháirt TimeTracker"
+
+#~ msgctxt "Name"
+#~ msgid "Planner"
+#~ msgstr "Pleanálaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Planner Setup"
+#~ msgstr "Socrú Pleanálaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Planner Plugin"
+#~ msgstr "Breiseán Pleanálaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Planner Summary"
+#~ msgstr "Achoimre Pleanálaí"
+
+#~ msgctxt "Name"
+#~ msgid "Journal in a blog"
+#~ msgstr "Dialann i mblag"
+
+#~ msgctxt "Comment"
+#~ msgid "Allows to post calendar journal entries as blog entries"
+#~ msgstr ""
+#~ "Leis an mbreiseán seo is féidir leat iontrálacha dialainne a chur suas ar "
+#~ "do bhlag"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar in Remote File"
+#~ msgstr "Féilire i gCianchomhad"
+
+#~ msgctxt "Name"
+#~ msgid "Behavior"
+#~ msgstr "Oibriú"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Behavior"
+#~ msgstr "Cumraigh Oibriú"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "ktimetracker, configure, settings"
+#~ msgstr "ktimetracker, cumraigh, socruithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Appearance"
+#~ msgstr "Cumraigh Cuma"
+
+#~ msgctxt "Name"
+#~ msgid "Storage"
+#~ msgstr "Stóras"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Storage"
+#~ msgstr "Cumraigh Stóras"
+
+#~ msgctxt "Name"
+#~ msgid "KTimeTracker Component"
+#~ msgstr "Comhpháirt KTimeTracker"
+
+#~ msgctxt "Name"
+#~ msgid "KTimeTracker"
+#~ msgstr "KTimeTracker"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Style Settings"
+#~ msgctxt "Name"
+#~ msgid "PIM Activity Settings"
+#~ msgstr "Socruithe Stíle"
+
+#, fuzzy
+#~| msgctxt "X-KDE-Keywords"
+#~| msgid "akregator, configure, settings, archive"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "configure, settings, activity"
+#~ msgstr "akregator, cumraigh, socruithe, cartlann"
+
+#~ msgctxt "Name"
+#~ msgid "Notes in Local File"
+#~ msgstr "Nótaí i gComhad Logánta"
+
+#~ msgctxt "Name"
+#~ msgid "KOrganizer Print Plugin Interface"
+#~ msgstr "Comhéadan Breiseáin Priontála KOrganizer"
+
+#~ msgctxt "Name"
+#~ msgid "Journal Print Style"
+#~ msgstr "Stíl Phriontála Dialainne"
+
+#~ msgctxt "Comment"
+#~ msgid "This plugin allows you to print out journal entries (diary entries)."
+#~ msgstr ""
+#~ "Leis an mbreiseán seo is féidir leat iontrálacha dialainne a phriontáil."
+
+#~ msgctxt "Name"
+#~ msgid "Yearly Print Style"
+#~ msgstr "Stíl Bhliantúil Phriontála"
+
+#~ msgctxt "Name"
+#~ msgid "Style"
+#~ msgstr "Stíl"
+
+#~ msgctxt "Comment"
+#~ msgid "Style Settings"
+#~ msgstr "Socruithe Stíle"
+
+#~ msgctxt "GenericName"
+#~ msgid "TNEF File Viewer"
+#~ msgstr "Amharcán Comhad TNEF"
+
+#~ msgctxt "Name"
+#~ msgid "Air"
+#~ msgstr "Air"
+
+#~ msgctxt "Description"
+#~ msgid "An Air theme"
+#~ msgstr "Téama 'Air'"
+
+#~ msgctxt "Name"
+#~ msgid "Simple"
+#~ msgstr "Simplí"
+
+#~ msgctxt "Description"
+#~ msgid "A Simple theme"
+#~ msgstr "Téama simplí"
+
+#~ msgctxt "Name"
+#~ msgid "Test"
+#~ msgstr "Tástáil"
+
+#~ msgctxt "Description"
+#~ msgid "A Test theme"
+#~ msgstr "Téama tástála"
+
+#~ msgctxt "Name"
+#~ msgid "New Mail Arrived"
+#~ msgstr "Tháinig Ríomhphost Nua"
+
+#~ msgctxt "Comment"
+#~ msgid "New mail arrived"
+#~ msgstr "Tháinig ríomhphost nua"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Mail Client"
+#~ msgctxt "Name"
+#~ msgid "Mail send"
+#~ msgstr "Cliant Ríomhphoist"
+
+#~ msgctxt "Name"
+#~ msgid "Novell GroupWise Server"
+#~ msgstr "Freastalaí Novell GroupWise"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Groupware Wizard"
+#~ msgstr "Treoraí Groupware KDE"
+
+#~ msgctxt "Name"
+#~ msgid "KAlarm Calendar File"
+#~ msgstr "Comhad Féilire KAlarm"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a KAlarm calendar file"
+#~ msgstr "Breiseán a luchtaíonn sonraí ó chomhad féilire KAlarm"
+
+#~ msgctxt "Name"
+#~ msgid "KAlarm Templates"
+#~ msgstr "Teimpléid KAlarm"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a KAlarm alarm template file"
+#~ msgstr "Breiseán a luchtaíonn sonraí ó chomhad teimpléid KAlarm"
+
+#~ msgctxt "Name"
+#~ msgid "Nepomuk Calendar Feeder"
+#~ msgstr "Fothaire Féilire Nepomuk"
+
+#~ msgctxt "Name"
+#~ msgid "Nepomuk Contact Feeder"
+#~ msgstr "Fothaire Teagmhálacha Nepomuk"
+
+#~ msgctxt "Name"
+#~ msgid "Strigi Feeder"
+#~ msgstr "Fothaire Strigi"
+
+#~ msgctxt "Comment"
+#~ msgid "Strigi-based fulltext search"
+#~ msgstr "Cuardach lántéacs bunaithe ar Strigi"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Configuration"
+#~ msgstr "Cumraíocht Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Resources Configuration"
+#~ msgstr "Cumraíocht Acmhainní Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Server Configuration"
+#~ msgstr "Cumraíocht Fhreastalaí Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Address Books"
+#~ msgstr "Leabhair Sheoltaí Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi"
+#~ msgstr "Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "kaddressbookmigrator"
+#~ msgstr "kaddressbookmigrator"
+
+#~ msgctxt "Name"
+#~ msgid "Addressee Serializer"
+#~ msgstr "Srathóir Seolaithe"
+
+#~ msgctxt "Comment"
+#~ msgid "An Akonadi serializer plugin for addressee objects"
+#~ msgstr "Breiseán srathóra Akonadi le haghaidh seolaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Bookmark serializer"
+#~ msgstr "Srathóir leabharmharcanna"
+
+#~ msgctxt "Comment"
+#~ msgid "An Akonadi serializer plugin for bookmark objects"
+#~ msgstr "Breiseán srathóra Akonadi le haghaidh leabharmharcanna"
+
+#~ msgctxt "Comment"
+#~ msgid "An Akonadi serializer plugin for contact group objects"
+#~ msgstr "Breiseán srathóra Akonadi le haghaidh grúpaí teagmhálacha"
+
+#~ msgctxt "Name"
+#~ msgid "Incidence Serializer"
+#~ msgstr "Srathóir Imeachtaí"
+
+#~ msgctxt "Comment"
+#~ msgid "An Akonadi serializer plugin for events, tasks and journal entries"
+#~ msgstr ""
+#~ "Breiseán srathóra Akonadi le haghaidh imeachtaí, tascanna, agus "
+#~ "iontrálacha dialainne"
+
+#~ msgctxt "Name"
+#~ msgid "Mail Serializer"
+#~ msgstr "Srathóir Ríomhphoist"
+
+#~ msgctxt "Comment"
+#~ msgid "An Akonadi serializer plugin for mail objects"
+#~ msgstr "Breiseán srathóra Akonadi le haghaidh ríomhphoist"
+
+#~ msgctxt "Name"
+#~ msgid "Microblog Serializer"
+#~ msgstr "Srathóir Micreabhlagadóireachta"
+
+#~ msgctxt "Comment"
+#~ msgid "An Akonadi serializer plugin for Microblog"
+#~ msgstr "Breiseán srathóra Akonadi le haghaidh micreabhlagadóireachta"
+
+#~ msgctxt "Name"
+#~ msgid "AkoNotes"
+#~ msgstr "AkoNotes"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads a notes hierarchy from a local maildir folder"
+#~ msgstr "Luchtaíonn sé seo ordlathas nótaí ó fhillteán logánta maildir"
+
+#~ msgctxt "Name"
+#~ msgid "DAV groupware resource"
+#~ msgstr "Acmhainn groupware DAV"
+
+#~ msgctxt "Name"
+#~ msgid "ICal Calendar File"
+#~ msgstr "Comhad Féilire ICal"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from an iCal file"
+#~ msgstr "Breiseán a luchtaíonn sonraí ó chomhad iCal"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a notes file"
+#~ msgstr "Breiseán a luchtaíonn sonraí ó chomhad nótaí"
+
+#~ msgctxt "Name"
+#~ msgid "IMAP E-Mail Server"
+#~ msgstr "Freastalaí Ríomhphoist IMAP"
+
+#~ msgctxt "Name"
+#~ msgid "Generic IMAP Email Server"
+#~ msgstr "Freastalaí Ríomhphoist IMAP Ginearálta"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Address Book (traditional)"
+#~ msgstr "Leabhar Seoltaí KDE (traidisiúnta)"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a traditional KDE address book resource"
+#~ msgstr ""
+#~ "Breiseán a luchtaíonn sonraí ó acmhainn thraidisiúnta leabhair seoltaí KDE"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Calendar (traditional)"
+#~ msgstr "Féilire KDE (traidisiúnta)"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a traditional KDE calendar resource"
+#~ msgstr "Breiseán a luchtaíonn sonraí ó acmhainn thraidisiúnta fhéilire KDE"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Accounts"
+#~ msgstr "Cuntais KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads contacts from the KDE accounts file"
+#~ msgstr "Luchtaíonn sé seo teagmhálacha ón chomhad cuntas KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Knut"
+#~ msgstr "Knut"
+
+#~ msgctxt "Comment"
+#~ msgid "An agent for debugging purpose"
+#~ msgstr "Gníomhaire dífhabhtaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Local Bookmarks"
+#~ msgstr "Leabharmharcanna Logánta"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a local bookmarks file"
+#~ msgstr "Breiseán a luchtaíonn sonraí ó chomhad logánta leabharmharcanna"
+
+#~ msgctxt "Name"
+#~ msgid "Maildir"
+#~ msgstr "Maildir"
+
+#~ msgctxt "Comment"
+#~ msgid "Maildir account"
+#~ msgstr "Cuntas maildir"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a local mbox file"
+#~ msgstr "Breiseán a luchtaíonn sonraí ó chomhad logánta mbox"
+
+#~ msgctxt "Name"
+#~ msgid "MailBox"
+#~ msgstr "MailBox"
+
+#~ msgctxt "Comment"
+#~ msgid "Mailbox account"
+#~ msgstr "Cuntas MailBox"
+
+#~ msgctxt "Name"
+#~ msgid "Microblog (Twitter and Identi.ca)"
+#~ msgstr "Micreabhlagadóireacht (Twitter agus Identi.ca)"
+
+#~ msgctxt "Comment"
+#~ msgid "Shows your microblog data from Twitter or Identi.ca."
+#~ msgstr "Taispeáin do shonraí micreabhlagadóireachta ó Twitter nó Identi.ca."
+
+#~ msgctxt "Name"
+#~ msgid "KMail Maildir"
+#~ msgstr "Maildir KMail"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a local KMail maildir folder"
+#~ msgstr "Luchtaíonn sé seo sonraí ó fhillteán logánta maildir KMail"
+
+#~ msgctxt "Name"
+#~ msgid "Open-Xchange Groupware Server"
+#~ msgstr "Freastalaí Groupware Open-Xchange"
+
+#~ msgctxt "Name"
+#~ msgid "POP3 E-Mail Server"
+#~ msgstr "Freastalaí Ríomhphoist POP3"
+
+#~ msgctxt "Comment"
+#~ msgid "Connects to a POP3 e-mail server"
+#~ msgstr "Déanann sé seo ceangal le freastalaí ríomhphoist POP3"
+
+#~ msgctxt "Name"
+#~ msgid "Pop3"
+#~ msgstr "POP3"
+
+#~ msgctxt "Comment"
+#~ msgid "Pop3 account"
+#~ msgstr "Cuntas POP3"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a directory with VCards"
+#~ msgstr "Gníomhaire a luchtaíonn sonraí ó chomhadlann ina bhfuil v-Chártaí"
+
+#~ msgctxt "Name"
+#~ msgid "VCard File"
+#~ msgstr "Comhad v-Chárta"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a VCard file"
+#~ msgstr "Breiseán a luchtaíonn sonraí ó chomhad v-Chárta"
+
+#~ msgctxt "Name"
+#~ msgid "Akonaditray"
+#~ msgstr "Akonaditray"
+
+#~ msgctxt "GenericName"
+#~ msgid "Akonadi Tray Utility"
+#~ msgstr "Uirlis Tráidire Akonadi"
+
+#~ msgctxt "Comment"
+#~ msgid "A Feed Reader for KDE"
+#~ msgstr "Léitheoir Fothaí KDE"
+
+#~ msgctxt "Name"
+#~ msgid "OpenChange"
+#~ msgstr "OpenChange"
+
+#~ msgctxt "Comment"
+#~ msgid "Makes it possible to work with an OpenChange / Exchange server"
+#~ msgstr "Breiseán lenar féidir oibriú le freastalaí OpenChange / Exchange"
+
+#~ msgctxt "Name"
+#~ msgid "GroupDAV Server (e.g. OpenGroupware)"
+#~ msgstr "Freastalaí GroupDAV (m.sh. OpenGroupware)"
+
+#~ msgctxt "Name"
+#~ msgid "Application Octet Stream"
+#~ msgstr "Application Octet Stream"
+
+#~ msgctxt "Name"
+#~ msgid "Birthdays From KAddressBook"
+#~ msgstr "Breithlaethanta ó KAddressBook"
+
+#~ msgctxt "Name"
+#~ msgid "OpenXchange Server"
+#~ msgstr "Freastalaí Openexchange"
+
+#~ msgctxt "Name"
+#~ msgid "SUSE LINUX Openexchange Server"
+#~ msgstr "Freastalaí Openexchange SUSE LINUX"
+
+#~ msgctxt "Name"
+#~ msgid "DN-Attribute Order"
+#~ msgstr "Ord aitreabúidí DN"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the order in which DN attributes are shown"
+#~ msgstr "Cumraigh an t-ord ina dtaispeánfar aitreabúidí DN"
+
+#~ msgctxt "Name"
+#~ msgid "Address Book on IMAP Server via KMail"
+#~ msgstr "Leabhar Seoltaí ar Fhreastalaí IMAP via KMail"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar on IMAP Server via KMail"
+#~ msgstr "Féilire ar Fhreastalaí IMAP via KMail"
+
+#~ msgctxt "Name"
+#~ msgid "IMAP Server via KMail"
+#~ msgstr "Freastalaí IMAP via KMail"
+
+#~ msgctxt "Name"
+#~ msgid "KitchenSync"
+#~ msgstr "KitchenSync"
+
+#~ msgctxt "GenericName"
+#~ msgid "Synchronization"
+#~ msgstr "Sioncrónú"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This conduit syncs the handheld calendar database with an Akonadi "
+#~ "calendar Collection."
+#~ msgstr ""
+#~ "Sioncrónaíonn an seoladán seo an bunachar sonraí féilire ar do ríomhaire "
+#~ "boise le Bailiúchán féilirí Akonadi."
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This conduit syncs the handheld address book database with an Akonadi "
+#~ "collection."
+#~ msgstr ""
+#~ "Sioncrónaíonn an seoladán seo bunachar sonraí an leabhair seoltaí ar do "
+#~ "ríomhaire boise le Bailiúchán Akonadi."
+
+#~ msgctxt "Comment"
+#~ msgid "Adds text files to your handheld, suitable for DOC readers."
+#~ msgstr ""
+#~ "Cuir téacschomhaid le do ríomhaire boise, oiriúnach do léitheoirí DOC."
+
+#~ msgctxt "Name"
+#~ msgid "Palm DOC"
+#~ msgstr "Palm DOC"
+
+#~ msgctxt "Name"
+#~ msgid "KPalmDOC"
+#~ msgstr "KPalmDOC"
+
+#~ msgctxt "GenericName"
+#~ msgid "PalmDOC Converter"
+#~ msgstr "Tiontaire PalmDOC"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This conduit syncs the handheld keyring database with a database stored "
+#~ "on the PC."
+#~ msgstr ""
+#~ "Sioncrónaíonn an seoladán seo fáinní eochracha an ríomhaire boise le "
+#~ "bunachar sonraí ar an ríomhaire deisce."
+
+#~ msgctxt "Name"
+#~ msgid "Keyring"
+#~ msgstr "Fáinne Eochracha"
+
+#~ msgctxt "Name"
+#~ msgid "MAL (AvantGo) Conduit"
+#~ msgstr "Seoladán MAL (AvantGo)"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Synchronize AvantGo (or generally a MAL server's content) to the "
+#~ "handheld. This allows you to view web-pages offline on the handheld, like "
+#~ "your cinema or TV schedule, or any other web page."
+#~ msgstr ""
+#~ "Sioncrónaigh AvantGo (nó, níos ginearálta, an t-ábhar ar fhreastalaí MAL) "
+#~ "leis an ríomhaire boise. Ceadaíonn sé seo duit leathanaigh Ghréasáin a "
+#~ "léamh as líne ar do ríomhaire boise, mar shampla sceideal teilifíse nó "
+#~ "scannáin, nó leathanach ar bith eile."
+
+#~ msgctxt "Comment"
+#~ msgid "This conduit syncs your handheld memos with a local directory."
+#~ msgstr ""
+#~ "Sioncrónaíonn an seoladán seo na meamraim ar do ríomhaire boise le "
+#~ "comhadlann logánta."
+
+#~ msgctxt "Name"
+#~ msgid "NotePad"
+#~ msgstr "NotePad"
+
+#~ msgctxt "Comment"
+#~ msgid "This conduit backs up NotePad drawings to a local folder."
+#~ msgstr ""
+#~ "Déanann an seoladán seo cúltaca ar líníochtaí NotePad i bhfillteán "
+#~ "logánta."
+
+#~ msgctxt "Name"
+#~ msgid "NULL"
+#~ msgstr "NULL"
+
+#~ msgctxt "Comment"
+#~ msgid "This conduit does nothing."
+#~ msgstr "Ní dhéanann an seoladán seo faic."
+
+#~ msgctxt "Comment"
+#~ msgid "Send mail from your handheld through KMail."
+#~ msgstr "Seol ríomhphost ó do ríomhaire boise trí KMail."
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This conduit writes information about your handheld and the sync to a "
+#~ "file."
+#~ msgstr ""
+#~ "Scríobhann an seoladán seo eolas faoi do ríomhaire boise agus faoin "
+#~ "sioncrónú i gcomhad."
+
+#~ msgctxt "Name"
+#~ msgid "System Information"
+#~ msgstr "Faisnéis Córais"
+
+#~ msgctxt "Comment"
+#~ msgid "This conduit sets the time on your handheld from the PC clock."
+#~ msgstr ""
+#~ "Sioncrónaíonn an seoladán seo an t-am ar do ríomhaire boise leis an gclog "
+#~ "ar do ríomhaire deisce."
+
+#~ msgctxt "Name"
+#~ msgid "Time Synchronization"
+#~ msgstr "Sioncrónú an Ama"
+
+#~ msgctxt "Name"
+#~ msgid "To-do"
+#~ msgstr "Tascanna"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This conduit syncs the handheld address book with a database stored on "
+#~ "the PC."
+#~ msgstr ""
+#~ "Sioncrónaíonn an seoladán seo leabhar seoltaí an ríomhaire boise le "
+#~ "bunachar sonraí ar an ríomhaire deisce."
+
+#~ msgctxt "Comment"
+#~ msgid "KPilot Conduit"
+#~ msgstr "Seoladán KPilot"
+
+#~ msgctxt "Comment"
+#~ msgid "KPilot Main Configuration"
+#~ msgstr "Príomhchumraíocht KPilot"
+
+#~ msgctxt "Name"
+#~ msgid "KPilotDaemon"
+#~ msgstr "KPilotDaemon"
+
+#~ msgctxt "Name"
+#~ msgid "KPilot"
+#~ msgstr "KPilot"
+
+#~ msgctxt "GenericName"
+#~ msgid "PalmPilot Tool"
+#~ msgstr "Uirlis PalmPilot"
+
+#~ msgctxt "Name"
+#~ msgid "TV Schedules"
+#~ msgstr "Sceidil Teilifíse"
+
+#~ msgctxt "Name"
+#~ msgid "Address Book on Scalix Server via KMail"
+#~ msgstr "Leabhar Seoltaí ar Fhreastalaí Scalix via KMail"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar on Scalix Server via KMail"
+#~ msgstr "Féilire ar Fhreastalaí Scalix via KMail"
+
+#~ msgctxt "Name"
+#~ msgid "Notes on Scalix Server via KMail"
+#~ msgstr "Nótaí ar Fhreastalaí Scalix via KMail"
+
+#~ msgctxt "Name"
+#~ msgid "Distribution List File"
+#~ msgstr "Comhad Liosta Dáilte"
+
+#~ msgctxt "Comment"
+#~ msgid "Loads data from a distribution list file"
+#~ msgstr "Breiseán a luchtaíonn sonraí ó chomhad liosta dáilte"
+
+#~ msgctxt "Name"
+#~ msgid "Kontact Plugin"
+#~ msgstr "Breiseán Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "KAddressBook (KDE 3.1)"
+#~ msgstr "KAddressBook (KDE 3.1)"
+
+#~ msgctxt "Name"
+#~ msgid "Outlook 2000"
+#~ msgstr "Outlook 2000"
+
+#~ msgctxt "Name"
+#~ msgid "Yahoo! Address Book"
+#~ msgstr "Leabhar Seoltaí Yahoo!"
+
+#~ msgctxt "Comment"
+#~ msgid "Address Book with a D-Bus interface"
+#~ msgstr "Leabhar Seoltaí le comhéadan D-Bus"
+
+#~ msgctxt "Name"
+#~ msgid "Instant Messaging"
+#~ msgstr "Cur Teachtaireachtaí Meandaracha"
+
+#~ msgctxt "Comment"
+#~ msgid "Instant Messaging Address Editor"
+#~ msgstr "Eagarthóir Seolta le haghaidh Teachtaireachtaí Meandaracha"
+
+#~ msgctxt "Name"
+#~ msgid "KAddressbook Instant Messaging Protocol"
+#~ msgstr "Prótacal Teachtaireachtaí Meandaracha KAddressbook"
+
+#~ msgctxt "Comment"
+#~ msgid "AIM Protocol"
+#~ msgstr "Prótacal AIM"
+
+#~ msgctxt "Name"
+#~ msgid "AIM"
+#~ msgstr "AIM"
+
+#~ msgctxt "Comment"
+#~ msgid "Gadu-Gadu Protocol"
+#~ msgstr "Prótacal Gadu-Gadu"
+
+#~ msgctxt "Name"
+#~ msgid "Gadu-Gadu"
+#~ msgstr "Gadu-Gadu"
+
+#~ msgctxt "Comment"
+#~ msgid "Novell GroupWise Messenger"
+#~ msgstr "Teachtaire Novell GroupWise"
+
+#~ msgctxt "Name"
+#~ msgid "GroupWise"
+#~ msgstr "GroupWise"
+
+#~ msgctxt "Comment"
+#~ msgid "ICQ Protocol"
+#~ msgstr "Prótacal ICQ"
+
+#~ msgctxt "Name"
+#~ msgid "ICQ"
+#~ msgstr "ICQ"
+
+#~ msgctxt "Comment"
+#~ msgid "Internet Relay Chat"
+#~ msgstr "Internet Relay Chat"
+
+#~ msgctxt "Name"
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#~ msgctxt "Comment"
+#~ msgid "Jabber Protocol"
+#~ msgstr "Prótacal Jabber"
+
+#~ msgctxt "Name"
+#~ msgid "Jabber"
+#~ msgstr "Jabber"
+
+#~ msgctxt "Comment"
+#~ msgid "Meanwhile Protocol"
+#~ msgstr "Prótacal Meanwhile"
+
+#~ msgctxt "Name"
+#~ msgid "Meanwhile"
+#~ msgstr "Meanwhile"
+
+#~ msgctxt "Comment"
+#~ msgid "MSN Messenger"
+#~ msgstr "MSN Messenger"
+
+#~ msgctxt "Name"
+#~ msgid "MSN Messenger"
+#~ msgstr "MSN Messenger"
+
+#~ msgctxt "Comment"
+#~ msgid "Skype Internet Telephony"
+#~ msgstr "Teileafónaíocht Idirlín Skype"
+
+#~ msgctxt "Name"
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgctxt "Comment"
+#~ msgid "SMS Protocol"
+#~ msgstr "Prótacal SMS"
+
+#~ msgctxt "Name"
+#~ msgid "SMS"
+#~ msgstr "SMS"
+
+#~ msgctxt "Comment"
+#~ msgid "Yahoo Protocol"
+#~ msgstr "Prótacal Yahoo"
+
+#~ msgctxt "Name"
+#~ msgid "Yahoo"
+#~ msgstr "Yahoo"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for managing distribution lists"
+#~ msgstr "Breiseán lenar féidir liostaí dáilte a bhainistiú"
+
+#~ msgctxt "Name"
+#~ msgid "Address Book Management Plugin"
+#~ msgstr "Breiseán Bhainisteoireacht Leabhar na Seoltaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for managing address books"
+#~ msgstr "Breiseán lenar féidir leabhair seoltaí a bhainistiú"
+
+#~ msgctxt "Comment"
+#~ msgid "KAddressBook Contact Editor Widget Plugin"
+#~ msgstr "Breiseán Eagarthóireachta Teagmhálacha KAddressBook"
+
+#~ msgctxt "Comment"
+#~ msgid "KAddressBook Extension Plugin"
+#~ msgstr "Breiseán Eisínteachta KAddressBook"
+
+#~ msgctxt "GenericName"
+#~ msgid "Address Manager"
+#~ msgstr "Bainisteoir na Seoltaí"
+
+#~ msgctxt "Comment"
+#~ msgid "KAddressBook View Plugin"
+#~ msgstr "Breiseán Amhairc KAddressBook"
+
+#~ msgctxt "Name"
+#~ msgid "LDAP Lookup"
+#~ msgstr "Cuardach LDAP"
+
+#~ msgctxt "Name"
+#~ msgid "Electronic Business Card Files"
+#~ msgstr "Comhaid Chártaí Gnó"
+
+#~ msgctxt "Name"
+#~ msgid "Card View"
+#~ msgstr "Amharc Cárta"
+
+#~ msgctxt "Name"
+#~ msgid "Icon View"
+#~ msgstr "Amharc Deilbhíní"
+
+#~ msgctxt "Name"
+#~ msgid "Table View"
+#~ msgstr "Amharc Tábla"
+
+#~ msgctxt "Name"
+#~ msgid "KAB Bookmark XXPort Plugin"
+#~ msgstr "Breiseán Iompórtála/Easpórtála Leabharmharcanna le haghaidh KAB"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin to export the web addresses of the contacts as bookmarks"
+#~ msgstr ""
+#~ "Breiseán a easpórtálann seoltaí Gréasáin na dteagmhálacha mar "
+#~ "leabharmharcanna"
+
+#~ msgctxt "Name"
+#~ msgid "KAB CSV XXPort Plugin"
+#~ msgstr "Breiseán Iompórtála/Easpórtála CSV le haghaidh KAB"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin to import and export contacts in CSV format"
+#~ msgstr ""
+#~ "Breiseán a iompórtálann agus easpórtálann teagmhálacha i bhformáid CSV"
+
+#~ msgctxt "Name"
+#~ msgid "KAB Eudora XXPort Plugin"
+#~ msgstr "Breiseán Iompórtála/Easpórtála Eudora le haghaidh KAB"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin to import and export Eudora contacts"
+#~ msgstr "Breiseán a iompórtálann agus easpórtálann teagmhálacha Eudora"
+
+#~ msgctxt "Name"
+#~ msgid "KAB GMX XXPort Plugin"
+#~ msgstr "Breiseán Iompórtála/Easpórtála GMX le haghaidh KAB"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin to import and export contacts in GMX's address book format"
+#~ msgstr ""
+#~ "Breiseán a iompórtálann agus easpórtálann teagmhálacha i bhformáid "
+#~ "leabhair seoltaí GMX"
+
+#~ msgctxt "Comment"
+#~ msgid "Mobile phone plugin to import and export address book entries"
+#~ msgstr ""
+#~ "Breiseán fóin póca a iompórtálann agus easpórtálann teagmhálacha Eudora"
+
+#~ msgctxt "Name"
+#~ msgid "KAB KDE2 XXPort Plugin"
+#~ msgstr "Breiseán Iompórtála/Easpórtála KDE2 le haghaidh KAB"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin to import the old KDE 2 address book"
+#~ msgstr "Breiseán a iompórtálann an seanleabhar seoltaí KDE 2"
+
+#~ msgctxt "Name"
+#~ msgid "KAB LDIF XXPort Plugin"
+#~ msgstr "Breiseán Iompórtála/Easpórtála LDIF le haghaidh KAB"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Plugin to import and export contacts in Netscape and Mozilla LDIF format"
+#~ msgstr ""
+#~ "Breiseán a iompórtálann agus easpórtálann teagmhálacha i bhformáid LDIF "
+#~ "de chuid Netscape agus Mozilla"
+
+#~ msgctxt "Name"
+#~ msgid "KAB Opera XXPort Plugin"
+#~ msgstr "Breiseán Iompórtála/Easpórtála Opera le haghaidh KAB"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin to import Opera contacts"
+#~ msgstr "Breiseán a iompórtálann teagmhálacha Opera"
+
+#~ msgctxt "Name"
+#~ msgid "KAB vCard XXPort Plugin"
+#~ msgstr "Breiseán Iompórtála/Easpórtála v-Chártaí le haghaidh KAB"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin to import and export contacts in vCard format"
+#~ msgstr ""
+#~ "Breiseán a iompórtálann agus easpórtálann teagmhálacha i bhformáid v-"
+#~ "Chárta"
+
+#~ msgctxt "Name"
+#~ msgid "KContactManager"
+#~ msgstr "KContactManager"
+
+#~ msgctxt "Name"
+#~ msgid "eGroupware Server (via XML-RPC)"
+#~ msgstr "Freastalaí eGroupware (via XML-RPC)"
+
+#~ msgctxt "Name"
+#~ msgid "High Contrast"
+#~ msgstr "Ardchodarsnacht"
+
+#~ msgctxt "Comment"
+#~ msgid "Increased font sizes for visually impaired users"
+#~ msgstr "Clónna níos mó ar son úsáideoirí lagamhairc"
+
+#~ msgctxt "Name"
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgctxt "Comment"
+#~ msgid "Standard profile with HTML preview enabled - less secure!"
+#~ msgstr ""
+#~ "Próifíl chaighdeánach le réamhamharc HTML cumasaithe - is lú slándáil!"
+
+#~ msgctxt "Name"
+#~ msgid "Purist"
+#~ msgstr "Saoithín"
+
+#~ msgctxt "Comment"
+#~ msgid "Most features turned off, KDE global settings are used"
+#~ msgstr "Formhór na ngnéithe múchta, socruithe comhchoiteanna KDE in úsáid"
+
+#~ msgctxt "Name"
+#~ msgid "Most Secure"
+#~ msgstr "Is Mó Slándáil"
+
+#~ msgctxt "Comment"
+#~ msgid "Sets all necessary options to achieve maximum security"
+#~ msgstr ""
+#~ "Socraigh na roghanna go léir atá de dhíth chun slándáil is fearr a bhaint "
+#~ "amach"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Imap"
+#~ msgstr "IMAP Akonadi"
+
+#~ msgctxt "Comment"
+#~ msgid "Connects to an IMAP-server. Based on the KIMAP from kdepimlibs."
+#~ msgstr ""
+#~ "Breiseán a bhunaíonn ceangal le freastalaí IMAP.  Bunaithe ar KIMAP as "
+#~ "kdepimlibs."
+
+#~ msgctxt "Comment"
+#~ msgid "Thread mails in a collection"
+#~ msgstr "Gníomhaire a shnáithíonn ríomhphost i mbailiúchán"
+
+#~ msgctxt "Comment"
+#~ msgid "KMobileTools Plugin"
+#~ msgstr "Breiseán KMobileTools"
+
+#~ msgctxt "Name"
+#~ msgid "Mobile Phones"
+#~ msgstr "Fóin Phóca"
+
+#~ msgctxt "Comment"
+#~ msgid "Mobile Phone Component"
+#~ msgstr "Comhpháirt Fón Póca"
+
+#~ msgctxt "Name"
+#~ msgid "News Feeds"
+#~ msgstr "Fothaí Nuachta"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact NewsTicker Plugin"
+#~ msgstr "Breiseán NewsTicker le haghaidh Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "NewsTicker"
+#~ msgstr "NewsTicker"
+
+#~ msgctxt "Name"
+#~ msgid "News Ticker"
+#~ msgstr "Teilitéip Nuachta"
+
+#~ msgctxt "Comment"
+#~ msgid "News Ticker Component"
+#~ msgstr "Comhpháirt Teilitéipe Nuachta"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact Weather Plugin"
+#~ msgstr "Breiseán Aimsire Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "Weather"
+#~ msgstr "Aimsir"
+
+#~ msgctxt "Comment"
+#~ msgid "Weather Information"
+#~ msgstr "Faisnéis Aimsire"
+
+#~ msgctxt "Name"
+#~ msgid "Mailody Imap"
+#~ msgstr "IMAP Mailody"
+
+#~ msgctxt "Name"
+#~ msgid "KWSDL Compiler"
+#~ msgstr "Tiomsaitheoir KWSDL"
+
+#~ msgctxt "Name"
+#~ msgid "KXForms"
+#~ msgstr "KXForms"
+
+#~ msgctxt "GenericName"
+#~ msgid "XML Form Editor"
+#~ msgstr "Eagarthóir Foirme XML"
+
+#~ msgctxt "Name"
+#~ msgid "AT Engine"
+#~ msgstr "Inneall AT"
+
+#~ msgctxt "Comment"
+#~ msgid "KMobileTools Engine based on the standard GSM AT Command Set"
+#~ msgstr ""
+#~ "Inneall KMobileTools bunaithe ar an Tacar Caighdeánach Orduithe GSM AT"
+
+#~ msgctxt "Name"
+#~ msgid "Fake engine"
+#~ msgstr "Bréaginneall"
+
+#~ msgctxt "Comment"
+#~ msgid "A KMobileTools fake engine..."
+#~ msgstr "Bréaginneall KMmobileTools..."
+
+#~ msgctxt "Description"
+#~ msgid ""
+#~ "A KMobileTools fake engine that is used as a proof of concept for the api "
+#~ "redesign."
+#~ msgstr ""
+#~ "Bréaginneall KMmobileTools a úsáidtear chun athdhearadh an chomhéadain a "
+#~ "phromhadh."
+
+#~ msgctxt "Name"
+#~ msgid "Gammu Engine"
+#~ msgstr "Inneall Gammu"
+
+#~ msgctxt "Comment"
+#~ msgid "KMobileTools Engine based on Gammu"
+#~ msgstr "Inneall KMobileTools bunaithe ar Gammu"
+
+#~ msgctxt "Name"
+#~ msgid "KMobileTools"
+#~ msgstr "KMobileTools"
+
+#~ msgctxt "GenericName"
+#~ msgid "Mobile Phones Management"
+#~ msgstr "Bainisteoireacht na bhFón Póca"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Mobile Phones Suite"
+#~ msgstr "Sraith Fón Póca KDE"
+
+#~ msgctxt "Name"
+#~ msgid "SMS Serializer"
+#~ msgstr "Srathóir SMS"
+
+#~ msgctxt "Comment"
+#~ msgid "KMobileTools CoreService"
+#~ msgstr "CroíSheirbhís KMmobileTools"
+
+#~ msgctxt "Comment"
+#~ msgid "KMobileTools Engine"
+#~ msgstr "Inneall KMobileTools"
+
+#~ msgctxt "Comment"
+#~ msgid "KMobileTools EngineXP"
+#~ msgstr "InneallXP KMmobileTools"
+
+#~ msgctxt "Comment"
+#~ msgid "KMobileTools"
+#~ msgstr "KMobileTools"
+
+#~ msgctxt "Name"
+#~ msgid "Incoming Call"
+#~ msgstr "Glao Isteach"
+
+#~ msgctxt "Comment"
+#~ msgid "There is an incoming call"
+#~ msgstr "Tá glao isteach ann"
+
+#~ msgctxt "Name"
+#~ msgid "New SMS Messages"
+#~ msgstr "Teachtaireachtaí Nua SMS"
+
+#~ msgctxt "Comment"
+#~ msgid "New incoming SMS were found"
+#~ msgstr "Aimsíodh teachtaireachtaí nua SMS"
+
+#~ msgctxt "Name"
+#~ msgid "kmobiletoolsMainPart"
+#~ msgstr "kmobiletoolsMainPart"
+
+#~ msgctxt "Name"
+#~ msgid "Address Book Service"
+#~ msgstr "Seirbhís Leabhair Seoltaí"
+
+#~ msgctxt "Comment"
+#~ msgid "A KMobileTools service that provides address book functions"
+#~ msgstr "Seirbhís KMobileTools a sholáthraíonn feidhmeanna leabhair seoltaí"
+
+#~ msgctxt "Name"
+#~ msgid "KMTSetup"
+#~ msgstr "KMTSetup"
+
+#~ msgctxt "Comment"
+#~ msgid "An application for configuration of devices used by kmobiletools"
+#~ msgstr "Feidhmchlár a chumraíonn na gléasanna a úsáideann kmobiletools"
+
+#~ msgctxt "Name"
+#~ msgid "Mobile Phones Filesystem"
+#~ msgstr "Córas Comhad Fóin Phóca"
+
+#~ msgctxt "Description"
+#~ msgid "A kioslave for mobile"
+#~ msgstr "Sclábhaí KIO le haghaidh mobile"
+
+#~ msgctxt "Description"
+#~ msgid "A kioslave for obex"
+#~ msgstr "Sclábhaí KIO le haghaidh obex"
+
+#~ msgctxt "Description"
+#~ msgid "A kioslave for p2k Motorola Phones"
+#~ msgstr "Sclábhaí KIO le haghaidh Fóin p2k Motorola"
+
+#~ msgctxt "Name"
+#~ msgid "KSerialDeviceEmulator"
+#~ msgstr "KSerialDeviceEmulator"
+
+#~ msgctxt "Name"
+#~ msgid "Korn"
+#~ msgstr "Korn"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi ICal Resource"
+#~ msgstr "Acmhainn ICal Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Mailody Imaplib Resource"
+#~ msgstr "Acmhainn Imaplib Mailody Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Knut Resource"
+#~ msgstr "Acmhainn Knut Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Maildir Resource"
+#~ msgstr "Acmhainn Maildir Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi NNTP Resource"
+#~ msgstr "Acmhainn NNTP Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi OpenChange Resource"
+#~ msgstr "Acmhainn OpenChange Akonadi"
+
+#~ msgctxt "Comment"
+#~ msgid "This conduit syncs the ToDo list from your handheld to KOrganizer."
+#~ msgstr ""
+#~ "Sioncrónaíonn an seoladán seo liosta na dtascanna ar do ríomhaire boise "
+#~ "le KOrganizer."
+
+#~ msgctxt "Name"
+#~ msgid "ToDos (KOrganizer)"
+#~ msgstr "Tascanna (KOrganizer)"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar (KOrganizer)"
+#~ msgstr "Féilire (KOrganizer)"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This conduit synchronizes your handheld with the KOrganizer datebook."
+#~ msgstr ""
+#~ "Sioncrónaíonn an seoladán seo do ríomhaire boise le féilire KOrganizer."
+
+#~ msgctxt "Comment"
+#~ msgid "Phrases & General Behavior"
+#~ msgstr "Frásaí agus Oibriú Ginearálta"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Engine"
+#~ msgstr "Inneall Akonadi"
+
+#~ msgctxt "Comment"
+#~ msgid "Akonadi PIM data engine"
+#~ msgstr "Inneall sonraí PIM Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "PlasmoBiff"
+#~ msgstr "PlasmoBiff"
+
+#~ msgctxt "Name"
+#~ msgid "Components"
+#~ msgstr "Comhpháirteanna"
+
+#~ msgctxt "Comment"
+#~ msgid "General Configuration of Kontact's Summary View"
+#~ msgstr "Cumraíocht Ghinearálta Amharc Achoimre Kontact"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact Test Plugin"
+#~ msgstr "Breiseán Tástála Kontact"
+
+#~ msgctxt "Name"
+#~ msgid "TestPlugin"
+#~ msgstr "Breiseán Tástála"
+
+#~ msgctxt "Comment"
+#~ msgid "Personal Alarm Scheduler: start as system tray icon"
+#~ msgstr ""
+#~ "Sceidealóir Aláram Pearsanta: tosaigh mar dheilbhín i dtráidire an chórais"
+
+#~ msgctxt "Name"
+#~ msgid "karmPart"
+#~ msgstr "karmPart"
+
+#~ msgctxt "Name"
+#~ msgid "Server"
+#~ msgstr "Freastalaí"
+
+#~ msgctxt "Name"
+#~ msgid "The Akonadi server is now offline"
+#~ msgstr "Tá an freastalaí Akonadi as líne anois"
+
+#~ msgctxt "Comment"
+#~ msgid "Email specific extension to Akonadi"
+#~ msgstr "Eisínteacht Akonadi sainiúil don ríomhphost"
+
+#~ msgctxt "Name"
+#~ msgid "Komposer"
+#~ msgstr "Komposer"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Komposer"
+#~ msgstr "Komposer KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Komposer Editor"
+#~ msgstr "Eagarthóir Komposer"
+
+#~ msgctxt "Name"
+#~ msgid "Komposer Editor"
+#~ msgstr "Eagarthóir Komposer"
+
+#~ msgctxt "Comment"
+#~ msgid "Komposer default editor"
+#~ msgstr "Eagarthóir réamhshocraithe Komposer"
+
+#~ msgctxt "Comment"
+#~ msgid "An agent to load data from a KABC resource plugin"
+#~ msgstr "Gníomhaire a luchtaíonn sonraí ó bhreiseán acmhainne KABC"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Knut Resource (Headless)"
+#~ msgstr "Acmhainn Knut Akonadi (Gan Cheann)"
+
+#~ msgctxt "Comment"
+#~ msgid "An agent for unittest purpose"
+#~ msgstr "Gníomhaire tástála aonad"
+
+#~ msgctxt "Comment"
+#~ msgid "KArm Plugin"
+#~ msgstr "Breiseán KArm"
+
+#~ msgctxt "Name"
+#~ msgid "KArm"
+#~ msgstr "KArm"
+
+#~ msgctxt "Comment"
+#~ msgid "An RSS Aggregator for KDE"
+#~ msgstr "Comhbhailitheoir RSS le haghaidh KDE"
+
+#~ msgctxt "Keywords"
+#~ msgid "kaddressbook, configure, settings"
+#~ msgstr "kaddressbook, cumraigh, cumraíocht, socruithe"
+
+#~ msgctxt "Keywords"
+#~ msgid "kaddressbook, configure, settings, custom fields"
+#~ msgstr "kaddressbook, cumraith, cumraíocht, socruithe, réimsí saincheaptha"
+
+#~ msgctxt "Keywords"
+#~ msgid "DN,order,RDN,attribute"
+#~ msgstr "DN,ord,RDN,aitreabúid"
+
+#~ msgctxt "Keywords"
+#~ msgid "kpilot,main"
+#~ msgstr "kpilot,príomh"
+
+#~ msgctxt "Name"
+#~ msgid "Colors"
+#~ msgstr "Dathanna"
+
+#~ msgctxt "Name"
+#~ msgid "Fonts"
+#~ msgstr "Clónna"
+
+#~ msgctxt "Keywords"
+#~ msgid "korganizer,fonts"
+#~ msgstr "korganizer,clónna,clófhoirne"
+
+#~ msgctxt "Name"
+#~ msgid "Personal"
+#~ msgstr "Pearsanta"
+
+#~ msgctxt "Name"
+#~ msgid "Kandy"
+#~ msgstr "Kandy"
+
+#~ msgctxt "Name"
+#~ msgid "PalmOS Database Info"
+#~ msgstr "Eolas faoin Bhunachar Sonraí PalmOS"
+
+#~ msgctxt "Name"
+#~ msgid "Digital Camera"
+#~ msgstr "Ceamara Digiteach"
+
+#~ msgctxt "Comment"
+#~ msgid "This driver supports many digital cameras"
+#~ msgstr "Tacaíonn an tiománaí seo le neart ceamaraí digiteacha"
+
+#~ msgctxt "Name"
+#~ msgid "Mobile Phone or Organizer (gammu)"
+#~ msgstr "Fón Póca nó Eagraí (gammu)"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This driver supports many NOKIA and other mobile phones via the gammu "
+#~ "library"
+#~ msgstr ""
+#~ "Tacaíonn an tiománaí seo le neart fóin NOKIA agus cinn eile, tríd an "
+#~ "leabharlann gammu"
+
+#~ msgctxt "Name"
+#~ msgid "Mobile Phone or Organizer (gnokii)"
+#~ msgstr "Fón Póca nó Eagraí (gnokii)"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This driver supports many NOKIA and other mobile phones via the gnokii "
+#~ "library"
+#~ msgstr ""
+#~ "Tacaíonn an tiománaí seo le neart fóin NOKIA agus cinn eile, tríd an "
+#~ "leabharlann gnokii"
+
+#~ msgctxt "Name"
+#~ msgid "Skeleton Device"
+#~ msgstr "Creatghléas"
+
+#~ msgctxt "Comment"
+#~ msgid "Mobile Skeleton Device"
+#~ msgstr "Creatghléas Móibíleach"
+
+#~ msgctxt "Comment"
+#~ msgid "Contacts in Mobile Device"
+#~ msgstr "Teagmhálacha i nGléas Móibíleach"
+
+#~ msgctxt "Comment"
+#~ msgid "Calendar in Mobile Device"
+#~ msgstr "Féilire i nGléas Móibíleach"
+
+#~ msgctxt "GenericName"
+#~ msgid "Manage Mobile Devices"
+#~ msgstr "Bainistigh Gléasanna Móibíleacha"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Mobile Device Lowlevel Hardware Driver"
+#~ msgstr "Tiománaí crua-earraí íseal-leibhéil do ghléasanna móibíleacha KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "KitchenSync Plugin"
+#~ msgstr "Breiseán KitchenSync"
+
+#~ msgctxt "Name"
+#~ msgid "News"
+#~ msgstr "Nuacht"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontact KPilot Plugin"
+#~ msgstr "Breiseán KPilot le haghaidh Kontact"
+
+#~ msgctxt "Comment"
+#~ msgid "MultiSynk Plugin"
+#~ msgstr "Breiseán MultiSynk"
+
+#~ msgctxt "Name"
+#~ msgid "Microsoft Exchange 2000 Plugin for KOrganizer"
+#~ msgstr "Breiseán Microsoft Exchange 2000 le haghaidh KOrganizer"
+
+#~ msgctxt "Name"
+#~ msgid "KNotes / Memos"
+#~ msgstr "KNotes / Meamraim"
+
+#~ msgctxt "Name"
+#~ msgid "Exchange 2000 Server"
+#~ msgstr "Freastalaí Exchange 2000"
+
+#~ msgctxt "Name"
+#~ msgid "Exchange 2000 Server (deprecated)"
+#~ msgstr "Freastalaí Exchange 2000 (as dáta)"
+
+#~ msgctxt "Name"
+#~ msgid "Addressbook on an Exchange Server (experimental)"
+#~ msgstr "Leabhar Seoltaí ar Fhreastalaí Exchange (trialach)"
+
+#~ msgctxt "Name"
+#~ msgid "Addressbook on an Exchange Server"
+#~ msgstr "Leabhar Seoltaí ar Fhreastalaí Exchange"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar on an Exchange Server (experimental)"
+#~ msgstr "Féilire ar Fhreastalaí Exchange (trialach)"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar on an Exchange Server"
+#~ msgstr "Féilire ar Fhreastalaí Exchange"
+
+#~ msgctxt "Name"
+#~ msgid "Ksync"
+#~ msgstr "Ksync"
+
+#~ msgid "Name=Konnector Backup"
+#~ msgstr "Name=Cúltaca Konnector"
+
+#~ msgid "Name=Konnector Debugger"
+#~ msgstr "Name=Dífhabhtóir Konnector"
+
+#~ msgid "Name=Konnector"
+#~ msgstr "Name=Konnector"
+
+#~ msgid "Name=Dummy Konnector"
+#~ msgstr "Name=Konnector Caoch"
+
+#~ msgid "Name=AddressBook Konnector"
+#~ msgstr "Name=Konnector Leabhar Seoltaí"
+
+#~ msgid "Name=Calendar Konnector"
+#~ msgstr "Name=Konnector Féilirí"
+
+#~ msgid "Name=Local Konnector"
+#~ msgstr "Name=Konnector Logánta"
+
+#~ msgid "Name=Qtopia Konnector"
+#~ msgstr "Name=Konnector Qtopia"
+
+#~ msgid "Name=Remote Konnector"
+#~ msgstr "Name=Konnector Cianda"
+
+#~ msgid "Name=MultiSynK"
+#~ msgstr "Name=MultiSynK"
+
+#~ msgid "Name=Import Calendar"
+#~ msgstr "Name=Iompórtáil Féilire"
+
+#~ msgid "Name=Perl (Sample)"
+#~ msgstr "Name=Perl (Sampla)"
+
+#~ msgid "Comment=This sample conduit runs a Perl interpreter."
+#~ msgstr "Comment=Ritheann an seoladán samplach seo léirmhínitheoir Perl."
+
+#~ msgid "Name=Python (Sample)"
+#~ msgstr "Name=Python (Sampla)"
+
+#~ msgid "Comment=This sample conduit runs a Python interpreter."
+#~ msgstr "Comment=Ritheann an seoladán samplach seo léirmhínitheoir Python."
+
+#~ msgid "Name=Address Book Summary"
+#~ msgstr "Name=Leabhar Seoltaí: Achoimre"
+
+#~ msgid "Name=News Sources"
+#~ msgstr "Name=Foinsí Nuachta"
+
+#~ msgid "Name=Agenda Vr3 Konnector"
+#~ msgstr "Name=Agenda Vr3 Konnector"
+
+#~ msgid "Name=IMAP"
+#~ msgstr "Name=IMAP"

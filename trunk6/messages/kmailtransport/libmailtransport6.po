@@ -1,0 +1,934 @@
+# Irish translation of libmailtransport
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the libmailtransport package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepimlibs/libmailtransport.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-28 00:43+0000\n"
+"PO-Revision-Date: 2007-06-27 10:27-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#, kde-format
+msgid "Unnamed"
+msgstr "Gan ainm"
+
+#. i18n: ectx: label, entry (id), group (Transport $(transportId))
+#: mailtransport.kcfg:12
+#, kde-format
+msgid "Unique identifier"
+msgstr "Aitheantóir uathúil"
+
+#. i18n: ectx: label, entry (name), group (Transport $(transportId))
+#: mailtransport.kcfg:16
+#, kde-format
+msgid "User-visible transport name"
+msgstr "Ainm iompair infheicthe ag an úsáideoir"
+
+#. i18n: ectx: whatsthis, entry (name), group (Transport $(transportId))
+#: mailtransport.kcfg:17
+#, kde-format
+msgid "The name that will be used when referring to this server."
+msgstr "Ainm a úsáidfear nuair a dhéanfar tagairt don fhreastalaí seo."
+
+#. i18n: ectx: label, entry (host), group (Transport $(transportId))
+#: mailtransport.kcfg:30
+#, kde-format
+msgid "Host name of the server"
+msgstr "Óstainm an fhreastalaí"
+
+#. i18n: ectx: whatsthis, entry (host), group (Transport $(transportId))
+#: mailtransport.kcfg:31
+#, kde-format
+msgid "The domain name or numerical address of the SMTP server."
+msgstr "Ainm an fhearainn nó seoladh uimhriúil an fhreastalaí SMTP."
+
+#. i18n: ectx: label, entry (port), group (Transport $(transportId))
+#: mailtransport.kcfg:34
+#, kde-format
+msgid "Port number of the server"
+msgstr "Uimhir phoirt an fhreastalaí"
+
+#. i18n: ectx: whatsthis, entry (port), group (Transport $(transportId))
+#: mailtransport.kcfg:35
+#, fuzzy, kde-format
+#| msgid ""
+#| "The port number that the SMTP server is listening on. The default port is "
+#| "25."
+msgid ""
+"The port number that the SMTP server is listening on. The default port is "
+"465."
+msgstr ""
+"Uimhir an phoirt a n-éisteann an freastalaí SMTP leis. Is é port 25 an port "
+"réamhshocraithe."
+
+#. i18n: ectx: label, entry (userName), group (Transport $(transportId))
+#: mailtransport.kcfg:39
+#, kde-format
+msgid "User name needed for login"
+msgstr "Ainm úsáideora de dhíth chun logáil isteach"
+
+#. i18n: ectx: whatsthis, entry (userName), group (Transport $(transportId))
+#: mailtransport.kcfg:40
+#, kde-format
+msgid "The user name to send to the server for authorization."
+msgstr "Ainm úsáideora le seoladh chuig an bhfreastalaí le haghaidh údaraithe."
+
+#. i18n: ectx: label, entry (precommand), group (Transport $(transportId))
+#: mailtransport.kcfg:43
+#, kde-format
+msgid "Command to execute before sending a mail"
+msgstr "Ordú le rith sula seoltar teachtaireacht ríomhphoist"
+
+#. i18n: ectx: whatsthis, entry (precommand), group (Transport $(transportId))
+#: mailtransport.kcfg:44
+#, kde-format
+msgid ""
+"A command to run locally, prior to sending email. This can be used to set up "
+"SSH tunnels, for example. Leave it empty if no command should be run."
+msgstr ""
+"Ordú le rith go logánta, sula seoltar ríomhphost. Is féidir é seo a úsáid "
+"chun tollán SSH a shocrú, mar shampla. Fág é bán mura bhfuil ordú le rith."
+
+#. i18n: ectx: label, entry (options), group (Transport $(transportId))
+#: mailtransport.kcfg:47
+#, kde-format
+msgid "Options added to mailtransport method"
+msgstr ""
+
+#. i18n: ectx: label, entry (requiresAuthentication), group (Transport $(transportId))
+#: mailtransport.kcfg:50
+#, kde-format
+msgid "Server requires authentication"
+msgstr "Fíordheimhniú de dhíth ar an bhfreastalaí"
+
+#. i18n: ectx: whatsthis, entry (requiresAuthentication), group (Transport $(transportId))
+#: mailtransport.kcfg:51
+#, kde-format
+msgid ""
+"Check this option if your SMTP server requires authentication before "
+"accepting mail. This is known as 'Authenticated SMTP' or simply ASMTP."
+msgstr ""
+"Cuir tic leis an rogha seo má éilíonn do fhreastalaí SMTP fíordheimhniú sula "
+"nglacfaidh sé le ríomhphost. Tugtar 'Authenticated SMTP' (SMTP "
+"fíordheimhnithe) nó 'ASMTP'."
+
+#. i18n: ectx: label, entry (storePassword), group (Transport $(transportId))
+#: mailtransport.kcfg:55
+#, kde-format
+msgid "Store password"
+msgstr "Sábháil an focal faire"
+
+#. i18n: ectx: whatsthis, entry (storePassword), group (Transport $(transportId))
+#: mailtransport.kcfg:58
+#, kde-format
+msgid ""
+"Check this option to have your password stored.\n"
+"If KWallet is available the password will be stored there, which is "
+"considered safe.\n"
+"However, if KWallet is not available, the password will be stored in the "
+"configuration file. The password is stored in an obfuscated format, but "
+"should not be considered secure from decryption efforts if access to the "
+"configuration file is obtained."
+msgstr ""
+"Cuir tic leis an rogha seo chun d'fhocal faire a stóráil.\n"
+"Má tá KWallet ar fáil, stórálfar an focal faire ann, áit a meastar a bheith "
+"slán.\n"
+"Mura bhfuil KWallet ar fáil, stórálfar an focal faire i gcomhad cumraíochta. "
+"Stórálfar an focal faire i bhformáid scrofa, ach dá bhfaigheadh duine éigin "
+"rochtain ar an gcomhad, is dócha go mbeadh sé in ann é a dhíchriptiú."
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: mailtransport.kcfg:62
+#, kde-format
+msgid "Encryption method used for communication"
+msgstr "Modh criptiú a úsáidtear le haghaidh cumarsáide"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: mailtransport.kcfg:65
+#, kde-format
+msgid "No encryption"
+msgstr "Gan chriptiú"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: mailtransport.kcfg:68
+#, fuzzy, kde-format
+#| msgid "TLS encryption"
+msgid "SSL/TLS encryption"
+msgstr "Criptiú TLS"
+
+#. i18n: ectx: label, entry (encryption), group (Transport $(transportId))
+#: mailtransport.kcfg:71
+#, fuzzy, kde-format
+#| msgid "TLS encryption"
+msgid "STARTTLS encryption"
+msgstr "Criptiú TLS"
+
+#. i18n: ectx: label, entry (authenticationType), group (Transport $(transportId))
+#: mailtransport.kcfg:77
+#, kde-format
+msgid "Authentication method"
+msgstr "Modh fíordheimhnithe"
+
+#. i18n: ectx: label, entry (specifyHostname), group (Transport $(transportId))
+#. i18n: ectx: label, entry (localHostname), group (Transport $(transportId))
+#. i18n: ectx: label, entry (specifySenderOverwriteAddress), group (Transport $(transportId))
+#. i18n: ectx: label, entry (senderOverwriteAddress), group (Transport $(transportId))
+#: mailtransport.kcfg:94 mailtransport.kcfg:99 mailtransport.kcfg:103
+#: mailtransport.kcfg:108
+#, kde-format
+msgid "<!-- TODO -->"
+msgstr "<!-- LE DÉANAMH -->"
+
+#. i18n: ectx: whatsthis, entry (specifyHostname), group (Transport $(transportId))
+#: mailtransport.kcfg:95
+#, kde-format
+msgid ""
+"Check this option to use a custom hostname when identifying to the mail "
+"server. This is useful when your system's hostname may not be set correctly "
+"or to mask your system's true hostname."
+msgstr ""
+"Cuir tic leis an rogha seo chun óstainm saincheaptha a úsáid agus do féin a "
+"chur in iúl don fhreastalaí ríomhphoist. Rogha áisiúil é seo nuair nach "
+"bhfuil ainm do chóras socraithe mar is ceart, nó más mian leat fíorainm do "
+"chórais a choinneáil faoi cheilt."
+
+#. i18n: ectx: whatsthis, entry (localHostname), group (Transport $(transportId))
+#: mailtransport.kcfg:100
+#, kde-format
+msgid "Enter the hostname that should be used when identifying to the server."
+msgstr ""
+"Iontráil an t-óstainm is mian leat a úsáid agus do chóras á chur in iúl don "
+"fhreastalaí."
+
+#. i18n: ectx: whatsthis, entry (specifySenderOverwriteAddress), group (Transport $(transportId))
+#: mailtransport.kcfg:104
+#, kde-format
+msgid ""
+"Check this option to use a custom sender address when identifying to the "
+"mail server. If not checked, the address from the identity is used."
+msgstr ""
+"Cuir tic leis an rogha seo chun seoladh saincheaptha a úsáid agus thú féin a "
+"chur in iúl don fhreastalaí ríomhphoist. Mura bhfuil tic leis, úsáidfear an "
+"seoladh ón aitheantas."
+
+#. i18n: ectx: whatsthis, entry (senderOverwriteAddress), group (Transport $(transportId))
+#: mailtransport.kcfg:109
+#, kde-format
+msgid ""
+"Enter the address that should be used to overwrite the default sender "
+"address."
+msgstr ""
+"Cuir isteach an seoladh is mian leat a úsáid in ionad sheoladh "
+"réamhshocraithe an tseoltóra."
+
+#. i18n: ectx: label, entry (useProxy), group (Transport $(transportId))
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useProxy)
+#: mailtransport.kcfg:112 plugins/smtp/smtpsettings.ui:287
+#, kde-format
+msgid "Connect using the system proxy settings"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (useProxy), group (Transport $(transportId))
+#: mailtransport.kcfg:113
+#, kde-format
+msgid ""
+"If checked, the system proxy settings will be used to connect to the mail "
+"server."
+msgstr ""
+
+#: plugins/smtp/smtpconfigwidget.cpp:151
+#, kde-format
+msgid "The password to send to the server for authorization."
+msgstr "An focal faire le seoladh chuig an bhfreastalaí le haghaidh údaraithe."
+
+#: plugins/smtp/smtpconfigwidget.cpp:163 servertest.cpp:552
+#, kde-format
+msgctxt "Percent value; %p is the value, % is the percent sign"
+msgid "%p%"
+msgstr ""
+
+#: plugins/smtp/smtpconfigwidget.cpp:203
+#, kde-format
+msgid "Activities"
+msgstr ""
+
+#: plugins/smtp/smtpconfigwidget.cpp:306
+#, kde-format
+msgid ""
+"Failed to check capabilities. Please verify port and authentication mode."
+msgstr ""
+
+#: plugins/smtp/smtpconfigwidget.cpp:307
+#, kde-format
+msgctxt "@title:window"
+msgid "Check Capabilities Failed"
+msgstr ""
+
+#: plugins/smtp/smtpjob.cpp:227
+#, kde-format
+msgid "You need to supply a username and a password to use this SMTP server."
+msgstr ""
+"Is gá ainm úsáideora agus focal faire a sholáthar chun an freastalaí SMTP "
+"seo a rochtain."
+
+#: plugins/smtp/smtpmailtransportplugin.cpp:29
+#, kde-format
+msgctxt "@option SMTP transport"
+msgid "SMTP"
+msgstr "SMTP"
+
+#: plugins/smtp/smtpmailtransportplugin.cpp:30
+#, kde-format
+msgid "An SMTP server on the Internet"
+msgstr "Freastalaí SMTP ar an Idirlíon"
+
+#: plugins/smtp/smtpmailtransportplugin.cpp:40
+#, fuzzy, kde-format
+#| msgid "Configure account"
+msgctxt "@title:window"
+msgid "Configure account"
+msgstr "Cumraigh cuntas"
+
+#. i18n: ectx: attribute (title), widget (QWidget, smptTab)
+#: plugins/smtp/smtpsettings.ui:37
+#, kde-format
+msgctxt "general smtp settings"
+msgid "General"
+msgstr "Ginearálta"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
+#: plugins/smtp/smtpsettings.ui:43
+#, kde-format
+msgid "Account Information"
+msgstr "Eolas faoin Chuntas"
+
+#. i18n: ectx: property (text), widget (QLabel, hostLabel)
+#: plugins/smtp/smtpsettings.ui:50
+#, fuzzy, kde-format
+#| msgid "Outgoing mail &server:"
+msgid "Outgoing &mail server:"
+msgstr "Frea&stalaí ríomhphoist amach:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_requiresAuthentication)
+#: plugins/smtp/smtpsettings.ui:70
+#, kde-format
+msgid "Server &requires authentication"
+msgstr "Fío&rdheimhniú de dhíth ar an bhfreastalaí"
+
+#. i18n: ectx: property (text), widget (QLabel, usernameLabel)
+#: plugins/smtp/smtpsettings.ui:80
+#, kde-format
+msgid "&Login:"
+msgstr "&Logáil isteach:"
+
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: plugins/smtp/smtpsettings.ui:106
+#, kde-format
+msgid "P&assword:"
+msgstr "Foc&al Faire:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_storePassword)
+#: plugins/smtp/smtpsettings.ui:129
+#, kde-format
+msgid "&Store SMTP password"
+msgstr "&Sábháil an focal faire SMTP"
+
+#. i18n: ectx: attribute (title), widget (QWidget, advancedTab)
+#: plugins/smtp/smtpsettings.ui:150
+#, kde-format
+msgctxt "advanced smtp settings"
+msgid "Advanced"
+msgstr "Casta"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_2)
+#: plugins/smtp/smtpsettings.ui:156
+#, kde-format
+msgid "Connection Settings"
+msgstr "Socruithe an Cheangail"
+
+#. i18n: ectx: property (text), widget (QLabel, noAuthPossible)
+#: plugins/smtp/smtpsettings.ui:175
+#, kde-format
+msgid "This server does not support authentication"
+msgstr "Ní thacaíonn an freastalaí seo le fíordheimhniú"
+
+#. i18n: ectx: property (text), widget (QPushButton, checkCapabilities)
+#: plugins/smtp/smtpsettings.ui:192
+#, kde-format
+msgid "Auto Detect"
+msgstr "Braith go hUathoibríoch"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: plugins/smtp/smtpsettings.ui:219
+#, kde-format
+msgid "Encryption:"
+msgstr "Criptiú:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionNone)
+#: plugins/smtp/smtpsettings.ui:228
+#, kde-format
+msgid "&None"
+msgstr "Ga&n Chriptiú"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionSsl)
+#: plugins/smtp/smtpsettings.ui:235
+#, fuzzy, kde-format
+#| msgid "&SSL"
+msgid "&SSL/TLS"
+msgstr "&SSL"
+
+#. i18n: ectx: property (text), widget (QRadioButton, encryptionTls)
+#: plugins/smtp/smtpsettings.ui:242
+#, fuzzy, kde-format
+#| msgid "&TLS"
+msgid "START&TLS"
+msgstr "&TLS"
+
+#. i18n: ectx: property (text), widget (QLabel, portLabel)
+#: plugins/smtp/smtpsettings.ui:251
+#, kde-format
+msgid "&Port:"
+msgstr "&Port:"
+
+#. i18n: ectx: property (text), widget (QLabel, authLabel)
+#: plugins/smtp/smtpsettings.ui:277
+#, kde-format
+msgid "Authentication:"
+msgstr "Fíordheimhniú:"
+
+#. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_3)
+#: plugins/smtp/smtpsettings.ui:296
+#, kde-format
+msgid "SMTP Settings"
+msgstr "Socruithe SMTP"
+
+#. i18n: ectx: property (text), widget (QLabel, hostnameLabel)
+#: plugins/smtp/smtpsettings.ui:306
+#, fuzzy, kde-format
+#| msgid "&Host:"
+msgid "Hostna&me:"
+msgstr "Óst&ríomhaire:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: plugins/smtp/smtpsettings.ui:332
+#, kde-format
+msgid "Sender Address:"
+msgstr "Seoladh an tSeoltóra:"
+
+#. i18n: ectx: property (text), widget (QLabel, precommandLabel)
+#: plugins/smtp/smtpsettings.ui:349
+#, kde-format
+msgid "Precommand:"
+msgstr "Réamhordú:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_specifyHostname)
+#: plugins/smtp/smtpsettings.ui:379
+#, kde-format
+msgid "Sen&d custom hostname to server"
+msgstr "Seol óstainm saincheaptha go &dtí an freastalaí"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_specifySenderOverwriteAddress)
+#: plugins/smtp/smtpsettings.ui:386
+#, kde-format
+msgid "Use custom sender address"
+msgstr "Úsáid seoladh saincheaptha"
+
+#: precommandjob.cpp:68
+#, kde-format
+msgid "Executing precommand '%1'."
+msgstr "Réamhordú '%1' á rith."
+
+#: precommandjob.cpp:75
+#, kde-format
+msgid "Unable to start precommand '%1'."
+msgstr "Níorbh fhéidir réamhordú '%1' a thosú."
+
+#: precommandjob.cpp:77
+#, kde-format
+msgid "Error while executing precommand '%1'."
+msgstr "Earráid agus réamhordú '%1' á rith."
+
+#: precommandjob.cpp:93
+#, kde-format
+msgid "The precommand crashed."
+msgstr "Thuairteáil an réamhordú."
+
+#: precommandjob.cpp:96
+#, kde-format
+msgid "The precommand exited with code %1."
+msgstr "Stop an réamhordú le stádas scortha %1."
+
+#: transport.cpp:83
+#, kde-format
+msgctxt ""
+"%1: name; %2: number appended to it to make it unique among a list of names"
+msgid "%1 #%2"
+msgstr "%1 #%2"
+
+#: transport.cpp:133
+#, kde-format
+msgctxt "Authentication method"
+msgid "Clear text"
+msgstr "Glantéacs"
+
+#: transport.cpp:137
+#, kde-format
+msgctxt "Authentication method"
+msgid "Anonymous"
+msgstr "Gan ainm"
+
+#: transport.cpp:168
+#, kde-format
+msgctxt "An unknown transport type"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#: transport.cpp:212
+#, fuzzy, kde-format
+#| msgid ""
+#| "KWallet is not available. It is strongly recommended to use KWallet for "
+#| "managing your passwords.\n"
+#| "However, the password can be stored in the configuration file instead. "
+#| "The password is stored in an obfuscated format, but should not be "
+#| "considered secure from decryption efforts if access to the configuration "
+#| "file is obtained.\n"
+#| "Do you want to store the password for server '%1' in the configuration "
+#| "file?"
+msgid ""
+"QKeychain not found a backend for storing your password. It is strongly "
+"recommended to use strong backend for managing your passwords.\n"
+"However, the password can be stored in the configuration file instead. The "
+"password is stored in an obfuscated format, but should not be considered "
+"secure from decryption efforts if access to the configuration file is "
+"obtained.\n"
+"Do you want to store the password for server '%1' in the configuration file?"
+msgstr ""
+"Níl KWallet ar fáil. Moltar go láidir duit úsáid a bhaint as KWallet chun do "
+"chuid focal faire a bhainistiú.\n"
+"Mar sin féin, tig leat an focal faire a stóráil i gcomhad cumraíochta más "
+"mian leat. Stórálfar an focal faire i bhformáid scrofa, ach dá bhfaigheadh "
+"duine éigin rochtain ar an gcomhad, is dócha go mbeadh sé in ann é a "
+"dhíchriptiú.\n"
+"An bhfuil fonn ort an focal faire do fhreastalaí '%1' a stóráil sa chomhad "
+"cumraíochta?"
+
+#: transport.cpp:221
+#, fuzzy, kde-format
+#| msgid "KWallet Not Available"
+msgctxt "@title:window"
+msgid "KWallet Not Available"
+msgstr "Níl KWallet ar Fáil"
+
+#: transport.cpp:222
+#, fuzzy, kde-format
+#| msgid "Store Password"
+msgctxt "@action:button"
+msgid "Store Password"
+msgstr "Sábháil an Focal Faire"
+
+#: transport.cpp:223
+#, fuzzy, kde-format
+#| msgid "Do Not Store Password"
+msgctxt "@action:button"
+msgid "Do Not Store Password"
+msgstr "Ná Sábháil an Focal Faire"
+
+#: transportjob.cpp:122
+#, fuzzy, kde-format
+#| msgid "The mail transport \"%1\" is not correctly configured."
+msgid "The outgoing account \"%1\" is not correctly configured."
+msgstr "Níl seoltóir ríomhphoist \"%1\" cumraithe mar is ceart."
+
+#: transportmanager.cpp:222
+#, kde-format
+msgid "You must create an outgoing account before sending."
+msgstr "Caithfidh tú cuntas amach a chruthú sula seolfaidh tú aon rud."
+
+#: transportmanager.cpp:223
+#, fuzzy, kde-format
+#| msgid "Create Account Now?"
+msgctxt "@title:window"
+msgid "Create Account Now?"
+msgstr "An bhfuil fonn ort cuntas a chruthú anois?"
+
+#: transportmanager.cpp:224
+#, fuzzy, kde-format
+#| msgid "Create Account Now"
+msgctxt "@action:button"
+msgid "Create Account Now"
+msgstr "Cruthaigh Cuntas Anois"
+
+#: transportmanager.cpp:606
+#, kde-format
+msgid ""
+"The following mail transports store their passwords in an unencrypted "
+"configuration file.\n"
+"For security reasons, please consider migrating these passwords to KWallet, "
+"the KDE Wallet management tool,\n"
+"which stores sensitive data for you in a strongly encrypted file.\n"
+"Do you want to migrate your passwords to KWallet?"
+msgstr ""
+"Stórálann na córais ríomhphoist seo a leanas a bhfocal faire i gcomhad "
+"cumraíochta gan chriptiú.\n"
+"De bharr cúrsaí slándála, smaoinigh ar na focail fhaire seo a bhogadh go "
+"KWallet, an Córas Sparáin KDE,\n"
+"a stórálann sonraí íogaire ar do shon i gcomhad lánchriptithe.\n"
+"An bhfuil fonn ort do chuid focal faire a bhogadh go KWallet?"
+
+#: transportmanager.cpp:613
+#, fuzzy, kde-format
+#| msgid "Question"
+msgctxt "@title:window"
+msgid "Question"
+msgstr "Ceist"
+
+#: transportmanager.cpp:614
+#, fuzzy, kde-format
+#| msgid "Migrate"
+msgctxt "@action:button"
+msgid "Migrate"
+msgstr "Imirce"
+
+#: transportmanager.cpp:615
+#, fuzzy, kde-format
+#| msgid "Keep"
+msgctxt "@action:button"
+msgid "Keep"
+msgstr "Coinnigh"
+
+#: transportmodel.cpp:65
+#, fuzzy, kde-format
+#| msgctxt "@label the default mail transport"
+#| msgid " (Default)"
+msgctxt "Default transport"
+msgid " (default)"
+msgstr " (Réamhshocrú)"
+
+#: transportmodel.cpp:88
+#, kde-format
+msgctxt "@title:column email transport name"
+msgid "Name"
+msgstr "Ainm"
+
+#: transportmodel.cpp:90
+#, kde-format
+msgctxt "@title:column email transport type"
+msgid "Type"
+msgstr "Cineál"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, AddTransportDialog)
+#: ui/addtransportdialog.ui:20
+#, kde-format
+msgid "Step One: Select Transport Type"
+msgstr "Céim a hAon: Roghnaigh Mód Iompair"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/addtransportdialog.ui:38
+#, kde-format
+msgctxt "The name of a mail transport"
+msgid "Name:"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, setDefault)
+#: ui/addtransportdialog.ui:48
+#, fuzzy, kde-format
+#| msgid "Make this the default outgoing account."
+msgid "Make this the default outgoing account"
+msgstr "Úsáid an cuntas seo mar chuntas amach réamhshocraithe."
+
+#. i18n: ectx: property (text), widget (QLabel, descLabel)
+#: ui/addtransportdialog.ui:61
+#, kde-format
+msgid "Select an account type from the list below:"
+msgstr "Roghnaigh cineál cuntais ón liosta thíos:"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, typeListView)
+#: ui/addtransportdialog.ui:81
+#, kde-format
+msgid "Type"
+msgstr "Cineál"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, typeListView)
+#: ui/addtransportdialog.ui:86
+#, kde-format
+msgid "Description"
+msgstr "Cur Síos"
+
+#. i18n: ectx: property (text), widget (QPushButton, editButton)
+#: ui/transportmanagementwidgetng.ui:17
+#, fuzzy, kde-format
+#| msgid "&Modify..."
+msgid "&Modify…"
+msgstr "&Athraigh..."
+
+#. i18n: ectx: property (text), widget (QPushButton, removeButton)
+#: ui/transportmanagementwidgetng.ui:42
+#, kde-format
+msgid "Remo&ve"
+msgstr "&Bain"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: ui/transportmanagementwidgetng.ui:49
+#, kde-format
+msgid "A&dd…"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, renameButton)
+#: ui/transportmanagementwidgetng.ui:56
+#, kde-format
+msgid "&Rename"
+msgstr "&Athainmnigh"
+
+#. i18n: ectx: property (text), widget (QPushButton, defaultButton)
+#: ui/transportmanagementwidgetng.ui:76
+#, kde-format
+msgid "&Set as Default"
+msgstr "&Socraigh mar Réamhshocrú"
+
+#. i18n: ectx: property (text), widget (QCheckBox, transportOnCurrentActivity)
+#: ui/transportmanagementwidgetng.ui:83
+#, kde-format
+msgid "Show only transports on current activity"
+msgstr ""
+
+#: widgets/addtransportdialogng.cpp:94
+#, fuzzy, kde-format
+#| msgid "Create Outgoing Account"
+msgctxt "@title:window"
+msgid "Create Outgoing Account"
+msgstr "Cruthaigh Cuntas Amach"
+
+#: widgets/addtransportdialogng.cpp:97
+#, kde-format
+msgctxt "create and configure a mail transport"
+msgid "Create and Configure"
+msgstr "Cruthaigh agus Cumraigh"
+
+#: widgets/transportmanagementwidgetng.cpp:157
+#, kde-format
+msgid "Do you want to remove outgoing account '%1'?"
+msgstr "An bhfuil fonn ort cuntas amach '%1' a bhaint?"
+
+#: widgets/transportmanagementwidgetng.cpp:158
+#, fuzzy, kde-format
+#| msgid "Do you want to remove outgoing account '%1'?"
+msgid "Do you really want to remove this %1 outgoing account?"
+msgid_plural "Do you really want to remove these %1 outgoing accounts?"
+msgstr[0] "An bhfuil fonn ort cuntas amach '%1' a bhaint?"
+msgstr[1] "An bhfuil fonn ort cuntas amach '%1' a bhaint?"
+msgstr[2] "An bhfuil fonn ort cuntas amach '%1' a bhaint?"
+msgstr[3] "An bhfuil fonn ort cuntas amach '%1' a bhaint?"
+msgstr[4] "An bhfuil fonn ort cuntas amach '%1' a bhaint?"
+
+#: widgets/transportmanagementwidgetng.cpp:161
+#, fuzzy, kde-format
+#| msgid "Remove outgoing account?"
+msgctxt "@title:window"
+msgid "Remove outgoing account?"
+msgstr "An bhfuil fonn ort an cuntas amach a scriosadh?"
+
+#: widgets/transportmanagementwidgetng.cpp:191
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add…"
+msgstr ""
+
+#: widgets/transportmanagementwidgetng.cpp:196
+#, fuzzy, kde-format
+#| msgid "&Modify..."
+msgctxt "@action:inmenu"
+msgid "Modify…"
+msgstr "&Athraigh..."
+
+#: widgets/transportmanagementwidgetng.cpp:199
+#, fuzzy, kde-format
+#| msgid "Rename"
+msgctxt "@action:inmenu"
+msgid "Rename"
+msgstr "Athainmnigh"
+
+#: widgets/transportmanagementwidgetng.cpp:203
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:inmenu"
+msgid "Remove"
+msgstr "Bain"
+
+#: widgets/transportmanagementwidgetng.cpp:209
+#, kde-format
+msgid "Set as Default"
+msgstr "Socraigh mar Réamhshocrú"
+
+#~ msgid "A&dd..."
+#~ msgstr "C&uir Leis..."
+
+#~ msgid "&Modify..."
+#~ msgstr "&Athraigh..."
+
+#~ msgctxt "@label the default mail transport"
+#~ msgid " (Default)"
+#~ msgstr " (Réamhshocrú)"
+
+#, fuzzy
+#~| msgid "Add..."
+#~ msgctxt "@action:inmenu"
+#~ msgid "Add..."
+#~ msgstr "Cuir Leis..."
+
+#~ msgid "SSL encryption"
+#~ msgstr "Criptiú SSL"
+
+#~ msgid "Executing precommand"
+#~ msgstr "Réamhordú á rith"
+
+#~ msgid "Default Transport"
+#~ msgstr "Iompar Réamhshocraithe"
+
+#~ msgid "Empty message."
+#~ msgstr "Teachtaireacht fholamh."
+
+#~ msgid "Message has no recipients."
+#~ msgstr "Níl aon fhaighteoirí ann."
+
+#~ msgid "Message has invalid sent-mail folder."
+#~ msgstr "Fillteán neamhbhailí do ríomhphost seolta."
+
+#~ msgid "Message has invalid transport."
+#~ msgstr "Iompar neamhbhailí."
+
+#~ msgid "Unable to create SMTP job."
+#~ msgstr "Ní féidir jab SMTP a chruthú."
+
+#~ msgid "SMTP Server"
+#~ msgstr "Freastalaí SMTP"
+
+#~ msgid "Akonadi Resource"
+#~ msgstr "Acmhainn Akonadi"
+
+#~ msgid "Transport type"
+#~ msgstr "Mód iompair"
+
+#, fuzzy
+#~| msgid "This transport cannot be configured."
+#~ msgid "This outgoing account cannot be configured."
+#~ msgstr "Ní féidir an t-iompar seo a chumrú."
+
+#, fuzzy
+#~| msgctxt "@option SMTP transport"
+#~| msgid "SMTP"
+#~ msgid "SMTP"
+#~ msgstr "SMTP"
+
+#~ msgid "Hos&tname:"
+#~ msgstr "Ós&tainm:"
+
+#~ msgid "Local sendmail"
+#~ msgstr "sendmail logánta"
+
+#~ msgid "Failed to execute mailer program %1"
+#~ msgstr "Níorbh fhéidir ríomhchlár seoltóra %1 a rith"
+
+#~ msgid "Sendmail exited abnormally."
+#~ msgstr "Stad sendmail go mínormálta."
+
+#~ msgid "Sendmail exited abnormally: %1"
+#~ msgstr "Stad sendmail go mínormálta: %1"
+
+#~ msgctxt "@option sendmail transport"
+#~ msgid "Sendmail"
+#~ msgstr "Sendmail"
+
+#~ msgid "A local sendmail installation"
+#~ msgstr "Suiteáil logánta sendmail"
+
+#~ msgid "Sendmail &Location:"
+#~ msgstr "Suíomh sendmai&l:"
+
+#~ msgid "Mail &server:"
+#~ msgstr "Frea&stalaí ríomhphoist:"
+
+#~ msgid "Edit..."
+#~ msgstr "Eagar..."
+
+#~ msgid "text"
+#~ msgstr "téacs"
+
+#~ msgid "Check &What the Server Supports"
+#~ msgstr "Seiceáil &céard a thacaíonn an freastalaí leis"
+
+#~ msgid "Authentication Method"
+#~ msgstr "Modh Fíordheimhnithe"
+
+#~ msgid "&LOGIN"
+#~ msgstr "&LOGÁIL ISTEACH"
+
+#~ msgid "&PLAIN"
+#~ msgstr "&SIMPLÍ"
+
+#~ msgid "CRAM-MD&5"
+#~ msgstr "CRAM-MD&5"
+
+#~ msgid "&DIGEST-MD5"
+#~ msgstr "&DIGEST-MD5"
+
+#~ msgid "&GSSAPI"
+#~ msgstr "&GSSAPI"
+
+#~ msgid "&NTLM"
+#~ msgstr "&NTLM"
+
+#~ msgid "Transport: Sendmail"
+#~ msgstr "Iompar: Sendmail"
+
+#~ msgid "&Location:"
+#~ msgstr "&Suíomh:"
+
+#~ msgid "Choos&e..."
+#~ msgstr "&Roghnaigh..."
+
+#~ msgid "Transport: SMTP"
+#~ msgstr "Iompar: SMTP"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "Use Sendmail"
+#~ msgstr "Úsáid Sendmail"
+
+#~ msgid "Only local files allowed."
+#~ msgstr "Ní cheadaítear ach comhaid logánta."
+
+#~ msgctxt "@title:window"
+#~ msgid "Add Transport"
+#~ msgstr "Cuir Iompar Leis"
+
+#~ msgctxt "@title:window"
+#~ msgid "Modify Transport"
+#~ msgstr "Athraigh Iompar"
+
+#~ msgid "SM&TP"
+#~ msgstr "SM&TP"
+
+#~ msgid "&Sendmail"
+#~ msgstr "&Sendmail"
+
+#~ msgid "Add Transport"
+#~ msgstr "Cuir Iompar Leis"
+
+#~ msgid "Form"
+#~ msgstr "Foirm"
+
+#~ msgid "Default"
+#~ msgstr "Réamhshocrú"
+
+#~ msgid "%1 (Default)"
+#~ msgstr "%1 (Réamhshocrú)"

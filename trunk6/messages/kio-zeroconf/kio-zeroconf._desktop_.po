@@ -1,0 +1,1481 @@
+# Irish translation of desktop_kdenetwork
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdenetwork package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:58+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: kioworker/zeroconf.desktop:3
+msgctxt "Name"
+msgid "Network Services"
+msgstr "Seirbhísí Líonra"
+
+#~ msgctxt "Description"
+#~ msgid "A kioslave for ZeroConf"
+#~ msgstr "Sclábhaí KIO le haghaidh ZeroConf"
+
+#~ msgctxt "Name"
+#~ msgid "Fileshare Konqueror Directory Properties Page"
+#~ msgstr "Leathanach Airíonna Konqueror: Comhroinnt Comhadlainne"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Konqueror properties dialog plugin to share a directory with the local "
+#~ "network"
+#~ msgstr ""
+#~ "Breiseán dialóige airíonna Konqueror lenar féidir comhadlann a "
+#~ "chomhroinnt leis an líonra logánta"
+
+#~ msgctxt "Name"
+#~ msgid "KGet Plugin"
+#~ msgstr "Breiseán KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for KGet"
+#~ msgstr "Breiseán KGet"
+
+#~ msgctxt "Name"
+#~ msgid "KGet"
+#~ msgstr "KGet"
+
+#~ msgctxt "GenericName"
+#~ msgid "Download Manager"
+#~ msgstr "Bainisteoir Íosluchtaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Download with KGet"
+#~ msgstr "Íosluchtaigh le KGet"
+
+#~ msgctxt "Name"
+#~ msgid "Download Manager"
+#~ msgstr "Bainisteoir Íosluchtaithe"
+
+#~ msgctxt "Name"
+#~ msgid "KGet Barchart Applet"
+#~ msgstr "Feidhmchláirín barrachairte KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "KGet barchart applet"
+#~ msgstr "Feidhmchláirín barrachairte KGet"
+
+#~ msgctxt "Name"
+#~ msgid "KGet Panelbar Applet"
+#~ msgstr "Feidhmchláirín barra painéil KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "KGet panelbar applet"
+#~ msgstr "Feidhmchláirín barra painéil KGet"
+
+#~ msgctxt "Name"
+#~ msgid "KGet Piechart Applet"
+#~ msgstr "Feidhmchláirín píchairte KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "KGet piechart applet"
+#~ msgstr "Feidhmchláirín píchairte KGet"
+
+#~ msgctxt "Name"
+#~ msgid "KGet Data Engine"
+#~ msgstr "Inneall Sonraí KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "Download links with KGet"
+#~ msgstr "Íosluchtaigh naisc le KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "KGet Download Manager"
+#~ msgstr "Bainisteoir Íosluchtaithe KGet"
+
+#~ msgctxt "Name"
+#~ msgid "Transfer Added"
+#~ msgstr "Cuireadh Aistriú Leis"
+
+#~ msgctxt "Comment"
+#~ msgid "A new download has been added"
+#~ msgstr "Cuireadh íosluchtú nua leis"
+
+#~ msgctxt "Name"
+#~ msgid "Download Started"
+#~ msgstr "Tosaíodh an tÍosluchtú"
+
+#~ msgctxt "Comment"
+#~ msgid "Downloading started"
+#~ msgstr "Tosaíodh an t-íosluchtú"
+
+#~ msgctxt "Name"
+#~ msgid "Download Finished"
+#~ msgstr "Críochnaíodh an tÍosluchtú"
+
+#~ msgctxt "Comment"
+#~ msgid "Downloading finished"
+#~ msgstr "Críochnaíodh an t-íosluchtú"
+
+#~ msgctxt "Name"
+#~ msgid "All Downloads Finished"
+#~ msgstr "Críochnaíodh Gach Íosluchtú"
+
+#~ msgctxt "Comment"
+#~ msgid "All downloads finished"
+#~ msgstr "Críochnaíodh gach íosluchtú"
+
+#~ msgctxt "Name"
+#~ msgid "Error Occurred"
+#~ msgstr "Tharla Earráid"
+
+#~ msgctxt "Comment"
+#~ msgid "An Error has Occurred"
+#~ msgstr "Tharla Earráid"
+
+#~ msgctxt "Name"
+#~ msgid "Information"
+#~ msgstr "Eolas"
+
+#~ msgctxt "Comment"
+#~ msgid "User Notified of Information"
+#~ msgstr "Cuireadh Eolas in Iúl don Úsáideoir"
+
+#~ msgctxt "Name"
+#~ msgid "Bittorrent"
+#~ msgstr "Bittorrent"
+
+#~ msgctxt "Comment"
+#~ msgid "Allows files to be downloaded using Bittorrent"
+#~ msgstr "Ceadaíonn sé seo comhaid a íosluchtú trí Bittorrent"
+
+#~ msgctxt "Name"
+#~ msgid "ChecksumSearch"
+#~ msgstr "ChecksumSearch"
+
+#~ msgctxt "Name"
+#~ msgid "Checksum Search"
+#~ msgstr "Cuardach ar suimeanna seiceála"
+
+#~ msgctxt "Comment"
+#~ msgid "Tries to find checksums for a specified URL"
+#~ msgstr ""
+#~ "Déan iarracht ar shuim sheiceála a aimsiú a fhreagraíonn d'URL ar leith"
+
+#~ msgctxt "Name"
+#~ msgid "Content Fetcher"
+#~ msgstr "Content Fetcher"
+
+#~ msgctxt "Name"
+#~ msgid "Content Fetch"
+#~ msgstr "Content Fetch"
+
+#~ msgctxt "Comment"
+#~ msgid "Fetch contents with custom scripts."
+#~ msgstr "Faigh ábhar le scripteanna saincheaptha."
+
+#~ msgctxt "Name"
+#~ msgid "KIO"
+#~ msgstr "KIO"
+
+#~ msgctxt "Comment"
+#~ msgid "Classic file downloader plugin"
+#~ msgstr "Breiseán clasaiceach íosluchtaithe comhad"
+
+#~ msgctxt "Name"
+#~ msgid "Metalink"
+#~ msgstr "Metalink"
+
+#~ msgctxt "Comment"
+#~ msgid "Allows files to be downloaded from Metalink"
+#~ msgstr "Ceadaíonn sé seo comhaid a íosluchtú trí Metalink"
+
+#~ msgctxt "Name"
+#~ msgid "MirrorSearch"
+#~ msgstr "MirrorSearch"
+
+#~ msgctxt "Name"
+#~ msgid "Mirror Search"
+#~ msgstr "Mirror Search"
+
+#~ msgctxt "Comment"
+#~ msgid "Allows KGet to search through mirror search engines for files"
+#~ msgstr ""
+#~ "Ceadaíonn sé seo do KGet comhaid a lorg trí innill chuardaigh scáthánaithe"
+
+#~ msgctxt "Name"
+#~ msgid "MMS"
+#~ msgstr "MMS"
+
+#~ msgctxt "Comment"
+#~ msgid "MMS-Transfer plugin for KGet"
+#~ msgstr "Breiseán aistrithe MMS le haghaidh KGet"
+
+#~ msgctxt "Name"
+#~ msgid "MultiSegmentKIO"
+#~ msgstr "MultiSegmentKIO"
+
+#~ msgctxt "Name"
+#~ msgid "Multi Segment KIO"
+#~ msgstr "Il-Deighleán KIO"
+
+#~ msgctxt "Comment"
+#~ msgid "Multithreaded file download plugin"
+#~ msgstr "Breiseán íosluchtaithe ilsnáitheanna"
+
+#~ msgctxt "Name"
+#~ msgid "Tutorial Plugin"
+#~ msgstr "Breiseán Teagaisc"
+
+#~ msgctxt "Comment"
+#~ msgid "Demonstration plugin for teaching Kopete development"
+#~ msgstr "Breiseán taispeána a mhúineann forbairt Kopete"
+
+#~ msgctxt "Name"
+#~ msgid "Tutorial"
+#~ msgstr "Cúrsa Teagaisc"
+
+#~ msgctxt "Comment"
+#~ msgid "Turns normal people into Super Kopete Developer"
+#~ msgstr "Claochlaíonn sé cosmhuintir go Sár-Fhorbróirí Kopete"
+
+#~ msgctxt "Name"
+#~ msgid "Kopete Chat Window"
+#~ msgstr "Fuinneog Chomhrá Kopete"
+
+#~ msgctxt "Comment"
+#~ msgid "The default Kopete chat window"
+#~ msgstr "Fuinneog chomhrá réamhshocraithe Kopete"
+
+#~ msgctxt "Name"
+#~ msgid "Kopete Email Window"
+#~ msgstr "Fuinneog R-Phoist Kopete"
+
+#~ msgctxt "Comment"
+#~ msgid "The Kopete email window"
+#~ msgstr "An fhuinneog r-phoist Kopete"
+
+#~ msgctxt "Name"
+#~ msgid "Accounts"
+#~ msgstr "Cuntais"
+
+#~ msgctxt "Comment"
+#~ msgid "Manage Your Accounts and Identities"
+#~ msgstr "Bainistigh Do Chuid Cuntas agus Aitheantas"
+
+#~ msgctxt "Name"
+#~ msgid "Contact List"
+#~ msgstr "Liosta Teagmhálacha"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Contact List Look and Feel"
+#~ msgstr "Cumraigh Cuma an Liosta Teagmhálacha"
+
+#~ msgctxt "Name"
+#~ msgid "Video"
+#~ msgstr "Fís"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Video Devices"
+#~ msgstr "Cumraigh Gléasanna Físe"
+
+#~ msgctxt "Name"
+#~ msgid "Behavior"
+#~ msgstr "Oibriú"
+
+#~ msgctxt "Comment"
+#~ msgid "Personalize Kopete's Behavior"
+#~ msgstr "Tig Leat Kopete a Oiriúnú Duit Féin Anseo"
+
+#~ msgctxt "Name"
+#~ msgid "Chat Window"
+#~ msgstr "Fuinneog Chomhrá"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Chat Window Look and Feel"
+#~ msgstr "Cumraigh Cuma na Fuinneoige Chomhrá"
+
+#~ msgctxt "Name"
+#~ msgid "Plugins"
+#~ msgstr "Breiseáin"
+
+#~ msgctxt "Comment"
+#~ msgid "Select and Configure Plugins"
+#~ msgstr "Roghnaigh agus Cumraigh Breiseáin"
+
+#~ msgctxt "Name"
+#~ msgid "Status"
+#~ msgstr "Stádas"
+
+#~ msgctxt "Comment"
+#~ msgid "Manage Your Statuses"
+#~ msgstr "Bainistigh Do Chuid Stádas"
+
+#~ msgctxt "Name"
+#~ msgid "Kopete"
+#~ msgstr "Kopete"
+
+#~ msgctxt "GenericName"
+#~ msgid "Instant Messenger"
+#~ msgstr "Clár teachtaireachtaí meandaracha"
+
+#~ msgctxt "Comment"
+#~ msgid "Instant Messenger"
+#~ msgstr "Instant Messenger"
+
+#~ msgctxt "Comment"
+#~ msgid "Kopete Messenger"
+#~ msgstr "Kopete Messenger"
+
+#~ msgctxt "Name"
+#~ msgid "Group"
+#~ msgstr "Grúpa"
+
+#~ msgctxt "Comment"
+#~ msgid "The group where the contact resides"
+#~ msgstr "An grúpa a bhfuil an teagmháil ann"
+
+#~ msgctxt "Name"
+#~ msgid "Contact"
+#~ msgstr "Teagmháil"
+
+#~ msgctxt "Comment"
+#~ msgid "The specified contact"
+#~ msgstr "An teagmháil sonraithe"
+
+#~ msgctxt "Name"
+#~ msgid "Class"
+#~ msgstr "Aicme"
+
+#~ msgctxt "Comment"
+#~ msgid "The message class"
+#~ msgstr "An aicme teachtaireachta"
+
+#~ msgctxt "Name"
+#~ msgid "Incoming Message"
+#~ msgstr "Teachtaireacht Isteach"
+
+#~ msgctxt "Comment"
+#~ msgid "An incoming message has been received"
+#~ msgstr "Fuarthas teachtaireacht isteach"
+
+#~ msgctxt "Name"
+#~ msgid "Incoming Message in Active Chat"
+#~ msgstr "Teachtaireacht Isteach i gComhrá Gníomhach"
+
+#~ msgctxt "Comment"
+#~ msgid "An incoming message in the active chat window has been received"
+#~ msgstr "Fuarthas teachtaireacht isteach i bhfuinneog an chomhrá ghníomhaigh"
+
+#~ msgctxt "Name"
+#~ msgid "Outgoing Message"
+#~ msgstr "Teachtaireacht Amach"
+
+#~ msgctxt "Comment"
+#~ msgid "An outgoing message has been sent"
+#~ msgstr "Seoladh teachtaireacht amach"
+
+#~ msgctxt "Name"
+#~ msgid "Contact Gone Online"
+#~ msgstr "Teagmháil Ar Líne"
+
+#~ msgctxt "Comment"
+#~ msgid "A contact has come online"
+#~ msgstr "Tá teagmháil ar líne anois"
+
+#~ msgctxt "Name"
+#~ msgid "Offline"
+#~ msgstr "As Líne"
+
+#~ msgctxt "Comment"
+#~ msgid "A contact has gone offline"
+#~ msgstr "Tá teagmháil as líne anois"
+
+#~ msgctxt "Name"
+#~ msgid "Status Change"
+#~ msgstr "Athrú Stádais"
+
+#~ msgctxt "Comment"
+#~ msgid "A contact's online status has changed"
+#~ msgstr "Athraíodh stádais ar líne de theagmháil"
+
+#~ msgctxt "Name"
+#~ msgid "Highlight"
+#~ msgstr "Aibhsiú"
+
+#~ msgctxt "Comment"
+#~ msgid "A highlighted message has been received"
+#~ msgstr "Fuarthas teachtaireacht aibhsithe"
+
+#~ msgctxt "Name"
+#~ msgid "Low Priority Messages"
+#~ msgstr "Teachtaireachtaí de Thosaíocht Íseal"
+
+#~ msgctxt "Comment"
+#~ msgid "A message marked with a low priority has been received"
+#~ msgstr "Fuarthas teachtaireacht de thosaíocht íseal"
+
+#~ msgctxt "Name"
+#~ msgid "Yahoo Mail"
+#~ msgstr "Ríomhphost Yahoo"
+
+#~ msgctxt "Comment"
+#~ msgid "New email has arrived in your Yahoo inbox"
+#~ msgstr "Tháinig teachtaireacht nua isteach i do bhosca Yahoo"
+
+#~ msgctxt "Name"
+#~ msgid "MSN Mail"
+#~ msgstr "Ríomhphost MSN"
+
+#~ msgctxt "Comment"
+#~ msgid "New email has arrived in your MSN inbox"
+#~ msgstr "Tháinig teachtaireacht nua isteach i do bhosca MSN"
+
+#~ msgctxt "Name"
+#~ msgid "ICQ Authorization"
+#~ msgstr "Údarú ICQ"
+
+#~ msgctxt "Comment"
+#~ msgid "An ICQ user has authorized/declined your authorization request"
+#~ msgstr "D'údaraigh/dhiúltaigh úsáideoir ICQ d'iarratas údaraithe"
+
+#~ msgctxt "Name"
+#~ msgid "IRC Event"
+#~ msgstr "Teagmhas IRC"
+
+#~ msgctxt "Comment"
+#~ msgid "An IRC event has occurred"
+#~ msgstr "Tharla teagmhas IRC"
+
+#~ msgctxt "Name"
+#~ msgid "Connection Error"
+#~ msgstr "Earráid Ceangail"
+
+#~ msgctxt "Comment"
+#~ msgid "An error on connection has occurred"
+#~ msgstr "Tharla earráid le linn ceangail"
+
+#~ msgctxt "Name"
+#~ msgid "Connection Lost"
+#~ msgstr "Cailleadh an Ceangal"
+
+#~ msgctxt "Comment"
+#~ msgid "The connection have been lost"
+#~ msgstr "Cailleadh an ceangal"
+
+#~ msgctxt "Name"
+#~ msgid "Cannot Connect"
+#~ msgstr "Ní Féidir Ceangal"
+
+#~ msgctxt "Comment"
+#~ msgid "Kopete cannot connect to the service"
+#~ msgstr "Ní féidir le Kopete ceangal a dhéanamh leis an tseirbhís"
+
+#~ msgctxt "Name"
+#~ msgid "Network Problems"
+#~ msgstr "Fadhbanna Líonra"
+
+#~ msgctxt "Comment"
+#~ msgid "The network is experiencing problems"
+#~ msgstr "Tá fadhbanna leis an líonra"
+
+#~ msgctxt "Name"
+#~ msgid "Server Internal Error"
+#~ msgstr "Earráid Inmheánach Freastalaí"
+
+#~ msgctxt "Comment"
+#~ msgid "An internal service error has occurred"
+#~ msgstr "Tharla earráid inmheánach seirbhíse"
+
+#~ msgctxt "Name"
+#~ msgid "Buzz/Nudge"
+#~ msgstr "Scairt/Sonc"
+
+#~ msgctxt "Comment"
+#~ msgid "A contact has sent you a buzz/nudge."
+#~ msgstr "Thug teagmháil sonc duit."
+
+#~ msgctxt "Name"
+#~ msgid "Message Dropped"
+#~ msgstr "Ligeadh Teachtaireacht Titim"
+
+#~ msgctxt "Comment"
+#~ msgid "A message was filtered by the Privacy Plugin"
+#~ msgstr "Bhí teachtaireacht scagtha ag an mBreiseán Príobháideachta"
+
+#~ msgctxt "Name"
+#~ msgid "ICQ Reading status"
+#~ msgstr "Stádas Léimh ICQ"
+
+#~ msgctxt "Comment"
+#~ msgid "An ICQ user is reading your status message"
+#~ msgstr "Tá do theachtaireacht stádais á léamh ag úsáideoir ICQ"
+
+#~ msgctxt "Name"
+#~ msgid "Service Message"
+#~ msgstr "Teachtaireacht Sheirbhíse"
+
+#~ msgctxt "Comment"
+#~ msgid "A service message has been received (e.g. authorization request)"
+#~ msgstr "Fuarthas teachtaireacht seirbhíse (m.sh. iarratas údaraithe)"
+
+#~ msgctxt "Name"
+#~ msgid "Gadu-Gadu contacts list"
+#~ msgstr "Liosta teagmhálacha Gadu-Gadu"
+
+#~ msgctxt "Comment"
+#~ msgid "Contact list has been received/exported/deleted"
+#~ msgstr "Bhí an liosta teagmhálacha faighte/easpórtáilte/scriosta"
+
+#~ msgctxt "Name"
+#~ msgid "Typing message"
+#~ msgstr "Teachtaireacht á clóscríobh"
+
+#~ msgctxt "Comment"
+#~ msgid "A user is typing a message"
+#~ msgstr "Tá úsáideoir ag clóscríobh teachtaireachta"
+
+#~ msgctxt "Comment"
+#~ msgid "Kopete Plugin"
+#~ msgstr "Breiseán Kopete"
+
+#~ msgctxt "Comment"
+#~ msgid "Kopete Protocol Plugin"
+#~ msgstr "Breiseán Phrótacal Kopete"
+
+#~ msgctxt "Comment"
+#~ msgid "A Kopete UI Plugin"
+#~ msgstr "Breiseán Chomhéadan Úsáideora Kopete"
+
+#~ msgctxt "Name"
+#~ msgid "Bookmarks"
+#~ msgstr "Leabharmharcanna"
+
+#~ msgctxt "Comment"
+#~ msgid "Automatically bookmark links in incoming messages"
+#~ msgstr ""
+#~ "Cruthaigh leabharmharcanna do naisc i dteachtaireachtaí isteach go "
+#~ "huathoibríoch"
+
+#~ msgctxt "Name"
+#~ msgid "Alias"
+#~ msgstr "Ailias"
+
+#~ msgctxt "Comment"
+#~ msgid "Adds custom aliases for commands"
+#~ msgstr "Cruthaigh ailiasanna saincheaptha ar orduithe"
+
+#~ msgctxt "Name"
+#~ msgid "Auto Replace"
+#~ msgstr "Ionadú Uathoibríoch"
+
+#~ msgctxt "Comment"
+#~ msgid "Autoreplaces some text you can choose"
+#~ msgstr "Ionadaigh do rogha téacs go huathoibríoch"
+
+#~ msgctxt "Comment"
+#~ msgid "Auto replaces some text you can choose"
+#~ msgstr "Ionadaigh do rogha téacs go huathoibríoch"
+
+#~ msgctxt "Name"
+#~ msgid "Contact Notes"
+#~ msgstr "Nótaí Teagmhálacha"
+
+#~ msgctxt "Comment"
+#~ msgid "Add personal notes on your contacts"
+#~ msgstr "Cuir nótaí pearsanta le do chuid teagmhálacha"
+
+#~ msgctxt "Comment"
+#~ msgid "Highlights text based on filters"
+#~ msgstr "Aibhsíonn seo téacs de réir scagairí"
+
+#~ msgctxt "Comment"
+#~ msgid "Highlight messages"
+#~ msgstr "Aibhsigh teachtaireachtaí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "History"
+#~ msgctxt "Name"
+#~ msgid "History2"
+#~ msgstr "Stair"
+
+#~ msgctxt "Comment"
+#~ msgid "History Plugin"
+#~ msgstr "Breiseán Staire"
+
+#~ msgctxt "Comment"
+#~ msgid "Log all messages to keep track of your conversations"
+#~ msgstr ""
+#~ "Logáil gach teachtaireacht chun tuairisc a choinneáil ar do chuid "
+#~ "comhráite"
+
+#~ msgctxt "Name"
+#~ msgid "History"
+#~ msgstr "Stair"
+
+#~ msgctxt "Name"
+#~ msgid "KopeTeX"
+#~ msgstr "KopeTeX"
+
+#~ msgctxt "Name"
+#~ msgid "KopeteTeX"
+#~ msgstr "KopeteTeX"
+
+#~ msgctxt "Comment"
+#~ msgid "Render Latex formulas in the chatwindow"
+#~ msgstr "Rindreáil foirmlí LaTeX san fhuinneog chomhrá"
+
+#~ msgctxt "Name"
+#~ msgid "Now Listening"
+#~ msgstr "Ag Éisteacht Anois"
+
+#~ msgctxt "Comment"
+#~ msgid "Tells your buddies what you're listening to"
+#~ msgstr "Inis do do chuid cairde cén ceol a bhfuil tú ag éisteacht leis"
+
+#~ msgctxt "Comment"
+#~ msgid "Encrypt chat sessions with Off-The-Record encryption"
+#~ msgstr "Criptigh seisiúin chomhráite le criptiú Off-The-Record"
+
+#~ msgctxt "Name"
+#~ msgid "OTR"
+#~ msgstr "OTR"
+
+#~ msgctxt "Name"
+#~ msgid "Pipes"
+#~ msgstr "Píopaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Pipe messages through an external program or script"
+#~ msgstr "Píopáil teachtaireachtaí trí ríomhchlár nó script sheachtrach"
+
+#~ msgctxt "Name"
+#~ msgid "Privacy"
+#~ msgstr "Príobháideachas"
+
+#~ msgctxt "Comment"
+#~ msgid "Privacy Plugin"
+#~ msgstr "Breiseán Príobháideachta"
+
+#~ msgctxt "Comment"
+#~ msgid "Filters incoming messages"
+#~ msgstr "Teachtaireachtaí isteach a scagadh"
+
+#~ msgctxt "Name"
+#~ msgid "Statistics"
+#~ msgstr "Staitisticí"
+
+#~ msgctxt "Comment"
+#~ msgid "Gather some meaningful statistics"
+#~ msgstr "Cruinnigh staitisticí fiúntacha"
+
+#~ msgctxt "Name"
+#~ msgid "Text Effect"
+#~ msgstr "Maisíocht Téacs"
+
+#~ msgctxt "Comment"
+#~ msgid "Adds special effects to your text"
+#~ msgstr "Cuir maisíochtaí speisialta le do théacs"
+
+#~ msgctxt "Comment"
+#~ msgid "Add nice effects to your messages"
+#~ msgstr "Cuir maisíochtaí deasa le do theachtaireachtaí"
+
+#~ msgctxt "Name"
+#~ msgid "Translator"
+#~ msgstr "Aistritheoir"
+
+#~ msgctxt "Comment"
+#~ msgid "Translates messages from your native language to another language"
+#~ msgstr "Aistríonn seo teachtaireachtaí ó do theanga dhúchais go teanga eile"
+
+#~ msgctxt "Comment"
+#~ msgid "Chat with foreign buddies in your native language"
+#~ msgstr "Déan comhrá le cairde iasachta i do theanga dhúchais"
+
+#~ msgctxt "Name"
+#~ msgid "URLPicPreview Plugin Configuration"
+#~ msgstr "Cumraíocht Bhreiseán URLPicPreview"
+
+#~ msgctxt "Comment"
+#~ msgid "URLPicPreview Plugin"
+#~ msgstr "Breiseán URLPicPreview"
+
+#~ msgctxt "Name"
+#~ msgid "Preview of Pictures in Chats"
+#~ msgstr "Réamhamharc ar Phictiúir i gComhráite"
+
+#~ msgctxt "Comment"
+#~ msgid "Displays a preview of pictures in chats"
+#~ msgstr "Déanann sé seo réamhamharc ar phictiúir i gcomhrá"
+
+#~ msgctxt "Comment"
+#~ msgid "Show the status of (parts of) your contact list on a webpage"
+#~ msgstr ""
+#~ "Taispeáin stádas do theagmhálacha (nó cuid acu) ar leathanach Gréasáin"
+
+#~ msgctxt "Name"
+#~ msgid "Web Presence"
+#~ msgstr "Láithreacht Gréasáin"
+
+#~ msgctxt "Name"
+#~ msgid "Bonjour"
+#~ msgstr "Bonjour"
+
+#~ msgctxt "Comment"
+#~ msgid "Serverless Link Local XMPP Messaging"
+#~ msgstr "Cur teachtaireachtaí logánta XMPP gan freastalaí"
+
+#~ msgctxt "Name"
+#~ msgid "Gadu-Gadu"
+#~ msgstr "Gadu-Gadu"
+
+#~ msgctxt "Comment"
+#~ msgid "Gadu-Gadu: the Polish IM service"
+#~ msgstr "Gadu-Gadu: an tSeirbhís Pholannach IM"
+
+#~ msgctxt "Name"
+#~ msgid "GroupWise"
+#~ msgstr "GroupWise"
+
+#~ msgctxt "Comment"
+#~ msgid "Novell GroupWise Messenger"
+#~ msgstr "Teachtaire Novell GroupWise"
+
+#~ msgctxt "Name"
+#~ msgid "IRC"
+#~ msgstr "IRC"
+
+#~ msgctxt "Comment"
+#~ msgid "Internet Relay Chat"
+#~ msgstr "Internet Relay Chat"
+
+#~ msgctxt "Description"
+#~ msgid "A KIO slave for Jabber Service Discovery"
+#~ msgstr "Sclábhaí KIO le haghaidh Fionnachtain Seirbhísí Jabber"
+
+#~ msgctxt "Name"
+#~ msgid "Jabber"
+#~ msgstr "Jabber"
+
+#~ msgctxt "Comment"
+#~ msgid "XMPP, Jabber, Google Talk"
+#~ msgstr "XMPP, Jabber, Google Talk"
+
+#~ msgctxt "Name"
+#~ msgid "Meanwhile"
+#~ msgstr "Meanwhile"
+
+#~ msgctxt "Comment"
+#~ msgid "Communicate at the same time with Meanwhile"
+#~ msgstr "Déan cumarsáid san am céanna le Meanwhile"
+
+#~ msgctxt "Name"
+#~ msgid "AIM"
+#~ msgstr "AIM"
+
+#~ msgctxt "Comment"
+#~ msgid "An Instant Messenger"
+#~ msgstr "Clár teachtaireachtaí meandaracha"
+
+#~ msgctxt "Name"
+#~ msgid "ICQ"
+#~ msgstr "ICQ"
+
+#~ msgctxt "Comment"
+#~ msgid "Seek and Chat with ICQ"
+#~ msgstr "Cuardach agus Comhrá ICQ"
+
+#~ msgctxt "Name"
+#~ msgid "QQ"
+#~ msgstr "QQ"
+
+#~ msgctxt "Comment"
+#~ msgid "A popular Chinese IM system"
+#~ msgstr "Córas Síneach IM a mbaintear úsáid as go forleathan"
+
+#~ msgctxt "Name"
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgctxt "Comment"
+#~ msgid "Skype protocol plugin (a wrapper)"
+#~ msgstr "Breiseán phrótacal Skype (rapar)"
+
+#~ msgctxt "Name"
+#~ msgid "SMS"
+#~ msgstr "SMS"
+
+#~ msgctxt "Comment"
+#~ msgid "Send SMS messages to mobile phones"
+#~ msgstr "Seol teachtaireachtaí SMS chuig fón póca"
+
+#~ msgctxt "Name"
+#~ msgid "Testbed"
+#~ msgstr "Testbed"
+
+#~ msgctxt "Comment"
+#~ msgid "Kopete test protocol"
+#~ msgstr "Prótacal tástála Kopete"
+
+#~ msgctxt "Name"
+#~ msgid "WinPopup"
+#~ msgstr "WinPopup"
+
+#~ msgctxt "Comment"
+#~ msgid "Sends Windows WinPopup messages"
+#~ msgstr "Seol teachtaireachtaí Windows WinPopup"
+
+#~ msgctxt "Name"
+#~ msgid "WLM Messenger"
+#~ msgstr "WLM Messenger"
+
+#~ msgctxt "Comment"
+#~ msgid "Windows Live Messenger plugin"
+#~ msgstr "Breiseán le haghaidh Windows Live Messenger"
+
+#~ msgctxt "Name"
+#~ msgid "Yahoo"
+#~ msgstr "Yahoo"
+
+#~ msgctxt "Comment"
+#~ msgid "Yahoo! Messenger IM and video chat"
+#~ msgstr "Teachtaireachtaí meandaracha le Yahoo! Messenger agus comhrá físe"
+
+#~ msgctxt "Name"
+#~ msgid "Austria"
+#~ msgstr "An Ostair"
+
+#~ msgctxt "Name"
+#~ msgid "Belarus"
+#~ msgstr "An Bhílearúis"
+
+#~ msgctxt "Name"
+#~ msgid "Czechia"
+#~ msgstr "Poblacht na Seice"
+
+#~ msgctxt "Name"
+#~ msgid "Denmark"
+#~ msgstr "An Danmhairg"
+
+#~ msgctxt "Name"
+#~ msgid "France"
+#~ msgstr "An Fhrainc"
+
+#~ msgctxt "Name"
+#~ msgid "Germany"
+#~ msgstr "An Ghearmáin"
+
+#~ msgctxt "Name"
+#~ msgid "Ireland"
+#~ msgstr "Éire"
+
+#~ msgctxt "Name"
+#~ msgid "Netherlands"
+#~ msgstr "An Ísiltír"
+
+#~ msgctxt "Name"
+#~ msgid "New Zealand"
+#~ msgstr "An Nua-Shéalainn"
+
+#~ msgctxt "Name"
+#~ msgid "Norway"
+#~ msgstr "An Iorua"
+
+#~ msgctxt "Name"
+#~ msgid "Portugal"
+#~ msgstr "An Phortaingéil"
+
+#~ msgctxt "Name"
+#~ msgid "Slovenia"
+#~ msgstr "An tSlóivéin"
+
+#~ msgctxt "Name"
+#~ msgid "Sweden"
+#~ msgstr "An tSualainn"
+
+#~ msgctxt "Name"
+#~ msgid "Switzerland"
+#~ msgstr "An Eilvéis"
+
+#~ msgctxt "Name"
+#~ msgid "Taiwan"
+#~ msgstr "An Téaváin"
+
+#~ msgctxt "Name"
+#~ msgid "Ukraine"
+#~ msgstr "An Úcráin"
+
+#~ msgctxt "Name"
+#~ msgid "United Kingdom"
+#~ msgstr "An Ríocht Aontaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Yugoslavia"
+#~ msgstr "An Iúgslaiv"
+
+#~ msgctxt "GenericName"
+#~ msgid "Internet Dial-Up Tool"
+#~ msgstr "Uirlis Diailithe Idirlín"
+
+#~ msgctxt "Name"
+#~ msgid "KPPP"
+#~ msgstr "KPPP"
+
+#~ msgctxt "Name"
+#~ msgid "KPPPLogview"
+#~ msgstr "KPPPLogview"
+
+#~ msgctxt "GenericName"
+#~ msgid "Internet Dial-Up Tool Log Viewer"
+#~ msgstr "Amharcán Logchomhad na hUirlise Diailithe Idirlín"
+
+#~ msgctxt "Name"
+#~ msgid "KRDC Plugin"
+#~ msgstr "Breiseán KRDC"
+
+#~ msgctxt "Name"
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgctxt "Comment"
+#~ msgid "Allows managing SSH or Telnet sessions through KRDC"
+#~ msgstr "Ceadaíonn sé duit seisiúin SSH nó Telnet a bhainistiú trí KRDC"
+
+#~ msgctxt "Comment"
+#~ msgid "KRDC"
+#~ msgstr "KRDC"
+
+#~ msgctxt "Name"
+#~ msgid "KRDC"
+#~ msgstr "KRDC"
+
+#~ msgctxt "Name"
+#~ msgid "Incoming RFB Tube"
+#~ msgstr "Tiúb RFB Isteach"
+
+#~ msgctxt "GenericName"
+#~ msgid "Remote Desktop Client"
+#~ msgstr "Cliant Deisce Cianda"
+
+#~ msgctxt "Name"
+#~ msgid "NX"
+#~ msgstr "NX"
+
+#~ msgctxt "Comment"
+#~ msgid "Allows managing NX sessions through KRDC"
+#~ msgstr "Ceadaíonn sé duit seisiúin NX a bhainistiú trí KRDC"
+
+#~ msgctxt "Name"
+#~ msgid "RDP"
+#~ msgstr "RDP"
+
+#~ msgctxt "Comment"
+#~ msgid "Allows managing RDP sessions through KRDC"
+#~ msgstr "Ceadaíonn sé duit seisiúin RDP a bhainistiú trí KRDC"
+
+#~ msgctxt "Name"
+#~ msgid "Open Remote Desktop Connection to This Machine"
+#~ msgstr "Oscail Ceangal Deisce Cianda leis an Ríomhaire Seo"
+
+#~ msgctxt "Name"
+#~ msgid "Test"
+#~ msgstr "Tástáil"
+
+#~ msgctxt "Comment"
+#~ msgid "Testplugin for KRDC development"
+#~ msgstr "Breiseán tástála le haghaidh fhorbairt KRDC"
+
+#~ msgctxt "Name"
+#~ msgid "VNC"
+#~ msgstr "VNC"
+
+#~ msgctxt "Comment"
+#~ msgid "Allows managing VNC sessions through KRDC"
+#~ msgstr "Ceadaíonn sé duit seisiúin VNC a bhainistiú trí KRDC"
+
+#~ msgctxt "Comment"
+#~ msgid "Qt based Framebuffer for KRfb."
+#~ msgstr "Maolán fráma le haghaidh KRfb, bunaithe ar Qt."
+
+#~ msgctxt "Name"
+#~ msgid "Qt Framebuffer for KRfb"
+#~ msgstr "Maolán fráma Qt le haghaidh KRfb"
+
+#~ msgctxt "Comment"
+#~ msgid "X11 XDamage/XShm based Framebuffer for KRfb."
+#~ msgstr "Maolán fráma le haghaidh KRfb, bunaithe ar X11 XDamage/XShm"
+
+#~ msgctxt "Name"
+#~ msgid "X11 Framebuffer for KRfb"
+#~ msgstr "Maolán fráma X11 le haghaidh KRfb"
+
+#~ msgctxt "Name"
+#~ msgid "Krfb"
+#~ msgstr "Krfb"
+
+#~ msgctxt "GenericName"
+#~ msgid "Desktop Sharing"
+#~ msgstr "Roinnt Deisce"
+
+#~ msgctxt "Comment"
+#~ msgid "Frame Buffer plugins for KRfb"
+#~ msgstr "Breiseáin Mhaoláin Fráma le haghaidh KRfb"
+
+#~ msgctxt "Comment"
+#~ msgid "Desktop Sharing"
+#~ msgstr "Roinnt Deisce"
+
+#~ msgctxt "Name"
+#~ msgid "User Accepts Connection"
+#~ msgstr "Glacann an tÚsáideoir Le Ceangal"
+
+#~ msgctxt "Comment"
+#~ msgid "User accepts connection"
+#~ msgstr "Glacann úsáideoir le ceangal"
+
+#~ msgctxt "Name"
+#~ msgid "User Refuses Connection"
+#~ msgstr "Diúltaíonn an tÚsáideoir Le Ceangal"
+
+#~ msgctxt "Comment"
+#~ msgid "User refuses connection"
+#~ msgstr "Diúltaíonn úsáideoir ceangal"
+
+#~ msgctxt "Name"
+#~ msgid "Connection Closed"
+#~ msgstr "Ceangal Dúnta"
+
+#~ msgctxt "Comment"
+#~ msgid "Connection closed"
+#~ msgstr "Ceangal dúnta"
+
+#~ msgctxt "Name"
+#~ msgid "Invalid Password"
+#~ msgstr "Focal Faire Neamhbhailí"
+
+#~ msgctxt "Comment"
+#~ msgid "Invalid password"
+#~ msgstr "Focal faire neamhbhailí"
+
+#~ msgctxt "Name"
+#~ msgid "Invalid Password Invitations"
+#~ msgstr "Cuirí Neamhbhailí Focal Faire"
+
+#~ msgctxt "Comment"
+#~ msgid "The invited party sent an invalid password. Connection refused."
+#~ msgstr ""
+#~ "Sheol an duine le cuireadh focal faire neamhbhailí. Diúltaíodh an ceangal."
+
+#~ msgctxt "Name"
+#~ msgid "New Connection on Hold"
+#~ msgstr "Ceangal Nua Ag Fanacht"
+
+#~ msgctxt "Comment"
+#~ msgid "Connection requested, user must accept"
+#~ msgstr "Ceangal iarrtha; ní mór don úsáideoir glacadh leis"
+
+#~ msgctxt "Name"
+#~ msgid "New Connection Auto Accepted"
+#~ msgstr "Ceangal nua bunaithe go huathoibríoch"
+
+#~ msgctxt "Comment"
+#~ msgid "New connection automatically established"
+#~ msgstr "Ceangal nua bunaithe go huathoibríoch"
+
+#~ msgctxt "Name"
+#~ msgid "Too Many Connections"
+#~ msgstr "An Iomarca Ceangal"
+
+#~ msgctxt "Comment"
+#~ msgid "Busy, connection refused"
+#~ msgstr "Gnóthach; ceangal diúltaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Unexpected Connection"
+#~ msgstr "Ceangal Gan Choinne"
+
+#~ msgctxt "Comment"
+#~ msgid "Received unexpected connection, abort"
+#~ msgstr "Fuarthas ceangal gan choinne, á thobscor"
+
+#~ msgctxt "Name"
+#~ msgid "Desktop Sharing"
+#~ msgstr "Roinnt Deisce"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Desktop Sharing"
+#~ msgstr "Cumraigh Roinnt Deisce"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Internet Daemon"
+#~ msgstr "Deamhan Idirlín KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "An Internet daemon that starts network services on demand"
+#~ msgstr "Deamhan Idirlín a thosaíonn seirbhísí líonra ar éileamh"
+
+#~ msgctxt "Name"
+#~ msgid "KInetD Module Type"
+#~ msgstr "Cineál Modúil KInetD"
+
+#~ msgctxt "Comment"
+#~ msgid "KInetD"
+#~ msgstr "KInetD"
+
+#~ msgctxt "Name"
+#~ msgid "IncomingConnection"
+#~ msgstr "Ceangal Isteach"
+
+#~ msgctxt "Comment"
+#~ msgid "Received incoming connection"
+#~ msgstr "Fuarthas ceangal isteach"
+
+#~ msgctxt "Name"
+#~ msgid "ProcessFailed"
+#~ msgstr "PróiseasTeipthe"
+
+#~ msgctxt "Comment"
+#~ msgid "Could not call process to handle connection"
+#~ msgstr "Níorbh fhéidir próiseas a thosú chun an ceangal a láimhseáil"
+
+#~ msgctxt "Comment"
+#~ msgid "A module to configure shares for Microsoft Windows"
+#~ msgstr "Modúl lenar féidir comhranna Windows a chumrú"
+
+#~ msgctxt "Name"
+#~ msgid "Samba"
+#~ msgstr "Samba"
+
+#~ msgctxt "Name"
+#~ msgid "File Sharing"
+#~ msgstr "Roinnt na gComhad"
+
+#~ msgctxt "Comment"
+#~ msgid "Enable or disable file sharing"
+#~ msgstr "Cumasaigh nó díchumasaigh comhroinnt comhad"
+
+#~ msgctxt "Comment"
+#~ msgid "KGet"
+#~ msgstr "KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "Keeps track of DNS-SD services and updates directory listings"
+#~ msgstr ""
+#~ "Coimeádann sé cuntas ar sheirbhísí DNS-SD agus nuashonraíonn comhadlanna"
+
+#~ msgctxt "Name"
+#~ msgid "Telepathy"
+#~ msgstr "Telepathy"
+
+#~ msgctxt "Comment"
+#~ msgid "Messaging using Telepathy connection managers."
+#~ msgstr "Teachtaireachtaí SMS le bainisteoirí ceangail Telepathy."
+
+#~ msgctxt "Name"
+#~ msgid "Bit Torrent Info"
+#~ msgstr "Eolas faoi BitTorrent"
+
+#~ msgctxt "Name"
+#~ msgid "MSN Plugin"
+#~ msgstr "Breiseán MSN"
+
+#~ msgctxt "Comment"
+#~ msgid "Microsoft Network Protocol"
+#~ msgstr "Prótacal Líonra Mhicrosoft"
+
+#~ msgctxt "Name"
+#~ msgid "MSN Messenger"
+#~ msgstr "MSN Messenger"
+
+#~ msgctxt "Comment"
+#~ msgid "Windows Live Messenger compatibility"
+#~ msgstr "Comhoiriúnacht do Windows Live Messenger"
+
+#~ msgctxt "Comment"
+#~ msgid "Kopete Bonjour Protocol"
+#~ msgstr "Prótacal Kopete 'Bonjour'"
+
+#~ msgctxt "Name"
+#~ msgid "Windows Live(MSN) Messenger"
+#~ msgstr "Windows Live(MSN) Messenger"
+
+#~ msgctxt "Comment"
+#~ msgid "Windows Live Messenger (MSN), new implementation"
+#~ msgstr "Windows Live Messenger (MSN), leagan nua"
+
+#~ msgctxt "Comment"
+#~ msgid "Show the status of (parts of) your contact list on a web page"
+#~ msgstr ""
+#~ "Taispeáin stádas do theagmhálacha (nó cuid acu) ar leathanach Gréasáin"
+
+#~ msgctxt "Comment"
+#~ msgid "Bittorrent-Transfer plugin for KGet"
+#~ msgstr "Breiseán aistrithe Bittorrent le haghaidh KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "Content-Fetch-Transfer plugin for KGet"
+#~ msgstr "Breiseán aistrithe Content Fetch le haghaidh KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "KIO-Transfer plugin for KGet"
+#~ msgstr "Breiseán aistrithe KIO le haghaidh KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "Metalink-Transfer plugin for KGet"
+#~ msgstr "Breiseán aistrithe Metalink le haghaidh KGet"
+
+#~ msgctxt "Comment"
+#~ msgid "Mirrorsearch-Transfer plugin for KGet"
+#~ msgstr "Breiseán aistrithe Mirrorsearch le haghaidh KGet"
+
+#~ msgctxt "Name"
+#~ msgid "News Ticker"
+#~ msgstr "Teilitéip Nuachta"
+
+#~ msgctxt "Comment"
+#~ msgid "A scrolling RDF news ticker"
+#~ msgstr "Teilitéip nuachta RDF a scrollaíonn"
+
+# same as fr
+#~ msgctxt "Name"
+#~ msgid "KIO TransferFactory"
+#~ msgstr "TransferFactory KIO"
+
+# fr too
+#~ msgctxt "Name"
+#~ msgid "MetaLink TransferFactory"
+#~ msgstr "TransferFactory MetaLink"
+
+# same as fr
+#~ msgctxt "Name"
+#~ msgid "MMS TransferFactory"
+#~ msgstr "TransferFactory MMS"
+
+#~ msgctxt "Comment"
+#~ msgid "KGet downloads monitor"
+#~ msgstr "Monatóir íosluchtaithe KGet"
+
+#~ msgctxt "Name"
+#~ msgid "Krdc"
+#~ msgstr "Krdc"
+
+#~ msgctxt "X-KDE-PluginInfo-Category"
+#~ msgid "Miscellaneous"
+#~ msgstr "Rudaí éagsúla"
+
+#~ msgctxt "X-KDE-PluginInfo-Category"
+#~ msgid "Online Services"
+#~ msgstr "Seirbhísí Ar Líne"
+
+#~ msgctxt "X-KDE-PluginInfo-Category"
+#~ msgid "Plugins"
+#~ msgstr "Breiseáin"
+
+#~ msgctxt "X-KDE-PluginInfo-Category"
+#~ msgid "Views"
+#~ msgstr "Amhairc"
+
+#~ msgctxt "X-KDE-PluginInfo-Category"
+#~ msgid "Protocols"
+#~ msgstr "Prótacail"
+
+#~ msgctxt "Name"
+#~ msgid "LAN KIO Slave"
+#~ msgstr "Sclábhaí KIO LAN"
+
+#~ msgctxt "Comment"
+#~ msgid "lan: and rlan: setup"
+#~ msgstr "Cumraíocht lan: agus rlan:"
+
+#~ msgctxt "Name"
+#~ msgid "LISa"
+#~ msgstr "LISa"
+
+#~ msgctxt "Comment"
+#~ msgid "Setup LISa"
+#~ msgstr "Cumraíocht LISa"
+
+#~ msgctxt "Name"
+#~ msgid "Local Network"
+#~ msgstr "Líonra Logánta"
+
+#~ msgctxt "Name"
+#~ msgid "LAN Browser"
+#~ msgstr "Brabhsálaí an Líonra Logánta"
+
+#~ msgctxt "Name"
+#~ msgid "Connection Status"
+#~ msgstr "Stádas Ceangail"
+
+#~ msgctxt "Comment"
+#~ msgid "Protocol to connect to Gadu-Gadu"
+#~ msgstr "Prótacal chun ceangal le Gadu-Gadu"
+
+#~ msgctxt "Comment"
+#~ msgid "Protocol to connect to IRC"
+#~ msgstr "Prótacal chun ceangal le IRC"
+
+#~ msgctxt "Comment"
+#~ msgid "Protocol to connect to Jabber"
+#~ msgstr "Prótacal chun ceangal le Jabber"
+
+#~ msgctxt "Comment"
+#~ msgid "Protocol to connect to Windows Live(MSN) Messenger"
+#~ msgstr "Prótacal chun ceangal le Windows Live(MSN) Messenger"
+
+#~ msgctxt "Comment"
+#~ msgid "Protocol to connect to MSN Messenger"
+#~ msgstr "Prótacal chun ceangal le MSN Messenger"
+
+#~ msgctxt "Comment"
+#~ msgid "Protocol to connect to AIM"
+#~ msgstr "Prótacal chun ceangal le AIM"
+
+#~ msgctxt "Comment"
+#~ msgid "Protocol to connect to ICQ"
+#~ msgstr "Prótacal chun ceangal le ICQ"
+
+#~ msgctxt "Comment"
+#~ msgid "Protocol to send SMS messages"
+#~ msgstr "Prótacal chun teachtaireachtaí SMS a sheoladh"
+
+#~ msgctxt "Comment"
+#~ msgid "Protocol to connect to Yahoo"
+#~ msgstr "Prótacal chun ceangal le Yahoo"
+
+#~ msgctxt "Name"
+#~ msgid "KNewsTicker"
+#~ msgstr "KNewsTicker"
+
+#~ msgctxt "Name"
+#~ msgid "New News Available"
+#~ msgstr "Nuacht Nua ar Fáil"
+
+#~ msgctxt "Comment"
+#~ msgid "There is new news available"
+#~ msgstr "Tá nuacht nua ar fáil"
+
+#~ msgctxt "Name"
+#~ msgid "Invalid RDF file"
+#~ msgstr "Comhad RDF Neamhbhailí"
+
+#~ msgctxt "Comment"
+#~ msgid "The downloaded RDF file could not be parsed"
+#~ msgstr "Ní féidir an comhad RDF íosluchtaithe a pharsáil"
+
+#~ msgctxt "Comment"
+#~ msgid "A frontend for the KNewsTicker configuration"
+#~ msgstr "Comhéadan le haghaidh chumraíocht KNewsTicker"
+
+#~ msgctxt "Name"
+#~ msgid "Appearance"
+#~ msgstr "Cuma"
+
+#~ msgctxt "Name"
+#~ msgid "Devices"
+#~ msgstr "Gléasanna"
+
+#~ msgctxt "Name"
+#~ msgid "Identities"
+#~ msgstr "Aitheantais"
+
+#~ msgctxt "Comment"
+#~ msgid "SMPPPDCS Plugin"
+#~ msgstr "Breiseán SMPPPDCS"
+
+#~ msgctxt "Comment"
+#~ msgid "Lookup phrases in a dictionary"
+#~ msgstr "Cuardaigh frásaí i bhfoclóir"
+
+#~ msgctxt "Name"
+#~ msgid "Dictionary"
+#~ msgstr "Foclóir"
+
+#~ msgctxt "GenericName"
+#~ msgid "Online Dictionary"
+#~ msgstr "Foclóir ar líne"
+
+#~ msgctxt "Name"
+#~ msgid "Public File Server"
+#~ msgstr "Freastalaí Comhad Poiblí"
+
+#~ msgctxt "Name"
+#~ msgid "KWiFiManager"
+#~ msgstr "KWiFiManager"
+
+#~ msgctxt "GenericName"
+#~ msgid "Wireless LAN Manager"
+#~ msgstr "Bainisteoir Líonra gan sreang"
+
+#~ msgctxt "Name"
+#~ msgid "KRfb Desktop Sharing"
+#~ msgstr "Roinnt Deisce KRfb"
+
+#~ msgctxt "Comment"
+#~ msgid "A daemon that allows you to share your desktop"
+#~ msgstr "Deamhan a chuireann ar do chumas do dheasca a roinnt"
+
+#~ msgctxt "Name"
+#~ msgid "KRfb Micro Httpd"
+#~ msgstr "KRfb Micro Httpd"
+
+#~ msgctxt "Name"
+#~ msgid "rssservice"
+#~ msgstr "rssservice"
+
+#~ msgctxt "Comment"
+#~ msgid "RSS DCOP services"
+#~ msgstr "Seirbhísí DCOP RSS"
+
+#~ msgctxt "Name"
+#~ msgid "Online"
+#~ msgstr "Ar Líne"
+
+#~ msgctxt "Name"
+#~ msgid "Netmeeting"
+#~ msgstr "Netmeeting"
+
+#~ msgctxt "Comment"
+#~ msgid "KSirc"
+#~ msgstr "KSirc"
+
+#~ msgctxt "Name"
+#~ msgid "Beep received"
+#~ msgstr "Fuarthas bíp"
+
+#~ msgctxt "GenericName"
+#~ msgid "IRC Client"
+#~ msgstr "Cliant IRC"
+
+#~ msgctxt "Name"
+#~ msgid "KSirc"
+#~ msgstr "KSirc"
+
+#~ msgctxt "Comment"
+#~ msgid "Talk daemon configuration"
+#~ msgstr "Cumraíocht deamhan comhrá"
+
+#~ msgctxt "Name"
+#~ msgid "ResLISa"
+#~ msgstr "ResLISa"
+
+#~ msgctxt "Comment"
+#~ msgid "Setup ResLISa"
+#~ msgstr "Cumraigh ResLISa"
+
+#~ msgctxt "Name"
+#~ msgid "Wireless Network"
+#~ msgstr "Líonra gan sreang"
+
+#~ msgid "Name=WinPopup Plugin"
+#~ msgstr "Name=Breiseán WinPopup"
+
+#~ msgid "Name=MsgInfo"
+#~ msgstr "Name=MsgInfo"

@@ -1,0 +1,487 @@
+# Irish translation of desktop_kdegraphics
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdegraphics package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:58+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: app/org.kde.gwenview.desktop.cmake:2
+msgctxt "Name"
+msgid "Gwenview"
+msgstr "Gwenview"
+
+#: app/org.kde.gwenview.desktop.cmake:75
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "KDE Image Viewer"
+msgctxt "GenericName"
+msgid "Image Viewer"
+msgstr "Amharcán Íomhánna KDE"
+
+#: app/org.kde.gwenview.desktop.cmake:118
+msgctxt "Comment"
+msgid "A simple image viewer"
+msgstr "Amharcán simplí íomhánna"
+
+#: importer/gwenview_importer_camera.desktop:10
+#: importer/gwenview_importer.desktop:11
+msgctxt "Name"
+msgid "Download Photos with Gwenview"
+msgstr "Íosluchtaigh Grianghrafanna le Gwenview"
+
+#: importer/org.kde.gwenview_importer.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Gwenview Image Viewer"
+msgctxt "Name"
+msgid "Gwenview Importer"
+msgstr "Amharcán Íomhánna Gwenview"
+
+#: part/gvpart.desktop.cmake:3
+msgctxt "Name"
+msgid "Gwenview Image Viewer"
+msgstr "Amharcán Íomhánna Gwenview"
+
+#~ msgctxt "Name"
+#~ msgid "Start a Slideshow"
+#~ msgstr "Rith Taispeántas Sleamhnán"
+
+#~ msgctxt "Name"
+#~ msgid "KolourPaint"
+#~ msgstr "KolourPaint"
+
+#~ msgctxt "GenericName"
+#~ msgid "Paint Program"
+#~ msgstr "Clár Péinteála"
+
+#~ msgctxt "GenericName"
+#~ msgid "Screen Ruler"
+#~ msgstr "Rialóir Scáileáin"
+
+#~ msgctxt "Name"
+#~ msgid "KRuler"
+#~ msgstr "KRuler"
+
+#~ msgctxt "Comment"
+#~ msgid "On-Screen Ruler"
+#~ msgstr "Rialóir Scáileáin"
+
+#~ msgctxt "Name"
+#~ msgid "Moved by Cursor Keys"
+#~ msgstr "Bogtha ag na hEochracha Cúrsóra"
+
+#~ msgctxt "Comment"
+#~ msgid "The ruler has moved pixelwise using the cursor keys"
+#~ msgstr ""
+#~ "Úsáideadh na heochracha cúrsóra chun an rialóir a bhogadh de réir "
+#~ "picteilíní"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Scan Service"
+#~ msgstr "Seirbhís Scanta KDE"
+
+#~ msgctxt "GenericName"
+#~ msgid "Screen Capture Program"
+#~ msgstr "Clár gabhála scáileáin"
+
+#~ msgctxt "Name"
+#~ msgid "KSnapshot"
+#~ msgstr "KSnapshot"
+
+#~ msgctxt "Comment"
+#~ msgid "File format backend for Okular"
+#~ msgstr "Inneall formáide comhaid le haghaidh Okular"
+
+#~ msgctxt "Description"
+#~ msgid "A kioslave for displaying WinHelp files"
+#~ msgstr "Sclábhaí KIO a thaispeánann comhaid WinHelp"
+
+#~ msgctxt "Name"
+#~ msgid "chmlib"
+#~ msgstr "chmlib"
+
+#~ msgctxt "Comment"
+#~ msgid "Windows HTMLHelp backend for Okular"
+#~ msgstr "Inneall HTMLHelp Windows le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "Okular"
+#~ msgstr "Okular"
+
+#~ msgctxt "GenericName"
+#~ msgid "Document Viewer"
+#~ msgstr "Amharcán Cáipéisí"
+
+#~ msgctxt "Name"
+#~ msgid "Comic Book"
+#~ msgstr "Comic Book"
+
+#~ msgctxt "Comment"
+#~ msgid "Comic book backend for Okular"
+#~ msgstr "Inneall Comic Book le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "djvu"
+#~ msgstr "djvu"
+
+#~ msgctxt "Comment"
+#~ msgid "DjVu backend for Okular"
+#~ msgstr "Inneall DjVu le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "dvi"
+#~ msgstr "dvi"
+
+#~ msgctxt "Comment"
+#~ msgid "DVI backend for Okular"
+#~ msgstr "Inneall DVI le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "EPub document"
+#~ msgstr "Cáipéis EPub"
+
+#~ msgctxt "Comment"
+#~ msgid "EPub backend for Okular"
+#~ msgstr "Inneall EPub le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "Fax documents"
+#~ msgstr "Facsáil cáipéisí"
+
+#~ msgctxt "Comment"
+#~ msgid "G3/G4 Fax backend for Okular"
+#~ msgstr "Inneall facsála G3/G4 le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "FictionBook document"
+#~ msgstr "Cáipéis FictionBook"
+
+#~ msgctxt "Comment"
+#~ msgid "FictionBook backend for Okular"
+#~ msgstr "Inneall FictionBook le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Image libraries"
+#~ msgstr "Leabharlanna íomhánna KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Image backend for Okular"
+#~ msgstr "Inneall íomhánna le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "Mobipocket document"
+#~ msgstr "Cáipéis Mobipocket"
+
+#~ msgctxt "Comment"
+#~ msgid "Mobipocket backend for Okular"
+#~ msgstr "Inneall Mobipocket le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "OpenDocument format"
+#~ msgstr "Formáid OpenDocument"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenDocument backend for Okular"
+#~ msgstr "Inneall OpenDocument le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "Plucker document"
+#~ msgstr "Cáipéis Plucker"
+
+#~ msgctxt "Comment"
+#~ msgid "Plucker backend for Okular"
+#~ msgstr "Inneall Plucker le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "Poppler"
+#~ msgstr "Poppler"
+
+#~ msgctxt "Comment"
+#~ msgid "PDF backend for Okular using poppler"
+#~ msgstr "Inneall PDF a úsáideann poppler le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "Ghostscript"
+#~ msgstr "Ghostscript"
+
+#~ msgctxt "Comment"
+#~ msgid "Ghostscript PS/PDF backend for Okular"
+#~ msgstr "Inneall PS/PDF Ghostscript le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "Okular TIFF Library"
+#~ msgstr "Leabharlann TIFF Okular"
+
+#~ msgctxt "Comment"
+#~ msgid "TIFF backend for Okular"
+#~ msgstr "Inneall TIFF le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "Okular XPS Plugin"
+#~ msgstr "Breiseán XPS Okular"
+
+#~ msgctxt "Comment"
+#~ msgid "XPS backend for Okular"
+#~ msgstr "Inneall XPS le haghaidh Okular"
+
+#~ msgctxt "Name"
+#~ msgid "Svg Part"
+#~ msgstr "Comhpháirt Svg"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Kamera"
+#~ msgstr "Cumraigh Kamera"
+
+#~ msgctxt "Name"
+#~ msgid "Digital Camera"
+#~ msgstr "Ceamara Digiteach"
+
+#~ msgctxt "Name"
+#~ msgid "Open with File Manager"
+#~ msgstr "Oscail i mBainisteoir Comhad"
+
+#~ msgctxt "GenericName"
+#~ msgid "Color Chooser"
+#~ msgstr "Roghnóir Dathanna"
+
+#~ msgctxt "Name"
+#~ msgid "KColorChooser"
+#~ msgstr "KColorChooser"
+
+#~ msgctxt "Comment"
+#~ msgid "A monitor calibration tool"
+#~ msgstr "Uirlis chalabraithe scáileáin"
+
+#~ msgctxt "Name"
+#~ msgid "Gamma"
+#~ msgstr "Gáma"
+
+#~ msgctxt "Name"
+#~ msgid "KIPIPlugin"
+#~ msgstr "KIPIPlugin"
+
+#~ msgctxt "Comment"
+#~ msgid "A KIPI Plugin"
+#~ msgstr "Breiseán KIPI"
+
+#~ msgctxt "Name"
+#~ msgid "DirectDraw Surface Info"
+#~ msgstr "Eolas faoi DirectDraw Surface"
+
+#~ msgctxt "Name"
+#~ msgid "EXR Info"
+#~ msgstr "Eolas faoi EXR"
+
+#~ msgctxt "Name"
+#~ msgid "PNM Info"
+#~ msgstr "Eolas faoi PNM"
+
+#~ msgctxt "Name"
+#~ msgid "RAW Camera Files"
+#~ msgstr "Comhaid Cheamara RAW"
+
+#~ msgctxt "Name"
+#~ msgid "SGI Image (RGB)"
+#~ msgstr "Íomhá SGI (RGB)"
+
+#~ msgctxt "Name"
+#~ msgid "TIFF File Meta Info"
+#~ msgstr "Meiteafhaisnéis ar Chomhad TIFF"
+
+#~ msgctxt "Name"
+#~ msgid "XML Paper Specification Info"
+#~ msgstr "Sonraíocht Pháipéir XML"
+
+#~ msgctxt "Name"
+#~ msgid "PostScript, PDF and DVI Files"
+#~ msgstr "Comhaid PostScript, PDF agus DVI"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Screen Ruler"
+#~ msgstr "Rialóir Scáileáin KDE"
+
+#~ msgctxt "Name"
+#~ msgid "DVI Info"
+#~ msgstr "Eolas faoi DVI"
+
+#~ msgctxt "Name"
+#~ msgid "=kular"
+#~ msgstr "=kular"
+
+#~ msgctxt "Keywords"
+#~ msgid "gphoto,camera,digicam,webcam,kamera"
+#~ msgstr "gphoto,ceamara,digicam,ceamara Gréasáin,kamera"
+
+#~ msgctxt "Keywords"
+#~ msgid "KGamma, kgamma, Gamma, gamma"
+#~ msgstr "KGamma, kgamma, Gamma, gamma, Gáma"
+
+#~ msgctxt "Name"
+#~ msgid "KGhostView"
+#~ msgstr "KGhostView"
+
+#~ msgctxt "GenericName"
+#~ msgid "PS/PDF Viewer"
+#~ msgstr "Amharcán PS/PDF"
+
+#~ msgctxt "Name"
+#~ msgid "KFax"
+#~ msgstr "KFax"
+
+#~ msgctxt "Name"
+#~ msgid "GIF Info"
+#~ msgstr "Eolas faoi GIF"
+
+#~ msgctxt "Name"
+#~ msgid "MRML View"
+#~ msgstr "Amharc MRML"
+
+#~ msgctxt "Name"
+#~ msgid "Kuickshow"
+#~ msgstr "Kuickshow"
+
+#~ msgctxt "Name"
+#~ msgid "kdjview"
+#~ msgstr "kdjview"
+
+#~ msgctxt "Comment"
+#~ msgid "DVI"
+#~ msgstr "DVI"
+
+#~ msgctxt "Name"
+#~ msgid "KDVIMultiPage"
+#~ msgstr "KDVIMultiPage"
+
+#~ msgctxt "Name"
+#~ msgid "kfaxview"
+#~ msgstr "kfaxview"
+
+#~ msgctxt "Name"
+#~ msgid "KColorEdit"
+#~ msgstr "KColorEdit"
+
+#~ msgctxt "GenericName"
+#~ msgid "Icon Editor"
+#~ msgstr "Eagarthóir Deilbhíní"
+
+#~ msgctxt "Name"
+#~ msgid "KIconEdit"
+#~ msgstr "KIconEdit"
+
+#~ msgctxt "Name"
+#~ msgid "Kooka"
+#~ msgstr "Kooka"
+
+#~ msgctxt "Name"
+#~ msgid "KPovModeler"
+#~ msgstr "KPovModeler"
+
+#~ msgctxt "Name"
+#~ msgid "BMP Info"
+#~ msgstr "Eolas faoi BMP"
+
+#~ msgctxt "Name"
+#~ msgid "KDVI"
+#~ msgstr "KDVI"
+
+#~ msgctxt "Name"
+#~ msgid "kfaxview_tiff"
+#~ msgstr "kfaxview_tiff"
+
+#~ msgctxt "Name"
+#~ msgid "KFaxView"
+#~ msgstr "KFaxView"
+
+#~ msgctxt "Name"
+#~ msgid "KPDF"
+#~ msgstr "KPDF"
+
+#~ msgctxt "GenericName"
+#~ msgid "PDF Viewer"
+#~ msgstr "Amharcán PDF"
+
+#~ msgctxt "Comment"
+#~ msgid "KSVG Rendering Backend"
+#~ msgstr "Inneall Rindreála KSVG"
+
+#~ msgctxt "Name"
+#~ msgid "KSVG Rendering Backend - Libart"
+#~ msgstr "Inneall Rindreála KSVG - Libart"
+
+#~ msgctxt "Comment"
+#~ msgid "Scalable Vector Graphics Viewer"
+#~ msgstr "Amharcán SVG (Scalable Vector Graphics)"
+
+#~ msgctxt "Name"
+#~ msgid "Scalable Vector Graphics"
+#~ msgstr "Scalable Vector Graphics"
+
+#~ msgctxt "Name"
+#~ msgid "Viewer"
+#~ msgstr "Viewer"
+
+#~ msgctxt "Name"
+#~ msgid "Application"
+#~ msgstr "Feidhmchlár"
+
+#~ msgctxt "Name"
+#~ msgid "KView"
+#~ msgstr "KView"
+
+#~ msgctxt "Name"
+#~ msgid "Browser"
+#~ msgstr "Brabhsálaí"
+
+#~ msgctxt "Name"
+#~ msgid "Effects"
+#~ msgstr "Maisíochtaí"
+
+#~ msgctxt "Name"
+#~ msgid "Name"
+#~ msgstr "Ainm"
+
+#~ msgctxt "Comment"
+#~ msgid "Comment"
+#~ msgstr "Nóta"
+
+#~ msgctxt "Name"
+#~ msgid "Presenter"
+#~ msgstr "Láithreoir"
+
+#~ msgctxt "Name"
+#~ msgid "Scale"
+#~ msgstr "Scála"
+
+#~ msgctxt "Name"
+#~ msgid "Scanner"
+#~ msgstr "Scanóir"
+
+#~ msgctxt "Name"
+#~ msgid "Template"
+#~ msgstr "Teimpléad"
+
+#~ msgctxt "GenericName"
+#~ msgid "Photobook"
+#~ msgstr "Photobook"
+
+#~ msgctxt "Name"
+#~ msgid "Photobook"
+#~ msgstr "Photobook"
+
+#~ msgid "Comment=RAW Camera File"
+#~ msgstr "Comment=Comhad Ceamara RAW"
+
+#~ msgid "Name=KPDFPart"
+#~ msgstr "Name=KPDFPart"

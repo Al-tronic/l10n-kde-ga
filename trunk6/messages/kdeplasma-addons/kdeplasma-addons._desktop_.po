@@ -1,0 +1,1066 @@
+# Irish translation of desktop_kdeplasma-addons
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdeplasma-addons package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:58+0000\n"
+"PO-Revision-Date: 2008-05-20 06:32-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: applets/comic/comic.knsrc:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Comic"
+msgctxt "Name"
+msgid "Comics"
+msgstr "Stiallchartún"
+
+#: applets/timer/plasma_applet_timer.notifyrc:2
+msgctxt "Name"
+msgid "Timer"
+msgstr "Uaineadóir"
+
+#: applets/timer/plasma_applet_timer.notifyrc:70
+msgctxt "Name"
+msgid "Timer finished"
+msgstr ""
+
+#: applets/timer/plasma_applet_timer.notifyrc:113
+msgctxt "Comment"
+msgid "Your timer has finished"
+msgstr ""
+
+#: kdeds/kameleon/kameleonhelper.actions:5
+msgctxt "Name"
+msgid "Kameleon"
+msgstr ""
+
+#: kdeds/kameleon/kameleonhelper.actions:45
+msgctxt "Name"
+msgid "Write color"
+msgstr ""
+
+#: kdeds/kameleon/kameleonhelper.actions:82
+msgctxt "Description"
+msgid "Allow writing accent color to device LEDs"
+msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Previewer"
+#~ msgctxt "Name"
+#~ msgid "Previews"
+#~ msgstr "Réamhamharcán"
+
+#~ msgctxt "Name"
+#~ msgid "Picture of the Day"
+#~ msgstr "Grianghraf an Lae"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "View comic strips from the Internet"
+#~ msgctxt "Comment"
+#~ msgid "A new picture from the Internet each day"
+#~ msgstr "Taispeáin stiallchartún ón Idirlíon"
+
+#~ msgctxt "Name"
+#~ msgid "special Characters"
+#~ msgstr "carachtair Speisialta"
+
+#~ msgctxt "Name"
+#~ msgid "Dictionary"
+#~ msgstr "Foclóir"
+
+#~ msgctxt "Comment"
+#~ msgid "Define words"
+#~ msgstr "Sainmhínigh focail"
+
+#~ msgctxt "Name"
+#~ msgid "Spell Checker Runner"
+#~ msgstr "Feidhmitheoir an Litreora"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "New Activity"
+#~ msgctxt "Name"
+#~ msgid "Activity Pager"
+#~ msgstr "Gníomhaíocht Nua"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Switch between running applications"
+#~ msgctxt "Comment"
+#~ msgid "Switch between activities"
+#~ msgstr "Athraigh idir feidhmchláir atá ag rith"
+
+#~ msgctxt "Name"
+#~ msgid "Binary Clock"
+#~ msgstr "Clog Dénártha"
+
+#~ msgctxt "Comment"
+#~ msgid "Time displayed in binary format"
+#~ msgstr "An t-am i bhformáid dhénártha"
+
+#~ msgctxt "Name"
+#~ msgid "Calculator"
+#~ msgstr "Áireamhán"
+
+#~ msgctxt "Comment"
+#~ msgid "Calculate simple sums"
+#~ msgstr "Áirigh suimeanna simplí"
+
+#~ msgctxt "Name"
+#~ msgid "Color Picker"
+#~ msgstr "Roghnóir Dathanna"
+
+#~ msgctxt "Comment"
+#~ msgid "Pick a color from the desktop"
+#~ msgstr "Roghnaigh dath ón deasc"
+
+#~ msgctxt "Name"
+#~ msgid "Comic Strip"
+#~ msgstr "Stiallchartún"
+
+#~ msgctxt "Comment"
+#~ msgid "View comic strips from the Internet"
+#~ msgstr "Taispeáin stiallchartún ón Idirlíon"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Look up the meaning of words and their translation into different "
+#~ "languages"
+#~ msgstr "Aimsigh sainmhíniú ar fhocail nó a n-aistriúcháin go teangacha eile"
+
+#~ msgctxt "Name"
+#~ msgid "Fifteen Puzzle"
+#~ msgstr "Puzal Cúig Déag"
+
+#~ msgctxt "Comment"
+#~ msgid "Put the pieces in order"
+#~ msgstr "Cuir na píosaí in ord"
+
+#~ msgctxt "Name"
+#~ msgid "Fuzzy Clock"
+#~ msgstr "Clog Doiléir"
+
+#~ msgctxt "Comment"
+#~ msgid "Time displayed in a less precise format"
+#~ msgstr "Taispeáin an t-am i bhformáid níos lú beaichte"
+
+#~ msgctxt "Name"
+#~ msgid "Konsole Profiles"
+#~ msgstr "Próifílí Konsole"
+
+#~ msgctxt "Comment"
+#~ msgid "List and launch Konsole profiles"
+#~ msgstr "Liostaigh agus tosaigh próifílí Konsole"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Media Player"
+#~ msgctxt "Name"
+#~ msgid "Media Frame"
+#~ msgstr "Seinnteoir Meán"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Picture Frame"
+#~ msgctxt "Comment"
+#~ msgid "(Picture) Frame"
+#~ msgstr "Fráma Pictiúir"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Plasmoid for converting units"
+#~ msgctxt "Comment"
+#~ msgid "Plasmoid for controlling Night Color"
+#~ msgstr "Plasmóid a thiontaíonn aonaid"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Desktop sticky notes"
+#~ msgctxt "Comment"
+#~ msgid "Desktop sticky note"
+#~ msgstr "Nótaí greamaitheacha"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Launcher to start applications"
+#~ msgctxt "Comment"
+#~ msgid "Launch your favourite Applications"
+#~ msgstr "Ríomhchlár a thosaíonn feidhmchláir"
+
+#~ msgctxt "Comment"
+#~ msgid "Paste text/images to a remote server"
+#~ msgstr "Greamaigh téacs/íomhánna ar fhreastalaí cianda"
+
+#~ msgctxt "Comment"
+#~ msgid "Countdown over a specified time period"
+#~ msgstr "Comhaireamh síos in aghaidh tréimhse sonraithe"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Weather Forecast"
+#~ msgctxt "Name"
+#~ msgid "Weather Report"
+#~ msgstr "Réamhaisnéis Aimsire"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Web Browser History"
+#~ msgctxt "Name"
+#~ msgid "Web browser"
+#~ msgstr "Stair Bhrabhsála"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for Plasma Comic Engine"
+#~ msgstr "Breiseán le haghaidh inneall stiallchartún Plasma"
+
+#~ msgctxt "Name"
+#~ msgid "Comic Strips"
+#~ msgstr "Stiallchartúin"
+
+#~ msgctxt "Comment"
+#~ msgid "Online comic strips"
+#~ msgstr "Stiallchartúin ar líne"
+
+#~ msgctxt "Name"
+#~ msgid "Comic"
+#~ msgstr "Stiallchartún"
+
+#~ msgctxt "Comment"
+#~ msgid "Comic Package Structure"
+#~ msgstr "Struchtúr Pacáiste Comic"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for Plasma PoTD Engine"
+#~ msgstr "Breiseán le haghaidh inneall PoTD Plasma"
+
+#~ msgctxt "Name"
+#~ msgid "Special Characters"
+#~ msgstr "Carachtair Speisialta"
+
+#~ msgctxt "Name"
+#~ msgid "Unit Converter"
+#~ msgstr "Tiontaire Aonad"
+
+#~ msgctxt "Comment"
+#~ msgid "Convert values to different units"
+#~ msgstr "Tiontaíonn sé seo luach ó aonad amháin go haonad eile"
+
+#~ msgctxt "Name"
+#~ msgid "Date and Time"
+#~ msgstr "Dáta agus Am"
+
+#~ msgctxt "Comment"
+#~ msgid "The current date and time, locally or in any timezone"
+#~ msgstr "An dáta agus agus t-am faoi láthair, anseo nó i gcrios ama ar bith"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Sessions"
+#~ msgstr "Seisiúin Kate"
+
+#~ msgctxt "Comment"
+#~ msgid "Matches Kate Sessions"
+#~ msgstr "Comhoiriúnach do Sheisiúin Kate"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Konsole Profiles"
+#~ msgctxt "Comment"
+#~ msgid "Matches Konsole Profiles"
+#~ msgstr "Próifílí Konsole"
+
+#~ msgctxt "Name"
+#~ msgid "Spell Checker"
+#~ msgstr "Litreoir"
+
+#~ msgctxt "Comment"
+#~ msgid "Check the spelling of a word"
+#~ msgstr "Seiceáil litriú focail"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Keyboard"
+#~ msgctxt "Name"
+#~ msgid "Keyboard Indicator"
+#~ msgstr "Méarchlár"
+
+#~ msgctxt "Name"
+#~ msgid "System Load Viewer"
+#~ msgstr "Amharcán Lód an Chórais"
+
+#~ msgctxt "Comment"
+#~ msgid "Tiny CPU/RAM/Swap monitor"
+#~ msgstr "Monatóir Beag LAP/RAM/Babhtáil"
+
+#~ msgctxt "Name"
+#~ msgid "Wikipedia"
+#~ msgstr "Vicipéid"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Picture of the Day"
+#~ msgctxt "Name"
+#~ msgid "Picture of The Day"
+#~ msgstr "Grianghraf an Lae"
+
+#~ msgctxt "Name"
+#~ msgid "Notes"
+#~ msgstr "Nótaí"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Minimize all windows."
+#~ msgctxt "Name"
+#~ msgid "Minimize all Windows"
+#~ msgstr "Íoslaghdaigh gach fuinneog."
+
+#~ msgctxt "Name"
+#~ msgid "Show Desktop"
+#~ msgstr "Taispeáin an Deasc"
+
+#~ msgctxt "Comment"
+#~ msgid "Show the Plasma desktop"
+#~ msgstr "Taispeáin an deasc Plasma"
+
+#~ msgctxt "Name"
+#~ msgid "Astronomy Picture of the Day"
+#~ msgstr "Grianghraf Réalteolaíochta an Lae"
+
+#~ msgctxt "Comment"
+#~ msgid "Apod Provider"
+#~ msgstr "Soláthraí Apod"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Picture of the Day"
+#~ msgctxt "Name"
+#~ msgid "Bing's Picture of the Day"
+#~ msgstr "Grianghraf an Lae"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Osei Provider"
+#~ msgctxt "Comment"
+#~ msgid "Bing Provider"
+#~ msgstr "Soláthraí OSEI"
+
+#~ msgctxt "Name"
+#~ msgid "Earth Science Picture of the Day"
+#~ msgstr "Grianghraf Domhaneolaíochta an Lae"
+
+#~ msgctxt "Comment"
+#~ msgid "Epod Provider"
+#~ msgstr "Soláthraí Epod"
+
+#~ msgctxt "Name"
+#~ msgid "Flickr Picture of the Day"
+#~ msgstr "Grianghraf an Lae ó Flickr"
+
+#~ msgctxt "Comment"
+#~ msgid "Flickr Provider"
+#~ msgstr "Soláthraí Flickr"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Apod Provider"
+#~ msgctxt "Comment"
+#~ msgid "NOAA Provider"
+#~ msgstr "Soláthraí Apod"
+
+#~ msgctxt "Name"
+#~ msgid "Wikimedia Picture of the Day"
+#~ msgstr "Grianghraf Wikimedia an Lae"
+
+#~ msgctxt "Comment"
+#~ msgid "Wcpotd Provider"
+#~ msgstr "Soláthraí Wcpotd"
+
+#~ msgctxt "Name"
+#~ msgid "Konsole Sessions"
+#~ msgstr "Seisiúin Konsole"
+
+#~ msgctxt "Comment"
+#~ msgid "Matches Konsole Sessions"
+#~ msgstr "Comhoiriúnach do Sheisiúin Konsole"
+
+#~ msgctxt "Name"
+#~ msgid "Black Board"
+#~ msgstr "Clár Dubh"
+
+#~ msgctxt "Name"
+#~ msgid "Bookmarks"
+#~ msgstr "Leabharmharcanna"
+
+#~ msgctxt "Name"
+#~ msgid "Bubblemon"
+#~ msgstr "Bubblemon"
+
+#~ msgctxt "Name"
+#~ msgid "Character Selector"
+#~ msgstr "Roghnóir Carachtar"
+
+#~ msgctxt "Comment"
+#~ msgid "View, select, and copy characters from a font collection"
+#~ msgstr "Féach ar, roghnaigh, agus cóipeáil carachtair ó bhailiúchán clónna"
+
+#~ msgctxt "Name"
+#~ msgid "Eyes"
+#~ msgstr "Eyes"
+
+#~ msgctxt "Comment"
+#~ msgid "XEyes clone"
+#~ msgstr "Clón XEyes"
+
+#~ msgctxt "Name"
+#~ msgid "File Watcher"
+#~ msgstr "Fairtheoir Comhad"
+
+#~ msgctxt "Comment"
+#~ msgid "Watch for changes in specified files"
+#~ msgstr "Bí ag fairís ar athruithe i gcomhad áirithe"
+
+#~ msgctxt "Name"
+#~ msgid "Picture Frame"
+#~ msgstr "Fráma Pictiúir"
+
+#~ msgctxt "Comment"
+#~ msgid "Display your favorite pictures"
+#~ msgstr "Taispeáin na pictiúir is ansa leat"
+
+#~ msgctxt "Name"
+#~ msgid "Incoming Message"
+#~ msgstr "Teachtaireacht Isteach"
+
+#~ msgctxt "Comment"
+#~ msgid "Notification of new messages"
+#~ msgstr "Fógra nuair atá teachtaireacht nua ann"
+
+#~ msgctxt "Name"
+#~ msgid "KnowledgeBase"
+#~ msgstr "Bunachar Eolais"
+
+#~ msgctxt "Comment"
+#~ msgid "Opendesktop Knowledgebase"
+#~ msgstr "Bunachar Eolais Opendesktop"
+
+#~ msgctxt "Name"
+#~ msgid "Konqueror Profiles"
+#~ msgstr "Próifílí Konqueror"
+
+#~ msgctxt "Comment"
+#~ msgid "List and launch Konqueror profiles"
+#~ msgstr "Liostaigh agus tosaigh próifílí Konqueror"
+
+#~ msgctxt "Name"
+#~ msgid "Leave A Note"
+#~ msgstr "Fág Nóta"
+
+#~ msgctxt "Comment"
+#~ msgid "Leave notes for users while they are away"
+#~ msgstr "Fág nóta ag úsáideoir atá amuigh"
+
+#~ msgctxt "Name"
+#~ msgid "Life"
+#~ msgstr "Cluiche \"Life\""
+
+#~ msgctxt "Comment"
+#~ msgid "Conway's Game of Life applet"
+#~ msgstr "Feidhmchláirín Conway's Game of Life"
+
+#~ msgctxt "Name"
+#~ msgid "Magnifique"
+#~ msgstr "Magnifique"
+
+#~ msgctxt "Name"
+#~ msgid "Media Player"
+#~ msgstr "Seinnteoir Meán"
+
+#~ msgctxt "Name"
+#~ msgid "Microblogging"
+#~ msgstr "Micreabhlagadóireacht"
+
+#~ msgctxt "Comment"
+#~ msgid "Update and view your microblog status."
+#~ msgstr "Nuashonraigh agus féach ar do stádas micreabhlagadóireachta."
+
+#~ msgctxt "Name"
+#~ msgid "News"
+#~ msgstr "Nuacht"
+
+#~ msgctxt "Comment"
+#~ msgid "Show news from various sources"
+#~ msgstr "Taispeáin nuacht ó fhoinsí éagsúla"
+
+#~ msgctxt "Comment"
+#~ msgid "A virtual, on-screen keyboard"
+#~ msgstr "Méarchlár fíorúil ar an scáileán"
+
+#~ msgctxt "Name"
+#~ msgid "Previewer"
+#~ msgstr "Réamhamharcán"
+
+#~ msgctxt "Comment"
+#~ msgid "Quickly preview a variety of files"
+#~ msgstr "Réamhamharc ar chomhaid éagsúla go tapa"
+
+#~ msgctxt "Name"
+#~ msgid "Preview This File"
+#~ msgstr "Réamhamharc ar an gComhad seo"
+
+#~ msgctxt "Name"
+#~ msgid "Qalculate!"
+#~ msgstr "Qalculate!"
+
+#~ msgctxt "Name"
+#~ msgid "RSSNOW"
+#~ msgstr "RSSNOW"
+
+#~ msgctxt "Name"
+#~ msgid "Spell Check"
+#~ msgstr "Litreoir"
+
+#~ msgctxt "Comment"
+#~ msgid "Fast spell checking"
+#~ msgstr "Litreoir tapa"
+
+#~ msgctxt "Name"
+#~ msgid "LCD Weather Station (QML)"
+#~ msgstr "Stáisiún Aimsire LCD (QML)"
+
+#~ msgctxt "Name"
+#~ msgid "LCD Weather Station"
+#~ msgstr "Stáisiún Aimsire LCD"
+
+#~ msgctxt "Comment"
+#~ msgid "Weather reports with an LCD display style"
+#~ msgstr "Réamhaisnéis aimsire i stíl taispeána LCD"
+
+#~ msgctxt "Name"
+#~ msgid "Web Slice"
+#~ msgstr "Slis Ghréasáin"
+
+#~ msgctxt "Comment"
+#~ msgid "Show a part of a webpage"
+#~ msgstr "Taispeáin cuid de leathanach Gréasáin"
+
+#~ msgctxt "Comment"
+#~ msgid "identi.ca and twitter micro-blogging services"
+#~ msgstr "Seirbhísí micreablagadóireachta identi.ca agus twitter"
+
+#~ msgctxt "Name"
+#~ msgid "Web Browser History"
+#~ msgstr "Stair Bhrabhsála"
+
+#~ msgctxt "Comment"
+#~ msgid "Searches in Konqueror's history"
+#~ msgstr "Cuardaigh i stair Konqueror"
+
+#~ msgctxt "Name"
+#~ msgid "Konqueror Sessions"
+#~ msgstr "Seisiúin Konqueror"
+
+#~ msgctxt "Comment"
+#~ msgid "Matches Konqueror Sessions"
+#~ msgstr "Comhoiriúnach do Sheisiúin Konqueror"
+
+#~ msgctxt "Name"
+#~ msgid "Kopete Contacts"
+#~ msgstr "Teagmhálacha Kopete"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Calculator"
+#~ msgctxt "Name"
+#~ msgid "Translator"
+#~ msgstr "Áireamhán"
+
+#~ msgctxt "Name"
+#~ msgid "YouTube"
+#~ msgstr "YouTube"
+
+#~ msgctxt "Name"
+#~ msgid "Contacts"
+#~ msgstr "Teagmhálacha"
+
+#~ msgctxt "Comment"
+#~ msgid "Finds entries in your address book"
+#~ msgstr "Aimsigh teagmhálacha i do leabhar seoltaí"
+
+#~ msgctxt "Name"
+#~ msgid "Luna"
+#~ msgstr "Luna"
+
+#~ msgctxt "Comment"
+#~ msgid "Display moon phases for your location"
+#~ msgstr "Taispeáin céimeanna na gealaí i do cheantar"
+
+#~ msgctxt "Name"
+#~ msgid "Lancelot Launcher"
+#~ msgstr "Tosaitheoir Lancelot"
+
+#~ msgctxt "Comment"
+#~ msgid "Launcher to start applications"
+#~ msgstr "Ríomhchlár a thosaíonn feidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "Lancelot"
+#~ msgstr "Lancelot"
+
+#~ msgctxt "Comment"
+#~ msgid "Lancelot Menu"
+#~ msgstr "Roghchlár Lancelot"
+
+#~ msgctxt "Name"
+#~ msgid "Usage logging is activated"
+#~ msgstr "Logáil úsáide faoi shiúl"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Shown only on first launch. Notifies that the usage logging is turned "
+#~ "'on'."
+#~ msgstr ""
+#~ "Taispeántar é seo ag an chéad tosú amháin. Cuireann sé in iúl go bhfuil "
+#~ "logáil úsáide faoi shiúl."
+
+#~ msgctxt "Name"
+#~ msgid "Shelf"
+#~ msgstr "Seilf"
+
+#~ msgctxt "Name"
+#~ msgid "Control Audio Player"
+#~ msgstr "Rialaigh Seinnteoir Fuaime"
+
+#~ msgctxt "Name"
+#~ msgid "Operational Significant Event Imagery Picture of the Day"
+#~ msgstr "Grianghraf an Lae ó OSEI"
+
+#~ msgctxt "Name"
+#~ msgid "Weather Forecast (QML)"
+#~ msgstr "Réamhaisnéis Aimsire (QML)"
+
+#~ msgctxt "Comment"
+#~ msgid "Displays Weather information"
+#~ msgstr "Taispeáin faisnéis aimsire"
+
+#~ msgctxt "Name"
+#~ msgid "Show Widget Dashboard"
+#~ msgstr "Taispeáin Painéal na nGiuirléidí"
+
+#~ msgctxt "Comment"
+#~ msgid "Show the Plasma widget dashboard above other windows"
+#~ msgstr "Taispeáin painéal na ngiuirléidí Plasma os cionn na bhfuinneog eile"
+
+#~ msgctxt "Comment"
+#~ msgid "A bouncy ball for plasma"
+#~ msgstr "Liathróid phreabarnach le haghaidh plasma"
+
+#~ msgctxt "Name"
+#~ msgid "Community"
+#~ msgstr "Comhphobal"
+
+#, fuzzy
+#~| msgctxt "Keywords"
+#~| msgid "Utilities"
+#~ msgctxt "Keywords"
+#~ msgid "Utilities;"
+#~ msgstr "Uirlisí"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Observatory"
+#~ msgstr "Réadlann KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Now Playing"
+#~ msgstr "Á Sheinm Anois"
+
+#~ msgctxt "Comment"
+#~ msgid "Displays currently playing audio"
+#~ msgstr "Taispeáin an ceol á sheinm anois"
+
+#~ msgctxt "Name"
+#~ msgid "Pastebin"
+#~ msgstr "Pastebin"
+
+#~ msgctxt "Comment"
+#~ msgid "Pastebin Widget"
+#~ msgstr "Giuirléid Pastebin"
+
+#~ msgctxt "Name"
+#~ msgid "Copied pastebin link"
+#~ msgstr "Cóipeáladh nasc pastebin"
+
+#~ msgctxt "Comment"
+#~ msgid "The pastebin URL has been copied to the clipboard"
+#~ msgstr "Cóipeáladh URL pastebin go dtí an ghearrthaisce"
+
+#~ msgctxt "Name"
+#~ msgid "Paste"
+#~ msgstr "Greamaigh"
+
+#~ msgctxt "Comment"
+#~ msgid "Paste text snippets"
+#~ msgstr "Greamaigh blúirí téacs"
+
+#~ msgctxt "Name"
+#~ msgid "Remember The Milk"
+#~ msgstr "Remember The Milk"
+
+#~ msgctxt "Comment"
+#~ msgid "Remember The Milk Todo list applet"
+#~ msgstr "Feidhmchláirín tascanna Remember The Milk"
+
+#~ msgctxt "Name"
+#~ msgid "Social News"
+#~ msgstr "Nuacht Shóisialta"
+
+#~ msgctxt "Comment"
+#~ msgid "Stay informed with the Social Desktop"
+#~ msgstr "Bí ar an eolas leis an Deasc Shóisialta"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenDesktop Activities Widget"
+#~ msgstr "Giuirléid Gníomhaíochtaí OpenDesktop"
+
+#~ msgctxt "Comment"
+#~ msgid "Something interesting has happened in your friends network"
+#~ msgstr "Tharla rud éigin suimiúil i líonra do chuid cairde"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Observatory Data Engine"
+#~ msgstr "Inneall Sonraí Réadlann KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Open Collaboration Services"
+#~ msgstr "Seirbhísí Comhoibrithe Oscailte"
+
+#~ msgctxt "Name"
+#~ msgid "Remember The Milk Engine"
+#~ msgstr "Inneall Remember The Milk"
+
+#~ msgctxt "Comment"
+#~ msgid "An engine to work with Remember the Milk."
+#~ msgstr "Inneall a oibríonn le Remember The Milk."
+
+#~ msgctxt "Name"
+#~ msgid "Mandelbrot"
+#~ msgstr "Mandelbrot"
+
+#~ msgctxt "Name"
+#~ msgid "Globe"
+#~ msgstr "Cruinneog"
+
+#~ msgctxt "Comment"
+#~ msgid "Fish Net"
+#~ msgstr "Eangach"
+
+#~ msgctxt "Comment"
+#~ msgid "Flowers"
+#~ msgstr "Bláthanna"
+
+#~ msgctxt "Comment"
+#~ msgid "Night Rock by Tigert"
+#~ msgstr "Night Rock le Tigert"
+
+#~ msgctxt "Comment"
+#~ msgid "Pavement"
+#~ msgstr "Pábháil"
+
+#~ msgctxt "Comment"
+#~ msgid "Rattan"
+#~ msgstr "Ratán"
+
+#~ msgctxt "Comment"
+#~ msgid "Stonewall 2 by Tigert"
+#~ msgstr "Stonewall 2 le Tigert"
+
+#~ msgctxt "Comment"
+#~ msgid "Triangles"
+#~ msgstr "Triantáin"
+
+#~ msgctxt "Comment"
+#~ msgid "Xerox Star"
+#~ msgstr "Réalta Xéireacs"
+
+#~ msgctxt "Name"
+#~ msgid "Pattern"
+#~ msgstr "Patrún"
+
+#~ msgctxt "Name"
+#~ msgid "Weather"
+#~ msgstr "Aimsir"
+
+#~ msgctxt "Name"
+#~ msgid "Pastebin engine"
+#~ msgstr "Inneall Pastebin"
+
+#~ msgctxt "Comment"
+#~ msgid "Engine to paste text and images to servers"
+#~ msgstr "Inneall a ghreamaíonn téacs agus íomhánna ar fhreastalaithe"
+
+#~| msgctxt "Name"
+#~| msgid "Show Desktop"
+#~ msgctxt "Name"
+#~ msgid "openDesktop Activities"
+#~ msgstr "Taispeáin an Deasc"
+
+#~ msgctxt "Name"
+#~ msgid "Lancelot Part"
+#~ msgstr "Comhpháirt Lancelot"
+
+#~ msgctxt "Comment"
+#~ msgid "Parts of Lancelot menu on the desktop"
+#~ msgstr "Comhpháirteanna roghchlár Lancelot ar an deasc"
+
+#~ msgctxt "Name"
+#~ msgid "BbalL"
+#~ msgstr "BbalL"
+
+#~ msgctxt "Name"
+#~ msgid "Blue Marble"
+#~ msgstr "Blue Marble"
+
+#~ msgctxt "Comment"
+#~ msgid "3D model of the Earth"
+#~ msgstr "Samhail 3T den Domhan"
+
+#~ msgctxt "Name"
+#~ msgid "At Night"
+#~ msgstr "San Oíche"
+
+#~ msgctxt "Name"
+#~ msgid "Blue Sun"
+#~ msgstr "Grian Ghorm"
+
+#~ msgctxt "Name"
+#~ msgid "Hail"
+#~ msgstr "Clocha Sneachta"
+
+#~ msgctxt "Name"
+#~ msgid "Icy Tree"
+#~ msgstr "Crann Oighreata"
+
+#~ msgctxt "Name"
+#~ msgid "JK Bridge at Night"
+#~ msgstr "Droichead JK san Oíche"
+
+#~ msgctxt "Name"
+#~ msgid "Lightning"
+#~ msgstr "Tintreach"
+
+#~ msgctxt "Name"
+#~ msgid "Winter Track"
+#~ msgstr "Rian Geimhridh"
+
+#~ msgctxt "Name"
+#~ msgid "UnitConverter"
+#~ msgstr "UnitConverter"
+
+#~ msgctxt "Comment"
+#~ msgid "Update your Twitter status and display your timeline."
+#~ msgstr "Nuashonrú do stádas Twitter agus taispeáin do líne ama."
+
+#~ msgctxt "Name"
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgctxt "Name"
+#~ msgid "Aya"
+#~ msgstr "Aya"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Theme that matches current system colors (Optimized with Oxygen style)"
+#~ msgstr ""
+#~ "Téama comhoiriúnaithe do dhathanna an chórais (Optamaithe le stíl Oxygen)"
+
+#~ msgctxt "Name"
+#~ msgid "Elegance"
+#~ msgstr "Elegance"
+
+#~ msgctxt "Name"
+#~ msgid "Silicon"
+#~ msgstr "Silicon"
+
+#~ msgctxt "Comment"
+#~ msgid "Transparent slim theme"
+#~ msgstr "Téama caol trédhearcach"
+
+#~ msgctxt "Name"
+#~ msgid "Heron"
+#~ msgstr "Heron"
+
+#~ msgctxt "Comment"
+#~ msgid "Simple, smooth theme"
+#~ msgstr "Téama simplí slíoctha"
+
+#~ msgctxt "Name"
+#~ msgid "Slim Glow"
+#~ msgstr "Slim Glow"
+
+#~ msgctxt "Comment"
+#~ msgid "Slick theme for dark wallpapers"
+#~ msgstr "Téama snasta do chúlbhrat dorcha"
+
+#~ msgctxt "Comment"
+#~ msgid "Look up the meaning of words"
+#~ msgstr "Aimsigh sainmhíniú ar fhocal"
+
+#~ msgctxt "Name"
+#~ msgid "Dilbert"
+#~ msgstr "Dilbert"
+
+#~ msgctxt "Comment"
+#~ msgid "Dilbert"
+#~ msgstr "Dilbert"
+
+#~ msgctxt "Name"
+#~ msgid "Garfield"
+#~ msgstr "Garfield"
+
+#~ msgctxt "Comment"
+#~ msgid "Garfield"
+#~ msgstr "Garfield"
+
+#~ msgctxt "Name"
+#~ msgid "OSNews"
+#~ msgstr "OSNews"
+
+#~ msgctxt "Comment"
+#~ msgid "OSNews"
+#~ msgstr "OSNews"
+
+#~ msgctxt "Name"
+#~ msgid "Snoopy"
+#~ msgstr "Snoopy"
+
+#~ msgctxt "Comment"
+#~ msgid "Snoopy"
+#~ msgstr "Snoopy"
+
+#~ msgctxt "Name"
+#~ msgid "UserFriendly"
+#~ msgstr "UserFriendly"
+
+#~ msgctxt "Comment"
+#~ msgid "UserFriendly"
+#~ msgstr "UserFriendly"
+
+#~ msgctxt "Name"
+#~ msgid "PhD Comics"
+#~ msgstr "PhD Comics"
+
+#~ msgctxt "Comment"
+#~ msgid "PhD Comics"
+#~ msgstr "PhD Comics"
+
+#~ msgctxt "Name"
+#~ msgid "XKCD"
+#~ msgstr "XKCD"
+
+#~ msgctxt "Comment"
+#~ msgid "XKCD"
+#~ msgstr "XKCD"
+
+#~ msgctxt "Comment"
+#~ msgid "View and pick dates from the calendar"
+#~ msgstr "Amharc ar agus roghnaigh dátaí ón fhéilire"
+
+#~ msgctxt "Name"
+#~ msgid "Twitter Data Engine"
+#~ msgstr "Inneall Sonraí Twitter"
+
+#~ msgctxt "Comment"
+#~ msgid "A binary clock"
+#~ msgstr "Clog dénártha"
+
+#~ msgctxt "Name"
+#~ msgid "3D Earth Model"
+#~ msgstr "Samhail 3T an Domhain"
+
+#~ msgctxt "Comment"
+#~ msgid "A simple calculator."
+#~ msgstr "Áireamhán simplí."
+
+#~ msgctxt "Comment"
+#~ msgid "A calendar"
+#~ msgstr "Féilire"
+
+#~ msgctxt "Comment"
+#~ msgid "Character selector applet"
+#~ msgstr "Feidhmchláirín roghnaithe carachtar"
+
+#~ msgctxt "Comment"
+#~ msgid "A simple fuzzy clock"
+#~ msgstr "Clog simplí doiléir"
+
+#~ msgctxt "Comment"
+#~ msgid "Konq Profiles Launcher"
+#~ msgstr "Tosaitheoir Próifílí Konq"
+
+#~ msgctxt "Comment"
+#~ msgid "Konsole Profiles Launcher"
+#~ msgstr "Tosaitheoir Próifílí Konsole"
+
+#~ msgctxt "Comment"
+#~ msgid "Moon phase applet"
+#~ msgstr "Feidhmchláirín chéim na gealaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Postit-like Notes"
+#~ msgstr "Nótaí Postit"
+
+#~ msgctxt "Comment"
+#~ msgid "Lets you show the desktop"
+#~ msgstr "Ligeann sé seo duit an Deasc a fheiceáil"
+
+#~ msgctxt "Comment"
+#~ msgid "A timer plasmoid."
+#~ msgstr "Plasmóid uaineadóra."
+
+#~ msgctxt "Comment"
+#~ msgid "Lets you show the dashboard"
+#~ msgstr "Ligeann sé seo duit an Painéal a thaispeáint"
+
+#~ msgctxt "Name"
+#~ msgid "English Breakfast Network"
+#~ msgstr "Líonra Bricfeasta Sasanaigh"
+
+#~ msgctxt "Comment"
+#~ msgid "Get information from the KDE automated quality checker"
+#~ msgstr "Faigh faisnéis ón seiceálaí uathoibrithe cáilíochta KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Minimize All"
+#~ msgstr "Íoslaghdaigh Uile"
+
+#~ msgctxt "Name"
+#~ msgid "Black night"
+#~ msgstr "Oíche dhubh"
+
+#~ msgctxt "Comment"
+#~ msgid "Dark theme for Lancelot"
+#~ msgstr "Téama dorcha le haghaidh Lancelot"
+
+#~ msgctxt "Comment"
+#~ msgid "Default theme for Lancelot"
+#~ msgstr "Téama réamhshocraithe le haghaidh Lancelot"
+
+#~ msgctxt "X-KDE-PluginInfo-Category"
+#~ msgid "Toy"
+#~ msgstr "Bréagán"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE automated quality testing data engine"
+#~ msgstr "Inneall sonraí do thástáil uathoibrithe cáilíochta KDE"
