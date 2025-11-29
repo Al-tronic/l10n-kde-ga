@@ -1,0 +1,452 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:12 index.docbook:83
+#, no-c-format
+msgid "CDDB Retrieval"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:16
+#, no-c-format
+msgid "<firstname>Mike</firstname> <surname>McBride</surname>"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:19
+#, no-c-format
+msgid "&Mike.McBride.mail;"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:22
+#, no-c-format
+msgid "<firstname>Jonathan</firstname> <surname>Singer</surname>"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:25
+#, no-c-format
+msgid "&Jonathan.Singer.mail;"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:28
+#, no-c-format
+msgid "<firstname>David</firstname> <surname>White</surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:31
+#, no-c-format
+msgid "a9403784@unet.univie.ac.at"
+msgstr ""
+
+#. Tag: othercredit
+#: index.docbook:35
+#, no-c-format
+msgid ""
+"<firstname>Bernd</firstname> <othername>Johannes</othername> "
+"<surname>Wuebben</surname>"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:39
+#, no-c-format
+msgid "&Bernd.Johannes.Wuebben.mail;"
+msgstr ""
+
+#. Tag: contrib
+#: index.docbook:40 index.docbook:47 index.docbook:54
+#, no-c-format
+msgid "Developer"
+msgstr ""
+
+#. Tag: othercredit
+#: index.docbook:43
+#, no-c-format
+msgid "<firstname>Dirk</firstname> <surname>Forsterling</surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:46 index.docbook:53
+#, no-c-format
+msgid "milliByte@gmx.net"
+msgstr ""
+
+#. Tag: othercredit
+#: index.docbook:50
+#, no-c-format
+msgid "<firstname>Dirk</firstname> <surname>Foersterling</surname>"
+msgstr ""
+
+#. Tag: othercredit
+#: index.docbook:57
+#, no-c-format
+msgid "<firstname>Lauri</firstname> <surname>Watts</surname>"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:60
+#, no-c-format
+msgid "&Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: contrib
+#: index.docbook:61
+#, no-c-format
+msgid "Reviewer"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:63
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:68
+#, no-c-format
+msgid "J Singer"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:74
+#, no-c-format
+msgid "&Mike.McBride;"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:77
+#, no-c-format
+msgid "2013-12-05"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:78
+#, no-c-format
+msgid "&kde; 4.12"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:84
+#, no-c-format
+msgid ""
+"The module <guilabel>CDDB Retrieval</guilabel> is divided in the "
+"<guilabel>Lookup</guilabel> tab and the <guilabel>Submit</guilabel> tab."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:88
+#, no-c-format
+msgid "The Lookup Tab"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:90
+#, no-c-format
+msgid "<screeninfo>The <guilabel>Lookup</guilabel> tab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:93
+#, no-c-format
+msgid "<phrase>The <guilabel>Lookup</guilabel> tab</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:97
+#, no-c-format
+msgid ""
+"The <guilabel>Lookup</guilabel> tab sets up the <acronym>CDDB</acronym> "
+"functions of &kde;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:100
+#, no-c-format
+msgid ""
+"You can select the options <guilabel>Enable MusicBrainz lookup</guilabel> or "
+"<guilabel>Enable freedb lookup</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:102
+#, no-c-format
+msgid ""
+"The <guilabel>Freedb server</guilabel> section determines which CDDB mirror "
+"site is used by &kde; to get album information. You can enter a server name, "
+"port number and protocol using the text boxes and drop down boxes or you can "
+"click the <guibutton>Show Mirror List</guibutton> button. Clicking this "
+"button will open a new window with a list of CDDB mirrors and their "
+"locations. Simply select the server you want from the list and click "
+"<guibutton>OK</guibutton>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:108
+#, no-c-format
+msgid ""
+"The section labeled <guilabel>Cache Locations</guilabel> lets you determine "
+"where the CDDB information is saved on your computer. To add a folder, enter "
+"the folder location in the text box at the top of the section and click "
+"<guibutton>Add</guibutton>. You can also select a folder by clicking on the "
+"blue file folder to the right of the text box. To delete a folder, click on "
+"the folder name once with the &LMB; and click <guibutton>Remove</guibutton>. "
+"You can change the order the folders are searched by clicking on the folder "
+"name and clicking on the <guibutton>Move Up</guibutton> and <guibutton>Move "
+"Down</guibutton> buttons."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:115
+#, no-c-format
+msgid ""
+"The <guibutton>Help</guibutton> button opens the this help contents page. "
+"The <guibutton>Defaults</guibutton> button restores the default values of "
+"all entries in this dialog; <guibutton>OK</guibutton> saves the current "
+"settings and exits; <guibutton>Apply</guibutton> saves the current settings "
+"without exiting."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:122
+#, no-c-format
+msgid "The Submit Tab"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:125
+#, no-c-format
+msgid "The Submit tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:131
+#, no-c-format
+msgid ""
+"The <guilabel>Submit</guilabel> tab sets up connection to a mail server or a "
+"web server to submit new <acronym>CDDB</acronym> entries. This is useful if "
+"you do not have your own system configured as a server."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:135
+#, no-c-format
+msgid ""
+"If you plan to submit a CDDB entry, enter your email address into the first "
+"textbox."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:136
+#, no-c-format
+msgid ""
+"You can enter a server name or port number in the text boxes provided. If "
+"you want to send this information to the international servers, you do not "
+"need to change anything."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:144
+#, no-c-format
+msgid "The CD Database Editor"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:147
+#, no-c-format
+msgid "<screeninfo>The &CD; Database Editor</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:150
+#, no-c-format
+msgid "<phrase>The &CD; Database Editor</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:154
+#, no-c-format
+msgid ""
+"The &CD; Database Editor allows you to modify, download, save, annotate, and "
+"upload <link linkend=\"cddb-support\"><acronym>CDDB</acronym> (Compact Disc "
+"Data Base)</link> entries."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:158
+#, no-c-format
+msgid ""
+"If there is an entry in your local <acronym>CDDB</acronym> tree (see the "
+"<link linkend=\"cddb-page\">CDDB subsection</link> in the Configuration "
+"chapter) for the &CD; in your &CD-ROM; drive, or if the disc could be found "
+"in the freedb, you will see the name of the artist and the title of the &CD; "
+"in the <guilabel>Artist:</guilabel> and <guilabel>Title</guilabel> fields "
+"and a list of tracks with song titles in the <interface>Tracks</interface> "
+"selection box. Otherwise, you will see a list of tracks and play times "
+"without titles."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:167
+#, no-c-format
+msgid ""
+"You can make an annotation for the entire disc with the <guilabel>Comment</"
+"guilabel> field under the <guilabel>Title</guilabel> field, or for a "
+"selected track in the <guilabel>Tracks</guilabel> selection box with the "
+"adjacent <guibutton>Comment</guibutton> button. If you select a track in the "
+"<guilabel>Tracks</guilabel> selection box, the title, if present, will "
+"appear in the <guilabel>Title</guilabel> field below. You can type a title "
+"for the track in the box, or edit the entry to suit your needs. Press the "
+"<keycap>Return</keycap> key on your keyboard, and the text will appear in "
+"the proper line in the selection box."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:178
+#, no-c-format
+msgid ""
+"Once all tracks have been given titles and the <guilabel>Artist:</guilabel> "
+"and <guilabel>Title</guilabel> fields have been filled out, you can press "
+"the <guibutton>Upload</guibutton> button to send your submission by email to "
+"freedb."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:183
+#, no-c-format
+msgid ""
+"You will be prompted to select a category for the submission. The "
+"<guilabel>Disc ID</guilabel> section displays the 32 bit <acronym>ID</"
+"acronym> code used by freedb to identify a compact disc. Above the "
+"<acronym>ID</acronym> code is the category of the <guilabel>freedb</"
+"guilabel> entry. These categories correspond to the subfolders tree of the "
+"folder chosen in the <guilabel>freedb Base Folder:</guilabel> in the <link "
+"linkend=\"cddb-page\"><guilabel>CDDB</guilabel> page</link> of the "
+"configuration window."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:193
+#, no-c-format
+msgid ""
+"The <guilabel>Length:</guilabel> display shows the total play time of the "
+"&CD;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:196
+#, no-c-format
+msgid ""
+"Press the <guibutton>Fetch Info</guibutton> button to download "
+"<acronym>CDDB</acronym> data. Press the <guibutton>OK</guibutton> button to "
+"save your changes locally. The <guibutton>Cancel</guibutton> button closes "
+"the &CD; Database Editor without saving."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:205
+#, no-c-format
+msgid "<acronym>CDDB</acronym> Support"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid ""
+"freedb is a distributed network database accessible over the Internet that "
+"contains information about most audio &CD;s in circulation. If you have "
+"Internet access, you will likely never have to manually enter track "
+"information for your &CD;s if you have this set up properly. See <link "
+"linkend=\"cddb-page\">The CDDB Page</link> section for detailed instructions "
+"on how to configure this service, and the <link linkend=\"cddb-editor\">&CD; "
+"Database Editor</link> section for instructions on how to edit "
+"<acronym>CDDB</acronym> entries."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:216
+#, no-c-format
+msgid ""
+"Use of the <acronym>CDDB</acronym> is free. Submissions from users are "
+"encouraged."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:219
+#, no-c-format
+msgid ""
+"When preparing entries for the <acronym>CDDB</acronym>, please keep the "
+"following points in mind:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:223
+#, no-c-format
+msgid ""
+"Use <quote>standard</quote> latin characters in the entries. Some special "
+"characters are supported, but Cyrillic or Greek alphabet submissions, for "
+"example, cannot be accepted."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:226
+#, no-c-format
+msgid ""
+"Use only one <keysym>/</keysym> character in the <guilabel>Disc Artist / "
+"Title</guilabel> field in the &CD; Database Editor."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:230
+#, no-c-format
+msgid ""
+"For classical &CD;s, it is standard practice to put the composer's name in "
+"the Artist section (before the slash) and the performer's name in the Title "
+"section (after the slash)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:233
+#, no-c-format
+msgid ""
+"If you send an entry that already exists in the database, any additional "
+"information you provide may be added to the existing entry."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:238
+#, no-c-format
+msgid ""
+"By default, the standard <acronym>CDDB</acronym> categories are installed in "
+"<filename class=\"directory\">$HOME/.cddb</filename>. You can create as many "
+"category subfolders as you like. However, when uploading, only the official "
+"<acronym>CDDB</acronym> categories are displayed. The default upload address "
+"is <email>gnudb-submit@gnudb.org</email>. For more information about "
+"<abbrev>gnudb</abbrev> visit the <abbrev>gnudb</abbrev> homepage."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:245
+#, no-c-format
+msgid ""
+"The local <acronym>CDDB</acronym> entry for a particular &CD; is stored in "
+"the file <filename><replaceable>category name</replaceable>/"
+"<replaceable>disc ID</replaceable></filename> under the <acronym>CDDB</"
+"acronym> Base Folder. These files can be edited with any text editor."
+msgstr ""

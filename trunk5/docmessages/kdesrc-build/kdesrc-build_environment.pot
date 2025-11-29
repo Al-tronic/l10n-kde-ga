@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: environment.docbook:9
+#, no-c-format
+msgid "Setting the Environment to Run Your &kde; &plasma; Desktop"
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:11
+#, no-c-format
+msgid ""
+"Assuming you are using a dedicated user to build &kde; &plasma;, and you "
+"already have an installed &plasma; version, running your new &plasma; may be "
+"a bit tricky, as the new &plasma; has to take precedence over the old. You "
+"must change the environment variables of your login scripts to make sure the "
+"newly-built desktop is used."
+msgstr ""
+
+#. Tag: title
+#: environment.docbook:19
+#, no-c-format
+msgid "Automatically installing a login driver"
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:21
+#, no-c-format
+msgid ""
+"Starting from version 1.16, &kdesrc-build; will try to install an "
+"appropriate login driver, that will allow you to login to your &kdesrc-"
+"build;-built &kde; desktop from your login manager. This can be disabled by "
+"using the <option><link linkend=\"conf-install-session-driver\">install-"
+"session-driver</link></option> configuration file option."
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:28
+#, no-c-format
+msgid ""
+"Session setup does not occur while &kdesrc-build; is running in pretend mode."
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:31
+#, no-c-format
+msgid ""
+"This driver works by setting up a custom <quote><literal>xsession</literal></"
+"quote> session type. This type of session should work by default with the "
+"sddm login manager (where it appears as a <quote>Custom</quote> session), "
+"but other login managers (such as <application>LightDM</application> and "
+"<application>gdm</application>) may require additional files installed to "
+"enable <literal>xsession</literal> support."
+msgstr ""
+
+#. Tag: title
+#: environment.docbook:39
+#, no-c-format
+msgid "Adding xsession support for distributions"
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:41
+#, no-c-format
+msgid ""
+"The default login managers for some distributions may require additional "
+"packages to be installed in order to support <literal>xsession</literal> "
+"logins."
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:45
+#, no-c-format
+msgid ""
+"The <ulink url=\"https://getfedora.org/\">Fedora</ulink> &Linux; "
+"distribution requires the <literal>xorg-x11-xinit-session</literal> package "
+"to be installed for custom <literal>xsession</literal> login support."
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:50
+#, no-c-format
+msgid ""
+"<ulink url=\"https://www.debian.org/\">Debian</ulink> and Debian-derived "
+"&Linux; distributions should support custom <literal>xsession</literal> "
+"logins, but require the <option><userinput>allow-user-xsession</userinput></"
+"option> option to be set in <filename>/etc/X11/Xsession.options</filename>. "
+"See also the Debian <ulink url=\"https://www.debian.org/doc/manuals/debian-"
+"reference/ch07.en.html#_customizing_the_x_session_classic_method"
+"\">documentation on customizing the X session.</ulink>"
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:58
+#, no-c-format
+msgid ""
+"For other distributions, go to <xref linkend=\"xsession-manual-setup\"/>."
+msgstr ""
+
+#. Tag: title
+#: environment.docbook:65
+#, no-c-format
+msgid "Manually adding support for xsession"
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:67
+#, no-c-format
+msgid ""
+"If there were no distribution-specific directions for your distribution in "
+"<xref linkend=\"xsession-distribution-setup\"/>, you can manually add a "
+"<quote>Custom xsession login</quote> entry to your distribution's list of "
+"session types as follows:"
+msgstr ""
+
+#. Tag: title
+#: environment.docbook:73
+#, no-c-format
+msgid "Adding an .xsession login session type."
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:75
+#, no-c-format
+msgid ""
+"This procedure will likely require administrative privileges to complete."
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:80
+#, no-c-format
+msgid ""
+"Create the file <filename>/usr/share/xsessions/kdesrc-build.desktop</"
+"filename>."
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:85
+#, no-c-format
+msgid "Ensure the file just created has the following text:"
+msgstr ""
+
+#. Tag: literallayout
+#: environment.docbook:86
+#, no-c-format
+msgid ""
+"<userinput>\n"
+"Type=XSession\n"
+"Exec=<co id=\"session-homedir\"/><replaceable>$HOME</replaceable>/.xsession\n"
+"Name=KDE Plasma Desktop (unstable; kdesrc-build)\n"
+"</userinput>"
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:89
+#, no-c-format
+msgid ""
+"The <replaceable>$HOME</replaceable> entry must be replaced by the full path "
+"to your home directory (example, <filename class=\"directory\">/home/"
+"<replaceable>user</replaceable></filename>). The desktop entry specification "
+"does not allow for user-generic files."
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:99
+#, no-c-format
+msgid ""
+"When the login manager is restarted, it should show a new session type, "
+"<quote>KDE Plasma Desktop (unstable; kdesrc-build)</quote> in its list of "
+"sessions, which should try to run the <filename>.xsession</filename> file "
+"installed by &kdesrc-build; if it is selected when you login."
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:105
+#, no-c-format
+msgid ""
+"It may be easiest to restart the computer to restart the login manager, if "
+"the login manager does not track updates to the <filename class=\"directory"
+"\">/usr/share/xsessions</filename> directory."
+msgstr ""
+
+#. Tag: title
+#: environment.docbook:118
+#, no-c-format
+msgid "Setting up the environment manually"
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:119
+#, no-c-format
+msgid ""
+"This documentation used to include instruction on which environment "
+"variables to set in order to load up the newly-built desktop. These "
+"instructions have been moved to an appendix (<xref linkend=\"old-profile-"
+"setup\"/>)."
+msgstr ""
+
+#. Tag: para
+#: environment.docbook:124
+#, no-c-format
+msgid ""
+"If you intend to setup your own login support you can consult that appendix "
+"or view the <filename>kde-env-master.sh.in</filename> file included with the "
+"&kdesrc-build; source."
+msgstr ""

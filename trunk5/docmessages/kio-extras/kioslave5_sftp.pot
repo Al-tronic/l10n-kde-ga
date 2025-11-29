@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:9
+#, no-c-format
+msgid "sftp"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Ferdinand.Gassauer; &Ferdinand.Gassauer.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:16
+#, no-c-format
+msgid ""
+"<acronym>SFTP</acronym> is a Secure file transfer protocol. <command>sftp</"
+"command> is an interactive file transfer program, similar to ftp, but it "
+"performs all operations over an encrypted <command>ssh</command> transport. "
+"It may use many of the features of <command>ssh</command>, including public "
+"key authentication and compression."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:23
+#, no-c-format
+msgid "See the manual: <ulink url=\"man:/sftp\">sftp</ulink>."
+msgstr ""

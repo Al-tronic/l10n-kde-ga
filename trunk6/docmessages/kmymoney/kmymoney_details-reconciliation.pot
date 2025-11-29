@@ -1,0 +1,434 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#: details-reconciliation.docbook:5
+#, no-c-format
+msgid "&Michael.T.Edwardes; &Michael.T.Edwardes.mail;"
+msgstr ""
+
+#. Tag: author
+#: details-reconciliation.docbook:6
+#, no-c-format
+msgid "&Jack.H.Ostroff; &Jack.H.Ostroff.mail;"
+msgstr ""
+
+#. Tag: date
+#: details-reconciliation.docbook:8
+#, no-c-format
+msgid "2024-12-01"
+msgstr ""
+
+#. Tag: releaseinfo
+#: details-reconciliation.docbook:9
+#, no-c-format
+msgid "5.2.0"
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:11
+#, no-c-format
+msgid "Reconciliation"
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:13
+#, no-c-format
+msgid "What is reconciliation?"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:14
+#, no-c-format
+msgid ""
+"Reconciliation is the process of assuring that your records for an account "
+"agree with the records of the institution for that account. This is done by "
+"matching the transactions you have entered into &kmymoney; with the "
+"transactions listed for that account by the institution. This is most "
+"commonly done with the list of transactions in a statement, be it a bank "
+"statement, credit card statement, loan statement, or any other statement. It "
+"can also be done against an on-line listing of the account, although this is "
+"less common. If any discrepancies are found, then either you or the person "
+"who created the statement have made a mistake."
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:25
+#, no-c-format
+msgid ""
+"Completing the reconciliation process for an account says that you are sure "
+"that the records for that account, up to the date of the reconciliation, are "
+"correct. This is most commonly done for accounts at institutions like banks "
+"or stores, but some users choose do to this for other accounts, such as "
+"cash. In that case, it means that you are sure of the records up to the "
+"reconciliation date, and are certain you will not find any further cash "
+"receipts, and that the balance of the account in &kmymoney; is the same as "
+"the actual amount of cash in your pocket."
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:35
+#, no-c-format
+msgid ""
+"Reconciliation is not required for any account, but by reconciling an "
+"account on a routine bases, such as monthly, you will have fewer records to "
+"examine if you do find a discrepancy."
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:42
+#, no-c-format
+msgid "The reconciliation wizard"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:43
+#, no-c-format
+msgid ""
+"Note that as you progress through the reconciliation process, there are "
+"multiple possible paths for entering all the necessary data, especially if "
+"you need to find and correct some discrepancy between &kmymoney; and the "
+"statement. All are valid, and one is not any better than another. Over time, "
+"as with many activities within &kmymoney; you will find the way that best "
+"meets your needs and approach to managing your finances."
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:52
+#, no-c-format
+msgid ""
+"To reconcile an account, select the account in the Accounts or Institutions "
+"View, or display it in the register, then click the "
+"<guiicon><inlinemediaobject><imageobject><imagedata fileref=\"reconcile.png"
+"\" format=\"PNG\"/></imageobject></inlinemediaobject></guiicon> reconcile "
+"icon, select the <menuchoice><guimenu>Account</guimenu> "
+"<guimenuitem>Reconcile...</guimenuitem> </menuchoice> menu item, or use the "
+"<keycombo>&Ctrl;&Shift;<keycap>R</keycap></keycombo> shortcut."
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:62
+#, no-c-format
+msgid ""
+"This will open the reconciliation wizard. The first page of the wizard "
+"briefly describes the process you will follow. Click <guibutton>Next</"
+"guibutton> to actually start the wizard."
+msgstr ""
+
+#. Tag: screeninfo
+#: details-reconciliation.docbook:69
+#, no-c-format
+msgid "<screeninfo>reconciliation wizard intro</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-reconciliation.docbook:75
+#, no-c-format
+msgid "<phrase>reconciliation wizard intro</phrase>"
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:80
+#, no-c-format
+msgid "Statement details"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:81
+#, no-c-format
+msgid ""
+"The initial statement date presented by &kmymoney; is typically 30 days "
+"after the more recent reconciliation for that account. The starting balance "
+"presented is the final balance as of the previous reconciliation. This is "
+"actually calculated as the sum of the amounts of all transactions in the "
+"account which are cleared or reconciled, up to the date of the previous "
+"reconciliation. The ending balance presented is the starting balance plus "
+"the amounts (added for deposits and subtracted for withdrawals) for all "
+"cleared transactions for the account since the previous reconciliation. "
+"(This also includes cleared transactions prior to the date of the previous "
+"reconciliation.) If the starting balance does not match the statement, then "
+"you need to confirm that the previous reconciliation was done correctly."
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:95
+#, no-c-format
+msgid ""
+"Theoretically, the ending balance at the time of the previous reconciliation "
+"should not be different from the starting balance at this time. However, "
+"&kmymoney; does not prevent you from making changes to transactions prior to "
+"the most recent reconciliation. Edits of this type are the usual cause of "
+"such discrepancies. At some point, &kmymoney; will probably be enhanced to "
+"make it much more obvious to the user if such an edit is made."
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:104
+#, no-c-format
+msgid ""
+"The statement date, starting balance, and ending balance can be found in "
+"your statement. Make sure that the figures match and click <guibutton>Next</"
+"guibutton>. If the starting balance does not match, see the previous "
+"paragraphs. If the statement date or ending balance does not match then "
+"enter the figures as listed on your statement and click <guibutton>Next</"
+"guibutton>."
+msgstr ""
+
+#. Tag: screeninfo
+#: details-reconciliation.docbook:113
+#, no-c-format
+msgid "<screeninfo>reconciliation wizard starting information</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-reconciliation.docbook:119
+#, no-c-format
+msgid "<phrase>reconciliation wizard starting information</phrase>"
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:125
+#, no-c-format
+msgid "Interest"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:126
+#, no-c-format
+msgid ""
+"If you are reconciling a bank account or any account with interest and/or "
+"charges or fees, then enter these values in the appropriate fields. Both "
+"fields are optional, but if they are used, then a category must be assigned "
+"for each amount entered. Note that these amounts may have already been "
+"entered if you import transactions either directly or via a downloaded file, "
+"in which case you should not enter them again here, or you will have "
+"duplicate transaction."
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:135
+#, no-c-format
+msgid "Interest or Charge"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:136
+#, no-c-format
+msgid ""
+"The interest field is for interest you gained. If you have to pay interest, "
+"&eg;, for a credit card account, this should be entered as a charge. In both "
+"cases, you get to choose the proper category for the amount."
+msgstr ""
+
+#. Tag: screeninfo
+#: details-reconciliation.docbook:144
+#, no-c-format
+msgid "<screeninfo>reconciliation wizard interest and charges</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-reconciliation.docbook:150
+#, no-c-format
+msgid "<phrase>reconciliation wizard interest and charges</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:155
+#, no-c-format
+msgid ""
+"Click <guibutton>Continue</guibutton> to start matching your statement to "
+"what you have entered. Note that this completes the Reconciliation Wizard, "
+"but not the process of reconciliation. At this point, &kmymoney; displays "
+"the Ledgers View for this account, but it changes the ledger display in two "
+"ways. First, it only shows transactions that have not already been marked as "
+"reconciled. Second, the line below the main ledger display shows the Ending "
+"Balance from the statement on the left, the cleared balance of the account "
+"in the center, and the difference between then on the right. As described "
+"below, you still need to clear transactions and then tell &kmymoney; that "
+"the account is reconciled."
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:168
+#, no-c-format
+msgid "Clearing transactions"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:169
+#, no-c-format
+msgid ""
+"During the reconciliation, any transaction can be edited to make it match "
+"the statement, and new transactions can be created as usual. To mark a "
+"transaction as cleared, click the <guilabel>C</guilabel> column of the "
+"transaction in the ledger. You can also select the "
+"<menuchoice><guimenu>Transactions</guimenu></menuchoice> menu or right-click "
+"the transaction to bring up the \"Transaction options\" context menu, and "
+"then select <menuchoice> <shortcut> <keycombo> <keysym>&Ctrl;</keysym> "
+"<keysym>&Alt;</keysym> <keysym>&Space;</keysym> </keycombo></shortcut> "
+"<guisubmenu>Mark transaction as...</guisubmenu> <guimenuitem>Cleared</"
+"guimenuitem> </menuchoice>; A transaction is considered cleared when it "
+"matches the transaction on your statement."
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:182
+#, no-c-format
+msgid ""
+"As you mark transactions as cleared, the Cleared and Difference amounts "
+"shown below the ledger will be updated."
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:187
+#, no-c-format
+msgid ""
+"Note, however, that as reconciliation is the process of matching the data in "
+"your account with that on a statement, the Cleared amount shown below the "
+"ledger is the cleared amount as of the date of the statement. Changes to any "
+"transaction with a date after the statement date you entered in the wizard "
+"will be saved, but will not have any effect on the cleared amount shown "
+"below the ledger display."
+msgstr ""
+
+#. Tag: screeninfo
+#: details-reconciliation.docbook:196
+#, no-c-format
+msgid "<screeninfo>ledger during reconciliation</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-reconciliation.docbook:202
+#, no-c-format
+msgid "<phrase>ledger during reconciliation</phrase>"
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:208
+#, no-c-format
+msgid "Completing Reconciliation"
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:210
+#, no-c-format
+msgid "Finishing Reconciliation"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:211
+#, no-c-format
+msgid ""
+"When the difference between the statement and the cleared balance is zero, "
+"then the account is reconciled and you can click <guibutton>Finish</"
+"guibutton>. When you do this, &kmymoney; takes all the transactions which "
+"have been marked as cleared (only those with a date before the statement "
+"date) and marks them as reconciled, and the value in the <guilabel>C</"
+"guilabel> column changes from <quote>C</quote> to <quote>R</quote>. In "
+"addition, it saves the changes and records that the account has been "
+"reconciled. (You still need to save the file to permanently save all the "
+"changes.)"
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:223
+#, no-c-format
+msgid "The Reconciliation Report"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:224
+#, no-c-format
+msgid ""
+"The last thing the reconciliation wizard does it to present a report, in the "
+"form of a pop-up with two tabs."
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:228
+#, no-c-format
+msgid "Summary Tab"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:229
+#, no-c-format
+msgid ""
+"This tab shows a summary of the reconciliation, including the starting and "
+"ending balances, and the number and amount of payments and deposits: "
+"cleared, outstanding, and those after the reconciliation date."
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:236
+#, no-c-format
+msgid "Details Tab"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:237
+#, no-c-format
+msgid ""
+"This tab shows a list of outstanding payments and charges. These are "
+"unmarked transactions prior to the statement date of the reconciliation."
+msgstr ""
+
+#. Tag: title
+#: details-reconciliation.docbook:244
+#, no-c-format
+msgid "Postponing Reconciliation"
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:245
+#, no-c-format
+msgid ""
+"If you're having trouble completing the reconciliation, or you need to "
+"gather additional information before you can complete the process, you can "
+"postpone the process to a later time by clicking <guibutton>Postpone</"
+"guibutton>. When you do this, &kmymoney; remembers the values you entered "
+"when you started the wizard, it does not mark cleared transactions as "
+"reconciled, and it returns the ledger to its normal view. If you exit "
+"&kmymoney; before clicking either <guibutton>Finish</guibutton> or "
+"<guibutton>Postpone</guibutton>, it has the same effect as clicking "
+"<guibutton>Postpone</guibutton>. Any edits you have made, such as marking "
+"transactions cleared or entering new transactions, are not touched, and you "
+"can still save them before you exit &kmymoney;. However, you will have to "
+"run the reconciliation wizard again in order to reconcile the account."
+msgstr ""
+
+#. Tag: para
+#: details-reconciliation.docbook:259
+#, no-c-format
+msgid ""
+"If you do click <guilabel>Postpone</guilabel>, the next time you run the "
+"reconciliation wizard on this account, &kmymoney; remembers the values you "
+"entered when you previously ran the wizard, and you will be able to change "
+"them, if necessary. In this case, the initial screen of the wizard is "
+"different, to remind you of this."
+msgstr ""
+
+#. Tag: screeninfo
+#: details-reconciliation.docbook:268
+#, no-c-format
+msgid "reconciliation wizard finish"
+msgstr ""
+
+#. Tag: phrase
+#: details-reconciliation.docbook:274
+#, no-c-format
+msgid "reconciliation; wizard finish"
+msgstr ""

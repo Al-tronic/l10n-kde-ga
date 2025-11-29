@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:9
+#, no-c-format
+msgid "webdav / webdavs"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Hamish.Rodda; &Hamish.Rodda.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:16
+#, no-c-format
+msgid "2002-01-21"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:18
+#, no-c-format
+msgid ""
+"<acronym>WebDAV</acronym> is a <emphasis>D</emphasis>istributed <emphasis>A</"
+"emphasis>uthoring and <emphasis>V</emphasis>ersioning protocol for the World "
+"Wide Web. It allows for easy management of documents and scripts on a &HTTP; "
+"server, and has additional features designed to simplify version management "
+"amongst multiple authors."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:25
+#, no-c-format
+msgid ""
+"Usage of this protocol is simple. Type the location you want to view, "
+"similar to a &HTTP; &URL; except for the webdav:// protocol name at the "
+"start. An example is <userinput>webdav://<replaceable>www.hostname.com/path/"
+"</replaceable></userinput>. If you specify a folder name, a list of files "
+"and folders will be displayed, and you can manipulate these folders and "
+"files just as you would with any other filesystem."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:34
+#, no-c-format
+msgid "WebDAV Features"
+msgstr ""
+
+#. Tag: term
+#: index.docbook:36
+#, no-c-format
+msgid "Locking"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:38
+#, no-c-format
+msgid ""
+"File locking allows users to lock a file, informing others that they are "
+"currently working on this file. This way, editing can be done without fear "
+"that the changes may be overwritten by another person who is also editing "
+"the same document."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:48
+#, no-c-format
+msgid "Source file access"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:50
+#, no-c-format
+msgid ""
+"<acronym>WebDAV</acronym> allows access to the script which is called to "
+"produce a specific page, so changes can be made to the script itself."
+msgstr ""
+
+#. Tag: term
+#: index.docbook:56
+#, no-c-format
+msgid "Per-document property support"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:58
+#, no-c-format
+msgid ""
+"Arbitrary properties may be set to assist identification of a document, such "
+"as the author."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:65
+#, no-c-format
+msgid ""
+"To take advantage of these additional capabilities, you will need an "
+"application which supports them. No application currently supports them "
+"through this KIO worker."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:70
+#, no-c-format
+msgid ""
+"<acronym>WebDAVS</acronym> is the <acronym>WebDAV</acronym> protocol "
+"encrypted via SSL."
+msgstr ""

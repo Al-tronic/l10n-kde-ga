@@ -1,0 +1,1960 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: creatingodtreporttemplates.docbook:2
+#, no-c-format
+msgid "<title>Description</title>"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:3
+#, no-c-format
+msgid ""
+"Open Document Text report templates are regular ODT files that can be "
+"designed using any ODT word processor like <emphasis>Calligra Words</"
+"emphasis> or <emphasis>LibreOffice Writer</emphasis>. The technique used is "
+"to use <emphasis>user field</emphasis> variables to hold references to the "
+"information that shall be fetched from the project. The variables are called "
+"<emphasis>User Fields</emphasis> in <emphasis>Writer</emphasis> and can be "
+"found under <menuchoice><guimenu>Insert</guimenu><guisubmenu>Field</"
+"guisubmenu><guimenuitem>More Fields</guimenuitem><guimenuitem>Variables</"
+"guimenuitem><guimenuitem>User Fields</guimenuitem></menuchoice>. In "
+"<emphasis>Words</emphasis> they are called <emphasis>Custom Variables</"
+"emphasis> and can be found under <menuchoice><guimenu>Text Editing docker</"
+"guimenu><guisubmenu>Variable</guisubmenu><guimenuitem>Custom</guimenuitem></"
+"menuchoice>."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:5
+#, no-c-format
+msgid ""
+"The easiest way to create a new report template is to modify an existing one "
+"as all user fields are defined."
+msgstr ""
+
+#. Tag: title
+#: creatingodtreporttemplates.docbook:8
+#, no-c-format
+msgid "User Field Variables"
+msgstr ""
+
+#. Tag: title
+#: creatingodtreporttemplates.docbook:9
+#, no-c-format
+msgid "Variables"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:10
+#, no-c-format
+msgid ""
+"The variables are used to enable the generator to extract data from the "
+"project."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:12
+#, no-c-format
+msgid ""
+"A variable can be a reference to a single data field, a reference to table "
+"data or a reference to chart data."
+msgstr ""
+
+#. Tag: sect4
+#: creatingodtreporttemplates.docbook:13
+#, no-c-format
+msgid ""
+"<sect5><title>Single Data Field</title> <para>A single data field variable "
+"has the following format: </para> <para><replaceable>data group name</"
+"replaceable>.<replaceable>property</replaceable> = <replaceable>property "
+"identifier</replaceable> </para> <para>where: </para> <itemizedlist> "
+"<listitem><para><replaceable>data group name</replaceable> can be tr, "
+"project or schedule (see below).</para></listitem> "
+"<listitem><para><replaceable>property</replaceable> makes the user field "
+"name unique.</para></listitem> <listitem><para><replaceable>property "
+"identity</replaceable> identifies the property in the data group.</para></"
+"listitem> </itemizedlist> </sect5> <sect5><title>Table Data</title> <para>A "
+"table in a report template consists of a variable to specify the data table "
+"to use. </para> <para>The variable name must start with <replaceable>table</"
+"replaceable> (&eg; tableTasks) and the variable value must be the name of "
+"the data table (&eg; tasks). </para> <para>Immediately after the variable, a "
+"table must be inserted and columns filled with user field variables that "
+"specify which properties to fetch from the table specified above. These "
+"variables must have names that start with the name of the table variable "
+"above. </para> <para>These variables have the following format: </para> "
+"<para>tableTasks.<replaceable>property</replaceable> = <replaceable>property "
+"identifier</replaceable> </para> <para>where: </para> <itemizedlist> "
+"<listitem><para><guilabel>property</guilabel> makes the user field name "
+"unique.</para></listitem> <listitem><para><guilabel>property identifier</"
+"guilabel> identifies the property in the data group.</para></listitem> </"
+"itemizedlist> </sect5> <sect5><title>Chart Data</title> <para>A chart in a "
+"report template consists of a variable to specify the data to use in the "
+"chart. </para> <para>The variable name must start with <replaceable>chart</"
+"replaceable> (&eg; chartBudgetCost) and the variable value specifies the "
+"data group and values to populate the chart. </para> <para>The variable has "
+"the following format (note the semicolons): </para> <para><replaceable>name</"
+"replaceable> = <replaceable>data group</replaceable>; "
+"values=<replaceable>comma separated list of data properties</replaceable>; </"
+"para> <para>where: </para> <itemizedlist> <listitem><para><replaceable>name</"
+"replaceable> must start with <guilabel>chart</guilabel> (&eg; "
+"chartBudgetCost)</para></listitem> <listitem><para><replaceable>data group</"
+"replaceable></para></listitem> <listitem><para><guilabel>comma separated "
+"list of data properties</guilabel> identifies the properties in the data "
+"group.</para></listitem> </itemizedlist> <para>E.g.: </para> "
+"<para>chartBudget = project; values=bcws cost, bcwp cost, acwp cost; </para> "
+"</sect5>"
+msgstr ""
+
+#. Tag: title
+#: creatingodtreporttemplates.docbook:67
+#, no-c-format
+msgid "Translated Labels"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:68
+#, no-c-format
+msgid ""
+"Translated labels enable us to produce general report templates that can be "
+"used in different languages."
+msgstr ""
+
+#. Tag: guilabel
+#: creatingodtreporttemplates.docbook:75 creatingodtreporttemplates.docbook:156
+#: creatingodtreporttemplates.docbook:306
+#: creatingodtreporttemplates.docbook:450
+#, no-c-format
+msgid "Variable Name"
+msgstr ""
+
+#. Tag: guilabel
+#: creatingodtreporttemplates.docbook:76 creatingodtreporttemplates.docbook:157
+#: creatingodtreporttemplates.docbook:307
+#: creatingodtreporttemplates.docbook:451
+#, no-c-format
+msgid "Variable Value"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:82
+#, no-c-format
+msgid "tr.project"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:85
+#, no-c-format
+msgid "Project"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:90
+#, no-c-format
+msgid "tr.manager"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:93 creatingodtreporttemplates.docbook:178
+#, no-c-format
+msgid "Manager"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:98
+#, no-c-format
+msgid "tr.schedule"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:101
+#, no-c-format
+msgid "Schedule"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:106
+#, no-c-format
+msgid "tr.bcws"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:109
+#: creatingodtreporttemplates.docbook:1033
+#, no-c-format
+msgid "BCWS"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:114
+#, no-c-format
+msgid "tr.bcwp"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:117
+#: creatingodtreporttemplates.docbook:1044
+#, no-c-format
+msgid "BCWP"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:122
+#, no-c-format
+msgid "tr.acwp"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:125
+#: creatingodtreporttemplates.docbook:1055
+#, no-c-format
+msgid "ACWP"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:130
+#, no-c-format
+msgid "tr.spi"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:133
+#: creatingodtreporttemplates.docbook:1066
+#, no-c-format
+msgid "<para>SPI</para>"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:138
+#, no-c-format
+msgid "tr.cpi"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:141
+#, no-c-format
+msgid "<para>CPI</para>"
+msgstr ""
+
+#. Tag: title
+#: creatingodtreporttemplates.docbook:148
+#, no-c-format
+msgid "Project Values"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:149
+#, no-c-format
+msgid "Shows values from the main project."
+msgstr ""
+
+#. Tag: guilabel
+#: creatingodtreporttemplates.docbook:158
+#: creatingodtreporttemplates.docbook:308
+#: creatingodtreporttemplates.docbook:452
+#, no-c-format
+msgid "<guilabel>Description</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:164
+#, no-c-format
+msgid "project.name"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:167
+#: creatingodtreporttemplates.docbook:317
+#: creatingodtreporttemplates.docbook:461
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:170
+#, no-c-format
+msgid "The name of the project"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:175
+#, no-c-format
+msgid "project.manager"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:181
+#, no-c-format
+msgid "The name of the project manager"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:186
+#, no-c-format
+msgid "project.bcwscost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:189
+#, no-c-format
+msgid "BCWS Cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:192
+#, no-c-format
+msgid "Cost based Budgeted Cost of Work Scheduled"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:197
+#, no-c-format
+msgid "project.bcwpcost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:200
+#, no-c-format
+msgid "BCWP Cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:203
+#, no-c-format
+msgid "Cost based Budgeted Cost of Work Performed"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:208
+#, no-c-format
+msgid "project.acwpcost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:211
+#, no-c-format
+msgid "ACWP Cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:214
+#, no-c-format
+msgid "Cost based Actual Cost of Work Performed"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:219
+#, no-c-format
+msgid "project.spicost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:222
+#, no-c-format
+msgid "SPI Cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:225
+#, no-c-format
+msgid "Cost based Schedule Performance Index"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:230
+#, no-c-format
+msgid "project.cpicost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:233
+#, no-c-format
+msgid "CPI Cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:236
+#, no-c-format
+msgid "Cost based Cost Performance Index"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:241
+#, no-c-format
+msgid "project.bcwseffort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:244
+#, no-c-format
+msgid "BCWS Effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:247
+#, no-c-format
+msgid "Effort based Budgeted Cost of Work Scheduled"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:252
+#, no-c-format
+msgid "project.bcwpeffort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:255
+#, no-c-format
+msgid "BCWP Effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:258
+#, no-c-format
+msgid "Effort based Budgeted Cost of Work Performed"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:263
+#, no-c-format
+msgid "project.acwpeffort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:266
+#, no-c-format
+msgid "ACWP Effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:269
+#, no-c-format
+msgid "Effort based Actual Cost of Work Performed"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:274
+#, no-c-format
+msgid "project.spieffort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:277
+#, no-c-format
+msgid "SPI Effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:280
+#, no-c-format
+msgid "Effort based Schedule Performance Index"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:285
+#, no-c-format
+msgid "project.cpieffort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:288
+#, no-c-format
+msgid "CPI Effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:291
+#, no-c-format
+msgid "Effort based Cost Performance Index"
+msgstr ""
+
+#. Tag: title
+#: creatingodtreporttemplates.docbook:298
+#, no-c-format
+msgid "Schedule Values"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:299
+#, no-c-format
+msgid "Shows values from the current schedule."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:314
+#, no-c-format
+msgid "schedule.name"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:320
+#, no-c-format
+msgid "The name of the schedule"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:325
+#, no-c-format
+msgid "schedule.state"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:328
+#, no-c-format
+msgid "State"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:331
+#, no-c-format
+msgid "Scheduling state"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:336
+#, no-c-format
+msgid "schedule.direction"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:339
+#, no-c-format
+msgid "Direction"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:342
+#, no-c-format
+msgid "Scheduling direction"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:347
+#, no-c-format
+msgid "schedule.overbooking"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:350
+#: creatingodtreporttemplates.docbook:353
+#, no-c-format
+msgid "Overbooking"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:358
+#, no-c-format
+msgid "schedule.distribution"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:361
+#: creatingodtreporttemplates.docbook:364
+#, no-c-format
+msgid "Distribution"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:369
+#, no-c-format
+msgid "schedule.plannedstart"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:372
+#: creatingodtreporttemplates.docbook:375
+#, no-c-format
+msgid "Planned Start"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:380
+#, no-c-format
+msgid "schedule.plannedfinish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:383
+#: creatingodtreporttemplates.docbook:386
+#, no-c-format
+msgid "Planned Finish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:391
+#, no-c-format
+msgid "schedule.scheduler"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:394
+#: creatingodtreporttemplates.docbook:397
+#, no-c-format
+msgid "Scheduler"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:402
+#, no-c-format
+msgid "schedule.granularity"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:405
+#: creatingodtreporttemplates.docbook:408
+#, no-c-format
+msgid "Granularity"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:413
+#, no-c-format
+msgid "schedule.mode"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:416
+#, no-c-format
+msgid "Mode"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:419
+#, no-c-format
+msgid "Scheduling mode (Auto or Manual)"
+msgstr ""
+
+#. Tag: title
+#: creatingodtreporttemplates.docbook:426
+#, no-c-format
+msgid "Tables"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:427
+#, no-c-format
+msgid "Supported table types:"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:430
+#, no-c-format
+msgid "tasks"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:431
+#, no-c-format
+msgid "taskstatus"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:432
+#, no-c-format
+msgid "schedules"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:433
+#, no-c-format
+msgid "projects"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:435
+#, no-c-format
+msgid ""
+"To create a table, place a variable just before a table in your template "
+"file. The variable name identifies the table and must start with "
+"<guilabel>table</guilabel>, &eg; <guilabel>tableTaskStatus</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:437
+#, no-c-format
+msgid ""
+"The value of the variable is used to point to the data to be fetched and "
+"must be one of the supported tables listed above, &eg; <guilabel>taskstatus</"
+"guilabel>."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:439
+#, no-c-format
+msgid ""
+"You then put variables inside the table cells with name and value from the "
+"table below."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:441
+#, no-c-format
+msgid ""
+"Note that the schedules table supports the values described in <link linkend="
+"\"schedule-values\">Schedule Values</link> above."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:443
+#, no-c-format
+msgid ""
+"The projects, tasks and taskstatus tables supports the following values:"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:458
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.name"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:464
+#, no-c-format
+msgid "The name of the task or project"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:469
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.wbscode"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:472
+#, no-c-format
+msgid "WBS Code"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:480
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.type"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:483
+#, no-c-format
+msgid "Type"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:486
+#, no-c-format
+msgid "Type of task"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:491
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.responsible"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:494
+#, no-c-format
+msgid "Responsible"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:502
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.allocation"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:505
+#, no-c-format
+msgid "Allocation"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:513
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.estimatetype"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:516
+#, no-c-format
+msgid "Estimate Type"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:524
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.calendar"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:527
+#, no-c-format
+msgid "Calendar"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:535
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.estimate"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:538
+#, no-c-format
+msgid "Estimate"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:541
+#, no-c-format
+msgid "Most likely estimate"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:546
+#: creatingodtreporttemplates.docbook:689
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.optimistic"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:549
+#: creatingodtreporttemplates.docbook:692
+#, no-c-format
+msgid "Optimistic"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:552
+#, no-c-format
+msgid "Optimistic ratio"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:557
+#: creatingodtreporttemplates.docbook:700
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.pessimistic"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:560
+#: creatingodtreporttemplates.docbook:703
+#, no-c-format
+msgid "Pessimistic"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:563
+#, no-c-format
+msgid "Pessimistic ratio"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:568
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.risk"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:571
+#, no-c-format
+msgid "Risk"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:574
+#, no-c-format
+msgid "Estimate uncertainty"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:579
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.constraint"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:582
+#, no-c-format
+msgid "Constraint"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:585
+#, no-c-format
+msgid "Type of time constraint"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:590
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.constraintstart"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:593
+#, no-c-format
+msgid "Constraint Start"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:596
+#, no-c-format
+msgid "Constraint start time"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:601
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.constraintend"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:604
+#, no-c-format
+msgid "Constraint End"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:607
+#, no-c-format
+msgid "Constraint finish time"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:612
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.runingaccount"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:615
+#, no-c-format
+msgid "Running Account"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:618
+#, no-c-format
+msgid "Account for running costs"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:623
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.startupaccount"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:626
+#, no-c-format
+msgid "Startup Account"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:629
+#, no-c-format
+msgid "Account for startup cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:634
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.startupcost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:637
+#, no-c-format
+msgid "Startup Cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:640
+#, no-c-format
+msgid "The cost incurred at startup of the task"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:645
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.shutdownaccount"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:648
+#, no-c-format
+msgid "Shutdown Account"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:651
+#, no-c-format
+msgid "Account for shutdown cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:656
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.shutdowncost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:659
+#, no-c-format
+msgid "Shutdown Cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:662
+#, no-c-format
+msgid "The cost incurred at shutdown of the task"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:667
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.description"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:670
+#, no-c-format
+msgid "<para>Description</para>"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:673
+#, no-c-format
+msgid "Task description"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:678
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.expected"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:681
+#, no-c-format
+msgid "Expected"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:684
+#, no-c-format
+msgid "Calculated most likely estimate"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:695
+#, no-c-format
+msgid "Calculated optimistic estimate"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:706
+#, no-c-format
+msgid "Calculated pessimistic estimate"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:711
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.starttime"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:714
+#, no-c-format
+msgid "Start Time"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:717
+#, no-c-format
+msgid "Scheduled start time"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:722
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.endtime"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:725
+#, no-c-format
+msgid "End Time"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:728
+#, no-c-format
+msgid "Scheduled finish time"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:733
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.duration"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:736
+#, no-c-format
+msgid "Duration"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:739
+#, no-c-format
+msgid "Scheduled duration"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:744
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.earlystart"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:747
+#, no-c-format
+msgid "Early Start"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:750
+#, no-c-format
+msgid "Earliest possible start"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:755
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.earlyfinish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:758
+#, no-c-format
+msgid "Early Finish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:761
+#, no-c-format
+msgid "Earliest possible finish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:766
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.latestart"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:769
+#, no-c-format
+msgid "Late Start"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:772
+#, no-c-format
+msgid "Latest possible start"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:777
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.latefinish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:780
+#, no-c-format
+msgid "Late Finish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:783
+#, no-c-format
+msgid "Latest possible finish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:788
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.positivefloat"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:791
+#, no-c-format
+msgid "Positive Float"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:799
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.freefloat"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:802
+#, no-c-format
+msgid "Free Float"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:810
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.negativefloat"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:813
+#, no-c-format
+msgid "Negative Float"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:821
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.startfloat"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:824
+#, no-c-format
+msgid "Start Float"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:832
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.finishfloat"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:835
+#, no-c-format
+msgid "Finish Float"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:843
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.assignaments"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:846
+#, no-c-format
+msgid "Assignments"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:849
+#, no-c-format
+msgid "Resource assignments"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:854
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.varianceest"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:857
+#, no-c-format
+msgid "Variance (Est)"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:860
+#, no-c-format
+msgid "Calculated estimate variance"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:865
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.variancedur"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:868
+#, no-c-format
+msgid "Variance (Dur)"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:871
+#, no-c-format
+msgid "Calculated duration variance"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:876
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.optimisticdur"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:879
+#, no-c-format
+msgid "Optimistic (Dur)"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:882
+#, no-c-format
+msgid "Calculated optimistic duration"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:887
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.pessimisticdur"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:890
+#, no-c-format
+msgid "Pessimistic (Dur)"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:893
+#, no-c-format
+msgid "Calculated pessimistic duration"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:898
+#: creatingodtreporttemplates.docbook:1206
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.status"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:901
+#: creatingodtreporttemplates.docbook:1209
+#, no-c-format
+msgid "Status"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:904
+#, no-c-format
+msgid "Task status as shown in Task Status View"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:909
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.completion"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:912
+#, no-c-format
+msgid "% Completed"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:915
+#, no-c-format
+msgid "Task completion"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:920
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.plannedeffort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:923
+#, no-c-format
+msgid "Planned Effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:926
+#, no-c-format
+msgid "Planned effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:931
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.actualeffort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:934
+#, no-c-format
+msgid "Actual Effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:937
+#, no-c-format
+msgid "Actual effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:942
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.remaningeffort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:945
+#, no-c-format
+msgid "Remaining Effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:948
+#, no-c-format
+msgid "Remaining effort"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:953
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.plannedcost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:956
+#, no-c-format
+msgid "Planned Cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:959
+#, no-c-format
+msgid "Planned cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:964
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.actualcost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:967
+#, no-c-format
+msgid "Actual Cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:970
+#, no-c-format
+msgid "Actual cost"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:975
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.actualstart"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:978
+#, no-c-format
+msgid "Actual Start"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:981
+#, no-c-format
+msgid "Actual start"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:986
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.started"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:989
+#, no-c-format
+msgid "Started"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:997
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.actualfinish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1000
+#, no-c-format
+msgid "Actual Finish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1003
+#, no-c-format
+msgid "Actual finish"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1008
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.finished"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1011
+#, no-c-format
+msgid "Finished"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1019
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.schedulingstatus"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1022
+#, no-c-format
+msgid "Scheduling Status"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1025
+#, no-c-format
+msgid "Scheduling status"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1030
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.bcws"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1036
+#, no-c-format
+msgid "Budgeted Cost of Work Scheduled (cost based)"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1041
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.bcwp"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1047
+#, no-c-format
+msgid "Budgeted Cost of Work Performed (cost based)"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1052
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.acwp"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1058
+#, no-c-format
+msgid "Actual Cost of Work Performed (cost based)"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1063
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.spi"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1069
+#, no-c-format
+msgid "Schedule Performance Index"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1074
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.critical"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1077
+#, no-c-format
+msgid "Critical"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1080
+#, no-c-format
+msgid "Task is critical"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1085
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.criticalpath"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1088
+#, no-c-format
+msgid "Critical Path"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1091
+#, no-c-format
+msgid "Task is in critical path"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1096
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.notscheduled"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1099
+#, no-c-format
+msgid "Not Scheduled"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1102
+#: creatingodtreporttemplates.docbook:1113
+#: creatingodtreporttemplates.docbook:1124
+#: creatingodtreporttemplates.docbook:1135
+#: creatingodtreporttemplates.docbook:1146
+#: creatingodtreporttemplates.docbook:1157
+#: creatingodtreporttemplates.docbook:1168
+#: creatingodtreporttemplates.docbook:1179
+#, no-c-format
+msgid "Not interesting"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1107
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.assignmentmissing"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1110
+#, no-c-format
+msgid "Assignment Missing"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1118
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.resourceoverbooked"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1121
+#, no-c-format
+msgid "Resource Overbooked"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1129
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.resourceunavailable"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1132
+#, no-c-format
+msgid "Resource Unavailable"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1140
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.constrainterror"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1143
+#, no-c-format
+msgid "Constraints Error"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1151
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.effortnotmet"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1154
+#, no-c-format
+msgid "Effort Not Met"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1162
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.schedulingerror"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1165
+#, no-c-format
+msgid "Scheduling Error"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1173
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.level"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1176
+#, no-c-format
+msgid "Node level, Level"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1184
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.statusnote"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1187
+#, no-c-format
+msgid "Status Note"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1190
+#, no-c-format
+msgid "Note: Not implemented"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1195
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.owner"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1198
+#, no-c-format
+msgid "Owner"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1201
+#: creatingodtreporttemplates.docbook:1212
+#: creatingodtreporttemplates.docbook:1223
+#, no-c-format
+msgid "Must not be used, and are not very interesting"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1217
+#, no-c-format
+msgid "<replaceable>table name</replaceable>.time"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1220
+#, no-c-format
+msgid "Time"
+msgstr ""
+
+#. Tag: title
+#: creatingodtreporttemplates.docbook:1231
+#, no-c-format
+msgid "Chart"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1232
+#, no-c-format
+msgid ""
+"Use by placing a variable with name chartX (X=some text to make the variable "
+"name unique) with a value project before the chart that shall be used."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1234
+#, no-c-format
+msgid ""
+"Note that the chart must be “anchored as character” or else the report "
+"generator cannot find it."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1236
+#, no-c-format
+msgid "The variable has this format:"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1238
+#, no-c-format
+msgid ""
+"Variable: <varname>Name: chartX (X=some text) Value: project; "
+"values=<replaceable>data</replaceable>;</varname>"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1240
+#, no-c-format
+msgid ""
+"where <replaceable>data</replaceable> is a comma separated list of values to "
+"be include in the chart."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1242
+#, no-c-format
+msgid "Possible <replaceable>data</replaceable> values are:"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1245
+#, no-c-format
+msgid ""
+"<guilabel>bcws effort</guilabel> Budgeted cost of work scheduled, effort "
+"based."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1246
+#, no-c-format
+msgid ""
+"<guilabel>bcwp effort</guilabel> Budgeted cost of work performed, effort "
+"based."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1247
+#, no-c-format
+msgid ""
+"<guilabel>acwp effort</guilabel> Actual cost of work performed, effort based."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1248
+#, no-c-format
+msgid ""
+"<guilabel>spi effort</guilabel> Schedule performance index, effort based."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1249
+#, no-c-format
+msgid "<guilabel>cpi effort</guilabel> Cost performance index, effort based."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1250
+#, no-c-format
+msgid ""
+"<guilabel>bcws cost</guilabel> Budgeted cost of work scheduled, cost based."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1251
+#, no-c-format
+msgid ""
+"<guilabel>bcwp cost</guilabel> Budgeted cost of work performed, cost based."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1252
+#, no-c-format
+msgid ""
+"<guilabel>acwp cost</guilabel> Actual cost of work performed, cost based."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1253
+#, no-c-format
+msgid "<guilabel>spi cost</guilabel> Schedule performance index, cost based."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1254
+#, no-c-format
+msgid "<guilabel>cpi cost</guilabel> Cost performance index, cost based."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1256
+#, no-c-format
+msgid ""
+"The charts you create in your template must have the same (or more) number "
+"of columns as the number of values you specify in your variable."
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1258
+#, no-c-format
+msgid "Example:"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1260
+#, no-c-format
+msgid ""
+"Variable name: <varname>chart1</varname> Value: <varname>project; "
+"values=bcws cost,bcwp cost, acwp cost;</varname>"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1262
+#, no-c-format
+msgid ""
+"Note that you cannot mix effort- and cost-based values. If you want to show "
+"both, create two charts."
+msgstr ""
+
+#. Tag: title
+#: creatingodtreporttemplates.docbook:1264
+#, no-c-format
+msgid "Gantt"
+msgstr ""
+
+#. Tag: para
+#: creatingodtreporttemplates.docbook:1265
+#, no-c-format
+msgid "Not supported."
+msgstr ""

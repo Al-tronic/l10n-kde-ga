@@ -1,0 +1,348 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: other-features.docbook:9
+#, no-c-format
+msgid "Other &kdesrc-build; features"
+msgstr ""
+
+#. Tag: title
+#: other-features.docbook:12
+#, no-c-format
+msgid "Changing the amount of output from &kdesrc-build;"
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:13
+#, no-c-format
+msgid ""
+"&kdesrc-build; has several options to control the amount of output the "
+"script generates. In any case, errors will always be output."
+msgstr ""
+
+#. Tag: title
+#: other-features.docbook:17
+#, no-c-format
+msgid "Table of debug levels"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:22
+#, no-c-format
+msgid "Debug level"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:23
+#, no-c-format
+msgid "Level name"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:24
+#, no-c-format
+msgid "Command line option"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:30
+#, no-c-format
+msgid "<entry>0</entry>"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:31
+#, no-c-format
+msgid "DEBUG"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:32
+#, no-c-format
+msgid "--debug"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:36
+#, no-c-format
+msgid "<entry>1</entry>"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:37
+#, no-c-format
+msgid "WHISPER"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:38
+#, no-c-format
+msgid "--verbose"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:42
+#, no-c-format
+msgid "<entry>2</entry>"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:43
+#, no-c-format
+msgid "INFO"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:44
+#, no-c-format
+msgid "Selected by default"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:48
+#, no-c-format
+msgid "<entry>3</entry>"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:49
+#, no-c-format
+msgid "NOTE"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:50
+#, no-c-format
+msgid "--quiet"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:54
+#, no-c-format
+msgid "<entry>4</entry>"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:55
+#, no-c-format
+msgid "WARNING"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:56
+#, no-c-format
+msgid "--really-quiet"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:60
+#, no-c-format
+msgid "<entry>5</entry>"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:61
+#, no-c-format
+msgid "ERROR"
+msgstr ""
+
+#. Tag: entry
+#: other-features.docbook:62
+#, no-c-format
+msgid "No way to select"
+msgstr ""
+
+#. Tag: title
+#: other-features.docbook:72
+#, no-c-format
+msgid "Color output"
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:73
+#, no-c-format
+msgid ""
+"When being run from &konsole; or a different terminal, &kdesrc-build; will "
+"normally display with colorized text."
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:76
+#, no-c-format
+msgid ""
+"You can disable this by using the <option>--no-color</option> on the command "
+"line, or by setting the &colorful-output; option in the <link linkend="
+"\"configure-data\">configuration file</link> to <userinput>false</userinput>."
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:82
+#, no-c-format
+msgid "Disabling color output in the configuration file:"
+msgstr ""
+
+#. Tag: screen
+#: other-features.docbook:83
+#, no-c-format
+msgid ""
+"global\n"
+"  colorful-output false\n"
+"end global"
+msgstr ""
+
+#. Tag: title
+#: other-features.docbook:89
+#, no-c-format
+msgid "Removing unneeded directories after a build"
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:90
+#, no-c-format
+msgid ""
+"Are you short on disk space but still want to run a bleeding-edge &kde; "
+"checkout? &kdesrc-build; can help reduce your disk usage when building &kde; "
+"from &git;."
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:94
+#, no-c-format
+msgid ""
+"Be aware that building &kde; does take a lot of space. There are several "
+"major space-using pieces when using &kdesrc-build;:"
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:98
+#, no-c-format
+msgid ""
+"The actual source checkout can take up a fair amount of space. The default "
+"modules take up about 1.6 gigabytes of on-disk space. You can reduce this "
+"amount by making sure that you are only building as many modules as you "
+"actually want. &kdesrc-build; will not delete source code from disk even if "
+"you delete the entry from the <link linkend=\"configure-data\">configuration "
+"file</link>, so make sure that you go and delete unused source checkouts "
+"from the source directory. Note that the source files are downloaded from "
+"the Internet, you <emphasis>should not</emphasis> delete them if you are "
+"actually using them, at least until you are done using &kdesrc-build;."
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:108
+#, no-c-format
+msgid ""
+"Also, if you already have a &Qt; installed by your distribution (and the "
+"odds are good that you do), you probably do not need to install the qt "
+"module. That will shave about 200 megabytes off of the on-disk source size."
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:115
+#, no-c-format
+msgid ""
+"&kdesrc-build; will create a separate build directory to build the source "
+"code in. Sometimes &kdesrc-build; will have to copy a source directory to "
+"create a fake build directory. When this happens, space-saving symlinks are "
+"used, so this should not be a hassle on disk space. The build directory will "
+"typically be much larger than the source directory for a module. For "
+"example, the build directory for kdebase is about 1050 megabytes, whereas "
+"kdebase's source is only around 550 megabytes."
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:123
+#, no-c-format
+msgid ""
+"Luckily, the build directory is not required after a module has successfully "
+"been built and installed. &kdesrc-build; can automatically remove the build "
+"directory after installing a module, see the examples below for more "
+"information. Note that taking this step will make it impossible for &kdesrc-"
+"build; to perform the time-saving incremental builds."
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:130
+#, no-c-format
+msgid ""
+"Finally, there is disk space required for the actual installation of &kde;, "
+"which does not run from the build directory. This typically takes less space "
+"than the build directory. It is harder to get exact figures however."
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:137
+#, no-c-format
+msgid ""
+"How do you reduce the space requirements of &kde;? One way is to use the "
+"proper compiler flags, to optimize for space reduction instead of for speed. "
+"Another way, which can have a large effect, is to remove debugging "
+"information from your &kde; build."
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:143
+#, no-c-format
+msgid ""
+"You should be very sure you know what you are doing before deciding to "
+"remove debugging information. Running bleeding-edge software means you are "
+"running software which is potentially much more likely to crash than a "
+"stable release. If you are running software without debugging information, "
+"it can be very hard to create a good bug report to get your bug resolved, "
+"and you will likely have to re-enable debugging information for the affected "
+"application and rebuild to help a developer fix the crash. So, remove "
+"debugging information at your own risk!"
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:155
+#, no-c-format
+msgid ""
+"Removing the build directory after installation of a module. The source "
+"directory is still kept, and debugging is enabled:"
+msgstr ""
+
+#. Tag: screen
+#: other-features.docbook:158
+#, no-c-format
+msgid ""
+"global\n"
+"  configure-flags      --enable-debug\n"
+"  remove-after-install builddir        # Remove build directory after "
+"install\n"
+"end global"
+msgstr ""
+
+#. Tag: para
+#: other-features.docbook:160
+#, no-c-format
+msgid ""
+"Removing the build directory after installation, without debugging "
+"information, with size optimization."
+msgstr ""
+
+#. Tag: screen
+#: other-features.docbook:163
+#, no-c-format
+msgid ""
+"global\n"
+"  cxxflags             -Os             # Optimize for size\n"
+"  configure-flags      --disable-debug\n"
+"  remove-after-install builddir        # Remove build directory after "
+"install\n"
+"end global"
+msgstr ""

@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:11
+#, no-c-format
+msgid "The &kimagemapeditor; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:14
+#, no-c-format
+msgid ""
+"<firstname>Jan</firstname> <othername></othername> <surname>Sch&auml;fer</"
+"surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:19
+#, no-c-format
+msgid "j_schaef&#64;informatik&#46;uni-kl&#46;de"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:23
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:28
+#, no-c-format
+msgid "Jan Sch&auml;fer"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:33
+#, no-c-format
+msgid "2011-08-22"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:34
+#, no-c-format
+msgid "3.9.0 (&kde; 4.7)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:37
+#, no-c-format
+msgid "&kimagemapeditor; is an &HTML; imagemap editor by &kde;."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:43
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:44
+#, no-c-format
+msgid "KImageMapEditor"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:45
+#, no-c-format
+msgid "imagemap"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:46
+#, no-c-format
+msgid "usemap"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:47
+#, no-c-format
+msgid "html"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:53
+#, no-c-format
+msgid "Using &kimagemapeditor;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:55
+#, no-c-format
+msgid ""
+"&kimagemapeditor; is a &HTML; imagemap editor developed by the &kde; "
+"community. It allows you to create and modify &HTML; <ulink url=\"http://en."
+"wikipedia.org/wiki/Imagemap\">Imagemaps.</ulink>"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:61
+#, no-c-format
+msgid "Here's a screenshot of &kimagemapeditor;"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:67
+#, no-c-format
+msgid "Screenshot"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:70
+#, no-c-format
+msgid "&kimagemapeditor; main window."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:77
+#, no-c-format
+msgid ""
+"A common use case is a world map where each country is an imagemap. By "
+"clicking on a country in the map you can open a link to the selected country."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:81
+#, no-c-format
+msgid "Creating an imagemap requires the following steps:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:83
+#, no-c-format
+msgid ""
+"Load an image file (<filename class=\"extension\">png</filename>, <filename "
+"class=\"extension\">jpg</filename>, <filename class=\"extension\">gif</"
+"filename>) or a &HTML; file from your disk or drag it into the image area. "
+"Select an image in the <guilabel>Images</guilabel> docker."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:88
+#, no-c-format
+msgid ""
+"Add a imagemap using <menuchoice><guimenu>Map</guimenu><guimenuitem>New Map</"
+"guimenuitem></menuchoice> from the menu and enter a map name."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:91
+#, no-c-format
+msgid ""
+"Now the <guimenu>Tools</guimenu> menu is enabled and you can select the "
+"appropriate geometric shape like <guimenuitem>Circle</guimenuitem>, "
+"<guimenuitem>Rectangle</guimenuitem>, <guimenuitem>Polygon</guimenuitem> or "
+"<guimenuitem>Freehand Polygon</guimenuitem> and define a clickable area in "
+"the image."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:97
+#, no-c-format
+msgid ""
+"The <guilabel>Area Tag Editor</guilabel> dialog is displayed. On the "
+"<guilabel>General</guilabel> tab enter the attributes <guilabel>HREF</"
+"guilabel> (a link's target &URL;), <guilabel>Alt.Text</guilabel>, "
+"<guilabel>Target</guilabel> and <guilabel>Title</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:101
+#, no-c-format
+msgid ""
+"The <guilabel>Coordinates</guilabel> tab shows the geometric data of the "
+"shape. Editing the value allows you to adjust size and position on the image "
+"as your changes are immediately visible in the image. Size and position can "
+"be altered using the mouse as well."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:108
+#, no-c-format
+msgid ""
+"To open the <guilabel>Area Tag Editor</guilabel> dialog for an already "
+"defined imagemap use <guimenuitem>Properties</guimenuitem> from the "
+"<guimenu>Edit</guimenu> menu or the context menu of the region."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:112
+#, no-c-format
+msgid ""
+"Use <menuchoice><guimenu>Map</guimenu><guimenuitem>Show HTML</guimenuitem></"
+"menuchoice> to view the generated &HTML; code of the map."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:115
+#, no-c-format
+msgid ""
+"Next open <menuchoice><guimenu>Image</guimenu><guimenuitem>Edit Usemap...</"
+"guimenuitem></menuchoice> and enter the map name as usemap value. Save your "
+"work with <menuchoice><guimenu>File</guimenu> <guimenuitem>Save</"
+"guimenuitem></menuchoice>. Open the &HTML; file in &konqueror; to verify "
+"that the imagemap is working as expected."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:129
+#, no-c-format
+msgid ""
+"Configuration options of &kimagemapeditor; can be accessed by opening the "
+"configuration dialog with selecting <menuchoice> <guimenu>Settings</guimenu> "
+"<guimenuitem>Configure &kimagemapeditor;...</guimenuitem> </menuchoice> from "
+"the menu."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:133
+#, no-c-format
+msgid "<screeninfo>Configuration dialog of &kimagemapeditor;</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:139
+#, no-c-format
+msgid "<phrase>Configuration dialog of &kimagemapeditor;</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:142
+#, no-c-format
+msgid "Configuration dialog of &kimagemapeditor;."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:151
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:153
+#, no-c-format
+msgid "&kimagemapeditor;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:156
+#, no-c-format
+msgid ""
+"Program copyright 2003-2007 Jan Sch&auml;fer <email>j_schaef&#64;"
+"informatik&#46;uni-kl&#46;de</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:160
+#, no-c-format
+msgid ""
+"Documentation copyright 2007 Jan Sch&auml;fer <email>j_schaef&#64;"
+"informatik&#46;uni-kl&#46;de</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:164
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:164
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

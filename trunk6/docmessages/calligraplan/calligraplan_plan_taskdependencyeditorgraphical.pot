@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: taskdependencyeditorgraphical.docbook:2
+#, no-c-format
+msgid "<title>Description</title>"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:3
+#, no-c-format
+msgid ""
+"The Task Dependency Editor is used to create, edit, and delete task "
+"dependencies. For convenience, tasks can also be inserted, deleted or edited."
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:4
+#, no-c-format
+msgid ""
+"The tasks are ordered in accordance with the Work Breakdown Structure (WBS)."
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:19
+#, no-c-format
+msgid "The symbols for summary tasks, tasks and milestones are shown below:"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:21
+#, no-c-format
+msgid ""
+"As the <emphasis>Task</emphasis> and <emphasis>Milestone</emphasis> are sub-"
+"items to the <emphasis>Summary task</emphasis>, they are indented. Also, "
+"note that the WBS code is displayed along with the name."
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:23
+#, no-c-format
+msgid ""
+"In the following figure, a <emphasis>Finish-Start</emphasis> dependency has "
+"been inserted to make <emphasis>Milestone</emphasis> depend on "
+"<emphasis>Task</emphasis>."
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:25
+#, no-c-format
+msgid "As shown below, an item consists of three different selection areas:"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:33
+#, no-c-format
+msgid "Item area"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:36
+#, no-c-format
+msgid "Select the item for editing"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:41
+#, no-c-format
+msgid "Start area"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:44
+#, no-c-format
+msgid ""
+"Used for creating <emphasis>Finish-Start</emphasis> and <emphasis>Start-"
+"Start</emphasis> dependencies"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:49
+#, no-c-format
+msgid "Finish area"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:52
+#, no-c-format
+msgid ""
+"Used for creating <emphasis>Finish-Start</emphasis> and <emphasis>Finish-"
+"Finish</emphasis> dependencies"
+msgstr ""
+
+#. Tag: title
+#: taskdependencyeditorgraphical.docbook:59
+#, no-c-format
+msgid "Editing dependencies"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:60
+#, no-c-format
+msgid ""
+"Dependencies are created by first selecting a start- or finish area of the "
+"predecessor task, then selecting the start- or finish area of the successor "
+"task."
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:62
+#, no-c-format
+msgid "This can be done using the mouse or the keyboard."
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:64
+#, no-c-format
+msgid ""
+"Alternatively, you can drop the predecessor's connection area on the "
+"successor's connection area."
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:66
+#, no-c-format
+msgid ""
+"To edit or delete an existing dependency, you can open a dependency by "
+"selecting it, or open its context menu."
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:68
+#, no-c-format
+msgid ""
+"You can also open the context menu on a connection area which will enable "
+"you to edit all dependencies connected to that area."
+msgstr ""
+
+#. Tag: title
+#: taskdependencyeditorgraphical.docbook:71
+#, no-c-format
+msgid "Toolbar"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:72
+#, no-c-format
+msgid "The toolbar provides the means to create and delete tasks:"
+msgstr ""
+
+#. Tag: guilabel
+#: taskdependencyeditorgraphical.docbook:79
+#, no-c-format
+msgid "Button"
+msgstr ""
+
+#. Tag: guilabel
+#: taskdependencyeditorgraphical.docbook:80
+#, no-c-format
+msgid "Shortcut"
+msgstr ""
+
+#. Tag: guilabel
+#: taskdependencyeditorgraphical.docbook:81
+#, no-c-format
+msgid "<guilabel>Description</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:87
+#, no-c-format
+msgid "Add Task"
+msgstr ""
+
+#. Tag: keycombo
+#: taskdependencyeditorgraphical.docbook:90
+#, no-c-format
+msgid "&Ctrl;<keycap>I</keycap>"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:93
+#, no-c-format
+msgid ""
+"Dropdown box to create a task or milestone. The new item is positioned after "
+"the currently selected item on the same level as the selected item. If no "
+"item is selected, the new item is appended at the top level."
+msgstr ""
+
+#. Tag: keycombo
+#: taskdependencyeditorgraphical.docbook:98
+#, no-c-format
+msgid "&Ctrl;&Alt;<keycap>I</keycap>"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:103
+#, no-c-format
+msgid "Add Sub-task"
+msgstr ""
+
+#. Tag: keycombo
+#: taskdependencyeditorgraphical.docbook:106
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>I</keycap>"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:109
+#, no-c-format
+msgid ""
+"Dropdown box to create a sub-task or -milestone. The new item is appended as "
+"a child to the currently selected item."
+msgstr ""
+
+#. Tag: keycombo
+#: taskdependencyeditorgraphical.docbook:114
+#, no-c-format
+msgid "&Ctrl;&Shift;&Alt;<keycap>I</keycap>"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:119
+#, no-c-format
+msgid "Delete Task"
+msgstr ""
+
+#. Tag: keycap
+#: taskdependencyeditorgraphical.docbook:122
+#, no-c-format
+msgid "Delete"
+msgstr ""
+
+#. Tag: para
+#: taskdependencyeditorgraphical.docbook:125
+#, no-c-format
+msgid "Deletes the selected tasks."
+msgstr ""

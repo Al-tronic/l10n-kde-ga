@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: costbreakdownstructureeditor.docbook:2
+#, no-c-format
+msgid "<title>Description</title>"
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:3
+#, no-c-format
+msgid ""
+"The Cost Breakdown Structure Editor is used to create, edit, and delete "
+"accounts."
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:19
+#, no-c-format
+msgid ""
+"Accounts can be connected to by tasks and resources to accumulate costs from "
+"those tasks and resources."
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:21
+#, no-c-format
+msgid ""
+"The default account accumulates costs incurred from tasks that are not "
+"connected to an account."
+msgstr ""
+
+#. Tag: title
+#: costbreakdownstructureeditor.docbook:24
+#, no-c-format
+msgid "Toolbar"
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:25
+#, no-c-format
+msgid "The toolbar provides the means to create and delete accounts:"
+msgstr ""
+
+#. Tag: guilabel
+#: costbreakdownstructureeditor.docbook:32
+#, no-c-format
+msgid "Button"
+msgstr ""
+
+#. Tag: guilabel
+#: costbreakdownstructureeditor.docbook:33
+#, no-c-format
+msgid "Shortcut"
+msgstr ""
+
+#. Tag: guilabel
+#: costbreakdownstructureeditor.docbook:34
+#: costbreakdownstructureeditor.docbook:86
+#, no-c-format
+msgid "<guilabel>Description</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:40
+#, no-c-format
+msgid "Add Account"
+msgstr ""
+
+#. Tag: keycombo
+#: costbreakdownstructureeditor.docbook:43
+#, no-c-format
+msgid "&Ctrl;<keycap>I</keycap>"
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:46
+#, no-c-format
+msgid ""
+"Button to create an account. The new account is inserted after the selected "
+"account. If no account is selected, the new account is appended at the top "
+"level."
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:51
+#, no-c-format
+msgid "Add Subaccount"
+msgstr ""
+
+#. Tag: keycombo
+#: costbreakdownstructureeditor.docbook:54
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>I</keycap>"
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:57
+#, no-c-format
+msgid ""
+"Button to create a sub-account. The new account is appended as a child to "
+"selected account."
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:62
+#, no-c-format
+msgid "<para>Delete</para>"
+msgstr ""
+
+#. Tag: keycap
+#: costbreakdownstructureeditor.docbook:65
+#, no-c-format
+msgid "<keycap>Delete</keycap>"
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:68
+#, no-c-format
+msgid "Deletes the selected account."
+msgstr ""
+
+#. Tag: title
+#: costbreakdownstructureeditor.docbook:75
+#, no-c-format
+msgid "Editing data"
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:76
+#, no-c-format
+msgid ""
+"Data can be edited inline as described <link linkend=\"using-the-views"
+"\">here</link>."
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:78
+#, no-c-format
+msgid "The following columns are available:"
+msgstr ""
+
+#. Tag: guilabel
+#: costbreakdownstructureeditor.docbook:85
+#, no-c-format
+msgid "Column"
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:92
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:95
+#, no-c-format
+msgid "The name of the account."
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:100
+#, no-c-format
+msgid "<para>Description</para>"
+msgstr ""
+
+#. Tag: para
+#: costbreakdownstructureeditor.docbook:103
+#, no-c-format
+msgid "The description of the account."
+msgstr ""

@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: !ENTITY
+#: index.docbook:6
+#, no-c-format
+msgid ""
+"<!ENTITY i18n-pimdataexporter \"<application>PIM Data Exporter</application>"
+"\">"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:15
+#, no-c-format
+msgid "The &i18n-pimdataexporter; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:18
+#, no-c-format
+msgid ""
+"<personname> <firstname>Laurent</firstname> <surname>Montel</surname> </"
+"personname> &Laurent.Montel.mail;"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:25
+#, no-c-format
+msgid "<firstname>Scarlett</firstname> <surname>Clark</surname>"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:28
+#, no-c-format
+msgid "&Scarlett.Clark.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:32
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:37
+#, no-c-format
+msgid "&Laurent.Montel;"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:42
+#, no-c-format
+msgid "2016-07-27"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:43
+#, no-c-format
+msgid "5.3.40 (applications 16.08)"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:49
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:51
+#, no-c-format
+msgid ""
+"&i18n-pimdataexporter; allows to export and import PIM settings and local "
+"mail. You can backup and restore settings from the following programs:"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:53
+#, no-c-format
+msgid "&kmail;"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:54
+#, no-c-format
+msgid "&knotes;"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:55
+#, no-c-format
+msgid "&akregator;"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:56
+#, no-c-format
+msgid "&kaddressbook;"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:57
+#, no-c-format
+msgid "&kalarm;"
+msgstr ""
+
+#. Tag: member
+#: index.docbook:58
+#, no-c-format
+msgid "&korganizer;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:63
+#, no-c-format
+msgid "Using &i18n-pimdataexporter;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:64
+#, no-c-format
+msgid ""
+"Backing up is an essential practice for all users. &i18n-pimdataexporter; is "
+"a great tool for backing up or moving all of your settings and email to a "
+"new installation. You also use &i18n-pimdataexporter; to import previous "
+"backups."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:67
+#, no-c-format
+msgid ""
+"You can use <menuchoice><guimenu>Tools</guimenu><guimenuitem>Export &kmail; "
+"Data...</guimenuitem></menuchoice> through the message view window or &i18n-"
+"pimdataexporter; can be run as a standalone application by running &i18n-"
+"pimdataexporter; in the application launcher."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:71
+#, no-c-format
+msgid ""
+"To perform a backup, <action>select <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Back Up Data...</guimenuitem></menuchoice></action>, it "
+"will prompt you to close all kdepim applications. <warning><para>Make sure "
+"you close all windows, data loss is possible if you don't.</para></warning> "
+"Once you have closed them, click <guibutton>Yes</guibutton> to continue, or "
+"<guibutton>No</guibutton> to cancel."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:75
+#, no-c-format
+msgid ""
+"You will be prompted to create a backup name, enter the name into the "
+"<guilabel>File</guilabel> textbox, &eg; <replaceable>mymailsettings</"
+"replaceable>. The default filetype it saves as is <filename role=\"extension"
+"\">.zip</filename>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:78
+#, no-c-format
+msgid ""
+"The next screen will allow you to select what you wish to backup, by default "
+"everything is selected."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:80
+#, no-c-format
+msgid ""
+"&kmail; Mails selection will only backup mails in your <quote>Local Folders</"
+"quote>, it will backup &imap; settings and download messages upon restore. "
+"If you have emails on a &imap; server you wish to be backed up, you should "
+"use <ulink url=\"help:/akonadi_folderarchive_agent\">Folder Archive Agent</"
+"ulink> to archive those emails to a local folder."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:84
+#, no-c-format
+msgid "<screeninfo>Selection Dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:90
+#, no-c-format
+msgid "<phrase>Selection Dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:93
+#, no-c-format
+msgid "<para>Selection Dialog</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:97
+#, no-c-format
+msgid ""
+"The final screen shows the log of the backup up process. You can close the "
+"window once you have reviewed the log and verified your backup was "
+"successful."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:98
+#, no-c-format
+msgid ""
+"To restore your backup, select <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Restore Data...</guimenuitem></menuchoice> within &i18n-"
+"pimdataexporter;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:99
+#, no-c-format
+msgid ""
+"Using <menuchoice><guimenu>Tools</guimenu><guimenuitem>Show Archive "
+"Information</guimenuitem></menuchoice> you can select a backup archive and "
+"view its content."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:106
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:107
+#, no-c-format
+msgid "&i18n-pimdataexporter;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:108
+#, no-c-format
+msgid "Program copyright 2019 &Laurent.Montel; &Laurent.Montel.mail;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:111
+#, no-c-format
+msgid ""
+"Documentation Copyright &copy; 2019 &Laurent.Montel; &Laurent.Montel.mail; "
+"&Scarlett.Clark; &Scarlett.Clark.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:115
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: sect1
+#: index.docbook:115
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

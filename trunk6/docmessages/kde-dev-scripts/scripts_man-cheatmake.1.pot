@@ -1,0 +1,187 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: date
+#: man-cheatmake.1.docbook:8
+#, no-c-format
+msgid "2003-03-08"
+msgstr ""
+
+#. Tag: manvolnum
+#: man-cheatmake.1.docbook:13
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#: man-cheatmake.1.docbook:18
+#, no-c-format
+msgid "fool <command>make</command> into not rebuilding certain files"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#: man-cheatmake.1.docbook:22
+#, no-c-format
+msgid ""
+"<command>cheatmake</command> <group><option>hidechange</option> "
+"<replaceable>file</replaceable></group> <group><option>show</option></group> "
+"<group><option>why</option> <replaceable>file</replaceable></group>"
+msgstr ""
+
+#. Tag: title
+#: man-cheatmake.1.docbook:32
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#: man-cheatmake.1.docbook:34
+#, no-c-format
+msgid ""
+"<command>cheatmake</command> is used to save time when recompiling. It can "
+"fool make into skipping files that haven't changed in a meaningful way. This "
+"can be used for instance when you change a comment in a file but none of the "
+"actual code."
+msgstr ""
+
+#. Tag: para
+#: man-cheatmake.1.docbook:39
+#, no-c-format
+msgid "This utility is part of the &kde; Software Development Kit."
+msgstr ""
+
+#. Tag: title
+#: man-cheatmake.1.docbook:44
+#, no-c-format
+msgid "Options"
+msgstr ""
+
+#. Tag: term
+#: man-cheatmake.1.docbook:48
+#, no-c-format
+msgid "<option>hidechange</option> <replaceable>file</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-cheatmake.1.docbook:49
+#, no-c-format
+msgid ""
+"Hides the fact that file was changed by setting the timestamp into the past. "
+"Use with care!"
+msgstr ""
+
+#. Tag: option
+#: man-cheatmake.1.docbook:53
+#, no-c-format
+msgid "show"
+msgstr ""
+
+#. Tag: para
+#: man-cheatmake.1.docbook:54
+#, no-c-format
+msgid "Lists what files <command>make</command> currently needs to rebuild"
+msgstr ""
+
+#. Tag: term
+#: man-cheatmake.1.docbook:57
+#, no-c-format
+msgid "<option>why</option> <replaceable>file</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-cheatmake.1.docbook:58
+#, no-c-format
+msgid "Explains why make must rebuild file"
+msgstr ""
+
+#. Tag: title
+#: man-cheatmake.1.docbook:64
+#, no-c-format
+msgid "Environment"
+msgstr ""
+
+#. Tag: para
+#: man-cheatmake.1.docbook:66
+#, no-c-format
+msgid ""
+"One of the following variables (but not both) should be set if the source "
+"directory is different from the build directory. If the build directory is "
+"simply a subdirectory of the source directory, the simpler variable "
+"<envar>OBJ_SUBDIR</envar> should be used."
+msgstr ""
+
+#. Tag: envar
+#: man-cheatmake.1.docbook:73
+#, no-c-format
+msgid "OBJ_SUBJDIR"
+msgstr ""
+
+#. Tag: para
+#: man-cheatmake.1.docbook:74
+#, no-c-format
+msgid ""
+"Indicates that the build directory is in the given subdirectory of the "
+"source directory. For instance, if the source directory is <filename class="
+"\"directory\">kdesdk</filename> and the build directory is <filename class="
+"\"directory\">kdesdk/obj-i386-linux</filename>, then <envar>OBJ_SUBDIR</"
+"envar> should be set to <parameter>obj-i386-linux</parameter>."
+msgstr ""
+
+#. Tag: envar
+#: man-cheatmake.1.docbook:77
+#, no-c-format
+msgid "OBJ_REPLACEMENT"
+msgstr ""
+
+#. Tag: para
+#: man-cheatmake.1.docbook:78
+#, no-c-format
+msgid ""
+"A <command>sed</command> expression that is used to transform the source "
+"directory into the build directory. For instance, if the source directory is "
+"<filename class=\"directory\">kdesdk/obj-i386-linux</filename>, then "
+"<envar>OBJ_REPLACEMENT</envar> should be set to <parameter>s#kdesdk#kdesdk-"
+"obj#</parameter>."
+msgstr ""
+
+#. Tag: title
+#: man-cheatmake.1.docbook:86
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#: man-cheatmake.1.docbook:88
+#, no-c-format
+msgid "make(1)"
+msgstr ""
+
+#. Tag: title
+#: man-cheatmake.1.docbook:93
+#, no-c-format
+msgid "Authors"
+msgstr ""
+
+#. Tag: para
+#: man-cheatmake.1.docbook:95
+#, no-c-format
+msgid ""
+"<command>cheatmake</command> was written by &David.Faure; &David.Faure."
+"mail;. This manual page was prepared by <personname><firstname>Ben</"
+"firstname><surname>Burton</surname></personname> <email>bab@debian.org</"
+"email> for the Debian <acronym>GNU</acronym>/&Linux; system (but may be used "
+"by others)."
+msgstr ""

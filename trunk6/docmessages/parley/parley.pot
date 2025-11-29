@@ -1,0 +1,3186 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:9
+#, no-c-format
+msgid "The &parley; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Frederik.Gladhorn; &Frederik.Gladhorn.mail;"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:17
+#, no-c-format
+msgid ""
+"<personname><firstname>Sabine</firstname><surname>Eller</surname></"
+"personname> <email>s.eller@voxhumanitatis.org</email>"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:22
+#, no-c-format
+msgid ""
+"<personname><firstname>Daniel</firstname><surname>Laidig</surname></"
+"personname> <email>d.laidig@gmx.de</email>"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:27
+#, no-c-format
+msgid ""
+"<personname><firstname>Amarvir</firstname><surname>Singh</surname></"
+"personname> <email>amarvir.ammu.93@gmail.com</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:31
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:36
+#, no-c-format
+msgid "&Frederik.Gladhorn;"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:40
+#, no-c-format
+msgid "Sabine Eller"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:44
+#, no-c-format
+msgid "<holder>Daniel Laidig</holder>"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:48
+#, no-c-format
+msgid "Amarvir Singh"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:52
+#, no-c-format
+msgid "2021-11-02"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:53
+#, no-c-format
+msgid "KDE Gear 21.08"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:57
+#, no-c-format
+msgid ""
+"&parley; is a vocabulary trainer. It helps you to memorize your vocabulary, "
+"for example when you are trying to learn a foreign language. &parley; is not "
+"limited to language learning but supports a multitude of subjects."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:61
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:62
+#, no-c-format
+msgid "Parley"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:63
+#, no-c-format
+msgid "vocabulary"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:64
+#, no-c-format
+msgid "training"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:65
+#, no-c-format
+msgid "learning"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:72
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid ""
+"&parley; is a vocabulary trainer. It helps you to memorize your vocabulary, "
+"for example when you are trying to learn a foreign language. You can create "
+"your own vocabulary collections with the words you need or select from a "
+"great variety of available <ulink url=\"https://userbase.kde.org/"
+"Parley#Vocabulary_Collections\">Vocabulary Collections</ulink>. There you "
+"can find collections containing language vocabulary and also anatomy, music, "
+"geography, chemistry or exam preparation."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:77
+#, no-c-format
+msgid ""
+"&parley; is very flexible and uses the <ulink url=\"https://en.wikipedia.org/"
+"wiki/Flashcard\">flash card learning approach</ulink>. It automatically "
+"keeps track of your learning progress. With &parley; you can arrange your "
+"vocabulary as you wish, you create your own lessons as needed. But unlike "
+"real flash cards you can use different learning methods with &parley;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:80
+#, no-c-format
+msgid ""
+"Flashcards contain expressions on the front side and their translation on "
+"the back. You start with a pile of cards. If you know the translation on a "
+"card, you can put it into a second pile of cards. If you did not remember "
+"it, you keep it in the first one to try again later."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:83
+#, no-c-format
+msgid ""
+"&parley;'s main focus is not to teach you grammar. However, there are some "
+"exercise forms which may help you in this matter."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:86
+#, no-c-format
+msgid ""
+"&parley; consists of two big parts: <link linkend=\"practice\">Vocabulary "
+"Practice</link> and <link linkend=\"vocabulary-editing\">an Editor for "
+"Vocabulary Collections</link>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:89
+#, no-c-format
+msgid ""
+"In this manual the term <emphasis>Vocabulary Collection</emphasis> refers to "
+"a file that contains <emphasis>Units</emphasis>. Each unit can be a lesson "
+"or a collection of lessons nested to any depth. In the rest of this manual "
+"we will refer to units rather than lessons since they can be used for other "
+"purposes too."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:92
+#, no-c-format
+msgid ""
+"Both, the <guilabel>Editor</guilabel> and the <guilabel>Practice</guilabel> "
+"can be reached from the <link linkend=\"practice-overview\">Practice "
+"Overview</link>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:95
+#, no-c-format
+msgid ""
+"The <link linkend=\"practice\">Practice</link> consists of three parts: "
+"first the <link linkend=\"practice-overview\">Practice Overview</link> where "
+"you choose what to practice. From there you start the actual <link linkend="
+"\"practice\">Practice</link> and when you are done, you get a <link linkend="
+"\"summary-after-practice\">Summary</link>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:98
+#, no-c-format
+msgid ""
+"Like in all applications try to use the right-click if you explore features "
+"and functionality in &parley;. Make click with the &RMB; displays a "
+"<quote>context menu</quote> that shows what you can do with your present "
+"situation. Try right-clicking units and words to find some options."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:101
+#, no-c-format
+msgid "<title>Dashboard</title>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:103
+#, no-c-format
+msgid ""
+"When you first launch &parley; the <guilabel>Dashboard</guilabel> welcomes "
+"you."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:106
+#, no-c-format
+msgid ""
+"At first the <guilabel>Dashboard</guilabel> is empty, once you opened some "
+"vocabulary collections, it shows you the ones you worked with most recently."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:110 index.docbook:148 index.docbook:1098 index.docbook:1325
+#: index.docbook:1418
+#, no-c-format
+msgid "&parley; main window"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:113 index.docbook:1101 index.docbook:1421
+#, no-c-format
+msgid "Dashboard with multiple collections"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:117
+#, no-c-format
+msgid ""
+"A vocabulary collection is a file that contains words and their translations "
+"into other languages or other pairs of words and sentences that you want to "
+"memorize. The words are organized in units."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:120
+#, no-c-format
+msgid ""
+"To <emphasis>start practicing</emphasis>, click with the &RMB; on the "
+"<guilabel>Practice Anyway</guilabel> box on one of the vocabulary collection "
+"names in the list. You are taken to the <link linkend=\"practice-overview"
+"\">practice overview</link>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:123
+#, no-c-format
+msgid ""
+"Note that a small <inlinemediaobject><imageobject><imagedata fileref=\"icon-"
+"delete.png\" format=\"PNG\"/></imageobject></inlinemediaobject> "
+"<guiicon>Delete</guiicon> icon appears bottom on the left of the collection "
+"item. This lets you remove the collection from the list."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:126
+#, no-c-format
+msgid ""
+"If you'd like to start your own collection of vocabulary, press on the "
+"<guibutton>Create a New Collection...</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:129
+#, no-c-format
+msgid ""
+"You can also <link linkend=\"open-an-existing-collection\">open a "
+"collection</link> if you have it on your computer already but it's not in "
+"the list."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:132
+#, no-c-format
+msgid ""
+"The last button on the <guilabel>Dashboard</guilabel> offers you to download "
+"vocabulary collections made by others. When you've created a file that you'd "
+"like to share with others, you can easily upload it from the editor."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:135
+#, no-c-format
+msgid ""
+"&parley; comes with different themes, you can switch to a different "
+"graphical style in the settings. For further information, see <link linkend="
+"\"configure-parley\">Configure &parley;</link>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:139
+#, no-c-format
+msgid "Open an existing collection"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:141
+#, no-c-format
+msgid "Let's suppose your collection is already on your hard disk."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:144
+#, no-c-format
+msgid ""
+"This is what the screen will look like the first time you start &parley;:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:151
+#, no-c-format
+msgid "Initial screen"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:155
+#, no-c-format
+msgid ""
+"Press on the <guibutton>Open an Existing Collection...</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:158
+#, no-c-format
+msgid ""
+"In the file selection dialog, navigate to the folder containing the data "
+"file, and select it by clicking on it. Depending on your system the file "
+"either opens immediately, or you have to press the <guibutton>Open</"
+"guibutton> button."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:162
+#, no-c-format
+msgid "<screeninfo>File select dialog</screeninfo>"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:165
+#, no-c-format
+msgid "<caption>File select dialog</caption>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:169
+#, no-c-format
+msgid ""
+"Now, the file is loaded, and you move on to the <guilabel>Practice Overview</"
+"guilabel> screen: see the following section for further details."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:173
+#, no-c-format
+msgid "Vocabulary Practice"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:175
+#, no-c-format
+msgid ""
+"To start practicing you select a document after starting &parley;. If you "
+"have it opened in the editor already, just press the "
+"<inlinemediaobject><imageobject><imagedata fileref=\"practice-start.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> <guiicon>Start Practice..."
+"</guiicon> icon in the toolbar."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:178
+#, no-c-format
+msgid "Practice Overview"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:180
+#, no-c-format
+msgid ""
+"Before the actual practice starts, you always get to the <guilabel>Practice "
+"Overview</guilabel> screen. There are three areas which allow you to choose "
+"what to practice:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:184
+#, no-c-format
+msgid "The selection of languages"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:185
+#, no-c-format
+msgid "The selection of the practice mode"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:186
+#, no-c-format
+msgid "The selection of the units that also shows your current progress"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:190 index.docbook:597 index.docbook:625
+#, no-c-format
+msgid "<screeninfo>Configuring the practice</screeninfo>"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:193
+#, no-c-format
+msgid "<caption>Configuring the practice</caption>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:197
+#, no-c-format
+msgid ""
+"On the left you can select the combination of languages you will practice. "
+"If you select for example English to French, you will be shown English words "
+"and &parley; will ask you to enter the French translations."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:200
+#, no-c-format
+msgid ""
+"Below the language selection you choose the <guilabel>Practice Mode</"
+"guilabel> section, this determines how the practice will ask you questions."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:203
+#, no-c-format
+msgid ""
+"The <guilabel>Practice Direction</guilabel> drop down list can be used to "
+"select the query that will be shown during the practice. The possible "
+"choices are the known phrase (<guimenuitem>Known to Learning</guimenuitem>), "
+"the learning phrase (<guimenuitem>Learning to Known</guimenuitem>), or the "
+"mix of the phrases (<guimenuitem>Mixed Directions</guimenuitem>)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:206
+#, no-c-format
+msgid ""
+"In the big part on the right, you see the units of the vocabulary "
+"collection. You can select which units you want to practice with the check "
+"box in front of the unit name. The number of words that each unit contains "
+"is shown next to its name. On the right of the name you see your current "
+"progress for the unit."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:209
+#, no-c-format
+msgid ""
+"The progress for each unit is displayed as the percentage of the unit "
+"completed and the multi-shaded progress bars. The percentage is calculated "
+"based on the total number of words in that unit and the confidence level of "
+"each word. The progress bars depict the number of words in each confidence "
+"level, with a darker shade depicting a higher confidence. A legend can also "
+"be seen at the top of the unit selections, in the header. The colors in this "
+"legend depict the corresponding colors of the progress bars, from the fully "
+"learned words to the words not yet practiced."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:213
+#, no-c-format
+msgid "Practice Configuration"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:215
+#, no-c-format
+msgid ""
+"The <guilabel>Configure Practice</guilabel> dialog allows you to specify "
+"more advanced settings that will affect the practice."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:218
+#, no-c-format
+msgid ""
+"In the <link linkend=\"practice-overview\">Practice Overview</link> screen "
+"you reach the <guilabel>Configure Practice</guilabel> dialog with the "
+"<inlinemediaobject><imageobject><imagedata fileref=\"practice-setup.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> <link linkend=\"advanced-"
+"practice-configuration\"><guiicon>Configure Practice...</guiicon></link> "
+"icon in the toolbar."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:221
+#, no-c-format
+msgid "General Practice Settings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:223
+#, no-c-format
+msgid ""
+"You can find several general configuration options for the practice in the "
+"<guilabel>General</guilabel> page."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:227 index.docbook:258 index.docbook:273 index.docbook:290
+#: index.docbook:453
+#, no-c-format
+msgid "Configure Practice dialog"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:230 index.docbook:1499
+#, no-c-format
+msgid "General settings page"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:234
+#, no-c-format
+msgid "The most important options are:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:238
+#, no-c-format
+msgid ""
+"<guilabel>Ignore accents</guilabel>: with this option if you enter a word "
+"with <guilabel>e</guilabel> instead of <guilabel>é</guilabel> it will still "
+"count as right."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:240
+#, no-c-format
+msgid ""
+"<guilabel>Ignore capitalization</guilabel>: this option allows you to ignore "
+"capitalization when you enter words."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:242
+#, no-c-format
+msgid ""
+"<guilabel>Images and Sound</guilabel> section: if you enable images they "
+"will be displayed during the practice, if they are available. Same applies "
+"to Sound."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:244
+#, no-c-format
+msgid ""
+"<guilabel>Allow images instead of words</guilabel>: if you enable this "
+"option, it will allow an image to be used as the question during practice, "
+"provided a translation is not set for that target language's word."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:249
+#, no-c-format
+msgid "Blocking"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:251
+#, no-c-format
+msgid ""
+"If you plan to practice your vocabulary regularly, you should make sure that "
+"the <emphasis>Blocking</emphasis> feature is enabled. Go to the "
+"<guilabel>Blocking</guilabel> page and tick the check box that says "
+"<guilabel>Blocking</guilabel>. Now you can even configure the interval in "
+"which words that you answered correctly will be repeated."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:254
+#, no-c-format
+msgid ""
+"<emphasis>Blocking</emphasis> means that words will not be asked for some "
+"period of time after the last practice. This period of time depends on how "
+"well you know the word, so that words you don't know yet will be asked more "
+"frequently."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:261
+#, no-c-format
+msgid "Blocking settings page"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:267
+#, no-c-format
+msgid "Thresholds"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:269
+#, no-c-format
+msgid "Thresholds are another way of limiting what you want to practice."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:276
+#, no-c-format
+msgid "Thresholds settings page"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:280
+#, no-c-format
+msgid ""
+"You can decide to practice only words that you know better or less well than "
+"some confidence level. Or you can select only words that you have practiced "
+"a certain number of times."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:284
+#, no-c-format
+msgid "Specific Practice Settings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:286
+#, no-c-format
+msgid ""
+"Configuration options for the practice with multiple choices can be changed "
+"using the <guilabel>Specific</guilabel> settings page."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:293
+#, no-c-format
+msgid "Specific settings page"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:297
+#, no-c-format
+msgid ""
+"Here you can select if the choices should be of the same type as well as the "
+"number of choices."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:302
+#, no-c-format
+msgid "Practice"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:303
+#, no-c-format
+msgid "Flash Cards"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:305
+#, no-c-format
+msgid ""
+"After having activated the <guilabel>Flash Cards</guilabel> on the "
+"<guilabel>Practice Mode</guilabel> section and having pressed on the "
+"<inlinemediaobject><imageobject><imagedata fileref=\"practice-start.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> <guiicon>Start Practice..."
+"</guiicon> icon in the toolbar the following screen shows up. The "
+"<guilabel>Flash Cards</guilabel> Training Mode works just as if you would do "
+"it with <quote>real</quote> flash cards. You imagine the result and should "
+"you wish some help, you can press on the <guibutton>Hint</guibutton> button, "
+"which will start to give you the result one letter at a time."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:308
+#, no-c-format
+msgid ""
+"You can also decide to skip a word for now. When you press the "
+"<guibutton>Answer Later</guibutton> button, the word will show up again at a "
+"later time."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:312 index.docbook:334 index.docbook:351 index.docbook:368
+#: index.docbook:379 index.docbook:390 index.docbook:408 index.docbook:419
+#: index.docbook:430
+#, no-c-format
+msgid "Flash Cards Practice Mode"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:315
+#, no-c-format
+msgid "New word"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:319
+#, no-c-format
+msgid ""
+"Pressing on the <guibutton>Continue</guibutton> button reveals the solution. "
+"At this stage you then have to tell if you knew the answer."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:322
+#, no-c-format
+msgid ""
+"If you did not know it, press the <guibutton>I Did not Know it</guibutton> "
+"button. If you did remember the answer, press the <guibutton>I Knew it</"
+"guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:325
+#, no-c-format
+msgid "This will take you to the next question."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:328
+#, no-c-format
+msgid ""
+"On the left hand side bottom of the screen you have 7 boxes that show how "
+"good you know the vocabulary. These 7 boxes correspond to the blocking "
+"levels set under <link linkend=\"blocking\"><guilabel>Blocking</guilabel></"
+"link> page in the <guilabel>Configure Practice</guilabel> dialog."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:331
+#, no-c-format
+msgid ""
+"Instead of pressing the <guibutton>Continue</guibutton> button, you can also "
+"use the &Space; key."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:337
+#, no-c-format
+msgid "New word - confirmation"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:341 index.docbook:584
+#, no-c-format
+msgid ""
+"You can stop practicing anytime by pressing on the <guibutton>Stop Practice</"
+"guibutton> button."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:345
+#, no-c-format
+msgid "Mixed Letters"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:347
+#, no-c-format
+msgid ""
+"Mixed Letters is a training method that provides you with an immediate help: "
+"all letters that are part of the solution are shown mixed up:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:354
+#, no-c-format
+msgid "New word - mixed letters"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:358
+#, no-c-format
+msgid ""
+"Should you wish some help, you can press on the <guibutton>Hint</guibutton> "
+"button, which will give you the solution one letter at a time. Of course you "
+"can also decide to <guibutton>Answer Later</guibutton> by pressing on that "
+"button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:361
+#, no-c-format
+msgid ""
+"To give the answer type it in the blank field below the mixed letters and "
+"press the &Enter; key or <guibutton>Continue</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:364
+#, no-c-format
+msgid ""
+"If your answer was correct &parley; will tell you so and you can press "
+"&Enter; again or press on the <guibutton>Continue</guibutton> button to go "
+"ahead with the next question."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:371
+#, no-c-format
+msgid "New word - mixed letters right"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:375
+#, no-c-format
+msgid ""
+"Should you enter a wrong answer, you will be told to <emphasis>try again</"
+"emphasis>:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:382
+#, no-c-format
+msgid "New word - wrong answer, try again"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:386
+#, no-c-format
+msgid ""
+"If you don't know the answer, just press on the <guibutton>Continue</"
+"guibutton> button a second time. Then the following comes up and you are "
+"shown the solution. Go ahead with <guibutton>Continue</guibutton>."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:393
+#, no-c-format
+msgid "New word - wrong answer, show the right answer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:397 index.docbook:437 index.docbook:503
+#, no-c-format
+msgid ""
+"You can overrule how your answer is counted. See <link linkend=\"practice-"
+"overview\">Practice Overview</link>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:401
+#, no-c-format
+msgid "Multiple Choice"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:402
+#, no-c-format
+msgid "Automatic selection of the possible answers"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:404
+#, no-c-format
+msgid ""
+"In <guilabel>Multiple Choice</guilabel> mode you are shown a number of "
+"potential answers, of which only one is correct. By pressing on the "
+"<guibutton>Hint</guibutton> button, &parley; excludes one of the wrong "
+"answers so that your choice gets more and more restricted with each further "
+"press on <guibutton>Hint</guibutton>. The answer is revealed when only one "
+"option is left and the question is counted as wrong. Of course you may also "
+"choose the <guibutton>Answer Later</guibutton> button."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:411
+#, no-c-format
+msgid "New word - Multiple Choice mode"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:415
+#, no-c-format
+msgid ""
+"Once you made your choice by clicking on what you believe to be correct or "
+"type the number in front of the choice, &parley; shows up with the screen "
+"below if the answer was right. Go ahead with the next question by pressing "
+"on the <guibutton>Continue</guibutton> button."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:422
+#, no-c-format
+msgid "New word - Multiple Choice, right answer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:426
+#, no-c-format
+msgid ""
+"If your answer instead was wrong, the correct answer will be shown in green "
+"and the wrong one in red. Also here you go ahead by pressing on the "
+"<guibutton>Continue</guibutton> button."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:433
+#, no-c-format
+msgid "New word - Multiple Choice, wrong answer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:440
+#, no-c-format
+msgid ""
+"If you wish to stop practice, just press on the <guibutton>Stop Practice</"
+"guibutton> button."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:444
+#, no-c-format
+msgid "With yes/no answers"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:446
+#, no-c-format
+msgid ""
+"Normally &parley; automatically proposes one correct and several wrong "
+"answers in Multiple Choice mode. For some exercises instead you will have "
+"preset answers like yes/no or similar. And for these you have to configure "
+"the practice by selecting the <inlinemediaobject><imageobject><imagedata "
+"fileref=\"practice-setup.png\" format=\"PNG\"/></imageobject></"
+"inlinemediaobject> <link linkend=\"advanced-practice-configuration"
+"\"><guiicon>Configure Practice...</guiicon></link> icon in the toolbar."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:449
+#, no-c-format
+msgid ""
+"Select the <guilabel>Specific</guilabel> page and you will get something "
+"very similar to the following screenshot:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:456
+#, no-c-format
+msgid "Specific page"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:460
+#, no-c-format
+msgid ""
+"If you have just <emphasis>two choices</emphasis> like <emphasis>yes/no</"
+"emphasis> in the section <guilabel>Multiple Choice</guilabel> set the "
+"<guilabel>Number of choices:</guilabel> to <parameter>2</parameter>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:465
+#, no-c-format
+msgid "Written"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:467
+#, no-c-format
+msgid ""
+"When you select the option <guilabel>Written</guilabel> to do your practice "
+"you are supposed to type in the solution. You can use the <guibutton>Hint</"
+"guibutton> button, which will start to give you the result one letter at a "
+"time. Of course you can also decide to <guibutton>Answer Later</guibutton> "
+"by pressing on that button."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:471 index.docbook:482 index.docbook:493
+#, no-c-format
+msgid "Written Practice Mode"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:474
+#, no-c-format
+msgid "New word - Written Practice Mode"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:478
+#, no-c-format
+msgid ""
+"Once you have entered the solution, press on the <guibutton>Continue</"
+"guibutton> button and &parley; will show whether your answer was correct. Go "
+"ahead by pressing on <guibutton>Continue</guibutton> again."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:485
+#, no-c-format
+msgid "New word - Written Practice Mode, right answer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:489
+#, no-c-format
+msgid ""
+"Should you give a wrong answer, you may try again several times to find the "
+"right answer. If you don't try again, and just press on the "
+"<guibutton>Continue</guibutton> button, the solution will be shown."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:496
+#, no-c-format
+msgid "New word - Written Practice Mode, wrong answer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:500
+#, no-c-format
+msgid ""
+"Go ahead practicing by pressing on <guibutton>Continue</guibutton> or stop "
+"by pressing on the button <guibutton>Stop Practice</guibutton>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:507
+#, no-c-format
+msgid "Reset Practice to Initial State"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:509
+#, no-c-format
+msgid ""
+"You can reset all your practice scores (remove the confidence levels) to the "
+"initial state. You can reset your confidence levels for individual units "
+"from within the <inlinemediaobject><imageobject><imagedata fileref="
+"\"practice-start.png\" format=\"PNG\"/></imageobject></inlinemediaobject> "
+"<guiicon>Practice Overview</guiicon> icon in the toolbar and by clicking "
+"with &RMB; on the unit to reset and choosing <guimenuitem>Remove confidence "
+"levels from this unit</guimenuitem> or by choosing <guimenuitem>Remove "
+"confidence levels from this unit and all sub-units</guimenuitem>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:514
+#, no-c-format
+msgid "<title>Summary After Practice</title>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:516
+#, no-c-format
+msgid ""
+"The summary shows up when you finish a learning session. In the big bar on "
+"the top it shows you how well you did."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:519
+#, no-c-format
+msgid ""
+"Below is a table with all the words you practiced, together with the "
+"mistakes you made."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:522
+#, no-c-format
+msgid ""
+"The words with the most mistakes are on top so you can easily see what you "
+"do not know yet."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:525
+#, no-c-format
+msgid ""
+"Press the <inlinemediaobject><imageobject><imagedata fileref=\"document-"
+"export.png\" format=\"PNG\"/></imageobject></inlinemediaobject> "
+"<guiicon>Export Results...</guiicon> icon in the toolbar or use the "
+"<menuchoice><guimenu>Practice</guimenu> <guimenuitem>Export Results...</"
+"guimenuitem></menuchoice> menu item to export practice results as &HTML; or "
+"OpenDocument text file (<literal role=\"extension\">.odt</literal>)."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:529
+#, no-c-format
+msgid "<screeninfo>Summary After Practice</screeninfo>"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:532
+#, no-c-format
+msgid "<caption>Summary After Practice</caption>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:538
+#, no-c-format
+msgid "Grammar Practice Modes"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:540
+#, no-c-format
+msgid ""
+"With &parley; you can also learn specific grammar structures, such as the "
+"gender of nouns, the comparison forms of adjectives and the conjugation of "
+"verbs. Let's look at some examples."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:543
+#, no-c-format
+msgid "Articles and Gender of Nouns"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:545
+#, no-c-format
+msgid ""
+"Once the practice mode <guilabel>Gender of Nouns</guilabel> is activated, "
+"press on the <inlinemediaobject><imageobject><imagedata fileref=\"practice-"
+"start.png\" format=\"PNG\"/></imageobject></inlinemediaobject> "
+"<guiicon>Start Practice...</guiicon> icon in the toolbar."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:548
+#, no-c-format
+msgid ""
+"In the case below we use German as language to learn and so you have three "
+"genders to choose from: masculine, feminine and neuter. By pressing on "
+"<guibutton>Hint</guibutton> one of the wrong answers gets excluded. Of "
+"course you can also decide to <guibutton>Answer Later</guibutton> by "
+"pressing on that button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:551
+#, no-c-format
+msgid ""
+"You should enter the articles for the language in the Editor to see the "
+"articles instead of the grammatical gender terms. Also note that this only "
+"works, if the gender of the words has been set up properly. See <link "
+"linkend=\"word-types\">Word Types</link> for more information how to change "
+"the word type to the right gender."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:555 index.docbook:566 index.docbook:577
+#, no-c-format
+msgid "Gender of Nouns Practice Mode"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:558
+#, no-c-format
+msgid "New word - Gender of Nouns Practice Mode"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:562
+#, no-c-format
+msgid ""
+"When you give the correct answer the following is shown and you go ahead "
+"practicing by pressing on the <guibutton>Continue</guibutton> button."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:569
+#, no-c-format
+msgid "New word - Gender of Nouns, right answer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:573
+#, no-c-format
+msgid ""
+"Should you give the wrong answer the following is shown and you go ahead "
+"practicing by pressing on the <guibutton>Continue</guibutton> button."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:580
+#, no-c-format
+msgid "New word - Gender of Nouns, wrong answer"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:588
+#, no-c-format
+msgid "Comparison Forms of Adjectives and Adverbs"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:590
+#, no-c-format
+msgid ""
+"On the <guilabel>Practice Mode</guilabel> section, select "
+"<guilabel>Comparison Forms</guilabel> and then press on the "
+"<inlinemediaobject><imageobject><imagedata fileref=\"practice-start.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> <guiicon>Start Practice..."
+"</guiicon> icon in the toolbar to go ahead."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:593
+#, no-c-format
+msgid ""
+"This only works when the conjugation forms of the word have been entered in "
+"the vocabulary collection. See <link linkend=\"entering-comparison-forms"
+"\">Entering Comparison Forms</link>."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:600
+#, no-c-format
+msgid "<caption>Comparison Forms Practice Mode</caption>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:604
+#, no-c-format
+msgid ""
+"The exercise requires you to enter the comparison forms for the term shown. "
+"In this case the translation of the English word <emphasis>old</emphasis> to "
+"German. The German language has three forms: <emphasis>absolute, "
+"comparative</emphasis> and <emphasis>superlative</emphasis>. To go on with "
+"the exercise just press on the <guibutton>Continue</guibutton> button."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:608
+#, no-c-format
+msgid "<screeninfo>Comparison Forms Practice Mode</screeninfo>"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:611
+#, no-c-format
+msgid "New word - comparison right"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:616
+#, no-c-format
+msgid "Conjugations"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:618
+#, no-c-format
+msgid ""
+"To practice conjugations choose the <guilabel>Conjugations</guilabel> mode "
+"and the tenses you wish to exercise."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:621
+#, no-c-format
+msgid ""
+"In the document the conjugation forms of the words have to be entered in "
+"order to allow this practice mode to work. See <link linkend=\"entering-"
+"inflection-forms\">Entering Inflection Forms</link>."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:628
+#, no-c-format
+msgid "<caption>Conjugations Practice Mode</caption>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:632
+#, no-c-format
+msgid ""
+"Then press on the <inlinemediaobject><imageobject><imagedata fileref="
+"\"practice-start.png\" format=\"PNG\"/></imageobject></inlinemediaobject> "
+"<guiicon>Start Practice...</guiicon> icon in the toolbar. You are required "
+"to enter the correct conjugation forms according to the tense shown. To go "
+"ahead press on the <guibutton>Continue</guibutton> button."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:636
+#, no-c-format
+msgid "<screeninfo>Conjugations Practice Mode</screeninfo>"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:639
+#, no-c-format
+msgid "Conjugation Practice"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:646
+#, no-c-format
+msgid "Vocabulary Editing"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:649 index.docbook:830 index.docbook:927 index.docbook:970
+#: index.docbook:997 index.docbook:1019 index.docbook:1039 index.docbook:1050
+#: index.docbook:1126 index.docbook:1157 index.docbook:1177 index.docbook:1188
+#: index.docbook:1208 index.docbook:1219 index.docbook:1236 index.docbook:1258
+#: index.docbook:1269 index.docbook:1280 index.docbook:1291 index.docbook:1302
+#: index.docbook:1378 index.docbook:1389 index.docbook:1400
+#, no-c-format
+msgid "Editor window"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:652
+#, no-c-format
+msgid "Editing the practices"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:656
+#, no-c-format
+msgid "Setup"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:658
+#, no-c-format
+msgid ""
+"Before you start using a vocabulary collection or create your own it is "
+"helpful to understand the different elements in &parley; and configure them "
+"accordingly. The next sections will guide you step by step through this "
+"process. There are several locations in &parley; for settings:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:662
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>File</guimenu> <guimenuitem>Properties...</"
+"guimenuitem></menuchoice> This is the place for the <guilabel>General "
+"Document Properties</guilabel>, meaning some information about your "
+"vocabulary collection and yourself."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:664
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>Edit</guimenu> <guimenuitem>Languages...</guimenuitem></"
+"menuchoice> Opens the <guilabel>Edit Languages</guilabel> dialog, where you "
+"will find the settings around the languages you use."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:666
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>Practice</guimenu> <guimenuitem>Configure Practice...</"
+"guimenuitem></menuchoice> Here are settings how you practice your "
+"vocabulary. Depending on what you want to do during the specific learning "
+"session you change them on the fly."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:668
+#, no-c-format
+msgid ""
+"<menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &parley;...</"
+"guimenuitem></menuchoice> For more general and display settings."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:671
+#, no-c-format
+msgid "About the Collection"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:673
+#, no-c-format
+msgid ""
+"Entering meta data like a title and your contact info is relevant if you "
+"plan to make your collection available for other people. Use the "
+"<menuchoice><guimenu>File</guimenu> <guimenuitem>Properties...</"
+"guimenuitem></menuchoice> menu item to edit the data."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:677
+#, no-c-format
+msgid "Properties for <quote>filename.kvtml</quote> dialog"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:680
+#, no-c-format
+msgid "Editing the properties"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:685
+#, no-c-format
+msgid "Vocabulary Columns"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:687
+#, no-c-format
+msgid ""
+"Depending on what your learning sessions are going to be about it can be "
+"relevant to have further Vocabulary Columns show up in your edit section. To "
+"choose these columns select the <menuchoice><guimenu>View</guimenu> "
+"<guimenuitem>Vocabulary Columns...</guimenuitem></menuchoice> menu item. "
+"There you can determine if the columns for <emphasis>Pronunciation, Word "
+"Type, Synonym, Antonym, Example, Comment</emphasis> and/or "
+"<emphasis>Paraphrase</emphasis> are to be shown."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:691 index.docbook:1247
+#, no-c-format
+msgid "Vocabulary Columns dialog"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:694
+#, no-c-format
+msgid "Setting the columns"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:699
+#, no-c-format
+msgid "Languages and Grammar"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:701
+#, no-c-format
+msgid ""
+"Set up some grammar details to let &parley; help you. Use the "
+"<menuchoice><guimenu>Edit</guimenu> <guimenuitem>Languages...</guimenuitem></"
+"menuchoice> menu item to pull up a grammar."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:704
+#, no-c-format
+msgid ""
+"Articles in English are simply <guilabel>the</guilabel> which is the "
+"definite article and <guilabel>a</guilabel> as indefinite article. Most "
+"other languages have more articles which can be filled in at the "
+"<guilabel>Articles</guilabel> tab."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:707
+#, no-c-format
+msgid ""
+"For conjugations the personal pronouns should be filled out. Most languages "
+"do not have different conjugation forms for he/she/it, in that case, you "
+"should <emphasis>not</emphasis> check <guilabel>Male/female have different "
+"conjugations</guilabel>! Simply enter the pronouns for all three forms."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:711
+#, no-c-format
+msgid "Personal Pronouns in English"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:716
+#, no-c-format
+msgid "Singular"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:717
+#, no-c-format
+msgid "Plural"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:720
+#, no-c-format
+msgid "1st Person"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:721
+#, no-c-format
+msgid "<entry>I</entry>"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:722
+#, no-c-format
+msgid "<entry>we</entry>"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:725
+#, no-c-format
+msgid "2nd Person"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:726 index.docbook:727
+#, no-c-format
+msgid "<entry>you</entry>"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:730
+#, no-c-format
+msgid "3rd Person"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:731
+#, no-c-format
+msgid "he/she/it"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:732
+#, no-c-format
+msgid "they"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:738
+#, no-c-format
+msgid ""
+"<guilabel>Tenses</guilabel> tab: Depending on the language, you can enter "
+"the right tenses which you later want to learn how to conjugate. Examples "
+"are: Simple Present, Simple Past, Future I, &etc;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:741
+#, no-c-format
+msgid ""
+"Btw. by pressing on the <guibutton>Add Language</guibutton> button you can "
+"add an additional language to your collection."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:744
+#, no-c-format
+msgid "Let's Have a Closer Look at Spanish"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:746
+#, no-c-format
+msgid ""
+"On the <guilabel>General</guilabel> tab the basic language settings, like "
+"here:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:750
+#, no-c-format
+msgid "<guilabel>Language:</guilabel> Spanish"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:751
+#, no-c-format
+msgid "<guilabel>Name:</guilabel> Spanish"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:752
+#, no-c-format
+msgid "<guilabel>Keyboard layout:</guilabel> us (for English)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:755
+#, no-c-format
+msgid ""
+"You can leave <guilabel>Keyboard layout:</guilabel> empty if you are not "
+"sure about what you are using. &parley; will then simply take the standard "
+"layout of your computer."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:759 index.docbook:770 index.docbook:781 index.docbook:792
+#, no-c-format
+msgid "Edit Language dialog"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:762
+#, no-c-format
+msgid "Editing a language"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:766
+#, no-c-format
+msgid ""
+"Let's have a look at the <guilabel>Articles</guilabel> tab: Spanish knows "
+"only male and female nouns, therefore the field <guilabel>Neutral:</"
+"guilabel> remains empty."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:773
+#, no-c-format
+msgid "Articles tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:777
+#, no-c-format
+msgid ""
+"Spanish <guilabel>Personal Pronouns</guilabel> tab have multiple forms for "
+"3rd person singular and 1st, 2nd and 3rd person plural. To remain "
+"consistent, the possibilities should be entered with a <guilabel>/</"
+"guilabel> between the two forms."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:784
+#, no-c-format
+msgid "Personal Pronouns tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:788
+#, no-c-format
+msgid ""
+"Under <guilabel>Tenses</guilabel> tab you will find the various tenses that "
+"are available for a verb form. You can add to the tenses that are already "
+"there by pressing the buttons <guibutton>New...</guibutton>, "
+"<guibutton>Modify...</guibutton> or in case something does not actually "
+"exist simply <guibutton>Delete</guibutton> the tense after having it "
+"selected."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:795
+#, no-c-format
+msgid "Tenses tab"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:802
+#, no-c-format
+msgid "Units"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:804
+#, no-c-format
+msgid ""
+"On the left you have a list of units. If you started a new collection, this "
+"list might be empty except for one unit that was created by default for you."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:807
+#, no-c-format
+msgid ""
+"If you cannot see the list of units, you might have to enable it in the "
+"<menuchoice><guimenu>View</guimenu> <guimenuitem>Units</guimenuitem></"
+"menuchoice> check box."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:810
+#, no-c-format
+msgid ""
+"The check boxes in front of the unit name show which units are currently "
+"included in your practice. The number next to it is the number of words in "
+"the unit."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:813
+#, no-c-format
+msgid "New Unit"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:815
+#, no-c-format
+msgid ""
+"Select where this unit belongs to, for example the collection <guilabel>My "
+"Spanish Lessons</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:818
+#, no-c-format
+msgid ""
+"You can select <guilabel>New Unit</guilabel> item using one of the following "
+"ways:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:822
+#, no-c-format
+msgid "&GUI; icon: select the <guiicon>New Unit</guiicon> icon in the toolbar."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:824
+#, no-c-format
+msgid ""
+"Menu item: select <menuchoice><guimenu>Unit</guimenu> <guimenuitem>New Unit</"
+"guimenuitem></menuchoice>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:826
+#, no-c-format
+msgid ""
+"Context menu: click with the &RMB; on the collection and select "
+"<guimenuitem>New Unit</guimenuitem> item."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:833
+#, no-c-format
+msgid "Collection: My Spanish Lessons"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:838
+#, no-c-format
+msgid ""
+"Please make sure to select the right point in the tree structure of units "
+"before selecting <guiicon>New Unit</guiicon> icon in the toolbar. In our "
+"case, wanting a <emphasis>Sub-Unit</emphasis> of <guilabel>Collection: My "
+"Spanish Lessons</guilabel> it is exactly that one that needs to be selected "
+"before going ahead with <guiicon>New Unit</guiicon>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:842
+#, no-c-format
+msgid "Moving, Renaming and Deleting Units"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:844
+#, no-c-format
+msgid ""
+"To change the name of a unit, double click it, or click with the &RMB; on "
+"the unit and choose <guimenuitem>Rename Unit</guimenuitem>. You can also "
+"delete it this way (but you'll lose its contents also then)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:847
+#, no-c-format
+msgid ""
+"If you don't like the arrangement of units, you can move a unit with the "
+"mouse. You can drag it onto another unit, then it will become a child of "
+"that unit."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:851
+#, no-c-format
+msgid "Splitting a Unit"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:853
+#, no-c-format
+msgid ""
+"If your units grow too big, you can choose to split them up to make learning "
+"easier in small units. 20 words for a unit is probably a good size. Click "
+"with the &RMB; on a unit, or use the <menuchoice><guimenu>Unit</guimenu> "
+"<guimenuitem>Split Unit into Smaller Units</guimenuitem></menuchoice> menu "
+"item and the unit will be separated into child units. You can choose to "
+"randomize the words that are put into the new units before assigning them, "
+"or to keep them in order."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:857
+#, no-c-format
+msgid "What is Shown in the Table"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:859
+#, no-c-format
+msgid ""
+"&parley; shows always the words of the unit that you have currently "
+"selected. You can enable to see the words in sub-units contained in this "
+"unit also. Use the <menuchoice><guimenu>Unit</guimenu> <guimenuitem>Show "
+"Entries from Child Units</guimenuitem></menuchoice> check box to enable "
+"this. That way, you can browse all words by selecting the document unit at "
+"the very top."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:864
+#, no-c-format
+msgid "Word Types"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:866
+#, no-c-format
+msgid ""
+"&parley; lets you associate word types with the words. Word types are for "
+"example: Nouns, Verbs, Adjectives and Adverbs."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:869
+#, no-c-format
+msgid ""
+"In order to work with word types, enable the word type tool with the check "
+"box: <menuchoice><guimenu>View</guimenu> <guimenuitem>Word Types</"
+"guimenuitem></menuchoice>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:872
+#, no-c-format
+msgid "You can categorize the word types just like units."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:875
+#, no-c-format
+msgid ""
+"If you want to see all words of a certain type - &eg; all nouns, simply "
+"select the noun category, and you will see only nouns in the table."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:878
+#, no-c-format
+msgid ""
+"The easiest way to set the word type, is to drag and drop a word onto its "
+"type. You can even do this with multiple words at the same time."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:885
+#, no-c-format
+msgid "Adding New Vocabulary"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:887
+#, no-c-format
+msgid ""
+"Use the <inlinemediaobject><imageobject><imagedata fileref=\"list-add.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> <guiicon>Add New Entry</"
+"guiicon> icon in the toolbar to add new words. You can start typing the word "
+"in the first language right away. After entering the first word, press &Tab; "
+"key to go to the next language."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:891
+#, no-c-format
+msgid "Editing Words"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:893
+#, no-c-format
+msgid ""
+"If you want to replace a word, select its entry and start typing. To change "
+"the word instead, double click the entry and you can change the contents of "
+"the cell without losing the old word."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:896
+#, no-c-format
+msgid ""
+"Press &Tab; key to go to the next word while staying in editing mode. "
+"&Enter; key leaves this mode. You can use the arrow keys to move around."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:901
+#, no-c-format
+msgid "Synonyms"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:903
+#, no-c-format
+msgid ""
+"Synonyms are hard to set up and do not always work really well. Here is how "
+"you set them up in any case:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:907
+#, no-c-format
+msgid ""
+"Use the <menuchoice><guimenu>View</guimenu> <guimenuitem>Synonyms</"
+"guimenuitem></menuchoice> check box to see the synonyms tool."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:909
+#, no-c-format
+msgid ""
+"Select first word (A) you want to make synonyms, then click on the second "
+"word (B)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:911
+#, no-c-format
+msgid ""
+"The button in the synonym tool changes it's text to <guibutton>A and B are "
+"Synonyms</guibutton>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:914
+#, no-c-format
+msgid ""
+"The words will now be shown as connected in the synonym tool and can be "
+"recognized as synonyms in the practice."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:918
+#, no-c-format
+msgid "Adding Images"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:920
+#, no-c-format
+msgid ""
+"First show the image tool by selecting the <menuchoice><guimenu>View</"
+"guimenu> <guimenuitem>Image</guimenuitem></menuchoice> check box. This will "
+"show up the <guilabel>Image</guilabel> section on the right hand side of the "
+"&parley; screen."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:923
+#, no-c-format
+msgid ""
+"To add an image to a word make sure the word is highlighted. In the "
+"<guilabel>Image</guilabel> section on the right hand side press on the "
+"<inlinemediaobject><imageobject><imagedata fileref=\"folder-black.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> <guiicon>Folder</guiicon> "
+"icon and choose the picture you wish to associate. On selecting an image for "
+"a pair of translations, the bottom right corners of the cells of both the "
+"words would be marked with a blue flag. If you want this way, do the same "
+"with the other word of the couple. Hovering over this flag with the mouse "
+"cursor shows the name and path of the image file."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:930
+#, no-c-format
+msgid "Adding a image"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:961
+#, no-c-format
+msgid "Adding Sound"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:963
+#, no-c-format
+msgid ""
+"First show the sound tool by selecting the <menuchoice><guimenu>View</"
+"guimenu> <guimenuitem>Sound</guimenuitem></menuchoice> check box. This will "
+"show up the <guilabel>Sound</guilabel> section on the right hand side of the "
+"&parley; screen."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:966
+#, no-c-format
+msgid ""
+"To add a sound to a word make sure the word is highlighted. In the "
+"<guilabel>Sound</guilabel> section on the right hand side press on the "
+"<inlinemediaobject><imageobject><imagedata fileref=\"folder-black.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> <guiicon>Folder</guiicon> "
+"icon and choose the sound you wish to associate. On selecting a sound file "
+"for a word, the top right corner of the cell of that word would be marked "
+"with a red flag. If you want this way, do the same with the other word of "
+"the couple. Hovering over this flag with the mouse cursor shows the name and "
+"path of the sound file."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:973
+#, no-c-format
+msgid "Adding a sound"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:988
+#, no-c-format
+msgid "Entering Comparison Forms"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:990
+#, no-c-format
+msgid ""
+"In order to enter comparison forms, make sure the comparison forms tool is "
+"enabled. You open it with the check box: <menuchoice><guimenu>View</guimenu> "
+"<guimenuitem>Comparison Forms</guimenuitem></menuchoice>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:993
+#, no-c-format
+msgid "First select a word that is an adjective or adverb."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1000
+#, no-c-format
+msgid "Comparison Forms tool"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1004
+#, no-c-format
+msgid ""
+"Press the <guibutton>Adjective</guibutton> or <guibutton>Adverb</guibutton> "
+"button in the comparison forms tool."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1015
+#, no-c-format
+msgid "Enter the comparison forms."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1022
+#, no-c-format
+msgid "Editing the comparison forms"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1026
+#, no-c-format
+msgid ""
+"Now you can use the <link linkend=\"comparison-forms-of-adjectives-and-"
+"adverbs\">Comparison Forms Practice</link> mode."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1030
+#, no-c-format
+msgid "Entering Inflection Forms"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1032
+#, no-c-format
+msgid ""
+"In order to enter inflection forms, make sure the inflection forms tool is "
+"enabled. You open it with the check box: <menuchoice><guimenu>View</guimenu> "
+"<guimenuitem>Inflection (verbs, adjectives, nouns)</guimenuitem></menuchoice>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1035
+#, no-c-format
+msgid "First select a word that is a verb."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1042 index.docbook:1053
+#, no-c-format
+msgid "Editing the inflection forms"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1046
+#, no-c-format
+msgid ""
+"Press on the <guibutton>Verb</guibutton> button in the inflections tool."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1057
+#, no-c-format
+msgid ""
+"After selecting the right tense in the <guilabel>Tense:</guilabel> drop down "
+"box, enter the conjugation forms."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1060
+#, no-c-format
+msgid ""
+"The tenses can be configured for each language: <link linkend=\"languages-"
+"and-grammar\">Languages and Grammar</link>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1063
+#, no-c-format
+msgid ""
+"Now you can use the <link linkend=\"conjugations\">Conjugations Practice</"
+"link> mode."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1066
+#, no-c-format
+msgid ""
+"Use the <guibutton>Noun</guibutton> or <guibutton>Adjective</guibutton> "
+"button to add declension forms to your vocabulary."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1070
+#, no-c-format
+msgid "Creating New Files"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1072
+#, no-c-format
+msgid ""
+"In this section we will describe how to create new files and this not only "
+"with the usual vocabulary learning part, but also for grammar exercises, "
+"mathematics, &etc;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1075
+#, no-c-format
+msgid "New Collection: Vocabulary English-German"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1077
+#, no-c-format
+msgid ""
+"In this section we describe how you can create a vocabulary training file "
+"including pictures and sound. In a second stage we will also add adjectives "
+"and verbs. This is a very complete example and therefore quite long. "
+"Eventually you will not need all points for your project."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1080
+#, no-c-format
+msgid ""
+"Since we wish to add sound-files and pictures, we should make sure that "
+"these will all be in one folder which for convenience is being called "
+"<emphasis>eng-deu</emphasis>. Our data file we create with &parley; will be "
+"saved in the same folder. This will help a lot when you decide to share your "
+"work with others."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1083
+#, no-c-format
+msgid "So this is what we have in terms of sound files and pictures:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:1087
+#, no-c-format
+msgid "<screeninfo>Data folder in &dolphin;</screeninfo>"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1090
+#, no-c-format
+msgid "<caption>Data folder in &dolphin;</caption>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1094
+#, no-c-format
+msgid ""
+"Let's start from the <guilabel>Dashboard</guilabel> which is shown once you "
+"launch &parley;:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1105
+#, no-c-format
+msgid "Press on the <guibutton>Create a New Collection...</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1108
+#, no-c-format
+msgid ""
+"The <guilabel>General Document Properties</guilabel> section shows up which "
+"is being filled as follows (just adapt to what your file is about):"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:1112
+#, no-c-format
+msgid "<screeninfo>Properties for ... dialog</screeninfo>"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1115
+#, no-c-format
+msgid "<caption>Properties for ... dialog</caption>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1119
+#, no-c-format
+msgid ""
+"Next press on the <guibutton>OK</guibutton> button. The following screen "
+"asks you to set up the language details. Here we don't want to change "
+"anything and therefore we just press on <guibutton>OK</guibutton>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1122
+#, no-c-format
+msgid ""
+"As a first step, let's create the vocabulary part. We will think about the "
+"addition of the sound files and pictures in a second stage. This is what the "
+"unit looks like:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1129
+#, no-c-format
+msgid "A new empty collection"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1133
+#, no-c-format
+msgid ""
+"Before we do anything else, let's save the file to the folder with the "
+"pictures and sound-files. Use the <menuchoice><guimenu>File</guimenu> "
+"<guimenuitem>Save</guimenuitem></menuchoice> menu item and select the folder "
+"using the navigation. In this example we will call the file "
+"<guilabel>Trainer eng-deu</guilabel> - once you entered the name just press "
+"on the <guibutton>Save</guibutton> button."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:1137
+#, no-c-format
+msgid "Save Vocabulary As dialog"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1140
+#, no-c-format
+msgid "Saving a new collection"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1144
+#, no-c-format
+msgid ""
+"If you now check your folder where the sound-files and pictures are, you "
+"will also find the file <filename>Trainer eng-deu.kvtml</filename>&nbsp;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1147
+#, no-c-format
+msgid ""
+"Let's have a short look at the words we want to add: <emphasis>apple, bird, "
+"cat, cherry, cow, orange, pear, snake, strawberry</emphasis>. We have "
+"animals and fruit and therefore we decide to create two units that are "
+"called: <guilabel>Animals</guilabel> and <guilabel>Fruits</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1150
+#, no-c-format
+msgid ""
+"We now rename <guilabel>Lesson 1</guilabel> to <guilabel>Animals</guilabel> "
+"and then we add a unit called <guilabel>Fruits</guilabel>. Click with the "
+"&RMB; on the <guilabel>Lesson 1</guilabel> and choose <guimenuitem>Rename "
+"Unit</guimenuitem> from the items shown. Now <guilabel>Lesson 1</guilabel> "
+"is highlighted and you can simply overwrite it by typing in "
+"<guilabel>Animals</guilabel>. When done, press the &Enter; key. Now click "
+"with the &RMB; on the <guilabel>Collection: Vocabulary trainer E...</"
+"guilabel>, which is the root of the unit tree and choose <guimenuitem>New "
+"Unit</guimenuitem> from the items shown. In the new field write "
+"<guilabel>Fruits</guilabel> and press the &Enter; key again."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1153
+#, no-c-format
+msgid ""
+"First, let's insert the animals. Please click on the unit <guilabel>Animals</"
+"guilabel> and you will get an empty table you can fill in. Click with the "
+"&RMB; in the first field, and insert the source terms. Then, insert the "
+"target terms in the second column. Once you've inserted all 4 English animal "
+"names with their German translation the screen looks like this:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1160
+#, no-c-format
+msgid "Editing the vocabulary trainer English-German"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1164
+#, no-c-format
+msgid ""
+"In our case we want only 4 entries in the animals unit. There are many empty "
+"lines that should be deleted. To do this click on the first empty field, and "
+"keep the &Shift; key pressed while clicking on the last empty field. All "
+"lines to be deleted will be highlighted. Then, press the &Del; key."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1167
+#, no-c-format
+msgid ""
+"Let's add the fruit terminology. Just click on the unit named "
+"<guilabel>Fruits</guilabel>. This second unit is completely empty. Since we "
+"have five fruit terms we need to add five lines. Therefore, press the &Ins; "
+"key five times, and then, just like before, we add our terminology."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1170
+#, no-c-format
+msgid "Don't forget to save every now and then ..."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1173
+#, no-c-format
+msgid ""
+"A click on the root of our unit tree <guilabel>Collection: Vocabulary "
+"trainer E...</guilabel> and &parley; will show us all entries that are "
+"present in the two units:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1180
+#, no-c-format
+msgid "All entries present in two units"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1184
+#, no-c-format
+msgid ""
+"Time to add sound and images. First of all we need to activate the "
+"<guilabel>Image</guilabel> and <guilabel>Sound</guilabel> views. Select the "
+"<menuchoice><guimenu>View</guimenu> <guimenuitem>Image</guimenuitem></"
+"menuchoice> and <menuchoice><guimenu>View</guimenu> <guimenuitem>Sound</"
+"guimenuitem></menuchoice> check boxes. Once these options are activated, two "
+"new sections are shown as two new tabs on the bottom right hand side of the "
+"&parley; editing screen."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1191
+#, no-c-format
+msgid "Sound and Image sections"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1195
+#, no-c-format
+msgid ""
+"Select the English word <emphasis>apple</emphasis> by clicking on it. It is "
+"highlighted, so let's add the picture. In the image section on the right "
+"hand side press on the <inlinemediaobject><imageobject><imagedata fileref="
+"\"folder-black.png\" format=\"PNG\"/></imageobject></inlinemediaobject> "
+"<guiicon>Folder</guiicon> icon and choose the picture you wish to associate."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1198
+#, no-c-format
+msgid ""
+"To add the pronunciation for the English apple, do the same in the Sound "
+"section, selecting the relevant sound file."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1201
+#, no-c-format
+msgid ""
+"By pressing on the <guibutton>Play</guibutton> button in the sound tool you "
+"can listen to the pronunciation."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1204
+#, no-c-format
+msgid "The screen will then look like this:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1211
+#, no-c-format
+msgid "Playing the sound"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1215
+#, no-c-format
+msgid ""
+"Then click on the German translation <guilabel>Apfel</guilabel>. The field "
+"is now highlighted to indicate the selection. You will note the picture with "
+"the apple is associated also to the German term. In the sound section select "
+"the pronunciation, just like before."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1222
+#, no-c-format
+msgid "Checking the data bonding"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1226
+#, no-c-format
+msgid "Just go ahead like this for all terms."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1229
+#, no-c-format
+msgid ""
+"Time to add adjectives and verbs as units to our project. So just do as "
+"before with the unit <emphasis>Fruits</emphasis> and create two new units: "
+"<emphasis>Adjectives</emphasis> and <emphasis>Verbs</emphasis>. Let's assume "
+"we will add <emphasis>big, small, old, young, narrow</emphasis> in the "
+"adjective unit and <emphasis>to go, to come, to buy, to drink, to eat</"
+"emphasis> in the verb unit."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1232
+#, no-c-format
+msgid ""
+"The following shows a screenshot with all inserted terminology. Now, words "
+"are mixed and it would be nice to see what is a <emphasis>noun, adjective</"
+"emphasis> or <emphasis>verb</emphasis>."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1239
+#, no-c-format
+msgid "Shows all inserted terminology"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1243
+#, no-c-format
+msgid ""
+"As the next step we are going to show the <guilabel>Word Type</guilabel>. "
+"Select the <menuchoice><guimenu>View</guimenu> <guimenuitem>Vocabulary "
+"Columns</guimenuitem></menuchoice> check box. We activate <guilabel>Word "
+"Type</guilabel> for <emphasis>English</emphasis> and <emphasis>German</"
+"emphasis> by clicking on the check box in front of <guilabel>Word Type</"
+"guilabel>. Then press on the <guibutton>OK</guibutton> button to accept the "
+"changes."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1250
+#, no-c-format
+msgid "Selecting Word Type item"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1254
+#, no-c-format
+msgid ""
+"By clicking on the fields in the column <guilabel>Word Type</guilabel> you "
+"can select the word type and for those languages where nouns have a gender "
+"you can also select the <emphasis>Noun/Gender</emphasis> combination. "
+"Alternatively start to type the first characters of a word type to select "
+"it. Below the <guilabel>Word Type</guilabel> column with part of the "
+"selections already done."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1261
+#, no-c-format
+msgid "Choosing the Word Types"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1265
+#, no-c-format
+msgid ""
+"Once we have specified all the word types, we will first consider "
+"<emphasis>Adjectives</emphasis>, adding <guilabel>Comparison forms</"
+"guilabel> to them. So let's move to the <emphasis>Adjectives</emphasis> unit "
+"only."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1272
+#, no-c-format
+msgid "Selecting the comparison forms"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1276
+#, no-c-format
+msgid ""
+"To show the <guilabel>Comparison Forms</guilabel> on the right hand side of "
+"the screen, select the <menuchoice><guimenu>View</guimenu> "
+"<guimenuitem>Comparison Forms</guimenuitem></menuchoice> check box."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1283
+#, no-c-format
+msgid "Shows the comparison forms"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1287
+#, no-c-format
+msgid ""
+"Edit the <guilabel>Comparison Forms</guilabel> by adding "
+"<guilabel>Comparative</guilabel> and <guilabel>Superlative</guilabel> to the "
+"single adjectives. First, click on the adjective for which you wish to add "
+"the comparison forms, in our case <emphasis>big</emphasis>, and add "
+"<emphasis>bigger</emphasis> and <emphasis>biggest</emphasis>. Then, continue "
+"with the next adjective to complete, until all comparison forms have been "
+"entered."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1294
+#, no-c-format
+msgid "Adding the Comparative and Superlative"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1298
+#, no-c-format
+msgid ""
+"Finally, let's consider the conjugation form of the <guilabel>Verbs</"
+"guilabel>. Select the <guilabel>Verbs</guilabel> unit and then activate the "
+"inflection section on the right hand side by selecting the "
+"<menuchoice><guimenu>View</guimenu> <guimenuitem>Inflection (verbs, "
+"adjectives, nouns)</guimenuitem></menuchoice> check box. As an example we "
+"edit the present tense (<guilabel>Präsens</guilabel>) form of "
+"<emphasis>gehen</emphasis>. Please first select <guilabel>Präsens</guilabel> "
+"from the drop down box and then add the verb forms."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1305
+#, no-c-format
+msgid "Choosing the conjugation form of the verb"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1309
+#, no-c-format
+msgid "This needs to be done for all verbs, and in all possible tenses."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1312
+#, no-c-format
+msgid ""
+"Once you are done you can start to practice by pressing on the "
+"<inlinemediaobject><imageobject><imagedata fileref=\"practice-start.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> <link linkend="
+"\"vocabulary-practice\"><guiicon>Practice</guiicon></link> icon in the "
+"toolbar."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1316
+#, no-c-format
+msgid "New Collection: Single Names and Collective Names"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1318
+#, no-c-format
+msgid ""
+"This exercise was created for the 3rd class of an Italian primary school. "
+"Pupils are supposed to connect single names with collective names, such as "
+"<emphasis>tree</emphasis> → <emphasis>woods</emphasis>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1321
+#, no-c-format
+msgid ""
+"When you start &parley; you get the start page, eventually also listing some "
+"previously used files (that you cannot see here)."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1328
+#, no-c-format
+msgid "<caption>Dashboard</caption>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1332
+#, no-c-format
+msgid ""
+"Press on the <guibutton>Create a New Collection...</guibutton> button and "
+"the following screen with empty or partly filled fields will show up:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:1336
+#, no-c-format
+msgid "<screeninfo>Properties for Untitled dialog</screeninfo>"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1339
+#, no-c-format
+msgid "<caption>Properties for Untitled dialog</caption>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1343
+#, no-c-format
+msgid ""
+"Fill in the title, here <guilabel>nomi singoli e collettivi</guilabel>, your "
+"name, email address, in the <guilabel>Comment:</guilabel> text box you can "
+"write down a more detailed description, select your <guilabel>Category:</"
+"guilabel> and <guilabel>License:</guilabel>. Then there we have something "
+"special: instead of indicating the <guilabel>First language:</guilabel> and "
+"<guilabel>Second language:</guilabel>, like it normally would happen, we "
+"added <emphasis>nome singolo</emphasis> (single name) and <emphasis>nome "
+"collettivo</emphasis> (collective name). The <guilabel>Setup grammar "
+"details</guilabel> and <guilabel>Download grammar</guilabel> options are not "
+"needed here. In the screenshot they are still activated - please deactivate "
+"them by just clicking on the check boxes. When you are done, please press on "
+"the <guibutton>OK</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1346
+#, no-c-format
+msgid ""
+"Select the <menuchoice><guimenu>View</guimenu> <guimenuitem>Languages...</"
+"guimenuitem></menuchoice> menu item and the <guilabel>Properties for nome "
+"singolo</guilabel> section comes up and here you see it already with the "
+"necessary changes made:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:1350 index.docbook:1364
+#, no-c-format
+msgid "Edit Languages dialog"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1353
+#, no-c-format
+msgid "Properties for nome singolo"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1357
+#, no-c-format
+msgid ""
+"On the left hand side you can see where the data you are adding belongs to. "
+"<emphasis>nome singolo</emphasis>. Choose the language, here "
+"<emphasis>Italian</emphasis> and insert <emphasis>nome singolo</emphasis> in "
+"the following editable field. Then press on the <guibutton>OK</guibutton> "
+"button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1360
+#, no-c-format
+msgid ""
+"Now the <guilabel>Properties for nome collettivo</guilabel> section is shown:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1367
+#, no-c-format
+msgid "Properties for nome collettivo"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1371
+#, no-c-format
+msgid ""
+"Like before: choose <guilabel>Italian</guilabel> as language and insert "
+"<emphasis>nome collettivo</emphasis> and press on the <guibutton>OK</"
+"guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1374
+#, no-c-format
+msgid "And now you can start to edit:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1381
+#, no-c-format
+msgid "Creating a new practice collective"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1385
+#, no-c-format
+msgid ""
+"Just insert the <emphasis>nome singolo</emphasis> (single name) in the first "
+"column and the corresponding <emphasis>nome collettivo</emphasis> "
+"(collective name) in the second column."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1392
+#, no-c-format
+msgid "Adding a new entry"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1396
+#, no-c-format
+msgid ""
+"If the number of available fields is not enough, just click with the &RMB; "
+"anywhere on the edit section and choose <guimenuitem>Add New Entry</"
+"guimenuitem>. Don't forget to save your file every now and then. When you "
+"have finished adding all entries you will want to see if Practice mode works "
+"fine. Well just press on the <inlinemediaobject><imageobject><imagedata "
+"fileref=\"practice-start.png\" format=\"PNG\"/></imageobject></"
+"inlinemediaobject> <guiicon>Practice</guiicon> icon in the toolbar right "
+"above the edit section and the page with the practice settings comes up:"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1403
+#, no-c-format
+msgid "Multiple Choice Practice Mode"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1407
+#, no-c-format
+msgid ""
+"In this case <guilabel>Multiple Choice</guilabel> is a good option, but also "
+"<guilabel>Written</guilabel> will do fine. After choosing the Practice Mode "
+"just press on the <inlinemediaobject><imageobject><imagedata fileref="
+"\"practice-start.png\" format=\"PNG\"/></imageobject></inlinemediaobject> "
+"<guiicon>Start Practice...</guiicon> icon in the toolbar and have fun."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1412
+#, no-c-format
+msgid "Getting Additional Collections"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1414
+#, no-c-format
+msgid ""
+"When you are on the <guilabel>Dashboard</guilabel> you have the possibility "
+"to install collections directly from the server, provided you are online. "
+"Just press on the <guibutton>Download New Collections...</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1425
+#, no-c-format
+msgid ""
+"A window with many interesting collections opens. Just select what you find "
+"most interesting and press on the <guibutton>Install</guibutton> button. "
+"Then open the file to practice or edit."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:1429
+#, no-c-format
+msgid "Download New Stuff dialog"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1432
+#, no-c-format
+msgid "Getting new collections"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1437
+#, no-c-format
+msgid "Configure &parley;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1439
+#, no-c-format
+msgid ""
+"You can configure the appearance of &parley; from the <guilabel>Dashboard</"
+"guilabel>, <guilabel>Practice</guilabel>, or <guilabel>Editor</guilabel> "
+"screens. Select the <menuchoice><guimenu>Settings</guimenu> "
+"<guimenuitem>Configure &parley;...</guimenuitem></menuchoice> menu item."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1442
+#, no-c-format
+msgid "Theme Page"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1444
+#, no-c-format
+msgid ""
+"The configuration opens with the <guilabel>Theme</guilabel> page. This is "
+"the place where you can choose how &parley; should greet you when launching "
+"it: an elegant <guilabel>Gray</guilabel> version or the all time busy "
+"<guilabel>Bees</guilabel>. Note that it could well be that <guilabel>Fluffy "
+"Bunny</guilabel> is not in your version: if you want it, read the following "
+"section."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1447
+#, no-c-format
+msgid ""
+"Once you selected your preferred theme, press on the <guibutton>OK</"
+"guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1450
+#, no-c-format
+msgid "Screenshot of the <guilabel>Bees</guilabel> theme:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:1454
+#, no-c-format
+msgid "Training screen"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1457
+#, no-c-format
+msgid "The Bees theme in action"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1461
+#, no-c-format
+msgid ""
+"And if these are not enough: you can press on the <guibutton>Get New "
+"Themes...</guibutton> button to find more themes. Over time we hope that "
+"more and more themes come along. If you know how to create &SVG; graphics "
+"(for example with <ulink url=\"https://inkscape.org\"><application>Inkscape</"
+"application></ulink>), you can create your own theme and share it with the "
+"world."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:1465 index.docbook:1496 index.docbook:1511
+#, no-c-format
+msgid "Configure - &parley; dialog"
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1468
+#, no-c-format
+msgid "Theme settings page"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1472
+#, no-c-format
+msgid ""
+"Additional themes can be found on <ulink url=\"https://store.kde.org/browse/"
+"cat/357/order/latest/\">store.kde.org</ulink>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1476
+#, no-c-format
+msgid "General Page"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1478
+#, no-c-format
+msgid ""
+"The <guilabel>General</guilabel> page gives you some options regarding the "
+"behavior of &parley;."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1481
+#, no-c-format
+msgid "Open/Save section"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1483
+#, no-c-format
+msgid ""
+"<guilabel>Always load the last opened collection on start</guilabel> will "
+"immediately take you back to the vocabulary you were learning. Often you "
+"will use this together with the second option <guilabel>Save vocabularies "
+"automatically on close and quit</guilabel> because it's just handy not to "
+"have always answer the same question if changes (including learning results) "
+"should be changed or not. The option <guilabel>Create a backup every ... "
+"minutes</guilabel> can be very handy to help you save your work frequently. "
+"One less thing to think about."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1486
+#, no-c-format
+msgid ""
+"Sometimes the import and/or export of text (CSV) files can be very handy and "
+"there you need the proper separator to elaborate data afterwards or to be "
+"able to read the data you got from somewhere else. &parley; allows you to "
+"choose among various separators to make sure you can re-use your data."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1490
+#, no-c-format
+msgid "Editing section"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1492
+#, no-c-format
+msgid ""
+"Here you can determine whether &parley; automatically appends new rows while "
+"you are editing your vocabulary collection. This can be useful if you want "
+"to add many entries, before then splitting them up into various units. On "
+"the other hand, it can be good to have this option off if you want to work "
+"by creating units with a set maximum number of entries."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1505
+#, no-c-format
+msgid "View page"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1507
+#, no-c-format
+msgid ""
+"The <guilabel>View</guilabel> page allows you to change font and size for "
+"the pronunciation symbols, and you can choose the <guilabel>Base color for "
+"displaying grades:</guilabel> you like best."
+msgstr ""
+
+#. Tag: caption
+#: index.docbook:1514
+#, no-c-format
+msgid "View settings page"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1547
+#, no-c-format
+msgid "Notes For Advanced Users"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1560
+#, no-c-format
+msgid "Upload and Share Collections"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1562
+#, no-c-format
+msgid "You can upload your files and share them with others."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1565
+#, no-c-format
+msgid ""
+"Use the <menuchoice><guimenu>File</guimenu> <guimenuitem>Upload Vocabulary "
+"Document</guimenuitem></menuchoice> menu item in the <guilabel>Editor</"
+"guilabel> within &parley;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1568
+#, no-c-format
+msgid ""
+"If that does not work, you can also visit <ulink url=\"https://store.kde.org/"
+"\">store.kde.org</ulink>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1571
+#, no-c-format
+msgid ""
+"In either case the files will show up in the <guilabel>Download New Stuff</"
+"guilabel> dialog by pressing the <guibutton>Download New Collections...</"
+"guibutton> button on the <guilabel>Dashboard</guilabel>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1575
+#, no-c-format
+msgid "File format"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1577
+#, no-c-format
+msgid ""
+"If you are interested in the file formats that &parley; can read and stores "
+"the vocabulary collections in, visit:"
+msgstr ""
+
+#. Tag: ulink
+#: index.docbook:1580
+#, no-c-format
+msgid "&parley; File Formats on userbase.kde.org"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1591
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1593
+#, no-c-format
+msgid "Thanks"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1595
+#, no-c-format
+msgid ""
+"I'd like to thank the following people personally for their contribution to "
+"&parley;:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1599
+#, no-c-format
+msgid ""
+"Peter Hedlund who kept &kvoctrain; alive and started the &kde; 4 port which "
+"eventually would become &parley;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1600
+#, no-c-format
+msgid "David Capel"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1601
+#, no-c-format
+msgid "Avgoustinos Kadis"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1602
+#, no-c-format
+msgid "<para>Daniel Laidig</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1603
+#, no-c-format
+msgid "Johannes Simon"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1606
+#, no-c-format
+msgid ""
+"I also want to thank all the other unnamed persons, especially the whole "
+"&kde; team, for their help, constructive criticism, suggestions or bug-"
+"reports."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1610
+#, no-c-format
+msgid "Copyright"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1612
+#, no-c-format
+msgid ""
+"&parley; copyright 2007-2010 &Frederik.Gladhorn; &Frederik.Gladhorn.mail;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1615
+#, no-c-format
+msgid ""
+"Documentation copyright 2010 &Frederik.Gladhorn; &Frederik.Gladhorn.mail;, "
+"Sabine Eller <email>s.eller@voxhumanitatis.org</email>, Daniel Laidig "
+"<email>d.laidig@gmx.de</email>; 2014 Amarvir Singh <email>amarvir."
+"ammu.93@gmail.com</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:1621
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: sect1
+#: index.docbook:1621
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

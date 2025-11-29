@@ -1,0 +1,1622 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:20
+#, no-c-format
+msgid "The &kgraphviewer; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:23
+#, no-c-format
+msgid ""
+"<firstname>Gaël</firstname> <othername></othername> <surname>de Chalendar</"
+"surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:28
+#, no-c-format
+msgid "kleag@free.fr"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:31
+#, no-c-format
+msgid ""
+"<firstname>Federico</firstname> <othername></othername> <surname>Zenith</"
+"surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:36
+#, no-c-format
+msgid "federico.zenith@member.fsf.org"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:39
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:44
+#, no-c-format
+msgid "Gaël de Chalendar"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:51
+#, no-c-format
+msgid "2020-12-14"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:52
+#, no-c-format
+msgid "&kgraphviewer; 2.4.3"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:55
+#, no-c-format
+msgid ""
+"&kgraphviewer; is a &graphviz; &dot; graph viewer. It is developed in the "
+"&kde; community. The &graphviz; programs are free-software layout engines "
+"for graphs. Graphs are commonly used in scientific domains and particularly "
+"in computer science."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:58
+#, no-c-format
+msgid "&kgraphviewer; displays the graphs in a modern, user-friendly &GUI;."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:64
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:65
+#, no-c-format
+msgid "kgraphviewer"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:66
+#, no-c-format
+msgid "graphviz"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:67
+#, no-c-format
+msgid "<keyword>dot</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:68
+#, no-c-format
+msgid "neato"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:69
+#, no-c-format
+msgid "viewer"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:75
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:77
+#, no-c-format
+msgid ""
+"&kgraphviewer; is a &graphviz; &dot; graph viewer. The &graphviz; programs "
+"are free-software layout engines for graphs. &kgraphviewer; displays the "
+"graphs in a modern, user-friendly &GUI;. It has the following features:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:80
+#, no-c-format
+msgid "Here is a screenshot of &kgraphviewer;"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:86
+#, no-c-format
+msgid ""
+"The main &kgraphviewer; window displaying one of the &graphviz; examples"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:91
+#, no-c-format
+msgid "Zooming;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:92
+#, no-c-format
+msgid "Loading of several graphs in tabs at the same time;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:93
+#, no-c-format
+msgid "Storage of a list of recent files;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:94
+#, no-c-format
+msgid "A bird's eye view of the graph;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:95
+#, no-c-format
+msgid "Graph panning by mouse dragging;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:96
+#, no-c-format
+msgid "Full-featured printing;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:97
+#, no-c-format
+msgid "Perfect drawing of all &graphviz; example graphs;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:98
+#, no-c-format
+msgid "Node and edge colors and all node shapes are supported;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:99
+#, no-c-format
+msgid ""
+"Automatic choice of &dot; for directed graphs and &neato; for undirected "
+"ones;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:100
+#, no-c-format
+msgid ""
+"Manual or automatic reloading with user confirmation of (externally) "
+"modified files (configurable);"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:101
+#, no-c-format
+msgid ""
+"Opening of new program instances as new tabs in an existing instance "
+"(configurable);"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:102
+#, no-c-format
+msgid "Help system;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:103
+#, no-c-format
+msgid "Internationalization."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:107
+#, no-c-format
+msgid "Planned features are:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:109
+#, no-c-format
+msgid ""
+"Eventual use of the &qanava; library to support internal graphs "
+"representation;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:110
+#, no-c-format
+msgid ""
+"Save session data about graphs (layout program used, zoom factor, &etc;)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:111
+#, no-c-format
+msgid ""
+"Integration in &kate; and &konqueror; (so that a change in &kate;'s view of "
+"the graph would re-layout and reload the file in &kgraphviewer;);"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:112
+#, no-c-format
+msgid ""
+"Menu to open the file in &kate; <emphasis>or</emphasis> to open a katepart "
+"inside the &kgraphviewer; window;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:113
+#, no-c-format
+msgid ""
+"Loading of large and huge graphs (currently, there are performance problems "
+"at around 1000 nodes, and a hack to ignore nodes above a specified limit);"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:114
+#, no-c-format
+msgid "Progressive support of more and more &dot; attributes and values;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:115
+#, no-c-format
+msgid ""
+"Layout in background (with threading in order not to block the interface, "
+"with a progress bar)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:118
+#, no-c-format
+msgid ""
+"Note that this program includes code from the GPL tool &kcachegrind; by "
+"Josef Weidendorfer, with his authorization."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:119
+#, no-c-format
+msgid ""
+"Note also that the printing system is from the &calligra;'s &kexi; database "
+"application."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:121
+#, no-c-format
+msgid ""
+"Other required software: &kgraphviewer; is a program that uses the "
+"&graphviz; tool &dot; for graph layout. Its dependencies are:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:123
+#, no-c-format
+msgid "The &Qt; and &kde-frameworks; libraries version 5.x;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:124
+#, no-c-format
+msgid "The &graphviz; tools as externals programs (tested with version 2.8);"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:125
+#, no-c-format
+msgid "The &boost; library version 1.36."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:131
+#, no-c-format
+msgid "Using &kgraphviewer;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:134
+#, no-c-format
+msgid "The Main Window"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:136
+#, no-c-format
+msgid ""
+"The main window displays the loaded graphs, each in its own tab. Initially, "
+"if you start &kgraphviewer; without arguments, its main window will be empty "
+"as in the screenshot below. In this case, the toolbar contains only the "
+"<guibutton>Open...</guibutton> and the (empty) <guibutton>Open Recent</"
+"guibutton> buttons. Click on the first one to open the standard "
+"<guilabel>Open File</guilabel> dialog."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:139
+#, no-c-format
+msgid ""
+"<screeninfo>The initial main window when opening &kgraphviewer; for the "
+"first time</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:145
+#, no-c-format
+msgid ""
+"<phrase>The initial main window when opening &kgraphviewer; for the first "
+"time</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:147
+#, no-c-format
+msgid ""
+"<para>The initial main window when opening &kgraphviewer; for the first "
+"time</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:151
+#, no-c-format
+msgid ""
+"After selecting one or several &dot; files, the main window looks like the "
+"next screenshot below:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:154
+#, no-c-format
+msgid ""
+"<screeninfo>The main window of &kgraphviewer; with several files opened</"
+"screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:160
+#, no-c-format
+msgid ""
+"<phrase>The main window of &kgraphviewer; with several files opened</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:162
+#, no-c-format
+msgid ""
+"<para>The main window of &kgraphviewer; with several files opened</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:166
+#, no-c-format
+msgid ""
+"As you can see, if the graph is larger than the available area, a bird's-eye "
+"view is shown in one corner. You can choose with the context menu whether "
+"the optimal position of this overview should be automatically computed for "
+"you, or place it where you want yourself."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:169
+#, no-c-format
+msgid "Moving the Graph inside the Window"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:171
+#, no-c-format
+msgid "To move the graph, you can:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:173
+#, no-c-format
+msgid "Click and drag it;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:174
+#, no-c-format
+msgid "Use the scroll bars;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:175
+#, no-c-format
+msgid "Press the arrows keys;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:176
+#, no-c-format
+msgid "Click somewhere in the bird's-eye view;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:177
+#, no-c-format
+msgid ""
+"Use the mouse wheel (up and down with no modifier, left and right with the "
+"&Alt; key pressed);"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:178
+#, no-c-format
+msgid "or click and drag in the bird's-eye view."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:183
+#, no-c-format
+msgid "Zooming"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:185
+#, no-c-format
+msgid ""
+"To zoom, you can either use the <guibutton><inlinemediaobject> <imageobject> "
+"<imagedata fileref=\"kgraphviewer-but-zoomin.png\" format=\"PNG\"/> </"
+"imageobject> </inlinemediaobject> </guibutton> and "
+"<guibutton><inlinemediaobject> <imageobject> <imagedata fileref="
+"\"kgraphviewer-but-zoomout.png\" format=\"PNG\"/> </imageobject> </"
+"inlinemediaobject> </guibutton> toolbar buttons to zoom in and out, or hold "
+"down the &Shift; key while rolling your mouse wheel. While zooming in, the "
+"red rectangle in the bird's-eye view that indicates the displayed zone gets "
+"smaller and smaller. If it were to get smaller than 10 pixels in its shorter "
+"side, it will be replaced by a filled red rectangle in order to stay "
+"visible. You can see that on the screenshot below."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:202
+#, no-c-format
+msgid "<screeninfo>A graph at the maximal zoom in level</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:208
+#, no-c-format
+msgid "<phrase>A graph at the maximal zoom in level</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:210
+#, no-c-format
+msgid "<para>A graph at the maximal zoom in level</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:214
+#, no-c-format
+msgid ""
+"Zooming is limited in both directions by a factor of 10. You can see below "
+"the maximum zoom-out factor on a graph."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:217
+#, no-c-format
+msgid "<screeninfo>A graph at the maximum zoom-out level</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:223
+#, no-c-format
+msgid "<phrase>A graph at the maximum zoom-out level</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:225
+#, no-c-format
+msgid "<para>A graph at the maximum zoom-out level</para>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:231
+#, no-c-format
+msgid "Graph Files Handling"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:234
+#, no-c-format
+msgid "Files Modified on Disk"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:236
+#, no-c-format
+msgid ""
+"If a file currently loaded in &kgraphviewer; is modified by another program, "
+"the following dialog is shown:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:240
+#, no-c-format
+msgid "<screeninfo>Dialog to reload a file modified on disk</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:246
+#, no-c-format
+msgid "<phrase>Dialog to reload a file modified on disk</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:248
+#, no-c-format
+msgid "<para>Dialog to reload a file modified on disk</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:252
+#, no-c-format
+msgid ""
+"You can choose to reload the graph or to ignore the change. You can also get "
+"&kgraphviewer; to remember your choice, so it will do the same thing the "
+"next time. If you later want to modify your choice, choose the "
+"<menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure "
+"&kgraphviewer;...</guimenuitem></menuchoice> menu item. See <xref linkend="
+"\"kgraphviewer-configuration\"/>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:255
+#, no-c-format
+msgid "Files and Windows"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:256
+#, no-c-format
+msgid ""
+"When you open a graph file from outside a running &kgraphviewer; instance, "
+"&eg; from a file browser or the command line, you have the choice to open a "
+"new &kgraphviewer; window or to open the graph in a new tab in the existing "
+"window. This is done with the dialog below."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:259
+#, no-c-format
+msgid "<screeninfo>Dialog to open a new window</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:265
+#, no-c-format
+msgid "<phrase>Dialog to open a new window</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:267
+#, no-c-format
+msgid "<para>Dialog to open a new window</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:271
+#, no-c-format
+msgid ""
+"As for the previous option, you can save your choice as the default and "
+"modify it later in the configuration dialog."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:276
+#, no-c-format
+msgid "Session Handling"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:278
+#, no-c-format
+msgid ""
+"At start-up, you can choose to reopen the graphs that you had opened the "
+"previous time. Again, you can save your choice and change it later."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:281
+#, no-c-format
+msgid ""
+"<screeninfo>Dialog to reload the graph of the previous session at start-up</"
+"screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:287
+#, no-c-format
+msgid ""
+"<phrase>Dialog to reload the graph of the previous session at start-up</"
+"phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:289
+#, no-c-format
+msgid ""
+"<para>Dialog to reload the graph of the previous session at start-up</para>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:300
+#, no-c-format
+msgid "Graph Printing"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:301
+#, no-c-format
+msgid ""
+"Try the <guibutton>Print preview</guibutton> or <guibutton>Page setup</"
+"guibutton> buttons to explore the printing options."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:304
+#, no-c-format
+msgid "<screeninfo>Page setup dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:310
+#, no-c-format
+msgid "<phrase>Page setup dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:312
+#, no-c-format
+msgid "<para>Page setup dialog</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:316
+#, no-c-format
+msgid ""
+"You can setup the printing options to fit the graph on exactly one page, as "
+"below:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:319
+#, no-c-format
+msgid "<screeninfo>Page preview setup to fit on one page</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:325
+#, no-c-format
+msgid "<phrase>Page preview setup to fit on one page</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:327
+#, no-c-format
+msgid "<para>Page preview setup to fit on one page</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:331
+#, no-c-format
+msgid ""
+"You can also choose how to divide the graph on multiple pages. The number of "
+"horizontal and vertical pages can be chosen independently."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:334
+#, no-c-format
+msgid ""
+"<screeninfo>Page preview set up to fit on multiple pages and to fill them</"
+"screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:340
+#, no-c-format
+msgid ""
+"<phrase>Page preview set up to fit on multiple pages and to fill them</"
+"phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:342
+#, no-c-format
+msgid ""
+"<para>Page preview set up to fit on multiple pages and to fill them</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:346
+#, no-c-format
+msgid ""
+"Finally, when using multiple pages, you can choose to make the part of the "
+"graph on each page to fit its page like above, not keeping the aspect ratio, "
+"or to keep it. In the latter case, the pages will not be filled."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:348
+#, no-c-format
+msgid "You can change the size of pages and the margins:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:351
+#, no-c-format
+msgid "<screeninfo>Page size and margins dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:357
+#, no-c-format
+msgid "<phrase>Page size and margins dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:359
+#, no-c-format
+msgid "<para>Page size and margins dialog</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:363
+#, no-c-format
+msgid "You can also change the font, headers and footers:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:366
+#, no-c-format
+msgid ""
+"Page preview setup to fit on multiple pages without header and with a "
+"different font"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:372
+#, no-c-format
+msgid ""
+"<phrase>Page preview setup to fit on multiple pages without header and a "
+"different font</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:374
+#, no-c-format
+msgid ""
+"<para>Page preview setup to fit on multiple pages without header and a "
+"different font</para>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:381
+#, no-c-format
+msgid "Configuring &kgraphviewer;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:383
+#, no-c-format
+msgid ""
+"The <guilabel>Appearance</guilabel> page allows to change the default "
+"background color used in &kgraphviewer; if a graph does not have its own "
+"background color."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:387
+#, no-c-format
+msgid "<screeninfo>Page to change the appearance of a graph</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:393
+#, no-c-format
+msgid "<phrase>Page to change the appearance of a graph</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:395
+#, no-c-format
+msgid "<para>Page to change the appearance of a graph</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:399
+#, no-c-format
+msgid ""
+"The <guilabel>Parsing</guilabel> page allows to select an external command "
+"or the internal library for parsing &graphviz; &dot; files."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:403 index.docbook:418
+#, no-c-format
+msgid ""
+"<screeninfo>Page to reload files modified on disk in the configuration "
+"dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:409 index.docbook:424
+#, no-c-format
+msgid ""
+"<phrase>Page to reload files modified on disk in the configuration dialog</"
+"phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:411 index.docbook:426
+#, no-c-format
+msgid ""
+"<para>Page to reload files modified on disk in the configuration dialog</"
+"para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:415
+#, no-c-format
+msgid ""
+"The <guilabel>Reload</guilabel> page allows to change the behavior of "
+"&kgraphviewer; when a file is changed on disk by another application. You "
+"can choose a default action (reload automatically or ignore changes), or to "
+"be asked each time."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:430
+#, no-c-format
+msgid ""
+"The <guilabel>Opening</guilabel> page allows to change the behavior of "
+"&kgraphviewer; when a graph file is opened from outside the current session. "
+"You can choose a default action (open in an existing window or in a new "
+"one), or to be asked each time."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:433
+#, no-c-format
+msgid ""
+"<screeninfo>Page to open new files in an existing window in the "
+"configuration dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:439
+#, no-c-format
+msgid ""
+"<phrase>Page to open new files in an existing window in the configuration "
+"dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:441
+#, no-c-format
+msgid ""
+"<para>Page to open new files in an existing window in the configuration "
+"dialog</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:445
+#, no-c-format
+msgid ""
+"The <guilabel>Session Management</guilabel> page allows to change the "
+"&kgraphviewer;'s start-up behavior. You can choose a default action (reopen "
+"files of the previous session or not), or to be asked each time."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:448
+#, no-c-format
+msgid ""
+"<screeninfo>Page to reopen files of the previous session in the "
+"configuration dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:454
+#, no-c-format
+msgid ""
+"<phrase>Page to reopen files of the previous session in the configuration "
+"dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:456
+#, no-c-format
+msgid ""
+"<para>Page to reopen files of the previous session in the configuration "
+"dialog</para>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:463
+#, no-c-format
+msgid "Miscellaneous Functions"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:465
+#, no-c-format
+msgid ""
+"The context menu, usually obtained by clicking the &RMB; in the graph view, "
+"offers some other possibilities:"
+msgstr ""
+
+#. Tag: guisubmenu
+#: index.docbook:468
+#, no-c-format
+msgid "Layout"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:469
+#, no-c-format
+msgid ""
+"This allows to choose between various &graphviz; layout algorithms or to "
+"choose your own one. The entries, as described on the &graphviz; homepage, "
+"are the following:"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:473
+#, no-c-format
+msgid "&dot;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:474
+#, no-c-format
+msgid ""
+"&dot; algorithm, default for directed graphs. It produces "
+"<quote>hierarchical</quote> or layered drawings of directed graphs. The "
+"layout algorithm lays edges in the same direction (top to bottom, or left to "
+"right), and then attempts to avoid edge crossings and to reduce edge length."
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:478
+#, no-c-format
+msgid "&neato;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:479
+#, no-c-format
+msgid ""
+"&neato; algorithm, default for undirected graphs. It produces <quote>spring "
+"model</quote> layouts. It uses the Kamada-Kawai algorithm, which is "
+"equivalent to statistical multi-dimensional scaling."
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:483
+#, no-c-format
+msgid "&twopi;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:484
+#, no-c-format
+msgid ""
+"&twopi; algorithm, for directed and undirected graphs. Radial layout, after "
+"Graham Wills 1997."
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:488
+#, no-c-format
+msgid "&fdp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:489
+#, no-c-format
+msgid ""
+"&fdp; algorithm, for undirected graphs. It produces <quote>spring model</"
+"quote> layouts. It implements the Fruchterman-Reingold heuristic including a "
+"multigrid solver that handles larger graphs and clustered undirected graphs."
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:493
+#, no-c-format
+msgid "&circo;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:494
+#, no-c-format
+msgid ""
+"&circo; algorithm. It produces a circular layout, after Six and Tollis 1999, "
+"Kauffman and Wiese 2002. Suitable for certain diagrams of multiple cyclic "
+"structures."
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:498
+#, no-c-format
+msgid "Specify Layout Command…"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:499
+#, no-c-format
+msgid ""
+"Opens a dialog allowing you to specify a layout command executed by the "
+"shell. This command should accept one parameter, the graph file name, and "
+"write its layout on stdout in the xdot language. This way, you can give "
+"specific options to one of the previous commands, or apply a filter "
+"modifying your graph before running it through &dot;."
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:503
+#, no-c-format
+msgid "Reset Layout Command to Default"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:504
+#, no-c-format
+msgid ""
+"Determine the graph type (directed or not) and apply the default algorithm "
+"to it, currently &dot; and &neato; respectively."
+msgstr ""
+
+#. Tag: guisubmenu
+#: index.docbook:511
+#, no-c-format
+msgid "Export Graph"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:515
+#, no-c-format
+msgid "As Image…"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:516
+#, no-c-format
+msgid "Allows to export the full graph to all supported image formats."
+msgstr ""
+
+#. Tag: guimenu
+#: index.docbook:523
+#, no-c-format
+msgid "Enable Bird's-Eye View"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:524 index.docbook:643
+#, no-c-format
+msgid ""
+"When checked, the Bird's-eye view is displayed when necessary. Otherwise, it "
+"is hidden and its positioning menu is disabled."
+msgstr ""
+
+#. Tag: guisubmenu
+#: index.docbook:528
+#, no-c-format
+msgid "Bird's-Eye View Position"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:529
+#, no-c-format
+msgid ""
+"Configure where to place the bird's-eye view in the graph view. The possible "
+"choices are:"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:532 index.docbook:651
+#, no-c-format
+msgid "Top Left"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:533 index.docbook:652
+#, no-c-format
+msgid "Places the bird's-eye view at the top left corner;"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:537 index.docbook:656
+#, no-c-format
+msgid "Top Right"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:538 index.docbook:657
+#, no-c-format
+msgid "Places the bird's-eye view at the top right corner;"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:542 index.docbook:661
+#, no-c-format
+msgid "Bottom Left"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:543 index.docbook:662
+#, no-c-format
+msgid "Places the bird's-eye view at the bottom left corner;"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:547 index.docbook:666
+#, no-c-format
+msgid "Bottom Right"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:548 index.docbook:667
+#, no-c-format
+msgid "Places the bird's-eye view at the bottom right corner;"
+msgstr ""
+
+#. Tag: guimenuitem
+#: index.docbook:552 index.docbook:671
+#, no-c-format
+msgid "Automatic"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:553 index.docbook:672
+#, no-c-format
+msgid ""
+"Automatically choose the best position to hide as little of the graph as "
+"possible."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:566
+#, no-c-format
+msgid "Command Reference"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:569
+#, no-c-format
+msgid "The &kgraphviewer; Menus"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:572
+#, no-c-format
+msgid "The File Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:576
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></"
+"shortcut><guimenu>File</guimenu><guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:577
+#, no-c-format
+msgid "<action>Opens</action> a new &kgraphviewer; window."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:581
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo></"
+"shortcut><guimenu>File</guimenu><guimenuitem>Open</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:582
+#, no-c-format
+msgid "<action>Displays</action> the <guilabel>Open File</guilabel> dialog."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:586
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>Open Recent</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:587
+#, no-c-format
+msgid ""
+"<action>Displays</action> the list of the ten most recently opened graph "
+"files."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:591
+#, no-c-format
+msgid ""
+"<guimenu>File</guimenu><guisubmenu>Export Graph</guisubmenu><guimenuitem>As "
+"Image…</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:592
+#, no-c-format
+msgid ""
+"Allows to <action>export</action> the full graph to all supported image "
+"formats."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:596
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo></"
+"shortcut><guimenu>File</guimenu><guimenuitem>Print...</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:597
+#, no-c-format
+msgid ""
+"<action>Prints</action> the current graph using the currently set print "
+"parameters."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:601
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>P</keycap></"
+"keycombo></shortcut><guimenu>File</guimenu><guimenuitem>Print Preview...</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:602
+#, no-c-format
+msgid ""
+"<action>Opens</action> the <guilabel>Print Preview</guilabel> window for the "
+"current graph."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:606
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>Page Setup…</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:607
+#, no-c-format
+msgid ""
+"<action>Opens</action> the <guilabel>Page Setup</guilabel> dialog for the "
+"current graph."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:611
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></"
+"shortcut><guimenu>File</guimenu><guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:612
+#, no-c-format
+msgid "<action>Quits</action> &kgraphviewer;."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:618
+#, no-c-format
+msgid "The View Menu"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:622
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo></"
+"shortcut><guimenu>View</guimenu><guimenuitem>Zoom In</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:623 index.docbook:741
+#, no-c-format
+msgid "<action>Zoom in</action> the current graph by 10%."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:627
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo></"
+"shortcut><guimenu>View</guimenu><guimenuitem>Zoom Out</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:628 index.docbook:746
+#, no-c-format
+msgid "<action>Zoom out</action> the current graph by 10%."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:632
+#, no-c-format
+msgid "<guimenu>View</guimenu><guimenuitem>Refresh</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:633
+#, no-c-format
+msgid "<action>Reloads</action> the current graph."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:637
+#, no-c-format
+msgid "<guimenu>View</guimenu><guisubmenu>Layout Algorithm</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:638
+#, no-c-format
+msgid ""
+"Opens a submenu with various &graphviz; layout algorithms for the current "
+"graph."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:642
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>B</keycap></keycombo></"
+"shortcut><guimenu>View</guimenu><guimenuitem>Enable Bird's-Eye View</"
+"guimenuitem>"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:647
+#, no-c-format
+msgid ""
+"<guimenu>View</guimenu><guimenuitem>Bird's-Eye View Position</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:648
+#, no-c-format
+msgid ""
+"Configure where to place the Bird's-eye view in the graph view. Choices are:"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:681
+#, no-c-format
+msgid "The Settings and Help Menu"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:683
+#, no-c-format
+msgid ""
+"&kgraphviewer; has the common &kde; <guimenu>Settings</guimenu> and "
+"<guimenu>Help</guimenu> menu items, for more information read the sections "
+"about the <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:692
+#, no-c-format
+msgid "The &kgraphviewer; Toolbars"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:695
+#, no-c-format
+msgid "The Main Toolbar"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:700
+#, no-c-format
+msgid "<action>Shows</action> the <guilabel>Open File</guilabel> dialog."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:705
+#, no-c-format
+msgid "<action>Shows</action> the list of recently opened files."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:715
+#, no-c-format
+msgid "<action>Shows</action> the <guilabel>Print Preview</guilabel> dialog."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:726
+#, no-c-format
+msgid "The View Toolbar"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:736
+#, no-c-format
+msgid ""
+"<action>Edits</action> the layout command or <action>shows</action> the list "
+"of preset layout algorithms."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:753
+#, no-c-format
+msgid "The Help Toolbar"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:758
+#, no-c-format
+msgid ""
+"<action>Displays</action> the <guilabel>What's This</guilabel> mouse "
+"pointer. Click with it on a &GUI; element to obtain help using it (if there "
+"is such help available)."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:767
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:770
+#, no-c-format
+msgid "Program"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:773
+#, no-c-format
+msgid "Main Authors"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:774
+#, no-c-format
+msgid ""
+"Program copyright 2005-2006 Gaël de Chalendar <email>kleag@free.fr</email>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:778
+#, no-c-format
+msgid "Contributors (to be completed)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:780
+#, no-c-format
+msgid "Reimar Döffinger <email>Reimar.Doeffinger@stud.uni-karlsruhe.de</email>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:786
+#, no-c-format
+msgid "User Guide"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:787
+#, no-c-format
+msgid ""
+"Documentation copyright 2006 Gaël de Chalendar <email>kleag@free.fr</email>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:789
+#, no-c-format
+msgid "Contributors"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:791
+#, no-c-format
+msgid "Federico Zenith <email>federico.zenith@member.fsf.org</email>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:797
+#, no-c-format
+msgid "Other Credits"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:798
+#, no-c-format
+msgid ""
+"This program contains reused code from the following Free Software projects:"
+msgstr ""
+
+#. Tag: ulink
+#: index.docbook:801
+#, no-c-format
+msgid "&kcachegrind;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:802
+#, no-c-format
+msgid "Initial graph model and view classes;"
+msgstr ""
+
+#. Tag: ulink
+#: index.docbook:806
+#, no-c-format
+msgid "&kexi;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:807
+#, no-c-format
+msgid "Print setup and preview classes."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:812
+#, no-c-format
+msgid "Licenses"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:813
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: sect1
+#: index.docbook:813
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

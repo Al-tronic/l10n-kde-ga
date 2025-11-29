@@ -1,0 +1,832 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:10
+#, no-c-format
+msgid "The &kreversi; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:14
+#, no-c-format
+msgid "<firstname>Clay</firstname> <surname>Pradarits</surname>"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:18
+#, no-c-format
+msgid "&Clay.Pradarits.mail;"
+msgstr ""
+
+#. Tag: othercredit
+#: index.docbook:22
+#, no-c-format
+msgid "<firstname>Mario</firstname> <surname>Weilguni</surname>"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:26
+#, no-c-format
+msgid "&Mario.Weilguni.mail;"
+msgstr ""
+
+#. Tag: contrib
+#: index.docbook:27
+#, no-c-format
+msgid "Developer"
+msgstr ""
+
+#. Tag: othercredit
+#: index.docbook:30
+#, no-c-format
+msgid "<firstname>Lauri</firstname> <surname>Watts</surname>"
+msgstr ""
+
+#. Tag: contrib
+#: index.docbook:33
+#, no-c-format
+msgid "Reviewer"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:34
+#, no-c-format
+msgid "&Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:38
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:41
+#, no-c-format
+msgid "2021-08-12"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:42
+#, no-c-format
+msgid "2.1 (KDE Gear 21.08)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:46
+#, no-c-format
+msgid "This documentation describes the game of &kreversi; version 2.1"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:51
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:52
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:53
+#, no-c-format
+msgid "game"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:54
+#, no-c-format
+msgid "Kreversi"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:56
+#, no-c-format
+msgid "board"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:57
+#, no-c-format
+msgid "arcade"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:58
+#, no-c-format
+msgid "<keyword>GO</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:59
+#, no-c-format
+msgid "reversi"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:61
+#, no-c-format
+msgid "one player"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:63
+#, no-c-format
+msgid "stones"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:64
+#, no-c-format
+msgid "white"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:65
+#, no-c-format
+msgid "black"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:69
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:70
+#, no-c-format
+msgid "Gametype:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:70
+#, no-c-format
+msgid "Board, Arcade"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:71
+#, no-c-format
+msgid "Number of possible players:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:71
+#, no-c-format
+msgid "<para>One</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid ""
+"&kreversi; is a simple one player strategy game played against the computer. "
+"The playing field is an 8 by 8 square board divided into 64 squares. The "
+"game pieces used are two sided stones, where each side has its own, "
+"distinctive color. If a piece is captured by an opposing player, that piece "
+"is turned over to reveal the color of that player. A winner is declared when "
+"one player has more pieces of his own color on the board and there are no "
+"more possible moves."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:83
+#, no-c-format
+msgid "How to Play"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:85
+#, no-c-format
+msgid "Objective:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:85
+#, no-c-format
+msgid "Get control over the majority of squares on the board."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:87
+#, no-c-format
+msgid ""
+"&kreversi; loads directly into the <guilabel>New game</guilabel> dialog "
+"where you select the game mode, &ie; play against the computer or another "
+"human player. As a first player you have the right to move first."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:91
+#, no-c-format
+msgid "By default the human player always has a right to the first move."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:92
+#, no-c-format
+msgid ""
+"Now, imagine yourself that with each move your stone has to hop (jump) over "
+"the enemy's one (or ones, as there might be more than one stone). Yet, your "
+"stone does not relocate after the move, instead a new stone is placed on the "
+"board onto where your stone would have appeared if it indeed could jump. "
+"Once the move is done, all the enemy stones that you jump over, become yours "
+"and change their color respectively."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:93
+#, no-c-format
+msgid ""
+"Every single move you do in &kreversi; has to be done in this manner. And "
+"you can jump your stones vertically, horizontally and diagonally. But, in "
+"case there is nowhere to jump, your turn will automatically skip."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:94
+#, no-c-format
+msgid ""
+"The same rule applies to your enemy. If there is no possibility to make a "
+"move the turn is skipped."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:95
+#, no-c-format
+msgid ""
+"The idea here is to fill the board with the stones of your own color. The "
+"player who manages to conquer the most of the game board is announced the "
+"winner."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:99
+#, no-c-format
+msgid "Game Rules, Strategies and Tips"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:102
+#, no-c-format
+msgid "Game Basics"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:104
+#, no-c-format
+msgid ""
+"A move consists of outflanking your opponents stone(s), then flipping the "
+"outflanked stone(s) to reveal your color. A move is performed by placing the "
+"mouse pointer over the desired square then &LMB; click."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:108
+#, no-c-format
+msgid ""
+"To outflank means to place a stone on the board so that your opponent's "
+"row(s) of stone(s) is bordered at each end by a stone of your color. A row "
+"may be made up of one or more stones."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:112
+#, no-c-format
+msgid "The game starts with the <guilabel>New game</guilabel> dialog."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:115
+#, no-c-format
+msgid "<screeninfo>&kreversi; Game Mode Selection</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:118
+#, no-c-format
+msgid "<phrase>&kreversi; Game Mode Selection</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:119
+#, no-c-format
+msgid "Game Mode Selection"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:123
+#, no-c-format
+msgid ""
+"To see a demo of the game select <guilabel>Computer</guilabel> for both "
+"players."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:125
+#, no-c-format
+msgid ""
+"Each player automatically has two stones placed in the center four squares "
+"of the board in the following pattern:"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:129
+#, no-c-format
+msgid "<screeninfo>&kreversi; opening position</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:132
+#, no-c-format
+msgid "<phrase>&kreversi; opening position</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:133
+#, no-c-format
+msgid "Board Layout"
+msgstr ""
+
+#. Tag: interface
+#: index.docbook:139
+#, no-c-format
+msgid "Menu Bar"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:140
+#, no-c-format
+msgid ""
+"The <interface>Menu Bar</interface> contains several choices of drop-down "
+"menus. These are <guimenu>Game</guimenu>, <guimenu>Move</guimenu>, "
+"<guimenu>View</guimenu>, <guimenu>Settings</guimenu> and <guimenu>Help</"
+"guimenu>. Click with the &LMB; or <keycombo action=\"simul\">&Alt;"
+"<keycap>the underlined letter</keycap></keycombo> to show the drop-down menu."
+msgstr ""
+
+#. Tag: interface
+#: index.docbook:148
+#, no-c-format
+msgid "Toolbar"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:149
+#, no-c-format
+msgid ""
+"Provides the player with icon shortcuts for commonly used actions. These are "
+"<inlinemediaobject><imageobject><imagedata fileref=\"document-new.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> <guiicon>New</guiicon>, "
+"<inlinemediaobject><imageobject><imagedata fileref=\"edit-undo.png\" format="
+"\"PNG\"/></imageobject></inlinemediaobject> <guiicon>Undo</guiicon>, "
+"<inlinemediaobject><imageobject><imagedata fileref=\"games-hint.png\" format="
+"\"PNG\"/></imageobject></inlinemediaobject> <guiicon>Hint</guiicon>, "
+"<inlinemediaobject><imageobject><imagedata fileref=\"actions-lastmoves.png\" "
+"format=\"PNG\"/></imageobject></inlinemediaobject> <guiicon>Show Last Move</"
+"guiicon>, and <inlinemediaobject><imageobject><imagedata fileref=\"actions-"
+"legalmoves.png\" format=\"PNG\"/></imageobject></inlinemediaobject> "
+"<guiicon>Show Legal Moves</guiicon>. Place the mouse pointer over any of "
+"these icons and click with the &LMB; to activate."
+msgstr ""
+
+#. Tag: interface
+#: index.docbook:165
+#, no-c-format
+msgid "Game Board"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:166
+#, no-c-format
+msgid "Consists of a 8 by 8 square board divided into 64 squares."
+msgstr ""
+
+#. Tag: interface
+#: index.docbook:170
+#, no-c-format
+msgid "Status Bar"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:171
+#, no-c-format
+msgid ""
+"Displays whose turn it is. As well as a drop-down box to choose the level of "
+"difficulty."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:177
+#, no-c-format
+msgid "Game Rules"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:179
+#, no-c-format
+msgid "You always move first."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:181
+#, no-c-format
+msgid ""
+"If on your turn you cannot outflank and flip at least one opposing stone, "
+"your turn is forfeited and your opponent moves again. However, if a move is "
+"available to you, you may not forfeit your turn."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:186
+#, no-c-format
+msgid ""
+"A stone may outflank any number of stones in one or more rows in any number "
+"of directions at the same time - horizontally, vertically or diagonally. A "
+"row is defined as one or more stones in a continuous straight line."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:191
+#, no-c-format
+msgid ""
+"You may not skip over your own color stone to outflank an opposing stone."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:194
+#, no-c-format
+msgid ""
+"Stones may only be outflanked as a direct result of a move and must fall in "
+"the direct line of the stone placed down."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:197
+#, no-c-format
+msgid ""
+"All stones outflanked in any one move must be flipped, even if it is to the "
+"player's advantage not to flip them."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:200
+#, no-c-format
+msgid ""
+"Once a stone is placed on a square, it can never be moved to another square "
+"later in the game."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:203
+#, no-c-format
+msgid ""
+"When it is no longer possible for either player to move, the game is over. "
+"Stones are then counted and the player with the majority of his or her color "
+"discs on the board is declared the winner."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid "It is possible for a game to end before all 64 squares are filled."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:213
+#, no-c-format
+msgid "Strategies and Tips"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:215
+#, no-c-format
+msgid ""
+"Try to place stones on the corners whenever possible. Your opponent cannot "
+"outflank these stones."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:218
+#, no-c-format
+msgid ""
+"Avoid placing stones on one of the three neighbor fields of a corner unless "
+"you are absolutely sure that your opponent will not be able to put a stone "
+"on a corner."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:222
+#, no-c-format
+msgid "Sometimes it is better to offer some stones to your opponent."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:225
+#, no-c-format
+msgid "Try to put stones on fields which prevent your opponent from moving."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:228
+#, no-c-format
+msgid ""
+"Try to force your opponent to put a stone in a neighboring field of a corner."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:234
+#, no-c-format
+msgid "Interface Overview"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:237
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:241
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:243
+#, no-c-format
+msgid "Starts a new game."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:247
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo></"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>Show High Scores</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:249
+#, no-c-format
+msgid "Opens a dialog that displays different high score tables."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:256
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:258
+#, no-c-format
+msgid "Exit &kreversi;."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:262
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo></"
+"shortcut> <guimenu>Move</guimenu> <guimenuitem>Undo</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:264
+#, no-c-format
+msgid ""
+"<action>Removes your last move</action> as well as the computer's last move "
+"from the board."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:268
+#, no-c-format
+msgid ""
+"<shortcut><keycap>H</keycap></shortcut> <guimenu>Move</guimenu> "
+"<guimenuitem>Hint</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:270
+#, no-c-format
+msgid "The computer will <action>provide a hint for your next move.</action>"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:274
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Show Last Move</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:275
+#, no-c-format
+msgid "Highlights your opponent's last move."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:279
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Show Legal Moves</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:280
+#, no-c-format
+msgid ""
+"<action>Highlights all the moves available</action> for your current move."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:284
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Show Move History</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:285
+#, no-c-format
+msgid "Enables/Disables the move history sidebar."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:289
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guisubmenu>Animation Speed</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:290
+#, no-c-format
+msgid ""
+"<action>A submenu to set the game animation speed</action> between "
+"<guimenuitem>Slow</guimenuitem>, <guimenuitem>Normal</guimenuitem>, and "
+"<guimenuitem>Fast</guimenuitem> options."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:294
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu> <guimenuitem>Use Colored Chips</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:295
+#, no-c-format
+msgid ""
+"<action>Toggle the color of the stones between black and white (default),</"
+"action> and red and blue."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:299
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guisubmenu>Difficulty</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:300
+#, no-c-format
+msgid ""
+"<action>Set the difficulty</action> from <guimenuitem>Very Easy</"
+"guimenuitem> to <guimenuitem>Impossible</guimenuitem>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:304
+#, no-c-format
+msgid ""
+"Additionally &kreversi; has the common &kde; <guimenu>Settings</guimenu> and "
+"<guimenu>Help</guimenu> menu items, for more information read the sections "
+"about the <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:313
+#, no-c-format
+msgid "Frequently asked questions"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:318
+#, no-c-format
+msgid "I want to change the way this game looks. Can I?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:319
+#, no-c-format
+msgid ""
+"The only part of the game that can be changed is the color of the stones. To "
+"change the color of the stones use the <menuchoice><guimenu>Settings</"
+"guimenu> <guimenuitem>Use Colored Chips</guimenuitem></menuchoice> menu item."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:322
+#, no-c-format
+msgid "Can I use the keyboard to play the game?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:323
+#, no-c-format
+msgid "No. &kreversi; does not provide for the keyboard play."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:326
+#, no-c-format
+msgid ""
+"I have to quit the game now, but I am not finished yet. Can I save my "
+"progress?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:327
+#, no-c-format
+msgid "No. &kreversi; does not have a <quote>Save</quote> feature."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:334
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:337
+#, no-c-format
+msgid "&kreversi;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:341
+#, no-c-format
+msgid "Program Copyright 1998-2000 &Mario.Weilguni;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:342
+#, no-c-format
+msgid "Mats Luthman - Designer of the move engine."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:344
+#, no-c-format
+msgid "Original documentation by &Mario.Weilguni;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:345
+#, no-c-format
+msgid "Edited by Robert Williams"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:347
+#, no-c-format
+msgid ""
+"Documentation re-written and updated for 2.0 by &Clay.Pradarits; &Clay."
+"Pradarits.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:350
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:350
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

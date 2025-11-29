@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:10
+#, no-c-format
+msgid "Performance"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Mike.McBride; &Mike.McBride.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:16
+#, no-c-format
+msgid "2016-11-08"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:17
+#, no-c-format
+msgid "Applications 16.12"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:20
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:21
+#, no-c-format
+msgid "Systemsettings"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:22
+#, no-c-format
+msgid "performance"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:23
+#, no-c-format
+msgid "preload"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:28
+#, no-c-format
+msgid "Performance Settings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:30
+#, no-c-format
+msgid ""
+"&konqueror; is used on a wide variety of computers by a wide variety of "
+"users. Under the category of performance, this dialog allows each user to "
+"adjust options which may make the computer that &konqueror; is installed on "
+"feel more responsive."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:32
+#, no-c-format
+msgid "Preloading"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:33
+#, no-c-format
+msgid ""
+"The subsection labeled <guilabel>Preloading</guilabel> makes a tradeoff "
+"between memory and performance."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:35
+#, no-c-format
+msgid ""
+"<emphasis>Preloading</emphasis> refers to loading an instance of &konqueror; "
+"into memory before a user asks to start &konqueror;. The positive effect of "
+"this is that when a user asks to load &konqueror; the window appears "
+"instantly because most of the application has been preloaded. The negative "
+"effect is that this instance of &konqueror; uses memory that could be used "
+"by other programs. By default, when a user closes &konqueror;, the instance "
+"is not closed. This means that the next time a user wants &konqueror; "
+"loaded, it is nearly instantaneous again."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:37
+#, no-c-format
+msgid ""
+"The final check box labeled <guilabel>Always try to have at least one "
+"preloaded instance</guilabel> signals that you always want to have one "
+"preloaded, but not used, instance of &konqueror; available. This option will "
+"actually decrease performance on some machines (especially those with "
+"limited physical memory)."
+msgstr ""

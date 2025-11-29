@@ -1,0 +1,377 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: !ENTITY
+#: index.docbook:4
+#, no-c-format
+msgid ""
+"<!ENTITY i18n-translatable-entity \"<application>Translatable Entity</"
+"application>\">"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:19
+#, no-c-format
+msgid "The &kmyapplication; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:22
+#, no-c-format
+msgid ""
+"<personname> <firstname>Carl</firstname> <surname>Schwan</surname> </"
+"personname> <email>carl@carlschwan.eu</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:29
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:34
+#, no-c-format
+msgid "Carl Schwan"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:37
+#, no-c-format
+msgid "2022-09-08"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:39
+#, no-c-format
+msgid "Version 22.08.0"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:42
+#, no-c-format
+msgid ""
+"&kmyapplication; is a color contrast checker that allows users to verify if "
+"their color combinations are accessible for people with color vision "
+"deficiencies."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:48
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:49
+#, no-c-format
+msgid "Accessibility"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:50
+#, no-c-format
+msgid "Kontrast"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:56
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:58
+#, no-c-format
+msgid ""
+"&kmyapplication; allows the user to check the contrast ratio between colors "
+"and determine if the result is suitable for people with color vision "
+"deficiencies. Users may select colors in a variety of ways, for example, by "
+"inputting the hex values manually, or by using the color picker tool to "
+"select any color value on their screen."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:62
+#, no-c-format
+msgid ""
+"The contrast ratio check by this application is related to the difference in "
+"color between two objects that allows them to be distinguished. A contrast "
+"value of 21 indicates a perfect contrast (usually black on white) and a "
+"value of 0 indicates that the two colors are the same. The colors are "
+"checked against Web Content Accessibility Guidelines (<quote>WCAG</quote>)."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:70
+#, no-c-format
+msgid "Using &kmyapplication;"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:75
+#, no-c-format
+msgid "Here's a screenshot of &kmyapplication;"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:81
+#, no-c-format
+msgid "Screenshot of &kmyapplication;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:87
+#, no-c-format
+msgid ""
+"After opening the application, you will be presented with a screen similar "
+"to the one above - this is the main screen of &kmyapplication; and contains "
+"most of its features. A randomly selected text color, background color and "
+"their contrast ratio will be displayed as an example."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:92
+#, no-c-format
+msgid "Selecting Text and Background Colors"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:93
+#, no-c-format
+msgid ""
+"There are five main ways in which colors can be selected for comparison. "
+"These are outlined below."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:98
+#, no-c-format
+msgid "Input Hex Values"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:99
+#, no-c-format
+msgid ""
+"If you know the hex values of the colors that you would like to check, then "
+"you can input them directly. To do so, click on the hex value of the sample "
+"color currently on the screen and type in the desired value."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:103
+#, no-c-format
+msgid "Color Picker"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:104
+#, no-c-format
+msgid ""
+"If there is a color that you currently have on the screen - for example, "
+"from a sample image - then you can use the color picker tool to input this "
+"color directly into the application. To do so, click the color picker icon "
+"to the right of the hex value of the currently selected color, and click the "
+"color anywhere on the screen that you would like to sample. The color will "
+"then be selected in the application."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:108
+#, no-c-format
+msgid "Hue, Saturation and Lightness"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:109
+#, no-c-format
+msgid ""
+"If you would like to tweak your current selection to see if certain changes "
+"have an effect on the contrast, then you can do so by using the hue, "
+"saturation and lightness sliders. These are located underneath the hex value "
+"of the current selection. The color selection will automatically update as "
+"you make changes to these sliders."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:113
+#, no-c-format
+msgid "Invert"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"The <guimenuitem>Invert</guimenuitem> button will swap the two currently "
+"selected colors, setting the background color as the text color and vice "
+"versa."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:118
+#, no-c-format
+msgid "Randomize"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:119
+#, no-c-format
+msgid ""
+"The <guimenuitem>Randomize</guimenuitem> button will assign random colors to "
+"both the background and the text colors."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:124
+#, no-c-format
+msgid "Contrast Result"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:125
+#, no-c-format
+msgid ""
+"The contrast ratio resulting from your selection will be shown on the top of "
+"the screen, together with a short note explaining how well this contrast is "
+"suited to text of varying sizes. This text will be updated automatically as "
+"changes are made to the color values."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:131
+#, no-c-format
+msgid "Favorites"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:132
+#, no-c-format
+msgid ""
+"&kmyapplication; allows the user to save favourite color combinations for "
+"future reference. To do so, press the <guimenuitem>Mark as favourite</"
+"guimenuitem> located at the bottom of the screen. These color combinations "
+"can be accessed again through the <guimenuitem>Favorite Colors</guimenuitem> "
+"menu item, as more particularly described in the next chapter."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:139
+#, no-c-format
+msgid "Menu Options"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:141
+#, no-c-format
+msgid ""
+"This chapter describes all application features accessible after clicking "
+"the <guimenu>Menu</guimenu> icon in the top left corner."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:146
+#, no-c-format
+msgid "Contrast Checker"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:147
+#, no-c-format
+msgid ""
+"This is the default screen of the application, allowing the user to select "
+"colors and view their contrast ratio. The functionality is described in the "
+"previous chapter."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:153
+#, no-c-format
+msgid "Favorite Colors"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:154
+#, no-c-format
+msgid ""
+"This screen will contain all color combinations saved as \"favorite\" in the "
+"<guimenuitem>Contrast Checker</guimenuitem> screen. Color combinations may "
+"be deleted by pressing the <guimenuitem>Remove</guimenuitem> button."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:160
+#, no-c-format
+msgid "Help"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:161
+#, no-c-format
+msgid ""
+"This screen contains a brief summary of the theory behind this application, "
+"with an explanation of how contrast works and how best to interpret the "
+"contrast ratio in line with the WCAG standard."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:167
+#, no-c-format
+msgid "About"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:168
+#, no-c-format
+msgid ""
+"This screen contains some general information relating to the application, "
+"such as the authors and the libraries used. There is also a button that "
+"allows users to submit any bug that they may encounter to the developers."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:177
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:179
+#, no-c-format
+msgid "&kmyapplication;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:182
+#, no-c-format
+msgid ""
+"Program copyright 2020-2022 Carl Schwan <email>carl@carlschwan.eu</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:186
+#, no-c-format
+msgid ""
+"Documentation Copyright &copy; 2022 Vlad Rakhmanin <email>vladimir."
+"rakhmanin@ucdconnect.ie</email>"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:188
+#, no-c-format
+msgid "&underGPL;"
+msgstr ""

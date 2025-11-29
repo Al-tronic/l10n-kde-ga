@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#: faq.docbook:5
+#, no-c-format
+msgid "&Jack.H.Ostroff; &Jack.H.Ostroff.mail;"
+msgstr ""
+
+#. Tag: date
+#: faq.docbook:7
+#, no-c-format
+msgid "2024-12-01"
+msgstr ""
+
+#. Tag: releaseinfo
+#: faq.docbook:8
+#, no-c-format
+msgid "5.2.0"
+msgstr ""
+
+#. Tag: title
+#: faq.docbook:10
+#, no-c-format
+msgid "Questions and Answers"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:12
+#, no-c-format
+msgid ""
+"This chapter addresses a number of issues that frequently cause confusion, "
+"especially for new users of &kmymoney;. If you find that &kmymoney; is doing "
+"something you don't understand (or sometimes not doing something you want it "
+"to do,) please check this list before asking for help on one of the mailing "
+"lists. If your problem is not mentioned here, refer to the section on <link "
+"linkend=\"firsttime.contact\">getting help</link>."
+msgstr ""
+
+#. Tag: title
+#: faq.docbook:23
+#, no-c-format
+msgid "Installation and Startup Questions"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:27
+#, no-c-format
+msgid "&kmymoney; crashes when I try to launch it."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:30
+#, no-c-format
+msgid ""
+"There are many reasons &kmymoney; might crash or give an error instead of "
+"starting up normally. Sometimes an error message is shown, but if not, you "
+"can run &kmymoney; from a command line, to see if any useful information is "
+"output to the console. On &Linux;, this just means typing \"kmymoney\" in a "
+"shell. &macOS; should be similar. On &Windows;, you will need to type the "
+"full path to the &kmymoney; executable."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:38
+#, no-c-format
+msgid ""
+"If this does not show the cause of the problem, you need to determine if "
+"there is an issue with the software or with your data. To do this, you need "
+"to <link linkend=\"firsttime.launch\">launch &kmymoney;</link> without "
+"opening your data file. If the application starts up, but crashes when you "
+"try to load your data file, try loading an older copy of your file. (You did "
+"make a backup, didn't you?)"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:46
+#, no-c-format
+msgid ""
+"If &kmymoney; crashes on startup without trying to load a data file, there "
+"may be a problem with your installation. See the section on <link linkend="
+"\"firsttime.contact\">getting help</link>."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:56
+#, no-c-format
+msgid ""
+"Will &kmymoney; work on my X/&ubuntu; desktop? Will &kmymoney; work without "
+"a full &kde; desktop?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:62
+#, no-c-format
+msgid ""
+"Yes, &kmymoney; will work without a full &kde; desktop, but you will have to "
+"install the basic &kde; libraries first. The easiest way to do this is to "
+"use your distribution's package management system, which will handle these "
+"requirements automatically. If you are going to install from source, you "
+"will probably need development versions of those libraries."
+msgstr ""
+
+#. Tag: title
+#: faq.docbook:73
+#, no-c-format
+msgid "Configuration Questions"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:77
+#, no-c-format
+msgid ""
+"Can I change the start of the fiscal year, to match my tax year or "
+"accounting year?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:82
+#, no-c-format
+msgid ""
+"Yes, you can easily set the start of the year in the <link linkend=\"details."
+"settings.general.global\">Global Options</link> section of the "
+"<guilabel>Configure &kmymoney;</guilabel> dialog."
+msgstr ""
+
+#. Tag: title
+#: faq.docbook:90
+#, no-c-format
+msgid "Account and Transaction Questions"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:94
+#, no-c-format
+msgid "Why can't I edit a transaction?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:97
+#, no-c-format
+msgid ""
+"You cannot make any changes to a transaction with a date before the opening "
+"date of the account it is in. The most common reason for this is importing "
+"all the data for an account. If the import file does not contain an opening "
+"date for the account, &kmymoney; will use the current date. The way to fix "
+"this is to edit the account, and <link linkend=\"details.accounts.edit"
+"\">change the opening date</link> to be earlier than any transaction in that "
+"account."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:110
+#, no-c-format
+msgid "Why is a transaction shown in red and how can I get rid of the color?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:115
+#, no-c-format
+msgid ""
+"A transaction is shown in red if any part of the amount has not been "
+"assigned to a category. This is most commonly caused by importing a QIF or "
+"OFX file or by downloading statement data online. All you have to do is to "
+"modify the transaction such that the whole amount of the transaction is "
+"assigned to categories."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:127
+#, no-c-format
+msgid "Why can't I add an opening balance to an account?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:130
+#, no-c-format
+msgid ""
+"If you provide an opening balance when you create an account, it is shown as "
+"the first transaction for the account. If you do not, then the transaction "
+"is not there, and because it is a special type of transaction, you cannot "
+"simply add it as you could a deposit or withdrawal. However, you can add it "
+"later by <link linkend=\"details.accounts.edit\">editing the account</link>."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:142
+#, no-c-format
+msgid ""
+"When I created an account, I used the wrong type, and now it won't let me "
+"change it. I can edit the account, but the dropdown for account type is "
+"either disabled, or does not list all the possible types."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:149
+#, no-c-format
+msgid ""
+"You can easily change an account type between checking, savings, and cash. "
+"However, because of the way &kmymoney; stores the account information, it "
+"does not allow other changes of account type. The way around this is to "
+"<link linkend=\"details.accounts.create\">create a new account of the "
+"correct type</link>, move all the transactions from the old to the new "
+"account, and then <link linkend=\"details.accounts.delete\"> delete the old "
+"account.</link>"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:164
+#, no-c-format
+msgid ""
+"I have a loan with 0% interest, but I get an error in the New Loan Wizard "
+"that does not let me use this value."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:170
+#, no-c-format
+msgid ""
+"The internal calculations of the new loan wizard do not allow a 0% interest "
+"rate. The best way to handle this situation is to <link linkend=\"details."
+"accounts.create.account\">create a simple liability account</link> with a "
+"starting balance for the amount of the loan, and then <link linkend="
+"\"details.schedules.new\">create a schedule</link> for the required payments."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:182
+#, no-c-format
+msgid "Why don't I see all my transactions in the ledger?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:185
+#, no-c-format
+msgid ""
+"There are several settings that control which transactions are displayed in "
+"the Ledger View of an account. First, check the <link linkend=\"details."
+"ledgers.view.filter\">ledger filter area</link>. If there is anything typed "
+"in the search box, only transactions containing that text will be shown. If "
+"the status dropdown has been changed from <quote>Any status,</quote> then "
+"only transaction of the selected type will be shown. In addition, there are "
+"two important settings in the <link linkend=\"details.settings.general.filter"
+"\">filter options</link> section on the &kmymoney; Settings dialog. If the "
+"<guilabel>Do not show transactions prior to</guilabel> field is set, only "
+"transactions on or after that date will be shown in the ledger. If the "
+"<guilabel>Do not show reconciled transactions</guilabel> box is checked, "
+"then no reconciled transactions will be shown."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:205
+#, no-c-format
+msgid ""
+"I mistyped the name of a payee and want to change it in all transaction. Is "
+"there a global search/replace?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:211
+#, no-c-format
+msgid ""
+"There is no global search and replace function in &kmymoney;. Nevertheless, "
+"it is easy to change a payee's name: select the Payees View and find the "
+"entry with the name you want to change. Click with the &RMB; on the payee, "
+"select <guimenuitem>Rename payee</guimenuitem> from the context menu, and "
+"enter the new name. Since the transactions only use a reference to the "
+"payees record, all transactions now show the new name."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:224
+#, no-c-format
+msgid "Why can't I delete an account?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:227
+#, no-c-format
+msgid ""
+"In order to delete an account, &kmymoney; can have no other references to "
+"it. That means you must delete all transactions from that account or move "
+"them to another account. If you still can't delete an account, there may be "
+"scheduled transactions referring to that account, which may not be visible "
+"in the ledger. You need to delete any future transactions and the schedule "
+"itself, or switch them to a different account."
+msgstr ""
+
+#. Tag: title
+#: faq.docbook:239
+#, no-c-format
+msgid "Import and Export Questions"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:243
+#, no-c-format
+msgid "Where do I find some more information about OFX parameters?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:246
+#, no-c-format
+msgid ""
+"Searching the web with specific questions can sometimes provide useful "
+"results, but there is still one site which might give you more information: "
+"<ulink url=\"https://www.ofxhome.com/\">OFX Home</ulink>."
+msgstr ""
+
+#. Tag: title
+#: faq.docbook:256
+#, no-c-format
+msgid "Miscellaneous questions"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:260
+#, no-c-format
+msgid "Why is there no translation for 'my' language?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:263
+#, no-c-format
+msgid ""
+"&kmymoney; uses the &kde; settings for language, so first, make sure that "
+"your region and language settings are correct. If they are, the most likely "
+"reason is that no one has offered to translate it yet. Translating &kde;/"
+"&Qt;-based applications is very simple, and does not require any programming "
+"skills. If you would like to translate &kmymoney; into your language, please "
+"post a message to the proper <ulink url=\"https://l10n.kde.org/teams-list.php"
+"\">team mailing list</ulink>. Should you fail to find your language in the "
+"list or could not contact the team members please mail directly to the "
+"<ulink url=\"mailto:kde-i18n-doc@kde.org\">&kde; translation mailing list</"
+"ulink> (<ulink url=\"https://mail.kde.org/mailman/listinfo/kde-i18n-doc"
+"\">subscription</ulink> required) and someone will give you the details on "
+"how you can easily provide a translation for &kmymoney;."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:283
+#, no-c-format
+msgid ""
+"Why did the version number jump from 1.0.5 to 4.5, and what happened to "
+"KMyMoney2?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:289
+#, no-c-format
+msgid ""
+"The use of KMyMoney2 was a historical legacy from when the project went from "
+"&kde; 1 to &kde; 2. To avoid changing the name every time there was a new "
+"&kde; version, we decided to stick with &kmymoney;."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:294
+#, no-c-format
+msgid ""
+"The first version of &kmymoney; that was considered sufficiently stable was "
+"labeled 1.0, even though it ran under &kde; 3. As the project became more "
+"closely aligned with &kde; we decided to use the same major release number."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:305
+#, no-c-format
+msgid "How can I report a bug? How can I request a new feature?"
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:308
+#, no-c-format
+msgid ""
+"The developers encourage your feedback. See the section on <link linkend="
+"\"firsttime.contact\">Contacting the Developers/Reporting Bugs</link>."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:318
+#, no-c-format
+msgid ""
+"Why isn't there an easy way to print some scheduled transactions, or part of "
+"the ledger, or ..."
+msgstr ""
+
+#. Tag: para
+#: faq.docbook:324
+#, no-c-format
+msgid ""
+"Look in the <link linkend=\"details.reports.avail\">Reports</link> section. "
+"Many of the reports actually provide an easy way to print thing you can't "
+"quite do directly from the ledger or other screens."
+msgstr ""

@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#: man-extend_dmalloc.1.docbook:8
+#, no-c-format
+msgid ""
+"<personname><firstname>Ben</firstname><surname>Burton</surname></personname> "
+"<email>bab@debian.org</email>"
+msgstr ""
+
+#. Tag: date
+#: man-extend_dmalloc.1.docbook:10
+#, no-c-format
+msgid "2003-04-07"
+msgstr ""
+
+#. Tag: manvolnum
+#: man-extend_dmalloc.1.docbook:15
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#: man-extend_dmalloc.1.docbook:20
+#, no-c-format
+msgid "Analyze return-addresses from dmalloc logfiles."
+msgstr ""
+
+#. Tag: cmdsynopsis
+#: man-extend_dmalloc.1.docbook:24
+#, no-c-format
+msgid ""
+"<command>extend_dmalloc</command> <group><option><replaceable>dmalloc-log</"
+"replaceable> <command>binary</command></option></group>"
+msgstr ""
+
+#. Tag: title
+#: man-extend_dmalloc.1.docbook:31
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#: man-extend_dmalloc.1.docbook:33
+#, no-c-format
+msgid ""
+"<command>extend_dmalloc</command> will run <command>gdb</command>(1) to get "
+"information on the return-addresses from a <command>dmalloc</command>(1) "
+"logfile. Specifically it will examine any <literal>ra=</literal> lines and "
+"try to get the corresponding line numbers"
+msgstr ""
+
+#. Tag: para
+#: man-extend_dmalloc.1.docbook:35
+#, no-c-format
+msgid ""
+"The argument <option><command>binary</command></option> must be the binary "
+"that generated the log <filename>dmalloc-log</filename>."
+msgstr ""
+
+#. Tag: para
+#: man-extend_dmalloc.1.docbook:40
+#, no-c-format
+msgid "This utility is part of the &kde; Software Development Kit."
+msgstr ""
+
+#. Tag: title
+#: man-extend_dmalloc.1.docbook:47
+#, no-c-format
+msgid "Notes"
+msgstr ""
+
+#. Tag: para
+#: man-extend_dmalloc.1.docbook:48
+#, no-c-format
+msgid ""
+"You may wish to direct the output from <command>extend_dmalloc</command> to "
+"a file, since otherwise <command>gdb</command> seems to prompt for a return "
+"as if you are at the end of a page."
+msgstr ""

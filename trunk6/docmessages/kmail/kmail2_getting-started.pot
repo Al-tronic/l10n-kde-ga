@@ -1,0 +1,868 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#: getting-started.docbook:5
+#, no-c-format
+msgid "&Daniel.Naber; &Daniel.Naber.mail;"
+msgstr ""
+
+#. Tag: author
+#: getting-started.docbook:9
+#, no-c-format
+msgid "&David.Rugge; &David.Rugge.mail;"
+msgstr ""
+
+#. Tag: author
+#: getting-started.docbook:13
+#, no-c-format
+msgid ""
+"<firstname>Michel</firstname> <surname>Boyer de la Giroday</surname> "
+"<email>michel@klaralvdalens-datakonsult.se</email>"
+msgstr ""
+
+#. Tag: author
+#: getting-started.docbook:18
+#, no-c-format
+msgid "&Scarlett.Clark; &Scarlett.Clark.mail;"
+msgstr ""
+
+#. Tag: author
+#: getting-started.docbook:22
+#, no-c-format
+msgid "&David.Bryant; &David.Bryant.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: getting-started.docbook:27
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: getting-started.docbook:30
+#, no-c-format
+msgid "2020-08-18"
+msgstr ""
+
+#. Tag: releaseinfo
+#: getting-started.docbook:31
+#, no-c-format
+msgid "5.14.2 (Applications 20.04.2)"
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:35
+#, no-c-format
+msgid "Getting Started"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:37
+#, no-c-format
+msgid ""
+"This is a short introduction to &kmail; and its usage so you can start "
+"working with it right away. For more in-depth information see the <link "
+"linkend=\"using-kmail\">Using &kmail;</link> section."
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:42
+#, no-c-format
+msgid "<title>Account Wizard</title>"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:44
+#, no-c-format
+msgid ""
+"The first time you run &kmail; you will be greeted by the Account Wizard."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:45
+#, no-c-format
+msgid ""
+"If at any time you need to run the account wizard again, you can find it "
+"under <menuchoice><guimenu>Settings</guimenu><guimenuitem>Add Account</"
+"guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:47
+#, no-c-format
+msgid ""
+"The wizard will lead you through the process of creating an email account. "
+"Your screens will vary depending on how much the wizard can determine on its "
+"own. Here is an outline of the screens you will encounter while using this "
+"wizard."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:49 getting-started.docbook:77
+#: getting-started.docbook:105 getting-started.docbook:133
+#: getting-started.docbook:162 getting-started.docbook:187
+#: getting-started.docbook:199 getting-started.docbook:228
+#: getting-started.docbook:244 getting-started.docbook:275
+#: getting-started.docbook:308 getting-started.docbook:325
+#: getting-started.docbook:341 getting-started.docbook:357
+#: getting-started.docbook:392
+#, no-c-format
+msgid "&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:53
+#, no-c-format
+msgid ""
+"The first screen of the wizard is <guilabel>Provide personal data</"
+"guilabel>. It will prompt you for your basic account information: "
+"<guilabel>Full name:</guilabel>, <guilabel>E-mail address</guilabel>, and "
+"<guilabel>Password</guilabel>. By default, the <guilabel>Find provider "
+"settings on the Internet</guilabel> option is checked, so the wizard will "
+"attempt to retrieve the necessary information from the email server. Uncheck "
+"this option if you are an expert user and you want to set up an advanced "
+"configuration. Click the <guibutton>Next</guibutton> button when finished."
+msgstr ""
+
+#. Tag: screeninfo
+#: getting-started.docbook:59
+#, no-c-format
+msgid "<screeninfo>Account Wizard</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: getting-started.docbook:65
+#, no-c-format
+msgid "<phrase>Account Wizard</phrase>"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:68
+#, no-c-format
+msgid "The \"Provide personal data\" dialog"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:73
+#, no-c-format
+msgid ""
+"GMail accounts must use &IMAP;. If you have enabled 2-step verification for "
+"your GMail account, you will have to get a verification code from Google as "
+"part of the initial account setup process. You will not have to perform 2-"
+"factor verification after the &kmail; account has been created, because "
+"Google marks your &IMAP; link as fully trusted."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:81
+#, no-c-format
+msgid "The next screen helps you set up encryption keys for your mail."
+msgstr ""
+
+#. Tag: screeninfo
+#: getting-started.docbook:84
+#, no-c-format
+msgid "<screeninfo>Account Wizard 2</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: getting-started.docbook:90 getting-started.docbook:121
+#: getting-started.docbook:148
+#, no-c-format
+msgid "<phrase>Account Wizard 2</phrase>"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:93
+#, no-c-format
+msgid "The encryption options dialog"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:98
+#, no-c-format
+msgid ""
+"If you want to secure your communications with GnuPG you can generate a new "
+"key and publish the key on a public key server, or you can import an "
+"existing key. If you decide to generate a new key pair, do not forget the "
+"password used to generate it. You will need that password every time you "
+"want to use the key."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:102
+#, no-c-format
+msgid ""
+"When sending mail, &kmail; optionally looks for encryption keys for your "
+"recipients, and encrypts the message if a key can be found. &kmail; can also "
+"sign your mail cryptographically, so that each recipient can verify that "
+"your message has not been tampered with."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:109
+#, no-c-format
+msgid ""
+"A <guilabel>Setup complete</guilabel> screen will appear if the wizard "
+"determined the account type successfully. Click <guibutton>Details...</"
+"guibutton> to view the settings &kmail; has established. Click the "
+"<guibutton>Finish</guibutton> button to set up the account, complete the "
+"wizard, and close the window."
+msgstr ""
+
+#. Tag: screeninfo
+#: getting-started.docbook:115
+#, no-c-format
+msgid "Account Wizard 3"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:124
+#, no-c-format
+msgid "The account type selection dialog"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:129
+#, no-c-format
+msgid ""
+"If the wizard cannot determine your account type, the <guilabel>Select "
+"Account Type</guilabel> screen will appear. Select your account type from "
+"the list (if you do not know, you will need to contact your email provider). "
+"If your account type is not listed, click the <guibutton>Check for more on "
+"Internet</guibutton> button. Once your account type has been selected, click "
+"the <guibutton>Next</guibutton> button, and you will be presented with the "
+"<guilabel>Personal Settings</guilabel> screen."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:138
+#, no-c-format
+msgid ""
+"If the wizard could not locate your email server by searching the internet, "
+"the <guibutton>Personal Settings</guibutton> screen will appear."
+msgstr ""
+
+#. Tag: screeninfo
+#: getting-started.docbook:142
+#, no-c-format
+msgid "Account Wizard 4"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:151
+#, no-c-format
+msgid "The \"Personal Settings\" dialog"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:156
+#, no-c-format
+msgid ""
+"Be certain to enter all this information correctly. Select "
+"<guilabel>Download all messages for offline use</guilabel> if you want your "
+"messages to be accessible when you do not have an Internet connection "
+"(&IMAP; only). Click the <guibutton>Next</guibutton> button when finished. "
+"The <guilabel>Setup complete</guilabel> screen will appear."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:160
+#, no-c-format
+msgid ""
+"Your account has now been set up, and you can click the <guibutton>Finish</"
+"guibutton> button to complete the wizard and close the window, or click the "
+"<guibutton>Details...</guibutton> button to review the account settings."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:166
+#, no-c-format
+msgid ""
+"If you wish to create an account manually, please continue reading this "
+"chapter. Otherwise, you may safely skip ahead to <link linkend=\"testing-"
+"your-setup\">Testing your Setup</link>."
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:172
+#, no-c-format
+msgid "Manual Configuration Quickstart"
+msgstr ""
+
+#. Tag: screeninfo
+#: getting-started.docbook:174
+#, no-c-format
+msgid "<screeninfo>The configuration screen</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: getting-started.docbook:180
+#, no-c-format
+msgid "<phrase>The configuration screen</phrase>"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:183
+#, no-c-format
+msgid "&kmail;'s main configuration screen"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:189
+#, no-c-format
+msgid ""
+"The <menuchoice><guimenu>Settings</"
+"guimenu><guisubmenu><inlinemediaobject><imageobject><imagedata fileref="
+"\"configurebutton.png\" format=\"PNG\"/></imageobject></"
+"inlinemediaobject>Configure &kmail;...</guisubmenu></menuchoice> window "
+"consists of six sections: <guilabel>Accounts</guilabel>, "
+"<guilabel>Appearance</guilabel>, <guilabel>Composer</guilabel>, "
+"<guilabel>Security</guilabel>, <guilabel>Misc</guilabel>, and "
+"<guilabel>Plugins</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:194
+#, no-c-format
+msgid ""
+"To begin sending and receiving messages you will only have to change some "
+"settings on the <guilabel>Accounts</guilabel> page. Here is a brief synopsis "
+"of the steps you must take to set up a new mail account. For a more detailed "
+"description, please read the <link linkend=\"configure-generalinfo\"> "
+"Configure &kmail;</link> chapter."
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:202
+#, no-c-format
+msgid "Setting your Identity"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:206
+#, no-c-format
+msgid ""
+"To create a new identity, click the <guilabel>Add...</guilabel> button on "
+"the <guilabel>Identities</guilabel> tab associated with the "
+"<guilabel>Accounts</guilabel> page. A small pop-up window will appear."
+msgstr ""
+
+#. Tag: screeninfo
+#: getting-started.docbook:211
+#, no-c-format
+msgid "<screeninfo>The new identity dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: getting-started.docbook:217
+#, no-c-format
+msgid "<phrase>The new identity dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:220
+#, no-c-format
+msgid "Adding a new identity"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:225
+#, no-c-format
+msgid ""
+"You have some options here. Give the new identity a name, and select one of "
+"the available choices (\"With empty fields\" or \"Use System Settings values"
+"\"). Then click <guilabel>OK</guilabel>. The identity configuration screen "
+"will appear."
+msgstr ""
+
+#. Tag: screeninfo
+#: getting-started.docbook:231
+#, no-c-format
+msgid "<screeninfo>The new identity dialog continues</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: getting-started.docbook:237
+#, no-c-format
+msgid "<phrase>The new identity dialog continues</phrase>"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:240
+#, no-c-format
+msgid "Configuring the new identity"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:246
+#, no-c-format
+msgid ""
+"The settings in the <guilabel>General</guilabel> tab are fairly "
+"straightforward. Fill in the <guilabel>Your name</guilabel> field with your "
+"full name (&eg;, <userinput>John Doe</userinput>) and the "
+"<guilabel>Organization</guilabel> field (optional) with the appropriate "
+"information. Next, fill in the <guilabel>Email address</guilabel> field with "
+"your email address (&eg; <userinput>john@example.net</userinput>)."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:255
+#, no-c-format
+msgid ""
+"If you are using <application>PGP</application> or <application>GnuPG</"
+"application> you can set your &openpgp; keys and/or &smime; certificates in "
+"the <link linkend=\"configure-identity-cryptography"
+"\"><guilabel>Cryptography</guilabel></link> tab."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:262
+#, no-c-format
+msgid ""
+"The <guilabel>Advanced</guilabel> and <guilabel>Templates</guilabel> tabs "
+"can be used to tailor the way outgoing messages from this identity will be "
+"formatted and processed. See <link linkend=\"configure-generalinfo"
+"\">Configure &kmail;</link> for more detailed instructions."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:267
+#, no-c-format
+msgid ""
+"Optionally, go to the <guilabel>Signature</guilabel> tab and enter your "
+"signature. This is a short bit of verbiage that will be automatically "
+"appended to all your messages. It has nothing to do with <emphasis>digital "
+"signatures</emphasis>. You may also wish to insert a small personal avatar "
+"in outgoing message headers via the <guilabel>Picture</guilabel> tab."
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:280
+#, no-c-format
+msgid "Setting up your Account"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:282
+#, no-c-format
+msgid ""
+"The <guilabel>Accounts</guilabel> page also contains the settings that tell "
+"&kmail; how to send and receive your email messages. Many of these settings "
+"can vary greatly depending on the way your system is set up, and on the kind "
+"of network in which your mail server is located. If you do not know what "
+"setting to choose or what to put in a field, consult your <acronym>ISP</"
+"acronym> (Internet Service Provider) or system administrator."
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:291
+#, no-c-format
+msgid "Sending Messages"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:292
+#, no-c-format
+msgid "Here's one way to create an outgoing mail account."
+msgstr ""
+
+#. Tag: screeninfo
+#: getting-started.docbook:295
+#, no-c-format
+msgid "<screeninfo>Outgoing account choices</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: getting-started.docbook:301
+#, no-c-format
+msgid "<phrase>Outgoing account choices</phrase>"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:304
+#, no-c-format
+msgid "Choosing an outgoing email account type"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:311
+#, no-c-format
+msgid ""
+"When you click the <guibutton>Add...</guibutton> button on the "
+"<guilabel>Sending</guilabel> tab, this screen will appear. If your computer "
+"is connected directly to the internet you will most likely want to choose "
+"&SMTP;. If you need to use &Sendmail; or &Microsoft; <acronym>EWS</acronym>, "
+"please consult the <link linkend=\"configure-accounts-sending"
+"\">Configuration</link> chapter. Whichever type of outgoing account you "
+"select, check the box labeled \"Make this the default outgoing account\". "
+"(You can easily change this later if you have more than one email account.)"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:322
+#, no-c-format
+msgid ""
+"When you select the <guilabel>&SMTP;</guilabel> option and click the "
+"<guibutton>✓ Create and Configure</guibutton> button, the following "
+"configuration screen will appear."
+msgstr ""
+
+#. Tag: screeninfo
+#: getting-started.docbook:328
+#, no-c-format
+msgid "<screeninfo>The sending configuration dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: getting-started.docbook:334
+#, no-c-format
+msgid "<phrase>The sending configuration dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:337
+#, no-c-format
+msgid "Configuring an &SMTP; account"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:343
+#, no-c-format
+msgid ""
+"At a minimum, you must supply an email server &URI;. If your email service "
+"requires authentication before sending messages, check the \"Server requires "
+"authentication\" box and supply your email address and password. If you want "
+"&kmail; to remember your password, check the \"Store SMTP password\" box. If "
+"you have not yet created a wallet, you will be asked to provide a password."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:350
+#, no-c-format
+msgid ""
+"Verify that the connection to the SMTP server is working by choosing the "
+"<guilabel>Advanced</guilabel> tab and clicking the <guibutton>Auto Detect</"
+"guibutton> button. &kmail; will query your &SMTP; server for the correct "
+"settings (encryption, port number, and authentication method). After the "
+"proper settings have been detected, the outgoing account is ready to use. "
+"(Please refer to <link linkend=\"configure-accounts-sending\">Configuration</"
+"link> if the &SMTP; connection requires additional fine tuning.)"
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:362
+#, no-c-format
+msgid "Receiving Messages"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:364
+#, no-c-format
+msgid ""
+"By default the <guilabel>Local Folders</guilabel> (inbox, outbox, sent-mail, "
+"trash, drafts, and templates) in the primary &kmail; folder are predefined "
+"on this tab. Using the drop down box you can set the <guilabel>Retrieval "
+"Options</guilabel> for these folders. (Note that &kmail; uses the Maildir "
+"format to store messages on your hard disk: each message is stored as a "
+"separate file. The exact location of the primary &kmail; directory depends "
+"on the &Linux; distribution you have installed, but it is probably in ~/."
+"local/share/ somewhere.)"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:371
+#, no-c-format
+msgid ""
+"To set up an account so you can receive mail, press the <guibutton>Add...</"
+"guibutton> button on the <guilabel>Receiving</guilabel> tab. Choose \"Custom "
+"Account...\" from the drop down list. You will then be prompted for the "
+"account type. Most users will select <guilabel>POP3 E-Mail Server</guilabel> "
+"or <guilabel>IMAP E-Mail Server</guilabel>. If you want to use a local "
+"mailbox file (<guilabel>Mbox</guilabel>), please see the <link linkend=\"faq-"
+"file-locking\">FAQ about file locking</link>."
+msgstr ""
+
+#. Tag: screeninfo
+#: getting-started.docbook:379
+#, no-c-format
+msgid "<screeninfo>The receiving configuration dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: getting-started.docbook:385
+#, no-c-format
+msgid "<phrase>The receiving configuration dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:388
+#, no-c-format
+msgid "Configuring an &IMAP; account"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:394
+#, no-c-format
+msgid ""
+"If you chose &POP3; or &IMAP;, the account settings window will appear. "
+"First, fill in the <guilabel>Account Name</guilabel> field to name your "
+"account. You can choose any name you like. <guilabel>Username</guilabel>, "
+"<guilabel>Password</guilabel>, and <guilabel>Incoming mail server</guilabel> "
+"(or <guilabel>IMAP Server</guilabel>) should be filled in with the "
+"appropriate information from your <acronym>ISP</acronym> or system "
+"administrator. If you want &kmail; to check for new messages automatically, "
+"check the <guilabel>Enable interval mail checking</guilabel> box and set the "
+"time interval you desire."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:402
+#, no-c-format
+msgid ""
+"Next, click on the <guilabel>Advanced</guilabel> tab and then the "
+"<guibutton>Auto Detect</guibutton> button. &kmail; will query your incoming "
+"message server to determine the correct settings for this account "
+"(encryption, port number, and authentication method)."
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:407
+#, no-c-format
+msgid "Options only relevant to IMAP"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:409
+#, no-c-format
+msgid ""
+"If you check <guilabel>Automatically compact folders</guilabel> on the "
+"<guilabel>Advanced</guilabel> configuration tab, &kmail; removes the "
+"messages you deleted from the server as soon as you leave that folder. "
+"Otherwise, the messages are only marked as deleted and it is up to you to "
+"compact the folders manually."
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:419
+#, no-c-format
+msgid "Options only relevant to POP3"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:421
+#, no-c-format
+msgid ""
+"Select <guilabel>Leave fetched messages on the server</guilabel> on the "
+"<guilabel>Advanced</guilabel> configuration tab if you want to leave your "
+"messages on the server after you have downloaded them. There are seven ways "
+"to specify how long old messages will be kept after being downloaded: "
+"indefinitely (leave all options unselected), or number of days / number of "
+"messages / maximum size of server side inbox (choose one, two, or all "
+"three). If this box is not checked, all messages will be immediately deleted "
+"from the remote server after downloading is complete."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:430
+#, no-c-format
+msgid ""
+"On the <guilabel>Advanced</guilabel> tab you can also select <guilabel>Use "
+"pipelining for faster mail download</guilabel> if this is supported by your "
+"server. Test this to make sure it works safely."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:434
+#, no-c-format
+msgid ""
+"The <guilabel>inbox</guilabel> is the default folder for incoming messages. "
+"If you want to change that for some reason, you can do so with "
+"<guilabel>Destination folder</guilabel>. But what you probably want is a "
+"<link linkend=\"filters\">filter</link>."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:439
+#, no-c-format
+msgid ""
+"With <guilabel>Pre-command</guilabel> you can specify a program that &kmail; "
+"should execute before fetching mail. Please specify the full path (do not "
+"use <quote>~</quote>) and note that &kmail; will not continue until the "
+"program returns."
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:447
+#, no-c-format
+msgid "Options for both IMAP and POP3"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:449
+#, no-c-format
+msgid ""
+"On the <guilabel>Receiving</guilabel> tab, under <guilabel>Retrieval "
+"Options</guilabel>, select <guilabel>Include in Manual Mail Check</guilabel> "
+"if you want to check this account whenever you invoke "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Check Mail</guimenuitem></"
+"menuchoice>. If you do not select this option you can still check for new "
+"messages on this account with <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Check Mail In &gt; </guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:455
+#, no-c-format
+msgid ""
+"&kmail; supports encryption via <guilabel>SSL/TLS</guilabel> and "
+"<guilabel>STARTTLS</guilabel> (<guilabel>SSL/TLS</guilabel> should be "
+"preferred if it is available)."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:459
+#, no-c-format
+msgid "&kmail; supports nine authentication methods:"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:462
+#, no-c-format
+msgid "<guilabel>Clear text</guilabel>,"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:463
+#, no-c-format
+msgid "<guilabel>PLAIN</guilabel>,"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:464
+#, no-c-format
+msgid "<guilabel>LOGIN</guilabel>,"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:465
+#, no-c-format
+msgid ""
+"<guilabel>CRAM-MD5</guilabel> (recommended if <guilabel>DIGEST-MD5</"
+"guilabel> is not available),"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:467
+#, no-c-format
+msgid "<guilabel>DIGEST-MD5</guilabel> (recommended),"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:468
+#, no-c-format
+msgid "<guilabel>NTLM</guilabel>,"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:469
+#, no-c-format
+msgid "<guilabel>GSSAPINTLM</guilabel>,"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:470
+#, no-c-format
+msgid "<guilabel>APOP (aka Anonymous)</guilabel>, and"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:471
+#, no-c-format
+msgid "<guilabel>Gmail</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:474
+#, no-c-format
+msgid ""
+"<guilabel>DIGEST-MD5</guilabel>, <guilabel>CRAM-MD5</guilabel> and "
+"<guilabel>APOP</guilabel> are secure on their own. The other options are "
+"only secure when used together with <guilabel>SSL</guilabel> or "
+"<guilabel>TLS</guilabel>. You should only use <guilabel>Clear text</"
+"guilabel> if your server does not support any of the other authentication "
+"methods. <guilabel>Anonymous</guilabel> is supported on &IMAP;, but "
+"<guilabel>APOP</guilabel> is not. <guilabel>Gmail</guilabel> authentication "
+"is only available for &IMAP; accounts using Google's GMail service."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:483
+#, no-c-format
+msgid ""
+"Use the <guibutton>Auto Detect</guibutton> button on the <guilabel>Advanced</"
+"guilabel> tab to automatically select the most secure settings supported by "
+"your server."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:486
+#, no-c-format
+msgid ""
+"You are now ready to receive mail. For &IMAP;, just open your folders in the "
+"folder tree in &kmail;'s main window. &kmail; then connects to your server "
+"and displays the messages it finds. For POP3 use <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Check Mail</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: title
+#: getting-started.docbook:497
+#, no-c-format
+msgid "Testing your Setup"
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:499
+#, no-c-format
+msgid ""
+"First, you should send yourself a message to test your configuration. To "
+"send a message, either hit <keycombo action=\"simul\">&Ctrl;<keycap>N</"
+"keycap></keycombo>, select the "
+"<guiicon><inlinemediaobject><imageobject><imagedata fileref=\"mail-message-"
+"new.png\" format=\"PNG\"/></imageobject></inlinemediaobject>&nbsp;New</"
+"guiicon> button, or select the <menuchoice><guimenu>Message</"
+"guimenu><guimenuitem>New Message...</guimenuitem></menuchoice> menu item. "
+"The <link linkend=\"the-composer-window\">composer window</link> will "
+"appear. Fill in the <guilabel>To:</guilabel> field with your email address "
+"and type something in the <guilabel>Subject</guilabel> field. Send the "
+"message by selecting <menuchoice><guimenu>Message</guimenu><guimenuitem>Send "
+"Mail</guimenuitem> </menuchoice>."
+msgstr ""
+
+#. Tag: para
+#: getting-started.docbook:512
+#, no-c-format
+msgid ""
+"To check your email, select <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Check Mail</guimenuitem></menuchoice>. In the lower "
+"right corner of the main window, a progress bar will indicate how many "
+"messages are being downloaded. If you receive the message you just sent, "
+"then congratulations! If, however, you receive any error messages while "
+"testing your setup, make sure that your network connection is working and "
+"recheck your settings at <menuchoice><guimenu>Settings</guimenu> "
+"<guimenuitem>Configure &kmail;...</guimenuitem></menuchoice>."
+msgstr ""

@@ -1,0 +1,613 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#: details-schedules.docbook:5
+#, no-c-format
+msgid "&Roger.Lum; &Roger.Lum.mail;"
+msgstr ""
+
+#. Tag: author
+#: details-schedules.docbook:6
+#, no-c-format
+msgid "&Michael.T.Edwardes; &Michael.T.Edwardes.mail;"
+msgstr ""
+
+#. Tag: author
+#: details-schedules.docbook:7
+#, no-c-format
+msgid "&Michael.Carpino; &Michael.Carpino.mail;"
+msgstr ""
+
+#. Tag: author
+#: details-schedules.docbook:8
+#, no-c-format
+msgid "&Jack.H.Ostroff; &Jack.H.Ostroff.mail;"
+msgstr ""
+
+#. Tag: date
+#: details-schedules.docbook:10
+#, no-c-format
+msgid "2024-12-01"
+msgstr ""
+
+#. Tag: releaseinfo
+#: details-schedules.docbook:11
+#, no-c-format
+msgid "5.2.0"
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:13
+#, no-c-format
+msgid "Schedules"
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:15
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:16
+#, no-c-format
+msgid ""
+"Schedules maintain information about transactions that occur one or more "
+"times over a specified period of time."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:21
+#, no-c-format
+msgid ""
+"Sometimes called a scheduled transaction or a recurring transaction, a "
+"schedule provides a means to record information about a transaction that "
+"happens on a regular basis. You can schedule deposit, transfer, withdrawal, "
+"and loan transactions. There is a lot of flexibility in schedules, including "
+"transactions that occur Once, or on a basis of number of Days, Weeks, Half-"
+"months, Months, or Years."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:30
+#, no-c-format
+msgid ""
+"Because you know these transactions happen regularly, whether they are "
+"payments made to you or payments you make to someone else, you can create a "
+"Schedule to record information about the recurring details to simplify and "
+"easily remember when the event will next occur."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:37
+#, no-c-format
+msgid ""
+"Schedules can be created to reflect money coming in or out of your accounts "
+"on a consistent basis. Common uses include paychecks, taxes, insurance, "
+"credit card payments, dues, interest, loans, mortgage, and rents. Scheduling "
+"a payment like these provides for a useful reminder so you can manage "
+"expected future financial matters effectively."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:45
+#, no-c-format
+msgid ""
+"A schedule consists of two main parts: the transaction data and the "
+"scheduling data. The scheduling data records the occurrence of the schedule, "
+"&ie;, when the transaction is to be entered into the ledger and how. The "
+"transaction data records the normal details about the transaction, including "
+"options for Payment method, Account, Pay to/from, Category, Tags, Memo, Due "
+"date, Amount, and Status. Along with these, you can also select additional "
+"options based on when to process the transaction."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:56
+#, no-c-format
+msgid "Types of schedules"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:57
+#, no-c-format
+msgid "There are four different types of schedules in &kmymoney;:"
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:61
+#, no-c-format
+msgid "Deposits"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:62
+#, no-c-format
+msgid ""
+"These schedules are for money coming into your account, such as a paycheck, "
+"bonus, or interest income."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:68
+#, no-c-format
+msgid "Bills/Withdrawals"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:69
+#, no-c-format
+msgid ""
+"These are for money going out of your account, such as a membership, utility "
+"bill, tax payment, or car registration."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:75
+#, no-c-format
+msgid "Transfer"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:76
+#, no-c-format
+msgid ""
+"These are for money going out of one account and into another account, such "
+"as making a credit card payment from your checking account."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:82
+#, no-c-format
+msgid "Loans"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:83
+#, no-c-format
+msgid ""
+"These are a special type of schedule, which is created when you create a "
+"<link linkend=\"details.loans\">Loan account</link>."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:90
+#, no-c-format
+msgid "The Schedules View"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:91
+#, no-c-format
+msgid ""
+"Open the Schedules View by clicking the <guiicon> <inlinemediaobject> "
+"<imageobject> <imagedata fileref=\"schedule_view.png\" format=\"PNG\"/></"
+"imageobject> </inlinemediaobject> </guiicon> Scheduled transactions icon in "
+"the view selector."
+msgstr ""
+
+#. Tag: screeninfo
+#: details-schedules.docbook:98
+#, no-c-format
+msgid "<screeninfo>schedules view</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-schedules.docbook:104
+#, no-c-format
+msgid "<phrase>schedules view</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:109
+#, no-c-format
+msgid ""
+"The Schedules View consists of a single display area with a <guibutton>New "
+"Schedule...</guibutton> button and a <guilabel>Filter</guilabel> text box "
+"above it."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:114
+#, no-c-format
+msgid ""
+"To create a new schedule click <guibutton>New Schedule...</guibutton>. "
+"&kmymoney; will display the new schedule dialog, which can be used to create "
+"a Deposit, Transfer, or Bill/Withdrawal schedule. Loan schedules are handled "
+"differently, as described in the <link linkend=\"details.loans\">Loans</"
+"link> section of this manual."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:122
+#, no-c-format
+msgid "The New Schedule dialog"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-schedules.docbook:124
+#, no-c-format
+msgid "<screeninfo>new schedule dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-schedules.docbook:130
+#, no-c-format
+msgid "<phrase>new schedule dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:135
+#, no-c-format
+msgid ""
+"A New Schedule dialog is now shown, prompting for the schedule and "
+"transaction details. The requested data include the following:"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:141
+#, no-c-format
+msgid "Schedule Name"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:142
+#, no-c-format
+msgid "Next due date"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:143
+#, no-c-format
+msgid "Frequency"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:144
+#, no-c-format
+msgid "Payment method"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:145
+#, no-c-format
+msgid "Amount"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:146
+#, no-c-format
+msgid "Other transaction details"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:147
+#, no-c-format
+msgid "Schedule options"
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:150
+#, no-c-format
+msgid "Filling in the Schedule name, Frequency, and Payment information."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:151
+#, no-c-format
+msgid ""
+"Enter the name of the schedule and the date of the next occurrence into "
+"their respective fields. The name is how the schedule will be labelled in "
+"the Schedules View and other displays. Specify how often the schedule should "
+"occur, using the Frequency field and dropdown list. If the dropdown is set "
+"to <quote>Once</quote>, the Frequency field will be disabled. Otherwise, the "
+"dropdown indicates a time interval, and the transaction will happen every "
+"<emphasis>Frequency</emphasis> occurrences of that interval. Note that some "
+"intervals can be indicated in more than one way, such as 6 x \"weekly\" or 3 "
+"x \"every other week\" or 2 x \"every three weeks.\" You cannot indicate "
+"fractions of an interval, such as twice per month; you need to use a shorter "
+"interval, such as 1 x \"every half month.\""
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:164
+#, no-c-format
+msgid ""
+"If the amount varies transaction to transaction make sure to check the "
+"<guilabel>The amount is an estimate because it varies for each payment</"
+"guilabel> checkbox in the <guilabel>Options</guilabel> area below, and you "
+"will be prompted for the correct amount when it is entered into the ledger. "
+"The amount is entered as a positive number in either the <guilabel>Payment</"
+"guilabel> or <guilabel>Deposit</guilabel> field. The other required fields "
+"in this area are the Account and the Category. The <guilabel>Status</"
+"guilabel> dropdown indicates the state of the transaction when &kmymoney; "
+"enters it into the ledger. The remaining fields in this section are optional."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:177
+#, no-c-format
+msgid "Modifying the Schedule Options section"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:178
+#, no-c-format
+msgid ""
+"The <guilabel>If this schedule occurs on a non-processing date:</guilabel> "
+"dropdown allows you to choose how to handle non-processing days. Non-"
+"processing days include weekends and holidays known to &kmymoney; for the "
+"region specified in the <link linkend=\"details.settings.schedules.calendar"
+"\">appropriate configuration option</link>. If the schedule occurs on a non-"
+"processing day you can choose whether to <guilabel>Do not change the date</"
+"guilabel>, <guilabel>Change the date to the previous processing day</"
+"guilabel>, or <guilabel>Change the date to the next processing day</"
+"guilabel>. This option is available to replicate some of the real world "
+"business operational processing."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:190
+#, no-c-format
+msgid ""
+"The <guilabel>The amount is an estimate because is varies for each payment</"
+"guilabel> checkbox allows you to select whether &kmymoney; automatically "
+"enters that amount into the ledger or prompts you for the actual amount when "
+"the schedule is due."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:197
+#, no-c-format
+msgid ""
+"The <guilabel>Do not change amount of category but modify exchange rate of "
+"transaction</guilabel> checkbox can be used when the schedule involves an "
+"account and a category with different currencies. If it is not selected, the "
+"amount specified is used when the transaction is entered into the ledger. "
+"Checking the box tells &kmymoney; that the amount is specified in the "
+"currency of the category. You will still need to confirm the other value or "
+"the conversion rate when the transaction is entered into the ledger."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:207
+#, no-c-format
+msgid ""
+"The <guilabel>Process this schedule always at the last day of the month</"
+"guilabel> checkbox allows for scheduling for irregular month-end date "
+"processing."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:212
+#, no-c-format
+msgid ""
+"The <guilabel>Enter this schedule into the register automatically when it is "
+"due</guilabel> checkbox tells &kmymoney; to enter the transaction into the "
+"ledger on the correct date without human intervention. Otherwise, when the "
+"transaction is due to be entered, &kmymoney; will open a dialog box asking "
+"you to confirm that you want it to be entered. This behavior is "
+"configurable, and more information can be found in the <link linkend="
+"\"details.settings.schedules\">Settings</link> section."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:221
+#, no-c-format
+msgid ""
+"If you know the schedule will not continue indefinitely, check the "
+"<guilabel>This schedule will end at some time</guilabel> and you can enter "
+"either the <guilabel>Number of transactions remaining:</guilabel> or the "
+"<guilabel>Date of final transaction</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:228
+#, no-c-format
+msgid ""
+"When you have entered all the necessary information click <guibutton>OK</"
+"guibutton> to continue."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:235
+#, no-c-format
+msgid "Editing schedules"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:236
+#, no-c-format
+msgid ""
+"To edit a schedule simply select the entry in the list, then right-click and "
+"select <guimenuitem>Edit scheduled transaction</guimenuitem> in the context "
+"menu. This will bring up a dialog similar to the <guilabel>New Scheduled "
+"transaction</guilabel> dialog, where you can update the necessary data."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:244
+#, no-c-format
+msgid "Deleting schedules"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:245
+#, no-c-format
+msgid ""
+"To delete a schedule simply select the entry in the list, then right-click "
+"and select <guimenuitem>Delete scheduled transaction</guimenuitem>. in the "
+"context menu."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:250
+#, no-c-format
+msgid ""
+"Note that while many actions in &kmymoney; can be undone, this is not true "
+"for deleting a schedule. If you delete a schedule, and realize you did not "
+"want to do that, you will have to completely recreate it from scratch."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:257
+#, no-c-format
+msgid "Duplicating schedules"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:258
+#, no-c-format
+msgid ""
+"To duplicate a schedule simply select the entry in the list, then right-"
+"click and select <guimenuitem>Duplicate scheduled transaction</guimenuitem> "
+"in the context menu."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:265
+#, no-c-format
+msgid "Entering scheduled transactions"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:266
+#, no-c-format
+msgid ""
+"Entering a scheduled transaction means actually creating a transaction in "
+"the appropriate ledger, using the details specified in the schedule. "
+"Scheduled transactions can be entered in one of 3 different ways:"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:274
+#, no-c-format
+msgid ""
+"Manually, by right-clicking the entry in the Schedules View and selecting "
+"<guilabel>Enter next transaction</guilabel> in the context menu."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:281
+#, no-c-format
+msgid ""
+"&kmymoney; can enter them with or without your interaction upon startup."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:286
+#, no-c-format
+msgid ""
+"&kmymoney; can enter them with your interaction during online banking or "
+"when you import a bank statement."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:293
+#, no-c-format
+msgid "Confirming the transaction to enter"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:294
+#, no-c-format
+msgid ""
+"The first and third methods will display an <guilabel>Enter scheduled "
+"transaction</guilabel> dialog (possibly after displaying an informational "
+"window about the process.) This dialog prompts you to confirm or update the "
+"required information that was entered when you created the schedule."
+msgstr ""
+
+#. Tag: screeninfo
+#: details-schedules.docbook:302
+#, no-c-format
+msgid "enter scheduled transaction"
+msgstr ""
+
+#. Tag: phrase
+#: details-schedules.docbook:308
+#, no-c-format
+msgid "enter schedule transaction"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:313
+#, no-c-format
+msgid ""
+"This information can be changed, and the changes can be applied to just this "
+"one instance of the schedule or to all subsequent transactions. After "
+"checking that all the data is correct clicking <guibutton>OK</guibutton> "
+"will add the transaction to the ledger and update the next due date of the "
+"schedule to the next occurrence. If you have changed any of the transaction "
+"data a further confirmation of what you changed will be displayed, giving "
+"you a final chance to accept or reject the changes."
+msgstr ""
+
+#. Tag: screeninfo
+#: details-schedules.docbook:324
+#, no-c-format
+msgid "<screeninfo>confirm manual transaction changes</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-schedules.docbook:330
+#, no-c-format
+msgid "<phrase>confirm manual transaction changes</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:335
+#, no-c-format
+msgid ""
+"Select what you want to do with the information presented and click "
+"<guibutton>OK</guibutton> or <guibutton>Cancel</guibutton>."
+msgstr ""
+
+#. Tag: title
+#: details-schedules.docbook:341
+#, no-c-format
+msgid "Letting &kmymoney; enter the scheduled transaction(s) for you"
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:342
+#, no-c-format
+msgid ""
+"Alternatively, &kmymoney; can check which schedules are due upon startup and "
+"enter them for you if the appropriate option was checked when setting up the "
+"schedule."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:347
+#, no-c-format
+msgid ""
+"If the option was not checked then &kmymoney; will open the previously "
+"mentioned dialog and you can follow the steps mentioned there. &kmymoney; "
+"will also open the dialog if the amount is an estimate so you can enter the "
+"actual amount."
+msgstr ""
+
+#. Tag: para
+#: details-schedules.docbook:353
+#, no-c-format
+msgid ""
+"You can also opt to have &kmymoney; not check which transactions are "
+"scheduled on startup by deselecting the option in the Settings dialog and "
+"any overdue transaction or transactions due 'today' will be shown in the "
+"Home view for you to enter manually."
+msgstr ""

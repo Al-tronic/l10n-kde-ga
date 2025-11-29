@@ -1,0 +1,1714 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:10
+#, no-c-format
+msgid "The &killbots; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:13
+#, no-c-format
+msgid ""
+"<personname> <firstname>Parker</firstname> <surname>Coates</surname> </"
+"personname> <email>parker.coates@kdemail.net</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:21
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:26
+#, no-c-format
+msgid "Parker Coates"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:31
+#, no-c-format
+msgid "2021-07-05"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:32
+#, no-c-format
+msgid "KDE Gear 21.04"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:35
+#, no-c-format
+msgid ""
+"&killbots; is a &kde; port of the classic &BSD; console game "
+"<command>robots</command>."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:39
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:40
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:41
+#, no-c-format
+msgid "game"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:42
+#, no-c-format
+msgid "Killbots"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:43
+#, no-c-format
+msgid "<keyword>Strategy</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:44
+#, no-c-format
+msgid "One player"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:45
+#, no-c-format
+msgid "Single player"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:46
+#, no-c-format
+msgid "robots"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:47
+#, no-c-format
+msgid "robot"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:48
+#, no-c-format
+msgid "fastbot"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:49
+#, no-c-format
+msgid "<keyword>junkheap</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:50
+#, no-c-format
+msgid "teleport"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:51
+#, no-c-format
+msgid "vaporize"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:52
+#, no-c-format
+msgid "vaporizer"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:53
+#, no-c-format
+msgid "energy"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:59
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:62
+#, no-c-format
+msgid "Game type:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:63
+#, no-c-format
+msgid "<para>Strategy</para>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:67
+#, no-c-format
+msgid "Number of players:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:68
+#, no-c-format
+msgid "<para>One</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:71
+#, no-c-format
+msgid ""
+"&killbots; is a simple game of evading killer robots. Who created the robots "
+"and why they have been programmed to destroy, no one knows. All that is "
+"known is that the robots are numerous and their sole objective is to destroy "
+"you. Fortunately for you, their creator has focused on quantity rather than "
+"quality and as a result the robots are severely lacking in intelligence. "
+"Your superior wit and a fancy teleportation device are your only weapons "
+"against the never-ending stream of mindless automatons."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:74 index.docbook:79
+#, no-c-format
+msgid "Note:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:75
+#, no-c-format
+msgid ""
+"This documentation frequently refers to <quote>robots</quote>, "
+"<quote>junkheaps</quote>, &etc;, but &killbots; is fully themeable. That "
+"means the game sprites you see while playing might not match the futuristic "
+"themed ones described here. The game play and strategies, however, will "
+"remain the same, even if your hero is a carrot being chased through a garden "
+"patch by ravenous rabbits."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:80
+#, no-c-format
+msgid ""
+"&killbots; supports multiple game types which control the game parameters "
+"and determine which game features are included. This documentation attempts "
+"to be generic and not specific to any one game type. Check the description "
+"and details of your current game type in the <guilabel>Configure - &killbots;"
+"</guilabel> dialog for more detailed information on game mechanics with "
+"respect to grid size, rounds, scoring, energy, &etc;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:86
+#, no-c-format
+msgid "How to Play"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:89
+#, no-c-format
+msgid "Basics of Gameplay"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:92
+#, no-c-format
+msgid "Objective:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:93
+#, no-c-format
+msgid "Survive successive rounds of enemies while accumulating a high score."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:98
+#, no-c-format
+msgid "Screenshot of the game grid"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:101
+#, no-c-format
+msgid ""
+"&killbots; is a turn-based game, played on a rectangular <firstterm>grid</"
+"firstterm>. The number of <firstterm>cells</firstterm> in each row and "
+"column in the grid is determined by the game type being played. Each cell "
+"can contain one of the following:"
+msgstr ""
+
+#. Tag: firstterm
+#: index.docbook:104
+#, no-c-format
+msgid "Hero"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:106
+#, no-c-format
+msgid ""
+"The hero is the unfortunate soul stuck in a room with a bunch of killer "
+"robots. As the player, it is your job to ensure that he remains alive for as "
+"long possible."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:107
+#, no-c-format
+msgid ""
+"At the beginning of each <firstterm>turn</firstterm>, the hero can perform "
+"one of three types of actions: he can stay where he is, he can move to an "
+"unoccupied adjacent cell, or he can perform a special action. See <link "
+"linkend=\"movement-controls\" endterm=\"movement-controls-title\"></link> "
+"and <link linkend=\"special-actions\" endterm=\"special-actions-title\"></"
+"link>."
+msgstr ""
+
+#. Tag: firstterm
+#: index.docbook:111
+#, no-c-format
+msgid "Robot"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:113
+#, no-c-format
+msgid ""
+"Robots are mechanical thugs desiring only to crush the hero with their "
+"metallic girth. They have never heard of the <quote>Three Laws of Robotics</"
+"quote> and would probably crush anyone who tried to explain them."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:114
+#, no-c-format
+msgid ""
+"Each robot will take a single step toward the hero on every turn. If the "
+"robot is above the hero, it will step down. If the robot is to the left of "
+"the hero, it will step right. If the robot is below and right of the hero, "
+"it will step diagonally, up and left. Should a robot manage to reach the "
+"hero's cell, the hero will be killed and the game will end."
+msgstr ""
+
+#. Tag: firstterm
+#: index.docbook:118
+#, no-c-format
+msgid "Fastbot"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:120
+#, no-c-format
+msgid ""
+"Fastbots are a much speedier version of the basic robot. For each move the "
+"hero makes, they take two steps. Fortunately, their increased mobility was "
+"not paired with increased intelligence; they often only succeed in "
+"destroying themselves twice as quickly as their slower brethren."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:121
+#, no-c-format
+msgid "Not all game types include fastbots."
+msgstr ""
+
+#. Tag: firstterm
+#: index.docbook:125
+#, no-c-format
+msgid "Junkheap"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:127
+#, no-c-format
+msgid ""
+"When two or more robots collide, they are destroyed and the resulting debris "
+"produces a junkheap. Enemies blindly ignore any junkheaps in their path and "
+"are destroyed upon crashing into them. You will find junkheaps to be "
+"extremely valuable, as they can serve as barricades between the hero and his "
+"attackers."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:128
+#, no-c-format
+msgid ""
+"Some game types permit the hero to <firstterm>push</firstterm> junkheaps "
+"around the grid. The hero can then use junkheaps to construct "
+"<quote>bunkers</quote> that offer protection on multiple sides. Junkheaps "
+"can even be used offensively in some game types. Pushing a junkheap on top "
+"of an enemy squashes it and can even result in a bonus."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:136
+#, no-c-format
+msgid "Rounds, Scoring and Energy"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:140
+#, no-c-format
+msgid "The in-game status indicators"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:144
+#, no-c-format
+msgid "Rounds"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:145
+#, no-c-format
+msgid ""
+"Gameplay in &killbots; is divided into <firstterm>rounds</firstterm>. Each "
+"round begins with the hero in the middle of the grid and with enemies placed "
+"randomly around him. The round ends when all enemies have been destroyed. As "
+"each round is completed, the number of enemies increases. The number and "
+"type of the enemies added is game type dependent."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:146
+#, no-c-format
+msgid ""
+"The grid will continue to fill with enemies until one of two things occurs: "
+"enemies occupy more than 50 percent of the cells or a safe teleport is "
+"attempted, but there are no safe cells in the grid. Once either of these "
+"occurs, the current round is abandoned and the enemy counts are reset to "
+"those used in the first round."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:150
+#, no-c-format
+msgid "Scoring"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:151
+#, no-c-format
+msgid ""
+"There really is no such thing as winning in &killbots;; the hero attempts to "
+"survive as long as possible, but the depressing reality is that, in the end, "
+"his luck will run out. Therefore, the goal in &killbots; is to accumulate "
+"the highest <firstterm>score</firstterm> possible before the inevitable "
+"occurs. The ten highest scores (along with the round reached) are recorded "
+"in the high score dialog."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:152
+#, no-c-format
+msgid ""
+"Points are awarded for destroying enemies. Fastbots are usually worth more "
+"than regular robots. Bonus points may also be awarded for enemies destroyed "
+"while <link linkend=\"pushing-junkheaps\">pushing a junkheap</link> or <link "
+"linkend=\"wait-out-round\">waiting out the round</link>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:156
+#, no-c-format
+msgid "Energy"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:157
+#, no-c-format
+msgid ""
+"In addition to points, the hero can also collect <firstterm>energy</"
+"firstterm> as the game progresses. Energy allows the hero to perform <link "
+"linkend=\"teleport-safely\">safe teleports</link> and/or use the <link "
+"linkend=\"vaporizer\">vaporizer</link>. Depending on the game type, energy "
+"can be awarded for a variety of reasons including completing a round, <link "
+"linkend=\"pushing-junkheaps\">pushing a junkheap</link> or destroying "
+"enemies while <link linkend=\"wait-out-round\">waiting out the round</link>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:158
+#, no-c-format
+msgid ""
+"The amount of energy that the hero can store is capped at a game type "
+"determined maximum. In some game types the maximum increases as rounds are "
+"completed. The energy status display is only visible if the current game "
+"type includes energy and safe teleports."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:163
+#, no-c-format
+msgid "Special Actions"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:164
+#, no-c-format
+msgid ""
+"In addition to simple movement from cell to cell, the hero has up to four "
+"special actions at his disposal."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:167
+#, no-c-format
+msgid "Teleport"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:168
+#, no-c-format
+msgid ""
+"The hero somehow managed to get his hands on a personal teleporter. "
+"Unfortunately, when operated without an energy source, it is not very "
+"reliable. Activating the teleporter causes the hero to be transported to a "
+"randomly selected cell anywhere on the grid. There is no limit to the number "
+"of teleports the hero can perform."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:169
+#, no-c-format
+msgid ""
+"The destination cell is guaranteed to be unoccupied, but there is a very "
+"real chance that it will be adjacent to an angry robot. Due to the risk "
+"inherent in teleporting, it should generally be reserved as a last ditch "
+"maneuver, when there are no longer any safe moves available."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:173
+#, no-c-format
+msgid "Teleport Safely"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:174
+#, no-c-format
+msgid ""
+"The teleporter has a secondary operating mode that will transport the hero "
+"to a randomly selected, but safe cell. Safe teleporting requires <link "
+"linkend=\"energy\">energy</link> though, and energy is generally in short "
+"supply. Obviously, the ability to teleport safely at key moments can greatly "
+"extend the hero's lifespan."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:175
+#, no-c-format
+msgid ""
+"Not all game types allow safe teleports and the amount of energy required to "
+"teleport safely varies between game types."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:179
+#, no-c-format
+msgid "Use the Vaporizer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:180
+#, no-c-format
+msgid ""
+"The third use for the teleporter device doesn't actually teleport the hero "
+"at all. This somewhat uncommon operating mode teleports all robots in cells "
+"adjacent to the hero. No one knows exactly where the robots are teleported "
+"to, but it seems to be sufficiently far away that they bother the hero "
+"again. Because the robots disappear into thin air without leaving a "
+"junkheap, this mode is nicknamed the <quote>vaporizer</quote> and enemies "
+"dispatched through vaporisation are considered as killed for scoring "
+"purposes."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:181
+#, no-c-format
+msgid ""
+"Like teleporting safely, using the vaporizer requires <link linkend=\"energy"
+"\">energy</link>. Not all game types include the vaporizer and the amount of "
+"energy required to use it varies between game types."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:185
+#, no-c-format
+msgid "Wait Out Round"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:186
+#, no-c-format
+msgid ""
+"There may come a time when the grid is laid out such that all the robots can "
+"be destroyed without the hero having to move at all. In such a situation, "
+"you have the option to wait out the round."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:188
+#, no-c-format
+msgid "An Opportunity to Wait Out the Round"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:193
+#, no-c-format
+msgid ""
+"Waiting out the round causes the hero to freeze in place while the enemies "
+"continue their regular movement. This continues until one of two things "
+"happen: the enemies destroy themselves and the round finishes, or an enemy "
+"manages to reach the hero and the game ends. Once a wait out round command "
+"has been issued, it cannot be canceled, so one must be certain that the hero "
+"is, in fact, safe."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:194
+#, no-c-format
+msgid ""
+"So why would one take an action that eliminates the opportunity to change "
+"one's mind? Well, it adds a bit of flourish and drama to the end of a round, "
+"but more importantly, there is a bonus awarded for each enemy destroyed "
+"while waiting out the round. The size and type (points or energy) of the "
+"bonus is determined by the game type."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:201
+#, no-c-format
+msgid "Interface Overview"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:204
+#, no-c-format
+msgid "Movement Controls"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:205
+#, no-c-format
+msgid ""
+"The player has the option of using either the keyboard, the mouse or both to "
+"control the hero."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:207
+#, no-c-format
+msgid "Keyboard Movement Controls"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:208
+#, no-c-format
+msgid ""
+"There are nine different movement actions: left, right, up, down, the four "
+"diagonals, and stand still. Each of these actions can be assigned to two "
+"different keyboard keys. By default these nine actions are assigned to the "
+"nine number keys of the numeric keypad and to a 3 by 3 block of letters at "
+"the left end of a QWERTY keyboard. Of course, users using a different "
+"keyboard layout or one lacking a numeric keypad can modify these key "
+"assignments using the shortcuts configuration dialog."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:209
+#, no-c-format
+msgid ""
+"Each of the special movement commands (such as teleport) can also be issued "
+"from the keyboard. See <link linkend=\"move-menu\">Move</link>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:212
+#, no-c-format
+msgid "Mouse Movement Controls"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:213
+#, no-c-format
+msgid ""
+"The mouse (or any other pointing device) can be used to navigate in a more "
+"natural, intuitive way. As the pointer moves over the main game area, the "
+"cursor will change to indicate the direction of the pointer relative to the "
+"hero. For example, moving the pointer to the space above the hero will "
+"change the cursor to an up arrow. If the pointer is placed immediately over "
+"the hero, the cursor changes to indicate no movement."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:214
+#, no-c-format
+msgid ""
+"A single left-click will cause the hero to step in the indicated direction "
+"(provided such a step is permitted). For convenience, one can assign "
+"additional actions to the right and middle mouse buttons in the <link "
+"linkend=\"configure-killbots\">Configure - &killbots; dialog</link>. These "
+"actions include those found in the <link linkend=\"move-menu\">Move</link> "
+"menu, as well as additional option: <guimenuitem>Repeated Step</guimenuitem> "
+"performing a repeated step causes the hero to move in the indicated "
+"direction for several consecutive turns until an obstruction is reached or "
+"continued movement would be unsafe. One can also halt a repeated step by "
+"clicking again while the move is in progress."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:220
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:224
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:229
+#, no-c-format
+msgid ""
+"Starts a new game, discarding any game that may currently be in progress."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:232
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo></"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>Show High Scores</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:237
+#, no-c-format
+msgid "Shows the high score dialog, containing past scores."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:240
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:245
+#, no-c-format
+msgid "Quits &killbots;."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:249
+#, no-c-format
+msgid ""
+"<shortcut><keycap>R</keycap></shortcut> <guimenu>Move</guimenu> "
+"<guimenuitem>Teleport</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:254
+#, no-c-format
+msgid ""
+"<action>Teleports the hero to a random, empty cell anywhere within the "
+"playing field.</action> See <link linkend=\"teleport\" endterm=\"special-"
+"actions-title\"></link>."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:257
+#, no-c-format
+msgid ""
+"<shortcut><keycap>T</keycap></shortcut> <guimenu>Move</guimenu> "
+"<guimenuitem>Teleport Safely</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:262
+#, no-c-format
+msgid ""
+"<action>Teleports the hero to a random, empty cell that is guaranteed to be "
+"safe from attack on that turn.</action> See <link linkend=\"teleport-safely"
+"\" endterm=\"special-actions-title\"></link>."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:265
+#, no-c-format
+msgid ""
+"<shortcut>&Space;</shortcut> <guimenu>Move</guimenu> <guimenuitem>Teleport "
+"(Safely if Possible)</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:270
+#, no-c-format
+msgid ""
+"A convenience action. <action>Teleports the hero safely if there is enough "
+"energy available, otherwise just teleports randomly.</action>"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:273
+#, no-c-format
+msgid ""
+"<shortcut><keycap>F</keycap></shortcut> <guimenu>Move</guimenu> "
+"<guimenuitem>Vaporizer</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:278
+#, no-c-format
+msgid ""
+"<action>Destroys all robots in cells adjacent to the hero</action>. See "
+"<link linkend=\"vaporizer\" endterm=\"special-actions-title\"></link>."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:281
+#, no-c-format
+msgid ""
+"<shortcut><keycap>V</keycap></shortcut> <guimenu>Move</guimenu> "
+"<guimenuitem>Wait Out Round</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:286
+#, no-c-format
+msgid ""
+"<action>Causes the hero to freeze in place until the end of the round.</"
+"action> See <link linkend=\"wait-out-round\" endterm=\"special-actions-title"
+"\"></link>."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:290
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu> <guimenuitem>Configure &killbots;…</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:294
+#, no-c-format
+msgid ""
+"<action>Displays the &killbots; configuration dialog</action>, where one can "
+"adjust gameplay parameters, choose a different set of game rules, or change "
+"the game theme."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:298
+#, no-c-format
+msgid ""
+"Additionally &killbots; has the common &kde; <guimenu>Settings</guimenu> and "
+"<guimenu>Help</guimenu> menu items, for more information read the sections "
+"about the <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:310
+#, no-c-format
+msgid "Developer's Guide to &killbots;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:311
+#, no-c-format
+msgid ""
+"Interested individuals can customize &killbots; in two major ways: themes "
+"and rulesets."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:314
+#, no-c-format
+msgid "Creating Custom &killbots; Themes"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:315
+#, no-c-format
+msgid ""
+"Like most other &kde; games, a &killbots; theme consists of three files."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:318
+#, no-c-format
+msgid "The Desktop File"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:319
+#, no-c-format
+msgid ""
+"The desktop file follows standard <acronym>INI</acronym> syntax. The key-"
+"value pairs store information about the theme and point to the other files "
+"included in the theme. The following example is taken from the default theme."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:321
+#, no-c-format
+msgid "An Example Theme Desktop File"
+msgstr ""
+
+#. Tag: programlisting
+#: index.docbook:322
+#, no-c-format
+msgid ""
+"[KGameTheme]\n"
+"Name=Example Theme\n"
+"Description=An example theme used to demonstrate theme creation. This one "
+"features pirates.\n"
+"Author=Mr. Artist\n"
+"AuthorEmail=mrartist@example.com\n"
+"Type=SVG\n"
+"FileName=example.svg\n"
+"Preview=example.png"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:324
+#, no-c-format
+msgid ""
+"The first four parameters contain metadata about the theme and are straight "
+"forward enough. For &killbots; themes, the <varname>Type</varname> parameter "
+"should always be set to &SVG;. The final two parameters contain the file "
+"names of the two other theme files. While it's not strictly necessary, it is "
+"highly recommended that, for consistency's sake, all three files share the "
+"same base file name."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:328
+#, no-c-format
+msgid "The Preview File"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:329
+#, no-c-format
+msgid ""
+"The preview file is simply a <acronym>PNG</acronym> file containing a "
+"preview of the theme. The preview image should be 240 by 140 pixels and "
+"match layout of the default theme's preview as closely as possible, as this "
+"makes it easier to compare themes in the theme selector."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:333
+#, no-c-format
+msgid "The &SVG; File"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:334
+#, no-c-format
+msgid ""
+"The &SVG; file is a scalable vector graphics image that contains the actual "
+"graphical elements used to make up the theme. The file may be either in "
+"uncompressed <literal role=\"extension\">.svg</literal> or compressed "
+"<literal role=\"extension\">.svgz</literal> format. Each game element is "
+"identified by a unique id in the &SVG; file. When creating a new theme, it "
+"is generally easiest to start with an existing theme and replace the "
+"elements one by one until the theme is complete. The &SVG; file "
+"<emphasis>must</emphasis> contain the following elements."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:337
+#, no-c-format
+msgid "background"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:338
+#, no-c-format
+msgid "The image displayed behind the grid in the main game area."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:341
+#, no-c-format
+msgid "status"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:342
+#, no-c-format
+msgid ""
+"The box used to display the current round, score, enemy count and energy."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:345
+#, no-c-format
+msgid "textcolor"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:346
+#, no-c-format
+msgid ""
+"This element should be a rectangle of a single color. Its color is used to "
+"for the text in the status boxes."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:349
+#, no-c-format
+msgid "cell"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:350
+#, no-c-format
+msgid "An individual grid cell."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:353
+#, no-c-format
+msgid "hero"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:354
+#, no-c-format
+msgid "The character controlled by the player."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:357
+#, no-c-format
+msgid "enemy"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:358
+#, no-c-format
+msgid "The basic enemy."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:361
+#, no-c-format
+msgid "fastenemy"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:362
+#, no-c-format
+msgid "The faster enemy."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:365
+#, no-c-format
+msgid "<varname>junkheap</varname>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:366
+#, no-c-format
+msgid "The remains of a collision between enemies."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:369
+#, no-c-format
+msgid "cursor0"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:370
+#, no-c-format
+msgid "A cursor indicating movement to the right."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:373
+#, no-c-format
+msgid "cursor1"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:374
+#, no-c-format
+msgid "A cursor indicating diagonal movement up and to the right."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:377
+#, no-c-format
+msgid "cursor2"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:378
+#, no-c-format
+msgid "A cursor indicating movement up."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:381
+#, no-c-format
+msgid "cursor3"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:382
+#, no-c-format
+msgid "A cursor indicating diagonal movement up and to the left."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:385
+#, no-c-format
+msgid "cursor4"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:386
+#, no-c-format
+msgid "A cursor indicating movement to the left."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:389
+#, no-c-format
+msgid "cursor5"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:390
+#, no-c-format
+msgid "A cursor indicating diagonal movement down and to the left."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:393
+#, no-c-format
+msgid "cursor6"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:394
+#, no-c-format
+msgid "A cursor indicating movement down."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:397
+#, no-c-format
+msgid "cursor7"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:398
+#, no-c-format
+msgid "A cursor indicating movement down and to the right."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:401
+#, no-c-format
+msgid "cursor8"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:402
+#, no-c-format
+msgid "A cursor indicating staying in place."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:408
+#, no-c-format
+msgid "Installing Custom Themes"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:409
+#, no-c-format
+msgid ""
+"In order for &killbots; to detect and use a new theme, the files must be "
+"moved to an appropriate directory. To install the theme for only the current "
+"user, copy the desktop, preview and &SVG; files to <filename class="
+"\"directory\">killbots/themes</filename> in the local folder in "
+"<userinput><command>qtpaths</command> <option>--paths GenericDataLocation </"
+"option></userinput>. To make the theme available system wide, move the files "
+"to <filename class=\"directory\">killbots/themes</filename> in the system "
+"folder (from the previous command, possibly <filename class=\"directory\">/"
+"usr/share</filename> or similar). Note that this will likely require "
+"administrative privileges."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:414
+#, no-c-format
+msgid "Creating Custom Game Types"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:417
+#, no-c-format
+msgid "The Ruleset Desktop File"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:418
+#, no-c-format
+msgid ""
+"Creating new game types is incredibly simple for &killbots;, especially when "
+"starting from an existing ruleset file. Rulesets are stored as a single "
+"desktop file where the parameters and metadata are stored as simple key-"
+"value pairs."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:420
+#, no-c-format
+msgid "The Default &killbots; Game Type"
+msgstr ""
+
+#. Tag: programlisting
+#: index.docbook:421
+#, no-c-format
+msgid ""
+"[KillbotsRuleset]\n"
+"Name=Killbots\n"
+"Name[gl]=Robots asasinos\n"
+"Author=Parker Coates\n"
+"AuthorContact=parker.coates@kdemail.net\n"
+"Description=&lt;qt&gt;&lt;p&gt;The default Killbots game type.&lt;/p&gt;&lt;"
+"p&gt;Includes a medium size grid, safe teleports, fast enemies and pushable "
+"junkheaps.&lt;/p&gt;&lt;/qt&gt;\n"
+"Description[gl]=&lt;qt&gt;&lt;p&gt;O xogo tipo Killbots por omisión.&lt;/"
+"p&gt;&lt;p&gt;Inclúe unha grella mediana, teleportacións seguras, enemigos "
+"rápidos e chatarra que se pode empurrar.&lt;/p&gt;&lt;/qt&gt;\n"
+"Rows=16\n"
+"Columns=16\n"
+"EnemiesAtGameStart=8.0\n"
+"EnemiesAddedEachRound=4.0\n"
+"FastEnemiesAtGameStart=-2.0\n"
+"FastEnemiesAddedEachRound=2.0\n"
+"EnergyEnabled=true\n"
+"EnergyAtGameStart=0\n"
+"EnergyAddedEachRound=0\n"
+"MaxEnergyAtGameStart=12.0\n"
+"MaxEnergyAddedEachRound=0.0\n"
+"SafeTeleportEnabled=true\n"
+"CostOfSafeTeleport=1\n"
+"VaporizerEnabled=false\n"
+"CostOfVaporizer=0\n"
+"PushableJunkheaps=Many\n"
+"SquaskKillsEnabled=true\n"
+"JunkheapsAtGameStart=0.0\n"
+"JunkheapsAddedEachRound=0.0\n"
+"PointsPerEnemyKilled=5\n"
+"PointsPerFastEnemyKilled=10\n"
+"WaitKillPointBonus=0\n"
+"WaitKillEnergyBonus=1\n"
+"SquashKillPointBonus=0\n"
+"SquashKillEnergyBonus=1"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:423
+#, no-c-format
+msgid ""
+"Note that all text parameters should be entered in American English. As seen "
+"in the example above, translations can be added to the desktop file by "
+"repeating the key and appending the language code between square brackets. "
+"Also note that rich text can be given to the <varname>Description</varname> "
+"field by wrapping the value in &lt;qt&gt; tags."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:424
+#, no-c-format
+msgid "A ruleset file should contain all of the following parameters."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:427
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:428
+#, no-c-format
+msgid ""
+"The name of the ruleset as it will appear in the ruleset selector and the "
+"high score dialog."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:431
+#, no-c-format
+msgid "Author"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:432
+#, no-c-format
+msgid "The creator of the ruleset."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:435
+#, no-c-format
+msgid "AuthorContact"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:436
+#, no-c-format
+msgid ""
+"The contact information of the creator. This is usually an email address."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:439
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:440
+#, no-c-format
+msgid ""
+"A description of the ruleset. This should give a decent overview of the game "
+"type, but it doesn't need to list the value of each parameter as this "
+"information can been seen in the Details dialog."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:443
+#, no-c-format
+msgid "Rows"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:444
+#, no-c-format
+msgid "The number of rows in the game grid."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:447
+#, no-c-format
+msgid "Columns"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:448
+#, no-c-format
+msgid "The number of columns in the game grid."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:451
+#, no-c-format
+msgid "EnemiesAtGameStart"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:452
+#, no-c-format
+msgid ""
+"The number of regular enemies added to the grid at the start of the first "
+"round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:455
+#, no-c-format
+msgid "EnemiesAddedEachRound"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:456
+#, no-c-format
+msgid ""
+"The number of additional regular enemies added to the grid at the start of "
+"each round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:459
+#, no-c-format
+msgid "FastEnemiesAtGameStart"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:460
+#, no-c-format
+msgid ""
+"The number of fast enemies added to the grid at the start of the first round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:463
+#, no-c-format
+msgid "FastEnemiesAddedEachRound"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:464
+#, no-c-format
+msgid ""
+"The number of additional fast enemies added to the grid at the start of each "
+"round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:467
+#, no-c-format
+msgid "EnergyEnabled"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:468
+#, no-c-format
+msgid ""
+"If set to <quote><constant>false</constant></quote> the hero will be enable "
+"to earn or spend energy."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:471
+#, no-c-format
+msgid "EnergyAtGameStart"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:472
+#, no-c-format
+msgid ""
+"The amount of energy awarded to the hero at the start of the first round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:475
+#, no-c-format
+msgid "EnergyAddedEachRound"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:476
+#, no-c-format
+msgid "The amount of energy awarded to the hero at the start of each round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:479
+#, no-c-format
+msgid "MaxEnergyAtGameStart"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:480
+#, no-c-format
+msgid ""
+"The maximum energy capacity of the hero at the start of the first round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:483
+#, no-c-format
+msgid "MaxEnergyAddedEachRound"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:484
+#, no-c-format
+msgid "The change in maximum energy capacity at the start of each round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:487
+#, no-c-format
+msgid "SafeTeleportEnabled"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:488
+#, no-c-format
+msgid ""
+"If set to <quote><constant>false</constant></quote> the safe teleport action "
+"will be disabled."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:491
+#, no-c-format
+msgid "CostOfSafeTeleport"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:492
+#, no-c-format
+msgid "The amount of energy consumed by teleporting safely."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:495
+#, no-c-format
+msgid "VaporizerEnabled"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:496
+#, no-c-format
+msgid ""
+"If set to <quote><constant>false</constant></quote> the vaporizer action "
+"will be disabled."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:499
+#, no-c-format
+msgid "CostOfVaporizer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:500
+#, no-c-format
+msgid "The amount of energy consumed by using the vaporizer."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:503
+#, no-c-format
+msgid "PushableJunkheaps"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:504
+#, no-c-format
+msgid ""
+"The number of junkheaps that can be moved with a single push. Possible "
+"values are <quote><constant>None</constant></quote>, <quote><constant>One</"
+"constant></quote> and <quote><constant>Many</constant></quote>."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:507
+#, no-c-format
+msgid "SquaskKillsEnabled"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:508
+#, no-c-format
+msgid "If true, the hero can squash enemies by pushing junkheaps onto them."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:511
+#, no-c-format
+msgid "JunkheapsAtGameStart"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:512
+#, no-c-format
+msgid ""
+"The number of junkheaps placed on the grid at the start of the first round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:515
+#, no-c-format
+msgid "JunkheapsAddedEachRound"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:516
+#, no-c-format
+msgid ""
+"The number of additional junkheaps placed on the grid at the start of each "
+"round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:519
+#, no-c-format
+msgid "PointsPerEnemyKilled"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:520
+#, no-c-format
+msgid "The number of points awarded for destroying a regular enemy."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:523
+#, no-c-format
+msgid "PointsPerFastEnemyKilled"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:524
+#, no-c-format
+msgid "The number of points awarded for destroying a fast enemy."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:527
+#, no-c-format
+msgid "WaitKillPointBonus"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:528
+#, no-c-format
+msgid ""
+"The number of bonus points awarded for destroying an enemy while waiting out "
+"the round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:531
+#, no-c-format
+msgid "WaitKillEnergyBonus"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:532
+#, no-c-format
+msgid ""
+"The number of bonus energy units awarded for destroying an enemy while "
+"waiting out the round."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:535
+#, no-c-format
+msgid "SquashKillPointBonus"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:536
+#, no-c-format
+msgid ""
+"The number of bonus points awarded for squashing an enemy with a junkheap."
+msgstr ""
+
+#. Tag: varname
+#: index.docbook:539
+#, no-c-format
+msgid "SquashKillEnergyBonus"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:540
+#, no-c-format
+msgid ""
+"The number of bonus energy units awarded for squashing an enemy with a "
+"junkheap."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:546
+#, no-c-format
+msgid "Installing Custom Game Types"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:548
+#, no-c-format
+msgid ""
+"In order for &killbots; to detect and use a new game type, the ruleset file "
+"must be moved to an appropriate directory. To install the game type for only "
+"the current user, copy the file to <filename class=\"directory\">killbots/"
+"rulesets</filename> in the local folder in <userinput><command>qtpaths</"
+"command> <option>--paths GenericDataLocation </option></userinput>. To make "
+"the game type available system wide, move the file to <filename class="
+"\"directory\">killbots/rulesets</filename> in the system folder (from the "
+"previous command, possibly <filename class=\"directory\">/usr/share</"
+"filename> or similar). Note that this will likely require administrative "
+"privileges."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:555
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:557
+#, no-c-format
+msgid "&killbots;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:558
+#, no-c-format
+msgid ""
+"Program copyright 2007&ndash;2009 Parker Coates <email>parker.coates@kdemail."
+"net</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:559
+#, no-c-format
+msgid ""
+"Documentation Copyright &copy; 2008&ndash;2009 Parker Coates <email>parker."
+"coates@kdemail.net</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:561
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:561
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

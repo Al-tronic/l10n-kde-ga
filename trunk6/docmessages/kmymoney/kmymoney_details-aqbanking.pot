@@ -1,0 +1,298 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#: details-aqbanking.docbook:5
+#, no-c-format
+msgid "&Ralf.Habacker; &Ralf.Habacker.mail;"
+msgstr ""
+
+#. Tag: date
+#: details-aqbanking.docbook:7
+#, no-c-format
+msgid "2025-07-31"
+msgstr ""
+
+#. Tag: releaseinfo
+#: details-aqbanking.docbook:8
+#, no-c-format
+msgid "5.2.70"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:10
+#, no-c-format
+msgid "Online banking"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:12
+#, no-c-format
+msgid ""
+"Online banking is configured by selecting the menu entry Settings -&gt; "
+"Configure Aqbanking,"
+msgstr ""
+
+#. Tag: screeninfo
+#: details-aqbanking.docbook:19 details-aqbanking.docbook:39
+#, no-c-format
+msgid "<screeninfo>KMyMoney configuration menu</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: details-aqbanking.docbook:25 details-aqbanking.docbook:45
+#, no-c-format
+msgid "<phrase>KMyMoney configuration menu</phrase>"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:31
+#, no-c-format
+msgid ""
+"This menu item is visible after the associated KBanking plugin has been "
+"activated, which can be done via the menu item &quot;Configure "
+"KMyMoney&quot; and after selecting the &quot;Plugins&quot; entry in the left-"
+"hand window area."
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:48
+#, no-c-format
+msgid ""
+"Make sure that the checkbox in front of the line with KBanking is checked."
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:53
+#, no-c-format
+msgid "Aqbanking setup"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:54
+#, no-c-format
+msgid ""
+"After you pressed the menu entry &quot;Configure Aqbanking&quot; you will "
+"see the following dialog:"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:69
+#, no-c-format
+msgid ""
+"Adding takes place in two steps. The first step is to add a user and the "
+"second step is to add an account."
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:76
+#, no-c-format
+msgid "Create a user"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:77
+#, no-c-format
+msgid ""
+"After pressing &quot;Create user&quot; you will be redirected to the &quot;"
+"New user Wizard&quot; dialog shown below:"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:90
+#, no-c-format
+msgid "Create user for HBCI"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:92 details-aqbanking.docbook:221
+#, no-c-format
+msgid "Select online banking protocol"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:93 details-aqbanking.docbook:222
+#, no-c-format
+msgid ""
+"After pressing &quot;Next&quot; you will see a list of available online "
+"banking protocols:"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:107
+#, no-c-format
+msgid "Configuring a HBCI account"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:108
+#, no-c-format
+msgid ""
+"After choosing &quot;HBCI backend using AqHBCI&quot; and pressing &quot;"
+"Next&quot; you will see the following page, on which you can select the "
+"security type:"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:121
+#, no-c-format
+msgid ""
+"See <ulink url=\"https://www.aquamaniac.de/rdm/projects/aqbanking/wiki/"
+"AqBanking6_Bankentabelle#section-2\">AqBanking6 Bank Table</ulink> for some "
+"details on the types of security supported by banks. If your bank is not "
+"listed there, you should try Pin/TAN first."
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:130
+#, no-c-format
+msgid "Setup pin/Tan"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:141
+#, no-c-format
+msgid "Select bank and server url"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:150
+#, no-c-format
+msgid ""
+"At <ulink url=\"https://www.aquamaniac.de/rdm/projects/aqbanking/wiki/"
+"AqBanking6_Bankentabelle\">AqBanking6 Bankentabelle</ulink> you can find a "
+"list of bank server url known to work."
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:158
+#, no-c-format
+msgid "Select bank account and user name"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:169
+#, no-c-format
+msgid "Choose extended settings or continue"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:180
+#, no-c-format
+msgid "Select extended settings"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:191 details-aqbanking.docbook:298
+#, no-c-format
+msgid "Finish creating user"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:192
+#, no-c-format
+msgid ""
+"After pressing &quot;Next&quot; aqbanking will contact the server and "
+"fetches the server certificate and bank info."
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:204
+#, no-c-format
+msgid "After pressing &quot;Close&quot; your user account has been created."
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:210
+#, no-c-format
+msgid "Add account"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:211
+#, no-c-format
+msgid ""
+"In case that adding a user account did not fail, the accounts associated to "
+"the given bank should already be present in the account list."
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:219
+#, no-c-format
+msgid "Paypal"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:236
+#, no-c-format
+msgid "Configuring a user for Paypal"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:237
+#, no-c-format
+msgid ""
+"After choosing &quot;Paypal&quot; and pressing &quot;Next&quot; you will see "
+"the following info page:"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:249
+#, no-c-format
+msgid "Press &quot;Run&quot; to continue."
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:254
+#, no-c-format
+msgid "Enter user name and the Paypal email address"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:265
+#, no-c-format
+msgid "Select API settings"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:276
+#, no-c-format
+msgid "Summary info before creating the user"
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:287
+#, no-c-format
+msgid "Enter new password for the Paypal user"
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:307
+#, no-c-format
+msgid "After pressing &quot;finish&quot; the user account has been created."
+msgstr ""
+
+#. Tag: para
+#: details-aqbanking.docbook:311
+#, no-c-format
+msgid "The remaining step is to create a new account based on this user."
+msgstr ""
+
+#. Tag: title
+#: details-aqbanking.docbook:316 details-aqbanking.docbook:327
+#, no-c-format
+msgid "Add paypal account"
+msgstr ""

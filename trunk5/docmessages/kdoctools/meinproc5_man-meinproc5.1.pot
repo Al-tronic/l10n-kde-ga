@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: man-meinproc5.1.docbook:9
+#, no-c-format
+msgid "meinproc5 User's Manual"
+msgstr ""
+
+#. Tag: date
+#: man-meinproc5.1.docbook:37
+#, no-c-format
+msgid "2014-05-08"
+msgstr ""
+
+#. Tag: releaseinfo
+#: man-meinproc5.1.docbook:38
+#, no-c-format
+msgid "Frameworks 5.0"
+msgstr ""
+
+#. Tag: productname
+#: man-meinproc5.1.docbook:39
+#, no-c-format
+msgid "KDE Frameworks"
+msgstr ""
+
+#. Tag: manvolnum
+#: man-meinproc5.1.docbook:45
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#: man-meinproc5.1.docbook:50
+#, no-c-format
+msgid "&kde; translator for &XML;"
+msgstr ""
+
+#. Tag: title
+#: man-meinproc5.1.docbook:54
+#, no-c-format
+msgid "Synopsis"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#: man-meinproc5.1.docbook:56
+#, no-c-format
+msgid ""
+"<command>meinproc5</command> <arg choice=\"opt\">-h, --help</arg> <arg "
+"choice=\"opt\">-v, --version</arg> <arg choice=\"opt\">--cache<replaceable> "
+"file</replaceable></arg> <arg choice=\"opt\">--check</arg> <arg choice=\"opt"
+"\">--srcdir<replaceable> dir</replaceable></arg> <arg choice=\"opt\">--param "
+"<replaceable>key</replaceable>=<replaceable>value</replaceable></arg> "
+"<group> <group> <arg>-o</arg> <arg>--output</arg> </group> <replaceable> "
+"file</replaceable> </group> <arg choice=\"opt\">--stdout</arg> <arg choice="
+"\"opt\">--stylesheet<replaceable> xsl</replaceable></arg> <arg choice=\"plain"
+"\">docbook_file</arg>"
+msgstr ""
+
+#. Tag: title
+#: man-meinproc5.1.docbook:80
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:82
+#, no-c-format
+msgid "<command>meinproc5</command> converts DocBook files to &HTML;."
+msgstr ""
+
+#. Tag: title
+#: man-meinproc5.1.docbook:87
+#, no-c-format
+msgid "Generic Options"
+msgstr ""
+
+#. Tag: term
+#: man-meinproc5.1.docbook:92
+#, no-c-format
+msgid "<option>-h</option><option>--help</option>"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:94
+#, no-c-format
+msgid "Show help about options."
+msgstr ""
+
+#. Tag: term
+#: man-meinproc5.1.docbook:101
+#, no-c-format
+msgid "<option>-v</option><option>--version</option>"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:103
+#, no-c-format
+msgid "Show version information."
+msgstr ""
+
+#. Tag: title
+#: man-meinproc5.1.docbook:114
+#, no-c-format
+msgid "Application Options"
+msgstr ""
+
+#. Tag: term
+#: man-meinproc5.1.docbook:118
+#, no-c-format
+msgid "<option>--cache</option> <parameter>file</parameter>"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:120
+#, no-c-format
+msgid "Create a cache file for the document."
+msgstr ""
+
+#. Tag: option
+#: man-meinproc5.1.docbook:127
+#, no-c-format
+msgid "--check"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:129
+#, no-c-format
+msgid "Check the document for validity."
+msgstr ""
+
+#. Tag: screen
+#: man-meinproc5.1.docbook:130
+#, no-c-format
+msgid ""
+"The output can be a bit daunting, since one small mistake can cause a "
+"cascade of errors. \n"
+"The trick is to look at the first error, fix that error, save the file, and "
+"run <command>meinproc5</command> again."
+msgstr ""
+
+#. Tag: term
+#: man-meinproc5.1.docbook:135
+#, no-c-format
+msgid ""
+"<option>-o</option>, <option>--output</option><parameter> file</parameter>"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:137
+#, no-c-format
+msgid "Output whole document to <parameter>file</parameter>."
+msgstr ""
+
+#. Tag: option
+#: man-meinproc5.1.docbook:144
+#, no-c-format
+msgid "--stdout"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:146
+#, no-c-format
+msgid "Output whole document to stdout."
+msgstr ""
+
+#. Tag: term
+#: man-meinproc5.1.docbook:153
+#, no-c-format
+msgid "<option>--stylesheet</option> <parameter>xsl</parameter>"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:155
+#, no-c-format
+msgid "Stylesheet to use."
+msgstr ""
+
+#. Tag: term
+#: man-meinproc5.1.docbook:162
+#, no-c-format
+msgid "<option>--srcdir</option> <parameter>dir</parameter>"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:164
+#, no-c-format
+msgid "Set the root directory to look for kdoctools."
+msgstr ""
+
+#. Tag: term
+#: man-meinproc5.1.docbook:171
+#, no-c-format
+msgid "<option>--param</option> key=value"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:173
+#, no-c-format
+msgid "Set parameters to pass to the stylesheet."
+msgstr ""
+
+#. Tag: title
+#: man-meinproc5.1.docbook:184
+#, no-c-format
+msgid "Usage"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:185
+#, no-c-format
+msgid ""
+"The most common way to run <command>meinproc5</command> is simply as "
+"<literallayout>\n"
+"<userinput><command>meinproc5</command> <replaceable>docbook-file</"
+"replaceable>\n"
+"</userinput>\n"
+"</literallayout> where <replaceable>docbook-file</replaceable> is usually "
+"index.docbook. This command creates &HTML; pages from the DocBook file. Note "
+"that these pages are only viewable in &kde;-based browsers (like "
+"&konqueror;)."
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:192
+#, no-c-format
+msgid ""
+"If you need to view the &HTML; output in another browser (for example, if "
+"you're placing it on line), use <literallayout>\n"
+"<userinput><command>meinproc5</command> --stylesheet <replaceable>stylesheet-"
+"name</replaceable> <replaceable>docbook-file</replaceable>\n"
+"</userinput>\n"
+"</literallayout> where <replaceable>stylesheet-name</replaceable> is the "
+"full path to one of the &XSL; stylesheets in &lt;"
+"kdoctools_installation_prefix&gt;/share/kf5/kdoctools/customization/. To "
+"produce output suitable for the web, you can use <command>kde-web.xsl</"
+"command> or <command>kde-chunk-online.xsl</command>. See the "
+"<filename>README</filename> file in that directory for more details."
+msgstr ""
+
+#. Tag: title
+#: man-meinproc5.1.docbook:205
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:206
+#, no-c-format
+msgid ""
+"<replaceable>kf5options</replaceable>(7), <replaceable>qt5options</"
+"replaceable>(7)"
+msgstr ""
+
+#. Tag: title
+#: man-meinproc5.1.docbook:210
+#, no-c-format
+msgid "Bugs"
+msgstr ""
+
+#. Tag: para
+#: man-meinproc5.1.docbook:211
+#, no-c-format
+msgid ""
+"Please use <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</ulink> to "
+"report bugs."
+msgstr ""

@@ -1,0 +1,8821 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:10
+#, no-c-format
+msgid "The &kexi; Handbook"
+msgstr ""
+
+#. Tag: personname
+#: index.docbook:13
+#, no-c-format
+msgid ""
+"<firstname>This documentation was converted from the KDE UserBase <ulink url="
+"\"http://userbase.kde.org/Kexi/Handbook/Introduction\">Kexi/Handbook</ulink> "
+"page at 2012-09-14.</firstname> <surname></surname>"
+msgstr ""
+
+#. Tag: personname
+#: index.docbook:19
+#, no-c-format
+msgid ""
+"<firstname>Update to 2.4 by the &kde; Documentation Team</firstname> "
+"<surname></surname>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:24
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:27
+#, no-c-format
+msgid "2012-09-14"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:28
+#, no-c-format
+msgid "<releaseinfo>2.5</releaseinfo>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:30
+#, no-c-format
+msgid ""
+"&kexi; is the application for creating databases and for data management in "
+"the &calligra; productivity suite."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:38
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:39
+#, no-c-format
+msgid "Calligra"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:40
+#, no-c-format
+msgid "Kexi"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:41
+#, no-c-format
+msgid "database"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:47 index.docbook:391
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:48
+#, no-c-format
+msgid ""
+"&kexi; is a database management application. It can be used for creating "
+"databases, inserting data, performing queries, and processing data. Forms "
+"can be created to provide a custom interface to your data. All database "
+"objects - tables, queries and forms - are stored in the database, making it "
+"easy to share data and design."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:50
+#, no-c-format
+msgid "&kexi; is part of the &calligra; productivity suite by KDE."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:52
+#, no-c-format
+msgid ""
+"In addition to storing your &kexi; databases in files, &kexi; can also store "
+"your data on a database server. Using a database server allows you to share "
+"your database with other people, and also allows more than one person to use "
+"the database at one time. The following database servers are supported by "
+"&kexi;:"
+msgstr ""
+
+#. Tag: ulink
+#: index.docbook:55
+#, no-c-format
+msgid "MySQL"
+msgstr ""
+
+#. Tag: ulink
+#: index.docbook:56
+#, no-c-format
+msgid "PostgreSQL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:58
+#, no-c-format
+msgid ""
+"More information about &kexi; can be found at the &kexi; <ulink url=\"http://"
+"www.calligra-suite.org/kexi/\">page on the Calligra website</ulink>, and on "
+"the <ulink url=\"http://www.kexi-project.org/about.html\">website for Kexi "
+"itself</ulink>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:60
+#, no-c-format
+msgid ""
+"If you have any questions about &kexi;, there are two mailing lists you can "
+"use. The &kexi; user mailing list can be used to ask questions about using "
+"&kexi; or about the &kexi; project. The &kexi; development mailing list can "
+"be used to ask questions about the development of &kexi;. Further "
+"information on how to subscribe to these lists, together with a few other "
+"ways of making contact with &kexi; developers, can be found <ulink url="
+"\"http://www.kexi-project.org/support.html\">here</ulink>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:62
+#, no-c-format
+msgid ""
+"This handbook for &kexi; 2.5 is meant to be based on the &kexi; Handbook for "
+"Kexi 1.1. Please coordinate any effort with Jarosław Staniek, email: kexi at "
+"kde.org"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:65
+#, no-c-format
+msgid "Kexi Basics"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:67
+#, no-c-format
+msgid "<link linkend=\"kexi-databases\">Kexi Databases</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:68
+#, no-c-format
+msgid ""
+"<link linkend=\"creating-a-new-database-file\">Creating a New Database File</"
+"link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:69
+#, no-c-format
+msgid ""
+"<link linkend=\"the-kexi-main-window\">The Kexi Main Window</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:70
+#, no-c-format
+msgid ""
+"<link linkend=\"main-application-elements\">Main application elements</"
+"link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:73
+#, no-c-format
+msgid ""
+"<link linkend=\"opening-an-existing-kexi-database-file\">Opening an existing "
+"Kexi database file</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid ""
+"<link linkend=\"opening-a-database-file-in-the-open-existing-project-dialog"
+"\">Opening a database file in the Open Project dialog</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:75
+#, no-c-format
+msgid ""
+"<link linkend=\"opening-an-existing-kexi-database-file-by-clicking-on--kexi-"
+"files-icon\">Opening an existing Kexi database file by clicking on .kexi "
+"file's icon</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:78
+#, no-c-format
+msgid "<link linkend=\"using-built-in-help\">Using built-in help</link>&nbsp;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:80
+#, no-c-format
+msgid "Kexi Databases"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:81
+#, no-c-format
+msgid ""
+"Many applications such as <trademark class=\"registered\">OpenOffice.org</"
+"trademark>, <trademark class=\"registered\">LibreOffice</trademark> or "
+"<application>&Microsoft; Excel</application> create files which are called "
+"documents. &kexi; creates files too, but we refer to them as &kexi; database "
+"files, or simple database files here."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:83
+#, no-c-format
+msgid ""
+"In addition to storing your databases in database files, &kexi; can also use "
+"databases on database servers, which is why we refer to them as database "
+"files, and not simply as databases."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:85
+#, no-c-format
+msgid ""
+"The term &kexi; project, or simply project is also used to refer to a &kexi; "
+"database, regardless of whether it is stored in a file or on a database "
+"server."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:87
+#, no-c-format
+msgid ""
+"&kexi; database files usually have the extension <filename>.kexi</filename>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:90
+#, no-c-format
+msgid "Creating a New Database File"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:105
+#, no-c-format
+msgid ""
+"Run &kexi;, or if it is already running, use <menuchoice><guimenu>Kexi</"
+"guimenu><guimenuitem>New... (Ctrl+N)</guimenuitem></menuchoice>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:106
+#, no-c-format
+msgid ""
+"On the <guilabel>New Project</guilabel> page, under <guilabel>Blank "
+"Projects</guilabel> section, choose <guilabel>Blank Database</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:118
+#, no-c-format
+msgid ""
+"On the <guilabel>Storage Method</guilabel> page, click <guilabel>File</"
+"guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:130
+#, no-c-format
+msgid ""
+"On the <guilabel>Project Title &amp; Filename</guilabel>, define a title and "
+"the filename for the project."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:131
+#, no-c-format
+msgid "Click <guilabel>Next</guilabel> to create the project."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:135
+#, no-c-format
+msgid ""
+"When you change the project title, the proposed filename automatically "
+"changes accordingly."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:136
+#, no-c-format
+msgid ""
+"You can use the file browser to choose a folder where you would like to save "
+"your database file."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:140
+#, no-c-format
+msgid "The Kexi Main Window"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:154
+#, no-c-format
+msgid ""
+"The <guilabel>Tabbed Toolbar</guilabel> on the top gives access to common "
+"actions and commands."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:156
+#, no-c-format
+msgid ""
+"The <guilabel>Project Navigator</guilabel> and <guilabel>Property Editor</"
+"guilabel> are shown in panes on each side of the child window. These can be "
+"resized or hidden as required. A pane can be hidden by clicking the small "
+"cross at the top of the pane (just below the toolbar)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:158
+#, no-c-format
+msgid ""
+"Database objects (tables, queries, &etc;) listed in the <guilabel>Project "
+"Navigator</guilabel> can be opened by clicking (or double-clicking, "
+"depending upon your global KDE settings) on their names."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:160
+#, no-c-format
+msgid "Main application elements"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:161
+#, no-c-format
+msgid "Main elements of &kexi; application's window are:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:164
+#, no-c-format
+msgid "<emphasis role=\"bold\">Tabbed Toolbar</emphasis>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:166
+#, no-c-format
+msgid ""
+"Contains available commands for the application. You will find detailed "
+"description of any of the commands in <link linkend=\"command-reference"
+"\">the appendix</link>."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:169
+#, no-c-format
+msgid "<emphasis role=\"bold\">Project Navigator pane</emphasis>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:171
+#, no-c-format
+msgid ""
+"Contains a list of any object (tables, queries, forms, ...) created within "
+"the currently opened database project. The navigator also contains small "
+"toolbar with most usable commands related to the database objects."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:174
+#, no-c-format
+msgid "Opened Database Objects Area / Tabbed Windows"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:176
+#, no-c-format
+msgid ""
+"A central area of the application taking most of the screen space. The user "
+"interface contains switchable tabs with windows that are always maximized."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:179
+#, no-c-format
+msgid "<emphasis role=\"bold\">Property Editor pane</emphasis>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:181
+#, no-c-format
+msgid ""
+"Contains a list of properties of currently activated database object. For "
+"certain objects (&eg; form's widgets) it can have several tabs."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:186
+#, no-c-format
+msgid "<title>Tabbed Toolbar</title>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:200
+#, no-c-format
+msgid ""
+"The toolbar is the place that gives you access to most &kexi; commands and "
+"actions."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:202
+#, no-c-format
+msgid "Using the actions found in the different tabs on the toolbar you can:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:205
+#, no-c-format
+msgid "Create / Open / Close Kexi projects"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:206
+#, no-c-format
+msgid "Create Database objects"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid "Import / Export Data"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:209
+#, no-c-format
+msgid "Depending on the context, additional tabs can be visible:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:212
+#, no-c-format
+msgid ""
+"<guilabel>Form Design</guilabel> tab is visible if the Form Designer is "
+"actually used."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:213
+#, no-c-format
+msgid ""
+"<guilabel>Report Design</guilabel> tab is visible if the Report Designer is "
+"actually used."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:216
+#, no-c-format
+msgid "<title>Project Navigator pane</title>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:230
+#, no-c-format
+msgid ""
+"The <guilabel>Project Navigator</guilabel> pane is one of the most "
+"frequently used elements of the &kexi; main window. The pane contains a list "
+"of all objects created within the currently opened Kexi database project. "
+"The objects are split into groups: tables, queries, forms, reports and "
+"scripts."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:232
+#, no-c-format
+msgid ""
+"The Project Navigator pane also contains a small toolbar for most frequently "
+"used commands (from left to right): <guilabel>Open</guilabel> selected "
+"object, <guilabel>Design</guilabel> selected object, and <guilabel>Delete</"
+"guilabel> selected object."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:234
+#, no-c-format
+msgid ""
+"For each object on the list a context menu is available using the right "
+"mouse button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:236
+#, no-c-format
+msgid ""
+"Double clicking with the left mouse button on the object's name on the list "
+"opens the object in <guilabel>Data View</guilabel>. If the object's window "
+"was already opened, the action just activates the window without switching "
+"it's view mode."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:238
+#, no-c-format
+msgid ""
+"Even though your operating system or window manager may be set up to handle "
+"single clicks instead of double clicks, &kexi; uses double clicks in "
+"<guilabel>Project Navigator</guilabel> to avoid accidentally opening large "
+"datasets or executing queries."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:241
+#, no-c-format
+msgid "Opened database objects area / Tabbed Windows"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:255
+#, no-c-format
+msgid ""
+"Whenever you double click an object in the project navigator, it opens in "
+"the <guilabel>Opened database objects area</guilabel>. Each window has its "
+"own tab in &kexi;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:257
+#, no-c-format
+msgid ""
+"You can rearrange the tabs by drag and drop and close them using the "
+"<inlinemediaobject> <imageobject> <imagedata fileref=\"Icon-tab-close.png\" "
+"format=\"PNG\"/> </imageobject> </inlinemediaobject> button located at the "
+"far right of the tab strip."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:259
+#, no-c-format
+msgid ""
+"Sometime later on there will be an option to detach tabs, creating somewhat "
+"something similar to an MDI interface. That could be useful for custom "
+"solutions or multiple displays."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:262
+#, no-c-format
+msgid "<title>Property Editor pane</title>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:276
+#, no-c-format
+msgid ""
+"In the <guilabel>Property Editor</guilabel> pane you can change properties "
+"of the object displayed in the active window. Depending on the context, the "
+"pane is consisted of one or more tabs. The first, always visible tab, "
+"<guilabel>Properties</guilabel>, contains the list of available properties."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:278
+#, no-c-format
+msgid "Rules for using the <guilabel>Property Editor</guilabel>:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:281
+#, no-c-format
+msgid "Each row contains a single property."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:282
+#, no-c-format
+msgid ""
+"You can use the mouse or the keyboard to change values of particular "
+"properties."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:283
+#, no-c-format
+msgid "Most frequently used types of property values are:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:284
+#, no-c-format
+msgid ""
+"a number; you can enter the value directly or increase or decrease its value "
+"by clicking with the left mouse button on the arrows."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:285
+#, no-c-format
+msgid "text"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:286
+#, no-c-format
+msgid "drop down list of values"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:287
+#, no-c-format
+msgid ""
+"Yes/No; you can toggle the value by clicking on the button; Yes (true) means "
+"that the button is toggled on, No (false) means that the button is toggled "
+"off."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:292
+#, no-c-format
+msgid ""
+"There is no need to confirm a changed value: changes are visible immediately "
+"after moving to a different row of the Property Editor's list or by pressing "
+"the &Enter; key."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:293
+#, no-c-format
+msgid ""
+"Names of the recently changed properties that not yet were stored in the "
+"database are marked with bold text."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:294
+#, no-c-format
+msgid ""
+"After changing the value of a property, a special <guilabel>Undo changes</"
+"guilabel> button appears on the right side of the Property Editor's list. By "
+"clicking it you can revert the value of the property to the original value "
+"that was loaded from the database upon opening the database object. The "
+"button is only visible when the property is actually highlighted."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:297
+#, no-c-format
+msgid "The <guilabel>Property Editor</guilabel> pane is empty if:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:300
+#, no-c-format
+msgid "no single database object's window is opened, or"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:301
+#, no-c-format
+msgid ""
+"the active database object's window does not offer properties; it is usually "
+"the case when it is opened in <guilabel>Data View</guilabel> instead of "
+"<guilabel>Design View</guilabel>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:305
+#, no-c-format
+msgid "Opening an existing Kexi database file"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:306
+#, no-c-format
+msgid "There are two ways to open an existing &kexi; database file:"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:308
+#, no-c-format
+msgid "Opening a database file in the Open Project dialog"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:310
+#, no-c-format
+msgid ""
+"Run &kexi;. You should see the <guilabel>Welcome to Kexi</guilabel> startup "
+"dialog, which allows you select one of the recently used projects to open."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:311
+#, no-c-format
+msgid ""
+"If the project is not on the page with recently used projects choose "
+"<guibutton>Open...</guibutton> (<keycombo action=\"simul\">&Ctrl;<keycap>O</"
+"keycap></keycombo>). You will see the following dialog:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:326
+#, no-c-format
+msgid ""
+"From the location bar, pick a folder containing a file you are looking for."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:327
+#, no-c-format
+msgid ""
+"You can either pick a file which is immediately opened. Alternatively you "
+"enter its name in the <guilabel>Name:</guilabel> box and click on "
+"<guilabel>Next</guilabel>."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:329 index.docbook:341
+#, no-c-format
+msgid "Notes"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:332
+#, no-c-format
+msgid ""
+"By default the <guilabel>Filter:</guilabel> drop down list has <guilabel>All "
+"Supported Files (*.kexi, *.kexic, *.kexis, *.mdb)</guilabel> selected. In "
+"case the file you are looking for has another extension, you can change the "
+"selection of the <guilabel>Filter:</guilabel> drop down list to "
+"<guilabel>All Files</guilabel> to display all available files (regardless of "
+"an extension)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:333
+#, no-c-format
+msgid ""
+"If you have selected a file of an external type, like a <guilabel>MS Access</"
+"guilabel> <filename>.mdb</filename> file, &kexi; will provide you with the "
+"option to import the file."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:334
+#, no-c-format
+msgid ""
+"If you have selected a connection data file (with <filename>.kexic</"
+"filename> extension) or a shortcut to a project on database server file "
+"(with <filename>.kexis</filename> extension), &kexi; will display "
+"appropriate dialogs."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:337
+#, no-c-format
+msgid "Opening an existing Kexi database file by clicking on .kexi file's icon"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:339
+#, no-c-format
+msgid ""
+"Click file's icon using your file manager or desktop. &kexi; will open this "
+"database project automatically."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:343
+#, no-c-format
+msgid ""
+"Note about database files accessed remotely. You may want to open a database "
+"file that is located on a remote source (&eg; a web or FTP server or a MS "
+"Windows network share). KDE allows you to open files from remote sources "
+"directly in applications and to save changes back to the source, but this is "
+"not the case with database files. By clicking on a database file located on "
+"a remote source, a copy of the file will be downloaded to a temporary "
+"directory on your computer and all your changes will be made to this local "
+"file. The remote original of the file will remain unchanged, so it's "
+"recommended to copy (download) the file to your computer first, then open "
+"the file and copy it back to the remote source if you want to make it up to "
+"date."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:347
+#, no-c-format
+msgid "Using built-in help"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:348
+#, no-c-format
+msgid "The following ways to get built-in help in &kexi; are available:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:351
+#, no-c-format
+msgid "The Handbook in form of electronic document."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:353
+#, no-c-format
+msgid ""
+"The Handbook is available by pressing <keycap>F1</keycap> key or click "
+"<inlinemediaobject> <imageobject> <imagedata fileref=\"Icon-help-contents.png"
+"\" format=\"PNG\"/> </imageobject> </inlinemediaobject> in the menubar and "
+"select <guilabel>Help</guilabel>."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:356
+#, no-c-format
+msgid "<emphasis>What's This?</emphasis> hints."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:358
+#, no-c-format
+msgid ""
+"Select <guilabel>What's This?</guilabel> from the menu that pops up when you "
+"click <inlinemediaobject> <imageobject> <imagedata fileref=\"Icon-help-"
+"contents.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> and then "
+"click on an area of the application to get hints about it."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:364
+#, no-c-format
+msgid "Building Simple Databases"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:366
+#, no-c-format
+msgid "<link linkend=\"building-simple-databases\">Introduction</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:367
+#, no-c-format
+msgid ""
+"<link linkend=\"designing-database-tables\">Designing Database Tables</"
+"link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:368
+#, no-c-format
+msgid ""
+"<link linkend=\"the-table-designer-window\">The Table Designer window</"
+"link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:371
+#, no-c-format
+msgid ""
+"<link linkend=\"entering-data-into-tables\">Entering Data Into Tables</"
+"link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:372
+#, no-c-format
+msgid ""
+"<link linkend=\"designing-database-queries\">Designing Database Queries</"
+"link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:373
+#, no-c-format
+msgid "<link linkend=\"designing-forms\">Designing Forms</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:374 index.docbook:508
+#, no-c-format
+msgid ""
+"<link linkend=\"most-important-terms\">Most important terms</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:375 index.docbook:509
+#, no-c-format
+msgid "<link linkend=\"forms-versus-tables\">Forms versus tables</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:376 index.docbook:510
+#, no-c-format
+msgid ""
+"<link linkend=\"working-with-form-design\">Working with form design</"
+"link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:377 index.docbook:511
+#, no-c-format
+msgid ""
+"<link linkend=\"using-the-widgets-tab\">Using the Widgets tab</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:378 index.docbook:512
+#, no-c-format
+msgid ""
+"<link linkend=\"inserting-widgets---text-fields\">Inserting widgets - text "
+"fields</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:379 index.docbook:513
+#, no-c-format
+msgid ""
+"<link linkend=\"assigning-data-sources\">Assigning data sources</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:380 index.docbook:514
+#, no-c-format
+msgid ""
+"<link linkend=\"inserting-text-labels\">Inserting text labels</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:381 index.docbook:515
+#, no-c-format
+msgid "<link linkend=\"actions\">Actions</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:382 index.docbook:516
+#, no-c-format
+msgid "<link linkend=\"widget-layouts\">Widget layouts</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:389
+#, no-c-format
+msgid ""
+"<link linkend=\"entering-data-using-forms\">Entering Data Using Forms</"
+"link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:392
+#, no-c-format
+msgid ""
+"To learn the basics of &kexi;, you could build a simple database utilizing "
+"most elementary &kexi;'s features. To make things simpler, advanced database "
+"design topics will not be covered here."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:394
+#, no-c-format
+msgid "Start by creating a new empty Phone Book."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:396
+#, no-c-format
+msgid "Having a new empty database project, perform the following steps:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:399
+#, no-c-format
+msgid ""
+"Design database tables. Read the section called <link linkend=\"designing-"
+"database-tables\">Designing Database Tables</link>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:400
+#, no-c-format
+msgid ""
+"Enter data into tables. Read the section called <link linkend=\"entering-"
+"data-into-tables\">Entering Data Into Tables</link>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:401
+#, no-c-format
+msgid ""
+"Design database queries. Read the section called <link linkend=\"designing-"
+"database-queries\">Designing Database Queries</link>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:402
+#, no-c-format
+msgid ""
+"Design forms. Read the section called <link linkend=\"designing-forms"
+"\">Designing Forms</link>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:403
+#, no-c-format
+msgid ""
+"Use forms to enter data. Read the section called <link linkend=\"entering-"
+"data-using-forms\">Entering Data Using Forms</link>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:406
+#, no-c-format
+msgid "Designing Database Tables"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:408
+#, no-c-format
+msgid ""
+"First, there will be two tables added to your database: "
+"<replaceable>Persons</replaceable> and <replaceable>Phones</replaceable>. "
+"These are exactly the same tables as described in chapter <link linkend="
+"\"database-and-spreadsheet\">Database and Spreadsheet</link>. A layout for "
+"<replaceable>Persons</replaceable> can be found in section <link linkend="
+"\"data-integrity-and-validity\">Data integrity and validity</link> in that "
+"chapter."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:411
+#, no-c-format
+msgid ""
+"Select <guilabel>Table</guilabel> from the toolbar. You can also use "
+"<guilabel>Create object: table</guilabel> in the context menu of the "
+"<guilabel>Tables</guilabel> item in the Project Navigator."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:412
+#, no-c-format
+msgid ""
+"The Table Designer's window will appear. Looking at the top of designer's "
+"window you will notice that &kexi; proposed you a generic name like "
+"<guilabel>Table1</guilabel> for the new table. The table design is not saved "
+"yet so you will be able to assign more proper name later. Moreover, because "
+"of the same reason, the table name is not yet visible in the "
+"<guilabel>Project Navigator</guilabel>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:414
+#, no-c-format
+msgid "The Table Designer window"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:415
+#, no-c-format
+msgid "Table Designer window consists of following columns:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:417
+#, no-c-format
+msgid "- Additional Information about the field."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:418
+#, no-c-format
+msgid ""
+"<guilabel>Field Caption</guilabel> - caption of the field which will be "
+"displayed during data entering."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:419
+#, no-c-format
+msgid ""
+"<guilabel>Data Type</guilabel> - a combo box containing a list of data "
+"types, allowing to set a main rule for entered data for a given field. For "
+"example, when an integer number data type is set for a field, a database "
+"user will not able to enter letter characters into this field."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:420
+#, no-c-format
+msgid ""
+"<guilabel>Comments</guilabel> - you can enter here any information useful "
+"for understanding what the given field is provided for. This additional text "
+"will be saved within the table design and only visible in design mode."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:422
+#, no-c-format
+msgid ""
+"In the Table designer window, every row corresponds to a single table field. "
+"You can recognize you are in design mode because the <guilabel>Design</"
+"guilabel> button is toggled on within the Table designer window toolbar."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:425
+#, no-c-format
+msgid "Designing the Persons table"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:426
+#, no-c-format
+msgid ""
+"In the first row click on the cell in the <guilabel>Field Caption</guilabel> "
+"column and enter <replaceable>Name</replaceable> as field caption. Filling "
+"the <guilabel>Field Caption</guilabel> field automatically fills the "
+"<guilabel>Name</guilabel> field as seen in the <guilabel>Property Editor</"
+"guilabel> pane."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:428
+#, no-c-format
+msgid "Notes about field names and captions"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:431
+#, no-c-format
+msgid ""
+"Every table field must have a name and a caption, these cannot be empty."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:432
+#, no-c-format
+msgid ""
+"Field name is a word used by the database, usually not visible for users of "
+"the database application. The name may not contain special (national) "
+"characters (like ±, ¶, Ü) or space characters. The name must only contain "
+"roman letters, numbers and underscore sign <quote>_</quote>. Use the latter "
+"instead of spaces or dashes."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:433
+#, no-c-format
+msgid ""
+"Field names must be started with a letter or underscore sign <quote>_</"
+"quote>, never with a number."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:434
+#, no-c-format
+msgid ""
+"It does not matter whether you are using small or capital letters. For "
+"&kexi; the field name <replaceable>Persons</replaceable> is the same as "
+"<replaceable>persons</replaceable>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:435
+#, no-c-format
+msgid ""
+"Field caption, on the other hand, allows you to enter any letters and "
+"special characters. It will be displayed for users of the database "
+"application."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:437
+#, no-c-format
+msgid "In a similar way, enter the following fields into the table design:"
+msgstr ""
+
+#. Tag: replaceable
+#: index.docbook:440
+#, no-c-format
+msgid "surname"
+msgstr ""
+
+#. Tag: replaceable
+#: index.docbook:441
+#, no-c-format
+msgid "street"
+msgstr ""
+
+#. Tag: replaceable
+#: index.docbook:442
+#, no-c-format
+msgid "house_number"
+msgstr ""
+
+#. Tag: replaceable
+#: index.docbook:443
+#, no-c-format
+msgid "city"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:445
+#, no-c-format
+msgid ""
+"All the above fields, except <replaceable>house_number</replaceable>, are of "
+"type text. Change <replaceable>house_number</replaceable> field's type to "
+"integer number. To do this, click on a cell in the <guilabel>Data Type</"
+"guilabel> column, <replaceable>house_number</replaceable> row and then click "
+"on drop down list's button or press <keycap>F4</keycap>. The list of data "
+"types will appear. You can also use the arrow keys <keysym>Up</keysym> and "
+"<keysym>Down</keysym> to select another type. Select the <guilabel>Integer "
+"Number</guilabel> type."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:447
+#, no-c-format
+msgid ""
+"From now on, the <replaceable>house_number</replaceable> field only accepts "
+"numbers."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:449
+#, no-c-format
+msgid ""
+"Persons table design is ready. Click the <guilabel>Data</guilabel> button on "
+"the toolbar to finish designing and switch to <guilabel>Data View</guilabel> "
+"for the table. This allows you to enter data into the table."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:451
+#, no-c-format
+msgid ""
+"As the design is not yet saved in the database, the <guilabel>Save Object "
+"As</guilabel> dialog window appears. You need to specify the name for the "
+"new table."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:453
+#, no-c-format
+msgid ""
+"&kexi; offers a generic name like <guilabel>Table1</guilabel>. To change the "
+"name, enter <replaceable>Persons</replaceable> into the <guilabel>Caption</"
+"guilabel> field and press the &Enter; key or click the <keycap>OK</keycap> "
+"button. The <guilabel>Caption</guilabel> field will be used to display the "
+"table to database end-users, &eg; as a form. Unlike the name, the caption "
+"can contain any characters including spaces and special characters."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:455
+#, no-c-format
+msgid ""
+"Note that filling the <guilabel>Caption</guilabel> field automatically fills "
+"the <guilabel>Name</guilabel> field. For your convenience the rule for using "
+"only letters, numbers and the <quote>_</quote> character is kept. You can "
+"alter the contents of the <guilabel>Name</guilabel> field if you want to."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:458
+#, no-c-format
+msgid ""
+"You are asked about an agreement for automatic adding of primary key to the "
+"table. Click <guilabel>Add primary key</guilabel> button to continue."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:459
+#, no-c-format
+msgid ""
+"The <replaceable>Persons</replaceable> table has been created and opened in "
+"Data View. Its name appears in the <guilabel>Project Navigator</guilabel> "
+"pane."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:460
+#, no-c-format
+msgid ""
+"Create the <replaceable>Phones</replaceable> table, in a similar way as "
+"<replaceable>Persons</replaceable> table."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:461
+#, no-c-format
+msgid ""
+"Create a <replaceable>person</replaceable> field of type <guilabel>Integer</"
+"guilabel> number and <replaceable>phone</replaceable> of type "
+"<guilabel>Text</guilabel>. Do not use a number type here because phone "
+"numbers can have many different forms and prefixes."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:462
+#, no-c-format
+msgid ""
+"Click the <guilabel>Data</guilabel> button on the toolbar and enter "
+"<replaceable>Phones</replaceable> caption for the table. As for your "
+"previous table, allow &kexi; to automatically create a primary key."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:467
+#, no-c-format
+msgid "Entering Data Into Tables"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:468
+#, no-c-format
+msgid ""
+"You have designed the two tables <replaceable>Persons</replaceable> and "
+"<replaceable>Phones</replaceable>. None of them contain any data yet. You "
+"can enter some, and in this chapter you will learn how to do this fast and "
+"effectively."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:470
+#, no-c-format
+msgid ""
+"Start with the <replaceable>Persons</replaceable> table. Open it in Data "
+"View using <guilabel>Open</guilabel> in the <guilabel>Project Navigator's</"
+"guilabel> context menu or the toolbar button. The current cell is marked "
+"with (usually black) thicker border, a cell cursor. The contents of the "
+"cell, if present, are highlighted with a different color. The current row, "
+"&ie; the one you have placed your rectangular cursor in, is marked on the "
+"left hand with an arrow symbol."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:472
+#, no-c-format
+msgid ""
+"You can navigate through table cells using the arrow keys, <keycap>Page "
+"Down</keycap>, <keycap>Page Down</keycap>, <keycap>Home</keycap>, "
+"<keycap>End</keycap> keys; you can also click with the mouse in a cell to "
+"select it."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:474
+#, no-c-format
+msgid ""
+"Initially, after opening the table <replaceable>Persons</replaceable>, the "
+"cursor is placed in the <replaceable>Id</replaceable> column. The column has "
+"autonumber property defined, marked with blue (autonumber) text in the last "
+"row. It means you do not have to enter values there by hand when entering "
+"data for a new row because the cell will be filled automatically with "
+"successive numbers."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:476
+#, no-c-format
+msgid ""
+"Inserting new rows and entering data for them in &kexi; is different from "
+"the way of doing this in spreadsheets. To enter data for a new row, you need "
+"to use the arrow keys or mouse, to move your cursor to the special empty "
+"last row marked with a plus sign. Place your cursor in the (second) "
+"<replaceable>name</replaceable> column and enter a person's name. Also enter "
+"surname, street, house number and city. When done, move the cell cursor to "
+"the last empty row either by using the <keycap>Down</keycap> key or by "
+"clicking in the last row with the mouse to append a new row."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:478
+#, no-c-format
+msgid "Details About Actions Available While Entering Data Into Tables"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:480
+#, no-c-format
+msgid ""
+"As soon as you enter the first character, the current row is being edited. A "
+"pencil symbol appears on the left side of the data table."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:481
+#, no-c-format
+msgid ""
+"Double clicking a cell with the left mouse button or pressing &Enter; or the "
+"<keycap>F2</keycap> key also starts editing of the current row."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:482
+#, no-c-format
+msgid ""
+"Pressing the &Esc; key when the contents of a cell is edited cancels changes "
+"made to this cell. However, the pencil symbol will not disappear because you "
+"can still move to a different cell of the edited row to change its contents. "
+"To cancel changes made to the entire edited row, press the &Esc; key again."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:483
+#, no-c-format
+msgid ""
+"Instead of pressing the &Esc; key, you can click the <guilabel>Cancel Record "
+"Changes</guilabel> toolbar button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:484
+#, no-c-format
+msgid ""
+"Press the <keycombo>&Shift;&Enter;</keycombo> keys to accept changes made to "
+"all cells in the currently edited row."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:486
+#, no-c-format
+msgid ""
+"Fill the <replaceable>Phones</replaceable> table with data. In the "
+"<replaceable>person</replaceable> column you need to provide an "
+"<replaceable>Id</replaceable> number of the person existing in the "
+"<replaceable>Persons</replaceable> table."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:490
+#, no-c-format
+msgid "Designing Database Queries"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:491
+#, no-c-format
+msgid ""
+"A database's primary purpose is to store and help extract information you "
+"are looking for. Unlike databases written on a paper sheets, &kexi; database "
+"allows you to specify more search criteria. Results are returned faster even "
+"for large data sets. All this is a power of databases, however to be able to "
+"perform effective queries in your database, you need to learn how to tell "
+"the database what you are looking for."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:493
+#, no-c-format
+msgid ""
+"With database queries you can limit data coming from a table to a predefined "
+"set of rows and columns as well as dynamically join data coming from "
+"multiple tables."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:495
+#, no-c-format
+msgid ""
+"To see how queries work in practice you will create a contacts query joining "
+"data from two tables: <replaceable>Persons</replaceable> and "
+"<replaceable>Phones</replaceable> (designed <link linkend=\"designing-"
+"database-tables\">here</link> and filled with data <link linkend=\"entering-"
+"data-into-tables\">here</link>)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:498
+#, no-c-format
+msgid ""
+"Create a new empty query by selecting <guilabel>Query</guilabel> from the "
+"toolbar. The design window will appear. The window is split into two areas: "
+"query relationships at the top and query columns below."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:499
+#, no-c-format
+msgid ""
+"Select the table <replaceable>Persons</replaceable> in the drop down list "
+"<guilabel>Table:</guilabel> located at the top of the window and click the "
+"<guilabel>Insert</guilabel> button. A graphical representation of the table "
+"will appear in the relations area. Do the same for the <replaceable>Phones</"
+"replaceable> table to insert it too."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:500
+#, no-c-format
+msgid ""
+"Add query relationship using mouse drag &amp; drop technique: click the "
+"field <replaceable>id</replaceable> in the <replaceable>persons</"
+"replaceable> table, drag it and drop into the <replaceable>person</"
+"replaceable> field of the <replaceable>Phones</replaceable> table. This will "
+"join both fields by creating a new relationship."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:501
+#, no-c-format
+msgid ""
+"Double-click the <replaceable>name</replaceable> field in the "
+"<replaceable>Persons</replaceable> table, to add the field as a query "
+"column. In a similar way, add <replaceable>surname</replaceable>, "
+"<replaceable>street</replaceable>, <replaceable>house_number</replaceable>, "
+"<replaceable>city</replaceable> fields from the <replaceable>Persons</"
+"replaceable> table and <replaceable>phone</replaceable> from the "
+"<replaceable>Phones</replaceable> table."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:502
+#, no-c-format
+msgid ""
+"Query design is now ready for testing. Click the <guilabel>Data</guilabel> "
+"button on the toolbar, to switch from design to viewing the data provided as "
+"query results."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:503
+#, no-c-format
+msgid ""
+"Save the query design for later use by clicking the <guilabel>Save</"
+"guilabel> button on the toolbar. Because the query design has not been saved "
+"yet, you will be asked to specify a name for it. Enter "
+"<replaceable>Contacts</replaceable> text in the caption field and click the "
+"<guilabel>OK</guilabel> button."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:506
+#, no-c-format
+msgid "Designing Forms"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:522
+#, no-c-format
+msgid "Most important terms"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:524
+#, no-c-format
+msgid "<emphasis role=\"bold\">Form</emphasis>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:526
+#, no-c-format
+msgid ""
+"A window provided for easy data entry and presentation on the computer "
+"screen."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:529
+#, no-c-format
+msgid "Form's data source"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:531
+#, no-c-format
+msgid ""
+"Database table or query providing data displayed in the form. The data "
+"source is needed because forms itself are only tools for displaying and "
+"entering data, while tables and queries are the source of data. New, empty "
+"forms have no data source assigned, so they are not displaying any data from "
+"your database unless you assign a data source to them."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:534
+#, no-c-format
+msgid "Form field"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:536
+#, no-c-format
+msgid ""
+"Direct equivalent of a column in a table or query. Most frequently used are "
+"fields for displaying text and numbers. Entering a new value or changing the "
+"existing value of such a field causes a change in the bound table or query "
+"column (after accepting the change)."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:539
+#, no-c-format
+msgid "Form design"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:541
+#, no-c-format
+msgid ""
+"Tasks you are performing to define the appearance and functions of the form. "
+"To do this, you need to provide data source, insert form fields of various "
+"types and place them at the appropriate location."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:544
+#, no-c-format
+msgid "Form widget"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:546
+#, no-c-format
+msgid "Form's element. Main widget types are:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:548
+#, no-c-format
+msgid ""
+"Widgets displaying information, &eg; a text box or an image box. Each widget "
+"of this type can be bound to a data source field (a table or a query "
+"column). Therefore, such widgets are called in short form fields."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:549
+#, no-c-format
+msgid ""
+"Widgets able to perform a specified action, &eg; a push button that can "
+"close the current form. Within other applications this widget type is "
+"sometimes called form control because it can perform previously defined "
+"action of controlling your database application's behavior."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:550
+#, no-c-format
+msgid ""
+"Other widgets allowing to enrich a form's appearance, &eg; a “line widget” "
+"can visually separate two form areas."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:555
+#, no-c-format
+msgid "Container widget"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:557
+#, no-c-format
+msgid ""
+"A widget that can contain other widgets within its area. For example, frame "
+"widget or tab widget are containers. The form's surface itself is a "
+"container as well. A command button cannot be called as container because it "
+"is not possible to insert a widget inside it. In more complex cases, "
+"container widgets can be inserted inside a container, so nesting is possible."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:562
+#, no-c-format
+msgid "Forms versus tables"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:563
+#, no-c-format
+msgid ""
+"In chapter <link linkend=\"entering-data-into-tables\">Entering Data Into "
+"Tables</link> you learned about how to enter data directly into tables using "
+"their data sheet view. However, in many cases forms are better suited for "
+"data entry:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:566
+#, no-c-format
+msgid ""
+"A table can contain too many columns to display them on your screen. A form "
+"can display such a data using multiple rows."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:567
+#, no-c-format
+msgid ""
+"A form allows to visually split data fields into logical groups, thus "
+"increasing readability. Labels with additional information can be inserted "
+"to give users more hints on how to use the form or what given data fields "
+"mean."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:568
+#, no-c-format
+msgid ""
+"Command buttons can be used within forms for commonly used commands so users "
+"can use forms in a similar way as a standalone applications they know."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:570
+#, no-c-format
+msgid ""
+"In data sheet view displaying multi-row data text fields or images is as "
+"easy as within forms."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:573
+#, no-c-format
+msgid "Working with form design"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:574
+#, no-c-format
+msgid ""
+"As with table or query design, you are able to use Data View and Design "
+"View. Form designing is performed in Design View. We will often refer to the "
+"form design window as to <emphasis>Form Designer</emphasis>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:577
+#, no-c-format
+msgid ""
+"To create a new empty form, select <guilabel>Form</guilabel> from the "
+"toolbar. Optionally, you can use the <guilabel>Create Object: Form</"
+"guilabel> command from drop-down button on the Project Navigator's toolbar "
+"or <guilabel>Create Object: Form</guilabel> command from the context menu of "
+"the Project Navigator."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:578
+#, no-c-format
+msgid ""
+"A new frame will appear, you can resize the form by moving the borders. The "
+"form is covered with a grid which simplifies accurate positioning of the "
+"widgets."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:580
+#, no-c-format
+msgid ""
+"As with table design, Form Designer provides a <guilabel>Property Editor</"
+"guilabel> pane. To save some space on the screen, the pane has three tabs "
+"related to the currently selected form:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:583
+#, no-c-format
+msgid "The Properties tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:585
+#, no-c-format
+msgid "Contains a list of properties for the currently selected widget."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:588
+#, no-c-format
+msgid "The Data source tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:590
+#, no-c-format
+msgid ""
+"Contains properties related specifically to the data source of the currently "
+"selected widget or the form itself."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:593
+#, no-c-format
+msgid "The Widgets tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:595
+#, no-c-format
+msgid ""
+"Contains a hierarchy of all widgets of the form. The list simplifies widgets "
+"lookup by name and navigation between them."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:599
+#, no-c-format
+msgid ""
+"There is information about currently selected widget's name and type "
+"displayed on the first and second tab."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:601
+#, no-c-format
+msgid "Additional toolbars are also available:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:604
+#, no-c-format
+msgid ""
+"The <guilabel>Widgets</guilabel> toolbar used for inserting new widgets into "
+"the form. Select <guibutton>Form Design</guibutton> to display it."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:609
+#, no-c-format
+msgid "Using the Widgets tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:610
+#, no-c-format
+msgid ""
+"The widgets tab <inlinemediaobject> <imageobject> <imagedata fileref=\"Icon-"
+"action-widgets.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> in "
+"the <guilabel>Properties</guilabel> pane provides a list of form widgets and "
+"their hierarchy. Each widget is presented within the hierarchy beside other "
+"widgets being on the same level (the same parent container). Child widgets "
+"(inside containers) are presented using indented names."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:612
+#, no-c-format
+msgid ""
+"Each widget has displayed its name and type. The type has also an icon "
+"displayed - the same as the one displayed on the toolbar used while form "
+"designing is performed."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:616
+#, no-c-format
+msgid ""
+"Changing the current selection on the list causes appropriate selection on "
+"the designed form. This allows for easier widget lookup by name and easier "
+"navigation. For example, it is possible to select a widget by name, and then "
+"switch to the <guilabel>Properties</guilabel> tab to change the widget's "
+"properties."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:617
+#, no-c-format
+msgid ""
+"Keeping the &Ctrl; key pressed while an item on the widgets list is being "
+"selected allows to select multiple widgets at a time. Keeping the &Shift; "
+"key pressed allows to select entire lists of widgets."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:620
+#, no-c-format
+msgid ""
+"Giving widgets reasonable names can be useful but is not mandatory. Note "
+"that widget's name is a property that is not visible to the user of your "
+"form. Users will only see a widget text, provided by <guilabel>Text</"
+"guilabel> property or similar."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:623
+#, no-c-format
+msgid "Inserting widgets - text fields"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:624
+#, no-c-format
+msgid ""
+"Let's create a form providing information about persons, &ie; a form "
+"connected it with <replaceable>Persons</replaceable> table."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:626
+#, no-c-format
+msgid ""
+"If the form being designed should present data obtained from the database, "
+"you need to place appropriate fields on it. To do this, use the buttons on "
+"the <guilabel>Widgets</guilabel> toolbar. Each button corresponds to a "
+"single widget type."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:629
+#, no-c-format
+msgid ""
+"Click <guilabel>Text Box</guilabel> button on the <guilabel>Widgets</"
+"guilabel> toolbar."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:630
+#, no-c-format
+msgid ""
+"Click on the form surface with the left mouse button. A new text box widget "
+"will be placed in the point where you clicked. Before you release you can "
+"drag your mouse to specify a desired size for the widget."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:631
+#, no-c-format
+msgid ""
+"If needed, move the inserted widget using drag &amp; drop to a desired "
+"position. You can resize the widget afterwards by dragging one of the small "
+"boxes appearing near its corners. Note that the boxes are only visible when "
+"the widget is selected. If you select another widget or the form surface, "
+"the boxes disappear."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:632
+#, no-c-format
+msgid ""
+"Click the <guilabel>Text Box</guilabel> toolbar button again and click on "
+"the form surface to insert another widget. Repeat this action once again "
+"until you get three more text boxes inserted in your form. For the sake of "
+"simplicity we will limit ourselves to five data fields."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:636
+#, no-c-format
+msgid ""
+"There is a context menu available in form's design mode, activated by a "
+"right mouse button click the desired widget or the form's surface. The menu "
+"offers commands like <guilabel>Cut</guilabel>, <guilabel>Copy</guilabel>, "
+"<guilabel>Paste</guilabel>, <guilabel>Delete</guilabel> and other, more "
+"complex. Keyboard shortcuts are also available for these commands. Some of "
+"the commands are only available for certain types of widgets."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:637
+#, no-c-format
+msgid ""
+"The commands <guilabel>Cut</guilabel>, <guilabel>Copy</guilabel> and "
+"<guilabel>Paste</guilabel> makes it possible to move or copy widgets between "
+"forms, even between separate database projects."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:638
+#, no-c-format
+msgid ""
+"Holding the &Ctrl; key down while clicking a widget allows to select "
+"multiple widgets."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:639
+#, no-c-format
+msgid ""
+"Instead of using <guilabel>Copy</guilabel> and <guilabel>Paste</guilabel> "
+"commands, to duplicate a widget within the same form you can hold down the "
+"&Ctrl; key while moving the widget. After the mouse button is released, the "
+"dragged widget will not be moved but copied in the new location."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:643
+#, no-c-format
+msgid "Assigning data sources"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:644
+#, no-c-format
+msgid ""
+"The fields you inserted have no data source assigned yet, so these are not "
+"able to display information from the database. To assign data source, use "
+"the <inlinemediaobject> <imageobject> <imagedata fileref=\"Icon-server-"
+"database.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> (Data "
+"Source) tab of the <guilabel>Property Editor</guilabel> pane."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:646
+#, no-c-format
+msgid ""
+"The very first step is to specify the form's data source, &ie; a place the "
+"displayed data will be fetched from. As mentioned above, you will use table "
+"<replaceable>Persons</replaceable> as a data source for your new form."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:649
+#, no-c-format
+msgid "Click on the form's surface, as you will alter its properties."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:650
+#, no-c-format
+msgid ""
+"Switch to the <inlinemediaobject> <imageobject> <imagedata fileref=\"Icon-"
+"server-database.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> "
+"(Data Source) tab and enter <replaceable>persons</replaceable> table name in "
+"the <guilabel>Form's data source</guilabel> drop down list. Alternatively, "
+"you can select this name from the drop down list."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:652
+#, no-c-format
+msgid ""
+"You have assigned form's data source. Now you need to do specify widget's "
+"data source."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:655
+#, no-c-format
+msgid "Click the first text field widget at the top of the form."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:656
+#, no-c-format
+msgid ""
+"In the <inlinemediaobject> <imageobject> <imagedata fileref=\"Icon-server-"
+"database.png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> (Data "
+"Source) tab of the property pane enter field name <replaceable>name</"
+"replaceable> in the <guilabel>Widget's data source</guilabel> drop down "
+"list. Alternatively, you can select this name from the drop down list."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:657
+#, no-c-format
+msgid ""
+"Click on next text field widget and enter <replaceable>surname</replaceable> "
+"as the data source."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:658
+#, no-c-format
+msgid ""
+"Enter data sources for street, house_number and city text fields in a "
+"similar way."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:660
+#, no-c-format
+msgid ""
+"You can now save the form's design (this is not mandatory to test the form "
+"in action). To save, click the <guilabel>Save</guilabel> toolbar button. "
+"Upon saving you will be asked for entering the form's name. Enter "
+"<replaceable>Persons</replaceable> as caption and click the <guilabel>OK</"
+"guilabel> button. The form's name will be filled automatically."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:662
+#, no-c-format
+msgid ""
+"This is the right moment for testing your form. Click the <guilabel>Data</"
+"guilabel> toolbar button. Unless you made a mistake while entering data "
+"sources, you should see the form's fields filled with data from the "
+"<replaceable>Persons</replaceable> table."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:666
+#, no-c-format
+msgid ""
+"If you want to remove widget's data source assignment for a form widget, you "
+"can use the <inlinemediaobject> <imageobject> <imagedata fileref=\"Icon-edit-"
+"clear-locationbar-rtl.png\" format=\"PNG\"/> </imageobject> </"
+"inlinemediaobject> button in the <guilabel>Widget's data source</guilabel> "
+"box."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:667
+#, no-c-format
+msgid ""
+"Use the <inlinemediaobject> <imageobject> <imagedata fileref=\"Icon-go-jump."
+"png\" format=\"PNG\"/> </imageobject> </inlinemediaobject> (Go to selected "
+"form's data source) button to select appropriate table or query in the "
+"<guilabel>Project Navigator</guilabel>, so you can quickly open a table or "
+"query being the data source of the form."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:671
+#, no-c-format
+msgid "Inserting text labels"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:672
+#, no-c-format
+msgid ""
+"To make it easier for the form's user to identify the meaning of every field "
+"widget, these should have added text labels with appropriate titles. To "
+"create text labels the <guilabel>Label</guilabel> widget is used."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:674
+#, no-c-format
+msgid ""
+"Insert three text label widgets onto the form, placing them on the left side "
+"of the text fields (or on the right hand if your operating system uses right-"
+"to-left layout). On inserting a new label, a text cursor appears at the "
+"location where you can enter the desired title. Enter consecutively: "
+"<replaceable>Name</replaceable>, <replaceable>Surname</replaceable>, "
+"<replaceable>Street</replaceable>, <replaceable>House Number</replaceable> "
+"and <replaceable>City</replaceable>. Additionally, on the top of the form "
+"insert another label displaying name of the form, &ie; <replaceable>Persons</"
+"replaceable>. Enlarge this label's size and increase the font size using "
+"<guilabel>Font</guilabel> in the <guilabel>Properties</guilabel> tab."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:677
+#, no-c-format
+msgid "Actions"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:678
+#, no-c-format
+msgid ""
+"An Action is a single activity isolated in the application, available for "
+"the user to execute. It can also be executed automatically as a reaction for "
+"a given event (&eg; after opening a form)."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:680
+#, no-c-format
+msgid "Assigning actions to form buttons"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:681
+#, no-c-format
+msgid ""
+"Many actions can be assigned to form button. The assigned action is executed "
+"after button is clicked."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:683
+#, no-c-format
+msgid "To assign action:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:686
+#, no-c-format
+msgid "Switch to form's Design view if you have not done yet."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:687
+#, no-c-format
+msgid ""
+"Select the existing button widget by clicking on it or put a new button "
+"widget onto the form. If you inserted a new button, enter its title and "
+"press &Enter; key."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:688
+#, no-c-format
+msgid ""
+"Click the button widget with the right mouse button to display the context "
+"menu."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:689
+#, no-c-format
+msgid ""
+"From the context menu select <guilabel>Assign action...</guilabel> command."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:690
+#, no-c-format
+msgid ""
+"An <guilabel>Assigning Action to Button</guilabel> dialog window will appear "
+"presenting a list of available actions. One of the actions is selected if "
+"the widget already has action assigned. Otherwise the <guilabel>Action "
+"category</guilabel> list has the <guilabel>No action</guilabel> item "
+"selected."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:691
+#, no-c-format
+msgid ""
+"From the <guilabel>Action category</guilabel> list select "
+"<guilabel>Application actions</guilabel> item. Available application-wide "
+"actions will be listed."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:692
+#, no-c-format
+msgid ""
+"Select one of the actions on the list (&eg; <guilabel>Delete Selected "
+"object</guilabel>)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:695
+#, no-c-format
+msgid ""
+"After switching to the form's data view you can try whether the action works."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:699
+#, no-c-format
+msgid ""
+"To remove an action assignment, select the <guilabel>No action</guilabel> "
+"item from the <guilabel>Action category</guilabel> list of the "
+"<guilabel>Assigning Action to Button</guilabel> dialog window."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:700
+#, no-c-format
+msgid ""
+"Actions only work in the form's data view. Not every action's assignment is "
+"reasonable. For example, the <guilabel>Font...</guilabel> action is "
+"available in data view, but only if you have a widget selected in the Design "
+"view. If you make changes to the font settings the changes are applied to "
+"the text of that selected widget."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:705
+#, no-c-format
+msgid "Widget layouts"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:706
+#, no-c-format
+msgid ""
+"In most cases form widgets should be conveniently arranged and aligned. "
+"Positioning, aligning and resizing widgets by hand is not easy and these "
+"parameters are not adjusted when the user resizes the form. In fact the "
+"situation is even worse because you cannot assume a given form requires a "
+"given space because users have different font sizes and display resolutions."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:708
+#, no-c-format
+msgid ""
+"Using special tool called widget layouts can help to automatically lay out "
+"the form widgets. Widget layout is an action of grouping two or more widgets "
+"so these are well positioned and have appropriate sizes."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:710
+#, no-c-format
+msgid ""
+"Using layout in a form improves alignment. Moreover, its space is better "
+"used. Text fields are closer to each other, spacing is constant."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:760
+#, no-c-format
+msgid "Size policies for widgets within a layout"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:761
+#, no-c-format
+msgid ""
+"Instead of setting a fixed size for your widgets, in &kexi; you can choose "
+"between various widget's size policies. A size policy is a flexible strategy "
+"for controlling how a widget is stretched (or shrunk) depending on other "
+"neighbouring widgets and space available within the form."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:763
+#, no-c-format
+msgid ""
+"After putting widgets into on a line will be resized to fit their visible "
+"text."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:765
+#, no-c-format
+msgid ""
+"For each widget inserted into the form, there are settings for size policy "
+"available in the <guilabel>Property Editor</guilabel>. The settings are "
+"presented as a group of properties called <guilabel>Size Policy</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:767
+#, no-c-format
+msgid "This group of properties contains:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:770
+#, no-c-format
+msgid "Horizontal Size Policy"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:772
+#, no-c-format
+msgid "defining horizontal size of the widget,"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:775
+#, no-c-format
+msgid "Vertical Size Policy"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:777
+#, no-c-format
+msgid "defining vertical size of the widget,"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:780
+#, no-c-format
+msgid "Horizontal Stretch"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:782
+#, no-c-format
+msgid "defining strength of activity of the Horizontal Size Policy,"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:785
+#, no-c-format
+msgid "Vertical Stretch"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:787
+#, no-c-format
+msgid "defining strength of activity of the Vertical Size Policy"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:792
+#, no-c-format
+msgid "Values of size policies"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:793
+#, no-c-format
+msgid ""
+"The following values are available in the drop down list for <guilabel>Hor. "
+"Policy</guilabel> and <guilabel>Vert. Policy</guilabel> visible in the "
+"<guilabel>Property Editor</guilabel>:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:796
+#, no-c-format
+msgid "Fixed"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:798
+#, no-c-format
+msgid ""
+"this value means that the widget cannot be automatically resized; it should "
+"maintain the constant size defined at design time (width or height),"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:801
+#, no-c-format
+msgid "Minimum"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:803
+#, no-c-format
+msgid ""
+"this value means that the original size of the widget is set as minimal "
+"allowed, it is sufficient and there is no need for expanding the widget, but "
+"the widget will be expanded if needed. This type of policy can be used to "
+"force the widget to be expanded to the whole width or height, especially if "
+"you set a stretch value greater than 0."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:806
+#, no-c-format
+msgid "Maximum"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:808
+#, no-c-format
+msgid ""
+"this value means that the original size of the widget is set as maximum "
+"allowed and can be decreased without breaking the widget's usability and "
+"readability if other widgets need more space,"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:811
+#, no-c-format
+msgid "Preferred"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:813
+#, no-c-format
+msgid ""
+"this value means that the original size of the widget is the best and "
+"preferred; the widget can be shrunk or expanded however and it will stay "
+"readable,"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:816
+#, no-c-format
+msgid "Expanding"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:818
+#, no-c-format
+msgid ""
+"this value means that the original size of the widget is reasonable but the "
+"widget can be also shrunk; it can be expanded as well to take as much space "
+"as possible,"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:821
+#, no-c-format
+msgid "Minimum Expanding"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:823
+#, no-c-format
+msgid ""
+"this value means that the original size of the widget is allowed; it can be "
+"expanded to take as much space as possible,"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:826
+#, no-c-format
+msgid "Ignored"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:828
+#, no-c-format
+msgid ""
+"this value means that the original size of the widget is ignored; the widget "
+"can be expanded to take as much space as possible but other widgets usually "
+"will not allow for that"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:832
+#, no-c-format
+msgid ""
+"Different widget types have various default size policies; for example, "
+"button widgets have default size policy set to <guilabel>Minimum</guilabel> "
+"(in both directions), while text field widgets have vertical size policy set "
+"to <guilabel>Fixed</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:834
+#, no-c-format
+msgid ""
+"The most frequently used size policies are <guilabel>Preferred</guilabel>, "
+"<guilabel>Minimum</guilabel> and <guilabel>Maximum</guilabel>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:837
+#, no-c-format
+msgid "Vertical and horizontal stretch"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:838
+#, no-c-format
+msgid ""
+"The <guilabel>Vert. Stretch</guilabel> and <guilabel>Hor. Stretch</guilabel> "
+"properties accept integer values greater than or equal to 0. These "
+"properties allow to fine-tune the behavior of size policies. The default "
+"value for the properties is 0. A higher value of the stretch means that the "
+"widget will be expanded more than widgets for which a lower stretch value is "
+"set."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:939
+#, no-c-format
+msgid "Entering Data Using Forms"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:940
+#, no-c-format
+msgid ""
+"Data entering and editing is usually the task of the user of the database "
+"application. The designer of the database should check the form in terms of "
+"valid data entry, and see whether the form works as expected."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:942
+#, no-c-format
+msgid ""
+"To test your form, switch to its data view. A single database row (record) "
+"of data will be displayed . You can move between fields using the left mouse "
+"button or the &Tab; and <keycombo>&Shift;&Tab;</keycombo> keys. While "
+"editing, there will be a pencil icon visible near the record navigator. "
+"After entering the row's (record) data you can press the <keycombo>&Shift;"
+"&Enter;</keycombo> keys or click the <guilabel>Save Record</guilabel> "
+"toolbar button to accept changes made to the current row. Clicking the "
+"<guilabel>Cancel Record Changes</guilabel> toolbar button discards changes "
+"made to the current row and restores the contents of the data fields. You "
+"can use the record navigator's button to move to a new row. All the "
+"navigator's functions are also available in a similar way as in the data "
+"table view."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:946
+#, no-c-format
+msgid "Configuring Kexi"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:948
+#, no-c-format
+msgid ""
+"<link linkend=\"docking-and-undocking-side-panels\">Docking and undocking "
+"side panels</link>&nbsp;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:950
+#, no-c-format
+msgid "Docking and undocking side panels"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:951
+#, no-c-format
+msgid ""
+"The <guilabel>Project Navigator</guilabel> and <guilabel>Property Editor</"
+"guilabel> side panels may be undocked by either:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:954
+#, no-c-format
+msgid "Double-clicking on the 'grip' bar at the top of the panel; or"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:955 index.docbook:961
+#, no-c-format
+msgid ""
+"Clicking once on the diamond button at the top of the panel, next to the x."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:957
+#, no-c-format
+msgid ""
+"Once undocked, panel windows may be docked into the main window again "
+"similarly to undocking:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:960
+#, no-c-format
+msgid "Double-clicking on the 'grip' bar at the top of the window; or"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:963
+#, no-c-format
+msgid ""
+"When undocking a panel, &kexi; remembers the last docked position so when "
+"you dock the panel again it will be placed at the location it was last "
+"docked."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:967
+#, no-c-format
+msgid "Command Reference"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:969
+#, no-c-format
+msgid "<link linkend=\"the-kexi-tab\">The Kexi Tab</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:970
+#, no-c-format
+msgid "<link linkend=\"the-create-tab\">The Create Tab</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:971
+#, no-c-format
+msgid "<link linkend=\"the-data-tab\">The Data Tab</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:972
+#, no-c-format
+msgid ""
+"<link linkend=\"the-external-data-tab\">The External Data Tab</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:973
+#, no-c-format
+msgid "<link linkend=\"the-tools-tab\">The Tools Tab</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:974
+#, no-c-format
+msgid "<link linkend=\"the-form-design-tab\">The Form Design Tab</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:975
+#, no-c-format
+msgid ""
+"<link linkend=\"the-report-design-tab\">The Report Design Tab</link>&nbsp;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:977
+#, no-c-format
+msgid "The Kexi Tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:991
+#, no-c-format
+msgid "The &kexi; tab is the place where you interact with &kexi;'s projects."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:993
+#, no-c-format
+msgid ""
+"Selecting an action will open a screen right next to the menu, offering "
+"options about the action you chose."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:995
+#, no-c-format
+msgid "The options offered are:"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:998
+#, no-c-format
+msgid "Welcome"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1000
+#, no-c-format
+msgid "Here you can select to open a project you recently worked on."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1003
+#, no-c-format
+msgid "Open"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1005
+#, no-c-format
+msgid ""
+"Here you can select to open a &kexi; Project whether stored in a file or a "
+"database server."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1008
+#, no-c-format
+msgid "Close"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1010
+#, no-c-format
+msgid "This action closes the &kexi; project you have currently open."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1013
+#, no-c-format
+msgid "<guilabel>New</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1015
+#, no-c-format
+msgid "Here you can follow the wizard to create a new &kexi; Project."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1018
+#, no-c-format
+msgid "Import, Export or Send..."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1020
+#, no-c-format
+msgid ""
+"Here you can follow the wizard to Import existing data to the currently open "
+"&kexi; Project."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1023
+#, no-c-format
+msgid "Quit"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1025
+#, no-c-format
+msgid "Closes &kexi;."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1030
+#, no-c-format
+msgid "The Create Tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1044
+#, no-c-format
+msgid ""
+"From the <guilabel>Create</guilabel> tab you can create objects that will be "
+"added to your project."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1047
+#, no-c-format
+msgid "Table"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1049
+#, no-c-format
+msgid ""
+"Selecting <guilabel>Table</guilabel> will take you to the table designer at "
+"the design view to allow you to add field definitions to your table."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1052
+#, no-c-format
+msgid "Query"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1054
+#, no-c-format
+msgid ""
+"Selecting <guilabel>Query</guilabel> will take you to the query designer at "
+"the design view to allow you to design a query to get custom results from "
+"your tables in your project."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1057
+#, no-c-format
+msgid "<guilabel>Form</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1059
+#, no-c-format
+msgid ""
+"Selecting <guilabel>Form</guilabel> will take you to the form designer at "
+"the design view to allow you to add widgets to your form."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1062
+#, no-c-format
+msgid "Report"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1064
+#, no-c-format
+msgid ""
+"Selecting <guilabel>Report</guilabel> will take you to the report designer "
+"at the design view to allow you to add widgets to your report."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1067
+#, no-c-format
+msgid "Script"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1069
+#, no-c-format
+msgid ""
+"Selecting <guilabel>Script</guilabel> will take you to the script editor to "
+"allow you to add custom code for your project and / or objects."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1074
+#, no-c-format
+msgid "The Data Tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1088
+#, no-c-format
+msgid ""
+"From the <guilabel>Data</guilabel> Tab you can manipulate data in your "
+"tables or widgets in your objects (forms, reports, etc)"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1091
+#, no-c-format
+msgid "<guilabel>Cut</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1093
+#, no-c-format
+msgid ""
+"<guilabel>Cut</guilabel>, places the data/widget on the clipboard and "
+"removes it from it's current position."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1096
+#, no-c-format
+msgid "Copy"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1098
+#, no-c-format
+msgid ""
+"<guilabel>Copy</guilabel>, places the data/widget on the clipboard without "
+"removing it from it's current position."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1101
+#, no-c-format
+msgid "Paste"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1103
+#, no-c-format
+msgid ""
+"<guilabel>Paste</guilabel>, places the data/widget found on the clipboard to "
+"the table/object accordingly."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1106
+#, no-c-format
+msgid "Paste Special"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1108
+#, no-c-format
+msgid ""
+"<guilabel>Paste Special</guilabel>, is used to place arbitrary data found on "
+"the clipboard to a table, in a way that is predictable so as to be correctly "
+"added according to the table's definition."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1111
+#, no-c-format
+msgid "Find"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1113
+#, no-c-format
+msgid ""
+"<guilabel>Find</guilabel>, opens the <guilabel>Find</guilabel> dialog so as "
+"to search for specific text in the database data."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1118
+#, no-c-format
+msgid "The External Data Tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1132
+#, no-c-format
+msgid ""
+"From the External Data Tab you can you can import data from other sources "
+"into your &kexi; project."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1135
+#, no-c-format
+msgid "Import Data From File"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1137
+#, no-c-format
+msgid ""
+"<guilabel>Import Data From File</guilabel>, displays a dialog that allows "
+"you to import data from CSV or plain text files to a new table in your "
+"project."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1140
+#, no-c-format
+msgid "Import Tables"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1142
+#, no-c-format
+msgid ""
+"<guilabel>Import Tables</guilabel>, opens the <guilabel>Table Importing "
+"Wizard</guilabel> that allows you to import data either from a "
+"<filename>fods</filename>, <filename>mdb</filename>, <filename>ods</"
+"filename>, <filename>tsv</filename> file or from another database server, to "
+"a new table in your project."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1145
+#, no-c-format
+msgid "Export Data to File"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1147
+#, no-c-format
+msgid ""
+"<guilabel>Export Data to File</guilabel>, displays a dialog that allows you "
+"to export the current tables data to a plain text or CSV file."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1151
+#, no-c-format
+msgid ""
+"The table has to be open, in order to be able to export data from it to a "
+"file."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1154
+#, no-c-format
+msgid "The Tools Tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1168
+#, no-c-format
+msgid ""
+"From the <guilabel>Tools</guilabel> tab you can you can manipulate your "
+"projects."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1178
+#, no-c-format
+msgid "Compact Database"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1180
+#, no-c-format
+msgid ""
+"<guilabel>Compact Database</guilabel>, checks for minor error in the "
+"database and reduces the database's size."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1184
+#, no-c-format
+msgid ""
+"You should regularly compact your database to keep it in good shape, "
+"especially after extensive records operations (mass add, delete)"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1187
+#, no-c-format
+msgid "The Form Design Tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1201
+#, no-c-format
+msgid ""
+"From the <guilabel>Form Design</guilabel> tab you can you select widgets to "
+"add to your form."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1204
+#, no-c-format
+msgid "Pointer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1206
+#, no-c-format
+msgid "<guilabel>Pointer</guilabel>, switches to the widget selection mode."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1210
+#, no-c-format
+msgid ""
+"Selecting any widget, will switch to the widget add mode. Then you can click "
+"anywhere on the form to place the widget."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1213 index.docbook:1298
+#, no-c-format
+msgid "Label"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1215
+#, no-c-format
+msgid ""
+"A <guilabel>Label</guilabel> widget displays predefined information on a "
+"form. Usually it is used as a caption next to other data-aware widgets."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1218
+#, no-c-format
+msgid "Text Box"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1220
+#, no-c-format
+msgid ""
+"A <guilabel>Text Box</guilabel> is a single line container for data "
+"contained in your table."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1223
+#, no-c-format
+msgid "Text Editor"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1225
+#, no-c-format
+msgid ""
+"A <guilabel>Text Editor</guilabel> is a multiline container for data "
+"contained in your table."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1228
+#, no-c-format
+msgid "Combo Box"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1230
+#, no-c-format
+msgid ""
+"A <guilabel>Combo Box</guilabel> displays a list of options to choose from."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1233
+#, no-c-format
+msgid "Check Box"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1235
+#, no-c-format
+msgid ""
+"A <guilabel>Check Box</guilabel> holds two or three states of data (&eg; On/"
+"Off)"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1238
+#, no-c-format
+msgid "Image Box"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1240
+#, no-c-format
+msgid ""
+"An <guilabel>Image Box</guilabel> holds an image, bound to a field in a "
+"table."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1243
+#, no-c-format
+msgid "Button"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1245
+#, no-c-format
+msgid ""
+"A <guilabel>Button</guilabel> allows you to define actions to be executed "
+"upon clicking on it."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1248
+#, no-c-format
+msgid "Frame"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1250
+#, no-c-format
+msgid "A <guilabel>Frame</guilabel> is used as a container for other widgets."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1253
+#, no-c-format
+msgid "Group Box"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1255
+#, no-c-format
+msgid ""
+"A <guilabel>Group Box</guilabel> is used to group other widgets and control "
+"their state."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1258
+#, no-c-format
+msgid "Tab Widget"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1260
+#, no-c-format
+msgid ""
+"A <guilabel>Tab Widget</guilabel> is used as a container for other widgets "
+"and can have many pages that contain different widgets."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1263 index.docbook:1323
+#, no-c-format
+msgid "Line"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1265 index.docbook:1325
+#, no-c-format
+msgid ""
+"A <guilabel>Line</guilabel> is used as a logical separator between different "
+"parts of a form."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1268
+#, no-c-format
+msgid "Web Browser"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1270
+#, no-c-format
+msgid ""
+"A <guilabel>Web Browser</guilabel> is a widget that allows to display a web "
+"page inside the form."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1274
+#, no-c-format
+msgid "Assign Action"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1276
+#, no-c-format
+msgid ""
+"<guilabel>Assign Action</guilabel> is used to assign an action to be "
+"executed when an event occurs (&eg; clicking on a button)."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1281
+#, no-c-format
+msgid "The Report Design Tab"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1295
+#, no-c-format
+msgid ""
+"From the <guilabel>Report Design</guilabel> tab you can you select widgets "
+"to add to your report."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1300
+#, no-c-format
+msgid ""
+"A <guilabel>Label</guilabel> widget displays predefined information on a "
+"report. Usually it is used as a caption next to other data-aware widgets."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1303
+#, no-c-format
+msgid "Field"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1305
+#, no-c-format
+msgid ""
+"A <guilabel>Field</guilabel> widget is a single line container for data "
+"contained in your table."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1308
+#, no-c-format
+msgid "<guilabel>Text</guilabel>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1310
+#, no-c-format
+msgid ""
+"A <guilabel>Text</guilabel> widget is a multi line container for data "
+"contained in your table."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1313
+#, no-c-format
+msgid "Image"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1315
+#, no-c-format
+msgid ""
+"An <guilabel>Image</guilabel> widget holds an image, bound to a field in a "
+"table."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1318
+#, no-c-format
+msgid "Check"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1320
+#, no-c-format
+msgid ""
+"A <guilabel>Check</guilabel> widget holds two or three states of data (&eg; "
+"On/Off)"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:1335
+#, no-c-format
+msgid "Chart"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1337
+#, no-c-format
+msgid ""
+"A <guilabel>Chart</guilabel> widget is used to add a visual representation "
+"of your data presented on a graph."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:1340
+#, no-c-format
+msgid "<emphasis>Web</emphasis>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1342
+#, no-c-format
+msgid ""
+"A <guilabel>Web</guilabel> widget is used to provide a minimal web browser "
+"component and print information from a local or web site on a report."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:1346
+#, no-c-format
+msgid "Barcode"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1348
+#, no-c-format
+msgid ""
+"A <guilabel>Barcode</guilabel> widget is used to create a barcode to be "
+"printed on a report, from data held in a field."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1354
+#, no-c-format
+msgid "Appendix A. Introduction to Databases"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1356
+#, no-c-format
+msgid "<link linkend=\"what-is-a-database\">What Is a Database?</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1357
+#, no-c-format
+msgid ""
+"<link linkend=\"database-and-spreadsheet\">Database and Spreadsheet</"
+"link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1358
+#, no-c-format
+msgid "<link linkend=\"database-design\">Database Design</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1359
+#, no-c-format
+msgid ""
+"<link linkend=\"who-needs-a-database\">Who Needs a Database?</link>&nbsp;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1360
+#, no-c-format
+msgid ""
+"<link linkend=\"database-creation-software\">Database Creation Software</"
+"link>&nbsp;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1362
+#, no-c-format
+msgid "What Is a Database?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1363
+#, no-c-format
+msgid ""
+"You can define a database as a collection of data on one topic. It is "
+"organised in a way allowing to easily browse the information, make changes "
+"or add new items."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1365
+#, no-c-format
+msgid ""
+"Look at this diagram for one of the above examples: a simple phone book."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1382
+#, no-c-format
+msgid ""
+"The above picture shows a set of two contacts each of which is presented on "
+"a separate card. It appears that such a card can constitute a single row in "
+"a table:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:1386 index.docbook:1437
+#, no-c-format
+msgid "Contacts table"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1390 index.docbook:1572 index.docbook:1657
+#, no-c-format
+msgid "Name"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1391
+#, no-c-format
+msgid "Tel No."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1397 index.docbook:1582 index.docbook:1668
+#, no-c-format
+msgid "Joan"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1400 index.docbook:1452
+#, no-c-format
+msgid "699 23 43 12"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1405 index.docbook:1599 index.docbook:1688
+#, no-c-format
+msgid "Adam"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1408 index.docbook:1463
+#, no-c-format
+msgid "711 19 77 21"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1414
+#, no-c-format
+msgid ""
+"Terms and definitions: A single data which constitutes a part of a greater "
+"collection can be called a <emphasis>row</emphasis> or more professionally a "
+"<emphasis>record</emphasis>. The collection is normally called a "
+"<emphasis>table</emphasis>. Moreover, the most natural name for the table is "
+"one describing the data it offers/stores which is Contacts. Furthermore, "
+"each row in the table consists of columns often also called "
+"<emphasis>fields</emphasis>. In the table <replaceable>Contacts</"
+"replaceable> there are two columns (fields): <guilabel>Name</guilabel> and "
+"<guilabel>Tel No.</guilabel>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1416
+#, no-c-format
+msgid ""
+"For simple uses a single table can make up a database. Many people consider "
+"these two equivalent. As you will see, for real databases we usually need "
+"more than one table."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1418
+#, no-c-format
+msgid ""
+"To sum up, you have already got a simple database with one table "
+"<replaceable>Contacts</replaceable>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1420
+#, no-c-format
+msgid ""
+"Check content at <ulink url=\"https://www.zoho.com/creator/database-software-"
+"vs-spreadsheet.html\"></ulink>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1423
+#, no-c-format
+msgid "Database and Spreadsheet"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1424
+#, no-c-format
+msgid ""
+"It is very likely that you have already used spreadsheet applications like "
+"<guilabel>Calligra Sheets</guilabel>, <guilabel>LibreOffice Calc</guilabel> "
+"or <application>&Microsoft; Excel</application>. If so, you will probably "
+"wonder: since both spreadsheets and databases have tables, why should I use "
+"the latter?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1426
+#, no-c-format
+msgid ""
+"While comparing spreadsheets and databases you may encounter the following "
+"issues which you will later see in greater detail."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1428
+#, no-c-format
+msgid "How Is a Database Different From a Spreadsheet?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1429
+#, no-c-format
+msgid ""
+"Gradually exceeding the capacity of a mobile phone, expand your table "
+"<replaceable>Contacts</replaceable> adding a column (field) "
+"<replaceable>Address</replaceable>. Add more telephone numbers (office, "
+"home) for each person and add surnames to names. To make it simpler we "
+"assume the following:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1432
+#, no-c-format
+msgid ""
+"The table is limited to two people (obviously, there could be hundreds and "
+"thousands of them in a real database)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1433
+#, no-c-format
+msgid "There are no two persons with the same name and surname"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1441 index.docbook:1525
+#, no-c-format
+msgid "Name and surname"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1442
+#, no-c-format
+msgid "<guilabel>Tel</guilabel>"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1443 index.docbook:1526
+#, no-c-format
+msgid "Address"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1449 index.docbook:1471 index.docbook:1532
+#, no-c-format
+msgid "Joan Smith"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1455 index.docbook:1535
+#, no-c-format
+msgid "Western Gate 1, Warsaw"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1460 index.docbook:1540
+#, no-c-format
+msgid "Adam Willson"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1466
+#, no-c-format
+msgid "London, Frogs Drive 5"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1474
+#, no-c-format
+msgid "110 98 98 00"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1477
+#, no-c-format
+msgid "Western Gate 1"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1482
+#, no-c-format
+msgid "Smith Joan"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1485
+#, no-c-format
+msgid "312 43 42 22"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1488
+#, no-c-format
+msgid "Warsaw, Western Gate 1"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1493
+#, no-c-format
+msgid "ADAM Willson"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1496
+#, no-c-format
+msgid "231 83 02 04"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1499 index.docbook:1543
+#, no-c-format
+msgid "Frogs Drive 5, London"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1505
+#, no-c-format
+msgid ""
+"Such a table can be made both in a spreadsheet and in a database. Using a "
+"spreadsheet is very easy, of course. What problems do we encounter at this "
+"stage?"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1508
+#, no-c-format
+msgid "Referential data integrity"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1509
+#, no-c-format
+msgid ""
+"Suppose you are using a spreadsheet and you need to change the address of at "
+"least one person. You have a small problem: you often have to change the "
+"address in many rows. For example, Joan takes three rows. A real problem "
+"will arise if you forget to change one of the rows - the address assigned to "
+"this person will be ambiguous, hence your data loses integrity."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1511
+#, no-c-format
+msgid ""
+"Moreover there is no simple way of deleting a chosen person from the table "
+"since you have to remember about deleting all rows related to him or her."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1514
+#, no-c-format
+msgid "Data redundancy"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1515
+#, no-c-format
+msgid ""
+"This is directly connected to the previous problem. In fields Name and "
+"surname and Address the same data is entered many times. This is typical of "
+"a spreadsheets' ineffective way of storing data because the database grows "
+"unnecessarily, thus requiring more computer resources (larger size of data "
+"and slower access)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1517
+#, no-c-format
+msgid ""
+"How can you solve these problems with a database? You can split information "
+"into smaller chunks by creating an additional table <replaceable>Persons</"
+"replaceable> with only two columns: <replaceable>Name and surname</"
+"replaceable> and <replaceable>Address</replaceable>:"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:1521 index.docbook:1568 index.docbook:1653
+#, no-c-format
+msgid "Persons table"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1549
+#, no-c-format
+msgid ""
+"Each row in the table <replaceable>Persons</replaceable> corresponds to a "
+"single person. Table <replaceable>Contacts</replaceable> is from now on a "
+"relation to the table <replaceable>Persons</replaceable>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1552
+#, no-c-format
+msgid "Data integrity and validity"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1553
+#, no-c-format
+msgid ""
+"Note the way data is entered in the fields <replaceable>Name and surname</"
+"replaceable> and <replaceable>Address</replaceable>. People entering data "
+"can be fallible, sometimes even negligent. In our sample data we have both "
+"different sequence of entering name and surname (Joan Smith and Smith Joan; "
+"Adam and ADAM) and many more ways of entering the same address. Surely you "
+"can think of many other ways."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1555
+#, no-c-format
+msgid ""
+"The above problem shows that &eg; when searching the telephone number of a "
+"person whose address is <quote>Western Gate 1, Warsaw</quote> you will not "
+"get a full result. You will get only one row instead of three. Moreover You "
+"will also not find all the telephone numbers searching for the value "
+"<quote>Joan Smith</quote> in the field <replaceable>Name and surname</"
+"replaceable>, because <quote>Smith Joan</quote> will not fit to <quote>Joan "
+"Smith</quote>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1557
+#, no-c-format
+msgid ""
+"How can you solve these problems using a database? You can do this by "
+"changing the design of the table <replaceable>Persons</replaceable> by:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1560
+#, no-c-format
+msgid ""
+"Dividing data in the field <guilabel>Name and surname</guilabel> into two "
+"separate fields: <replaceable>Name</replaceable> and <replaceable>Surname</"
+"replaceable>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1561
+#, no-c-format
+msgid ""
+"Dividing data in the field <replaceable>Address</replaceable> into three "
+"separate fields: <replaceable>Street</replaceable>, <replaceable>House "
+"number</replaceable> and <replaceable>City</replaceable>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1562
+#, no-c-format
+msgid ""
+"Guaranteeing data correctness: by ensuring that no fields are empty, &eg; "
+"you must always enter house number."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1564
+#, no-c-format
+msgid "A modified table looks something like this:"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1573 index.docbook:1658
+#, no-c-format
+msgid "Surname"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1574 index.docbook:1659
+#, no-c-format
+msgid "Street"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1575 index.docbook:1660
+#, no-c-format
+msgid "House number"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1576 index.docbook:1661
+#, no-c-format
+msgid "City"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1585 index.docbook:1671
+#, no-c-format
+msgid "Smith"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1588 index.docbook:1674
+#, no-c-format
+msgid "Western Gate"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1591 index.docbook:1677
+#, no-c-format
+msgid "<para>1</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1594 index.docbook:1680
+#, no-c-format
+msgid "Warsaw"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1602 index.docbook:1691
+#, no-c-format
+msgid "Willson"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1605 index.docbook:1694
+#, no-c-format
+msgid "Frogs Drive"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1608 index.docbook:1697
+#, no-c-format
+msgid "<para>5</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1611 index.docbook:1700
+#, no-c-format
+msgid "London"
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:1616
+#, no-c-format
+msgid "Conditions"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1621 index.docbook:1624 index.docbook:1627 index.docbook:1630
+#: index.docbook:1633
+#, no-c-format
+msgid "required field"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1639
+#, no-c-format
+msgid ""
+"Thanks to introducing the condition required field we can be sure that the "
+"entered data is complete. In case of other tables you may of course allow "
+"omitting certain fields while entering data."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1642
+#, no-c-format
+msgid "Limiting data view"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1643
+#, no-c-format
+msgid ""
+"A spreadsheet displays all rows and columns of the table which is bothersome "
+"in case of very large data sheets. You may of course filter and sort rows in "
+"spreadsheets, however you must be extra careful while doing so. Spreadsheet "
+"users are in risk of forgetting that their data view has been filtered what "
+"can lead to mistakes. For example, while calculating sums you may think you "
+"have 100 rows of data while in fact there are 20 rows more hidden."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1645
+#, no-c-format
+msgid ""
+"If you want to work on a small subset of data, &eg; to send it for others to "
+"edit, you can copy and paste it to another spreadsheet and after editing "
+"paste the changed data back to the main spreadsheet. Such <quote>manual</"
+"quote> editing may cause data loss or incorrect calculations."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1647
+#, no-c-format
+msgid ""
+"To limit the data view database applications offer queries, forms and "
+"reports."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1649
+#, no-c-format
+msgid ""
+"A very practical way of limiting is the following extended version of the "
+"previously described table <replaceable>Persons</replaceable>:"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1662
+#, no-c-format
+msgid "Income"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1683
+#, no-c-format
+msgid "2300"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1703
+#, no-c-format
+msgid "1900"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1709
+#, no-c-format
+msgid ""
+"Let's assume that the newly introduced column Income contains confidential "
+"data. How can you share &eg; contact details of the persons with your "
+"coworkers but without revealing their income? It is possible if you share "
+"only a query and not the whole table. The query could select all columns "
+"except for the column Income. In database world such a query is often known "
+"as a view."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1712
+#, no-c-format
+msgid "Performance and capacity"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1713
+#, no-c-format
+msgid ""
+"Your computer is probably quite fast, however you will easily see that it "
+"doesn't help with slow, large spreadsheets. Their low efficiency is first of "
+"all due to lack of indexes accelerating the process of data search "
+"(databases do offer them). Moreover if you use things like system clipboard, "
+"even copying data may become troublesome with time."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1715
+#, no-c-format
+msgid ""
+"Spreadsheets containing large data sets may take ages to open. A spreadsheet "
+"loads lots of data to the computer's memory while opening. Most of the data "
+"loaded are probably useless/unnecessary for you at the moment. Databases "
+"unlike spreadsheets load data from computer storage only when needed."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1717
+#, no-c-format
+msgid ""
+"In most cases you will not have to worry how the database stores its data. "
+"This means that unlike spreadsheets, databases do not care about:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1720
+#, no-c-format
+msgid ""
+"The sequence of rows since you can order the rows according to your needs. "
+"Moreover, you can view the same data in many views with different orders."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1721
+#, no-c-format
+msgid "The same goes for columns (fields) of the table."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1723
+#, no-c-format
+msgid ""
+"Together with <link linkend=\"limiting-data-view\">Limiting data view</link> "
+"described in the previous paragraph these qualities constitute the advantage "
+"of databases."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1726
+#, no-c-format
+msgid "Data entry"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1727
+#, no-c-format
+msgid ""
+"The latest editions of applications for creating spreadsheets enable you to "
+"design data-entry forms. Such forms are most useful if your data cannot be "
+"conveniently displayed in tabular view, &eg; if the text occupies too many "
+"rows or if all the columns do not fit on the screen."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1729
+#, no-c-format
+msgid ""
+"In this case the very way the spreadsheet works is problematic. Fields for "
+"data entry are placed loosely within the spreadsheet and very often are not "
+"secure against the user's (intentional or accidental) intervention."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1732
+#, no-c-format
+msgid "<title>Reports</title>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1733
+#, no-c-format
+msgid ""
+"Databases enable grouping, limiting and summing up data in a form of a "
+"report. Spreadsheets are usually printed in a form of small tables without "
+"fully automatic control over page divisions and the layout of fields."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1736
+#, no-c-format
+msgid "Programming"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1737
+#, no-c-format
+msgid ""
+"Applications for creating databases often contain full programming "
+"languages. Newer spreadsheets have this capability too, however calculations "
+"come down to modifying the spreadsheet's fields and simple data copying, "
+"regardless of the relevance and integrity rules mentioned in previous "
+"paragraphs."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1739
+#, no-c-format
+msgid ""
+"Data processing within a spreadsheet is usually done via a graphical user's "
+"interface which may slow down the data processing speed. Databases are "
+"capable of working in background, outside of graphical interfaces."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1742
+#, no-c-format
+msgid "Multiuse"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1743
+#, no-c-format
+msgid ""
+"It is hard to imagine a multiuse of one spreadsheet. Even if it is "
+"technically possible in the case of the latest applications, it requires a "
+"lot of discipline, attention and knowledge from the users, and these cannot "
+"be guaranteed."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1745
+#, no-c-format
+msgid ""
+"A classical way to sharing data saved in a spreadsheet with other person is "
+"to send a file as a whole (usually using e-mail) or providing a spreadsheet "
+"file in a computer network. This way of work is ineffective for larger "
+"groups of people - data that could be needed in a particular time may be "
+"currently locked by another person."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1747
+#, no-c-format
+msgid ""
+"On the other hand, databases have been designed mainly with multiuser access "
+"in mind. Even for the simplest version locking at a particular table row's "
+"level is possible, which enables easy sharing of table data."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1750
+#, no-c-format
+msgid "Security"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1751
+#, no-c-format
+msgid ""
+"Securing a spreadsheet or its particular sections with a password is only "
+"symbolic activity. After providing a spreadsheet file in a computer network, "
+"every person being able to copy the file can try to break the password. It "
+"is sometimes not so hard as the password is stored in the same file as the "
+"spreadsheet."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1753
+#, no-c-format
+msgid ""
+"Features for edit locking or copy locking of a spreadsheet (or its part) is "
+"equally easy to break."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1755
+#, no-c-format
+msgid ""
+"Databases (except these saved in a file instead of a server) do not need to "
+"be available in a single file. You're accessing them using a computer "
+"network, usually by providing a user name and a password. You are gaining "
+"access only to these areas (tables, forms or even selected rows and columns) "
+"which were assigned to you by setting appropriate access rights."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1757
+#, no-c-format
+msgid ""
+"Access rights can affect ability of data editing or only data reading. If "
+"any data is not available to you, it will not be even sent to your computer, "
+"so there is no possibility of making a copy of the data in such easy way as "
+"in case of spreadsheet files."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1761
+#, no-c-format
+msgid "Database Design"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1762
+#, no-c-format
+msgid ""
+"Database design needs careful planning. Note that <replaceable>Persons</"
+"replaceable> table redesign proposed in section <link linkend=\"data-"
+"integrity-and-validity\">Data integrity and validity</link> can generate "
+"problems when the table is filled with data. For example, renaming a field "
+"is a simple task, but splitting the <replaceable>Address</replaceable> field "
+"into separate fields requires careful and tedious work."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1764
+#, no-c-format
+msgid ""
+"To avoid such situations, rethink your database project before you create it "
+"in your computer, and before you and others will start to use it. Thus, by "
+"investing some time initially, you will most probably save your time on "
+"everyday use."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1767
+#, no-c-format
+msgid "Who Needs a Database?"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1768
+#, no-c-format
+msgid "Stick to spreadsheets if:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1770
+#, no-c-format
+msgid ""
+"Your needs are limited and your data will never grow to large volumes (can "
+"you actually forecast that now?)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1771
+#, no-c-format
+msgid ""
+"You are unable to acquire the methodology of database construction. You may "
+"however consider either outsourcing this task to someone else or using "
+"simpler tools."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1772
+#, no-c-format
+msgid ""
+"You use complicated spreadsheets and you lack time or money to switch to "
+"databases. Think or ask someone whether this does not lead down a blind "
+"alley. Don't count on magical tools that would change your spreadsheet "
+"(regardless how well made) into a database."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1775
+#, no-c-format
+msgid "Consider using databases if:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1777
+#, no-c-format
+msgid "Your data collection expands every week."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1778
+#, no-c-format
+msgid ""
+"You often create new spreadsheets, copy within these and you feel that this "
+"work is getting more and more tedious. In this case the effort of switching "
+"to databases easily pays off."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1779
+#, no-c-format
+msgid ""
+"You create reports and statements for which the table view of a spreadsheet "
+"is not suitable. You can then consider switch to using a database with form "
+"views."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1783
+#, no-c-format
+msgid "Database Creation Software"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1784
+#, no-c-format
+msgid ""
+"So far you have learnt the general characteristics of databases without "
+"going into much detail about specific applications for designing them."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1786
+#, no-c-format
+msgid ""
+"The first databases were built together with large mainframe computers in "
+"the 60s, &eg; IBM System/360. Those were not the days of PCs, therefore "
+"these databases required a highly specialized personnel. Although the old "
+"computers' hardware was unreliable, they were immeasurably slower and had "
+"less storage capacity, one feature of databases still remains most "
+"attractive: the data access by many users through a network."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1788
+#, no-c-format
+msgid ""
+"In the 70s scientists formed the theory of relational databases (terms like: "
+"table, record, column (field) and relationality and many others). On the "
+"basis of this theory IBM DB2 and Oracle databases were created, which have "
+"been developed and used till today. In the late 70s the first PCs were "
+"constructed. Their users could (gradually) utilize many types of "
+"applications, including those for database construction."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1790
+#, no-c-format
+msgid ""
+"When it comes to large databases in companies, the situation hasn't changed: "
+"they still require powerful computers or computer complexes called clusters. "
+"This goes, however, beyond the topic of this manual."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1792
+#, no-c-format
+msgid ""
+"In the area of <quote>accessible</quote> databases with graphic user "
+"interface for PCs you can choose from the following:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1795
+#, no-c-format
+msgid ""
+"<ulink url=\"http://www.dbase.com\">DBase</ulink> - a tool for databases "
+"operation for DOS popular in the 80s. Files in DBase format are still used "
+"in some specific cases due to their simplicity."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1796
+#, no-c-format
+msgid ""
+"<ulink url=\"http://msdn.microsoft.com/vfoxpro/\">FoxPro</ulink> - an "
+"application similar to DBase (early 90s). After being taken over by "
+"Microsoft, graphic user interfaces were introduced and therefore it is used "
+"for creating databases on PCs. This product is still offered, though seems a "
+"bit obsolete."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1797
+#, no-c-format
+msgid ""
+"<ulink url=\"http://office.microsoft.com/access/\">Microsoft Access</ulink> "
+"- an application for databases (data and graphic interface design) with many "
+"simplifications, therefore suitable for beginners, designed in the late 80s, "
+"based on 16-Bit Architecture. This product is offered and widely used till "
+"today, especially by small companies, where efficiency and multiuser "
+"requirements are not very demanding."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1798
+#, no-c-format
+msgid ""
+"<ulink url=\"http://www.filemaker.com\">FileMaker</ulink> - popular "
+"application similar to MS Access in simplicity, operating on Windows and "
+"Macintosh platforms, offered since 1985."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1799
+#, no-c-format
+msgid ""
+"<ulink url=\"http://www.calligra-suite.org/kexi\">Kexi</ulink> - a "
+"multiplatform application (&UNIX;/&Linux;, Windows, &MacOS; X) designed in "
+"2003, developed according to OpenSource principles, part of the global KDE "
+"community, that among other things provide a graphic environment for &UNIX;/"
+"&Linux; systems. A significant contributor to Kexi's development is the "
+"OpenOffice Poland company."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1803
+#, no-c-format
+msgid "Appendix B. Comparing Kexi to other database applications"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1805
+#, no-c-format
+msgid "<link linkend=\"data-types\">Data types</link>&nbsp;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1807
+#, no-c-format
+msgid "Data types"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1808
+#, no-c-format
+msgid ""
+"Although different database applications tend to provide similar "
+"functionality, they often use different terminology. For your convenience, "
+"this appendix shows how the terminology used in &kexi; corresponds to that "
+"used by other database applications. Thus, this chapter may be useful when "
+"migrating databases from one application to another."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1810
+#, no-c-format
+msgid ""
+"The table below shows how the data types in &kexi; correspond to data types "
+"in other database applications."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1812
+#, no-c-format
+msgid ""
+"Some of the data types listed here are sub-types of other types. For "
+"example, the <guilabel>Long text</guilabel> type is a sub-type of the "
+"<guilabel>Text</guilabel> type. To use a sub-type in &kexi;, you should "
+"select the corresponding basic type (in this case, <guilabel>Text</"
+"guilabel>) in the table designer, and then select the sub-type using the "
+"<guilabel>Subtype</guilabel> setting in the <guilabel>Property Editor</"
+"guilabel>."
+msgstr ""
+
+#. Tag: emphasis
+#: index.docbook:1816
+#, no-c-format
+msgid "Comparison of data types used in Kexi and other database applications"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:1820
+#, no-c-format
+msgid "&kexi;"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1821
+#, no-c-format
+msgid "MS Access"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1822
+#, no-c-format
+msgid "dBase/FoxPro"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:1823
+#, no-c-format
+msgid "Paradox"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1829
+#, no-c-format
+msgid "Text (Text)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1832
+#, no-c-format
+msgid "<para>Text</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1835
+#, no-c-format
+msgid "Character"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1838
+#, no-c-format
+msgid "Alphanumeric"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1843
+#, no-c-format
+msgid "Long text (Long text)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1846 index.docbook:1849 index.docbook:1852
+#, no-c-format
+msgid "Memo"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1857
+#, no-c-format
+msgid "Date/Time (Date/Time)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1860
+#, no-c-format
+msgid "Date, Time"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1863
+#, no-c-format
+msgid "Date"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1866
+#, no-c-format
+msgid "DateTime"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1871
+#, no-c-format
+msgid "Integer Number (Integer Number)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1874
+#, no-c-format
+msgid "Number (Integer)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1877 index.docbook:1891
+#, no-c-format
+msgid "Numeric"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1880
+#, no-c-format
+msgid "Integer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1885
+#, no-c-format
+msgid "Big Integer Number (Big Integer Number)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1888 index.docbook:1894
+#, no-c-format
+msgid "Long Integer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1899
+#, no-c-format
+msgid "Floating Point Number (Floating Point Number)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1902
+#, no-c-format
+msgid "Single/Double precision number"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1905
+#, no-c-format
+msgid "Float"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1908
+#, no-c-format
+msgid "Number"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1916
+#, no-c-format
+msgid "Appendix C. Reserved words for SQL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1917
+#, no-c-format
+msgid ""
+"The following lists contain words that are used internally by &kexi; when "
+"dealing with data sources."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1919
+#, no-c-format
+msgid ""
+"When designing your database you should do your best to avoid using these "
+"reserved words because otherwise you might end up having problems with your "
+"database file or even corrupt it."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1921
+#, no-c-format
+msgid ""
+"If you still want to use reserved words enclose them with double quotation "
+"marks <quote></quote>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1923
+#, no-c-format
+msgid "Kexi SQL Reserved words"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1924
+#, no-c-format
+msgid "This list contains keywords that are reserved for use in Kexi SQL:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1927 index.docbook:2587
+#, no-c-format
+msgid "AFTER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1928
+#, no-c-format
+msgid "<para>ALL</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1929
+#, no-c-format
+msgid "<para>ASC</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1930 index.docbook:2596
+#, no-c-format
+msgid "BEFORE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1931 index.docbook:2597
+#, no-c-format
+msgid "BEGIN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1932
+#, no-c-format
+msgid "BETWEEN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1933
+#, no-c-format
+msgid "<para>BY</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1934 index.docbook:2602
+#, no-c-format
+msgid "CASCADE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1935
+#, no-c-format
+msgid "CASE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1936
+#, no-c-format
+msgid "CHECK"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1937
+#, no-c-format
+msgid "COLLATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1938 index.docbook:2608
+#, no-c-format
+msgid "COMMIT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1939 index.docbook:2610
+#, no-c-format
+msgid "CONSTRAINT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1940
+#, no-c-format
+msgid "CROSS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1941 index.docbook:2618
+#, no-c-format
+msgid "DATABASE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1942
+#, no-c-format
+msgid "DEFAULT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1943
+#, no-c-format
+msgid "DELETE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1944
+#, no-c-format
+msgid "DESC"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1945
+#, no-c-format
+msgid "DISTINCT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1946
+#, no-c-format
+msgid "DROP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1947 index.docbook:2630
+#, no-c-format
+msgid "<para>END</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1948
+#, no-c-format
+msgid "ELSE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1949 index.docbook:2637
+#, no-c-format
+msgid "EXPLAIN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1950
+#, no-c-format
+msgid "<para>FOR</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1951 index.docbook:2643
+#, no-c-format
+msgid "FOREIGN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1952
+#, no-c-format
+msgid "FULL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1953
+#, no-c-format
+msgid "GROUP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1954
+#, no-c-format
+msgid "HAVING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1955
+#, no-c-format
+msgid "IGNORE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1956
+#, no-c-format
+msgid "INDEX"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1957
+#, no-c-format
+msgid "INNER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1958
+#, no-c-format
+msgid "INSERT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1959
+#, no-c-format
+msgid "INTO"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1960 index.docbook:2657
+#, no-c-format
+msgid "<para>KEY</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1961
+#, no-c-format
+msgid "LIMIT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1962
+#, no-c-format
+msgid "MATCH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1963
+#, no-c-format
+msgid "NATURAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1964
+#, no-c-format
+msgid "OFFSET"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1965
+#, no-c-format
+msgid "ORDER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1966
+#, no-c-format
+msgid "OUTER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1967 index.docbook:2704
+#, no-c-format
+msgid "PRIMARY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1968 index.docbook:2712
+#, no-c-format
+msgid "REFERENCES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1969
+#, no-c-format
+msgid "REPLACE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1970
+#, no-c-format
+msgid "RESTRICT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1971 index.docbook:2719
+#, no-c-format
+msgid "ROLLBACK"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1972
+#, no-c-format
+msgid "<para>ROW</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1973
+#, no-c-format
+msgid "<para>SET</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1974 index.docbook:2743
+#, no-c-format
+msgid "TEMPORARY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1975
+#, no-c-format
+msgid "THEN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1976 index.docbook:2747
+#, no-c-format
+msgid "TRANSACTION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1977
+#, no-c-format
+msgid "UNION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1978
+#, no-c-format
+msgid "UNIQUE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1979
+#, no-c-format
+msgid "UPDATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1980 index.docbook:2754
+#, no-c-format
+msgid "USING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1981
+#, no-c-format
+msgid "VALUES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1982 index.docbook:2755
+#, no-c-format
+msgid "WHEN"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:1985
+#, no-c-format
+msgid "Kexi SQLite Driver Reserved words"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1986
+#, no-c-format
+msgid ""
+"This list contains keywords that are reserved for use by Kexi SQLite Driver:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1989 index.docbook:2350 index.docbook:3094
+#, no-c-format
+msgid "ABORT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1990 index.docbook:3095
+#, no-c-format
+msgid "ATTACH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1991 index.docbook:2381 index.docbook:3096
+#, no-c-format
+msgid "CLUSTER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1992 index.docbook:3097
+#, no-c-format
+msgid "CONFLICT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1993 index.docbook:2405 index.docbook:3098
+#, no-c-format
+msgid "DEFERRED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1994 index.docbook:2404 index.docbook:3099
+#, no-c-format
+msgid "DEFERRABLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1995 index.docbook:3100
+#, no-c-format
+msgid "DETACH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1996 index.docbook:2412 index.docbook:2628 index.docbook:3101
+#, no-c-format
+msgid "EACH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1997 index.docbook:2416 index.docbook:2633 index.docbook:3102
+#, no-c-format
+msgid "EXCEPT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1998 index.docbook:3103
+#, no-c-format
+msgid "FAIL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:1999 index.docbook:3104
+#, no-c-format
+msgid "GLOB"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2000 index.docbook:2437 index.docbook:3105
+#, no-c-format
+msgid "IMMEDIATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2001 index.docbook:2443 index.docbook:3106
+#, no-c-format
+msgid "INITIALLY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2002 index.docbook:2447 index.docbook:3107
+#, no-c-format
+msgid "INSTEAD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2003 index.docbook:2449 index.docbook:3108
+#, no-c-format
+msgid "INTERSECT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2004 index.docbook:2452 index.docbook:3109
+#, no-c-format
+msgid "ISNULL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2005 index.docbook:2483 index.docbook:3110
+#, no-c-format
+msgid "NOTNULL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2006 index.docbook:2486 index.docbook:3111
+#, no-c-format
+msgid "<para>OF</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2007 index.docbook:3112
+#, no-c-format
+msgid "PRAGMA"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2008 index.docbook:3113
+#, no-c-format
+msgid "RAISE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2009 index.docbook:2538 index.docbook:3114
+#, no-c-format
+msgid "STATEMENT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2010 index.docbook:2546 index.docbook:3115
+#, no-c-format
+msgid "TEMP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2011 index.docbook:2553 index.docbook:3116
+#, no-c-format
+msgid "TRIGGER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2012 index.docbook:2565 index.docbook:3117
+#, no-c-format
+msgid "VACUUM"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2013 index.docbook:2572 index.docbook:3118
+#, no-c-format
+msgid "VIEW"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:2016
+#, no-c-format
+msgid "Kexi MySQL Driver Reserved words"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2017
+#, no-c-format
+msgid ""
+"This list contains keywords that are reserved for use by Kexi MySQL Driver:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2020 index.docbook:2353 index.docbook:2764
+#, no-c-format
+msgid "ACTION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2021 index.docbook:2354 index.docbook:2765
+#, no-c-format
+msgid "<para>ADD</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2022 index.docbook:2766
+#, no-c-format
+msgid "AGAINST"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2023 index.docbook:2355 index.docbook:2767
+#, no-c-format
+msgid "AGGREGATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2024 index.docbook:2356 index.docbook:2768
+#, no-c-format
+msgid "ALTER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2025 index.docbook:2358 index.docbook:2589 index.docbook:2769
+#, no-c-format
+msgid "ANALYZE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2026 index.docbook:2359 index.docbook:2770
+#, no-c-format
+msgid "<para>ANY</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2027 index.docbook:2771
+#, no-c-format
+msgid "ASCII"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2028
+#, no-c-format
+msgid "AUTO_INCREMENT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2029 index.docbook:2593 index.docbook:2773
+#, no-c-format
+msgid "<para>AVG</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2030 index.docbook:2774
+#, no-c-format
+msgid "AVG_ROW_LENGTH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2031 index.docbook:2594 index.docbook:2775
+#, no-c-format
+msgid "BACKUP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2032 index.docbook:2776
+#, no-c-format
+msgid "<para>BDB</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2033 index.docbook:2777
+#, no-c-format
+msgid "BERKELEYDB"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2034 index.docbook:2366 index.docbook:2778
+#, no-c-format
+msgid "BIGINT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2035 index.docbook:2367 index.docbook:2779
+#, no-c-format
+msgid "BINARY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2036 index.docbook:2780
+#, no-c-format
+msgid "BINLOG"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2037 index.docbook:2368 index.docbook:2781
+#, no-c-format
+msgid "<para>BIT</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2038 index.docbook:2782
+#, no-c-format
+msgid "BLOB"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2039 index.docbook:2783
+#, no-c-format
+msgid "BOOL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2040 index.docbook:2369 index.docbook:2784
+#, no-c-format
+msgid "BOOLEAN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2041 index.docbook:2370 index.docbook:2785
+#, no-c-format
+msgid "BOTH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2042 index.docbook:2786
+#, no-c-format
+msgid "BTREE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2043 index.docbook:2787
+#, no-c-format
+msgid "BYTE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2044 index.docbook:2371 index.docbook:2600 index.docbook:2788
+#, no-c-format
+msgid "CACHE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2045 index.docbook:2603 index.docbook:2789
+#, no-c-format
+msgid "CHANGE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2046 index.docbook:2790
+#, no-c-format
+msgid "CHANGED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2047 index.docbook:2375 index.docbook:2791
+#, no-c-format
+msgid "CHAR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2048 index.docbook:2376 index.docbook:2604 index.docbook:2792
+#, no-c-format
+msgid "CHARACTER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2049 index.docbook:2793
+#, no-c-format
+msgid "CHARSET"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2050 index.docbook:2794
+#, no-c-format
+msgid "CHECKSUM"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2051 index.docbook:2795
+#, no-c-format
+msgid "CIPHER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2052 index.docbook:2796
+#, no-c-format
+msgid "CLIENT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2053 index.docbook:2380 index.docbook:2606 index.docbook:2797
+#, no-c-format
+msgid "CLOSE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2054 index.docbook:2798
+#, no-c-format
+msgid "COLLATION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2055 index.docbook:2383 index.docbook:2799
+#, no-c-format
+msgid "COLUMN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2056 index.docbook:2800
+#, no-c-format
+msgid "COLUMNS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2057 index.docbook:2384 index.docbook:2801
+#, no-c-format
+msgid "COMMENT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2058 index.docbook:2385 index.docbook:2802
+#, no-c-format
+msgid "COMMITTED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2059 index.docbook:2803
+#, no-c-format
+msgid "COMPRESSED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2060 index.docbook:2804
+#, no-c-format
+msgid "CONCURRENT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2061 index.docbook:2388 index.docbook:2805
+#, no-c-format
+msgid "CONVERT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2062 index.docbook:2806
+#, no-c-format
+msgid "CUBE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2063 index.docbook:2392 index.docbook:2807
+#, no-c-format
+msgid "CURRENT_DATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2064 index.docbook:2393 index.docbook:2808
+#, no-c-format
+msgid "CURRENT_TIME"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2065 index.docbook:2394 index.docbook:2809
+#, no-c-format
+msgid "CURRENT_TIMESTAMP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2066 index.docbook:2395 index.docbook:2810
+#, no-c-format
+msgid "CURRENT_USER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2067 index.docbook:2811
+#, no-c-format
+msgid "DATA"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2068 index.docbook:2812
+#, no-c-format
+msgid "DATABASES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2069 index.docbook:2620 index.docbook:2813
+#, no-c-format
+msgid "DATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2070 index.docbook:2814
+#, no-c-format
+msgid "DATETIME"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2071 index.docbook:2398 index.docbook:2815
+#, no-c-format
+msgid "<para>DAY</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2072 index.docbook:2816
+#, no-c-format
+msgid "DAY_HOUR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2073 index.docbook:2817
+#, no-c-format
+msgid "DAY_MICROSECOND"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2074 index.docbook:2818
+#, no-c-format
+msgid "DAY_MINUTE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2075 index.docbook:2819
+#, no-c-format
+msgid "DAY_SECOND"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2076 index.docbook:2399 index.docbook:2820
+#, no-c-format
+msgid "DEALLOCATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2077 index.docbook:2400 index.docbook:2622 index.docbook:2821
+#, no-c-format
+msgid "<para>DEC</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2078 index.docbook:2401 index.docbook:2822
+#, no-c-format
+msgid "DECIMAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2079 index.docbook:2823
+#, no-c-format
+msgid "DELAYED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2080 index.docbook:2824
+#, no-c-format
+msgid "DELAY_KEY_WRITE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2081 index.docbook:2825
+#, no-c-format
+msgid "DESCRIBE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2082 index.docbook:2826
+#, no-c-format
+msgid "DES_KEY_FILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2083 index.docbook:2827
+#, no-c-format
+msgid "DIRECTORY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2084 index.docbook:2624 index.docbook:2828
+#, no-c-format
+msgid "DISABLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2085 index.docbook:2829
+#, no-c-format
+msgid "DISCARD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2086 index.docbook:2830
+#, no-c-format
+msgid "DISTINCTROW"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2087 index.docbook:2831
+#, no-c-format
+msgid "<para>DIV</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2088 index.docbook:2409 index.docbook:2832
+#, no-c-format
+msgid "<para>DO</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2089 index.docbook:2411 index.docbook:2626 index.docbook:2833
+#, no-c-format
+msgid "DOUBLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2090 index.docbook:2834
+#, no-c-format
+msgid "DUAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2091 index.docbook:2835
+#, no-c-format
+msgid "DUMPFILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2092 index.docbook:2836
+#, no-c-format
+msgid "DUPLICATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2093 index.docbook:2837
+#, no-c-format
+msgid "DYNAMIC"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2094 index.docbook:2629 index.docbook:2838
+#, no-c-format
+msgid "ENABLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2095 index.docbook:2839
+#, no-c-format
+msgid "ENCLOSED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2096 index.docbook:2840
+#, no-c-format
+msgid "ENGINE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2097 index.docbook:2841
+#, no-c-format
+msgid "ENGINES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2098 index.docbook:2842
+#, no-c-format
+msgid "ENUM"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2099 index.docbook:2843
+#, no-c-format
+msgid "ERRORS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2100 index.docbook:2415 index.docbook:2631 index.docbook:2844
+#, no-c-format
+msgid "ESCAPE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2101 index.docbook:2845
+#, no-c-format
+msgid "ESCAPED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2102 index.docbook:2632 index.docbook:2846
+#, no-c-format
+msgid "EVENTS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2103 index.docbook:2419 index.docbook:2636 index.docbook:2847
+#, no-c-format
+msgid "EXECUTE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2104 index.docbook:2420 index.docbook:2848
+#, no-c-format
+msgid "EXISTS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2105 index.docbook:2849
+#, no-c-format
+msgid "EXPANSION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2106 index.docbook:2850
+#, no-c-format
+msgid "EXTENDED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2107 index.docbook:2423 index.docbook:2851
+#, no-c-format
+msgid "FALSE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2108 index.docbook:2852
+#, no-c-format
+msgid "FAST"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2109 index.docbook:2853
+#, no-c-format
+msgid "FIELDS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2110 index.docbook:2854
+#, no-c-format
+msgid "FILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2111 index.docbook:2425 index.docbook:2855
+#, no-c-format
+msgid "FIRST"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2112 index.docbook:2856
+#, no-c-format
+msgid "FIXED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2113 index.docbook:2426 index.docbook:2857
+#, no-c-format
+msgid "FLOAT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2114 index.docbook:2858
+#, no-c-format
+msgid "FLOAT4"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2115 index.docbook:2859
+#, no-c-format
+msgid "FLOAT8"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2116 index.docbook:2641 index.docbook:2860
+#, no-c-format
+msgid "FLUSH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2117 index.docbook:2427 index.docbook:2642 index.docbook:2861
+#, no-c-format
+msgid "FORCE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2118 index.docbook:2862
+#, no-c-format
+msgid "FULLTEXT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2119 index.docbook:2430 index.docbook:2648 index.docbook:2863
+#, no-c-format
+msgid "FUNCTION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2120 index.docbook:2864
+#, no-c-format
+msgid "GEOMETRY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2121 index.docbook:2865
+#, no-c-format
+msgid "GEOMETRYCOLLECTION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2122 index.docbook:2866
+#, no-c-format
+msgid "GET_FORMAT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2123 index.docbook:2431 index.docbook:2867
+#, no-c-format
+msgid "GLOBAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2124 index.docbook:2432 index.docbook:2868
+#, no-c-format
+msgid "GRANT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2125 index.docbook:2869
+#, no-c-format
+msgid "GRANTS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2126 index.docbook:2433 index.docbook:2870
+#, no-c-format
+msgid "HANDLER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2127 index.docbook:2871
+#, no-c-format
+msgid "HASH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2128 index.docbook:2872
+#, no-c-format
+msgid "HELP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2129 index.docbook:2873
+#, no-c-format
+msgid "HIGH_PRIORITY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2130 index.docbook:2874
+#, no-c-format
+msgid "HOSTS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2131 index.docbook:2435 index.docbook:2875
+#, no-c-format
+msgid "HOUR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2132 index.docbook:2876
+#, no-c-format
+msgid "HOUR_MICROSECOND"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2133 index.docbook:2877
+#, no-c-format
+msgid "HOUR_MINUTE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2134 index.docbook:2878
+#, no-c-format
+msgid "HOUR_SECOND"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2135 index.docbook:2879
+#, no-c-format
+msgid "IDENTIFIED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2136 index.docbook:2880
+#, no-c-format
+msgid "<para>IF</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2137 index.docbook:2881
+#, no-c-format
+msgid "IMPORT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2138 index.docbook:2882
+#, no-c-format
+msgid "INDEXES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2139 index.docbook:2883
+#, no-c-format
+msgid "INFILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2140 index.docbook:2884
+#, no-c-format
+msgid "INNOBASE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2141 index.docbook:2885
+#, no-c-format
+msgid "INNODB"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2142 index.docbook:2886
+#, no-c-format
+msgid "INSERT_METHOD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2143 index.docbook:2448 index.docbook:2656 index.docbook:2887
+#, no-c-format
+msgid "<para>INT</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2144 index.docbook:2888
+#, no-c-format
+msgid "INT1"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2145 index.docbook:2889
+#, no-c-format
+msgid "INT2"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2146 index.docbook:2890
+#, no-c-format
+msgid "INT3"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2147 index.docbook:2891
+#, no-c-format
+msgid "INT4"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2148 index.docbook:2892
+#, no-c-format
+msgid "INT8"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2149 index.docbook:2450 index.docbook:2893
+#, no-c-format
+msgid "INTERVAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2150 index.docbook:2894
+#, no-c-format
+msgid "IO_THREAD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2151 index.docbook:2453 index.docbook:2895
+#, no-c-format
+msgid "ISOLATION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2152 index.docbook:2896
+#, no-c-format
+msgid "ISSUER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2153 index.docbook:2897
+#, no-c-format
+msgid "KEYS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2154 index.docbook:2898
+#, no-c-format
+msgid "KILL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2155 index.docbook:2456 index.docbook:2899
+#, no-c-format
+msgid "LAST"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2156 index.docbook:2457 index.docbook:2900
+#, no-c-format
+msgid "LEADING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2157 index.docbook:2901
+#, no-c-format
+msgid "LEAVES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2158 index.docbook:2458 index.docbook:2902
+#, no-c-format
+msgid "LEVEL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2159 index.docbook:2903
+#, no-c-format
+msgid "LINES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2160 index.docbook:2904
+#, no-c-format
+msgid "LINESTRING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2161 index.docbook:2460 index.docbook:2905
+#, no-c-format
+msgid "LOAD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2162 index.docbook:2461 index.docbook:2906
+#, no-c-format
+msgid "LOCAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2163 index.docbook:2462 index.docbook:2907
+#, no-c-format
+msgid "LOCALTIME"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2164 index.docbook:2463 index.docbook:2908
+#, no-c-format
+msgid "LOCALTIMESTAMP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2165 index.docbook:2465 index.docbook:2909
+#, no-c-format
+msgid "LOCK"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2166 index.docbook:2910
+#, no-c-format
+msgid "LOCKS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2167 index.docbook:2911
+#, no-c-format
+msgid "LOGS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2168 index.docbook:2912
+#, no-c-format
+msgid "LONG"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2169 index.docbook:2913
+#, no-c-format
+msgid "LONGBLOB"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2170 index.docbook:2914
+#, no-c-format
+msgid "LONGTEXT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2171 index.docbook:2915
+#, no-c-format
+msgid "LOW_PRIORITY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2172 index.docbook:2916
+#, no-c-format
+msgid "MASTER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2173 index.docbook:2917
+#, no-c-format
+msgid "MASTER_CONNECT_RETRY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2174 index.docbook:2918
+#, no-c-format
+msgid "MASTER_HOST"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2175 index.docbook:2919
+#, no-c-format
+msgid "MASTER_LOG_FILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2176 index.docbook:2920
+#, no-c-format
+msgid "MASTER_LOG_POS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2177 index.docbook:2921
+#, no-c-format
+msgid "MASTER_PASSWORD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2178 index.docbook:2922
+#, no-c-format
+msgid "MASTER_PORT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2179 index.docbook:2923
+#, no-c-format
+msgid "MASTER_SERVER_ID"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2180 index.docbook:2924
+#, no-c-format
+msgid "MASTER_SSL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2181 index.docbook:2925
+#, no-c-format
+msgid "MASTER_SSL_CA"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2182 index.docbook:2926
+#, no-c-format
+msgid "MASTER_SSL_CAPATH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2183 index.docbook:2927
+#, no-c-format
+msgid "MASTER_SSL_CERT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2184 index.docbook:2928
+#, no-c-format
+msgid "MASTER_SSL_CIPHER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2185 index.docbook:2929
+#, no-c-format
+msgid "MASTER_SSL_KEY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2186 index.docbook:2930
+#, no-c-format
+msgid "MASTER_USER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2187 index.docbook:2931
+#, no-c-format
+msgid "MAX_CONNECTIONS_PER_HOUR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2188 index.docbook:2932
+#, no-c-format
+msgid "MAX_QUERIES_PER_HOUR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2189 index.docbook:2933
+#, no-c-format
+msgid "MAX_ROWS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2190 index.docbook:2934
+#, no-c-format
+msgid "MAX_UPDATES_PER_HOUR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2191 index.docbook:2935
+#, no-c-format
+msgid "MEDIUM"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2192 index.docbook:2936
+#, no-c-format
+msgid "MEDIUMBLOB"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2193 index.docbook:2937
+#, no-c-format
+msgid "MEDIUMINT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2194 index.docbook:2938
+#, no-c-format
+msgid "MEDIUMTEXT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2195 index.docbook:2939
+#, no-c-format
+msgid "MICROSECOND"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2196 index.docbook:2940
+#, no-c-format
+msgid "MIDDLEINT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2197 index.docbook:2467 index.docbook:2941
+#, no-c-format
+msgid "MINUTE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2198 index.docbook:2942
+#, no-c-format
+msgid "MINUTE_MICROSECOND"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2199 index.docbook:2943
+#, no-c-format
+msgid "MINUTE_SECOND"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2200 index.docbook:2944
+#, no-c-format
+msgid "MIN_ROWS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2201 index.docbook:2945
+#, no-c-format
+msgid "<para>MOD</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2202 index.docbook:2469 index.docbook:2946
+#, no-c-format
+msgid "MODE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2203 index.docbook:2947
+#, no-c-format
+msgid "MODIFY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2204 index.docbook:2470 index.docbook:2948
+#, no-c-format
+msgid "MONTH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2205 index.docbook:2949
+#, no-c-format
+msgid "MULTILINESTRING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2206 index.docbook:2950
+#, no-c-format
+msgid "MULTIPOINT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2207 index.docbook:2951
+#, no-c-format
+msgid "MULTIPOLYGON"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2208 index.docbook:2472 index.docbook:2952
+#, no-c-format
+msgid "NAMES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2209 index.docbook:2473 index.docbook:2953
+#, no-c-format
+msgid "NATIONAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2210 index.docbook:2954
+#, no-c-format
+msgid "<para>NDB</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2211 index.docbook:2955
+#, no-c-format
+msgid "NDBCLUSTER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2212 index.docbook:2474 index.docbook:2956
+#, no-c-format
+msgid "NCHAR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2213 index.docbook:2475 index.docbook:2678 index.docbook:2957
+#, no-c-format
+msgid "<para>NEW</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2214 index.docbook:2476 index.docbook:2679 index.docbook:2958
+#, no-c-format
+msgid "NEXT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2215 index.docbook:2477 index.docbook:2959
+#, no-c-format
+msgid "<para>NO</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2216 index.docbook:2480 index.docbook:2685 index.docbook:2960
+#, no-c-format
+msgid "NONE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2217 index.docbook:2961
+#, no-c-format
+msgid "NO_WRITE_TO_BINLOG"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2218 index.docbook:2485 index.docbook:2690 index.docbook:2962
+#, no-c-format
+msgid "NUMERIC"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2219 index.docbook:2963
+#, no-c-format
+msgid "NVARCHAR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2220 index.docbook:2964
+#, no-c-format
+msgid "OLD_PASSWORD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2221 index.docbook:2965
+#, no-c-format
+msgid "ONE_SHOT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2222 index.docbook:2694 index.docbook:2966
+#, no-c-format
+msgid "OPEN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2223 index.docbook:2967
+#, no-c-format
+msgid "OPTIMIZE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2224 index.docbook:2492 index.docbook:2968
+#, no-c-format
+msgid "OPTION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2225 index.docbook:2969
+#, no-c-format
+msgid "OPTIONALLY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2226 index.docbook:2970
+#, no-c-format
+msgid "OUTFILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2227 index.docbook:2971
+#, no-c-format
+msgid "PACK_KEYS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2228 index.docbook:2497 index.docbook:2972
+#, no-c-format
+msgid "PARTIAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2229 index.docbook:2498 index.docbook:2973
+#, no-c-format
+msgid "PASSWORD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2230 index.docbook:2974
+#, no-c-format
+msgid "POINT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2231 index.docbook:2975
+#, no-c-format
+msgid "POLYGON"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2232 index.docbook:2503 index.docbook:2703 index.docbook:2976
+#, no-c-format
+msgid "PRECISION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2233 index.docbook:2504 index.docbook:2977
+#, no-c-format
+msgid "PREPARE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2234 index.docbook:2978
+#, no-c-format
+msgid "PREV"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2235 index.docbook:2507 index.docbook:2979
+#, no-c-format
+msgid "PRIVILEGES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2236 index.docbook:2509 index.docbook:2706 index.docbook:2980
+#, no-c-format
+msgid "PROCEDURE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2237 index.docbook:2981
+#, no-c-format
+msgid "PROCESS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2238 index.docbook:2982
+#, no-c-format
+msgid "PROCESSLIST"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2239 index.docbook:2983
+#, no-c-format
+msgid "PURGE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2240 index.docbook:2984
+#, no-c-format
+msgid "QUERY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2241 index.docbook:2985
+#, no-c-format
+msgid "QUICK"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2242 index.docbook:2986
+#, no-c-format
+msgid "RAID0"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2243 index.docbook:2987
+#, no-c-format
+msgid "RAID_CHUNKS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2244 index.docbook:2988
+#, no-c-format
+msgid "RAID_CHUNKSIZE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2245 index.docbook:2989
+#, no-c-format
+msgid "RAID_TYPE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2246 index.docbook:2510 index.docbook:2709 index.docbook:2990
+#, no-c-format
+msgid "READ"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2247 index.docbook:2511 index.docbook:2710 index.docbook:2991
+#, no-c-format
+msgid "REAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2248 index.docbook:2992
+#, no-c-format
+msgid "REGEXP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2249 index.docbook:2993
+#, no-c-format
+msgid "RELAY_LOG_FILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2250 index.docbook:2994
+#, no-c-format
+msgid "RELAY_LOG_POS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2251 index.docbook:2995
+#, no-c-format
+msgid "RELAY_THREAD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2252 index.docbook:2996
+#, no-c-format
+msgid "RELOAD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2253 index.docbook:2515 index.docbook:2997
+#, no-c-format
+msgid "RENAME"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2254 index.docbook:2998
+#, no-c-format
+msgid "REPAIR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2255 index.docbook:2999
+#, no-c-format
+msgid "REPEATABLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2256 index.docbook:3000
+#, no-c-format
+msgid "REPLICATION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2257 index.docbook:3001
+#, no-c-format
+msgid "REQUIRE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2258 index.docbook:2516 index.docbook:3002
+#, no-c-format
+msgid "RESET"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2259 index.docbook:3003
+#, no-c-format
+msgid "RESTORE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2260 index.docbook:2518 index.docbook:3004
+#, no-c-format
+msgid "RETURNS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2261 index.docbook:2519 index.docbook:3005
+#, no-c-format
+msgid "REVOKE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2262 index.docbook:3006
+#, no-c-format
+msgid "RLIKE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2263 index.docbook:3007
+#, no-c-format
+msgid "ROLLUP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2264 index.docbook:2520 index.docbook:3008
+#, no-c-format
+msgid "ROWS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2265 index.docbook:3009
+#, no-c-format
+msgid "ROW_FORMAT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2266 index.docbook:3010
+#, no-c-format
+msgid "RTREE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2267 index.docbook:2720 index.docbook:3011
+#, no-c-format
+msgid "SAVEPOINT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2268 index.docbook:2524 index.docbook:3012
+#, no-c-format
+msgid "SECOND"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2269 index.docbook:3013
+#, no-c-format
+msgid "SECOND_MICROSECOND"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2270 index.docbook:3014
+#, no-c-format
+msgid "SEPARATOR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2271 index.docbook:3015
+#, no-c-format
+msgid "SERIAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2272 index.docbook:2527 index.docbook:3016
+#, no-c-format
+msgid "SERIALIZABLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2273 index.docbook:2528 index.docbook:3017
+#, no-c-format
+msgid "SESSION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2274 index.docbook:2531 index.docbook:3018
+#, no-c-format
+msgid "SHARE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2275 index.docbook:2532 index.docbook:3019
+#, no-c-format
+msgid "SHOW"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2276 index.docbook:3020
+#, no-c-format
+msgid "SHUTDOWN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2277 index.docbook:3021
+#, no-c-format
+msgid "SIGNED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2278 index.docbook:2533 index.docbook:3022
+#, no-c-format
+msgid "SIMPLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2279 index.docbook:3023
+#, no-c-format
+msgid "SLAVE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2280 index.docbook:2534 index.docbook:3024
+#, no-c-format
+msgid "SMALLINT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2281 index.docbook:2535 index.docbook:2728 index.docbook:3025
+#, no-c-format
+msgid "SOME"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2282 index.docbook:3026
+#, no-c-format
+msgid "SONAME"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2283 index.docbook:3027
+#, no-c-format
+msgid "SOUNDS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2284 index.docbook:3028
+#, no-c-format
+msgid "SPATIAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2285 index.docbook:3029
+#, no-c-format
+msgid "SQL_BIG_RESULT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2286 index.docbook:3030
+#, no-c-format
+msgid "SQL_BUFFER_RESULT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2287 index.docbook:3031
+#, no-c-format
+msgid "SQL_CACHE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2288 index.docbook:3032
+#, no-c-format
+msgid "SQL_CALC_FOUND_ROWS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2289 index.docbook:3033
+#, no-c-format
+msgid "SQL_NO_CACHE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2290 index.docbook:3034
+#, no-c-format
+msgid "SQL_SMALL_RESULT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2291 index.docbook:3035
+#, no-c-format
+msgid "SQL_THREAD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2292 index.docbook:3036
+#, no-c-format
+msgid "<para>SSL</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2293 index.docbook:2537 index.docbook:3037
+#, no-c-format
+msgid "START"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2294 index.docbook:3038
+#, no-c-format
+msgid "STARTING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2295 index.docbook:3039
+#, no-c-format
+msgid "STATUS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2296 index.docbook:2736 index.docbook:3040
+#, no-c-format
+msgid "STOP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2297 index.docbook:2542 index.docbook:2737 index.docbook:3041
+#, no-c-format
+msgid "STORAGE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2298 index.docbook:3042
+#, no-c-format
+msgid "STRAIGHT_JOIN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2299 index.docbook:3043
+#, no-c-format
+msgid "STRING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2300 index.docbook:3044
+#, no-c-format
+msgid "STRIPED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2301 index.docbook:3045
+#, no-c-format
+msgid "SUBJECT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2302 index.docbook:3046
+#, no-c-format
+msgid "SUPER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2303 index.docbook:2741 index.docbook:3047
+#, no-c-format
+msgid "TABLES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2304 index.docbook:2742 index.docbook:3048
+#, no-c-format
+msgid "TABLESPACE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2305 index.docbook:3049
+#, no-c-format
+msgid "TERMINATED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2306 index.docbook:3050
+#, no-c-format
+msgid "TEXT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2307 index.docbook:2548 index.docbook:2745 index.docbook:3051
+#, no-c-format
+msgid "TIME"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2308 index.docbook:2549 index.docbook:3052
+#, no-c-format
+msgid "TIMESTAMP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2309 index.docbook:3053
+#, no-c-format
+msgid "TINYBLOB"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2310 index.docbook:3054
+#, no-c-format
+msgid "TINYINT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2311 index.docbook:3055
+#, no-c-format
+msgid "TINYTEXT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2312 index.docbook:2551 index.docbook:3056
+#, no-c-format
+msgid "TRAILING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2313 index.docbook:2555 index.docbook:3057
+#, no-c-format
+msgid "TRUE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2314 index.docbook:2556 index.docbook:2749 index.docbook:3058
+#, no-c-format
+msgid "TRUNCATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2315 index.docbook:2558 index.docbook:3059
+#, no-c-format
+msgid "TYPE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2316 index.docbook:3060
+#, no-c-format
+msgid "TYPES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2317 index.docbook:3061
+#, no-c-format
+msgid "UNCOMMITTED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2318 index.docbook:3062
+#, no-c-format
+msgid "UNICODE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2319 index.docbook:3063
+#, no-c-format
+msgid "UNLOCK"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2320 index.docbook:3064
+#, no-c-format
+msgid "UNSIGNED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2321 index.docbook:2562 index.docbook:2752 index.docbook:3065
+#, no-c-format
+msgid "UNTIL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2322 index.docbook:2563 index.docbook:3066
+#, no-c-format
+msgid "USAGE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2323 index.docbook:2753 index.docbook:3067
+#, no-c-format
+msgid "<para>USE</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2324 index.docbook:2564 index.docbook:3068
+#, no-c-format
+msgid "USER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2325 index.docbook:3069
+#, no-c-format
+msgid "USER_RESOURCES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2326 index.docbook:3070
+#, no-c-format
+msgid "USE_FRM"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2327 index.docbook:3071
+#, no-c-format
+msgid "UTC_DATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2328 index.docbook:3072
+#, no-c-format
+msgid "UTC_TIME"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2329 index.docbook:3073
+#, no-c-format
+msgid "UTC_TIMESTAMP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2330 index.docbook:3074
+#, no-c-format
+msgid "VALUE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2331 index.docbook:3075
+#, no-c-format
+msgid "VARBINARY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2332 index.docbook:2568 index.docbook:3076
+#, no-c-format
+msgid "VARCHAR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2333 index.docbook:3077
+#, no-c-format
+msgid "VARCHARACTER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2334 index.docbook:3078
+#, no-c-format
+msgid "VARIABLES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2335 index.docbook:2569 index.docbook:3079
+#, no-c-format
+msgid "VARYING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2336 index.docbook:3080
+#, no-c-format
+msgid "WARNINGS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2337 index.docbook:2574 index.docbook:3081
+#, no-c-format
+msgid "WITH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2338 index.docbook:2576 index.docbook:2756 index.docbook:3082
+#, no-c-format
+msgid "WORK"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2339 index.docbook:2577 index.docbook:2757 index.docbook:3083
+#, no-c-format
+msgid "WRITE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2340 index.docbook:3084
+#, no-c-format
+msgid "X509"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2341 index.docbook:2578 index.docbook:3085
+#, no-c-format
+msgid "YEAR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2342 index.docbook:3086
+#, no-c-format
+msgid "YEAR_MONTH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2343 index.docbook:3087
+#, no-c-format
+msgid "ZEROFILL"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:2346
+#, no-c-format
+msgid "Kexi PostgreSQL Driver Reserved words"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2347
+#, no-c-format
+msgid ""
+"This list contains keywords that are reserved for use by Kexi pqxx Driver:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2351
+#, no-c-format
+msgid "ABSOLUTE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2352
+#, no-c-format
+msgid "ACCESS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2357
+#, no-c-format
+msgid "ANALYSE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2360
+#, no-c-format
+msgid "ARRAY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2361
+#, no-c-format
+msgid "ASSERTION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2362
+#, no-c-format
+msgid "ASSIGNMENT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2363
+#, no-c-format
+msgid "<para>AT</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2364 index.docbook:2592
+#, no-c-format
+msgid "AUTHORIZATION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2365
+#, no-c-format
+msgid "BACKWARD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2372
+#, no-c-format
+msgid "CALLED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2373
+#, no-c-format
+msgid "CAST"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2374
+#, no-c-format
+msgid "CHAIN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2377
+#, no-c-format
+msgid "CHARACTERISTICS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2378 index.docbook:2605
+#, no-c-format
+msgid "CHECKPOINT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2379
+#, no-c-format
+msgid "CLASS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2382
+#, no-c-format
+msgid "COALESCE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2386 index.docbook:2611
+#, no-c-format
+msgid "CONSTRAINTS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2387
+#, no-c-format
+msgid "CONVERSION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2389
+#, no-c-format
+msgid "COPY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2390
+#, no-c-format
+msgid "CREATEDB"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2391
+#, no-c-format
+msgid "CREATEUSER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2396 index.docbook:2616
+#, no-c-format
+msgid "CURSOR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2397 index.docbook:2617
+#, no-c-format
+msgid "CYCLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2402 index.docbook:2623
+#, no-c-format
+msgid "DECLARE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2403
+#, no-c-format
+msgid "DEFAULTS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2406
+#, no-c-format
+msgid "DEFINER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2407
+#, no-c-format
+msgid "DELIMITER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2408
+#, no-c-format
+msgid "DELIMITERS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2410
+#, no-c-format
+msgid "DOMAIN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2413
+#, no-c-format
+msgid "ENCODING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2414
+#, no-c-format
+msgid "ENCRYPTED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2417
+#, no-c-format
+msgid "EXCLUDING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2418
+#, no-c-format
+msgid "EXCLUSIVE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2421
+#, no-c-format
+msgid "EXTERNAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2422
+#, no-c-format
+msgid "EXTRACT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2424 index.docbook:2640
+#, no-c-format
+msgid "FETCH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2428
+#, no-c-format
+msgid "FORWARD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2429
+#, no-c-format
+msgid "FREEZE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2434
+#, no-c-format
+msgid "HOLD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2436
+#, no-c-format
+msgid "ILIKE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2438
+#, no-c-format
+msgid "IMMUTABLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2439
+#, no-c-format
+msgid "IMPLICIT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2440 index.docbook:2652
+#, no-c-format
+msgid "INCLUDING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2441
+#, no-c-format
+msgid "INCREMENT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2442
+#, no-c-format
+msgid "INHERITS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2444
+#, no-c-format
+msgid "INOUT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2445
+#, no-c-format
+msgid "INPUT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2446
+#, no-c-format
+msgid "INSENSITIVE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2451
+#, no-c-format
+msgid "INVOKER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2454
+#, no-c-format
+msgid "LANCOMPILER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2455 index.docbook:2658
+#, no-c-format
+msgid "LANGUAGE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2459
+#, no-c-format
+msgid "LISTEN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2464
+#, no-c-format
+msgid "LOCATION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2466 index.docbook:2672
+#, no-c-format
+msgid "MAXVALUE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2468 index.docbook:2675
+#, no-c-format
+msgid "MINVALUE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2471
+#, no-c-format
+msgid "MOVE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2478
+#, no-c-format
+msgid "NOCREATEDB"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2479
+#, no-c-format
+msgid "NOCREATEUSER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2481
+#, no-c-format
+msgid "NOTHING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2482
+#, no-c-format
+msgid "NOTIFY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2484
+#, no-c-format
+msgid "NULLIF"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2487 index.docbook:2691
+#, no-c-format
+msgid "<para>OFF</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2488
+#, no-c-format
+msgid "OIDS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2489 index.docbook:2692
+#, no-c-format
+msgid "<para>OLD</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2490 index.docbook:2693
+#, no-c-format
+msgid "ONLY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2491
+#, no-c-format
+msgid "OPERATOR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2493
+#, no-c-format
+msgid "<para>OUT</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2494
+#, no-c-format
+msgid "OVERLAPS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2495
+#, no-c-format
+msgid "OVERLAY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2496
+#, no-c-format
+msgid "OWNER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2499
+#, no-c-format
+msgid "PATH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2500
+#, no-c-format
+msgid "PENDANT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2501
+#, no-c-format
+msgid "PLACING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2502
+#, no-c-format
+msgid "POSITION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2505
+#, no-c-format
+msgid "PRESERVE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2506
+#, no-c-format
+msgid "PRIOR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2508
+#, no-c-format
+msgid "PROCEDURAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2512
+#, no-c-format
+msgid "RECHECK"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2513
+#, no-c-format
+msgid "REINDEX"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2514
+#, no-c-format
+msgid "RELATIVE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2517
+#, no-c-format
+msgid "RESTART"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2521
+#, no-c-format
+msgid "RULE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2522 index.docbook:2721
+#, no-c-format
+msgid "SCHEMA"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2523
+#, no-c-format
+msgid "SCROLL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2525
+#, no-c-format
+msgid "SECURITY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2526 index.docbook:2725
+#, no-c-format
+msgid "SEQUENCE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2529
+#, no-c-format
+msgid "SESSION_USER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2530
+#, no-c-format
+msgid "SETOF"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2536
+#, no-c-format
+msgid "STABLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2539 index.docbook:2735
+#, no-c-format
+msgid "STATISTICS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2540
+#, no-c-format
+msgid "STDIN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2541
+#, no-c-format
+msgid "STDOUT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2543
+#, no-c-format
+msgid "STRICT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2544
+#, no-c-format
+msgid "SUBSTRING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2545
+#, no-c-format
+msgid "SYSID"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2547
+#, no-c-format
+msgid "TEMPLATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2550
+#, no-c-format
+msgid "TOAST"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2552
+#, no-c-format
+msgid "TREAT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2554
+#, no-c-format
+msgid "TRIM"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2557
+#, no-c-format
+msgid "TRUSTED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2559
+#, no-c-format
+msgid "UNENCRYPTED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2560
+#, no-c-format
+msgid "UNKNOWN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2561
+#, no-c-format
+msgid "UNLISTEN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2566
+#, no-c-format
+msgid "VALID"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2567
+#, no-c-format
+msgid "VALIDATOR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2570
+#, no-c-format
+msgid "VERBOSE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2571
+#, no-c-format
+msgid "VERSION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2573
+#, no-c-format
+msgid "VOLATILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2575
+#, no-c-format
+msgid "WITHOUT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2579
+#, no-c-format
+msgid "ZONE"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:2582
+#, no-c-format
+msgid "Kexi Oracle Driver Reserved words"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2583
+#, no-c-format
+msgid ""
+"This list contains keywords that are reserved for use by Kexi Oracle Driver:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2586
+#, no-c-format
+msgid "ADMIN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2588
+#, no-c-format
+msgid "ALLOCATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2590
+#, no-c-format
+msgid "ARCHIVE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2591
+#, no-c-format
+msgid "ARCHIVELOG"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2595
+#, no-c-format
+msgid "BECOME"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2598
+#, no-c-format
+msgid "BLOCK"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2599
+#, no-c-format
+msgid "BODY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2601
+#, no-c-format
+msgid "CANCEL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2607
+#, no-c-format
+msgid "COBOL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2609
+#, no-c-format
+msgid "COMPILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2612
+#, no-c-format
+msgid "CONTENTS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2613
+#, no-c-format
+msgid "CONTINUE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2614
+#, no-c-format
+msgid "CONTROLFILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2615
+#, no-c-format
+msgid "COUNT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2619
+#, no-c-format
+msgid "DATAFILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2621
+#, no-c-format
+msgid "<para>DBA</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2625
+#, no-c-format
+msgid "DISMOUNT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2627
+#, no-c-format
+msgid "DUMP"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2634
+#, no-c-format
+msgid "EXCEPTIONS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2635
+#, no-c-format
+msgid "EXEC"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2638
+#, no-c-format
+msgid "EXTENT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2639
+#, no-c-format
+msgid "EXTERNALLY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2644
+#, no-c-format
+msgid "FORTRAN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2645
+#, no-c-format
+msgid "FOUND"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2646
+#, no-c-format
+msgid "FREELIST"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2647
+#, no-c-format
+msgid "FREELISTS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2649
+#, no-c-format
+msgid "<para>GO</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2650
+#, no-c-format
+msgid "GOTO"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2651
+#, no-c-format
+msgid "GROUPS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2653
+#, no-c-format
+msgid "INDICATOR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2654
+#, no-c-format
+msgid "INITRANS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2655
+#, no-c-format
+msgid "INSTANCE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2659
+#, no-c-format
+msgid "LAYER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2660
+#, no-c-format
+msgid "LINK"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2661
+#, no-c-format
+msgid "LISTS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2662
+#, no-c-format
+msgid "LOGFILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2663
+#, no-c-format
+msgid "MANAGE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2664
+#, no-c-format
+msgid "MANUAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2665
+#, no-c-format
+msgid "<para>MAX</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2666
+#, no-c-format
+msgid "MAXDATAFILES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2667
+#, no-c-format
+msgid "MAXINSTANCES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2668
+#, no-c-format
+msgid "MAXLOGFILES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2669
+#, no-c-format
+msgid "MAXLOGHISTORY"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2670
+#, no-c-format
+msgid "MAXLOGMEMBERS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2671
+#, no-c-format
+msgid "MAXTRANS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2673
+#, no-c-format
+msgid "<para>MIN</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2674
+#, no-c-format
+msgid "MINEXTENTS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2676
+#, no-c-format
+msgid "MODULE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2677
+#, no-c-format
+msgid "MOUNT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2680
+#, no-c-format
+msgid "NOARCHIVELOG"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2681
+#, no-c-format
+msgid "NOCACHE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2682
+#, no-c-format
+msgid "NOCYCLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2683
+#, no-c-format
+msgid "NOMAXVALUE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2684
+#, no-c-format
+msgid "NOMINVALUE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2686
+#, no-c-format
+msgid "NOORDER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2687
+#, no-c-format
+msgid "NORESETLOGS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2688
+#, no-c-format
+msgid "NORMAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2689
+#, no-c-format
+msgid "NOSORT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2695
+#, no-c-format
+msgid "OPTIMAL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2696
+#, no-c-format
+msgid "<para>OWN</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2697
+#, no-c-format
+msgid "PACKAGE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2698
+#, no-c-format
+msgid "PARALLEL"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2699
+#, no-c-format
+msgid "PCTINCREASE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2700
+#, no-c-format
+msgid "PCTUSED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2701
+#, no-c-format
+msgid "PLAN"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2702
+#, no-c-format
+msgid "<para>PLI</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2705
+#, no-c-format
+msgid "PRIVATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2707
+#, no-c-format
+msgid "PROFILE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2708
+#, no-c-format
+msgid "QUOTA"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2711
+#, no-c-format
+msgid "RECOVER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2713
+#, no-c-format
+msgid "REFERENCING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2714
+#, no-c-format
+msgid "RESETLOGS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2715
+#, no-c-format
+msgid "RESTRICTED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2716
+#, no-c-format
+msgid "REUSE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2717
+#, no-c-format
+msgid "ROLE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2718
+#, no-c-format
+msgid "ROLES"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2722
+#, no-c-format
+msgid "<para>SCN</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2723
+#, no-c-format
+msgid "SECTION"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2724
+#, no-c-format
+msgid "SEGMENT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2726
+#, no-c-format
+msgid "SHARED"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2727
+#, no-c-format
+msgid "SNAPSHOT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2729
+#, no-c-format
+msgid "SORT"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2730
+#, no-c-format
+msgid "<para>SQL</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2731
+#, no-c-format
+msgid "SQLCODE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2732
+#, no-c-format
+msgid "SQLERROR"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2733
+#, no-c-format
+msgid "SQLSTATE"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2734
+#, no-c-format
+msgid "STATEMENT_ID"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2738
+#, no-c-format
+msgid "<para>SUM</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2739
+#, no-c-format
+msgid "SWITCH"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2740
+#, no-c-format
+msgid "SYSTEM"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2744
+#, no-c-format
+msgid "THREAD"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2746
+#, no-c-format
+msgid "TRACING"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2748
+#, no-c-format
+msgid "TRIGGERS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2750
+#, no-c-format
+msgid "UNDER"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2751
+#, no-c-format
+msgid "UNLIMITED"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:2760
+#, no-c-format
+msgid "Kexi Sybase Driver Reserved words"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2761
+#, no-c-format
+msgid ""
+"This list contains keywords that are reserved for use by Kexi Sybase Driver:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:2772
+#, no-c-format
+msgid "AUTOINCREMENT"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:3090
+#, no-c-format
+msgid "Kexi xBase Driver Reserved words"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3091
+#, no-c-format
+msgid ""
+"This list contains keywords that are reserved for use by Kexi xBase Driver:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3120
+#, no-c-format
+msgid ""
+"Reserved words are kept separate for each driver so that they can also be "
+"used as reference."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:3124
+#, no-c-format
+msgid "Appendix D. Supported File Formats"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:3125
+#, no-c-format
+msgid "Comma-separated values format (CSV)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3126
+#, no-c-format
+msgid ""
+"&kexi; is capable of importing and exporting data from/to a variety of Comma-"
+"separated values formats (CSV files). Most spreadsheet and database "
+"applications can import and export in this format, making this an "
+"appropriate format to migrate textual data between different applications."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3128
+#, no-c-format
+msgid ""
+"&kexi; also supports a number of options that can be configured before "
+"performing import:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3131
+#, no-c-format
+msgid "data type for each column,"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3132
+#, no-c-format
+msgid "other field delimiters such as tabs,"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3133
+#, no-c-format
+msgid "different text quotes,"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3134
+#, no-c-format
+msgid "given number of records can be skipped if needed,"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3135
+#, no-c-format
+msgid "duplicated delimiters can be skipped,"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3136
+#, no-c-format
+msgid "values from the first row can be used to set column names,"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3137
+#, no-c-format
+msgid "text encoding (UTF-8 is the default),"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3138
+#, no-c-format
+msgid "date format (defined by the operating system is the default),"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3139
+#, no-c-format
+msgid "stripping leading and trailing blanks off of the text values."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3141
+#, no-c-format
+msgid ""
+"On importing &kexi; shows preview of imported data. Most suitable set of "
+"options is auto-detected by &kexi; based on provided CSV file."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:3144
+#, no-c-format
+msgid "Microsoft Access (MDB) file format"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:3145
+#, no-c-format
+msgid "Overview"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3146
+#, no-c-format
+msgid ""
+"Support for importing <guilabel>Microsoft Access</guilabel> databases (2003 "
+"or older) is built into &kexi;. <guilabel>Access</guilabel> databases can be "
+"<emphasis>imported</emphasis> into a &kexi; database only. It cannot be used "
+"to edit the database, nor to export to an <guilabel>Access</guilabel> "
+"database. However, it should also be able to import databases created by "
+"other applications that use the JET database engine. Importing <filename>."
+"accdb</filename> databases introduced in MS <guilabel>Access</guilabel> 2007 "
+"are not currently supported."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3148
+#, no-c-format
+msgid "To import a database:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3151
+#, no-c-format
+msgid ""
+"In &kexi; menu select <guilabel>Import, Export or Send..</guilabel> command."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3152
+#, no-c-format
+msgid "Click <guilabel>Import Database</guilabel> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3153
+#, no-c-format
+msgid "Use the import wizard by selecting desired .mdb file."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:3156
+#, no-c-format
+msgid "Capabilities"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3157
+#, no-c-format
+msgid ""
+"The import function has successfully been used to import "
+"<emphasis>Northwind</emphasis> database well known to MS <guilabel>Access</"
+"guilabel> users. Many other <guilabel>Access</guilabel> template databases "
+"can be also imported."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:3173
+#, no-c-format
+msgid "Supported features"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3174
+#, no-c-format
+msgid ""
+"Importing the following field types has been tested, and generally works "
+"well:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3177
+#, no-c-format
+msgid "Text fields"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3178
+#, no-c-format
+msgid "Memo fields"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3179
+#, no-c-format
+msgid "Date fields"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3180
+#, no-c-format
+msgid "Numeric values"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:3183
+#, no-c-format
+msgid "Unsupported features"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3184
+#, no-c-format
+msgid ""
+"Currently, only tables are imported. During import &kexi; skips the "
+"following objects:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3187
+#, no-c-format
+msgid "Queries"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3188
+#, no-c-format
+msgid "Forms"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3189
+#, no-c-format
+msgid "Scripts"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3190
+#, no-c-format
+msgid "<para>Reports</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3192
+#, no-c-format
+msgid "The following are untested:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3195
+#, no-c-format
+msgid "Importing binary objects"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:3200
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3201
+#, no-c-format
+msgid "&kexi; Copyright 2002-2012 The Kexi Team"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3203
+#, no-c-format
+msgid "Kexi Developers:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3206
+#, no-c-format
+msgid "Jaroslaw Staniek (staniek kde.org)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3207
+#, no-c-format
+msgid "OpenOffice Polska, LLC (info openoffice.com.pl)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3208
+#, no-c-format
+msgid "Lucijan Busch (lucijan kde.org)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3209
+#, no-c-format
+msgid "Cedric Pasteur (cedric.pasteur free.fr)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3210
+#, no-c-format
+msgid "Adam Pigg (adam piggz.fsnet.co.uk)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3211
+#, no-c-format
+msgid "Martin Ellis (martin.ellis kdemail.net)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3212
+#, no-c-format
+msgid "Sebastian Sauer (mail dipe.org)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3213
+#, no-c-format
+msgid "Christian Nitschkowski (segfault_ii web.de)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3214
+#, no-c-format
+msgid "Peter Simonsson (psn linux.se)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3215
+#, no-c-format
+msgid "Joseph Wenninger (jowenn kde.org)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3216
+#, no-c-format
+msgid "Seth Kurzenberg (seth cql.com)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3217
+#, no-c-format
+msgid "Laurent Montel (montel kde.org)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3218
+#, no-c-format
+msgid "Till Busch (till bux.at)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3220
+#, no-c-format
+msgid ""
+"Documentation by Martin A. Ellis (martin.ellis kdemail.net), Jaroslaw "
+"Staniek (staniek kde.org) with contributions from Anne-Marie Mahfouf, "
+"Raphael Langerhorst, Michal Kubicki and Aron Stansvik."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:3222
+#, no-c-format
+msgid ""
+"This program is licensed under the terms of the <ulink url=\"http://docs.kde."
+"org/stable/common/lgpl-license.html\">GNU Lesser General Public License</"
+"ulink>."
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:3226
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:3226
+#, no-c-format
+msgid "&underFDL;"
+msgstr ""

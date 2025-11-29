@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:10 index.docbook:31
+#, no-c-format
+msgid "Connection Preferences"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Lauri.Watts; &Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:14
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:17
+#, no-c-format
+msgid "2016-11-10"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:18
+#, no-c-format
+msgid "Frameworks 5.29"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:21
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:22
+#, no-c-format
+msgid "kdebase"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:23
+#, no-c-format
+msgid "kcontrol"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:24
+#, no-c-format
+msgid "network"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:33
+#, no-c-format
+msgid ""
+"You can configure <guilabel>FTP Options</guilabel> here. At present there is "
+"just two options:"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:37
+#, no-c-format
+msgid "Enable passive mode (PASV)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:38
+#, no-c-format
+msgid ""
+"Passive &FTP; is often required when you are behind a firewall. Many "
+"firewalls only permit connections that were initiated from <quote>the "
+"inside</quote>. Passive &FTP; is controlled by the client, which makes it "
+"usable through firewalls."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:45
+#, no-c-format
+msgid "Mark partially uploaded files"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:46
+#, no-c-format
+msgid ""
+"When a mark is placed in this box, partially uploaded files will have a "
+"<literal role=\"extension\">.part</literal> extension added to the end of "
+"the file. This extension is removed once the file download is complete."
+msgstr ""

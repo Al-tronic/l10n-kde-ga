@@ -1,0 +1,483 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:9
+#, no-c-format
+msgid "The &kollision; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:11
+#, no-c-format
+msgid "<firstname>Paolo</firstname> <surname>Capriotti</surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:15
+#, no-c-format
+msgid "p.capriotti@gmail.com"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:18
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:22
+#, no-c-format
+msgid "2021-08-07"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:23
+#, no-c-format
+msgid "0.3 (KDE Gear 21.08)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:25
+#, no-c-format
+msgid "This documentation describes the game of &kollision; version 0.3"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:29
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:30
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:31
+#, no-c-format
+msgid "game"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:32
+#, no-c-format
+msgid "Kollision"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:33
+#, no-c-format
+msgid "arcade"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:34
+#, no-c-format
+msgid "one player"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:37
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:38
+#, no-c-format
+msgid "Gametype:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:38
+#, no-c-format
+msgid "Arcade"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:39
+#, no-c-format
+msgid "Number of possible players:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:39
+#, no-c-format
+msgid "<para>One</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:40
+#, no-c-format
+msgid "A simple ball dodging game."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:45
+#, no-c-format
+msgid "How to play"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:46
+#, no-c-format
+msgid "Objective:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:46
+#, no-c-format
+msgid "Let the blue ball move in the field without touching the red balls."
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:54
+#, no-c-format
+msgid "&kollision; Game Board"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:59
+#, no-c-format
+msgid ""
+"Click on the empty field to start a game: a blue ball immediately replaces "
+"your mouse cursor, and a number of red balls start to fade into the field."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:62
+#, no-c-format
+msgid ""
+"When the red balls finish materializing, they move at a random speed in a "
+"random direction, and you have to promptly dodge them moving the blue ball "
+"inside the field with your mouse. After some time, other red balls will "
+"appear, fading in as before and then starting to move. Be prepared to avoid "
+"them, too."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:65
+#, no-c-format
+msgid ""
+"You can choose the game difficulty level on the right of the status bar. The "
+"higher the difficulty level, the faster red balls move, and the more balls "
+"will appear on the play field."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:70
+#, no-c-format
+msgid "<title>Game Rules, Strategies and Tips</title>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:71
+#, no-c-format
+msgid "<para>Game Rules, Strategies and Tips</para>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:72
+#, no-c-format
+msgid "Game Rules"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid ""
+"Red balls move with constant speed on the game field bouncing off walls "
+"until colliding with another ball, which causes the speed and direction of "
+"both balls to change."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:75
+#, no-c-format
+msgid "The blue ball can be freely moved inside the field with the mouse."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:76
+#, no-c-format
+msgid ""
+"The blue ball cannot escape the field. If the cursor is moved out, the ball "
+"stays on the edge, until the cursor returns."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:77
+#, no-c-format
+msgid "The score is directly proportional to the time the game has lasted."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:78
+#, no-c-format
+msgid ""
+"Pausing the game subtracts a (cumulative) 5 seconds penalty from the total "
+"time."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:81
+#, no-c-format
+msgid "Strategies and Tips"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:83
+#, no-c-format
+msgid ""
+"Move the blue ball gently and slowly. Swinging across the field will make "
+"collisions with other balls more likely."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:84
+#, no-c-format
+msgid ""
+"Moving the cursor out of the field can be used as an elegant trick to come "
+"out of a screwed situation. Use it wisely."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:85
+#, no-c-format
+msgid "Do not pause the game unless absolutely necessary."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:91
+#, no-c-format
+msgid "Interface Overview"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:94
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:99
+#, no-c-format
+msgid "<guimenu>Game</guimenu> <guimenuitem>End game</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:102
+#, no-c-format
+msgid "End a game and return to the welcome screen."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:107
+#, no-c-format
+msgid ""
+"<shortcut> <keycap>P</keycap></shortcut> <guimenu>Game</guimenu> "
+"<guimenuitem>Pause</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:113
+#, no-c-format
+msgid "Pauses or resumes the game."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:118
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo> </"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>Show High Scores</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:123
+#, no-c-format
+msgid "This will show the best scores for the current level."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:127
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo> </"
+"shortcut> <guimenu>Game</guimenu> <guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:132
+#, no-c-format
+msgid "Selecting this item will end your current game, and exit &kollision;."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:137
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Play Sounds</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:143
+#, no-c-format
+msgid ""
+"<action>Toggle whether sound effects should be played.</action> The default "
+"is off."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:150
+#, no-c-format
+msgid ""
+"<guimenu>Settings</guimenu> <guimenuitem>Increase Ball Size</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:154
+#, no-c-format
+msgid "<action>Toggle to make the balls bigger.</action> The default is off."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:158
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guisubmenu>Difficulty</guisubmenu>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:160
+#, no-c-format
+msgid ""
+"Allows you to select a difficulty <guilabel>Easy</guilabel>, "
+"<guilabel>Medium</guilabel>, <guilabel>Hard</guilabel> for the game."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:166
+#, no-c-format
+msgid ""
+"Additionally &kollision; has the common &kde; <guimenu>Settings</guimenu> "
+"and <guimenu>Help</guimenu> menu items, for more information read the "
+"sections about the <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:176
+#, no-c-format
+msgid "Frequently asked questions"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:179
+#, no-c-format
+msgid "I want to change the way this game looks. Can I?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:180
+#, no-c-format
+msgid "<para>No.</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:183
+#, no-c-format
+msgid "Can I use the keyboard to play the game?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:184
+#, no-c-format
+msgid "No. &kollision; can only be played with a mouse."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:187
+#, no-c-format
+msgid "I cannot figure out what to do here! Are there hints?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:188
+#, no-c-format
+msgid "&kollision; does not have a <quote>Hint</quote> feature."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:191
+#, no-c-format
+msgid ""
+"I have to quit the game now, but I am not finished yet. Can I save my "
+"progress?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:192
+#, no-c-format
+msgid "You cannot save games in &kollision;."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:197
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:198
+#, no-c-format
+msgid "&kollision;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:201
+#, no-c-format
+msgid ""
+"Copyright 2007-2008 Paolo Capriotti <email>p.capriotti@gmail.com</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:204
+#, no-c-format
+msgid "Copyright 2007-2008 Dmitri Suzdalev <email>dimsuz@gmail.com</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid ""
+"Documentation copyright 2008 Paolo Capriotti <email>p.capriotti@gmail.com</"
+"email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:211
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:211
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

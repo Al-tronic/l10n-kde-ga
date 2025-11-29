@@ -1,0 +1,759 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:9
+#, no-c-format
+msgid "The &kapman; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid ""
+"<personname> <firstname>Thomas</firstname> <surname>Gallinari</surname> </"
+"personname> <email>tg8187@yahoo.fr</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:19
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:24
+#, no-c-format
+msgid "Thomas Gallinari"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:28
+#, no-c-format
+msgid "2021-06-04"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:29
+#, no-c-format
+msgid "KDE Gear 21.04"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:32
+#, no-c-format
+msgid ""
+"&kapman; is a clone of the well known game <application>Pac-Man</"
+"application>."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:36
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:37
+#, no-c-format
+msgid "kdegames"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:38
+#, no-c-format
+msgid "Kapman"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:39
+#, no-c-format
+msgid "arcade"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:40
+#, no-c-format
+msgid "one player"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:41
+#, no-c-format
+msgid "pac-man"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:42
+#, no-c-format
+msgid "pacman"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:43
+#, no-c-format
+msgid "ghost"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:44
+#, no-c-format
+msgid "pill"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:45
+#, no-c-format
+msgid "energizer"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:51
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:52
+#, no-c-format
+msgid "Gametype:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:52
+#, no-c-format
+msgid "Arcade"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:53
+#, no-c-format
+msgid "Number of possible players:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:53
+#, no-c-format
+msgid "<para>One</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:54
+#, no-c-format
+msgid ""
+"&kapman; is a clone of the well known game <application>Pac-Man</"
+"application>. You must go through the levels escaping ghosts in a maze. You "
+"lose a life when a ghost eats you, but you can eat the ghosts for a few "
+"seconds when eating an energizer. You win points when eating pills, "
+"energizers, and bonus, and you win one life for each 10,000 points. When you "
+"have eaten all the pills and energizers of a level, you go to the next "
+"level, and the player and ghost speeds increase. The game ends when you have "
+"lost all your lives."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:58
+#, no-c-format
+msgid "<screeninfo>A &kapman; screenshot</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:64
+#, no-c-format
+msgid "<phrase>A &kapman; screenshot</phrase>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:71
+#, no-c-format
+msgid "How to Play"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:72
+#, no-c-format
+msgid "Objective:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:72
+#, no-c-format
+msgid "Go through the levels by eating all pills and energizers."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:73
+#, no-c-format
+msgid ""
+"&kapman; will load level one once you start the game. To start the game, "
+"press an arrow key. You move straight ahead without pressing any key. To "
+"turn, press an arrow key. You should not turn at the last moment, but "
+"anticipate and you will turn as soon as possible. To eat a pill, an "
+"energizer, a bonus, or even a ghost, you must get in touch with it. When all "
+"the pills and energizers have been eaten, you move to the next level."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:78
+#, no-c-format
+msgid "Game Rules, Strategies and Tips"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:80
+#, no-c-format
+msgid "Rules"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:83
+#, no-c-format
+msgid ""
+"To move to the next level, you must eat every pill and energizer in the maze."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:84
+#, no-c-format
+msgid ""
+"A bonus appears when you have eaten 1/3 and 2/3 of the pills and energizers. "
+"It disappears after a few seconds (10 seconds at the first level, but it "
+"decreases as the level increases) if you have not eaten it."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:85
+#, no-c-format
+msgid ""
+"As the level increases, both your speed and the ghosts speed increase. "
+"However, the ghosts will be more and more faster than you."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:86
+#, no-c-format
+msgid ""
+"If you get in touch with a ghost, you lose a life, and the current level "
+"restarts (but the eaten pills and energizer do not reappear)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:87
+#, no-c-format
+msgid ""
+"If you are in the line of sight of a ghost (that is to say : no wall between "
+"the ghost, and both of you go to the same direction), the ghost will hunt "
+"you. Otherwise, the ghosts have a random moving."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:88
+#, no-c-format
+msgid ""
+"When you eat an energizer, the ghosts slow down and you can eat them. If you "
+"eat a ghost, it goes back to its home and its normal behaviour. After a few "
+"seconds (10 seconds at the first level, but it decreases as the level "
+"increases), the ghosts that have not been eaten go back to their normal "
+"behaviour."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:89
+#, no-c-format
+msgid "You win points when eating an item:"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:91
+#, no-c-format
+msgid "Item values"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:95
+#, no-c-format
+msgid "Pill"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:96
+#, no-c-format
+msgid "10 points"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:99
+#, no-c-format
+msgid "Energizer"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:100
+#, no-c-format
+msgid "20 points"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:103
+#, no-c-format
+msgid "Bonus"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:104
+#, no-c-format
+msgid "Current level * 100 points"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:107
+#, no-c-format
+msgid "Ghost"
+msgstr ""
+
+#. Tag: entry
+#: index.docbook:108
+#, no-c-format
+msgid ""
+"It depends on the number of ghosts you have eaten since the last energizer "
+"was eaten:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:110
+#, no-c-format
+msgid "1st ghost: 100 points"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:111
+#, no-c-format
+msgid "2nd ghost: 200 points"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:112
+#, no-c-format
+msgid "3rd ghost: 400 points"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:113
+#, no-c-format
+msgid "4th ghost: 800 points"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:121
+#, no-c-format
+msgid "You get a life more every 10,000 points you win."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:127
+#, no-c-format
+msgid "Strategies and Tips"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:130
+#, no-c-format
+msgid ""
+"To eat an item, you must get it touch with its center, not only a few "
+"pixels. So be sure you have really eaten what you wanted, before turning "
+"back."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:131
+#, no-c-format
+msgid ""
+"At first levels, the bonus does not make a lot of points and ghosts are not "
+"very fast, so you should concentrate on eating the most ghosts that you can."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:132
+#, no-c-format
+msgid ""
+"After about ten levels, the ghosts are faster and the bonus makes more "
+"points, so you should try to eat the bonus when possible. Do not hesitate to "
+"eat an energizer when you can see the bonus, to not be disturbed by the "
+"ghosts."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:133
+#, no-c-format
+msgid ""
+"In the same way, you should try to eat an energizer before going to the "
+"dangerous places (like near the ghost home)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:134
+#, no-c-format
+msgid ""
+"When the ghosts are too fast, you should avoid to eat them if you are near "
+"their home. They could go back faster than you think."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:135
+#, no-c-format
+msgid ""
+"Do not hesitate to stay in the same place for a few seconds, waiting for the "
+"ghosts to go far away from the place you need to go."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:136
+#, no-c-format
+msgid ""
+"You can find cheatcodes from the source code. But be careful: if you make a "
+"new high score but have cheated, your high score will not be registered."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:137
+#, no-c-format
+msgid "Last but not least: Have fun !"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:143
+#, no-c-format
+msgid "Interface Overview"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:145
+#, no-c-format
+msgid "Menu Items"
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:149
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></"
+"shortcut> <guimenu>Game</guimenu><guimenuitem>New</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:153
+#, no-c-format
+msgid "Starts a new game."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:156
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>H</keycap></keycombo></"
+"shortcut> <guimenu>Game</guimenu><guimenuitem>Show High Scores</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:160
+#, no-c-format
+msgid "Brings up the high scores dialog."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:163
+#, no-c-format
+msgid "<guimenu>Game</guimenu><guimenuitem>Change Level</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:166
+#, no-c-format
+msgid ""
+"Brings up the level selection dialog. Be careful: changing the current level "
+"will make the game consider you as a cheater, so you will not able to "
+"register in the high scores table."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:169
+#, no-c-format
+msgid ""
+"<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></"
+"shortcut> <guimenu>Game</guimenu><guimenuitem>Quit</guimenuitem>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:173
+#, no-c-format
+msgid "<action>Quits</action> &kapman;."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:177
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Play Sounds</guimenuitem>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:180
+#, no-c-format
+msgid "Plays the sounds or mutes."
+msgstr ""
+
+#. Tag: menuchoice
+#: index.docbook:184
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guisubmenu>Difficulty</guisubmenu>"
+msgstr ""
+
+#. Tag: action
+#: index.docbook:188
+#, no-c-format
+msgid ""
+"Adjusts the game difficulty to <guimenuitem>Easy</guimenuitem>, "
+"<guimenuitem>Medium</guimenuitem> or <guimenuitem>Hard</guimenuitem>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:193
+#, no-c-format
+msgid ""
+"Additionally &kapman; has the common &kde; <guimenu>Settings</guimenu> and "
+"<guimenu>Help</guimenu> menu items, for more information read the sections "
+"about the <ulink url=\"help:/fundamentals/menus.html#menus-settings"
+"\">Settings Menu</ulink> and <ulink url=\"help:/fundamentals/menus."
+"html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:201
+#, no-c-format
+msgid "Default Keybindings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:204
+#, no-c-format
+msgid "<action>Turn up</action> - &Up; arrow"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:205
+#, no-c-format
+msgid "<action>Turn down</action> - &Down; arrow"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:206
+#, no-c-format
+msgid "<action>Turn right</action> - &Right; arrow"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid "<action>Turn left</action> - &Left; arrow"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:208
+#, no-c-format
+msgid "<action>Pause</action> - <keycap>P</keycap> or &Esc;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:215
+#, no-c-format
+msgid "Questions and Answers"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:220
+#, no-c-format
+msgid "I want to change the way this game looks. Can I?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:223
+#, no-c-format
+msgid ""
+"You can select the &kapman; theme in the <menuchoice><guimenu>Settings</"
+"guimenu> <guimenuitem>Configure &kapman;…</guimenuitem></menuchoice> dialog. "
+"See the <link linkend=\"configuration\">Game Configuration</link> chapter "
+"for more details."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:228
+#, no-c-format
+msgid "Can I skip a level?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:231
+#, no-c-format
+msgid ""
+"There are two ways to change the current level. In both cases, you will be "
+"considered as a cheater and you will not be able to register to the high "
+"scores. The first way is using a cheatcode. I let you find it. The other way "
+"is selecting the level you want from the <menuchoice><guimenu>Game</"
+"guimenu><guimenuitem>Change Level</guimenuitem></menuchoice> dialog. See the "
+"<link linkend=\"menu\">Menubar</link> section for more details."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:236
+#, no-c-format
+msgid "Can I change default keyboard shortcuts?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:239
+#, no-c-format
+msgid ""
+"It is not possible for now. But will be a new feature in a future version of "
+"&kapman;. See the <link linkend=\"keybindings\">Default Keybindings</link> "
+"section for more details."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:244
+#, no-c-format
+msgid ""
+"I have to quit the game now, but I am not finished yet. Can I save my "
+"progress?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:247
+#, no-c-format
+msgid ""
+"You can not, and it is deliberate. We think that the game would be too easy "
+"if you could save the game and reload it as you lose your lives."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:252
+#, no-c-format
+msgid "How can I get more lives?"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:255
+#, no-c-format
+msgid ""
+"There are two ways to get lives. The first one is using a cheatcode. I let "
+"you find it. The other way is winning points. Every 10,000 points, you get a "
+"life more. See the <link linkend=\"rules\">Rules</link> section for more "
+"details."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:261
+#, no-c-format
+msgid "Game Configuration"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:262
+#, no-c-format
+msgid ""
+"You can select the theme you want to play &kapman;. To do that, select "
+"<menuchoice><guimenu>Settings</guimenu> <guimenuitem>Configure &kapman;…</"
+"guimenuitem></menuchoice>. The &kapman; configuration dialog (see below) "
+"appears and you can then select the theme. It is immediately changed on "
+"validating your choice, no need to restart the game. You can click on the "
+"<guibutton>Defaults</guibutton> button to restore the default theme."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:266
+#, no-c-format
+msgid "<screeninfo>The &kapman; configuration dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:272
+#, no-c-format
+msgid "<phrase>The &kapman; configuration dialog</phrase>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:278
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:279
+#, no-c-format
+msgid "&kapman;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:282
+#, no-c-format
+msgid "Program copyright 2008 Thomas Gallinari <email>tg8187@yahoo.fr</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:285
+#, no-c-format
+msgid ""
+"Program copyright 2008 Pierre-Benoit Besse <email>besse.pb@gmail.com</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:288
+#, no-c-format
+msgid ""
+"Program copyright 2008 Alexandre Galinier <email>blluetroy@hotmail.com</"
+"email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:291
+#, no-c-format
+msgid ""
+"Program copyright 2008 Nathalie Liesse <email>nathalie.liesse@gmail.com</"
+"email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:294
+#, no-c-format
+msgid "Graphics copyright 2008 Thomas Gallinari <email>tg8187@yahoo.fr</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:297
+#, no-c-format
+msgid ""
+"Documentation copyright 2008 Thomas Gallinari <email>tg8187@yahoo.fr</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:300
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:300
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr ""

@@ -1,0 +1,99 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:8
+#, no-c-format
+msgid "gdrive"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:13
+#, no-c-format
+msgid "<firstname>Elvis</firstname><surname>Angelaccio</surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:16
+#, no-c-format
+msgid "elvis.angelaccio@kde.org"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:20
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:23
+#, no-c-format
+msgid "2016-10-03"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:24
+#, no-c-format
+msgid "kio-gdrive 1.0.1"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:28
+#, no-c-format
+msgid ""
+"KIO GDrive allows you to access and edit your Google Drive files using KDE "
+"applications that support KIO."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:30
+#, no-c-format
+msgid "You can use the gdrive KIO Worker like this:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:31
+#, no-c-format
+msgid ""
+"<userinput>gdrive://</userinput> or <userinput>gdrive://"
+"<replaceable>foo@example.com</replaceable></userinput>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:33
+#, no-c-format
+msgid ""
+"The first URL shows an OAuth login dialog from Google, if no Drive account "
+"has been authenticated yet, or the list of your authenticated accounts "
+"instead."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:36
+#, no-c-format
+msgid ""
+"The <userinput>gdrive://</userinput> URL can also be used at any time to add "
+"an additional account."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:38
+#, no-c-format
+msgid ""
+"The URL <userinput>gdrive://<replaceable>foo@example.com</replaceable></"
+"userinput> lists all the files and folders from the top level of the "
+"<userinput>foo@example.com</userinput> Drive account."
+msgstr ""

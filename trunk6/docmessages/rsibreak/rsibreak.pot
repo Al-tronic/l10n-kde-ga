@@ -1,0 +1,391 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:10
+#, no-c-format
+msgid "The &rsibreak; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:13
+#, no-c-format
+msgid "<firstname>Tom</firstname> <surname>Albers</surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:17
+#, no-c-format
+msgid "tomalbers@kde.nl"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:21
+#, no-c-format
+msgid "<firstname>Bram</firstname> <surname>Schoenmakers</surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:25
+#, no-c-format
+msgid "bramschoenmakers@kde.nl"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:29
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:34
+#, no-c-format
+msgid "Tom Albers"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:39
+#, no-c-format
+msgid "Bram Schoenmakers"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:44
+#, no-c-format
+msgid "2022-03-20"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:45
+#, no-c-format
+msgid "0.12.14"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:47
+#, no-c-format
+msgid ""
+"Repetitive Strain Injury is an illness which can occur as a result of "
+"continuous work with a mouse and keyboard. The risk of suffering injury "
+"increases the longer users work without breaks. &rsibreak; simply offers "
+"reminders to take a break now and then."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:51
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:52
+#, no-c-format
+msgid "rsibreak"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:53
+#, no-c-format
+msgid "<keyword>RSI</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:54
+#, no-c-format
+msgid "project"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:60
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:62
+#, no-c-format
+msgid ""
+"Repetitive Strain Injury can occur as a result of working with a mouse and "
+"keyboard. This utility can be used to remind you to take a break now and "
+"then. It displays a random picture from a collection at specified intervals "
+"for defined durations. You can configure the pictures to show and lengths of "
+"time to show them. You might use the breaks reminders to do some stretching "
+"exercises, for example, or as a reminder to walk away from the computer for "
+"a while."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:68
+#, no-c-format
+msgid "<screeninfo>Logo &rsibreak;</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:74
+#, no-c-format
+msgid "<phrase>Logo &rsibreak;</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:79
+#, no-c-format
+msgid ""
+"&rsibreak; was originally written by Tom Albers. Early in the development "
+"Bram Schoenmakers joined the project"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:85
+#, no-c-format
+msgid "Using &rsibreak;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:87
+#, no-c-format
+msgid ""
+"The idea of &rsibreak; is to interrupt you in your work. The intention is to "
+"do that in a user-friendly manner. There will be times, though, that it will "
+"display itself when you are very busy. The configuration options in "
+"&rsibreak; are an effort to allow you to customize the interruptions. In "
+"that way we hope you will be able to improve your effectiveness at work "
+"while lessening your chances of injury."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:90
+#, no-c-format
+msgid ""
+"After starting, you can see an icon in your tray and you will see a welcome "
+"pop up. Although the application should be useful with default settings, it "
+"may be wise to take control by examining the settings. To discover and to "
+"obtain an access to the options available, right click on the tray icon; in "
+"the context menu that appears, select <guilabel>Configure</guilabel>. The "
+"following chapters contain further configuration information."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:95
+#, no-c-format
+msgid "&rsibreak; statistics"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:101
+#, no-c-format
+msgid "Left click on the tray icon to see statistics"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:106
+#, no-c-format
+msgid ""
+"When you left click on the tray icon you will see some statistics. If you "
+"configure &rsibreak; to break at fixed times your idle time will not be "
+"measured. In that case, some of the options in the statistics may not be "
+"very informative."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:109
+#, no-c-format
+msgid ""
+"The upper left block shows general statistics: some totals and some "
+"information about idle time. The bottom left block shows something about "
+"your work pace. You will see the total amount of activity since you started "
+"the current log-in session. The amount of activity during some other "
+"intervals will also be shown. The Pause Score decreases every time you skip "
+"a break. The blocks to the right report on which short and long breaks have "
+"already passed. At present, the labels in the dialog can either be black or "
+"red and green. In the latter case a red statistic indicates a recommendation "
+"to relax and take a break, which will bring the color closer to green."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:111
+#, no-c-format
+msgid ""
+"When you right-click the tray icon, the context menu will show an option to "
+"<guilabel>Suspend</guilabel> &rsibreak;. When you don't want to be "
+"interrupted, such as during a game or a presentation, you can use this to "
+"silence &rsibreak; You can resume &rsibreak; when you click right on the "
+"icon again and select <guilabel>Resume</guilabel>."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:117
+#, no-c-format
+msgid "Suspended &rsibreak;"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:123
+#, no-c-format
+msgid "The tray icon when &rsibreak; is suspended"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:128
+#, no-c-format
+msgid ""
+"The last way to influence &rsibreak; is via &DBus;. There are &DBus; "
+"commands available to force breaks and to suspend and resume &rsibreak;. You "
+"can use these to suspend &rsibreak; automatically when you start a game or "
+"any other specified program. Execute <command>qdbus org.kde.rsibreak /"
+"rsibreak</command> to see the possibilities."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:135
+#, no-c-format
+msgid "Break types"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:137
+#, no-c-format
+msgid ""
+"Most settings are straightforward. On the general page, there is an option "
+"to start up automatically at &kde; startup. You might wonder why that is "
+"because the session manager should take care of that. Some users may need to "
+"start &rsibreak; at startup while they are not using the session manager. "
+"Note that <application>Gnome</application> will ignore the setting."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:142
+#, no-c-format
+msgid ""
+"There are two behavior options in &rsibreak;. There is an option to break at "
+"fixed intervals for fixed periods, and there is an option to reset the "
+"timers when &rsibreak; detects that you have been idle for the duration of a "
+"break."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:146
+#, no-c-format
+msgid ""
+"You can indicate that you do not want RSIBreak to interfere with "
+"presentations, games, video playback, and any other fullscreen application "
+"on the current virtual desktop using the <guilabel>Suppress if fullscreen "
+"windows present</guilabel> option."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:151
+#, no-c-format
+msgid "&rsibreak; popup"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:157
+#, no-c-format
+msgid ""
+"The lock button enables you to lock your screen whenever you leave your "
+"computer"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:163
+#, no-c-format
+msgid ""
+"You may find the full-screen notice to take a break inconvenient at the time "
+"it appears. In this case, on the <guilabel>During Breaks</guilabel> page you "
+"can indicate that you want to use a popup; a small popup near the tray will "
+"appear asking you to take a break. If you choose to ignore that, the full-"
+"screen activity-block will appear anyway."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:165
+#, no-c-format
+msgid ""
+"There are three options for the full screen break. It can show a "
+"<guilabel>Complete Black Effect</guilabel> (this is the default action), "
+"<guilabel>Show Plasma Dashboard</guilabel> or <guilabel>Show Slide Show of "
+"Images</guilabel> where a path may be set up to specify a folder on your "
+"hard disk which contains images. During a break, you will see a slideshow of "
+"those images."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:170
+#, no-c-format
+msgid "Duration/Interval of a break"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:176
+#, no-c-format
+msgid ""
+"&rsibreak; supports two different types of break: <quote>Tiny breaks</quote> "
+"and <quote>Big breaks</quote>. The usual way to use these is to take "
+"frequent tiny breaks, and occasional big breaks. For example, a break of 20 "
+"seconds every 20 minutes (the tiny break), and a longer break of 2 minutes "
+"every hour (the big break)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:178
+#, no-c-format
+msgid ""
+"It is no use to set up intervals which are irritating. Those will, by "
+"definition, get on your nerves and you will be more likely to hit &Esc; "
+"&ndash; or any other key you have setup on the <guilabel>During Breaks</"
+"guilabel> page &ndash; to skip the break."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:180
+#, no-c-format
+msgid ""
+"If you find that you are often skipping breaks, you could decide to disable "
+"the shortcut and hide the minimize button. Remember, you choose how strictly "
+"to follow the break sequence."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:186
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:188
+#, no-c-format
+msgid ""
+"&rsibreak; copyright 2005-2015 Tom Albers, Bram Schoenmakers, Albert Astals "
+"Cid"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:189
+#, no-c-format
+msgid "Documentation copyright 2006 Rob Moore, Tom Albers, Bram Schoenmakers"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:191
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:191
+#, no-c-format
+msgid "&underGPL; &underFDL;"
+msgstr ""

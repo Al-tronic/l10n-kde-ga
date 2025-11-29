@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:9
+#, no-c-format
+msgid "<title>nfs</title>"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Lauri.Watts; &Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:16
+#, no-c-format
+msgid ""
+"Sun's <acronym>NFS</acronym> protocol provides transparent remote access to "
+"shared file systems across networks. The <acronym>NFS</acronym> protocol is "
+"designed to be machine, operating system, network architecture, and "
+"transport protocol independent. This independence is achieved through the "
+"use of Remote Procedure Call (<acronym>RPC</acronym>) primitives built on "
+"top of an eXternal Data Representation (<acronym>XDR</acronym>)."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:25
+#, no-c-format
+msgid ""
+"The supporting MOUNT protocol performs the operating system-specific "
+"functions that allow clients to attach remote folder trees to a point within "
+"the local file system. The mount process also allows the server to grant "
+"remote access privileges to a restricted set of clients via export control."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:32
+#, no-c-format
+msgid ""
+"The Lock Manager provides support for file locking when used in the "
+"<acronym>NFS</acronym> environment. The Network Lock Manager (<acronym>NLM</"
+"acronym>) protocol isolates the inherently stateful aspects of file locking "
+"into a separate protocol."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:38
+#, no-c-format
+msgid ""
+"Source: <ulink url=\"http://www.networksorcery.com/enp/protocol/nfs.htm\"> "
+"http://www.networksorcery.com/enp/protocol/nfs.htm</ulink>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:44
+#, no-c-format
+msgid "See the manual: <ulink url=\"man:/nfs\">nfs</ulink>."
+msgstr ""

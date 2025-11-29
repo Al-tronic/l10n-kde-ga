@@ -1,0 +1,442 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: author
+#: details-loans.docbook:5
+#, no-c-format
+msgid "&Darin.Strait; &Darin.Strait.mail;"
+msgstr ""
+
+#. Tag: author
+#: details-loans.docbook:6
+#, no-c-format
+msgid "&Jack.H.Ostroff; &Jack.H.Ostroff.mail;"
+msgstr ""
+
+#. Tag: date
+#: details-loans.docbook:8
+#, no-c-format
+msgid "2024-12-01"
+msgstr ""
+
+#. Tag: releaseinfo
+#: details-loans.docbook:9
+#, no-c-format
+msgid "5.2.0"
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:11
+#, no-c-format
+msgid "Loans"
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:13
+#, no-c-format
+msgid "Understanding Loans"
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:14
+#, no-c-format
+msgid "Feedback requested"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:15
+#, no-c-format
+msgid ""
+"The author would appreciate feedback on whether to expand this section to "
+"discuss the variation of principal and interest to attain a fixed recurring "
+"payment. It is mentioned in the section on actually creating a loan in "
+"&kmymoney; but it seems it should be mentioned earlier."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:25
+#, no-c-format
+msgid ""
+"This chapter describes how &kmymoney; handles loans. Loan regulations and "
+"customs vary from locality to locality. For detailed explanations of loans, "
+"as well as information on local regulations and customs, please see other "
+"resources."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:31
+#, no-c-format
+msgid ""
+"A loan is an agreement under which a borrower receives money from a lender "
+"and agrees to return the money as one or more repayments in the future. "
+"&kmymoney; allows you to track loans by which you, as borrower, receive "
+"money from or, as lender, give money to someone else. Most individuals "
+"borrow more than they lend, so you will generally be the borrower and a "
+"finance company will generally be the lender. If you lend money to a family "
+"member or a friend, you can use &kmymoney; to keep track of this loan as "
+"well."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:41
+#, no-c-format
+msgid ""
+"This guide will assume that you are borrowing from some sort of finance "
+"company, but the topics discussed here apply equally well to loans that you "
+"might make to a person. The main difference between borrowing and lending "
+"money is that an expense category is used to keep track of interest when "
+"borrowing money and an income category is used to keep track of interest "
+"when lending money."
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:49
+#, no-c-format
+msgid "Some relevant terms"
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:50
+#, no-c-format
+msgid "Principal"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:51
+#, no-c-format
+msgid ""
+"The amount that is borrowed is called the <quote>principal</quote> or "
+"<quote>loan amount</quote>."
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:57
+#, no-c-format
+msgid "Term"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:58
+#, no-c-format
+msgid ""
+"The period or duration of a loan is called the <quote>term</quote> of the "
+"loan. At the end of the term, the entirety of the principal will have been "
+"returned to the lender. Terms are generally expressed in weeks, months, or "
+"years. A term can also be expressed by the number of payments. For example, "
+"a one year loan with weekly repayments could be described as a one year loan "
+"or a loan with 52 repayments."
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:67
+#, no-c-format
+msgid "Repayments"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:68
+#, no-c-format
+msgid ""
+"The repayment of the principal to the lender is generally not done as a lump "
+"sum. Instead, a series of repayments are made, each representing a portion "
+"of the principal. Such repayments are sometimes known as <quote>amortization "
+"payments</quote> and in &kmymoney; <quote>Amortization</quote> is defined as "
+"the act of paying off a loan in installments."
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:77
+#, no-c-format
+msgid "Payment Frequency"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:78
+#, no-c-format
+msgid ""
+"The frequency of installments is referred to as <quote>Payment Frequency</"
+"quote>. Examples of this might be weekly, bi-weekly, monthly, quarterly, or "
+"yearly. This is also sometimes referred to as the payment period. In the US, "
+"periodic payments are most commonly made every month, therefore the loan's "
+"period is one month."
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:86
+#, no-c-format
+msgid "Interest Rate"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:87
+#, no-c-format
+msgid ""
+"For the privilege of being able to use the money, the borrower will pay the "
+"lender a fee called the <quote>interest</quote>, normally expressed as a "
+"percentage of the amount of the principal over a defined period. Interest "
+"rates can be fixed, where the interest rate does not change over the "
+"lifetime of the loan, or variable, where the interest rate can change over "
+"time. Typically, interest payments are included with each periodic repayment."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:97
+#, no-c-format
+msgid ""
+"Note that a loan in &kmymoney; must have an interest rate greater than 0. "
+"Money borrowed or lent with no interest must be entered as a liability or "
+"asset account."
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:102
+#, no-c-format
+msgid "Periodic Repayments"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:103
+#, no-c-format
+msgid ""
+"Since repayments are generally made on some sort of scheduled basis, such as "
+"weekly, monthly, quarterly, or yearly, they are referred to as "
+"<quote>periodic repayments</quote>. The sum of all periodic repayments plus "
+"the final repayment will add up to the loan principal plus the interest."
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:111
+#, no-c-format
+msgid "Fees"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:112
+#, no-c-format
+msgid ""
+"There may be other fees besides interest that are required to be paid, "
+"possibly with every installment. These are called <quote>recurring fees</"
+"quote>. Examples of recurring fees include (but are not necessarily limited "
+"to):"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:120
+#, no-c-format
+msgid ""
+"<quote>Impound</quote> or <quote>escrow</quote> account payments. Payments "
+"of this sort are commonly used to hold funds to pay annual or bi-annual "
+"property taxes."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:127
+#, no-c-format
+msgid "Mortgage insurance"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:129
+#, no-c-format
+msgid "Disability insurance"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:131
+#, no-c-format
+msgid "Loan account maintenance fees"
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:137
+#, no-c-format
+msgid "Summary"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:138
+#, no-c-format
+msgid ""
+"In summary, the borrower receives a lump sum from the lender at the start of "
+"the loan. The borrower makes a periodic payment to the lender. The amount of "
+"the periodic payment is the sum of the principal payment (which is used to "
+"pay down the balance or remaining principal of the loan,) the interest "
+"payment (which rewards the lender for allowing the use of the money by the "
+"borrower,) plus any recurring fees (which cover any incidentals.) At the end "
+"of the loan, the borrower has paid back the entire principal."
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:150
+#, no-c-format
+msgid "Example"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:151
+#, no-c-format
+msgid ""
+"For an example, you might borrow $25,000.00 for a new automobile and agree "
+"to pay the bank one payment each month for 60 months. The interest rate on "
+"the loan might be 5.5% per year."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:157
+#, no-c-format
+msgid ""
+"In this scenario, the loan amount is $25,000.00. The term of the loan is 60 "
+"months or 5 years. The term of the loan could also be described as 60 "
+"payments since there will be one payment per month for 5 years. The "
+"repayment frequency is one month since periodic repayments will be made once "
+"a month. The periodic repayment, which is calculated by &kmymoney;, would be "
+"$477.53."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:165
+#, no-c-format
+msgid ""
+"A <quote>loan schedule</quote> is a chart or table that shows the date that "
+"a repayment should be made and the amount of each periodic repayment. Often, "
+"these schedules break the periodic payment down into its constituent parts: "
+"the principal repayment, the interest payment, and the recurring fees "
+"payment."
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:176
+#, no-c-format
+msgid "Creating a New Loan"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:177
+#, no-c-format
+msgid ""
+"In &kmymoney;, a loan is a type of account. Therefore, to create a new loan, "
+"you begin by selecting the <menuchoice><guimenu>Account</"
+"guimenu><guimenuitem>New Account</guimenuitem></menuchoice> menu item. "
+"Continue by answering the questions that the wizard poses to you."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:185
+#, no-c-format
+msgid ""
+"The <guilabel>New Account Setup</guilabel> wizard not only sets up a Loan "
+"Account, but also creates a <guilabel>Scheduled Transaction</guilabel> for "
+"the periodic payments. If you try to edit either the Loan Account or the "
+"associated Scheduled Transaction, you will be presented with the "
+"<guilabel>Edit Loan Account Wizard</guilabel>. This allows you to adjust "
+"many of the details of the loans, but not all. Unfortunately, some aspects "
+"of the Loan Account cannot currently be changed, such as the account's "
+"parent account."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:195
+#, no-c-format
+msgid ""
+"If you display the <link linkend=\"details.schedules\">Schedules View</"
+"link>, right-click on any of the listed schedules, and select "
+"<guimenuitem>Edit scheduled transaction</guimenuitem> from the menu which "
+"pops up, &kmymoney; will display the <guilabel>Edit scheduled transaction</"
+"guilabel> dialog. In contrast, if you do this with a loan schedule, you will "
+"be shown the <guilabel>Edit Loan Account Wizard</guilabel>, and mentioned "
+"above. However, if you hold down the <keycap>&Shift;</keycap> key when you "
+"click <guimenuitem>Edit scheduled transaction</guimenuitem>, the "
+"<guilabel>Edit scheduled transaction</guilabel> dialog for the loan will be "
+"show, where you can change some of the details of the recurring transaction."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:208
+#, no-c-format
+msgid ""
+"Also note that if you delete the schedule associated with a loan, you cannot "
+"undo this action, and will have to start from scratch, creating a new loan "
+"account and schedule."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:215
+#, no-c-format
+msgid ""
+"Optionally, as with any other account, a loan can be associated with a "
+"particular institution. If you are borrowing from a mortgage company or a "
+"car loan company, you could create an institution that describes this firm "
+"and associate your loan with the institution. If you are borrowing from your "
+"Uncle Ted, there is no need to set up an institution."
+msgstr ""
+
+#. Tag: title
+#: details-loans.docbook:224
+#, no-c-format
+msgid "Making Extra Principle Repayments On Loans"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:225
+#, no-c-format
+msgid ""
+"If you would like to make an extra principal repayment, you can do so. "
+"Simply <link linkend=\"details.ledger.transactions\">enter a transaction</"
+"link> using the ledger. This extra repayment of principal will be taken into "
+"account for the interest calculation that happens for the next periodic "
+"payment."
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:232
+#, no-c-format
+msgid ""
+"Examples of extra principal payments include (but are not necessarily "
+"limited to):"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:237
+#, no-c-format
+msgid "Contributing an extra $50 a month"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:240
+#, no-c-format
+msgid ""
+"Doubling the periodic principal repayment for every period. (The principal "
+"repayment can be found for any particular period by referring to the loan "
+"schedule.)"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:248
+#, no-c-format
+msgid ""
+"Making a 13th principal repayment every year. (This assumes a loan that is "
+"repaid in monthly installments.)"
+msgstr ""
+
+#. Tag: para
+#: details-loans.docbook:256
+#, no-c-format
+msgid ""
+"If you are doubling the principal repaid with every periodic payment, you "
+"will need to recalculate the loan schedule for each installment. This will "
+"allow there to be an accurate value for the required principal repayment "
+"with each installment."
+msgstr ""

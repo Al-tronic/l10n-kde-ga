@@ -1,0 +1,286 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:10 index.docbook:29
+#, no-c-format
+msgid "Fonts"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&Mike.McBride; &Mike.McBride.mail;"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:13
+#, no-c-format
+msgid "&Anne-Marie.Mahfouf; &Anne-Marie.Mahfouf.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:14
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:17
+#, no-c-format
+msgid "2021-04-09"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:18
+#, no-c-format
+msgid "Plasma 5.20"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:21
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:22
+#, no-c-format
+msgid "KControl"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:23
+#, no-c-format
+msgid "fonts"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:31
+#, no-c-format
+msgid ""
+"This module is designed to allow you to easily select different fonts for "
+"different parts of the &kde; Desktop."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:36
+#, no-c-format
+msgid "Here's a screenshot of the fonts settings module"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:42
+#, no-c-format
+msgid "The fonts settings module"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:48
+#, no-c-format
+msgid ""
+"The panel consists of different font groups to give you a lot of flexibility "
+"in configuring your fonts:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:52
+#, no-c-format
+msgid ""
+"<guilabel>General:</guilabel> Used everywhere when the other font groups do "
+"not apply"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:55
+#, no-c-format
+msgid ""
+"<guilabel>Fixed width:</guilabel> Anywhere a non-proportional font is "
+"specified"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:58
+#, no-c-format
+msgid "<guilabel>Small:</guilabel> When small fonts are used"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:60
+#, no-c-format
+msgid "<guilabel>Toolbar:</guilabel> Font used in &kde; application toolbars"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:63
+#, no-c-format
+msgid "<guilabel>Menu:</guilabel> Font used in &kde; application menus"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:66
+#, no-c-format
+msgid "<guilabel>Window title:</guilabel> Font used in the window title"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:69
+#, no-c-format
+msgid "<guilabel>Taskbar:</guilabel> Font used in the taskbar panel applet"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:72
+#, no-c-format
+msgid "<guilabel>Desktop:</guilabel> Font used on the desktop to label icons"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:77
+#, no-c-format
+msgid ""
+"Each font has a corresponding <guibutton>Choose...</guibutton> button. By "
+"clicking on this button, a dialog box appears. You can use this dialog box "
+"to choose a new font, a font style and size. Then press <guibutton>OK</"
+"guibutton>."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:82 index.docbook:102
+#, no-c-format
+msgid ""
+"Check the <guilabel>Show only monospaced fonts</guilabel> to filter out all "
+"non-monospaced fonts from the list."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:85
+#, no-c-format
+msgid ""
+"An example of the font you have chosen will be displayed in the space "
+"between the font group name and the <guibutton>Choose...</guibutton> button."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:89
+#, no-c-format
+msgid ""
+"When you are done, simply click <guibutton>OK</guibutton> and all the "
+"necessary components of &kde; will be restarted so your changes can take "
+"affect immediately."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:93
+#, no-c-format
+msgid ""
+"The <guibutton>Adjust All Fonts...</guibutton> button allows you to quickly "
+"set properties for all the fonts selected above. A font selection dialog "
+"similar to the standard one will appear, but you will notice checkboxes that "
+"allow you to change the <guilabel>Font</guilabel>, <guilabel>Font style</"
+"guilabel> or <guilabel>Size</guilabel> independently of each other. You can "
+"choose any one, two, or three of these options, and they will be applied to "
+"all the font groups."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:107
+#, no-c-format
+msgid "Adjusting all fonts"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:113
+#, no-c-format
+msgid "The Adjust All Fonts... dialog"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:119
+#, no-c-format
+msgid ""
+"For example, if you have selected several different font faces above, and "
+"realize they are all a size too big (this often happens when you change "
+"screen resolution, for instance), you can apply a new font size to all the "
+"fonts, without affecting your customized font faces and styles."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:126
+#, no-c-format
+msgid "Anti-aliasing text"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:128
+#, no-c-format
+msgid ""
+"To use anti-aliasing setting, simply check the <guilabel>Enabled</guilabel> "
+"item and select the custom settings."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:130
+#, no-c-format
+msgid ""
+"Placing a mark in the <guilabel>Exclude range from anti-aliasing</guilabel> "
+"checkbox will allow you to specify which range of fonts will <emphasis>not</"
+"emphasis> be anti-aliased. This range is specified with the two combo boxes "
+"below."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:132
+#, no-c-format
+msgid ""
+"You can also choose the method used to create an anti-alias look to your "
+"fonts, and how strongly it should be applied changing the <ulink url="
+"\"https://en.wikipedia.org/wiki/Subpixel_rendering\"> Sub-pixel rendering</"
+"ulink> and <ulink url=\"https://en.wikipedia.org/wiki/Font_hinting\"> font "
+"hinting</ulink>. It is also possible to <guilabel>Force font DPI</guilabel> "
+"for the <ulink url=\"https://en.wikipedia.org/wiki/Dots_per_inch\">screen "
+"rendering</ulink>. If you are not familiar with the individual methods, you "
+"should leave these options alone."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:141
+#, no-c-format
+msgid ""
+"The ability to use anti-aliased fonts and icons requires that you have "
+"support in both the display server and the &Qt; toolkit, that you have "
+"suitable fonts installed, and that you are using the built-in font serving "
+"capabilities of the display server. If you still are having problems, please "
+"contact the appropriate &kde; mailing list."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:151
+#, no-c-format
+msgid "Fonts DPI"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:153
+#, no-c-format
+msgid ""
+"<guilabel>Force fonts DPI:</guilabel> proposes you an alternate DPI other "
+"than your system one which is used as default when this setting is on "
+"<guilabel>Disabled</guilabel>. You can check what DPI your X server is set "
+"to by running <userinput>xdpyinfo | grep resolution</userinput> in a "
+"terminal window and then change the DPI using the drop down box. This will "
+"be applied to newly started applications only."
+msgstr ""

@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: building-and-troubleshooting.docbook:9
+#, no-c-format
+msgid "Using the &kdesrc-build; script"
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:10
+#, no-c-format
+msgid ""
+"With the configuration data established, now you are ready to run the "
+"script. Even if you still have some tweaking or other reading you wish to "
+"do, it is a good idea to at least load the &kde; project metadata."
+msgstr ""
+
+#. Tag: title
+#: building-and-troubleshooting.docbook:15
+#, no-c-format
+msgid "Loading project metadata"
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:17
+#, no-c-format
+msgid ""
+"From a terminal window, log in to the user you are using to compile &kde; "
+"software and execute the script:"
+msgstr ""
+
+#. Tag: screen
+#: building-and-troubleshooting.docbook:21
+#, no-c-format
+msgid ""
+"<prompt>&percnt;</prompt> <userinput><command>kdesrc-build</command> "
+"<option>--metadata-only</option></userinput>"
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:23
+#, no-c-format
+msgid ""
+"This command will setup the source directory and connect to the KDE &git; "
+"repositories to download the database of &kde; git repositories, and the "
+"database of dependency metadata, without making any further changes. It is "
+"useful to run this separately as this metadata is useful for other &kdesrc-"
+"build; commands."
+msgstr ""
+
+#. Tag: title
+#: building-and-troubleshooting.docbook:32
+#, no-c-format
+msgid "Previewing what will happen when kdesrc-build runs"
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:34
+#, no-c-format
+msgid ""
+"With the project metadata installed, it is possible to preview what &kdesrc-"
+"build; will do when launched. This can be done with the <option><link "
+"linkend=\"cmdline-pretend\">--pretend</link></option> command line option."
+msgstr ""
+
+#. Tag: screen
+#: building-and-troubleshooting.docbook:38
+#, no-c-format
+msgid ""
+"<prompt>&percnt; </prompt><command>./kdesrc-build</command> <option>--"
+"pretend</option>"
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:40
+#, no-c-format
+msgid ""
+"You should see a message saying that some packages were successfully built "
+"(although nothing was actually built). If there were no significant problems "
+"shown, you can proceed to actually running the script."
+msgstr ""
+
+#. Tag: screen
+#: building-and-troubleshooting.docbook:44
+#, no-c-format
+msgid ""
+"<prompt>&percnt;</prompt> <userinput><command>kdesrc-build</command></"
+"userinput>"
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:46
+#, no-c-format
+msgid ""
+"This command will download the appropriate source code, build and install "
+"each module in order. Afterwards, you should see output similar to that in "
+"<xref linkend=\"example-build-sequence\"/>:"
+msgstr ""
+
+#. Tag: title
+#: building-and-troubleshooting.docbook:50
+#, no-c-format
+msgid "Example output of a kdesrc-build run"
+msgstr ""
+
+#. Tag: screen
+#: building-and-troubleshooting.docbook:51
+#, no-c-format
+msgid ""
+"<prompt>&percnt;</prompt> <userinput><command>kdesrc-build</command></"
+"userinput>\n"
+"Updating kde-build-metadata (to branch master)\n"
+"Updating sysadmin-repo-metadata (to branch master)\n"
+"\n"
+"Building libdbusmenu-qt (1/200)\n"
+"        No changes to libdbusmenu-qt source, proceeding to build.\n"
+"        Compiling... succeeded (after 0 seconds)\n"
+"        Installing.. succeeded (after 0 seconds)\n"
+"\n"
+"Building taglib (2/200)\n"
+"        Updating taglib (to branch master)\n"
+"        Source update complete for taglib: 68 files affected.\n"
+"        Compiling... succeeded (after 0 seconds)\n"
+"        Installing.. succeeded (after 0 seconds)\n"
+"\n"
+"Building extra-cmake-modules from &lt;module-set at line 32&gt; (3/200)\n"
+"        Updating extra-cmake-modules (to branch master)\n"
+"        Source update complete for extra-cmake-modules: 2 files affected.\n"
+"        Compiling... succeeded (after 0 seconds)\n"
+"        Installing.. succeeded (after 0 seconds)\n"
+"\n"
+"        ...\n"
+"\n"
+"Building kdevelop from kdev (200/200)\n"
+"        Updating kdevelop (to branch master)\n"
+"        Source update complete for kdevelop: 29 files affected.\n"
+"        Compiling... succeeded (after 1 minute, and 34 seconds)\n"
+"        Installing.. succeeded (after 2 seconds)\n"
+"\n"
+"&lt;&lt;&lt;  PACKAGES SUCCESSFULLY BUILT  &gt;&gt;&gt;\n"
+"Built 200 modules\n"
+"\n"
+"Your logs are saved in /home/kde-src/kdesrc/log/2018-01-20-07"
+msgstr ""
+
+#. Tag: title
+#: building-and-troubleshooting.docbook:56
+#, no-c-format
+msgid "Resolving build failures"
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:58
+#, no-c-format
+msgid ""
+"Depending on how many modules you are downloading, it is possible that "
+"&kdesrc-build; will not succeed the first time you compile &kde; software. "
+"Do not despair!"
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:64
+#, no-c-format
+msgid ""
+"&kdesrc-build; logs the output of every command it runs. By default, the log "
+"files are kept in <filename class=\"directory\">~/kdesrc/log</filename>. To "
+"see what the caused an error for a module in the last &kdesrc-build; "
+"command, usually it is sufficient to look at <filename class=\"directory\">~/"
+"kdesrc/log/latest/<replaceable>module-name</replaceable>/error.log</"
+"filename>."
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:69
+#, no-c-format
+msgid ""
+"Perhaps the easiest way to find out what error caused a module to fail to "
+"build is to search backward with a case-insensitive search, starting from "
+"the end of the file looking for the word <literal>error</literal>. Once that "
+"is found, scroll up to make sure there are no other error messages nearby. "
+"The first error message in a group is usually the underlying problem."
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:76
+#, no-c-format
+msgid ""
+"In that file, you will see the error that caused the build to fail for that "
+"module. If the file says (at the bottom) that you are missing some packages, "
+"try installing the package (including any appropriate -dev packages) before "
+"trying to build that module again. Make sure that when you run &kdesrc-"
+"build; again to pass the <link linkend=\"cmdline-reconfigure\">--"
+"reconfigure</link> option so that &kdesrc-build; forces the module to check "
+"for the missing packages again."
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:85
+#, no-c-format
+msgid ""
+"Or, if the error appears to be a build error (such as a syntax error, "
+"<quote>incorrect prototype</quote>, <quote>unknown type</quote>, or similar) "
+"then it is probably an error with the &kde; source, which will hopefully be "
+"resolved within a few days. If it is not resolved within that time, feel "
+"free to mail the <email>kde-devel@kde.org</email> mailing list (subscription "
+"may be required first) in order to report the build failure."
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:92
+#, no-c-format
+msgid ""
+"You can find more common examples of things that can go wrong and their "
+"solutions, as well as general tips and strategies to build &kde; software in "
+"the <ulink url=\"https://community.kde.org/Guidelines_and_HOWTOs/"
+"Build_from_source\"> Build from Source</ulink>."
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:98
+#, no-c-format
+msgid ""
+"On the other hand, assuming everything went well, you should have a new "
+"&kde; install on your computer, and now it is simply a matter of running it, "
+"described next in <xref linkend=\"environment\"/>."
+msgstr ""
+
+#. Tag: para
+#: building-and-troubleshooting.docbook:102
+#, no-c-format
+msgid ""
+"For more information about &kdesrc-build;'s logging features, please see "
+"<xref linkend=\"kdesrc-build-logging\"/>."
+msgstr ""

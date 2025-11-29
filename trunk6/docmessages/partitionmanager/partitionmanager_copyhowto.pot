@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: copyhowto.docbook:2
+#, no-c-format
+msgid "How-To: Copying a Partition"
+msgstr ""
+
+#. Tag: para
+#: copyhowto.docbook:4
+#, no-c-format
+msgid ""
+"This how-to describes copying a partition. We will assume the intention is "
+"to copy a partition from one device to another and overwriting an existing "
+"target partition, but the general procedure would not be much different when "
+"copying to the same device or to some unallocated area."
+msgstr ""
+
+#. Tag: para
+#: copyhowto.docbook:8
+#, no-c-format
+msgid "The following screenshot shows how the source device looks like:"
+msgstr ""
+
+#. Tag: phrase
+#: copyhowto.docbook:16
+#, no-c-format
+msgid "Main window with source device"
+msgstr ""
+
+#. Tag: para
+#: copyhowto.docbook:21
+#, no-c-format
+msgid ""
+"The source partition in our example will be <quote>sdb1</quote> which is "
+"currently mounted, indicated by the lock-icon next to the mount point name "
+"in the screen shot. A mounted partition can not be copied, thus you first "
+"need to unmount it: Click on it then select <xref linkend=\"menu-partition-"
+"mount\"/>."
+msgstr ""
+
+#. Tag: para
+#: copyhowto.docbook:25
+#, no-c-format
+msgid ""
+"After unmounting the partition the lock icon has gone and it is now possible "
+"to select <xref linkend=\"menu-partition-copy\"/>. This puts <quote>sdb1</"
+"quote> in &partman;'s clipboard; in other words: <quote>sdb1</quote> is now "
+"the partition that will be inserted when you select <xref linkend=\"menu-"
+"partition-paste\"/>."
+msgstr ""
+
+#. Tag: para
+#: copyhowto.docbook:29
+#, no-c-format
+msgid ""
+"The destination device for copying in this how-to is <quote>/dev/sdc</"
+"quote>. Click on it in the Devices panel. This is how the device looks like "
+"before copying:"
+msgstr ""
+
+#. Tag: phrase
+#: copyhowto.docbook:37
+#, no-c-format
+msgid "Main window with destination device before copying"
+msgstr ""
+
+#. Tag: para
+#: copyhowto.docbook:42
+#, no-c-format
+msgid ""
+"The partition to overwrite is <quote>sdc5</quote>. To paste the copied "
+"partition into it, click on it and select <xref linkend=\"menu-partition-"
+"paste\"/>. You will see the operation to copy the partition has been added "
+"to the list of pending operations. Note that there is no dialog box required "
+"to insert the partition as would be the case if you pasted into an "
+"unallocated area: Beginning and end of the pasted partition are determined "
+"by the overwritten partition."
+msgstr ""
+
+#. Tag: para
+#: copyhowto.docbook:46
+#, no-c-format
+msgid ""
+"Now select <xref linkend=\"menu-edit-apply\"/> and the partition will be "
+"copied. See the <link linkend=\"howto-resizepartition\">how-to on resizing "
+"partitions</link> for details about applying operations."
+msgstr ""

@@ -1,0 +1,184 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: man-atlantik.6.docbook:11
+#, no-c-format
+msgid "&atlantik; Manual Page"
+msgstr ""
+
+#. Tag: author
+#: man-atlantik.6.docbook:12
+#, no-c-format
+msgid ""
+"<firstname>Lauri</firstname><surname>Watts</surname> <contrib>&atlantik; man "
+"page.</contrib> &Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: author
+#: man-atlantik.6.docbook:15
+#, no-c-format
+msgid ""
+"<firstname>Pino</firstname><surname>Toscano</surname> <contrib>&atlantik; "
+"man page.</contrib> <email>pino@kde.org</email>"
+msgstr ""
+
+#. Tag: date
+#: man-atlantik.6.docbook:18
+#, no-c-format
+msgid "2021-10-10"
+msgstr ""
+
+#. Tag: releaseinfo
+#: man-atlantik.6.docbook:19
+#, no-c-format
+msgid "Atlantik 0.7.80"
+msgstr ""
+
+#. Tag: manvolnum
+#: man-atlantik.6.docbook:24
+#, no-c-format
+msgid "<manvolnum>6</manvolnum>"
+msgstr ""
+
+#. Tag: refname
+#: man-atlantik.6.docbook:28
+#, no-c-format
+msgid "<refname>atlantik</refname>"
+msgstr ""
+
+#. Tag: refpurpose
+#: man-atlantik.6.docbook:29
+#, no-c-format
+msgid "A monopd client"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#: man-atlantik.6.docbook:33
+#, no-c-format
+msgid ""
+"<command>atlantik</command> <arg choice=\"opt\"><replaceable>options</"
+"replaceable></arg>"
+msgstr ""
+
+#. Tag: title
+#: man-atlantik.6.docbook:41
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#: man-atlantik.6.docbook:43
+#, no-c-format
+msgid ""
+"&atlantik; is a client for playing &Monopoly;-like board games on the "
+"&monopd; network."
+msgstr ""
+
+#. Tag: para
+#: man-atlantik.6.docbook:48
+#, no-c-format
+msgid ""
+"Purpose of the &atlantik; board game is to acquire land in major cities in "
+"North America and Europe while being a transatlantic traveler. To win the "
+"game, players improve monopolized land with profitable buildings in the "
+"hopes of bankrupting all other players."
+msgstr ""
+
+#. Tag: para
+#: man-atlantik.6.docbook:53
+#, no-c-format
+msgid ""
+"All game modes are served by &monopd;, a dedicated game server designed for "
+"&atlantik;. One of the game modes plays like the popular real estate board "
+"game known as &Monopoly;."
+msgstr ""
+
+#. Tag: title
+#: man-atlantik.6.docbook:60
+#, no-c-format
+msgid "Options"
+msgstr ""
+
+#. Tag: title
+#: man-atlantik.6.docbook:63
+#, no-c-format
+msgid "&atlantik; options"
+msgstr ""
+
+#. Tag: term
+#: man-atlantik.6.docbook:65
+#, no-c-format
+msgid "<option>--host</option> <parameter>host</parameter>"
+msgstr ""
+
+#. Tag: para
+#: man-atlantik.6.docbook:67
+#, no-c-format
+msgid "Connect to this host."
+msgstr ""
+
+#. Tag: term
+#: man-atlantik.6.docbook:72
+#, no-c-format
+msgid "<option>-p, --port</option> <parameter>port</parameter>"
+msgstr ""
+
+#. Tag: para
+#: man-atlantik.6.docbook:73
+#, no-c-format
+msgid "Connect to this port."
+msgstr ""
+
+#. Tag: term
+#: man-atlantik.6.docbook:77
+#, no-c-format
+msgid "<option>-g, --game</option> <parameter>game</parameter>"
+msgstr ""
+
+#. Tag: para
+#: man-atlantik.6.docbook:78
+#, no-c-format
+msgid "Join this game."
+msgstr ""
+
+#. Tag: title
+#: man-atlantik.6.docbook:85
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: member
+#: man-atlantik.6.docbook:88
+#, no-c-format
+msgid ""
+"More detailed user documentation is available from <ulink url=\"help:/"
+"atlantik\">help:/atlantik</ulink> (either enter this &URL;, or run "
+"<userinput><command>khelpcenter</command> <parameter>help:/atlantik</"
+"parameter></userinput>)."
+msgstr ""
+
+#. Tag: member
+#: man-atlantik.6.docbook:92
+#, no-c-format
+msgid "kf6options(7)"
+msgstr ""
+
+#. Tag: member
+#: man-atlantik.6.docbook:93
+#, no-c-format
+msgid "qt6options(7)"
+msgstr ""

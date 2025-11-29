@@ -1,0 +1,615 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: man-kgendesignerplugin.1.docbook:10
+#, no-c-format
+msgid "&kde-frameworks;: KDesignerPlugin"
+msgstr ""
+
+#. Tag: author
+#: man-kgendesignerplugin.1.docbook:11
+#, no-c-format
+msgid "<firstname>Richard</firstname> <surname>Johnson</surname>"
+msgstr ""
+
+#. Tag: contrib
+#: man-kgendesignerplugin.1.docbook:14
+#, no-c-format
+msgid "Wrote the original documentation."
+msgstr ""
+
+#. Tag: email
+#: man-kgendesignerplugin.1.docbook:16
+#, no-c-format
+msgid "rjohnson@kde.org"
+msgstr ""
+
+#. Tag: author
+#: man-kgendesignerplugin.1.docbook:19
+#, no-c-format
+msgid "<firstname>Alex</firstname> <surname>Merry</surname>"
+msgstr ""
+
+#. Tag: contrib
+#: man-kgendesignerplugin.1.docbook:22
+#, no-c-format
+msgid "Updated the documentation for &kf5-full;."
+msgstr ""
+
+#. Tag: email
+#: man-kgendesignerplugin.1.docbook:24
+#, no-c-format
+msgid "alexmerry@kde.org"
+msgstr ""
+
+#. Tag: date
+#: man-kgendesignerplugin.1.docbook:27
+#, no-c-format
+msgid "2014-05-28"
+msgstr ""
+
+#. Tag: releaseinfo
+#: man-kgendesignerplugin.1.docbook:28
+#, no-c-format
+msgid "Frameworks 5.0"
+msgstr ""
+
+#. Tag: productname
+#: man-kgendesignerplugin.1.docbook:29
+#, no-c-format
+msgid "KDE Frameworks"
+msgstr ""
+
+#. Tag: manvolnum
+#: man-kgendesignerplugin.1.docbook:34
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#: man-kgendesignerplugin.1.docbook:41
+#, no-c-format
+msgid "Generates widget plugins for &Qt; Designer."
+msgstr ""
+
+#. Tag: cmdsynopsis
+#: man-kgendesignerplugin.1.docbook:49
+#, no-c-format
+msgid ""
+"<command>kgendesignerplugin</command> <group choice=\"opt\" rep=\"repeat"
+"\"><replaceable class=\"option\">OPTIONS</replaceable></group> <arg choice="
+"\"plain\"><replaceable>file</replaceable></arg>"
+msgstr ""
+
+#. Tag: title
+#: man-kgendesignerplugin.1.docbook:59
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:60
+#, no-c-format
+msgid ""
+"The custom widget plugins for &Qt; Designer usually follow a standard "
+"pattern, and the classes provided by the plugin mostly provide static "
+"information, along with function to create an instance that is normally just "
+"a simple constructor call. <command>kgendesignerplugin</command> allows "
+"developers of libraries that provide new widgets to create such a plugin "
+"without creating all the associated boilerplate code, by providing a simple "
+"ini-style description file."
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:70
+#, no-c-format
+msgid ""
+"<command>kgendesignerplugin</command> chooses sensible defaults for most "
+"settings, so minimal configuration is usually necessary."
+msgstr ""
+
+#. Tag: title
+#: man-kgendesignerplugin.1.docbook:79
+#, no-c-format
+msgid "Options"
+msgstr ""
+
+#. Tag: option
+#: man-kgendesignerplugin.1.docbook:82
+#, no-c-format
+msgid "-o <replaceable>file</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:84
+#, no-c-format
+msgid ""
+"The name for the generated C++ file. If not given, <varname>stdout</varname> "
+"will be used."
+msgstr ""
+
+#. Tag: option
+#: man-kgendesignerplugin.1.docbook:91
+#, no-c-format
+msgid "-n <replaceable>plugin-name</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:93
+#, no-c-format
+msgid ""
+"Provided for compatibility. The default value for the PluginName option in "
+"the input file."
+msgstr ""
+
+#. Tag: option
+#: man-kgendesignerplugin.1.docbook:100
+#, no-c-format
+msgid "-g <replaceable>group</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:102
+#, no-c-format
+msgid ""
+"Provided for compatibility. The default value for the DefaultGroup option in "
+"the input file."
+msgstr ""
+
+#. Tag: option
+#: man-kgendesignerplugin.1.docbook:109
+#, no-c-format
+msgid "--author"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:111
+#, no-c-format
+msgid "Show author information."
+msgstr ""
+
+#. Tag: option
+#: man-kgendesignerplugin.1.docbook:115
+#, no-c-format
+msgid "--license"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:117
+#, no-c-format
+msgid "Show license information."
+msgstr ""
+
+#. Tag: option
+#: man-kgendesignerplugin.1.docbook:121
+#, no-c-format
+msgid "-h, --help"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:123
+#, no-c-format
+msgid "Show a brief help text."
+msgstr ""
+
+#. Tag: option
+#: man-kgendesignerplugin.1.docbook:127
+#, no-c-format
+msgid "-v , --version"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:129
+#, no-c-format
+msgid "Show version information."
+msgstr ""
+
+#. Tag: title
+#: man-kgendesignerplugin.1.docbook:138
+#, no-c-format
+msgid "File Format"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:139
+#, no-c-format
+msgid ""
+"The input file is an ini-style configuration file (specifically, it is in "
+"the format supported by the KConfig framework) that describes a set of "
+"widgets. It contains a <literal>[Global]</literal> section, providing "
+"general information about the plugin, and a section for each widget that "
+"should be included in the plugin."
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:147
+#, no-c-format
+msgid "The <literal>[Global]</literal> section can have the following entries:"
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:151
+#, no-c-format
+msgid "DefaultGroup"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:153
+#, no-c-format
+msgid ""
+"The default value for the <varname>Group</varname> entry in the class "
+"sections (default: \"<literal>Custom</literal>\", unless the <option>-g</"
+"option> option is given)."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:161
+#, no-c-format
+msgid "Includes"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:163
+#, no-c-format
+msgid ""
+"A (comma-separated) list of required includes (default: empty). Note that "
+"the header files for the widgets specified later in file should not be "
+"listed here; instead, this is for special headers for the plugin's own use, "
+"like those for classes providing previews."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:173
+#, no-c-format
+msgid "PluginName"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:175
+#, no-c-format
+msgid ""
+"The name of the main C++ class in the plugin (default: "
+"\"<literal>WidgetsPlugin</literal>\", unless the <option>-n</option> option "
+"is given)."
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:185
+#, no-c-format
+msgid ""
+"Each class should have its own <literal>[<replaceable>ClassName</"
+"replaceable>]</literal> section, which can include the following entries:"
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:191
+#, no-c-format
+msgid "CodeTemplate"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:193
+#, no-c-format
+msgid ""
+"The value returned by the <code>codeTemplate()</code> function of the "
+"plugin, which is marked for \"future use\" by &Qt; Designer (default: empty)."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:201
+#, no-c-format
+msgid "ConstructorArgs"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:203
+#, no-c-format
+msgid ""
+"The arguments to pass to the constructor of the class given by "
+"<literal>ImplClass</literal>; these must be surrounded by parentheses "
+"(default: \"<literal>(parent)</literal>\"). The only variable guaranteed to "
+"be available is <varname>parent</varname>, which is the parent "
+"<code>QWidget</code> passed by &Qt; Designer."
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:210 man-kgendesignerplugin.1.docbook:271
+#, no-c-format
+msgid "This entry is ignored if <literal>CreateWidget</literal> is set."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:217
+#, no-c-format
+msgid "CreateWidget"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:219
+#, no-c-format
+msgid ""
+"The code necessary to create an instance of the widget (default: uses "
+"<code>new</code> to create an instance of the class given by the "
+"<literal>ImplClass</literal> entry, passing the arguments specified by "
+"<literal>ConstructorArgs</literal>). See the notes for <literal>ImplClass</"
+"literal> and <literal>ConstructorArgs</literal>."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:229
+#, no-c-format
+msgid "DomXML"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:231
+#, no-c-format
+msgid ""
+"An &XML; UI description of the widget (default: the default provided by the "
+"&Qt; Designer plugin headers)."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:238
+#, no-c-format
+msgid "Group"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:240
+#, no-c-format
+msgid ""
+"The group to display the widget under in &Qt; Designer (default: the value "
+"of the <varname>DefaultGroup</varname> entry in the <literal>[Global]</"
+"literal> section)."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:248
+#, no-c-format
+msgid "IconName"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:250
+#, no-c-format
+msgid ""
+"The image file or standard icon name to use as the icon for this widget in "
+"the &Qt; Designer widget list (default: a PNG file named with the section "
+"name, with any double colons removed, in the \"pics\" directory of a "
+"compiled-in resource file; for example, <filename>:/pics/Foo.png</filename> "
+"in the section <literal>[Foo]</literal>, or <filename>:/pics/FooBar.png</"
+"filename> in the section <literal>[Foo::Bar]</literal>)."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:262
+#, no-c-format
+msgid "ImplClass"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:264
+#, no-c-format
+msgid ""
+"The class that should be used to create an instance of the widget for the "
+"use of &Qt; Designer (default: the section name). Note that this does not "
+"actually have to be the class that would be created for an end application: "
+"that is determined by the <literal>DomXML</literal>."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:278
+#, no-c-format
+msgid "IncludeFile"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:280
+#, no-c-format
+msgid ""
+"The header that needs to be included to use this widget (default: the "
+"lowercase version of the section name, with any colons removed and \".h\" "
+"appended; for example, <literal>foo.h</literal> in the section "
+"<literal>[Foo]</literal>, or <literal>foobar.h</literal> in the section "
+"<literal>[Foo::Bar]</literal>)."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:290
+#, no-c-format
+msgid "IsContainer"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:292
+#, no-c-format
+msgid ""
+"Whether this widget can contain other widgets (default: <literal>false</"
+"literal>)."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:299
+#, no-c-format
+msgid "ToolTip"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:301
+#, no-c-format
+msgid ""
+"The tooltip to display when hovering over the widget in the widget list of "
+"&Qt; Designer (default: the section name, with \" Widget\" appended; for "
+"example, <literal>Foo Widget</literal> in the section <literal>[Foo]</"
+"literal>)."
+msgstr ""
+
+#. Tag: varname
+#: man-kgendesignerplugin.1.docbook:310
+#, no-c-format
+msgid "WhatsThis"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:312
+#, no-c-format
+msgid ""
+"The What's This text associated with the widget in &Qt; Designer (default: "
+"the section name, with \" Widget\" appended; for example, <literal>Foo "
+"Widget</literal> in the section <literal>[Foo]</literal>)."
+msgstr ""
+
+#. Tag: title
+#: man-kgendesignerplugin.1.docbook:327
+#, no-c-format
+msgid "Examples"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:328
+#, no-c-format
+msgid ""
+"The simplest description file might look like: <screen language=\"ini\">\n"
+"<![CDATA[\n"
+"[Foo]\n"
+"ToolTip=Displays foos\n"
+"[Bar]\n"
+"ToolTip=Bar editor\n"
+"]]>\n"
+"    </screen> Note that each class must have at least one key set "
+"(<literal>ToolTip</literal> was used in this example), otherwise it will be "
+"ignored."
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:335
+#, no-c-format
+msgid ""
+"Usually, you want to change at least the user-visible text, which means the "
+"<literal>ToolTip</literal>, <literal>WhatsThis</literal> and <literal>Group</"
+"literal> entries. Additionally, setting the plugin name can be a good idea "
+"to prevent possible symbol clashes and not confuse debuggers (both the "
+"debugger application and the person doing the debugging):"
+msgstr ""
+
+#. Tag: screen
+#: man-kgendesignerplugin.1.docbook:342
+#, no-c-format
+msgid ""
+"<![CDATA[\n"
+"[Global]\n"
+"PluginName=FooWidgets\n"
+"DefaultGroup=Display\n"
+"\n"
+"[Foo]\n"
+"ToolTip=Displays bears\n"
+"WhatsThis=An image widget that displays dancing bears\n"
+"\n"
+"[Bar]\n"
+"ToolTip=Bar editor\n"
+"WhatsThis=An editor interface for bars for bears\n"
+"Group=Editing\n"
+"]]>"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:344
+#, no-c-format
+msgid ""
+"More complex files may be necessary if you have namespaced classes or extra "
+"options that need supplying to constructors, for example:"
+msgstr ""
+
+#. Tag: screen
+#: man-kgendesignerplugin.1.docbook:347
+#, no-c-format
+msgid ""
+"<![CDATA[\n"
+"[Global]\n"
+"PluginName=FooWidgets\n"
+"DefaultGroup=Foo\n"
+"\n"
+"[Foo::Bar]\n"
+"ToolTip=Displays bars\n"
+"WhatsThis=A widget that displays bars in a particular way\n"
+"IncludeFile=foo/bar.h\n"
+"IconName=:/previews/bar.png\n"
+"\n"
+"[Foo::Baz]\n"
+"IncludeFile=foo/baz.h\n"
+"ConstructorArgs=(Foo::Baz::SomeOption, parent)\n"
+"Group=Foo (Special)\n"
+"IsContainer=true\n"
+"IconName=:/previews/baz.png\n"
+"]]>"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:349
+#, no-c-format
+msgid ""
+"Sometimes especially complex widgets might need a special \"preview class\" "
+"implementation for use in &Qt; Designer; this might be a subclass of the "
+"real widget that just does some extra setup, or it might be a completely "
+"different implementation."
+msgstr ""
+
+#. Tag: screen
+#: man-kgendesignerplugin.1.docbook:354
+#, no-c-format
+msgid ""
+"<![CDATA[\n"
+"[Global]\n"
+"Includes=foopreviews.h\n"
+"\n"
+"[FancyWidget]\n"
+"ImplClass=FancyWidgetPreview\n"
+"]]>"
+msgstr ""
+
+#. Tag: title
+#: man-kgendesignerplugin.1.docbook:361
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: uri
+#: man-kgendesignerplugin.1.docbook:365
+#, no-c-format
+msgid "https://doc.qt.io/qt-5/designer-creating-custom-widgets.html"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:368
+#, no-c-format
+msgid "The &Qt; Designer documentation on creating plugins for custom widgets."
+msgstr ""
+
+#. Tag: title
+#: man-kgendesignerplugin.1.docbook:377
+#, no-c-format
+msgid "Bugs"
+msgstr ""
+
+#. Tag: para
+#: man-kgendesignerplugin.1.docbook:378
+#, no-c-format
+msgid ""
+"Please use <ulink url=\"https://bugs.kde.org\">&kde;'s bugtracker</ulink> to "
+"report bugs, do not mail the authors directly."
+msgstr ""

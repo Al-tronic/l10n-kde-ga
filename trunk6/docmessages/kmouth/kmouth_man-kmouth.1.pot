@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:04+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: man-kmouth.1.docbook:8
+#, no-c-format
+msgid "KMouth User's Manual"
+msgstr ""
+
+#. Tag: author
+#: man-kmouth.1.docbook:9
+#, no-c-format
+msgid ""
+"<firstname>Lauri</firstname><surname>Watts</surname> <contrib>KMouth man "
+"page.</contrib> &Lauri.Watts.mail;"
+msgstr ""
+
+#. Tag: date
+#: man-kmouth.1.docbook:12
+#, no-c-format
+msgid "2022-03-18"
+msgstr ""
+
+#. Tag: releaseinfo
+#: man-kmouth.1.docbook:13
+#, no-c-format
+msgid "KMouth 22.04"
+msgstr ""
+
+#. Tag: productname
+#: man-kmouth.1.docbook:14
+#, no-c-format
+msgid "KDE Gear"
+msgstr ""
+
+#. Tag: manvolnum
+#: man-kmouth.1.docbook:19
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#: man-kmouth.1.docbook:24
+#, no-c-format
+msgid "A type-and-say front end for speech synthesizers"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#: man-kmouth.1.docbook:28
+#, no-c-format
+msgid ""
+"<command>kmouth</command> <arg choice=\"opt\"><replaceable>filename</"
+"replaceable></arg>"
+msgstr ""
+
+#. Tag: title
+#: man-kmouth.1.docbook:35
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#: man-kmouth.1.docbook:36
+#, no-c-format
+msgid ""
+"&kmouth; is an application that enables persons that cannot speak to let "
+"their computers speak. It includes a history of spoken sentences from which "
+"the user can select sentences to be re-spoken."
+msgstr ""
+
+#. Tag: para
+#: man-kmouth.1.docbook:39
+#, no-c-format
+msgid ""
+"Note that &kmouth; does not include speech synthesizer. Instead it requires "
+"a speech synthesizer installed in the system."
+msgstr ""
+
+#. Tag: title
+#: man-kmouth.1.docbook:44
+#, no-c-format
+msgid "Options"
+msgstr ""
+
+#. Tag: replaceable
+#: man-kmouth.1.docbook:48
+#, no-c-format
+msgid "filename"
+msgstr ""
+
+#. Tag: para
+#: man-kmouth.1.docbook:50
+#, no-c-format
+msgid "The history file to open."
+msgstr ""
+
+#. Tag: title
+#: man-kmouth.1.docbook:58
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#: man-kmouth.1.docbook:59
+#, no-c-format
+msgid "espeak(1), festival(1), mbrola(1), freetts(1)"
+msgstr ""
+
+#. Tag: para
+#: man-kmouth.1.docbook:61
+#, no-c-format
+msgid ""
+"More detailed user documentation is available from <ulink url=\"help:/kmouth"
+"\">help:/kmouth</ulink> (either enter this &URL; into &konqueror;, or run "
+"<userinput><command>khelpcenter</command> <parameter>help:/kmouth</"
+"parameter></userinput>)."
+msgstr ""
+
+#. Tag: para
+#: man-kmouth.1.docbook:67
+#, no-c-format
+msgid ""
+"There is also further information available at the <ulink url=\"https://"
+"community.kde.org/Accessibility\">&kde; Accessibility project web site</"
+"ulink>."
+msgstr ""
+
+#. Tag: title
+#: man-kmouth.1.docbook:73
+#, no-c-format
+msgid "Authors"
+msgstr ""
+
+#. Tag: para
+#: man-kmouth.1.docbook:74
+#, no-c-format
+msgid ""
+"&kmouth; was written by <personname><firstname>Gunnar</"
+"firstname><surname>Schmi Dt</surname></personname> <email>kmouth@schmi-dt."
+"de</email>."
+msgstr ""

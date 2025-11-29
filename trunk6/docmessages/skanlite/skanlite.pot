@@ -1,0 +1,771 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:03+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:10
+#, no-c-format
+msgid "The &skanlite; Handbook"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:13
+#, no-c-format
+msgid "<firstname>Kåre</firstname> <surname>Särs</surname>"
+msgstr ""
+
+#. Tag: email
+#: index.docbook:17
+#, no-c-format
+msgid "kare dot sars at iki dot fi"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:20
+#, no-c-format
+msgid "<firstname>Anne-Marie</firstname> <surname>Mahfouf</surname>"
+msgstr ""
+
+#. Tag: address
+#: index.docbook:24
+#, no-c-format
+msgid "&Anne-Marie.Mahfouf.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:27
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:32
+#, no-c-format
+msgid "Kåre Särs"
+msgstr ""
+
+#. Tag: holder
+#: index.docbook:36
+#, no-c-format
+msgid "&Anne-Marie.Mahfouf;"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:41
+#, no-c-format
+msgid "2016-08-24"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:42
+#, no-c-format
+msgid "&skanlite; 2.0.0"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:45
+#, no-c-format
+msgid ""
+"&skanlite; is an image scanning application that does nothing more than scan "
+"and save images."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:48
+#, no-c-format
+msgid ""
+"&skanlite; is based on libksane, a &kde; interface for SANE library to "
+"control image scanners."
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:52
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:53
+#, no-c-format
+msgid "kdegraphics"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:54
+#, no-c-format
+msgid "scanner"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:55
+#, no-c-format
+msgid "images"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:61
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:62
+#, no-c-format
+msgid ""
+"&skanlite; is a simple image scanning application that does nothing more "
+"than scan and save images. &skanlite; can open a save dialog for every image "
+"scanned or save the images immediately in a specified folder with auto-"
+"generated names and format. The user can also choose to show the scanned "
+"image before saving."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:63
+#, no-c-format
+msgid ""
+"&skanlite; can save images in all the formats supported by &Qt;. For example "
+"the following formats:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:66
+#, no-c-format
+msgid "png (8 and 16 bits per color)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:69
+#, no-c-format
+msgid "jpeg, jpg, jpeg 2000"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:72
+#, no-c-format
+msgid "<para>bmp</para>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:78
+#, no-c-format
+msgid ""
+"You can check the status of your scanner support from the SANE project "
+"website through the <ulink url=\"http://www.sane-project.org/sane-supported-"
+"devices.html\">Supported Devices page on the SANE website</ulink>."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:83
+#, no-c-format
+msgid "Using &skanlite;"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:86
+#, no-c-format
+msgid "Scanner Selection"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:87
+#, no-c-format
+msgid ""
+"A default scanner can be specified on the command line of &skanlite; using "
+"<userinput>skanlite -d [device name]</userinput> in a terminal. If the "
+"selected scanner cannot be opened or if no default scanner is provided, a "
+"scanner selection dialog is opened."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:91
+#, no-c-format
+msgid "<screeninfo>&skanlite; scanner selection dialog</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:97
+#, no-c-format
+msgid "<phrase>&skanlite; scanner selection dialog</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:102
+#, no-c-format
+msgid ""
+"The user can choose the scanner to be used and press <guibutton>OK</"
+"guibutton> to open the scanner. Pressing <guibutton>Cancel</guibutton> will "
+"cause &skanlite; to exit."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:107
+#, no-c-format
+msgid "<screeninfo>No scanner found</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:113
+#, no-c-format
+msgid "<phrase>No scanner found</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:118
+#, no-c-format
+msgid ""
+"In case no devices were found, maybe because the scanner is not plugged in "
+"or switched off, correct that. Then the <guibutton>Reload device list</"
+"guibutton> can be used to reload the list of scanners."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:122
+#, no-c-format
+msgid ""
+"Not all drivers/backends support this feature. In that case quit &skanlite;, "
+"connect your scanner and restart the application."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:130
+#, no-c-format
+msgid "&skanlite; Main Window"
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:132
+#, no-c-format
+msgid "<screeninfo>&skanlite; main window</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:138
+#, no-c-format
+msgid "<phrase>&skanlite; main window</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:143
+#, no-c-format
+msgid ""
+"In the main window, the user has two sets of scan options: <guilabel>Basic "
+"Options</guilabel> and <guilabel>Scanner Specific Options</guilabel>. The "
+"<guilabel>Basic Options</guilabel> tab contains the most common parameters "
+"that the SANE scanner backends provide, while the <guilabel>Scanner Specific "
+"Options</guilabel> tab contains all the options of the backend. The options "
+"listed here depend on SANE support for your driver: libksane (which "
+"&skanlite; uses) should be able to display most of the types of parameters "
+"that SANE provides (analog gamma tables are not supported at this time)."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:148
+#, no-c-format
+msgid "<screeninfo>Scanner Specific Options tab</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:154
+#, no-c-format
+msgid "<phrase>Scanner Specific Options tab</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:159
+#, no-c-format
+msgid ""
+"The scanner specific options contains more detailed options of the backends. "
+"&skanlite; (libksane) does not have any special handling for these options."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:163
+#, no-c-format
+msgid ""
+"If you are satisfied with your settings, you can use the little arrow on the "
+"top of the options splitter. When clicked it collapses or expands the "
+"options. The collapser can overlap the preview area, but fades away when the "
+"mouse cursor moves out of the collapser."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:168
+#, no-c-format
+msgid "Scanning"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:169
+#, no-c-format
+msgid ""
+"To scan an image, the user can start with a preview scan and then select the "
+"part of the scan area to do the final scan on. The preview scan is started "
+"by pressing the preview button."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:174
+#, no-c-format
+msgid "<screeninfo>The Preview Button</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:180
+#, no-c-format
+msgid "<phrase>The Preview Button</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:185
+#, no-c-format
+msgid ""
+"When the preview is scanned the area for the final image can be selected."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:189
+#, no-c-format
+msgid "<screeninfo>Selection and zoom</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:195
+#, no-c-format
+msgid "<phrase>Selection and zoom</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:199
+#, no-c-format
+msgid ""
+"To better select the image the user can zoom in, out, to the current "
+"selection or zoom to fit the whole preview to the window."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:203
+#, no-c-format
+msgid "<screeninfo>The \"zoom to fit\" button</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:209
+#, no-c-format
+msgid "<phrase>The \"zoom to fit\" button</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:214
+#, no-c-format
+msgid ""
+"When the image is selected the final image can be acquired by pressing the "
+"final scan button."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:219
+#, no-c-format
+msgid "<screeninfo>The final scan button</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:225
+#, no-c-format
+msgid "<phrase>The final scan button</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:230
+#, no-c-format
+msgid "You will see the progress of the scan."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:234
+#, no-c-format
+msgid "<screeninfo>Scanning in progress</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:240
+#, no-c-format
+msgid "<phrase>Scanning in progress</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:245
+#, no-c-format
+msgid ""
+"If <guilabel>Preview before saving</guilabel> is selected in the settings, "
+"the scanned image is displayed in a preview window as you can see below on "
+"the screenshot. If <guibutton>Save</guibutton> is pressed, the image is "
+"saved and if <guibutton>Discard</guibutton> is pressed the preview is "
+"discarded and you return to the main window."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:249
+#, no-c-format
+msgid "<screeninfo>The Preview Window</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:255
+#, no-c-format
+msgid "<phrase>The Preview Window</phrase>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:262
+#, no-c-format
+msgid "Scanning Multiple Selections"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:263
+#, no-c-format
+msgid ""
+"Sometimes you need only certain parts of an image. Instead of scanning the "
+"whole picture and then using a graphics application (&eg; &kolourpaint;) to "
+"save the different image parts into separate files, use &skanlite;'s "
+"multiple selection feature."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:270
+#, no-c-format
+msgid "<screeninfo>Multiple Selections</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:276
+#, no-c-format
+msgid "<phrase>Multiple Selections</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:280
+#, no-c-format
+msgid ""
+"Scan a preview and then use the &LMB; to select the first part of the image "
+"in the preview. Hover the selected area with mouse cursor and click on the "
+"green <guiicon>+</guiicon> icon to select the area. Selected areas are "
+"indicated by a red border. Now select the next parts of the image in the "
+"same way."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:284
+#, no-c-format
+msgid ""
+"To remove a single selection hover the area with the mouse cursor and click "
+"on the red <guiicon>-</guiicon> icon. With <guilabel>Clear Selections</"
+"guilabel> from the context menu launched with the &RMB; all selections in a "
+"preview can be removed."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:288
+#, no-c-format
+msgid ""
+"If you placed two separate images or photos on you scanner and started a "
+"preview &skanlite; automatically preselect the different areas. This "
+"behaviour can be switched off in the settings dialog."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:291
+#, no-c-format
+msgid ""
+"If you are satisfied with your choice starting the final batch scan of all "
+"selections. The images are saved using the batch renaming feature described "
+"in the settings dialog."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:297
+#, no-c-format
+msgid "&skanlite; settings"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:298
+#, no-c-format
+msgid ""
+"By clicking the <guibutton>Settings</guibutton> button, the settings dialog "
+"is brought up before the main window. You can choose the most important "
+"settings here."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:303
+#, no-c-format
+msgid "Here's a screenshot of &skanlite; settings dialog"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:309
+#, no-c-format
+msgid "&skanlite; settings dialog"
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:316
+#, no-c-format
+msgid "Preview before saving:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:317
+#, no-c-format
+msgid ""
+"The user can chose to preview the image before saving. In this case the "
+"<guilabel>Preview before saving</guilabel> option can be left checked. If "
+"the user does not want to preview the image this option should then be "
+"unchecked."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:321
+#, no-c-format
+msgid "Save Mode:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:323
+#, no-c-format
+msgid ""
+"This setting allows you to choose how &skanlite; will save the images. If "
+"you choose <guilabel>Open the save dialog for every image</guilabel> the "
+"save dialog will be opened for every scanned image. If you prefer &skanlite; "
+"to auto-save (by auto-generating a name and saving the image in a predefined "
+"folder) you can choose <guilabel>Open the save dialog for the first image "
+"only</guilabel>. This option will open the following \"Save Location\" "
+"dialog for the first scanned image."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:326
+#, no-c-format
+msgid "Here's a screenshot of &skanlite; save location dialog"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:332
+#, no-c-format
+msgid "&skanlite; Save Location dialog."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:341
+#, no-c-format
+msgid "Save Location:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:342
+#, no-c-format
+msgid ""
+"This setting defines the default save location and file naming. The default "
+"save location is your home folder and you can change this location by "
+"clicking on the <guibutton>...</guibutton> button."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:348
+#, no-c-format
+msgid "Name Format:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:349
+#, no-c-format
+msgid ""
+"This parameter defines the image prefix for the auto-saved images and is "
+"also the suggested name for the image in the save dialog. The auto-saved "
+"image will have a numeric suffix (the ### will be replaced by numbers) that "
+"is increased every time an image is saved."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:350
+#, no-c-format
+msgid "You can also choose the save format of the file, default is png."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:355
+#, no-c-format
+msgid "Specify save quality:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:356
+#, no-c-format
+msgid ""
+"The user can chose to specify the image quality to be used for saving the "
+"images. The image quality setting affects the compression level used for "
+"saving. If <guilabel>Specify save quality</guilabel> is not checked, the "
+"quality is the default value chosen by &Qt;."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:361
+#, no-c-format
+msgid "Set preview resolution (DPI)"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:362
+#, no-c-format
+msgid ""
+"&skanlite; is using heuristics to try to get a sane resolution, but if that "
+"fails and the resolution is too high or low, then the preview resolution can "
+"be manually set with this option."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:368
+#, no-c-format
+msgid "Disable automatic selections"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:369
+#, no-c-format
+msgid ""
+"By default automatic selections are enabled; and after a preview, libksane "
+"does try to automatically select the images in the preview and should batch "
+"scan the selected areas. &eg; if you place two photos on the scanner and do "
+"a preview, &skanlite; will automatically add selections of the photos."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:374
+#, no-c-format
+msgid ""
+"If on the other hand you are usually scanning documents it might be that the "
+"automatic selection will select a lot of different parts in the documents "
+"and you have to manually remove the selections. To avoid that tick the "
+"checkbox and disable automatic selection."
+msgstr ""
+
+#. Tag: guilabel
+#: index.docbook:382
+#, no-c-format
+msgid "Revert scanner options to default values"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:383
+#, no-c-format
+msgid ""
+"The last used settings are reloaded on startup. If you have screwed up the "
+"options (for example if you have changed the color correction settings, "
+"available in some backends, without knowing what they mean), the image can "
+"start to look very odd. For that scenario this option provides a way to "
+"revert the setting to the default values, which are a combination of backend "
+"and libksane defaults."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:395
+#, no-c-format
+msgid "Help, About, Settings and Close"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:396
+#, no-c-format
+msgid ""
+"At the bottom of the main window you find the <guibutton>Help</guibutton>, "
+"<guibutton>About</guibutton>, <guibutton>Settings</guibutton> and "
+"<guibutton>Close</guibutton> buttons."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:400
+#, no-c-format
+msgid "<screeninfo>The Main Window Buttons</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:406
+#, no-c-format
+msgid "<phrase>The Main Window Buttons</phrase>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:411
+#, no-c-format
+msgid ""
+"The <guibutton>Help</guibutton> button brings up the &kde; Help center with "
+"the &skanlite; manual. The <guibutton>About</guibutton> button brings up the "
+"&kde; About dialog for &skanlite;. The <guibutton>Settings</guibutton> "
+"button displays the settings dialog and the <guibutton>Close</guibutton> "
+"button is used to exit &skanlite;."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:417
+#, no-c-format
+msgid "Credits and License"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:418
+#, no-c-format
+msgid "&skanlite;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:421
+#, no-c-format
+msgid ""
+"Program copyright 2007 Kåre Särs <email>kare dot sars at iki dot fi</email>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:424
+#, no-c-format
+msgid "Contributors:"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:427
+#, no-c-format
+msgid "Author: Kåre Särs <email>kare dot sars at iki dot fi</email>"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:432
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr ""
+
+#. Tag: chapter
+#: index.docbook:432
+#, no-c-format
+msgid "&underFDL;"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:435
+#, no-c-format
+msgid ""
+"&skanlite; is licensed under the GPL and the libksane library, used by "
+"&skanlite;, is licensed under the LGPL. Note: libsane is licensed under GPL "
+"with an exception."
+msgstr ""

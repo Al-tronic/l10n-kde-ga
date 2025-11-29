@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: index.docbook:8
+#, no-c-format
+msgid "SSL Versions and Certificates"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:11
+#, no-c-format
+msgid "<firstname>Subhashish</firstname> <surname>Pradhan</surname>"
+msgstr ""
+
+#. Tag: author
+#: index.docbook:12
+#, no-c-format
+msgid "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
+msgstr ""
+
+#. Tag: trans_comment
+#: index.docbook:13
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr ""
+
+#. Tag: date
+#: index.docbook:16
+#, no-c-format
+msgid "2015-04-09"
+msgstr ""
+
+#. Tag: releaseinfo
+#: index.docbook:17
+#, no-c-format
+msgid "Frameworks 5.9"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:20
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:21
+#, no-c-format
+msgid "Systemsettings"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:22
+#, no-c-format
+msgid "<keyword>SSL</keyword>"
+msgstr ""
+
+#. Tag: keyword
+#: index.docbook:23
+#, no-c-format
+msgid "certificates"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:28
+#, no-c-format
+msgid "Introduction"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:29
+#, no-c-format
+msgid ""
+"&kde; provides a list of all the X.509 certificates used by the system. They "
+"can be accessed in the <guilabel>SSL Preferences</guilabel> module in "
+"&systemsettings;."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:33
+#, no-c-format
+msgid ""
+"This module provides a categorized listing of all SSL versions and "
+"certificates. You can see the details of each of the certificates and add, "
+"delete, disable, or enable them."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:37
+#, no-c-format
+msgid ""
+"The certificates are categorized into <guilabel>System certificates</"
+"guilabel> and <guilabel>User-added certificates</guilabel>. The "
+"<guilabel>System certificates</guilabel> are further categorized by the "
+"organization that issued them."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:43
+#, no-c-format
+msgid "<screeninfo>The SSL Versions and Certificates module</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:46
+#, no-c-format
+msgid "<phrase>The SSL Versions and Certificates module</phrase>"
+msgstr ""
+
+#. Tag: title
+#: index.docbook:51
+#, no-c-format
+msgid "<title>Viewing the Details of a Certificate</title>"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:53
+#, no-c-format
+msgid ""
+"Select a certificate under a listed organization, and click on the "
+"<guibutton>Display...</guibutton> underneath the list to view the details of "
+"the certificate."
+msgstr ""
+
+#. Tag: screeninfo
+#: index.docbook:58
+#, no-c-format
+msgid "<screeninfo>Viewing the Details of a Certificate</screeninfo>"
+msgstr ""
+
+#. Tag: phrase
+#: index.docbook:61
+#, no-c-format
+msgid "The certificate details window."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:68
+#, no-c-format
+msgid "Enabling or Disabling a Certificate"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:70
+#, no-c-format
+msgid ""
+"First, select a certificate listed under an organization. Then, click the "
+"<guibutton>Enable</guibutton> button to enable the certificate, or click the "
+"<guibutton>Disable</guibutton> button to disable an enabled certificate."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid ""
+"Alternatively, you can enable or disable a certificate by selecting or "
+"clearing the check box before the certificate."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:78
+#, no-c-format
+msgid ""
+"You can enable or disable multiple certificates by selecting them while "
+"holding the &Ctrl; key and then clicking on the <guibutton>Enable</"
+"guibutton> or <guibutton>Disable</guibutton> button below the list."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:86
+#, no-c-format
+msgid "Adding a Certificate"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:89
+#, no-c-format
+msgid ""
+"First, click on the <guibutton>Add...</guibutton> button below the "
+"certificate list. It will open the file selector dialog allowing you to "
+"locate where the certificate files are stored. After locating the "
+"certificate file, select it and click on the <guibutton>Open</guibutton> "
+"button to add it."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:95
+#, no-c-format
+msgid ""
+"The certificates must be in one of the following formats: <acronym>DER</"
+"acronym>, <acronym>PEM</acronym>, or &Netscape;-encoded X.509 certificate."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:103
+#, no-c-format
+msgid "Removing a Certificate"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:105
+#, no-c-format
+msgid ""
+"Select the listed certificate that you want to remove, and click the "
+"<guibutton>Remove</guibutton> button to remove the certificate."
+msgstr ""
+
+#. Tag: para
+#: index.docbook:109
+#, no-c-format
+msgid "System certificates cannot be removed."
+msgstr ""
+
+#. Tag: title
+#: index.docbook:115
+#, no-c-format
+msgid "Thanks and Acknowledgments"
+msgstr ""
+
+#. Tag: para
+#: index.docbook:117
+#, no-c-format
+msgid ""
+"Special thanks to Google Code-In 2011 participant Subhashish Pradhan for "
+"writing this article."
+msgstr ""

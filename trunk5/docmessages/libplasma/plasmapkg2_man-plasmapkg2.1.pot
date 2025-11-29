@@ -1,0 +1,244 @@
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 09:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#: man-plasmapkg2.1.docbook:8
+#, no-c-format
+msgid "Plasma Package Manager"
+msgstr ""
+
+#. Tag: date
+#: man-plasmapkg2.1.docbook:9
+#, no-c-format
+msgid "2014-04-25"
+msgstr ""
+
+#. Tag: releaseinfo
+#: man-plasmapkg2.1.docbook:10
+#, no-c-format
+msgid "Frameworks 5.0"
+msgstr ""
+
+#. Tag: productname
+#: man-plasmapkg2.1.docbook:11
+#, no-c-format
+msgid "KDE Frameworks"
+msgstr ""
+
+#. Tag: manvolnum
+#: man-plasmapkg2.1.docbook:16
+#, no-c-format
+msgid "<manvolnum>1</manvolnum>"
+msgstr ""
+
+#. Tag: refpurpose
+#: man-plasmapkg2.1.docbook:21
+#, no-c-format
+msgid "Install, list, remove &plasma; packages"
+msgstr ""
+
+#. Tag: cmdsynopsis
+#: man-plasmapkg2.1.docbook:25
+#, no-c-format
+msgid ""
+"<command>plasmapkg2</command> <group choice=\"opt\"><option>--hash</option> "
+"<replaceable> path</replaceable></group> <group choice=\"opt\"><option>-g, --"
+"global</option></group> <group choice=\"opt\"><option>-t, --type</option> "
+"<replaceable> type</replaceable></group> <group choice=\"opt\"><option>-i, --"
+"install</option> <replaceable> path</replaceable></group> <group choice=\"opt"
+"\"><option>-s, --show</option> <replaceable> name</replaceable></group> "
+"<group choice=\"opt\"><option>-u, --upgrade</option> <replaceable> path</"
+"replaceable></group> <group choice=\"opt\"><option>-l, --list</option></"
+"group> <group choice=\"opt\"><option>--list-types</option></group> <group "
+"choice=\"opt\"><option>-r, --remove</option> <replaceable> name</"
+"replaceable></group> <group choice=\"opt\"><option>-p, --packageroot</"
+"option> <replaceable> path</replaceable></group>"
+msgstr ""
+
+#. Tag: title
+#: man-plasmapkg2.1.docbook:42
+#, no-c-format
+msgid "Description"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:43
+#, no-c-format
+msgid ""
+"<command>plasmapkg2</command> is a command line tool to install, list, "
+"remove &plasma; packages."
+msgstr ""
+
+#. Tag: title
+#: man-plasmapkg2.1.docbook:49
+#, no-c-format
+msgid "Options"
+msgstr ""
+
+#. Tag: term
+#: man-plasmapkg2.1.docbook:53
+#, no-c-format
+msgid "<option>--hash</option> <replaceable> path</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:54
+#, no-c-format
+msgid "Generate a SHA1 hash for the package at <quote>path</quote>."
+msgstr ""
+
+#. Tag: option
+#: man-plasmapkg2.1.docbook:57
+#, no-c-format
+msgid "-g, --global"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:58
+#, no-c-format
+msgid "For install or remove, operates on packages installed for all users."
+msgstr ""
+
+#. Tag: term
+#: man-plasmapkg2.1.docbook:61
+#, no-c-format
+msgid "<option>-t, --type</option> <replaceable> type</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:62
+#, no-c-format
+msgid ""
+"The type of package, &eg; theme, wallpaper, plasmoid, dataengine, runner, "
+"layout-template, &etc; [plasmoid]."
+msgstr ""
+
+#. Tag: term
+#: man-plasmapkg2.1.docbook:65
+#, no-c-format
+msgid "<option>-i, --install</option> <replaceable> path</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:66
+#, no-c-format
+msgid "Install the package at <quote>path</quote>."
+msgstr ""
+
+#. Tag: term
+#: man-plasmapkg2.1.docbook:69
+#, no-c-format
+msgid "<option>-s, --show</option> <replaceable> name</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:70
+#, no-c-format
+msgid "Show information of package <quote>name</quote>."
+msgstr ""
+
+#. Tag: term
+#: man-plasmapkg2.1.docbook:73
+#, no-c-format
+msgid "<option>-u, --upgrade</option> <replaceable> path</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:74
+#, no-c-format
+msgid "Upgrade the package at <quote>path</quote>."
+msgstr ""
+
+#. Tag: option
+#: man-plasmapkg2.1.docbook:77
+#, no-c-format
+msgid "-l, --list"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:78
+#, no-c-format
+msgid "List installed packages."
+msgstr ""
+
+#. Tag: option
+#: man-plasmapkg2.1.docbook:81
+#, no-c-format
+msgid "--list-types"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:82
+#, no-c-format
+msgid "Lists all known Package types that can be installed."
+msgstr ""
+
+#. Tag: term
+#: man-plasmapkg2.1.docbook:85
+#, no-c-format
+msgid "<option>-r, --remove</option> <replaceable> name</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:86
+#, no-c-format
+msgid "Remove the package named <quote>name</quote>."
+msgstr ""
+
+#. Tag: term
+#: man-plasmapkg2.1.docbook:89
+#, no-c-format
+msgid "<option>-p, --packageroot</option> <replaceable> path</replaceable>"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:90
+#, no-c-format
+msgid ""
+"Absolute path to the package root. If not supplied, then the standard data "
+"directories for this &plasma; session will be searched instead."
+msgstr ""
+
+#. Tag: title
+#: man-plasmapkg2.1.docbook:99
+#, no-c-format
+msgid "See Also"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:101
+#, no-c-format
+msgid ""
+"More detailed user documentation is available from <ulink url=\"help:/plasma-"
+"desktop\">help:/plasma-desktop</ulink> (either enter this &URL; into "
+"&konqueror;, or run <userinput><command>khelpcenter</command> "
+"<parameter>help:/plasma-desktop</parameter></userinput>)."
+msgstr ""
+
+#. Tag: title
+#: man-plasmapkg2.1.docbook:110
+#, no-c-format
+msgid "Authors"
+msgstr ""
+
+#. Tag: para
+#: man-plasmapkg2.1.docbook:111
+#, no-c-format
+msgid ""
+"<command>plasmapkg2</command> was written by <personname><firstname>Aaron</"
+"firstname><surname>Seigo</surname></personname> <email>aseigo@kde.org</"
+"email>."
+msgstr ""
