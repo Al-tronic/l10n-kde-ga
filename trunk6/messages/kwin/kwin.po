@@ -2,21 +2,22 @@
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # Séamus Ó Ciardhuáin <seoc@cnds.ucd.ie>, 2002
 # Kevin Scannell <kscanne@gmail.com>, 2009
+# SPDX-FileCopyrightText: 2025 Charlotte <altronic25@protonmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-12-12 00:44+0000\n"
-"PO-Revision-Date: 2004-12-03 14:52-0500\n"
-"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
-"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2025-12-13 14:05+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish Translation Team\n"
 "Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0beta1\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
-"3 : 4\n"
+"X-Generator: Lokalize 25.12.0\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : "
+"4\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -443,25 +444,25 @@ msgstr ""
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Shift"
-msgstr ""
+msgstr "Shift"
 
 #: debug_console.cpp:282
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Control"
-msgstr ""
+msgstr "Control"
 
 #: debug_console.cpp:286
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Alt"
-msgstr ""
+msgstr "Alt"
 
 #: debug_console.cpp:290
 #, kde-format
 msgctxt "A keyboard modifier"
 msgid "Meta"
-msgstr ""
+msgstr "Meta"
 
 #: debug_console.cpp:294
 #, kde-format
@@ -491,7 +492,7 @@ msgstr ""
 #, kde-format
 msgctxt "Key according to Qt"
 msgid "Qt::Key code"
-msgstr ""
+msgstr "Qt::Key cód"
 
 #: debug_console.cpp:310
 #, kde-format
@@ -503,7 +504,7 @@ msgstr ""
 #, kde-format
 msgctxt "The translated code interpreted as text"
 msgid "Utf8"
-msgstr ""
+msgstr "UTF-8"
 
 #: debug_console.cpp:312
 #, kde-format
@@ -842,7 +843,7 @@ msgstr ""
 #: debug_console.cpp:633 debug_console.cpp:650
 #, kde-format
 msgid "isFinger"
-msgstr ""
+msgstr "isFinger"
 
 #: debug_console.cpp:646
 #, kde-format
@@ -1053,10 +1054,10 @@ msgid "task"
 msgstr ""
 
 #: debug_console.cpp:1419
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Windows"
 msgid "X11 Windows"
-msgstr "Fuinneoga"
+msgstr "Fuinneoga X11"
 
 #: debug_console.cpp:1421
 #, kde-format
@@ -1261,7 +1262,7 @@ msgstr "PID an fheidhmchláir le marú"
 #: helpers/killer/killer.cpp:130
 #, kde-format
 msgid "pid"
-msgstr ""
+msgstr "pid"
 
 #: helpers/killer/killer.cpp:132
 #, kde-format
@@ -1344,11 +1345,11 @@ msgid ""
 msgstr ""
 
 #: helpers/killer/killer.cpp:202
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Terminate"
 msgctxt "@action:button Terminate app"
 msgid "&Terminate %1"
-msgstr "Stop"
+msgstr "&Stad %1"
 
 #: helpers/killer/killer.cpp:203
 #, kde-format
@@ -1404,10 +1405,10 @@ msgid "KDE window manager"
 msgstr "Bainisteoir fuinneog KDE"
 
 #: main.cpp:173
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "(c) 1999-2008, The KDE Developers"
 msgid "(c) 1999-2019, The KDE Developers"
-msgstr "© 1999-2008, Forbróirí KDE"
+msgstr "© 1999-2019, Forbróirí KDE"
 
 #: main.cpp:175
 #, kde-format
@@ -1450,10 +1451,10 @@ msgid "Vlad Zahorodnii"
 msgstr ""
 
 #: main.cpp:183
-#, fuzzy, kde-format
+#, kde-format
 #| msgid "Very Huge"
 msgid "Xaver Hugl"
-msgstr "Fíor-ollmhór"
+msgstr "Xaver Hugl"
 
 #: main.cpp:192
 #, kde-format
@@ -2218,11 +2219,11 @@ msgstr "Glan Marcanna Luiche"
 msgctxt "Suffix"
 msgid " pixel"
 msgid_plural " pixels"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
+msgstr[0] " phicteilín"
+msgstr[1] " phicteilín"
+msgstr[2] " phicteilín"
+msgstr[3] " picteilín"
+msgstr[4] " bpicteilín"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: plugins/mousemark/mousemark_config.ui:17
@@ -2835,7 +2836,7 @@ msgstr ""
 #: plugins/videowall/package/contents/ui/config.ui:32
 #, kde-format
 msgid "vlc, xv, vdpau, smplayer, dragon, xine, ffplay"
-msgstr ""
+msgstr "vlc, xv, vdpau, smplayer, dragon, xine, ffplay"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, kcfg_Whitelist)
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, kcfg_Blacklist)
@@ -3596,7 +3597,7 @@ msgstr "Dialóga:"
 #: shortcutdialog.ui:25
 #, kde-format
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: sm.cpp:421
 #, kde-format
