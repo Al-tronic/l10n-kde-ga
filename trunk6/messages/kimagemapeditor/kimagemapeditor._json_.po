@@ -1,0 +1,334 @@
+# Irish translation of desktop_kdewebdev
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdewebdev package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:00+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: kimagemapeditorpart.json.in
+msgctxt "Name"
+msgid "KImageMapEditor"
+msgstr "KImageMapEditor"
+
+#: kimagemapeditorpart.json.in
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "An HTML imagemap editor"
+msgctxt "Description"
+msgid "An HTML imagemap editor"
+msgstr "Eagarthóir mapaí íomhá HTML"
+
+#: kimagemapeditorpart.json.in
+msgctxt "Copyright"
+msgid "Copyright 2001-2003 Jan Schäfer"
+msgstr ""
+
+#: kimagemapeditorpart.json.in
+msgctxt "Authors Name"
+msgid "Jan Schäfer"
+msgstr ""
+
+#~ msgctxt "GenericName"
+#~ msgid "HTML Image Map Editor"
+#~ msgstr "Eagarthóir Mapaí Íomhá HTML"
+
+#~ msgctxt "Name"
+#~ msgid "KFileReplace"
+#~ msgstr "KFileReplace"
+
+#~ msgctxt "GenericName"
+#~ msgid "Search & Replace Tool"
+#~ msgstr "Uirlis Chuardaigh/Ionadaithe"
+
+#~ msgctxt "Comment"
+#~ msgid "A batch search and replace tool"
+#~ msgstr "Uirlis chuardaigh/ionadaithe"
+
+#~ msgctxt "GenericName"
+#~ msgid "File Replace View"
+#~ msgstr "Amharc Ionadaithe Comhad"
+
+#~ msgctxt "Name"
+#~ msgid "KLinkStatus"
+#~ msgstr "KLinkStatus"
+
+#~ msgctxt "GenericName"
+#~ msgid "Link Checker"
+#~ msgstr "Seiceálaí Nasc"
+
+#~ msgctxt "Name"
+#~ msgid "KLinkStatusPart"
+#~ msgstr "KLinkStatusPart"
+
+#~ msgctxt "Name"
+#~ msgid "Automation plugin"
+#~ msgstr "Breiseán uathoibrithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Allow configuration of automated tasks"
+#~ msgstr "Ceadaigh cumraíocht de thascanna uathoibrithe"
+
+#~ msgctxt "Name"
+#~ msgid "Scripting plugin"
+#~ msgstr "Breiseán scriptithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Allow execution of scripts"
+#~ msgstr "Ceadaigh scripteanna a rith"
+
+#~ msgctxt "GenericName"
+#~ msgid "Dynamic Dialog Editor"
+#~ msgstr "Eagarthóir Dinimiciúil Dialóg"
+
+#~ msgctxt "Name"
+#~ msgid "Kommander Editor"
+#~ msgstr "Eagarthóir Kommander"
+
+#~ msgctxt "Comment"
+#~ msgid "Dynamic Dialog Editor"
+#~ msgstr "Eagarthóir Dinimiciúil Dialóg"
+
+#~ msgctxt "Comment"
+#~ msgid "Executor for Kommander dialogs"
+#~ msgstr "Tionscnóir dialóg Kommander"
+
+#~ msgctxt "Name"
+#~ msgid "Kommander Executor"
+#~ msgstr "Tionscnóir Kommander"
+
+#~ msgctxt "Name"
+#~ msgid "Widgets"
+#~ msgstr "Giuirléidí"
+
+#~ msgctxt "Comment"
+#~ msgid "Kommander File"
+#~ msgstr "Comhad Kommander"
+
+#~ msgctxt "Name"
+#~ msgid "KXSLDbg"
+#~ msgstr "KXSLDbg"
+
+#~ msgctxt "GenericName"
+#~ msgid "XSLT Debugger"
+#~ msgstr "Dífhabhtóir XSLT"
+
+#~ msgctxt "Name"
+#~ msgid "KXsldbgPart"
+#~ msgstr "KXsldbgPart"
+
+#~ msgctxt "Name"
+#~ msgid "Configure KHTML Browser Part"
+#~ msgstr "Cumraigh Comhpháirt Brabhsálaí KHTML"
+
+#~ msgctxt "Name"
+#~ msgid "KDevCreateQuantaProject"
+#~ msgstr "KDevCreateQuantaProject"
+
+#~ msgctxt "GenericName"
+#~ msgid "CreateQuantaProject Plugin"
+#~ msgstr "Breiseán CreateQuantaProject"
+
+#~ msgctxt "Comment"
+#~ msgid "CreateQuantaProject Description"
+#~ msgstr "Cur Síos CreateQuantaProject"
+
+#~ msgctxt "Name"
+#~ msgid "KDevQuantaFilesTree"
+#~ msgstr "KDevQuantaFilesTree"
+
+#~ msgctxt "GenericName"
+#~ msgid "Quanta Files Tree Plugin"
+#~ msgstr "Breiseán Crainn Comhad Quanta"
+
+#~ msgctxt "Comment"
+#~ msgid "The Files Tree provides an interface to work with your filesystem"
+#~ msgstr ""
+#~ "Soláthraíonn an Crann Comhad comhéadan a oibríonn le do chóras comhad"
+
+#~ msgctxt "Name"
+#~ msgid "KXSLDbg Settings"
+#~ msgstr "Socruithe KXSLDbg"
+
+#~ msgctxt "GenericName"
+#~ msgid "KXSLDbg Plugin"
+#~ msgstr "Breiseán KXSLDbg"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure KXSLDbg Settings"
+#~ msgstr "Cumraigh Socruithe KXSLDbg"
+
+#~ msgctxt "Name"
+#~ msgid "KDevKXSLDbg"
+#~ msgstr "KDevKXSLDbg"
+
+#~ msgctxt "Comment"
+#~ msgid "Debug XSLT scripts using KXSLDbg"
+#~ msgstr "Dífhabhtaigh scripteanna XSLT le KXSLDbg"
+
+#~ msgctxt "Name"
+#~ msgid "KDevHTMLPreview"
+#~ msgstr "KDevHTMLPreview"
+
+#~ msgctxt "GenericName"
+#~ msgid "HTMLPreview Plugin"
+#~ msgstr "Breiseán HTMLPreview"
+
+#~ msgctxt "Comment"
+#~ msgid "HTMLPreview Description"
+#~ msgstr "Cur Síos HTMLPreview"
+
+#~ msgctxt "Name"
+#~ msgid "Quanta Project Importer"
+#~ msgstr "Iompórtálaí Tionscadal Quanta"
+
+#~ msgctxt "Comment"
+#~ msgid "Allow KDevelop to manage Quanta projects"
+#~ msgstr "Ceadaigh do KDevelop tionscadail Quanta a bhainistiú"
+
+#~ msgctxt "Name"
+#~ msgid "KDevProjectTree"
+#~ msgstr "KDevProjectTree"
+
+#~ msgctxt "GenericName"
+#~ msgid "ProjectTree Plugin"
+#~ msgstr "Breiseán ProjectTree"
+
+#~ msgctxt "Comment"
+#~ msgid "ProjectTree Description"
+#~ msgstr "Cur Síos ProjectTree"
+
+#~ msgctxt "Name"
+#~ msgid "KDevQuantaProject"
+#~ msgstr "KDevQuantaProject"
+
+#~ msgctxt "GenericName"
+#~ msgid "Quantaproject Plugin"
+#~ msgstr "Breiseán Quantaproject"
+
+#~ msgctxt "Comment"
+#~ msgid "QuantaProject Description"
+#~ msgstr "Cur Síos QuantaProject"
+
+#~ msgctxt "Name"
+#~ msgid "KDevStructureTree"
+#~ msgstr "KDevStructureTree"
+
+#~ msgctxt "GenericName"
+#~ msgid "Structure Tree Plugin"
+#~ msgstr "Breiseán Crainn Struchtúir"
+
+#~ msgctxt "Name"
+#~ msgid "KDevTagDialogs"
+#~ msgstr "KDevTagDialogs"
+
+#~ msgctxt "GenericName"
+#~ msgid "TagDialogs Plugin"
+#~ msgstr "Breiseán TagDialogs"
+
+#~ msgctxt "Comment"
+#~ msgid "TagDialogs Description"
+#~ msgstr "Cur Síos TagDialogs"
+
+#~ msgctxt "Name"
+#~ msgid "KDevTemplatesTree"
+#~ msgstr "KDevTemplatesTree"
+
+#~ msgctxt "GenericName"
+#~ msgid "TemplatesTree Plugin"
+#~ msgstr "Breiseán TemplatesTree"
+
+#~ msgctxt "Comment"
+#~ msgid "TemplatesTree Description"
+#~ msgstr "Cur Síos TemplatesTree"
+
+#~ msgctxt "Name"
+#~ msgid "Upload Profiles"
+#~ msgstr "Próifílí Uasluchtaithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure Upload Profiles"
+#~ msgstr "Cumraigh Próifílí Uasluchtaithe"
+
+#~ msgctxt "Name"
+#~ msgid "KDevUpload"
+#~ msgstr "KDevUpload"
+
+#~ msgctxt "GenericName"
+#~ msgid "Upload Plugin"
+#~ msgstr "Breiseán Uasluchtaithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Upload Projectfiles to remote server"
+#~ msgstr "Uasluchtaigh comhaid tionscadail go cianfhreastalaí"
+
+#~ msgctxt "Name"
+#~ msgid "User Toolbars setting"
+#~ msgstr "Socrú UserToolbars"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure User Toolbars"
+#~ msgstr "Cumraigh UserToolbars"
+
+#~ msgctxt "Name"
+#~ msgid "KDevUserToolbars"
+#~ msgstr "KDevUserToolbars"
+
+#~ msgctxt "GenericName"
+#~ msgid "UserToolbars Plugin"
+#~ msgstr "Breiseán UserToolbars"
+
+#~ msgctxt "Comment"
+#~ msgid "UserToolbars Description"
+#~ msgstr "Cur Síos UserToolbars"
+
+#~ msgctxt "Comment"
+#~ msgid "Quanta Core"
+#~ msgstr "Quanta Core"
+
+#~ msgctxt "Name"
+#~ msgid "KDevQuantaCore"
+#~ msgstr "KDevQuantaCore"
+
+#~ msgctxt "GenericName"
+#~ msgid "Quanta Core"
+#~ msgstr "Quanta Core"
+
+#~ msgctxt "Name"
+#~ msgid "KDevelop Project Interface"
+#~ msgstr "Comhéadan Tionscadail KDevelop"
+
+#~ msgctxt "GenericName"
+#~ msgid "IDE for Web Development"
+#~ msgstr "Timpeallacht Chomhtháite Forbartha le haghaidh Forbartha Gréasáin"
+
+#~ msgctxt "Name"
+#~ msgid "Quanta Plus"
+#~ msgstr "Quanta Plus"
+
+#~ msgctxt "Name"
+#~ msgid "DBGp"
+#~ msgstr "DBGp"
+
+#~ msgctxt "Comment"
+#~ msgid "DBGp debugger plugin, see http://xdebug.org"
+#~ msgstr "Breiseán dífhabhtóra DBGp, féach ar http://xdebug.org"
+
+#~ msgctxt "Name"
+#~ msgid "Gubed"
+#~ msgstr "Gubed"
+
+#~ msgctxt "Name"
+#~ msgid "Quanta Plus BE"
+#~ msgstr "Quanta Plus BE"

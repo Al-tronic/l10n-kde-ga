@@ -1,0 +1,3288 @@
+# translation of desktop_kdelibs.po to Irish
+# Copyright (C) 1999,2002,2003,2004, 2005 Free Software Foundation, Inc.
+# Sean V. Kelley <s_oceallaigh@yahoo.com>, 1999.
+# Séamus Ó Ciardhuáin <seoc (at) iolfree (dot) ie>, 2003,2004
+# Séamus Ó Ciardhuáin <seamus.ociardhuain (at) LIT (dot) ie>, 2005.
+# Kevin Scannell <kscanne@gmail.com>, 2009
+# SPDX-FileCopyrightText: 2025 Charlotte <altronic25@protonmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop_kdelibs\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:58+0000\n"
+"PO-Revision-Date: 2025-12-13 12:32+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish Translation Team\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 25.12.0\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : "
+"4\n"
+
+#: org.kde.kded6.desktop:4
+msgctxt "Name"
+msgid "KDED"
+msgstr "KDED"
+
+#~ msgctxt "Comment"
+#~ msgid "KDED Module"
+#~ msgstr "Modúl KDED"
+
+#~ msgctxt "Comment"
+#~ msgid "Instant Messenger with a D-Bus interface"
+#~ msgstr "Clár teachtaireachtaí meandaracha le comhéadan D-Bus"
+
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Instant Messenger"
+#~ msgstr "Clár teachtaireachtaí meandaracha"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "The instant messenger allows two-way chat between individuals and groups."
+#~ msgstr ""
+#~ "Is féidir comhrá déthreoch a dhéanamh idir daoine agus grúpaí leis an "
+#~ "gclár teachtaireachtaí meandaracha."
+
+#~ msgctxt "Comment"
+#~ msgid "Text-to-Speech Service with a D-Bus interface"
+#~ msgstr "Seirbhís Téacs-go-Caint le comhéadan D-Bus"
+
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Embedded Text Editor"
+#~ msgstr "Eagarthóir téacs leabaithe"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "The text editor service provides applications with a text viewer and "
+#~ "editor. KDE applications that provide text editing facilities should use "
+#~ "this service."
+#~ msgstr ""
+#~ "Cuirtear amharcán téacs agus eagarthóir ar fáil d'fheidhmchláir tríd an "
+#~ "tseirbhís eagarthóireachta téacs. Ba cheart d'fheidhmchláir KDE a "
+#~ "sholáthraíonn áiseanna eagarthóireachta an tseirbhís seo a úsáid."
+
+#~ msgctxt "Comment"
+#~ msgid "Embeddable Text Editor Component (with Doc/View Separation)"
+#~ msgstr ""
+#~ "Comhpháirt eagarthóireacht téacs inleabaithe (le deighilt idir cáipéis "
+#~ "agus amharc)"
+
+#~ msgctxt "Comment"
+#~ msgid "KTextEditor load/save filter/check plugin"
+#~ msgstr "Breiseán scagaire luchtú/sábháil KTextEditor"
+
+#~ msgctxt "Comment"
+#~ msgid "KTextEditor Plugin"
+#~ msgstr "Breiseán KTextEditor"
+
+#~ msgctxt "Comment"
+#~ msgid "Storage backend for KConfig"
+#~ msgstr "Inneall stórais KConfig"
+
+#~ msgctxt "Name"
+#~ msgid "Afar"
+#~ msgstr "Afárais"
+
+#~ msgctxt "Name"
+#~ msgid "Abkhazian"
+#~ msgstr "Abcáisis"
+
+#~ msgctxt "Name"
+#~ msgid "Avestan"
+#~ msgstr "Aivéistis"
+
+#~ msgctxt "Name"
+#~ msgid "Afrikaans"
+#~ msgstr "Afracáinis"
+
+#~ msgctxt "Name"
+#~ msgid "Amharic"
+#~ msgstr "Amáiris"
+
+#~ msgctxt "Name"
+#~ msgid "Arabic"
+#~ msgstr "Araibis"
+
+#~ msgctxt "Name"
+#~ msgid "Assamese"
+#~ msgstr "Asaimis"
+
+#~ msgctxt "Name"
+#~ msgid "Asturian"
+#~ msgstr "Astúiris"
+
+#~ msgctxt "Name"
+#~ msgid "Aymara"
+#~ msgstr "Adhmarais"
+
+#~ msgctxt "Name"
+#~ msgid "Azerbaijani"
+#~ msgstr "Asarbaiseáinis"
+
+#~ msgctxt "Name"
+#~ msgid "Bashkir"
+#~ msgstr "Baiscíris"
+
+#~ msgctxt "Name"
+#~ msgid "Belarusian"
+#~ msgstr "Bealarúisis"
+
+#~ msgctxt "Name"
+#~ msgid "Belarusian (Latin)"
+#~ msgstr "Bealarúisis (aibítir Laidineach)"
+
+#~ msgctxt "Name"
+#~ msgid "Bulgarian"
+#~ msgstr "Bulgáiris"
+
+#~ msgctxt "Name"
+#~ msgid "Bihari"
+#~ msgstr "Bihairis"
+
+#~ msgctxt "Name"
+#~ msgid "Bislama"
+#~ msgstr "Bioslamais"
+
+#~ msgctxt "Name"
+#~ msgid "Bengali"
+#~ msgstr "Beangáilis"
+
+#~ msgctxt "Name"
+#~ msgid "Bengali (India)"
+#~ msgstr "Beangáilis (An India)"
+
+#~ msgctxt "Name"
+#~ msgid "Tibetan"
+#~ msgstr "Tibéidis"
+
+#~ msgctxt "Name"
+#~ msgid "Breton"
+#~ msgstr "Briotáinis"
+
+#~ msgctxt "Name"
+#~ msgid "Bosnian"
+#~ msgstr "Boisnis"
+
+#~ msgctxt "Name"
+#~ msgid "Catalan"
+#~ msgstr "Catalóinis"
+
+#~ msgctxt "Name"
+#~ msgid "Catalan (Valencian)"
+#~ msgstr "Catalóinis (Vaileinsis)"
+
+#~ msgctxt "Name"
+#~ msgid "Chechen"
+#~ msgstr "Seisnis"
+
+#~ msgctxt "Name"
+#~ msgid "Chamorro"
+#~ msgstr "Seamóróis"
+
+#~ msgctxt "Name"
+#~ msgid "Corsican"
+#~ msgstr "Corsaicis"
+
+#~ msgctxt "Name"
+#~ msgid "Crimean Tatar"
+#~ msgstr "Tatairis na Crimé"
+
+#~ msgctxt "Name"
+#~ msgid "Czech"
+#~ msgstr "Seicis"
+
+#~ msgctxt "Name"
+#~ msgid "Kashubian"
+#~ msgstr "Caisiúibis"
+
+#~ msgctxt "Name"
+#~ msgid "Church Slavic"
+#~ msgstr "Slaivis Eaglaise"
+
+#~ msgctxt "Name"
+#~ msgid "Chuvash"
+#~ msgstr "Suvaisis"
+
+#~ msgctxt "Name"
+#~ msgid "Welsh"
+#~ msgstr "Breatnais"
+
+#~ msgctxt "Name"
+#~ msgid "Danish"
+#~ msgstr "Danmhairgis"
+
+#~ msgctxt "Name"
+#~ msgid "German"
+#~ msgstr "Gearmáinis"
+
+#~ msgctxt "Name"
+#~ msgid "Lower Sorbian"
+#~ msgstr "Sorbais Íochtarach"
+
+#~ msgctxt "Name"
+#~ msgid "Dzongkha"
+#~ msgstr "Dzongkha"
+
+#~ msgctxt "Name"
+#~ msgid "Greek"
+#~ msgstr "Gréigis"
+
+#~ msgctxt "Name"
+#~ msgid "English"
+#~ msgstr "Béarla"
+
+#~ msgctxt "Name"
+#~ msgid "British English"
+#~ msgstr "Béarla na Breataine"
+
+#~ msgctxt "Name"
+#~ msgid "American English"
+#~ msgstr "Béarla Mheiriceá"
+
+#~ msgctxt "Name"
+#~ msgid "Esperanto"
+#~ msgstr "Esperanto"
+
+#~ msgctxt "Name"
+#~ msgid "Spanish"
+#~ msgstr "Spáinnis"
+
+#~ msgctxt "Name"
+#~ msgid "Estonian"
+#~ msgstr "Eastóinis"
+
+#~ msgctxt "Name"
+#~ msgid "Basque"
+#~ msgstr "Bascais"
+
+#~ msgctxt "Name"
+#~ msgid "Farsi (Persian)"
+#~ msgstr "Fairsis (Peirsis)"
+
+#~ msgctxt "Name"
+#~ msgid "Finnish"
+#~ msgstr "Fionlainnis"
+
+#~ msgctxt "Name"
+#~ msgid "Fijian"
+#~ msgstr "Fidsis"
+
+#~ msgctxt "Name"
+#~ msgid "Faroese"
+#~ msgstr "Faróis"
+
+#~ msgctxt "Name"
+#~ msgid "French"
+#~ msgstr "Fraincis"
+
+#~ msgctxt "Name"
+#~ msgid "Frisian"
+#~ msgstr "Freaslainnis"
+
+#~ msgctxt "Name"
+#~ msgid "Irish Gaelic"
+#~ msgstr "Gaeilge"
+
+#~ msgctxt "Name"
+#~ msgid "Gaelic"
+#~ msgstr "Gàidhlig"
+
+#~ msgctxt "Name"
+#~ msgid "Galician"
+#~ msgstr "Gailísis"
+
+#~ msgctxt "Name"
+#~ msgid "Guarani"
+#~ msgstr "Guaráinis"
+
+#~ msgctxt "Name"
+#~ msgid "Gujarati"
+#~ msgstr "Gúisearáitis"
+
+#~ msgctxt "Name"
+#~ msgid "Manx"
+#~ msgstr "Manainnis"
+
+#~ msgctxt "Name"
+#~ msgid "Hausa"
+#~ msgstr "Hásais"
+
+#~ msgctxt "Name"
+#~ msgid "Hebrew"
+#~ msgstr "Eabhrais"
+
+#~ msgctxt "Name"
+#~ msgid "Hindi"
+#~ msgstr "Hiondúis"
+
+#~ msgctxt "Name"
+#~ msgid "Chhattisgarhi"
+#~ msgstr "Chaitisgharhís"
+
+#~ msgctxt "Name"
+#~ msgid "Hiri Motu"
+#~ msgstr "Hírí-Mótúis"
+
+#~ msgctxt "Name"
+#~ msgid "Croatian"
+#~ msgstr "Cróitis"
+
+#~ msgctxt "Name"
+#~ msgid "Upper Sorbian"
+#~ msgstr "Sorbais Uachtarach"
+
+#~ msgctxt "Name"
+#~ msgid "Hungarian"
+#~ msgstr "Ungáiris"
+
+#~ msgctxt "Name"
+#~ msgid "Armenian"
+#~ msgstr "Airméinis"
+
+#~ msgctxt "Name"
+#~ msgid "Herero"
+#~ msgstr "Heiréiróis"
+
+#~ msgctxt "Name"
+#~ msgid "Interlingua"
+#~ msgstr "Idirtheanga"
+
+#~ msgctxt "Name"
+#~ msgid "Indonesian"
+#~ msgstr "Indinéisis"
+
+#~ msgctxt "Name"
+#~ msgid "Interlingue"
+#~ msgstr "Idirtheanga iartharach"
+
+#~ msgctxt "Name"
+#~ msgid "Inupiaq"
+#~ msgstr "Iniúipiacais"
+
+#~ msgctxt "Name"
+#~ msgid "Ido"
+#~ msgstr "Ido"
+
+#~ msgctxt "Name"
+#~ msgid "Icelandic"
+#~ msgstr "Íoslainnis"
+
+#~ msgctxt "Name"
+#~ msgid "Italian"
+#~ msgstr "Iodáilis"
+
+#~ msgctxt "Name"
+#~ msgid "Inuktitut"
+#~ msgstr "Ionúitis"
+
+#~ msgctxt "Name"
+#~ msgid "Japanese"
+#~ msgstr "Seapáinis"
+
+#~ msgctxt "Name"
+#~ msgid "Javanese"
+#~ msgstr "Iávais"
+
+#~ msgctxt "Name"
+#~ msgid "Georgian"
+#~ msgstr "Seoirsis"
+
+#~ msgctxt "Name"
+#~ msgid "Kikuyu"
+#~ msgstr "Ciocúis"
+
+#~ msgctxt "Name"
+#~ msgid "Kazakh"
+#~ msgstr "Casaicis"
+
+#~ msgctxt "Name"
+#~ msgid "Kalaallisut"
+#~ msgstr "Graonlainnis"
+
+#~ msgctxt "Name"
+#~ msgid "Khmer"
+#~ msgstr "Ciméiris"
+
+#~ msgctxt "Name"
+#~ msgid "Kannada"
+#~ msgstr "Cannadais"
+
+#~ msgctxt "Name"
+#~ msgid "Korean"
+#~ msgstr "Cóiréis"
+
+#~ msgctxt "Name"
+#~ msgid "Kashmiri"
+#~ msgstr "Caismíris"
+
+#~ msgctxt "Name"
+#~ msgid "Kurdish"
+#~ msgstr "Coirdis"
+
+#~ msgctxt "Name"
+#~ msgid "Komi"
+#~ msgstr "Coimí"
+
+#~ msgctxt "Name"
+#~ msgid "Cornish"
+#~ msgstr "Coirnis"
+
+#~ msgctxt "Name"
+#~ msgid "Kirghiz"
+#~ msgstr "Cirgisis"
+
+#~ msgctxt "Name"
+#~ msgid "Latin"
+#~ msgstr "Laidin"
+
+#~ msgctxt "Name"
+#~ msgid "Luxembourgish"
+#~ msgstr "Lucsambuirgis"
+
+#~ msgctxt "Name"
+#~ msgid "Limburgan"
+#~ msgstr "Liombuirgis"
+
+#~ msgctxt "Name"
+#~ msgid "Lingala"
+#~ msgstr "Liongáilis"
+
+#~ msgctxt "Name"
+#~ msgid "Lao"
+#~ msgstr "Láóis"
+
+#~ msgctxt "Name"
+#~ msgid "Lithuanian"
+#~ msgstr "Liotuáinis"
+
+#~ msgctxt "Name"
+#~ msgid "Latvian"
+#~ msgstr "Laitvis"
+
+#~ msgctxt "Name"
+#~ msgid "Maithili"
+#~ msgstr "Maitilis"
+
+#~ msgctxt "Name"
+#~ msgid "Malagasy"
+#~ msgstr "Malagásais"
+
+#~ msgctxt "Name"
+#~ msgid "Marshallese"
+#~ msgstr "Marascailis"
+
+#~ msgctxt "Name"
+#~ msgid "Maori"
+#~ msgstr "Maorais"
+
+#~ msgctxt "Name"
+#~ msgid "Macedonian"
+#~ msgstr "Macadóinis"
+
+#~ msgctxt "Name"
+#~ msgid "Malayalam"
+#~ msgstr "Mailéalaimis"
+
+#~ msgctxt "Name"
+#~ msgid "Mongolian"
+#~ msgstr "Mongóilis"
+
+#~ msgctxt "Name"
+#~ msgid "Moldavian"
+#~ msgstr "Moldávais"
+
+#~ msgctxt "Name"
+#~ msgid "Marathi"
+#~ msgstr "Maraitis"
+
+#~ msgctxt "Name"
+#~ msgid "Malay"
+#~ msgstr "Malaeis"
+
+#~ msgctxt "Name"
+#~ msgid "Maltese"
+#~ msgstr "Máltais"
+
+#~ msgctxt "Name"
+#~ msgid "Burmese"
+#~ msgstr "Burmais"
+
+#~ msgctxt "Name"
+#~ msgid "Nauru"
+#~ msgstr "Nárúis"
+
+#~ msgctxt "Name"
+#~ msgid "Norwegian Bokmål"
+#~ msgstr "Ioruais (Bokmål)"
+
+#~ msgctxt "Name"
+#~ msgid "Ndebele, North"
+#~ msgstr "Ndebele Thuaidh"
+
+#~ msgctxt "Name"
+#~ msgid "Low Saxon"
+#~ msgstr "Sacsainis Íochtarach"
+
+#~ msgctxt "Name"
+#~ msgid "Nepali"
+#~ msgstr "Neipealais"
+
+#~ msgctxt "Name"
+#~ msgid "Ndonga"
+#~ msgstr "Ndongais"
+
+#~ msgctxt "Name"
+#~ msgid "Dutch"
+#~ msgstr "Ollainnis"
+
+#~ msgctxt "Name"
+#~ msgid "Norwegian Nynorsk"
+#~ msgstr "Ioruais (Nynorsk)"
+
+#~ msgctxt "Name"
+#~ msgid "Ndebele, South"
+#~ msgstr "Ndebele Theas"
+
+#~ msgctxt "Name"
+#~ msgid "Northern Sotho"
+#~ msgstr "Seipidis"
+
+#~ msgctxt "Name"
+#~ msgid "Navajo"
+#~ msgstr "Navachóis"
+
+#~ msgctxt "Name"
+#~ msgid "Chichewa"
+#~ msgstr "Siseivis"
+
+#~ msgctxt "Name"
+#~ msgid "Occitan"
+#~ msgstr "Ocatáinis"
+
+#~ msgctxt "Name"
+#~ msgid "Oromo"
+#~ msgstr "Oraimis"
+
+#~ msgctxt "Name"
+#~ msgid "Oriya"
+#~ msgstr "Oirísis"
+
+#~ msgctxt "Name"
+#~ msgid "Ossetian"
+#~ msgstr "Óiséitis"
+
+#~ msgctxt "Name"
+#~ msgid "Punjabi/Panjabi"
+#~ msgstr "Painseáibis"
+
+#~ msgctxt "Name"
+#~ msgid "Pali"
+#~ msgstr "Páilis"
+
+#~ msgctxt "Name"
+#~ msgid "Polish"
+#~ msgstr "Polainnis"
+
+#~ msgctxt "Name"
+#~ msgid "Pushto"
+#~ msgstr "Paistis"
+
+#~ msgctxt "Name"
+#~ msgid "Portuguese"
+#~ msgstr "Portaingéilis"
+
+#~ msgctxt "Name"
+#~ msgid "Brazilian Portuguese"
+#~ msgstr "Portaingéilis na Brasaíle"
+
+#~ msgctxt "Name"
+#~ msgid "Quechua"
+#~ msgstr "Ceatsuais"
+
+#~ msgctxt "Name"
+#~ msgid "Rundi"
+#~ msgstr "Rundais"
+
+#~ msgctxt "Name"
+#~ msgid "Romanian"
+#~ msgstr "Rómáinis"
+
+#~ msgctxt "Name"
+#~ msgid "Romany"
+#~ msgstr "Romainis"
+
+#~ msgctxt "Name"
+#~ msgid "Russian"
+#~ msgstr "Rúisis"
+
+#~ msgctxt "Name"
+#~ msgid "Kinyarwanda"
+#~ msgstr "Cinearuáindis"
+
+#~ msgctxt "Name"
+#~ msgid "Sanskrit"
+#~ msgstr "Sanscrait"
+
+#~ msgctxt "Name"
+#~ msgid "Sardinian"
+#~ msgstr "Sairdínis"
+
+#~ msgctxt "Name"
+#~ msgid "Sindhi"
+#~ msgstr "Sindis"
+
+#~ msgctxt "Name"
+#~ msgid "Northern Sami"
+#~ msgstr "Sáimis Thuaidh"
+
+#~ msgctxt "Name"
+#~ msgid "Sango"
+#~ msgstr "Sangóis"
+
+#~ msgctxt "Name"
+#~ msgid "Sinhala"
+#~ msgstr "Siolóinis"
+
+#~ msgctxt "Name"
+#~ msgid "Slovak"
+#~ msgstr "Slóvaicis"
+
+#~ msgctxt "Name"
+#~ msgid "Slovenian"
+#~ msgstr "Slóivéinis"
+
+#~ msgctxt "Name"
+#~ msgid "Samoan"
+#~ msgstr "Samóis"
+
+#~ msgctxt "Name"
+#~ msgid "Shona"
+#~ msgstr "Seoinis"
+
+#~ msgctxt "Name"
+#~ msgid "Somali"
+#~ msgstr "Somáilis"
+
+#~ msgctxt "Name"
+#~ msgid "Albanian"
+#~ msgstr "Albáinis"
+
+#~ msgctxt "Name"
+#~ msgid "Serbian"
+#~ msgstr "Seirbis"
+
+#~ msgctxt "Name"
+#~ msgid "Serbian Ijekavian"
+#~ msgstr "Seirbis Ijekavach"
+
+#~ msgctxt "Name"
+#~ msgid "Serbian Ijekavian Latin"
+#~ msgstr "Seirbis Ijekavach (aibítir Laidineach)"
+
+#~ msgctxt "Name"
+#~ msgid "Serbian Latin"
+#~ msgstr "Seirbis (aibítir Laidineach)"
+
+#~ msgctxt "Name"
+#~ msgid "Swati"
+#~ msgstr "Suaisis"
+
+#~ msgctxt "Name"
+#~ msgid "Sotho, Southern"
+#~ msgstr "Sótó Theas"
+
+#~ msgctxt "Name"
+#~ msgid "Sundanese"
+#~ msgstr "Sundais"
+
+#~ msgctxt "Name"
+#~ msgid "Swedish"
+#~ msgstr "Sualainnis"
+
+#~ msgctxt "Name"
+#~ msgid "Swahili"
+#~ msgstr "Svahaílis"
+
+#~ msgctxt "Name"
+#~ msgid "Tamil"
+#~ msgstr "Tamailis"
+
+#~ msgctxt "Name"
+#~ msgid "Telugu"
+#~ msgstr "Teileagúis"
+
+#~ msgctxt "Name"
+#~ msgid "Tajik"
+#~ msgstr "Táidsícis"
+
+#~ msgctxt "Name"
+#~ msgid "Thai"
+#~ msgstr "Téalainnis"
+
+#~ msgctxt "Name"
+#~ msgid "Tigrinya"
+#~ msgstr "Tigrínis"
+
+#~ msgctxt "Name"
+#~ msgid "Turkmen"
+#~ msgstr "Tuircméinis"
+
+#~ msgctxt "Name"
+#~ msgid "Tswana"
+#~ msgstr "Suáinis"
+
+#~ msgctxt "Name"
+#~ msgid "Tonga"
+#~ msgstr "Tongais"
+
+#~ msgctxt "Name"
+#~ msgid "Turkish"
+#~ msgstr "Tuircis"
+
+#~ msgctxt "Name"
+#~ msgid "Tsonga"
+#~ msgstr "Songais"
+
+#~ msgctxt "Name"
+#~ msgid "Tatar"
+#~ msgstr "Tatairis"
+
+#~ msgctxt "Name"
+#~ msgid "Twi"
+#~ msgstr "Tiuíais"
+
+#~ msgctxt "Name"
+#~ msgid "Tahitian"
+#~ msgstr "Taihítis"
+
+#~ msgctxt "Name"
+#~ msgid "Uyghur"
+#~ msgstr "Úígiúiris"
+
+#~ msgctxt "Name"
+#~ msgid "Ukrainian"
+#~ msgstr "Úcráinis"
+
+#~ msgctxt "Name"
+#~ msgid "Urdu"
+#~ msgstr "Urdais"
+
+#~ msgctxt "Name"
+#~ msgid "Uzbek"
+#~ msgstr "Úisbéicis"
+
+#~ msgctxt "Name"
+#~ msgid "Uzbek (Cyrillic)"
+#~ msgstr "Úisbéicis (Coireallach)"
+
+#~ msgctxt "Name"
+#~ msgid "Venda"
+#~ msgstr "Veindis"
+
+#~ msgctxt "Name"
+#~ msgid "Vietnamese"
+#~ msgstr "Vítneamais"
+
+#~ msgctxt "Name"
+#~ msgid "Volapük"
+#~ msgstr "Volapük"
+
+#~ msgctxt "Name"
+#~ msgid "Walloon"
+#~ msgstr "Vallúnais"
+
+#~ msgctxt "Name"
+#~ msgid "Wolof"
+#~ msgstr "Volaifis"
+
+#~ msgctxt "Name"
+#~ msgid "Xhosa"
+#~ msgstr "Cóisis"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Test Language"
+#~ msgstr "Teanga Thástála KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Yiddish"
+#~ msgstr "Giúdais"
+
+#~ msgctxt "Name"
+#~ msgid "Yoruba"
+#~ msgstr "Iarúibis"
+
+#~ msgctxt "Name"
+#~ msgid "Zhuang"
+#~ msgstr "Siuáingis"
+
+#~ msgctxt "Name"
+#~ msgid "Chinese"
+#~ msgstr "Sínis"
+
+#~ msgctxt "Name"
+#~ msgid "Chinese Simplified"
+#~ msgstr "Sínis Simplithe"
+
+#~ msgctxt "Name"
+#~ msgid "Chinese (Hong Kong)"
+#~ msgstr "Sínis (Hong Cong)"
+
+#~ msgctxt "Name"
+#~ msgid "Chinese Traditional"
+#~ msgstr "Sínis Thraidisiúnta"
+
+#~ msgctxt "Name"
+#~ msgid "Zulu"
+#~ msgstr "Súlúis"
+
+#~ msgctxt "Name"
+#~ msgid "US English"
+#~ msgstr "Béarla SAM"
+
+#~ msgctxt "Name"
+#~ msgid "SSL Certificate Policy"
+#~ msgstr "Polasaí Teastas SSL"
+
+#~ msgctxt "Comment"
+#~ msgid "Provides SSL certificate policy to applications"
+#~ msgstr "Soláthraíonn sé polasaí teastas SSL d'fheidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Plugin Information"
+#~ msgstr "Eolas Bhreiseán KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Sonnet Spell Client"
+#~ msgstr "Cliant Litrithe Sonnet"
+
+#~ msgctxt "Name"
+#~ msgid "KFileModule"
+#~ msgstr "KFileModule"
+
+#~ msgctxt "Comment"
+#~ msgid "The default KDE file module providing the standard file dialog"
+#~ msgstr ""
+#~ "Modúl réamhshocraithe comhad KDE a sholáthraíonn an gnáthdhialóg comhad"
+
+#~ msgctxt "Name"
+#~ msgid "Embedded Java Applet Viewer"
+#~ msgstr "Amharcán Feidhmchláiríní Java Inleabaithe"
+
+#~ msgctxt "Name"
+#~ msgid "KHTML Extension Adaptor"
+#~ msgstr "Cuibheoir Eisínteacht KHTML"
+
+#~ msgctxt "Comment"
+#~ msgid "Embeddable HTML viewing component"
+#~ msgstr "Comhpháirt inleabaithe amharctha HTML"
+
+#~ msgctxt "Name"
+#~ msgid "KHTML"
+#~ msgstr "KHTML"
+
+#~ msgctxt "Comment"
+#~ msgid "Embeddable Image Viewing Component"
+#~ msgstr "Comhpháirt inleabaithe amharctha íomhá"
+
+#~ msgctxt "Name"
+#~ msgid "Embeddable Image Viewer"
+#~ msgstr "Amharcán Íomhánna Inleabaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Embeddable Component for multipart/mixed"
+#~ msgstr "Comhpháirt Inleabaithe le haghaidh multipart/mixed"
+
+#~ msgctxt "Comment"
+#~ msgid "QImageIOHandler plugin"
+#~ msgstr "Breiseán QImageIOHandler"
+
+#~ msgctxt "Name"
+#~ msgid "Application"
+#~ msgstr "Feidhmchlár"
+
+#~ msgctxt "Description"
+#~ msgid "A kioslave for data URIs (rfc2397)"
+#~ msgstr "Sclábhaí KIO le haghaidh URLanna sonraí (rfc2397)"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Configuration Module"
+#~ msgstr "Modúl Cumraíochta KDE"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Configuration Initialization"
+#~ msgstr "Túsú Cumraíochta KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Data Tool"
+#~ msgstr "Uirlis Sonraí KDE"
+
+#~ msgctxt "Name"
+#~ msgid "filemodule"
+#~ msgstr "filemodule"
+
+#~ msgctxt "Comment"
+#~ msgid "KIO File Module"
+#~ msgstr "Modúl Comhaid KIO"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for the Properties Dialog"
+#~ msgstr "Breiseán don Dialóg Airíonna"
+
+#~ msgctxt "Name"
+#~ msgid "KFile Meta Data Plugin"
+#~ msgstr "Breiseán meiteashonraí do KFile"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for the KIO file item context menu"
+#~ msgstr "Breiseán le haghaidh roghchlár comhthéacs comhaid in KIO"
+
+#~ msgctxt "Comment"
+#~ msgid "KFileWrite plugin"
+#~ msgstr "Breiseán KFileWrite"
+
+#~ msgctxt "Name"
+#~ msgid "KScan"
+#~ msgstr "KScan"
+
+#~ msgctxt "Name"
+#~ msgid "SSL Preferences"
+#~ msgstr "Sainroghanna SSL"
+
+#~ msgctxt "Comment"
+#~ msgid "SSL Versions and Certificates"
+#~ msgstr "Leaganacha agus Teastais SSL"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "SSL,Security,Network,Protocol,Certificates,Encryption,HTTPS"
+#~ msgstr "SSL,Slándáil,Líonra,Prótacal,Teastais,Criptiú,HTTPS"
+
+#~ msgctxt "Name"
+#~ msgid "Enhanced Browsing Plugin"
+#~ msgstr "Breiseán le haghaidh Brabhsála Feabhsaithe"
+
+#~ msgctxt "Name"
+#~ msgid "KMailService"
+#~ msgstr "KMailService"
+
+#~ msgctxt "Name"
+#~ msgid "Network Proxy Configuration"
+#~ msgstr "Cumraíocht an tSeachfhreastalaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Automatic proxy configuration"
+#~ msgstr "Uathchumraíocht an tseachfhreastalaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Network Proxy Configuration"
+#~ msgstr "Cumraíocht an tSeachfhreastalaí"
+
+#~ msgctxt "Name"
+#~ msgid "Invalid Proxy Script"
+#~ msgstr "Script Neamhbhailí Seachfhreastalaí"
+
+#~ msgctxt "Comment"
+#~ msgid "The downloaded proxy configuration script is invalid"
+#~ msgstr ""
+#~ "Is neamhbhailí í script chumraíocht an tseachfhreastalaí a íosluchtaíodh"
+
+#~ msgctxt "Name"
+#~ msgid "Script Download Error"
+#~ msgstr "Earráid Íosluchtaithe Scripte"
+
+#~ msgctxt "Comment"
+#~ msgid "The proxy configuration script could not be downloaded"
+#~ msgstr "Níorbh fhéidir script chumraíochta an tseachfhreastalaí a íosluchtú"
+
+#~ msgctxt "Name"
+#~ msgid "Script Evaluation Error"
+#~ msgstr "Earráid agus Script á Luacháil"
+
+#~ msgctxt "Comment"
+#~ msgid "There was an error executing the proxy configuration script"
+#~ msgstr "Tharla earráid agus script chumraíocht an tseachfhreastalaí á rith"
+
+#~ msgctxt "Name"
+#~ msgid "KTelnetService"
+#~ msgstr "KTelnetService"
+
+#~ msgctxt "Description"
+#~ msgid "Microsoft Media Server Protocol"
+#~ msgstr "Prótacal Fhreastalaí Meán Microsoft"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for the Rename Dialog"
+#~ msgstr "Breiseán le haghaidh na dialóige athainmnithe"
+
+#~ msgctxt "Name"
+#~ msgid "HTTP Cache Cleaner"
+#~ msgstr "Glantóir Taisce HTTP"
+
+#~ msgctxt "Comment"
+#~ msgid "Cleans up old entries from the HTTP cache"
+#~ msgstr "Glanann seaniontrálacha ón taisce HTTP"
+
+#~ msgctxt "Name"
+#~ msgid "Cookie Jar"
+#~ msgstr "Crúiscín Fianán"
+
+#~ msgctxt "Comment"
+#~ msgid "Stores network cookies"
+#~ msgstr "Stórálann sé seo fianáin líonra"
+
+#~ msgctxt "Name"
+#~ msgid "Dummy Meta"
+#~ msgstr "Meitea Caoch"
+
+#~ msgctxt "Comment"
+#~ msgid "Test for Knotify"
+#~ msgstr "Tástáil Knotify"
+
+#~ msgctxt "Name"
+#~ msgid "Group"
+#~ msgstr "Grúpa"
+
+#~ msgctxt "Comment"
+#~ msgid "The group"
+#~ msgstr "An grúpa"
+
+#~ msgctxt "Name"
+#~ msgid "Online"
+#~ msgstr "Ar Líne"
+
+#~ msgctxt "Comment"
+#~ msgid "The contact is now connected"
+#~ msgstr "Tá an teagmháil ceangailte anois"
+
+#~ msgctxt "Name"
+#~ msgid "Message Received"
+#~ msgstr "Fuarthas Teachtaireacht"
+
+#~ msgctxt "Comment"
+#~ msgid "A Message has been received"
+#~ msgstr "Fuarthas teachtaireacht"
+
+#~ msgctxt "Name"
+#~ msgid "Browser View"
+#~ msgstr "Amharc Brabhsálaí"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Component"
+#~ msgstr "Comhpháirt KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Notepad (example)"
+#~ msgstr "Notepad (sampla)"
+
+#~ msgctxt "Name"
+#~ msgid "Adium Emoticons Theme"
+#~ msgstr "Téama Straoiseog Adium"
+
+#~ msgctxt "Comment"
+#~ msgid "Library to use Adium emoticons theme"
+#~ msgstr "Leabharlann le húsáid téama straoiseog Adium"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Emoticons Theme"
+#~ msgstr "Téama Straoiseog KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Library to use KDE emoticons theme"
+#~ msgstr "Leabharlann le húsáid téama straoiseog KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Pidgin Emoticons Theme"
+#~ msgstr "Téama Straoiseog Pidgin"
+
+#~ msgctxt "Comment"
+#~ msgid "Library to use Pidgin emoticons theme"
+#~ msgstr "Leabharlann le húsáid téama straoiseog Pidgin"
+
+#~ msgctxt "Name"
+#~ msgid "XMPP Emoticons Theme"
+#~ msgstr "Téama Straoiseog XMPP"
+
+#~ msgctxt "Comment"
+#~ msgid "Library to use XMPP emoticons theme"
+#~ msgstr "Leabharlann le húsáid téama straoiseog XMPP"
+
+#~ msgctxt "Name"
+#~ msgid "Collection"
+#~ msgstr "Bailiúchán"
+
+#~ msgctxt "Description"
+#~ msgid "A protocol for Plasma services"
+#~ msgstr "Prótacal le haghaidh seirbhísí Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma Animation Engine"
+#~ msgstr "Inneall Beochana Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma applet"
+#~ msgstr "Feidhmchláirín Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma scripting popup applet"
+#~ msgstr "Feidhmchláirín aníos scriptithe Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma ContainmentActions"
+#~ msgstr "Gníomhartha Coimeádán Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma applet container and background painter"
+#~ msgstr "Coimeádán feidhmchláiríní Plasma agus péintéir cúlra"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma Data Engine"
+#~ msgstr "Inneall Sonraí Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma package structure definition"
+#~ msgstr "Sainmhíniú ar struchtúr pacáiste Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "KRunner plugin"
+#~ msgstr "Breiseán KRunner"
+
+#~ msgctxt "Comment"
+#~ msgid "Scripting language extension for Plasma"
+#~ msgstr "Eisínteacht teanga scriptithe le haghaidh Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma service"
+#~ msgstr "Seirbhís Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma toolbox"
+#~ msgstr "Bosca uirlisí Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma wallpaper"
+#~ msgstr "Cúlbhrat Plasma"
+
+#~ msgctxt "Name"
+#~ msgid "Package metadata test file"
+#~ msgstr "Comhad tástála le haghaidh PackageMetaData"
+
+#~ msgctxt "Comment"
+#~ msgid "A test desktop file to test the PackageMetaData class."
+#~ msgstr ""
+#~ "Comhad tástála deisce a úsáidtear chun aicme PackageMetaData a thástáil."
+
+#~ msgctxt "Name"
+#~ msgid "Test"
+#~ msgstr "Tástáil"
+
+#~ msgctxt "Comment"
+#~ msgid "A dummy plugin for testing"
+#~ msgstr "Bréagbhreiseán le haghaidh tástála"
+
+#~ msgctxt "Name"
+#~ msgid "Test Data Engine"
+#~ msgstr "Inneall Sonraí Tástála"
+
+#~ msgctxt "Name"
+#~ msgid "Crypto"
+#~ msgstr "Crypto"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure SSL, manage certificates, and other cryptography settings"
+#~ msgstr ""
+#~ "Cumraigh SSL, bainistigh teastais, agus socruithe cripteagrafaíochta eile"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid ""
+#~ "Crypto,Krypto,Cryptography,encryption,SSL,https,certificates,ciphers,TLS,"
+#~ "secure,security"
+#~ msgstr ""
+#~ "Crypto,Krypto,cripteagrafaíocht,criptiú,SSL,https,teastais,sifir,TLS,"
+#~ "daingean,slándáil"
+
+#~ msgctxt "Comment"
+#~ msgid "Embeddable Personal Certificate Manager"
+#~ msgstr "Bainisteoir Teastas Pearsanta Inleabaithe"
+
+#~ msgctxt "Name"
+#~ msgid "KCertPart"
+#~ msgstr "KCertPart"
+
+#~ msgctxt "Name"
+#~ msgid "ASpell"
+#~ msgstr "ASpell"
+
+#~ msgctxt "Name"
+#~ msgid "Enchant"
+#~ msgstr "Enchant"
+
+#~ msgctxt "Name"
+#~ msgid "HSpell"
+#~ msgstr "HSpell"
+
+#~ msgctxt "Name"
+#~ msgid "Hunspell"
+#~ msgstr "Hunspell"
+
+#~ msgctxt "Name"
+#~ msgid "BMP"
+#~ msgstr "BMP"
+
+#~ msgctxt "Name"
+#~ msgid "DDS"
+#~ msgstr "DDS"
+
+#~ msgctxt "Name"
+#~ msgid "EPS"
+#~ msgstr "EPS"
+
+#~ msgctxt "Name"
+#~ msgid "EXR"
+#~ msgstr "EXR"
+
+#~ msgctxt "Name"
+#~ msgid "GIF"
+#~ msgstr "GIF"
+
+#~ msgctxt "Name"
+#~ msgid "HDR"
+#~ msgstr "HDR"
+
+#~ msgctxt "Name"
+#~ msgid "ICO"
+#~ msgstr "ICO"
+
+#~ msgctxt "Name"
+#~ msgid "JP2"
+#~ msgstr "JP2"
+
+#~ msgctxt "Name"
+#~ msgid "JPEG"
+#~ msgstr "JPEG"
+
+#~ msgctxt "Name"
+#~ msgid "MNG"
+#~ msgstr "MNG"
+
+#~ msgctxt "Name"
+#~ msgid "PBM"
+#~ msgstr "PBM"
+
+#~ msgctxt "Name"
+#~ msgid "PCX"
+#~ msgstr "PCX"
+
+#~ msgctxt "Name"
+#~ msgid "PGM"
+#~ msgstr "PGM"
+
+#~ msgctxt "Name"
+#~ msgid "PNG"
+#~ msgstr "PNG"
+
+#~ msgctxt "Name"
+#~ msgid "PNM"
+#~ msgstr "PNM"
+
+#~ msgctxt "Name"
+#~ msgid "PPM"
+#~ msgstr "PPM"
+
+#~ msgctxt "Name"
+#~ msgid "PSD"
+#~ msgstr "PSD"
+
+#~ msgctxt "Name"
+#~ msgid "RAS"
+#~ msgstr "RAS"
+
+#~ msgctxt "Name"
+#~ msgid "RGB"
+#~ msgstr "RGB"
+
+#~ msgctxt "Name"
+#~ msgid "TGA"
+#~ msgstr "TGA"
+
+#~ msgctxt "Name"
+#~ msgid "TIFF"
+#~ msgstr "TIFF"
+
+#~ msgctxt "Name"
+#~ msgid "XBM"
+#~ msgstr "XBM"
+
+#~ msgctxt "Name"
+#~ msgid "XCF"
+#~ msgstr "XCF"
+
+#~ msgctxt "Name"
+#~ msgid "XPM"
+#~ msgstr "XPM"
+
+#~ msgctxt "Name"
+#~ msgid "XV"
+#~ msgstr "XV"
+
+#~ msgctxt "Name"
+#~ msgid "Embedded Advanced Text Editor"
+#~ msgstr "Ard-eagarthóir téacs leabaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Autobookmarker"
+#~ msgstr "Leabharmharcálaí Uathoibríoch"
+
+#~ msgctxt "Comment"
+#~ msgid "Set bookmarks on lines matching a pattern when documents are loaded"
+#~ msgstr ""
+#~ "Cruthaigh leabharmharcanna ar línte atá comhoiriúnach do phatrún nuair a "
+#~ "luchtaítear cáipéisí"
+
+#~ msgctxt "Name"
+#~ msgid "AutoBrace Configuration"
+#~ msgstr "Cumraíocht AutoBrace"
+
+#~ msgctxt "Name"
+#~ msgid "AutoBrace"
+#~ msgstr "AutoBrace"
+
+#~ msgctxt "Comment"
+#~ msgid "Insert closing braces on pressing Enter"
+#~ msgstr "Ionsáigh lúibín deiridh nuair a bhrúitear Enter"
+
+#~ msgctxt "Name"
+#~ msgid "Exporter"
+#~ msgstr "Easpórtálaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Export highlighted document to HTML"
+#~ msgstr "Easpórtáil an cháipéis aibhsithe mar HTML"
+
+#~ msgctxt "Name"
+#~ msgid "Insert File"
+#~ msgstr "Ionsáigh Comhad"
+
+#~ msgctxt "Comment"
+#~ msgid "Insert any readable file at cursor position"
+#~ msgstr "Ionsáigh aon chomhad inléite ag an gcúrsóir"
+
+#~ msgctxt "Name"
+#~ msgid "Data Tools"
+#~ msgstr "Uirlisí Sonraí"
+
+#~ msgctxt "Comment"
+#~ msgid "Enable data tools like thesaurus and spell check (if installed)"
+#~ msgstr "Cumasaigh uirlisí mar litreoir agus foclóir (má tá siad ar fáil)"
+
+#~ msgctxt "Comment"
+#~ msgid "Select an icon and use it as a KIcon in your source-code"
+#~ msgstr "Roghnaigh deilbhín agus bain úsáid as mar KIcon i do chód foinseach"
+
+#~ msgctxt "Name"
+#~ msgid "IconInserter"
+#~ msgstr "IconInserter"
+
+#~ msgctxt "GenericName"
+#~ msgid "Insert Code for KIcon-Creation"
+#~ msgstr "Ionsáigh cód le haghaidh cruthaithe KIcon"
+
+#~ msgctxt "Name"
+#~ msgid "Insane (not ZEN) HTML coding (light edition)"
+#~ msgstr "Códú HTML Insane (seachas ZEN) (leagan éadrom)"
+
+#~ msgctxt "Comment"
+#~ msgid "A plugin, which does zen-coding like selector completion"
+#~ msgstr "Breiseán a dhéanann códú zen mar shampla comhlánú roghnóirí"
+
+#~ msgctxt "Name"
+#~ msgid "Python encoding checker/adder"
+#~ msgstr "Seiceálaí ionchódaithe Python"
+
+#~ msgctxt "Comment"
+#~ msgid "While saving check encoding of python files and add an encoding line"
+#~ msgstr ""
+#~ "Le linn sábhála, seiceáil ionchódú de chomhaid python agus cuir líne "
+#~ "ionchódaithe leo más gá"
+
+#~ msgctxt "Name"
+#~ msgid "Format of Time & Date insertion"
+#~ msgstr "Formáid Ionsáite Ama agus Dáta"
+
+#~ msgctxt "Name"
+#~ msgid "Time & Date"
+#~ msgstr "Am agus Dáta"
+
+#~ msgctxt "Comment"
+#~ msgid "Insert current Time & Date"
+#~ msgstr "Ionsáigh an tAm agus an Dáta reatha"
+
+#~ msgctxt "Name"
+#~ msgid "Save remote widgets policies"
+#~ msgstr "Sábháil polasaithe um giuirléidí cianda"
+
+#~ msgctxt "Description"
+#~ msgid "Prevents the system from saving plasma remote widgets policies"
+#~ msgstr "Ná lig don chóras polasaithe um giuirléidí cianda plasma a shábháil"
+
+#~ msgctxt "Name"
+#~ msgid "KSSL Daemon Module"
+#~ msgstr "Modúl Deamhain KSSL"
+
+#~ msgctxt "Comment"
+#~ msgid "KSSL daemon module for KDED"
+#~ msgstr "Modúl deamhain KSSL le haghaidh KDED"
+
+#~ msgctxt "Name"
+#~ msgid "Proxy Scout"
+#~ msgstr "Scabhta Seachfhreastalaithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Keeps track of all cookies in the system"
+#~ msgstr "Coimeád gach fianán ar an gcóras"
+
+#~ msgctxt "Name"
+#~ msgid "Valencian (southern Catalan)"
+#~ msgstr "Vaileinsis (Catalóinis an Deiscirt)"
+
+#~ msgctxt "Name"
+#~ msgid "Internal Extender Container"
+#~ msgstr "Gabhdán Sínteoirí Inmheánacha"
+
+#~ msgctxt "Comment"
+#~ msgid "Directional or popup-based completion from words in the document"
+#~ msgstr ""
+#~ "Comhlánú treoch, nó bunaithe ar phreabfhuinneoga, ó fhocail sa cháipéis"
+
+#~ msgctxt "Name"
+#~ msgid "Behavior"
+#~ msgstr "Oibriú"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Global Shortcuts Server"
+#~ msgstr "Freastalaí Aicearraí Comhchoiteanna KDED"
+
+#~ msgctxt "Name"
+#~ msgid "KWallet Daemon Module"
+#~ msgstr "Modúl Deamhain KWallet"
+
+#~ msgctxt "Comment"
+#~ msgid "KWallet daemon module for KDED"
+#~ msgstr "Modúl deamhain KWallet le haghaidh KDED"
+
+#~ msgctxt "Name"
+#~ msgid "Sound"
+#~ msgstr "Fuaim"
+
+#~ msgctxt "Comment"
+#~ msgid "Sound System Configuration"
+#~ msgstr "Cumraíocht an Chórais Fuaime"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Multimedia Backend"
+#~ msgstr "Inneall Ilmheán KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Phonon: KDE's Multimedia Library"
+#~ msgstr "Phonon: Leabharlann Ilmheán KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Audio Device Fallback"
+#~ msgstr "Gléas Tacachumais Fuaime"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Notification on automatic fallback if the preferred device is unavailable"
+#~ msgstr ""
+#~ "Fógairt maidir le gléas tacachumais nuair nach bhfuil do rogha gléis ar "
+#~ "fáil"
+
+#~ msgctxt "Name"
+#~ msgid "Fake"
+#~ msgstr "Bréag"
+
+#~ msgctxt "Comment"
+#~ msgid "Testing Backend"
+#~ msgstr "Inneall Tástála"
+
+#~ msgctxt "X-KDE-PluginInfo-Category"
+#~ msgid "Editor"
+#~ msgstr "Eagarthóir"
+
+#~ msgctxt "X-KDE-PluginInfo-Category"
+#~ msgid "Clients"
+#~ msgstr "Cliaint"
+
+#~ msgctxt "Keywords"
+#~ msgid ""
+#~ "Sound,Phonon,Audio,Video,Output,Device,Notification,Music,Communication,"
+#~ "Media,NMM,GStreamer,Xine"
+#~ msgstr ""
+#~ "Fuaim,Phonon,Fís,Aschur,Gléas,Fógairt,Ceol,Cumarsáid,Meáin,NMM,GStreamer,"
+#~ "Xine"
+
+#~ msgctxt "Name"
+#~ msgid "The Dublin Core Element Set"
+#~ msgstr "Eilimintí de chuid Dublin Core"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "The Dublin Core Element Set v1.1 namespace providing access to its "
+#~ "content by means of an RDF Schema"
+#~ msgstr ""
+#~ "Eilimintí de chuid Dublin Core (v1.1) in ainmspás atá ar fáil trí scéimre "
+#~ "RDF"
+
+#~ msgctxt "Name"
+#~ msgid "The Dublin Core Terms"
+#~ msgstr "Téarmaí de chuid Dublin Core"
+
+#~ msgctxt "Comment"
+#~ msgid "The Dublin Core Terms"
+#~ msgstr "Téarmaí de chuid Dublin Core"
+
+#~ msgctxt "Name"
+#~ msgid "The DCMI Types"
+#~ msgstr "Na Cineálacha DCMI"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "The Dublin Core Types namespace provides URIs for the entries of the DCMI "
+#~ "Type Vocabulary."
+#~ msgstr ""
+#~ "Soláthraíonn ainmspás na gcineálacha Dublin Core URIanna le haghaidh "
+#~ "iontrálacha sa Stór Cineálacha DCMI."
+
+#~ msgctxt "Name"
+#~ msgid "Nepomuk Annotation Ontology"
+#~ msgstr "Ointeolaíocht Anótála Nepomuk"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "The Nepomuk Annotation Ontology defines the basic annotation properties "
+#~ "like tagging or rating."
+#~ msgstr ""
+#~ "Sainmhíníonn Ointeolaíocht Anótála Nepomuk na bunairíonna anótála cosúil "
+#~ "le clibeáil nó rátáil."
+
+#~ msgctxt "Name"
+#~ msgid "Nepomuk File Ontology"
+#~ msgstr "Ointeolaíocht Comhad Nepomuk"
+
+#~ msgctxt "Comment"
+#~ msgid "The Nepomuk File Ontology defines basic file types"
+#~ msgstr "Sainmhíníonn Ointeolaíocht Comhad Nepomuk bunchineálacha comhaid"
+
+#~ msgctxt "Name"
+#~ msgid "Nepomuk Representation Language"
+#~ msgstr "Teanga Léirithe Nepomuk"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "NRL is a Representational Language that addresses certain limitations on "
+#~ "the part of RDF/S. It is itself designed on top of RDF. In particular it "
+#~ "includes support for Named Graphs for modularization of data. Although "
+#~ "being a widely-popular notion, named graphs have not been supported by "
+#~ "any Representational Language so far. It is also based on a view concept "
+#~ "for the tailoring of ontologies. This view concept turned out to be of "
+#~ "additional value, as it also provides a mechanism to impose different "
+#~ "semantics on the same syntactical structure."
+#~ msgstr ""
+#~ "Is teanga léiriúcháin é NRL a thugann aghaidh ar lochtanna áirithe i RDF/"
+#~ "S. Tá sé tógtha ar bharr RDF.  Go sonrach, tá tacaíocht do Ghraif "
+#~ "Ainmnithe ar fáil ann, le haghaidh modúlaithe sonraí.  Cé go bhfuil siad "
+#~ "i mbéal an phobail, ní raibh tacaíocht do Ghraif Ainmnithe ar fáil in aon "
+#~ "Teanga Léiriúcháin go dtí seo. Tá NRL bunaithe freisin ar \"choincheap "
+#~ "amhairc\" le haghaidh oiriúnú d'ointeolaíochtaí.  Ba bhreisluach ar an "
+#~ "gcoincheap amhairc seo, toisc go soláthraíonn sé meicníocht lenar féidir "
+#~ "séimeantaic dhifriúil a chur i bhfeidhm ar aon struchtúr comhréireach "
+#~ "amháin."
+
+#~ msgctxt "Name"
+#~ msgid "RDF"
+#~ msgstr "RDF"
+
+#~ msgctxt "Name"
+#~ msgid "RDF-Schema"
+#~ msgstr "RDF-Schema"
+
+#~ msgctxt "Comment"
+#~ msgid "A Test Module for KDED"
+#~ msgstr "Modúl Tástála le haghaidh KDED"
+
+#~ msgctxt "Comment"
+#~ msgid "Password caching support"
+#~ msgstr "Tacaíocht le taisce focal faire"
+
+#~ msgctxt "Comment"
+#~ msgid "CUPS (Common UNIX Print System)"
+#~ msgstr "CUPS (Common UNIX Print System)"
+
+#~ msgctxt "Comment"
+#~ msgid "Print Through an External Program (generic)"
+#~ msgstr "Priontáil trí chlár eachtrach (ginearálta)"
+
+#~ msgctxt "Comment"
+#~ msgid "Foomatic (CUPS, LPRng, PDQ)"
+#~ msgstr "Foomatic (CUPS, LPRng, PDQ)"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Print Daemon"
+#~ msgstr "Deamhan Priontála KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Print daemon for KDE"
+#~ msgstr "Deamhan priontála le haghaidh KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "LPR (Standard BSD print system)"
+#~ msgstr "LPR (Gnáthchóras priontála BSD)"
+
+#~ msgctxt "Comment"
+#~ msgid "Generic UNIX LPD Print System (default)"
+#~ msgstr "Córas priontála ginearálta LPD UNIX (réamhshocrú)"
+
+#~ msgctxt "Comment"
+#~ msgid "LPR/LPRng Print System"
+#~ msgstr "Córas Priontála LPR/LPRng"
+
+#~ msgctxt "Comment"
+#~ msgid "RLPR Environment (Remote LPD servers)"
+#~ msgstr "Timpeallach RLPR (Cianfhreastalaithe LPD)"
+
+#~ msgctxt "Name"
+#~ msgid "Print to File (PostScript)"
+#~ msgstr "Priontáil go Comhad (PostScript)"
+
+#~ msgctxt "Comment"
+#~ msgid "Local file"
+#~ msgstr "Comhad logánta"
+
+#~ msgctxt "Name"
+#~ msgid "Print to File (PDF)"
+#~ msgstr "Priontáil go Comhad (PDF)"
+
+#~ msgctxt "Description"
+#~ msgid "Write PDF/Acrobat file"
+#~ msgstr "Scríobh comhad PDF/Acrobat"
+
+#~ msgctxt "Name"
+#~ msgid "Send to Fax"
+#~ msgstr "Seol go Facs"
+
+#~ msgctxt "Description"
+#~ msgid "Send to external fax system"
+#~ msgstr "Seol go córas facs eachtrach"
+
+#~ msgctxt "Comment"
+#~ msgid "Attachment for KMail Composer"
+#~ msgstr "Iatán le haghaidh Cumadóra KMail"
+
+#~ msgctxt "Description"
+#~ msgid "Creates PDF/Acrobat file as attachment for KMail"
+#~ msgstr "Cruthaíonn comhad PDF/Acrobat mar iatán do KMail"
+
+#~ msgctxt "Name"
+#~ msgid "Mail PDF File"
+#~ msgstr "Seol Comhad PDF"
+
+#~ msgctxt "Comment"
+#~ msgid "KSendFax"
+#~ msgstr "KSendFax"
+
+#~ msgctxt "Description"
+#~ msgid "Use ksendfax to fax the current document"
+#~ msgstr "Úsáid ksendfax chun an cháipéis reatha a sheoladh mar fhacs"
+
+#~ msgctxt "Name"
+#~ msgid "Advanced Faxing Tool (ksendfax)"
+#~ msgstr "Uirlis Fhacsála (ksendfax)"
+
+#~ msgctxt "Name"
+#~ msgid "EPSON InkJet"
+#~ msgstr "Scairdphrintéir EPSON"
+
+#~ msgctxt "Name"
+#~ msgid "Phonon"
+#~ msgstr "Phonon"
+
+#~ msgctxt "Name"
+#~ msgid "Oxygen"
+#~ msgstr "Oxygen"
+
+#~ msgctxt "Comment"
+#~ msgid "A really cool style"
+#~ msgstr "Stíl ar fheabhas"
+
+#~ msgctxt "Name"
+#~ msgid "Plastik"
+#~ msgstr "Plastik"
+
+#~ msgctxt "Comment"
+#~ msgid "A simple and clean style"
+#~ msgstr "Stíl ghlan shimplí"
+
+#~ msgctxt "Name"
+#~ msgid "RISC OS"
+#~ msgstr "RISC OS"
+
+#~ msgctxt "Comment"
+#~ msgid "RISC OS-like theme"
+#~ msgstr "Téama cosúil le RISC OS"
+
+#~ msgctxt "Name"
+#~ msgid "B3/KDE"
+#~ msgstr "B3/KDE"
+
+#~ msgctxt "Name"
+#~ msgid "BeOS"
+#~ msgstr "BeOS"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Classic"
+#~ msgstr "KDE Clasaiceach"
+
+#~ msgctxt "Comment"
+#~ msgid "Classic KDE style"
+#~ msgstr "Stíl Chlasaiceach KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Keramik"
+#~ msgstr "Keramik"
+
+#~ msgctxt "Comment"
+#~ msgid "A style using alphablending"
+#~ msgstr "Stíl a úsáideann alfachumasc"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Step"
+#~ msgstr "KDE Step"
+
+#~ msgctxt "Comment"
+#~ msgid "Unthemed Next-like style"
+#~ msgstr "Stíl gan téama, cosúil le NeXT"
+
+#~ msgctxt "Name"
+#~ msgid "MegaGradient highcolor style"
+#~ msgstr "Stíl ard-datha MegaGradient"
+
+#~ msgctxt "Name"
+#~ msgid "CDE"
+#~ msgstr "CDE"
+
+#~ msgctxt "Name"
+#~ msgid "Motif"
+#~ msgstr "Motif"
+
+#~ msgctxt "Name"
+#~ msgid "Motif Plus"
+#~ msgstr "Motif Plus"
+
+#~ msgctxt "Name"
+#~ msgid "Platinum"
+#~ msgstr "Platinum"
+
+#~ msgctxt "Name"
+#~ msgid "SGI"
+#~ msgstr "SGI"
+
+#~ msgctxt "Comment"
+#~ msgid "Built-in SGI style"
+#~ msgstr "Stíl insuite SGI"
+
+#~ msgctxt "Name"
+#~ msgid "MS Windows 9x"
+#~ msgstr "MS Windows 9x"
+
+#~ msgctxt "Name"
+#~ msgid "Web style"
+#~ msgstr "Stíl Ghréasáin"
+
+#~ msgctxt "Comment"
+#~ msgid "Web widget style"
+#~ msgstr "Stíl ghiuirléidí Gréasáin"
+
+#~ msgctxt "Name"
+#~ msgid "KDE-HiColor"
+#~ msgstr "KDE-HiColor"
+
+#~ msgctxt "Comment"
+#~ msgid "Fallback icon theme"
+#~ msgstr "Téama tacachumais deilbhíní"
+
+#~ msgctxt "Comment"
+#~ msgid "Oxygen Team - 2006"
+#~ msgstr "Foireann Oxygen - 2006"
+
+#~ msgctxt "Name"
+#~ msgid "KTextEditor KDataTool Plugin"
+#~ msgstr "Breiseán KDataTool do KTextEditor"
+
+#~ msgctxt "Name"
+#~ msgid "enscript"
+#~ msgstr "enscript"
+
+#~ msgctxt "Comment"
+#~ msgid "Enscript Text Filter"
+#~ msgstr "Scagaire Téacs Enscript"
+
+#~ msgctxt "Name"
+#~ msgid "imagetops"
+#~ msgstr "imagetops"
+
+#~ msgctxt "Comment"
+#~ msgid "Generic Image to PS Filter"
+#~ msgstr "Scagaire ginearálta Íomhá go PS"
+
+#~ msgctxt "Name"
+#~ msgid "pdfwrite"
+#~ msgstr "pdfwrite"
+
+#~ msgctxt "Comment"
+#~ msgid "PDF Writer (needs Ghostscript)"
+#~ msgstr "Scríbhneoir PDF (Ghostscript de dhíth)"
+
+#~ msgctxt "Comment"
+#~ msgid "Poster Printing"
+#~ msgstr "Priontáil Postaera"
+
+#~ msgctxt "Name"
+#~ msgid "ps2pdf"
+#~ msgstr "ps2pdf"
+
+#~ msgctxt "Comment"
+#~ msgid "PostScript to PDF Converter"
+#~ msgstr "Tiontaire PostScript go PDF"
+
+#~ msgctxt "Name"
+#~ msgid "psbook"
+#~ msgstr "psbook"
+
+#~ msgctxt "Comment"
+#~ msgid "Pamphlet Printing (use with small side duplex printing)"
+#~ msgstr ""
+#~ "Priontáil Phaimfléid (úsáid le priontáil dhéphléacsach - taobh gearr)"
+
+#~ msgctxt "Name"
+#~ msgid "psbook1"
+#~ msgstr "psbook1"
+
+#~ msgctxt "Comment"
+#~ msgid "Pamphlet Printing - Even Pages (step 1)"
+#~ msgstr "Priontáil Phaimfléid - Leathanaigh Chothroma (céim 1)"
+
+#~ msgctxt "Name"
+#~ msgid "psbook2"
+#~ msgstr "psbook2"
+
+#~ msgctxt "Comment"
+#~ msgid "Pamphlet Printing - Odd Pages (step 2)"
+#~ msgstr "Priontáil Phaimfléid - Leathanaigh Chorra (céim 2)"
+
+#~ msgctxt "Name"
+#~ msgid "psnup"
+#~ msgstr "psnup"
+
+#~ msgctxt "Name"
+#~ msgid "psresize"
+#~ msgstr "psresize"
+
+#~ msgctxt "Name"
+#~ msgid "psselect"
+#~ msgstr "psselect"
+
+#~ msgctxt "Comment"
+#~ msgid "Page Selection/Ordering Filter"
+#~ msgstr "Scagaire chun leathanaigh a roghnú agus a chur in ord"
+
+#~ msgctxt "Name"
+#~ msgid "KNotify"
+#~ msgstr "KNotify"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Notification Daemon"
+#~ msgstr "Deamhan Fógartha KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "All Files and Folders"
+#~ msgstr "Gach Comhad agus Comhadlann"
+
+#~ msgctxt "Comment"
+#~ msgid "All Files"
+#~ msgstr "Gach Comhad"
+
+#~ msgctxt "Comment"
+#~ msgid "HTML Help Document"
+#~ msgstr "Cáipéis Chabhrach HTML"
+
+#~ msgctxt "Comment"
+#~ msgid "FITS Data"
+#~ msgstr "Sonraí FITS"
+
+#~ msgctxt "Comment"
+#~ msgid "Adobe Illustrator Document"
+#~ msgstr "Cáipéis Adobe Illustrator"
+
+#~ msgctxt "Comment"
+#~ msgid "Java Class"
+#~ msgstr "Aicme Java"
+
+#~ msgctxt "Comment"
+#~ msgid "MathML Document"
+#~ msgstr "Cáipéis MathML"
+
+#~ msgctxt "Comment"
+#~ msgid "MBOX Mail Folder"
+#~ msgstr "Comhadlann Ríomhphoist MBOX"
+
+#~ msgctxt "Comment"
+#~ msgid "Microsoft Excel Spreadsheet"
+#~ msgstr "Scarbhileog Microsoft Excel"
+
+#~ msgctxt "Comment"
+#~ msgid "Microsoft PowerPoint Presentation"
+#~ msgstr "Cáipéis Microsoft PowerPoint"
+
+#~ msgctxt "Comment"
+#~ msgid "Microsoft Word Document"
+#~ msgstr "Cáipéis Microsoft Word"
+
+#~ msgctxt "Comment"
+#~ msgid "Unknown"
+#~ msgstr "Anaithnid"
+
+#~ msgctxt "Comment"
+#~ msgid "Ogg Multimedia"
+#~ msgstr "Comhad ilmheánach Ogg"
+
+#~ msgctxt "Comment"
+#~ msgid "PDF Document"
+#~ msgstr "Cáipéis PDF"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenPGP Key Bundle"
+#~ msgstr "Cuach Eochrach OpenPGP"
+
+#~ msgctxt "Comment"
+#~ msgid "Detached OpenPGP Signature"
+#~ msgstr "Síniú OpenPGP Scartha"
+
+#~ msgctxt "Comment"
+#~ msgid "PGP Encrypted or Signed Message"
+#~ msgstr "Teachtaireacht criptithe nó sínithe le PGP"
+
+#~ msgctxt "Comment"
+#~ msgid "S/MIME Certification Request"
+#~ msgstr "Iarratas S/MIME ar Dheimhniú"
+
+#~ msgctxt "Comment"
+#~ msgid "PKCS#7 (S/MIME) Formatted Data"
+#~ msgstr "Sonraí i bhformáid PKCS#7 (S/MIME)"
+
+#~ msgctxt "Comment"
+#~ msgid "Detached S/MIME Signature"
+#~ msgstr "Síniú S/MIME Scartha"
+
+#~ msgctxt "Comment"
+#~ msgid "PostScript Document"
+#~ msgstr "Cáipéis PostScript"
+
+#~ msgctxt "Comment"
+#~ msgid "RELAX NG"
+#~ msgstr "RELAX NG"
+
+#~ msgctxt "Comment"
+#~ msgid "Synchronized Multimedia Integration Language"
+#~ msgstr "Synchronized Multimedia Integration Language (SMIL)"
+
+#~ msgctxt "Comment"
+#~ msgid "Mozilla XUL File"
+#~ msgstr "Comhad Mozilla XUL"
+
+#~ msgctxt "Comment"
+#~ msgid "ASF Media"
+#~ msgstr "Meán ASF"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Chart"
+#~ msgstr "Cairt OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Formula"
+#~ msgstr "Foirmle OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Graphics Template"
+#~ msgstr "Teimpléad Grafaice OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Graphics"
+#~ msgstr "Grafaic OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Image"
+#~ msgstr "Íomhá OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Presentation Template"
+#~ msgstr "Teimpléad Láithreoireachta OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Presentation"
+#~ msgstr "Láithreoireacht OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument SpreadSheet Template"
+#~ msgstr "Teimpléad Scarbhileoige OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument SpreadSheet"
+#~ msgstr "Scarbhileog OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Text Template"
+#~ msgstr "Teimpléad Téacs OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "OASIS OpenDocument Text"
+#~ msgstr "Téacs OpenDocument OASIS"
+
+#~ msgctxt "Comment"
+#~ msgid "Palm Document"
+#~ msgstr "Cáipéis Palm"
+
+#~ msgctxt "Comment"
+#~ msgid "RealMedia File"
+#~ msgstr "Comhad RealMedia"
+
+#~ msgctxt "Comment"
+#~ msgid "StarOffice Calc Spreadsheet"
+#~ msgstr "Scarbhileog StarOffice Calc"
+
+#~ msgctxt "Comment"
+#~ msgid "StarOffice Chart"
+#~ msgstr "Cairt StarOffice"
+
+#~ msgctxt "Comment"
+#~ msgid "StarOffice Drawing"
+#~ msgstr "Líníocht StarOffice"
+
+#~ msgctxt "Comment"
+#~ msgid "StarOffice Impress Presentation"
+#~ msgstr "Láithreoireacht StarOffice Impress"
+
+#~ msgctxt "Comment"
+#~ msgid "StarOffice Math Document"
+#~ msgstr "Cáipéis StarOffice Math"
+
+#~ msgctxt "Comment"
+#~ msgid "StarOffice Writer Master Document"
+#~ msgstr "Máistircháipéis StarOffice Writer"
+
+#~ msgctxt "Comment"
+#~ msgid "StarOffice Writer Document"
+#~ msgstr "Cáipéis StarOffice Writer"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenOffice.org Database"
+#~ msgstr "Bunachar Sonraí OpenOffice.org"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenOffice.org Spreadsheet"
+#~ msgstr "Scarbhileog OpenOffice.org"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenOffice.org Spreadsheet Template"
+#~ msgstr "Teimpléad Scarbhileoige OpenOffice.org"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenOffice.org Drawing"
+#~ msgstr "Líníocht OpenOffice.org"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenOffice.org Drawing Template"
+#~ msgstr "Teimpléad Líníochta OpenOffice.org"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenOffice.org Presentation"
+#~ msgstr "Láithreoireacht OpenOffice.org"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenOffice.org Presentation Template"
+#~ msgstr "Teimpléad Láithreoireachta OpenOffice.org"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenOffice.org Text Document"
+#~ msgstr "Cáipéis téacs OpenOffice.org"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenOffice.org Master Text Document"
+#~ msgstr "Máistircháipéis Téacs OpenOffice.org"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenOffice.org Text Document Template"
+#~ msgstr "Teimpléad Téacs OpenOffice.org"
+
+#~ msgctxt "Comment"
+#~ msgid "WordPerfect Document"
+#~ msgstr "Cáipéis WordPerfect"
+
+#~ msgctxt "Comment"
+#~ msgid "7-Zip Archive"
+#~ msgstr "Cartlann 7-Zip"
+
+#~ msgctxt "Comment"
+#~ msgid "AbiWord Document"
+#~ msgstr "Cáipéis AbiWord"
+
+#~ msgctxt "Comment"
+#~ msgid "ACE Archive"
+#~ msgstr "Cartlann ACE"
+
+#~ msgctxt "Comment"
+#~ msgid "PostScript Font Metrics"
+#~ msgstr "Meadarachtaí Cló PostScript"
+
+#~ msgctxt "Comment"
+#~ msgid "Lotus AmiPro Document"
+#~ msgstr "Cáipéis Lotus AmiPro"
+
+#~ msgctxt "Comment"
+#~ msgid "Applix Graphics Document"
+#~ msgstr "Cáipéis Applix Graphics"
+
+#~ msgctxt "Comment"
+#~ msgid "Applix Spreadsheets Document"
+#~ msgstr "Cáipéis Applix Spreadsheets"
+
+#~ msgctxt "Comment"
+#~ msgid "Applix Words Document"
+#~ msgstr "Cáipéis Applix Words"
+
+#~ msgctxt "Comment"
+#~ msgid "ARC Archive"
+#~ msgstr "Cartlann ARC"
+
+#~ msgctxt "Comment"
+#~ msgid "Ar Archive"
+#~ msgstr "Cartlann ar"
+
+#~ msgctxt "Comment"
+#~ msgid "ARJ Archive"
+#~ msgstr "Cartlann ARJ"
+
+#~ msgctxt "Comment"
+#~ msgid "AWK Script"
+#~ msgstr "Clár AWK"
+
+#~ msgctxt "Comment"
+#~ msgid "Bzip2 Compressed DVI File"
+#~ msgstr "Comhad DVI comhbhrúite le bzip2"
+
+#~ msgctxt "Comment"
+#~ msgid "Bzip File"
+#~ msgstr "Comhad bzip"
+
+#~ msgctxt "Comment"
+#~ msgid "Bzip2 File"
+#~ msgstr "Comhad bzip2"
+
+#~ msgctxt "Comment"
+#~ msgid "CD Audio"
+#~ msgstr "Fuaim Dhlúthdhiosca"
+
+#~ msgctxt "Comment"
+#~ msgid "UNIX Compressed File"
+#~ msgstr "Comhad comhbhrúite UNIX"
+
+#~ msgctxt "Comment"
+#~ msgid "Program Crash Data"
+#~ msgstr "Sonraí Tuairt Chláir"
+
+#~ msgctxt "Comment"
+#~ msgid "CPIO Archive"
+#~ msgstr "Cartlann cpio"
+
+#~ msgctxt "Comment"
+#~ msgid "dBASE Document"
+#~ msgstr "Cáipéis dBASE"
+
+#~ msgctxt "Comment"
+#~ msgid "Debian Package"
+#~ msgstr "Pacáiste Debian"
+
+#~ msgctxt "Comment"
+#~ msgid "Qt Designer File"
+#~ msgstr "Cáipéis Qt Designer"
+
+#~ msgctxt "Comment"
+#~ msgid "Desktop Config File"
+#~ msgstr "Comhad Cumraíochta Deisce"
+
+#~ msgctxt "Comment"
+#~ msgid "TeX Device Independent File"
+#~ msgstr "Comhad TeX Neamhspleách ó Ghléas"
+
+#~ msgctxt "Comment"
+#~ msgid "Egon Animator"
+#~ msgstr "Egon Animator"
+
+#~ msgctxt "Comment"
+#~ msgid "Script (possibly executable)"
+#~ msgstr "Script (b'fhéidir inrite)"
+
+#~ msgctxt "Comment"
+#~ msgid "Executable File"
+#~ msgstr "Comhad Inrite"
+
+#~ msgctxt "Comment"
+#~ msgid "BDF Bitmap Font"
+#~ msgstr "Cló BDF Giotánmhapach"
+
+#~ msgctxt "Comment"
+#~ msgid "Ghostscript Font"
+#~ msgstr "Cló Ghostscript"
+
+#~ msgctxt "Comment"
+#~ msgid "OpenType Font"
+#~ msgstr "Cló OpenType"
+
+#~ msgctxt "Comment"
+#~ msgid "PCF Bitmap Font"
+#~ msgstr "Cló PCF Giotánmhapach"
+
+#~ msgctxt "Comment"
+#~ msgid "SNF Bitmap Font"
+#~ msgstr "Cló SNF Giotánmhapach"
+
+#~ msgctxt "Comment"
+#~ msgid "Speedo Font"
+#~ msgstr "Cló Speedo"
+
+#~ msgctxt "Comment"
+#~ msgid "TrueType Font Collection"
+#~ msgstr "Bailiúchán Clónna TrueType"
+
+#~ msgctxt "Comment"
+#~ msgid "TrueType Font"
+#~ msgstr "Cló TrueType"
+
+#~ msgctxt "Comment"
+#~ msgid "PostScript Type1 Font"
+#~ msgstr "Cló PostScript Type1"
+
+#~ msgctxt "Comment"
+#~ msgid "GNU Gettext Message Catalog"
+#~ msgstr "Catalóg teachtaireachtaí GNU Gettext"
+
+#~ msgctxt "Comment"
+#~ msgid "GNUmeric Spreadsheet"
+#~ msgstr "Scarbhileog GNUmeric"
+
+#~ msgctxt "Comment"
+#~ msgid "Gzip Compressed DVI File"
+#~ msgstr "Comhad DVI comhbhrúite le gzip"
+
+#~ msgctxt "Comment"
+#~ msgid "Gzip File"
+#~ msgstr "Comhad gzip"
+
+#~ msgctxt "Comment"
+#~ msgid "Gzipped PostScript File"
+#~ msgstr "Comhad PostScript comhbhrúite le gzip"
+
+#~ msgctxt "Comment"
+#~ msgid "HancomWord Document"
+#~ msgstr "Cáipéis HancomWord"
+
+#~ msgctxt "Comment"
+#~ msgid "Citrix ICA Client Configuration"
+#~ msgstr "Cumraíocht Chliaint ICA Citrix"
+
+#~ msgctxt "Comment"
+#~ msgid "ISO9660 Image File"
+#~ msgstr "Comhad Íomhá ISO9660"
+
+#~ msgctxt "Comment"
+#~ msgid "Java Archive"
+#~ msgstr "Cartlann Java"
+
+#~ msgctxt "Comment"
+#~ msgid "Java Web Start application"
+#~ msgstr "Feidhmchlár Java Web Start"
+
+#~ msgctxt "Comment"
+#~ msgid "JavaScript File"
+#~ msgstr "Comhad JavaScript"
+
+#~ msgctxt "Comment"
+#~ msgid "Karbon14 Document"
+#~ msgstr "Cáipéis Karbon14"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Color Theme"
+#~ msgstr "Téama Dathanna de chuid KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Wallet File"
+#~ msgstr "Comhad KDE Wallet"
+
+#~ msgctxt "Comment"
+#~ msgid "KFormula Document"
+#~ msgstr "Cáipéis KFormula"
+
+#~ msgctxt "Comment"
+#~ msgid "Kivio Document"
+#~ msgstr "Cáipéis Kivio"
+
+#~ msgctxt "Comment"
+#~ msgid "Kontour Document"
+#~ msgstr "Cáipéis Kontour"
+
+#~ msgctxt "Comment"
+#~ msgid "KPovModeler File"
+#~ msgstr "Comhad KPovModeler"
+
+#~ msgctxt "Comment"
+#~ msgid "Krita Document"
+#~ msgstr "Cáipéis Krita"
+
+#~ msgctxt "Comment"
+#~ msgid "Kugar Report Template"
+#~ msgstr "Teimpléad tuarascála Kugar"
+
+#~ msgctxt "Comment"
+#~ msgid "Kugar Data File"
+#~ msgstr "Comhad sonraí Kugar"
+
+#~ msgctxt "Comment"
+#~ msgid "Lha Archive"
+#~ msgstr "Cartlann lha"
+
+#~ msgctxt "Comment"
+#~ msgid "Qt Translation Source File"
+#~ msgstr "Comhad Foinseach Aistriúchán Qt"
+
+#~ msgctxt "Comment"
+#~ msgid "LyX Document"
+#~ msgstr "Cáipéis LyX"
+
+#~ msgctxt "Comment"
+#~ msgid "Lzopped File"
+#~ msgstr "Comhad comhbhrúite le lzop"
+
+#~ msgctxt "Comment"
+#~ msgid "MagicPoint Presentation"
+#~ msgstr "Láithreán MagicPoint"
+
+#~ msgctxt "Comment"
+#~ msgid "Mime Encapsulated Web Archive"
+#~ msgstr "Cartlann Ghréasáin cuachta mar MIME"
+
+#~ msgctxt "Comment"
+#~ msgid "Microsoft Access Database"
+#~ msgstr "Bunachar Sonraí Microsoft Access"
+
+#~ msgctxt "Comment"
+#~ msgid "Windows Executable"
+#~ msgstr "Comhad inrite Windows"
+
+#~ msgctxt "Comment"
+#~ msgid "Microsoft Write Document"
+#~ msgstr "Cáipéis Microsoft Write"
+
+#~ msgctxt "Comment"
+#~ msgid "Object Code"
+#~ msgstr "Cód Oibiachta"
+
+#~ msgctxt "Comment"
+#~ msgid "PAK File Archive"
+#~ msgstr "Cartlann Chomhad PAK"
+
+#~ msgctxt "Comment"
+#~ msgid "Perl Module"
+#~ msgstr "Modúl Perl"
+
+#~ msgctxt "Comment"
+#~ msgid "Perl Program"
+#~ msgstr "Clár Perl"
+
+#~ msgctxt "Comment"
+#~ msgid "PHP Script"
+#~ msgstr "Script PHP"
+
+#~ msgctxt "Comment"
+#~ msgid "Pathetic Writer Document"
+#~ msgstr "Cáipéis Pathetic Writer"
+
+#~ msgctxt "Comment"
+#~ msgid "Python Bytecode"
+#~ msgstr "Beartchód Python"
+
+#~ msgctxt "Comment"
+#~ msgid "Python Program"
+#~ msgstr "Clár Python"
+
+#~ msgctxt "Comment"
+#~ msgid "Quattro Pro Document"
+#~ msgstr "Cáipéis Quattro Pro"
+
+#~ msgctxt "Comment"
+#~ msgid "Rar Archive"
+#~ msgstr "Cartlann rar"
+
+#~ msgctxt "Comment"
+#~ msgid "RPM Package File"
+#~ msgstr "Comhad RPM"
+
+#~ msgctxt "Comment"
+#~ msgid "Ruby Program"
+#~ msgstr "Clár Ruby"
+
+#~ msgctxt "Comment"
+#~ msgid "Shared Library"
+#~ msgstr "Leabharlann Roinnte"
+
+#~ msgctxt "Comment"
+#~ msgid "Shell Script"
+#~ msgstr "Clár Blaoisce"
+
+#~ msgctxt "Comment"
+#~ msgid "Shockwave Flash Media"
+#~ msgstr "Shockwave Flash Media"
+
+#~ msgctxt "Comment"
+#~ msgid "Siag Spreadsheet"
+#~ msgstr "Scarbhileog Siag"
+
+#~ msgctxt "Comment"
+#~ msgid "SQLite2 Database File"
+#~ msgstr "Comhad Bunachair Shonraí SQLite2"
+
+#~ msgctxt "Comment"
+#~ msgid "SQLite3 Database File"
+#~ msgstr "Comhad Bunachair Shonraí SQLite3"
+
+#~ msgctxt "Comment"
+#~ msgid "Tar Archive"
+#~ msgstr "Cartlann tar"
+
+#~ msgctxt "Comment"
+#~ msgid "Compressed Tar Archive"
+#~ msgstr "Cartlann tar comhbhrúite"
+
+#~ msgctxt "Comment"
+#~ msgid "Bzip2-ed Tar Archive"
+#~ msgstr "Cartlann tar comhbhrúite le bzip2"
+
+#~ msgctxt "Comment"
+#~ msgid "Generic Font"
+#~ msgstr "Cló Cineálach"
+
+#~ msgctxt "Comment"
+#~ msgid "Packed Font"
+#~ msgstr "Cló Pacáilte"
+
+#~ msgctxt "Comment"
+#~ msgid "TGIF Document"
+#~ msgstr "Cáipéis TGIF"
+
+#~ msgctxt "Comment"
+#~ msgid "Gzipped Tar Archive"
+#~ msgstr "Cartlann tar comhbhrúite le gzip"
+
+#~ msgctxt "Comment"
+#~ msgid "Backup File"
+#~ msgstr "Comhad Chúltaca"
+
+#~ msgctxt "Comment"
+#~ msgid "Troff Document with Manpage Macros"
+#~ msgstr "Cáipéis Troff le Macraí \"man\""
+
+#~ msgctxt "Comment"
+#~ msgid "Troff Document"
+#~ msgstr " Cáipéis troff"
+
+#~ msgctxt "Comment"
+#~ msgid "Lzopped Tar Archive"
+#~ msgstr "Cartlann tar comhbhrúite le lzop"
+
+#~ msgctxt "Comment"
+#~ msgid "Kexi Project File"
+#~ msgstr "Comhad tionscadail Kexi"
+
+#~ msgctxt "Comment"
+#~ msgid "KPlato Project Management Document"
+#~ msgstr "Cáipéis Bhainisteoireachta Tionscadail KPlato"
+
+#~ msgctxt "Comment"
+#~ msgid "Kugar Archive File"
+#~ msgstr "Comhad Cartlainne Kugar"
+
+#~ msgctxt "Comment"
+#~ msgid "Web Archive"
+#~ msgstr "Cartlann Lín"
+
+#~ msgctxt "Comment"
+#~ msgid "DER, PEM, or Netscape Encoded X.509 Certificate"
+#~ msgstr "Teastas X.509 ionchódaithe de réir DER, PEM, nó Netscape"
+
+#~ msgctxt "Comment"
+#~ msgid "XLIFF Translation File"
+#~ msgstr "Comhad Aistriúcháin XLIFF"
+
+#~ msgctxt "Comment"
+#~ msgid "Empty Document"
+#~ msgstr "Cáipéis Fholamh"
+
+#~ msgctxt "Comment"
+#~ msgid "Zip Archive"
+#~ msgstr "Cartlann zip"
+
+#~ msgctxt "Comment"
+#~ msgid "Zoo Archive"
+#~ msgstr "Cartlann zoo"
+
+#~ msgctxt "Comment"
+#~ msgid "XHTML Family Document"
+#~ msgstr "Cáipéis XHTML"
+
+#~ msgctxt "Comment"
+#~ msgid "XML DTD Document"
+#~ msgstr "Cáipéis XML DTD"
+
+#~ msgctxt "Comment"
+#~ msgid "XML Document"
+#~ msgstr "Cáipéis XML"
+
+#~ msgctxt "Comment"
+#~ msgid "W3C XML Schema"
+#~ msgstr "Scéimre W3C XML"
+
+#~ msgctxt "Comment"
+#~ msgid "Dolby AC3 Sound"
+#~ msgstr "Fuaim Dolby AC3"
+
+#~ msgctxt "Comment"
+#~ msgid "ULAW (Sun) Audio"
+#~ msgstr "Fuaim ULAW (Sun)"
+
+#~ msgctxt "Comment"
+#~ msgid "MPEG-4 Audio"
+#~ msgstr "Fuaim MPEG-4"
+
+#~ msgctxt "Comment"
+#~ msgid "MPEG Audio"
+#~ msgstr "Fuaim MPEG"
+
+#~ msgctxt "Comment"
+#~ msgid "C64 SID Music"
+#~ msgstr "Ceol SID C64"
+
+#~ msgctxt "Comment"
+#~ msgid "RealAudio File"
+#~ msgstr "Comhad RealAudio"
+
+#~ msgctxt "Comment"
+#~ msgid "Ogg Vorbis Audio"
+#~ msgstr "Fuaim Ogg Vorbis"
+
+#~ msgctxt "Comment"
+#~ msgid "PCM Audio"
+#~ msgstr "Fuaim PCM"
+
+#~ msgctxt "Comment"
+#~ msgid "AIFF/Amiga Audio"
+#~ msgstr "Fuaim AIFF/Amiga"
+
+#~ msgctxt "Comment"
+#~ msgid "FLAC Audio"
+#~ msgstr "Fuaim FLAC"
+
+#~ msgctxt "Comment"
+#~ msgid "Matroska Audio"
+#~ msgstr "Fuaim Matroska"
+
+#~ msgctxt "Comment"
+#~ msgid "MIDI Audio"
+#~ msgstr "Fuaim MIDI"
+
+#~ msgctxt "Comment"
+#~ msgid "Amiga Soundtracker Audio"
+#~ msgstr "Fuaim Amiga Soundtracker"
+
+#~ msgctxt "Comment"
+#~ msgid "MPEG Layer 3 Audio"
+#~ msgstr "Fuaim MPEG Layer 3"
+
+#~ msgctxt "Comment"
+#~ msgid "Windows Media Audio"
+#~ msgstr "Fuaim Windows Media"
+
+#~ msgctxt "Comment"
+#~ msgid "Musepack Audio"
+#~ msgstr "Fuaim Musepack"
+
+#~ msgctxt "Comment"
+#~ msgid "Ogg FLAC Audio"
+#~ msgstr "Fuaim Ogg FLAC"
+
+#~ msgctxt "Comment"
+#~ msgid "MP3 ShoutCast Playlist"
+#~ msgstr "Seinmliosta MP3 ShoutCast"
+
+#~ msgctxt "Comment"
+#~ msgid "Speex Audio"
+#~ msgstr "Fuaim Speex"
+
+#~ msgctxt "Comment"
+#~ msgid "WAV Audio"
+#~ msgstr "Fuaim WAV"
+
+#~ msgctxt "Comment"
+#~ msgid "Computer Graphics Metafile"
+#~ msgstr "Computer Graphics Metafile (CGM)"
+
+#~ msgctxt "Comment"
+#~ msgid "CCITT G3 Fax"
+#~ msgstr "Facs CCITT G3"
+
+#~ msgctxt "Comment"
+#~ msgid "FITS Image"
+#~ msgstr "Íomhá FITS"
+
+#~ msgctxt "Comment"
+#~ msgid "GIF Image"
+#~ msgstr "Íomhá GIF"
+
+#~ msgctxt "Comment"
+#~ msgid "JPEG 2000 Image"
+#~ msgstr "Íomhá JPEG 2000"
+
+#~ msgctxt "Comment"
+#~ msgid "JPEG Image"
+#~ msgstr "Íomhá JPEG"
+
+#~ msgctxt "Comment"
+#~ msgid "PNG Image"
+#~ msgstr "Íomhá PNG"
+
+#~ msgctxt "Comment"
+#~ msgid "Scalable Vector Graphics"
+#~ msgstr "Scalable Vector Graphics (SVG)"
+
+#~ msgctxt "Comment"
+#~ msgid "TIFF Image"
+#~ msgstr "Íomhá TIFF"
+
+#~ msgctxt "Comment"
+#~ msgid "BMP Image"
+#~ msgstr "Íomhá BMP"
+
+#~ msgctxt "Comment"
+#~ msgid "DirectDraw Surface"
+#~ msgstr "DirectDraw Surface"
+
+#~ msgctxt "Comment"
+#~ msgid "DjVu Document"
+#~ msgstr "Cáipéis DjVu"
+
+#~ msgctxt "Comment"
+#~ msgid "Encapsulated PostScript Image"
+#~ msgstr "Íomhá \"Encapsulated PostScript\" (EPS)"
+
+#~ msgctxt "Comment"
+#~ msgid "ILM EXR Image"
+#~ msgstr "Íomhá ILM EXR"
+
+#~ msgctxt "Comment"
+#~ msgid "Windows Icon"
+#~ msgstr "Deilbhín Windows"
+
+#~ msgctxt "Comment"
+#~ msgid "JNG Image"
+#~ msgstr "Íomhá JNG"
+
+#~ msgctxt "Comment"
+#~ msgid "Microsoft Office Drawing"
+#~ msgstr "Líníocht Microsoft Office"
+
+#~ msgctxt "Comment"
+#~ msgid "PCX Image"
+#~ msgstr "Íomhá PCX"
+
+#~ msgctxt "Comment"
+#~ msgid "PhotoCD Image"
+#~ msgstr "Íomhá PhotoCD"
+
+#~ msgctxt "Comment"
+#~ msgid "Portable Bitmap Image"
+#~ msgstr "Íomhá PBM (Portable Bitmap)"
+
+#~ msgctxt "Comment"
+#~ msgid "Portable Graymap Image"
+#~ msgstr "Íomhá \"Portable Graymap\""
+
+#~ msgctxt "Comment"
+#~ msgid "Portable Pixmap Image"
+#~ msgstr "Íomhá \"Portable Pixmap\""
+
+#~ msgctxt "Comment"
+#~ msgid "RAW Camera Image"
+#~ msgstr "Íomhá Cheamara RAW"
+
+#~ msgctxt "Comment"
+#~ msgid "SGI Image (RGB)"
+#~ msgstr "Íomhá SGI (RGB)"
+
+#~ msgctxt "Comment"
+#~ msgid "Truevision Targa Image"
+#~ msgstr "Íomhá Truevision Targa"
+
+#~ msgctxt "Comment"
+#~ msgid "Adobe Photoshop Image"
+#~ msgstr "Íomhá Adobe Photoshop"
+
+#~ msgctxt "Comment"
+#~ msgid "QPicture Metafile"
+#~ msgstr "Meiteachomhad QPicture"
+
+#~ msgctxt "Comment"
+#~ msgid "Windows MetaFile"
+#~ msgstr "Windows MetaFile (WMF)"
+
+#~ msgctxt "Comment"
+#~ msgid "X BitMap Image"
+#~ msgstr "Íomhá X BitMap"
+
+#~ msgctxt "Comment"
+#~ msgid "GIMP Native Image Format"
+#~ msgstr "Íomhá i bhformáid an GIMP"
+
+#~ msgctxt "Comment"
+#~ msgid "X11 Mouse Cursor"
+#~ msgstr "Cúrsóir Luiche X11"
+
+#~ msgctxt "Comment"
+#~ msgid "XFig File"
+#~ msgstr "Comhad XFig"
+
+#~ msgctxt "Comment"
+#~ msgid "X PixMap Image"
+#~ msgstr "Íomhá X PixMap"
+
+#~ msgctxt "Comment"
+#~ msgid "Block Device"
+#~ msgstr "Gléas Bloc"
+
+#~ msgctxt "Comment"
+#~ msgid "Character Device"
+#~ msgstr "Gléas Carachtar"
+
+#~ msgctxt "Comment"
+#~ msgid "Locked Folder"
+#~ msgstr "Comhadlann faoi ghlas"
+
+#~ msgctxt "Comment"
+#~ msgid "Folder"
+#~ msgstr "Comhadlann"
+
+#~ msgctxt "Comment"
+#~ msgid "Pipe"
+#~ msgstr "Píopa"
+
+#~ msgctxt "Comment"
+#~ msgid "Socket"
+#~ msgstr "Soicéad"
+
+#~ msgctxt "Comment"
+#~ msgid "Usenet News Message"
+#~ msgstr "Teachtaireacht Nuachta Usenet"
+
+#~ msgctxt "Comment"
+#~ msgid "Email Message"
+#~ msgstr "Teachtaireacht Ríomhphoist"
+
+#~ msgctxt "Comment"
+#~ msgid "VRML Model"
+#~ msgstr "Samhail VRML"
+
+#~ msgctxt "Comment"
+#~ msgid "Compound Document"
+#~ msgstr "Cáipéis Ilpháirteach"
+
+#~ msgctxt "Comment"
+#~ msgid "Stream of Data (Server Push)"
+#~ msgstr "Sruth Sonraí (Brú ón Fhreastalaí)"
+
+#~ msgctxt "Comment"
+#~ msgid "iCalendar File"
+#~ msgstr "Comhad iCalendar"
+
+#~ msgctxt "Comment"
+#~ msgid "Cascading Style Sheet"
+#~ msgstr "Cascading Style Sheet"
+
+#~ msgctxt "Comment"
+#~ msgid "Text File with Comma Separated Values"
+#~ msgstr "Téacschomhad le luachanna deighilte ag camóga"
+
+#~ msgctxt "Comment"
+#~ msgid "Electronic Business Card"
+#~ msgstr "Cárta Gnó Leictreonach"
+
+#~ msgctxt "Comment"
+#~ msgid "DocBook Document"
+#~ msgstr "Cáipéis DocBook"
+
+#~ msgctxt "Comment"
+#~ msgid "HTML Document"
+#~ msgstr "Cáipéis HTML"
+
+#~ msgctxt "Comment"
+#~ msgid "Plain Text Document"
+#~ msgstr "Cáipéis Téacs Simplí"
+
+#~ msgctxt "Comment"
+#~ msgid "Resource Description Framework File"
+#~ msgstr "Comhad \"Resource Description Framework\" (RDF)"
+
+#~ msgctxt "Comment"
+#~ msgid "RTF Document"
+#~ msgstr "Cáipéis RTF"
+
+#~ msgctxt "Comment"
+#~ msgid "SGML Document"
+#~ msgstr "Cáipéis SGML"
+
+#~ msgctxt "Comment"
+#~ msgid "ABC Music File"
+#~ msgstr "Comhad Ceoil ABC"
+
+#~ msgctxt "Comment"
+#~ msgid "WML Document"
+#~ msgstr "Cáipéis WML"
+
+#~ msgctxt "Comment"
+#~ msgid "Ada Source File"
+#~ msgstr "Comhad Foinseach Ada"
+
+#~ msgctxt "Comment"
+#~ msgid "Bibliographic Data (Bibtex)"
+#~ msgstr "Sonraí Bibleagrafaíocha (BibTeX)"
+
+#~ msgctxt "Comment"
+#~ msgid "C++ Header File"
+#~ msgstr "Comhad Ceanntáisc C++"
+
+#~ msgctxt "Comment"
+#~ msgid "C++ Source File"
+#~ msgstr "Comhad Foinseach C++"
+
+#~ msgctxt "Comment"
+#~ msgid "C Header File"
+#~ msgstr "Comhad Ceanntáisc C"
+
+#~ msgctxt "Comment"
+#~ msgid "C Source File"
+#~ msgstr "Comhad Foinseach C"
+
+#~ msgctxt "Comment"
+#~ msgid "Differences Between Files"
+#~ msgstr "Difríochtaí idir chomhaid"
+
+#~ msgctxt "Comment"
+#~ msgid "Java Source File"
+#~ msgstr "Comhad Foinseach Java"
+
+#~ msgctxt "Comment"
+#~ msgid "LaTeX Document"
+#~ msgstr "Cáipéis LaTeX"
+
+#~ msgctxt "Comment"
+#~ msgid "LDAP Addressbook"
+#~ msgstr "Leabhar Seoltaí LDAP"
+
+#~ msgctxt "Comment"
+#~ msgid "Makefile"
+#~ msgstr "Makefile"
+
+#~ msgctxt "Comment"
+#~ msgid "Internet Shortcut"
+#~ msgstr "Aicearra Idirlín"
+
+#~ msgctxt "Comment"
+#~ msgid "Objective-C Header File"
+#~ msgstr "Comhad Ceanntáisc Objective-C"
+
+#~ msgctxt "Comment"
+#~ msgid "Objective-C Source File"
+#~ msgstr "Comhad Foinseach Objective-C"
+
+#~ msgctxt "Comment"
+#~ msgid "Pascal Source File"
+#~ msgstr "Comhad Foinseach Pascal"
+
+#~ msgctxt "Comment"
+#~ msgid "Tcl File"
+#~ msgstr "Comhad TCL"
+
+#~ msgctxt "Comment"
+#~ msgid "vCalendar Interchange File"
+#~ msgstr "Comhad Idirmhalartaithe vCalendar"
+
+#~ msgctxt "Comment"
+#~ msgid "XSLT Stylesheet File"
+#~ msgstr "Stílbhileog XSLT"
+
+#~ msgctxt "Comment"
+#~ msgid "mms: URIs"
+#~ msgstr "mms: URIanna"
+
+#~ msgctxt "Comment"
+#~ msgid "mmst: URIs"
+#~ msgstr "mmst: URIanna"
+
+#~ msgctxt "Comment"
+#~ msgid "mmsu: URIs"
+#~ msgstr "mmsu: URIanna"
+
+#~ msgctxt "Comment"
+#~ msgid "pnm: URIs"
+#~ msgstr "pnm: URIanna"
+
+#~ msgctxt "Comment"
+#~ msgid "rtspt: URIs"
+#~ msgstr "rtspt: URIanna"
+
+#~ msgctxt "Comment"
+#~ msgid "rtspu: URIs"
+#~ msgstr "rtspu: URIanna"
+
+#~ msgctxt "Comment"
+#~ msgid "Microsoft AVI Video"
+#~ msgstr "Físeán Microsoft AVI"
+
+#~ msgctxt "Comment"
+#~ msgid "MPEG-4 Video"
+#~ msgstr "Físeán MPEG-4"
+
+#~ msgctxt "Comment"
+#~ msgid "MPEG Video"
+#~ msgstr "Físeán MPEG"
+
+#~ msgctxt "Comment"
+#~ msgid "Quicktime Video"
+#~ msgstr "Físeán Quicktime"
+
+#~ msgctxt "Comment"
+#~ msgid "RealVideo File"
+#~ msgstr "Comhad RealVideo"
+
+#~ msgctxt "Comment"
+#~ msgid "Autodesk's FLIC File"
+#~ msgstr "Comhad FLIC ó Autodesk"
+
+#~ msgctxt "Comment"
+#~ msgid "Matroska Video"
+#~ msgstr "Físeán Matroska"
+
+#~ msgctxt "Comment"
+#~ msgid "MNG Image"
+#~ msgstr "Íomhá MNG"
+
+#~ msgctxt "Comment"
+#~ msgid "Windows Media Video"
+#~ msgstr "Físeán \"Windows Media\""
+
+#~ msgctxt "Comment"
+#~ msgid "Ogg/Ogm Video"
+#~ msgstr "Físeán Ogg/Ogm"
+
+#~ msgctxt "Comment"
+#~ msgid "Theora Video"
+#~ msgstr "Físeán Theora"
+
+#~ msgctxt "Name"
+#~ msgid "Crystal SVG"
+#~ msgstr "Crystal SVG"
+
+#~ msgctxt "Comment"
+#~ msgid "Icon Theme by Everaldo.com Design Studio"
+#~ msgstr "Téama Deilbhíní le hEveraldo.com Design Studio"
+
+#~ msgctxt "Name"
+#~ msgid "KMCOP"
+#~ msgstr "KMCOP"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE MCOP-DCOP Bridge"
+#~ msgstr "Droichead KDE idir MCOP agus DCOP"
+
+#~ msgctxt "Comment"
+#~ msgid "Runs bash shell scripts from inside the application."
+#~ msgstr ""
+#~ "Ritheann seo scripteanna blaoisce bash ó thaobh istigh an fheidhmchláir."
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "This is a generic test script engine for testing the script interface."
+#~ msgstr ""
+#~ "Is inneall tástála ginearálta scripteanna é seo a úsáidtear chun an "
+#~ "comhéadan scripte a thástáil."
+
+#~ msgctxt "Comment"
+#~ msgid "Embeddable Text Editor Component (without Doc/View Separation)"
+#~ msgstr ""
+#~ "Comhpháirt eagarthóireacht téacs inleabaithe (gan deighilt idir cáipéis "
+#~ "agus amharc)"
+
+#~ msgctxt "Name"
+#~ msgid "Binary"
+#~ msgstr "Dénártha"
+
+#~ msgctxt "Name"
+#~ msgid "kab2kabc"
+#~ msgstr "kab2kabc"
+
+#~ msgctxt "Comment"
+#~ msgid "libkab to libkabc conversion tool."
+#~ msgstr "Uirlis tiontaithe ó libkab go libkabc."
+
+#~ msgctxt "Name"
+#~ msgid "Contacts"
+#~ msgstr "Teagmhálacha"
+
+#~ msgctxt "Name"
+#~ msgid "Directory"
+#~ msgstr "Comhadlann"
+
+#~ msgctxt "Name"
+#~ msgid "Evolution"
+#~ msgstr "Evolution"
+
+#~ msgctxt "Name"
+#~ msgid "File"
+#~ msgstr "Comhad"
+
+#~ msgctxt "Name"
+#~ msgid "LDAP"
+#~ msgstr "LDAP"
+
+#~ msgctxt "Name"
+#~ msgid "Network"
+#~ msgstr "Líonra"
+
+#~ msgctxt "Name"
+#~ msgid "SQL"
+#~ msgstr "SQL"
+
+#~ msgctxt "Name"
+#~ msgid "KTextEditor Incremental Search Plugin"
+#~ msgstr "Breiseán KTextEditor do chuardach incriminteach"
+
+#~ msgctxt "Comment"
+#~ msgid "Also known as \"As you type search\""
+#~ msgstr "Darb ainm \"Cuardach Beo\" freisin"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Part JavaScript Test"
+#~ msgstr "Tástáil JavaScript do Pháirt Kate"
+
+#~ msgctxt "Name"
+#~ msgid "Trash: emptied"
+#~ msgstr "Bruscar: folmhaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Cannot Open File"
+#~ msgstr "Ní Féidir an Comhad a Oscailt"
+
+#~ msgctxt "Comment"
+#~ msgid "The selected file cannot be opened for reading or writing"
+#~ msgstr ""
+#~ "Ní féidir an comhad roghnaithe a oscailt chun é a léamh nó chun scríobh "
+#~ "air"
+
+#~ msgctxt "Name"
+#~ msgid "Fatal Error"
+#~ msgstr "Earráid Mharfach"
+
+#~ msgctxt "Name"
+#~ msgid "Notification"
+#~ msgstr "Fógairt"
+
+#~ msgctxt "Name"
+#~ msgid "Warning"
+#~ msgstr "Rabhadh"
+
+#~ msgctxt "Name"
+#~ msgid "Catastrophe"
+#~ msgstr "Tubaiste"
+
+#~ msgctxt "Name"
+#~ msgid "Login"
+#~ msgstr "Logáil Isteach"
+
+#~ msgctxt "Name"
+#~ msgid "Logout"
+#~ msgstr "Logáil Amach"
+
+#~ msgctxt "Name"
+#~ msgid "Print error"
+#~ msgstr "Earráid phriontála"
+
+#~ msgctxt "Name"
+#~ msgid "Information message"
+#~ msgstr "Teachtaireacht Eolais"
+
+#~ msgctxt "Name"
+#~ msgid "Warning message"
+#~ msgstr "Teachtaireacht Rabhaidh"
+
+#~ msgctxt "Name"
+#~ msgid "Critical message"
+#~ msgstr "Teachtaireaacht chriticiúil"
+
+#~ msgctxt "Name"
+#~ msgid "Question"
+#~ msgstr "Ceist"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Tray Proxy Module"
+#~ msgstr "Modúl Seachfhreastalaí do Thráidire KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Proxy enabling KDE systray applications to work without KWin"
+#~ msgstr ""
+#~ "Seachfhreastalaí a cheadaíonn d'fheidhmchláir i dtráidire an chórais a "
+#~ "oibriú gan KWin"
+
+#~ msgctxt "Name"
+#~ msgid "BMP Image"
+#~ msgstr "Íomhá BMP"
+
+#~ msgctxt "Name"
+#~ msgid "Encapsulated PostScript Image"
+#~ msgstr "Íomhá \"Encapsulated PostScript\""
+
+#~ msgctxt "Name"
+#~ msgid "CCITT G3 Fax"
+#~ msgstr "Facs CCITT G3"
+
+#~ msgctxt "Name"
+#~ msgid "GIF Image"
+#~ msgstr "Íomhá GIF"
+
+#~ msgctxt "Name"
+#~ msgid "Windows Icon"
+#~ msgstr "Deilbhín MS Windows"
+
+#~ msgctxt "Name"
+#~ msgid "JPEG 2000 Image"
+#~ msgstr "Íomhá JPEG 2000"
+
+#~ msgctxt "Name"
+#~ msgid "JPEG Image"
+#~ msgstr "Íomhá JPEG"
+
+#~ msgctxt "Name"
+#~ msgid "MNG Image"
+#~ msgstr "Íomhá MNG"
+
+#~ msgctxt "Name"
+#~ msgid "Portable Bitmap Image"
+#~ msgstr "Íomhá PBM (Portable Bitmap)"
+
+#~ msgctxt "Name"
+#~ msgid "PCX Image"
+#~ msgstr "Íomhá PCX"
+
+#~ msgctxt "Name"
+#~ msgid "Portable Graymap Image"
+#~ msgstr "Íomhá \"Portable Graymap\""
+
+#~ msgctxt "Name"
+#~ msgid "PNG Image"
+#~ msgstr "Íomhá PNG"
+
+#~ msgctxt "Name"
+#~ msgid "Portable Pixmap Image"
+#~ msgstr "Íomhá \"Portable Pixmap\""
+
+#~ msgctxt "Name"
+#~ msgid "Adobe Photoshop Image"
+#~ msgstr "Íomhá Adobe Photoshop"
+
+#~ msgctxt "Name"
+#~ msgid "SGI Image (RGB)"
+#~ msgstr "Íomhá SGI (RGB)"
+
+#~ msgctxt "Name"
+#~ msgid "Truevision Targa Image"
+#~ msgstr "Íomhá Truevision Targa"
+
+#~ msgctxt "Name"
+#~ msgid "TIFF Image"
+#~ msgstr "Íomhá TIFF"
+
+#~ msgctxt "Name"
+#~ msgid "X BitMap Image"
+#~ msgstr "Íomhá \"X BitMap\""
+
+#~ msgctxt "Name"
+#~ msgid "GIMP Image"
+#~ msgstr "Íomhá GIMP"
+
+#~ msgctxt "Name"
+#~ msgid "X PixMap Image"
+#~ msgstr "Íomhá \"X PixMap\""
+
+#~ msgctxt "Name"
+#~ msgid "XView Image"
+#~ msgstr "Íomhá XView"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Compression Filter"
+#~ msgstr "Scagaire Comhbhrúite KDE"
+
+#~ msgctxt "Name"
+#~ msgid "kio_uiserver"
+#~ msgstr "kio_uiserver"
+
+#~ msgctxt "Name"
+#~ msgid "BZip2 Filter"
+#~ msgstr "Scagaire bzip2"
+
+#~ msgctxt "Name"
+#~ msgid "GZip Filter"
+#~ msgstr "Scagaire gzip"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Resources"
+#~ msgstr "Acmhainní KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure KDE Resources"
+#~ msgstr "Cumraigh Acmhainní KDE"
+
+#~ msgctxt "Keywords"
+#~ msgid ""
+#~ "resources,konnector resource,contact resource,calendar resource,notes "
+#~ "resource,imap"
+#~ msgstr ""
+#~ "acmhainní,acmhainn konnector,acmhainn teagmhála,acmhainn fhéilire,"
+#~ "acmhainn nótaí,imap"
+
+#~ msgctxt "Comment"
+#~ msgid "KResource Manager"
+#~ msgstr "Bainisteoir KResource"
+
+#~ msgctxt "Name"
+#~ msgid "ISpell"
+#~ msgstr "ISpell"
+
+#~ msgid "Name=PhotoShop Document"
+#~ msgstr "Name=Cáipéis PhotoShop"
+
+#~ msgid "Comment=Bzipped Tar Archive"
+#~ msgstr "Comment=Cartlann tar comhbhrúite le bzip"

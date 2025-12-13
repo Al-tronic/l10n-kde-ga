@@ -1,0 +1,395 @@
+# Irish translation of desktop_extragear-multimedia_k3b
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_extragear-multimedia_k3b package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:58+0000\n"
+"PO-Revision-Date: 2007-04-15 19:39-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: kioworkers/videodvd/videodvd.desktop:5
+msgctxt "Name"
+msgid "Video DVD Browser"
+msgstr "Brabhsálaí DVD Físe"
+
+#: src/helper/k3b.actions:2
+msgctxt "Name"
+msgid "Update device and programs permissions"
+msgstr ""
+
+#: src/helper/k3b.actions:58
+msgctxt "Description"
+msgid ""
+"Authentication is required to update permissions of devices and programs"
+msgstr ""
+
+#: src/helper/k3b.actions:116
+msgctxt "Name"
+msgid "Adds current user to a specified group"
+msgstr ""
+
+#: src/helper/k3b.actions:168
+msgctxt "Description"
+msgid "Authentication is required to add current user to a group"
+msgstr ""
+
+#: src/k3b-cue.desktop:6 src/k3b-iso.desktop:6 src/org.kde.k3b.desktop:121
+msgctxt "Name"
+msgid "K3b"
+msgstr "K3b"
+
+#: src/k3b.notifyrc:4
+msgctxt "Comment"
+msgid "K3b"
+msgstr "K3b"
+
+#: src/k3b.notifyrc:71
+msgctxt "Name"
+msgid "Process successful"
+msgstr "D'éirigh leis an bpróiseas"
+
+#: src/k3b.notifyrc:136
+msgctxt "Comment"
+msgid "Process successfully finished"
+msgstr "D'éirigh leis an bpróiseas"
+
+#: src/k3b.notifyrc:202
+msgctxt "Name"
+msgid "Process error"
+msgstr "Earráid sa phróiseas"
+
+#: src/k3b.notifyrc:267
+msgctxt "Comment"
+msgid "Process finished with errors"
+msgstr "Chríochnaigh an próiseas le hearráidí"
+
+#: src/k3b.notifyrc:336
+msgctxt "Name"
+msgid "Waiting for medium"
+msgstr "Ag feitheamh leis an meán"
+
+#: src/k3b.notifyrc:400
+msgctxt "Comment"
+msgid "The user needs to insert a medium"
+msgstr "Caithfidh an t-úsáideoir meán a chur isteach"
+
+#: src/k3b.notifyrc:466
+msgctxt "Name"
+msgid "Busy"
+msgstr ""
+
+#: src/k3b.notifyrc:521
+msgctxt "Comment"
+msgid "K3b is currently busy and cannot start any other operations"
+msgstr ""
+
+#: src/k3b.notifyrc:577
+msgctxt "Name"
+msgid "No problems found"
+msgstr ""
+
+#: src/k3b.notifyrc:630
+msgctxt "Comment"
+msgid "No problems found in system configuration"
+msgstr ""
+
+#: src/k3b.notifyrc:686
+msgctxt "Name"
+msgid "Mount/unmount failed"
+msgstr ""
+
+#: src/k3b.notifyrc:739
+msgctxt "Comment"
+msgid "Medium cannot be mount or unmounted"
+msgstr ""
+
+#: src/k3b.notifyrc:795
+msgctxt "Name"
+msgid "Track data not found"
+msgstr ""
+
+#: src/k3b.notifyrc:848
+msgctxt "Comment"
+msgid "Track information has not been found in the online database"
+msgstr ""
+
+#: src/org.kde.k3b.desktop:6
+msgctxt "GenericName"
+msgid "Disk Burning"
+msgstr ""
+
+#: src/org.kde.k3b.desktop:63
+msgctxt "Comment"
+msgid "Disk writing program"
+msgstr ""
+
+#: src/services/k3b_audiocd_rip.desktop:9
+msgctxt "Name"
+msgid "Extract Digital Audio with K3b"
+msgstr "Bain Fuaim Dhigiteach Amach le K3b"
+
+#: src/services/k3b_copy_disc.desktop:9
+msgctxt "Name"
+msgid "Copy with K3b"
+msgstr "Cóipeáil le K3b"
+
+#: src/services/k3b_create_audio_cd.desktop:9
+#: src/services/k3b_create_audio_cd_from_blank_medium.desktop:10
+msgctxt "Name"
+msgid "Create Audio CD with K3b"
+msgstr ""
+
+#: src/services/k3b_create_data_project.desktop:10
+#: src/services/k3b_create_data_project_from_blank_medium.desktop:10
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Create Data CD with K3b..."
+msgctxt "Name"
+msgid "Create data project with K3b"
+msgstr "Cruthaigh Dlúthdhiosca Sonraí le K3b..."
+
+#: src/services/k3b_create_video_cd.desktop:9
+msgctxt "Name"
+msgid "Create Video CD with K3b"
+msgstr ""
+
+#: src/services/k3b_dvd_copy.desktop:8
+msgctxt "Name"
+msgid "Copy DVD with K3b"
+msgstr "Cóipeáil DVD le K3b"
+
+#: src/services/k3b_videodvd_rip.desktop:9
+msgctxt "Name"
+msgid "Rip Video DVD Titles with K3b"
+msgstr "Srac Teidil DVD Físe le K3b"
+
+#: src/services/k3b_write_bin_image.desktop:9
+msgctxt "Name"
+msgid "Write CD Image with K3b"
+msgstr ""
+
+#: src/services/k3b_write_iso_image.desktop:9
+msgctxt "Name"
+msgid "Write image to disc with K3b"
+msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "K3b Plugin"
+#~ msgstr "Breiseán K3b"
+
+#~ msgctxt "Name"
+#~ msgid "K3b External Audio Encoder Config Widget"
+#~ msgstr "Giuirléid Chumraíochta Ionchódóir Seachtrach Fuaime K3b"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "K3b Lame Mp3 Encoder Config Module"
+#~ msgctxt "Name"
+#~ msgid "K3b Lame MP3 Encoder Config Module"
+#~ msgstr "Modúl Cumraíochta Ionchódóir Lame MP3 K3b"
+
+#~ msgctxt "Name"
+#~ msgid "K3b Ogg Vorbis Encoder Config Widget"
+#~ msgstr "Giuirléid Chumraíochta Ionchódóir Ogg Vorbis K3b"
+
+#~ msgctxt "Name"
+#~ msgid "K3b FFMpeg Decoder"
+#~ msgstr "Díchódóir FFMpeg K3b"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Decoding module to decode FLAC files"
+#~ msgctxt "Comment"
+#~ msgid "Decoding module to decode WMA files"
+#~ msgstr "Modúl díchódaithe a dhíchódaíonn comhaid FLAC"
+
+#~ msgctxt "Name"
+#~ msgid "K3b FLAC Decoder"
+#~ msgstr "Díchódóir FLAC K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Decoding module to decode FLAC files"
+#~ msgstr "Modúl díchódaithe a dhíchódaíonn comhaid FLAC"
+
+#~ msgctxt "Name"
+#~ msgid "K3b Libsndfile Decoder"
+#~ msgstr "Díchódóir Libsndfile K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Decoding module to decode audio files supported by libsndfile"
+#~ msgstr ""
+#~ "Modúl díchódaithe a dhíchódaíonn comhaid fhuaime a dtacaíonn libsndfile "
+#~ "leo"
+
+#~ msgctxt "Name"
+#~ msgid "K3b MAD Decoder"
+#~ msgstr "Díchódóir MAD K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Decoding module to decode MPEG 1 Layer III files"
+#~ msgstr "Modúl díchódaithe a dhíchódaíonn comhaid MPEG 1 Sraith III"
+
+#~ msgctxt "Name"
+#~ msgid "K3b Musepack Decoder"
+#~ msgstr "Díchódóir Musepack K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Decoding module to decode Musepack audio files"
+#~ msgstr "Modúl díchódaithe a dhíchódaíonn comhaid Musepack"
+
+#~ msgctxt "Name"
+#~ msgid "K3b Ogg Vorbis Decoder"
+#~ msgstr "Díchódóir Ogg Vorbis K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Decoding module to decode Ogg Vorbis files"
+#~ msgstr "Modúl díchódaithe a dhíchódaíonn comhaid Ogg Vorbis"
+
+#~ msgctxt "Name"
+#~ msgid "K3b ??? Decoder"
+#~ msgstr "Díchódóir ??? K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Decoding module to decode ??? files"
+#~ msgstr "Modúl díchódaithe a dhíchódaíonn comhaid ???"
+
+#~ msgctxt "Name"
+#~ msgid "K3b Wave Decoder"
+#~ msgstr "Díchódóir Wave K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Decoding module to decode wave files"
+#~ msgstr "Modúl díchódaithe a dhíchódaíonn comhaid Wave"
+
+#~ msgctxt "Name"
+#~ msgid "K3b External Audio Encoder"
+#~ msgstr "Ionchódóir Seachtrach Fuaime K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Encoding module that allows specifying an encoding command"
+#~ msgstr "Modúl ionchódaithe a cheadaíonn duit ordú ionchódaithe a roghnú"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "K3b Lame Mp3 Encoder"
+#~ msgctxt "Name"
+#~ msgid "K3b Lame MP3 Encoder"
+#~ msgstr "Ionchódóir Lame MP3 K3b"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Encoding module to encode MPEG1 Layer III (mp3) files"
+#~ msgctxt "Comment"
+#~ msgid "Encoding module to encode MPEG1 Layer III (MP3) files"
+#~ msgstr "Modúl ionchódaithe a ionchódaíonn comhaid MPEG1 Sraith III (mp3)"
+
+#~ msgctxt "Name"
+#~ msgid "K3b Ogg Vorbis Encoder"
+#~ msgstr "Ionchódóir Ogg Vorbis K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Encoding module to encode Ogg Vorbis files"
+#~ msgstr "Modúl ionchódaithe a ionchódaíonn comhaid Ogg Vorbis"
+
+#~ msgctxt "Name"
+#~ msgid "K3b ??? Encoder"
+#~ msgstr "Ionchódóir ??? K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Encoding module to encode <name> files"
+#~ msgstr "Modúl ionchódaithe a ionchódaíonn comhaid <name>"
+
+#~ msgctxt "Name"
+#~ msgid "K3b SoX Audio Encoder"
+#~ msgstr "Ionchódóir SoX K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Encoding module to encode many file formats using SoX"
+#~ msgstr "Modúl ionchódaithe a ionchódaíonn a lán formáidí comhaid le SoX"
+
+#~ msgctxt "Name"
+#~ msgid "K3b Audio Metainfo Renamer"
+#~ msgstr "Athainmneoir Meiteafhaisnéise Fuaime K3b"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Plugin to rename audio files in a data project based on the meta info."
+#~ msgstr ""
+#~ "Breiseán a athainmníonn comhaid fhuaime i dtionscadal sonraí, bunaithe ar "
+#~ "an mheiteafhaisnéis."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "K3b Cddb Audio Plugin"
+#~ msgctxt "Name"
+#~ msgid "K3b CDDB Audio Plugin"
+#~ msgstr "Breiseán Fuaime Cddb K3b"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid ""
+#~| "Plugin to query a cddb server for information about an audio project."
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Plugin to query a CDDB server for information about an audio project."
+#~ msgstr ""
+#~ "Breiseán a dhéanann iarratais ar eolas faoi thionscadal fuaime ó "
+#~ "fhreastalaí cddb."
+
+#~ msgctxt "Description"
+#~ msgid ""
+#~ "A kioslave that allows files to be copied from a Video DVD (including "
+#~ "decryption)"
+#~ msgstr ""
+#~ "Sclábhaí KIO a cheadaíonn duit comhaid a chóipeáil ó DVD físe (díchriptiú "
+#~ "san áireamh)"
+
+#~ msgctxt "Comment"
+#~ msgid "Decoding module to decode wma files"
+#~ msgstr "Modúl díchódaithe a dhíchódaíonn comhaid wma"
+
+#~ msgctxt "Keywords"
+#~ msgid "K3bSetup,k3bsetup"
+#~ msgstr "K3bSetup,k3bsetup"
+
+#~ msgctxt "Name"
+#~ msgid "K3bSetup"
+#~ msgstr "K3bSetup"
+
+#~ msgctxt "Name"
+#~ msgid "K3b Project Info"
+#~ msgstr "Eolas faoin Tionscadal K3b"
+
+#~ msgctxt "Name"
+#~ msgid "Create Data DVD with K3b..."
+#~ msgstr "Cruthaigh DVD Sonraí le K3b..."
+
+#~ msgctxt "Name"
+#~ msgid "Write CD or DVD Image with K3b..."
+#~ msgstr "Scríobh Íomhá Dhlúthdhiosca nó DVD le K3b..."
+
+#~ msgctxt "Comment"
+#~ msgid "K3b Project"
+#~ msgstr "Tionscadal K3b"
+
+#~ msgctxt "Comment"
+#~ msgid "Plugin for the K3b"
+#~ msgstr "Breiseán K3b"
+
+#~ msgctxt "X-KDE-PluginInfo-Category"
+#~ msgid "AudioDecoder"
+#~ msgstr "Díchódóir Fuaime"
+
+#~ msgctxt "X-KDE-PluginInfo-Category"
+#~ msgid "AudioEncoder"
+#~ msgstr "Ionchódóir Fuaime"

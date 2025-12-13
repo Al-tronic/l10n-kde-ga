@@ -1,0 +1,895 @@
+# translation of desktop_kdebase.po to Irish
+# Kevin Scannell <kscanne@gmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:58+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: src/helpers/killer/org.kde.kwin_x11.killer.desktop.in:3
+msgctxt "Name"
+msgid "KWin Kill Helper"
+msgstr ""
+
+#: src/helpers/killer/org.kde.kwin_x11.killer.desktop.in:44
+msgctxt "Comment"
+msgid "Prompts whether to kill an unresponsive window"
+msgstr ""
+
+#: src/kcms/effects/kwineffect.knsrc:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Cube"
+msgctxt "Name"
+msgid "Desktop Effects"
+msgstr "Ciúb Deisce"
+
+#: src/kcms/scripts/kwinscripts.knsrc:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KWin Window Manager"
+msgctxt "Name"
+msgid "Window Manager Scripts"
+msgstr "Bainisteoir Fuinneog KWin"
+
+#: src/kcms/tabbox/kwinswitcher.knsrc:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Task Switcher"
+msgctxt "Name"
+msgid "Task Switcher Styles"
+msgstr "Malartóir Tascanna"
+
+#: src/kwin-x11.notifyrc:3
+msgctxt "Comment"
+msgid "KWin Window Manager"
+msgstr "Bainisteoir Fuinneog KWin"
+
+#: src/kwin-x11.notifyrc:72
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Graphics"
+msgctxt "Name"
+msgid "Graphics Reset"
+msgstr "Grafaic"
+
+#: src/kwin-x11.notifyrc:129
+msgctxt "Comment"
+msgid "A graphics reset event occurred"
+msgstr ""
+
+#: src/kwin-x11.notifyrc:188
+msgctxt "Name"
+msgid "Xwayland Crash"
+msgstr ""
+
+#: src/kwin-x11.notifyrc:237
+msgctxt "Comment"
+msgid "Xwayland has crashed"
+msgstr ""
+
+#: src/plugins/krunner-integration/kwin-runner-windows.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Rules"
+msgctxt "Name|plasma runner"
+msgid "Windows"
+msgstr "Rialacha Fuinneog"
+
+#: src/plugins/krunner-integration/kwin-runner-windows.desktop:51
+msgctxt "Comment"
+msgid "List windows and desktops and switch them"
+msgstr ""
+
+#: src/plugins/krunner-integration/kwin-runner-windows.desktop:110
+msgctxt "X-Plasma-Runner-Syntax-Descriptions"
+msgid ""
+"Finds windows whose name or window application match :q:. It is possible to "
+"interact with the windows by using one of the following keywords: activate\\"
+"\\, close\\\\, min(imize)\\\\, max(imize)\\\\, fullscreen\\\\, shade\\\\, "
+"keep above and keep below.,Finds windows which are on desktop named :q:,"
+"Switch to desktop named :q:,Lists all windows and allows to activate them.,"
+"Lists all other desktops and allows to switch to them."
+msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Compositing has been suspended"
+#~ msgstr "Cuireadh comhshuí ar fionraí"
+
+#~ msgctxt "Comment"
+#~ msgid "Another application has requested to suspend compositing."
+#~ msgstr "Tá feidhmchlár eile ag iarraidh comhshuí a chur ar fionraí."
+
+#~ msgctxt "Name"
+#~ msgid "Window Rules"
+#~ msgstr "Rialacha Fuinneog"
+
+#~ msgctxt "Comment"
+#~ msgid "KWin Effect"
+#~ msgstr "Maisíocht KWin"
+
+#~ msgctxt "Comment"
+#~ msgid "KWin Window Decoration"
+#~ msgstr "Maisiúchán Fuinneog KWin"
+
+#~ msgctxt "Comment"
+#~ msgid "KWin Script"
+#~ msgstr "Script KWin"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KWin Window Manager"
+#~ msgctxt "Name"
+#~ msgid "Window Manager Effects"
+#~ msgstr "Bainisteoir Fuinneog KWin"
+
+#~ msgctxt "Name"
+#~ msgid "Plastik"
+#~ msgstr "Plastik"
+
+#~ msgctxt "Name"
+#~ msgid "Dialog Parent"
+#~ msgstr "Máthairdialóg"
+
+#~ msgctxt "Comment"
+#~ msgid "Darkens the parent window of the currently active dialog"
+#~ msgstr "Dorchaigh máthairfhuinneog na dialóige atá gníomhach faoi láthair"
+
+#~ msgctxt "Comment"
+#~ msgid "Darkens the entire screen when requesting root privileges"
+#~ msgstr ""
+#~ "Dorchaigh an scáileán iomlán nuair atáthar ag iarraidh ceadanna an "
+#~ "fhorúsáideora a fháil"
+
+#~ msgctxt "Name"
+#~ msgid "Dim Screen for Administrator Mode"
+#~ msgstr "Doiléirigh an Scáileán i Mód an Riarthóra"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Slide windows across the screen when switching virtual desktops"
+#~ msgctxt "Comment"
+#~ msgid "Suck windows into the desktop"
+#~ msgstr ""
+#~ "Sleamhnaigh fuinneoga trasna an scáileáin agus an deasc fhíorúil á hathrú"
+
+#~ msgctxt "Name"
+#~ msgid "Fade Desktop"
+#~ msgstr "Céimnigh an Deasc"
+
+#~ msgctxt "Comment"
+#~ msgid "Fade between virtual desktops when switching between them"
+#~ msgstr "Céimnigh idir deasca fíorúla agus ag malairt eatarthu"
+
+#~ msgctxt "Name"
+#~ msgid "Fade"
+#~ msgstr "Céimnigh"
+
+#~ msgctxt "Comment"
+#~ msgid "Make windows smoothly fade in and out when they are shown or hidden"
+#~ msgstr ""
+#~ "Leis seo, céimneoidh fuinneoga isteach agus amach agus iad á dtaispeáint "
+#~ "nó á bhfolú"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Sliding popups"
+#~ msgctxt "Name"
+#~ msgid "Fading Popups"
+#~ msgstr "Preabfhuinneoga sleamhnaithe"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Make windows smoothly fade in and out when they are shown or hidden"
+#~ msgctxt "Comment"
+#~ msgid "Make popups smoothly fade in and out when they are shown or hidden"
+#~ msgstr ""
+#~ "Leis seo, céimneoidh fuinneoga isteach agus amach agus iad á dtaispeáint "
+#~ "nó á bhfolú"
+
+#~ msgctxt "Name"
+#~ msgid "Login"
+#~ msgstr "Logáil Isteach"
+
+#~ msgctxt "Comment"
+#~ msgid "Smoothly fade to the desktop when logging in"
+#~ msgstr "Céimnigh go dtí an deasc go réidh ag am logála isteach"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Logout"
+#~ msgctxt "Name"
+#~ msgid "Logout"
+#~ msgstr "Logáil Amach"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Smoothly fade to the desktop when logging in"
+#~ msgctxt "Comment"
+#~ msgid "Smoothly fade to the logout screen"
+#~ msgstr "Céimnigh go dtí an deasc go réidh ag am logála isteach"
+
+#~ msgctxt "Name"
+#~ msgid "Maximize"
+#~ msgstr "Uasmhéadaigh"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Sliding popups"
+#~ msgctxt "Name"
+#~ msgid "Morphing popups"
+#~ msgstr "Preabfhuinneoga sleamhnaithe"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Scale In"
+#~ msgctxt "Name"
+#~ msgid "Scale"
+#~ msgstr "Scálaigh Isteach"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Make windows smoothly fade in and out when they are shown or hidden"
+#~ msgctxt "Comment"
+#~ msgid "Make windows smoothly scale in and out when they are shown or hidden"
+#~ msgstr ""
+#~ "Leis seo, céimneoidh fuinneoga isteach agus amach agus iad á dtaispeáint "
+#~ "nó á bhfolú"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Deform windows while they are moving"
+#~ msgctxt "Comment"
+#~ msgid "Squash windows when they are minimized"
+#~ msgstr "Díchum fuinneoga agus iad á mbogadh"
+
+#~ msgctxt "Name"
+#~ msgid "Translucency"
+#~ msgstr "Tréshoilseacht"
+
+#~ msgctxt "Comment"
+#~ msgid "Make windows translucent under different conditions"
+#~ msgstr "Déan fuinneoga tréshoilseach uaireanta difriúla"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Rules"
+#~ msgctxt "Name"
+#~ msgid "Window Aperture"
+#~ msgstr "Rialacha Fuinneog"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Closed windows fall into pieces"
+#~ msgctxt "Comment"
+#~ msgid "Move windows into screen corners"
+#~ msgstr "Leis seo, titfidh fuinneoga dúnta as a chéile"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Maximize"
+#~ msgctxt "Name"
+#~ msgid "MinimizeAll"
+#~ msgstr "Uasmhéadaigh"
+
+#~ msgctxt "Name"
+#~ msgid "Video Wall"
+#~ msgstr "Balla Físe"
+
+#~ msgctxt "Name"
+#~ msgid "Window Decorations"
+#~ msgstr "Maisiúcháin Fhuinneog"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the window behavior"
+#~ msgctxt "Comment"
+#~ msgid "Configure window titlebars and borders"
+#~ msgstr "Cumraigh oibriú na bhfuinneog"
+
+#~ msgctxt "Name"
+#~ msgid "Virtual Desktops"
+#~ msgstr "Deasca Fíorúla"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop Cube"
+#~ msgctxt "Comment"
+#~ msgid "Desktop Effects"
+#~ msgstr "Ciúb Deisce"
+
+#~ msgctxt "Name"
+#~ msgid "Window Behavior"
+#~ msgstr "Oibriú na bhFuinneog"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Behavior"
+#~ msgctxt "Comment"
+#~ msgid "Individual Window Behavior"
+#~ msgstr "Oibriú na bhFuinneog"
+
+#~ msgctxt "Name"
+#~ msgid "Screen Edges"
+#~ msgstr "Ciumhaiseanna Scáileáin"
+
+#~ msgctxt "Name"
+#~ msgid "KWin Scripts"
+#~ msgstr "Scripteanna KWin"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Virtual Desktops"
+#~ msgctxt "Name"
+#~ msgid "Virtual Keyboard"
+#~ msgstr "Deasca Fíorúla"
+
+#, fuzzy
+#~| msgctxt "X-KDE-Keywords"
+#~| msgid ""
+#~| "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,"
+#~| "edge,kwm,decoration"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid ""
+#~ "kwin,window,manager,border,style,theme,look,feel,layout,button,handle,"
+#~ "edge,kwm,decoration,window decorations,titlebar,window buttons,window "
+#~ "border,skin"
+#~ msgstr ""
+#~ "kwin,fuinneog,bainisteoir,imlíne,stíl,téama,cuma,brath,leagan amach,"
+#~ "cnaipe,hanla,ciumhais,kwm,maisiúchán"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Behavior"
+#~ msgctxt "Comment"
+#~ msgid "Configure window actions and behavior"
+#~ msgstr "Oibriú na bhFuinneog"
+
+#, fuzzy
+#~| msgctxt "X-KDE-Keywords"
+#~| msgid ""
+#~| "focus,placement,window behavior,animation,raise,auto raise,windows,frame,"
+#~| "titlebar,doubleclick"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid ""
+#~ "focus,placement,window behavior,window actions,animation,raise,auto raise,"
+#~ "windows,frame,titlebar,doubleclick,desktop,snap,movement,shading,shade,"
+#~ "unshade,unshading,activation,activate"
+#~ msgstr ""
+#~ "fócas,láithriú,oibriú na bhfuinneog,beochan,ardaigh,uathardaigh,fuinneoga,"
+#~ "fráma,ceannteideal,déchliceáil"
+
+#, fuzzy
+#~| msgctxt "X-KDE-Keywords"
+#~| msgid ""
+#~| "size,position,state,window behavior,windows,specific,workarounds,"
+#~| "remember,rules"
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid ""
+#~ "size,position,state,window behavior,windows,specific,workarounds,remember,"
+#~ "rules,window rules,apps,applications"
+#~ msgstr ""
+#~ "méid,ionad,staid,oibriú na bhfuinneog,fuinneoga,sainiúil,réitigh "
+#~ "seiftithe,meabhraigh,rialacha"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure active screen edges"
+#~ msgctxt "Comment"
+#~ msgid "Configure active screen corners and edges"
+#~ msgstr "Cumraigh ciumhaiseanna gníomhacha"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure active screen edges"
+#~ msgctxt "Comment"
+#~ msgid "Configure touch screen swipe gestures"
+#~ msgstr "Cumraigh ciumhaiseanna gníomhacha"
+
+#~ msgctxt "Comment"
+#~ msgid "Manage KWin scripts"
+#~ msgstr "Bainistigh scripteanna KWin"
+
+#~ msgctxt "Name"
+#~ msgid "Blur"
+#~ msgstr "Blur"
+
+#~ msgctxt "Name"
+#~ msgid "Desktop Grid"
+#~ msgstr "Greille na nDeasc"
+
+#~ msgctxt "Name"
+#~ msgid "Dim Inactive"
+#~ msgstr "Dorchaigh Fuinneoga Neamhghníomhacha"
+
+#~ msgctxt "Name"
+#~ msgid "Glide"
+#~ msgstr "Sleamhnaigh"
+
+#~ msgctxt "Name"
+#~ msgid "Invert"
+#~ msgstr "Invert"
+
+#~ msgctxt "Name"
+#~ msgid "Looking Glass"
+#~ msgstr "Looking Glass"
+
+#~ msgctxt "Name"
+#~ msgid "Magic Lamp"
+#~ msgstr "Lampa Draíochtach"
+
+#~ msgctxt "Name"
+#~ msgid "Magnifier"
+#~ msgstr "Formhéadaitheoir"
+
+#~ msgctxt "Name"
+#~ msgid "Mouse Mark"
+#~ msgstr "Mouse Mark"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "File Preview"
+#~ msgctxt "Name"
+#~ msgid "overview"
+#~ msgstr "Réamhamharc Comhaid"
+
+#~ msgctxt "Name"
+#~ msgid "Present Windows"
+#~ msgstr "Fuinneoga Gníomhacha"
+
+#~ msgctxt "Name"
+#~ msgid "Resize Window"
+#~ msgstr "Athraigh Méid na Fuinneoige"
+
+#~ msgctxt "Name"
+#~ msgid "Show FPS"
+#~ msgstr "Taispeáin FSS"
+
+#~ msgctxt "Name"
+#~ msgid "Show Paint"
+#~ msgstr "Taispeáin Péint"
+
+#~ msgctxt "Name"
+#~ msgid "Slide"
+#~ msgstr "Sleamhnaigh"
+
+#~ msgctxt "Name"
+#~ msgid "Thumbnail Aside"
+#~ msgstr "Thumbnail Aside"
+
+#~ msgctxt "Name"
+#~ msgid "Track Mouse"
+#~ msgstr "Lorg an Luch"
+
+#~ msgctxt "Name"
+#~ msgid "Wobbly Windows"
+#~ msgstr "Fuinneoga Creathacha"
+
+#~ msgctxt "Name"
+#~ msgid "Zoom"
+#~ msgstr "Súmáil"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "kwin script"
+#~ msgstr "Script kwin"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Decorations"
+#~ msgctxt "Name"
+#~ msgid "KWin Decoration"
+#~ msgstr "Maisiúcháin Fhuinneog"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KWin Effect"
+#~ msgctxt "Name"
+#~ msgid "KWin Effect"
+#~ msgstr "Maisíocht KWin"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KWin Script"
+#~ msgctxt "Name"
+#~ msgid "KWin Script"
+#~ msgstr "Script KWin"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "KWin Window Manager"
+#~ msgctxt "Name"
+#~ msgid "KWin Window Switcher"
+#~ msgstr "Bainisteoir Fuinneog KWin"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Decorations"
+#~ msgctxt "Name"
+#~ msgid "Window Actions"
+#~ msgstr "Maisiúcháin Fhuinneog"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure active screen edges"
+#~ msgctxt "Comment"
+#~ msgid "Configure mouse actions for windows and titlebars"
+#~ msgstr "Cumraigh ciumhaiseanna gníomhacha"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid ""
+#~ "shade,maximise,maximize,minimize,minimise,lower,operations menu,titlebar,"
+#~ "resize"
+#~ msgstr ""
+#~ "scáth,scáthaigh,uasmhéadaigh,íosmhéadaigh,íoslaghdaigh,laghdaigh,"
+#~ "roghchlár oibríochta,barra teidil,athraigh méid"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Behavior"
+#~ msgctxt "Name"
+#~ msgid "Advanced Window Behavior"
+#~ msgstr "Oibriú na bhFuinneog"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure advanced window management features"
+#~ msgctxt "Comment"
+#~ msgid "Configure advanced window management options"
+#~ msgstr "Cumraigh ardghnéithe bhainisteoireacht na bhfuinneog"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Behavior"
+#~ msgctxt "Name"
+#~ msgid "Window Focus Behavior"
+#~ msgstr "Oibriú na bhFuinneog"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the window focus policy"
+#~ msgctxt "Comment"
+#~ msgid "Configure window activation policy"
+#~ msgstr "Cumraigh an polasaí um fhócas fuinneoige"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Decorations"
+#~ msgctxt "Name"
+#~ msgid "Window Movement"
+#~ msgstr "Maisiúcháin Fhuinneog"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the window focus policy"
+#~ msgctxt "Comment"
+#~ msgid "Configure window movement options"
+#~ msgstr "Cumraigh an polasaí um fhócas fuinneoige"
+
+#~ msgctxt "Name"
+#~ msgid "Cover Switch"
+#~ msgstr "Cover Switch"
+
+#~ msgctxt "Name"
+#~ msgid "Desktop Cube"
+#~ msgstr "Ciúb Deisce"
+
+#~ msgctxt "Name"
+#~ msgid "Desktop Cube Animation"
+#~ msgstr "Beochan an Chiúib Deisce"
+
+#~ msgctxt "Name"
+#~ msgid "Flip Switch"
+#~ msgstr "Flip Switch"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Decorations"
+#~ msgctxt "Name"
+#~ msgid "Aurorae Window Decorations"
+#~ msgstr "Maisiúcháin Fhuinneog"
+
+#~ msgctxt "Name"
+#~ msgid "Actions"
+#~ msgstr "Gníomhartha"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure Input Actions settings"
+#~ msgctxt "Comment"
+#~ msgid "Mouse Actions on Windows"
+#~ msgstr "Cumraigh socruithe na nGníomhartha Ionchurtha"
+
+#~ msgctxt "Name"
+#~ msgid "Advanced"
+#~ msgstr "Casta"
+
+#~ msgctxt "Name"
+#~ msgid "Focus"
+#~ msgstr "Fócas"
+
+#~ msgctxt "Name"
+#~ msgid "Moving"
+#~ msgstr "Bogadh"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Window Decorations"
+#~ msgctxt "Name"
+#~ msgid "Enforces Window Decorations on GTK+ window"
+#~ msgstr "Maisiúcháin Fhuinneog"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Configure the look and feel of window titles"
+#~ msgctxt "Comment"
+#~ msgid "Look and Feel of Window Titles"
+#~ msgstr "Cumraigh dealramh na dteideal fuinneoige"
+
+#~ msgctxt "Comment"
+#~ msgid "Animate the appearing of windows"
+#~ msgstr "Déan beochan agus fuinneog á taispeáint"
+
+#~ msgctxt "Name"
+#~ msgid "Dashboard"
+#~ msgstr "Dashboard"
+
+#~ msgctxt "Name"
+#~ msgid "Aurorae Decoration Theme Engine"
+#~ msgstr "Inneall Téama Maisiúcháin Aurorae"
+
+#~ msgctxt "Name"
+#~ msgid "Large Icons"
+#~ msgstr "Deilbhíní Móra"
+
+#~ msgctxt "Name"
+#~ msgid "Compact"
+#~ msgstr "Dlúth"
+
+#~ msgctxt "Name"
+#~ msgid "Informative"
+#~ msgstr "Faisnéiseach"
+
+#~ msgctxt "Name"
+#~ msgid "Grid"
+#~ msgstr "Greille"
+
+#~ msgctxt "Name"
+#~ msgid "Small Icons"
+#~ msgstr "Deilbhíní Beaga"
+
+#, fuzzy
+#~| msgctxt "Description"
+#~| msgid "Text File"
+#~ msgctxt "Name"
+#~ msgid "Text Only"
+#~ msgstr "Téacschomhad"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Animate desktop switching with a cube"
+#~ msgctxt "Comment"
+#~ msgid "An informative desktop switcher layout"
+#~ msgstr "Beoigh malairt na deisce le ciúb"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Desktop switcher that lays the desktops out in a grid"
+#~ msgctxt "Comment"
+#~ msgid "A desktop switcher layout with previews of the desktops"
+#~ msgstr "Malartóir deasc a leagann na deasca amach i ngreille"
+
+#~ msgctxt "Name"
+#~ msgid "Sidebar"
+#~ msgstr "Barra Taoibh"
+
+#~ msgctxt "Comment"
+#~ msgid "You can configure how many virtual desktops there are."
+#~ msgstr "Is féidir leat líon na ndeasc fíorúil a chumrú."
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the way that windows are moved"
+#~ msgstr "Cumraigh conas a aistrítear fuinneoga"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure settings specifically for a window"
+#~ msgstr "Cumraigh na socruithe le haghaidh fuinneoige ar leith"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Background"
+#~ msgctxt "Name"
+#~ msgid "Background contrast"
+#~ msgstr "Cúlra"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Blurs the background behind semi-transparent windows"
+#~ msgctxt "Comment"
+#~ msgid "Improve contrast and readability behind semi-transparent windows"
+#~ msgstr "Geamhaigh an cúlra taobh thiar d'fhuinneoga leath-thrédhearcacha"
+
+#~ msgctxt "Comment"
+#~ msgid "Blurs the background behind semi-transparent windows"
+#~ msgstr "Geamhaigh an cúlra taobh thiar d'fhuinneoga leath-thrédhearcacha"
+
+#~ msgctxt "Comment"
+#~ msgid "Display a Cover Flow effect for the alt+tab window switcher"
+#~ msgstr "Taispeáin maisíocht le Sruth Clúdach sa mhalartóir fuinneog Alt+Táb"
+
+#~ msgctxt "Comment"
+#~ msgid "Display each virtual desktop on a side of a cube"
+#~ msgstr "Taispeáin gach deasc fhíorúil ar thaobh de sféar"
+
+#~ msgctxt "Comment"
+#~ msgid "Animate desktop switching with a cube"
+#~ msgstr "Beoigh malairt na deisce le ciúb"
+
+#~ msgctxt "Comment"
+#~ msgid "Desaturate the desktop when displaying the Plasma dashboard"
+#~ msgstr "Dísháithigh an deasc agus an painéal Plasma á thaispeáint"
+
+#~ msgctxt "Comment"
+#~ msgid "Zoom out so all desktops are displayed side-by-side in a grid"
+#~ msgstr ""
+#~ "Súmáil amach go dtí go bhfuil gach deasc ar taispeáint taobh le taobh i "
+#~ "ngreille"
+
+#~ msgctxt "Comment"
+#~ msgid "Darken inactive windows"
+#~ msgstr "Dorchaigh na fuinneoga neamhghníomhacha"
+
+#~ msgctxt "Name"
+#~ msgid "Fall Apart"
+#~ msgstr "Tit As A Chéile"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Flip through windows that are in a stack for the alt+tab window switcher"
+#~ msgstr "Ransaíonn fuinneoga i gcruach sa mhalartóir fuinneog Alt+Táb"
+
+#~ msgctxt "Comment"
+#~ msgid "Windows Glide Effect as they are open and closed"
+#~ msgstr "Maisíocht Sleamhnaithe agus fuinneoga á n-oscailt agus á ndúnadh"
+
+#~ msgctxt "Name"
+#~ msgid "Highlight Window"
+#~ msgstr "Aibhsigh Fuinneog"
+
+#~ msgctxt "Comment"
+#~ msgid "Highlight the appropriate window when hovering over taskbar entries"
+#~ msgstr ""
+#~ "Aibhsigh an fhuinneog chuí nuair atá an cúrsóir os cionn iontrála sa "
+#~ "tascbharra"
+
+#~ msgctxt "Comment"
+#~ msgid "Inverts the color of the desktop and windows"
+#~ msgstr "Inbhéartaigh dath na deisce agus dath na bhfuinneog"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Splash Screen"
+#~ msgctxt "Name"
+#~ msgid "Kscreen"
+#~ msgstr "Splancscáileán"
+
+#~ msgctxt "Comment"
+#~ msgid "Desaturate the desktop when displaying the logout dialog"
+#~ msgstr "Dísháithigh an deasc agus an dialóg logála amach á taispeáint"
+
+#~ msgctxt "Comment"
+#~ msgid "A screen magnifier that looks like a fisheye lens"
+#~ msgstr "Formhéadaitheoir scáileáin is cosúil le lionsa shúil an éisc"
+
+#~ msgctxt "Comment"
+#~ msgid "Simulate a magic lamp when minimizing windows"
+#~ msgstr "Insamhail lampa draíochtach agus fuinneoga á laghdú"
+
+#~ msgctxt "Comment"
+#~ msgid "Magnify the section of the screen that is near the mouse cursor"
+#~ msgstr "Formhéadaigh an pháirt den scáileán i ngar do chúrsóir na luiche"
+
+#~ msgctxt "Name"
+#~ msgid "Minimize Animation"
+#~ msgstr "Beochan Íoslaghdaithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Animate the minimizing of windows"
+#~ msgstr "Déan beochan agus fuinneog á híoslaghdú"
+
+#~ msgctxt "Comment"
+#~ msgid "Allows you to draw lines on the desktop"
+#~ msgstr "Uirlis a cheadaíonn duit línte a dhearadh ar an deasc"
+
+#~ msgctxt "Comment"
+#~ msgid "Zoom out until all opened windows can be displayed side-by-side"
+#~ msgstr ""
+#~ "Súmáil amach go dtí gur féidir gach fuinneog oscailte a thaispeáint taobh "
+#~ "le taobh"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Screen Edges"
+#~ msgctxt "Name"
+#~ msgid "Screen Edge"
+#~ msgstr "Ciumhaiseanna Scáileáin"
+
+#~ msgctxt "Name"
+#~ msgid "Screenshot"
+#~ msgstr "Seat den Scáileán"
+
+#~ msgctxt "Name"
+#~ msgid "Sheet"
+#~ msgstr "Bileog"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Make modal dialogs smoothly fly in and out when they are shown or hidden"
+#~ msgstr ""
+#~ "Leis seo, eitlíonn dialóga módúla isteach agus amach agus iad á "
+#~ "dtaispeáint nó á bhfolú"
+
+#~ msgctxt "Comment"
+#~ msgid "Display KWin's performance in the corner of the screen"
+#~ msgstr "Taispeáin feidhmíocht KWin i gcúinne an scáileáin"
+
+#~ msgctxt "Comment"
+#~ msgid "Highlight areas of the desktop that have been recently updated"
+#~ msgstr ""
+#~ "Aibhsigh limistéir ar an deasc a ndearnadh nuashonrú orthu le déanaí"
+
+#~ msgctxt "Name"
+#~ msgid "Slide Back"
+#~ msgstr "Sleamhnaigh Ar Ais"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Slide windows when switching or grouping tabs."
+#~ msgctxt "Comment"
+#~ msgid "Slide back windows when another window is raised"
+#~ msgstr "Sleamhnaigh fuinneoga agus cluaisíní á ngrúpáil nó á n-athrú."
+
+#~ msgctxt "Comment"
+#~ msgid "Sliding animation for Plasma popups"
+#~ msgstr "Beochan sleamhnaithe le haghaidh preabfhuinneog Plasma"
+
+#~ msgctxt "Name"
+#~ msgid "Snap Helper"
+#~ msgstr "Uirlis Láraithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Help you locate the center of the screen when moving a window."
+#~ msgstr ""
+#~ "Uirlis a chabhraíonn leat lár an scáileáin a aimsiú agus fuinneog á "
+#~ "bogadh."
+
+# not msgstr "Tosaigh Aiseolas"!
+#~ msgctxt "Name"
+#~ msgid "Startup Feedback"
+#~ msgstr "Aiseolas Tosaithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Display window thumbnails on the edge of the screen"
+#~ msgstr "Taispeáin mionsamhail na fuinneoige ag ciumhais an scáileáin"
+
+#~ msgctxt "Comment"
+#~ msgid "Display a mouse cursor locating effect when activated"
+#~ msgstr "Taispeáin leid a chabhraíonn leat an cúrsóir a aimsiú"
+
+#~ msgctxt "Comment"
+#~ msgid "Magnify the entire desktop"
+#~ msgstr "Formhéadaigh an deasc iomlán"
+
+#~ msgctxt "Description"
+#~ msgid "(Default) Disable focus stealing prevention for XV"
+#~ msgstr ""
+#~ "(Réamhshocrú) Díchumasaigh cosc ar ghadaíocht an fhócais le haghaidh XV"

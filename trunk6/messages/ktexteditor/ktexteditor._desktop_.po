@@ -1,0 +1,1160 @@
+# Irish translation of desktop_kdesdk
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdesdk package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:58+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: src/buffer/org.kde.ktexteditor6.katetextbuffer.actions:2
+msgctxt "Name"
+msgid "Document Actions"
+msgstr ""
+
+#: src/buffer/org.kde.ktexteditor6.katetextbuffer.actions:55
+msgctxt "Name"
+msgid "Save Document"
+msgstr ""
+
+#: src/buffer/org.kde.ktexteditor6.katetextbuffer.actions:105
+msgctxt "Description"
+msgid "Root privileges are needed to save this document"
+msgstr ""
+
+#: templates/ktexteditor6-plugin/ktexteditor6-plugin.kdevtemplate:3
+msgctxt "Name"
+msgid "C++ Plugin (KF6)"
+msgstr ""
+
+#: templates/ktexteditor6-plugin/ktexteditor6-plugin.kdevtemplate:38
+msgctxt "Comment"
+msgid ""
+"Generates a KTextEditor C++ plugin to perform special operations on text in "
+"KWrite, Kate, KDevelop etc."
+msgstr ""
+
+#~ msgctxt "Comment"
+#~ msgid "Embeddable Text Editor Component (with Doc/View Separation)"
+#~ msgstr ""
+#~ "Comhpháirt eagarthóireacht téacs inleabaithe (le deighilt idir cáipéis "
+#~ "agus amharc)"
+
+#~ msgctxt "Comment"
+#~ msgid "KTextEditor Plugin"
+#~ msgstr "Breiseán KTextEditor"
+
+#~ msgctxt "Name"
+#~ msgid "Embedded Advanced Text Editor"
+#~ msgstr "Ardeagarthóir Leabaithe Téacs"
+
+#~ msgctxt "Name"
+#~ msgid "Backtrace Browser"
+#~ msgstr "Brabhsálaí Cúl-Loirg"
+
+#~ msgctxt "Name"
+#~ msgid "File system browser"
+#~ msgstr "Brabhsálaí an chórais comhad"
+
+#~ msgctxt "Comment"
+#~ msgid "File system browser tool view"
+#~ msgstr "Amharc uirlisí brabhsálaí an chórais comhad"
+
+#~ msgctxt "Name"
+#~ msgid "File Templates"
+#~ msgstr "Teimpléid Chomhaid"
+
+#~ msgctxt "Comment"
+#~ msgid "Create new files from templates"
+#~ msgstr "Cruthaigh comhaid nua ó theimpléid"
+
+#~ msgctxt "Name"
+#~ msgid "GDB"
+#~ msgstr "GDB"
+
+#~ msgctxt "Comment"
+#~ msgid "Provides a simple GDB frontend"
+#~ msgstr "Soláthraíonn sé seo comhéadan simplí GDB"
+
+#~ msgctxt "Name"
+#~ msgid "Hello World Plugin"
+#~ msgstr "Breiseán 'Dia Dhuit a Dhomhain'"
+
+#~ msgctxt "Comment"
+#~ msgid "Your short description about the plugin goes here"
+#~ msgstr "Cuir do chur síos gearr ar an mbreiseán anseo"
+
+#~ msgctxt "Name"
+#~ msgid "Build Plugin"
+#~ msgstr "Breiseán Tógála"
+
+#~ msgctxt "Comment"
+#~ msgid "Compile or Make and parse error messages"
+#~ msgstr "Tiomsaigh nó Tóg agus parsáil teachtaireachtaí earráide"
+
+#~ msgctxt "Name"
+#~ msgid "CTags"
+#~ msgstr "CTags"
+
+#~ msgctxt "Comment"
+#~ msgid "Look up definitions/declarations with CTags"
+#~ msgstr "Cuardaigh sainmhínithe/fógraí le CTags"
+
+#~ msgctxt "Name"
+#~ msgid "SQL Plugin"
+#~ msgstr "Breiseán SQL"
+
+#~ msgctxt "Comment"
+#~ msgid "Execute query on SQL databases"
+#~ msgstr "Déan iarratas ar bhunachar sonraí SQL"
+
+#~ msgctxt "Name"
+#~ msgid "Terminal tool view"
+#~ msgstr "Amharc uirlisí teirminéil"
+
+#~ msgctxt "Comment"
+#~ msgid "Toolview embedding a terminal widget"
+#~ msgstr "Amharc uirlisí a leabaíonn giuirléid teimpléid"
+
+#~ msgctxt "Name"
+#~ msgid "Jovie Text-to-Speech"
+#~ msgstr "Téacs-go-Caint Jovie"
+
+#~ msgctxt "Comment"
+#~ msgid "Adds a menu entry for speaking the text"
+#~ msgstr "Cuir iontráil sa roghchlár chun an téacs a léamh"
+
+#~ msgctxt "Name"
+#~ msgid "Mail files"
+#~ msgstr "Seol comhaid"
+
+#~ msgctxt "Comment"
+#~ msgid "Send files via email"
+#~ msgstr "Seol comhaid trí ríomhphost"
+
+#~ msgctxt "Name"
+#~ msgid "Open Header"
+#~ msgstr "Oscail Comhad Ceanntáisc"
+
+#~ msgctxt "Comment"
+#~ msgid "Opens the corresponding .h/[.cpp|.c] file"
+#~ msgstr "Oscail an comhad .h/[.cpp|.c] a fhreagraíonn leis an gceann seo"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Python Plugins"
+#~ msgctxt "Comment"
+#~ msgid "Kate Python Plugin"
+#~ msgstr "Breiseáin Python"
+
+#~ msgctxt "Name"
+#~ msgid "Python Plugins"
+#~ msgstr "Breiseáin Python"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Insert shell command output into a document"
+#~ msgctxt "Comment"
+#~ msgid "Execute expansion function and insert output into a document"
+#~ msgstr "Ionsáigh aschur ó ordú blaoisce isteach i gcáipéis"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Build Plugin"
+#~ msgctxt "Name"
+#~ msgid "GNU idutils plugin"
+#~ msgstr "Breiseán Tógála"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "HTML Tools"
+#~ msgctxt "Name"
+#~ msgid "XML Tools"
+#~ msgstr "Uirlisí HTML"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Python Plugins"
+#~ msgctxt "Name"
+#~ msgid "IPython Console"
+#~ msgstr "Breiseáin Python"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Python Plugins"
+#~ msgctxt "Name"
+#~ msgid "Python Utilities"
+#~ msgstr "Breiseáin Python"
+
+#~ msgctxt "Name"
+#~ msgid "Project Plugin"
+#~ msgstr "Breiseán Tionscadail"
+
+#~ msgctxt "Comment"
+#~ msgid "Project plugin for Kate"
+#~ msgstr "Breiseán tionscadail le haghaidh Kate"
+
+#~ msgctxt "Name"
+#~ msgid "Search & Replace"
+#~ msgstr "Cuardach agus Ionadú"
+
+#~ msgctxt "Name"
+#~ msgid "Symbol Viewer"
+#~ msgstr "Amharcán Siombailí"
+
+#~ msgctxt "Comment"
+#~ msgid "Extract and show reference symbols from source"
+#~ msgstr ""
+#~ "Baineann an breiseán seo siombailí tagartha amach as an mbunchód agus "
+#~ "taispeánann sé iad"
+
+#~ msgctxt "Name"
+#~ msgid "Multiline Tab Bar"
+#~ msgstr "Barra Cluaisíní Il-Líne"
+
+#~ msgctxt "Comment"
+#~ msgid "Adds a tab bar with multiple rows to Kate's main window"
+#~ msgstr ""
+#~ "Cuir barra cluaisíní ina bhfuil níos mó ná ró amháin le príomhfhuinneog "
+#~ "Kate"
+
+#~ msgctxt "Name"
+#~ msgid "Tab Bar"
+#~ msgstr "Barra Cluaisíní"
+
+#~ msgctxt "Comment"
+#~ msgid "Adds a standard tab bar to Kate's main window"
+#~ msgstr "Cuir barra cluaisíní caighdeánach le príomhfhuinneog Kate"
+
+#~ msgctxt "Name"
+#~ msgid "Text Filter"
+#~ msgstr "Scagaire Téacs"
+
+#~ msgctxt "Comment"
+#~ msgid "Easy text filtering"
+#~ msgstr "Scagadh téacs go héasca"
+
+#~ msgctxt "Name"
+#~ msgid "XML Validation"
+#~ msgstr "Bailíochtú XML"
+
+#~ msgctxt "Comment"
+#~ msgid "Validates XML files using xmllint"
+#~ msgstr "Bailíochtaigh comhaid XML le xmllint"
+
+#~ msgctxt "Name"
+#~ msgid "XML Completion"
+#~ msgstr "Comhlánú XML"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Lists XML elements, attributes, attribute values and entities allowed by "
+#~ "DTD"
+#~ msgstr ""
+#~ "Liostaigh eilimintí XML, aitreabúidí, luachanna aitreabúide agus aonáin "
+#~ "atá ceadaithe ag an DTD"
+
+#~ msgctxt "Name"
+#~ msgid "AutoBrace Configuration"
+#~ msgstr "Cumraíocht AutoBrace"
+
+#~ msgctxt "Name"
+#~ msgid "AutoBrace"
+#~ msgstr "AutoBrace"
+
+#~ msgctxt "Comment"
+#~ msgid "Insert closing braces on pressing Enter"
+#~ msgstr "Ionsáigh lúibín deiridh nuair a bhrúitear Enter"
+
+#~ msgctxt "Name"
+#~ msgid "Exporter"
+#~ msgstr "Easpórtálaí"
+
+#~ msgctxt "Comment"
+#~ msgid "Export highlighted document to HTML"
+#~ msgstr "Easpórtáil an cháipéis aibhsithe mar HTML"
+
+#~ msgctxt "Name"
+#~ msgid "Highlight Selection"
+#~ msgstr "Aibhsigh Roghnúchán"
+
+#~ msgctxt "Comment"
+#~ msgid "Highlight all words based on the text selection"
+#~ msgstr "Aibhsigh gach focal bunaithe ar an roghnúchán téacs"
+
+#~ msgctxt "Name"
+#~ msgid "Insert File"
+#~ msgstr "Ionsáigh Comhad"
+
+#~ msgctxt "Comment"
+#~ msgid "Insert any readable file at cursor position"
+#~ msgstr "Ionsáigh aon chomhad inléite ag an gcúrsóir"
+
+#~ msgctxt "Comment"
+#~ msgid "Select an icon and use it as a KIcon in your source-code"
+#~ msgstr "Roghnaigh deilbhín agus bain úsáid as mar KIcon i do chód foinseach"
+
+#~ msgctxt "Name"
+#~ msgid "IconInserter"
+#~ msgstr "IconInserter"
+
+#~ msgctxt "GenericName"
+#~ msgid "Insert Code for KIcon-Creation"
+#~ msgstr "Ionsáigh cód le haghaidh cruthaithe KIcon"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Session Applet"
+#~ msgstr "Feidhmchláirín Seisiúin Kate"
+
+#~ msgctxt "Comment"
+#~ msgid "Kate Session Launcher"
+#~ msgstr "Tosaitheoir Seisiúin Kate"
+
+#~ msgctxt "GenericName"
+#~ msgid "Advanced Text Editor"
+#~ msgstr "Ardeagarthóir Téacs"
+
+#~ msgctxt "Name"
+#~ msgid "Kate"
+#~ msgstr "Kate"
+
+#~ msgctxt "Comment"
+#~ msgid "Kate Plugin"
+#~ msgstr "Breiseán Kate"
+
+#~ msgctxt "Name"
+#~ msgid "File Tree"
+#~ msgstr "Crann Comhad"
+
+#~ msgctxt "Comment"
+#~ msgid "Displays the open documents in a tree"
+#~ msgstr "Taispeánann sé cáipéisí oscailte i gcrann"
+
+#~ msgctxt "Name|standard desktop component"
+#~ msgid "Embedded Text Editor"
+#~ msgstr "Eagarthóir Leabaithe Téacs"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "The text editor service provides applications with a text viewer and "
+#~ "editor. KDE applications that provide text editing facilities should use "
+#~ "this service."
+#~ msgstr ""
+#~ "Cuirtear amharcán téacs agus eagarthóir ar fáil d'fheidhmchláir tríd an "
+#~ "tseirbhís eagarthóireachta téacs. Ba cheart d'fheidhmchláir KDE a "
+#~ "sholáthraíonn áiseanna eagarthóireachta an tseirbhís seo a úsáid."
+
+#~ msgctxt "Comment"
+#~ msgid "KTextEditor load/save filter/check plugin"
+#~ msgstr "Breiseán scagaire luchtú/sábháil KTextEditor"
+
+#~ msgctxt "GenericName"
+#~ msgid "Text Editor"
+#~ msgstr "Eagarthóir Téacs"
+
+#~ msgctxt "Name"
+#~ msgid "KWrite"
+#~ msgstr "KWrite"
+
+#~ msgctxt "Name"
+#~ msgid "Autobookmarker"
+#~ msgstr "Autobookmarker"
+
+#~ msgctxt "Comment"
+#~ msgid "Set bookmarks on lines matching a pattern when documents are loaded"
+#~ msgstr ""
+#~ "Cruthaigh leabharmharcanna ar línte atá comhoiriúnach do phatrún nuair a "
+#~ "luchtaítear cáipéisí"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Snippets"
+#~ msgstr "Blúirí Kate"
+
+#~ msgctxt "Name"
+#~ msgid "Data Tools"
+#~ msgstr "Uirlisí Sonraí"
+
+#~ msgctxt "Comment"
+#~ msgid "Enable data tools like thesaurus and spell check (if installed)"
+#~ msgstr "Cumasaigh uirlisí mar litreoir agus foclóir (má tá siad ar fáil)"
+
+#~ msgctxt "Name"
+#~ msgid "Format of Time & Date insertion"
+#~ msgstr "Formáid Ionsáite Ama agus Dáta"
+
+#~ msgctxt "Name"
+#~ msgid "Time & Date"
+#~ msgstr "Am agus Dáta"
+
+#~ msgctxt "Comment"
+#~ msgid "Insert current Time & Date"
+#~ msgstr "Ionsáigh an tAm agus an Dáta reatha"
+
+#~ msgctxt "Name"
+#~ msgid "Python encoding checker/adder"
+#~ msgstr "Seiceálaí ionchódaithe Python"
+
+#~ msgctxt "Comment"
+#~ msgid "While saving check encoding of python files and add an encoding line"
+#~ msgstr ""
+#~ "Le linn sábhála, seiceáil ionchódú de chomhaid python agus cuir líne "
+#~ "ionchódaithe leo más gá"
+
+#~ msgctxt "Name"
+#~ msgid "Insane (not ZEN) HTML coding (light edition)"
+#~ msgstr "Códú HTML Insane (seachas ZEN) (leagan éadrom)"
+
+#~ msgctxt "Comment"
+#~ msgid "A plugin, which does zen-coding like selector completion"
+#~ msgstr "Breiseán a dhéanann códú zen mar shampla comhlánú roghnóirí"
+
+#~ msgctxt "Name"
+#~ msgid "External Tools"
+#~ msgstr "Uirlisí Seachtracha"
+
+#~ msgctxt "Comment"
+#~ msgid "External Tools"
+#~ msgstr "Uirlisí Seachtracha"
+
+#~ msgctxt "Name"
+#~ msgid "Quick Document switcher"
+#~ msgstr "Mearmhalairt cháipéise"
+
+#~ msgctxt "Comment"
+#~ msgid "Quickly switch to another already opened document"
+#~ msgstr "Athraigh go cáipéis oscailte eile go tapa"
+
+#~ msgctxt "Name"
+#~ msgid "Artistic Comment"
+#~ msgstr "Artistic Comment"
+
+#~ msgctxt "GenericName"
+#~ msgid "Format comments in an \"artistic\" way"
+#~ msgstr "Formáidigh nótaí tráchta \"go healaíonta\""
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Toolview allowing to search in all open files or files in the filesystem"
+#~ msgstr ""
+#~ "Amharc uirlisí a cheadaíonn duit cuardach a dhéanamh i ngach comhad "
+#~ "oscailte, nó sa chóras comhad ar fad"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Javascript Console Window"
+#~ msgstr "Fuinneog Chonsóil Javascript Kate"
+
+#~ msgctxt "Name"
+#~ msgid "Select Smallest Enclosing Block"
+#~ msgstr "Roghnaigh an Bloc Timpeallaithe Is Lú"
+
+#~ msgctxt "Name"
+#~ msgid "Kate KJS Test 1"
+#~ msgstr "Tástáil 1 Kate KJS"
+
+#~ msgctxt "Comment"
+#~ msgid "Test  for the KJS Wrapper"
+#~ msgstr "Tástáil an Rapar KJS"
+
+#~ msgctxt "Name"
+#~ msgid "Insert Command"
+#~ msgstr "Ionsáigh Ordú"
+
+#~ msgctxt "GenericName"
+#~ msgid "CVS Frontend"
+#~ msgstr "Comhéadan ar CVS"
+
+#~ msgctxt "Name"
+#~ msgid "Cervisia"
+#~ msgstr "Cervisia"
+
+#~ msgctxt "Comment"
+#~ msgid "Cervisia CVS Client"
+#~ msgstr "Cliant CVS Cervisia"
+
+#~ msgctxt "Name"
+#~ msgid "CVS commit job done"
+#~ msgstr "Athruithe curtha i bhfeidhm ag CVS"
+
+#~ msgctxt "Comment"
+#~ msgid "A CVS commit job is done"
+#~ msgstr "Athruithe curtha i bhfeidhm ag CVS"
+
+#~ msgctxt "Name"
+#~ msgid "CvsService"
+#~ msgstr "CvsService"
+
+#~ msgctxt "Comment"
+#~ msgid "A D-Bus service that provides an interface to cvs"
+#~ msgstr "Seirbhís D-Bus a sholáthraíonn comhéadan CVS"
+
+#~ msgctxt "Name"
+#~ msgid "Git"
+#~ msgstr "Git"
+
+#~ msgctxt "Name"
+#~ msgid "Subversion"
+#~ msgstr "Subversion"
+
+#~ msgctxt "GenericName"
+#~ msgid "KDE Template Generator"
+#~ msgstr "Gineadóir Teimpléad KDE"
+
+#~ msgctxt "Name"
+#~ msgid "KAppTemplate"
+#~ msgstr "KAppTemplate"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Resource Template"
+#~ msgstr "Teimpléad Acmhainne Akonadi"
+
+#~ msgctxt "Comment"
+#~ msgid "A template for an Akonadi PIM data resource"
+#~ msgstr "Teimpléad le haghaidh acmhainn sonraí PIM Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME} Serializer"
+#~ msgstr "Srathóir %{APPNAME}"
+
+#~ msgctxt "Comment"
+#~ msgid "An Akonadi serializer plugin for %{APPNAMELC}"
+#~ msgstr "Breiseán srathóra Akonadi le haghaidh %{APPNAMELC}"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi Serializer Template"
+#~ msgstr "Teimpléad Srathóra Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME} Shape"
+#~ msgstr "Giuirléid %{APPNAME}"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "A KOffice plugin template with a shape, a tool and a docker (please use "
+#~ "ThisFormat for the project name)"
+#~ msgstr ""
+#~ "Teimpléad breiseáin KOffice a bhfuil giuirléid, uirlis, agus dugaire ann "
+#~ "(úsáid ThisFormat mar ainm an tionscadail)"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 4 GUI Application"
+#~ msgstr "Feidhmchlár Grafach KDE 4"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE4 simple template based on CMake, inherits from XMLGuiWindow and "
+#~ "demonstrates how to use KConfig XT"
+#~ msgstr ""
+#~ "Teimpléad simplí KDE4 bunaithe ar CMake, a thagann in oidhreacht ar "
+#~ "XMLGuiWindow agus a léiríonn conas a úsáidtear KConfig XT"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME}"
+#~ msgstr "%{APPNAME}"
+
+#~ msgctxt "GenericName"
+#~ msgid "A KDE4 Application"
+#~ msgstr "Feidhmchlár KDE4"
+
+#~ msgctxt "Name"
+#~ msgid "KOffice Text-Plugin Template"
+#~ msgstr "Teimpléad Breiseáin Téacs KOffice"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME} plugin"
+#~ msgstr "Breiseán %{APPNAME}"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 4 Konqueror plugin"
+#~ msgstr "Breiseán Konqueror KDE 4"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE4 simple template based on CMake, inherits from KParts::Plugin and "
+#~ "demonstrates how to write a konqueror plugin"
+#~ msgstr ""
+#~ "Teimpléad simplí KDE4 bunaithe ar CMake, a thagann in oidhreacht ar "
+#~ "KParts::Plugin agus a léiríonn conas a scríobhtar breiseán konqueror"
+
+#~ msgctxt "Comment"
+#~ msgid "Extended UrlBar Options"
+#~ msgstr "Roghanna Breisithe UrlBar"
+
+#~ msgctxt "GenericName"
+#~ msgid "%{APPNAME}"
+#~ msgstr "%{APPNAME}"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 4 KPart Application"
+#~ msgstr "Feidhmchlár KPart KDE 4"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE4 simple template based on CMake, inherits from XMLGuiWindow and "
+#~ "demonstrates how to use KPart"
+#~ msgstr ""
+#~ "Teimpléad simplí KDE4 bunaithe ar CMake, a thagann in oidhreacht ar "
+#~ "XMLGuiWindow agus a léiríonn úsáid KPart"
+
+#~ msgctxt "GenericName"
+#~ msgid "A KDE KPart Application"
+#~ msgstr "Feidhmchlár KPart KDE"
+
+#~ msgctxt "Name"
+#~ msgid "%{APPNAME}Part"
+#~ msgstr "%{APPNAME}Part"
+
+#~ msgctxt "Comment"
+#~ msgid "%{APPNAME}"
+#~ msgstr "%{APPNAME}"
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma %{APPNAME}"
+#~ msgstr "Plasma %{APPNAME}"
+
+#~ msgctxt "Name"
+#~ msgid "Plasma Applet Template"
+#~ msgstr "Teimpléad Feidhmchláirín Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "A plasma applet template displaying an icon and a text"
+#~ msgstr "Teimpléad feidhmchláirín plasma a thaispeánann deilbhín agus téacs"
+
+#~ msgctxt "Name"
+#~ msgid "Qt4 GUI Application"
+#~ msgstr "Feidhmchlár Grafach Qt4"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Generate a QMake/Qt4 based application with graphical user interface "
+#~ "(crossplatform compatible)"
+#~ msgstr ""
+#~ "Cruthaigh feidhmchlár bunaithe ar QMake/Qt4 le comhéadan grafach "
+#~ "(feidhmchlár trasardáin)"
+
+#~ msgctxt "Comment"
+#~ msgid "%{APPNAME} runner"
+#~ msgstr "Feidhmitheoir %{APPNAME}"
+
+#~ msgctxt "Name"
+#~ msgid "Plasma Runner Template"
+#~ msgstr "Teimpléad d'Fheidhmitheoirí Plasma"
+
+#~ msgctxt "Comment"
+#~ msgid "A plasma runner template"
+#~ msgstr "Teimpléad d'fheidhmitheoirí Plasma"
+
+#~ msgctxt "Name"
+#~ msgid "PyKDE4 GUI Application"
+#~ msgstr "Feidhmchlár Grafach PyKDE4"
+
+#~ msgctxt "Comment"
+#~ msgid "PyKDE4 template  - needs PyKDE4"
+#~ msgstr "Teimpléad PyKDE4 - PyKDE4 de dhíth"
+
+#~ msgctxt "Name"
+#~ msgid "PyQt4 GUI Application"
+#~ msgstr "Feidhmchlár Grafach PyQt4"
+
+#~ msgctxt "Comment"
+#~ msgid "PyQt template using a Designer file - needs PyQt4"
+#~ msgstr "Teimpléad PyQt a úsáideann comhad Designer - PyQt4 de dhíth"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 4 Ruby GUI Application"
+#~ msgstr "Feidhmchlár Grafach Ruby KDE 4"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE4 simple ruby template, inherits from XMLGuiWindow - needs korundum4"
+#~ msgstr ""
+#~ "Teimpléad simplí ruby, a thagann in oidhreacht ar XMLGuiWindow - "
+#~ "korundum4 de dhíth"
+
+#~ msgctxt "GenericName"
+#~ msgid "A KDE4 Ruby Application"
+#~ msgstr "Feidhmchlár Ruby KDE4"
+
+#~ msgctxt "Name"
+#~ msgid "KDE 4 Ruby Konqueror plugin"
+#~ msgstr "Breiseán Ruby Konqueror KDE 4"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "KDE4 simple template based on CMake, inherits from KParts::Plugin and "
+#~ "demonstrates how to write a konqueror plugin in Ruby"
+#~ msgstr ""
+#~ "Teimpléad simplí KDE4 bunaithe ar CMake, a thagann in oidhreacht ar "
+#~ "KParts::Plugin agus a léiríonn conas a scríobhtar breiseán konqueror i "
+#~ "Ruby"
+
+#~ msgctxt "Comment"
+#~ msgid "%{APPNAME} - You can write Konqueror-Plugins in Ruby"
+#~ msgstr "%{APPNAME} - Is féidir leatsa Breiseáin Konqueror a scríobh i Ruby"
+
+#~ msgctxt "Name"
+#~ msgid "KCachegrind"
+#~ msgstr "KCachegrind"
+
+#~ msgctxt "GenericName"
+#~ msgid "Profiler Frontend"
+#~ msgstr "Comhéadan ar Phróifíleoir"
+
+#~ msgctxt "Comment"
+#~ msgid "Visualization of Performance Profiling Data"
+#~ msgstr "Amharcléiriú ar Shonraí Próifílithe Feidhmíochta"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Repository Accounts"
+#~ msgstr "Cuntais Stór KDE"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Subversion Module"
+#~ msgstr "Modúl Subversion KDED"
+
+#~ msgctxt "Description"
+#~ msgid "Subversion ioslave"
+#~ msgstr "Sclábhaí I/A Subversion"
+
+#~ msgctxt "Name"
+#~ msgid "Apply Patch..."
+#~ msgstr "Cuir Paiste i bhFeidhm..."
+
+#~ msgctxt "Comment"
+#~ msgid "Apply the patch to another folder/file"
+#~ msgstr "Cuir an paiste i bhfeidhm ar fhillteán/chomhad eile"
+
+#~ msgctxt "X-KDE-Submenu"
+#~ msgid "Subversion"
+#~ msgstr "Subversion"
+
+#~ msgctxt "Name"
+#~ msgid "Add to Repository"
+#~ msgstr "Cuir leis an Stór"
+
+#~ msgctxt "Name"
+#~ msgid "Delete From Repository"
+#~ msgstr "Scrios ón Stór"
+
+#~ msgctxt "Name"
+#~ msgid "Revert Local Changes"
+#~ msgstr "Cealaigh Athruithe Logánta"
+
+#~ msgctxt "Comment"
+#~ msgid "Remove any changes made locally. Warning - this cannot be undone."
+#~ msgstr ""
+#~ "Cealaigh aon athruithe a rinneadh go logánta.  Rabhadh - ní bheidh tú in "
+#~ "ann na hathruithe seo a fháil ar ais."
+
+#~ msgctxt "Name"
+#~ msgid "Rename..."
+#~ msgstr "Athainmnigh..."
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Rename a file locally and in the repository.  Use this rather than adding "
+#~ "and deleting to rename a file."
+#~ msgstr ""
+#~ "Athraigh ainm comhaid logánta agus sa stór.  Úsáid é seo in ionad an "
+#~ "comhad a scriosadh agus a chur ar ais chun a ainm a athrú."
+
+#~ msgctxt "Name"
+#~ msgid "Import Repository"
+#~ msgstr "Iompórtáil Stór"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Put folder into an existing repository to put it under revision control."
+#~ msgstr ""
+#~ "Cuir fillteán isteach i stór atá ann más mian leat a chuid athruithe a "
+#~ "rialú."
+
+#~ msgctxt "Name"
+#~ msgid "Checkout From Repository..."
+#~ msgstr "Seiceáil Amach ó Stór..."
+
+#~ msgctxt "Comment"
+#~ msgid "Checkout out files from an existing repository into this folder."
+#~ msgstr ""
+#~ "Seiceáil comhaid amach as stór atá ann agus cuir iad san fhillteán seo."
+
+#~ msgctxt "Name"
+#~ msgid "Switch..."
+#~ msgstr "Athraigh..."
+
+#~ msgctxt "Comment"
+#~ msgid "Switch given working copy to another branch"
+#~ msgstr "Athraigh an chóip oibre sonraithe go brainse eile"
+
+#~ msgctxt "Name"
+#~ msgid "Merge..."
+#~ msgstr "Cumaisc..."
+
+#~ msgctxt "Comment"
+#~ msgid "Merge changes between this and another branch"
+#~ msgstr "Cumaisc athruithe idir an brainse seo agus brainse eile"
+
+#~ msgctxt "Name"
+#~ msgid "Blame..."
+#~ msgstr "Locht..."
+
+#~ msgctxt "Comment"
+#~ msgid "See who wrote each line of the file and in what revision"
+#~ msgstr ""
+#~ "Iniúch cé a scríobh gach líne den chomhad agus an leasú ina ndearna sé/sí "
+#~ "an t-athrú"
+
+#~ msgctxt "Name"
+#~ msgid "Create Patch..."
+#~ msgstr "Cruthaigh Paiste..."
+
+#~ msgctxt "Comment"
+#~ msgid "Checkout out an unversioned copy of a tree from a repository"
+#~ msgstr "Seiceáil cóip den chrann gan leagan amach as an stór"
+
+#~ msgctxt "Name"
+#~ msgid "Diff (local)"
+#~ msgstr "Diff (logánta)"
+
+#~ msgctxt "Comment"
+#~ msgid "Show local changes since last update"
+#~ msgstr "Taispeáin athruithe logánta ón nuashonrú is déanaí"
+
+#~ msgctxt "Name"
+#~ msgid "SVN Update"
+#~ msgstr "SVN Nuashonrú"
+
+#~ msgctxt "Name"
+#~ msgid "SVN Commit"
+#~ msgstr "SVN Cur i bhFeidhm"
+
+#~ msgctxt "Name"
+#~ msgid "Kompare"
+#~ msgstr "Kompare"
+
+#~ msgctxt "GenericName"
+#~ msgid "Diff/Patch Frontend"
+#~ msgstr "Comhéadan Diff/Patch"
+
+#~ msgctxt "Name"
+#~ msgid "KompareNavTreePart"
+#~ msgstr "KompareNavTreePart"
+
+#~ msgctxt "Name"
+#~ msgid "KomparePart"
+#~ msgstr "KomparePart"
+
+#~ msgctxt "Name"
+#~ msgid "Qt Designer Files"
+#~ msgstr "Comhaid Qt Designer"
+
+#~ msgctxt "Name"
+#~ msgid "KUIViewer"
+#~ msgstr "KUIViewer"
+
+#~ msgctxt "GenericName"
+#~ msgid "Qt Designer UI File Viewer"
+#~ msgstr "Amharcán Comhad Qt Designer"
+
+#~ msgctxt "Name"
+#~ msgid "KUIViewerPart"
+#~ msgstr "KUIViewerPart"
+
+#~ msgctxt "Name"
+#~ msgid "Lokalize"
+#~ msgstr "Lokalize"
+
+#~ msgctxt "GenericName"
+#~ msgid "Computer-Aided Translation System"
+#~ msgstr "Córas Aistriúcháin Ríomhchuidithe"
+
+#~ msgctxt "Name"
+#~ msgid "Scheck"
+#~ msgstr "Scheck"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Development style for searching accelerator and style guide conflicts"
+#~ msgstr ""
+#~ "Stíl forbartha a lorgaíonn coinbhleachtaí idir aicearraí agus treoracha "
+#~ "stíle an fheidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "Umbrello"
+#~ msgstr "Umbrello"
+
+#~ msgctxt "GenericName"
+#~ msgid "UML Modeller"
+#~ msgstr "Samhaltóir UML"
+
+#~ msgctxt "GenericName"
+#~ msgid "KDE Bug Management"
+#~ msgstr "Bainisteoireacht Fabhtanna KDE"
+
+#~ msgctxt "Name"
+#~ msgid "KBugBuster"
+#~ msgstr "KBugBuster"
+
+#~ msgctxt "Name"
+#~ msgid "Bugzilla To-do List"
+#~ msgstr "Tascliosta Bugzilla"
+
+#~ msgctxt "Name"
+#~ msgid "CTags Plugin"
+#~ msgstr "Breiseán CTags"
+
+#~ msgctxt "Comment"
+#~ msgid "Cervisia"
+#~ msgstr "Cervisia"
+
+#~ msgctxt "Comment"
+#~ msgid "Facilitated insertion of HTML tags"
+#~ msgstr "Ionsá éascaithe de chlibeanna HTML"
+
+#~ msgctxt "Name"
+#~ msgid "KPyBrowser"
+#~ msgstr "KPyBrowser"
+
+#~ msgctxt "Comment"
+#~ msgid "KPyBrowser"
+#~ msgstr "KPyBrowser"
+
+#~ msgctxt "Name"
+#~ msgid "Text Snippets"
+#~ msgstr "Blúirí Téacs"
+
+#~ msgctxt "Comment"
+#~ msgid "Configurable Text Snippets"
+#~ msgstr "Blúirí Inchumraithe Téacs"
+
+#~ msgctxt "Name"
+#~ msgid "My First Kate Plugin"
+#~ msgstr "Mo Chéad Bhreiseán Kate"
+
+#~ msgctxt "Comment"
+#~ msgid "Mail files"
+#~ msgstr "Seol comhaid"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Tab Bar Extension"
+#~ msgstr "Eisínteacht Barra Cluaisíní Kate"
+
+#~ msgctxt "Name"
+#~ msgid "Kate Make Plugin"
+#~ msgstr "Breiseán Make Kate"
+
+#~ msgctxt "Comment"
+#~ msgid ""
+#~ "Allows you to open Kate with a specified session, or create a new one"
+#~ msgstr ""
+#~ "Leis seo is féidir leat seisiún sonraithe Kate a oscailt, nó ceann nua a "
+#~ "chruthú"
+
+#~ msgctxt "Name"
+#~ msgid "KAider"
+#~ msgstr "KAider"
+
+#~ msgctxt "Name"
+#~ msgid "Message Catalogs"
+#~ msgstr "Catalóg teachtaireachtaí"
+
+#~ msgctxt "Name"
+#~ msgid "KBabel Catalog Manager"
+#~ msgstr "KBabel - Bainisteoir na gCatalóg"
+
+#~ msgctxt "GenericName"
+#~ msgid "Translation Tool Catalog Manager"
+#~ msgstr "Uirlis Aistriúcháin - Bainisteoir na gCatalóg"
+
+#~ msgctxt "Comment"
+#~ msgid "KBabel filter"
+#~ msgstr "Scagaire KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Data Tool for KBabel"
+#~ msgstr "Uirlis Sonraí KDE le haghaidh KBabel"
+
+#~ msgctxt "Name"
+#~ msgid "Accelerator Validation for KBabel"
+#~ msgstr "Bailíochtú na nAicearraí le haghaidh KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "Check Accelerators"
+#~ msgstr "Seiceáil Aicearraí"
+
+#~ msgctxt "Name"
+#~ msgid "Argument Validation for KBabel"
+#~ msgstr "Bailíochtú Argóintí le haghaidh KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "Check Arguments"
+#~ msgstr "Seiceáil Argóintí"
+
+#~ msgctxt "Name"
+#~ msgid "Translated Context Info Validation for KBabel"
+#~ msgstr "Bailíochtú Faisnéise Aistrithe Chomhthéacs le haghaidh KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "Look for Translated Context Info"
+#~ msgstr "Lorg Faisnéis Aistrithe Chomhthéacs"
+
+#~ msgctxt "Name"
+#~ msgid "Equation Validation for KBabel"
+#~ msgstr "Bailíochtú Cothromóidí le haghaidh KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "Check Equations"
+#~ msgstr "Seiceáil Cothromóidí"
+
+#~ msgctxt "Name"
+#~ msgid "Translated Message Length Validator for KBabel"
+#~ msgstr "Bailíochtú Faid Teachtaireachtaí Aistrithe le haghaidh KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "Check Translated Message Length"
+#~ msgstr "Seiceáil Fad na dTeachtaireachtaí Aistrithe"
+
+#~ msgctxt "Name"
+#~ msgid "Check for Translated Strings Containing English for KBabel"
+#~ msgstr "Lorg Teaghráin Aistrithe ina bhfuil Béarla le haghaidh KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "Translations Containing English"
+#~ msgstr "Aistriúcháin ina bhfuil Béarla"
+
+#~ msgctxt "Name"
+#~ msgid "Plural Form Validation for KBabel"
+#~ msgstr "Bailíochtú Leaganacha Iolra le haghaidh KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "Check Plural Forms"
+#~ msgstr "Seiceáil Leaganacha Iolra"
+
+#~ msgctxt "Name"
+#~ msgid "Punctuation Validation for KBabel"
+#~ msgstr "Bailíochtú na Poncaíochta le haghaidh KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "Check Punctuation"
+#~ msgstr "Seiceáil Poncaíocht"
+
+#~ msgctxt "Name"
+#~ msgid "Catalan Grammar"
+#~ msgstr "Gramadach na Catalóinise"
+
+#~ msgctxt "Comment"
+#~ msgid "Check Translated Messages with a set of Regular Expressions"
+#~ msgstr ""
+#~ "Seiceáil Teachtaireachtaí Aistrithe le tacar de Shloinn Ionadaíochta"
+
+#~ msgctxt "Name"
+#~ msgid "Toggle Fuzzy Tool for KBabel"
+#~ msgstr "Uirlis Scoránaithe Doiléire le haghaidh KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "Set All Fuzzy"
+#~ msgstr "Déan Gach Teaghrán Doiléir"
+
+#~ msgctxt "Name"
+#~ msgid "String Translated as Whitespace Validator for KBabel"
+#~ msgstr "Bailíochtú Aistriúchán Spás Bán le haghaidh KBabel"
+
+#~ msgctxt "Comment"
+#~ msgid "Whitespace Translations"
+#~ msgstr "Aistriúcháin Spáis Bháin"
+
+#~ msgctxt "Name"
+#~ msgid "XML Validation for KBabel"
+#~ msgstr "Bailíochtú XML le haghaidh KBabel"
+
+#~ msgctxt "Name"
+#~ msgid "KBabel GNU Gettext Export Filter"
+#~ msgstr "Scagaire Easpórtála Gettext GNU le haghaidh KBabel"
+
+#~ msgctxt "Name"
+#~ msgid "KBabel GNU Gettext Import Filter"
+#~ msgstr "Scagaire Iompórtála Gettext GNU le haghaidh KBabel"
+
+#~ msgctxt "Name"
+#~ msgid "KBabel Linguist Export Filter"
+#~ msgstr "Scagaire Easpórtála Linguist le haghaidh KBabel"
+
+#~ msgctxt "Name"
+#~ msgid "KBabel Linguist Import Filter"
+#~ msgstr "Scagaire Iompórtála Linguist le haghaidh KBabel"
+
+#~ msgctxt "Name"
+#~ msgid "KBabel XLIFF Export Filter"
+#~ msgstr "Scagaire Easpórtála XLIFF le haghaidh KBabel"
+
+#~ msgctxt "Name"
+#~ msgid "KBabel XLIFF Import Filter"
+#~ msgstr "Scagaire Iompórtála XLIFF le haghaidh KBabel"
+
+#~ msgctxt "Name"
+#~ msgid "KBabel"
+#~ msgstr "KBabel"
+
+#~ msgctxt "GenericName"
+#~ msgid "Translation Tool"
+#~ msgstr "Uirlis Aistriúcháin"
+
+#~ msgctxt "Name"
+#~ msgid "KBabel Dictionary"
+#~ msgstr "Foclóir KBabel"
+
+#~ msgctxt "GenericName"
+#~ msgid "Translation Tool Dictionary"
+#~ msgstr "Uirlis Aistriúcháin - Foclóir"
+
+#~ msgctxt "Comment"
+#~ msgid "Dictionary module for KBabelDict"
+#~ msgstr "Modúl foclóra le haghaidh KBabelDict"
+
+#~ msgctxt "Name"
+#~ msgid "Translation Database for KBabelDict"
+#~ msgstr "Cuimhne Aistriúcháin le haghaidh KBabelDict"
+
+#~ msgctxt "Name"
+#~ msgid "Translation Database v2 for KBabelDict"
+#~ msgstr "Cuimhne Aistriúcháin (v2) le haghaidh KBabelDict"
+
+#~ msgctxt "Name"
+#~ msgid "Auxiliary PO Module for KBabelDict"
+#~ msgstr "Modúl Cúnta PO le haghaidh KBabelDict"
+
+#~ msgctxt "Name"
+#~ msgid "PO Compendium Module for KBabelDict"
+#~ msgstr "Modúl Díolama PO le haghaidh KBabelDict"
+
+#~ msgctxt "Name"
+#~ msgid "TMX Compendium Module for KBabelDict"
+#~ msgstr "Modúl Díolama TMX le haghaidh KBabelDict"
+
+#~ msgctxt "Name"
+#~ msgid "C++ Info"
+#~ msgstr "Eolas C++"
+
+#~ msgctxt "Name"
+#~ msgid "Diff Stats"
+#~ msgstr "Staitistic Diff"
+
+#~ msgctxt "Name"
+#~ msgid "Qt Linguist File Info"
+#~ msgstr "Eolas faoi Chomhad Qt Linguist"
+
+#~ msgctxt "Name"
+#~ msgid "Catalog Information"
+#~ msgstr "Eolas Catalóga"
+
+#~ msgid "Comment=GNU Gettext Message Catalog"
+#~ msgstr "Comment=Catalóg teachtaireachtaí GNU Gettext"

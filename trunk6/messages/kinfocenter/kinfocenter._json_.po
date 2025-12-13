@@ -1,0 +1,574 @@
+# translation of desktop_kdebase.po to Irish
+# Kevin Scannell <kscanne@gmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 12:01+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: kcms/about-distro/src/kcm_about-distro.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"about,info,information,distribution,distro,system,kernel,qt,kde,version,"
+"winver"
+msgstr ""
+
+#: kcms/audio_information/kcm_audio_information.json
+msgctxt "X-KDE-Keywords"
+msgid "Pipewire,Audio,PulseAudio,pactl"
+msgstr ""
+
+#: kcms/block_devices/kcm_block_devices.json
+msgctxt "X-KDE-Keywords"
+msgid "lsblk,block device,partition,disk,drive,hdd,ssd,nvme"
+msgstr ""
+
+#: kcms/cpu/kcm_cpu.json
+msgctxt "X-KDE-Keywords"
+msgid "cpu,amd,intel,arm,instructions,cores,architecture,byte order"
+msgstr ""
+
+#: kcms/edid/kcm_edid.json
+msgctxt "X-KDE-Keywords"
+msgid "EDID,Graphics,dxdiag"
+msgstr ""
+
+#: kcms/egl/kcm_egl.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid ""
+#| "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,"
+#| "X-Server,XFree86,Display"
+msgctxt "X-KDE-Keywords"
+msgid "OpenGL,DRI,3D,VideoCard,Hardware Acceleration,Graphics,EGL,dxdiag"
+msgstr ""
+"OpenGL,DRI,GLX,3D,FísChárta,Luasú Crua-Earraí,Grafaic,X,X11,Freastalaí-X,"
+"XFree86,Scáileán"
+
+#: kcms/energy/kcm_energyinfo.json
+msgctxt "X-KDE-Keywords"
+msgid "Battery,Energy,Statistics,History,Power"
+msgstr ""
+
+#: kcms/firmware_security/kcm_firmware_security.json
+msgctxt "X-KDE-Keywords"
+msgid "firmware,security,hsi,secureboot,fwupd,bootguard,lockdown"
+msgstr ""
+
+#: kcms/glx/kcm_glx.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid ""
+#| "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,"
+#| "X-Server,XFree86,Display"
+msgctxt "X-KDE-Keywords"
+msgid ""
+"OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,X-"
+"Server,XFree86,Display,dxdiag"
+msgstr ""
+"OpenGL,DRI,GLX,3D,FísChárta,Luasú Crua-Earraí,Grafaic,X,X11,Freastalaí-X,"
+"XFree86,Scáileán"
+
+#: kcms/interrupts/kcm_interrupts.json
+msgctxt "X-KDE-Keywords"
+msgid "Interrupts,IRQ,System Information"
+msgstr "Idirbhristeacha,IRQ,Eolas faoin Chórais"
+
+#: kcms/kwinsupportinfo/kcm_kwinsupportinfo.json.in
+msgctxt "X-KDE-Keywords"
+msgid "dxdiag"
+msgstr ""
+
+#: kcms/memory/kcm_memory.json
+msgctxt "X-KDE-Keywords"
+msgid "Memory,RAM,dmidecode"
+msgstr ""
+
+#: kcms/network/kcm_network.json
+msgctxt "X-KDE-Keywords"
+msgid "network,nic,ip,ip address,mac,inet,eth,wlan,wifi"
+msgstr ""
+
+#: kcms/opencl/kcm_opencl.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid ""
+#| "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,"
+#| "X-Server,XFree86,Display"
+msgctxt "X-KDE-Keywords"
+msgid "OpenCL,VideoCard,Hardware Acceleration,Graphics,dxdiag"
+msgstr ""
+"OpenGL,DRI,GLX,3D,FísChárta,Luasú Crua-Earraí,Grafaic,X,X11,Freastalaí-X,"
+"XFree86,Scáileán"
+
+#: kcms/pci/kcm_pci.json.cmake
+msgctxt "X-KDE-Keywords"
+msgid "PCI,PCI-Devices,PCI-Bus,System Information"
+msgstr "PCI,Gléasanna PCI,Bun PCI,Eolas faoin Chóras"
+
+#: kcms/samba/smbstatus.json
+msgctxt "X-KDE-Keywords"
+msgid "SMB,SAMBA,Windows network,LAN,System Information"
+msgstr "SMB,SAMBA,Líonra Windows,LAN,líonra logánta,Eolas faoin Chóras"
+
+#: kcms/sensors/kcm_sensors.json
+msgctxt "X-KDE-Keywords"
+msgid ""
+"lm_sensors,sensors,temp,temperature,volt,voltage,sensors,fan,fan speed,"
+"monitoring,amp,amps,current,power"
+msgstr ""
+
+#: kcms/usbview/kcmusb.json
+msgctxt "X-KDE-Keywords"
+msgid "USB,devices,viewer,control"
+msgstr "USB,gléasanna,amharcán,rialú"
+
+#: kcms/vulkan/kcm_vulkan.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid ""
+#| "OpenGL,DRI,GLX,3D,VideoCard,Hardware Acceleration,Graphics,X,X11,Xserver,"
+#| "X-Server,XFree86,Display"
+msgctxt "X-KDE-Keywords"
+msgid "Vulkan,VideoCard,Hardware Acceleration,Graphics,dxdiag"
+msgstr ""
+"OpenGL,DRI,GLX,3D,FísChárta,Luasú Crua-Earraí,Grafaic,X,X11,Freastalaí-X,"
+"XFree86,Scáileán"
+
+#: kcms/wayland/kcm_wayland.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "SMB,SAMBA,Windows network,LAN,System Information"
+msgctxt "X-KDE-Keywords"
+msgid "Wayland,Compositor,Display,System Information,dxdiag"
+msgstr "SMB,SAMBA,Líonra Windows,LAN,líonra logánta,Eolas faoin Chóras"
+
+#: kcms/xserver/kcm_xserver.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information"
+msgctxt "X-KDE-Keywords"
+msgid "X,X-Server,XServer,XFree86,Display,VideoCard,System Information,dxdiag"
+msgstr ""
+"X,Freastalaí-X,Freastalaí X,XFree86,Scáileán,Físchárta,Eolas faoin Chóras"
+
+#: kcms/about-distro/src/kcm_about-distro.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Information about files and directories."
+msgctxt "Name"
+msgid "About this System"
+msgstr "Eolas faoi chomhaid agus faoi chomhadlanna."
+
+#: kcms/audio_information/kcm_audio_information.json
+msgctxt "Name"
+msgid "Audio"
+msgstr ""
+
+#: kcms/block_devices/kcm_block_devices.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "USB Devices"
+msgctxt "Name"
+msgid "Block Devices"
+msgstr "Gléasanna USB"
+
+#: kcms/cpu/kcm_cpu.json
+msgctxt "Name"
+msgid "CPU"
+msgstr ""
+
+#: kcms/edid/kcm_edid.json
+msgctxt "Name"
+msgid "EDID"
+msgstr ""
+
+#: kcms/egl/kcm_egl.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "OpenGL"
+msgctxt "Name"
+msgid "OpenGL (EGL)"
+msgstr "OpenGL"
+
+#: kcms/energy/kcm_energyinfo.json
+msgctxt "Name"
+msgid "Energy"
+msgstr ""
+
+#: kcms/firmware_security/kcm_firmware_security.json
+msgctxt "Name"
+msgid "Firmware Security"
+msgstr ""
+
+#: kcms/glx/kcm_glx.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "OpenGL"
+msgctxt "Name"
+msgid "OpenGL (GLX)"
+msgstr "OpenGL"
+
+#: kcms/interrupts/kcm_interrupts.json
+msgctxt "Name"
+msgid "Interrupts"
+msgstr "Idirbhristeacha"
+
+#: kcms/kwinsupportinfo/kcm_kwinsupportinfo.json.in
+msgctxt "Name"
+msgid "Window Manager"
+msgstr ""
+
+#: kcms/memory/kcm_memory.json
+msgctxt "Name"
+msgid "Memory"
+msgstr "Cuimhne"
+
+#: kcms/network/kcm_network.json
+msgctxt "Name"
+msgid "Network Interfaces"
+msgstr "Comhéadain Líonra"
+
+#: kcms/opencl/kcm_opencl.json
+msgctxt "Name"
+msgid "OpenCL"
+msgstr ""
+
+#: kcms/pci/kcm_pci.json.cmake
+msgctxt "Name"
+msgid "PCI"
+msgstr "PCI"
+
+#: kcms/samba/smbstatus.json
+msgctxt "Name"
+msgid "Samba Status"
+msgstr "Stádas Samba"
+
+#: kcms/sensors/kcm_sensors.json
+msgctxt "Name"
+msgid "Sensors"
+msgstr ""
+
+#: kcms/usbview/kcmusb.json
+msgctxt "Name"
+msgid "USB Devices"
+msgstr "Gléasanna USB"
+
+#: kcms/vulkan/kcm_vulkan.json
+msgctxt "Name"
+msgid "Vulkan"
+msgstr ""
+
+#: kcms/wayland/kcm_wayland.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Thailand"
+msgctxt "Name"
+msgid "Wayland"
+msgstr "An Téalainn"
+
+#: kcms/xserver/kcm_xserver.json
+msgctxt "Name"
+msgid "X-Server"
+msgstr "Freastalaí X"
+
+#: kcms/about-distro/src/kcm_about-distro.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Information about files and directories."
+msgctxt "Description"
+msgid "Information About This System"
+msgstr "Eolas faoi chomhaid agus faoi chomhadlanna."
+
+#: kcms/audio_information/kcm_audio_information.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Device Information"
+msgctxt "Description"
+msgid "Audio Device Information"
+msgstr "Eolas faoi Ghléas"
+
+#: kcms/block_devices/kcm_block_devices.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "USB Devices"
+msgctxt "Description"
+msgid "Block Devices"
+msgstr "Gléasanna USB"
+
+#: kcms/cpu/kcm_cpu.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Device Information"
+msgctxt "Description"
+msgid "Advanced CPU Information"
+msgstr "Eolas faoi Ghléas"
+
+#: kcms/edid/kcm_edid.json
+msgctxt "Description"
+msgid "Extended Display Identification Data"
+msgstr ""
+
+#: kcms/egl/kcm_egl.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "OpenGL information"
+msgctxt "Description"
+msgid "EGL information"
+msgstr "Eolas faoi OpenGL"
+
+#: kcms/energy/kcm_energyinfo.json
+msgctxt "Description"
+msgid "Energy Consumption Statistics"
+msgstr ""
+
+#: kcms/firmware_security/kcm_firmware_security.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Memory information"
+msgctxt "Description"
+msgid "Firmware Security Information"
+msgstr "Faisnéis chuimhne"
+
+#: kcms/glx/kcm_glx.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "OpenGL information"
+msgctxt "Description"
+msgid "GLX information"
+msgstr "Eolas faoi OpenGL"
+
+#: kcms/interrupts/kcm_interrupts.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Interrupt information"
+msgctxt "Description"
+msgid "Interrupt information"
+msgstr "Eolas faoi idirbhristeacha"
+
+#: kcms/kwinsupportinfo/kcm_kwinsupportinfo.json.in
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "IO-port information"
+msgctxt "Description"
+msgid "KWin Support information"
+msgstr "Eolas faoi Phoirt I/A"
+
+#: kcms/memory/kcm_memory.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Memory information"
+msgctxt "Description"
+msgid "Memory Information"
+msgstr "Faisnéis chuimhne"
+
+#: kcms/network/kcm_network.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Network interface information"
+msgctxt "Description"
+msgid "Network interface information"
+msgstr "Eolas faoin gcomhéadan líonra"
+
+#: kcms/opencl/kcm_opencl.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "PCI information"
+msgctxt "Description"
+msgid "OpenCL API information"
+msgstr "Eolas PCI"
+
+#: kcms/pci/kcm_pci.json.cmake
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "PCI information"
+msgctxt "Description"
+msgid "PCI information"
+msgstr "Eolas PCI"
+
+#: kcms/samba/smbstatus.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Samba status monitor"
+msgctxt "Description"
+msgid "Samba status monitor"
+msgstr "Monatóir stádais Samba"
+
+#: kcms/sensors/kcm_sensors.json
+msgctxt "Description"
+msgid "Sensors"
+msgstr ""
+
+#: kcms/usbview/kcmusb.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "USB devices attached to this computer"
+msgctxt "Description"
+msgid "USB devices attached to this computer"
+msgstr "Gléasanna USB ceangailte leis an ríomhaire seo"
+
+#: kcms/vulkan/kcm_vulkan.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Graphical Information"
+msgctxt "Description"
+msgid "Vulkan graphics API information"
+msgstr "Faisnéis Ghrafach"
+
+#: kcms/wayland/kcm_wayland.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Information about files and directories."
+msgctxt "Description"
+msgid "Information about the Wayland Compositor"
+msgstr "Eolas faoi chomhaid agus faoi chomhadlanna."
+
+#: kcms/xserver/kcm_xserver.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "X-Server information"
+msgctxt "Description"
+msgid "X-Server information"
+msgstr "Eolas faoin bhfreastalaí X"
+
+#~ msgctxt "Name"
+#~ msgid "Device Viewer"
+#~ msgstr "Amharcán Gléasanna"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Device Viewer"
+#~ msgctxt "Description"
+#~ msgid "Device Viewer"
+#~ msgstr "Amharcán Gléasanna"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Device Information"
+#~ msgctxt "Name"
+#~ msgid "Basic Information"
+#~ msgstr "Eolas faoi Ghléas"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "USB Devices"
+#~ msgctxt "Name"
+#~ msgid "Devices"
+#~ msgstr "Gléasanna USB"
+
+#~ msgctxt "Name"
+#~ msgid "KInfoCenter Category"
+#~ msgstr "Catagóir KInfoCenter"
+
+#~ msgctxt "Name"
+#~ msgid "Lost And Found"
+#~ msgstr "Earraí Caillte"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "PCI information"
+#~ msgctxt "Name"
+#~ msgid "Information"
+#~ msgstr "Eolas PCI"
+
+#~ msgctxt "Comment"
+#~ msgid "Device Viewer"
+#~ msgstr "Amharcán Gléasanna"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Info Center"
+#~ msgctxt "Name"
+#~ msgid "Info Center"
+#~ msgstr "Lárionad Eolais"
+
+#~ msgctxt "GenericName"
+#~ msgid "Info Center"
+#~ msgstr "Lárionad Eolais"
+
+#~ msgctxt "Name"
+#~ msgid "DMA-Channels"
+#~ msgstr "Cainéil-DMA"
+
+#~ msgctxt "Comment"
+#~ msgid "DMA information"
+#~ msgstr "Eolas faoi DMA"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "dma,DMA-Channels,System Information"
+#~ msgstr "dma,Cainéil-DMA,Eolas faoin Chóras"
+
+#~ msgctxt "Name"
+#~ msgid "IO-Ports"
+#~ msgstr "Poirt I/A"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid ""
+#~ "IO,I/O,IO-Ports,I/O-Ports,Ports,IO-Range,I/O-Range,System Information"
+#~ msgstr ""
+#~ "IA,I/A,Poirt IA,Poirt I/A,Poirt,Raon IA,Raon I/A,Eolas faoin Chórais"
+
+#~ msgctxt "Name"
+#~ msgid "IEEE 1394 Devices"
+#~ msgstr "Gléasanna IEEE 1394"
+
+#~ msgctxt "Comment"
+#~ msgid "Attached IEEE 1394 devices"
+#~ msgstr "Gléasanna ceangailte IEEE 1394"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "1394,Firewire,devices,viewer,control"
+#~ msgstr "1394,Firewire,gléasanna,amharcán,rialú"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid ""
+#~ "Memory,RAM,Virtual memory,Physical memory,Shared memory,Swap,System "
+#~ "Information"
+#~ msgstr ""
+#~ "Cuimhne,RAM,Cuimhne fhíorúil,Cuimhne ábhartha,Comhchuimhne,Cuimhne "
+#~ "bhabhtála,Babhtáil,Eolas faoin Chóras"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "PCI information"
+#~ msgctxt "Name"
+#~ msgid "System Information"
+#~ msgstr "Eolas PCI"
+
+#~ msgctxt "Name"
+#~ msgid "Network Information"
+#~ msgstr "Faisnéis Líonra"
+
+#~ msgctxt "Name"
+#~ msgid "SCSI"
+#~ msgstr "SCSI"
+
+#~ msgctxt "Comment"
+#~ msgid "SCSI information"
+#~ msgstr "Eolas SCSI"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "SCSI,SCSI-Bus,System Information"
+#~ msgstr "SCSI,Bus SCSI,Eolas faoin Chóras"
+
+#~ msgctxt "Name"
+#~ msgid "KInfoCenter"
+#~ msgstr "KInfoCenter"
+
+#~ msgctxt "Name"
+#~ msgid "Summary"
+#~ msgstr "Achoimre"
+
+#~ msgctxt "Comment"
+#~ msgid "Hardware Information Summary"
+#~ msgstr "Achoimre ar na Crua-Earraí"

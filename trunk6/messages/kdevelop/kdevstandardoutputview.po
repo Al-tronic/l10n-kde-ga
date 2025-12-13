@@ -1,0 +1,210 @@
+# Irish translation of kdevstandardoutputview
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdevstandardoutputview package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevplatform/kdevstandardoutputview.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-17 11:51+0000\n"
+"PO-Revision-Date: 2009-01-20 10:11-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: outputwidget.cpp:44
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enter a case-insensitive regular expression to filter the output view"
+msgstr ""
+
+#: outputwidget.cpp:63
+#, kde-format
+msgctxt "@title:window"
+msgid "Output View"
+msgstr ""
+
+#: outputwidget.cpp:74
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close the currently active output view"
+msgstr ""
+
+#: outputwidget.cpp:80
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Close all other output views"
+msgstr ""
+
+#: outputwidget.cpp:91
+#, fuzzy, kde-format
+#| msgid "Previous"
+msgctxt "@action"
+msgid "Previous Output"
+msgstr "Siar"
+
+#: outputwidget.cpp:94
+#, fuzzy, kde-format
+#| msgid "Previous"
+msgctxt "@action"
+msgid "Next Output"
+msgstr "Siar"
+
+#: outputwidget.cpp:99
+#, kde-format
+msgctxt "@action"
+msgid "Select Activated Item"
+msgstr ""
+
+#: outputwidget.cpp:101
+#, kde-format
+msgctxt "@action"
+msgid "Focus when Selecting Item"
+msgstr ""
+
+#: outputwidget.cpp:110
+#, kde-format
+msgctxt "@action"
+msgid "Word Wrap"
+msgstr ""
+
+#: outputwidget.cpp:119
+#, fuzzy, kde-format
+#| msgid "Next"
+msgctxt "@action"
+msgid "First Item"
+msgstr "Ar Aghaidh"
+
+#: outputwidget.cpp:123
+#, fuzzy, kde-format
+#| msgid "Previous"
+msgctxt "@action"
+msgid "Previous Item"
+msgstr "Siar"
+
+#: outputwidget.cpp:127
+#, fuzzy, kde-format
+#| msgid "Next"
+msgctxt "@action"
+msgid "Next Item"
+msgstr "Ar Aghaidh"
+
+#: outputwidget.cpp:131
+#, fuzzy, kde-format
+#| msgid "Next"
+msgctxt "@action"
+msgid "Last Item"
+msgstr "Ar Aghaidh"
+
+#: outputwidget.cpp:144
+#, kde-format
+msgctxt "@action"
+msgid "Clear"
+msgstr ""
+
+#: outputwidget.cpp:161
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search..."
+msgstr ""
+
+#: outputwidget.cpp:197
+#, kde-format
+msgctxt "@action %1: output type, e.g. Build or Run"
+msgid "Configure %1 Output"
+msgstr ""
+
+#: outputwidget.cpp:818
+#, kde-format
+msgctxt ""
+"@info:tooltip %1 - position in the pattern, %2 - textual description of the "
+"error"
+msgid "Filter regular expression pattern error at offset %1: %2"
+msgstr ""
+
+#: outputwidgetconfig.cpp:64
+#, kde-format
+msgctxt "@title:window %1: output type, e.g. Build or Run"
+msgid "Configure %1 Output"
+msgstr ""
+
+#: outputwidgetconfig.cpp:74
+#, kde-format
+msgctxt "@option:check"
+msgid "Limit the number of output views"
+msgstr ""
+
+#: outputwidgetconfig.cpp:75
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Automatically close oldest output views"
+msgstr ""
+
+#: outputwidgetconfig.cpp:81
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Maximum output view count"
+msgstr ""
+
+#: outputwidgetconfig.cpp:83
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"The oldest output view is closed when\n"
+"the number of views exceeds this value"
+msgstr ""
+
+#: standardoutputview.cpp:80
+#, kde-format
+msgctxt "@title:window"
+msgid "Build"
+msgstr "Tóg"
+
+#: standardoutputview.cpp:83
+#, kde-format
+msgctxt "@title:window"
+msgid "Run"
+msgstr "Rith"
+
+#: standardoutputview.cpp:86
+#, kde-format
+msgctxt "@title:window"
+msgid "Debug"
+msgstr "Dífhabhtaigh"
+
+#: standardoutputview.cpp:89
+#, kde-format
+msgctxt "@title:window"
+msgid "Analyze"
+msgstr ""
+
+#: standardoutputview.cpp:92
+#, kde-format
+msgctxt "@title:window"
+msgid "Version Control"
+msgstr ""
+
+#~ msgctxt "@title:window"
+#~ msgid "Test"
+#~ msgstr "Tástáil"
+
+#~ msgctxt "@title:menu"
+#~ msgid "Navigation"
+#~ msgstr "Nascleanúint"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "Kevin Scannell"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "kscanne@gmail.com"
+
+#~ msgctxt "@title:menu"
+#~ msgid "View"
+#~ msgstr "Amharc"

@@ -1,0 +1,1549 @@
+# translation of desktop_kdebase.po to Irish
+# Kevin Scannell <kscanne@gmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-09 00:49+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
+"3 : 4\n"
+
+#: src/coredump/gui/org.kde.drkonqi.coredump.gui.desktop:10
+msgctxt "Name"
+msgid "Crashed Processes Viewer"
+msgstr ""
+
+#: src/coredump/gui/org.kde.drkonqi.coredump.gui.desktop:56
+msgctxt "GenericName"
+msgid "Crashed Processes Viewer"
+msgstr ""
+
+#: src/coredump/gui/org.kde.drkonqi.coredump.gui.desktop:102
+msgctxt "Comment"
+msgid "Offers detailed view of past crashes"
+msgstr ""
+
+#: src/coredump/gui/org.kde.drkonqi.coredump.gui.desktop:148
+msgctxt "Keywords"
+msgid "drkonqi;crash;coredumpd;bug;"
+msgstr ""
+
+#: src/coredump/launcher/drkonqi-coredump-launcher.notifyrc:5
+msgctxt "Comment"
+msgid "Crash Reporting System"
+msgstr ""
+
+#: src/coredump/launcher/drkonqi-coredump-launcher.notifyrc:25
+msgctxt "Name"
+msgid "Crash Reporting System"
+msgstr ""
+
+#: src/coredump/launcher/drkonqi-coredump-launcher.notifyrc:47
+msgctxt "Name"
+msgid "Crash"
+msgstr ""
+
+#: src/coredump/launcher/drkonqi-coredump-launcher.notifyrc:67
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Find applications, control panels and services"
+msgctxt "Comment"
+msgid "An application or background service crashed"
+msgstr "Aimsigh feidhmchláir, painéil rialaithe agus seirbhísí"
+
+#: src/org.kde.drkonqi.desktop.cmake:5
+msgctxt "Name"
+msgid "Dr Konqi"
+msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "gdb"
+#~ msgstr "gdb"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "gdb"
+#~ msgctxt "Name"
+#~ msgid "cdb"
+#~ msgstr "gdb"
+
+#~ msgctxt "Name"
+#~ msgid "kdbg"
+#~ msgstr "kdbg"
+
+#~ msgctxt "Name"
+#~ msgid "dbx"
+#~ msgstr "dbx"
+
+#~ msgctxt "Name"
+#~ msgid "kdbgwin"
+#~ msgstr "kdbgwin"
+
+#~ msgctxt "Name"
+#~ msgid "Activity Bar"
+#~ msgstr "Barra Gníomhaíochta"
+
+#~ msgctxt "Comment"
+#~ msgid "Tab bar to switch activities"
+#~ msgstr "Barra na gcluaisíní chun an ghníomhaíocht a mhalartú"
+
+#~ msgctxt "Name"
+#~ msgid "Analog Clock"
+#~ msgstr "Clog Analógach"
+
+#~ msgctxt "Comment"
+#~ msgid "A clock with hands"
+#~ msgstr "Clog le lámha"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Minimal Menu"
+#~ msgctxt "Name"
+#~ msgid "Global Menu"
+#~ msgstr "Roghchlár Íosta"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Display Brightness"
+#~ msgctxt "Name"
+#~ msgid "Battery and Brightness"
+#~ msgstr "Taispeáin Gile"
+
+#~ msgctxt "Comment"
+#~ msgid "See the power status of your battery"
+#~ msgstr "Féach ar stádas cumhachta do chadhnra"
+
+#, fuzzy
+#~| msgctxt "Keywords"
+#~| msgid "Power Management; Battery; System; Energy;"
+#~ msgctxt "Keywords"
+#~ msgid "Power Management;Battery;System;Energy;"
+#~ msgstr "Bainisteoireacht Cumhachta; Cadhnra; Córas; Fuinneamh; Cumhacht;"
+
+#~ msgctxt "Name"
+#~ msgid "Calendar"
+#~ msgstr "Féilire"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Clipboard Tool"
+#~ msgctxt "Name"
+#~ msgid "Clipboard"
+#~ msgstr "Uirlis Ghearrthaisce"
+
+#~ msgctxt "Name"
+#~ msgid "Device Notifier"
+#~ msgstr "Fógróir Gléis"
+
+#~ msgctxt "Comment"
+#~ msgid "Notifications and access for new devices"
+#~ msgstr "Fógairt agus rochtain ar ghléasanna nua"
+
+#~ msgctxt "Name"
+#~ msgid "Open with File Manager"
+#~ msgstr "Oscail le Bainisteoir na gComhad"
+
+#~ msgctxt "Name"
+#~ msgid "Digital Clock"
+#~ msgstr "Clog Digiteach"
+
+#~ msgctxt "Name"
+#~ msgid "Icon"
+#~ msgstr "Deilbhín"
+
+#~ msgctxt "Comment"
+#~ msgid "A generic icon"
+#~ msgstr "Deilbhín ginearálta"
+
+#~ msgctxt "Name"
+#~ msgid "Lock/Logout"
+#~ msgstr "Cuir Faoi Ghlas/Logáil Amach"
+
+#~ msgctxt "Comment"
+#~ msgid "Lock the screen or log out"
+#~ msgstr "Cuir an scáileán faoi ghlas, nó logáil amach"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Multimedia Player"
+#~ msgctxt "Name"
+#~ msgid "Media Player"
+#~ msgstr "Seinnteoir Ilmheán"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Power Control"
+#~ msgctxt "Comment"
+#~ msgid "Media Player Controls"
+#~ msgstr "Rialú Cumhachta"
+
+#~ msgctxt "Name"
+#~ msgid "Notifications"
+#~ msgstr "Fógairt"
+
+#~ msgctxt "Comment"
+#~ msgid "Display notifications and jobs"
+#~ msgstr "Taispeáin fógraí agus jabanna"
+
+#~ msgctxt "Name"
+#~ msgid "Panel Spacer"
+#~ msgstr "Scarthóir Painéil"
+
+#~ msgctxt "Comment"
+#~ msgid "Reserve empty spaces within the panel."
+#~ msgstr "Cuir spásanna folmha in áirithe sa phainéal."
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "CPU Monitor"
+#~ msgctxt "Name"
+#~ msgid "CPU Load Monitor"
+#~ msgstr "Monatóir an LAP"
+
+#~ msgctxt "Name"
+#~ msgid "Hard Disk I/O Monitor"
+#~ msgstr "Monatóir I/A Diosca Crua"
+
+#~ msgctxt "Name"
+#~ msgid "Memory Status"
+#~ msgstr "Stádas Cuimhne"
+
+#~ msgctxt "Comment"
+#~ msgid "A RAM usage monitor"
+#~ msgstr "Monatóir úsáid RAM"
+
+#~ msgctxt "Name"
+#~ msgid "Network Monitor"
+#~ msgstr "Monatóir an Líonra"
+
+#~ msgctxt "Comment"
+#~ msgid "A network usage monitor"
+#~ msgstr "Monatóir úsáide an líonra"
+
+#~ msgctxt "Name"
+#~ msgid "System Tray"
+#~ msgstr "Tráidire an Chórais"
+
+#~ msgctxt "Comment"
+#~ msgid "Access hidden applications minimized in the system tray"
+#~ msgstr "Rochtain feidhmchláir atá íoslaghdaithe i dtráidire an chórais"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Plasma Desktop Workspace"
+#~ msgctxt "Name"
+#~ msgid "Plasma Widgets"
+#~ msgstr "Spás Oibre Deisce Plasma"
+
+#~ msgctxt "Name"
+#~ msgid "Application Launcher"
+#~ msgstr "Tosaitheoir Feidhmchlár"
+
+#~ msgctxt "Comment"
+#~ msgid "Simple application launcher"
+#~ msgstr "Tosaitheoir simplí feidhmchlár"
+
+#~ msgctxt "Name"
+#~ msgid "Standard Menu"
+#~ msgstr "Gnáthroghchlár"
+
+#~ msgctxt "Comment"
+#~ msgid "The menu that normally shows on right-click"
+#~ msgstr "An roghchlár a thaispeántar tar éis deaschliceáil"
+
+#~ msgctxt "Name"
+#~ msgid "Paste"
+#~ msgstr "Greamaigh"
+
+#~ msgctxt "Comment"
+#~ msgid "Creates a widget from the contents of the clipboard"
+#~ msgstr "Cruthaíonn sé giuirléid ó inneachar na gearrthaisce"
+
+#~ msgctxt "Name"
+#~ msgid "Switch Activity"
+#~ msgstr "Athraigh Gníomhaíocht"
+
+#~ msgctxt "Comment"
+#~ msgid "Switch to another activity"
+#~ msgstr "Roghnaigh gníomhaíocht eile"
+
+#~ msgctxt "Name"
+#~ msgid "Switch Desktop"
+#~ msgstr "Athraigh an Deasc"
+
+#~ msgctxt "Comment"
+#~ msgid "Switch to another virtual desktop"
+#~ msgstr "Athraigh an deasc fhíorúil"
+
+#~ msgctxt "Name"
+#~ msgid "Switch Window"
+#~ msgstr "Athraigh an Fhuinneog"
+
+#~ msgctxt "Name"
+#~ msgid "Activities Engine"
+#~ msgstr "Inneall Gníomhaíochta"
+
+#~ msgctxt "Name"
+#~ msgid "Akonadi"
+#~ msgstr "Akonadi"
+
+#~ msgctxt "Comment"
+#~ msgid "Akonadi PIM data engine"
+#~ msgstr "Inneall sonraí PIM Akonadi"
+
+#~ msgctxt "Name"
+#~ msgid "Application Job Information"
+#~ msgstr "Eolas Faoi Jabanna Feidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "Application Information"
+#~ msgstr "Eolas faoi Fheidhmchláir"
+
+#~ msgctxt "Comment"
+#~ msgid "Calendar data engine"
+#~ msgstr "Inneall sonraí féilire"
+
+#~ msgctxt "Name"
+#~ msgid "Device Notifications"
+#~ msgstr "Fógraí Gléasanna"
+
+#~ msgctxt "Name"
+#~ msgid "Dictionary"
+#~ msgstr "Foclóir"
+
+#~ msgctxt "Comment"
+#~ msgid "Look up word meanings"
+#~ msgstr "Aimsigh sainmhíniú ar fhocal"
+
+#~ msgctxt "Name"
+#~ msgid "Run Commands"
+#~ msgstr "Rith Orduithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Run Executable Data Engine"
+#~ msgstr "Rith Inneall Sonraí Executable"
+
+#~ msgctxt "Name"
+#~ msgid "Favicons"
+#~ msgstr "Deilbhíní Ceanán"
+
+#~ msgctxt "Comment"
+#~ msgid "Data Engine for getting favicons of web sites"
+#~ msgstr "Inneall Sonraí a fhaigheann deilbhíní ceanán ó shuímh Ghréasáin"
+
+#~ msgctxt "Name"
+#~ msgid "Files and Directories"
+#~ msgstr "Comhaid agus Comhadlanna"
+
+#~ msgctxt "Comment"
+#~ msgid "Information about files and directories."
+#~ msgstr "Eolas faoi chomhaid agus faoi chomhadlanna."
+
+#~ msgctxt "Name"
+#~ msgid "Geolocation"
+#~ msgstr "Geolocation"
+
+#~ msgctxt "Comment"
+#~ msgid "Geolocation Data Engine"
+#~ msgstr "Inneall Sonraí Geolocation"
+
+#~ msgctxt "Name"
+#~ msgid "Geolocation GPS"
+#~ msgstr "Córas Suite Domhanda Geolocation"
+
+#~ msgctxt "Comment"
+#~ msgid "Geolocation from GPS address."
+#~ msgstr "Suíomh geografach ó sheoladh GPS."
+
+#~ msgctxt "Name"
+#~ msgid "Geolocation IP"
+#~ msgstr "Geolocation IP"
+
+#~ msgctxt "Comment"
+#~ msgid "Geolocation from IP address."
+#~ msgstr "Suíomh geografach ó sheoladh IP."
+
+#~ msgctxt "Comment"
+#~ msgid "Plasma Geolocation Provider"
+#~ msgstr "Soláthraí Geolocation Plasma"
+
+#~ msgctxt "Name"
+#~ msgid "Hotplug Events"
+#~ msgstr "Imeachtaí Hotplug"
+
+#~ msgctxt "Name"
+#~ msgid "Keyboard and Mouse State"
+#~ msgstr "Staid an Mhéarchláir agus na Luiche"
+
+#~ msgctxt "Name"
+#~ msgid "Pointer Position"
+#~ msgstr "Ionad na Luiche"
+
+#~ msgctxt "Comment"
+#~ msgid "Mouse position and cursor"
+#~ msgstr "Suíomh na luiche agus an cúrsóir"
+
+#~ msgctxt "Name"
+#~ msgid "Networking"
+#~ msgstr "Líonrú"
+
+#~ msgctxt "Comment"
+#~ msgid "Network interface information"
+#~ msgstr "Eolas faoin gcomhéadan líonra"
+
+#~ msgctxt "Name"
+#~ msgid "Application Notifications"
+#~ msgstr "Fógairtí Feidhmchláir"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Fonts Package"
+#~ msgctxt "Name"
+#~ msgid "PackageKit"
+#~ msgstr "Pacáiste na gClónna"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Places Data Engine"
+#~ msgctxt "Comment"
+#~ msgid "PackageKit Data Engine"
+#~ msgstr "Inneall Sonraí Áiteanna"
+
+#~ msgctxt "Name"
+#~ msgid "Places"
+#~ msgstr "Áiteanna"
+
+#~ msgctxt "Comment"
+#~ msgid "Places, as seen in the file manager and in file dialogs."
+#~ msgstr ""
+#~ "Áiteanna, mar a fheictear sa bhainisteoir comhad agus  i ndialóga comhad."
+
+#~ msgctxt "Name|plasma data engine"
+#~ msgid "Power Management"
+#~ msgstr "Bainisteoireacht Cumhachta"
+
+#~ msgctxt "Comment"
+#~ msgid "Battery, AC, sleep and PowerDevil information."
+#~ msgstr ""
+#~ "Faisnéis a bhaineann leis an gcadhnra, ceangal SA, codladh agus "
+#~ "PowerDevil."
+
+#~ msgctxt "Name"
+#~ msgid "RSS"
+#~ msgstr "RSS"
+
+#~ msgctxt "Comment"
+#~ msgid "RSS News Data Engine"
+#~ msgstr "Inneall Sonraí Nuachta RSS"
+
+#~ msgctxt "Name"
+#~ msgid "Imgur"
+#~ msgstr "Imgur"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "paste.opensuse.org"
+#~ msgctxt "Name"
+#~ msgid "paste.kde.org"
+#~ msgstr "paste.opensuse.org"
+
+#~ msgctxt "Name"
+#~ msgid "pastebin.com"
+#~ msgstr "pastebin.com"
+
+#~ msgctxt "Name"
+#~ msgid "paste.opensuse.org"
+#~ msgstr "paste.opensuse.org"
+
+#~ msgctxt "Name"
+#~ msgid "paste.ubuntu.com"
+#~ msgstr "paste.ubuntu.com"
+
+#~ msgctxt "Name"
+#~ msgid "privatepaste.com"
+#~ msgstr "privatepaste.com"
+
+#~ msgctxt "Name"
+#~ msgid "wklej.org"
+#~ msgstr "wklej.org"
+
+#~ msgctxt "Name"
+#~ msgid "wstaw.org"
+#~ msgstr "wstaw.org"
+
+#~ msgctxt "Name"
+#~ msgid "Share Services"
+#~ msgstr "Seirbhísí Comhroinnt"
+
+#~ msgctxt "Name"
+#~ msgid "Device Information"
+#~ msgstr "Eolas faoi Ghléas"
+
+#~ msgctxt "Comment"
+#~ msgid "Device data via Solid"
+#~ msgstr "Eolas faoi ghléas trí Solid"
+
+#~ msgctxt "Name"
+#~ msgid "System Monitor"
+#~ msgstr "Monatóir an Chórais"
+
+#~ msgctxt "Comment"
+#~ msgid "System status information"
+#~ msgstr "Eolas faoi stádas an chórais"
+
+#~ msgctxt "Name"
+#~ msgid "Date and Time"
+#~ msgstr "Dáta agus Am"
+
+#~ msgctxt "Comment"
+#~ msgid "Date and time by timezone"
+#~ msgstr "Dáta agus am de réir creasa ama"
+
+#~ msgctxt "Name"
+#~ msgid "BBC Weather from UK MET Office"
+#~ msgstr "Aimsir BBC ó Oifig UK MET"
+
+#~ msgctxt "Comment"
+#~ msgid "XML Data from the UK MET Office"
+#~ msgstr "Sonraí XML ó Oifig UK MET"
+
+#~ msgctxt "Name"
+#~ msgid "Environment Canada"
+#~ msgstr "Environment Canada"
+
+#~ msgctxt "Comment"
+#~ msgid "XML Data from Environment Canada"
+#~ msgstr "Sonraí XML ó Environment Canada"
+
+#~ msgctxt "Name"
+#~ msgid "NOAA's National Weather Service"
+#~ msgstr "Seirbhís Náisiúnta na hAimsire de chuid NOAA"
+
+#~ msgctxt "Comment"
+#~ msgid "XML Data from NOAA's National Weather Service"
+#~ msgstr "Sonraí XML ó Sheirbhís Náisiúnta na hAimsire de chuid NOAA"
+
+#~ msgctxt "Name"
+#~ msgid "wetter.com"
+#~ msgstr "wetter.com"
+
+#~ msgctxt "Comment"
+#~ msgid "Weather forecast by wetter.com"
+#~ msgstr "Réamhaisnéis aimsire ó wetterm.com"
+
+#~ msgctxt "Name"
+#~ msgid "Weather"
+#~ msgstr "Aimsir"
+
+#~ msgctxt "Comment"
+#~ msgid "Weather data from multiple online sources"
+#~ msgstr "Sonraí aimsire ó fhoinsí éagsúla ar líne"
+
+#~ msgctxt "Name"
+#~ msgid "Free Space Notifier"
+#~ msgstr "Fógróir Spáis Shaoir"
+
+#~ msgctxt "Comment"
+#~ msgid "Warns when running out of space on your home folder"
+#~ msgstr "Tugann sé rabhadh duit nuair atá d'fhillteán baile ag éirí lán"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE Free Space Notifier Daemon"
+#~ msgstr "Fógróir Spáis Shaoir KDE"
+
+#~ msgctxt "Name"
+#~ msgid "Low Disk Space"
+#~ msgstr "Easpa Spáis ar an Diosca"
+
+#~ msgctxt "Name"
+#~ msgid "Warning"
+#~ msgstr "Rabhadh"
+
+#~ msgctxt "Comment"
+#~ msgid "Used for warning notifications"
+#~ msgstr "Úsáidte do rabhaidh"
+
+#~ msgctxt "Name"
+#~ msgid "Running low on disk space"
+#~ msgstr "Tá an diosca ag éirí lán"
+
+#~ msgctxt "Comment"
+#~ msgid "You are running low on disk space"
+#~ msgstr "Tá an diosca ag éirí lán"
+
+#~ msgctxt "Name"
+#~ msgid "Klipper"
+#~ msgstr "Klipper"
+
+#~ msgctxt "GenericName"
+#~ msgid "Clipboard Tool"
+#~ msgstr "Uirlis Ghearrthaisce"
+
+#~ msgctxt "Comment"
+#~ msgid "A cut & paste history utility"
+#~ msgstr "Uirlis staire gearrtha agus greamaithe"
+
+#~ msgctxt "Description"
+#~ msgid "Jpeg-Image"
+#~ msgstr "Íomhá JPEG"
+
+#~ msgctxt "Description"
+#~ msgid "Launch &Gwenview"
+#~ msgstr "Tosaigh &Gwenview"
+
+#~ msgctxt "Description"
+#~ msgid "Web-URL"
+#~ msgstr "URL Gréasáin"
+
+#~ msgctxt "Description"
+#~ msgid "Open with &default Browser"
+#~ msgstr "Oscail leis an mBrabhsálaí &réamhshocraithe"
+
+#~ msgctxt "Description"
+#~ msgid "Open with &Konqueror"
+#~ msgstr "Oscail le &Konqueror"
+
+#~ msgctxt "Description"
+#~ msgid "Open with &Mozilla"
+#~ msgstr "Oscail le &Mozilla"
+
+#~ msgctxt "Description"
+#~ msgid "Send &URL"
+#~ msgstr "Seol &URL"
+
+#~ msgctxt "Description"
+#~ msgid "Open with &Firefox"
+#~ msgstr "Oscail le &Firefox"
+
+#~ msgctxt "Description"
+#~ msgid "Send &Page"
+#~ msgstr "Seol &Leathanach"
+
+#~ msgctxt "Description"
+#~ msgid "Mail-URL"
+#~ msgstr "URL Ríomhphoist"
+
+#~ msgctxt "Description"
+#~ msgid "Launch &Kmail"
+#~ msgstr "Tosaigh &Kmail"
+
+#~ msgctxt "Description"
+#~ msgid "Launch &mutt"
+#~ msgstr "Tosaigh &mutt"
+
+#~ msgctxt "Description"
+#~ msgid "Text File"
+#~ msgstr "Téacschomhad"
+
+#~ msgctxt "Description"
+#~ msgid "Launch K&Write"
+#~ msgstr "Tosaigh K&Write"
+
+#~ msgctxt "Description"
+#~ msgid "Local file URL"
+#~ msgstr "URL de chomhad logánta"
+
+#~ msgctxt "Description"
+#~ msgid "Send &File"
+#~ msgstr "Seol &Comhad"
+
+#~ msgctxt "Description"
+#~ msgid "Gopher URL"
+#~ msgstr "URL Gopher"
+
+#~ msgctxt "Description"
+#~ msgid "ftp URL"
+#~ msgstr "URL ftp"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Clipboard Tool"
+#~ msgctxt "Comment"
+#~ msgid "Clipboard Tool."
+#~ msgstr "Uirlis Ghearrthaisce"
+
+#~ msgctxt "Name"
+#~ msgid "Default"
+#~ msgstr "Réamhshocrú"
+
+#~ msgctxt "Name"
+#~ msgid "Time Zone"
+#~ msgstr "Crios Ama"
+
+#~ msgctxt "Comment"
+#~ msgid "Provides the system's time zone to applications"
+#~ msgstr "Soláthraíonn sé crios ama an chórais d'fheidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "kuiserver"
+#~ msgstr "kuiserver"
+
+#~ msgctxt "Comment"
+#~ msgid "KDE's Progress Info UI server"
+#~ msgstr "Freastalaí Faisnéise Dul Chun Cinn KDE"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop Sessions"
+#~ msgctxt "Comment"
+#~ msgid "Breeze Desktop Design Language by the KDE VDG"
+#~ msgstr "Seisiúin Deisce"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Share Services"
+#~ msgctxt "Name"
+#~ msgid "Internal Services"
+#~ msgstr "Seirbhísí Comhroinnt"
+
+#~ msgctxt "Name"
+#~ msgid "Development"
+#~ msgstr "Forbairt"
+
+#~ msgctxt "Name"
+#~ msgid "Translation"
+#~ msgstr "Aistriúchán"
+
+#~ msgctxt "Name"
+#~ msgid "Web Development"
+#~ msgstr "Forbairt Ghréasáin"
+
+#~ msgctxt "Name"
+#~ msgid "Editors"
+#~ msgstr "Eagarthóirí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Locations"
+#~ msgctxt "Name"
+#~ msgid "Education"
+#~ msgstr "Áiteanna"
+
+#~ msgctxt "Name"
+#~ msgid "Languages"
+#~ msgstr "Teangacha"
+
+#~ msgctxt "Name"
+#~ msgid "Mathematics"
+#~ msgstr "Matamaitic"
+
+#~ msgctxt "Name"
+#~ msgid "Miscellaneous"
+#~ msgstr "Éagsúil"
+
+#~ msgctxt "Name"
+#~ msgid "Science"
+#~ msgstr "Eolaíocht"
+
+#~ msgctxt "Name"
+#~ msgid "Teaching Tools"
+#~ msgstr "Uirlisí Múinteoireachta"
+
+#~ msgctxt "Name"
+#~ msgid "Arcade"
+#~ msgstr "Stuara Siamsa"
+
+#~ msgctxt "Name"
+#~ msgid "Board Games"
+#~ msgstr "Cluichí Cláir"
+
+#~ msgctxt "Name"
+#~ msgid "Card Games"
+#~ msgstr "Cluichí Cártaí"
+
+#~ msgctxt "Name"
+#~ msgid "Games"
+#~ msgstr "Cluichí"
+
+#~ msgctxt "Name"
+#~ msgid "Games for Kids"
+#~ msgstr "Cluichí do Pháistí"
+
+#~ msgctxt "Name"
+#~ msgid "Logic Games"
+#~ msgstr "Cluichí Loighce"
+
+#~ msgctxt "Name"
+#~ msgid "Rogue-like Games"
+#~ msgstr "Cluichí cosúil le Rogue"
+
+#~ msgctxt "Name"
+#~ msgid "Tactics & Strategy"
+#~ msgstr "Beartaíocht agus Straitéisí"
+
+#~ msgctxt "Name"
+#~ msgid "Graphics"
+#~ msgstr "Grafaic"
+
+#~ msgctxt "Name"
+#~ msgid "Internet"
+#~ msgstr "Idirlíon"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Terminate Applications"
+#~ msgctxt "Name"
+#~ msgid "Terminal Applications"
+#~ msgstr "Scoir ó Fheidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Menu"
+#~ msgstr "Roghchlár KDE"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Applications"
+#~ msgctxt "Name"
+#~ msgid "More Applications"
+#~ msgstr "Feidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "Multimedia"
+#~ msgstr "Ilmheáin"
+
+#~ msgctxt "Name"
+#~ msgid "Office"
+#~ msgstr "Oifig"
+
+#~ msgctxt "Name"
+#~ msgid "Science & Math"
+#~ msgstr "Eolaíocht agus Matamaitic"
+
+#~ msgctxt "Name"
+#~ msgid "Settings"
+#~ msgstr "Socruithe"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System Tray"
+#~ msgctxt "Name"
+#~ msgid "System"
+#~ msgstr "Tráidire an Chórais"
+
+#~ msgctxt "Name"
+#~ msgid "Toys"
+#~ msgstr "Áilleagáin"
+
+#~ msgctxt "Name"
+#~ msgid "Lost & Found"
+#~ msgstr "Earraí Caillte"
+
+#~ msgctxt "Name"
+#~ msgid "Accessibility"
+#~ msgstr "Inrochtaineacht"
+
+#~ msgctxt "Comment"
+#~ msgid "Accessibility"
+#~ msgstr "Inrochtaineacht"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Switch Desktop"
+#~ msgctxt "Name"
+#~ msgid "Desktop"
+#~ msgstr "Athraigh an Deasc"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Switch Desktop"
+#~ msgctxt "Comment"
+#~ msgid "Desktop"
+#~ msgstr "Athraigh an Deasc"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Activities"
+#~ msgctxt "Name"
+#~ msgid "Utilities"
+#~ msgstr "Gníomhaíochtaí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Activities"
+#~ msgctxt "Comment"
+#~ msgid "Utilities"
+#~ msgstr "Gníomhaíochtaí"
+
+#, fuzzy
+#~| msgctxt "Description"
+#~| msgid "Text File"
+#~ msgctxt "Name"
+#~ msgid "File"
+#~ msgstr "Téacschomhad"
+
+#, fuzzy
+#~| msgctxt "Description"
+#~| msgid "Text File"
+#~ msgctxt "Comment"
+#~ msgid "File"
+#~ msgstr "Téacschomhad"
+
+#~ msgctxt "Name"
+#~ msgid "Peripherals"
+#~ msgstr "Forimeallaigh"
+
+#~ msgctxt "Comment"
+#~ msgid "Peripherals"
+#~ msgstr "Forimeallaigh"
+
+#~ msgctxt "Name"
+#~ msgid "PIM"
+#~ msgstr "PIM"
+
+#~ msgctxt "Comment"
+#~ msgid "PIM"
+#~ msgstr "PIM"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Activities"
+#~ msgctxt "Name"
+#~ msgid "X-Utilities"
+#~ msgstr "Gníomhaíochtaí"
+
+#~ msgctxt "Comment"
+#~ msgid "X Window Utilities"
+#~ msgstr "Uirlisí Fuinneoga X"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Multimedia Backend"
+#~ msgstr "Inneall Ilmheán KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Multimedia System"
+#~ msgstr "Córas Ilmheán"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Applications"
+#~ msgctxt "Name"
+#~ msgid "Application"
+#~ msgstr "Feidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "Audio Output Device Changed"
+#~ msgstr "Athraíodh an Gléas Aschurtha Fuaime"
+
+#~ msgctxt "Comment"
+#~ msgid "Notification when audio output device has automatically changed"
+#~ msgstr "Fógra nuair a athraítear an gléas aschurtha fuaime go huathoibríoch"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Plasma Desktop Workspace"
+#~ msgctxt "Name"
+#~ msgid "Plasma Windowed"
+#~ msgstr "Spás Oibre Deisce Plasma"
+
+#~ msgctxt "Name"
+#~ msgid "Activities"
+#~ msgstr "Gníomhaíochtaí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Desktop Sessions"
+#~ msgctxt "Name"
+#~ msgid "Desktop Search"
+#~ msgstr "Seisiúin Deisce"
+
+#~ msgctxt "Name|plasma runner"
+#~ msgid "Bookmarks"
+#~ msgstr "Leabharmharcanna"
+
+#~ msgctxt "Comment"
+#~ msgid "Find and open bookmarks"
+#~ msgstr "Aimsigh agus oscail leabharmharcanna"
+
+#~ msgctxt "Name"
+#~ msgid "Calculator"
+#~ msgstr "Áireamhán"
+
+#~ msgctxt "Comment"
+#~ msgid "Calculate expressions"
+#~ msgstr "Áirigh sloinn"
+
+#~ msgctxt "Name"
+#~ msgid "Kill Applications"
+#~ msgstr "Maraigh Feidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "Terminate Applications"
+#~ msgstr "Scoir ó Fheidhmchláir"
+
+#~ msgctxt "Comment"
+#~ msgid "Stop applications that are currently running"
+#~ msgstr "Scoir ó fheidhmchláir atá ag rith faoi láthair"
+
+#~ msgctxt "Name"
+#~ msgid "Locations"
+#~ msgstr "Áiteanna"
+
+#~ msgctxt "Comment"
+#~ msgid "File and URL opener"
+#~ msgstr "Osclóir Comhad agus URLanna"
+
+#~ msgctxt "Comment"
+#~ msgid "Open devices and folder bookmarks"
+#~ msgstr "Oscail gléasanna agus leabharmharcanna fillteáin"
+
+#~ msgctxt "Comment"
+#~ msgid "Basic Power Management Operations"
+#~ msgstr "Bunoibríochtaí Bainisteoireachta Cumhachta"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "PowerDevil"
+#~ msgctxt "Name"
+#~ msgid "Power"
+#~ msgstr "PowerDevil"
+
+#~ msgctxt "Name"
+#~ msgid "Recent Documents"
+#~ msgstr "Cáipéisí is Déanaí"
+
+#~ msgctxt "Name"
+#~ msgid "Applications"
+#~ msgstr "Feidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "Desktop Sessions"
+#~ msgstr "Seisiúin Deisce"
+
+#~ msgctxt "Comment"
+#~ msgid "Fast user switching"
+#~ msgstr "Athraigh úsáideoirí go tapa"
+
+#~ msgctxt "Name"
+#~ msgid "Command Line"
+#~ msgstr "Líne na nOrduithe"
+
+#~ msgctxt "Comment"
+#~ msgid "Executes shell commands"
+#~ msgstr "Rith orduithe blaoisce"
+
+#~ msgctxt "Name|plasma runner"
+#~ msgid "Devices"
+#~ msgstr "Gléasanna"
+
+#~ msgctxt "Comment"
+#~ msgid "Manage removable devices"
+#~ msgstr "Bainistigh gléasanna inbhainte"
+
+#~ msgctxt "Name|plasma runner"
+#~ msgid "Web Shortcuts"
+#~ msgstr "Aicearraí Gréasáin"
+
+#~ msgctxt "Comment"
+#~ msgid "Allows user to use Konqueror's web shortcuts"
+#~ msgstr ""
+#~ "Ceadaigh don úsáideoir aicearraí Gréasáin de chuid Konqueror a úsáid"
+
+#~ msgctxt "Name"
+#~ msgid "Windowed widgets"
+#~ msgstr "Giuirléidí i bhfuinneoga"
+
+#~ msgctxt "Comment"
+#~ msgid "Find Plasma widgets that can be run as standalone windows"
+#~ msgstr ""
+#~ "Aimsigh giuirléidí Plasma is féidir rith i bhfuinneog shaorsheasaimh"
+
+# not Microsoft here
+#~ msgctxt "Name|plasma runner"
+#~ msgid "Windows"
+#~ msgstr "Fuinneoga"
+
+#~ msgctxt "Comment"
+#~ msgid "List windows and desktops and switch them"
+#~ msgstr "Taispeáin fuinneoga agus deasca agus athraigh eatarthu"
+
+#~ msgctxt "Name"
+#~ msgid "Plasma Desktop Workspace"
+#~ msgstr "Spás Oibre Deisce Plasma"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Look & Feel"
+#~ msgctxt "Name"
+#~ msgid "Look and Feel"
+#~ msgstr "Cuma"
+
+#~ msgctxt "Name"
+#~ msgid "Drive Ejector"
+#~ msgstr "Díchurthóir Tiomántáin"
+
+#~ msgctxt "Comment"
+#~ msgid "Automatically releases drives when their eject button is pushed"
+#~ msgstr ""
+#~ "Ceadaíonn sé seo tiomántán a scaoileadh nuair a bhrúitear a chnaipe "
+#~ "díchurtha"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Hardware Info"
+#~ msgctxt "Name"
+#~ msgid "Hardware Detection"
+#~ msgstr "Faisnéis Crua-Earraí"
+
+#~ msgctxt "Name"
+#~ msgid "B3/KDE"
+#~ msgstr "B3/KDE"
+
+#~ msgctxt "Comment"
+#~ msgid "B3/Modification of B2"
+#~ msgstr "B3/Mionathrú ar B2"
+
+#~ msgctxt "Name"
+#~ msgid "BeOS"
+#~ msgstr "BeOS"
+
+#~ msgctxt "Comment"
+#~ msgid "Unthemed BeOS-like style"
+#~ msgstr "Stíl cosúil le BeOS gan téamaí"
+
+#~ msgctxt "Name"
+#~ msgid "KDE Classic"
+#~ msgstr "KDE Clasaiceach"
+
+#~ msgctxt "Comment"
+#~ msgid "Classic KDE style"
+#~ msgstr "Stíl Chlasaiceach KDE"
+
+#~ msgctxt "Name"
+#~ msgid "HighColor Classic"
+#~ msgstr "Stíl Aibhseach Chlasaiceach"
+
+#~ msgctxt "Comment"
+#~ msgid "Highcolor version of the classic style"
+#~ msgstr "Leagan aibhseach den stíl chlasaiceach"
+
+#~ msgctxt "Name"
+#~ msgid "Keramik"
+#~ msgstr "Keramik"
+
+#~ msgctxt "Comment"
+#~ msgid "A style using alphablending"
+#~ msgstr "Stíl a úsáideann alfachumasc"
+
+#~ msgctxt "Name"
+#~ msgid "Light Style, 2nd revision"
+#~ msgstr "Stíl Éadrom, an dara leasú"
+
+#~ msgctxt "Comment"
+#~ msgid "Second revision of the simple and elegant 'Light' widget style."
+#~ msgstr "An dara leasú den stíl shimplí ghalánta giuirléidí 'Éadrom'."
+
+#~ msgctxt "Name"
+#~ msgid "Light Style, 3rd revision"
+#~ msgstr "Stíl Éadrom, an tríú leasú"
+
+#~ msgctxt "Comment"
+#~ msgid "Third revision of the simple and elegant 'Light' widget style."
+#~ msgstr "An tríú leasú den stíl shimplí ghalánta giuirléidí 'Éadrom'."
+
+#~ msgctxt "Name"
+#~ msgid "MegaGradient highcolor style"
+#~ msgstr "Stíl ard-datha MegaGradient"
+
+#~ msgctxt "Name"
+#~ msgid "CDE"
+#~ msgstr "CDE"
+
+#~ msgctxt "Comment"
+#~ msgid "Built-in unthemed CDE style"
+#~ msgstr "Stíl insuite CDE gan téamaí"
+
+#~ msgctxt "Name"
+#~ msgid "Cleanlooks"
+#~ msgstr "Cleanlooks"
+
+#~ msgctxt "Comment"
+#~ msgid "Built-in unthemed style similar to Clearlooks from GNOME"
+#~ msgstr "Stíl insuite gan téamaí cosúil le Clearlooks ó GNOME"
+
+#~ msgctxt "Name"
+#~ msgid "GTK+ Style"
+#~ msgstr "Stíl GTK+"
+
+#~ msgctxt "Comment"
+#~ msgid "Style that uses the GTK+ theming engine"
+#~ msgstr "Stíl a úsáideann an t-inneall téamaí GTK+"
+
+#~ msgctxt "Name"
+#~ msgid "Mac OS X"
+#~ msgstr "Mac OS X"
+
+#~ msgctxt "Comment"
+#~ msgid "Style that uses the Apple Appearance Manager"
+#~ msgstr "Stíl a úsáideann an Bainisteoir Dealraimh Apple"
+
+#~ msgctxt "Name"
+#~ msgid "Motif Plus"
+#~ msgstr "Motif Plus"
+
+#~ msgctxt "Comment"
+#~ msgid "Built-in enhanced Motif style"
+#~ msgstr "Stíl insuite breisithe Motif"
+
+#~ msgctxt "Name"
+#~ msgid "Motif"
+#~ msgstr "Motif"
+
+#~ msgctxt "Comment"
+#~ msgid "Built-in unthemed Motif style"
+#~ msgstr "Stíl insuite Motif gan téamaí"
+
+#~ msgctxt "Name"
+#~ msgid "Plastique"
+#~ msgstr "Plastique"
+
+#~ msgctxt "Comment"
+#~ msgid "Built-in unthemed style similar to Plastik from KDE3"
+#~ msgstr "Stíl insuite gan téamaí cosúil le Plastik ó KDE3"
+
+#~ msgctxt "Name"
+#~ msgid "Platinum"
+#~ msgstr "Platinum"
+
+#~ msgctxt "Comment"
+#~ msgid "Built-in unthemed Platinum style"
+#~ msgstr "Stíl insuite Platinum gan téamaí"
+
+#~ msgctxt "Name"
+#~ msgid "SGI"
+#~ msgstr "SGI"
+
+#~ msgctxt "Comment"
+#~ msgid "Built-in SGI style"
+#~ msgstr "Stíl insuite SGI"
+
+#~ msgctxt "Name"
+#~ msgid "MS Windows 9x"
+#~ msgstr "MS Windows 9x"
+
+#~ msgctxt "Comment"
+#~ msgid "Built-in unthemed Windows 9x style"
+#~ msgstr "Stíl insuite Windows 9x gan téamaí"
+
+#~ msgctxt "Name"
+#~ msgid "MS Windows Vista"
+#~ msgstr "MS Windows Vista"
+
+#~ msgctxt "Comment"
+#~ msgid "Style that uses the Windows Vista style engine"
+#~ msgstr "Stíl a úsáideann an t-inneall stíle Windows Vista"
+
+#~ msgctxt "Name"
+#~ msgid "MS Windows XP"
+#~ msgstr "MS Windows XP"
+
+#~ msgctxt "Comment"
+#~ msgid "Style that uses the Windows XP style engine"
+#~ msgstr "Stíl a úsáideann an t-inneall stíle Windows XP"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color"
+#~ msgctxt "Name"
+#~ msgid "Plain Color"
+#~ msgstr "Dath"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Color"
+#~ msgctxt "Comment"
+#~ msgid "Plain color wallpaper"
+#~ msgstr "Dath"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Colors"
+#~ msgctxt "Name"
+#~ msgid "Color"
+#~ msgstr "Dathanna"
+
+#~ msgctxt "Name"
+#~ msgid "Image"
+#~ msgstr "Íomhá"
+
+#~ msgctxt "Name"
+#~ msgid "Slideshow"
+#~ msgstr "Taispeántas Sleamhnán"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Slideshow"
+#~ msgctxt "Comment"
+#~ msgid "Slideshow wallpaper"
+#~ msgstr "Taispeántas Sleamhnán"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Free Space Notifier"
+#~ msgctxt "Name"
+#~ msgid "Remote URL Change Notifier"
+#~ msgstr "Fógróir Spáis Shaoir"
+
+#~ msgctxt "Comment"
+#~ msgid "Provides change notification for network folders"
+#~ msgstr "Cuireann sé in iúl duit nuair a athraíonn fillteán líonra"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Applications"
+#~ msgctxt "Name"
+#~ msgid "Application Menu"
+#~ msgstr "Feidhmchláir"
+
+#~ msgctxt "Name"
+#~ msgid "Window Information"
+#~ msgstr "Eolas Faoin Fhuinneog"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System Tray"
+#~ msgctxt "Name"
+#~ msgid "System tray"
+#~ msgstr "Tráidire an Chórais"
+
+#~ msgctxt "Name"
+#~ msgid "Debian Weather Service"
+#~ msgstr "Seirbhís na hAimsire de chuid Debian"
+
+#~ msgctxt "Comment"
+#~ msgid "XML Data from edos.debian.net"
+#~ msgstr "Sonraí XML ó edos.debian.net"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Screen locked"
+#~ msgctxt "Name"
+#~ msgid "Screen Locking"
+#~ msgstr "Tá an scáileán faoi ghlas"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Screen locked"
+#~ msgctxt "Comment"
+#~ msgid "Screen Locking Themes"
+#~ msgstr "Tá an scáileán faoi ghlas"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Screen locked"
+#~ msgctxt "Comment"
+#~ msgid "Screen Locking Timeouts"
+#~ msgstr "Tá an scáileán faoi ghlas"
+
+#~ msgctxt "Comment"
+#~ msgid "Screen Saver"
+#~ msgstr "Spárálaí Scáileáin"
+
+#~ msgctxt "Name"
+#~ msgid "Screen locked"
+#~ msgstr "Tá an scáileán faoi ghlas"
+
+#~ msgctxt "Comment"
+#~ msgid "The screen has been locked"
+#~ msgstr "Cuireadh an scáileán faoi ghlas"
+
+#~ msgctxt "Name"
+#~ msgid "Screen unlocked"
+#~ msgstr "Scáileán díghlasáilte"
+
+#~ msgctxt "Comment"
+#~ msgid "The screen has been unlocked"
+#~ msgstr "Tá an scáileán díghlasáilte"
+
+#~ msgctxt "Name"
+#~ msgid "Quicklaunch"
+#~ msgstr "Meardhúisigh"
+
+#~ msgctxt "Comment"
+#~ msgid "Launch your favourite Applications"
+#~ msgstr "Tosaigh na Feidhmchláir is ansa leat"
+
+#~ msgctxt "Name"
+#~ msgid "CPU Monitor"
+#~ msgstr "Monatóir an LAP"
+
+#~ msgctxt "Comment"
+#~ msgid "A CPU usage monitor"
+#~ msgstr "Monatóir úsáid an LAP"
+
+#~ msgctxt "Name"
+#~ msgid "Hardware Info"
+#~ msgstr "Faisnéis Crua-Earraí"
+
+#~ msgctxt "Comment"
+#~ msgid "Show hardware info"
+#~ msgstr "Taispeáin eolas faoi na crua-earraí"
+
+#~ msgctxt "Name"
+#~ msgid "Hardware Temperature"
+#~ msgstr "Teocht na gCrua-Earraí"
+
+#~ msgctxt "Comment"
+#~ msgid "A system temperature monitor"
+#~ msgstr "Monatóir theocht an chórais"
+
+#~ msgctxt "Comment"
+#~ msgid "System monitoring applet"
+#~ msgstr "Feidhmchláirín mhonatóireacht an chórais"
+
+#~ msgctxt "Name"
+#~ msgid "KDED Global Shortcuts Server"
+#~ msgstr "Freastalaí Aicearraí Comhchoiteanna KDED"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Plasma Desktop Workspace"
+#~ msgctxt "Comment"
+#~ msgid "Plasma Workspace"
+#~ msgstr "Spás Oibre Deisce Plasma"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "The screen has been locked"
+#~ msgctxt "Comment"
+#~ msgid "The trash has been emptied"
+#~ msgstr "Cuireadh an scáileán faoi ghlas"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Notifications"
+#~ msgctxt "Name"
+#~ msgid "Notification"
+#~ msgstr "Fógairt"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Lock/Logout"
+#~ msgctxt "Name"
+#~ msgid "Logout"
+#~ msgstr "Cuir Faoi Ghlas/Logáil Amach"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Warning"
+#~ msgctxt "Name"
+#~ msgid "Warning Message"
+#~ msgstr "Rabhadh"
+
+#~ msgctxt "Name"
+#~ msgid "Screen saver started"
+#~ msgstr "Tosaíodh an spárálaí scáileáin"
+
+#~ msgctxt "Comment"
+#~ msgid "The screen saver has been started"
+#~ msgstr "Tosaíodh an spárálaí scáileáin"
+
+#~ msgctxt "Name"
+#~ msgid "Screen saver exited"
+#~ msgstr "Scoireadh ón spárálaí scáileáin"
+
+#~ msgctxt "Comment"
+#~ msgid "The screen saver has finished"
+#~ msgstr "Tá an spárálaí scáileán críochnaithe"
+
+#~ msgctxt "Name"
+#~ msgid "Screen unlock failed"
+#~ msgstr "Níorbh fhéidir an scáileán a dhíghlasáil"
+
+#~ msgctxt "Comment"
+#~ msgid "Failed attempt to unlock the screen"
+#~ msgstr "Theip ar iarracht an scáileán a dhíghlasáil"
+
+#~ msgctxt "Name"
+#~ msgid "Web Browser"
+#~ msgstr "Brabhsálaí Gréasáin"
+
+#~ msgctxt "Comment"
+#~ msgid "A simple web browser"
+#~ msgstr "Brabhsálaí simplí"
+
+#~ msgctxt "Name"
+#~ msgid "Splash Screen"
+#~ msgstr "Splancscáileán"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Splash Screen"
+#~ msgctxt "Comment"
+#~ msgid "Splash Screen Theme"
+#~ msgstr "Splancscáileán"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "splash screen,splash theme,startup"
+#~ msgstr "splancscáileán,splancthéama,tosú,tosach"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "System information for Plasmoids"
+#~ msgctxt "Name"
+#~ msgid "System Tray Plasmoid Test"
+#~ msgstr "Eolas faoin Chóras le haghaidh Plasmóidí"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System tray"
+#~ msgctxt "Comment"
+#~ msgid "Test the system tray"
+#~ msgstr "Tráidire an chórais"
+
+#~ msgctxt "Name"
+#~ msgid "Session Management"
+#~ msgstr "Bainistíocht Seisiún"
+
+#~ msgctxt "Comment"
+#~ msgid "Configure the session manager and logout settings"
+#~ msgstr "Cumraigh bainisteoir an tseisiúin agus socruithe logála amach"
+
+#~ msgctxt "X-KDE-Keywords"
+#~ msgid "ksmserver,session,logout,confirmation,save,restore"
+#~ msgstr "ksmserver,seisiún,logáil amach,dearbhú,sábháil,athchóiriú"
+
+#~ msgctxt "Comment"
+#~ msgid "Manager for Splash Screen Themes"
+#~ msgstr "Bainisteoir Téamaí Splancscáileáin"
+
+#, fuzzy
+#~| msgctxt "Name|plasma runner"
+#~| msgid "Web Shortcuts"
+#~ msgctxt "Comment"
+#~ msgid "Global Keyboard Shortcuts"
+#~ msgstr "Aicearraí Gréasáin"
+
+#~ msgctxt "Name"
+#~ msgid "kglobalaccel"
+#~ msgstr "kglobalaccel"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "Simple application launcher"
+#~ msgctxt "Comment"
+#~ msgid "The application name"
+#~ msgstr "Tosaitheoir simplí feidhmchlár"
+
+#~ msgctxt "Name"
+#~ msgid "Global Shortcut Registration"
+#~ msgstr "Clárú Aicearraí Comhchoiteanna"
+
+#~ msgctxt "Comment"
+#~ msgid "An application registered new global shortcuts."
+#~ msgstr "Chláraigh feidhmchlár aicearraí nua comhchoiteanna."
+
+#~ msgctxt "Name"
+#~ msgid "Global Shortcut Triggered"
+#~ msgstr "Gníomhachtaíodh Aicearra Comhchoiteann"
+
+#~ msgctxt "Comment"
+#~ msgid "The user triggered a global shortcut"
+#~ msgstr "Ghníomhachtaigh an t-úsáideoir aicearra comhchoiteann"
