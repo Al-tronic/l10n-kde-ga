@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-27 09:18+0100\n"
-"PO-Revision-Date: 2025-12-14 01:40+0000\n"
+"PO-Revision-Date: 2025-12-14 18:45+0000\n"
 "Last-Translator: Charlotte <altronic25@protonmail.com>\n"
 "Language-Team: Irish Translation Team\n"
 "Language: ga\n"
@@ -41,7 +41,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma 6.0 Dev"
-msgstr ""
+msgstr "KDE Plasma 6.0 Dev"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:223
@@ -55,14 +55,14 @@ msgstr "KDE Plasma 6.0 Alfa"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma 6.0 Beta 1"
-msgstr ""
+msgstr "KDE Plasma 6.0 Beta 1"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:229
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma 6.0 Beta 2"
-msgstr ""
+msgstr "KDE Plasma 6.0 Beta 2"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:232
@@ -83,21 +83,21 @@ msgstr "KDE Plasma 6.0 RC2"
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma %1 Dev"
-msgstr ""
+msgstr "KDE Plasma %1 Dev"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:265
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma %1 Beta"
-msgstr ""
+msgstr "KDE Plasma %1 Beta"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:268
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "KDE Plasma %1 Beta %2"
-msgstr ""
+msgstr "KDE Plasma %1 Beta %2"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:272
@@ -183,7 +183,7 @@ msgstr ""
 #: main.cpp:108
 #, kde-format
 msgid "Plasma Shell"
-msgstr ""
+msgstr "Blaoisce Plasma"
 
 #. +> stable5
 #: main.cpp:88
@@ -247,7 +247,7 @@ msgstr ""
 #: main.cpp:190
 #, kde-format
 msgid "Plasma Failed To Start"
-msgstr "Níorbh Féidir Plasma a Tosú"
+msgstr "Níorbh Féidir Plasma a Thosú"
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:191
@@ -257,6 +257,9 @@ msgid ""
 "allback\n"
 "Please check that your graphic drivers are set up correctly."
 msgstr ""
+"Ní féidir Plasma a thosú mar gheall ar níorbh féidir OpenGL 2 nó rindreáil bog"
+"earraí a úsáid.\n"
+"Seiceáil go bhfuil do thiománaithe grafaice cumraithe i gceart le do thoil."
 
 #. +> trunk6 stable6
 #: osd.cpp:63
@@ -270,14 +273,14 @@ msgstr "%1: %2%"
 #, kde-format
 msgctxt "OSD informing that the system is muted, keep short"
 msgid "Audio Muted"
-msgstr ""
+msgstr "Córas gan Fuaim"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:114
 #, kde-format
 msgctxt "OSD informing that the microphone is muted, keep short"
 msgid "Microphone Muted"
-msgstr ""
+msgstr "Micreafón Múchta"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:130
@@ -291,42 +294,42 @@ msgstr "%1 Gan Fuaim"
 #, kde-format
 msgctxt "touchpad was enabled, keep short"
 msgid "Touchpad On"
-msgstr ""
+msgstr "Ceap Tadhaill Cumasaithe"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:154
 #, kde-format
 msgctxt "touchpad was disabled, keep short"
 msgid "Touchpad Off"
-msgstr ""
+msgstr "Ceap Tadhaill Múchta"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:161
 #, kde-format
 msgctxt "wireless lan was enabled, keep short"
 msgid "Wifi On"
-msgstr "Wifi cumasaithe"
+msgstr "Wifi Cumasaithe"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:163
 #, kde-format
 msgctxt "wireless lan was disabled, keep short"
 msgid "Wifi Off"
-msgstr ""
+msgstr "Wifi Múchta"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:170
 #, kde-format
 msgctxt "Bluetooth was enabled, keep short"
 msgid "Bluetooth On"
-msgstr ""
+msgstr "Bluetooth Cumasaithe"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:172
 #, kde-format
 msgctxt "Bluetooth was disabled, keep short"
 msgid "Bluetooth Off"
-msgstr ""
+msgstr "Bluetooth Múchta"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:179
