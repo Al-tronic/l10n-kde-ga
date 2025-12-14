@@ -1,33 +1,34 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the plasma-workspace package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# SPDX-FileCopyrightText: 2025 Charlotte <altronic25@protonmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-27 09:18+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2025-12-14 01:40+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish Translation Team\n"
+"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : "
+"4\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #. +> trunk6 stable6 stable5
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Charlotte"
 
 #. +> trunk6 stable6 stable5
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "altronic25@protonmail.com"
 
 #. +> trunk6 stable6 stable5
 #: currentcontainmentactionsmodel.cpp:201
@@ -47,7 +48,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma 6.0 Alpha"
-msgstr ""
+msgstr "KDE Plasma 6.0 Alfa"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:226
@@ -68,14 +69,14 @@ msgstr ""
 #, kde-format
 msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
 msgid "KDE Plasma 6.0 RC1"
-msgstr ""
+msgstr "KDE Plasma 6.0 RC1"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:235
 #, kde-format
 msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
 msgid "KDE Plasma 6.0 RC2"
-msgstr ""
+msgstr "KDE Plasma 6.0 RC2"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:261
@@ -103,7 +104,7 @@ msgstr ""
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma %1"
-msgstr ""
+msgstr "KDE Plasma %1"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:278
@@ -124,7 +125,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Report a Bug…"
-msgstr ""
+msgstr "Seol tuairisc ar fhabht..."
 
 #. +> trunk6 stable6
 #: desktopview.cpp:302
@@ -145,7 +146,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button Hide the preview banner permanently"
 msgid "Hide Permanently…"
-msgstr ""
+msgstr "Folaigh go Buan..."
 
 #. +> trunk6 stable6
 #: desktopview.cpp:317
@@ -154,7 +155,9 @@ msgctxt "@info"
 msgid ""
 "Are you sure you want to permanently hide the preview banner?<nl/>"
 "<nl/>"
-"This action can only be undone by removing the line beginning with <icode>ShowDesktopPreviewBanner</icode> in the <filename>kdeglobals</filename> config file."
+"This action can only be undone by removing the line beginning with <icode>Show"
+"DesktopPreviewBanner</icode> in the <filename>kdeglobals</filename> config fil"
+"e."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -186,25 +189,29 @@ msgstr ""
 #: main.cpp:88
 #, kde-format
 msgid "Plasma"
-msgstr ""
+msgstr "Plasma"
 
 #. +> stable5
 #: main.cpp:111
 #, kde-format
-msgid "Load plasmashell as a standalone application, needs the shell-plugin option to be specified"
+msgid ""
+"Load plasmashell as a standalone application, needs the shell-plugin option to"
+" be specified"
 msgstr ""
 
 #. +> stable5
 #: main.cpp:116
 #, kde-format
-msgid "Enables test mode and specifies the layout javascript file to set up the testing environment"
+msgid ""
+"Enables test mode and specifies the layout javascript file to set up the testi"
+"ng environment"
 msgstr ""
 
 #. +> stable5
 #: main.cpp:117
 #, kde-format
 msgid "file"
-msgstr ""
+msgstr "comhad"
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:121
@@ -240,13 +247,14 @@ msgstr ""
 #: main.cpp:190
 #, kde-format
 msgid "Plasma Failed To Start"
-msgstr ""
+msgstr "Níorbh Féidir Plasma a Tosú"
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:191
 #, kde-format
 msgid ""
-"Plasma is unable to start as it could not correctly use OpenGL 2 or software fallback\n"
+"Plasma is unable to start as it could not correctly use OpenGL 2 or software f"
+"allback\n"
 "Please check that your graphic drivers are set up correctly."
 msgstr ""
 
@@ -255,7 +263,7 @@ msgstr ""
 #, kde-format
 msgctxt "Brightness OSD: display name and brightness percentage"
 msgid "%1: %2%"
-msgstr ""
+msgstr "%1: %2%"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:91
@@ -276,7 +284,7 @@ msgstr ""
 #, kde-format
 msgctxt "OSD informing that some media app is muted, eg. Amarok Muted"
 msgid "%1 Muted"
-msgstr ""
+msgstr "%1 Gan Fuaim"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:152
@@ -297,7 +305,7 @@ msgstr ""
 #, kde-format
 msgctxt "wireless lan was enabled, keep short"
 msgid "Wifi On"
-msgstr ""
+msgstr "Wifi cumasaithe"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:163
@@ -337,14 +345,18 @@ msgstr ""
 #. +> trunk6 stable6 stable5
 #: osd.cpp:189
 #, kde-format
-msgctxt "on screen keyboard was enabled because physical keyboard got unplugged, keep short"
+msgctxt ""
+"on screen keyboard was enabled because physical keyboard got unplugged, keep s"
+"hort"
 msgid "On-Screen Keyboard Activated"
 msgstr ""
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:192
 #, kde-format
-msgctxt "on screen keyboard was disabled because physical keyboard was plugged in, keep short"
+msgctxt ""
+"on screen keyboard was disabled because physical keyboard was plugged in, keep"
+" short"
 msgid "On-Screen Keyboard Deactivated"
 msgstr ""
 
@@ -386,7 +398,10 @@ msgstr ""
 #. +> trunk6 stable6
 #: panelview.cpp:458
 #, kde-format
-msgid "With an NVIDIA GPU on X11, the Floating style and Adaptive opacity mode are known to cause poor window drag and resize performance. Consider using other settings."
+msgid ""
+"With an NVIDIA GPU on X11, the Floating style and Adaptive opacity mode are kn"
+"own to cause poor window drag and resize performance. Consider using other set"
+"tings."
 msgstr ""
 
 #. +> trunk6 stable6
@@ -408,7 +423,7 @@ msgstr ""
 #, kde-format
 msgctxt "Percentage value"
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #. +> trunk6 stable6 stable5
 #: shellcontainmentconfig.cpp:107
@@ -421,7 +436,7 @@ msgstr ""
 #, kde-format
 msgctxt "Screen manufacturer and model on connector"
 msgid "%1 %2 on %3"
-msgstr ""
+msgstr "%1 %2 ar %3"
 
 #. +> trunk6 stable6 stable5
 #: shellcontainmentconfig.cpp:134
