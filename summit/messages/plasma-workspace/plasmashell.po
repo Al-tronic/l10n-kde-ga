@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2025-11-27 09:18+0100\n"
-"PO-Revision-Date: 2025-12-14 18:45+0000\n"
+"PO-Revision-Date: 2025-12-15 09:02+0000\n"
 "Last-Translator: Charlotte <altronic25@protonmail.com>\n"
 "Language-Team: Irish Translation Team\n"
 "Language: ga\n"
@@ -118,7 +118,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Plasma Version"
-msgstr ""
+msgstr "Cóipeáil Plasma Leagain"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:292
@@ -132,14 +132,14 @@ msgstr "Seol tuairisc ar fhabht..."
 #, kde-format
 msgctxt "@title:menu"
 msgid "Hide Preview Banner"
-msgstr ""
+msgstr "Folaigh an Meirge Réamhamhairc"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:304
 #, kde-format
 msgctxt "@action:button Hide the preview banner until the system is restarted"
 msgid "Hide Until Restart"
-msgstr ""
+msgstr "Folaigh go dtí Atosaigh"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:311
@@ -150,7 +150,7 @@ msgstr "Folaigh go Buan..."
 
 #. +> trunk6 stable6
 #: desktopview.cpp:317
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "Are you sure you want to permanently hide the preview banner?<nl/>"
@@ -159,25 +159,28 @@ msgid ""
 "DesktopPreviewBanner</icode> in the <filename>kdeglobals</filename> config fil"
 "e."
 msgstr ""
+"An bhfuil tú cinnte gur mian leat folaigh go buan an meirge réamhamhairc?<nl/>"
+"<nl/> "
+"An Gníomh seo "
 
 #. +> trunk6 stable6
 #: desktopview.cpp:319
 #, kde-format
 msgctxt "@title:window"
 msgid "Hide Preview Banner?"
-msgstr ""
+msgstr "An bhfuil tú Folaigh an Meirge Réamhamhairc?"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:554 desktopview.cpp:570
 #, kde-format
 msgid "Enter Edit Mode"
-msgstr ""
+msgstr "Cuir in Eagar Móid a Thosú"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:568
 #, kde-format
 msgid "Exit Edit Mode"
-msgstr ""
+msgstr "Cuir in Eagar Mód a Stad"
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:108
@@ -198,6 +201,8 @@ msgid ""
 "Load plasmashell as a standalone application, needs the shell-plugin option to"
 " be specified"
 msgstr ""
+"Lódáil Blaoisce Plasma mar feidhmchláir saorsheasaimh. Rogha shell-plugin a th"
+"eastáil."
 
 #. +> stable5
 #: main.cpp:116
@@ -223,7 +228,7 @@ msgstr ""
 #: main.cpp:124
 #, kde-format
 msgid "Do not restart plasma-shell automatically after a crash"
-msgstr ""
+msgstr "Ní atosaigh go huathoibríoch blaoisce Plasma i ndiaidh tuairt"
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:127
@@ -247,7 +252,7 @@ msgstr ""
 #: main.cpp:190
 #, kde-format
 msgid "Plasma Failed To Start"
-msgstr "Níorbh Féidir Plasma a Thosú"
+msgstr "Níorbh Fhéidir Plasma a Thosú"
 
 #. +> trunk6 stable6 stable5
 #: main.cpp:191
@@ -257,8 +262,8 @@ msgid ""
 "allback\n"
 "Please check that your graphic drivers are set up correctly."
 msgstr ""
-"Ní féidir Plasma a thosú mar gheall ar níorbh féidir OpenGL 2 nó rindreáil bog"
-"earraí a úsáid.\n"
+"Ní fhéidir Plasma a thosú mar gheall ar níorbh fhéidir OpenGL 2 nó rindreáil b"
+"ogearraí a d'úsáid.\n"
 "Seiceáil go bhfuil do thiománaithe grafaice cumraithe i gceart le do thoil."
 
 #. +> trunk6 stable6
@@ -336,14 +341,14 @@ msgstr "Bluetooth Múchta"
 #, kde-format
 msgctxt "mobile internet was enabled, keep short"
 msgid "Mobile Internet On"
-msgstr ""
+msgstr "Idirlíon Mhóibíligh Cumasaithe"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:181
 #, kde-format
 msgctxt "mobile internet was disabled, keep short"
 msgid "Mobile Internet Off"
-msgstr ""
+msgstr "Idirlíon Mhóibíligh Múchta"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:189
@@ -352,7 +357,7 @@ msgctxt ""
 "on screen keyboard was enabled because physical keyboard got unplugged, keep s"
 "hort"
 msgid "On-Screen Keyboard Activated"
-msgstr ""
+msgstr "Méarchlár ar-Scáileán Cumasaithe"
 
 #. +> trunk6 stable6 stable5
 #: osd.cpp:192
@@ -361,51 +366,51 @@ msgctxt ""
 "on screen keyboard was disabled because physical keyboard was plugged in, keep"
 " short"
 msgid "On-Screen Keyboard Deactivated"
-msgstr ""
+msgstr "Méarchlár ar-Scáileán Múchta"
 
 #. +> trunk6 stable6
 #: osd.cpp:199
 #, kde-format
 msgctxt "power management was inhibited, keep short"
 msgid "Sleep and Screen Locking Blocked"
-msgstr ""
+msgstr "Codladh agus Glasáil Scáileáin Blocáilte"
 
 #. +> trunk6 stable6
 #: osd.cpp:201
 #, kde-format
 msgctxt "power management was uninhibited, keep short"
 msgid "Sleep and Screen Locking Unblocked"
-msgstr ""
+msgstr "Codladh agus Glasáil Scáileáin Díbhlocáilte"
 
 #. +> trunk6 stable6
 #: osd.cpp:211
 #, kde-format
 msgctxt "Power profile was changed to power save mode, keep short"
 msgid "Power Save Mode"
-msgstr ""
+msgstr "Cumhacht Sábhála Mód"
 
 #. +> trunk6 stable6
 #: osd.cpp:214
 #, kde-format
 msgctxt "Power profile was changed to balanced mode, keep short"
 msgid "Balanced Power Mode"
-msgstr ""
+msgstr "Cumhacht Cothroime Mód"
 
 #. +> trunk6 stable6
 #: osd.cpp:217
 #, kde-format
 msgctxt "Power profile was changed to performance mode, keep short"
 msgid "Performance Mode"
-msgstr ""
+msgstr "Feidhmíocht Mód"
 
 #. +> trunk6 stable6
 #: panelview.cpp:458
-#, kde-format
+#, fuzzy, kde-format
 msgid ""
 "With an NVIDIA GPU on X11, the Floating style and Adaptive opacity mode are kn"
 "own to cause poor window drag and resize performance. Consider using other set"
 "tings."
-msgstr ""
+msgstr "Le NVIDIA GPU ar X11, "
 
 #. +> trunk6 stable6
 #: panelview.cpp:1141
@@ -451,13 +456,13 @@ msgstr ""
 #: shellcorona.cpp:174 shellcorona.cpp:176
 #, kde-format
 msgid "Show Desktop"
-msgstr ""
+msgstr "Taispeáint Deasc"
 
 #. +> trunk6 stable6 stable5
 #: shellcorona.cpp:176
 #, kde-format
 msgid "Hide Desktop"
-msgstr ""
+msgstr "Deasc a Fholaigh"
 
 #. +> trunk6 stable6
 #: shellcorona.cpp:191
@@ -487,7 +492,7 @@ msgstr ""
 #: shellcorona.cpp:203
 #, kde-format
 msgid "Stop Current Activity"
-msgstr ""
+msgstr "Stad an Gníomh Reatha"
 
 #. +> trunk6 stable6 stable5
 #: shellcorona.cpp:231
@@ -500,13 +505,13 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Manage Desktops and Panels…"
-msgstr ""
+msgstr "Bainistigh Deasca agus Painéil..."
 
 #. +> stable5
 #: shellcorona.cpp:258
 #, kde-format
 msgid "Manage Desktops And Panels..."
-msgstr ""
+msgstr "Bainistigh Deasca Agus Painéil..."
 
 #. +> trunk6 stable6 stable5
 #: shellcorona.cpp:288
@@ -518,27 +523,27 @@ msgstr ""
 #: shellcorona.cpp:2240
 #, kde-format
 msgid "Add Panel"
-msgstr ""
+msgstr "Cuir Painéil Leis"
 
 #. +> trunk6 stable6 stable5
 #: shellcorona.cpp:2323
 #, kde-format
 msgctxt "Creates an empty containment (%1 is the containment name)"
 msgid "Empty %1"
-msgstr ""
+msgstr "%1 Folamh"
 
 #. +> trunk6 stable6 stable5
 #: softwarerendernotifier.cpp:34
 #, kde-format
 msgid "Software Renderer In Use"
-msgstr ""
+msgstr "Rindreáil Bogearraí á Úsáid"
 
 #. +> trunk6 stable6 stable5
 #: softwarerendernotifier.cpp:35
 #, kde-format
 msgctxt "Tooltip telling user their GL drivers are broken"
 msgid "Software Renderer In Use"
-msgstr ""
+msgstr "Rindreáil Bogearraí á Úsáid"
 
 #. +> trunk6 stable6 stable5
 #: softwarerendernotifier.cpp:36
@@ -551,16 +556,16 @@ msgstr ""
 #: softwarerendernotifier.cpp:46
 #, kde-format
 msgid "Never show again"
-msgstr ""
+msgstr "Ná taispeáin go deo arís"
 
 #. +> trunk6 stable6 stable5
 #: userfeedback.cpp:36
 #, kde-format
 msgid "Panel Count"
-msgstr ""
+msgstr "Méid Painéil"
 
 #. +> trunk6 stable6 stable5
 #: userfeedback.cpp:40
 #, kde-format
 msgid "Counts the panels"
-msgstr ""
+msgstr "Comhair na painéil"

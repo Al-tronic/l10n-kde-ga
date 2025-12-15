@@ -1,0 +1,327 @@
+# -*- coding: UTF-8 -*-
+# kate: syntax Python;
+
+# This file is a summit configuration for Pology's posummit script.
+
+import os
+
+# ----------------------------------------
+# Summit and branch locations and IDs.
+
+# Summit-over-templates mode.
+S.over_templates = True
+
+# Location of summit catalogs and templates.
+S.summit = dict(
+    topdir=S.relpath("../%s/summit/messages" % S.lang),
+    topdir_templates=S.relpath("../../../l10n-%s/summit/messages" % S.templates_lang),
+)
+
+# Branch IDs and locations of branch catalogs and templates.
+S.branches = [
+dict(
+    id="trunk6",
+    topdir=S.relpath("../../l10n-kf6/%s/messages" % S.lang),
+    topdir_templates=S.relpath("../../../l10n-%s/trunk6/messages" % S.templates_lang),
+),
+dict(
+    id="trunk5",
+    topdir=S.relpath("../../l10n-kf5/%s/messages" % S.lang),
+    topdir_templates=S.relpath("../../../l10n-%s/trunk5/messages" % S.templates_lang),
+),
+dict(
+    id="stable6",
+    topdir=S.relpath("../../../branches/stable/l10n-kf6/%s/messages" % S.lang),
+    topdir_templates=S.relpath("../../../l10n-%s/stable6/messages" % S.templates_lang),
+),
+dict(
+    id="stable5",
+    topdir=S.relpath("../../../branches/stable/l10n-kf5/%s/messages" % S.lang),
+    topdir_templates=S.relpath("../../../l10n-%s/stable5/messages" % S.templates_lang),
+),
+]
+
+# Set path transformations.
+transform_path_summit_names = {}
+transform_path_branch_names = {}
+
+def make_split_branch_path (branch_id):
+    def splitf (branch_path):
+        branch_subdir = os.path.dirname(branch_path)
+        branch_filename = os.path.basename(branch_path)
+        branch_name = branch_filename[:branch_filename.rfind(".")]
+        summit_name = transform_path_summit_names.get(
+            (branch_id, branch_name), branch_name)
+        return summit_name, branch_subdir
+    return splitf
+
+def make_join_branch_path (branch_id):
+    def joinf (summit_name, summit_subdir, by_lang):
+        branch_name = transform_path_branch_names.get(
+            (branch_id, summit_name), summit_name)
+        branch_filename = branch_name + ".po"
+        branch_path = os.path.join(summit_subdir, branch_filename)
+        return branch_path
+    return joinf
+
+from pology.fsops import collect_catalogs
+transform_suffix_force = set([
+    "kdesupport-phonon"
+])
+for branch in S.branches:
+    branch_id = branch["id"]
+    branch_topdir_templates = branch["topdir_templates"]
+    for full_branch_path in collect_catalogs(branch_topdir_templates):
+        branch_path = full_branch_path[len(branch_topdir_templates) + 1:]
+        branch_subdir = os.path.dirname(branch_path)
+        branch_filename = os.path.basename(branch_path)
+        branch_name = branch_filename[:branch_filename.rfind(".")]
+        summit_name = branch_name
+        for prefix in ("desktop", "json"):
+            if branch_name.startswith(prefix + "_"):
+                branch_name_split = branch_name.split("_", 2)
+                type_suffix = "_%s_" % prefix
+                if len(branch_name_split) == 3:
+                    summit_name = branch_name_split[2] + "." + type_suffix
+                else:
+                    summit_name = branch_name_split[1] + "." + type_suffix
+        for suffix in ("_desktop_", "_json_"):
+            if branch_name.endswith("." + suffix):
+                branch_name_base = branch_name[:branch_name.rfind(".")]
+                branch_name_split = branch_name_base.split("_", 1)
+                type_suffix = suffix
+                if len(branch_name_split) == 2:
+                    if (   branch_name_split[0] == branch_subdir
+                        or branch_name_split[0] in transform_suffix_force
+                    ):
+                        summit_name = branch_name_split[1] + "." + type_suffix
+        if summit_name != branch_name:
+            transform_path_summit_names[(branch_id, branch_name)] = summit_name
+            transform_path_branch_names[(branch_id, summit_name)] = branch_name
+    branch["transform_path"] = (make_split_branch_path(branch_id),
+                                make_join_branch_path(branch_id))
+
+# Set X-Qt-Contexts header on Qt catalogs.
+def set_header_qt_contexts (cat):
+    hdr = cat.header
+    hdr.set_field(u"X-Qt-Contexts", u"true")
+    return 0
+from pology.proj.kde.cattype import is_qt_cat
+S.hook_on_scatter_cat.extend([
+    (set_header_qt_contexts, r"", is_qt_cat),
+])
+
+# ----------------------------------------
+# Manual mappings from branch to summit catalogs, needed when:
+# - catalog is renamed in trunk, and not in stable,
+# - catalog from stable is split into two or more catalogs in trunk,
+# - two or more catalogs in stable are combined into single catalog in trunk,
+# - etc.
+# *Not* needed when a catalog only changes the module.
+
+S.mappings = [
+    # ("branch_id", "branch_catalog", "summit_catalog_1", ...),
+    ("stable5", "kcm5_kded", "kcm_kded"),
+    ("stable5", "kcmsamba", "kcm_samba"),
+    ("stable5", "plasma_applet_org.kde.phone.homescreen", "plasma_applet_org.kde.plasma.mobile.homescreen"),
+    ("stable5", "plasma_applet_org.kde.phone.homescreen.simple", "plasma_applet_org.kde.plasma.mobile.homescreen.halcyon"),
+    ("stable5", "plasma_disks", "kcm_disks"),
+    ("stable5", "kcm_activities5", "kcm_activities"),
+    ("stable5", "libkscreen5_qt", "libkscreen6_qt"),
+    ("stable5", "kpipewire5", "kpipewire6"),
+    ("stable5", "kactivities5", "kactivities6"),
+    ("stable5", "powerdevilactivitiesconfig", "kcm_powerdevilactivitiesconfig"),
+    ("stable5", "powerdevilglobalconfig", "kcm_powerdevilglobalconfig"),
+    ("stable5", "powerdevilprofilesconfig", "kcm_powerdevilprofilesconfig"),
+    ("stable5", "plasma_applet_org.kde.phone.homescreen", "plasma_applet_org.kde.plasma.mobile.homescreen.folio"),
+    ("stable5", "cuttlefish", "iconexplorer"),
+    ("stable5", "kchart_qt", "kchart6_qt"),
+    ("stable5", "kgantt_qt", "kgantt6_qt"),
+    ("stable5", "kcm5_device_automounter", "kcm_device_automounter"),
+    ("stable5", "knetattach5", "knetattach"),
+    ("stable5", "kmimetypefinder5", "kmimetypefinder"),
+    ("stable5", "kstart5", "kstart"),
+    ("stable5", "kcm5_filetypes", "kcm_filetypes"),
+    ("stable5", "kdesu5", "kdesu"),
+    ("stable5", "soliduiserver5", "soliduiserver"),
+    ("stable5", "plasma_runner_baloosearch5", "plasma_runner_baloosearch"),
+    ("stable5", "kio5_applications", "kio_applications"),
+    ("stable5", "drkonqi5", "drkonqi"),
+    ("stable5", "kcm_nightcolor", "kcm_nightlight"),
+    ("stable5", "kcmkeyboard", "kcm_keyboard"),
+    ("stable5", "plasma_lookandfeel_org.kde.lookandfeel", "plasma-desktop-sddm-theme", "plasma_lookandfeel_org.kde.lookandfeel"),
+    ("stable5", "labplot2", "labplot"),
+    ("stable5", "labplot2_xml_mimetypes", "labplot_xml_mimetypes"),
+    ("stable5", "org.kde.labplot2.appdata", "org.kde.labplot.appdata"),
+    ("stable5", "plasma_applet_org.kde.mycroft.bigscreen.homescreen", "plasma_applet_org.kde.bigscreen.homescreen"),
+    ("stable5", "plasma_lookandfeel_org.kde.plasma.mycroft.bigscreen", "plasma_lookandfeel_org.kde.plasma.bigscreen"),
+    ("stable5", "plasma_shell_org.kde.plasma.mycroft.bigscreen", "plasma_shell_org.kde.plasma.bigscreen"),
+    ("stable5", "org.kde.plasma.mycroft.bigscreen.metainfo", "org.kde.plasma.bigscreen.metainfo"),
+    ("stable5", "plasma_applet_org.kde.plasma.private.systemtray", "plasma_applet_org.kde.plasma.systemtray"),
+    ("stable5", "kcm_flatpak", "kcm_app-permissions"),
+    ("trunk5", "umbrello_kdevphp5", "kdevphp"),
+    ("trunk5", "kde5_xml_mimetypes", "kde6_xml_mimetypes"),
+    ("trunk5", "karchive5_qt", "karchive6_qt"),
+    ("trunk5", "kcodecs5_qt", "kcodecs6_qt"),
+    ("trunk5", "kconfig5_qt", "kconfig6_qt"),
+    ("trunk5", "kcoreaddons5_qt", "kcoreaddons6_qt"),
+    ("trunk5", "kdbusaddons5_qt", "kdbusaddons6_qt"),
+    ("trunk5", "kdnssd5_qt", "kdnssd6_qt"),
+    ("trunk5", "libkholidays5_qt", "libkholidays6_qt"),
+    ("trunk5", "ki18n5", "ki18n6"),
+    ("trunk5", "kitemviews5_qt", "kitemviews6_qt"),
+    ("trunk5", "syntaxhighlighting5_qt", "syntaxhighlighting6_qt"),
+    ("trunk5", "kwidgetsaddons5_qt", "kwidgetsaddons6_qt"),
+    ("trunk5", "kwindowsystem5_qt", "kwindowsystem6_qt"),
+    ("trunk5", "solid5_qt", "solid6_qt"),
+    ("trunk5", "sonnet5_qt", "sonnet6_qt"),
+    ("trunk5", "kauth5_qt", "kauth6_qt"),
+    ("trunk5", "kcompletion5_qt", "kcompletion6_qt"),
+    ("trunk5", "kcontacts5", "kcontacts6"),
+    ("trunk5", "kfilemetadata5", "kfilemetadata6"),
+    ("trunk5", "knotifications5_qt", "knotifications6_qt"),
+    ("trunk5", "kjobwidgets5_qt", "kjobwidgets6_qt"),
+    ("trunk5", "libkpackage5", "libkpackage6"),
+    ("trunk5", "kpeople5", "kpeople6"),
+    ("trunk5", "kpty5", "kpty6"),
+    ("trunk5", "kunitconversion5", "kunitconversion6"),
+    ("trunk5", "kcmutils5", "kcmutils6"),
+    ("trunk5", "kbookmarks5_qt", "kbookmarks6_qt"),
+    ("trunk5", "kconfigwidgets5", "kconfigwidgets6"),
+    ("trunk5", "libkdav", "libkdav6"),
+    ("trunk5", "kglobalaccel5_qt", "kglobalaccel6_qt"),
+    ("trunk5", "balooctl5", "balooctl6"),
+    ("trunk5", "baloodb5", "baloodb6"),
+    ("trunk5", "balooengine5", "balooengine6"),
+    ("trunk5", "baloo_file5", "baloo_file6"),
+    ("trunk5", "baloo_file_extractor5", "baloo_file_extractor6"),
+    ("trunk5", "baloosearch5", "baloosearch6"),
+    ("trunk5", "balooshow5", "balooshow6"),
+    ("trunk5", "kio5_baloosearch", "kio6_baloosearch"),
+    ("trunk5", "kio5_tags", "kio6_tags"),
+    ("trunk5", "kio5_timeline", "kio6_timeline"),
+    ("trunk5", "kdesud5", "kdesud6"),
+    ("trunk5", "kiconthemes5", "kiconthemes6"),
+    ("trunk5", "knewstuff5", "knewstuff6"),
+    ("trunk5", "knotifyconfig5", "knotifyconfig6"),
+    ("trunk5", "kparts5", "kparts6"),
+    ("trunk5", "kservice5", "kservice6"),
+    ("trunk5", "libkirigami2plugin_qt", "libkirigami6_qt"),
+    ("trunk5", "kdeclarative5", "kdeclarative6"),
+    ("trunk5", "ktexteditor5", "ktexteditor6"),
+    ("trunk5", "ktextwidgets5", "ktextwidgets6"),
+    ("trunk5", "kwallet-query", "kwallet6-query"),
+    ("trunk5", "kwalletd5", "kwalletd6"),
+    ("trunk5", "kxmlgui5", "kxmlgui6"),
+    ("trunk5", "libplasma5", "libplasma6"),
+    ("trunk5", "kdoctools5", "kdoctools6"),
+    ("trunk5", "kio5", "kio6"),
+    ("trunk5", "libpurpose_quick", "libpurpose6_quick"),
+    ("trunk5", "libpurpose_widgets", "libpurpose6_widgets"),
+    ("trunk5", "purpose_barcode", "purpose6_barcode"),
+    ("trunk5", "purpose_bluetooth", "purpose6_bluetooth"),
+    ("trunk5", "purpose-fileitemaction", "purpose6_fileitemaction"),
+    ("trunk5", "purpose_imgur", "purpose6_imgur"),
+    ("trunk5", "purpose_kdeconnect", "purpose6_kdeconnect"),
+    ("trunk5", "purpose_kdeconnectsms", "purpose6_kdeconnectsms"),
+    ("trunk5", "purpose_ktp-sendfile", "purpose6_ktp-sendfile"),
+    ("trunk5", "purpose_nextcloud", "purpose6_nextcloud"),
+    ("trunk5", "purpose_pastebin", "purpose6_pastebin"),
+    ("trunk5", "purpose_phabricator", "purpose6_phabricator"),
+    ("trunk5", "purpose_reviewboard", "purpose6_reviewboard"),
+    ("trunk5", "purpose_saveas", "purpose6_saveas"),
+    ("trunk5", "purpose_youtube", "purpose6_youtube"),
+    ("trunk5", "kfileaudiopreview5", "kfileaudiopreview6"),
+    ("trunk5", "kio5_activities", "kio6_activities"),
+    ("trunk5", "kio5_afc", "kio6_afc"),
+    ("trunk5", "kio5_archive", "kio6_archive"),
+    ("trunk5", "kio5_fish", "kio6_fish"),
+    ("trunk5", "kio5_info", "kio6_info"),
+    ("trunk5", "kio5_man", "kio6_man"),
+    ("trunk5", "kio5_mtp", "kio6_mtp"),
+    ("trunk5", "kio5_nfs", "kio6_nfs"),
+    ("trunk5", "kio5_sftp", "kio6_sftp"),
+    ("trunk5", "kio5_smb", "kio6_smb"),
+    ("trunk5", "kio5_thumbnail", "kio6_thumbnail"),
+    ("trunk5", "qqc2desktopstyle5_qt", "qqc2desktopstyle_qt"),
+    ("stable6", "korganizer_plugins", "korganizer_plugins", "korganizer_calendarplugins"),
+    ("trunk6", "kaddressbook", "kaddressbook", "kaddressbook_importexportplugins"),
+    ("trunk6", "akonadi_davgroupware_resource", "akonadi_davgroupware_resource", "libkdav6"),
+    ("trunk6", "messageviewer_semantic_plugin", "messageviewer_semantic_plugin", "kitinerary6"),
+]
+
+# Manual mappings from branch to summit subdirectories, needed when
+# catalogs from several branch subdirectories should reside in
+# single summit subdirectory.
+S.subdir_mappings = [
+    # ("branch_id", "branch_subdir", "summit_subdir"),
+]
+
+# Subdirectory precedence.
+# Used in cases of several same-named catalogs in same branch.
+subdir_list_path = S.relpath("summit_subdir_precedence")
+S.subdir_precedence = [l.strip() for l in open(subdir_list_path).readlines()]
+
+# ----------------------------------------
+# Formatting.
+
+# Wrap messages (on column)?
+S.summit_wrap = False
+S.branches_wrap = True
+
+# Fine-wrap messages (on markup tags, etc.)?
+S.summit_fine_wrap = True
+S.branches_fine_wrap = False
+
+# Normalize branch templates before gathering to have better
+# source references and message ordering in summit templates.
+if "gather" in S.opmodes and S.lang == S.templates_lang:
+
+    # General dummy extraction files for all catalogs.
+    dumsrcs = ("rc.cpp", "rc.py", "tips.cpp", "tips.cc")
+    # Special dummy extraction files per catalog (single or list of files).
+    dumsrcs_per_cat = {
+        "kcells": "xml_doc.cpp",
+        "kregexpeditor": "predefined-regexps.cpp",
+        "libmuon": "categoriesxml.cpp",
+        "okular_ghostview": "rc_okular_ghostview.cpp",
+        "okular_www": "news.cpp",
+        "sheets": "xml_doc.cpp",
+        "system-config-printer-kde": "ui.py",
+    }
+    # Starts of true source files in extracted comments.
+    ecsrcheads = ("i18n: file:",)
+    # Starts of extracted contexts in extracted comments.
+    ecctxheads = ("i18n: ectx:",)
+
+    # Assemble the normalization hook.
+    from pology.normalize import demangle_srcrefs, uniq_source
+    from pology.normalize import uniq_auto_comment
+    demangle_srcrefs_h = demangle_srcrefs(collsrcs=dumsrcs,
+                                          collsrcmap=dumsrcs_per_cat,
+                                          truesrcheads=ecsrcheads)
+    uniq_auto_comment_h = uniq_auto_comment(onlyheads=ecctxheads)
+    def normalize_template (cat):
+        for msg in cat:
+            demangle_srcrefs_h(msg, cat)
+            uniq_source(msg, cat)
+            uniq_auto_comment_h(msg, cat)
+        cat.sort_by_source()
+
+    S.hook_on_gather_cat_branch.extend([
+        (normalize_template,),
+    ])
+
+# ----------------------------------------
+# Bookkeeping.
+
+# Version control system for the catalogs, if any.
+S.version_control = "svn"
+
+# ----------------------------------------
+# Custom settings per language
+# (this should come last to allow overrides).
+
+extras_file = S.relpath("../%s/summit/messages.extras.summit" % S.lang)
+if os.path.isfile(extras_file):
+    S.include(extras_file)

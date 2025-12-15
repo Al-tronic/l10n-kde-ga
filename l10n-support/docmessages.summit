@@ -1,0 +1,128 @@
+# -*- coding: UTF-8 -*-
+# kate: syntax Python;
+
+# This file is a summit configuration for Pology's posummit script.
+
+import os
+
+# ----------------------------------------
+# Summit and branch locations and IDs.
+
+# Summit-over-templates mode.
+S.over_templates = True
+
+# Location of summit catalogs and templates.
+S.summit = dict(
+    topdir=S.relpath("../%s/summit/docmessages" % S.lang),
+    topdir_templates=S.relpath("../../../l10n-%s/summit/docmessages" % S.templates_lang),
+)
+
+# Branch IDs and locations of branch catalogs and templates.
+S.branches = [
+dict(
+    id="trunk6",
+    topdir=S.relpath("../../l10n-kf6/%s/docmessages" % S.lang),
+    topdir_templates=S.relpath("../../../l10n-%s/trunk6/docmessages" % S.templates_lang),
+),
+dict(
+    id="trunk5",
+    topdir=S.relpath("../../l10n-kf5/%s/docmessages" % S.lang),
+    topdir_templates=S.relpath("../../../l10n-%s/trunk5/docmessages" % S.templates_lang),
+),
+dict(
+    id="stable6",
+    topdir=S.relpath("../../../branches/stable/l10n-kf6/%s/docmessages" % S.lang),
+    topdir_templates=S.relpath("../../../l10n-%s/stable6/docmessages" % S.templates_lang),
+),
+dict(
+    id="stable5",
+    topdir=S.relpath("../../../branches/stable/l10n-kf5/%s/docmessages" % S.lang),
+    topdir_templates=S.relpath("../../../l10n-%s/stable5/docmessages" % S.templates_lang),
+),
+]
+
+# ----------------------------------------
+# Manual mappings from branch to summit catalogs, needed when:
+# - catalog is renamed in trunk, and not in stable,
+# - catalog from stable is split into two or more catalogs in trunk,
+# - two or more catalogs in stable are combined into single catalog in trunk,
+# - etc.
+# *Not* needed when a catalog only changes the module.
+
+S.mappings = [
+    # ("branch_id", "branch_catalog", "summit_catalog_1", ...),
+    ("stable5", "kcontrol5_filetypes", "kcontrol6_filetypes"),
+    ("stable5", "kcontrol_kgamma5", "kcontrol_kgamma"),
+    ("stable5", "labplot2", "labplot"),
+    ("stable5", "labplot2_man-labplot2.1", "labplot_man-labplot.1"),
+    ("stable5", "kioslave5_s3", "kioworker6_s3"),
+    ("trunk5", "kioslave5_data", "kioworker6_data"),
+    ("trunk5", "kioslave5_file", "kioworker6_file"),
+    ("trunk5", "kioslave5_ftp", "kioworker6_ftp"),
+    ("trunk5", "kioslave5_help_documentationnotfound", "kioworker6_help_documentationnotfound"),
+    ("trunk5", "kioslave5_help", "kioworker6_help"),
+    ("trunk5", "kioslave5_http", "kioworker6_http"),
+    ("trunk5", "kioslave5_webdav", "kioworker6_webdav"),
+    ("trunk5", "kpackagetool_man-kpackagetool5.1", "kpackagetool_man-kpackagetool6.1"),
+    ("trunk5", "meinproc5_man-meinproc5.1", "meinproc6_man-meinproc6.1"),
+    ("trunk5", "checkXML5_man-checkXML5.1", "checkXML6_man-checkXML6.1"),
+    ("trunk5", "kf5options_man-kf5options.7", "kf6options_man-kf6options.7"),
+    ("trunk5", "qt5options_man-qt5options.7", "qt6options_man-qt6options.7"),
+    ("trunk5", "kcontrol5_cookies", "kcontrol6_cookies"),
+    ("trunk5", "kcontrol5_netpref", "kcontrol6_netpref"),
+    ("trunk5", "kcontrol5_proxy", "kcontrol6_proxy"),
+    ("trunk5", "kcontrol5_smb", "kcontrol6_smb"),
+    ("trunk5", "kcontrol5_trash", "kcontrol6_trash"),
+    ("trunk5", "kcontrol5_webshortcuts", "kcontrol6_webshortcuts"),
+    ("trunk5", "kbuildsycoca5_man-kbuildsycoca5.8", "kbuildsycoca6_man-kbuildsycoca6.8"),
+    ("trunk5", "kioslave5_bzip2", "kioworker6_bzip2"),
+    ("trunk5", "kioslave5_fish", "kioworker6_fish"),
+    ("trunk5", "kioslave5_gzip", "kioworker6_gzip"),
+    ("trunk5", "kioslave5_info", "kioworker6_info"),
+    ("trunk5", "kioslave5_man", "kioworker6_man"),
+    ("trunk5", "kioslave5_nfs", "kioworker6_nfs"),
+    ("trunk5", "kioslave5_sftp", "kioworker6_sftp"),
+    ("trunk5", "kioslave5_smb", "kioworker6_smb"),
+    ("trunk5", "kioslave5_tar", "kioworker6_tar"),
+    ("trunk5", "kioslave5_thumbnail", "kioworker6_thumbnail"),
+    ("trunk5", "kioslave5_xz", "kioworker6_xz"),
+    ("trunk5", "kioslave5_zstd", "kioworker6_zstd"),
+    ("trunk5", "kded5_man-kded5.8", "kded6_man-kded6.8"),
+]
+
+# Manual mappings from branch to summit subdirectories, needed when
+# catalogs from several branch subdirectories should reside in
+# single summit subdirectory.
+S.subdir_mappings = [
+    # ("branch_id", "branch_subdir", "summit_subdir"),
+]
+
+# Subdirectory precedence.
+# Used in cases of several same-named catalogs in same branch.
+subdir_list_path = S.relpath("summit_subdir_precedence")
+S.subdir_precedence = [l.strip() for l in open(subdir_list_path).readlines()]
+
+# ----------------------------------------
+# Formatting.
+
+# Wrap messages (on column)?
+S.summit_wrap = False
+S.branches_wrap = True
+
+# Fine-wrap messages (on markup tags, etc.)?
+S.summit_fine_wrap = True
+S.branches_fine_wrap = False
+
+# ----------------------------------------
+# Bookkeeping.
+
+# Version control system for the catalogs, if any.
+S.version_control = "svn"
+
+# ----------------------------------------
+# Custom settings per language
+# (this should come last to allow overrides).
+
+extras_file = S.relpath("../%s/summit/docmessages.extras.summit" % S.lang)
+if os.path.isfile(extras_file):
+    S.include(extras_file)
