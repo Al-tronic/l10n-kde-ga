@@ -1,7 +1,0 @@
-S.include(S.relpath("../scripts/messages.summit"))
-S.summit = dict(
-    topdir=S.relpath("../../../l10n-%s/summit/messages" % S.lang),
-    topdir_templates=S.relpath("../../../l10n-%s/summit/messages" % S.templates_lang),
-)
-
-S.version_control = "git"
