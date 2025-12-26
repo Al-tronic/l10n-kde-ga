@@ -1,0 +1,301 @@
+# Irish translation of plasma_applet_timer
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma_applet_timer package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: playground-base/plasma_applet_timer.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-02 10:43+0100\n"
+"PO-Revision-Date: 2008-06-02 20:00-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6 stable5
+#: CompactRepresentation.qml:133
+#, fuzzy, kde-format
+#| msgid "Timer"
+msgctxt "@action:button"
+msgid "Pause Timer"
+msgstr "Uaineadóir"
+
+#. +> trunk6 stable6 stable5
+#: CompactRepresentation.qml:133
+#, fuzzy, kde-format
+#| msgid "Timer"
+msgctxt "@action:button"
+msgid "Start Timer"
+msgstr "Uaineadóir"
+
+#. +> trunk6 stable6 stable5
+#: CompactRepresentation.qml:196 CompactRepresentation.qml:214
+#, kde-format
+msgctxt "remaining time"
+msgid "%1s"
+msgid_plural "%1s"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6
+#: config.qml:13
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title"
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6 stable5
+#: config.qml:19
+#, fuzzy, kde-format
+#| msgid "Predefined Timers"
+msgctxt "@title"
+msgid "Predefined Timers"
+msgstr "Uaineadóirí Réamhshainithe"
+
+#. +> stable6 stable5
+#: config.qml:13
+#, fuzzy, kde-format
+#| msgid "Appearance"
+msgctxt "@title"
+msgid "Appearance"
+msgstr "Cuma"
+
+#. +> stable6 stable5
+#: config.qml:24
+#, kde-format
+msgctxt "@title"
+msgid "Advanced"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configGeneral.qml:33
+#, kde-format
+msgctxt "@title:label"
+msgid "Display:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configGeneral.qml:38
+#, fuzzy, kde-format
+#| msgid "Show title:"
+msgctxt "@option:check"
+msgid "Show title:"
+msgstr "Taispeáin teideal:"
+
+#. +> trunk6 stable6 stable5
+#: configGeneral.qml:55
+#, kde-format
+msgctxt "@option:check"
+msgid "Show remaining time"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configGeneral.qml:61
+#, fuzzy, kde-format
+#| msgid "Hide seconds"
+msgctxt "@option:check"
+msgid "Show seconds"
+msgstr "Folaigh soicindí"
+
+#. +> trunk6 stable6 stable5
+#: configGeneral.qml:66
+#, fuzzy, kde-format
+#| msgid "Show title:"
+msgctxt "@option:check"
+msgid "Show timer toggle"
+msgstr "Taispeáin teideal:"
+
+#. +> trunk6 stable6 stable5
+#: configGeneral.qml:71
+#, kde-format
+msgctxt "@option:check"
+msgid "Show progress bar"
+msgstr ""
+
+#. +> trunk6
+#: configGeneral.qml:81
+#, kde-format
+msgctxt "@title:label"
+msgid "On timeout:"
+msgstr ""
+
+#. +> stable6 stable5
+#: configAppearance.qml:78
+#, kde-format
+msgctxt "@title:label"
+msgid "Notifications:"
+msgstr ""
+
+#. +> trunk6
+#: configGeneral.qml:85
+#, fuzzy, kde-format
+#| msgid "Show title:"
+msgctxt "@option:check"
+msgid "Show notification:"
+msgstr "Taispeáin teideal:"
+
+#. +> stable6 stable5
+#: configAppearance.qml:82
+#, kde-format
+msgctxt "@option:check"
+msgid "Show notification text:"
+msgstr ""
+
+#. +> trunk6
+#: configGeneral.qml:97
+#, fuzzy, kde-format
+#| msgid "Time is up!"
+msgctxt "@placeholder"
+msgid "Timer finished"
+msgstr "Tá an t-am istigh!"
+
+#. +> trunk6
+#: configGeneral.qml:107
+#, fuzzy, kde-format
+#| msgid "Run a command:"
+msgctxt "@option:check"
+msgid "Run command:"
+msgstr "Rith ordú:"
+
+#. +> trunk6
+#: configGeneral.qml:119
+#, kde-format
+msgctxt "@placeholder"
+msgid "kdialog --msgbox 'Timer finished'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configTimes.qml:22
+#, kde-format
+msgctxt "@action:button Add timer"
+msgid "Add"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/configTimes.qml:83
+#, kde-format
+msgid "Add"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configTimes.qml:81
+#, kde-format
+msgid "If you add predefined timers here, they will appear in plasmoid context menu."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configTimes.qml:119
+#, kde-format
+msgid "Scroll over digits to change time"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configTimes.qml:126
+#, kde-format
+msgid "Apply"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configTimes.qml:134
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configTimes.qml:143
+#, kde-format
+msgid "Edit"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: configTimes.qml:152
+#, kde-format
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:68
+#, kde-format
+msgid "%1 is running"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:70
+#, kde-format
+msgid "%1 not running"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:73
+#, kde-format
+msgid "Remaining time left: %1 second"
+msgid_plural "Remaining time left: %1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:73
+#, kde-format
+msgid "Use mouse wheel to change digits or choose from predefined timers in the context menu"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:90
+#, kde-format
+msgid "Timer"
+msgstr "Uaineadóir"
+
+#. +> trunk6 stable6 stable5
+#: main.qml:91
+#, kde-format
+msgid "Timer finished"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:131
+#, fuzzy, kde-format
+#| msgid "Start"
+msgctxt "@action"
+msgid "&Start"
+msgstr "Tosaigh"
+
+#. +> trunk6 stable6 stable5
+#: main.qml:136
+#, kde-format
+msgctxt "@action"
+msgid "S&top"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:141
+#, fuzzy, kde-format
+#| msgid "Reset"
+msgctxt "@action"
+msgid "&Reset"
+msgstr "Athshocraigh"
+
+#. +> stable6 stable5
+#: configAdvanced.qml:22
+#, kde-format
+msgctxt "@title:label"
+msgid "After timer completes:"
+msgstr ""
+
+#. +> stable6 stable5
+#: configAdvanced.qml:26
+#, fuzzy, kde-format
+#| msgid "Run a command:"
+msgctxt "@option:check"
+msgid "Execute command:"
+msgstr "Rith ordú:"

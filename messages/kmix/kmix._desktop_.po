@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop_kdemultimedia_kmix\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2012-05-14 16:25-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: desktop/kmix_autostart.desktop:12 desktop/org.kde.kmix.desktop:7
+msgctxt "GenericName"
+msgid "Sound Mixer"
+msgstr "Meascthóir Fuaime"
+
+#. +> trunk6 stable6
+#: desktop/kmix_autostart.desktop:69 desktop/org.kde.kmix.desktop:64
+msgctxt "Name"
+msgid "KMix"
+msgstr "KMix"
+
+#. +> trunk6 stable6
+#: desktop/kmixctrl_restore.desktop:3
+msgctxt "Name"
+msgid "Restore Mixer Settings"
+msgstr "Athchóirigh Socruithe an Mheascthóra"
+
+#. +> trunk6 stable6
+#: desktop/kmix.notifyrc:4
+msgctxt "Comment"
+msgid "Sound Mixer"
+msgstr "Meascthóir Fuaime"
+
+#. +> trunk6 stable6
+#: desktop/kmix.notifyrc:63
+msgctxt "Name"
+msgid "Audio Device Fallback"
+msgstr "Gléas Tacachumais Fuaime"
+
+#. +> trunk6 stable6
+#: desktop/kmix.notifyrc:119
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Notification on automatic fallback if the preferred device is unavailable"
+msgctxt "Comment"
+msgid "Automatic fallback if the preferred device is unavailable"
+msgstr "Fógairt nuair nach bhfuil do rogha ghléas ar fáil agus úsáidtear gléas tacachumais"
+
+#. +> trunk6 stable6
+#: desktop/kmix.notifyrc:158
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Audio Device Fallback"
+msgctxt "Name"
+msgid "Audio Device Connected"
+msgstr "Gléas Tacachumais Fuaime"
+
+#. +> trunk6 stable6
+#: desktop/kmix.notifyrc:193
+msgctxt "Comment"
+msgid "A sound device was connected"
+msgstr ""
+
+#. +> trunk6 stable6
+#: desktop/kmix.notifyrc:232
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Audio Device Fallback"
+msgctxt "Name"
+msgid "Audio Device Disconnected"
+msgstr "Gléas Tacachumais Fuaime"
+
+#. +> trunk6 stable6
+#: desktop/kmix.notifyrc:267
+msgctxt "Comment"
+msgid "A sound device was disconnected"
+msgstr ""
+
+#. +> trunk6 stable6
+#: desktop/org.kde.kmix.desktop:121
+msgctxt "Comment"
+msgid "Control sound volumes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: desktop/restore_kmix_volumes.desktop:8
+msgctxt "Name"
+msgid "Restore Mixer Volumes"
+msgstr "Athchóirigh Leibhéil Airde an Mheascthóra"
+
+#. +> trunk6 stable6
+#: plasma/engine/plasma-dataengine-mixer.desktop:2
+msgctxt "Name"
+msgid "Mixer DataEngine"
+msgstr "Inneall Sonraí an Mheascóra"

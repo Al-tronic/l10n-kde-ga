@@ -1,0 +1,4224 @@
+# Irish translation of kdiff3
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdiff3 package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: playground-devtools/kdiff3.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-19 00:53+0100\n"
+"PO-Revision-Date: 2008-04-18 14:59-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:56
+#, kde-format
+msgid "Getting file status: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:111
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgctxt "Message for progress dialog %1 = path to file"
+msgid "Reading file: %1"
+msgstr "Comhadlann"
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:155
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgctxt "Message for progress dialog %1 = path to file"
+msgid "Writing file: %1"
+msgstr "Comhadlann"
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:193
+#, kde-format
+msgid "Out of memory"
+msgstr "Cuimhne ídithe"
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:233
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgctxt "Message for progress dialog %1 = path to file"
+msgid "Making folder: %1"
+msgstr "Comhadlann"
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:257
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgctxt "Message for progress dialog %1 = path to file"
+msgid "Removing folder: %1"
+msgstr "Comhadlann"
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:275
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgctxt "Message for progress dialog %1 = path to file"
+msgid "Removing file: %1"
+msgstr "Comhadlann"
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:297
+#, kde-format
+msgid "Creating symbolic link: %1 -> %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:327
+#, kde-format
+msgid "Renaming file: %1 -> %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:368
+#, kde-format
+msgid "Copying file: %1 -> %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:390
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgctxt "Status message"
+msgid "Reading folder: %1"
+msgstr "Comhadlann"
+
+#. +> trunk6 stable6
+#: DefaultFileAccessJobHandler.cpp:448
+#, kde-format
+msgid "Listing directory: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: diff.cpp:1594 diff.cpp:1610
+#, kde-format
+msgid ""
+"Data loss error:\n"
+"If it is reproducible please contact the author.\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: diff.cpp:1596 diff.cpp:1612
+#, kde-format
+msgid "Severe Internal Error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: difftextwindow.cpp:651
+#, kde-format
+msgid "File %1: Line %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: difftextwindow.cpp:653
+#, fuzzy, kde-format
+#| msgid "not available"
+msgid "File %1: Line not available"
+msgstr "níl ar fáil"
+
+#. +> trunk6
+#: difftextwindow.cpp:1969
+#, fuzzy, kde-format
+#| msgid "Encoding:"
+msgctxt "@label:textbox Encoding for text"
+msgid "Encoding:"
+msgstr "Ionchódú:"
+
+#. +> stable6
+#: difftextwindow.cpp:1984
+#, kde-format
+msgid "Encoding:"
+msgstr "Ionchódú:"
+
+#. +> trunk6
+#: difftextwindow.cpp:1973
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Line end style:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: difftextwindow.cpp:1998
+#, kde-format
+msgid "A (Base)"
+msgstr ""
+
+#. +> trunk6
+#: difftextwindow.cpp:2000
+#, fuzzy, kde-format
+#| msgid "Encoding:"
+msgctxt "@label:textbox Encoding for text, %1 = encoding name"
+msgid "Encoding: %1"
+msgstr "Ionchódú:"
+
+#. +> stable6
+#: difftextwindow.cpp:2015
+#, fuzzy, kde-format
+#| msgid "Encoding:"
+msgid "Encoding: %1"
+msgstr "Ionchódú:"
+
+#. +> trunk6
+#: difftextwindow.cpp:2001
+#, fuzzy, kde-format
+#| msgid "DOS"
+msgctxt "@item:intext line ending type"
+msgid "DOS"
+msgstr "DOS"
+
+#. +> trunk6
+#: difftextwindow.cpp:2001
+#, fuzzy, kde-format
+#| msgid "Unix"
+msgctxt "@item:intext line ending type"
+msgid "Unix"
+msgstr "Unix"
+
+#. +> trunk6
+#: difftextwindow.cpp:2001
+#, kde-format
+msgctxt "@label:textbox %1 = line ending style"
+msgid "Line end style: %1"
+msgstr ""
+
+#. +> stable6
+#: difftextwindow.cpp:2016
+#, kde-format
+msgid "Line end style: %1"
+msgstr ""
+
+#. +> trunk6
+#: difftextwindow.cpp:2002
+#, kde-format
+msgctxt "@item:intext line ending style not recognized"
+msgid "Unknown"
+msgstr ""
+
+#. +> stable6
+#: difftextwindow.cpp:2017
+#, kde-format
+msgid "Unknown"
+msgstr ""
+
+#. +> trunk6 stable6
+#: difftextwindow.cpp:2030 kdiff3.cpp:1056
+#, kde-format
+msgid "Top line"
+msgstr ""
+
+#. +> trunk6 stable6
+#: difftextwindow.cpp:2040
+#, kde-format
+msgid "End"
+msgstr "Deireadh"
+
+#. +> trunk6 stable6
+#: difftextwindow.cpp:2096 smalldialogs.cpp:163
+#, fuzzy, kde-format
+#| msgid "File"
+msgid "Open File"
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: difftextwindow.cpp:2142 optiondialog.cpp:387
+#, kde-format
+msgid "Unicode, 8 bit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: difftextwindow.cpp:2143
+#, kde-format
+msgid "Unicode, 8 bit (BOM)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: difftextwindow.cpp:2144
+#, kde-format
+msgid "System"
+msgstr ""
+
+#. +> trunk6 stable6
+#: difftextwindow.cpp:2156
+#, kde-format
+msgid "Other"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:416
+#, kde-format
+msgctxt "Operation column message"
+msgid "Copy A to B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:419
+#, kde-format
+msgctxt "Operation column message"
+msgid "Copy B to A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:422
+#, kde-format
+msgctxt "Operation column message"
+msgid "Delete A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:425
+#, kde-format
+msgctxt "Operation column message"
+msgid "Delete B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:428
+#, kde-format
+msgctxt "Operation column message"
+msgid "Delete A & B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:431
+#, fuzzy, kde-format
+#| msgid "Merge"
+msgctxt "Operation column message"
+msgid "Merge to A"
+msgstr "Cumaisc"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:434
+#, fuzzy, kde-format
+#| msgid "Merge"
+msgctxt "Operation column message"
+msgid "Merge to B"
+msgstr "Cumaisc"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:437
+#, kde-format
+msgctxt "Operation column message"
+msgid "Merge to A & B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:449
+#, kde-format
+msgctxt "Operation column message"
+msgid "Delete (if exists)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:453
+#, fuzzy, kde-format
+#| msgid "Merge"
+msgctxt "Operation column message (Directory merge)"
+msgid "Merge"
+msgstr "Cumaisc"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:453
+#, kde-format
+msgctxt "Operation column message (File merge)"
+msgid "Merge (manual)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:456
+#, kde-format
+msgctxt "Operation column message"
+msgid "Error: Conflicting File Types"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:459
+#, kde-format
+msgctxt "Operation column message"
+msgid "Error: Changed and Deleted"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:462
+#, kde-format
+msgctxt "Operation column message"
+msgid "Error: Dates are equal but files are not."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:476
+#, fuzzy, kde-format
+#| msgid "Done."
+msgctxt "Status column message"
+msgid "Done"
+msgstr "Críochnaithe."
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:478
+#, fuzzy, kde-format
+#| msgid "Error"
+msgctxt "Status column message"
+msgid "Error"
+msgstr "Earráid"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:480
+#, kde-format
+msgctxt "Status column message"
+msgid "Skipped."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:482
+#, kde-format
+msgctxt "Status column message"
+msgid "Not saved."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:484
+#, kde-format
+msgctxt "Status column message"
+msgid "In progress..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:486
+#, kde-format
+msgctxt "Status column message"
+msgid "To do."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:526
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt "Column title"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:534
+#, fuzzy, kde-format
+#| msgid "Operation"
+msgctxt "Column title"
+msgid "Operation"
+msgstr "Oibríocht"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:536
+#, fuzzy, kde-format
+#| msgid "Status"
+msgctxt "Column title"
+msgid "Status"
+msgstr "Stádas"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:538
+#, fuzzy, kde-format
+#| msgid "Solved"
+msgctxt "Column title"
+msgid "Unsolved"
+msgstr "Réitithe"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:540
+#, fuzzy, kde-format
+#| msgid "Solved"
+msgctxt "Column title"
+msgid "Solved"
+msgstr "Réitithe"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:542
+#, fuzzy, kde-format
+#| msgid "White"
+msgctxt "Column title"
+msgid "Nonwhite"
+msgstr "Bán"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:544
+#, fuzzy, kde-format
+#| msgid "White"
+msgctxt "Column title"
+msgid "White"
+msgstr "Bán"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:691
+#, kde-format
+msgid "You are currently doing a folder merge. Are you sure, you want to abort the merge and rescan the folder?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:692 kdiff3.cpp:913 kdiff3.cpp:923 kdiff3.cpp:935
+#: mergeresultwindow.cpp:305 pdiff.cpp:727 pdiff.cpp:1520 pdiff.cpp:1530
+#, fuzzy, kde-format
+#| msgid "Warning"
+msgctxt "Error dialog title"
+msgid "Warning"
+msgstr "Rabhadh"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:693
+#, fuzzy, kde-format
+#| msgid "Rescan"
+msgctxt "Title for rescan button"
+msgid "Rescan"
+msgstr "Athscan"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:694
+#, fuzzy, kde-format
+#| msgid "Continue"
+msgctxt "Title for continue button"
+msgid "Continue Merging"
+msgstr "Lean ar aghaidh"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:843
+#, kde-format
+msgid "Opening of folders failed:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:847
+#, kde-format
+msgid "Folder A \"%1\" does not exist or is not a folder.\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:852
+#, kde-format
+msgid "Folder B \"%1\" does not exist or is not a folder.\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:857
+#, kde-format
+msgid "Folder C \"%1\" does not exist or is not a folder.\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:860
+#, kde-format
+msgctxt "Error dialog title"
+msgid "Folder Opening Error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:868
+#, kde-format
+msgid ""
+"The destination folder must not be the same as A or B when three folders are merged.\n"
+"Check again before continuing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:870
+#, kde-format
+msgctxt "Error dialog title"
+msgid "Parameter Warning"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:875
+#, fuzzy, kde-format
+#| msgid "Saving file..."
+msgid "Scanning folders..."
+msgstr "Comhad á shábháil..."
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:897
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgctxt "Status message"
+msgid "Reading Folder A"
+msgstr "Comhadlann"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:906
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgctxt "Status message"
+msgid "Reading Folder B"
+msgstr "Comhadlann"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:916
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgctxt "Status message"
+msgid "Reading Folder C"
+msgstr "Comhadlann"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:932
+#, kde-format
+msgctxt "Warning text"
+msgid "Some subfolders were not readable in"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:937
+#, kde-format
+msgctxt "Warning text"
+msgid "Check the permissions of the subfolders."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:960
+#, fuzzy, kde-format
+#| msgid "Ready."
+msgctxt "Status bar idle message."
+msgid "Ready."
+msgstr "Réidh."
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:975
+#, kde-format
+msgid ""
+"Folder Comparison Status\n"
+"\n"
+"Number of subfolders: %1\n"
+"Number of equal files: %2\n"
+"Number of different files: %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:982
+#, kde-format
+msgid "Number of manual merges: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:1250
+#, kde-format
+msgid "This affects all merge operations."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:1251
+#, kde-format
+msgid "Changing All Merge Operations"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:1328
+#, kde-format
+msgid ""
+"Processing %1 / %2\n"
+"%3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:1374 directorymergewindow.cpp:1378
+#, kde-format
+msgid "Some files could not be processed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:1381
+#, kde-format
+msgid "Aborting due to too many errors."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:1869 directorymergewindow.cpp:1894
+#: directorymergewindow.cpp:1919
+#, kde-format
+msgid "This operation is currently not possible."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:1869 directorymergewindow.cpp:1894
+#: directorymergewindow.cpp:1919 directorymergewindow.cpp:2200
+#, kde-format
+msgid "Operation Not Possible"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:1966
+#, kde-format
+msgid "An error occurred while copying."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:1967 directorymergewindow.cpp:2405
+#, kde-format
+msgid "Merge Error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2045
+#, kde-format
+msgid "Unknown merge operation. (This must never happen!)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2090
+#, kde-format
+msgid "Unknown merge operation."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2103
+#, kde-format
+msgid ""
+"The merge is about to begin.\n"
+"\n"
+"Choose \"Do it\" if you have read the instructions and know what you are doing.\n"
+"Choosing \"Simulate it\" will tell you what would happen.\n"
+"\n"
+"Be aware that this program still has beta status and there is NO WARRANTY whatsoever! Make backups of your vital data!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2108
+#, kde-format
+msgctxt "Caption"
+msgid "Starting Merge"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2109
+#, kde-format
+msgctxt "Button title to confirm merge"
+msgid "Do It"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2110
+#, kde-format
+msgctxt "Button title to simulate merge"
+msgid "Simulate It"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2136
+#, kde-format
+msgid "The highlighted item has a different type in the different folders. Select what to do."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2140
+#, kde-format
+msgid "The modification dates of the file are equal but the files are not. Select what to do."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2144
+#, kde-format
+msgid "The highlighted item was changed in one folder and deleted in the other. Select what to do."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2200
+#, kde-format
+msgid "This operation is currently not possible because folder merge is currently running."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2257
+#, kde-format
+msgid ""
+"There was an error in the last step.\n"
+"Do you want to continue with the item that caused the error or do you want to skip this item?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2259
+#, kde-format
+msgctxt "Caption for message dialog"
+msgid "Continue merge after an error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2260
+#, kde-format
+msgctxt "Continue button title"
+msgid "Continue With Last Item"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2261
+#, kde-format
+msgctxt "Skip button title"
+msgid "Skip Item"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2355
+#, kde-format
+msgid "Merge operation complete."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2355 directorymergewindow.cpp:2358
+#, kde-format
+msgid "Merge Complete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2368
+#, kde-format
+msgid "Simulated merge complete: Check if you agree with the proposed operations."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2404
+#, kde-format
+msgid "An error occurred. Press OK to see detailed information."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2437
+#, kde-format
+msgid "Error: While deleting %1: Creating backup failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2444
+#, kde-format
+msgid "delete folder recursively( %1 )"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2446
+#, kde-format
+msgid "delete( %1 )"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2462
+#, kde-format
+msgid "Error: delete folder operation failed while trying to read the folder."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2478
+#, kde-format
+msgid "Error: rmdir( %1 ) operation failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2488
+#, kde-format
+msgid "Error: delete operation failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2515
+#, kde-format
+msgid "manual merge( %1, %2, %3 -> %4)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2518
+#, kde-format
+msgid "     Note: After a manual merge the user should continue by pressing F7."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2545
+#, kde-format
+msgid "Error: copy( %1 -> %2 ) failed.Deleting existing destination failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2554
+#, kde-format
+msgid "copyLink( %1 -> %2 )"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2563
+#, kde-format
+msgid "Error: copyLink failed: Remote links are not yet supported."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2573
+#, kde-format
+msgid "Error: copyLink failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2596
+#, kde-format
+msgid "copy( %1 -> %2 )"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2622
+#, kde-format
+msgid "Error during rename( %1 -> %2 ): Cannot delete existing destination."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2629
+#, kde-format
+msgid "rename( %1 -> %2 )"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2638
+#, kde-format
+msgid "Error: Rename failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2656
+#, kde-format
+msgid "Error during makeDir of %1. Cannot delete existing file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2673
+#, kde-format
+msgid "makeDir( %1 )"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2683
+#, fuzzy, kde-format
+#| msgid "Error reading from %1"
+msgid "Error while creating folder."
+msgstr "Earráid agus %1 á léamh"
+
+#. +> trunk6
+#: directorymergewindow.cpp:2719 directorymergewindow.cpp:2801
+#: directorymergewindow.cpp:2832
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Dest: "
+msgstr ""
+
+#. +> stable6
+#: directorymergewindow.cpp:2801
+#, kde-format
+msgid "Dest: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2727 directorymergewindow.cpp:2755
+#, fuzzy, kde-format
+#| msgid "File"
+msgctxt "Header label"
+msgid "Folder"
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2727
+#, fuzzy, kde-format
+#| msgid "Type"
+msgctxt "Header label"
+msgid "Type"
+msgstr "Cineál"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2727
+#, fuzzy, kde-format
+#| msgid "Size"
+msgctxt "Header label"
+msgid "Size"
+msgstr "Méid"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2728
+#, kde-format
+msgctxt "Header label"
+msgid "Attr"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2728
+#, kde-format
+msgctxt "Header label"
+msgid "Last Modification"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2728
+#, kde-format
+msgctxt "Header label"
+msgid "Link-Destination"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2755
+#, fuzzy, kde-format
+#| msgid "File"
+msgctxt "Header label"
+msgid "File"
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2755
+#, kde-format
+msgctxt "Header label ending"
+msgid "-Link"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2761
+#, fuzzy, kde-format
+#| msgid "not available"
+msgctxt "Header label"
+msgid "not available"
+msgstr "níl ar fáil"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2775
+#, kde-format
+msgid "A (Dest): "
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2779
+#, kde-format
+msgid "A:    "
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2779
+#, kde-format
+msgid "A (Base): "
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2785
+#, kde-format
+msgid "B (Dest): "
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2789
+#, kde-format
+msgid "B:    "
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2794
+#, kde-format
+msgid "C (Dest): "
+msgstr ""
+
+#. +> stable6
+#: directorymergewindow.cpp:2719 directorymergewindow.cpp:2833
+#, kde-format
+msgid "Dest"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2798
+#, kde-format
+msgid "C:    "
+msgstr ""
+
+#. i18n("Saving Directory Merge State ..."));
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2842
+#, kde-format
+msgid "Save Folder Merge State As..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2949
+#, kde-format
+msgid "Start/Continue Folder Merge"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2950
+#, kde-format
+msgid "Run Operation for Current Item"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2951
+#, kde-format
+msgid "Compare Selected File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2952
+#, kde-format
+msgid "Merge Current File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2952
+#, kde-format
+msgid ""
+"Merge\n"
+"File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2953
+#, kde-format
+msgid "Fold All Subfolders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2954
+#, kde-format
+msgid "Unfold All Subfolders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2955
+#, kde-format
+msgid "Rescan"
+msgstr "Athscan"
+
+#. i18n("Save Directory Merge State ..."), 0, this, &DirectoryMergeWindow::slotSaveMergeState, ac, "dir_save_merge_state");
+#. i18n("Load Directory Merge State ..."), 0, this, &DirectoryMergeWindow::slotLoadMergeState, ac, "dir_load_merge_state");
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2958
+#, kde-format
+msgid "Choose A for All Items"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2959
+#, kde-format
+msgid "Choose B for All Items"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2960
+#, kde-format
+msgid "Choose C for All Items"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2961
+#, kde-format
+msgid "Auto-Choose Operation for All Items"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2962
+#, kde-format
+msgid "No Operation for All Items"
+msgstr ""
+
+#. i18n("Synchronize Directories"), 0, this, &DirectoryMergeWindow::slotSynchronizeDirectories, ac, "dir_synchronize_directories");
+#. d->m_pDirChooseNewerFiles = GuiUtils::createAction< KToggleAction >(i18n("Copy Newer Files Instead of Merging"), 0, this, &DirectoryMergeWindow::slotChooseNewerFiles, ac, "dir_choose_newer_files");
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2967
+#, kde-format
+msgid "Show Identical Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2967
+#, kde-format
+msgid ""
+"Identical\n"
+"Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2968
+#, kde-format
+msgid "Show Different Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2969
+#, kde-format
+msgid "Show Files only in A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2969
+#, kde-format
+msgid ""
+"Files\n"
+"only in A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2970
+#, kde-format
+msgid "Show Files only in B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2970
+#, kde-format
+msgid ""
+"Files\n"
+"only in B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2971
+#, kde-format
+msgid "Show Files only in C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2971
+#, kde-format
+msgid ""
+"Files\n"
+"only in C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2975
+#, kde-format
+msgid "Compare Explicitly Selected Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2976
+#, kde-format
+msgid "Merge Explicitly Selected Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2978 directorymergewindow.cpp:2985
+#, kde-format
+msgid "Do Nothing"
+msgstr "Ná Déan Faic"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mergeCheckBox)
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2982 opendialog.ui:68
+#, kde-format
+msgid "Merge"
+msgstr "Cumaisc"
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2983
+#, kde-format
+msgid "Delete (if exists)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2986
+#, kde-format
+msgid "Copy A to B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2987
+#, kde-format
+msgid "Copy B to A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2988
+#, kde-format
+msgid "Delete A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2989
+#, kde-format
+msgid "Delete B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2990
+#, kde-format
+msgid "Delete A && B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2991
+#, kde-format
+msgid "Merge to A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2992
+#, kde-format
+msgid "Merge to B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: directorymergewindow.cpp:2993
+#, kde-format
+msgid "Merge to A && B"
+msgstr ""
+
+#. +> trunk6
+#: fileaccess.cpp:526
+#, kde-format
+msgctxt "@info:shell"
+msgid "Unable to determine full url. No parent specified."
+msgstr ""
+
+#. +> stable6
+#: fileaccess.cpp:526
+#, kde-format
+msgid "Unable to determine full url. No parent specified."
+msgstr ""
+
+#. +> trunk6
+#: fileaccess.cpp:538
+#, kde-format
+msgctxt "@info:shell"
+msgid "Parent and child could not be distinguished."
+msgstr ""
+
+#. +> trunk6
+#: fileaccess.cpp:542
+#, kde-format
+msgctxt "@info:shell"
+msgid "Computed url is: "
+msgstr ""
+
+#. +> trunk6
+#: fileaccess.cpp:800
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgctxt "@info %1 is a path"
+msgid "Failed to read file: %1"
+msgstr "Comhadlann"
+
+#. +> stable6
+#: fileaccess.cpp:800
+#, kde-format
+msgid "Failed to read file: %1"
+msgstr ""
+
+#. +> trunk6
+#: fileaccess.cpp:808 fileaccess.cpp:836
+#, kde-format
+msgctxt "@info %1 is a path"
+msgid "User cancelled read operation on %1"
+msgstr ""
+
+#. +> trunk6
+#: fileaccess.cpp:872
+#, kde-format
+msgctxt "@info:status"
+msgid "User cancelled write operation."
+msgstr ""
+
+#. +> trunk6
+#: fileaccess.cpp:954
+#, kde-format
+msgctxt "@info:status %1 is the destination path"
+msgid "Creating temp copy of %1 failed."
+msgstr ""
+
+#. +> stable6
+#: fileaccess.cpp:947
+#, kde-format
+msgid "Creating temp copy of %1 failed."
+msgstr ""
+
+#. +> trunk6
+#: fileaccess.cpp:963 fileaccess.cpp:969
+#, kde-format
+msgctxt "@info:status %1 is the path, %2 is the error message"
+msgid "Opening %1 failed. %2"
+msgstr ""
+
+#. +> stable6
+#: fileaccess.cpp:956 fileaccess.cpp:962
+#, kde-format
+msgid "Opening %1 failed. %2"
+msgstr ""
+
+#. +> trunk6
+#: fileaccess.cpp:989 fileaccess.cpp:997
+#, fuzzy, kde-format
+#| msgid "Error reading from %1"
+msgctxt "@info:status %1 is the path, %2 is the error message"
+msgid "Error reading from %1. %2"
+msgstr "Earráid agus %1 á léamh"
+
+#. +> stable6
+#: fileaccess.cpp:982 fileaccess.cpp:990
+#, fuzzy, kde-format
+#| msgid "Error reading from %1"
+msgid "Error reading from %1. %2"
+msgstr "Earráid agus %1 á léamh"
+
+#. +> trunk6
+#: fileaccess.cpp:1128
+#, kde-format
+msgctxt "@info %1 is the path that failed"
+msgid ""
+"While trying to make a backup, deleting an older backup failed.\n"
+"Filename: %1"
+msgstr ""
+
+#. +> stable6
+#: fileaccess.cpp:1121
+#, kde-format
+msgid ""
+"While trying to make a backup, deleting an older backup failed.\n"
+"Filename: %1"
+msgstr ""
+
+#. +> trunk6
+#: fileaccess.cpp:1135
+#, kde-format
+msgctxt "@info %1 is the current path, %2 is the failed path"
+msgid ""
+"While trying to make a backup, renaming failed.\n"
+"Filenames: %1 -> %2"
+msgstr ""
+
+#. +> stable6
+#: fileaccess.cpp:1128
+#, kde-format
+msgid ""
+"While trying to make a backup, renaming failed.\n"
+"Filenames: %1 -> %2"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: FontChooser.ui:23
+#, kde-format
+msgid "TextLabel"
+msgstr ""
+
+#. i18n: ectx: property (plainText), widget (QPlainTextEdit, exampleTextEdit)
+#. +> trunk6 stable6
+#: FontChooser.ui:36
+#, kde-format
+msgid ""
+"The quick brown fox jumps over the river\n"
+"but the little red hen escapes with a shiver\n"
+":-)\n"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, selectFont)
+#. +> trunk6 stable6
+#: FontChooser.ui:49
+#, kde-format
+msgctxt "Button Title"
+msgid "Change Font"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:172
+#, kde-format
+msgid "Current Configuration:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:177
+#, kde-format
+msgid "Config Option Error:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:232
+#, kde-format
+msgid "Option --auto used, but no output file specified."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:368
+#, fuzzy, kde-format
+#| msgid "Directory"
+msgid "Directory merge"
+msgstr "Comhadlann"
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:373
+#, fuzzy, kde-format
+#| msgid "Merge"
+msgid "Merge info"
+msgstr "Cumaisc"
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:613
+#, kde-format
+msgctxt "Error message"
+msgid "Can't compare file with folder."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:614
+#, kde-format
+msgctxt "Title error message box"
+msgid "Bad comparison attempt"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:623
+#, kde-format
+msgid "Option --auto ignored for folder comparison."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:676
+#, kde-format
+msgid "Saving failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:710 pdiff.cpp:792
+#, kde-format
+msgid "Opening of these files failed:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:719 pdiff.cpp:801
+#, kde-format
+msgid "File open error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:759
+#, kde-format
+msgid "Enables/disables the statusbar"
+msgstr "Cumasaigh/díchumasaigh an barra stádais"
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:762
+#, kde-format
+msgid "Configure KDiff3..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:768
+#, kde-format
+msgid "Search for a string"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:770
+#, kde-format
+msgid "Search again for the string"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:789
+#, kde-format
+msgid "Go to Current Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:789
+#, kde-format
+msgid ""
+"Current\n"
+"Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:791
+#, kde-format
+msgid "Go to First Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:791
+#, kde-format
+msgid ""
+"First\n"
+"Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:793
+#, kde-format
+msgid "Go to Last Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:793
+#, kde-format
+msgid ""
+"Last\n"
+"Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:795
+#, kde-format
+msgctxt "Tooltip explanation text"
+msgid "(Skips white space differences when \"Show White Space\" is disabled.)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:796
+#, kde-format
+msgctxt "Tooltip explanation text"
+msgid "(Does not skip white space differences even when \"Show White Space\" is disabled.)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:797
+#, kde-format
+msgid "Go to Previous Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:797
+#, kde-format
+msgid ""
+"Prev\n"
+"Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:799
+#, kde-format
+msgid "Go to Next Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:799
+#, kde-format
+msgid ""
+"Next\n"
+"Delta"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:801
+#, kde-format
+msgid "Go to Previous Conflict"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:801
+#, kde-format
+msgid ""
+"Prev\n"
+"Conflict"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:803
+#, kde-format
+msgid "Go to Next Conflict"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:803
+#, kde-format
+msgid ""
+"Next\n"
+"Conflict"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:805
+#, kde-format
+msgid "Go to Previous Unsolved Conflict"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:805
+#, kde-format
+msgid ""
+"Prev\n"
+"Unsolved"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:807
+#, kde-format
+msgid "Go to Next Unsolved Conflict"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:807
+#, kde-format
+msgid ""
+"Next\n"
+"Unsolved"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:809
+#, fuzzy, kde-format
+#| msgid "Line"
+msgctxt "Title for menu item"
+msgid "Go to Line"
+msgstr "Líne"
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:809
+#, fuzzy, kde-format
+#| msgid "Line"
+msgctxt "Text used for toolbar button."
+msgid ""
+"Go\n"
+"Line"
+msgstr "Líne"
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:810
+#, kde-format
+msgctxt "Tooltip Text"
+msgid "Goto specified line."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:811
+#, kde-format
+msgctxt "Title for menu item"
+msgid "Select Line(s) From A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:811
+#, kde-format
+msgctxt "Text used for select A toolbar button."
+msgid ""
+"Choose\n"
+"A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:812
+#, kde-format
+msgctxt "Title for menu item"
+msgid "Select Line(s) From B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:812
+#, kde-format
+msgctxt "Text used for select B when toolbar button."
+msgid ""
+"Choose\n"
+"B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:813
+#, kde-format
+msgctxt "Title for menu item"
+msgid "Select Line(s) From C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:813
+#, kde-format
+msgctxt "Text used for select C toolbar button."
+msgid ""
+"Choose\n"
+"C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:814
+#, kde-format
+msgctxt "Title for menu item"
+msgid "Automatically Go to Next Unsolved Conflict After Source Selection"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:814
+#, fuzzy, kde-format
+#| msgid "Auto Select"
+msgctxt "Auto goto next unsolved toolbar text."
+msgid ""
+"Auto\n"
+"Next"
+msgstr "Roghnaigh go hUathoibríoch"
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:816
+#, kde-format
+msgid "Show Space && Tabulator Characters"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:816
+#, kde-format
+msgctxt "Show whitespace toolbar text."
+msgid ""
+"White\n"
+"Characters"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:817
+#, kde-format
+msgid "Show White Space"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:817
+#, kde-format
+msgctxt "Show whitespace changes toolbar text."
+msgid ""
+"White\n"
+"Deltas"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:819
+#, kde-format
+msgid "Show Line Numbers"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:819
+#, fuzzy, kde-format
+#| msgid "Ignore numbers"
+msgctxt "Show line numbers toolbar text"
+msgid ""
+"Line\n"
+"Numbers"
+msgstr "Déan neamhaird d'uimhreacha"
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:821
+#, kde-format
+msgid "Automatically Solve Simple Conflicts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:822
+#, kde-format
+msgid "Set Deltas to Conflicts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:823
+#, kde-format
+msgid "Run Regular Expression Auto Merge"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:824
+#, kde-format
+msgid "Automatically Solve History Conflicts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:825
+#, kde-format
+msgid "Split Diff At Selection"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:826
+#, kde-format
+msgid "Join Selected Diffs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:828
+#, kde-format
+msgid "Show Window A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:829
+#, kde-format
+msgid "Show Window B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:830
+#, kde-format
+msgid "Show Window C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:832
+#, kde-format
+msgid "Normal Overview"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:833
+#, kde-format
+msgid "A vs. B Overview"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:834
+#, kde-format
+msgid "A vs. C Overview"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:835
+#, kde-format
+msgid "B vs. C Overview"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:836
+#, kde-format
+msgid "Word Wrap Diff Windows"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:837
+#, kde-format
+msgid "Add Manual Diff Alignment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:838
+#, kde-format
+msgid "Clear All Manual Diff Alignments"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:840
+#, kde-format
+msgid "Focus Next Window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:841
+#, kde-format
+msgid "Focus Prev Window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:842
+#, kde-format
+msgid "Toggle Split Orientation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:844
+#, kde-format
+msgid "Folder && Text Split Screen View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:846
+#, kde-format
+msgid "Toggle Between Folder && Text View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:866 kdiff3.cpp:968 kdiff3.cpp:993 kdiff3.cpp:1250 pdiff.cpp:811
+#: pdiff.cpp:880 pdiff.cpp:916 pdiff.cpp:925 pdiff.cpp:983 pdiff.cpp:991
+#, kde-format
+msgid "Ready."
+msgstr "Réidh."
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:912 pdiff.cpp:1519
+#, kde-format
+msgid "The merge result has not been saved."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:914
+#, kde-format
+msgid "Save && Quit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:915
+#, kde-format
+msgid "Quit Without Saving"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:923 pdiff.cpp:1530
+#, kde-format
+msgid "Saving the merge result failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:934 pdiff.cpp:726
+#, kde-format
+msgid "You are currently doing a folder merge. Are you sure, you want to abort?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:957
+#, kde-format
+msgid "Saving file..."
+msgstr "Comhad á shábháil..."
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:974
+#, kde-format
+msgid "Saving file with a new filename..."
+msgstr "Comhad á shábháil le hainm comhaid nua..."
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:976
+#, kde-format
+msgid "Save As..."
+msgstr "Sábháil Mar..."
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:999
+#, kde-format
+msgid "Printing not implemented."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:1040
+#, kde-format
+msgid "Printing..."
+msgstr "Á Phriontáil..."
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:1138
+#, kde-format
+msgctxt "Status message"
+msgid "Printing page %1 of %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:1185
+#, fuzzy, kde-format
+#| msgid "Selection"
+msgid " (Selection)"
+msgstr "Roghnú"
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:1214
+#, kde-format
+msgid "Printing completed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:1218
+#, kde-format
+msgid "Printing aborted."
+msgstr "Priontáil tobscortha."
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:1225
+#, kde-format
+msgid "Exiting..."
+msgstr "Ag scor..."
+
+#. +> trunk6 stable6
+#: kdiff3.cpp:1235
+#, kde-format
+msgid "Toggle the statusbar..."
+msgstr "Scoránaigh an barra stádais..."
+
+#. i18n: ectx: Menu (file)
+#. +> trunk6 stable6
+#: kdiff3_shell.rc:4
+#, kde-format
+msgid "&File"
+msgstr "&Comhad"
+
+#. i18n: ectx: Menu (directory)
+#. +> trunk6 stable6
+#: kdiff3_shell.rc:7
+#, kde-format
+msgid "F&older"
+msgstr ""
+
+#. i18n: ectx: Menu (dir_current_merge_menu)
+#. +> trunk6 stable6
+#: kdiff3_shell.rc:30
+#, kde-format
+msgid "Current Item Merge Operation"
+msgstr ""
+
+#. i18n: ectx: Menu (dir_current_sync_menu)
+#. +> trunk6 stable6
+#: kdiff3_shell.rc:38
+#, kde-format
+msgid "Current Item Sync Operation"
+msgstr ""
+
+#. i18n: ectx: Menu (movement)
+#. +> trunk6 stable6
+#: kdiff3_shell.rc:50
+#, kde-format
+msgid "M&ovement"
+msgstr ""
+
+#. i18n: ectx: Menu (diff)
+#. +> trunk6 stable6
+#: kdiff3_shell.rc:61
+#, kde-format
+msgid "D&iffview"
+msgstr ""
+
+#. i18n: ectx: Menu (merge)
+#. +> trunk6 stable6
+#: kdiff3_shell.rc:73
+#, fuzzy, kde-format
+#| msgid "Merge"
+msgid "M&erge"
+msgstr "Cumaisc"
+
+#. i18n: ectx: Menu (window)
+#. +> trunk6 stable6
+#: kdiff3_shell.rc:95
+#, kde-format
+msgid "&Window"
+msgstr "&Fuinneog"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: kdiff3_shell.rc:106
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Príomhbharra Uirlisí"
+
+#. +> trunk6 stable6
+#: main.cpp:67 main.cpp:71
+#, kde-format
+msgid "Ignored. (User defined.)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:88
+#, kde-format
+msgid "KDiff3"
+msgstr "KDiff3"
+
+#. +> trunk6 stable6
+#: main.cpp:91
+#, kde-format
+msgctxt "Program version info."
+msgid " (64 bit)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:93
+#, kde-format
+msgid "Tool for Comparison and Merge of Files and Folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:94
+#, kde-format
+msgid "©2002-2014 Joachim Eibl, ©2017 Michael Reeves KF5/Qt5 port"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:115
+#, kde-format
+msgid "Merge the input."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:116
+#, kde-format
+msgid "Explicit base file. For compatibility with certain tools."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:117
+#, kde-format
+msgid "Output file. Implies -m. E.g.: -o newfile.txt"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:118
+#, kde-format
+msgid "Output file, again. (For compatibility with certain tools.)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:120
+#, kde-format
+msgid "No GUI if all conflicts are auto-solvable. (Needs -o file)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:121
+#, kde-format
+msgid "Ignore --auto and always show GUI."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:123 main.cpp:124
+#, fuzzy, kde-format
+#| msgid "Ignore"
+msgid "Ignored."
+msgstr "Déan neamhaird de"
+
+#. +> trunk6 stable6
+#: main.cpp:126
+#, kde-format
+msgid "Visible name replacement for input file 1 (base)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:127
+#, kde-format
+msgid "Visible name replacement for input file 2."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:128
+#, kde-format
+msgid "Visible name replacement for input file 3."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:129
+#, kde-format
+msgid "Alternative visible name replacement. Supply this once for every input."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:130
+#, kde-format
+msgid "Override a config setting. Use once for every setting. E.g.: --cs \"AutoAdvance=1\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:131
+#, kde-format
+msgid "Show list of config settings and current values."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:132
+#, kde-format
+msgid "Use a different config file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:135
+#, kde-format
+msgid "file1 to open (base, if not specified via --base)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:136
+#, kde-format
+msgid "file2 to open"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:137
+#, kde-format
+msgid "file3 to open"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:161
+#, kde-format
+msgid "See kdiff3 --help for supported options."
+msgstr ""
+
+#. +> trunk6 stable6
+#: MergeFileInfos.cpp:393
+#, kde-format
+msgid "Unable to compare non-normal file with normal file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: MergeFileInfos.cpp:416
+#, kde-format
+msgid "Mix of links and normal files."
+msgstr ""
+
+#. +> trunk6 stable6
+#: MergeFileInfos.cpp:424
+#, kde-format
+msgid "Link: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: MergeFileInfos.cpp:434
+#, kde-format
+msgid "Size. "
+msgstr ""
+
+#. +> trunk6 stable6
+#: MergeFileInfos.cpp:450 MergeFileInfos.cpp:460
+#, kde-format
+msgid "Date & Size: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: MergeFileInfos.cpp:481
+#, fuzzy, kde-format
+#| msgid "Saving file..."
+msgctxt "Status message"
+msgid "Comparing file..."
+msgstr "Comhad á shábháil..."
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:135
+#, kde-format
+msgid "Choose A Everywhere"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:136
+#, kde-format
+msgid "Choose B Everywhere"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:137
+#, kde-format
+msgid "Choose C Everywhere"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:138
+#, kde-format
+msgid "Choose A for All Unsolved Conflicts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:139
+#, kde-format
+msgid "Choose B for All Unsolved Conflicts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:140
+#, kde-format
+msgid "Choose C for All Unsolved Conflicts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:141
+#, kde-format
+msgid "Choose A for All Unsolved Whitespace Conflicts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:142
+#, kde-format
+msgid "Choose B for All Unsolved Whitespace Conflicts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:143
+#, kde-format
+msgid "Choose C for All Unsolved Whitespace Conflicts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:239
+#, kde-format
+msgid "Number of remaining unsolved conflicts: %1 (of which %2 are whitespace)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:303
+#, kde-format
+msgid ""
+"The output has been modified.\n"
+"If you continue your changes will be lost."
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:744 pdiff.cpp:602
+#, kde-format
+msgid "All input files are binary equal."
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:746
+#, kde-format
+msgid "All input files contain the same text."
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:750 mergeresultwindow.cpp:754
+#: mergeresultwindow.cpp:758 pdiff.cpp:608 pdiff.cpp:612 pdiff.cpp:616
+#, kde-format
+msgid "Files %1 and %2 are binary equal.\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:752 mergeresultwindow.cpp:756
+#: mergeresultwindow.cpp:760
+#, kde-format
+msgid "Files %1 and %2 have equal text.\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:764
+#, kde-format
+msgid ""
+"Total number of conflicts: %1\n"
+"Number of automatically solved conflicts: %2\n"
+"Number of unsolved conflicts: %3\n"
+"%4"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:770
+#, kde-format
+msgid "Conflicts"
+msgstr "Coinbhleachtaí"
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:1511
+#, kde-format
+msgid "<No src line>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:1519
+#, kde-format
+msgid "<Merge Conflict (Whitespace only)>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:1521 mergeresultwindow.cpp:2421
+#, kde-format
+msgid "<Merge Conflict>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2645
+#, kde-format
+msgid ""
+"Not all conflicts are solved yet.\n"
+"File not saved."
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2647 mergeresultwindow.cpp:2656
+#, fuzzy, kde-format
+#| msgid "Conflicts"
+msgctxt "Dialog title"
+msgid "Conflicts Left"
+msgstr "Coinbhleachtaí"
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2654
+#, kde-format
+msgid ""
+"There is a line end style conflict. Please choose the line end style manually.\n"
+"File not saved."
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2668
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"Creating backup failed. File not saved."
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2668 mergeresultwindow.cpp:2684
+#, kde-format
+msgid "File Save Error"
+msgstr ""
+
+#. +> trunk6
+#: mergeresultwindow.cpp:2680
+#, kde-format
+msgid "Output file may contain replacement characters for unrecognized code points."
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2684
+#, kde-format
+msgid "Error while writing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2764
+#, fuzzy, kde-format
+#| msgid "Output"
+msgid "Output:"
+msgstr "Aschur"
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2777 mergeresultwindow.cpp:2958
+#, kde-format
+msgid "[Modified]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2784
+#, fuzzy, kde-format
+#| msgid "Encoding:"
+msgid "Encoding for saving:"
+msgstr "Ionchódú:"
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2792 optiondialog.cpp:787
+#, kde-format
+msgid "Line end style:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2837
+#, kde-format
+msgid "Unix"
+msgstr "Unix"
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2838
+#, kde-format
+msgid "DOS"
+msgstr "DOS"
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2884
+#, kde-format
+msgid "Conflict"
+msgstr "Coinbhleacht"
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2907
+#, kde-format
+msgid "Codec from A: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2909
+#, kde-format
+msgid "Codec from B: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergeresultwindow.cpp:2911
+#, kde-format
+msgid "Codec from C: %1"
+msgstr ""
+
+#. +> trunk6
+#: mergeresultwindow.cpp:2951
+#, kde-format
+msgid "Select file (not saving yet)"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, OpenDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, ProgressDialog)
+#. +> trunk6 stable6
+#: opendialog.ui:24 progressdialog.ui:23
+#, kde-format
+msgid "Dialog"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: opendialog.ui:47
+#, fuzzy, kde-format
+#| msgid "B"
+msgid "B:"
+msgstr "B"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: opendialog.ui:54
+#, kde-format
+msgid "A (Base):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: opendialog.ui:61
+#, kde-format
+msgid "Output (Optional):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, fileSelectC)
+#. i18n: ectx: property (text), widget (QPushButton, fileSelectB)
+#. i18n: ectx: property (text), widget (QPushButton, fileSelectA)
+#. i18n: ectx: property (text), widget (QPushButton, selectOutputFile)
+#. +> trunk6 stable6
+#: opendialog.ui:75 opendialog.ui:202 opendialog.ui:246 opendialog.ui:257
+#, kde-format
+msgid "File..."
+msgstr "Comhad..."
+
+#. i18n: ectx: property (text), widget (QPushButton, swapCopy)
+#. +> trunk6 stable6
+#: opendialog.ui:107
+#, kde-format
+msgid "Swap/Copy Names..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: opendialog.ui:129
+#, kde-format
+msgid "C (Optional):"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, folderSelectB)
+#. i18n: ectx: property (text), widget (QPushButton, folderSelectC)
+#. i18n: ectx: property (text), widget (QPushButton, folderSelectA)
+#. i18n: ectx: property (text), widget (QPushButton, selectOutputFolder)
+#. +> trunk6 stable6
+#: opendialog.ui:213 opendialog.ui:224 opendialog.ui:235 opendialog.ui:290
+#, fuzzy, kde-format
+#| msgid "File"
+msgid "Folder..."
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:105 optiondialog.cpp:117
+#, kde-format
+msgctxt "No text styling"
+msgid "none"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:107 optiondialog.cpp:119
+#, kde-format
+msgctxt "Font sample display, %1 = family, %2 = style, %3 = size"
+msgid ""
+"Font: %1, %2, %3\n"
+"\n"
+"Example:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:388
+#, kde-format
+msgid "Latin1"
+msgstr "ISO 8859-1"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:398
+#, kde-format
+msgctxt "Tool Tip"
+msgid "Change this if non-ASCII characters are not displayed correctly."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:482
+#, kde-format
+msgid "Configure"
+msgstr "Cumraigh"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:521
+#, kde-format
+msgid "Font"
+msgstr "Cló"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:523
+#, kde-format
+msgid "Editor & Diff Output Font"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:541
+#, kde-format
+msgid "Application font"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:546
+#, kde-format
+msgid "File view font"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:565
+#, fuzzy, kde-format
+#| msgid "Color"
+msgctxt "Title for color settings page"
+msgid "Color"
+msgstr "Dath"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:566
+#, kde-format
+msgid "Colors Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:591
+#, kde-format
+msgid "Editor and Diff Views:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:599
+#, kde-format
+msgid "Foreground color:"
+msgstr "Dath an tulra:"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:607
+#, kde-format
+msgid "Background color:"
+msgstr "Dath an chúlra:"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:617
+#, kde-format
+msgid "Diff background color:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:626
+#, kde-format
+msgid "Color A:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:635
+#, kde-format
+msgid "Color B:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:644
+#, kde-format
+msgid "Color C:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:652
+#, kde-format
+msgid "Conflict color:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:661
+#, kde-format
+msgid "Current range background color:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:670
+#, kde-format
+msgid "Current range diff background color:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:678
+#, kde-format
+msgid "Color for manually aligned difference ranges:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:685
+#, kde-format
+msgid "Folder Comparison View:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:691
+#, kde-format
+msgid "Newest file color:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:696
+#, kde-format
+msgid "Changing this color will only be effective when starting the next folder comparison."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:701
+#, kde-format
+msgid "Oldest file color:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:710
+#, kde-format
+msgid "Middle age file color:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:719
+#, kde-format
+msgid "Color for missing files:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:733
+#, kde-format
+msgid "Editor"
+msgstr "Eagarthóir"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:734
+#, kde-format
+msgid "Editor Behavior"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:756
+#, kde-format
+msgid "Tab inserts spaces"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:760
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"On: Pressing tab generates the appropriate number of spaces.\n"
+"Off: A tab character will be inserted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:765
+#, kde-format
+msgid "Tab size:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:772
+#, kde-format
+msgid "Auto indentation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:776
+#, kde-format
+msgctxt "Tool Tip"
+msgid "On: The indentation of the previous line is used for a new line.\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:779
+#, kde-format
+msgid "Auto copy selection"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:783
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"On: Any selection is immediately written to the clipboard.\n"
+"Off: You must explicitly copy e.g. via Ctrl-C."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:793
+#, fuzzy, kde-format
+#| msgid "Unix"
+msgctxt "Unix line ending"
+msgid "Unix"
+msgstr "Unix"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:794
+#, fuzzy, kde-format
+#| msgid "&Window"
+msgctxt "Dos/Windows line ending"
+msgid "Dos/Windows"
+msgstr "&Fuinneog"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:795
+#, fuzzy, kde-format
+#| msgid "Auto Select"
+msgctxt "Automatically detected line ending"
+msgid "Autodetect"
+msgstr "Roghnaigh go hUathoibríoch"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:798
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Sets the line endings for when an edited file is saved.\n"
+"DOS/Windows: CR+LF; UNIX: LF; with CR=0D, LF=0A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:808
+#, kde-format
+msgid "Diff"
+msgstr "Diff"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:809
+#, kde-format
+msgid "Diff Settings"
+msgstr "Socruithe Diff"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:832
+#, fuzzy, kde-format
+#| msgid "Treat as white space."
+msgid "Ignore numbers (treat as white space)"
+msgstr "Déileálfar leis mar spás bán."
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:836
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Ignore number characters during line matching phase. (Similar to Ignore white space.)\n"
+"Might help to compare files with numeric data."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:840
+#, fuzzy, kde-format
+#| msgid "Treat C/C++ comments like white space."
+msgid "Ignore C/C++ comments (treat as white space)"
+msgstr "Déileálfar le nótaí tráchta C/C++ mar spás bán."
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:843
+#, fuzzy, kde-format
+#| msgid "Treat C/C++ comments like white space."
+msgctxt "Tool Tip"
+msgid "Treat C/C++ comments like white space."
+msgstr "Déileálfar le nótaí tráchta C/C++ mar spás bán."
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:846
+#, fuzzy, kde-format
+#| msgid "Treat as white space."
+msgid "Ignore case (treat as white space)"
+msgstr "Déileálfar leis mar spás bán."
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:850
+#, fuzzy, kde-format
+#| msgid "Treat case differences like white space changes. ('a'<=>'A')"
+msgctxt "Tool Tip"
+msgid "Treat case differences like white space changes. ('a'<=>'A')"
+msgstr "Déileálfar le difríochtaí i gcás mar athruithe sa spás bán. ('a'<=>'A')"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:853
+#, kde-format
+msgid "Preprocessor command:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:858
+#, kde-format
+msgctxt "Tool Tip"
+msgid "User defined pre-processing. (See the docs for details.)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:861
+#, kde-format
+msgid "Line-matching preprocessor command:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:866
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"This pre-processor is only used during line matching.\n"
+"(See the docs for details.)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:869
+#, kde-format
+msgid "Try hard (slower)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:873
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Enables the --minimal option for the external diff.\n"
+"The analysis of big files will be much slower."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:877
+#, kde-format
+msgid "Align B and C for 3 input files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:881
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Try to align B and C when comparing or merging three input files.\n"
+"Not recommended for merging because merge might get more complicated.\n"
+"(Default is off.)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:892
+#, fuzzy, kde-format
+#| msgid "Merge"
+msgctxt "Settings page"
+msgid "Merge"
+msgstr "Cumaisc"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:893
+#, kde-format
+msgid "Merge Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:916
+#, kde-format
+msgid "Auto advance delay (ms):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:922
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"When in Auto-Advance mode the result of the current selection is shown \n"
+"for the specified time, before jumping to the next conflict. Range: 0-2000 ms"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:926
+#, kde-format
+msgid "Show info dialogs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:929
+#, kde-format
+msgctxt "Tool Tip"
+msgid "Show a dialog with information about the number of conflicts."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:932
+#, kde-format
+msgid "White space 2-file merge default:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:937 optiondialog.cpp:950
+#, kde-format
+msgid "Manual Choice"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:941 optiondialog.cpp:955
+#, kde-format
+msgctxt "Tool Tip"
+msgid "Allow the merge algorithm to automatically select an input for white-space-only changes."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:945
+#, kde-format
+msgid "White space 3-file merge default:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:959
+#, kde-format
+msgid "Automatic Merge Regular Expression"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:967 smalldialogs.cpp:372
+#, kde-format
+msgid "Auto merge regular expression:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:975
+#, kde-format
+msgid "Run regular expression auto merge on merge start"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:978
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Run the merge for auto merge regular expressions\n"
+"immediately when a merge starts.\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:983
+#, kde-format
+msgid "Version Control History Merging"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:991 smalldialogs.cpp:399
+#, kde-format
+msgid "History start regular expression:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:999 smalldialogs.cpp:427
+#, kde-format
+msgid "History entry start regular expression:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1015
+#, kde-format
+msgid "History merge sorting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1018
+#, kde-format
+msgctxt "Tool Tip"
+msgid "Sort version control history by a key."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1028
+#, kde-format
+msgid "History entry start sort key order:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1038
+#, kde-format
+msgid "Merge version control history on merge start"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1041
+#, kde-format
+msgctxt "Tool Tip"
+msgid "Run version control history auto-merge on merge start."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1045
+#, kde-format
+msgid "Max number of history entries:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1049
+#, kde-format
+msgctxt "Tool Tip"
+msgid "Cut off after specified number. Use -1 for infinite number of entries."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1053
+#, kde-format
+msgid "Test your regular expressions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1058
+#, kde-format
+msgid "Irrelevant merge command:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1063
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"If specified this script is run after auto-merge\n"
+"when no other relevant changes were detected.\n"
+"Called with the parameters: filename1 filename2 filename3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1068
+#, kde-format
+msgid "Auto save and quit on merge without conflicts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1072
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"If KDiff3 was started for a file-merge from the command line and all\n"
+"conflicts are solvable without user interaction then automatically save and quit.\n"
+"(Similar to command line option \"--auto\".)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1083 optiondialog.cpp:1084
+#, fuzzy, kde-format
+#| msgid "File"
+msgctxt "Tab title label"
+msgid "Folder"
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1104
+#, kde-format
+msgid "Recursive folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1107
+#, kde-format
+msgctxt "Tool Tip"
+msgid "Whether to analyze subfolders or not."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1109
+#, kde-format
+msgid "File pattern(s):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1115
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Pattern(s) of files to be analyzed. \n"
+"Wildcards: '*' and '?'\n"
+"Several Patterns can be specified by using the separator: ';'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1120
+#, kde-format
+msgid "File-anti-pattern(s):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1126
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Pattern(s) of files to be excluded from analysis. \n"
+"Wildcards: '*' and '?'\n"
+"Several Patterns can be specified by using the separator: ';'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1131
+#, kde-format
+msgid "Folder-anti-pattern(s):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1137
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Pattern(s) of folders to be excluded from analysis. \n"
+"Wildcards: '*' and '?'\n"
+"Several Patterns can be specified by using the separator: ';'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1142
+#, kde-format
+msgid "Use Ignore File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1146
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Extends the anti-pattern to anything that would be ignored by source control.\n"
+"Via local ignore files this can be folder-specific."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1150
+#, kde-format
+msgid "Find hidden files and folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1153
+#, kde-format
+msgctxt "Tool Tip"
+msgid "Finds hidden files and folders."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1156
+#, kde-format
+msgid "Follow file links"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1160
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"On: Compare the file the link points to.\n"
+"Off: Compare the links."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1164
+#, kde-format
+msgid "Follow folder links"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1168
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"On: Compare the folder the link points to.\n"
+"Off: Compare the links."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1177
+#, kde-format
+msgid "Case sensitive filename comparison"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1181
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"The folder comparison will compare files or folders when their names match.\n"
+"Set this option if the case of the names must match. (Default for Windows is off, otherwise on.)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1185
+#, kde-format
+msgid "Unfold all subfolders on load"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1189
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"On: Unfold all subfolders when starting a folder diff.\n"
+"Off: Leave subfolders folded."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1193
+#, kde-format
+msgid "Skip folder status report"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1197
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"On: Do not show the Folder Comparison Status.\n"
+"Off: Show the status dialog on start."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1201
+#, kde-format
+msgid "File Comparison Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1206
+#, kde-format
+msgid "Binary comparison"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1208
+#, kde-format
+msgctxt "Tool Tip"
+msgid "Binary comparison of each file. (Default)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1211
+#, kde-format
+msgid "Full analysis"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1213
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Do a full analysis and show statistics information in extra columns.\n"
+"(Slower than a binary comparison, much slower for binary files.)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1217
+#, kde-format
+msgid "Trust the size and modification date (unsafe)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1219
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Assume that files are equal if the modification date and file length are equal.\n"
+"Files with equal contents but different modification dates will appear as different.\n"
+"Useful for big folders or slow networks."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1224
+#, kde-format
+msgid "Trust the size and date, but use binary comparison if date does not match (unsafe)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1226
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Assume that files are equal if the modification date and file length are equal.\n"
+"If the dates are not equal but the sizes are, use binary comparison.\n"
+"Useful for big folders or slow networks."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1231
+#, kde-format
+msgid "Trust the size (unsafe)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1233
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Assume that files are equal if their file lengths are equal.\n"
+"Useful for big folders or slow networks when the date is modified during download."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1240
+#, kde-format
+msgid "Synchronize folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1244
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Offers to store files in both folders so that\n"
+"both folders are the same afterwards.\n"
+"Works only when comparing two folders without specifying a destination."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1250
+#, kde-format
+msgid "White space differences considered equal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1254
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"If files differ only by white space consider them equal.\n"
+"This is only active when full analysis is chosen."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1260
+#, kde-format
+msgid "Copy newer instead of merging (unsafe)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1264
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Do not look inside, just take the newer file.\n"
+"(Use this only if you know what you are doing!)\n"
+"Only effective when comparing two folders."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1269
+#, kde-format
+msgid "Backup files (.orig)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1273
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"If a file would be saved over an old file, then the old file\n"
+"will be renamed with a '.orig' extension instead of being deleted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1282 optiondialog.cpp:1283
+#, kde-format
+msgid "Regional Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1306
+#, kde-format
+msgid "Use the same encoding for everything:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1310
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Enable this allows to change all encodings by changing the first only.\n"
+"Disable this if different individual settings are needed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1314
+#, kde-format
+msgid "Note: Local Encoding is \"%1\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1318
+#, kde-format
+msgid "File Encoding for A:"
+msgstr ""
+
+#. +> trunk6
+#: optiondialog.cpp:1325
+#, kde-format
+msgid ""
+"If enabled then encoding will be automatically detected.\n"
+"If the file's encoding can not be found automatically then the selected encoding will be used as fallback.\n"
+"(Unicode detection depends on the first bytes of a file.)"
+msgstr ""
+
+#. +> stable6
+#: optiondialog.cpp:1327
+#, kde-format
+msgid ""
+"If enabled then encoding will be automaticly detected.\n"
+"If the file's encoding can not be found automaticly then the selected encoding will be used as fallback.\n"
+"(Unicode detection depends on the first bytes of a file.)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1328 optiondialog.cpp:1339 optiondialog.cpp:1350
+#, fuzzy, kde-format
+#| msgid "Auto Select"
+msgid "Auto Detect"
+msgstr "Roghnaigh go hUathoibríoch"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1334
+#, kde-format
+msgid "File Encoding for B:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1345
+#, kde-format
+msgid "File Encoding for C:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1356
+#, kde-format
+msgid "File Encoding for Merge Output and Saving:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1361
+#, kde-format
+msgid "Auto Select"
+msgstr "Roghnaigh go hUathoibríoch"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1365
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"If enabled then the encoding from the input files is used.\n"
+"In ambiguous cases a dialog will ask the user to choose the encoding for saving."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1368
+#, kde-format
+msgid "File Encoding for Preprocessor Files:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1380
+#, kde-format
+msgid "Right To Left Language"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1384
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Some languages are read from right to left.\n"
+"This setting will change the viewer and editor accordingly."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1394
+#, kde-format
+msgid "Integration"
+msgstr "Comhtháthú"
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1395
+#, kde-format
+msgid "Integration Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1416
+#, kde-format
+msgid "Command line options to ignore:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1422
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"List of command line options that should be ignored when KDiff3 is used by other tools.\n"
+"Several values can be specified if separated via ';'\n"
+"This will suppress the \"Unknown option\" error."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1427
+#, kde-format
+msgid "Quit also via Escape key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1431
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Fast method to exit.\n"
+"For those who are used to using the Escape key."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optiondialog.cpp:1489
+#, kde-format
+msgid "This resets all options. Not only those of the current topic."
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:104
+#, kde-format
+msgid "PreprocessorCmd: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:106
+#, kde-format
+msgid "The following option(s) you selected might change data:\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:107
+#, kde-format
+msgid ""
+"\n"
+"Most likely this is not wanted during a merge.\n"
+"Do you want to disable these settings or continue with these settings active?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:109
+#, kde-format
+msgid "Option Unsafe for Merging"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:110
+#, kde-format
+msgid "Use These Options During Merge"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:111
+#, kde-format
+msgid "Disable Unsafe Options"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:133
+#, fuzzy, kde-format
+#| msgid "Encoding:"
+msgctxt "Status message"
+msgid "Loading A: %1"
+msgstr "Ionchódú:"
+
+#. +> trunk6 stable6
+#: pdiff.cpp:143
+#, fuzzy, kde-format
+#| msgid "Encoding:"
+msgctxt "Status message"
+msgid "Loading B: %1"
+msgstr "Ionchódú:"
+
+#. +> trunk6 stable6
+#: pdiff.cpp:179 pdiff.cpp:219
+#, kde-format
+msgctxt "Status message"
+msgid "Diff: A <-> B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:185 pdiff.cpp:265 pdiff.cpp:288
+#, kde-format
+msgctxt "Status message"
+msgid "Linediff: A <-> B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:204
+#, fuzzy, kde-format
+#| msgid "Encoding:"
+msgctxt "Status message"
+msgid "Loading C: %1"
+msgstr "Ionchódú:"
+
+#. +> trunk6 stable6
+#: pdiff.cpp:230
+#, kde-format
+msgctxt "Status message"
+msgid "Diff: A <-> C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:243
+#, kde-format
+msgctxt "Status message"
+msgid "Diff: B <-> C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:271 pdiff.cpp:293
+#, kde-format
+msgctxt "Status message"
+msgid "Linediff: B <-> C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:277 pdiff.cpp:298
+#, kde-format
+msgctxt "Status message"
+msgid "Linediff: A <-> C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:322
+#, kde-format
+msgctxt "Error message"
+msgid "Not enough memory to complete request."
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:329
+#, kde-format
+msgid "An internal error occurred: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:356
+#, kde-format
+msgid "Too many lines in diff. Skipping file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:604
+#, kde-format
+msgid "All input files contain the same text, but are not binary equal."
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:610 pdiff.cpp:614 pdiff.cpp:618
+#, kde-format
+msgid "Files %1 and %2 have equal text, but are not binary equal. \n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:628
+#, kde-format
+msgid ""
+"Some input files do not seem to be pure text files.\n"
+"Note that the KDiff3 merge was not meant for binary data.\n"
+"Continue at your own risk."
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:638
+#, kde-format
+msgid ", B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:640
+#, kde-format
+msgid ", C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:642
+#, kde-format
+msgid ""
+"Some input characters could not be converted to valid unicode.\n"
+"You might be using the wrong codec. (e.g. UTF-8 for non UTF-8 files).\n"
+"Do not save the result if unsure. Continue at your own risk.\n"
+"Affected input files are in %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:728
+#, kde-format
+msgid "Abort"
+msgstr "Tobscoir"
+
+#. +> trunk6 stable6
+#: pdiff.cpp:729
+#, kde-format
+msgid "Continue Merging"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:734 pdiff.cpp:825
+#, kde-format
+msgid "Opening files..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:914
+#, kde-format
+msgid "Cutting selection..."
+msgstr "Roghnúchán á ghearradh..."
+
+#. +> trunk6 stable6
+#: pdiff.cpp:921
+#, kde-format
+msgid "Copying selection to clipboard..."
+msgstr "Roghnúchán á chóipeáil go dtí an ghearrthaisce..."
+
+#. +> trunk6 stable6
+#: pdiff.cpp:930
+#, kde-format
+msgid "Inserting clipboard contents..."
+msgstr "Inneachar na gearrthaisce á ionsá..."
+
+#. +> trunk6 stable6
+#: pdiff.cpp:1015
+#, kde-format
+msgid "Ok"
+msgstr "OK"
+
+#. +> trunk6 stable6
+#: pdiff.cpp:1031
+#, kde-format
+msgid "Go to Line"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:1298
+#, kde-format
+msgid "Word wrap (Cancel disables word wrap)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:1298
+#, kde-format
+msgid "Calculating max width for horizontal scrollbar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:1521
+#, kde-format
+msgid "Save && Continue"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:1522
+#, kde-format
+msgid "Continue Without Saving"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:1713
+#, kde-format
+msgid "Search complete."
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:1713
+#, kde-format
+msgid "Search Complete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:1894
+#, kde-format
+msgid "Nothing is selected in either diff input window."
+msgstr ""
+
+#. +> trunk6 stable6
+#: pdiff.cpp:1894
+#, kde-format
+msgid "Error while adding manual diff range"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, abortButton)
+#. +> trunk6 stable6
+#: progress.cpp:54 progressdialog.ui:100
+#, kde-format
+msgid "&Cancel"
+msgstr "&Cealaigh"
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:81 smalldialogs.cpp:82 smalldialogs.cpp:83
+#, kde-format
+msgid "Swap %1<->%2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:84 smalldialogs.cpp:85 smalldialogs.cpp:86
+#, kde-format
+msgid "Copy %1->Output"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:87 smalldialogs.cpp:88 smalldialogs.cpp:89
+#, kde-format
+msgid "Swap %1<->Output"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:108
+#, kde-format
+msgid "Configure..."
+msgstr "Cumraigh..."
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:161
+#, fuzzy, kde-format
+#| msgid "File"
+msgid "Open Folder"
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:162
+#, kde-format
+msgid "Select Output File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:309
+#, kde-format
+msgid "Search text:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:316
+#, kde-format
+msgid "Case sensitive"
+msgstr "Cásíogair"
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:319
+#, kde-format
+msgid "Search A"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:324
+#, kde-format
+msgid "Search B"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:329
+#, kde-format
+msgid "Search C"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:334
+#, kde-format
+msgid "Search output"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:341
+#, kde-format
+msgid "&Search"
+msgstr "&Cuardach"
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:367
+#, kde-format
+msgid "Regular Expression Tester"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:380
+#, kde-format
+msgid "Example auto merge line:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:382
+#, kde-format
+msgctxt "Tool Tip"
+msgid "To test auto merge, copy a line as used in your files."
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:388 smalldialogs.cpp:416 smalldialogs.cpp:452
+#, kde-format
+msgid "Match result:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:407
+#, kde-format
+msgid "Example history start line (with leading comment):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:409
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Copy a history start line as used in your files,\n"
+"including the leading comment."
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:435
+#, kde-format
+msgid "History sort key order:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:443
+#, kde-format
+msgid "Example history entry start line (without leading comment):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:445
+#, kde-format
+msgctxt "Tool Tip"
+msgid ""
+"Copy a history entry start line as used in your files,\n"
+"but omit the leading comment."
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:459
+#, kde-format
+msgid "Sort key result:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:509 smalldialogs.cpp:521 smalldialogs.cpp:542
+#, kde-format
+msgid "Match success."
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:513 smalldialogs.cpp:525 smalldialogs.cpp:548
+#, kde-format
+msgid "Match failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: smalldialogs.cpp:532
+#, kde-format
+msgid "Opening and closing parentheses do not match in regular expression."
+msgstr ""
+
+#. +> trunk6 stable6
+#: SourceData.cpp:149
+#, kde-format
+msgid "Writing clipboard data to temp file failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: SourceData.cpp:154
+#, kde-format
+msgid "From Clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: SourceData.cpp:344
+#, kde-format
+msgid "%1 is not a normal file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: SourceData.cpp:381
+#, kde-format
+msgctxt "Error message. %1 = filepath"
+msgid "File %1 too large to process. Skipping."
+msgstr ""
+
+#. +> trunk6 stable6
+#: SourceData.cpp:410
+#, kde-format
+msgid "    Temp file is: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: SourceData.cpp:448
+#, kde-format
+msgid ""
+"Preprocessing possibly failed. Check this command:\n"
+"\n"
+"  %1\n"
+"\n"
+"The preprocessing command will be disabled now."
+msgstr ""
+
+#. +> trunk6 stable6
+#: SourceData.cpp:511
+#, kde-format
+msgid ""
+"The line-matching-preprocessing possibly failed. Check this command:\n"
+"\n"
+"  %1\n"
+"\n"
+"The line-matching-preprocessing command will be disabled now."
+msgstr ""
+
+#. +> trunk6 stable6
+#: SourceData.cpp:517
+#, kde-format
+msgctxt "Read error message. %1 = filepath"
+msgid "Failed to read file: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:18
+#, kde-format
+msgid "Opens documents for comparison..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:20
+#, kde-format
+msgid "Reload"
+msgstr "Athluchtaigh"
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:23
+#, kde-format
+msgid "Saves the merge result. All conflicts must be solved!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:25
+#, kde-format
+msgid "Saves the current document as..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:28
+#, kde-format
+msgid "Print the differences"
+msgstr ""
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:31
+#, kde-format
+msgid "Quits the application"
+msgstr "Éirigh as an bhfeidhmchlár"
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:35
+#, kde-format
+msgid "Undo last action."
+msgstr ""
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:39
+#, kde-format
+msgid "Cuts the selected section and puts it to the clipboard"
+msgstr "Gearr an rannán roghnaithe agus cuir é sa ghearrthaisce"
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:42
+#, kde-format
+msgid "Copies the selected section to the clipboard"
+msgstr "Cuir cóip den rannán roghnaithe sa ghearrthaisce"
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:44
+#, kde-format
+msgid "Pastes the clipboard contents to current position"
+msgstr "Greamaigh inneachar na gearrthaisce ag ionad an chúrsóra"
+
+#. +> trunk6 stable6
+#: StandardMenus.cpp:47
+#, kde-format
+msgid "Select everything in current window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: Utils.cpp:73
+#, kde-format
+msgid "Expecting space after closing quote."
+msgstr ""
+
+#. +> trunk6 stable6
+#: Utils.cpp:76
+#, kde-format
+msgid "Unmatched quote."
+msgstr ""
+
+#. +> trunk6 stable6
+#: Utils.cpp:85
+#, kde-format
+msgid "Unexpected quote character within argument."
+msgstr ""
+
+#. +> trunk6 stable6
+#: Utils.cpp:92
+#, kde-format
+msgid "No program specified."
+msgstr ""

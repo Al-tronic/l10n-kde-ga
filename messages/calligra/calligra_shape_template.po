@@ -1,0 +1,47 @@
+# Irish translation of TemplateShape
+# Copyright (C) 2012 This_file_is_part_of_KDE
+# This file is distributed under the same license as the TemplateShape package.
+# Kevin Scannell <kscanne@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: TemplateShape\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:24+0100\n"
+"PO-Revision-Date: 2012-05-14 16:25-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: ChangeSomethingCommand.cpp:32
+msgctxt "(qtundo-format)"
+msgid "Change something"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TemplateShapeFactory.cpp:31
+#, kde-format
+msgid "Template shape"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TemplateShapeFactory.cpp:33
+#, kde-format
+msgid "Simple shape that is used as a template for developing other shapes."
+msgstr ""
+
+#. +> trunk6 stable6
+#: TemplateTool.cpp:76
+#, kde-format
+msgid "Open"
+msgstr "Oscail"
+
+#. +> trunk6 stable6
+#: TemplateToolFactory.cpp:24
+#, kde-format
+msgid "Template shape editing"
+msgstr ""

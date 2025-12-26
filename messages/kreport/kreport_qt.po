@@ -1,0 +1,1352 @@
+# Irish translation of koffice
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the koffice package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: koffice/koffice.po\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2022-09-28 07:20+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk5 stable5
+#: common/KReportDesign.cpp:150
+#, fuzzy
+#| msgid "Could not create the file for saving"
+msgctxt "KReportDesign|"
+msgid "Could not parse XML document."
+msgstr "Ní féidir an comhad a chruthú le haghaidh sábhála"
+
+#. +> trunk5 stable5
+#: common/KReportDesign.cpp:159
+#, fuzzy
+#| msgid "Error in embedded document"
+msgctxt "KReportDesign|"
+msgid "Error in XML document."
+msgstr "Earráid i gcáipéis leabaithe"
+
+#. +> trunk5 stable5
+#: common/KReportItemBase.cpp:75
+#, fuzzy
+#| msgid "Name"
+msgctxt "KReportItemBase|"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk5 stable5
+#: common/KReportItemBase.cpp:75
+#, fuzzy
+#| msgid "Object Name"
+msgctxt "KReportItemBase|"
+msgid "Object Name"
+msgstr "Ainm Réada"
+
+#. +> trunk5 stable5
+#: common/KReportItemBase.cpp:78
+#, fuzzy
+#| msgid "Position"
+msgctxt "ItemPosition|"
+msgid "Position"
+msgstr "Ionad"
+
+#. +> trunk5 stable5
+#: common/KReportItemBase.cpp:79
+#, fuzzy
+#| msgid "Size"
+msgctxt "ItemSize|"
+msgid "Size"
+msgstr "Méid"
+
+#. +> trunk5 stable5
+#: common/KReportItemBase.cpp:112
+#, fuzzy
+#| msgid "Data Source"
+msgctxt "KReportItemBase|"
+msgid "Data Source"
+msgstr "Foinse Sonraí"
+
+#. +> trunk5 stable5
+#: common/KReportItemLine.cpp:80
+#, fuzzy
+#| msgid "&Set Position..."
+msgctxt "StartPosition|"
+msgid "Start Position"
+msgstr "&Socraigh Ionad..."
+
+#. +> trunk5 stable5
+#: common/KReportItemLine.cpp:81
+#, fuzzy
+#| msgid "Position"
+msgctxt "EndPosition|"
+msgid "End Position"
+msgstr "Ionad"
+
+#. +> trunk5 stable5
+#: common/KReportItemLine.cpp:83
+#, fuzzy
+msgctxt "KReportItemLine|"
+msgid "Line Weight"
+msgstr "Ailínigh Ar Dheis"
+
+#. +> trunk5 stable5
+#: common/KReportItemLine.cpp:85
+#, fuzzy
+#| msgid "Line Color"
+msgctxt "KReportItemLine|"
+msgid "Line Color"
+msgstr "Dath Líne"
+
+#. +> trunk5 stable5
+#: common/KReportItemLine.cpp:86
+#, fuzzy
+#| msgid "Line Style"
+msgctxt "KReportItemLine|"
+msgid "Line Style"
+msgstr "Stíl Líne"
+
+#. +> trunk5 stable5
+#: common/KReportSectionData.cpp:164
+#, fuzzy
+msgctxt "KReportSectionData|Report section"
+msgid "Section"
+msgstr "Grúpáil giuirléidí"
+
+#. +> trunk5 stable5
+#: common/KReportSectionData.cpp:166
+#, fuzzy
+#| msgid "Height"
+msgctxt "KReportSectionData|"
+msgid "Height"
+msgstr "Airde"
+
+#. +> trunk5 stable5
+#: common/KReportSectionData.cpp:170
+#, fuzzy
+#| msgid "Background Color"
+msgctxt "KReportSectionData|"
+msgid "Background Color"
+msgstr "Dath an Chúlra"
+
+#. +> trunk5 stable5
+#: common/KReportUnit.cpp:136
+#, fuzzy
+#| msgid "Invalid Type"
+msgctxt "KReportUnit|"
+msgid "Invalid"
+msgstr "Cineál Neamhbhailí"
+
+#. +> trunk5 stable5
+#: common/KReportUnit.cpp:138
+#, fuzzy
+#| msgid "Millimeters (mm)"
+msgctxt "KReportUnit|"
+msgid "Millimeters (mm)"
+msgstr "Milliméadair (mm)"
+
+#. +> trunk5 stable5
+#: common/KReportUnit.cpp:140
+#, fuzzy
+#| msgid "Centimeters (cm)"
+msgctxt "KReportUnit|"
+msgid "Centimeters (cm)"
+msgstr "Ceintiméadair (cm)"
+
+#. +> trunk5 stable5
+#: common/KReportUnit.cpp:142
+#, fuzzy
+#| msgid "Decimeters (dm)"
+msgctxt "KReportUnit|"
+msgid "Decimeters (dm)"
+msgstr "Deiciméadair (dm)"
+
+#. +> trunk5 stable5
+#: common/KReportUnit.cpp:144
+#, fuzzy
+#| msgid "Inches (in)"
+msgctxt "KReportUnit|"
+msgid "Inches (in)"
+msgstr "Orlaí (or)"
+
+#. +> trunk5 stable5
+#: common/KReportUnit.cpp:146
+#, fuzzy
+#| msgid "Pica (pi)"
+msgctxt "KReportUnit|"
+msgid "Pica (pi)"
+msgstr "Píoca (pi)"
+
+#. +> trunk5 stable5
+#: common/KReportUnit.cpp:148
+#, fuzzy
+#| msgid "Cicero (cc)"
+msgctxt "KReportUnit|"
+msgid "Cicero (cc)"
+msgstr "Cicero (cc)"
+
+#. +> trunk5 stable5
+#: common/KReportUnit.cpp:150
+#, fuzzy
+#| msgid "Points (pt)"
+msgctxt "KReportUnit|"
+msgid "Points (pt)"
+msgstr "Pointí (pt)"
+
+#. +> trunk5 stable5
+#: common/KReportUnit.cpp:152
+#, fuzzy
+#| msgid "Pixels (px)"
+msgctxt "KReportUnit|"
+msgid "Pixels (px)"
+msgstr "Picteilíní (px)"
+
+#. +> trunk5 stable5
+#: common/KReportUnit.cpp:154
+msgctxt "KReportUnit|"
+msgid "Unsupported unit"
+msgstr ""
+
+#. +> trunk5 stable5
+#: items/check/KReportItemCheck.cpp:79
+#, fuzzy
+#| msgid "Cross"
+msgctxt "KReportItemCheckBox|"
+msgid "Cross"
+msgstr "Cros"
+
+#. +> trunk5 stable5
+#: items/check/KReportItemCheck.cpp:79
+#, fuzzy
+#| msgid "Tick"
+msgctxt "KReportItemCheckBox|"
+msgid "Tick"
+msgstr "Tic"
+
+#. +> trunk5 stable5
+#: items/check/KReportItemCheck.cpp:79
+#, fuzzy
+#| msgid "Dot"
+msgctxt "KReportItemCheckBox|"
+msgid "Dot"
+msgstr "Ponc"
+
+#. +> trunk5 stable5
+#: items/check/KReportItemCheck.cpp:80
+#, fuzzy
+#| msgid "Style"
+msgctxt "KReportItemCheckBox|"
+msgid "Style"
+msgstr "Stíl"
+
+#. +> trunk5 stable5
+#: items/check/KReportItemCheck.cpp:84
+#, fuzzy
+#| msgid "Foreground Color"
+msgctxt "KReportItemCheckBox|"
+msgid "Foreground Color"
+msgstr "Dath an Tulra"
+
+#. +> trunk5 stable5
+#: items/check/KReportItemCheck.cpp:86
+#, fuzzy
+msgctxt "KReportItemCheckBox|"
+msgid "Line Weight"
+msgstr "Ailínigh Ar Dheis"
+
+#. +> trunk5 stable5
+#: items/check/KReportItemCheck.cpp:88
+#, fuzzy
+#| msgid "Line Color"
+msgctxt "KReportItemCheckBox|"
+msgid "Line Color"
+msgstr "Dath Líne"
+
+#. +> trunk5 stable5
+#: items/check/KReportItemCheck.cpp:89
+#, fuzzy
+#| msgid "Line Style"
+msgctxt "KReportItemCheckBox|"
+msgid "Line Style"
+msgstr "Stíl Líne"
+
+#. +> trunk5 stable5
+#: items/check/KReportItemCheck.cpp:90
+#, fuzzy
+#| msgid "Value"
+msgctxt "KReportItemCheckBox|"
+msgid "Value"
+msgstr "Luach"
+
+#. +> trunk5 stable5
+#: items/check/KReportItemCheck.cpp:90
+msgctxt "KReportItemCheckBox|"
+msgid "Value used if not bound to a field"
+msgstr ""
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:90
+#, fuzzy
+#| msgid "Value"
+msgctxt "KReportItemField|"
+msgid "Value"
+msgstr "Luach"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:90
+msgctxt "KReportItemField|"
+msgid "Value used if not bound to a field"
+msgstr ""
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:94
+#, fuzzy
+#| msgid "Left"
+msgctxt "KReportItemField|"
+msgid "Left"
+msgstr "Ar Chlé"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:94 items/field/KReportItemField.cpp:100
+#, fuzzy
+#| msgid "Center"
+msgctxt "KReportItemField|"
+msgid "Center"
+msgstr "Lár"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:94
+#, fuzzy
+#| msgid "Right"
+msgctxt "KReportItemField|"
+msgid "Right"
+msgstr "Ar Dheis"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:96
+#, fuzzy
+#| msgid "Horizontal Alignment"
+msgctxt "KReportItemField|"
+msgid "Horizontal Alignment"
+msgstr "Ailíniú Cothrománach"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:100
+#, fuzzy
+#| msgid "Top"
+msgctxt "KReportItemField|"
+msgid "Top"
+msgstr "Barr"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:100
+#, fuzzy
+#| msgid "Bottom"
+msgctxt "KReportItemField|"
+msgid "Bottom"
+msgstr "Bun"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:102
+#, fuzzy
+#| msgid "Vertical Alignment"
+msgctxt "KReportItemField|"
+msgid "Vertical Alignment"
+msgstr "Ailíniú Ingearach"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:104
+#, fuzzy
+#| msgid "Font"
+msgctxt "KReportItemField|"
+msgid "Font"
+msgstr "Cló"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:106
+#, fuzzy
+#| msgid "Background Color"
+msgctxt "KReportItemField|"
+msgid "Background Color"
+msgstr "Dath an Chúlra"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:107
+#, fuzzy
+#| msgid "Foreground Color"
+msgctxt "KReportItemField|"
+msgid "Foreground Color"
+msgstr "Dath an Tulra"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:109
+#, fuzzy
+msgctxt "KReportItemField|"
+msgid "Background Opacity"
+msgstr "Dath an Chúlra"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:114
+#, fuzzy
+msgctxt "KReportItemField|"
+msgid "Line Weight"
+msgstr "Ailínigh Ar Dheis"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:116
+#, fuzzy
+#| msgid "Line Color"
+msgctxt "KReportItemField|"
+msgid "Line Color"
+msgstr "Dath Líne"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:117
+#, fuzzy
+#| msgid "Line Style"
+msgctxt "KReportItemField|"
+msgid "Line Style"
+msgstr "Stíl Líne"
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:119
+msgctxt "KReportItemField|"
+msgid "Word Wrap"
+msgstr ""
+
+#. +> trunk5 stable5
+#: items/field/KReportItemField.cpp:120
+#, fuzzy
+#| msgid "Can Grow"
+msgctxt "KReportItemField|"
+msgid "Can Grow"
+msgstr "Is Féidir Méadú"
+
+#. +> trunk5 stable5
+#: items/image/KReportItemImage.cpp:119
+msgctxt "KReportItemImage|"
+msgid "Clip"
+msgstr ""
+
+#. +> trunk5 stable5
+#: items/image/KReportItemImage.cpp:119
+#, fuzzy
+#| msgid "Stretch"
+msgctxt "KReportItemImage|"
+msgid "Stretch"
+msgstr "Sínte"
+
+#. +> trunk5 stable5
+#: items/image/KReportItemImage.cpp:120
+#, fuzzy
+msgctxt "KReportItemImage|"
+msgid "Resize Mode"
+msgstr "Athraigh méid giuirléidí"
+
+#. +> trunk5 stable5
+#: items/image/KReportItemImage.cpp:121
+#, fuzzy
+#| msgid "Value"
+msgctxt "KReportItemImage|"
+msgid "Value"
+msgstr "Luach"
+
+#. +> trunk5 stable5
+#: items/image/KReportItemImage.cpp:121
+msgctxt "KReportItemImage|"
+msgid "Value used if not bound to a field"
+msgstr ""
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:91
+#, fuzzy
+#| msgid "Caption"
+msgctxt "KReportItemLabel|"
+msgid "Caption"
+msgstr "Teideal"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:94
+#, fuzzy
+#| msgid "Left"
+msgctxt "KReportItemLabel|"
+msgid "Left"
+msgstr "Ar Chlé"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:94 items/label/KReportItemLabel.cpp:100
+#, fuzzy
+#| msgid "Center"
+msgctxt "KReportItemLabel|"
+msgid "Center"
+msgstr "Lár"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:94
+#, fuzzy
+#| msgid "Right"
+msgctxt "KReportItemLabel|"
+msgid "Right"
+msgstr "Ar Dheis"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:96
+#, fuzzy
+#| msgid "Horizontal Alignment"
+msgctxt "KReportItemLabel|"
+msgid "Horizontal Alignment"
+msgstr "Ailíniú Cothrománach"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:100
+#, fuzzy
+#| msgid "Top"
+msgctxt "KReportItemLabel|"
+msgid "Top"
+msgstr "Barr"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:100
+#, fuzzy
+#| msgid "Bottom"
+msgctxt "KReportItemLabel|"
+msgid "Bottom"
+msgstr "Bun"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:102
+#, fuzzy
+#| msgid "Vertical Alignment"
+msgctxt "KReportItemLabel|"
+msgid "Vertical Alignment"
+msgstr "Ailíniú Ingearach"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:104
+#, fuzzy
+#| msgid "Font"
+msgctxt "KReportItemLabel|"
+msgid "Font"
+msgstr "Cló"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:106
+#, fuzzy
+#| msgid "Background Color"
+msgctxt "KReportItemLabel|"
+msgid "Background Color"
+msgstr "Dath an Chúlra"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:107
+#, fuzzy
+#| msgid "Foreground Color"
+msgctxt "KReportItemLabel|"
+msgid "Foreground Color"
+msgstr "Dath an Tulra"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:109
+#, fuzzy
+msgctxt "KReportItemLabel|"
+msgid "Background Opacity"
+msgstr "Dath an Chúlra"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:114
+#, fuzzy
+msgctxt "KReportItemLabel|"
+msgid "Line Weight"
+msgstr "Ailínigh Ar Dheis"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:116
+#, fuzzy
+#| msgid "Line Color"
+msgctxt "KReportItemLabel|"
+msgid "Line Color"
+msgstr "Dath Líne"
+
+#. +> trunk5 stable5
+#: items/label/KReportItemLabel.cpp:117
+#, fuzzy
+#| msgid "Line Style"
+msgctxt "KReportItemLabel|"
+msgid "Line Style"
+msgstr "Stíl Líne"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:115
+#, fuzzy
+#| msgid "Value"
+msgctxt "KReportItemText|"
+msgid "Value"
+msgstr "Luach"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:115
+msgctxt "KReportItemText|"
+msgid "Value used if not bound to a field"
+msgstr ""
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:119
+#, fuzzy
+#| msgid "Left"
+msgctxt "KReportItemText|"
+msgid "Left"
+msgstr "Ar Chlé"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:119 items/text/KReportItemText.cpp:125
+#, fuzzy
+#| msgid "Center"
+msgctxt "KReportItemText|"
+msgid "Center"
+msgstr "Lár"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:119
+#, fuzzy
+#| msgid "Right"
+msgctxt "KReportItemText|"
+msgid "Right"
+msgstr "Ar Dheis"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:121
+#, fuzzy
+#| msgid "Horizontal Alignment"
+msgctxt "KReportItemText|"
+msgid "Horizontal Alignment"
+msgstr "Ailíniú Cothrománach"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:125
+#, fuzzy
+#| msgid "Top"
+msgctxt "KReportItemText|"
+msgid "Top"
+msgstr "Barr"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:125
+#, fuzzy
+#| msgid "Bottom"
+msgctxt "KReportItemText|"
+msgid "Bottom"
+msgstr "Bun"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:127
+#, fuzzy
+#| msgid "Vertical Alignment"
+msgctxt "KReportItemText|"
+msgid "Vertical Alignment"
+msgstr "Ailíniú Ingearach"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:129
+#, fuzzy
+#| msgid "Font"
+msgctxt "KReportItemText|"
+msgid "Font"
+msgstr "Cló"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:131
+#, fuzzy
+#| msgid "Background Color"
+msgctxt "KReportItemText|"
+msgid "Background Color"
+msgstr "Dath an Chúlra"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:132
+#, fuzzy
+#| msgid "Foreground Color"
+msgctxt "KReportItemText|"
+msgid "Foreground Color"
+msgstr "Dath an Tulra"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:134
+#, fuzzy
+msgctxt "KReportItemText|"
+msgid "Line Weight"
+msgstr "Ailínigh Ar Dheis"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:136
+#, fuzzy
+#| msgid "Line Color"
+msgctxt "KReportItemText|"
+msgid "Line Color"
+msgstr "Dath Líne"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:137
+#, fuzzy
+#| msgid "Line Style"
+msgctxt "KReportItemText|"
+msgid "Line Style"
+msgstr "Stíl Líne"
+
+#. +> trunk5 stable5
+#: items/text/KReportItemText.cpp:138
+#, fuzzy
+msgctxt "KReportItemText|"
+msgid "Background Opacity"
+msgstr "Dath an Chúlra"
+
+#. +> trunk5 stable5
+#: renderer/scripting/KReportScriptHandler.cpp:170
+#, qt-format
+msgctxt "KReportScriptHandler|"
+msgid ""
+"Cannot evaluate script. Error: %1\n"
+"\n"
+"Do you want to suppress further messages?\n"
+"(messages will be restored next time the report is opened)"
+msgstr ""
+
+#. +> trunk5 stable5
+#: renderer/scripting/KReportScriptHandler.cpp:171
+#, fuzzy, qt-format
+#| msgid "Script File"
+msgctxt "KReportScriptHandler|"
+msgid ""
+"Script code:\n"
+"%1"
+msgstr "Comhad Scripte"
+
+#. +> trunk5 stable5
+#: renderer/scripting/KReportScriptHandler.cpp:187
+#, fuzzy
+msgctxt "KReportScriptHandler|"
+msgid "Script Error"
+msgstr "Earráid inmheánach"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:310
+#, qt-format
+msgctxt "KReportDesigner|"
+msgid "This report contains scripts of type \"%1\". Only scripts written in JavaScript language are supported. To prevent losing the scripts, their type and content will not be changed unless you change these scripts."
+msgstr ""
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:315
+msgctxt "KReportDesigner|"
+msgid "Unsupported Script Type"
+msgstr ""
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:676
+#, fuzzy
+#| msgid "Page Header"
+msgctxt "KReportDesigner|"
+msgid "Page Header (Any)"
+msgstr "Ceanntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:680
+#, fuzzy
+#| msgid "Page Header"
+msgctxt "KReportDesigner|"
+msgid "Page Header (Even)"
+msgstr "Ceanntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:684
+#, fuzzy
+#| msgid "Page Header"
+msgctxt "KReportDesigner|"
+msgid "Page Header (Odd)"
+msgstr "Ceanntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:688
+#, fuzzy
+#| msgid "Page Header"
+msgctxt "KReportDesigner|"
+msgid "Page Header (First)"
+msgstr "Ceanntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:692
+#, fuzzy
+#| msgid "Page Header"
+msgctxt "KReportDesigner|"
+msgid "Page Header (Last)"
+msgstr "Ceanntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:696
+#, fuzzy
+#| msgid "Page Footer"
+msgctxt "KReportDesigner|"
+msgid "Page Footer (Any)"
+msgstr "Buntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:700
+#, fuzzy
+#| msgid "Page Footer"
+msgctxt "KReportDesigner|"
+msgid "Page Footer (Even)"
+msgstr "Buntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:704
+#, fuzzy
+#| msgid "Page Footer"
+msgctxt "KReportDesigner|"
+msgid "Page Footer (Odd)"
+msgstr "Buntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:708
+#, fuzzy
+#| msgid "Page Footer"
+msgctxt "KReportDesigner|"
+msgid "Page Footer (First)"
+msgstr "Buntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:712
+#, fuzzy
+#| msgid "Page Footer"
+msgctxt "KReportDesigner|"
+msgid "Page Footer (Last)"
+msgstr "Buntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:716
+#, fuzzy
+#| msgid "Report Header"
+msgctxt "KReportDesigner|"
+msgid "Report Header"
+msgstr "Ceanntásc Tuairisce"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:720
+#, fuzzy
+#| msgid "Report Footer"
+msgctxt "KReportDesigner|"
+msgid "Report Footer"
+msgstr "Buntásc Tuairisce"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:808
+#, fuzzy
+#| msgid "Export"
+msgctxt "KReportDesigner|Main report element"
+msgid "Report"
+msgstr "Easpórtáil"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:813
+#, fuzzy
+#| msgid "Title"
+msgctxt "KReportDesigner|"
+msgid "Title"
+msgstr "Teideal"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:813
+#, fuzzy
+#| msgid "Report Footer"
+msgctxt "KReportDesigner|"
+msgid "Report Title"
+msgstr "Buntásc Tuairisce"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:818
+#, fuzzy
+#| msgid "Page Size"
+msgctxt "KReportDesigner|"
+msgid "Page Size"
+msgstr "Méid an Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:821
+#, fuzzy
+#| msgid "Page Size"
+msgctxt "KReportDesigner|"
+msgid "Custom Page Size"
+msgstr "Méid an Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:825
+#, fuzzy
+#| msgid "Portrait"
+msgctxt "KReportDesigner|"
+msgid "Portrait"
+msgstr "Portráid"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:825
+#, fuzzy
+#| msgid "Landscape"
+msgctxt "KReportDesigner|"
+msgid "Landscape"
+msgstr "Tírdhreach"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:827
+#, fuzzy
+#| msgid "Page Orientation"
+msgctxt "KReportDesigner|"
+msgid "Page Orientation"
+msgstr "Treoshuíomh an Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:832
+#, fuzzy
+#| msgid "Page Size"
+msgctxt "KReportDesigner|"
+msgid "Page Unit"
+msgstr "Méid an Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:833
+#, fuzzy
+#| msgid "Show Grid"
+msgctxt "KReportDesigner|"
+msgid "Show Grid"
+msgstr "Taispeáin Greille"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:834
+#, fuzzy
+#| msgid "Snap to Grid"
+msgctxt "KReportDesigner|"
+msgid "Snap to Grid"
+msgstr "Léim go Greille"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:835
+msgctxt "KReportDesigner|"
+msgid "Grid Divisions"
+msgstr ""
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:841
+#, fuzzy
+#| msgid "Left Margin"
+msgctxt "KReportDesigner|"
+msgid "Left Margin"
+msgstr "Imeall ar chlé"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:843
+#, fuzzy
+#| msgid "Right Margin"
+msgctxt "KReportDesigner|"
+msgid "Right Margin"
+msgstr "Imeall ar dheis"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:845
+#, fuzzy
+#| msgid "Top Margin"
+msgctxt "KReportDesigner|"
+msgid "Top Margin"
+msgstr "Imeall ag an mbarr"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:847
+#, fuzzy
+#| msgid "Bottom Margin"
+msgctxt "KReportDesigner|"
+msgid "Bottom Margin"
+msgstr "Imeall ag an mbun"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:869
+#, fuzzy
+#| msgid "Object"
+msgctxt "KReportDesigner|"
+msgid "Object Script"
+msgstr "Réad"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1067
+#, fuzzy
+#| msgid "Cut"
+msgctxt "KReportDesigner|"
+msgid "Cut"
+msgstr "Gearr"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1071
+#, fuzzy
+#| msgid "Copy"
+msgctxt "KReportDesigner|"
+msgid "Copy"
+msgstr "Cóipeáil"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1076
+#, fuzzy
+#| msgid "Paste"
+msgctxt "KReportDesigner|"
+msgid "Paste"
+msgstr "Greamaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1087
+#, fuzzy
+#| msgid "Delete"
+msgctxt "KReportDesigner|"
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1129
+#, fuzzy
+#| msgid "Line"
+msgctxt "KReportDesigner|Report line element"
+msgid "Line"
+msgstr "Líne"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1476
+#, fuzzy
+#| msgid "Line"
+msgctxt "KReportDesigner|"
+msgid "Line"
+msgstr "Líne"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1519
+msgctxt "KReportDesigner|"
+msgid "Cu&t"
+msgstr ""
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1521
+msgctxt "KReportDesigner|"
+msgid "Cut selection to clipboard"
+msgstr ""
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1525
+#, fuzzy
+#| msgid "Copy"
+msgctxt "KReportDesigner|"
+msgid "&Copy"
+msgstr "Cóipeáil"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1527
+msgctxt "KReportDesigner|"
+msgid "Copy selection to clipboard"
+msgstr ""
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1531
+#, fuzzy
+#| msgid "Paste"
+msgctxt "KReportDesigner|"
+msgid "&Paste"
+msgstr "Greamaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1533
+msgctxt "KReportDesigner|"
+msgid "Paste clipboard content"
+msgstr ""
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1544
+#, fuzzy
+#| msgid "Actions"
+msgctxt "KReportDesigner|"
+msgid "Edit Sections"
+msgstr "Gníomhartha"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1547
+msgctxt "KReportDesigner|"
+msgid "Raise"
+msgstr ""
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesigner.cpp:1549
+#, fuzzy
+#| msgid "&Lowercase"
+msgctxt "KReportDesigner|"
+msgid "Lower"
+msgstr "Cás Íoch&tair"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDesignerSection.cpp:126
+#, fuzzy
+#| msgid "Detail"
+msgctxt "KReportDesignerSection|"
+msgid "Detail"
+msgstr "Mionsonra"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDetailGroupSectionDialog.cpp:35
+#, fuzzy
+#| msgid "Section Editor"
+msgctxt "KReportDetailGroupSectionDialog|"
+msgid "Group Section Editor"
+msgstr "Eagarthóir Rannáin"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDetailGroupSectionDialog.ui:34
+#, fuzzy
+#| msgid "Column:"
+msgctxt "DetailGroupSectionDialog|"
+msgid "Column:"
+msgstr "Colún:"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDetailGroupSectionDialog.ui:51
+#, fuzzy
+#| msgid "Sort"
+msgctxt "DetailGroupSectionDialog|"
+msgid "Sort:"
+msgstr "Sórtáil"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDetailGroupSectionDialog.ui:68
+#, fuzzy
+#| msgid "Show Grid"
+msgctxt "DetailGroupSectionDialog|"
+msgid "Show group header:"
+msgstr "Taispeáin Greille"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDetailGroupSectionDialog.ui:85
+#, fuzzy
+#| msgid "Report Footer"
+msgctxt "DetailGroupSectionDialog|"
+msgid "Show group footer:"
+msgstr "Buntásc Tuairisce"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportDetailGroupSectionDialog.ui:105
+#, fuzzy
+#| msgid "Insert break after paragraph"
+msgctxt "DetailGroupSectionDialog|"
+msgid "Insert page break after group footer:"
+msgstr "Ionsáigh briseadh tar éis ailt"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportPropertiesButton.cpp:26
+#, fuzzy
+#| msgid "Select styles to import:"
+msgctxt "KReportPropertiesButton|"
+msgid "Select entire report"
+msgstr "Roghnaigh stíleanna le hiompórtáil:"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportPropertiesButton.cpp:27
+msgctxt "KReportPropertiesButton|"
+msgid "A button that allows a report's surface to be selected, allowing its properties to be seen."
+msgstr ""
+
+#. +> trunk5 stable5
+#: wrtembed/KReportRuler_p.cpp:1472
+#, fuzzy
+#| msgid "First line indent"
+msgctxt "KReportRuler|"
+msgid "First line indent"
+msgstr "Eangú chéadlíne"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportRuler_p.cpp:1473
+#, fuzzy
+#| msgid "Left Edge:"
+msgctxt "KReportRuler|"
+msgid "Left indent"
+msgstr "Ciumhais Ar Chlé:"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportRuler_p.cpp:1474
+#, fuzzy
+#| msgid "Right Edge:"
+msgctxt "KReportRuler|"
+msgid "Right indent"
+msgstr "Ciumhais Ar Dheis:"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.cpp:72
+#, fuzzy
+#| msgid "Load..."
+msgctxt "KReportSectionEditor|"
+msgid "Add..."
+msgstr "Luchtaigh..."
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.cpp:74
+#, fuzzy
+#| msgid "Edit..."
+msgctxt "KReportSectionEditor|"
+msgid "Edit..."
+msgstr "Eagar..."
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.cpp:76
+#, fuzzy
+#| msgid "Delete"
+msgctxt "KReportSectionEditor|"
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.cpp:78
+#, fuzzy
+#| msgid "Move &Up"
+msgctxt "KReportSectionEditor|"
+msgid "Move Up"
+msgstr "Bog S&uas"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.cpp:80
+#, fuzzy
+#| msgid "Move &Down"
+msgctxt "KReportSectionEditor|"
+msgid "Move Down"
+msgstr "Bog &Síos"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.cpp:311
+#, fuzzy
+#| msgid "Ascending"
+msgctxt "KReportSectionEditor|"
+msgid "Ascending"
+msgstr "Ag dul suas"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.cpp:312
+#, fuzzy
+#| msgid "Descending"
+msgctxt "KReportSectionEditor|"
+msgid "Descending"
+msgstr "Ag dul síos"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.ui:29
+#, fuzzy
+#| msgid "Show Grid"
+msgctxt "SectionEditor|"
+msgid "Show report header"
+msgstr "Taispeáin Greille"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.ui:36
+#, fuzzy
+#| msgid "Report Footer"
+msgctxt "SectionEditor|"
+msgid "Show report footer"
+msgstr "Buntásc Tuairisce"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.ui:43
+#, fuzzy
+#| msgid "Page Header"
+msgctxt "SectionEditor|"
+msgid "Page Header"
+msgstr "Ceanntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.ui:51 wrtembed/KReportSectionEditor.ui:138
+#, fuzzy
+#| msgid "First page:"
+msgctxt "SectionEditor|"
+msgid "First page:"
+msgstr "An chéad leathanach:"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.ui:65 wrtembed/KReportSectionEditor.ui:152
+#, fuzzy
+msgctxt "SectionEditor|"
+msgid "Even pages:"
+msgstr "Leathanach Baile"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.ui:79 wrtembed/KReportSectionEditor.ui:166
+#, fuzzy
+#| msgid "Copy Page"
+msgctxt "SectionEditor|"
+msgid "Any pages:"
+msgstr "Cóipeáil Leathanach"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.ui:97 wrtembed/KReportSectionEditor.ui:184
+#, fuzzy
+#| msgid "Last Page"
+msgctxt "SectionEditor|"
+msgid "Last page:"
+msgstr "An Leathanach Deireanach"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.ui:111 wrtembed/KReportSectionEditor.ui:198
+#, fuzzy
+#| msgid "Facing pages:"
+msgctxt "SectionEditor|"
+msgid "Odd pages:"
+msgstr "Leathanaigh ar aghaigh a chéile:"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.ui:130
+#, fuzzy
+#| msgid "Page Footer"
+msgctxt "SectionEditor|"
+msgid "Page Footer"
+msgstr "Buntásc Leathanaigh"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportSectionEditor.ui:217
+#, fuzzy
+msgctxt "SectionEditor|"
+msgid "Group Sections"
+msgstr "Grúpáil giuirléidí"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportZoomMode_p.cpp:28
+#, fuzzy, qt-format
+#| msgid "%1%"
+msgctxt "KReportZoomMode|"
+msgid "%1%"
+msgstr "%1%"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportZoomMode_p.cpp:29
+#, fuzzy
+#| msgid "Fit Page Width"
+msgctxt "KReportZoomMode|"
+msgid "Fit Page Width"
+msgstr "Oiriúnaigh don Leithead"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportZoomMode_p.cpp:30
+#, fuzzy
+#| msgid "Fit Page"
+msgctxt "KReportZoomMode|"
+msgid "Fit Page"
+msgstr "Laghdaigh go dtí an Leathanach"
+
+#. +> trunk5 stable5
+#: wrtembed/KReportZoomMode_p.cpp:32
+msgctxt "KReportZoomMode|"
+msgid "Actual Pixels"
+msgstr ""
+
+#. +> trunk5 stable5
+#: wrtembed/KReportZoomMode_p.cpp:36
+#, fuzzy
+#| msgid "Fit Page Width"
+msgctxt "KReportZoomMode|"
+msgid "Fit Text Width"
+msgstr "Oiriúnaigh don Leithead"

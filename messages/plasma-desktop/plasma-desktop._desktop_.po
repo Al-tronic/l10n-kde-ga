@@ -1,0 +1,538 @@
+# translation of desktop_kdebase.po to Irish
+# Kevin Scannell <kscanne@gmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6 stable5
+#: emojier/app/org.kde.plasma.emojier.desktop:3
+msgctxt "Name"
+msgid "Emoji Selector"
+msgstr ""
+
+#. +> trunk6 stable6
+#: emojier/app/org.kde.plasma.emojier.desktop:54
+msgctxt "GenericName"
+msgid "Emoji Selector"
+msgstr ""
+
+#. +> trunk6 stable6
+#: emojier/app/org.kde.plasma.emojier.desktop:89
+msgctxt "Comment"
+msgid "Copy emojis to the clipboard"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: emojier/app/org.kde.plasma.emojier.desktop:135
+msgctxt "Keywords"
+msgid "characters;unicode;punctuation;letters;emoji;emoticon;symbols;smiley face;"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.desktop:3
+msgctxt "Name"
+msgid "Accessibility"
+msgstr "Inrochtaineacht"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:3
+msgctxt "Comment"
+msgid "Accessibility"
+msgstr "Inrochtaineacht"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:99
+msgctxt "Name"
+msgid "A modifier key has become active"
+msgstr "Tá eochair mhionathraithe gníomhach anois"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:180
+msgctxt "Comment"
+msgid "A modifier key (e.g. Shift or Ctrl) has changed its state and is now active"
+msgstr "Athraíodh staid eochrach mionathraithe (m.sh. Shift nó Ctrl) agus tá sí gníomhach anois"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:260
+msgctxt "Name"
+msgid "A modifier key has become inactive"
+msgstr "Tá eochair mhionathraithe neamhghníomhach anois"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:341
+msgctxt "Comment"
+msgid "A modifier key (e.g. Shift or Ctrl) has changed its state and is now inactive"
+msgstr "Athraíodh staid eochrach mionathraithe (m.sh. Shift nó Ctrl) agus tá sí neamhghníomhach anois"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:421
+msgctxt "Name"
+msgid "A modifier key has been locked"
+msgstr "Tá eochair mhionathraithe faoi ghlas anois"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:502
+msgctxt "Comment"
+msgid "A modifier key (e.g. Shift or Ctrl) has been locked and is now active for all of the following keypresses"
+msgstr "Cuireadh eochair mhionathraithe (m.sh., Shift nó Ctrl) faoi ghlas tá sí gníomhach anois le haghaidh na n-eochairbhrúnna seo a leanas"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:582
+msgctxt "Name"
+msgid "A lock key has been activated"
+msgstr "Tá eochair ghlasála gníomhach anois"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:663
+msgctxt "Comment"
+msgid "A lock key (e.g. Caps Lock or Num Lock) has changed its state and is now active"
+msgstr "Athraíodh staid eochrach glasála (m.sh. Caps Lock nó Num Lock) agus tá sí gníomhach anois"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:743
+msgctxt "Name"
+msgid "A lock key has been deactivated"
+msgstr "Tá eochair ghlasála neamhghníomhach anois"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:824
+msgctxt "Comment"
+msgid "A lock key (e.g. Caps Lock or Num Lock) has changed its state and is now inactive"
+msgstr "Athraíodh staid eochrach glasála (m.sh. Caps Lock nó Num Lock) agus tá sí neamhghníomhach anois"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:905
+msgctxt "Name"
+msgid "Sticky keys has been enabled or disabled"
+msgstr "Cumasaíodh nó díchumasaíodh eochracha greamaitheacha"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:985
+msgctxt "Comment"
+msgid "Sticky keys has been enabled or disabled"
+msgstr "Cumasaíodh nó díchumasaíodh eochracha greamaitheacha"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:1069
+msgctxt "Name"
+msgid "Slow keys has been enabled or disabled"
+msgstr "Cumasaíodh nó díchumasaíodh eochracha malla"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:1148
+msgctxt "Comment"
+msgid "Slow keys has been enabled or disabled"
+msgstr "Cumasaíodh nó díchumasaíodh eochracha malla"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:1231
+msgctxt "Name"
+msgid "Bounce keys has been enabled or disabled"
+msgstr "Cumasaíodh nó díchumasaíodh eochracha preabtha"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:1309
+msgctxt "Comment"
+msgid "Bounce keys has been enabled or disabled"
+msgstr "Cumasaíodh nó díchumasaíodh eochracha preabtha"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:1390
+msgctxt "Name"
+msgid "Mouse keys has been enabled or disabled"
+msgstr "Cumasaíodh nó díchumasaíodh eochracha luiche"
+
+#. +> trunk6 stable6 stable5
+#: kaccess/kaccess.notifyrc:1470
+msgctxt "Comment"
+msgid "Mouse keys has been enabled or disabled"
+msgstr "Cumasaíodh nó díchumasaíodh eochracha luiche"
+
+#. +> trunk6 stable6 stable5
+#: kcms/dateandtime/kcmclock_actions.actions:2
+msgctxt "Name"
+msgid "Date and Time Control Module"
+msgstr "Modúl Rialaithe Dáta agus Am"
+
+#. +> trunk6 stable6 stable5
+#: kcms/dateandtime/kcmclock_actions.actions:79
+msgctxt "Name"
+msgid "Save the date/time settings"
+msgstr "Sábháil na socruithe dáta/ama"
+
+#. +> trunk6 stable6
+#: kcms/dateandtime/kcmclock_actions.actions:153
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Save the date/time settings"
+msgctxt "Description"
+msgid "Authenticate to change the date or time settings."
+msgstr "Sábháil na socruithe dáta/ama"
+
+#. +> stable5
+#: kcms/dateandtime/kcmclock_actions.actions:151
+msgctxt "Description"
+msgid "System policies prevent you from saving the date/time settings."
+msgstr "De bharr polasaí an chórais, níl cead agat socruithe an dáta/ama a shábháil."
+
+#. +> trunk6 stable6 stable5
+#: kcms/ksplash/ksplash.knsrc:2
+msgctxt "Name"
+msgid "Splash Screens"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:2
+msgctxt "Name"
+msgid "Charge Percent"
+msgstr "Céatadán Luchtaithe"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:78
+msgctxt "Name"
+msgid "Charge State"
+msgstr "Staid Luchtaithe"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:154
+msgctxt "Name|battery plugged in"
+msgid "Plugged"
+msgstr "Plugáilte"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:215
+msgctxt "Name"
+msgid "Rechargeable"
+msgstr "In-Athluchtaithe"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:289
+msgctxt "Name"
+msgid "Type"
+msgstr "Cineál"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Battery.desktop:368
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:229
+#: kcms/solid_actions/device-actions/solid-device-Camera.desktop:155
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:922
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:690
+#: kcms/solid_actions/device-actions/solid-device-PortableMediaPlayer.desktop:155
+#: kcms/solid_actions/device-actions/solid-device-Processor.desktop:300
+#: kcms/solid_actions/device-actions/solid-device-StorageAccess.desktop:156
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:383
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:463
+msgctxt "Name"
+msgid "Solid Device"
+msgstr "Gléas Solid"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:2
+msgctxt "Name"
+msgid "Device"
+msgstr "Gléas"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:80
+msgctxt "Name"
+msgid "Major"
+msgstr "Príomh"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Block.desktop:154
+msgctxt "Name"
+msgid "Minor"
+msgstr "Mion"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Camera.desktop:2
+#: kcms/solid_actions/device-actions/solid-device-PortableMediaPlayer.desktop:2
+msgctxt "Name"
+msgid "Supported Drivers"
+msgstr "Tiománaithe a dTacaítear Leo"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Camera.desktop:78
+#: kcms/solid_actions/device-actions/solid-device-PortableMediaPlayer.desktop:78
+msgctxt "Name"
+msgid "Supported Protocols"
+msgstr "Prótacail a dTacaítear Leo"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:2
+msgctxt "Name"
+msgid "Appendable"
+msgstr "In-iarcheangailte"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:77
+msgctxt "Name"
+msgid "Available Content"
+msgstr "Ábhar Le Fáil"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:155
+msgctxt "Name"
+msgid "Blank"
+msgstr "Folamh"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:231
+msgctxt "Name"
+msgid "Capacity"
+msgstr "Toilleadh"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:308
+msgctxt "Name"
+msgid "Disc Type"
+msgstr "Cineál an Diosca"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:385
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:2
+msgctxt "Name"
+msgid "Fs Type"
+msgstr "Cineál an Chórais Comhad"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:461
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:78
+msgctxt "Name"
+msgid "Ignored"
+msgstr "Neamhaird Déanta De"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:537
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:154
+msgctxt "Name"
+msgid "Label"
+msgstr "Lipéad"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:614
+msgctxt "Name"
+msgid "Rewritable"
+msgstr "In-Athscríofa"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:690
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:381
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:305
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:231
+msgctxt "Name"
+msgid "Size"
+msgstr "Méid"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:767
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:308
+msgctxt "Name"
+msgid "Usage"
+msgstr "Úsáid"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDisc.desktop:844
+#: kcms/solid_actions/device-actions/solid-device-StorageVolume.desktop:385
+msgctxt "Name"
+msgid "Uuid"
+msgstr "Uuid"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:2
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:2
+msgctxt "Name"
+msgid "Bus"
+msgstr "Bus"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:77
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:77
+msgctxt "Name"
+msgid "Drive Type"
+msgstr "Cineál an Tiomántáin"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:154
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:154
+msgctxt "Name"
+msgid "Hotpluggable"
+msgstr "Inphlugáilte"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:227
+msgctxt "Name"
+msgid "Read Speed"
+msgstr "Luas Léite"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:303
+#: kcms/solid_actions/device-actions/solid-device-StorageDrive.desktop:227
+msgctxt "Name"
+msgid "Removable"
+msgstr "Inbhainte"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:458
+msgctxt "Name"
+msgid "Supported Media"
+msgstr "Meáin a dTacaítear Leo"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:535
+msgctxt "Name"
+msgid "Write Speed"
+msgstr "Luas Scríofa"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-OpticalDrive.desktop:612
+msgctxt "Name"
+msgid "Write Speeds"
+msgstr "Luasanna Scríofa"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Processor.desktop:2
+msgctxt "Name"
+msgid "Can Change Frequency"
+msgstr "Is Féidir Minicíocht a Athrú"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Processor.desktop:76
+msgctxt "Name"
+msgid "Instruction Sets"
+msgstr "Tacair Treoracha"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Processor.desktop:148
+msgctxt "Name"
+msgid "Max Speed"
+msgstr "Uasluas"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-Processor.desktop:224
+msgctxt "Name"
+msgid "Number"
+msgstr "Uimhir"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-StorageAccess.desktop:2
+msgctxt "Name"
+msgid "Accessible"
+msgstr "Inrochtana"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/device-actions/solid-device-StorageAccess.desktop:78
+msgctxt "Name"
+msgid "File Path"
+msgstr "Conair Chomhaid"
+
+#. +> trunk6 stable6 stable5
+#: kcms/touchpad/org.kde.touchpadshortcuts.desktop:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Mouse settings"
+msgctxt "Name"
+msgid "Touchpad"
+msgstr "Ceap Tadhaill"
+
+#. +> trunk6 stable6
+#: kcms/touchpad/org.kde.touchpadshortcuts.desktop:65
+#: kcms/touchpad/org.kde.touchpadshortcuts.desktop:107
+#: kcms/touchpad/org.kde.touchpadshortcuts.desktop:149
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Mouse settings"
+msgctxt "Name"
+msgid "Enable Touchpad"
+msgstr "Socruithe luiche"
+
+#. +> trunk6 stable6 stable5
+#: knetattach/org.kde.knetattach.desktop:2
+msgctxt "Name"
+msgid "KNetAttach"
+msgstr "KNetAttach"
+
+#. +> trunk6 stable6 stable5
+#: knetattach/org.kde.knetattach.desktop:92
+msgctxt "GenericName"
+msgid "Network Folder Wizard"
+msgstr "Treoraí Fillteáin Líonra"
+
+#. +> trunk6 stable6
+#: sddm-theme/metadata.desktop:2
+msgctxt "Name"
+msgid "Breeze"
+msgstr ""
+
+#. +> trunk6 stable6
+#: sddm-theme/metadata.desktop:47
+msgctxt "Description"
+msgid "Breeze"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: toolboxes/plasma-toolbox-paneltoolbox.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Interact with the Plasma desktop shell"
+msgctxt "Comment"
+msgid "Default panel toolbox for the Plasma desktop shell"
+msgstr "Bain úsáid as blaosc dheisce Plasma"
+
+#. +> trunk6 stable6 stable5
+#: toolboxes/plasma-toolbox-paneltoolbox.desktop:66
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Net toolbox"
+msgctxt "Name"
+msgid "Panel toolbox"
+msgstr "Bosca uirlisí líonra"
+
+#. +> stable5
+#: kcms/solid_actions/solid-device-type.desktop:4
+msgctxt "Name"
+msgid "Solid Device Type"
+msgstr "Cineál Gléis Solid"
+
+#. +> stable5
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:56
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Touchpad"
+msgctxt "Comment"
+msgid "Touchpad"
+msgstr "Ceap Tadhaill"
+
+#. +> stable5
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:111
+msgctxt "Name"
+msgid "Touchpad was disabled"
+msgstr ""
+
+#. +> stable5
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:163
+msgctxt "Comment"
+msgid "Touchpad was disabled because mouse is detected"
+msgstr ""
+
+#. +> stable5
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:219
+msgctxt "Name"
+msgid "Touchpad was enabled"
+msgstr ""
+
+#. +> stable5
+#: kcms/touchpad/kded/kcm_touchpad.notifyrc:271
+msgctxt "Comment"
+msgid "Touchpad was enabled because the mouse was unplugged"
+msgstr ""

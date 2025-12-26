@@ -1,0 +1,218 @@
+# translation of ksmserver.po to Irish
+# Copyright (C) 2002,2004 Free Software Foundation, Inc.
+# Séamus Ó Ciardhuáin <seoc at iolfree dot ie>, 2002, 2004
+# Kevin Scannell <kscanne at gmail dot com>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: ksmserver\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-14 12:46+0200\n"
+"PO-Revision-Date: 2004-12-31 00:55+0000\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6 stable5
+#: logout.cpp:269
+#, kde-format
+msgid "Logout canceled by '%1'"
+msgstr "Chealaigh '%1' an logáil amach"
+
+#. +> trunk6 stable6
+#: logout.cpp:363
+#, kde-format
+msgctxt "@info:status"
+msgid "Session is exiting"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:72 main.cpp:80
+#, kde-format
+msgid "No write access to '%1'."
+msgstr ""
+
+#. +> stable5
+#: main.cpp:124
+#, kde-format
+msgid "No write access to $HOME directory (%1)."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:74 main.cpp:82
+#, kde-format
+msgid "No read access to '%1'."
+msgstr ""
+
+#. +> stable5
+#: main.cpp:130
+#, kde-format
+msgid "No read access to $HOME directory (%1)."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:87
+#, kde-format
+msgid ""
+"The following installation problem was detected\n"
+"while trying to start Plasma:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:90
+#, kde-format
+msgid ""
+"\n"
+"\n"
+"Plasma is unable to start.\n"
+msgstr ""
+
+#. +> stable5
+#: main.cpp:118
+#, kde-format
+msgid "$HOME not set!"
+msgstr ""
+
+#. +> stable5
+#: main.cpp:122 main.cpp:128
+#, kde-format
+msgid "$HOME directory (%1) does not exist."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:129
+#, fuzzy, kde-format
+#| msgid ""
+#| "The reliable KDE session manager that talks the standard X11R6 \n"
+#| "session management protocol (XSMP)."
+msgid ""
+"The reliable Plasma session manager that talks the standard X11R6 \n"
+"session management protocol (XSMP)."
+msgstr ""
+"Bainisteoir iontaofa na seisiún KDE a úsáideann prótacal caighdeánaithe\n"
+"X11R6 um bainistiú na seisiún (X Session Management Protocol, XSMP)."
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:133
+#, kde-format
+msgid "Restores the saved user session if available"
+msgstr "Athchóirigh seisiún sábháilte an úsáideora, má tá sé le fáil"
+
+#. +> stable5
+#: main.cpp:134
+#, kde-format
+msgid "$HOME directory (%1) is out of disk space."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:136
+#, kde-format
+msgid "Also allow remote connections"
+msgstr "Ceadaigh ceangail chianda freisin"
+
+#. +> stable5
+#: main.cpp:137
+#, kde-format
+msgid "Writing to the $HOME directory (%2) failed with the error '%1'"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:139
+#, kde-format
+msgid "Starts the session in locked mode"
+msgstr "Tosaigh an seisiún sa mhód faoi ghlas"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:143
+#, kde-format
+msgid "Starts without lock screen support. Only needed if other component provides the lock screen."
+msgstr ""
+
+#. +> stable5
+#: main.cpp:160 main.cpp:173
+#, kde-format
+msgid "Temp directory (%1) is out of disk space."
+msgstr ""
+
+#. +> stable5
+#: main.cpp:163 main.cpp:176
+#, kde-format
+msgid ""
+"Writing to the temp directory (%2) failed with\n"
+"    the error '%1'"
+msgstr ""
+
+#. +> stable5
+#: main.cpp:201
+#, kde-format
+msgid "Plasma Workspace installation problem!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: server.cpp:775
+#, kde-format
+msgctxt "@label an unknown executable is using resources"
+msgid "[unknown]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: server.cpp:798
+#, kde-kuit-format
+msgctxt "@label notification; %1 is a list of executables"
+msgid ""
+"Unable to manage some apps because the system's session management resources are exhausted. Here are the top three consumers of session resources:\n"
+"%1"
+msgstr ""
+
+#. +> stable5
+#: server.cpp:857
+#, fuzzy, kde-format
+#| msgid "The KDE Session Manager"
+msgid "Session Management"
+msgstr "Bainisteoir na Seisiún KDE"
+
+#. +> stable5
+#: server.cpp:860
+#, kde-format
+msgid "Log Out"
+msgstr "Logáil Amach"
+
+#. +> stable5
+#: server.cpp:865
+#, kde-format
+msgid "Log Out Without Confirmation"
+msgstr "Logáil Amach Gan Deimhniú"
+
+#. +> stable5
+#: server.cpp:870
+#, kde-format
+msgid "Halt Without Confirmation"
+msgstr "Stop gan Deimhniú"
+
+#. +> stable5
+#: server.cpp:875
+#, kde-format
+msgid "Reboot Without Confirmation"
+msgstr "Atosaigh gan Deimhniú"
+
+#. +> trunk6 stable6
+#: server.cpp:1055
+#, kde-kuit-format
+msgctxt "@label notification; %1 is an executable name"
+msgid "Unable to restore <application>%1</application> because it is broken and has exhausted the system's session restoration resources. Please report this to the app's developers."
+msgstr ""

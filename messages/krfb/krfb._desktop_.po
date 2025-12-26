@@ -1,0 +1,158 @@
+# Irish translation of desktop_kdenetwork
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdenetwork package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-09 08:57+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:3 krfb/org.kde.krfb.desktop:119
+msgctxt "Comment"
+msgid "Desktop Sharing"
+msgstr "Roinnt Deisce"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:77
+msgctxt "Name"
+msgid "User Accepts Connection"
+msgstr "Glacann an tÚsáideoir Le Ceangal"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:139
+msgctxt "Comment"
+msgid "User accepts connection"
+msgstr "Glacann úsáideoir le ceangal"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:213
+msgctxt "Name"
+msgid "User Refuses Connection"
+msgstr "Diúltaíonn an tÚsáideoir Le Ceangal"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:275
+msgctxt "Comment"
+msgid "User refuses connection"
+msgstr "Diúltaíonn úsáideoir ceangal"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:349
+msgctxt "Name"
+msgid "Connection Closed"
+msgstr "Ceangal Dúnta"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:413
+msgctxt "Comment"
+msgid "Connection closed"
+msgstr "Ceangal dúnta"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:491
+msgctxt "Name"
+msgid "Invalid Password"
+msgstr "Focal Faire Neamhbhailí"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:555
+msgctxt "Comment"
+msgid "Invalid password"
+msgstr "Focal faire neamhbhailí"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:636
+msgctxt "Name"
+msgid "Invalid Password Invitations"
+msgstr "Cuirí Neamhbhailí Focal Faire"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:698
+msgctxt "Comment"
+msgid "The invited party sent an invalid password. Connection refused."
+msgstr "Sheol an duine le cuireadh focal faire neamhbhailí. Diúltaíodh an ceangal."
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:770
+msgctxt "Name"
+msgid "New Connection on Hold"
+msgstr "Ceangal Nua Ag Fanacht"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:831
+msgctxt "Comment"
+msgid "Connection requested, user must accept"
+msgstr "Ceangal iarrtha; ní mór don úsáideoir glacadh leis"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:904
+msgctxt "Name"
+msgid "New Connection Auto Accepted"
+msgstr "Ceangal nua bunaithe go huathoibríoch"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:965
+msgctxt "Comment"
+msgid "New connection automatically established"
+msgstr "Ceangal nua bunaithe go huathoibríoch"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:1038
+msgctxt "Name"
+msgid "Too Many Connections"
+msgstr "An Iomarca Ceangal"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:1099
+msgctxt "Comment"
+msgid "Busy, connection refused"
+msgstr "Gnóthach; ceangal diúltaithe"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:1175
+msgctxt "Name"
+msgid "Unexpected Connection"
+msgstr "Ceangal Gan Choinne"
+
+#. +> trunk6 stable6
+#: krfb/krfb.notifyrc:1237
+msgctxt "Comment"
+msgid "Received unexpected connection, abort"
+msgstr "Fuarthas ceangal gan choinne, á thobscor"
+
+#. +> trunk6 stable6
+#: krfb/org.kde.krfb.desktop:9
+msgctxt "Name"
+msgid "Krfb"
+msgstr "Krfb"
+
+#. +> trunk6 stable6
+#: krfb/org.kde.krfb.desktop:79
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Desktop Sharing"
+msgctxt "GenericName"
+msgid "Desktop Sharing (VNC)"
+msgstr "Roinnt Deisce"
+
+#. +> trunk6 stable6
+#: krfb/org.kde.krfb.virtualmonitor.desktop.cmake:7
+msgctxt "Name"
+msgid "KRFBs Virtual Monitor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: krfb/org.kde.krfb.virtualmonitor.desktop.cmake:44
+msgctxt "Comment"
+msgid "Remote Virtual Monitor"
+msgstr ""

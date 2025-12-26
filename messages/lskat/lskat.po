@@ -1,0 +1,627 @@
+# Irish translation of lskat
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the lskat package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegames/lskat.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-22 11:23+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: config_two.cpp:29
+#, kde-format
+msgctxt "Default player name"
+msgid "Alice"
+msgstr "Aisling"
+
+#. +> trunk6 stable6
+#: config_two.cpp:30
+#, kde-format
+msgctxt "Default player name"
+msgid "Bob"
+msgstr "Breandán"
+
+#. +> trunk6 stable6
+#: deck.cpp:147
+#, kde-format
+msgid "no valid card"
+msgstr "níl cárta bailí ann"
+
+#. +> trunk6 stable6
+#: deck.cpp:154 deck.cpp:166
+#, kde-format
+msgid "unknown"
+msgstr "anaithnid"
+
+#. +> trunk6 stable6
+#: deck.cpp:155
+#, kde-format
+msgctxt "suite name"
+msgid "Clubs"
+msgstr "Triuf"
+
+#. +> trunk6 stable6
+#: deck.cpp:156
+#, kde-format
+msgctxt "suite name"
+msgid "Spades"
+msgstr "Spéireata"
+
+#. +> trunk6 stable6
+#: deck.cpp:157
+#, kde-format
+msgctxt "suite name"
+msgid "Hearts"
+msgstr "Hart"
+
+#. +> trunk6 stable6
+#: deck.cpp:158
+#, kde-format
+msgctxt "suite name"
+msgid "Diamonds"
+msgstr "Muileata"
+
+#. +> trunk6 stable6
+#: deck.cpp:159
+#, kde-format
+msgctxt "trump name"
+msgid "Grand"
+msgstr "Mámh"
+
+#. +> trunk6 stable6
+#: deck.cpp:167
+#, kde-format
+msgctxt "card name"
+msgid "Ace"
+msgstr "Aon"
+
+#. +> trunk6 stable6
+#: deck.cpp:168
+#, kde-format
+msgctxt "card name"
+msgid "King"
+msgstr "Rí"
+
+#. +> trunk6 stable6
+#: deck.cpp:169
+#, kde-format
+msgctxt "card name"
+msgid "Queen"
+msgstr "Banríon"
+
+#. +> trunk6 stable6
+#: deck.cpp:170
+#, kde-format
+msgctxt "card name"
+msgid "Jack"
+msgstr "Cuireata"
+
+#. +> trunk6 stable6
+#: deck.cpp:171
+#, kde-format
+msgctxt "card name"
+msgid "Ten"
+msgstr "Deich"
+
+#. +> trunk6 stable6
+#: deck.cpp:172
+#, kde-format
+msgctxt "card name"
+msgid "Nine"
+msgstr "Naoi"
+
+#. +> trunk6 stable6
+#: deck.cpp:173
+#, kde-format
+msgctxt "card name"
+msgid "Eight"
+msgstr "Ocht"
+
+#. +> trunk6 stable6
+#: deck.cpp:174
+#, kde-format
+msgctxt "card name"
+msgid "Seven"
+msgstr "Seacht"
+
+#. +> trunk6 stable6
+#: deck.cpp:183
+#, kde-format
+msgctxt "eg jack of clubs"
+msgid "%1 of %2"
+msgstr "%1 %2"
+
+#. +> trunk6 stable6
+#: display_intro.cpp:92
+#, kde-format
+msgctxt "Title of the game - line 1"
+msgid "Lieutenant Skat"
+msgstr "Lieutenant Skat"
+
+#. +> trunk6 stable6
+#: display_intro.cpp:93
+#, kde-format
+msgctxt "Title of the game - line 2"
+msgid "for"
+msgstr "le haghaidh"
+
+#. +> trunk6 stable6
+#: display_intro.cpp:94
+#, kde-format
+msgctxt "Title of the game - line 3"
+msgid "K D E"
+msgstr "K D E"
+
+#. +> trunk6 stable6
+#: display_two.cpp:368
+#, kde-format
+msgctxt "Resulting score of a game with no point"
+msgid "no point"
+msgstr "0 pointe"
+
+#. +> trunk6 stable6
+#: display_two.cpp:370
+#, kde-format
+msgctxt "Resulting score of a game between 1 and 4"
+msgid "%1 point"
+msgid_plural "%1 points"
+msgstr[0] "%1 phointe"
+msgstr[1] "%1 phointe"
+msgstr[2] "%1 phointe"
+msgstr[3] "%1 bpointe"
+msgstr[4] "%1 pointe"
+
+#. +> trunk6 stable6
+#: engine_two.cpp:235
+#, kde-format
+msgid "Game was ended - no winner"
+msgstr "Cuireadh deireadh leis an gcluiche - gan bhuaiteoir"
+
+#. +> trunk6 stable6
+#: engine_two.cpp:244
+#, kde-format
+msgid "Game is drawn"
+msgstr "Cluiche cothrom"
+
+#. +> trunk6 stable6
+#: engine_two.cpp:250
+#, kde-format
+msgid "Player 1 - %1 won "
+msgstr "Imreoir 1 - %1 cluiche buaite "
+
+#. +> trunk6 stable6
+#: engine_two.cpp:257 engine_two.cpp:277
+#, fuzzy, kde-format
+#| msgid "%1 won with 90 points. Super!"
+msgid "%1 won with over 90 points. Super!"
+msgstr "Bhuaigh %1 le 90 pointe. Maith thú!"
+
+#. +> trunk6 stable6
+#: engine_two.cpp:263 engine_two.cpp:283
+#, kde-format
+msgid "%1 won to nil. Congratulations!"
+msgstr "Bhuaigh %1 agus 0 pointe ag an imreoir eile. Comhghairdeas!"
+
+#. +> trunk6 stable6
+#: engine_two.cpp:270
+#, kde-format
+msgid "Player 2 - %1 won "
+msgstr "Imreoir 2 - %1 cluiche buaite "
+
+#. +> trunk6 stable6
+#: engine_two.cpp:344
+#, kde-format
+msgid "Game ended"
+msgstr "Críochnaíodh an cluiche"
+
+#. +> trunk6 stable6
+#: fromlibkdegames/carddeckinfo.cpp:62 fromlibkdegames/carddeckinfo.cpp:63
+#, kde-format
+msgid "unnamed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fromlibkdegames/kcarddialog.cpp:190
+#, kde-format
+msgctxt "@title:window"
+msgid "Card Deck Selection"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, previerGroupBox)
+#. +> trunk6 stable6
+#: fromlibkdegames/kgamecardselector.ui:23
+#, kde-format
+msgid "Preview"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, cardDescription)
+#. +> trunk6 stable6
+#: fromlibkdegames/kgamecardselector.ui:41
+#, kde-format
+msgid "Deck description."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, cardName)
+#. +> trunk6 stable6
+#: fromlibkdegames/kgamecardselector.ui:54
+#, kde-format
+msgid "Deck Name"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, previewImage)
+#. +> trunk6 stable6
+#: fromlibkdegames/kgamecardselector.ui:83
+#, kde-format
+msgid ""
+"Frontside\n"
+"Preview"
+msgstr ""
+
+#. i18n: ectx: Menu (game)
+#. +> trunk6 stable6
+#: lskatui.rc:10
+#, kde-format
+msgid "&Game"
+msgstr "&Cluiche"
+
+#. i18n: ectx: Menu (settings)
+#. +> trunk6 stable6
+#: lskatui.rc:12
+#, kde-format
+msgid "&Settings"
+msgstr "&Socruithe"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: lskatui.rc:24
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Príomhbharra Uirlisí"
+
+#. +> trunk6 stable6
+#: main.cpp:80
+#, kde-format
+msgid "LSkat"
+msgstr "LSkat"
+
+#. +> trunk6 stable6
+#: main.cpp:82
+#, kde-format
+msgid "LSkat: A desktop card game"
+msgstr "LSkat: Cluiche cárta ar do dheasc"
+
+#. +> trunk6 stable6
+#: main.cpp:84
+#, kde-format
+msgid "(c) 1995-2007, Martin Heni"
+msgstr "© 1995-2007, Martin Heni"
+
+#. +> trunk6 stable6
+#: main.cpp:89
+#, kde-format
+msgid "Martin Heni"
+msgstr "Martin Heni"
+
+#. +> trunk6 stable6
+#: main.cpp:89
+#, kde-format
+msgid "Game design and code"
+msgstr "Dearadh an chluiche agus cód"
+
+#. +> trunk6 stable6
+#: main.cpp:90
+#, kde-format
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#. +> trunk6 stable6
+#: main.cpp:90
+#, kde-format
+msgid "Graphics"
+msgstr "Grafaic"
+
+#. +> trunk6 stable6
+#: main.cpp:92
+#, kde-format
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#. +> trunk6 stable6
+#: main.cpp:92
+#, kde-format
+msgid "Code Improvements"
+msgstr "Feabhsúcháin"
+
+#. +> trunk6 stable6
+#: main.cpp:99
+#, kde-format
+msgid "Enter debug level"
+msgstr "Iontráil an leibhéal dífhabhtaithe"
+
+#. +> trunk6 stable6
+#: main.cpp:100
+#, kde-format
+msgid "Skip intro animation"
+msgstr "Ná bac leis an mbeochan tosaigh"
+
+#. +> trunk6 stable6
+#: main.cpp:101
+#, kde-format
+msgid "Run game in demo (autoplay) mode"
+msgstr "Rith an cluiche sa mhód taispeána (uathoibríoch)"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:80
+#, kde-format
+msgid "Installation error: No theme list found."
+msgstr "Earráid suiteála: Níor aimsíodh liosta téamaí."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:126
+#, kde-format
+msgid "Installation error: Theme file error."
+msgstr "Earráid suiteála: Earráid i gcomhad téama."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:144
+#, kde-format
+msgid "Welcome to Skat! Please start a new game."
+msgstr "Fáilte go dtí Skat! Tosaigh cluiche nua."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:333
+#, kde-format
+msgid "Game Over. Please start a new game."
+msgstr "Cluiche Thart. Tosaigh cluiche nua."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:347
+#, kde-format
+msgctxt "Player name and number"
+msgid "Next move for %1 (player %2)"
+msgstr "An chéad bheart eile do %1 (imreoir %2)"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:361
+#, kde-format
+msgid "Clears the all time statistics which is kept in all sessions."
+msgstr "Glan na staitisticí a choinnítear ó sheisiún go seisiún."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:366
+#, kde-format
+msgid "Ends a currently played game. No winner will be declared."
+msgstr "Cuir deireadh leis an gcluiche atá ar siúl faoi láthair. Ní bheidh aon bhuaiteoir ann."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:371
+#, kde-format
+msgid "Quits the program."
+msgstr "Scoir ón chlár."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:374
+#, fuzzy, kde-format
+#| msgid "Starting Player"
+msgctxt "@title:menu"
+msgid "Starting Player"
+msgstr "Imreoir Tosaigh"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:377
+#, fuzzy, kde-format
+#| msgid "Changing starting player..."
+msgctxt "@info:tooltip"
+msgid "Change starting player"
+msgstr "Imreoir tosaigh á athrú..."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:378
+#, kde-format
+msgid "Chooses which player begins the next game."
+msgstr "Roghnaigh an t-imreoir a thosóidh an chéad chluiche eile."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:380
+#, fuzzy, kde-format
+#| msgid "Player &1"
+msgctxt "@item:inmenu"
+msgid "Player &1"
+msgstr "Imreoir &1"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:381
+#, fuzzy, kde-format
+#| msgid "Player &2"
+msgctxt "@item:inmenu"
+msgid "Player &2"
+msgstr "Imreoir &2"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:386
+#, fuzzy, kde-format
+#| msgid "Player &1 Played By"
+msgctxt "@title:menu"
+msgid "Player &1 Played By"
+msgstr "Imreoir &1 Imeartha Ag"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:389
+#, fuzzy, kde-format
+#| msgid "Changing who plays player 1."
+msgctxt "@info:tooltip"
+msgid "Change who plays player 1"
+msgstr "Duine a imríonn imreoir 1 á athrú."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:390
+#, kde-format
+msgid "Changing who plays player 1."
+msgstr "Duine a imríonn imreoir 1 á athrú."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:392
+#, fuzzy, kde-format
+#| msgid "&Mouse"
+msgctxt "@item:inmenu"
+msgid "&Mouse"
+msgstr "&Luch"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:393
+#, fuzzy, kde-format
+#| msgid "&Computer"
+msgctxt "@item:inmenu"
+msgid "&Computer"
+msgstr "&Ríomhaire"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:399
+#, fuzzy, kde-format
+#| msgid "Player &2 Played By"
+msgctxt "@title:menu"
+msgid "Player &2 Played By"
+msgstr "Imreoir &2 Imeartha Ag"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:402
+#, fuzzy, kde-format
+#| msgid "Changing who plays player 2."
+msgctxt "@info:tooltip"
+msgid "Change who plays player 2"
+msgstr "Duine a imríonn imreoir 2 á athrú."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:403
+#, kde-format
+msgid "Changing who plays player 2."
+msgstr "Duine a imríonn imreoir 2 á athrú."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:411
+#, fuzzy, kde-format
+#| msgid "&Theme"
+msgctxt "@title:menu"
+msgid "&Theme"
+msgstr "&Téama"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:417
+#, fuzzy, kde-format
+#| msgid "Changing theme."
+msgctxt "@info:tooltip"
+msgid "Change theme"
+msgstr "Téama á athrú."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:418
+#, kde-format
+msgid "Changing theme."
+msgstr "Téama á athrú."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:422
+#, fuzzy, kde-format
+#| msgid "Select &Card Deck..."
+msgctxt "@action"
+msgid "Select &Card Deck…"
+msgstr "Roghnaigh Deic &Cártaí..."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:424
+#, fuzzy, kde-format
+#| msgid "Configure card decks..."
+msgctxt "@info:tooltip"
+msgid "Configure card decks"
+msgstr "Cumraigh deiceanna cártaí..."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:425
+#, kde-format
+msgid "Choose how the cards should look."
+msgstr "Roghnaigh dealramh na gcártaí."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:429
+#, fuzzy, kde-format
+#| msgid "&Change Player Names..."
+msgctxt "@action"
+msgid "&Change Player Names…"
+msgstr "&Athraigh Ainmneacha na nImreoirí..."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:500
+#, kde-format
+msgid "Do you really want to clear the all time statistical data?"
+msgstr "An bhfuil tú cinnte gur mian leat na sonraí staitistiúla go léir a ghlanadh?"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:573
+#, fuzzy, kde-format
+#| msgid "Dealing cards..."
+msgctxt "@info"
+msgid "Dealing cards…"
+msgstr "Cártaí á ndéanamh..."
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, NameDialog)
+#. +> trunk6 stable6
+#: namedialog.ui:14
+#, kde-format
+msgid "Configure Names"
+msgstr "Cumraigh Ainmneacha"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: namedialog.ui:20
+#, kde-format
+msgid "Player Names"
+msgstr "Ainmneacha Imreora"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#. +> trunk6 stable6
+#: namedialog.ui:32
+#, kde-format
+msgid "Player 1:"
+msgstr "Imreoir 1:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: namedialog.ui:39
+#, kde-format
+msgid "Player 2:"
+msgstr "Imreoir 2:"
+
+#. +> trunk6 stable6
+#: scoresprite.cpp:171
+#, kde-format
+msgctxt "Score in score widget"
+msgid "Score: %1"
+msgstr "Scór: %1"
+
+#. +> trunk6 stable6
+#: scoresprite.cpp:179
+#, kde-format
+msgctxt "Won and overall games in score widget"
+msgid "Games: %1 / %2"
+msgstr "Cluichí: %1 / %2"

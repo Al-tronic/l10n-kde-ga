@@ -1,0 +1,1396 @@
+# Irish translation of fileviewhgplugin
+# Copyright (C) 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the fileviewhgplugin package.
+# Kevin Scannell <kscanne@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: fileviewhgplugin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-05-03 10:19+0200\n"
+"PO-Revision-Date: 2011-12-28 12:28-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: backoutdialog.cpp:29
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Backout"
+msgstr ""
+
+#. +> trunk6 stable6
+#: backoutdialog.cpp:31
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Backout"
+msgstr ""
+
+#. +> trunk6 stable6
+#: backoutdialog.cpp:53
+#, kde-kuit-format
+msgctxt "@label:checkbox"
+msgid "Merge with old dirstate parent after backout"
+msgstr ""
+
+#. +> trunk6 stable6
+#: backoutdialog.cpp:54 backoutdialog.cpp:55 bundledialog.cpp:51
+#, kde-kuit-format
+msgctxt "@label:button"
+msgid "Select Changeset"
+msgstr ""
+
+#. +> trunk6 stable6
+#: backoutdialog.cpp:58
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Revision to Backout: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: backoutdialog.cpp:62
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Parent Revision (optional): "
+msgstr ""
+
+#. +> trunk6 stable6
+#: backoutdialog.cpp:128 bundledialog.cpp:178
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "Select Changeset"
+msgstr ""
+
+#. +> trunk6 stable6
+#: backoutdialog.cpp:129 bundledialog.cpp:179
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Select"
+msgstr ""
+
+#. +> trunk6 stable6
+#: branchdialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Branch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: branchdialog.cpp:36
+#, kde-format
+msgid "Create New Branch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: branchdialog.cpp:37
+#, kde-format
+msgid "Switch Branch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: branchdialog.cpp:65
+#, kde-format
+msgid "<b>Current Branch: </b>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: branchdialog.cpp:99 branchdialog.cpp:113 tagdialog.cpp:92 tagdialog.cpp:107
+#: tagdialog.cpp:121
+#, kde-format
+msgid "Some error occurred"
+msgstr ""
+
+#. +> trunk6 stable6
+#: bundledialog.cpp:29
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Bundle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: bundledialog.cpp:30
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Bundle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: bundledialog.cpp:52
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Base Revision (optional): "
+msgstr ""
+
+#. +> trunk6 stable6
+#: bundledialog.cpp:53
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Bundle all changesets in repository."
+msgstr ""
+
+#. +> trunk6 stable6
+#: bundledialog.cpp:68 exportdialog.cpp:52 importdialog.cpp:56
+#: pulldialog.cpp:36 pushdialog.cpp:36
+#, kde-kuit-format, kde-format
+msgctxt "@label:group"
+msgid "Options"
+msgstr ""
+
+#. +> trunk6 stable6
+#: bundledialog.cpp:70
+#, kde-kuit-format
+msgctxt "@label:checkbox"
+msgid "Run even when the destination is unrelated (force)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: bundledialog.cpp:72 pulldialog.cpp:34 pushdialog.cpp:34
+#, kde-kuit-format
+msgctxt "@label:checkbox"
+msgid "Do not verify server certificate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:31
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Clone"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:32
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Clone"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:39
+#, kde-format
+msgid "URLs"
+msgstr "URLanna"
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:41
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Source"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:42
+#, kde-kuit-format
+msgctxt "@lobel"
+msgid "Destination"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:43 clonedialog.cpp:44
+#, kde-kuit-format
+msgctxt "@button"
+msgid "Browse"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:56
+#, kde-format
+msgctxt "@label"
+msgid "Options"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:59
+#, kde-format
+msgid "Do not update the new working directory."
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:60
+#, kde-format
+msgid "Use pull protocol to copy metadata."
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:61
+#, kde-format
+msgid "Use uncompressed transfer."
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:62
+#, kde-format
+msgid "Do not verify server certificate (ignoring web.cacerts config)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:147
+#, kde-format
+msgid "Terminating cloning!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:172
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr "Dún"
+
+#. +> trunk6 stable6
+#: clonedialog.cpp:175
+#, kde-kuit-format
+msgctxt "@message:error"
+msgid "Error Cloning Repository!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:31
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Commit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:33
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Commit"
+msgstr "Cuir i bhFeidhm"
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:40
+#, fuzzy, kde-format
+#| msgid ""
+#| "A KDE text-editor component could not be found;\n"
+#| "please check your KDE installation."
+msgid ""
+"The KTextEditor component could not be found;\n"
+"please check your KDE Frameworks installation."
+msgstr ""
+"Níor aimsíodh comhpháirt eagarthóra KDE;\n"
+"seiceáil do shuiteáil KDE le do thoil."
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:52
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Commit to current branch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:56
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Create new branch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:60
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "Close current branch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:80
+#, kde-format
+msgid "Copy Message"
+msgstr "Cóipeáil Teachtaireacht"
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:81 updatedialog.cpp:32
+#, kde-format
+msgid "Branch"
+msgstr "Brainse"
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:101
+#, kde-kuit-format
+msgctxt "@title:group"
+msgid "Commit Message"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:108
+#, kde-kuit-format
+msgctxt "@title:group"
+msgid "Diff/Content"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:204
+#, kde-format
+msgid "Could not create branch! Aborting commit!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:212
+#, kde-format
+msgid "Commit unsuccessful!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:215
+#, kde-format
+msgid "No files for commit!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:241
+#, kde-format
+msgid "Branch: Current Branch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:247
+#, kde-format
+msgid "Branch: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:257
+#, kde-format
+msgid "Branch: Close Current"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:269
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Commit: New Branch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:277
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Enter new branch name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:297
+#, kde-kuit-format
+msgctxt "@label"
+msgid "<b>Branch already exists!</b>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitdialog.cpp:303
+#, kde-kuit-format
+msgctxt "@label"
+msgid "<b>Enter some text!</b>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commitinfowidget.cpp:37
+#, kde-format
+msgid ""
+"A KDE text-editor component could not be found;\n"
+"please check your KDE installation."
+msgstr ""
+"Níor aimsíodh comhpháirt eagarthóra KDE;\n"
+"seiceáil do shuiteáil KDE le do thoil."
+
+#. +> trunk6 stable6
+#: configdialog.cpp:27
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Repository Configuration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configdialog.cpp:29
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Global Configuration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configdialog.cpp:42
+#, kde-kuit-format
+msgctxt "@label:group"
+msgid "General Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configdialog.cpp:46
+#, kde-kuit-format
+msgctxt "@label:group"
+msgid "Repository Paths"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configdialog.cpp:49
+#, kde-kuit-format
+msgctxt "@label:group"
+msgid "Ignored Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configdialog.cpp:52
+#, kde-kuit-format
+msgctxt "@label:group"
+msgid "Plugin Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: createdialog.cpp:22
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Initialize Repository"
+msgstr ""
+
+#. +> trunk6 stable6
+#: createdialog.cpp:23
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Initialize Repository"
+msgstr ""
+
+#. +> trunk6 stable6
+#: createdialog.cpp:56
+#, kde-kuit-format
+msgctxt "error message"
+msgid "Error creating repository!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: exportdialog.cpp:26
+#, kde-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Export"
+msgstr ""
+
+#. +> trunk6 stable6
+#: exportdialog.cpp:27
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Export"
+msgstr "Easpórtáil"
+
+#. +> trunk6 stable6
+#: exportdialog.cpp:53
+#, kde-format
+msgctxt "@label"
+msgid "Treat all files as text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: exportdialog.cpp:54
+#, kde-format
+msgctxt "@label"
+msgid "Use Git extended diff format"
+msgstr ""
+
+#. +> trunk6 stable6
+#: exportdialog.cpp:55
+#, kde-format
+msgctxt "@label"
+msgid "Omit dates from diff headers"
+msgstr ""
+
+#. +> trunk6 stable6
+#: exportdialog.cpp:124
+#, kde-format
+msgctxt "@message:error"
+msgid "Please select at least one changeset to be exported!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:90
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Add"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:95
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Remove"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:100
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Rename"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:105
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Commit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:110
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:115
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Branch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:120
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Clone"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:125
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Init"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:130
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Update"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:135
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Global Config"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:140
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Repository Config"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:145
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Push"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:150
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Pull"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:155
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Revert"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:160
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Revert All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:165
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Rollback"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:170
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Merge"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:175
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Bundle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:180
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Export"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:185
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Import"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:190
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Unbundle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:195
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Serve"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:200
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Backout"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:205
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Hg</application> Diff"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:227
+#, kde-kuit-format
+msgctxt "@action:inmenu"
+msgid "<application>Mercurial</application>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:424
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Adding files to <application>Hg</application> repository..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:425
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Adding files to <application>Hg</application> repository failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:426
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Added files to <application>Hg</application> repository."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:439
+#, kde-kuit-format
+msgctxt "@message:yesorno"
+msgid "Would you like to remove selected files from the repository?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:441
+#, fuzzy, kde-format
+#| msgid "Remove Tag"
+msgid "Remove Files"
+msgstr "Bain Clib"
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:448
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Removing files from <application>Hg</application> repository..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:449
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Removing files from <application>Hg</application> repository failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:450
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Removed files from <application>Hg</application> repository."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:460
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Renaming of file in <application>Hg</application> repository failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:461
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Renamed file in <application>Hg</application> repository successfully."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:462
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Renaming file in <application>Hg</application> repository."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:472
+#, kde-kuit-format
+msgctxt "@message"
+msgid "No changes for commit!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:476
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Commit to <application>Hg</application> repository failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:477
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Committed to <application>Hg</application> repository."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:478
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Commit <application>Hg</application> repository."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:488
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Tag operation in <application>Hg</application> repository failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:489
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Tagging operation in <application>Hg</application> repository is successful."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:490
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Tagging operation in <application>Hg</application> repository."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:498
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Update of <application>Hg</application> working directory failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:499
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Update of <application>Hg</application> working directory is successful."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:500
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Updating <application>Hg</application> working directory."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:508
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Branch operation on <application>Hg</application> repository failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:509
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Branch operation on <application>Hg</application> repository completed successfully."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:510
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Branch operation on <application>Hg</application> repository."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:607
+#, kde-kuit-format
+msgctxt "@message:yesorno"
+msgid "Would you like to revert changes made to selected files?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:609 fileviewhgplugin.cpp:610 fileviewhgplugin.cpp:631
+#, kde-format
+msgid "Revert"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:616 fileviewhgplugin.cpp:637
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Reverting files in <application>Hg</application> repository..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:617 fileviewhgplugin.cpp:638
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Reverting files in <application>Hg</application> repository failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:618 fileviewhgplugin.cpp:639
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Reverting files in <application>Hg</application> repository completed successfully."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:628
+#, kde-kuit-format
+msgctxt "@message:yesorno"
+msgid "Would you like to revert all changes made to current working directory?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:630
+#, kde-format
+msgid "Revert All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:647
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Generating diff for <application>Hg</application> repository..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:648
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Could not get <application>Hg</application> repository diff."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:649
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Generated <application>Hg</application> diff successfully."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:678
+#, kde-kuit-format
+msgctxt "@message:error"
+msgid "abort: Uncommitted changes in working directory!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:693
+#, kde-kuit-format
+msgctxt "@info:message"
+msgid "No rollback information available!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:704
+#, kde-kuit-format
+msgctxt "@message:yesorno"
+msgid "Would you like to rollback last transaction?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:706 fileviewhgplugin.cpp:707
+#, kde-format
+msgid "Rollback"
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:713
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Executing Rollback <application>Hg</application> repository..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:714
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Rollback of <application>Hg</application> repository failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: fileviewhgplugin.cpp:715
+#, kde-kuit-format
+msgctxt "@info:status"
+msgid "Rollback of <application>Hg</application> repository completed successfully."
+msgstr ""
+
+#. i18n: ectx: label, entry (commitDialogHeight), group (CommitDialogSettings)
+#. i18n: ectx: label, entry (configDialogHeight), group (ConfigDialogSettings)
+#. i18n: ectx: label, entry (cloneDialogHeight), group (CloneDialogSettings)
+#. i18n: ectx: label, entry (pushDialogBigHeight), group (PushDialogSettings)
+#. i18n: ectx: label, entry (pullDialogBigHeight), group (PullDialogSettings)
+#. i18n: ectx: label, entry (mergeDialogHeight), group (MergeDialogSettings)
+#. i18n: ectx: label, entry (bundleDialogHeight), group (BundleDialogSettings)
+#. i18n: ectx: label, entry (exportDialogHeight), group (ExportDialogSettings)
+#. i18n: ectx: label, entry (importDialogHeight), group (ImportDialogSettings)
+#. i18n: ectx: label, entry (serveDialogHeight), group (ServeDialogSettings)
+#. i18n: ectx: label, entry (backoutDialogHeight), group (BackoutDialogSettings)
+#. +> trunk6 stable6
+#: fileviewhgpluginsettings.kcfg:7 fileviewhgpluginsettings.kcfg:27
+#: fileviewhgpluginsettings.kcfg:39 fileviewhgpluginsettings.kcfg:49
+#: fileviewhgpluginsettings.kcfg:59 fileviewhgpluginsettings.kcfg:69
+#: fileviewhgpluginsettings.kcfg:79 fileviewhgpluginsettings.kcfg:89
+#: fileviewhgpluginsettings.kcfg:99 fileviewhgpluginsettings.kcfg:109
+#: fileviewhgpluginsettings.kcfg:119
+#, kde-format
+msgid "Dialog height"
+msgstr ""
+
+#. i18n: ectx: label, entry (commitDialogWidth), group (CommitDialogSettings)
+#. i18n: ectx: label, entry (configDialogWidth), group (ConfigDialogSettings)
+#. i18n: ectx: label, entry (cloneDialogWidth), group (CloneDialogSettings)
+#. i18n: ectx: label, entry (pushDialogBigWidth), group (PushDialogSettings)
+#. i18n: ectx: label, entry (pullDialogBigWidth), group (PullDialogSettings)
+#. i18n: ectx: label, entry (mergeDialogWidth), group (MergeDialogSettings)
+#. i18n: ectx: label, entry (bundleDialogWidth), group (BundleDialogSettings)
+#. i18n: ectx: label, entry (exportDialogWidth), group (ExportDialogSettings)
+#. i18n: ectx: label, entry (importDialogWidth), group (ImportDialogSettings)
+#. i18n: ectx: label, entry (serveDialogWidth), group (ServeDialogSettings)
+#. i18n: ectx: label, entry (backoutDialogWidth), group (BackoutDialogSettings)
+#. +> trunk6 stable6
+#: fileviewhgpluginsettings.kcfg:12 fileviewhgpluginsettings.kcfg:32
+#: fileviewhgpluginsettings.kcfg:43 fileviewhgpluginsettings.kcfg:53
+#: fileviewhgpluginsettings.kcfg:63 fileviewhgpluginsettings.kcfg:73
+#: fileviewhgpluginsettings.kcfg:83 fileviewhgpluginsettings.kcfg:93
+#: fileviewhgpluginsettings.kcfg:103 fileviewhgpluginsettings.kcfg:113
+#: fileviewhgpluginsettings.kcfg:123
+#, kde-format
+msgid "Dialog width"
+msgstr ""
+
+#. i18n: ectx: label, entry (verticalSplitterSizes), group (CommitDialogSettings)
+#. +> trunk6 stable6
+#: fileviewhgpluginsettings.kcfg:17
+#, kde-format
+msgid "Divides file list and editors with commit details"
+msgstr ""
+
+#. i18n: ectx: label, entry (horizontalSplitterSizes), group (CommitDialogSettings)
+#. +> trunk6 stable6
+#: fileviewhgpluginsettings.kcfg:21
+#, kde-format
+msgid "Divides commit editor and diff editor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: importdialog.cpp:28
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Import"
+msgstr ""
+
+#. +> trunk6 stable6
+#: importdialog.cpp:29
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Import"
+msgstr ""
+
+#. +> trunk6 stable6
+#: importdialog.cpp:57
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Do not commit, just update the working directory"
+msgstr ""
+
+#. +> trunk6 stable6
+#: importdialog.cpp:58
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Skip test for outstanding uncommitted changes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: importdialog.cpp:59
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Apply patch to the nodes from which it was generated"
+msgstr ""
+
+#. +> trunk6 stable6
+#: importdialog.cpp:60
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Apply patch without touching working directory"
+msgstr ""
+
+#. +> trunk6 stable6
+#: importdialog.cpp:71
+#, kde-kuit-format
+msgctxt "@label:button"
+msgid "Add Patches"
+msgstr ""
+
+#. +> trunk6 stable6
+#: importdialog.cpp:72
+#, kde-kuit-format
+msgctxt "@label:button"
+msgid "Remove Patches"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergedialog.cpp:25
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Merge"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergedialog.cpp:26
+#, kde-kuit-format
+msgctxt "@label:button"
+msgid "Merge"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mergedialog.cpp:103
+#, kde-kuit-format
+msgctxt "@message"
+msgid "No head selected for merge!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pathselector.cpp:57
+#, kde-kuit-format
+msgctxt "@label:combobox"
+msgid "edit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pulldialog.cpp:27
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Pull Repository"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pulldialog.cpp:33
+#, kde-kuit-format
+msgctxt "@label:checkbox"
+msgid "Update to new branch head if changesets were pulled"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pulldialog.cpp:35
+#, kde-kuit-format
+msgctxt "@label:checkbox"
+msgid "Force Pull"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pulldialog.cpp:45
+#, kde-kuit-format
+msgctxt "@label:group"
+msgid "Incoming Changes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pulldialog.cpp:138
+#, kde-kuit-format
+msgctxt "@message:info"
+msgid "No incoming changes!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pushdialog.cpp:27
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Push Repository"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pushdialog.cpp:33
+#, kde-kuit-format
+msgctxt "@label:checkbox"
+msgid "Allow pushing a new branch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pushdialog.cpp:35
+#, kde-kuit-format
+msgctxt "@label:checkbox"
+msgid "Force Push"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pushdialog.cpp:45
+#, kde-kuit-format
+msgctxt "@label:group"
+msgid "Outgoing Changes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pushdialog.cpp:159
+#, kde-kuit-format
+msgctxt "@message:info"
+msgid "No outgoing changes!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: renamedialog.cpp:24
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Rename"
+msgstr ""
+
+#. +> trunk6 stable6
+#: renamedialog.cpp:26
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Rename"
+msgstr ""
+
+#. +> trunk6 stable6
+#: renamedialog.cpp:31
+#, kde-kuit-format
+msgctxt "@label:label to source file"
+msgid "Source "
+msgstr ""
+
+#. +> trunk6 stable6
+#: renamedialog.cpp:36
+#, kde-kuit-format
+msgctxt "@label:rename"
+msgid "Rename to "
+msgstr ""
+
+#. +> trunk6 stable6
+#: servedialog.cpp:24
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Serve"
+msgstr ""
+
+#. +> trunk6 stable6
+#: servedialog.cpp:56
+#, kde-kuit-format
+msgctxt "@label:button"
+msgid "Start Server"
+msgstr ""
+
+#. +> trunk6 stable6
+#: servedialog.cpp:57
+#, kde-kuit-format
+msgctxt "@label:button"
+msgid "Stop Server"
+msgstr ""
+
+#. +> trunk6 stable6
+#: servedialog.cpp:58
+#, kde-kuit-format
+msgctxt "@label:button"
+msgid "Open in browser"
+msgstr ""
+
+#. +> trunk6 stable6
+#: servedialog.cpp:74
+#, kde-kuit-format
+msgctxt "@label"
+msgid "Port"
+msgstr ""
+
+#. +> trunk6 stable6
+#: servewrapper.cpp:62
+#, kde-format
+msgid "## Starting Server ##"
+msgstr ""
+
+#. +> trunk6 stable6
+#: servewrapper.h:144
+#, kde-format
+msgid "## Server Stopped! ##\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: statuslist.cpp:29
+#, kde-format
+msgid "Filename"
+msgstr "Ainm comhaid"
+
+#. +> trunk6 stable6
+#: statuslist.cpp:39
+#, kde-format
+msgctxt "@title:group"
+msgid "File Status"
+msgstr ""
+
+#. +> trunk6 stable6
+#: syncdialogbase.cpp:73
+#, kde-format
+msgctxt "@label:button"
+msgid "Show Incoming Changes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: syncdialogbase.cpp:75
+#, kde-format
+msgctxt "@label:button"
+msgid "Show Outgoing Changes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: syncdialogbase.cpp:108
+#, kde-format
+msgctxt "@action:button"
+msgid "Pull"
+msgstr ""
+
+#. +> trunk6 stable6
+#: syncdialogbase.cpp:108
+#, kde-format
+msgctxt "@action:button"
+msgid "Push"
+msgstr ""
+
+#. +> trunk6 stable6
+#: syncdialogbase.cpp:146
+#, kde-format
+msgctxt "@message"
+msgid "No changes found!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: syncdialogbase.cpp:197 syncdialogbase.cpp:263 syncdialogbase.cpp:270
+#, kde-format
+msgid "Error!"
+msgstr "Earráid!"
+
+#. +> trunk6 stable6
+#: syncdialogbase.cpp:302
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Options"
+msgstr "Roghanna"
+
+#. +> trunk6 stable6
+#: tagdialog.cpp:19
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tagdialog.cpp:29
+#, kde-format
+msgid "Create New Tag"
+msgstr "Cruthaigh Clib Nua"
+
+#. +> trunk6 stable6
+#: tagdialog.cpp:30
+#, kde-format
+msgid "Remove Tag"
+msgstr "Bain Clib"
+
+#. +> trunk6 stable6
+#: tagdialog.cpp:31
+#, kde-format
+msgid "Switch Tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tagdialog.cpp:118
+#, kde-format
+msgid "Created tag successfully!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: updatedialog.cpp:23
+#, kde-kuit-format
+msgctxt "@title:window"
+msgid "<application>Hg</application> Update"
+msgstr ""
+
+#. +> trunk6 stable6
+#: updatedialog.cpp:25
+#, kde-kuit-format
+msgctxt "@action:button"
+msgid "Update"
+msgstr "Nuashonraigh"
+
+#. +> trunk6 stable6
+#: updatedialog.cpp:28
+#, kde-format
+msgid "New working directory"
+msgstr ""
+
+#. +> trunk6 stable6
+#: updatedialog.cpp:33
+#, kde-format
+msgid "Tag"
+msgstr "Clib"
+
+#. +> trunk6 stable6
+#: updatedialog.cpp:34
+#, kde-format
+msgid "Changeset/Revision"
+msgstr ""
+
+#. +> trunk6 stable6
+#: updatedialog.cpp:39
+#, kde-format
+msgid "Current Parent"
+msgstr ""
+
+#. +> trunk6 stable6
+#: updatedialog.cpp:45
+#, kde-format
+msgid "Options"
+msgstr "Roghanna"
+
+#. +> trunk6 stable6
+#: updatedialog.cpp:47
+#, kde-format
+msgid "Discard uncommitted changes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: updatedialog.cpp:120
+#, kde-format
+msgid ""
+"Some error occurred! \n"
+"Maybe there are uncommitted changes."
+msgstr ""

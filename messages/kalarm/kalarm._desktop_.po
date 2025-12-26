@@ -1,0 +1,90 @@
+# Irish translation of desktop_kdepim
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdepim package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-09 08:56+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: src/data/kalarm.autostart.desktop:3 src/data/org.kde.kalarm.desktop:2
+#: src/data/org.kde.kalarm.rtcwake.actions:2
+msgctxt "Name"
+msgid "KAlarm"
+msgstr "KAlarm"
+
+#. +> trunk6 stable6
+#: src/data/kalarm.autostart.desktop:78
+msgctxt "Comment"
+msgid "KAlarm autostart at login"
+msgstr "Tosaigh KAlarm go huathoibríoch ag am logála isteach"
+
+#. +> trunk6 stable6
+#: src/data/kalarm.notifyrc:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KAlarm"
+msgctxt "Comment"
+msgid "KAlarm"
+msgstr "KAlarm"
+
+#. +> trunk6 stable6
+#: src/data/kalarm.notifyrc:43
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Alarms"
+msgctxt "Name"
+msgid "Alarm message"
+msgstr "Aláraim"
+
+#. +> trunk6 stable6
+#: src/data/kalarm.notifyrc:83
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Alarms"
+msgctxt "Name"
+msgid "Alarm message with beep"
+msgstr "Aláraim"
+
+#. +> trunk6 stable6
+#: src/data/kalarm.notifyrc:124
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Alarms"
+msgctxt "Name"
+msgid "Spoken alarm message"
+msgstr "Aláraim"
+
+#. +> trunk6 stable6
+#: src/data/kalarm.notifyrc:165
+msgctxt "Name"
+msgid "Alarm error message"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/data/org.kde.kalarm.desktop:77
+msgctxt "GenericName"
+msgid "Personal Alarm Scheduler"
+msgstr "Sceidealóir Aláram Pearsanta"
+
+#. +> trunk6 stable6
+#: src/data/org.kde.kalarm.rtcwake.actions:76
+msgctxt "Name"
+msgid "Set RTC wakeup time"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/data/org.kde.kalarm.rtcwake.actions:127
+msgctxt "Description"
+msgid "Set RTC wake-from-suspend time"
+msgstr ""

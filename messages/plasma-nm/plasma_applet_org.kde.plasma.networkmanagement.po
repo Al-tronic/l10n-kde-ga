@@ -1,0 +1,422 @@
+# Irish translation of networkmanagement_openvpnui
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the networkmanagement_openvpnui package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: networkmanagement_openvpnui.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-18 07:34+0100\n"
+"PO-Revision-Date: 2009-02-05 06:35-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:62
+#, kde-format
+msgid "Connect"
+msgstr "Ceangail"
+
+#. +> stable5
+#: contents/ui/ConnectionItem.qml:290
+#, fuzzy, kde-format
+msgid "Connected"
+msgstr "Ceangailte"
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:62
+#, fuzzy, kde-format
+msgid "Disconnect"
+msgstr "Ceangailte"
+
+#. +> stable5
+#: contents/ui/ConnectionItem.qml:85
+#, fuzzy, kde-format
+msgid "Show Network's QR Code"
+msgstr "Ceangal"
+
+#. +> trunk6 stable6
+#: ConnectionItem.qml:90
+#, fuzzy, kde-format
+#| msgid "Shared"
+msgctxt "Share Wi-Fi network's password or QR code"
+msgid "Share"
+msgstr "Comhroinnte"
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:96
+#, fuzzy, kde-format
+#| msgid "Confirm Delete"
+msgid "Configure…"
+msgstr "Dearbhaigh an Scriosadh"
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:136
+#, kde-format
+msgid "Speed"
+msgstr "Luas"
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:141
+#, kde-format
+msgid "Details"
+msgstr "Mionsonraí"
+
+#. +> trunk6 stable6 stable5
+#: ConnectionItem.qml:188
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Current download speed is %1 kibibytes per second; current upload speed is %2 kibibytes per second"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/ConnectionItem.qml:286
+#, fuzzy, kde-format
+msgid "Connected, ⬇ %1/s, ⬆ %2/s"
+msgstr "Ceangailte"
+
+#. +> trunk6 stable6
+#: ConnectionItem.qml:298
+#, fuzzy, kde-format
+msgctxt "Download and upload rates in some unit per second"
+msgid "↓ %1/s, ↑ %2/s"
+msgstr "Ceangailte"
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:33
+#, fuzzy, kde-format
+#| msgid "Username on this network"
+msgid "You need to log in to this network"
+msgstr "Ainm úsáideora ar an líonra seo"
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:37
+#, kde-format
+msgctxt "@action:button"
+msgid "Log in"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionListPage.qml:118
+#, fuzzy, kde-format
+msgid "Airplane mode is enabled"
+msgstr "Díchumasaíodh crua-earraí gan sreang"
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:122
+#, kde-format
+msgid "Wi-Fi and mobile data are deactivated"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/PopupDialog.qml:106
+#, kde-format
+msgid "Wireless and mobile networks are deactivated"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:124
+#, fuzzy, kde-format
+msgid "Wi-Fi is deactivated"
+msgstr "Díchumasaíodh crua-earraí gan sreang"
+
+#. +> stable5
+#: contents/ui/PopupDialog.qml:108
+#, fuzzy, kde-format
+msgid "Wireless is deactivated"
+msgstr "Díchumasaíodh crua-earraí gan sreang"
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:127
+#, fuzzy, kde-format
+#| msgid "The name of the wireless network"
+msgid "Looking for Wi-Fi networks"
+msgstr "Ainm an líonra gan sreang"
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:130
+#, fuzzy, kde-format
+msgid "Mobile data is deactivated"
+msgstr "Díchumasaíodh crua-earraí gan sreang"
+
+#. +> stable5
+#: contents/ui/PopupDialog.qml:111
+#, kde-format
+msgid "Mobile network is deactivated"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionListPage.qml:133
+#, kde-format
+msgid "No matches"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConnectionListPage.qml:136
+#, fuzzy, kde-format
+msgid "No available connections"
+msgstr "Ceangal córai&s"
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:145
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn off airplane mode to search for networks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:149
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn on Wi-Fi or mobile data to search for networks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:151
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn on Wi-Fi to search for networks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ConnectionListPage.qml:154
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Turn on mobile data to search for networks"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: DetailsText.qml:40
+#, kde-format
+msgid "Copy"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:32
+#, fuzzy, kde-format
+#| msgid "Network ID"
+msgid "Networks"
+msgstr "Aitheantas an Líonra"
+
+#. +> trunk6 stable6 stable5
+#: main.qml:41
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Middle-click to turn off Airplane Mode"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:43
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Middle-click to turn on Airplane Mode"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:71 Toolbar.qml:82
+#, kde-format
+msgid "Enable Wi-Fi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.qml:82
+#, fuzzy, kde-format
+#| msgid "Username on this network"
+msgid "Enable Mobile Data"
+msgstr "Ainm úsáideora ar an líonra seo"
+
+#. +> stable5
+#: contents/ui/main.qml:83
+#, fuzzy, kde-format
+#| msgid "Username on this network"
+msgid "Enable Mobile Network"
+msgstr "Ainm úsáideora ar an líonra seo"
+
+#. +> trunk6 stable6 stable5
+#: main.qml:94
+#, fuzzy, kde-format
+#| msgid "Wireless"
+msgid "Enable Airplane Mode"
+msgstr "Gan Sreang"
+
+#. +> trunk6 stable6 stable5
+#: main.qml:106
+#, kde-format
+msgid "Open Network Login Page…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:116
+#, fuzzy, kde-format
+#| msgid "Configure Notifications..."
+msgid "&Configure Network Connections…"
+msgstr "Cumraigh Fógairt..."
+
+#. +> stable5
+#: contents/ui/main.qml:139
+#, kde-format
+msgctxt "@title:window"
+msgid "QR Code for %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: PopupDialog.qml:51
+#, fuzzy, kde-format
+#| msgid "Configure Notifications..."
+msgctxt "@action:button"
+msgid "Return to Network Connections"
+msgstr "Cumraigh Fógairt..."
+
+#. +> trunk6 stable6
+#: ShareNetworkQrCodePage.qml:33
+#, kde-format
+msgid "Scan this QR code with another device to connect to the \"%1\" network."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ShareNetworkQrCodePage.qml:108
+#, fuzzy, kde-format
+#| msgid "Key Password:"
+msgid "Wi-Fi password:"
+msgstr "Focal Faire na hEochrach:"
+
+#. +> trunk6 stable6
+#: Toolbar.qml:131
+#, fuzzy, kde-format
+#| msgid "Username on this network"
+msgid "Enable mobile data"
+msgstr "Ainm úsáideora ar an líonra seo"
+
+#. +> stable5
+#: contents/ui/Toolbar.qml:118
+#, fuzzy, kde-format
+#| msgid "Username on this network"
+msgid "Enable mobile network"
+msgstr "Ainm úsáideora ar an líonra seo"
+
+#. +> trunk6 stable6 stable5
+#: Toolbar.qml:156
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Disable airplane mode<nl/>"
+"<nl/>"
+"This will enable Wi-Fi and Bluetooth"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: Toolbar.qml:157
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Enable airplane mode<nl/>"
+"<nl/>"
+"This will disable Wi-Fi and Bluetooth"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: Toolbar.qml:170
+#, kde-format
+msgid "Hotspot"
+msgstr ""
+
+#. +> trunk6 stable6
+#: Toolbar.qml:187
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot create a hotspot because Wi-Fi is disabled."
+msgstr ""
+
+#. +> trunk6 stable6
+#: Toolbar.qml:189
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Cannot create a hotspot because all wireless radios are in use. Disconnect from the current Wi-Fi network or connect another wireless radio."
+msgstr ""
+
+#. +> trunk6 stable6
+#: Toolbar.qml:191
+#, fuzzy, kde-format
+#| msgid "Disabled"
+msgctxt "@info:tooltip"
+msgid "Disable Hotspot"
+msgstr "Díchumasaithe"
+
+#. +> stable5
+#: contents/ui/Toolbar.qml:178 contents/ui/Toolbar.qml:189
+#, fuzzy, kde-format
+#| msgid "Disabled"
+msgid "Disable Hotspot"
+msgstr "Díchumasaithe"
+
+#. +> trunk6 stable6
+#: Toolbar.qml:193
+#, fuzzy, kde-format
+#| msgid "Disabled"
+msgctxt "@info:tooltip"
+msgid "Create Hotspot"
+msgstr "Díchumasaithe"
+
+#. +> stable5
+#: contents/ui/Toolbar.qml:183 contents/ui/Toolbar.qml:189
+#, kde-format
+msgid "Create Hotspot"
+msgstr ""
+
+#. +> trunk6
+#: Toolbar.qml:221
+#, kde-format
+msgctxt "@action:button"
+msgid "Scan Wi-Fi QR Code"
+msgstr ""
+
+#. +> trunk6
+#: Toolbar.qml:226
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Scan QR Code to connect to a Wi-Fi network"
+msgstr ""
+
+#. +> trunk6
+#: Toolbar.qml:228
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Install QRCA Barcode Scanner to scan for a QR Code that connects to a Wi-Fi network"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: Toolbar.qml:247
+#, fuzzy, kde-format
+#| msgid "Configure Notifications..."
+msgid "Configure network connections…"
+msgstr "Cumraigh Fógairt..."
+
+#. +> stable6 stable5
+#: TrafficMonitor.qml:37 TrafficMonitor.qml:111
+#, kde-format
+msgid "/s"
+msgstr ""
+
+#. +> stable6 stable5
+#: TrafficMonitor.qml:89
+#, kde-format
+msgid "Upload"
+msgstr ""
+
+#. +> stable6 stable5
+#: TrafficMonitor.qml:89
+#, kde-format
+msgid "Download"
+msgstr ""
+
+#. +> stable5
+#: contents/ui/PasswordField.qml:16
+#, fuzzy, kde-format
+#| msgid "Password:"
+msgid "Password…"
+msgstr "Focal Faire:"

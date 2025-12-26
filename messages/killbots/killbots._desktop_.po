@@ -1,0 +1,176 @@
+# Irish translation of desktop_kdegames
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdegames package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-19 15:11+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: rulesets/classic.desktop:2 themes/classic.desktop:2
+msgctxt "Name"
+msgid "Classic"
+msgstr "Clasaiceach"
+
+#. +> trunk6 stable6
+#: rulesets/classic.desktop:66
+msgctxt "Description"
+msgid ""
+"<qt>"
+"<p>The rules used in the original BSD command line version of <tt>robots</tt>.</p>"
+"<p>Nothing fancy, just the basic game elements: no fastbots, no safe teleports, no pushing junkheaps, and a huge game grid.</p>"
+"<p>Due to its larger width, it is recommended that you use a theme with narrower tiles to better fit your screen.</p>"
+"</qt>"
+msgstr ""
+"<qt>"
+"<p>Na rialacha a úsáideadh sa bhunleagan BSD de <tt>robots</tt> ar líne na n-orduithe.</p>"
+"<p>Rialacha simplí agus eilimintí bunúsacha an chluiche amháin: gan róbónna tapa, gan teileaphort slán, gan bruscar a bhrú, agus greille ollmhór.</p>"
+"<p>De bharr an leithid mhóir, moltar duit téama a bhfuil tíleanna níos caoile agat a úsáid, sa chaoi go n-oiriúnóidh sé don scáileán níos fearr.</p>"
+"</qt>"
+
+#. +> trunk6 stable6
+#: rulesets/daleks.desktop:2
+msgctxt "Name"
+msgid "Daleks"
+msgstr "Daleks"
+
+#. +> trunk6 stable6
+#: rulesets/daleks.desktop:52
+msgctxt "Description"
+msgid ""
+"<qt>"
+"<p>An approximation of the rules used in Daleks, a robots-like game for early Apple computers.</p>"
+"<p>The hero is allotted one energy each round that can be used to power the sonic screwdriver. All other special features are disabled.</p>"
+"</qt>"
+msgstr ""
+"<qt>"
+"<p>Na rialacha, go bunúsach, a úsáideadh i Daleks, cluiche róbónna ar luathríomhairí Apple.</p>"
+"<p>Dáiltear aonad cumhachta amháin ar an laoch gach babhta.  Is féidir an chumhacht seo a úsáid chun an scriúire sonach a fhuinnmhiú. Tá gach gné speisialta eile díchumasaithe.</p>"
+"</qt>"
+
+#. +> trunk6 stable6
+#: rulesets/default.desktop:2 src/org.kde.killbots.desktop:2
+msgctxt "Name"
+msgid "Killbots"
+msgstr "Killbots"
+
+#. +> trunk6 stable6
+#: rulesets/default.desktop:58
+msgctxt "Description"
+msgid ""
+"<qt>"
+"<p>The default Killbots game type.</p>"
+"<p>Includes a medium size grid, safe teleports, fast enemies and pushable junkheaps.</p>"
+"</qt>"
+msgstr ""
+"<qt>"
+"<p>An cineál réamhshocraithe cluiche Killbots.</p>"
+"<p>Greille mheánmhéide, teileaphort slán, naimhde tapa agus bruscar inbhrúite.</p>"
+"</qt>"
+
+#. +> trunk6 stable6
+#: rulesets/easy.desktop:2
+msgctxt "Name"
+msgid "Easy"
+msgstr "Éasca"
+
+#. +> trunk6 stable6
+#: rulesets/easy.desktop:58
+msgctxt "Description"
+msgid ""
+"<qt>"
+"<p>An easier version of the \"Killbots\" game type.</p>"
+"<p>Includes a bigger game grid prepopulated with junkheaps, a starting stash of energy and an increasing energy cap.</p>"
+"</qt>"
+msgstr ""
+"<qt>"
+"<p>Leagan níos éasca den chluiche \"Killbots\".</p>"
+"<p>Greille chluiche níos mó agus réamhshocraithe le carnáin bhruscair, taisce de chumhacht ag am tosaithe, agus uasteorainn chumhachta a mhéadaíonn as a chéile.</p>"
+"</qt>"
+
+#. +> trunk6 stable6
+#: rulesets/energycrisis.desktop:2
+msgctxt "Name"
+msgid "Energy Crisis"
+msgstr "Energy Crisis"
+
+#. +> trunk6 stable6
+#: rulesets/energycrisis.desktop:52
+msgctxt "Description"
+msgid "The player starts with 30 energy and cannot earn more. How many rounds can you survive and how many points can you collect before your energy and luck run out?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/org.kde.killbots.desktop:56
+msgctxt "GenericName"
+msgid "Strategy Game with Robots"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/org.kde.killbots.desktop:97
+msgctxt "Comment"
+msgid "A KDE game of killer robots and teleportation."
+msgstr ""
+
+#. +> trunk6 stable6
+#: themes/classic.desktop:64
+msgctxt "Description"
+msgid "A theme for those who miss the console version"
+msgstr "Téama le haghaidh daoine a mbraitheann uathu an leagan consóil"
+
+#. +> trunk6 stable6
+#: themes/mountainadventure.desktop:2
+msgctxt "Name"
+msgid "Mountain Adventure"
+msgstr "Eachtra sna Sléibhte"
+
+#. +> trunk6 stable6
+#: themes/mountainadventure.desktop:52
+#, fuzzy
+#| msgctxt "Description"
+#| msgid ""
+#| "<qt>"
+#| "<p>Indiana Gnomes battles ghosts and bats on a misty mountainside.</p>"
+#| "<p>Sprites by Nicu Buculei. Background by Eugene Trounev.</p>"
+#| "</qt>"
+msgctxt "Description"
+msgid "Indiana Gnomes battles ghosts and bats on a misty mountainside."
+msgstr ""
+"<qt>"
+"<p>Troideann Indiana Gnomes taibhsí agus sciatháin leathair ar thaobh sléibhe ceobhránach.</p>"
+"<p>Rinne Nicu Buculei na síofraí agus rinne Eugene Trounev an cúlra.</p>"
+"</qt>"
+
+#. +> trunk6 stable6
+#: themes/mummymadness.desktop:2
+msgctxt "Name"
+msgid "Mummy Madness"
+msgstr "Mummy Madness"
+
+#. +> trunk6 stable6
+#: themes/mummymadness.desktop:50
+msgctxt "Description"
+msgid "Egyptian style theme with mad mummies."
+msgstr "Téama ar nós na nÉigipteach, le mumaithe ar buile."
+
+#. +> trunk6 stable6
+#: themes/robotkill.desktop:2
+msgctxt "Name"
+msgid "Robot Kill"
+msgstr "Robot Kill"
+
+#. +> trunk6 stable6
+#: themes/robotkill.desktop:52
+msgctxt "Description"
+msgid "The default Killbots theme."
+msgstr "An téama réamhshocraithe Killbots."

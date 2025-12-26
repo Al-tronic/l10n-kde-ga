@@ -1,0 +1,702 @@
+# Irish translation of kbattleship
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kbattleship package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegames/kbattleship.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:02+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: controller.cpp:50
+#, kde-format
+msgid "Computer"
+msgstr "Ríomhaire"
+
+#. i18n: ectx: label, entry (Hostname), group (network)
+#. +> trunk6 stable6
+#: knavalbattle.kcfg:9
+#, kde-format
+msgid "Default hostname for multiplayer games."
+msgstr "Óstainm réamhshocraithe le haghaidh cluiche il-imreora."
+
+#. i18n: ectx: label, entry (Port), group (network)
+#. +> trunk6 stable6
+#: knavalbattle.kcfg:13
+#, kde-format
+msgid "Default port for multiplayer games."
+msgstr "Port réamhshocraithe le haghaidh cluiche il-imreora."
+
+#. i18n: ectx: label, entry (Nickname), group (general)
+#. +> trunk6 stable6
+#: knavalbattle.kcfg:19
+#, kde-format
+msgid "User nickname."
+msgstr "Leasainm an úsáideora."
+
+#. i18n: ectx: label, entry (EnableSounds), group (general)
+#. +> trunk6 stable6
+#: knavalbattle.kcfg:22
+#, kde-format
+msgid "Whether sound effects should be played."
+msgstr "Cé acu a úsáidfear maisíochtaí fuaime nó nach n-úsáidfear."
+
+#. i18n: ectx: label, entry (AdjacentShips), group (general)
+#. +> trunk6 stable6
+#: knavalbattle.kcfg:26
+#, kde-format
+msgid "Allow the ships to be adjacent without one empty space between them."
+msgstr ""
+
+#. i18n: ectx: label, entry (SeveralShips), group (general)
+#. +> trunk6 stable6
+#: knavalbattle.kcfg:30
+#, kde-format
+msgid "Allow multiple ships of any size, default: 4 of 1, 3 of 2, 2 of 3, 1 of 4."
+msgstr ""
+
+#. i18n: ectx: ToolBar (gameToolbar)
+#. +> trunk6 stable6
+#: knavalbattleui.rc:29
+#, kde-format
+msgid "Game Toolbar"
+msgstr "Barra Uirlisí Cluiche"
+
+#. +> trunk6 stable6
+#: main.cpp:30
+#, kde-format
+msgid "Naval Battle"
+msgstr "Comhrac Cabhlaigh"
+
+#. +> trunk6 stable6
+#: main.cpp:32
+#, kde-format
+msgid "The KDE ship sinking game"
+msgstr "Comhrac Cabhlaigh de chuid KDE"
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid ""
+"(c) 2000-2005  Nikolas Zimmermann, Daniel Molkentin\n"
+"(c) 2007 Paolo Capriotti"
+msgstr ""
+"© 2000-2005  Nikolas Zimmermann, Daniel Molkentin\n"
+"© 2007 Paolo Capriotti"
+
+#. +> trunk6 stable6
+#: main.cpp:38
+#, kde-format
+msgid "Paolo Capriotti"
+msgstr "Paolo Capriotti"
+
+#. +> trunk6 stable6
+#: main.cpp:38
+#, kde-format
+msgid "Current maintainer"
+msgstr "Cothaitheoir reatha"
+
+#. +> trunk6 stable6
+#: main.cpp:39
+#, kde-format
+msgid "Nikolas Zimmermann"
+msgstr "Nikolas Zimmermann"
+
+#. +> trunk6 stable6
+#: main.cpp:39
+#, kde-format
+msgid "Project Founder, GUI Handling, Client/Server"
+msgstr "Fondúir an Tionscadail, Comhéadan Grafach, Cliant/Freastalaí"
+
+#. +> trunk6 stable6
+#: main.cpp:40
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#. +> trunk6 stable6
+#: main.cpp:40
+#, kde-format
+msgid "Dialog Stuff, Client/Server"
+msgstr "Dialóga, Cliant/Freastalaí"
+
+#. +> trunk6 stable6
+#: main.cpp:41
+#, kde-format
+msgid "Kevin Krammer"
+msgstr "Kevin Krammer"
+
+#. +> trunk6 stable6
+#: main.cpp:41
+#, kde-format
+msgid "Computer Player"
+msgstr "Ríomhaire"
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "Johann Ollivier Lapeyre"
+msgstr "Johann Ollivier Lapeyre"
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "Game artwork"
+msgstr "Maisiúchán an chluiche"
+
+#. +> trunk6 stable6
+#: main.cpp:44
+#, kde-format
+msgid "Eugene Trounev"
+msgstr "Eugene Trounev"
+
+#. +> trunk6 stable6
+#: main.cpp:44
+#, kde-format
+msgid "Background"
+msgstr "Cúlra"
+
+#. +> trunk6 stable6
+#: main.cpp:45
+#, kde-format
+msgid "Robert Wadley"
+msgstr "Robert Wadley"
+
+#. +> trunk6 stable6
+#: main.cpp:45
+#, kde-format
+msgid "Artwork for some of the ships"
+msgstr "Maisiúchán roinnt long"
+
+#. +> trunk6 stable6
+#: main.cpp:46
+#, kde-format
+msgid "Riccardo Iaconelli"
+msgstr "Riccardo Iaconelli"
+
+#. +> trunk6 stable6
+#: main.cpp:46
+#, kde-format
+msgid "Welcome screen"
+msgstr "Scáileán fáilte"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgid "Benjamin Adler"
+msgstr "Benjamin Adler"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgid "Icon"
+msgstr "Deilbhín"
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgid "Nils Trzebin"
+msgstr "Nils Trzebin"
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgid "Sounds"
+msgstr "Fuaimeanna"
+
+#. +> trunk6 stable6
+#: main.cpp:49
+#, kde-format
+msgid "Elmar Hoefner"
+msgstr "Elmar Hoefner"
+
+#. +> trunk6 stable6
+#: main.cpp:49
+#, kde-format
+msgid "GFX"
+msgstr "GFX"
+
+#. +> trunk6 stable6
+#: main.cpp:50
+#, kde-format
+msgid "Lukas Tinkl"
+msgstr "Lukas Tinkl"
+
+#. +> trunk6 stable6
+#: main.cpp:50
+#, kde-format
+msgid "Non-Latin1 Support"
+msgstr "Tacaíocht Carachtar Seachas ISO-8859-1"
+
+#. +> trunk6 stable6
+#: main.cpp:51
+#, kde-format
+msgid "Malte Starostik"
+msgstr "Malte Starostik"
+
+#. +> trunk6 stable6
+#: main.cpp:51
+#, kde-format
+msgid "Various improvements"
+msgstr "Feabhsúcháin éagsúla"
+
+#. +> trunk6 stable6
+#: main.cpp:52
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#. +> trunk6 stable6
+#: main.cpp:52 main.cpp:53
+#, kde-format
+msgid "Various improvements and bugfixes"
+msgstr "Feabhsúcháin éagsúla agus ceartúcháin"
+
+#. +> trunk6 stable6
+#: main.cpp:53
+#, kde-format
+msgid "John Tapsell"
+msgstr "John Tapsell"
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Bugfixes and refactoring"
+msgstr "Ceartúcháin agus athfhachtóiriú"
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, kde-format
+msgid "Jakub Stachowski"
+msgstr "Jakub Stachowski"
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, kde-format
+msgid "DNS-SD discovery"
+msgstr "Aimsiú DNS-SD"
+
+#. +> trunk6 stable6
+#: main.cpp:56
+#, kde-format
+msgid "Roney Gomes"
+msgstr "Roney Gomes"
+
+#. +> trunk6 stable6
+#: main.cpp:56
+#, kde-format
+msgid "Porting to KGameRenderer and QGraphicsView"
+msgstr "Leagan a úsáideann KGameRenderer agus QGraphicsView"
+
+#. +> trunk6 stable6
+#: main.cpp:63
+#, kde-format
+msgid "[URL]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:63
+#, kde-format
+msgid "URL of a Naval Battle game server to connect to after startup"
+msgstr "URL de fhreastalaí a gceanglófar leis ag am tosaithe"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:59
+#, fuzzy, kde-format
+#| msgid "&Single Player"
+msgctxt "@action"
+msgid "&Single Player"
+msgstr "Imreoir &Aonair"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:63
+#, fuzzy, kde-format
+#| msgid "&Host Game..."
+msgctxt "@action"
+msgid "&Host Game…"
+msgstr "Ó&stáil Cluiche..."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:67
+#, fuzzy, kde-format
+#| msgid "&Connect to Game..."
+msgctxt "@action"
+msgid "&Connect to Game…"
+msgstr "&Ceangail le Cluiche..."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:72
+#, fuzzy, kde-format
+#| msgid "Change Nickname"
+msgctxt "@action"
+msgid "Change &Nickname…"
+msgstr "Athraigh do Leasainm"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:76
+#, fuzzy, kde-format
+#| msgid "&Play Sounds"
+msgctxt "@option:check"
+msgid "Play Sounds"
+msgstr "&Seinn Fuaimeanna"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:81
+#, kde-format
+msgctxt "@option:check"
+msgid "&Adjacent Ships"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:86
+#, kde-format
+msgctxt "@option:check"
+msgid "&Multiple Ships"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:91
+#, fuzzy, kde-format
+#| msgid "Show End-of-Game Message"
+msgctxt "@option:check"
+msgid "Show End-of-Game Message"
+msgstr "Taispeáin Teachtaireacht Deireadh-an-Chluiche"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:96
+#, fuzzy, kde-format
+#| msgid "Show &Left Grid"
+msgctxt "@option:check"
+msgid "Show &Left Grid"
+msgstr "Taispeáin Greille Ar &Chlé"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:100
+#, fuzzy, kde-format
+#| msgid "Show &Right Grid"
+msgctxt "@option:check"
+msgid "Show &Right Grid"
+msgstr "Taispeáin Greille Ar &Dheis"
+
+#. +> trunk6 stable6
+#: networkdialog.cpp:61
+#, kde-format
+msgid "&Nickname:"
+msgstr "Leasai&nm:"
+
+#. +> trunk6 stable6
+#: networkdialog.cpp:73
+#, kde-format
+msgid "&Join game:"
+msgstr "&Téigh i gcluiche:"
+
+#. +> trunk6 stable6
+#: networkdialog.cpp:88
+#, kde-format
+msgid "&Hostname:"
+msgstr "Óst&ainm:"
+
+# OK as is
+#. +> trunk6 stable6
+#: networkdialog.cpp:101 networkdialog.cpp:131
+#, kde-format
+msgid "&Port:"
+msgstr "&Port:"
+
+#. +> trunk6 stable6
+#: networkdialog.cpp:116
+#, fuzzy, kde-format
+#| msgid "&Enter server address manually"
+msgctxt "@action:button"
+msgid "&Enter Server Address Manually"
+msgstr "&Iontráil seoladh an fhreastalaí de láimh"
+
+#. +> trunk6 stable6
+#: networkdialog.cpp:148
+#, fuzzy, kde-format
+#| msgid "Network Parameters"
+msgctxt "@title:window"
+msgid "Network Parameters"
+msgstr "Paraiméadair Líonra"
+
+#. +> trunk6 stable6
+#: networkdialog.cpp:210
+#, fuzzy, kde-format
+#| msgid "Connecting to remote host..."
+msgid "Connecting to remote host…"
+msgstr "Ag dul i dteagmháil leis an gcianóstach..."
+
+#. +> trunk6 stable6
+#: networkdialog.cpp:217
+#, fuzzy, kde-format
+#| msgid "Waiting for an incoming connection..."
+msgid "Waiting for an incoming connection…"
+msgstr "Ag feitheamh le ceangal isteach..."
+
+#. +> trunk6 stable6
+#: networkdialog.cpp:236
+#, kde-format
+msgid "Could not connect to host"
+msgstr "Níorbh fhéidir ceangal leis an fhreastalaí"
+
+#. +> trunk6 stable6
+#: networkentity.cpp:189
+#, kde-format
+msgid "You have "
+msgstr ""
+
+#. +> trunk6 stable6
+#: networkentity.cpp:195
+#, kde-format
+msgid ", "
+msgstr ""
+
+#. +> trunk6 stable6
+#: networkentity.cpp:288
+#, fuzzy, kde-format
+#| msgid "You cannot place the ship here."
+msgid "You can place ships adjacent to each other"
+msgstr "Ní féidir leat long a shuí anseo."
+
+#. +> trunk6 stable6
+#: networkentity.cpp:291
+#, kde-format
+msgid "You must leave a space between ships"
+msgstr ""
+
+#. +> trunk6 stable6
+#: playerentity.cpp:199
+#, kde-format
+msgid "Your opponent is now known as %1"
+msgstr "Tugtar %1 ar do chéile comhraic anois"
+
+#. +> trunk6 stable6
+#: playerentity.cpp:204
+#, kde-format
+msgid "Your opponent disconnected from the game"
+msgstr "Dhícheangail do chéile comhraic ón chluiche"
+
+#. +> trunk6 stable6
+#: playfield.cpp:149 playfield.cpp:169
+#, kde-format
+msgid "Shots"
+msgstr "Urchair"
+
+#. +> trunk6 stable6
+#: playfield.cpp:150 playfield.cpp:170
+#, kde-format
+msgid "Hits"
+msgstr "Amais"
+
+#. +> trunk6 stable6
+#: playfield.cpp:151 playfield.cpp:171
+#, kde-format
+msgid "Misses"
+msgstr "Urchair Iomraill"
+
+#. +> trunk6 stable6
+#: playfield.cpp:191
+#, kde-format
+msgid "You win!"
+msgstr "Bhuaigh tú!"
+
+#. +> trunk6 stable6
+#: playfield.cpp:193
+#, kde-format
+msgid "You win. Excellent!"
+msgstr "Bhuaigh tú.  Go hiontach!"
+
+#. +> trunk6 stable6
+#: playfield.cpp:197
+#, kde-format
+msgid "You lose."
+msgstr "Chaill tú."
+
+#. +> trunk6 stable6
+#: playfield.cpp:199
+#, fuzzy, kde-format
+#| msgid "You lose. Try harder next time!"
+msgid "You lose. Better luck next time!"
+msgstr "Chaill tú. Déan do dhícheall an chéad uair eile!"
+
+#. +> trunk6 stable6
+#: playfield.cpp:209
+#, fuzzy, kde-format
+#| msgid "Change Nickname"
+msgctxt "@title:window"
+msgid "Change Nickname"
+msgstr "Athraigh do Leasainm"
+
+#. +> trunk6 stable6
+#: playfield.cpp:209
+#, fuzzy, kde-format
+#| msgid "Enter new nickname:"
+msgctxt "@label:textbox"
+msgid "Enter new nickname:"
+msgstr "Iontráil leasainm nua:"
+
+#. +> trunk6 stable6
+#: playfield.cpp:238
+#, fuzzy, kde-format
+#| msgid "Restart game"
+msgctxt "@title:window"
+msgid "Restart Game"
+msgstr "Atosaigh an cluiche"
+
+#. +> trunk6 stable6
+#: playfield.cpp:239
+#, kde-format
+msgid "Your opponent has requested to restart the game. Do you accept?"
+msgstr "D'iarr do chéile comhraic an cluiche a atosú. An nglacann tú leis?"
+
+#. +> trunk6 stable6
+#: playfield.cpp:240
+#, kde-format
+msgctxt "@action:button"
+msgid "Accept"
+msgstr ""
+
+#. +> trunk6 stable6
+#: playfield.cpp:241
+#, kde-format
+msgctxt "@action:button"
+msgid "Reject"
+msgstr ""
+
+#. +> trunk6 stable6
+#: playfield.cpp:250
+#, fuzzy, kde-format
+#| msgid "Your opponent is using a pre-KDE4 version of Naval Battle. Note that, according to the rules enforced by old clients, ships cannot be placed adjacent to one another."
+msgid "Your opponent is using a pre-KDE4 version of Naval Battle. Note that, according to the rules enforced by old clients, ships cannot be placed adjacent to one another and only one ship of each size is allowed."
+msgstr "Tá do chéile comhraic ag baint úsáid as leagan KBattleship níos sine ná KDE4.  De réir na rialacha a chuir na seanchliaint i bhfeidhm, ní cheadaítear longa a shuí go díreach in aice lena chéile."
+
+#. +> trunk6 stable6
+#: playfield.cpp:263
+#, kde-format
+msgid "Enemy has shot. Shoot now!"
+msgstr "Chaith an namhaid urchar. Caith anois!"
+
+#. +> trunk6 stable6
+#: playfield.cpp:267
+#, fuzzy, kde-format
+#| msgid "Waiting for enemy to shoot..."
+msgid "Waiting for enemy to shoot…"
+msgstr "Ag feitheamh le hurchar ón namhaid..."
+
+#. +> trunk6 stable6
+#: playfield.cpp:276
+#, kde-format
+msgid "Ships placed. Now shoot on the enemy field!"
+msgstr "Cuireadh na longa. Caith urchar anois!"
+
+#. +> trunk6 stable6
+#: playfield.cpp:279
+#, fuzzy, kde-format
+#| msgid "Waiting for other player to start the game..."
+msgid "Waiting for other player to start the game…"
+msgstr "Ag feitheamh leis an imreoir eile an cluiche a thosú..."
+
+#. +> trunk6 stable6
+#: playfield.cpp:283
+#, fuzzy, kde-format
+#| msgid "Waiting for other player to place his ships..."
+msgid "Waiting for other player to place his ships…"
+msgstr "Ag feitheamh leis an imreoir eile a chuid long a shuí..."
+
+#. +> trunk6 stable6
+#: playfield.cpp:297
+#, fuzzy, kde-format
+#| msgid "Place your ships. Use the right mouse button to rotate them."
+msgid "Place your %1 ships. Use the right mouse button to rotate them."
+msgstr "Cuir do chuid long síos.  Úsáid an cnaipe luiche ar dheis chun na longa a rothlú."
+
+#. +> trunk6 stable6
+#: playfield.cpp:303
+#, kde-format
+msgid "You can't place your remaining ships."
+msgstr ""
+
+#. +> trunk6 stable6
+#: playfield.cpp:304
+#, fuzzy, kde-format
+#| msgid "Restart game"
+msgctxt "@action:button"
+msgid "Restart"
+msgstr "Atosaigh an cluiche"
+
+#. +> trunk6 stable6
+#: playfield.cpp:305
+#, kde-format
+msgctxt "@action:button"
+msgid "Abort"
+msgstr ""
+
+#. +> trunk6 stable6
+#: playfield.cpp:307
+#, kde-format
+msgid "You can't place your remaining ships. Please restart placing ships or abort game"
+msgstr ""
+
+#. +> trunk6 stable6
+#: playfield.cpp:308
+#, kde-format
+msgctxt "@title:window"
+msgid "Restart Placing Ships"
+msgstr ""
+
+#. +> trunk6 stable6
+#: simplemenu.cpp:40
+#, fuzzy, kde-format
+#| msgid "Single Player"
+msgctxt "@action:button"
+msgid "Single Player"
+msgstr "Imreoir Aonair"
+
+#. +> trunk6 stable6
+#: simplemenu.cpp:41
+#, fuzzy, kde-format
+#| msgid "Host Network Game"
+msgctxt "@action:button"
+msgid "Host Network Game"
+msgstr "Óstáil Cluiche Líonra"
+
+#. +> trunk6 stable6
+#: simplemenu.cpp:42
+#, fuzzy, kde-format
+#| msgid "Connect to Network Game"
+msgctxt "@action:button"
+msgid "Connect to Network Game"
+msgstr "Ceangail le Cluiche Líonra"
+
+#. +> trunk6 stable6
+#: simplemenu.cpp:132 simplemenu.cpp:149
+#, kde-format
+msgid "Remote player"
+msgstr "Imreoir cianda"

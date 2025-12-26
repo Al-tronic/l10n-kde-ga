@@ -1,0 +1,137 @@
+# Irish translation of desktop_kdepim
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdepim package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:15+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_advanced.json
+msgctxt "Name"
+msgid "Advanced"
+msgstr "Ardsocruithe"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_advanced.json
+msgctxt "Description"
+msgid "Advanced Feed Reader Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_appearance.json
+msgctxt "Name"
+msgid "Appearance"
+msgstr "Cuma"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_appearance.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Appearance"
+msgctxt "Description"
+msgid "Configure the Feed Reader Appearance"
+msgstr "Cumraigh Cuma"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_archive.json
+msgctxt "Name"
+msgid "Archive"
+msgstr "Cartlann"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_archive.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Feed Archive"
+msgctxt "Description"
+msgid "Configure Feed Archive"
+msgstr "Cumraigh Cartlann na bhFothaí"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_browser.json
+msgctxt "Name"
+msgid "Browser"
+msgstr "Brabhsálaí"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_browser.json
+msgctxt "Description"
+msgid "Configure Internal Browser Component"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_general.json
+msgctxt "Name"
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_general.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Feeds"
+msgctxt "Description"
+msgid "Configure Feeds"
+msgstr "Cumraigh Fothaí"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_plugins.json
+msgctxt "Name"
+msgid "Plugins"
+msgstr "Breiseáin"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_plugins.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Feeds"
+msgctxt "Description"
+msgid "Configure Plugins"
+msgstr "Cumraigh Fothaí"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_security.json
+msgctxt "Name"
+msgid "Security"
+msgstr "Slándáil"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_security.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure Storage"
+msgctxt "Description"
+msgid "Configure Security"
+msgstr "Cumraigh Stóras"
+
+#. +> trunk6 stable6
+#: configuration/akregator_config_userfeedback.json
+msgctxt "Name"
+msgid "User Feedback"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kontactplugin/akregatorplugin.json
+msgctxt "Name"
+msgid "Feeds"
+msgstr "Fothaí"
+
+#. +> trunk6 stable6
+#: kontactplugin/akregatorplugin.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Akregator Plugin"
+msgctxt "Description"
+msgid "Akregator Plugin"
+msgstr "Breiseán Akregator"

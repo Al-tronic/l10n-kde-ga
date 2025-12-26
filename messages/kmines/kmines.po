@@ -1,0 +1,332 @@
+# Irish translation of kmines
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kmines package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegames/kmines.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-22 11:22+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: customgame.ui:16
+#, kde-format
+msgid "Width:"
+msgstr "Leithead:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: customgame.ui:26
+#, kde-format
+msgid "Height:"
+msgstr "Airde:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: customgame.ui:36
+#, kde-format
+msgid "Mines:"
+msgstr "Mianaigh:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseQuestionMarks)
+#. +> trunk6 stable6
+#: generalopts.ui:17
+#, kde-format
+msgid "Use '?' marks"
+msgstr "Úsáid marcanna '?'"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AllowKminesReset)
+#. +> trunk6 stable6
+#: generalopts.ui:24
+#, kde-format
+msgid "Allow KMines reset"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DisableScoreOnReset)
+#. +> trunk6 stable6
+#: generalopts.ui:37
+#, kde-format
+msgid "Disable score on reset"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ExploreWithLeftClickOnNumberCells)
+#. +> trunk6 stable6
+#: generalopts.ui:44
+#, kde-format
+msgid "Explore with left click on number cells"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: generalopts.ui:53
+#, kde-format
+msgid "Place flag when mouse button is:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PlaceFlagOn)
+#. +> trunk6 stable6
+#: generalopts.ui:61
+#, kde-format
+msgid "Released"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_PlaceFlagOn)
+#. +> trunk6 stable6
+#: generalopts.ui:66
+#, kde-format
+msgid "Pressed"
+msgstr ""
+
+#. i18n: ectx: label, entry (UseQuestionMarks), group (General)
+#. +> trunk6 stable6
+#: kmines.kcfg:9
+#, kde-format
+msgid "Whether the \"unsure\" marker may be used."
+msgstr "Cé acu is féidir an marc \"neamhchinnte\" a úsáid nó nach ea."
+
+#. i18n: ectx: label, entry (ExploreWithLeftClickOnNumberCells), group (General)
+#. +> trunk6 stable6
+#: kmines.kcfg:21
+#, kde-format
+msgid "Left click on a number cell will have the same effect as mid click."
+msgstr ""
+
+#. i18n: ectx: label, entry (CustomWidth), group (Options)
+#. +> trunk6 stable6
+#: kmines.kcfg:35
+#, kde-format
+msgid "The width of the playing field."
+msgstr "Leithead na páirce imeartha."
+
+#. i18n: ectx: label, entry (CustomHeight), group (Options)
+#. +> trunk6 stable6
+#: kmines.kcfg:41
+#, kde-format
+msgid "The height of the playing field."
+msgstr "Airde na páirce imeartha."
+
+#. i18n: ectx: label, entry (CustomMines), group (Options)
+#. +> trunk6 stable6
+#: kmines.kcfg:47
+#, kde-format
+msgid "The number of mines in the playing field."
+msgstr "Líon na mianach sa pháirc imeartha."
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: kminesui.rc:12
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Príomhbharra Uirlisí"
+
+#. +> trunk6 stable6
+#: main.cpp:45
+#, kde-format
+msgid "KMines"
+msgstr "KMines"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgid "KMines is a classic minesweeper game"
+msgstr "Cluiche clasaiceach bainte mianach é KMines"
+
+#. +> trunk6 stable6
+#: main.cpp:49
+#, kde-format
+msgid ""
+"(c) 1996-2005, Nicolas Hadacek\n"
+"(c) 2001, Mikhail Kourinny\n"
+"(c) 2006-2007, Mauricio Piacentini\n"
+"(c) 2007, Dmitry Suzdalev"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:52
+#, kde-format
+msgid "Nicolas Hadacek"
+msgstr "Nicolas Hadacek"
+
+#. +> trunk6 stable6
+#: main.cpp:53
+#, kde-format
+msgid "Original author"
+msgstr "An chéad údar"
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Mauricio Piacentini"
+msgstr "Mauricio Piacentini"
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, kde-format
+msgid "Code refactoring and SVG support. Current maintainer"
+msgstr "Athchóiriú an chóid agus tacaíocht SVG. Cothaitheoir reatha"
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, kde-format
+msgid "Dmitry Suzdalev"
+msgstr "Dmitry Suzdalev"
+
+#. +> trunk6 stable6
+#: main.cpp:58
+#, kde-format
+msgid "Rewrite to use QGraphicsView framework. Current maintainer"
+msgstr "Athscríobh le húsáid QGraphicsView. Cothaitheoir reatha"
+
+#. +> trunk6 stable6
+#: main.cpp:60
+#, kde-format
+msgid "Andreas Zehender"
+msgstr "Andreas Zehender"
+
+#. +> trunk6 stable6
+#: main.cpp:60
+#, kde-format
+msgid "Smiley pixmaps"
+msgstr "Mapaí picteilíní de straoiseoga"
+
+#. +> trunk6 stable6
+#: main.cpp:61
+#, kde-format
+msgid "Mikhail Kourinny"
+msgstr "Mikhail Kourinny"
+
+#. +> trunk6 stable6
+#: main.cpp:61
+#, kde-format
+msgid "Solver/Adviser"
+msgstr "Réiteoir/Comhairleoir"
+
+#. +> trunk6 stable6
+#: main.cpp:62
+#, kde-format
+msgid "Thomas Capricelli"
+msgstr "Thomas Capricelli"
+
+#. +> trunk6 stable6
+#: main.cpp:62
+#, kde-format
+msgid "Magic reveal mode"
+msgstr "Mód draíochtach foilsithe"
+
+#. +> trunk6 stable6
+#: main.cpp:63
+#, kde-format
+msgid "Brian Croom"
+msgstr "Brian Croom"
+
+#. +> trunk6 stable6
+#: main.cpp:63
+#, kde-format
+msgid "Port to use KGameRenderer"
+msgstr "Leagan a úsáideann KGameRenderer"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:101
+#, kde-format
+msgid "Mines: 0/0"
+msgstr "Mianaigh: 0/0"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:102 mainwindow.cpp:173
+#, kde-format
+msgid "Time: 00:00"
+msgstr "Am: 00:00"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:125
+#, kde-format
+msgid "Custom"
+msgstr "Saincheaptha"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:135
+#, kde-format
+msgid "Mines: %1/%2"
+msgstr "Mianaigh: %1/%2"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:203
+#, kde-format
+msgid "Reset the Game?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:205
+#, kde-format
+msgctxt "@action;button"
+msgid "Reset"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:217
+#, kde-format
+msgid "Time: %1"
+msgstr "Am: %1"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:243
+#, fuzzy, kde-format
+#| msgid "General"
+msgctxt "@title:tab"
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:244
+#, fuzzy, kde-format
+#| msgid "Theme"
+msgctxt "@title:tab"
+msgid "Theme"
+msgstr "Téama"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:245
+#, fuzzy, kde-format
+#| msgid "Custom Game"
+msgctxt "@title:tab"
+msgid "Custom Game"
+msgstr "Cluiche Saincheaptha"
+
+#. +> trunk6 stable6
+#: scene.cpp:117
+#, kde-format
+msgid "Game is paused."
+msgstr "Moillithe."
+
+#. +> trunk6 stable6
+#: scene.cpp:125
+#, kde-format
+msgid "Congratulations! You have won!"
+msgstr "Comhghairdeas! Bhí an bua agat!"
+
+#. +> trunk6 stable6
+#: scene.cpp:127
+#, kde-format
+msgid "You have lost."
+msgstr "Chaill tú."

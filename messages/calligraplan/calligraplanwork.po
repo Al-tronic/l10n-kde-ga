@@ -1,0 +1,805 @@
+# Irish translation of kplatowork
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kplatowork package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: koffice/kplatowork.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-25 10:23+0200\n"
+"PO-Revision-Date: 2007-11-05 08:28-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6
+#: aboutdata.h:20 aboutdata.h:29
+#, kde-format
+msgid "PlanWork - Work Package handler for the Plan Project Planning Tool"
+msgstr ""
+
+#. +> trunk6
+#: aboutdata.h:27
+#, fuzzy, kde-format
+msgctxt "application name"
+msgid "Plan WorkPackage Handler"
+msgstr "Pacáiste Oibre: %1"
+
+#. +> trunk6
+#: aboutdata.h:31
+#, fuzzy, kde-format
+msgid "Copyright 1998-%1, The Plan Team"
+msgstr "© 2007-2010, Foireann KPlato"
+
+#. +> trunk6
+#: aboutdata.h:35
+#, kde-format
+msgid "Dag Andersen"
+msgstr "Dag Andersen"
+
+#. i18n translator strings
+#. +> trunk6
+#: aboutdata.h:37
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6
+#: aboutdata.h:38
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. i18n: ectx: Menu (edit)
+#. +> trunk6
+#: calligraplanwork.rc:4 calligraplanworkui.rc:4
+#, kde-format
+msgid "&Edit"
+msgstr "&Eagar"
+
+#. i18n: ectx: ToolBar (view_selection)
+#. +> trunk6
+#: calligraplanwork.rc:8
+#, fuzzy, kde-format
+msgid "View"
+msgstr "&Amharc"
+
+#. i18n: ectx: Menu (view)
+#. +> trunk6
+#: calligraplanwork_readonly.rc:4
+#, kde-format
+msgid "&View"
+msgstr "&Amharc"
+
+#. +> trunk6
+#: commandlineparser.cpp:33
+#, kde-format
+msgid "File to open"
+msgstr "Comhad le hoscailt"
+
+#. +> trunk6
+#: commandlineparser.cpp:85
+#, kde-format
+msgid "Failed to open document"
+msgstr "Níorbh fhéidir an cháipéis a oscailt"
+
+#. +> trunk6
+#: mainwindow.cpp:92
+#, kde-format
+msgid "The file %1 does not exist."
+msgstr "Níl comhad %1 ann."
+
+#. +> trunk6
+#: part.cpp:139 part.cpp:170
+#, kde-format
+msgid ""
+"Document is already open:<br>"
+"%1"
+msgstr ""
+"Tá an cháipéis oscailte cheana:<br>"
+"%1"
+
+#. +> trunk6
+#: part.cpp:151 part.cpp:178 workpackage.cpp:608
+#, kde-format
+msgid ""
+"Could not extract document from storage:<br>"
+"%1"
+msgstr ""
+"Níorbh fhéidir an comhad a bhaint amach:<br>"
+"%1"
+
+#. +> trunk6
+#: part.cpp:159 part.cpp:186 workpackage.cpp:614
+#, kde-format
+msgid ""
+"Invalid URL:<br>"
+"%1"
+msgstr ""
+"URL neamhbhailí:<br>"
+"%1"
+
+#. +> trunk6
+#: part.cpp:198
+#, kde-format
+msgid ""
+"Document is already open:<br>"
+" %1"
+msgstr ""
+"Tá an cháipéis oscailte cheana:<br>"
+" %1"
+
+#. +> trunk6
+#: part.cpp:202
+#, kde-format
+msgid ""
+"File does not exist:<br>"
+"%1"
+msgstr ""
+"Níl an comhad ann:<br>"
+"%1"
+
+#. +> trunk6
+#: part.cpp:228
+#, kde-format
+msgid "Edit with:"
+msgstr "Cuir in eagar le:"
+
+#. +> trunk6
+#: part.cpp:380
+#, kde-format
+msgid ""
+"<p>The work package already exists in the projects store.</p>"
+"<p>Project: %1<br>"
+"Task: %2</p>"
+"<p>Do you want to update the existing package with data from the new?</p>"
+msgstr ""
+
+#. +> trunk6
+#: part.cpp:384
+#, fuzzy, kde-format
+#| msgid "Work Package: %1"
+msgctxt "@title:window"
+msgid "Update Work Package"
+msgstr "Pacáiste Oibre: %1"
+
+#. +> trunk6
+#: part.cpp:414
+#, fuzzy, kde-format
+msgid "Remove failed. Cannot find work package"
+msgstr "Bain pacáiste oibre"
+
+#. +> trunk6
+#: part.cpp:418
+#, fuzzy
+msgctxt "(qtundo-format) @action"
+msgid "Remove work package"
+msgstr "Bain pacáiste oibre"
+
+#. +> trunk6
+#: part.cpp:429
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove work package"
+msgid_plural "Remove work packages"
+msgstr[0] "Bain pacáiste oibre"
+msgstr[1] "Bain pacáistí oibre"
+msgstr[2] "Bain pacáistí oibre"
+msgstr[3] "Bain pacáistí oibre"
+msgstr[4] "Bain pacáistí oibre"
+
+#. +> trunk6
+#: part.cpp:470
+#, kde-format
+msgid ""
+"Failed to load file:<br>"
+"%1"
+msgstr ""
+"Níorbh fhéidir an comhad a luchtú:<br>"
+"%1"
+
+#. +> trunk6
+#: part.cpp:492
+#, fuzzy, kde-format
+#| msgid ""
+#| "Failed to load file:<br>"
+#| "%1"
+msgid ""
+"Not a valid work package file:<br>"
+"%1"
+msgstr ""
+"Níorbh fhéidir an comhad a luchtú:<br>"
+"%1"
+
+#. +> trunk6
+#: part.cpp:522
+#, kde-format
+msgid "Invalid document. The document does not contain 'maindoc.xml'."
+msgstr "Cáipéis neamhbhailí. Níl 'maindoc.xml' sa cháipéis."
+
+#. +> trunk6
+#: part.cpp:550
+#, kde-format
+msgid "Failed to open file: %1"
+msgstr "Níorbh fhéidir an comhad a oscailt: %1"
+
+#. +> trunk6
+#: part.cpp:564
+#, kde-format
+msgid ""
+"Parsing error in file '%1' at line %2, column %3<br>"
+"Error message: %4"
+msgstr ""
+
+#. +> trunk6
+#: part.cpp:583 part.cpp:634
+#, kde-format
+msgid "Invalid document. No mimetype specified."
+msgstr "Cáipéis neamhbhailí. Gan cineál MIME."
+
+#. +> trunk6
+#: part.cpp:591
+#, fuzzy, kde-format
+msgid "Invalid document. Expected mimetype application/x-vnd.kde.plan.work, got %1"
+msgstr "Cáipéis neamhbhailí. Bhíothas ag súil le cineál MIME application/x-vnd.kde.kplato.work, ach fuarthas %1"
+
+#. +> trunk6
+#: part.cpp:602 part.cpp:650
+#, kde-format
+msgid ""
+"This document is a newer version than supported by PlanWork (syntax version: %1)<br>"
+"Opening it in this version of PlanWork will lose some information."
+msgstr ""
+
+#. +> trunk6
+#: part.cpp:604 part.cpp:652
+#, kde-format
+msgid "Continue"
+msgstr "Lean ar aghaidh"
+
+#. +> trunk6
+#: part.cpp:604 part.cpp:652
+#, kde-format
+msgid "File-Format Mismatch"
+msgstr ""
+
+#. +> trunk6
+#: part.cpp:640
+#, fuzzy, kde-format
+msgid "Invalid document. Expected mimetype %2, got %1"
+msgstr "Cáipéis neamhbhailí. Bhíothas ag súil le cineál MIME application/x-vnd.kde.kplato.work, ach fuarthas %1"
+
+#. +> trunk6
+#: part.cpp:742
+#, fuzzy, kde-format
+msgid "Edit failed. Cannot find a work package."
+msgstr "Bain pacáiste oibre"
+
+#. +> trunk6
+#: taskcompletiondialog.cpp:32
+#, fuzzy, kde-format
+#| msgid "Progress"
+msgid "Task Progress"
+msgstr "Dul chun cinn"
+
+#. i18n: ectx: property (text), widget (QCheckBox, started)
+#. +> trunk6
+#: taskcompletionpanel.ui:33
+#, kde-format
+msgid "Started:"
+msgstr "Dáta Tosaigh:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, finished)
+#. +> trunk6
+#: taskcompletionpanel.ui:50
+#, kde-format
+msgid "Finished:"
+msgstr "Críochnaithe:"
+
+#. i18n: ectx: property (text), widget (QPushButton, addEntryBtn)
+#. +> trunk6
+#: taskcompletionpanel.ui:143
+#, kde-format
+msgid "Add Entry"
+msgstr "Cuir Iontráil Leis"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeEntryBtn)
+#. +> trunk6
+#: taskcompletionpanel.ui:150
+#, kde-format
+msgid "Remove Entry"
+msgstr "Bain Iontráil"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:289
+#, kde-format
+msgid ""
+"<p><strong>%1: %2</strong></p>"
+"<p>%3</p>"
+msgstr ""
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:411
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Type: %1<nl/>"
+"Url: %2"
+msgstr ""
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:433
+#, fuzzy, no-c-format
+msgctxt "(qtundo-format)"
+msgid "Modify completion"
+msgstr "Críoch"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:468
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set finished"
+msgstr "Críochnaithe"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:489
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify remaining effort"
+msgstr "Fós le déanamh"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:502
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify actual effort"
+msgstr "Fós le déanamh"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:600
+#, fuzzy, kde-kuit-format
+#| msgid "Name"
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:601
+#, fuzzy, kde-kuit-format
+#| msgid "Type"
+msgctxt "@title:column"
+msgid "Type"
+msgstr "Cineál"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:602
+#, fuzzy, kde-kuit-format
+#| msgid "Responsible"
+msgctxt "@title:column"
+msgid "Responsible"
+msgstr "Freagrach"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:603
+#, fuzzy, kde-kuit-format
+#| msgid "Description"
+msgctxt "@title:column"
+msgid "Description"
+msgstr "Cur Síos"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:606
+#, fuzzy, kde-kuit-format
+#| msgid "Planned Start"
+msgctxt "@title:column"
+msgid "Planned Start"
+msgstr "Tosú Pleanáilte"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:607
+#, fuzzy, kde-kuit-format
+#| msgid "Planned Finish"
+msgctxt "@title:column"
+msgid "Planned Finish"
+msgstr "Críoch Pleanáilte"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:608
+#, kde-kuit-format
+msgctxt "@title:column"
+msgid "Resource Assignments"
+msgstr ""
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:611
+#, fuzzy, kde-kuit-format
+#| msgid "Completion"
+msgctxt "@title:column"
+msgid "Completion"
+msgstr "Críoch"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:612
+#, fuzzy, kde-kuit-format
+msgctxt "@title:column"
+msgid "Actual Effort"
+msgstr "Fós le déanamh"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:613
+#, fuzzy, kde-kuit-format
+#| msgid "Remaining Effort"
+msgctxt "@title:column"
+msgid "Remaining Effort"
+msgstr "Fós le Déanamh"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:614
+#, fuzzy, kde-kuit-format
+#| msgid "Planned Start"
+msgctxt "@title:column"
+msgid "Planned Effort"
+msgstr "Tosú Pleanáilte"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:615
+#, fuzzy, kde-kuit-format
+msgctxt "@title:column"
+msgid "Actual Start"
+msgstr "Fós le déanamh"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:616
+#, fuzzy, kde-kuit-format
+#| msgid "Started"
+msgctxt "@title:column"
+msgid "Started"
+msgstr "Tosaithe"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:617
+#, kde-kuit-format
+msgctxt "@title:column"
+msgid "Actual Finish"
+msgstr ""
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:618
+#, fuzzy, kde-kuit-format
+#| msgid "Finished"
+msgctxt "@title:column"
+msgid "Finished"
+msgstr "Críochnaithe"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:619
+#, kde-kuit-format
+msgctxt "@title:column"
+msgid "Status"
+msgstr ""
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:620
+#, fuzzy, kde-kuit-format
+#| msgid "Note"
+msgctxt "@title:column"
+msgid "Note"
+msgstr "Nóta"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:622
+#, fuzzy, kde-kuit-format
+#| msgid "Project Name"
+msgctxt "@title:column"
+msgid "Project Name"
+msgstr "Ainm an Tionscadail"
+
+#. +> trunk6
+#: taskworkpackagemodel.cpp:623
+#, fuzzy, kde-kuit-format
+#| msgid "Project Manager"
+msgctxt "@title:column"
+msgid "Project Manager"
+msgstr "Bainisteoir an Tionscadail"
+
+#. +> trunk6
+#: taskworkpackageview.cpp:404 taskworkpackageview.cpp:935
+#, kde-format
+msgid "Configure View..."
+msgstr "Cumraigh Amharc..."
+
+#. +> trunk6
+#: taskworkpackageview.cpp:631
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Task: %1<nl/>"
+"Actual finish: %2<nl/>"
+"Planned finish: %3<nl/>"
+"Status: %4<nl/>"
+"Project: %5"
+msgstr ""
+
+#. +> trunk6
+#: taskworkpackageview.cpp:646
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Task: %1<nl/>"
+"Completion: %2 %<nl/>"
+"Actual start: %3<nl/>"
+"Planned: %4 - %5<nl/>"
+"Status: %6<nl/>"
+"Project: %7"
+msgstr ""
+
+#. +> trunk6
+#: taskworkpackageview.cpp:667
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Task: %1<nl/>"
+"Planned: %2 - %3<nl/>"
+"Status: %4<nl/>"
+"Project: %5"
+msgstr ""
+
+#. +> trunk6
+#: view.cpp:85
+#, kde-format
+msgid "Remove Packages"
+msgstr "Bain Pacáistí"
+
+#. +> trunk6
+#: view.cpp:89
+#, fuzzy, kde-format
+#| msgid "Remove Packages"
+msgid "Remove Package"
+msgstr "Bain Pacáistí"
+
+#. +> trunk6
+#: view.cpp:93
+#, kde-format
+msgid "List"
+msgstr "Liosta"
+
+#. +> trunk6
+#: view.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select task list"
+msgstr ""
+
+#. +> trunk6
+#: view.cpp:98
+#, kde-format
+msgid "Gantt"
+msgstr "Gantt"
+
+#. +> trunk6
+#: view.cpp:99
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select timeline"
+msgstr ""
+
+#. +> trunk6
+#: view.cpp:104
+#, fuzzy, kde-format
+msgid "Configure PlanWork..."
+msgstr "Cumraigh KPlatoWork..."
+
+#. +> trunk6
+#: view.cpp:109
+#, kde-format
+msgid "Edit..."
+msgstr "Eagar..."
+
+#. +> trunk6
+#: view.cpp:113
+#, kde-format
+msgctxt "@verb"
+msgid "View..."
+msgstr "Amharc..."
+
+#. +> trunk6
+#: view.cpp:117
+#, fuzzy, kde-format
+#| msgid "Remove Entry"
+msgid "Remove document"
+msgstr "Bain Iontráil"
+
+#. +> trunk6
+#: view.cpp:121
+#, fuzzy, kde-format
+#| msgid "Remove Packages"
+msgid "Send Package..."
+msgstr "Bain Pacáistí"
+
+#. +> trunk6
+#: view.cpp:125
+#, fuzzy, kde-format
+#| msgid "Progress"
+msgid "Edit Progress..."
+msgstr "Dul chun cinn"
+
+#. +> trunk6
+#: view.cpp:129
+#, fuzzy, kde-format
+#| msgid "Description"
+msgid "View Description..."
+msgstr "Cur Síos"
+
+#. +> trunk6
+#: view.cpp:316
+#, fuzzy, kde-format
+#| msgid "The file %1 does not exist."
+msgid "This file is not editable"
+msgstr "Níl comhad %1 ann."
+
+#. +> trunk6
+#: view.cpp:336
+#, fuzzy, kde-format
+msgid "No work package is selected"
+msgstr "Bain pacáiste oibre"
+
+#. +> trunk6
+#: view.cpp:342
+#, fuzzy, kde-format
+msgid "Cannot find work package"
+msgstr "Bain pacáiste oibre"
+
+#. +> trunk6
+#: view.cpp:359
+#, kde-format
+msgid "Could not open file. Sending is aborted."
+msgstr ""
+
+#. +> trunk6
+#: view.cpp:367
+#, kde-format
+msgid "Could not open temporary file. Sending is aborted."
+msgstr ""
+
+#. +> trunk6
+#: view.cpp:376
+#, kde-format
+msgid "Work Package: %1"
+msgstr "Pacáiste Oibre: %1"
+
+#. +> trunk6
+#: workpackage.cpp:103
+#, fuzzy, kde-format
+#| msgid ""
+#| "Document is already open:\n"
+#| " %1"
+msgid "Document is already open"
+msgstr ""
+"Tá an cháipéis oscailte cheana:\n"
+" %1"
+
+#. +> trunk6
+#: workpackage.cpp:169 workpackage.cpp:224
+#, fuzzy, kde-format
+#| msgid ""
+#| "Failed to load file:<br>"
+#| "%1"
+msgid "Failed to load project: %1"
+msgstr ""
+"Níorbh fhéidir an comhad a luchtú:<br>"
+"%1"
+
+#. +> trunk6
+#: workpackage.cpp:286
+#, kde-format
+msgid "Cannot save to empty filename"
+msgstr ""
+
+#. +> trunk6
+#: workpackage.cpp:294
+#, kde-format
+msgid "Could not create the file for saving"
+msgstr "Ní féidir an comhad a chruthú le haghaidh sábhála"
+
+#. +> trunk6
+#: workpackage.cpp:308
+#, kde-format
+msgid "Not able to write '%1'. Partition full?"
+msgstr ""
+
+#. +> trunk6
+#: workpackage.cpp:334
+#, fuzzy, kde-format
+#| msgid "Failed to open file: %1"
+msgid ""
+"Failed to open store:\n"
+" %1"
+msgstr "Níorbh fhéidir an comhad a oscailt: %1"
+
+#. +> trunk6
+#: workpackage.cpp:412
+#, fuzzy, kde-format
+#| msgid "Failed to open file: %1"
+msgid ""
+"Cannot save to projects store:\n"
+"%1"
+msgstr "Níorbh fhéidir an comhad a oscailt: %1"
+
+#. +> trunk6
+#: workpackage.cpp:455
+#, fuzzy
+#| msgid "Remove Entry"
+msgctxt "(qtundo-format)"
+msgid "Remove document"
+msgstr "Bain Iontráil"
+
+#. +> trunk6
+#: workpackage.cpp:464
+#, fuzzy, kde-format
+#| msgid "Failed to open file: %1"
+msgid ""
+"Failed read file:\n"
+" %1"
+msgstr "Níorbh fhéidir an comhad a oscailt: %1"
+
+#. +> trunk6
+#: workpackage.cpp:470
+#, fuzzy, kde-format
+#| msgid "Failed to open file: %1"
+msgid ""
+"Failed write file:\n"
+" %1"
+msgstr "Níorbh fhéidir an comhad a oscailt: %1"
+
+#. +> trunk6
+#: workpackage.cpp:514
+msgctxt "(qtundo-format)"
+msgid "Merge data"
+msgstr ""
+
+#. +> trunk6
+#: workpackage.cpp:638
+#, kde-format
+msgid ""
+"<p>The work package <b>'%2'</b> has an open document.</p>"
+"<p>Data may be lost if you continue.</p>"
+msgid_plural ""
+"<p>The work package <b>'%2'</b> has open documents.</p>"
+"<p>Data may be lost if you continue.</p>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6
+#: workpackage.cpp:661
+#, kde-format
+msgid ""
+"<p>The work package <b>'%1'</b> has been modified.</p>"
+"<p>Do you want to save it?</p>"
+msgstr ""
+
+#. +> trunk6
+#: workpackage.cpp:688
+#, kde-format
+msgid ""
+"<p>Work package <b>'%1'</b></p>"
+"<p>Could not open store:</p>"
+"<p>%2</p>"
+msgstr ""
+
+#. +> trunk6
+#: workpackage.cpp:706
+#, kde-format
+msgid ""
+"<p>Work package <b>'%1'</b></p>"
+"<p>Could not extract file:</p>"
+"<p>%2</p>"
+msgstr ""

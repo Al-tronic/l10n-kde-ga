@@ -1,0 +1,548 @@
+# translation of khelpcenter.po to Irish
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Séamus Ó Ciardhuáin <seoc@cnds.ucd.ie>, 2002
+# Kevin Scannell <kscanne@gmail.com>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: khelpcenter\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-28 14:35+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: application.cpp:30
+#, fuzzy, kde-format
+#| msgid "Document to be indexed"
+msgid "Documentation to open"
+msgstr "Cáipéis le hinnéacsú"
+
+#. +> trunk6 stable6
+#: application.cpp:103 application.cpp:105
+#, kde-format
+msgid "Help Center"
+msgstr "Lárionad Cabhrach"
+
+#. +> trunk6 stable6
+#: application.cpp:107
+#, fuzzy, kde-format
+#| msgid "(c) 1999-2011, The KHelpCenter developers"
+msgid "(c) 1999-2023, The KHelpCenter developers"
+msgstr "© 1999-2011, Forbróirí KHelpCenter"
+
+#. +> trunk6 stable6
+#: application.cpp:109
+#, kde-format
+msgid "Current maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: application.cpp:110
+#, kde-format
+msgid "Xapian-based search, lot of bugfixes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: application.cpp:111
+#, kde-format
+msgid "Former maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: application.cpp:113
+#, kde-format
+msgid "Original Author"
+msgstr "An Chéad Údar"
+
+#. +> trunk6 stable6
+#: application.cpp:114
+#, kde-format
+msgid "Info page support"
+msgstr "Tacaíocht leathanaigh eolais"
+
+#. +> trunk6 stable6
+#: docmetainfo.cpp:36
+#, kde-format
+msgid "Top-Level Documentation"
+msgstr "Doiciméadú Ginearálta"
+
+#. +> trunk6 stable6
+#: docmetainfo.cpp:79
+#, kde-format
+msgctxt "doctitle (language)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#. +> trunk6 stable6
+#: docmetainfo.cpp:112
+#, kde-format
+msgctxt "Describes documentation entries that are in English"
+msgid "English"
+msgstr "Béarla"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:36
+#, kde-format
+msgid "Font Configuration"
+msgstr "Cumraíocht na gClónna"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:62
+#, kde-format
+msgid "Sizes"
+msgstr "Clómhéideanna"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:66
+#, kde-format
+msgctxt "The smallest size a will have"
+msgid "M&inimum font size:"
+msgstr "C&lómhéid is lú:"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:73
+#, kde-format
+msgctxt "The normal size a font will have"
+msgid "M&edium font size:"
+msgstr "Clómhéid m&easartha:"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:83
+#, kde-format
+msgid "Fonts"
+msgstr "Clónna"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:87
+#, kde-format
+msgid "S&tandard font:"
+msgstr "Cló &caighdeánach:"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:93
+#, kde-format
+msgid "F&ixed font:"
+msgstr "Cló &aonleithid:"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:99
+#, kde-format
+msgid "S&erif font:"
+msgstr "Cló S&erif:"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:105
+#, kde-format
+msgid "S&ans serif font:"
+msgstr "Cló s&ans serif:"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:111
+#, kde-format
+msgid "&Italic font:"
+msgstr "Cló &Iodálach:"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:117
+#, kde-format
+msgid "&Fantasy font:"
+msgstr "Cló &ornáideach:"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:126
+#, kde-format
+msgid "Encoding"
+msgstr "Ionchódú"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:131
+#, kde-format
+msgid "&Default encoding:"
+msgstr "&Ionchódú réamhshocraithe:"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:136 fontdialog.cpp:198
+#, kde-format
+msgid "Use Language Encoding"
+msgstr "Úsáid Ionchódú Teanga"
+
+#. +> trunk6 stable6
+#: fontdialog.cpp:140
+#, kde-format
+msgid "&Font size adjustment:"
+msgstr "&Coigeartú na clómhéide:"
+
+#. +> trunk6 stable6
+#: glossary.cpp:74
+#, kde-format
+msgid "By Topic"
+msgstr "De Réir Ábhair"
+
+#. +> trunk6 stable6
+#: glossary.cpp:78 infotree.cpp:76
+#, kde-format
+msgid "Alphabetically"
+msgstr "In Ord Aibítre"
+
+#. +> trunk6 stable6
+#: glossary.cpp:130
+#, kde-format
+msgid "Rebuilding glossary cache..."
+msgstr "Taisce na gluaise á hatógáil..."
+
+#. +> trunk6 stable6
+#: glossary.cpp:178
+#, kde-format
+msgid "Rebuilding cache... done."
+msgstr "Taisce á hatógáil... críochnaithe."
+
+#. +> trunk6 stable6
+#: grantleeformatter.cpp:97
+#, fuzzy, kde-format
+#| msgid "KDE Glossary"
+msgctxt "%1 is a glossary term"
+msgid "KDE Glossary: %1"
+msgstr "Gluais KDE"
+
+#. +> trunk6 stable6
+#: grantleeformatter.cpp:98
+#, kde-format
+msgid "KDE Glossary"
+msgstr "Gluais KDE"
+
+#. +> trunk6 stable6
+#: grantleeformatter.cpp:102
+#, fuzzy, kde-format
+#| msgid "See also: "
+msgid "See also: %1"
+msgstr "Féach freisin: "
+
+#. +> trunk6 stable6
+#: grantleeformatter.cpp:122
+#, kde-format
+msgid "Search Results"
+msgstr "Torthaí an Chuardaigh"
+
+#. +> trunk6 stable6
+#: grantleeformatter.cpp:123 searchengine.cpp:266
+#, kde-format
+msgid "Search Results for '%1':"
+msgstr "Torthaí Cuardaigh le haghaidh '%1':"
+
+#. +> trunk6 stable6
+#: infotree.cpp:79
+#, kde-format
+msgid "By Category"
+msgstr "De réir catagóir"
+
+#. i18n: ectx: label, entry, group (Search)
+#. +> trunk6 stable6
+#: khelpcenter.kcfg:31
+#, kde-format
+msgid "Path to index directory."
+msgstr "Comhadlann an innéacs."
+
+#. i18n: ectx: whatsthis, entry, group (Search)
+#. +> trunk6 stable6
+#: khelpcenter.kcfg:32
+#, kde-format
+msgid "Path to directory containing search indices."
+msgstr "Conair go dtí an chomhadlann ina bhfuil na hinnéacsanna cuardaigh."
+
+#. i18n: ectx: label, entry, group (Layout)
+#. +> trunk6 stable6
+#: khelpcenter.kcfg:46
+#, kde-format
+msgid "Currently visible navigator tab"
+msgstr "Cluaisín nascleantóra atá infheicthe faoi láthair"
+
+#. i18n: ectx: Menu (edit)
+#. +> trunk6 stable6
+#: khelpcenterui.rc:5
+#, kde-format
+msgid "&Edit"
+msgstr "&Eagar"
+
+#. i18n: ectx: Menu (view)
+#. +> trunk6 stable6
+#: khelpcenterui.rc:13
+#, kde-format
+msgid "&View"
+msgstr "&Amharc"
+
+#. i18n: ectx: Menu (go)
+#. +> trunk6 stable6
+#: khelpcenterui.rc:19
+#, kde-format
+msgid "&Go"
+msgstr "&Téigh"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: khelpcenterui.rc:36
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Príomhbharra Uirlisí"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:63
+#, kde-format
+msgid "Search Error Log"
+msgstr "Logchomhad Earráidí Cuardaigh"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:120
+#, kde-format
+msgid "Preparing Index"
+msgstr "Innéacs á Ullmhú"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:147
+#, kde-format
+msgid "Ready"
+msgstr "Réidh"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:202
+#, kde-format
+msgid "Table of &Contents"
+msgstr "&Clár Ábhair"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:203
+#, kde-format
+msgid "Table of contents"
+msgstr "Clár ábhair"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:204
+#, kde-format
+msgid "Go back to the table of contents"
+msgstr "Téigh ar ais go dtí an clár ábhair"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:214
+#, kde-format
+msgid "&Last Search Result"
+msgstr "Toradh Cuardaigh Is &Déanaí"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:242
+#, kde-format
+msgctxt "@title:menu"
+msgid "&Bookmarks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: navigator.cpp:64
+#, fuzzy, kde-format
+#| msgid "&Search"
+msgid "Search..."
+msgstr "&Cuardaigh"
+
+#. +> trunk6 stable6
+#: navigator.cpp:119
+#, kde-format
+msgid "&Contents"
+msgstr "&Clár Ábhair"
+
+#. +> trunk6 stable6
+#: navigator.cpp:128
+#, kde-format
+msgid "Search Options"
+msgstr "Roghanna Cuardaigh"
+
+#. +> trunk6 stable6
+#: navigator.cpp:135
+#, kde-format
+msgid "G&lossary"
+msgstr "G&luais"
+
+#. +> trunk6 stable6
+#: navigator.cpp:455
+#, kde-format
+msgid "Start Page"
+msgstr "Leathanach Tosaigh"
+
+#. +> trunk6 stable6
+#: navigator.cpp:456
+#, kde-format
+msgid "KDE Help Center"
+msgstr "Lárionad Cabhrach KDE"
+
+#. +> trunk6 stable6
+#: navigator.cpp:540
+#, kde-format
+msgid "Unable to run search program."
+msgstr "Ní féidir clár cuardaigh a rith."
+
+#. +> trunk6 stable6
+#: navigator.cpp:632
+#, fuzzy, kde-format
+#| msgid "Build Search Index..."
+msgid "Updating search index..."
+msgstr "Tóg Innéacs Cuardaigh..."
+
+#. +> trunk6 stable6
+#: navigator.cpp:643
+#, fuzzy, kde-format
+#| msgid "Rebuilding cache... done."
+msgid "Updating search index... done."
+msgstr "Taisce á hatógáil... críochnaithe."
+
+#. +> trunk6 stable6
+#: printdoc.cpp:60
+#, kde-format
+msgid "Could not generate print preview."
+msgstr ""
+
+#. +> trunk6 stable6
+#: printdoc.cpp:96
+#, kde-format
+msgctxt "@title:window"
+msgid "Print Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: searchengine.cpp:62
+#, kde-format
+msgid "Error: No document type specified."
+msgstr "Earráid: Níor sonraíodh cineál na cáipéise."
+
+#. +> trunk6 stable6
+#: searchengine.cpp:64
+#, kde-format
+msgid "Error: No search handler for document type '%1'."
+msgstr "Earráid: Níl aon láimhseálaí cuardaigh le haghaidh cineáil cáipéise '%1'."
+
+#. +> trunk6 stable6
+#: searchengine.cpp:234
+#, kde-format
+msgid "No valid search handler found."
+msgstr "Níor aimsíodh aon láimhseálaí bailí cuardaigh."
+
+#. +> trunk6 stable6
+#: searchhandler.cpp:38
+#, kde-format
+msgid "Error executing search command '%1'."
+msgstr "Earráid agus ordú cuardaigh '%1' á rith."
+
+#. +> trunk6 stable6
+#: searchhandler.cpp:76
+#, kde-format
+msgid "Error: %1"
+msgstr "Earráid: %1"
+
+#. +> trunk6 stable6
+#: searchhandler.cpp:139 searchhandler.cpp:144
+#, kde-format
+msgid "'%1' not found, check your installation"
+msgstr "'%1' gan aimsiú; seiceáil do chóras"
+
+#. +> trunk6 stable6
+#: searchhandler.cpp:149
+#, kde-format
+msgid "'%1' not found, install the package containing it"
+msgstr "'%1' gan aimsiú; suiteáil an pacáiste ina bhfuil sé"
+
+#. +> trunk6 stable6
+#: searchhandler.cpp:194
+#, kde-format
+msgid "No search command or URL specified."
+msgstr "Níor sonraíodh ordú cuardaigh nó URL."
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:41
+#, kde-format
+msgid "and"
+msgstr "agus"
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:42
+#, kde-format
+msgid "or"
+msgstr "nó"
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:44
+#, kde-format
+msgid "&Method:"
+msgstr "&Modh:"
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:62
+#, kde-format
+msgid "Max. &results:"
+msgstr "&Uasmhéid Torthaí:"
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:77
+#, kde-format
+msgid "&Scope selection:"
+msgstr "Roghnú &scóipe:"
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:85
+#, kde-format
+msgid "Scope"
+msgstr "Scóip"
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:337
+#, kde-format
+msgctxt "Label for searching documentation using custom (user defined) scope"
+msgid "Custom"
+msgstr "Saincheaptha"
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:339
+#, kde-format
+msgctxt "Label for searching documentation using default search scope"
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:341
+#, kde-format
+msgctxt "Label for searching documentation in all subsections"
+msgid "All"
+msgstr "Gach Rannán"
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:343
+#, kde-format
+msgctxt "Label for scope that deselects all search subsections"
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6
+#: searchwidget.cpp:345
+#, kde-format
+msgctxt "Label for Unknown search scope, that should never appear"
+msgid "unknown"
+msgstr "anaithnid"
+
+#. +> trunk6 stable6
+#: view.cpp:308
+#, fuzzy, kde-format
+#| msgid "Start Page"
+msgid "Save Page"
+msgstr "Leathanach Tosaigh"

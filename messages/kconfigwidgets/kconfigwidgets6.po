@@ -1,0 +1,881 @@
+# translation of kdelibs4.po to Irish
+# Translation of kdelibs4.po to Irish
+# Copyright (C) 1999,2003,2004 Free Software Foundation, Inc.
+# Sean V. Kelley <s_oceallaigh@yahoo.com>, 1999
+# Kevin Scannell <kscanne@gmail.com>, 2004-2009
+# Séamus Ó Ciardhuáin <seoc at iolfree.ie>, 2003,2004
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-04 13:54+0200\n"
+"PO-Revision-Date: 2004-12-14 09:11-0600\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 trunk5
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell,Sean V. Kelley"
+
+#. +> trunk6 trunk5
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com,s_oceallaigh@yahoo.com"
+
+#. +> trunk6 trunk5
+#: kcodecaction.cpp:62
+#, kde-format
+msgctxt "Encodings menu"
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#. +> trunk6 trunk5
+#: kcodecaction.cpp:70
+#, kde-format
+msgctxt "Encodings menu"
+msgid "Autodetect"
+msgstr "Braith go hUathoibríoch"
+
+#. +> trunk6 trunk5
+#: kcolorschememenu.cpp:24
+#, fuzzy, kde-format
+#| msgid "Shortcut Schemes"
+msgid "Color Scheme"
+msgstr "Scéimeanna Aicearraí"
+
+#. +> trunk6
+#: kcommandbar.cpp:658
+#, kde-format
+msgid "No commands to display"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kcommandbar.cpp:660
+#, kde-format
+msgid "No commands matching the filter"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kconfigdialog.cpp:37
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "Cumraigh"
+
+#. +> trunk6 trunk5
+#: khamburgermenu.cpp:126
+#, fuzzy, kde-format
+#| msgid "Menu"
+msgctxt "@action:inmenu General purpose menu"
+msgid "&Menu"
+msgstr "Roghchlár"
+
+#. +> trunk6 trunk5
+#: khamburgermenu.cpp:329
+#, fuzzy, kde-format
+#| msgid "Show all options"
+msgctxt "@action:inmenu A menu item that advertises and enables the menubar"
+msgid "Show &Menubar with All Actions"
+msgstr "Taispeáin gach rogha"
+
+#. +> trunk6 trunk5
+#: khamburgermenu.cpp:355
+#, fuzzy, kde-format
+#| msgctxt "@option:check An item in a list of resources that allows to query for more resources to put in the list"
+#| msgid "More..."
+msgctxt "@action:inmenu A menu text advertising its contents (more features)."
+msgid "More"
+msgstr "Tuilleadh..."
+
+#. +> trunk6 trunk5
+#: khamburgermenu.cpp:356
+#, fuzzy, kde-format
+#| msgid "More Actions"
+msgctxt "@action:inmenu A section heading advertising the contents of the menu bar"
+msgid "More Actions"
+msgstr "Tuilleadh Gníomhartha"
+
+#. +> trunk6 trunk5
+#: krecentfilesaction.cpp:77
+#, kde-format
+msgid "No Entries"
+msgstr "Gan Iontrálacha"
+
+#. +> trunk6 trunk5
+#: krecentfilesaction.cpp:83
+#, kde-format
+msgid "Clear List"
+msgstr "Glan an Liosta"
+
+#. +> trunk6 trunk5
+#: kstandardaction.cpp:157
+#, kde-format
+msgctxt "go back"
+msgid "&Back"
+msgstr "&Siar"
+
+#. +> trunk6 trunk5
+#: kstandardaction.cpp:164
+#, kde-format
+msgctxt "go forward"
+msgid "&Forward"
+msgstr "&Ar Aghaidh"
+
+#. +> trunk6 trunk5
+#: kstandardaction.cpp:171
+#, kde-format
+msgctxt "home page"
+msgid "&Home"
+msgstr "&Baile"
+
+#. +> trunk5
+#: kstandardaction.cpp:175
+#, kde-format
+msgctxt "show help"
+msgid "&Help"
+msgstr "&Cabhair"
+
+#. +> trunk6 trunk5
+#: kstandardaction.cpp:230
+#, kde-format
+msgid ""
+"Show Menubar"
+"<p>Shows the menubar again after it has been hidden</p>"
+msgstr ""
+"Taispeáin an Barra Roghchláir"
+"<p>Taispeáin an barra roghchláir arís tar éis dó a bheith i bhfolach</p>"
+
+#. +> trunk6 trunk5
+#: kstandardaction.cpp:251
+#, kde-format
+msgid ""
+"Show Statusbar"
+"<p>Shows the statusbar, which is the bar at the bottom of the window used for status information.</p>"
+msgstr ""
+"Taispeáin an Barra Stádais"
+"<p>Taispeáin an barra stádais, an barra ag bun na fuinneoige ina dtaispeántar an stádas reatha.</p>"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:63
+msgid "&New"
+msgstr "&Nua"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:63
+msgid "Create new document"
+msgstr "Cruthaigh cáipéis nua"
+
+#. +> trunk6
+#: kstandardaction_p.h:64
+#, fuzzy
+#| msgctxt "@label:button"
+#| msgid "&Open"
+msgid "&Open…"
+msgstr "&Oscail"
+
+#. +> trunk5
+#: kstandardaction_p.h:31
+msgid "&Open..."
+msgstr "&Oscail..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:64
+msgid "Open an existing document"
+msgstr "Oscail cáipéis atá ann"
+
+# recent what?
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:65
+msgid "Open &Recent"
+msgstr "Oscail &Rudaí Deireanacha"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:65
+msgid "Open a document which was recently opened"
+msgstr "Oscail cáipéis a bhí oscailte le déanaí"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:66
+msgid "&Save"
+msgstr "&Sábháil"
+
+#. +> trunk5
+#: kstandardaction_p.h:92
+msgid "&Save Settings"
+msgstr "&Sábháil na Socruithe"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:66
+msgid "Save document"
+msgstr "Sábháil an cháipéis"
+
+#. +> trunk6
+#: kstandardaction_p.h:67
+#, fuzzy
+#| msgid "Save As"
+msgid "Save &As…"
+msgstr "Sábháil Mar"
+
+#. +> trunk5
+#: kstandardaction_p.h:34
+msgid "Save &As..."
+msgstr "Sábháil M&ar..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:67
+msgid "Save document under a new name"
+msgstr "Sábháil an cháipéis le hainm nua"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:68
+msgid "Re&vert"
+msgstr "Fi&ll"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:68
+msgid "Revert unsaved changes made to document"
+msgstr "Cealaigh na hathruithe nach bhfuil sábháilte"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:69
+msgid "&Close"
+msgstr "&Dún"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:69
+msgid "Close document"
+msgstr "Dún an cháipéis"
+
+#. +> trunk6
+#: kstandardaction_p.h:70
+#, fuzzy
+#| msgid "Print"
+msgid "&Print…"
+msgstr "Priontáil"
+
+#. +> trunk5
+#: kstandardaction_p.h:37
+msgid "&Print..."
+msgstr "&Priontáil..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:70
+msgid "Print document"
+msgstr "Priontáil an cháipéis"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:71
+msgid "Print Previe&w"
+msgstr "Réamhamhar&c Priontála"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:71
+msgid "Show a print preview of document"
+msgstr "Taispeáin réamhamharc priontála"
+
+#. +> trunk6
+#: kstandardaction_p.h:72
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Mail"
+msgid "&Mail…"
+msgstr "Post"
+
+#. +> trunk5
+#: kstandardaction_p.h:39
+msgid "&Mail..."
+msgstr "&Ríomhphost..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:72
+msgid "Send document by mail"
+msgstr "Seol an cháipéis trí ríomhphost"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:73
+msgid "&Quit"
+msgstr "&Scoir"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:73
+msgid "Quit application"
+msgstr "Scoir den fheidhmchlár"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:75
+msgid "&Undo"
+msgstr "&Cealaigh"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:75
+msgid "Undo last action"
+msgstr "Cealaigh an gníomh is déanaí"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:76
+msgid "Re&do"
+msgstr "Ath&dhéan"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:76
+msgid "Redo last undone action"
+msgstr "Athdhéan an gníomh cealaithe"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:77
+msgid "Cu&t"
+msgstr "&Gearr"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:77
+msgid "Cut selection to clipboard"
+msgstr "Gearr an téacs roghnaithe agus sábháil sa ghearrthaisce é"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:78
+msgid "&Copy"
+msgstr "&Cóipeáil"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:78
+msgid "Copy selection to clipboard"
+msgstr "Sábháil an téacs roghnaithe sa ghearrthaisce"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:79
+msgid "&Paste"
+msgstr "&Greamaigh"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:79
+msgid "Paste clipboard content"
+msgstr "Greamaigh inneachar na gearrthaisce"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:80
+msgid "C&lear"
+msgstr "G&lan"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:81
+msgid "Select &All"
+msgstr "Roghnaigh &Uile"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:82
+msgid "Dese&lect"
+msgstr "Díro&ghnaigh"
+
+#. +> trunk6
+#: kstandardaction_p.h:83
+#, fuzzy
+#| msgid "&Find"
+msgid "&Find…"
+msgstr "&Aimsigh"
+
+#. +> trunk5
+#: kstandardaction_p.h:53
+msgid "&Find..."
+msgstr "&Aimsigh..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:84
+msgid "Find &Next"
+msgstr "An Chéad Chea&nn Eile"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:85
+msgid "Find Pre&vious"
+msgstr "&Roimhe Seo"
+
+#. +> trunk6
+#: kstandardaction_p.h:86
+#, fuzzy
+#| msgid "&Replace"
+msgid "&Replace…"
+msgstr "&Ionadaigh"
+
+#. +> trunk5
+#: kstandardaction_p.h:56
+msgid "&Replace..."
+msgstr "&Ionadaigh..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:88
+#, fuzzy
+#| msgid "&Actual Size"
+msgid "Zoom to &Actual Size"
+msgstr "&Fíormhéid"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:88
+msgid "View document at its actual size"
+msgstr "Taispeáin fíormhéid na cáipéise"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:89
+msgid "&Fit to Page"
+msgstr "&Laghdaigh go dtí an Leathanach"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:89
+msgid "Zoom to fit page in window"
+msgstr "Cuir in oiriúint do mhéid na fuinneoige"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:90
+msgid "Fit to Page &Width"
+msgstr "&Laghdaigh go leithead leathanaigh"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:90
+msgid "Zoom to fit page width in window"
+msgstr "Cuir in oiriúint do leithead an leathanaigh"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:91
+msgid "Fit to Page &Height"
+msgstr "Laghdaigh go &hairde leathanaigh"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:91
+msgid "Zoom to fit page height in window"
+msgstr "Cuir in oiriúint d'airde an leathanaigh"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:92
+msgid "Zoom &In"
+msgstr "Súmáil &Isteach"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:93
+msgid "Zoom &Out"
+msgstr "Súmáil &Amach"
+
+#. +> trunk6
+#: kstandardaction_p.h:94
+#, fuzzy
+#| msgid "&Zoom"
+msgid "&Zoom…"
+msgstr "&Súmáil"
+
+#. +> trunk5
+#: kstandardaction_p.h:64
+msgid "&Zoom..."
+msgstr "&Súmáil..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:94
+msgid "Select zoom level"
+msgstr "Roghnaigh leibhéal súmála"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:95
+msgid "&Refresh"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:95
+#, fuzzy
+#| msgid "Redisplay document"
+msgid "Refresh document"
+msgstr "Ataispeáin an cháipéis"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:97
+msgid "&Up"
+msgstr "S&uas"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:97
+msgid "Go up"
+msgstr "Téigh suas"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:102
+msgid "&Previous Page"
+msgstr "Leathanach &Roimhe"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:102
+msgid "Go to previous page"
+msgstr "Go dtí an leathanach roimhe seo"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:103
+msgid "&Next Page"
+msgstr "A&n Chéad Leathanach Eile"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:103
+msgid "Go to next page"
+msgstr "Go dtí an chéad leathanach eile"
+
+#. +> trunk6
+#: kstandardaction_p.h:104
+#, fuzzy
+#| msgid "&Go To..."
+msgid "&Go To…"
+msgstr "&Téigh go..."
+
+#. +> trunk5
+#: kstandardaction_p.h:74
+msgid "&Go To..."
+msgstr "&Téigh go..."
+
+#. +> trunk6
+#: kstandardaction_p.h:105
+#, fuzzy
+#| msgid "&Go to Page..."
+msgid "&Go to Page…"
+msgstr "Téigh go &Leathanach..."
+
+#. +> trunk5
+#: kstandardaction_p.h:75
+msgid "&Go to Page..."
+msgstr "Téigh go &Leathanach..."
+
+#. +> trunk6
+#: kstandardaction_p.h:106
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Go to Line"
+msgid "&Go to Line…"
+msgstr "Téigh go Líne"
+
+#. +> trunk5
+#: kstandardaction_p.h:76
+msgid "&Go to Line..."
+msgstr "Téigh go Lí&ne..."
+
+#. +> trunk5
+#: kstandardaction_p.h:106
+msgid "Tip of the &Day"
+msgstr "Leid an &Lae"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:107
+msgid "&First Page"
+msgstr "An &Chéad Leathanach"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:107
+msgid "Go to first page"
+msgstr "Téigh go dtí an chéad leathanach"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:108
+msgid "&Last Page"
+msgstr "An Leathanach &Deireanach"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:108
+msgid "Go to last page"
+msgstr "Téigh go dtí an leathanach deiridh"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:109
+msgid "&Back"
+msgstr "&Siar"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:109
+msgid "Go back in document"
+msgstr "Siar sa cháipéis"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:110
+msgid "&Forward"
+msgstr "&Ar Aghaidh"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:110
+msgid "Go forward in document"
+msgstr "Ar aghaidh sa cháipéis"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:112
+msgid "&Add Bookmark"
+msgstr "Cruthaigh Leabharmh&arc"
+
+#. +> trunk6
+#: kstandardaction_p.h:113
+#, fuzzy
+#| msgid "&Edit Bookmarks"
+msgid "&Edit Bookmarks…"
+msgstr "Cuir Leabharmharcanna in &Eagar"
+
+#. +> trunk5
+#: kstandardaction_p.h:83
+msgid "&Edit Bookmarks..."
+msgstr "Cuir Leabharmharcanna in &Eagar..."
+
+#. +> trunk6
+#: kstandardaction_p.h:115
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Spelling"
+msgid "&Spelling…"
+msgstr "Litriú"
+
+#. +> trunk5
+#: kstandardaction_p.h:85
+msgid "&Spelling..."
+msgstr "&Litriú..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:115
+msgid "Check spelling in document"
+msgstr "Ceartaigh litriú sa cháipéis"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:117
+msgid "Show &Menubar"
+msgstr "Taispeáin an Barra &Roghchláir"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:117
+msgid "Show or hide menubar"
+msgstr "Taispeáin nó folaigh an barra roghchláir"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:118
+msgid "Show &Toolbar"
+msgstr "Taispeáin an Barra &Uirlisí"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:118
+msgid "Show or hide toolbar"
+msgstr "Taispeáin nó folaigh an barra uirlisí"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:119
+msgid "Show St&atusbar"
+msgstr "Taispeáin an Barra Stád&ais"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:119
+msgid "Show or hide statusbar"
+msgstr "Taispeáin nó folaigh an barra stádais"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:120
+msgid "F&ull Screen Mode"
+msgstr "Mód Lán&scáileáin"
+
+#. +> trunk6
+#: kstandardaction_p.h:121
+#, fuzzy
+#| msgid "Configure S&hortcuts..."
+msgid "Configure Keyboard S&hortcuts…"
+msgstr "C&umraigh Aicearraí..."
+
+#. +> trunk5
+#: kstandardaction_p.h:94
+#, fuzzy
+#| msgid "Configure S&hortcuts..."
+msgid "Configure Keyboard S&hortcuts..."
+msgstr "C&umraigh Aicearraí..."
+
+#. +> trunk6
+#: kstandardaction_p.h:122
+#, fuzzy, kde-format
+#| msgid "&Configure %1..."
+msgid "&Configure %1…"
+msgstr "&Cumraigh %1..."
+
+#. +> trunk5
+#: kstandardaction_p.h:95
+#, kde-format
+msgid "&Configure %1..."
+msgstr "&Cumraigh %1..."
+
+#. +> trunk6
+#: kstandardaction_p.h:123
+#, fuzzy
+#| msgid "Configure Toolbars"
+msgid "Configure Tool&bars…"
+msgstr "Cumraigh Barraí Uirlisí"
+
+#. +> trunk5
+#: kstandardaction_p.h:96
+msgid "Configure Tool&bars..."
+msgstr "Cumraigh &Barraí Uirlisí..."
+
+#. +> trunk6
+#: kstandardaction_p.h:124
+#, fuzzy
+#| msgid "Configure Notifications"
+msgid "Configure &Notifications…"
+msgstr "Cumraigh Fógairt"
+
+#. +> trunk5
+#: kstandardaction_p.h:97
+msgid "Configure &Notifications..."
+msgstr "C&umraigh Fógairt..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:128
+#, kde-format
+msgid "%1 &Handbook"
+msgstr "&Lámhleabhar %1"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:129
+msgid "What's &This?"
+msgstr "Cad É &Seo?"
+
+#. +> trunk6
+#: kstandardaction_p.h:130
+#, fuzzy
+#| msgctxt "@action"
+#| msgid "Report Bug"
+msgid "&Report Bug…"
+msgstr "Seol tuairisc ar fhabht"
+
+#. +> trunk5
+#: kstandardaction_p.h:107
+msgid "&Report Bug..."
+msgstr "&Seol tuairisc ar fhabht..."
+
+#. +> trunk6
+#: kstandardaction_p.h:131
+#, fuzzy
+#| msgid "Configure Email..."
+msgid "Configure &Language…"
+msgstr "Cumraigh Ríomhphost..."
+
+#. +> trunk5
+#: kstandardaction_p.h:108
+#, fuzzy
+#| msgid "Configure Email..."
+msgid "Configure &Language..."
+msgstr "Cumraigh Ríomhphost..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:132
+#, kde-format
+msgid "&About %1"
+msgstr "&Maidir le %1"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:133
+msgid "About &KDE"
+msgstr "Maidir le &KDE"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:134
+msgid "&Delete"
+msgstr "&Scrios"
+
+#. +> trunk6
+#: kstandardaction_p.h:135
+#, fuzzy
+#| msgid "&Replace..."
+msgid "&Rename…"
+msgstr "&Ionadaigh..."
+
+#. +> trunk5
+#: kstandardaction_p.h:112
+#, fuzzy
+#| msgid "&Replace..."
+msgid "&Rename..."
+msgstr "&Ionadaigh..."
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:136
+#, fuzzy
+#| msgid "Move to Trash"
+msgid "&Move to Trash"
+msgstr "Bog go dtí an Bruscar"
+
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:137
+#, fuzzy
+#| msgid "&Done"
+msgid "&Donate"
+msgstr "&Críochnaithe"
+
+# recent what?
+#. +> trunk6 trunk5
+#: kstandardaction_p.h:138
+#, fuzzy
+#| msgid "Open &Recent"
+msgid "Open &Menu"
+msgstr "Oscail &Rudaí Deireanacha"
+
+#. +> trunk6
+#: kstylemanager.cpp:74
+#, fuzzy, kde-format
+#| msgid "Application: "
+msgid "Application Style"
+msgstr "Feidhmchlár:"
+
+#. +> trunk6 trunk5
+#: kstylemanager.cpp:78
+#, fuzzy, kde-format
+#| msgctxt "Encodings menu"
+#| msgid "Default"
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#. +> trunk5
+#: kcmodule.cpp:198
+#, kde-format
+msgid "You will be asked to authenticate before saving"
+msgstr "Caithfidh tú fíordheimhniú a dhéanamh roimh shábháil"
+
+#. +> trunk5
+#: kcmodule.cpp:202
+#, kde-format
+msgid "You are not allowed to save the configuration"
+msgstr "Níl cead agat an chumraíocht a shábháil"
+
+#. +> trunk5
+#: ktipdialog.cpp:222
+#, fuzzy, kde-format
+#| msgid "Tip of the Day"
+msgctxt "@title:window"
+msgid "Tip of the Day"
+msgstr "Leid an Lae"
+
+#. +> trunk5
+#: ktipdialog.cpp:238
+#, fuzzy, kde-format
+#| msgid "Did you know...?\n"
+msgctxt "@title"
+msgid "Did you know...?\n"
+msgstr "An bhfuil a fhios agat...?\n"
+
+#. +> trunk5
+#: ktipdialog.cpp:291
+#, fuzzy, kde-format
+#| msgid "&Show tips on startup"
+msgctxt "@option:check"
+msgid "&Show tips on startup"
+msgstr "&Taispeáin Leideanna i dTosach"
+
+#. +> trunk5
+#: ktipdialog.cpp:296
+#, fuzzy, kde-format
+#| msgid "&Previous"
+msgctxt "@action:button Goes to previous tip"
+msgid "&Previous"
+msgstr "&Roimhe Seo"
+
+#. +> trunk5
+#: ktipdialog.cpp:301
+#, fuzzy, kde-format
+#| msgid "&Next"
+msgctxt "@action:button Goes to next tip, opposite to previous"
+msgid "&Next"
+msgstr "Ar A&ghaidh"

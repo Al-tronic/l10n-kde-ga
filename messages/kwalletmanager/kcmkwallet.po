@@ -1,0 +1,306 @@
+# Irish translation of kcmkwallet
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcmkwallet package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeutils/kcmkwallet.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-23 10:36+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: konfigurator.cpp:106
+#, kde-format
+msgid "New Wallet"
+msgstr "Sparán Nua"
+
+#. +> trunk6 stable6
+#: konfigurator.cpp:106
+#, kde-format
+msgid "Please choose a name for the new wallet:"
+msgstr "Roghnaigh ainm don sparán nua, le do thoil:"
+
+#. +> trunk6 stable6
+#: konfigurator.cpp:220 konfigurator.cpp:298
+#, kde-format
+msgid "Always Allow"
+msgstr "Ceadaigh i gCónaí"
+
+#. +> trunk6 stable6
+#: konfigurator.cpp:223 konfigurator.cpp:230 konfigurator.cpp:311
+#, kde-format
+msgid "Always Deny"
+msgstr "Diúltaigh i gCónaí"
+
+#. +> trunk6 stable6
+#: konfigurator.cpp:258
+#, kde-format
+msgid "Permission denied."
+msgstr ""
+
+#. +> trunk6 stable6
+#: konfigurator.cpp:258 konfigurator.cpp:260
+#, kde-format
+msgid "KDE Wallet Control Module"
+msgstr "Modúl Rialaithe Sparáin KDE"
+
+#. +> trunk6 stable6
+#: konfigurator.cpp:260
+#, kde-format
+msgid ""
+"Error while authenticating action:\n"
+"%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: konfigurator.cpp:358
+#, kde-format
+msgid "&Delete"
+msgstr "&Scrios"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab1)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:27
+#, kde-format
+msgid "Wallet Preferences"
+msgstr "Sainroghanna Sparáin"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, _enabled)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:33
+#, fuzzy, kde-format
+#| msgid "<p>The wallet subsystem provides a convenient and secure way to manage all your passwords.  This option specifies whether or not you want to use it.</p>"
+msgid "<p>The wallet subsystem provides a convenient and secure way to manage all your passwords. This option specifies whether or not you want to use it.</p>"
+msgstr "<p>Is féidir d'fhocail fhaire go léir a shábháil go héasca tríd an fhochóras sparáin. Roghnaigh é seo más mian leat an córas seo a úsáid.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _enabled)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:36
+#, kde-format
+msgid "&Enable the KDE wallet subsystem"
+msgstr "&Cumasaigh an fochóras sparáin KDE"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox2)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:49
+#, kde-format
+msgid "It is best to close your wallets when you are not using them to prevent others from viewing or using them."
+msgstr "Ba chóir duit do chuid sparán a dhúnadh nuair nach bhfuil siad in úsáid sa chaoi nach mbeidh daoine eile in ann iad a fheiceáil."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:52
+#, kde-format
+msgid "Close Behavior"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, closeWalletLabel)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:69
+#, fuzzy, kde-format
+#| msgid "Close Wallet"
+msgid "Close wallet:"
+msgstr "Dún Sparán"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, _autoclose)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:76
+#, kde-format
+msgid ""
+"<p><b>Close wallet as soon as applications that use it have stopped.</b><br>"
+"Note that your wallet will only be closed when all applications that use it have stopped.<br>"
+"When a wallet is closed the password is needed to access it again.</p>"
+msgstr ""
+"<p><b>Dún an sparán nuair a stopfaidh na feidhmchláir atá ag baint úsáide as.</b><br>"
+"Tabhair faoi deara nach ndúnfar do sparán go dtí nach bhfuil sé in úsáid ag aon fheidhmchláir.<br>"
+"Nuair atá sparán dúnta, caithfidh tú focal faire a sholáthar chun é a rochtain arís.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _autoclose)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:79
+#, fuzzy, kde-format
+#| msgid "Close when last application stops using it"
+msgid "When last application stops using it"
+msgstr "Dún é nuair nach bhfuil sé in úsáid ag aon fheidhmchláir"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, _screensaverLock)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:86
+#, kde-format
+msgid ""
+"<p><b>Close wallet as soon as the screensaver starts.</b><br>"
+"When a wallet is closed the password is needed to access it again.</p>"
+msgstr ""
+"<p><b>Dún an sparán nuair a thosaíonn an spárálaí scáileáin.</b><br>"
+"Nuair atá sparán dúnta, caithfidh tú focal faire a sholáthar chun é a rochtain arís.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _screensaverLock)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:89
+#, fuzzy, kde-format
+#| msgid "Close when screensaver starts"
+msgid "When screensaver starts"
+msgstr "Dún nuair a thosaíonn an spárálaí scáileáin"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, _closeIdle)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, _idleTime)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:96 walletconfigwidget.ui:115
+#, kde-format
+msgid ""
+"<p><b>Close wallet after a period of inactivity.</b><br>"
+"When a wallet is closed the password is needed to access it again.</p>"
+msgstr ""
+"<p><b>Dún an sparán nuair nach bhfuil sé in úsáid ar feadh tamaill.</b><br>"
+"Nuair atá sparán dúnta, caithfidh tú focal faire a sholáthar chun é a rochtain arís.</p>"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _closeIdle)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:99
+#, fuzzy, kde-format
+#| msgid "Close when unused for:"
+msgid "When unused for:"
+msgstr "Dún nuair nach bhfuil sé in úsáid ar feadh:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, _idleTime)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:121
+#, fuzzy, kde-format
+#| msgid " min"
+msgid " minutes"
+msgstr " nóiméad"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:145
+#, kde-format
+msgid "Automatic Wallet Selection"
+msgstr "Roghnú Uathoibríoch Sparán"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _localWalletSelected)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:165
+#, fuzzy, kde-format
+#| msgid "Different wallet for local passwords:"
+msgid "Use different default wallet for local passwords"
+msgstr "Sparán difriúil le haghaidh focal faire logánta:"
+
+#. i18n: ectx: property (text), widget (QPushButton, _newLocalWallet)
+#. i18n: ectx: property (text), widget (QPushButton, _newWallet)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:202 walletconfigwidget.ui:242
+#, kde-format
+msgid "New..."
+msgstr "Nua..."
+
+#. i18n: ectx: property (text), widget (QLabel, selectDefaultWalletLabel)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:211
+#, kde-format
+msgid "Default wallet:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:256
+#, kde-format
+msgid "Wallet Manager"
+msgstr "Bainisteoir Sparán"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _launchManager)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:270
+#, kde-format
+msgid "Show manager in system tray"
+msgstr "Taispeáin an bainisteoir i dtráidire an chórais"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _autocloseManager)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:298
+#, kde-format
+msgid "Hide system tray icon when last wallet closes"
+msgstr "Folaigh an deilbhín i dtráidire an chórais nuair a dhúnann an sparán deiridh"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox5)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:312
+#, kde-format
+msgid "Secret Service"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, _secretServiceAPI)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:331
+#, kde-format
+msgid "Use &KWallet for the Secret Service interface"
+msgstr ""
+
+#. i18n: ectx: property (contextualHelpText), widget (KContextualHelpButton, kcontextualhelpbutton)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:341
+#, kde-format
+msgid "The Secret Service interface lets applications store passwords and other confidential data. Disable this to allow third-party wallet services such as KeePassXC or GNOME Keyring to manage it instead."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:388
+#, kde-format
+msgid "Access Control"
+msgstr "Rialú Rochtana"
+
+#. i18n: ectx: property (text), widget (QCheckBox, _openPrompt)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:394
+#, fuzzy, kde-format
+#| msgid "&Prompt when an application accesses an open wallet"
+msgid "&Prompt when an application accesses a wallet"
+msgstr "Tabhair &leid nuair a dhéanann feidhmchlár rochtain ar sparán oscailte"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, _accessList)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:408
+#, kde-format
+msgid "Wallet"
+msgstr "Sparán"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, _accessList)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:413
+#, kde-format
+msgid "Application"
+msgstr "Feidhmchlár"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, _accessList)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:418
+#, kde-format
+msgid "Policy"
+msgstr "Polasaí"
+
+#. i18n: ectx: property (text), widget (QPushButton, _launch)
+#. +> trunk6 stable6
+#: walletconfigwidget.ui:451
+#, kde-format
+msgid "&Launch Wallet Manager"
+msgstr "&Tosaigh Bainisteoir Sparán"

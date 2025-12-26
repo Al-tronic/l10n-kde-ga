@@ -1,0 +1,302 @@
+# Irish translation of desktop_kdepim
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdepim package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: plugins/datenums/datenums.json
+msgctxt "Name"
+msgid "Date Numbers Plugin for Calendars"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/hebrew/hebrew.json
+msgctxt "Name"
+msgid "Jewish Calendar Plugin"
+msgstr "Breiseán Féilire Giúdaí"
+
+#. +> trunk6 stable6
+#: plugins/lunarphases/lunarphases.json
+msgctxt "Name"
+msgid "Lunar Phases Plugin for Calendars"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/picoftheday/picoftheday.json
+msgctxt "Name"
+msgid "Wikipedia Picture Of the Day Plugin for Calendars"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/thisdayinhistory/thisdayinhistory.json
+msgctxt "Name"
+msgid "Wikipedia 'This Day in History' Plugin"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kontactplugin/korganizer/journalplugin.json
+msgctxt "Name"
+msgid "Journal"
+msgstr "Dialann"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/korganizer/kcmapptsummary.json
+msgctxt "Name"
+msgid "Upcoming Events"
+msgstr "Imeachtaí atá ag teacht"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/korganizer/kcmtodosummary.json
+msgctxt "Name"
+msgid "Pending To-dos"
+msgstr "Tascanna Le Déanamh"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/korganizer/korganizerplugin.json
+msgctxt "Name"
+msgid "Calendar"
+msgstr "Féilire"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/korganizer/todoplugin.json
+msgctxt "Name"
+msgid "To-do List"
+msgstr "Tascliosta"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/specialdates/kcmsdsummary.json
+msgctxt "Name"
+msgid "Upcoming Special Dates"
+msgstr "Dátaí Speisialta Le Teacht"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/specialdates/specialdatesplugin.json
+msgctxt "Name"
+msgid "Special Dates"
+msgstr "Dátaí Speisialta"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configcolorsandfonts.json
+msgctxt "Name"
+msgid "Colors and Fonts"
+msgstr "Dathanna agus Clónna"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configfreebusy.json
+msgctxt "Name"
+msgid "Free/Busy"
+msgstr "Saor/Gafa"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configgroupscheduling.json
+msgctxt "Name"
+msgid "Group Scheduling"
+msgstr "Sceidealadh Grúpa"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configmain.json
+msgctxt "Name"
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configplugins.json
+msgctxt "Name"
+msgid "Plugins"
+msgstr "Breiseáin"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configtime.json
+msgctxt "Name"
+msgid "Time and Date"
+msgstr "Am agus Dáta"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configviews.json
+msgctxt "Name"
+msgid "Views"
+msgstr "Amhairc"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_userfeedback.json
+msgctxt "Name"
+msgid "User Feedback"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/datenums/datenums.json
+msgctxt "Description"
+msgid "For each day this plugin shows its daynumber of the year at the top of the agenda view. For example, February 1 is day 32 of the year."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/hebrew/hebrew.json
+msgctxt "Description"
+msgid "Shows all dates in KOrganizer also in the Jewish calendar system."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/lunarphases/lunarphases.json
+msgctxt "Description"
+msgid "This plugin shows the day's lunar phase (New, First, Last, Full)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/picoftheday/picoftheday.json
+msgctxt "Description"
+msgid "This plugin provides the Wikipedia Picture of the Day"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/thisdayinhistory/thisdayinhistory.json
+msgctxt "Description"
+msgid "This plugin provides links to Wikipedia's 'This Day in History' pages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kontactplugin/korganizer/journalplugin.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Kontact KOrganizer Journal Plugin"
+msgctxt "Description"
+msgid "Kontact KOrganizer Journal Plugin"
+msgstr "Breiseán Dialainne Korganizer le haghaidh Kontact"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/korganizer/kcmapptsummary.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Upcoming Events Summary Setup"
+msgctxt "Description"
+msgid "Upcoming Events Summary Setup"
+msgstr "Socrú Achoimre ar Imeachtaí atá ag teacht"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/korganizer/kcmtodosummary.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Pending To-dos Summary Setup"
+msgctxt "Description"
+msgid "Pending To-dos Summary Setup"
+msgstr "Socrú Achoimre ar Thascanna Le Déanamh"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/korganizer/korganizerplugin.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Kontact KOrganizer Plugin"
+msgctxt "Description"
+msgid "Kontact KOrganizer Plugin"
+msgstr "Breiseán KOrganizer le haghaidh Kontact"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/korganizer/todoplugin.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Kontact KOrganizer To-do List Plugin"
+msgctxt "Description"
+msgid "Kontact KOrganizer To-do List Plugin"
+msgstr "Breiseán Tascliosta KOrganizer le haghaidh Kontact"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/specialdates/kcmsdsummary.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Upcoming Special Dates Summary Setup"
+msgctxt "Description"
+msgid "Upcoming Special Dates Summary Setup"
+msgstr "Socrú Achoimre ar Dhátaí Speisialta Le Teacht"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/specialdates/specialdatesplugin.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Special Dates Plugin"
+msgctxt "Description"
+msgid "Special Dates Plugin"
+msgstr "Breiseán Dátaí Speisialta"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configcolorsandfonts.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KOrganizer Colors and Fonts Configuration"
+msgctxt "Description"
+msgid "KOrganizer Colors and Fonts Configuration"
+msgstr "Cumraíocht na nDathanna/gClónna le haghaidh KOrganizer"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configfreebusy.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KOrganizer Free/Busy Configuration"
+msgctxt "Description"
+msgid "KOrganizer Free/Busy Configuration"
+msgstr "Cumraíocht Saor/Gafa KOrganizer"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configgroupscheduling.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KOrganizer Group Scheduling Configuration"
+msgctxt "Description"
+msgid "KOrganizer Group Scheduling Configuration"
+msgstr "Cumraíocht Sceidealta Grúpa KOrganizer"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configmain.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KOrganizer Main Configuration"
+msgctxt "Description"
+msgid "KOrganizer Main Configuration"
+msgstr "Príomhchumraíocht KOrganizer"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configplugins.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KOrganizer Plugin Configuration"
+msgctxt "Description"
+msgid "KOrganizer Plugin Configuration"
+msgstr "Cumraíocht Breiseán KOrganizer"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configtime.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KOrganizer Time and Date Configuration"
+msgctxt "Description"
+msgid "KOrganizer Time and Date Configuration"
+msgstr "Cumraíocht Ama agus Dáta le haghaidh KOrganizer"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_configviews.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KOrganizer View Configuration"
+msgctxt "Description"
+msgid "KOrganizer View Configuration"
+msgstr "Cumraíocht Amhairc KOrganizer"
+
+#. +> trunk6 stable6
+#: src/prefs/korganizer_userfeedback.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KOrganizer Free/Busy Configuration"
+msgctxt "Description"
+msgid "KOrganizer User Feedback Configuration"
+msgstr "Cumraíocht Saor/Gafa KOrganizer"

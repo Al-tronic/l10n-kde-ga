@@ -1,0 +1,56 @@
+# Irish translation of desktop_kdesdk
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdesdk package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: src/komparenavtreepart/komparenavtreepart.json.in
+msgctxt "Name"
+msgid "KompareNavTreePart"
+msgstr "KompareNavTreePart"
+
+#. +> trunk6 stable6
+#: src/komparepart/komparepart.json.in
+msgctxt "Name"
+msgid "KomparePart"
+msgstr "KomparePart"
+
+#. +> trunk6 stable6
+#: src/komparenavtreepart/komparenavtreepart.json.in
+#: src/komparepart/komparepart.json.in
+msgctxt "Authors Name"
+msgid "John Firebaugh"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/komparenavtreepart/komparenavtreepart.json.in
+#: src/komparepart/komparepart.json.in
+msgctxt "Authors Name"
+msgid "Otto Bruggeman"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/komparenavtreepart/komparenavtreepart.json.in
+#: src/komparepart/komparepart.json.in
+msgctxt "Authors Name"
+msgid "Kevin Kofler"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/komparepart/komparepart.json.in
+msgctxt "Description"
+msgid "A part to graphically show the difference between 2 files"
+msgstr ""

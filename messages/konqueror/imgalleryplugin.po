@@ -1,0 +1,326 @@
+# translation of imgalleryplugin.po to
+# translation of imgalleryplugin.po to Irish
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Séamus Ó Ciardhuáin <seoc@cnds.ucd.ie>, 2002
+# Kevin Scannell <kscanne@gmail.com>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: imgalleryplugin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-22 09:35+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Image Gallery"
+msgstr "Cruthaigh Gailearaí Íomhánna"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:38
+#, kde-format
+msgid "Create"
+msgstr "Cruthaigh"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:48 imgallerydialog.cpp:84
+#, kde-format
+msgid "Image Gallery for %1"
+msgstr "Gailearaí Íomhánna le haghaidh %1"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:76
+#, kde-format
+msgid "Look"
+msgstr "Cuma"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:77
+#, kde-format
+msgid "Page Look"
+msgstr "Cuma an Leathanaigh"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:85
+#, kde-format
+msgid "&Page title:"
+msgstr "Teideal an &Leathanaigh:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:93
+#, kde-format
+msgid "I&mages per row:"
+msgstr "Ío&mhánna sa ró:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:95
+#, kde-format
+msgid "Show image file &name"
+msgstr "Taispeáin ai&nm an chomhaid íomhá"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:99
+#, kde-format
+msgid "Show image file &size"
+msgstr "Taispeáin &méid an chomhaid íomhá"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:103
+#, kde-format
+msgid "Show image &dimensions"
+msgstr "Taispeáin &toisí na híomhá"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:114
+#, kde-format
+msgid "Fon&t name:"
+msgstr "Ainm an &chló:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:122
+#, kde-format
+msgid "Font si&ze:"
+msgstr "C&lómhéid:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:126
+#, kde-format
+msgid "&Foreground color:"
+msgstr "&Dath an tulra:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:130
+#, kde-format
+msgid "&Background color:"
+msgstr "Dath an &Chúlra:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:136 imgallerydialog.cpp:137
+#, kde-format
+msgid "Folders"
+msgstr "Fillteáin"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:145
+#, kde-format
+msgid "&Save to HTML file:"
+msgstr "&Sábháil i gComhad HTML:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:147
+#, kde-format
+msgid "<p>The name of the HTML file this gallery will be saved to.</p>"
+msgstr "<p>Ainm an chomhaid HTML ina sábhálfar an gailearaí seo.</p>"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:150
+#, kde-format
+msgid "&Recurse subfolders"
+msgstr "&Téigh i bhfofhillteáin go hathchúrsach"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:152
+#, kde-format
+msgid "<p>Whether subfolders should be included for the image gallery creation or not.</p>"
+msgstr "<p>Cé acu ba chóir fofhillteáin a chur san áireamh, nó níor chóir, agus gailearaí á chruthú.</p>"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:163
+#, kde-format
+msgid "Endless"
+msgstr "Gan chríoch"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:165
+#, kde-format
+msgid "<p>You can limit the number of folders the image gallery creator will traverse to by setting an upper bound for the recursion depth.</p>"
+msgstr "<p>Is féidir teorainn a chur le líon na bhfillteán ina gcuardóidh cruthaitheoir an ghailearaí.  Chun é seo a dhéanamh, socraigh cuimse uachtair ar an doimhneacht athchúrsála.</p>"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:168
+#, kde-format
+msgid "Rec&ursion depth:"
+msgstr "&Doimhneacht athchúrsála:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:172
+#, kde-format
+msgid "Copy or&iginal files"
+msgstr "Cói&peáil na bunchomhaid"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:174
+#, kde-format
+msgid "<p>This makes a copy of all images and the gallery will refer to these copies instead of the original images.</p>"
+msgstr "<p>Cóipeálann sé seo gach íomhá, agus déanfaidh an gailearaí tagairt do na cóipeanna in ionad na mbuníomhánna.</p>"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:179
+#, kde-format
+msgid "Use &comment file"
+msgstr "Úsáid comhad &nótaí"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:181
+#, kde-format
+msgid ""
+"<p>If you enable this option you can specify a comment file which will be used for generating subtitles for the images.</p>"
+"<p>For details about the file format please see the \"What's This?\" help below.</p>"
+msgstr ""
+"<p>Má chumasaíonn tú an rogha seo, is féidir comhad nótaí a shocrú a úsáidtear chun fotheidil a chur ar na híomhánna.</p>"
+"<p>Tá tuilleadh eolais maidir le formáid an chomhaid nótaí ar fáil sa chabhair \"Cad É Seo?\" thíos.</p>"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:190
+#, kde-format
+msgid ""
+"<p>You can specify the name of the comment file here. The comment file contains the subtitles for the images. The format of this file is:</p>"
+"<p>FILENAME1:<br />"
+"Description<br />"
+"<br />"
+"FILENAME2:<br />"
+"Description<br />"
+"<br />"
+"and so on</p>"
+msgstr ""
+"<p>Is féidir ainm an chomhaid nótaí a shocrú anseo. Fotheidil na n-íomhánna atá sa chomhad nótaí.  Seo é formáid an chomhaid nótaí:</p>"
+"<p>COMHAD1:<br />"
+"Cur Síos<br />"
+"<br />"
+"COMHAD2:<br />"
+"Cur Síos<br />"
+"<br />"
+"srl...</p>"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:200
+#, kde-format
+msgid "Comments &file:"
+msgstr "Comhad &nótaí:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:210 imgallerydialog.cpp:211
+#, kde-format
+msgid "Thumbnails"
+msgstr "Mionsamhlacha"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:224
+#, kde-format
+msgid "Image f&ormat:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:232
+#, kde-format
+msgid "Thumbnail size:"
+msgstr "Méid na mionsamhlacha:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:235
+#, kde-format
+msgid "&Set different color depth:"
+msgstr "&Socraigh doimhneacht dhifriúil datha:"
+
+#. +> trunk6 stable6
+#: imgallerydialog.cpp:246
+#, kde-format
+msgid "Color depth:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:44
+#, kde-format
+msgid "&Create Image Gallery..."
+msgstr "&Cruthaigh Gailearaí Íomhánna..."
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:54
+#, kde-format
+msgid "Could not create the plugin, please report a bug."
+msgstr "Níorbh fhéidir an breiseán a chruthú, tabhair tuairisc ar an bhfabht seo."
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:60
+#, kde-format
+msgid "Creating an image gallery works only on local folders."
+msgstr "Is féidir gailearaí a chruthú ó fhillteán logánta amháin."
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:80
+#, kde-format
+msgid "Creating thumbnails"
+msgstr "Mionsamhlacha á gcruthú"
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:103 imgalleryplugin.cpp:270
+#, kde-format
+msgid "Could not create folder: %1"
+msgstr "Níorbh fhéidir an fillteán a chruthú: %1"
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:168
+#, kde-format
+msgid "<i>Number of images</i>: %1"
+msgstr "<i>Líon na n-íomhánna</i>: %1"
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:169
+#, kde-format
+msgid "<i>Created on</i>: %1"
+msgstr "<i>Cruthaithe ar</i>: %1"
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:174
+#, kde-format
+msgid "<i>Subfolders</i>:"
+msgstr "<i>Fochomhadlanna</i>:"
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:207
+#, kde-format
+msgid ""
+"Created thumbnail for: \n"
+"%1"
+msgstr ""
+"Cruthaíodh mionsamhail le haghaidh: \n"
+"%1"
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:210
+#, kde-format
+msgid ""
+"Creating thumbnail for: \n"
+"%1\n"
+" failed"
+msgstr ""
+"Theip ar chruthú mionsamhla: \n"
+"%1\n"
+" "
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:225
+#, kde-format
+msgid "KiB"
+msgstr "KiB"
+
+#. +> trunk6 stable6
+#: imgalleryplugin.cpp:343 imgalleryplugin.cpp:443
+#, kde-format
+msgid "Could not open file: %1"
+msgstr "Níorbh fhéidir an comhad a oscailt: %1"
+
+#. i18n: ectx: Menu (tools)
+#. +> trunk6 stable6
+#: kimgallery.rc:4
+#, kde-format
+msgid "&Tools"
+msgstr "&Uirlisí"

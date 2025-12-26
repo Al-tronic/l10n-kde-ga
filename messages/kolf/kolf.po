@@ -1,0 +1,1103 @@
+# Irish translation of kolf
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kolf package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegames/kolf.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-22 11:22+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: config.cpp:51
+#, kde-format
+msgid "No configuration options"
+msgstr "Níl roghanna cumraíochta ann"
+
+#. +> trunk6 stable6
+#: editor.cpp:37
+#, fuzzy, kde-format
+#| msgid "Add object:"
+msgctxt "@label:listbox"
+msgid "Add object:"
+msgstr "Cuir réad leis:"
+
+#. +> trunk6 stable6
+#: game.cpp:263
+#, fuzzy, kde-format
+#| msgid "Course name: "
+msgctxt "@label:textbox"
+msgid "Course name:"
+msgstr "Ainm an chúrsa: "
+
+#. +> trunk6 stable6
+#: game.cpp:270
+#, fuzzy, kde-format
+#| msgid "Course author: "
+msgctxt "@label:textbox"
+msgid "Course author: "
+msgstr "Údar an chúrsa: "
+
+# OK as is (Fiontar/FS)
+#. +> trunk6 stable6
+#: game.cpp:279
+#, fuzzy, kde-format
+#| msgid "Par:"
+msgctxt "@label:spinbox"
+msgid "Par:"
+msgstr "Par:"
+
+#. +> trunk6 stable6
+#: game.cpp:289
+#, fuzzy, kde-format
+#| msgid "Maximum:"
+msgctxt "@label:spinbox"
+msgid "Maximum:"
+msgstr "Uasmhéid:"
+
+#. +> trunk6 stable6
+#: game.cpp:293
+#, fuzzy, kde-format
+#| msgid "Maximum number of strokes player can take on this hole."
+msgctxt "@info:whatsthis"
+msgid "Maximum number of strokes player can take on this hole."
+msgstr "Líon uasta buillí is féidir le himreoir a dhéanamh ar an bpoll seo."
+
+#. +> trunk6 stable6
+#: game.cpp:294
+#, fuzzy, kde-format
+#| msgid "Maximum number of strokes"
+msgctxt "@info:tooltip"
+msgid "Maximum number of strokes"
+msgstr "Líon uasta buillí"
+
+#. +> trunk6 stable6
+#: game.cpp:295
+#, fuzzy, kde-format
+#| msgid "Unlimited"
+msgctxt "@item number of strokes"
+msgid "Unlimited"
+msgstr "Gan Teorainn"
+
+#. +> trunk6 stable6
+#: game.cpp:301
+#, fuzzy, kde-format
+#| msgid "Show border walls"
+msgctxt "@option:check"
+msgid "Show border walls"
+msgstr "Taispeáin ballaí timpeall an phoill"
+
+#. +> trunk6 stable6
+#: game.cpp:499 game.cpp:2432
+#, kde-format
+msgid "Course Author"
+msgstr "Údar an Chúrsa"
+
+#. +> trunk6 stable6
+#: game.cpp:500 game.cpp:501 game.cpp:2432
+#, kde-format
+msgid "Course Name"
+msgstr "Ainm an Chúrsa"
+
+#. +> trunk6 stable6
+#: game.cpp:1423
+#, fuzzy, kde-format
+#| msgid "Drop Outside of Hazard"
+msgctxt "@item harzard action"
+msgid "Drop Outside of Hazard"
+msgstr "Lig Titim Lasmuigh den Fhiontar"
+
+#. +> trunk6 stable6
+#: game.cpp:1424
+#, fuzzy, kde-format
+#| msgid "Rehit From Last Location"
+msgctxt "@item harzard action"
+msgid "Rehit From Last Location"
+msgstr "Buille ón Suíomh Roimhe Seo Arís"
+
+#. +> trunk6 stable6
+#: game.cpp:1426
+#, kde-format
+msgid "What would you like to do for your next shot?"
+msgstr "Cad is mian leat a dhéanamh ar an chéad bhuille eile?"
+
+#. +> trunk6 stable6
+#: game.cpp:1426
+#, fuzzy, kde-format
+#| msgid "%1 is in a Hazard"
+msgctxt "@title:window"
+msgid "%1 in a Hazard"
+msgstr "Is i bhFiontar é %1"
+
+#. +> trunk6 stable6
+#: game.cpp:1594
+#, kde-format
+msgid "%1 will start off."
+msgstr "Tosóidh %1."
+
+#. +> trunk6 stable6
+#: game.cpp:1594
+#, fuzzy, kde-format
+#| msgid "New Hole"
+msgctxt "@title:window"
+msgid "New Hole"
+msgstr "Poll Nua"
+
+#. +> trunk6 stable6
+#: game.cpp:1755
+#, kde-format
+msgid "Course name: %1"
+msgstr "Ainm an chúrsa: %1"
+
+#. +> trunk6 stable6
+#: game.cpp:1756
+#, kde-format
+msgid "Created by %1"
+msgstr "Cruthaithe ag %1"
+
+#. +> trunk6 stable6
+#: game.cpp:1757
+#, fuzzy, kde-format
+#| msgid "%1 holes"
+msgid "%1 hole"
+msgid_plural "%1 holes"
+msgstr[0] "%1 poll"
+msgstr[1] "%1 poll"
+msgstr[2] "%1 poll"
+msgstr[3] "%1 poll"
+msgstr[4] "%1 poll"
+
+#. +> trunk6 stable6
+#: game.cpp:1758
+#, fuzzy, kde-format
+#| msgid "Course Information"
+msgctxt "@title:window"
+msgid "Course Information"
+msgstr "Eolas faoin Chúrsa"
+
+#. +> trunk6 stable6
+#: game.cpp:1876
+#, kde-format
+msgid "This hole uses the following plugins, which you do not have installed:"
+msgstr "Baineann an poll seo úsáid as na breiseáin seo a leanas, ach níl siad suiteáilte agat:"
+
+#. +> trunk6 stable6
+#: game.cpp:1989
+#, kde-format
+msgid "There are unsaved changes to current hole. Save them?"
+msgstr "Athraíodh an poll reatha gan sábháil. Sábháil iad?"
+
+#. +> trunk6 stable6
+#: game.cpp:1990
+#, fuzzy, kde-format
+#| msgid "Unsaved Changes"
+msgctxt "@title:window"
+msgid "Unsaved Changes"
+msgstr "Athruithe gan sábháil"
+
+#. +> trunk6 stable6
+#: game.cpp:1992
+#, fuzzy, kde-format
+#| msgid "Save &Later"
+msgctxt "@action:button"
+msgid "Save &Later"
+msgstr "Sábháil Ar &Ball"
+
+#. +> trunk6 stable6
+#: game.cpp:2165 kolf.cpp:552
+#, fuzzy, kde-format
+#| msgid "Pick Kolf Course to Save To"
+msgctxt "@title:window"
+msgid "Pick Kolf Course to Save To"
+msgstr "Roghnaigh Cúrsa Kolf ina Sábhálfar é"
+
+#. +> trunk6 stable6
+#: kcomboboxdialog.cpp:60
+#, fuzzy, kde-format
+#| msgid "&Do not ask again"
+msgctxt "@option:check"
+msgid "&Do not ask again"
+msgstr "&Ná fiafraigh díom arís"
+
+#. +> trunk6 stable6
+#: kolf.cpp:63
+#, kde-format
+msgid "Slope"
+msgstr "Fána"
+
+#. +> trunk6 stable6
+#: kolf.cpp:64
+#, kde-format
+msgid "Puddle"
+msgstr "Locháinín"
+
+#. +> trunk6 stable6
+#: kolf.cpp:65
+#, kde-format
+msgid "Wall"
+msgstr "Balla"
+
+#. +> trunk6 stable6
+#: kolf.cpp:66
+#, kde-format
+msgid "Cup"
+msgstr "Poll"
+
+#. +> trunk6 stable6
+#: kolf.cpp:67
+#, kde-format
+msgid "Sand"
+msgstr "Gaineamh"
+
+#. +> trunk6 stable6
+#: kolf.cpp:68
+#, kde-format
+msgid "Windmill"
+msgstr "Muileann Gaoithe"
+
+#. +> trunk6 stable6
+#: kolf.cpp:69
+#, kde-format
+msgid "Black Hole"
+msgstr "Dúpholl"
+
+#. +> trunk6 stable6
+#: kolf.cpp:70
+#, kde-format
+msgid "Floater"
+msgstr "Ardán Beo"
+
+#. +> trunk6 stable6
+#: kolf.cpp:71
+#, kde-format
+msgid "Bridge"
+msgstr "Droichead"
+
+#. +> trunk6 stable6
+#: kolf.cpp:72
+#, kde-format
+msgid "Sign"
+msgstr "Sínigh"
+
+#. +> trunk6 stable6
+#: kolf.cpp:73
+#, kde-format
+msgid "Bumper"
+msgstr "Tuairteoir"
+
+#. +> trunk6 stable6
+#: kolf.cpp:96
+#, fuzzy, kde-format
+#| msgid "Save &Course"
+msgctxt "@action"
+msgid "Save &Course"
+msgstr "Sábháil &Cúrsa"
+
+#. +> trunk6 stable6
+#: kolf.cpp:98
+#, fuzzy, kde-format
+#| msgid "Save &Course As..."
+msgctxt "@action"
+msgid "Save &Course As…"
+msgstr "Sábháil &Cúrsa Mar..."
+
+#. +> trunk6 stable6
+#: kolf.cpp:101
+#, fuzzy, kde-format
+#| msgid "&Save Game"
+msgctxt "@action"
+msgid "&Save Game"
+msgstr "&Sábháil Cluiche"
+
+#. +> trunk6 stable6
+#: kolf.cpp:104
+#, fuzzy, kde-format
+#| msgid "&Save Game As..."
+msgctxt "@action"
+msgid "&Save Game As…"
+msgstr "&Sábháil Cluiche Mar..."
+
+#. +> trunk6 stable6
+#: kolf.cpp:111
+#, fuzzy, kde-format
+#| msgid "&Edit"
+msgctxt "@option:check"
+msgid "&Edit"
+msgstr "&Eagar"
+
+#. +> trunk6 stable6
+#: kolf.cpp:117
+#, fuzzy, kde-format
+#| msgid "&New"
+msgctxt "@action"
+msgid "&New"
+msgstr "&Nua"
+
+#. +> trunk6 stable6
+#: kolf.cpp:126
+#, fuzzy, kde-format
+#| msgid "&Reset"
+msgctxt "@action"
+msgid "&Reset"
+msgstr "Athshoc&raigh"
+
+#. +> trunk6 stable6
+#: kolf.cpp:131
+#, fuzzy, kde-format
+#| msgid "&Undo Shot"
+msgctxt "@action"
+msgid "&Undo Shot"
+msgstr "&Cealaigh Buille"
+
+#. i18nc("@action", "&Replay Shot"), 0, this, SLOT(emptySlot()), actionCollection(), "replay");
+#. Go
+#. +> trunk6 stable6
+#: kolf.cpp:135
+#, fuzzy, kde-format
+#| msgid "Switch to Hole"
+msgctxt "@title:menu"
+msgid "Switch to Hole"
+msgstr "Léim go Poll"
+
+#. +> trunk6 stable6
+#: kolf.cpp:140
+#, fuzzy, kde-format
+#| msgid "&Next Hole"
+msgctxt "@action"
+msgid "&Next Hole"
+msgstr "A&n Chéad Pholl Eile"
+
+#. +> trunk6 stable6
+#: kolf.cpp:145
+#, fuzzy, kde-format
+#| msgid "&Previous Hole"
+msgctxt "@action"
+msgid "&Previous Hole"
+msgstr "An &Poll Roimhe Seo"
+
+#. +> trunk6 stable6
+#: kolf.cpp:150
+#, fuzzy, kde-format
+#| msgid "&First Hole"
+msgctxt "@action"
+msgid "&First Hole"
+msgstr "An &Chéad Pholl"
+
+#. +> trunk6 stable6
+#: kolf.cpp:154
+#, fuzzy, kde-format
+#| msgid "&Last Hole"
+msgctxt "@action"
+msgid "&Last Hole"
+msgstr "An Poll &Deiridh"
+
+#. +> trunk6 stable6
+#: kolf.cpp:159
+#, fuzzy, kde-format
+#| msgid "&Random Hole"
+msgctxt "@action"
+msgid "&Random Hole"
+msgstr "Poll &Randamach"
+
+#. +> trunk6 stable6
+#: kolf.cpp:163
+#, fuzzy, kde-format
+#| msgid "Enable &Mouse for Moving Putter"
+msgctxt "@option:check"
+msgid "Enable &Mouse for Moving Putter"
+msgstr "Úsáid an &Luch chun an tAmasán a bhogadh"
+
+#. +> trunk6 stable6
+#: kolf.cpp:170
+#, fuzzy, kde-format
+#| msgid "Enable &Advanced Putting"
+msgctxt "@option:check"
+msgid "Enable &Advanced Putting"
+msgstr "Cumasaigh &Amasú Casta"
+
+#. +> trunk6 stable6
+#: kolf.cpp:176
+#, fuzzy, kde-format
+#| msgid "Show &Info"
+msgctxt "@option:check"
+msgid "Show &Info"
+msgstr "Ta&ispeáin Eolas"
+
+#. +> trunk6 stable6
+#: kolf.cpp:183
+#, fuzzy, kde-format
+#| msgid "Show Putter &Guideline"
+msgctxt "@option:check"
+msgid "Show Putter &Guideline"
+msgstr "Taispeáin &Treoirlíne an Amasáin"
+
+#. +> trunk6 stable6
+#: kolf.cpp:189
+#, fuzzy, kde-format
+#| msgid "Enable All Dialog Boxes"
+msgctxt "@option:check"
+msgid "Enable All Dialog Boxes"
+msgstr "Cumasaigh Gach Dialóg"
+
+#. +> trunk6 stable6
+#: kolf.cpp:194
+#, fuzzy, kde-format
+#| msgid "Play &Sounds"
+msgctxt "@option:check"
+msgid "Play Sounds"
+msgstr "Le &Fuaim"
+
+#. +> trunk6 stable6
+#: kolf.cpp:201
+#, fuzzy, kde-format
+#| msgid "&About Course"
+msgctxt "@action"
+msgid "&About Course"
+msgstr "&Maidir Leis an gCúrsa Seo"
+
+#. +> trunk6 stable6
+#: kolf.cpp:204
+#, fuzzy, kde-format
+#| msgid "&Tutorial"
+msgctxt "@action"
+msgid "&Tutorial"
+msgstr "Cúrsa &Teagaisc"
+
+# OK as is (Fiontar/FS)
+#. +> trunk6 stable6
+#: kolf.cpp:454 kolf.cpp:498 kolf.cpp:525 newgame.cpp:250
+#, kde-format
+msgid "Par"
+msgstr "Par"
+
+#. +> trunk6 stable6
+#: kolf.cpp:485
+#, fuzzy, kde-format
+#| msgid " and "
+msgctxt "@item:intext winners"
+msgid " and "
+msgstr " agus "
+
+#. +> trunk6 stable6
+#: kolf.cpp:486
+#, kde-format
+msgid "%1 tied"
+msgstr "Tá %1 ar cothrom"
+
+#. +> trunk6 stable6
+#: kolf.cpp:489
+#, kde-format
+msgid "%1 won!"
+msgstr "Bhí an bua ag %1!"
+
+#. +> trunk6 stable6
+#: kolf.cpp:503 kolf.cpp:515 kolf.cpp:530 kolf.cpp:531 newgame.cpp:251
+#: newgame.cpp:252
+#, kde-format
+msgid "High Scores for %1"
+msgstr "Na Scóir Is Fearr ag %1"
+
+#. +> trunk6 stable6
+#: kolf.cpp:570
+#, fuzzy, kde-format
+#| msgid "Pick Saved Game to Save To"
+msgctxt "@title:window"
+msgid "Pick Saved Game to Save To"
+msgstr "Roghnaigh Cluiche Sábháilte ina Sábhálfar é"
+
+#. +> trunk6 stable6
+#: kolf.cpp:608
+#, fuzzy, kde-format
+#| msgid "Pick Kolf Saved Game"
+msgctxt "@title:window"
+msgid "Pick Kolf Saved Game"
+msgstr "Roghnaigh Cluiche Sábháilte Kolf"
+
+#. +> trunk6 stable6
+#: kolf.cpp:656
+#, kde-format
+msgid "%1's turn"
+msgstr "Is le %1 an imirt"
+
+#. +> trunk6 stable6
+#: kolf.cpp:728
+#, kde-format
+msgid "%1's score has reached the maximum for this hole."
+msgstr "Shroich %1 an líon uasta buillí ar an bpoll seo."
+
+#. i18n: ectx: Menu (hole)
+#. +> trunk6 stable6
+#: kolfui.rc:17
+#, kde-format
+msgid "Ho&le"
+msgstr "Po&ll"
+
+#. i18n: ectx: Menu (go_course)
+#. +> trunk6 stable6
+#: kolfui.rc:31
+#, kde-format
+msgid "&Go"
+msgstr "&Téigh"
+
+#. +> trunk6 stable6
+#: landscape.cpp:146
+#, fuzzy, kde-format
+#| msgid "Enable show/hide"
+msgctxt "@option:check"
+msgid "Enable show/hide"
+msgstr "Cumasaigh taispeáin/folaigh"
+
+#. +> trunk6 stable6
+#: landscape.cpp:151 obstacles.cpp:450 obstacles.cpp:468
+#, fuzzy, kde-format
+#| msgid "Slow"
+msgctxt "@item:inrange"
+msgid "Slow"
+msgstr "Mall"
+
+#. +> trunk6 stable6
+#: landscape.cpp:155 obstacles.cpp:454 obstacles.cpp:472
+#, fuzzy, kde-format
+#| msgid "Fast"
+msgctxt "@item:inrange"
+msgid "Fast"
+msgstr "Tapa"
+
+#. +> trunk6 stable6
+#: landscape.cpp:238
+#, kde-format
+msgid "Vertical"
+msgstr "Ingearach"
+
+#. +> trunk6 stable6
+#: landscape.cpp:239
+#, kde-format
+msgid "Horizontal"
+msgstr "Cothrománach"
+
+#. +> trunk6 stable6
+#: landscape.cpp:240
+#, kde-format
+msgid "Diagonal"
+msgstr "Trasnánach"
+
+#. +> trunk6 stable6
+#: landscape.cpp:241
+#, kde-format
+msgid "Opposite Diagonal"
+msgstr "An Trasnán Eile"
+
+#. +> trunk6 stable6
+#: landscape.cpp:242
+#, kde-format
+msgid "Elliptic"
+msgstr "Éilipseach"
+
+#. +> trunk6 stable6
+#: landscape.cpp:571
+#, fuzzy, kde-format
+#| msgid "Reverse direction"
+msgctxt "@option:check"
+msgid "Reverse direction"
+msgstr "Fritreo"
+
+#. +> trunk6 stable6
+#: landscape.cpp:576
+#, fuzzy, kde-format
+#| msgid "Unmovable"
+msgctxt "@option:check"
+msgid "Unmovable"
+msgstr "Dobhogtha"
+
+#. +> trunk6 stable6
+#: landscape.cpp:578
+#, fuzzy, kde-format
+#| msgid "Whether or not this slope can be moved by other objects, like floaters."
+msgctxt "@info:whatsthis"
+msgid "Whether or not this slope can be moved by other objects, like floaters."
+msgstr "Cé acu is féidir le réada eile, cosúil le hardáin bheo, an fhána seo a bhogadh, nó nach féidir."
+
+#. +> trunk6 stable6
+#: landscape.cpp:582
+#, fuzzy, kde-format
+#| msgid "Grade:"
+msgctxt "@lable:spinbox"
+msgid "Grade:"
+msgstr "Grád:"
+
+#. +> trunk6 stable6
+#: main.cpp:62
+#, kde-format
+msgid "Kolf"
+msgstr "Kolf"
+
+#. +> trunk6 stable6
+#: main.cpp:64
+#, kde-format
+msgid "KDE Minigolf Game"
+msgstr "Cluiche Mhionghalf KDE"
+
+#. +> trunk6 stable6
+#: main.cpp:66
+#, kde-format
+msgid "(c) 2002-2010, Kolf developers"
+msgstr "© 2002-2010, Forbróirí Kolf"
+
+#. +> trunk6 stable6
+#: main.cpp:70
+#, kde-format
+msgid "Stefan Majewsky"
+msgstr "Stefan Majewsky"
+
+#. +> trunk6 stable6
+#: main.cpp:70
+#, kde-format
+msgid "Current maintainer"
+msgstr "Cothaitheoir reatha"
+
+#. +> trunk6 stable6
+#: main.cpp:71
+#, kde-format
+msgid "Jason Katz-Brown"
+msgstr "Jason Katz-Brown"
+
+#. +> trunk6 stable6
+#: main.cpp:71
+#, kde-format
+msgid "Former main author"
+msgstr "Iar-Phríomhúdar"
+
+#. +> trunk6 stable6
+#: main.cpp:72
+#, kde-format
+msgid "Niklas Knutsson"
+msgstr "Niklas Knutsson"
+
+#. +> trunk6 stable6
+#: main.cpp:72
+#, kde-format
+msgid "Advanced putting mode"
+msgstr "Mód casta amasaithe"
+
+#. +> trunk6 stable6
+#: main.cpp:73
+#, kde-format
+msgid "Rik Hemsley"
+msgstr "Rik Hemsley"
+
+#. +> trunk6 stable6
+#: main.cpp:73
+#, kde-format
+msgid "Border around course"
+msgstr "Imlíne timpeall an chúrsa"
+
+#. +> trunk6 stable6
+#: main.cpp:74
+#, kde-format
+msgid "Timo A. Hummel"
+msgstr "Timo A. Hummel"
+
+#. +> trunk6 stable6
+#: main.cpp:74
+#, kde-format
+msgid "Some good sound effects"
+msgstr "Maisíochtaí fuaime den chéad scoth"
+
+#. +> trunk6 stable6
+#: main.cpp:76
+#, kde-format
+msgid "Rob Renaud"
+msgstr "Rob Renaud"
+
+#. +> trunk6 stable6
+#: main.cpp:76
+#, kde-format
+msgid "Wall-bouncing help"
+msgstr "Cabhair le hathphreabadh"
+
+#. +> trunk6 stable6
+#: main.cpp:77
+#, kde-format
+msgid "Aaron Seigo"
+msgstr "Aaron Seigo"
+
+#. +> trunk6 stable6
+#: main.cpp:77
+#, kde-format
+msgid "Suggestions, bug reports"
+msgstr "Moltaí, tuairiscí faoi fhabhtanna"
+
+#. +> trunk6 stable6
+#: main.cpp:78
+#, kde-format
+msgid "Erin Catto"
+msgstr "Erin Catto"
+
+#. +> trunk6 stable6
+#: main.cpp:78
+#, kde-format
+msgid "Developer of Box2D physics engine"
+msgstr "Forbróir an innill fisice Box2D"
+
+#. +> trunk6 stable6
+#: main.cpp:79
+#, kde-format
+msgid "Ryan Cumming"
+msgstr "Ryan Cumming"
+
+#. +> trunk6 stable6
+#: main.cpp:79
+#, kde-format
+msgid "Vector class (Kolf 1)"
+msgstr "Aicme veicteora (Kolf 1)"
+
+#. +> trunk6 stable6
+#: main.cpp:80
+#, kde-format
+msgid "Daniel Matza-Brown"
+msgstr "Daniel Matza-Brown"
+
+#. +> trunk6 stable6
+#: main.cpp:80
+#, kde-format
+msgid "Working wall-bouncing algorithm (Kolf 1)"
+msgstr "Algartam athphreabtha a oibríonn mar is ceart (Kolf 1)"
+
+#. +> trunk6 stable6
+#: main.cpp:88
+#, kde-format
+msgid "File"
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: main.cpp:89
+#, kde-format
+msgid "Print course information and exit"
+msgstr "Priontáil eolas faoin chúrsa agus scoir"
+
+#. +> trunk6 stable6
+#: main.cpp:107
+#, kde-format
+msgid "By %1"
+msgstr "Le %1"
+
+#. +> trunk6 stable6
+#: main.cpp:108
+#, kde-format
+msgid "%1 holes"
+msgstr "%1 poll"
+
+# OK as is (Fiontar/FS)
+#. +> trunk6 stable6
+#: main.cpp:109
+#, kde-format
+msgid "par %1"
+msgstr "par %1"
+
+#. +> trunk6 stable6
+#: main.cpp:116
+#, kde-format
+msgid "Course %1 does not exist."
+msgstr "Níl cúrsa %1 ann."
+
+#. +> trunk6 stable6
+#: newgame.cpp:40
+#, fuzzy, kde-format
+#| msgid "New Game"
+msgctxt "@title:window"
+msgid "New Game"
+msgstr "Cluiche Nua"
+
+#. +> trunk6 stable6
+#: newgame.cpp:56
+#, fuzzy, kde-format
+#| msgid "Players"
+msgctxt "@title:tab"
+msgid "Players"
+msgstr "Imreoirí"
+
+#. +> trunk6 stable6
+#: newgame.cpp:60
+#, fuzzy, kde-format
+#| msgid "&New Player"
+msgctxt "@action:button"
+msgid "&New Player"
+msgstr "Imreoir &Nua"
+
+#. +> trunk6 stable6
+#: newgame.cpp:95
+#, fuzzy, kde-format
+#| msgid "Course"
+msgctxt "@title:tab"
+msgid "Course"
+msgstr "Cúrsa"
+
+#. +> trunk6 stable6
+#: newgame.cpp:96
+#, fuzzy, kde-format
+#| msgid "Choose Course to Play"
+msgctxt "@title"
+msgid "Choose Course to Play"
+msgstr "Roghnaigh Cúrsa"
+
+#. +> trunk6 stable6
+#: newgame.cpp:135
+#, fuzzy, kde-format
+#| msgid "Create New"
+msgctxt "@item"
+msgid "<Create New>"
+msgstr "Cruthaigh Nua"
+
+#. +> trunk6 stable6
+#: newgame.cpp:136
+#, kde-format
+msgid "You"
+msgstr "Tusa"
+
+#. +> trunk6 stable6
+#: newgame.cpp:162
+#, fuzzy, kde-format
+#| msgid "Highscores"
+msgctxt "@action:button"
+msgid "Highscores"
+msgstr "Na scóir is fearr"
+
+#. +> trunk6 stable6
+#: newgame.cpp:172
+#, kde-format
+msgctxt "@action:button"
+msgid "Add…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: newgame.cpp:176 newgame.cpp:365
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Bain"
+
+#. +> trunk6 stable6
+#: newgame.cpp:186
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "@title:tab"
+msgid "Options"
+msgstr "Roghanna"
+
+#. +> trunk6 stable6
+#: newgame.cpp:187
+#, fuzzy, kde-format
+#| msgid "Game Options"
+msgctxt "@title"
+msgid "Game Options"
+msgstr "Roghanna Cluiche"
+
+#. +> trunk6 stable6
+#: newgame.cpp:192
+#, fuzzy, kde-format
+#| msgid "&Strict mode"
+msgctxt "@option:check"
+msgid "&Strict mode"
+msgstr "Mód &daingean"
+
+#. +> trunk6 stable6
+#: newgame.cpp:196
+#, kde-format
+msgid "In strict mode, undo, editing, and switching holes is not allowed. This is generally for competition. Only in strict mode are highscores kept."
+msgstr "Sa mhód docht, ní cheadaítear duit poill a chealú, a chur in eagar, nó a mhalartú. Ar son an chomórtais é seo go ginearálta. Coinnítear na scóir is airde sa mhód docht amháin."
+
+#. +> trunk6 stable6
+#: newgame.cpp:242
+#, fuzzy, kde-format
+#| msgid "By %1"
+msgctxt "@info author attribution"
+msgid "By %1"
+msgstr "Le %1"
+
+# OK as is (Fiontar/FS)
+#. +> trunk6 stable6
+#: newgame.cpp:243
+#, fuzzy, kde-format
+#| msgid "Par %1"
+msgctxt "@info"
+msgid "Par %1"
+msgstr "Par %1"
+
+#. +> trunk6 stable6
+#: newgame.cpp:244
+#, fuzzy, kde-format
+#| msgid "%1 Holes"
+msgctxt "@info"
+msgid "1 Hole"
+msgid_plural "%1 Holes"
+msgstr[0] "%1 Poll"
+msgstr[1] "%1 Poll"
+msgstr[2] "%1 Poll"
+msgstr[3] "%1 Poll"
+msgstr[4] "%1 Poll"
+
+#. +> trunk6 stable6
+#: newgame.cpp:282
+#, fuzzy, kde-format
+#| msgid "Pick Kolf Course"
+msgctxt "@title:window"
+msgid "Pick Kolf Course"
+msgstr "Roghnaigh Cúrsa Kolf"
+
+#. +> trunk6 stable6
+#: newgame.cpp:310
+#, kde-format
+msgid "Chosen course is already on course list."
+msgstr "Tá an cúrsa roghnaithe ar liosta na gcúrsaí cheana."
+
+#. +> trunk6 stable6
+#: newgame.cpp:323
+#, kde-format
+msgid "Player %1"
+msgstr "Imreoir %1"
+
+#. +> trunk6 stable6
+#: objects.cpp:244
+#, fuzzy, kde-format
+#| msgid " degree"
+#| msgid_plural " degrees"
+msgctxt "@item:valuesuffix"
+msgid " degree"
+msgid_plural " degrees"
+msgstr[0] " chéim"
+msgstr[1] " chéim"
+msgstr[2] " chéim"
+msgstr[3] " gcéim"
+msgstr[4] " céim"
+
+#. +> trunk6 stable6
+#: objects.cpp:247
+#, fuzzy, kde-format
+#| msgid "Exiting ball angle:"
+msgctxt "@label:spinbox"
+msgid "Exiting ball angle:"
+msgstr "Uillinn na liathróide ar an tslí amach:"
+
+#. +> trunk6 stable6
+#: objects.cpp:267
+#, fuzzy, kde-format
+#| msgid "Minimum exit speed:"
+msgctxt "@label:spinbox"
+msgid "Minimum exit speed:"
+msgstr "Luas íosta ar an tslí amach:"
+
+#. +> trunk6 stable6
+#: objects.cpp:288
+#, fuzzy, kde-format
+#| msgid "Maximum exit speed:"
+msgctxt "@label:spinbox"
+msgid "Maximum exit speed:"
+msgstr "Luas uasta ar an tslí amach:"
+
+#. +> trunk6 stable6
+#: obstacles.cpp:412
+#, fuzzy
+#| msgid "&Top"
+msgctxt "@option:check wall on"
+msgid "&Top"
+msgstr "&Barr"
+
+#. +> trunk6 stable6
+#: obstacles.cpp:413
+#, fuzzy
+#| msgid "&Left"
+msgctxt "@option:check wall on"
+msgid "&Left"
+msgstr "Ar &Chlé"
+
+#. +> trunk6 stable6
+#: obstacles.cpp:414
+#, fuzzy
+#| msgid "&Right"
+msgctxt "@option:check wall on"
+msgid "&Right"
+msgstr "Ar &Dheis"
+
+#. +> trunk6 stable6
+#: obstacles.cpp:415
+#, fuzzy
+#| msgid "&Bottom"
+msgctxt "@option:check wall on"
+msgid "&Bottom"
+msgstr "&Bun"
+
+#. +> trunk6 stable6
+#: obstacles.cpp:425
+#, fuzzy, kde-format
+#| msgid "Walls on:"
+msgctxt "@label:chooser"
+msgid "Walls on:"
+msgstr "Ballaí:"
+
+#. +> trunk6 stable6
+#: obstacles.cpp:435
+#, fuzzy, kde-format
+#| msgid "Sign HTML:"
+msgctxt "@label:textbox"
+msgid "Sign HTML:"
+msgstr "Sínigh HTML:"
+
+#. +> trunk6 stable6
+#: obstacles.cpp:444
+#, fuzzy, kde-format
+#| msgid "Windmill on top"
+msgctxt "@option:check"
+msgid "Windmill on top"
+msgstr "Muileann gaoithe ag an mbarr"
+
+#. +> trunk6 stable6
+#: obstacles.cpp:465
+#, fuzzy, kde-format
+#| msgid "Moving speed"
+msgctxt "@label:slider"
+msgid "Moving speed"
+msgstr "Luas bogtha"
+
+#. +> trunk6 stable6
+#: obstacles.cpp:685
+#, kde-format
+msgid "New Text"
+msgstr "Téacs Nua"
+
+# OK as is (Fiontar/FS)
+#. +> trunk6 stable6
+#: scoreboard.cpp:27
+#, fuzzy, kde-format
+#| msgid "Par"
+msgctxt "@title:row"
+msgid "Par"
+msgstr "Par"
+
+#. +> trunk6 stable6
+#: scoreboard.cpp:28
+#, fuzzy, kde-format
+#| msgid "Total"
+msgctxt "@title:column"
+msgid "Total"
+msgstr "Iomlán"

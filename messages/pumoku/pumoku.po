@@ -1,0 +1,524 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the pumoku package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: pumoku\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-20 09:13+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:200
+#, kde-format
+msgid "There is your solution"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:201
+#, kde-format
+msgctxt "%1 is step count"
+msgid "You gave in after %1 steps."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:202
+#, kde-format
+msgctxt "%1 is hint count"
+msgid "Automatically solved. Hints: %1."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:205 contents/ui/GamePage.qml:215
+#, kde-format
+msgid "Well done!"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:206
+#, kde-format
+msgctxt "%1 is level name, %2 is step count"
+msgid "You finished this %1 Sudoku (with a bit of help) using %2 steps."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:208
+#, kde-format
+msgid "Auto pencilmarks used."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:210
+#, kde-format
+msgctxt "%1 is hint count"
+msgid "Hints: %1."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:213
+#, kde-format
+msgid "CONGRATULATIONS!!"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:214
+#, kde-format
+msgctxt "%1 is level name, %2 is step count"
+msgid "You finished this %1 Sudoku with no hints or help using %2 steps."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:464
+#, kde-format
+msgctxt "@action:button"
+msgid "Undo"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:473
+#, kde-format
+msgctxt "@action:button"
+msgid "Redo"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:482
+#, kde-format
+msgctxt "@action:button"
+msgid "Hint"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:488
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Solve Cell"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:501
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Solve Game"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:505
+#, kde-format
+msgctxt "@title:window"
+msgid "Solve Game?"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:506
+#, kde-format
+msgid "You will lose any changes you have made, this cannot be undone. You can’t solve the puzzle on your own!"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:515
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set Pencilmarks"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:560
+#, kde-format
+msgctxt "@action:button"
+msgid "Pencil"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:568
+#, kde-format
+msgctxt "@action:button"
+msgid "Erase"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:576
+#, kde-format
+msgctxt "@action:button"
+msgid "Game"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:582
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reset Game"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:586
+#, kde-format
+msgctxt "@title:window"
+msgid "Reset Game?"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:587 contents/ui/GamePage.qml:605
+#, kde-format
+msgid "You will lose any changes you have made, this cannot be undone."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:596
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Clear Pencilmarks"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:600
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Give Up"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:604
+#, kde-format
+msgctxt "@title:window"
+msgid "Give Up?"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:687
+#, kde-format
+msgctxt "@action:button, %1 is level name"
+msgid "Another %1"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:700
+#, kde-format
+msgid "Please select a valid cell to solve."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/GamePage.qml:703
+#, kde-format
+msgid "Solve"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Import.qml:13
+#, kde-format
+msgctxt "@title:window"
+msgid "Import Sudoku"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Import.qml:35
+#, kde-format
+msgctxt "Use en dash for number range"
+msgid ""
+"Enter or paste a string of 81 characters. 1–9 for given cells, 0 or any single non-numeric character except space will do for blanks cells. PuMoKu will check that the Sudoku is solvable and calculate the level.\n"
+"\n"
+"Line breaks and spaces are silently removed, so that you can enter one row per-line with some optional whitespace."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Import.qml:45
+#, kde-format
+msgctxt "@button:title"
+msgid "Save current game"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Import.qml:53
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Import.qml:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Import"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Import.qml:66
+#, kde-format
+msgid "The provided string is not exactly 81 characters after cleanup. Please amend."
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/MainMenu.qml:15
+#, kde-format
+msgctxt "@title:window"
+msgid "Pumoku Menu"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/MainMenu.qml:56
+#, kde-format
+msgid "Save game?"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/MainMenu.qml:57
+#, kde-format
+msgid "Would you like to save the current game, so it can be continued later?"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/MainMenu.qml:87
+#, kde-format
+msgid "New Sudoku:"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/MainMenu.qml:105
+#, kde-format
+msgid "Import or enter:"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/MainMenu.qml:111
+#, kde-format
+msgctxt "@action:button"
+msgid "Import Sudoku …"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/MainMenu.qml:118
+#, kde-format
+msgctxt "@action:button"
+msgid "Enter Sudoku …"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/MainMenu.qml:125
+#, kde-format
+msgctxt "@action:button"
+msgid "Continue:"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:14
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:17
+#, kde-format
+msgctxt "@title"
+msgid "Game"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:22
+#, kde-format
+msgctxt "@option:check"
+msgid "Reset time with game"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:30
+#, kde-format
+msgctxt "@option:check"
+msgid "Clean up pencil marks when setting a cell value"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:40
+#, kde-format
+msgctxt "@title"
+msgid "Highlight"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:44
+#, kde-format
+msgctxt "@option:check"
+msgid "Houses of a selected cell"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:52
+#, kde-format
+msgctxt "@option:check"
+msgid "Cells with active digit"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:60
+#, kde-format
+msgctxt "@option:check"
+msgid "Cells with active digit pencilmark"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:68
+#, kde-format
+msgctxt "@option:check"
+msgid "Logical errors in values"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:76
+#, kde-format
+msgctxt "@option:check"
+msgid "Logical errors in pencilmarks"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:87
+#, kde-format
+msgctxt "@option:check"
+msgid "Erasable cells with eraser active"
+msgstr ""
+
+#. +> trunk6
+#: contents/ui/Settings.qml:95
+#, kde-format
+msgctxt "@option:check"
+msgid "Wrong values"
+msgstr ""
+
+#. +> trunk6
+#: main.cpp:75
+#, kde-format
+msgctxt "@title"
+msgid "PuMoKu"
+msgstr ""
+
+#. +> trunk6
+#: main.cpp:79 main.cpp:93
+#, kde-format
+msgid "PuMoKu is a classic Sudoku game, aimed for Plasma Mobile"
+msgstr ""
+
+#. +> trunk6
+#: main.cpp:83
+#, kde-format
+msgid "© 2025 KDE Developers"
+msgstr ""
+
+#. +> trunk6
+#: main.cpp:84
+#, kde-format
+msgctxt "@info:credit"
+msgid "Anders Lund"
+msgstr ""
+
+#. +> trunk6
+#: main.cpp:84
+#, kde-format
+msgctxt "@info:credit"
+msgid "Maintainer"
+msgstr ""
+
+#. +> trunk6
+#: main.cpp:85
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6
+#: main.cpp:85
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:11
+#, kde-format
+msgid "UNKNOWN"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:11
+#, kde-format
+msgid "Simple"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:11
+#, kde-format
+msgid "Easy"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:11
+#, kde-format
+msgid "Intermediate"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:11
+#, kde-format
+msgid "Expert"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:12
+#, kde-format
+msgid "None"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:12
+#, kde-format
+msgid "Rotate 90°"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:12
+#, kde-format
+msgid "Rotate 180°"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:12
+#, kde-format
+msgid "Mirror"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:12
+#, kde-format
+msgid "Flip"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:12
+#, kde-format
+msgid "Random"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:74
+#, kde-format
+msgid "Looking good. Difficulty:"
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:77
+#, kde-format
+msgid "The provided Sudoku does not have a unique solution."
+msgstr ""
+
+#. +> trunk6
+#: qqw.cpp:81
+#, kde-format
+msgid "The provided Sudoku is not solvable."
+msgstr ""

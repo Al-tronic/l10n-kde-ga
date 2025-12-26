@@ -1,0 +1,446 @@
+# translation of desktop_kdebase.po to Irish
+# Kevin Scannell <kscanne@gmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-12 08:14+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> stable5
+#: app/khotkeys.desktop:2
+msgctxt "Name"
+msgid "Input Actions"
+msgstr "Gníomhartha Ionchurtha"
+
+#. +> stable5
+#: app/khotkeys.desktop:85
+msgctxt "Comment"
+msgid "Input Actions service performing configured actions on key presses"
+msgstr ""
+
+#. +> stable5
+#: data/defaults.khotkeys:5 data/defaults.khotkeys:157
+msgctxt "Comment"
+msgid "Comment"
+msgstr "Nóta"
+
+#. +> stable5
+#: data/defaults.khotkeys:78
+msgctxt "Name"
+msgid "KMenuEdit"
+msgstr "KMenuEdit"
+
+#. +> stable5
+#: data/defaults.khotkeys:229
+msgctxt "Name"
+msgid "Search"
+msgstr "Cuardach"
+
+#. +> stable5
+#: data/defaults.khotkeys:315 data/kde32b1.khotkeys:521
+#: data/kde32b1.khotkeys:763 data/kde32b1.khotkeys:1019
+#: data/kde32b1.khotkeys:1530 data/kde32b1.khotkeys:1947
+#: data/kde32b1.khotkeys:3345
+msgctxt "Comment"
+msgid "Simple_action"
+msgstr "Gníomh simplí"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:5
+msgctxt "Comment"
+msgid "This group contains various examples demonstrating most of the features of KHotkeys. (Note that this group and all its actions are disabled by default.)"
+msgstr "Sa ghrúpa seo, aimseoidh tú samplaí éagsúla a léiríonn formhór na ngnéithe KHotkeys. (Tabhair faoi deara go bhfuil an grúpa seo agus a ghníomhartha go léir díchumasaithe de réir réamhshocraithe.)"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:79
+msgctxt "Name"
+msgid "Examples"
+msgstr "Samplaí"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:172
+msgctxt "Comment"
+msgid "After pressing Ctrl+Alt+I, the KSIRC window will be activated, if it exists. Simple."
+msgstr "Tar éis duit Ctrl+Alt+I a bhrú, gníomhachtófar an fhuinneog KSIRC, má tá sé ann. Simplí."
+
+#. +> stable5
+#: data/kde32b1.khotkeys:249
+msgctxt "Name"
+msgid "Activate KSIRC Window"
+msgstr "Gníomhachtaigh Fuinneog KSIRC"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:338
+msgctxt "Comment"
+msgid "KSIRC window"
+msgstr "Fuinneog KSIRC"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:426
+msgctxt "Comment"
+msgid "KSIRC"
+msgstr "KSIRC"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:605
+msgctxt "Comment"
+msgid "After pressing Alt+Ctrl+H the input of 'Hello' will be simulated, as if you typed it.  This is especially useful if you have call to frequently type a word (for instance, 'unsigned').  Every keypress in the input is separated by a colon ':'. Note that the keypresses literally mean keypresses, so you have to write what you would press on the keyboard. In the table below, the left column shows the input and the right column shows what to type.\\n\\n\"enter\" (i.e. new line)                Enter or Return\\na (i.e. small a)                          A\\nA (i.e. capital a)                       Shift+A\\n: (colon)                                  Shift+;\\n' '  (space)                              Space"
+msgstr "Tar éis duit Alt+Ctrl+H a bhrú, déanfar insamhladh ar ionchur 'Hello' go díreach mar a chlóscríobh tú é. Is úsáideach é seo go háirithe má tá ort focal éigin a chlóscríobh go minic (mar shampla, 'unsigned').  Cuir idirstad ':' idir gach eochairbhrú san ionchur. Tabhair faoi deara go gciallaíonn 'eochairbhrúnna' na heochracha féin a bhrúitear, agus dá bhrí sin ní mór duit a chur isteach na rudaí a chlóscríobhfá ar an méarchlár. Sa tábla thíos, feicfidh tú an t-ionchur sa cholún ar chlé agus na heochracha le brú ar dheis.\\n\\n\"enter\" (.i. líne nua)                 Enter nó Return\\na (.i. 'a' beag)                        A\\nA (.i. 'a' mór)                        Shift+A\\n: (idirstad)                           Shift+;\\n' '  (spás)                            Spásbharra"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:669
+msgctxt "Name"
+msgid "Type 'Hello'"
+msgstr "Clóscríobh 'Hello'"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:847
+msgctxt "Comment"
+msgid "This action runs Konsole, after pressing Ctrl+Alt+T."
+msgstr "Ritheann an gníomh seo Konsole tar éis Ctrl+Alt+T a bhrú."
+
+#. +> stable5
+#: data/kde32b1.khotkeys:924
+msgctxt "Name"
+msgid "Run Konsole"
+msgstr "Rith Konsole"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:1103
+msgctxt "Comment"
+msgid "Read the comment on the \"Type 'Hello'\" action first.\\n\\nQt Designer uses Ctrl+F4 for closing windows.  In KDE, however, Ctrl+F4 is the shortcut for going to virtual desktop 4, so this shortcut does not work in Qt Designer.  Further, Qt Designer does not use KDE's standard Ctrl+W for closing the window.\\n\\nThis problem can be solved by remapping Ctrl+W to Ctrl+F4 when the active window is Qt Designer. When Qt Designer is active, every time Ctrl+W is pressed, Ctrl+F4 will be sent to Qt Designer instead. In other applications, the effect of Ctrl+W is unchanged.\\n\\nWe now need to specify three things: A new shortcut trigger on 'Ctrl+W', a new keyboard input action sending Ctrl+F4, and a new condition that the active window is Qt Designer.\\nQt Designer seems to always have title 'Qt Designer by Trolltech', so the condition will check for the active window having that title."
+msgstr "Léigh an nóta a bhaineann leis an ngníomh \"Clóscríobh 'Hello'\" ar dtús.\\n\\nÚsáideann Qt Designer Ctrl+F4 chun fuinneoga a dhúnadh.  Ach i KDE, osclaíonn Ctrl+F4 deasc fhíorúil 4 agus dá bhrí sin ní oibríonn sé i Qt Designer.  Agus freisin ní úsáideann Qt Designer an t-aicearra (Ctrl+W) chun fuinneog a dhúnadh atá caighdeánach i KDE.\\n\\nIs féidir an fhadhb seo a réiteach trí Ctrl+W a mhapáil go dtí Ctrl+F4 nuair is é Qt Designer an fhuinneog ghníomhach. Nuair atá Qt Designer gníomhach, seolfar Ctrl+F4 chuig Qt Designer in ionad Ctrl+W gach uair a bhrúitear Ctrl+W. I bhfeidhmchláir eile, oibríonn Ctrl+W mar is gnách.\\n\\nCaithfidh muid trí rud a shonrú anois: truicear nua don aicearra 'Ctrl+W', gníomh nua ionchurtha a sheolann Ctrl+F4, agus coinníoll nua a deir gur é Qt Designer an fhuinneog ghníomhach.\\nDe réir cosúlachta, is é 'Qt Designer by Trolltech' an teideal ar Qt Designer i gcónaí agus dá bhrí sin seiceálfaidh an coinníoll go bhfuil an teideal seo ag an bhfuinneog ghníomhach."
+
+#. +> stable5
+#: data/kde32b1.khotkeys:1158
+msgctxt "Name"
+msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
+msgstr "Athmhapáil Ctrl+W go Ctrl+F4 i Qt Designer"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:1250
+msgctxt "Comment"
+msgid "Qt Designer"
+msgstr "Qt Designer"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:1339
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Qt Designer"
+msgctxt "Title"
+msgid "Qt Designer by Trolltech"
+msgstr "Qt Designer"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:1391
+msgctxt "Comment"
+msgid "By pressing Alt+Ctrl+W a D-Bus call will be performed that will show the minicli. You can use any kind of D-Bus call, just like using the command line 'qdbus' tool."
+msgstr "Trí Alt+Ctrl+W a bhrú, déanfar glao D-Bus a thaispeánann an minicli. Is féidir leat aon sórt glao D-Bus a úsáid, go díreach mar a dhéanfá le 'qdbus' ar líne na n-orduithe."
+
+#. +> stable5
+#: data/kde32b1.khotkeys:1458
+msgctxt "Name"
+msgid "Perform D-Bus call 'qdbus org.kde.krunner /App display'"
+msgstr ""
+
+#. +> stable5
+#: data/kde32b1.khotkeys:1614
+msgctxt "Comment"
+msgid "Read the comment on the \"Type 'Hello'\" action first.\\n\\nJust like the \"Type 'Hello'\" action, this one simulates keyboard input, specifically, after pressing Ctrl+Alt+B, it sends B to XMMS (B in XMMS jumps to the next song). The 'Send to specific window' checkbox is checked and a window with its class containing 'XMMS_Player' is specified; this will make the input always be sent to this window. This way, you can control XMMS even if, for instance, it is on a different virtual desktop.\\n\\n(Run 'xprop' and click on the XMMS window and search for WM_CLASS to see 'XMMS_Player')."
+msgstr "Léigh an nóta a bhaineann leis an ngníomh \"Clóscríobh 'Hello'\" ar dtús.\\n\\nDíreach cosúil leis an ngníomh \"Clóscríobh 'Hello'\", déanann an gníomh seo insamhladh ar ionchur ón mhéarchlár.  Go sonrach, tar éis Ctrl+Alt+B a bhrú, seolann sé 'B' chuig XMMS (ciallaíonn 'B' 'Léim go dtí an chéad amhrán eile' i XMMS). Cuirtear tic sa ticbhosca 'Seol chuig fuinneog ar leith' agus tá fuinneog ann lena aicme agus a bhfuil 'XMMS_Player' inti sonraithe; leis seo, seolfar an t-ionchur chuig an bhfuinneog seo i gcónaí. Sa chaoi seo, is féidir leat XMMS a rialú fiú má tá sé ar dheasc fhíorúil eile, mar shampla.\\n\\n(Rith 'xprop' agus cliceáil an fhuinneog XMMS agus déan cuardach ar WM_CLASS chun 'XMMS_Player' a fheiceáil)."
+
+#. +> stable5
+#: data/kde32b1.khotkeys:1675
+msgctxt "Name"
+msgid "Next in XMMS"
+msgstr "An Chéad Amhrán Eile i XMMS"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:1767
+msgctxt "Comment"
+msgid "XMMS window"
+msgstr "Fuinneog XMMS"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:1855
+msgctxt "Comment"
+msgid "XMMS Player window"
+msgstr "Fuinneog Sheinnteoir XMMS"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:2031
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Konqueror in KDE3.1 has tabs, and now you can also have gestures.\\n\\nJust press the middle mouse button and start drawing one of the gestures, and after you are finished, release the mouse button. If you only need to paste the selection, it still works, just click the middle mouse button. (You can change the mouse button to use in the global settings).\\n\\nRight now, there are the following gestures available:\\nmove right and back left - Forward (Alt+Right)\\nmove left and back right - Back (Alt+Left)\\nmove up and back down  - Up (Alt+Up)\\ncircle anticlockwise - Reload (F5)\\n\\nThe gesture shapes can be entered by performing them in the configuration dialog. You can also look at your numeric pad to help you: gestures are recognized like a 3x3 grid of fields, numbered 1 to 9.\\n\\nNote that you must perform exactly the gesture to trigger the action. Because of this, it is possible to enter more gestures for the action. You should try to avoid complicated gestures where you change the direction of mouse movement more than once.  For instance, 45654 or 74123 are simple to perform, but 1236987 may be already quite difficult.\\n\\nThe conditions for all gestures are defined in this group. All these gestures are active only if the active window is Konqueror (class contains 'konqueror')."
+msgctxt "Comment"
+msgid "Konqueror in KDE3.1 has tabs, and now you can also have gestures.\\n\\nJust press the middle mouse button and start drawing one of the gestures, and after you are finished, release the mouse button. If you only need to paste the selection, it still works, just click the middle mouse button. (You can change the mouse button to use in the global settings).\\n\\nRight now, there are the following gestures available:\\nmove right and back left - Forward (Alt+Right)\\nmove left and back right - Back (Alt+Left)\\nmove up and back down  - Up (Alt+Up)\\ncircle counterclockwise - Reload (F5)\\n\\nThe gesture shapes can be entered by performing them in the configuration dialog. You can also look at your numeric pad to help you: gestures are recognized like a 3x3 grid of fields, numbered 1 to 9.\\n\\nNote that you must perform exactly the gesture to trigger the action. Because of this, it is possible to enter more gestures for the action. You should try to avoid complicated gestures where you change the direction of mouse movement more than once.  For instance, 45654 or 74123 are simple to perform, but 1236987 may be already quite difficult.\\n\\nThe conditions for all gestures are defined in this group. All these gestures are active only if the active window is Konqueror (class contains 'konqueror')."
+msgstr "Tá cluaisíní ag Konqi i KDE3.1, agus anois is féidir leat gothaí a úsáid freisin.\\n\\nNíl ort ach an cnaipe luiche sa lár a bhrú, ceann de na gothaí a dhearadh, agus an cnaipe a scaoileadh nuair a bheidh tú críochnaithe. Mura mian leat ach an roghnúchán a ghreamú, oibríonn sé mar is gnách má chliceálann tú an cnaipe sa lár amháin. (Is féidir an cnaipe luiche a athrú sna socruithe comhchoiteanna).\\n\\nIs iad seo na gothaí atá ar fáil faoi láthair:\\nbog faoi dheis agus ar ais faoi chlé - Ar Aghaidh (Alt+Saighead Dheas)\\nbog faoi chlé agus ar ais faoi dheis - Siar (Alt+Saighead Chlé)\\nbog suas agus ar ais síos - Suas (Alt+Saighead Suas)\\nciorcal tuathalach - Athluchtaigh (F5)\\n\\nIs féidir gothaí nua a iontráil tríd an ngotha a dhéanamh sa dialóg chumraíochta. Is féidir freisin an t-eochaircheap uimhriúil a úsáid; aithnítear gothaí mar ghreille 3×3, uimhrithe 1 go dtí 9.\\n\\nTabhair faoi deara go gcaithfidh tú an gotha beacht a dhéanamh chun an gníomh a chur ar obair. Dá bharr seo, is féidir leat tuilleadh gothaí a iontráil do ghníomh amháin. Ba chóir duit gothaí casta a sheachaint.  Mar shampla, is gothaí simplí iad 45654 agus 74123, ach is dócha go bhfuil 1236987 ró-dheacair cheana.\\n\\nSainmhínítear an coinníoll do gach gotha sa ghrúpa seo. Níl na gothaí uile seo gníomhach murab é Konqueror an fhuinneog ghníomhach (.i. tá 'konqueror' san aicme)."
+
+#. +> stable5
+#: data/kde32b1.khotkeys:2073
+msgctxt "Name"
+msgid "Konqi Gestures"
+msgstr "Gothaí Konqi"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:2154 data/konqueror_gestures_kde321.khotkeys:167
+msgctxt "Comment"
+msgid "Konqueror window"
+msgstr "Fuinneog Konqueror"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:2243 data/kde32b1.khotkeys:2332
+#: data/konqueror_gestures_kde321.khotkeys:256
+#: data/konqueror_gestures_kde321.khotkeys:345
+msgctxt "Comment"
+msgid "Konqueror"
+msgstr "Konqueror"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:2426 data/konqueror_gestures_kde321.khotkeys:555
+msgctxt "Name"
+msgid "Back"
+msgstr "Siar"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:2527 data/kde32b1.khotkeys:2717
+#: data/kde32b1.khotkeys:2907 data/kde32b1.khotkeys:3096
+#: data/konqueror_gestures_kde321.khotkeys:814
+#: data/konqueror_gestures_kde321.khotkeys:1065
+#: data/konqueror_gestures_kde321.khotkeys:1304
+#: data/konqueror_gestures_kde321.khotkeys:1560
+#: data/konqueror_gestures_kde321.khotkeys:1815
+#: data/konqueror_gestures_kde321.khotkeys:1906
+#: data/konqueror_gestures_kde321.khotkeys:2159
+#: data/konqueror_gestures_kde321.khotkeys:2411
+#: data/konqueror_gestures_kde321.khotkeys:2669
+#: data/konqueror_gestures_kde321.khotkeys:2926
+#: data/konqueror_gestures_kde321.khotkeys:3180
+#: data/konqueror_gestures_kde321.khotkeys:3433
+#: data/konqueror_gestures_kde321.khotkeys:3693
+#: data/konqueror_gestures_kde321.khotkeys:3950
+msgctxt "Comment"
+msgid "Gesture_triggers"
+msgstr "Gesture_triggers"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:2616 data/konqueror_gestures_kde321.khotkeys:2568
+msgctxt "Name"
+msgid "Forward"
+msgstr "Ar Aghaidh"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:2806 data/konqueror_gestures_kde321.khotkeys:964
+msgctxt "Name"
+msgid "Up"
+msgstr "Suas"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:2996 data/konqueror_gestures_kde321.khotkeys:3850
+msgctxt "Name"
+msgid "Reload"
+msgstr "Athluchtaigh"
+
+#. +> stable5
+#: data/kde32b1.khotkeys:3183
+msgctxt "Comment"
+msgid "After pressing Win+E (Tux+E) a WWW browser will be launched, and it will open http://www.kde.org . You may run all kind of commands you can run in minicli (Alt+F2)."
+msgstr "Tar éis Win+E (Tux+E) a bhrú, tosófar brabhsálaí Gréasáin, agus osclóidh sé http://www.kde.org/. Is féidir leat gach cineál d'ordú a rith i minicli (Alt+F2)."
+
+#. +> stable5
+#: data/kde32b1.khotkeys:3250
+msgctxt "Name"
+msgid "Go to KDE Website"
+msgstr "Téigh go dtí suíomh Gréasáin KDE"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:5
+msgctxt "Comment"
+msgid "Basic Konqueror gestures."
+msgstr "Bunghothaí Konqueror."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:85
+msgctxt "Name"
+msgid "Konqueror Gestures"
+msgstr "Gothaí Konqueror"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:431
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Konqueror"
+msgctxt "Title"
+msgid "file:/ - Konqueror"
+msgstr "Konqueror"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:476
+msgctxt "Comment"
+msgid "Press, move left, release."
+msgstr "Brúigh, bog faoi chlé, scaoil."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:644
+msgctxt "Comment"
+msgid "Opera-style: Press, move up, release.\\nNOTE: Conflicts with 'New Tab', and as such is disabled by default."
+msgstr "De chineál Opera: Brúigh, bog suas, scaoil.\\nNÓTA: Tagann sé seo salach ar 'Cluaisín Nua' agus dá bhrí sin tá sé díchumasaithe de réir réamhshocraithe."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:717
+msgctxt "Name"
+msgid "Stop Loading"
+msgstr "Stop an luchtú"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:893
+msgctxt "Comment"
+msgid "Going up in URL/directory structure.\\nMozilla-style: Press, move up, move left, move up, release."
+msgstr "Bog suas i struchtúr URL/comhadlann.\\nDe chineál Mozilla: Brúigh, bog suas, bog faoi chlé, bog suas, scaoil."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:1144
+msgctxt "Comment"
+msgid "Going up in URL/directory structure.\\nOpera-style: Press, move up, move left, move up, release.\\nNOTE: Conflicts with  \"Activate Previous Tab\", and as such is disabled by default."
+msgstr "Bog suas i struchtúr URL/comhadlann.\\nDe chineál Opera: Brúigh, bog suas, bog faoi chlé, bog suas, scaoil.\\nNÓTA: Tagann sé salach ar \"Gníomhachtaigh an Cluaisín Roimhe Seo\", agus dá bhrí sin tá sé díchumasaithe de réir réamhshocraithe."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:1212
+msgctxt "Name"
+msgid "Up #2"
+msgstr "Suas #2"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:1383
+msgctxt "Comment"
+msgid "Press, move up, move right, release."
+msgstr "Brúigh, bog suas, bog faoi dheis, scaoil."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:1461
+msgctxt "Name"
+msgid "Activate Next Tab"
+msgstr "Gníomhachtaigh an Chéad Chluaisín Eile"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:1639
+msgctxt "Comment"
+msgid "Press, move up, move left, release."
+msgstr "Brúigh, bog suas, bog faoi chlé, scaoil."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:1717
+msgctxt "Name"
+msgid "Activate Previous Tab"
+msgstr "Gníomhachtaigh an Cluaisín Roimhe Seo"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:1985
+msgctxt "Comment"
+msgid "Press, move down, move up, move down, release."
+msgstr "Brúigh, bog síos, bog suas, bog síos, scaoil."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:2063
+msgctxt "Name"
+msgid "Duplicate Tab"
+msgstr "Cóipeáil Cluaisín"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:2238
+msgctxt "Comment"
+msgid "Press, move down, move up, release."
+msgstr "Brúigh, bog síos, bog suas, scaoil."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:2316
+msgctxt "Name"
+msgid "Duplicate Window"
+msgstr "Cóipeáil Fuinneog"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:2490
+msgctxt "Comment"
+msgid "Press, move right, release."
+msgstr "Brúigh, bog faoi dheis, scaoil."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:2748
+msgctxt "Comment"
+msgid "Press, move down, move half up, move right, move down, release.\\n(Drawing a lowercase 'h'.)"
+msgstr "Brúigh, bog síos, bog leath bhealaigh suas, bog faoi dheis, bog síos, scaoil.\\n(.i. 'h' sa chás íochtair.)"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:2821
+msgctxt "Name"
+msgid "Home"
+msgstr "Baile"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:3009
+msgctxt "Comment"
+msgid "Press, move right, move down, move right, release.\\nMozilla-style: Press, move down, move right, release."
+msgstr "Brúigh, bog faoi dheis, bog síos, bog faoi dheis, scaoil.\\nDe chineál Mozilla: Brúigh, bog síos, bog faoi dheis, scaoil."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:3082
+msgctxt "Name"
+msgid "Close Tab"
+msgstr "Dún an Cluaisín"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:3263
+msgctxt "Comment"
+msgid "Press, move up, release.\\nConflicts with Opera-style 'Up #2', which is disabled by default."
+msgstr "Brúigh, bog suas, scaoil.\\nTagann sé salach ar an gcineál Opera 'Up #2', atá díchumasaithe de réir réamhshocraithe."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:3335
+msgctxt "Name"
+msgid "New Tab"
+msgstr "Cluaisín Nua"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:3512
+msgctxt "Comment"
+msgid "Press, move down, release."
+msgstr "Brúigh, bog síos, scaoil."
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:3590
+msgctxt "Name"
+msgid "New Window"
+msgstr "Fuinneog Nua"
+
+#. +> stable5
+#: data/konqueror_gestures_kde321.khotkeys:3772
+msgctxt "Comment"
+msgid "Press, move up, move down, release."
+msgstr "Brúigh, bog suas, bog síos, scaoil."
+
+#. +> stable5
+#: kcm_hotkeys/khotkeys.desktop:13
+msgctxt "Name"
+msgid "Custom Shortcuts"
+msgstr "Aicearraí Saincheaptha"
+
+#. +> stable5
+#: kcm_hotkeys/khotkeys.desktop:77
+msgctxt "Comment"
+msgid "Configure Input Actions settings"
+msgstr "Cumraigh socruithe na nGníomhartha Ionchurtha"
+
+#. +> stable5
+#: kcm_hotkeys/khotkeys.desktop:147
+msgctxt "X-KDE-Keywords"
+msgid "global,keyboard shortcuts,hot keys,hotkeys,KHotKeys,input actions,mouse gestures,actions,triggers,launch"
+msgstr ""

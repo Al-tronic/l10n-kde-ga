@@ -1,0 +1,976 @@
+# Irish translation of kategdbplugin
+# Copyright (C) 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kategdbplugin package.
+# Kevin Scannell <kscanne@gmail.com>, 2011.
+# Aindriú Mac Giolla Eoin <aindriu80@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: kategdbplugin\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-23 09:04+0100\n"
+"PO-Revision-Date: 2025-11-30 14:36+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: backend.cpp:48 dapbackend.cpp:176
+#, kde-format
+msgid "A debugging session is on course. Please, use re-run or stop the current session."
+msgstr "Tá seisiún dífhabhtaithe ar siúl. Bain úsáid as athrith nó stop an seisiún reatha le do thoil."
+
+#. +> trunk6
+#: breakpointview.cpp:354
+#, fuzzy, kde-format
+#| msgid "Breakpoint"
+msgid "Line Breakpoints"
+msgstr "Brisphointe"
+
+#. +> trunk6
+#: breakpointview.cpp:356
+#, fuzzy, kde-format
+#| msgid "function breakpoints"
+msgid "Function Breakpoints"
+msgstr "pointí briste feidhme"
+
+#. +> trunk6
+#: breakpointview.cpp:358
+#, fuzzy, kde-format
+#| msgid "function breakpoints"
+msgid "Exception Breakpoints"
+msgstr "pointí briste feidhme"
+
+#. +> trunk6
+#: breakpointview.cpp:417
+#, kde-format
+msgid "verified"
+msgstr ""
+
+#. +> trunk6
+#: breakpointview.cpp:417 breakpointview.cpp:422
+#, kde-format
+msgid "pending"
+msgstr ""
+
+#. +> trunk6
+#: breakpointview.cpp:965
+#, fuzzy, kde-format
+#| msgid "function breakpoints"
+msgid "Add Function Breakpoint…"
+msgstr "pointí briste feidhme"
+
+#. +> trunk6
+#: breakpointview.cpp:969
+#, fuzzy, kde-format
+#| msgid "Clear All Breakpoints"
+msgid "Clear All Function Breakpoints"
+msgstr "Glan Gach Brisphointe"
+
+#. +> trunk6
+#: breakpointview.cpp:976
+#, fuzzy, kde-format
+#| msgid "Remove breakpoint"
+msgid "Remove Breakpoint"
+msgstr "Bain brisphointe"
+
+#. +> trunk6 stable6
+#: breakpointview.cpp:1493
+#, kde-format
+msgid "Breakpoint"
+msgstr "Brisphointe"
+
+#. +> trunk6 stable6
+#: breakpointview.cpp:1556
+#, kde-format
+msgid "line %1 already has a breakpoint"
+msgstr "tá pointe briste ag líne %1 cheana féin"
+
+#. +> trunk6
+#: breakpointview.cpp:1565
+#, fuzzy, kde-format
+#| msgid "breakpoint set"
+msgid "No breakpoints set"
+msgstr "socraithe brisphointe"
+
+#. +> trunk6
+#: breakpointview.cpp:1624
+#, fuzzy, kde-format
+#| msgid "function breakpoints"
+msgid "Add Function Breakpoint"
+msgstr "pointí briste feidhme"
+
+#. +> trunk6
+#: breakpointview.cpp:1625
+#, fuzzy, kde-format
+#| msgctxt "Column label"
+#| msgid "Function"
+msgid "Function name:"
+msgstr "Feidhm"
+
+#. +> trunk6 stable6
+#: configview.cpp:92
+#, kde-format
+msgid "Add new target"
+msgstr "Cuir sprioc nua leis"
+
+#. +> trunk6 stable6
+#: configview.cpp:96
+#, kde-format
+msgid "Copy target"
+msgstr "Cóipeáil an sprioc"
+
+#. +> trunk6 stable6
+#: configview.cpp:100
+#, kde-format
+msgid "Delete target"
+msgstr "Scrios an sprioc"
+
+#. +> trunk6 stable6
+#: configview.cpp:104
+#, kde-format
+msgid "Reload launch.json targets"
+msgstr "Athlódáil spriocanna launch.json"
+
+#. +> trunk6 stable6
+#: configview.cpp:109
+#, kde-format
+msgid "Executable:"
+msgstr "Comhad inrite:"
+
+#. +> trunk6 stable6
+#: configview.cpp:129
+#, kde-format
+msgid "Working Directory:"
+msgstr "Comhadlann Oibre:"
+
+#. +> trunk6 stable6
+#: configview.cpp:137
+#, kde-format
+msgid "Process Id:"
+msgstr "Aitheantas Próisis:"
+
+#. +> trunk6 stable6
+#: configview.cpp:142
+#, kde-format
+msgctxt "Program argument list"
+msgid "Arguments:"
+msgstr "Argóintí:"
+
+#. +> trunk6 stable6
+#: configview.cpp:145
+#, kde-format
+msgctxt "Checkbox to for keeping focus on the command line"
+msgid "Keep focus"
+msgstr "Coinnigh an fócas"
+
+#. +> trunk6 stable6
+#: configview.cpp:146
+#, kde-format
+msgid "Keep the focus on the command line"
+msgstr "Coinnigh an fócas ar líne na n-orduithe"
+
+#. +> trunk6 stable6
+#: configview.cpp:148
+#, kde-format
+msgid "Redirect IO"
+msgstr "Atreoraigh I/A"
+
+#. +> trunk6 stable6
+#: configview.cpp:149
+#, kde-format
+msgid "Redirect the debugged programs IO to a separate tab"
+msgstr "Athdhírigh I/A an ríomhchláir dhífhabhtaithe ar chluaisín ar leith"
+
+#. +> trunk6 stable6
+#: configview.cpp:398
+#, kde-format
+msgctxt "Error message"
+msgid "No executable target set"
+msgstr "Níl aon sprioc inrite socraithe"
+
+#. +> trunk6 stable6
+#: configview.cpp:408
+#, kde-format
+msgctxt "Error message"
+msgid "Invalid process id"
+msgstr "Aitheantas próisis neamhbhailí"
+
+#. +> trunk6 stable6
+#: configview.cpp:530 configview.cpp:543
+#, kde-format
+msgid "Target %1"
+msgstr "Sprioc %1"
+
+#. +> trunk6 stable6
+#: configview.cpp:766
+#, kde-format
+msgid "Select Executable"
+msgstr "Roghnaigh Inrite"
+
+#. +> trunk6 stable6
+#: configview.cpp:779
+#, kde-format
+msgid "Select Working Directory"
+msgstr "Roghnaigh Eolaire Oibre"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:188
+#, kde-format
+msgid "DAP backend '%1' failed"
+msgstr "Theip ar chúl-deireadh DAP '%1'"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:239
+#, kde-format
+msgid "program terminated"
+msgstr "clár críochnaithe"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:244
+#, kde-format
+msgid "Failed to terminate. Forcing shutdown..."
+msgstr "Theip ar fhoirceannadh. Ag cur iallach ar dhúnadh..."
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:255
+#, kde-format
+msgid "requesting disconnection"
+msgstr "ag iarraidh dícheangal"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:270
+#, kde-format
+msgid "requesting shutdown"
+msgstr "ag iarraidh múchadh"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:295
+#, kde-format
+msgid "DAP backend: %1"
+msgstr "Cúltaca DAP: %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:304
+#, kde-format
+msgid "stopped (%1)."
+msgstr "stoptha (%1)."
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:312
+#, kde-format
+msgid "Active thread: %1 (all threads stopped)."
+msgstr "Snáithe gníomhach: %1 (gach snáithe stoptha)."
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:314
+#, kde-format
+msgid "Active thread: %1."
+msgstr "Snáithe gníomhach: %1."
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:319
+#, kde-format
+msgid "Breakpoint(s) reached:"
+msgstr "Brisphointe(í) bainte amach:"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:345
+#, kde-format
+msgid "(continued) thread %1"
+msgstr "(ar lean) snáithe %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:347
+#, kde-format
+msgid "all threads continued"
+msgstr "leanadh leis na snáitheanna uile"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:354
+#, kde-format
+msgid "(running)"
+msgstr "(ag rith)"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:405
+#, kde-format
+msgid "*** connection with server closed ***"
+msgstr "*** nasc leis an bhfreastalaí dúnta ***"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:412
+#, kde-format
+msgid "program exited with code %1"
+msgstr "scoir an clár le cód %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:434
+#, kde-format
+msgid "*** waiting for user actions ***"
+msgstr "*** ag fanacht le gníomhartha úsáideora ***"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:439
+#, kde-format
+msgid "error on response: %1"
+msgstr "earráid ar fhreagra: %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:455
+#, kde-format
+msgid "important"
+msgstr "tábhachtach"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:458
+#, kde-format
+msgid "telemetry"
+msgstr "teileamaitreacht"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:477
+#, kde-format
+msgid "debugging process [%1] %2"
+msgstr "próiseas dífhabhtaithe [%1] %2"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:479
+#, kde-format
+msgid "debugging process %1"
+msgstr "próiseas dífhabhtaithe %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:482
+#, kde-format
+msgid "Start method: %1"
+msgstr "Modh tosaithe: %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:497
+#, kde-format
+msgid "thread %1"
+msgstr "snáithe %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:603
+#, kde-format
+msgid "breakpoint set"
+msgstr "socraithe brisphointe"
+
+#. +> stable6
+#: dapbackend.cpp:634
+#, fuzzy, kde-format
+#| msgid "Breakpoint"
+msgid "breakpoint cleared"
+msgstr "Brisphointe"
+
+#. +> stable6
+#: dapbackend.cpp:1399
+#, kde-format
+msgid "breakpoint not found (%1:%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:637
+#, kde-format
+msgid "(%1) breakpoint"
+msgstr "(%1) brisphointe"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:655
+#, kde-format
+msgid "<not evaluated>"
+msgstr "<níor measúnaíodh>"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:677
+#, kde-format
+msgid "server capabilities"
+msgstr "cumais freastalaí"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:680
+#, kde-format
+msgid "supported"
+msgstr "tacaíocht"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:680
+#, kde-format
+msgid "unsupported"
+msgstr "gan tacaíocht"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:683
+#, kde-format
+msgid "conditional breakpoints"
+msgstr "pointí briste coinníollach"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:684
+#, kde-format
+msgid "function breakpoints"
+msgstr "pointí briste feidhme"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:685
+#, kde-format
+msgid "hit conditional breakpoints"
+msgstr "buaileann pointí briste coinníollach"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:686
+#, kde-format
+msgid "log points"
+msgstr "pointí loga"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:686
+#, kde-format
+msgid "modules request"
+msgstr "iarratas ar mhodúil"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:687
+#, kde-format
+msgid "goto targets request"
+msgstr "iarratas spriocanna goto"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:688
+#, kde-format
+msgid "terminate request"
+msgstr "deireadh a chur leis an iarratas"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:689
+#, kde-format
+msgid "terminate debuggee"
+msgstr "deireadh a chur leis an dífhabhtóir"
+
+#. +> trunk6
+#: dapbackend.cpp:692
+#, fuzzy, kde-format
+#| msgid "function breakpoints"
+msgid "exception breakpoint filters"
+msgstr "pointí briste feidhme"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:839
+#, kde-format
+msgid "syntax error: expression not found"
+msgstr "earráid chomhréire: níor aimsíodh an abairt"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:858 dapbackend.cpp:894 dapbackend.cpp:934 dapbackend.cpp:969
+#: dapbackend.cpp:1006 dapbackend.cpp:1043 dapbackend.cpp:1080
+#: dapbackend.cpp:1171 dapbackend.cpp:1225
+#, kde-format
+msgid "syntax error: %1"
+msgstr "earráid chomhréire: %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:866 dapbackend.cpp:902 dapbackend.cpp:1178
+#: dapbackend.cpp:1233
+#, kde-format
+msgid "invalid line: %1"
+msgstr "líne neamhbhailí: %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:874 dapbackend.cpp:879 dapbackend.cpp:910 dapbackend.cpp:915
+#: dapbackend.cpp:1203 dapbackend.cpp:1208 dapbackend.cpp:1241
+#: dapbackend.cpp:1246
+#, kde-format
+msgid "file not specified: %1"
+msgstr "comhad gan sonrú: %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:946 dapbackend.cpp:981 dapbackend.cpp:1018
+#: dapbackend.cpp:1055 dapbackend.cpp:1092
+#, kde-format
+msgid "invalid thread id: %1"
+msgstr "aitheantas snáithe neamhbhailí: %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:952 dapbackend.cpp:987 dapbackend.cpp:1024
+#: dapbackend.cpp:1061 dapbackend.cpp:1098
+#, kde-format
+msgid "thread id not specified: %1"
+msgstr "aitheantas snáithe gan sonrú: %1"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1109
+#, kde-format
+msgid "Available commands:"
+msgstr "Orduithe atá ar fáil:"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1188
+#, kde-format
+msgid "conditional breakpoints are not supported by the server"
+msgstr "ní thacaíonn an freastalaí le pointí briste coinníollacha"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1196
+#, kde-format
+msgid "hit conditional breakpoints are not supported by the server"
+msgstr "ní thacaíonn an freastalaí le pointí briste coinníollach buailte"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1258
+#, kde-format
+msgid "Current thread: "
+msgstr "Snáithe reatha: "
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1263 dapbackend.cpp:1270 dapbackend.cpp:1291
+#, kde-format
+msgid "none"
+msgstr "aon cheann"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1266
+#, kde-format
+msgid "Current frame: "
+msgstr "Fráma reatha: "
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1273
+#, kde-format
+msgid "Session state: "
+msgstr "Stádas an tseisiúin: "
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1276
+#, kde-format
+msgid "initializing"
+msgstr "ag tosú"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1279
+#, kde-format
+msgid "running"
+msgstr "ag rith"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1282
+#, kde-format
+msgid "stopped"
+msgstr "stad"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1285
+#, kde-format
+msgid "terminated"
+msgstr "foirceannta"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1288
+#, kde-format
+msgid "disconnected"
+msgstr "dícheangailte"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1346
+#, kde-format
+msgid "command not found"
+msgstr "níor aimsíodh an t-ordú"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1381
+#, kde-format
+msgid "missing thread id"
+msgstr "aitheantas snáithe ar iarraidh"
+
+#. +> trunk6 stable6
+#: dapbackend.cpp:1534
+#, kde-format
+msgid "Current frame [%3]: %1:%2 (%4)"
+msgstr "Fráma reatha [%3]: %1:%2 (%4)"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_1)
+#. +> trunk6 stable6
+#: debugconfig.ui:33
+#, kde-format
+msgid "User Debug Adapter Settings"
+msgstr "Socruithe Cuibheora Dífhabhtaithe Úsáideora"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: debugconfig.ui:41
+#, kde-format
+msgid "Settings File:"
+msgstr "Comhad Socruithe:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. +> trunk6 stable6
+#: debugconfig.ui:68
+#, kde-format
+msgid "Default Debug Adapter Settings"
+msgstr "Socruithe Réamhshocraithe an Oiriúnaitheora Dífhabhtaithe"
+
+#. +> trunk6 stable6
+#: debugconfigpage.cpp:76 debugconfigpage.cpp:81
+#, kde-format
+msgid "Debugger"
+msgstr "Dífhabhtóir"
+
+#. +> trunk6
+#: debugconfigpage.cpp:96
+#, fuzzy, kde-format
+#| msgid "file not specified: %1"
+msgid "Failed to open file: %1"
+msgstr "comhad gan sonrú: %1"
+
+#. +> trunk6 stable6
+#: debugconfigpage.cpp:136
+#, kde-format
+msgid "No JSON data to validate."
+msgstr "Gan aon sonraí JSON le bailíochtú."
+
+#. +> trunk6 stable6
+#: debugconfigpage.cpp:144
+#, kde-format
+msgid "JSON data is valid."
+msgstr "Tá sonraí JSON bailí."
+
+#. +> trunk6 stable6
+#: debugconfigpage.cpp:146
+#, kde-format
+msgid "JSON data is invalid: no JSON object"
+msgstr "Tá sonraí JSON neamhbhailí: níl aon réad JSON ann"
+
+#. +> trunk6 stable6
+#: debugconfigpage.cpp:149
+#, kde-format
+msgid "JSON data is invalid: %1"
+msgstr "Tá sonraí JSON neamhbhailí: %1"
+
+#. +> trunk6
+#: launch_json_reader.cpp:40
+#, kde-format
+msgctxt "%1 refers to filepath"
+msgid "Failed to parse .vscode/launch.json at %1. "
+msgstr "Theip ar pharsáil .vscode/launch.json ag %1. "
+
+#. +> trunk6
+#: launch_json_reader.cpp:51
+#, kde-format
+msgctxt "at line no:column no"
+msgid " at %1:%2"
+msgstr " ag %1:%2"
+
+#. +> trunk6 stable6
+#: localsview.cpp:41
+#, kde-format
+msgid "type"
+msgstr "cineál"
+
+#. +> trunk6 stable6
+#: localsview.cpp:50
+#, kde-format
+msgid "indexed items"
+msgstr "míreanna innéacsaithe"
+
+#. +> trunk6 stable6
+#: localsview.cpp:53
+#, kde-format
+msgid "named items"
+msgstr "míreanna ainmnithe"
+
+#. +> trunk6 stable6
+#: localsview.cpp:69 localsview.cpp:70
+#, kde-format
+msgid "Loading..."
+msgstr "Ag lódáil..."
+
+#. +> trunk6 stable6
+#: localsview.cpp:106
+#, kde-format
+msgid "Symbol"
+msgstr "Siombail"
+
+#. +> trunk6 stable6
+#: localsview.cpp:107
+#, kde-format
+msgid "Type"
+msgstr "Cineál"
+
+#. +> trunk6 stable6
+#: localsview.cpp:108
+#, kde-format
+msgid "Value"
+msgstr "Luach"
+
+#. +> trunk6 stable6
+#: localsview.cpp:196
+#, kde-format
+msgid "Copy Symbol"
+msgstr "Cóipeáil Siombail"
+
+#. +> trunk6 stable6
+#: localsview.cpp:210
+#, kde-format
+msgid "Copy Value"
+msgstr "Cóipeáil Luach"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:106
+#, kde-format
+msgid "Kate Debug"
+msgstr "Kate Dífhabhtú"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:110
+#, kde-format
+msgid "Debug View"
+msgstr "Amharc Dífhabhtaithe"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:110 plugin_kategdb.cpp:343
+#, kde-format
+msgid "Debug"
+msgstr "Dílochtú"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:113 plugin_kategdb.cpp:116
+#, kde-format
+msgid "Locals and Stack"
+msgstr "Áitiúla agus Cruach"
+
+#. +> trunk6
+#: plugin_kategdb.cpp:122
+#, fuzzy, kde-format
+#| msgid "Breakpoint"
+msgid "Breakpoints"
+msgstr "Brisphointe"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:209
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"<title>Could not open file:</title>"
+"<nl/>"
+"%1"
+msgstr ""
+"<title>Níorbh fhéidir an comhad a oscailt:</title>"
+"<nl/>"
+"%1"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:225
+#, kde-format
+msgid "Targets"
+msgstr "Spriocanna"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:230
+#, kde-format
+msgid "Start Debugging"
+msgstr "Tosaigh Dífhabhtú"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:240
+#, kde-format
+msgid "Kill / Stop Debugging"
+msgstr "Maraigh / Stop Dífhabhtú"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:247
+#, kde-format
+msgid "Continue"
+msgstr "Lean ar aghaidh"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:253
+#, kde-format
+msgid "Toggle Breakpoint / Break"
+msgstr "Scoránaigh Brisphointe / Briseadh"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:260
+#, kde-format
+msgid "Clear All Breakpoints"
+msgstr "Glan Gach Brisphointe"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:265
+#, kde-format
+msgid "Step In"
+msgstr "Céimnigh Isteach"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:272
+#, kde-format
+msgid "Step Over"
+msgstr "Céimnigh Thart"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:279
+#, kde-format
+msgid "Step Out"
+msgstr "Céimnigh Amach"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:286 plugin_kategdb.cpp:350
+#, kde-format
+msgid "Run To Cursor"
+msgstr "Rith go dtí an cúrsóir"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:293
+#, kde-format
+msgid "Restart Debugging"
+msgstr "Atosaigh Dífhabhtú"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:300
+#, kde-format
+msgid "Clear Output"
+msgstr "Aschur GDBAschur Glan"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:308
+#, kde-format
+msgid "Hot Reload"
+msgstr "Athlódáil Te"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:315
+#, kde-format
+msgid "Hot Restart"
+msgstr "Atosú Te"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:324
+#, kde-format
+msgid "Enable Hot Reload on Save"
+msgstr "Cumasaigh Athlódáil Te ar Shábháil"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:333 plugin_kategdb.cpp:352
+#, kde-format
+msgctxt "Move Program Counter (next execution)"
+msgid "Move PC"
+msgstr "Athraigh an PC"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:338
+#, kde-format
+msgid "Print Value"
+msgstr "Priontáil Luach"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:403
+#, kde-format
+msgid "Error: %1"
+msgstr "Earráid: %1"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:434
+#, kde-format
+msgid "Insert breakpoint"
+msgstr "Ionsáigh brisphointe"
+
+#. +> trunk6
+#: plugin_kategdb.cpp:440
+#, fuzzy, kde-format
+#| msgid "Remove breakpoint"
+msgid "Toggle breakpoint"
+msgstr "Bain brisphointe"
+
+#. +> stable6
+#: plugin_kategdb.cpp:483
+#, kde-format
+msgid "Remove breakpoint"
+msgstr "Bain brisphointe"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:556
+#, kde-format
+msgid "Execution point"
+msgstr "Pointe rite"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:667
+#, kde-format
+msgctxt "Tab label"
+msgid "Debug Output"
+msgstr "Aschur Dífhabhtaithe"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:668
+#, kde-format
+msgctxt "Tab label"
+msgid "Settings"
+msgstr "Socruithe"
+
+#. +> trunk6 stable6
+#: plugin_kategdb.cpp:703
+#, kde-format
+msgid "IO"
+msgstr "I/A"
+
+#. +> trunk6 stable6
+#: stackframe_model.cpp:95
+#, kde-format
+msgctxt "Column label (frame number)"
+msgid "Nr"
+msgstr "Uimh"
+
+#. +> trunk6 stable6
+#: stackframe_model.cpp:97
+#, kde-format
+msgctxt "Column label"
+msgid "Function"
+msgstr "Feidhm"
+
+#. +> trunk6 stable6
+#: stackframe_model.cpp:99
+#, kde-format
+msgctxt "Column label"
+msgid "Location"
+msgstr "Suíomh"
+
+#. +> trunk6 stable6
+#: stackview.cpp:96 stackview.cpp:128
+#, kde-format
+msgid "Thread %1"
+msgstr "Snáithe %1"
+
+#. +> trunk6 stable6
+#: stackview.cpp:168
+#, kde-format
+msgid "Copy Stack Trace"
+msgstr "Cóipeáil Rian an Chruach"
+
+#. +> trunk6 stable6
+#: stackview.cpp:187
+#, kde-format
+msgid "Open Location"
+msgstr "Oscail Suíomh"
+
+#. +> trunk6 stable6
+#: stackview.cpp:194
+#, kde-format
+msgid "Copy Location"
+msgstr "Cóipeáil Suíomh"
+
+#. i18n: ectx: Menu (debug)
+#. +> trunk6 stable6
+#: ui.rc:6
+#, kde-format
+msgid "&Debug"
+msgstr "&Dífhabhtaigh"
+
+#. i18n: ectx: ToolBar (gdbplugin)
+#. +> trunk6 stable6
+#: ui.rc:33
+#, kde-format
+msgid "Debug Plugin"
+msgstr "Breiseán Dífhabhtaithe"

@@ -1,0 +1,112 @@
+# Irish translation of kcmperformance
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcmperformance package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase/kcmperformance.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-04-22 09:35+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+# trade name, do not translate
+#. +> trunk6 stable6
+#: kcmperformance.cpp:32
+#, kde-format
+msgid "Konqueror"
+msgstr "Konqueror"
+
+#. +> trunk6 stable6
+#: kcmperformance.cpp:35
+#, kde-format
+msgid "System"
+msgstr "Córas"
+
+#. +> trunk6 stable6
+#: konqueror.cpp:24
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>If enabled, an instance of Konqueror will be preloaded after the ordinary KDE startup sequence.</p>"
+#| "<p>This will make the first Konqueror window open faster, but at the expense of longer KDE startup times (but you will be able to work while it is loading, so you may not even notice that it is taking longer).</p>"
+msgid ""
+"<p>If enabled, an instance of Konqueror will be preloaded after the ordinary Plasma startup sequence.</p>"
+"<p>This will make the first Konqueror window open faster, but at the expense of longer Plasma startup times (but you will be able to work while it is loading, so you may not even notice that it is taking longer).</p>"
+msgstr ""
+"<p>Leis an rogha seo, réamhluchtófar próiseas Konqueror tar éis an ghnáthsheichimh tosaithe KDE.</p>"
+"<p>Osclófar an chéad fhuinneog Konqueror níos tapúla mar sin, ach ar chostas amanna tosaithe KDE níos faide (ach beidh tú in ann obair a dhéanamh agus KDE á luchtú, agus seans nach dtabharfaidh tú faoi deara go bhfuil sé níos moille dá bhrí sin).</p>"
+
+#. +> trunk6 stable6
+#: konqueror.cpp:30
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>If enabled, KDE will always try to have one preloaded Konqueror instance ready; preloading a new instance in the background whenever there is not one available, so that windows will always open quickly.</p>"
+#| "<p><b>Warning:</b> In some cases, it is actually possible that this will reduce perceived performance.</p>"
+msgid ""
+"<p>If enabled, Konqueror will always try to have one preloaded instance ready; preloading a new instance in the background whenever there is not one available, so that windows will always open quickly.</p>"
+"<p><b>Warning:</b> In some cases, it is actually possible that this will reduce perceived performance.</p>"
+msgstr ""
+"<p>Leis an rogha seo, déanfaidh KDE iarracht ar phróiseas réamhluchtaithe Konqueror a choinneáil réidh i gcónaí, trí phróiseas nua a luchtú sa chúlra nuair nach bhfuil ceann ar fáil, sa chaoi go n-osclóidh fuinneoga go tapa.</p>"
+"<p><b>Rabhadh:</b> I gcásanna áirithe, sílfidh tú go bhfuil an ríomhaire níos moille dá bhrí seo.</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. +> trunk6 stable6
+#: konqueror_ui.ui:17
+#, kde-format
+msgid "Preloading"
+msgstr "Réamhluchtáil"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_preload_on_startup)
+#. +> trunk6 stable6
+#: konqueror_ui.ui:23
+#, fuzzy, kde-format
+#| msgid "Preload an instance after KDE startup"
+msgid "Preload an instance after desktop startup"
+msgstr "Réamhluchtaigh ásc tar éis tosú KDE"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_always_have_preloaded)
+#. +> trunk6 stable6
+#: konqueror_ui.ui:30
+#, fuzzy, kde-format
+#| msgid "Always try to have at least one preloaded instance"
+msgid "Always try to have one preloaded instance"
+msgstr "Déan iarracht ar phróiseas amháin ar a laghad a bheith réamhluchtaithe i gcónaí"
+
+#. +> trunk6 stable6
+#: system.cpp:22
+#, kde-format
+msgid ""
+"<p>During startup KDE needs to perform a check of its system configuration (mimetypes, installed applications, etc.), and in case the configuration has changed since the last time, the system configuration cache (KSyCoCa) needs to be updated.</p>"
+"<p>This option delays the check, which avoid scanning all directories containing files describing the system during KDE startup, thus making KDE startup faster. However, in the rare case the system configuration has changed since the last time, and the change is needed before this delayed check takes place, this option may lead to various problems (missing applications in the K Menu, reports from applications about missing required mimetypes, etc.).</p>"
+"<p>Changes of system configuration mostly happen by (un)installing applications. It is therefore recommended to turn this option temporarily off while (un)installing applications.</p>"
+msgstr ""
+"<p>Ag am tosaithe an chórais, déanann KDE seiceáil ar chumraíocht an chórais (cineálacha MIME, feidhmchláir shuiteáilte, srl.) agus nuair a bhí an chumraíocht athraithe ón uair dheireanach, nuashonraíonn KDE taisce chumraíocht an chórais (KSyCoCa).</p>"
+"<p>Leis an rogha seo, cuirfear an tseiceáil seo ar athló sa chaoi nach ndéanfar scanadh de gach comhadlann ina bhfuil comhaid a dhéanann cur síos ar an gcóras ag am tosaithe KDE.  Tosóidh KDE níos tapúla dá bharr seo. Sa chás (as an ngnáth) a bhí cumraíocht an chórais athraithe agus teastaíonn uait an t-athrú seo sula ndéantar an tseiceáil mhoillithe, seans go mbeidh fadhbanna éagsúla ann (feidhmchláir ar iarraidh ó Roghchlár K, fógraí ó fheidhmchláir faoi chineálacha MIME ar iarraidh, srl.).</p>"
+"<p>De ghnáth, tarlaíonn athruithe i gcumraíocht an chórais nuair a (dhí)shuiteálann tú feidhmchláir. Mar sin, moltar duit an rogha seo a mhúchadh go sealadach agus feidhmchláir á ndíshuiteáil nó á suiteáil.</p>"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gb_)
+#. +> trunk6 stable6
+#: system_ui.ui:8
+#, kde-format
+msgid "System Configuration"
+msgstr "Cumraíocht an Chórais"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cb_disable_kbuildsycoca)
+#. +> trunk6 stable6
+#: system_ui.ui:14
+#, kde-format
+msgid "Disable &system configuration startup check"
+msgstr "Díchuma&saigh tástáil tosaigh cumraíochta an chórais"
+
+#. i18n: ectx: property (text), widget (QLabel, label_kbuildsycoca)
+#. +> trunk6 stable6
+#: system_ui.ui:21
+#, kde-format
+msgid "This option may in rare cases lead to various problems. Consult the What's This (Shift+F1) help for details."
+msgstr "I gcásanna neamhchoitianta, feicfidh tú fadhbanna éagsúla leis an rogha seo. Féach ar an gcabhair \"Cad É Seo\" (Shift+F1) chun tuilleadh eolais a fháil."

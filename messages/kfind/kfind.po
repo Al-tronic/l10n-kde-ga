@@ -1,0 +1,914 @@
+# translation of kfindpart.po to Irish
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# Séamus Ó Ciardhuáin <seoc@cnds.ucd.ie>, 2002
+# Kevin Scannell <kscanne@gmail.com>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: kfindpart\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-04-14 09:08+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: kfinddlg.cpp:31
+#, kde-format
+msgctxt "@title:window"
+msgid "Find Files/Folders"
+msgstr "Aimsigh Comhaid/Comhadlanna"
+
+#. +> trunk6 stable6
+#: kfinddlg.cpp:48 kfinddlg.cpp:202
+#, kde-format
+msgctxt "the application is currently idle, there is no active search"
+msgid "Idle."
+msgstr "Díomhaoin."
+
+#. i18n as below
+#. +> trunk6 stable6
+#: kfinddlg.cpp:138
+#, fuzzy, kde-format
+#| msgid "one file found"
+#| msgid_plural "%1 files found"
+msgid "0 items found"
+msgstr "aimsíodh aon chomhad"
+
+#. +> trunk6 stable6
+#: kfinddlg.cpp:177
+#, kde-format
+msgid "Searching..."
+msgstr "Ag cuardach..."
+
+#. +> trunk6 stable6
+#: kfinddlg.cpp:204
+#, kde-format
+msgid "Canceled."
+msgstr "Cealaithe."
+
+#. +> trunk6 stable6
+#: kfinddlg.cpp:206 kfinddlg.cpp:209 kfinddlg.cpp:212
+#, kde-format
+msgid "Error."
+msgstr "Earráid."
+
+#. +> trunk6 stable6
+#: kfinddlg.cpp:207
+#, kde-format
+msgid "Please specify an absolute path in the \"Look in\" box."
+msgstr "Tabhair dearbhchonair sa bhosca \"Amharc i\", le do thoil."
+
+#. +> trunk6 stable6
+#: kfinddlg.cpp:210
+#, kde-format
+msgid "Could not find the specified folder."
+msgstr "Níorbh fhéidir an chomhadlann sonraithe a aimsiú."
+
+#. +> trunk6 stable6
+#: kfinddlg.cpp:233 kfinddlg.cpp:257
+#, fuzzy, kde-format
+#| msgid "one file found"
+#| msgid_plural "%1 files found"
+msgid "one item found"
+msgid_plural "%1 items found"
+msgstr[0] "aimsíodh aon chomhad"
+msgstr[1] "aimsíodh %1 chomhad"
+msgstr[2] "aimsíodh %1 chomhad"
+msgstr[3] "aimsíodh %1 gcomhad"
+msgstr[4] "aimsíodh %1 comhad"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:43
+msgid "Read-write"
+msgstr "Inléite-inscríofa"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:44
+msgid "Read-only"
+msgstr "Inléite amháin"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:45
+msgid "Write-only"
+msgstr "Inscríofa amháin"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:46
+msgid "Inaccessible"
+msgstr "Dorochtana"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:66
+#, kde-format
+msgctxt "file name column"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:68
+#, kde-format
+msgctxt "name of the containing folder"
+msgid "In Subfolder"
+msgstr "Fofhillteán"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:70
+#, kde-format
+msgctxt "file size column"
+msgid "Size"
+msgstr "Méid"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:72
+#, kde-format
+msgctxt "modified date column"
+msgid "Modified"
+msgstr "Athraithe"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:74
+#, kde-format
+msgctxt "file permissions column"
+msgid "Permissions"
+msgstr "Ceadanna"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:76
+#, kde-format
+msgctxt "first matching line of the query string in this file"
+msgid "First Matching Line"
+msgstr "An Chéad Líne Chomhoiriúnach"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:355
+#, kde-format
+msgctxt "@action:incontextmenu"
+msgid "Copy Location"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:356
+#, kde-format
+msgctxt "@info:whatsthis copy_location"
+msgid "This will copy the path of the first selected item into the clipboard."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:361
+#, kde-format
+msgid "&Open containing folder(s)"
+msgstr "&Oscail an/na fillteá(i)n ina bhfuil sé"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:365
+#, kde-format
+msgid "&Delete"
+msgstr "&Scrios"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:369
+#, kde-format
+msgid "&Move to Trash"
+msgstr "&Cuir sa Bhruscar"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:509
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Results As"
+msgstr "Sábháil na Torthaí Mar"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:534
+#, kde-format
+msgid "Unable to save results."
+msgstr "Ní féidir na torthaí a shábháil."
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:548
+#, kde-format
+msgid "KFind Results File"
+msgstr "Comhad na dTorthaí KFind"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:563
+#, kde-format
+msgctxt "%1=filename"
+msgid "Results were saved to: %1"
+msgstr "Sábháladh na torthaí i: %1"
+
+#. +> trunk6 stable6
+#: kfindtreeview.cpp:659 kftabdlg.cpp:395
+#, kde-format
+msgid "&Properties"
+msgstr "&Airíonna"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:65
+#, kde-format
+msgctxt "this is the label for the name textfield"
+msgid "&Named:"
+msgstr "&Ainmnithe:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:68
+#, fuzzy, kde-format
+#| msgid "You can use wildcard matching and \";\" for separating multiple names"
+msgctxt "@info:tooltip"
+msgid "You can use wildcard matching and \";\" for separating multiple names"
+msgstr "Is féidir leat comhoiriúnú saoróige agus \";\" chun ainmneacha a dheighilt ó chéile"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:74
+#, fuzzy, kde-format
+#| msgid "Look &in:"
+msgctxt "@label:textbox"
+msgid "Look &in:"
+msgstr "Amharc &i:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:77
+#, fuzzy, kde-format
+#| msgid "Include &subfolders"
+msgctxt "@option:check"
+msgid "Include &subfolders"
+msgstr "Cuir fofhillteáin &san áireamh"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:78
+#, fuzzy, kde-format
+#| msgid "Case s&ensitive search"
+msgctxt "@option:check"
+msgid "Case s&ensitive search"
+msgstr "C&uardach cásíogair"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:79
+#, kde-format
+msgid "&Browse..."
+msgstr "&Brabhsáil..."
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:80
+#, fuzzy, kde-format
+#| msgid "&Use files index"
+msgctxt "@option:check"
+msgid "&Use files index"
+msgstr "Ú&sáid innéacs comhad"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:81
+#, fuzzy, kde-format
+#| msgid "Show &hidden files"
+msgctxt "@option:check"
+msgid "Show &hidden files"
+msgstr "Taispeáin comhaid f&holaithe"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:100
+#, kde-format
+msgid ""
+"<qt>Enter the filename you are looking for. <br />"
+"Alternatives may be separated by a semicolon \";\".<br />"
+"<br />"
+"The filename may contain the following special characters:"
+"<ul>"
+"<li><b>?</b> matches any single character</li>"
+"<li><b>*</b> matches zero or more of any characters</li>"
+"<li><b>[...]</b> matches any of the characters between the braces</li>"
+"</ul>"
+"<br />"
+"Example searches:"
+"<ul>"
+"<li><b>*.kwd;*.txt</b> finds all files ending with .kwd or .txt</li>"
+"<li><b>go[dt]</b> finds god and got</li>"
+"<li><b>Hel?o</b> finds all files that start with \"Hel\" and end with \"o\", having one character in between</li>"
+"<li><b>My Document.kwd</b> finds a file of exactly that name</li>"
+"</ul>"
+"</qt>"
+msgstr ""
+"<qt>Iontráil ainm an chomhaid le lorg. <br />"
+"Is féidir malairtí éagsúla a scaradh le leathstad \";\".<br />"
+"<br />"
+"Tig leat na carachtair speisialta seo a leanas a úsáid in ainm an chomhaid:"
+"<ul>"
+"<li><b>?</b> comhoiriúnach d'aon charachtar amháin</li>"
+"<li><b>*</b> comhoiriúnach do náid nó níos mó carachtair</li>"
+"<li><b>[...]</b> comhoiriúnach d'aon charachtar idir na lúibíní cearnacha</li>"
+"</ul>"
+"<br />"
+"Cuardaigh shamplacha:"
+"<ul>"
+"<li><b>*.kwd;*.txt</b> aimsigh gach comhad le hiarmhír .kwd nó .txt</li>"
+"<li><b>go[dt]</b> aimsigh 'god' nó 'got'</li>"
+"<li><b>Hel?o</b> aimsigh gach comhad a thosaíonn le \"Hel\", le \"o\" ag an deireadh, le carachtar amháin eatarthu</li>"
+"<li><b>Mo Chomhad.kwd</b> aimsigh comhaid leis an ainm seo go beacht</li>"
+"</ul>"
+"</qt>"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:121
+#, kde-format
+msgid "<qt>This lets you use the files' index created by the <i>slocate</i> package to speed-up the search; remember to update the index from time to time (using <i>updatedb</i>).</qt>"
+msgstr "<qt>Leis seo is féidir an t-innéacs a chruthaigh an pacáiste <i>slocate</i> a úsáid chun an cuardach a bhrostú; bí cinnte an t-innéacs a nuashonrú ó am go ham (le <i>updatedb</i>).</qt>"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:165
+#, fuzzy, kde-format
+#| msgid "Find all files created or &modified:"
+msgctxt "@option:check"
+msgid "Find all files created or &modified:"
+msgstr "Aimsigh gach comhad a cruthaíodh nó &mionathraíodh:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:167
+#, fuzzy, kde-format
+#| msgid "&between"
+msgctxt "@option:radio"
+msgid "&between"
+msgstr "&idir"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:169
+#, fuzzy, kde-format
+#| msgid "and"
+msgctxt "@label:textbox"
+msgid "and"
+msgstr "agus"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:191
+#, fuzzy, kde-format
+#| msgid "File &size is:"
+msgctxt "@label:textbox"
+msgid "File &size is:"
+msgstr "Méid an &chomhaid:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:204
+#, fuzzy, kde-format
+#| msgid "Files owned by &user:"
+msgctxt "@label:textbox"
+msgid "Files owned by &user:"
+msgstr "Comhaid atá ag an úsáideoir &seo:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:209
+#, fuzzy, kde-format
+#| msgid "Owned by &group:"
+msgctxt "@label:textbox"
+msgid "Owned by &group:"
+msgstr "Comhaid atá ag an n&grúpa seo:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:212
+#, kde-format
+msgctxt "file size isn't considered in the search"
+msgid "(none)"
+msgstr "(is cuma an mhéid)"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:213
+#, kde-format
+msgid "At Least"
+msgstr "Ar a Laghad"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:214
+#, kde-format
+msgid "At Most"
+msgstr "Ar a Mhéid"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:215
+#, kde-format
+msgid "Equal To"
+msgstr "Cothrom Le"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:217 kftabdlg.cpp:828
+#, kde-format
+msgid "Byte"
+msgid_plural "Bytes"
+msgstr[0] "Bheart"
+msgstr[1] "Bheart"
+msgstr[2] "Bheart"
+msgstr[3] "mBeart"
+msgstr[4] "Beart"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:218
+#, kde-format
+msgid "KiB"
+msgstr "KiB"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:219
+#, kde-format
+msgid "MiB"
+msgstr "MiB"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:220
+#, kde-format
+msgid "GiB"
+msgstr "GiB"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:283
+#, kde-format
+msgctxt "label for the file type combobox"
+msgid "File &type:"
+msgstr "&Cineál comhaid:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:288
+#, fuzzy, kde-format
+#| msgid "C&ontaining text:"
+msgctxt "@label:textbox"
+msgid "C&ontaining text:"
+msgstr "Leis an téacs se&o ann:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:294
+#, kde-format
+msgid "<qt>If specified, only files that contain this text are found. Note that not all file types from the list above are supported. Please refer to the documentation for a list of supported file types.</qt>"
+msgstr "<qt>Leis seo, aimseoidh na comhaid ina bhfuil an téacs seo amháin. Tabhair faoi deara nach dtacaítear le gach uile chineál ón liosta thuas. Chun liosta iomlán de na cineálacha comhaid a dtacaítear leo, ceadaigh an doiciméadú.</qt>"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:302
+#, fuzzy, kde-format
+#| msgid "Case s&ensitive"
+msgctxt "@option:check"
+msgid "Case s&ensitive"
+msgstr "Cá&síogair"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:303
+#, fuzzy, kde-format
+#| msgid "Include &binary files"
+msgctxt "@option:check"
+msgid "Include &binary files"
+msgstr "Cuir comhaid &dhénártha san áireamh"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:306
+#, kde-format
+msgid "<qt>This lets you search in any type of file, even those that usually do not contain text (for example program files and images).</qt>"
+msgstr "<qt>Leis an rogha seo is féidir aon chineál comhaid a chuardaigh, fiú comhaid nach bhfuil téacs iontu de ghnáth (mar shampla comhaid inrite agus íomhánna).</qt>"
+
+# verb is "Cuardaigh"?
+#. +> trunk6 stable6
+#: kftabdlg.cpp:313
+#, kde-format
+msgctxt "as in search for"
+msgid "fo&r:"
+msgstr "a&r:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:315
+#, fuzzy, kde-format
+#| msgid "Search &metainfo sections:"
+msgctxt "@label:textbox"
+msgid "Search &metainfo sections:"
+msgstr "Cuardaigh i rannáin &mheiteafhaisnéise:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:319
+#, kde-format
+msgid "All Files & Folders"
+msgstr "Gach Comhad agus Comhadlann"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:320
+#, kde-format
+msgid "Files"
+msgstr "Comhaid"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:321
+#, kde-format
+msgid "Folders"
+msgstr "Fillteáin"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:322
+#, kde-format
+msgid "Symbolic Links"
+msgstr "Naisc Shiombalacha"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:323
+#, kde-format
+msgid "Special Files (Sockets, Device Files, ...)"
+msgstr "Comhaid Speisialta (Soicéid, Comhaid Ghléis, ...)"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:324
+#, kde-format
+msgid "Executable Files"
+msgstr "Comhaid Inrite"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:325
+#, kde-format
+msgid "SUID Executable Files"
+msgstr "Comhaid Inrite SUID"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:326
+#, kde-format
+msgid "All Images"
+msgstr "Gach Íomhá"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:327
+#, kde-format
+msgid "All Video"
+msgstr "Gach Comhad Físe"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:328
+#, kde-format
+msgid "All Sounds"
+msgstr "Gach Comhad Fuaime"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:393
+#, kde-format
+msgid "Name/&Location"
+msgstr "Ainm/&Suíomh"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:394
+#, kde-format
+msgctxt "tab name: search by contents"
+msgid "C&ontents"
+msgstr "I&nneachar"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:399
+#, kde-format
+msgid ""
+"<qt>Search within files' specific comments/metainfo<br />"
+"These are some examples:<br />"
+"<ul>"
+"<li><b>Audio files (mp3...)</b> Search in id3 tag for a title, an album</li>"
+"<li><b>Images (png...)</b> Search images with a special resolution, comment...</li>"
+"</ul>"
+"</qt>"
+msgstr ""
+"<qt>Cuardaigh nótaí/meiteashonraí sainiúil do chomhaid áirithe<br />"
+"Mar shampla:<br />"
+"<ul>"
+"<li><b>Comhaid fhuaime (mp3...)</b> Cuardaigh i gclib id3 ar theideal, albam</li>"
+"<li><b>Íomhánna (png...)</b> Lorg íomhánna leis an taifeach, nóta, ... sonraithe</li>"
+"</ul>"
+"</qt>"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:407
+#, kde-format
+msgid ""
+"<qt>If specified, search only in this field<br />"
+"<ul>"
+"<li><b>Audio files (mp3...)</b> This can be Title, Album...</li>"
+"<li><b>Images (png...)</b> Search only in Resolution, Bitdepth...</li>"
+"</ul>"
+"</qt>"
+msgstr ""
+"<qt>Leis seo, cuardófar an réimse seo amháin<br />"
+"<ul>"
+"<li><b>Comhaid fhuaime (mp3...)</b> Cuardaigh i Teideal, Albam, ...</li>"
+"<li><b>Íomhánna (png...)</b> Cuardaigh i Taifeach, Doimhneacht Giotán, ... amháin</li>"
+"</ul>"
+"</qt>"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:548
+#, kde-format
+msgid "Unable to search within a period which is less than a minute."
+msgstr "Ní féidir an cuardach a chur i gcrích i níos lú ná nóiméad."
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:559
+#, kde-format
+msgid "The date is not valid."
+msgstr "Dáta neamhbhailí."
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:561
+#, kde-format
+msgid "Invalid date range."
+msgstr "Raon neamhbhailí dátaí."
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:563
+#, kde-format
+msgid "Unable to search dates in the future."
+msgstr "Ní féidir dátaí sa todhchaí a chuardach."
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:635
+#, kde-format
+msgid "Size is too big. Set maximum size value?"
+msgstr "Tá sé rómhór. Socraigh uasmhéid?"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:635
+#, kde-format
+msgid "Error"
+msgstr "Earráid"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:635
+#, kde-format
+msgid "Set"
+msgstr "Socraigh"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:635
+#, kde-format
+msgid "Do Not Set"
+msgstr "Ná Socraigh"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:818
+#, kde-format
+msgctxt "during the previous minute(s)/hour(s)/...; dynamic context 'type': 'i' minutes, 'h' hours, 'd' days, 'm' months, 'y' years"
+msgid "&during the previous"
+msgid_plural "&during the previous"
+msgstr[0] "&le linn na tréimhse roimhe seo:"
+msgstr[1] "&le linn na tréimhse roimhe seo:"
+msgstr[2] "&le linn na tréimhse roimhe seo:"
+msgstr[3] "&le linn na tréimhse roimhe seo:"
+msgstr[4] "&le linn na tréimhse roimhe seo:"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:819
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "nóiméad"
+msgstr[1] "nóiméad"
+msgstr[2] "nóiméad"
+msgstr[3] "nóiméad"
+msgstr[4] "nóiméad"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:820
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "hour"
+msgid_plural "hours"
+msgstr[0] "uair"
+msgstr[1] "uair"
+msgstr[2] "huaire"
+msgstr[3] "n-uaire"
+msgstr[4] "uair"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:821
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "day"
+msgid_plural "days"
+msgstr[0] "lá"
+msgstr[1] "lá"
+msgstr[2] "lá"
+msgstr[3] "lá"
+msgstr[4] "lá"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:822
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "month"
+msgid_plural "months"
+msgstr[0] "mhí"
+msgstr[1] "mhí"
+msgstr[2] "mhí"
+msgstr[3] "mí"
+msgstr[4] "mí"
+
+#. +> trunk6 stable6
+#: kftabdlg.cpp:823
+#, kde-format
+msgctxt "use date ranges to search files by modified time"
+msgid "year"
+msgid_plural "years"
+msgstr[0] "bliain"
+msgstr[1] "bhliain"
+msgstr[2] "bliana"
+msgstr[3] "mbliana"
+msgstr[4] "bliain"
+
+#. +> trunk6 stable6
+#: kquery.cpp:556
+#, kde-format
+msgctxt "@title:window"
+msgid "Error while using locate"
+msgstr "Earráid agus 'locate' á úsáid"
+
+#. +> trunk6 stable6
+#: main.cpp:27
+#, kde-format
+msgid "KFind"
+msgstr "KFind"
+
+#. +> trunk6 stable6
+#: main.cpp:28
+#, kde-format
+msgid "KDE file find utility"
+msgstr "Uirlis aimsithe comhad KDE"
+
+#. +> trunk6 stable6
+#: main.cpp:29
+#, fuzzy, kde-format
+#| msgid "(c) 1998-2003, The KDE Developers"
+msgid "(c) 1998-2021, The KDE Developers"
+msgstr "© 1998-2003, Forbróirí KDE"
+
+#. +> trunk6 stable6
+#: main.cpp:31
+#, kde-format
+msgctxt "@info:credit"
+msgid "Kai Uwe Broulik"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:31
+#, kde-format
+msgid "Current Maintainer"
+msgstr "Cothaitheoir Reatha"
+
+#. +> trunk6 stable6
+#: main.cpp:32
+#, fuzzy, kde-format
+#| msgid "Eric Coquelle"
+msgctxt "@info:credit"
+msgid "Eric Coquelle"
+msgstr "Eric Coquelle"
+
+#. +> trunk6 stable6
+#: main.cpp:32
+#, fuzzy, kde-format
+#| msgid "Current Maintainer"
+msgid "Former Maintainer"
+msgstr "Cothaitheoir Reatha"
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, fuzzy, kde-format
+#| msgid "Mark W. Webb"
+msgctxt "@info:credit"
+msgid "Mark W. Webb"
+msgstr "Mark W. Webb"
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "Developer"
+msgstr "Forbróir"
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, fuzzy, kde-format
+#| msgid "Beppe Grimaldi"
+msgctxt "@info:credit"
+msgid "Beppe Grimaldi"
+msgstr "Beppe Grimaldi"
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "UI Design & more search options"
+msgstr "Dearadh an Chomhéadain agus tuilleadh roghanna cuardaigh"
+
+#. +> trunk6 stable6
+#: main.cpp:35
+#, fuzzy, kde-format
+#| msgid "Martin Hartig"
+msgctxt "@info:credit"
+msgid "Martin Hartig"
+msgstr "Martin Hartig"
+
+#. +> trunk6 stable6
+#: main.cpp:36
+#, fuzzy, kde-format
+#| msgid "Stephan Kulow"
+msgctxt "@info:credit"
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#. +> trunk6 stable6
+#: main.cpp:37
+#, fuzzy, kde-format
+#| msgid "Mario Weilguni"
+msgctxt "@info:credit"
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#. +> trunk6 stable6
+#: main.cpp:38
+#, fuzzy, kde-format
+#| msgid "Alex Zepeda"
+msgctxt "@info:credit"
+msgid "Alex Zepeda"
+msgstr "Alex Zepeda"
+
+#. +> trunk6 stable6
+#: main.cpp:39
+#, fuzzy, kde-format
+#| msgid "Miroslav Flídr"
+msgctxt "@info:credit"
+msgid "Miroslav Flídr"
+msgstr "Miroslav Flídr"
+
+#. +> trunk6 stable6
+#: main.cpp:40
+#, fuzzy, kde-format
+#| msgid "Harri Porten"
+msgctxt "@info:credit"
+msgid "Harri Porten"
+msgstr "Harri Porten"
+
+#. +> trunk6 stable6
+#: main.cpp:41
+#, fuzzy, kde-format
+#| msgid "Dima Rogozin"
+msgctxt "@info:credit"
+msgid "Dima Rogozin"
+msgstr "Dima Rogozin"
+
+#. +> trunk6 stable6
+#: main.cpp:42
+#, fuzzy, kde-format
+#| msgid "Carsten Pfeiffer"
+msgctxt "@info:credit"
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, fuzzy, kde-format
+#| msgid "Hans Petter Bieker"
+msgctxt "@info:credit"
+msgid "Hans Petter Bieker"
+msgstr "Hans Petter Bieker"
+
+#. +> trunk6 stable6
+#: main.cpp:44
+#, fuzzy, kde-format
+#| msgid "Waldo Bastian"
+msgctxt "@info:credit"
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#. +> trunk6 stable6
+#: main.cpp:44
+#, kde-format
+msgid "UI Design"
+msgstr "Dearadh an Chomhéadain"
+
+#. +> trunk6 stable6
+#: main.cpp:45
+#, fuzzy, kde-format
+#| msgid "Alexander Neundorf"
+msgctxt "@info:credit"
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#. +> trunk6 stable6
+#: main.cpp:46
+#, fuzzy, kde-format
+#| msgid "Clarence Dang"
+msgctxt "@info:credit"
+msgid "Clarence Dang"
+msgstr "Clarence Dang"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: main.cpp:50
+#, kde-format
+msgid "Path(s) to search"
+msgstr "Conair(í) le cuardach"

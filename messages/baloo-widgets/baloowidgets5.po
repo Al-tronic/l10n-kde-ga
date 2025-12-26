@@ -1,0 +1,327 @@
+# Irish translation of nepomukwidgets
+# Copyright (C) 2012 This_file_is_part_of_KDE
+# This file is distributed under the same license as the nepomukwidgets package.
+# Kevin Scannell <kscanne@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: nepomukwidgets\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-13 09:37+0100\n"
+"PO-Revision-Date: 2012-09-21 16:01-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:204 src/filemetadataprovider.cpp:210
+#: src/filemetadataprovider.cpp:305 src/filemetadataprovider.cpp:308
+#, kde-format
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:442 src/filemetadataprovider.cpp:459
+#, kde-format
+msgctxt "@label"
+msgid "Comment"
+msgstr "Nóta Tráchta"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:443
+#, fuzzy, kde-format
+#| msgctxt "@label creation date"
+#| msgid "Created"
+msgctxt "@label"
+msgid "Created"
+msgstr "Cruthaithe"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:444
+#, kde-format
+msgctxt "@label"
+msgid "Accessed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:445
+#, kde-format
+msgctxt "@label"
+msgid "Modified"
+msgstr "Athraithe"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:446
+#, kde-format
+msgctxt "@label"
+msgid "Owner"
+msgstr "Úinéir"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:447
+#, kde-format
+msgctxt "@label"
+msgid "Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:448
+#, kde-format
+msgctxt "@label"
+msgid "Permissions"
+msgstr "Ceadanna"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:449 src/filemetadataprovider.cpp:458
+#, kde-format
+msgctxt "@label"
+msgid "Rating"
+msgstr "Rátáil"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:450
+#, kde-format
+msgctxt "@label"
+msgid "Size"
+msgstr "Méid"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:451 src/filemetadataprovider.cpp:457
+#, kde-format
+msgctxt "@label"
+msgid "Tags"
+msgstr "Clibeanna"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:452
+#, kde-format
+msgctxt "@label"
+msgid "Total Size"
+msgstr "Méid Iomlán"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:453
+#, kde-format
+msgctxt "@label"
+msgid "Hidden items"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:454
+#, kde-format
+msgctxt "@label"
+msgid "Type"
+msgstr "Cineál"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:455
+#, kde-format
+msgctxt "@label"
+msgid "Link to"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:456
+#, kde-format
+msgctxt "@label"
+msgid "Points to"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:460
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Copied From"
+msgctxt "@label"
+msgid "Downloaded From"
+msgstr "Cóipeáilte Ó"
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:461
+#, kde-format
+msgctxt "@label"
+msgid "Dimensions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/filemetadataprovider.cpp:462
+#, fuzzy, kde-format
+#| msgctxt "@label file URL"
+#| msgid "Location"
+msgctxt "@label"
+msgid "GPS Location"
+msgstr "Suíomh"
+
+#. +> trunk6 stable6
+#: src/filepropertiesplugin/baloofilepropertiesplugin.cpp:66
+#, kde-format
+msgctxt "Tab page with file meta data"
+msgid "&Details"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kcommentwidget.cpp:40
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Comment"
+msgctxt "accessible name for file metadata comment text box"
+msgid "Comment"
+msgstr "Nóta Tráchta"
+
+#. +> trunk6 stable6
+#: src/kcommentwidget.cpp:53
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Change Comment"
+msgctxt "@action:button file metadata comment"
+msgid "Save Comment"
+msgstr "Athraigh Nóta"
+
+#. +> trunk6 stable6
+#: src/kedittagsdialog.cpp:36
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Add Tags"
+msgctxt "@title:window"
+msgid "Edit Tags"
+msgstr "Cuir Clibeanna Leis"
+
+#. +> trunk6 stable6
+#: src/kedittagsdialog.cpp:36
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Add Tags..."
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr "Cuir Clibeanna Leis..."
+
+#. +> trunk6 stable6
+#: src/kedittagsdialog.cpp:40
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kedittagsdialog.cpp:50
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
+msgstr "Cumraigh na clibeanna ba mhaith leat cur i bhfeidhm."
+
+#. +> trunk6 stable6
+#: src/kedittagsdialog.cpp:64
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Create new tag:"
+msgctxt "@label"
+msgid "Create new tag:"
+msgstr "Cruthaigh clib nua:"
+
+#. +> trunk6 stable6
+#: src/tagcheckbox.cpp:23
+#, kde-format
+msgctxt "accessible name for tag, %1 is the tag label"
+msgid "%1 tag"
+msgstr ""
+
+#. i18n: A tag is a keyword to add to files and folders for organization and to quickly find all items with the same tag later. "Everything" refers to
+#. files and folders, but this is obvious to the user because the user usually has tagged those items previously. This is about clicking a tag in the UI
+#. to show the list of items with the same tag %1.
+#. +> trunk6 stable6
+#: src/tagcheckbox.cpp:27
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show everything tagged “%1”"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:53
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Add Tags"
+msgid "Assign Tags"
+msgstr "Cuir Clibeanna Leis"
+
+#. +> trunk6 stable6
+#: src/tagsfileitemactionplugin/tagsfileitemaction.cpp:87
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Add Tags"
+msgid "Edit tags..."
+msgstr "Cuir Clibeanna Leis"
+
+#. +> trunk6 stable6
+#: src/tagwidget.cpp:83
+#, fuzzy, kde-format
+#| msgctxt "@label"
+#| msgid "Add Tags..."
+msgctxt "@action:button"
+msgid "Add tags…"
+msgstr "Cuir Clibeanna Leis..."
+
+#. +> trunk6 stable6
+#: src/tagwidget.cpp:83
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Add Tags"
+msgctxt "@action:button"
+msgid "Edit tags…"
+msgstr "Cuir Clibeanna Leis"
+
+#. +> trunk6 stable6
+#: src/widgetfactory.cpp:71 src/widgetfactory.cpp:82
+#, kde-format
+msgctxt "String list separator"
+msgid ", "
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgetfactory.cpp:106
+#, kde-format
+msgctxt "Latitude (South)"
+msgid "%1°S"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgetfactory.cpp:106
+#, kde-format
+msgctxt "Latitude (North)"
+msgid "%1°N"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgetfactory.cpp:107
+#, kde-format
+msgctxt "Longitude (West)"
+msgid "%1°W"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgetfactory.cpp:107
+#, kde-format
+msgctxt "Longitude (East)"
+msgid "%1°E"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgetfactory.cpp:115
+#, kde-format
+msgctxt "@info:tooltip Show location in map viewer"
+msgid "Show location in %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgetfactory.cpp:137
+#, kde-format
+msgctxt "width × height"
+msgid "%1 × %2"
+msgstr ""

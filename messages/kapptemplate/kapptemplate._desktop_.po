@@ -1,0 +1,74 @@
+# Irish translation of desktop_kdesdk
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdesdk package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:15+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: src/application/kapptemplate.knsrc:2
+msgctxt "Name"
+msgid "Application Templates (SDK)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/org.kde.kapptemplate.desktop:8
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "KDE Template Generator"
+msgctxt "GenericName"
+msgid "App Code Template Generator"
+msgstr "Gineadóir Teimpléad KDE"
+
+#. +> trunk6 stable6
+#: src/application/org.kde.kapptemplate.desktop:47
+msgctxt "Name"
+msgid "KAppTemplate"
+msgstr "KAppTemplate"
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6/kde-frameworks6.kdevtemplate:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Minimal C++ KDE"
+msgctxt "Name"
+msgid "C++ KDE Frameworks"
+msgstr "C++ KDE an-simplí"
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6/kde-frameworks6.kdevtemplate:45
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "A very basic KDE GUI Application in C++"
+msgctxt "Comment"
+msgid "A KDE Frameworks 6 GUI Application in C++"
+msgstr "Feidhmchlár grafach an-simplí KDE, scríofa i C++"
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6-simple/kde-frameworks6-simple.kdevtemplate:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Minimal C++ KDE"
+msgctxt "Name"
+msgid "Minimal C++ KDE Frameworks"
+msgstr "C++ KDE an-simplí"
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6-simple/kde-frameworks6-simple.kdevtemplate:45
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "A very basic KDE GUI Application in C++"
+msgctxt "Comment"
+msgid "A very basic KDE Frameworks 6 GUI Application in C++"
+msgstr "Feidhmchlár grafach an-simplí KDE, scríofa i C++"

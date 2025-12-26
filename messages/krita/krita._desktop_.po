@@ -1,0 +1,753 @@
+# Irish translation of desktop_koffice
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_koffice package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Digital.tag:3
+msgctxt "Name"
+msgid "Digital"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Digital.tag:48
+msgctxt "Comment"
+msgid "Brush presets with a digital look and feel."
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Erasers.tag:4
+msgctxt "Name"
+msgid "Erasers"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Erasers.tag:40
+#, fuzzy
+msgctxt "Comment"
+msgid "Eraser Brush Presets"
+msgstr "Scuab Théacs"
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Favorites.tag:4
+msgctxt "Name"
+msgid "★ My Favorites"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Favorites.tag:40
+#, fuzzy
+msgctxt "Comment"
+msgid "Your favorite brush presets"
+msgstr "Scuab Théacs"
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/FX.tag:4
+msgctxt "Name"
+msgid "FX"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/FX.tag:41
+msgctxt "Comment"
+msgid "Special Effects.kpp"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Ink.tag:4
+msgctxt "Name"
+msgid "Ink"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Ink.tag:41
+#, fuzzy
+msgctxt "Comment"
+msgid "Inking Brush Presets"
+msgstr "Scuab Théacs"
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Paint.tag:4
+msgctxt "Name"
+msgid "Paint"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Paint.tag:41
+#, fuzzy
+msgctxt "Comment"
+msgid "Paint Brushes"
+msgstr "Scuab dhinimiciúil"
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Pixel_Art.tag:4
+msgctxt "Name"
+msgid "Pixel Art"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Pixel_Art.tag:39
+msgctxt "Comment"
+msgid "Presets for working with individual pixels"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Sketch.tag:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Krita"
+msgctxt "Name"
+msgid "Sketch"
+msgstr "Krita"
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Sketch.tag:41
+#, fuzzy
+msgctxt "Comment"
+msgid "Sketching brush presets"
+msgstr "Scuab Théacs"
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Textures.tag:4
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Text"
+msgctxt "Name"
+msgid "Textures"
+msgstr "Téacs"
+
+#. +> trunk5 stable5
+#: krita/data/paintoppresets/Textures.tag:42
+#, fuzzy
+msgctxt "Comment"
+msgid "Textured Brush Presets"
+msgstr "Scuab Théacs"
+
+#. +> trunk5 stable5
+#: krita/data/templates/animation/Anim-Jp-EN.desktop:5
+msgctxt "Name"
+msgid "Animation-Japanese-En"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/animation/Anim-Jp-JP.desktop:5
+msgctxt "Name"
+msgid "Animation-Japanese-JP"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/animation/.directory:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Animation Tool"
+msgctxt "Name"
+msgid "Animation Templates"
+msgstr "Uirlis Bheochana"
+
+#. +> trunk5 stable5
+#: krita/data/templates/comics/a4_waffle_grid.desktop:5
+msgctxt "Name"
+msgid "waffle-iron grid"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/comics/a4_waffle_grid.desktop:46
+msgctxt "Comment"
+msgid "300 dpi, A4 waffle-iron grid comic page with ink and color layers"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:5
+#, fuzzy
+msgctxt "Name"
+msgid "European BD template"
+msgstr "Teimpléad Facs"
+
+#. +> trunk5 stable5
+#: krita/data/templates/comics/BD-EuroTemplate.desktop:49
+msgctxt "Comment"
+msgid "template for European BD-style comics"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/comics/Comics-USTemplate.desktop:5
+#, fuzzy
+msgctxt "Name"
+msgid "US-style comics template"
+msgstr "Teimpléid"
+
+#. +> trunk5 stable5
+#: krita/data/templates/comics/Comics-USTemplate.desktop:48
+msgctxt "Comment"
+msgid "template for US-style comics"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/comics/.directory:2
+#, fuzzy
+msgctxt "Name"
+msgid "Comic Templates"
+msgstr "Teimpléid"
+
+#. +> trunk5 stable5
+#: krita/data/templates/comics/Manga-JpTemplate.desktop:5
+#, fuzzy
+msgctxt "Name"
+msgid "Manga template"
+msgstr "Teimpléad Facs"
+
+#. +> trunk5 stable5
+#: krita/data/templates/comics/Manga-JpTemplate.desktop:50
+#: krita/data/templates/comics/Tsukirino.desktop:28
+#: krita/data/templates/comics/TsukirinoF.desktop:28
+msgctxt "Comment"
+msgid "template for Japanese Manga-style comics"
+msgstr ""
+
+#. +> trunk5
+#: krita/data/templates/comics/Tsukirino.desktop:5
+msgctxt "Name"
+msgid "Tsukirino"
+msgstr ""
+
+#. +> trunk5
+#: krita/data/templates/comics/TsukirinoF.desktop:5
+msgctxt "Name"
+msgid "TsukirinoF"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/design/Designcinema16_10_2484x1200_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design cinema 16:10 [ 2484x1200 , 96dpi RGB , 8bit ]"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/design/Designcinema2.39_1_2484x1040_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design cinema 2.39:1 [ 2484x1040 , 96dpi RGB , 8bit ]"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/design/DesignpresentationA3Landscape_4960x3508_300dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design presentation A3 Landscape [ 4960x3508 , 300dpi RGB , 8bit ]"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/design/DesignpresentationA4portrait_2480x3508,300dpiRGB_8bit_.desktop:3
+#: krita/data/templates/design/DesignpresentationA4portrait_2480x3508_300dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design presentation A4 portrait [ 2480x3508 , 300dpi RGB , 8bit ]"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/design/Designscreen4_3_2250x1680_96dpiRGB_8bit_.desktop:3
+msgctxt "Name"
+msgid "Design screen 4:3 [ 2250x1680 , 96dpi RGB , 8bit ]"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/design/.directory:2
+#, fuzzy
+msgctxt "Name"
+msgid "Design Templates"
+msgstr "Teimpléid"
+
+#. +> trunk5 stable5
+#: krita/data/templates/design/web_design.desktop:3
+msgctxt "Name"
+msgid "Web Design [ 2160x1440 , 72ppi RGB , 8bit ]"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/dslr/Canon_550D_5184x3456.desktop:3
+msgctxt "Name"
+msgid "Canon_550D_5184x3456"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/dslr/Canon_5Dmk3_5760x3840.desktop:3
+msgctxt "Name"
+msgid "Canon_5Dmk3_5760x3840"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/dslr/.directory:2
+#, fuzzy
+msgctxt "Name"
+msgid "DSLR Templates"
+msgstr "Teimpléid"
+
+#. +> trunk5 stable5
+#: krita/data/templates/dslr/Nikon_D3000_3872x2592.desktop:3
+msgctxt "Name"
+msgid "Nikon_D3000_3872x2592"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/dslr/Nikon_D5000_4288x2848.desktop:3
+msgctxt "Name"
+msgid "Nikon_D5000_4288x2848"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/dslr/Nikon_D7000_4928x3264.desktop:3
+msgctxt "Name"
+msgid "Nikon_D7000_4928x3264"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/.directory:2
+#, fuzzy
+msgctxt "Name"
+msgid "Texture Templates"
+msgstr "Teimpléid"
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture1024x10248bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 1024x1024 8bit srgb"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture1k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 1k 32bit scalar"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture1k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 1k 8bit srgb"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture2048x20488bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 2048x2048 8bit srgb"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture256x2568bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 256x256 8bit srgb"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture2k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 2k 32bit scalar"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture2k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 2k 8bit srgb"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture4096x40968bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 4096x4096 8bit srgb"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture4k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 4k 32bit scalar"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture4k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 4k 8bit srgb"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture512x5128bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 512x512 8bit srgb"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture8k32bitscalar.desktop:3
+msgctxt "Name"
+msgid "Texture 8k 32bit scalar"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/data/templates/texture/Texture8k8bitsrgb.desktop:3
+msgctxt "Name"
+msgid "Texture 8k 8bit srgb"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/org.kde.krita.desktop:2 plugins/impex/brush/krita_brush.desktop:2
+#: plugins/impex/csv/krita_csv.desktop:2
+#: plugins/impex/exr/krita_exr.desktop:58
+#: plugins/impex/gif/krita_gif.desktop:2
+#: plugins/impex/heif/krita_heif.desktop:58
+#: plugins/impex/heightmap/krita_heightmap.desktop:7
+#: plugins/impex/jp2/krita_jp2.desktop:55
+#: plugins/impex/jpeg/krita_jpeg.desktop:6
+#: plugins/impex/jxl/krita_jxl.desktop:58
+#: plugins/impex/kra/krita_kra.desktop:7 plugins/impex/krz/krita_krz.desktop:7
+#: plugins/impex/ora/krita_ora.desktop:7 plugins/impex/pdf/krita_pdf.desktop:6
+#: plugins/impex/png/krita_png.desktop:2 plugins/impex/psd/krita_psd.desktop:6
+#: plugins/impex/qimageio/krita_qimageio.desktop:2
+#: plugins/impex/raw/krita_raw.desktop:2
+#: plugins/impex/rgbe/krita_rgbe.desktop:2
+#: plugins/impex/spriter/krita_spriter.desktop:2
+#: plugins/impex/svg/krita_svg.desktop:2 plugins/impex/tga/krita_tga.desktop:2
+#: plugins/impex/tiff/krita_tiff.desktop:6
+#: plugins/impex/webp/krita_webp.desktop:2
+#: plugins/impex/xcf/krita_xcf.desktop:6
+msgctxt "Name"
+msgid "Krita"
+msgstr "Krita"
+
+#. +> trunk5 stable5
+#: krita/org.kde.krita.desktop:67
+msgctxt "GenericName"
+msgid "Digital Painting"
+msgstr ""
+
+#. +> trunk5 stable5
+#: krita/org.kde.krita.desktop:113
+msgctxt "Comment"
+msgid "Digital Painting"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/impex/exr/krita_exr.desktop:4
+#: plugins/impex/heif/krita_heif.desktop:4
+#: plugins/impex/jp2/krita_jp2.desktop:3 plugins/impex/jxl/krita_jxl.desktop:4
+msgctxt "GenericName"
+msgid "Application for Drawing and Handling of Images"
+msgstr "Feidhmchlár le haghaidh Líníochta agus Láimhseála Íomhánna"
+
+#. +> trunk5 stable5
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:6
+msgctxt "Name"
+msgid "Assign Profile to Image"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/assignprofiledialog/kritapykrita_assignprofiledialog.desktop:44
+msgctxt "Comment"
+msgid "Assign a profile to an image without converting it."
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:6
+msgctxt "Name"
+msgid "Batch Exporter"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/batch_exporter/kritapykrita_batch_exporter.desktop:43
+msgctxt "Comment"
+msgid "Smart export tool that uses layer names to scale and (re-)export art assets in batches fast"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:6
+#, fuzzy
+msgctxt "Name"
+msgid "Channels to layers"
+msgstr "Uirlisí Réamhshocraithe"
+
+#. +> trunk5 stable5
+#: plugins/python/channels2layers/kritapykrita_channels2layers.desktop:45
+msgctxt "Comment"
+msgid "Extract channels as color layers"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Colorrange"
+msgctxt "Name"
+msgid "Color Space"
+msgstr "Raon datha"
+
+#. +> trunk5 stable5
+#: plugins/python/colorspace/kritapykrita_colorspace.desktop:45
+msgctxt "Comment"
+msgid "Plugin to change color space to selected documents"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:6
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Management"
+msgctxt "Name"
+msgid "Comics Project Management Tools"
+msgstr "Bainisteoireacht Tionscadal"
+
+#. +> trunk5 stable5
+#: plugins/python/comics_project_management_tools/kritapykrita_comics_project_management_tools.desktop:43
+msgctxt "Comment"
+msgid "Tools for managing comics."
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:6
+#, fuzzy
+msgctxt "Name"
+msgid "Document Tools"
+msgstr "Cáipéis Fholamh"
+
+#. +> trunk5 stable5
+#: plugins/python/documenttools/kritapykrita_documenttools.desktop:44
+msgctxt "Comment"
+msgid "Plugin to manipulate properties of selected documents"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:6
+msgctxt "Name"
+msgid "Export Layers"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/exportlayers/kritapykrita_exportlayers.desktop:43
+msgctxt "Comment"
+msgid "Plugin to export layers from a document"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Filters Gallery"
+msgctxt "Name"
+msgid "Filter Manager"
+msgstr "Gailearaí na Scagairí"
+
+#. +> trunk5 stable5
+#: plugins/python/filtermanager/kritapykrita_filtermanager.desktop:44
+msgctxt "Comment"
+msgid "Plugin to filters management"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/highpass/kritapykrita_highpass.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Noise Filter"
+msgctxt "Name"
+msgid "Highpass Filter"
+msgstr "Scagaire Torainn"
+
+#. +> trunk5 stable5
+#: plugins/python/highpass/kritapykrita_highpass.desktop:42
+msgctxt "Comment"
+msgid "Highpass Filter, based on http://registry.gimp.org/node/7385"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KritaShape Shape"
+msgctxt "Name"
+msgid "Krita Script Starter"
+msgstr "Giuirléid KritaShape"
+
+#. +> trunk5 stable5
+#: plugins/python/krita_script_starter/kritapykrita_krita_script_starter.desktop:43
+msgctxt "Comment"
+msgid "Create the metadata and file structure for a new Krita script"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:6
+#, fuzzy
+msgctxt "Name"
+msgid "Last Documents Docker"
+msgstr "Uirlisí Réamhshocraithe"
+
+#. +> trunk5 stable5
+#: plugins/python/lastdocumentsdocker/kritapykrita_lastdocumentsdocker.desktop:43
+msgctxt "Comment"
+msgid "A Python-based docker for show thumbnails to last ten documents"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:6
+msgctxt "Name"
+msgid "Mixer Slider docker"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/mixer_slider_docker/kritapykrita_mixer_slider_docker.desktop:40
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Color Filters"
+msgctxt "Comment"
+msgid "A color slider."
+msgstr "Scagairí Datha"
+
+#. +> trunk5
+#: plugins/python/mutator/kritapykrita_mutator.desktop:6
+msgctxt "Name"
+msgid "Mutator"
+msgstr ""
+
+#. +> trunk5
+#: plugins/python/mutator/kritapykrita_mutator.desktop:25
+msgctxt "Comment"
+msgid "Manually mutate your brush and color settings to add variation."
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:6
+#, fuzzy
+msgctxt "Name"
+msgid "Palette docker"
+msgstr "Uirlisí Réamhshocraithe"
+
+#. +> trunk5 stable5
+#: plugins/python/palette_docker/kritapykrita_palette_docker.desktop:43
+msgctxt "Comment"
+msgid "A Python-based docker to edit color palettes."
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Krita PhotoShop Import Filter"
+msgctxt "Name"
+msgid "Krita Photobash Images"
+msgstr "Scagaire Iompórtála PhotoShop Krita"
+
+#. +> trunk5 stable5
+#: plugins/python/photobash_images/kritapykrita_photobash_images.desktop:40
+msgctxt "Comment"
+msgid "A plugin to fetch images from a specified folder. Very useful for photobashing!"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:6
+msgctxt "Name"
+msgid "Python Plugin Importer"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/plugin_importer/kritapykrita_plugin_importer.desktop:42
+msgctxt "Comment"
+msgid "Imports Python plugins from zip files."
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Selection Tools"
+msgctxt "Name"
+msgid "Quick Settings Docker"
+msgstr "Uirlisí Roghnúcháin"
+
+#. +> trunk5 stable5
+#: plugins/python/quick_settings_docker/kritapykrita_quick_settings_docker.desktop:43
+msgctxt "Comment"
+msgid "A Python-based docker for quickly changing brush size and opacity."
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:5
+#, fuzzy
+msgctxt "Name"
+msgid "Script Docker"
+msgstr "Scripteanna"
+
+#. +> trunk5 stable5
+#: plugins/python/scriptdocker/kritapykrita_scriptdocker.desktop:42
+msgctxt "Comment"
+msgid "A Python-based docker for create actions and point to Python scripts"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/scripter/kritapykrita_scripter.desktop:6
+#, fuzzy
+msgctxt "Name"
+msgid "Scripter"
+msgstr "Scripteanna"
+
+#. +> trunk5 stable5
+#: plugins/python/scripter/kritapykrita_scripter.desktop:43
+msgctxt "Comment"
+msgid "Plugin to execute ad-hoc Python code"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:5
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Selection Tools"
+msgctxt "Name"
+msgid "Selections Bag Docker"
+msgstr "Uirlisí Roghnúcháin"
+
+#. +> trunk5 stable5
+#: plugins/python/selectionsbagdocker/kritapykrita_selectionsbagdocker.desktop:40
+msgctxt "Comment"
+msgid "A docker that allow to store a list of selections"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:6
+msgctxt "Name"
+msgid "Ten Brushes"
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/tenbrushes/kritapykrita_tenbrushes.desktop:43
+msgctxt "Comment"
+msgid "Assign a brush preset to any of ten configurable shortcuts."
+msgstr ""
+
+#. +> trunk5 stable5
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:6
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Scripts"
+msgctxt "Name"
+msgid "Ten Scripts"
+msgstr "Scripteanna"
+
+#. +> trunk5 stable5
+#: plugins/python/tenscripts/kritapykrita_tenscripts.desktop:43
+msgctxt "Comment"
+msgid "Assign a Python script to any of ten configurable shortcuts."
+msgstr ""
+
+#. +> trunk5
+#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:6
+msgctxt "Name"
+msgid "Workflow Buttons"
+msgstr ""
+
+#. +> trunk5
+#: plugins/python/workflow_buttons/kritapykrita_workflow_buttons.desktop:28
+msgctxt "Comment"
+msgid "A Python-based docker to create multi-action buttons to improve your workflow."
+msgstr ""

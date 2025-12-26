@@ -1,0 +1,404 @@
+# Irish translation of marble_qt
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the marble_qt package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeedu/marble.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-07 13:14+0200\n"
+"PO-Revision-Date: 2007-06-27 10:27-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: Bookmarks.qml:20
+#, fuzzy, kde-format
+#| msgid "Bookmarks"
+msgctxt "@title:window"
+msgid "Bookmarks"
+msgstr "Leabharmharcanna"
+
+#. +> trunk6 stable6
+#: Bookmarks.qml:69
+#, kde-format
+msgid "Your bookmarks will appear here."
+msgstr ""
+
+#. i18n: ectx: label, entry (MapThemeId), group (General)
+#. +> trunk6 stable6
+#: config.kcfg:14
+#, kde-format
+msgid "The marble theme id"
+msgstr ""
+
+#. i18n: ectx: label, entry (Profile), group (Routing)
+#. +> trunk6 stable6
+#: config.kcfg:20
+#, fuzzy, kde-format
+#| msgid "Elevation Profile Marker"
+msgid "Routing profile"
+msgstr "Marcóir i bPróifíl Airde"
+
+#. i18n: ectx: label, entry (Profile), group (Routing)
+#. +> trunk6 stable6
+#: config.kcfg:23
+#, fuzzy, kde-format
+#| msgid "Clear"
+msgid "Car"
+msgstr "Glan"
+
+#. i18n: ectx: label, entry (Profile), group (Routing)
+#. +> trunk6 stable6
+#: config.kcfg:26 ProfileSelectorMenu.qml:134
+#, fuzzy, kde-format
+#| msgid "Bicycle"
+msgid "Bicycle"
+msgstr "Rothar"
+
+#. i18n: ectx: label, entry (Profile), group (Routing)
+#. +> trunk6 stable6
+#: config.kcfg:29 ProfileSelectorMenu.qml:144
+#, kde-format
+msgid "Pedestrian"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CurrentPosition.qml:54
+#, fuzzy, kde-format
+#| msgid "Current Location"
+msgctxt "@option:check"
+msgid "Follow Current Position"
+msgstr "Suíomh Reatha"
+
+#. +> trunk6 stable6
+#: main.cpp:44 MainScreen.qml:21 MainScreen.qml:190
+#, fuzzy, kde-format
+#| msgid "Manage Bookmarks"
+msgid "Marble Maps"
+msgstr "Bainistigh Leabharmharcanna"
+
+#. +> trunk6 stable6
+#: main.cpp:46
+#, fuzzy, kde-format
+#| msgid "&Edit Map"
+msgid "Maps"
+msgstr "Cuir Mapa in &Eagar"
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgid "© KDE Community"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Carl Schwan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, fuzzy, kde-format
+#| msgid "Developer"
+msgid "Developer"
+msgstr "Forbróir"
+
+#. +> trunk6 stable6
+#: main.cpp:60
+#, fuzzy, kde-format
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: main.cpp:60
+#, fuzzy, kde-format
+#| msgid "&Show Details"
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "&Taispeáin Mionsonraí"
+
+#. +> trunk6 stable6
+#: MainScreen.qml:87
+#, fuzzy, kde-format
+#| msgid "Transport"
+msgid "Public Transport"
+msgstr "Iompar"
+
+#. +> trunk6 stable6
+#: MainScreen.qml:102
+#, kde-format
+msgid "Outdoor Activities"
+msgstr ""
+
+#. +> trunk6 stable6
+#: MainScreen.qml:114
+#, kde-format
+msgctxt "@action:button"
+msgid "Accessibility"
+msgstr ""
+
+#. +> trunk6 stable6
+#: MainScreen.qml:123
+#, fuzzy, kde-format
+#| msgid "About"
+msgctxt "@action:button"
+msgid "About"
+msgstr "Maidir Leis"
+
+#. +> trunk6 stable6
+#: MainScreen.qml:134
+#, fuzzy, kde-format
+#| msgid "Bookmarks"
+msgctxt "@action:button"
+msgid "Bookmarks"
+msgstr "Leabharmharcanna"
+
+#. +> trunk6 stable6
+#: MainScreen.qml:145
+#, fuzzy, kde-format
+#| msgid "New Profile"
+msgctxt "@action:button"
+msgid "Layer Options"
+msgstr "Próifíl Nua"
+
+#. +> trunk6 stable6
+#: MainScreen.qml:156
+#, fuzzy, kde-format
+#| msgid "New Profile"
+msgctxt "@action:button"
+msgid "Theme Options"
+msgstr "Próifíl Nua"
+
+#. +> trunk6 stable6
+#: MainScreen.qml:167
+#, fuzzy, kde-format
+#| msgid "Routing"
+msgid "Routing"
+msgstr "Ródú"
+
+#. +> trunk6 stable6
+#: MainScreen.qml:458
+#, fuzzy, kde-format
+#| msgid "%1 km"
+msgid "%1 km"
+msgstr "%1 km"
+
+#. +> trunk6 stable6
+#: NavigationInfoBar.qml:20
+#, fuzzy, kde-format
+#| msgid "%1 km"
+msgctxt "distance in km"
+msgid "%1 km"
+msgstr "%1 km"
+
+#. +> trunk6 stable6
+#: NavigationInfoBar.qml:22
+#, fuzzy, kde-format
+#| msgid "%1 m"
+msgctxt "distance in m"
+msgid "%1 m"
+msgstr "%1 m"
+
+#. +> trunk6 stable6
+#: NavigationInfoBar.qml:24
+#, fuzzy, kde-format
+#| msgid "%1 m"
+msgctxt "distance in m with decimals"
+msgid "%1 m"
+msgstr "%1 m"
+
+#. +> trunk6 stable6
+#: Options.qml:20
+#, fuzzy, kde-format
+#| msgid "New Profile"
+msgctxt "@title:window"
+msgid "Layer Options"
+msgstr "Próifíl Nua"
+
+#. +> trunk6 stable6
+#: Options.qml:23
+#, fuzzy, kde-format
+#| msgid "Transport"
+msgctxt "@title:group"
+msgid "Public Transport Layers"
+msgstr "Iompar"
+
+#. +> trunk6 stable6
+#: Options.qml:28
+#, fuzzy, kde-format
+#| msgid "Terrain"
+msgctxt "@option:check"
+msgid "Train"
+msgstr "Tír-raon"
+
+#. +> trunk6 stable6
+#: Options.qml:35
+#, fuzzy, kde-format
+#| msgid "Subway"
+msgctxt "@option:check"
+msgid "Subway"
+msgstr "Fobhealach"
+
+#. +> trunk6 stable6
+#: Options.qml:42
+#, kde-format
+msgctxt "@option:check"
+msgid "Tram"
+msgstr ""
+
+#. +> trunk6 stable6
+#: Options.qml:49
+#, kde-format
+msgctxt "@option:check"
+msgid "Bus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: Options.qml:56
+#, kde-format
+msgctxt "@option:check"
+msgid "Trolley Bus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: Options.qml:64
+#, kde-format
+msgid "Outdoor Activities Layers"
+msgstr ""
+
+#. +> trunk6 stable6
+#: Options.qml:69
+#, kde-format
+msgctxt "@option:check"
+msgid "Walkways"
+msgstr ""
+
+#. +> trunk6 stable6
+#: Options.qml:76
+#, fuzzy, kde-format
+#| msgid "&Open..."
+msgctxt "@option:check"
+msgid "Hiking Routes"
+msgstr "&Oscail..."
+
+#. +> trunk6 stable6
+#: Options.qml:83
+#, fuzzy, kde-format
+#| msgid "Bicycle"
+msgctxt "@option:check"
+msgid "Bicycle Routes"
+msgstr "Rothar"
+
+#. +> trunk6 stable6
+#: Options.qml:90
+#, fuzzy, kde-format
+#| msgid "Mountain"
+msgctxt "@option:check"
+msgid "Mountainbike Routes"
+msgstr "Sliabh"
+
+#. +> trunk6 stable6
+#: Options.qml:97
+#, fuzzy, kde-format
+#| msgid "Routing"
+msgctxt "@option:check"
+msgid "Inline Skating Routes"
+msgstr "Ródú"
+
+#. +> trunk6 stable6
+#: Options.qml:104
+#, fuzzy, kde-format
+#| msgid "Bridleway"
+msgctxt "@option:check"
+msgid "Bridleways"
+msgstr "Cosán Marcaíochta"
+
+#. +> trunk6 stable6
+#: PlacemarkDialog.qml:48
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt "placeholder"
+msgid "No Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: PlacemarkDialog.qml:168
+#, kde-format
+msgctxt "@title:group"
+msgid "Tags:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ProfileSelectorMenu.qml:124
+#, fuzzy, kde-format
+#| msgid "Car (fastest)"
+msgid "Car (fastest)"
+msgstr "Carr (is tapúla)"
+
+#. +> trunk6 stable6
+#: RouteEditorPage.qml:19
+#, fuzzy, kde-format
+#| msgid "Routing"
+msgctxt "@title"
+msgid "Routing"
+msgstr "Ródú"
+
+#. +> trunk6 stable6
+#: RouteEditorPage.qml:102
+#, fuzzy, kde-format
+#| msgid "Temperature (July)"
+msgctxt "@label:textbox"
+msgid "Departure:"
+msgstr "Teocht (Iúil)"
+
+#. +> trunk6 stable6
+#: RouteEditorPage.qml:104
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Arrival:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: RouteEditorPage.qml:106
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Waypoint:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: RouteEditorPage.qml:194
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Alternatives:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: SettingsDialog.qml:48
+#, fuzzy, kde-format
+#| msgid "Settings"
+msgid "Network Settings"
+msgstr "Socruithe"
+
+#. +> trunk6 stable6
+#: SettingsDialog.qml:53
+#, fuzzy, kde-format
+#| msgid "Downloading %1"
+msgid "Download Maps via WLAN only"
+msgstr "%1 á íosluchtú"
+
+#. +> trunk6 stable6
+#: ThemeConfigPage.qml:19
+#, fuzzy, kde-format
+#| msgid "&Theme"
+msgctxt "@title:window"
+msgid "Themes"
+msgstr "&Téama"

@@ -1,0 +1,1493 @@
+# Irish translation of kmix
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kmix package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdemultimedia/kmix.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-03-09 09:43+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: apps/kmixctrl.cpp:40
+#, kde-format
+msgid "KMixCtrl"
+msgstr "KMixCtrl"
+
+#. +> trunk6 stable6
+#: apps/kmixctrl.cpp:41
+#, fuzzy, kde-format
+#| msgid "kmixctrl - kmix volume save/restore utility"
+msgid "kmixctrl - KMix volume save/restore utility"
+msgstr "kmixctrl - uirlis sábhála/athshocraithe airde"
+
+#. +> trunk6 stable6
+#: apps/kmixctrl.cpp:43
+#, kde-format
+msgid "(c) 2000 by Stefan Schimanski"
+msgstr "© 2000 Stefan Schimanski"
+
+#. +> trunk6 stable6
+#: apps/kmixctrl.cpp:45 apps/kmixmain.cpp:76
+#, kde-format
+msgid "Stefan Schimanski"
+msgstr "Stefan Schimanski"
+
+#. +> trunk6 stable6
+#: apps/kmixctrl.cpp:51
+#, kde-format
+msgid "Save current volumes as default"
+msgstr "Sábháil airde reatha mar réamhshocrú"
+
+#. +> trunk6 stable6
+#: apps/kmixctrl.cpp:53
+#, kde-format
+msgid "Restore default volumes"
+msgstr "Athshocraigh an airde réamhshocraithe"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:59
+#, kde-format
+msgid "KMix"
+msgstr "KMix"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:60
+#, kde-format
+msgid "KMix - KDE's full featured mini mixer"
+msgstr "KMix - mionmheascthóir KDE le go leor gnéithe"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:61
+#, fuzzy, kde-format
+#| msgid "(c) 1996-2013 The KMix Authors"
+msgid "(c) 1996-2024 The KMix Authors"
+msgstr "© 1996-2013 Údair KMix"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:64
+#, kde-format
+msgid "Christian Esken"
+msgstr "Christian Esken"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:64
+#, kde-format
+msgid "Original author and current maintainer"
+msgstr "Bunúdar agus cothaitheoir reatha"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:65
+#, kde-format
+msgid "Colin Guthrie"
+msgstr "Colin Guthrie"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:65
+#, kde-format
+msgid "PulseAudio support"
+msgstr "Tacaíocht PulseAudio"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:66
+#, kde-format
+msgid "Helio Chissini de Castro"
+msgstr "Helio Chissini de Castro"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:66
+#, kde-format
+msgid "ALSA 0.9x port"
+msgstr "Leagan ALSA 0.9x"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:67
+#, kde-format
+msgid "Brian Hanson"
+msgstr "Brian Hanson"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:67
+#, kde-format
+msgid "Solaris support"
+msgstr "Leagan Solaris"
+
+#. i18n("Helge Deller")      , i18n("HP/UX port"), "deller@gmx.de");
+#. The initial support was for ALSA 0.5. The new code is not based on it IIRC.
+#. i18n("Nick Lopez")        , i18n("Initial ALSA port"), "kimo_sabe@usa.net");
+#. Credit Policy: Authors who did a discrete part, like the Dataengine, OSD, help on specific platforms or soundcards.
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:74
+#, kde-format
+msgid "Jonathan Marten"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:74
+#, kde-format
+msgid "KF5 hotplugging, ALSA/OSS volume feedback, GUI improvements, KF6 port"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:75
+#, kde-format
+msgid "Igor Poboiko"
+msgstr "Igor Poboiko"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:75
+#, kde-format
+msgid "Plasma Dataengine"
+msgstr "Inneall Sonraí Plasma"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:76
+#, kde-format
+msgid "Temporary maintainer"
+msgstr "Cothaitheoir sealadach"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:77
+#, kde-format
+msgid "Sebestyen Zoltan"
+msgstr "Sebestyen Zoltan"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:77 apps/kmixmain.cpp:78
+#, kde-format
+msgid "*BSD fixes"
+msgstr "Ceartúcháin *BSD"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:78
+#, kde-format
+msgid "Lennart Augustsson"
+msgstr "Lennart Augustsson"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:79
+#, kde-format
+msgid "Nadeem Hasan"
+msgstr "Nadeem Hasan"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:79
+#, kde-format
+msgid "Mute and volume preview, other fixes"
+msgstr "Mód gan fuaim, réamhamharc airde, ceartúcháin eile"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:80
+#, kde-format
+msgid "Erwin Mascher"
+msgstr "Erwin Mascher"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:80
+#, kde-format
+msgid "Improving support for emu10k1 based soundcards"
+msgstr "Tacaíocht níos fearr do chártaí fuaime bunaithe ar emu10k1"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:81
+#, kde-format
+msgid "Valentin Rusu"
+msgstr "Valentin Rusu"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:81
+#, kde-format
+msgid "TerraTec DMX6Fire support"
+msgstr "Tacaíocht DMX6Fire TerraTec"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:89
+#, fuzzy, kde-format
+#| msgid "PulseAudio support"
+msgid "PulseAudio"
+msgstr "Tacaíocht PulseAudio"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:90
+#, fuzzy, kde-format
+#| msgid "Sound drivers used:"
+msgid "Sound server"
+msgstr "Tiománaithe fuaime a úsáidtear:"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:95
+#, kde-format
+msgid "ALSA"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:96
+#, kde-format
+msgid "Advanced Linux Sound Architecture"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:101
+#, kde-format
+msgid "OSS 3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:102 apps/kmixmain.cpp:107
+#, fuzzy, kde-format
+#| msgid "Event Sounds"
+msgid "Open Sound System"
+msgstr "Fuaimeanna Teagmhas"
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:106
+#, kde-format
+msgid "OSS 4"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:122
+#, fuzzy, kde-format
+#| msgid "Inhibits the unhiding of the KMix main window, if KMix is already running."
+msgid "Inhibit showing the KMix main window, if KMix is already running."
+msgstr "Cuireann sé seo cosc ar phríomhfhuinneog KMix a thaispeáint, má tá KMix ag rith cheana."
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:123
+#, kde-format
+msgid "Start KMix in failsafe mode."
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:124
+#, kde-format
+msgid "A list of backends to use (for testing only)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:124
+#, kde-format
+msgid "name[,name...]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:125
+#, kde-format
+msgid "Enable the (experimental) multiple driver mode."
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixmain.cpp:126
+#, fuzzy, kde-format
+#| msgid "Enable system tray &volume control"
+msgid "Do not show the system tray volume control."
+msgstr "Cumasaigh &rialú na hairde i dtráidire an chórais"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:166
+#, kde-format
+msgid "Hide Mixer Window"
+msgstr "Folaigh Fuinneog an Mheascthóra"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:176
+#, fuzzy, kde-format
+#| msgid "Audio Setup"
+msgid "Audio Setup..."
+msgstr "Socrú Fuaime"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:181
+#, kde-format
+msgid "Configure &Channels..."
+msgstr "Cumraigh &Cainéil..."
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:186
+#, kde-format
+msgid "Select Master Channel..."
+msgstr "Roghnaigh Máistirchainéal..."
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:192
+#, kde-format
+msgid "Save volume profile 1"
+msgstr "Sábháil próifíl airde a haon"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:197
+#, kde-format
+msgid "Save volume profile 2"
+msgstr "Sábháil próifíl airde a dó"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:202
+#, kde-format
+msgid "Save volume profile 3"
+msgstr "Sábháil próifíl airde a trí"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:207
+#, kde-format
+msgid "Save volume profile 4"
+msgstr "Sábháil próifíl airde a ceathair"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:212
+#, kde-format
+msgid "Load volume profile 1"
+msgstr "Luchtaigh próifíl airde a haon"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:217
+#, kde-format
+msgid "Load volume profile 2"
+msgstr "Luchtaigh próifíl airde a dó"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:222
+#, kde-format
+msgid "Load volume profile 3"
+msgstr "Luchtaigh próifíl airde a trí"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:227
+#, kde-format
+msgid "Load volume profile 4"
+msgstr "Luchtaigh próifíl airde a ceathair"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:238
+#, kde-format
+msgid "Increase Volume"
+msgstr "Méadaigh an Airde"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:245
+#, kde-format
+msgid "Decrease Volume"
+msgstr "Laghdaigh an Airde"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:250 gui/mdwslider.cpp:101
+#, kde-format
+msgid "Mute"
+msgstr "Gan fuaim"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:264
+#, fuzzy, kde-format
+#| msgid "Add View"
+msgid "Add new view"
+msgstr "Cuir Amharc Leis"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:781
+#, kde-format
+msgid "Cannot add view - GUIProfile is invalid."
+msgstr "Ní féidir an tAmharc a chur leis - GUIProfile neamhbhailí."
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:781 apps/kmixwindow.cpp:788
+#, kde-format
+msgid "Error"
+msgstr "Earráid"
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:788
+#, fuzzy, kde-format
+#| msgid "Cannot add view - GUIProfile is invalid."
+msgid "Cannot add view - View already exists."
+msgstr "Ní féidir an tAmharc a chur leis - GUIProfile neamhbhailí."
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:856
+#, kde-format
+msgid "The sound device '%1' was connected."
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:909
+#, kde-format
+msgid "The sound device '%1' was disconnected."
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:934
+#, fuzzy, kde-format
+#| msgid "The soundcard containing the master device was unplugged. Changing to control %1 on card %2."
+msgid "The current master device was disconnected. Changing master to '%1' on device '%2'."
+msgstr "Díphlugáladh an cárta fuaime ar a bhfuil an máistirghléas. Athrófar go dtí rialtán %1 ar chárta %2."
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:941
+#, fuzzy, kde-format
+#| msgid "No sound card is installed or currently plugged in."
+msgid "The last sound device was disconnected. No sound devices are available."
+msgstr "Níl aon chárta fuaime suiteáilte nó níl sé plugáilte isteach."
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:1186
+#, fuzzy, kde-format
+#| msgid "The helper application is either not installed or not working."
+msgid ""
+"The helper application is either not installed or not working.\n"
+"\n"
+"%1"
+msgstr "Níl an feidhmchlár cabhrach suiteáilte, nó níl sé ag obair mar is ceart."
+
+#. +> trunk6 stable6
+#: apps/kmixwindow.cpp:1236
+#, fuzzy, kde-format
+#| msgid "Mixer"
+msgid "Mixer (%1)"
+msgstr "Meascthóir"
+
+#. +> trunk6 stable6
+#: apps/volumefeedback.cpp:280
+#, kde-format
+msgid "Volume Control Feedback Sound"
+msgstr "Fuaim Aischothaithe don Rialtán Airde"
+
+#. +> trunk6 stable6
+#: backends/mixer_alsa9.cpp:964
+#, kde-format
+msgid ""
+"You do not have permission to access the alsa mixer device.\n"
+"Please verify if all alsa devices are properly created."
+msgstr ""
+"Níl cead agat an gléas meascthóra ALSA a rochtain.\n"
+"Deimhnigh go bhfuil gach gléas ALSA cruthaithe mar is ceart."
+
+#. +> trunk6 stable6
+#: backends/mixer_alsa9.cpp:968
+#, kde-format
+msgid ""
+"Alsa mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+msgstr ""
+"Meascthóir ALSA gan aimsiú.\n"
+"Deimhnigh go bhfuil an cárta fuaime agus\n"
+"tiománaí an chárta fuaime suiteáilte.\n"
+
+#. +> trunk6 stable6
+#: backends/mixer_mpris2.cpp:53
+#, kde-format
+msgid "Application Streams"
+msgstr ""
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:73
+msgid "Volume"
+msgstr "Airde"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:73
+msgid "Bass"
+msgstr "Dord"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:73
+msgid "Treble"
+msgstr "Tribil"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:74
+msgid "Synth"
+msgstr "Sintéiseoir"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:74
+msgid "Pcm"
+msgstr "Pcm"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:74
+msgid "Speaker"
+msgstr "Callaire"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:75 backends/mixer_sun.cpp:74
+#, kde-format
+msgid "Microphone"
+msgstr "Micreafón"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:75 backends/mixer_sun.cpp:76
+#, kde-format
+msgid "CD"
+msgstr "Dlúthdhiosca"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:75
+msgid "Line"
+msgstr "Líne"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:76
+msgid "Mix"
+msgstr "Measc"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:76
+msgid "Pcm2"
+msgstr "Pcm2"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:76
+msgid "RecMon"
+msgstr "MonTaif"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:77
+msgid "IGain"
+msgstr "NeartúI"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:77
+msgid "OGain"
+msgstr "NeartúA"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:77
+msgid "Line1"
+msgstr "Líne1"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:78
+msgid "Line2"
+msgstr "Líne2"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:78
+msgid "Line3"
+msgstr "Líne3"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:78
+msgid "Digital1"
+msgstr "Digiteach1"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:79
+msgid "Digital2"
+msgstr "Digiteach2"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:79
+msgid "Digital3"
+msgstr "Digiteach3"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:79
+msgid "PhoneIn"
+msgstr "FónIsteach"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:80
+msgid "PhoneOut"
+msgstr "FónAmach"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:80
+msgid "Video"
+msgstr "Físeán"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:80
+msgid "Radio"
+msgstr "Raidió"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:81
+msgid "Monitor"
+msgstr "Monatóir"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:84
+msgid "3D-depth"
+msgstr "Doimhneacht-3T"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:84
+msgid "3D-center"
+msgstr "Lár-3T"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:85 backends/mixer_oss.cpp:86 core/mixdevice.cpp:124
+#, kde-format
+msgid "unknown"
+msgstr "anaithnid"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:86
+msgid "unused"
+msgstr "gan úsáid"
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:240 backends/mixer_oss4.cpp:526
+#, kde-format
+msgid ""
+"kmix: You do not have permission to access the mixer device.\n"
+"Login as root and do a 'chmod a+rw /dev/mixer*' to allow the access."
+msgstr ""
+"kmix: Níl cead agat an gléas meascthóra a rochtain.\n"
+"Logáil isteach mar fhorúsáideoir agus déan 'chmod a+rw /dev/mixer*' chun rochtain a cheadú."
+
+#. +> trunk6 stable6
+#: backends/mixer_oss.cpp:244
+#, kde-format
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+"On Linux you might need to use 'insmod' to load the driver.\n"
+"Use 'soundon' when using commercial OSS."
+msgstr ""
+"kmix: Meascthóir gan aimsiú.\n"
+"Deimhnigh go bhfuil an cárta fuaime agus\n"
+"tiománaí an chárta fuaime suiteáilte.\n"
+"Ar chóras Linux, seans gur gá duit 'insmod' a úsáid chun\n"
+"an tiománaí a luchtú."
+
+#. +> trunk6 stable6
+#: backends/mixer_oss4.cpp:530
+#, kde-format
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and the\n"
+"soundcard driver is loaded.\n"
+"On Linux you might need to use 'insmod' to load the driver.\n"
+"Use 'soundon' when using OSS4 from 4front."
+msgstr ""
+"kmix: Meascthóir gan aimsiú.\n"
+"Deimhnigh go bhfuil an cárta fuaime suiteáilte\n"
+"agus go bhfuil tiománaí an chárta fuaime luchtaithe.\n"
+"Ar chóras Linux, seans gur gá duit 'insmod' a úsáid chun\n"
+"an tiománaí a luchtú. Úsáid 'soundon' má tá tú ag úsáid OSS4 ó 4front."
+
+#. +> trunk6 stable6
+#: backends/mixer_pulse.cpp:352 backends/mixer_pulse.cpp:409
+#, kde-format
+msgid "Unknown Application"
+msgstr "Feidhmchlár Anaithnid"
+
+#. +> trunk6 stable6
+#: backends/mixer_pulse.cpp:455
+#, kde-format
+msgid "Event Sounds"
+msgstr "Fuaimeanna Teagmhas"
+
+#. +> trunk6 stable6
+#: backends/mixer_pulse.cpp:1086 backends/mixer_sndio.cpp:171
+#, kde-format
+msgid "Playback Devices"
+msgstr "Gléasanna Athsheinnte"
+
+#. +> trunk6 stable6
+#: backends/mixer_pulse.cpp:1094 backends/mixer_sndio.cpp:178
+#, kde-format
+msgid "Capture Devices"
+msgstr "Gléasanna Gabhála"
+
+#. +> trunk6 stable6
+#: backends/mixer_pulse.cpp:1102 backends/mixer_sndio.cpp:185
+#, kde-format
+msgid "Playback Streams"
+msgstr "Sruthanna Athsheinnte"
+
+#. +> trunk6 stable6
+#: backends/mixer_pulse.cpp:1113
+#, kde-format
+msgid "Capture Streams"
+msgstr "Sruthanna Gabhála"
+
+#. +> trunk6 stable6
+#: backends/mixer_sndio.cpp:164
+#, fuzzy, kde-format
+#| msgid "Capture Devices"
+msgid "Server Devices"
+msgstr "Gléasanna Gabhála"
+
+#. +> trunk6 stable6
+#: backends/mixer_sun.cpp:69
+#, kde-format
+msgid "Master Volume"
+msgstr "Máistirairde"
+
+#. +> trunk6 stable6
+#: backends/mixer_sun.cpp:70
+#, kde-format
+msgid "Internal Speaker"
+msgstr "Callaire Inmheánach"
+
+#. +> trunk6 stable6
+#: backends/mixer_sun.cpp:71
+#, kde-format
+msgid "Headphone"
+msgstr "Cluasán"
+
+#. +> trunk6 stable6
+#: backends/mixer_sun.cpp:72
+#, kde-format
+msgid "Line Out"
+msgstr "Líne Amach"
+
+#. +> trunk6 stable6
+#: backends/mixer_sun.cpp:73
+#, kde-format
+msgid "Record Monitor"
+msgstr "Monatóir Taifeadta"
+
+#. +> trunk6 stable6
+#: backends/mixer_sun.cpp:75
+#, kde-format
+msgid "Line In"
+msgstr "Líne Isteach"
+
+#. +> trunk6 stable6
+#: backends/mixer_sun.cpp:241
+#, kde-format
+msgid ""
+"kmix: You do not have permission to access the mixer device.\n"
+"Ask your system administrator to fix /dev/audioctl to allow access."
+msgstr ""
+"kmix: Níl cead agat an gléas meascthóra a rochtain.\n"
+"Fiafraigh de riarthóir do chórais /dev/audioctl a mhionathrú chun rochtain a cheadú."
+
+#. +> trunk6 stable6
+#: backends/mixerbackend.cpp:324
+#, kde-format
+msgid ""
+"kmix:You do not have permission to access the mixer device.\n"
+"Please check your operating systems manual to allow the access."
+msgstr ""
+"kmix:Níl cead agat an gléas meascthóra a rochtain.\n"
+"Ceadaigh lámhleabhar do chórais oibriúcháin chun rochtain a shocrú."
+
+#. +> trunk6 stable6
+#: backends/mixerbackend.cpp:328
+#, kde-format
+msgid "kmix: Could not write to mixer."
+msgstr "kmix: Níorbh fhéidir scríobh chuig an meascthóir."
+
+#. +> trunk6 stable6
+#: backends/mixerbackend.cpp:331
+#, kde-format
+msgid "kmix: Could not read from mixer."
+msgstr "kmix: Níorbh fhéidir léamh ón mheascthóir."
+
+#. +> trunk6 stable6
+#: backends/mixerbackend.cpp:334
+#, kde-format
+msgid ""
+"kmix: Mixer cannot be found.\n"
+"Please check that the soundcard is installed and that\n"
+"the soundcard driver is loaded.\n"
+msgstr ""
+"kmix: Meascthóir gan aimsiú.\n"
+"Deimhnigh go bhfuil an cárta fuaime agus\n"
+"tiománaí an chárta fuaime suiteáilte.\n"
+
+#. +> trunk6 stable6
+#: backends/mixerbackend.cpp:339
+#, kde-format
+msgid "kmix: Unknown error. Please report how you produced this error."
+msgstr "kmix: Earráid anaithnid. Cuir in iúl dúinn conas a tharla an earráid seo."
+
+#. +> trunk6 stable6
+#: backends/mixerbackend.cpp:351
+#, kde-format
+msgid "Recording level of the microphone input."
+msgstr "Leibhéal taifeadta den mhicreafón."
+
+#. +> trunk6 stable6
+#: backends/mixerbackend.cpp:352
+#, kde-format
+msgid "Controls the volume of the front speakers or all speakers (depending on your soundcard model). If you use a digital output, you might need to also use other controls like ADC or DAC. For headphones, soundcards often supply a Headphone control."
+msgstr "Rialaíonn sé seo airde na gcallairí tosaigh nó gach callaire (braitheann sé ar an gcineál cárta fuaime atá agat). Má úsáideann tú aschur digiteach, seans go mbeidh sé ort rialtáin eile a úsáid, mar shampla ADC nó DAC. Le cluasáin, go minic soláthraíonn cárta fuaime rialtán Cluasán."
+
+#. +> trunk6 stable6
+#: backends/mixerbackend.cpp:353
+#, kde-format
+msgid "Most media, such as MP3s or Videos, are played back using the PCM channel. As such, the playback volume of such media is controlled by both this and the Master or Headphone channels."
+msgstr "Seinntear formhór na meán, mar shampla MP3 nó Físeáin, tríd an gcainéal PCM. Dá bharr seo, tá an airde athsheinnte rialaithe aige seo agus ag na cainéil Máistir nó Cluasán."
+
+#. +> trunk6 stable6
+#: backends/mixerbackend.cpp:354
+#, kde-format
+msgid "Controls the headphone volume. Some soundcards include a switch that must be manually activated to enable the headphone output."
+msgstr "Rialaíonn sé seo airde na gcluasán. Tá lasc ar chártaí fuaime áirithe a chaithfidh tú cur ar siúl de lámh le haschur cluasán a chumasú."
+
+#. +> trunk6 stable6
+#: backends/mixerbackend.cpp:355
+#, kde-format
+msgid "---"
+msgstr "---"
+
+#. +> trunk6 stable6
+#: core/volume.cpp:58
+#, kde-format
+msgctxt "Channel name"
+msgid "Left"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/volume.cpp:59
+#, kde-format
+msgctxt "Channel name"
+msgid "Right"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/volume.cpp:60
+#, fuzzy, kde-format
+#| msgid "3D-center"
+msgctxt "Channel name"
+msgid "Center"
+msgstr "Lár-3T"
+
+#. +> trunk6 stable6
+#: core/volume.cpp:61
+#, kde-format
+msgctxt "Channel name"
+msgid "Subwoofer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/volume.cpp:62
+#, fuzzy, kde-format
+#| msgid "Surround"
+msgctxt "Channel name"
+msgid "Surround Left"
+msgstr "Timpeallú"
+
+#. +> trunk6 stable6
+#: core/volume.cpp:63
+#, fuzzy, kde-format
+#| msgid "Surround"
+msgctxt "Channel name"
+msgid "Surround Right"
+msgstr "Timpeallú"
+
+#. +> trunk6 stable6
+#: core/volume.cpp:64
+#, kde-format
+msgctxt "Channel name"
+msgid "Side Left"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/volume.cpp:65
+#, kde-format
+msgctxt "Channel name"
+msgid "Side Right"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/volume.cpp:66
+#, kde-format
+msgctxt "Channel name"
+msgid "Rear Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/volume.cpp:68
+#, fuzzy, kde-format
+#| msgid "unknown"
+msgctxt "Channel name"
+msgid "Unknown"
+msgstr "anaithnid"
+
+#. +> trunk6 stable6
+#: gui/dialogaddview.cpp:51
+#, kde-format
+msgid "All controls"
+msgstr "Gan rialtán"
+
+#. +> trunk6 stable6
+#: gui/dialogaddview.cpp:52
+#, kde-format
+msgid "Only playback controls"
+msgstr "Rialtáin athsheinnte amháin"
+
+#. +> trunk6 stable6
+#: gui/dialogaddview.cpp:53
+#, kde-format
+msgid "Only capture controls"
+msgstr "Rialtáin ghabhála amháin"
+
+#. +> trunk6 stable6
+#: gui/dialogaddview.cpp:60
+#, kde-format
+msgid "Add View"
+msgstr "Cuir Amharc Leis"
+
+#. +> trunk6 stable6
+#: gui/dialogaddview.cpp:89
+#, kde-format
+msgid "Select mixer:"
+msgstr "Roghnaigh meascthóir:"
+
+#. +> trunk6 stable6
+#: gui/dialogaddview.cpp:96
+#, kde-format
+msgid "Current mixer"
+msgstr "Meascthóir reatha"
+
+#. +> trunk6 stable6
+#: gui/dialogaddview.cpp:116
+#, kde-format
+msgid "Select the design for the new view:"
+msgstr "Roghnaigh dearadh an amhairc nua:"
+
+#. +> trunk6 stable6
+#: gui/dialogselectmaster.cpp:44 gui/dialogselectmaster.cpp:140
+#, kde-format
+msgid "Select Master Channel"
+msgstr "Roghnaigh Máistirchainéal"
+
+#. +> trunk6 stable6
+#: gui/dialogselectmaster.cpp:74
+#, kde-format
+msgid "Current mixer:"
+msgstr "Meascthóir reatha:"
+
+#. +> trunk6 stable6
+#: gui/dialogselectmaster.cpp:124
+#, fuzzy, kde-kuit-format
+#| msgid "Select the channel representing the master volume:"
+msgctxt "@info"
+msgid "Select the <link url=\"i\">master volume</link> channel:"
+msgstr "Roghnaigh an cainéal a léiríonn an máistirairde:"
+
+#. +> trunk6 stable6
+#: gui/dialogselectmaster.cpp:132
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"<para>Here you can select the master sound device (if there is more than one) and its master channel.</para>"
+"<para>The master channel is the one that is affected by the system tray volume control, the volume up/down and mute global shortcut keys, and the <interface>Mute</interface> action in the system tray popup menu.</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/dialogselectmaster.cpp:203
+#, kde-format
+msgid "Automatic (%1 recommendation)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/dialogviewconfiguration.cpp:132
+#, kde-format
+msgid "Configure Channels"
+msgstr "Cumraigh Cainéil"
+
+#. +> trunk6 stable6
+#: gui/dialogviewconfiguration.cpp:143
+#, fuzzy, kde-format
+#| msgid "Configuration of the channels. Drag icon to update."
+msgid "Configure the visible channels. Drag icons between the lists to update."
+msgstr "Cumraíocht na gcainéal. Tarraing deilbhín chun nuashonrú."
+
+#. +> trunk6 stable6
+#: gui/dialogviewconfiguration.cpp:213
+#, fuzzy, kde-format
+#| msgid "Visible channels"
+msgid "Visible channels:"
+msgstr "Cainéil infheicthe"
+
+#. +> trunk6 stable6
+#: gui/dialogviewconfiguration.cpp:216
+#, fuzzy, kde-format
+#| msgid "Available channels"
+msgid "Available channels:"
+msgstr "Cainéil le fáil"
+
+#. +> trunk6 stable6
+#: gui/dialogviewconfiguration.cpp:230
+#, fuzzy, kde-format
+#| msgid "Hide the selected channel"
+msgid "Move the selected channel to the visible list"
+msgstr "Folaigh an cainéal roghnaithe"
+
+#. +> trunk6 stable6
+#: gui/dialogviewconfiguration.cpp:238
+#, kde-format
+msgid "Move the selected channel to the available (hidden) list"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/dialogviewconfiguration.cpp:278
+#, kde-format
+msgid "Show the selected channel"
+msgstr "Taispeáin an cainéal roghnaithe."
+
+#. +> trunk6 stable6
+#: gui/dialogviewconfiguration.cpp:279
+#, kde-format
+msgid "Hide the selected channel"
+msgstr "Folaigh an cainéal roghnaithe"
+
+#. +> trunk6 stable6
+#: gui/dialogviewconfiguration.cpp:280
+#, kde-format
+msgid "Visible channels"
+msgstr "Cainéil infheicthe"
+
+#. +> trunk6 stable6
+#: gui/dialogviewconfiguration.cpp:281
+#, kde-format
+msgid "Available channels"
+msgstr "Cainéil le fáil"
+
+#. +> trunk6 stable6
+#: gui/kmixdockwidget.cpp:64 gui/kmixprefdlg.cpp:87
+#, kde-format
+msgid "Volume Control"
+msgstr "Rialtán Airde"
+
+#. +> trunk6 stable6
+#: gui/kmixdockwidget.cpp:186
+#, kde-format
+msgid "M&ute"
+msgstr "G&an fuaim"
+
+#. +> trunk6 stable6
+#: gui/kmixdockwidget.cpp:196
+#, fuzzy, kde-format
+#| msgid "Hide Mixer Window"
+msgid "Show Mixer Window"
+msgstr "Folaigh Fuinneog an Mheascthóra"
+
+#. +> trunk6 stable6
+#: gui/kmixdockwidget.cpp:222
+#, kde-format
+msgid "No mixer devices available"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixdockwidget.cpp:230
+#, fuzzy, kde-format
+#| msgid "Volume Feedback"
+msgid "Volume muted"
+msgstr "Aischothú Airde"
+
+#. +> trunk6 stable6
+#: gui/kmixdockwidget.cpp:231
+#, kde-format
+msgid "Volume at %1%"
+msgstr "Airde: %1%"
+
+#. +> trunk6 stable6
+#: gui/kmixdockwidget.cpp:233
+#, kde-format
+msgid "%1 - %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:53
+#, kde-format
+msgid "Configure"
+msgstr "Cumraigh"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:85
+#, kde-format
+msgid "General"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:86
+#, kde-format
+msgid "Startup"
+msgstr "Tosú"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:124
+#, kde-format
+msgid "Start KMix on desktop startup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:128
+#, kde-format
+msgid "Start KMix automatically when the desktop starts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:131
+#, fuzzy, kde-format
+#| msgid "Autostart can not be enabled, as the autostart file kmix_autostart.desktop is not installed."
+msgid "Autostart will not work, because the autostart file kmix_autostart.desktop is missing. Check that KMix is installed correctly."
+msgstr "Ní féidir uath-thosú a chumasú, toisc nach bhfuil an comhad kmix_autostart.desktop suiteáilte."
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:141
+#, fuzzy, kde-format
+#| msgid "Restore volumes on login"
+msgid "Restore previous volume settings on desktop startup"
+msgstr "Athshocraigh airde ag am logála isteach"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:145
+#, fuzzy, kde-format
+#| msgid "Restore all volume levels and switches."
+msgid "Restore all mixer volume levels and switches to their last used settings when the desktop starts"
+msgstr "Athshocraigh gach leibhéal airde agus lasca."
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:148
+#, fuzzy, kde-format
+#| msgid "Dynamic controls from Pulseaudio and MPRIS2 will not be restored."
+msgid "The volume of PulseAudio or MPRIS2 dynamic controls will not be restored."
+msgstr "Ní athshocrófar rialtáin dinimiciúla ó Pulseaudio ná ó MPRIS2."
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:166
+#, kde-format
+msgid "&Horizontal"
+msgstr "&Cothrománach"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:167
+#, kde-format
+msgid "&Vertical"
+msgstr "&Ingearach"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:214
+#, kde-format
+msgid "Behavior"
+msgstr "Oibriú"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:228
+#, fuzzy, kde-format
+#| msgid "Volume Control"
+msgid "Volume overdrive"
+msgstr "Rialtán Airde"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:233
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Allow the volume to be raised above the recommended maximum (typically to 150%)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:236
+#, fuzzy, kde-format
+#| msgid "Volume feedback is only available for Pulseaudio."
+msgid "Volume overdrive is only available for PulseAudio."
+msgstr "Tá Aischothú Airde ar fáil le Pulseaudio amháin."
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:246
+#, kde-format
+msgid "%1 must be restarted for the volume overdrive setting to take effect."
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:256
+#, fuzzy, kde-format
+#| msgid "Volume Feedback"
+msgid "Volume feedback"
+msgstr "Aischothú Airde"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:260
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Play a sample sound when the volume changes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:264
+#, kde-format
+msgid "Volume feedback is only available when configured with Canberra."
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:286
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"<para>Set the volume step as a percentage of the volume range.</para>"
+"<para>This affects changing the volume via hot keys, with the mouse wheel over the system tray icon, or moving sliders by a page step.</para>"
+"<para>%1 must be restarted for this change to take effect.</para>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:293
+#, fuzzy, kde-format
+#| msgid "Volume Feedback"
+msgid "Volume step:"
+msgstr "Aischothú Airde"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:301
+#, kde-format
+msgid "Visual"
+msgstr "Radharcach"
+
+# MSG
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:310
+#, fuzzy, kde-format
+#| msgid "Show &tickmarks"
+msgid "Show slider &tickmarks"
+msgstr "Taispeáin &ticmharcanna"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:313
+#, fuzzy, kde-format
+#| msgid "Enable/disable tickmark scales on the sliders"
+msgid "Show tick mark scales on sliders"
+msgstr "Cumasaigh/díchumasaigh scálaí ticmharcanna ar na barraí sleamhnáin"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:315
+#, fuzzy, kde-format
+#| msgid "Show &labels"
+msgid "Show control &labels"
+msgstr "Taisp&eáin lipéid"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:318
+#, fuzzy, kde-format
+#| msgid "Enables/disables description labels above the sliders"
+msgid "Show description labels for sliders"
+msgstr "Cumasaigh/díchumasaigh lipéid os cionn na mbarraí sleamhnáin"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:321
+#, kde-format
+msgid "Show On Screen Display (&OSD)"
+msgstr "Taispeáint-ar-Scáileán (&T-ar-S)"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:324
+#, kde-format
+msgid "Show an on-screen indicator when changing the volume via hotkeys"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:333
+#, fuzzy, kde-format
+#| msgid "Slider orientation: "
+msgid "Slider orientation (main window): "
+msgstr "Treoshuíomh an bharra sleamhnáin: "
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:334
+#, fuzzy, kde-format
+#| msgid "Slider orientation (System tray volume control):"
+msgid "Slider orientation (system tray popup):"
+msgstr "Treoshuíomh an tsleamhnáin (rialú airde i dtráidire an chórais):"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:335
+#, fuzzy, kde-format
+#| msgid "Slider orientation: "
+msgid "Set the orientation of the main window control sliders"
+msgstr "Treoshuíomh an bharra sleamhnáin: "
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:336
+#, fuzzy, kde-format
+#| msgid "Enable system tray &volume control"
+msgid "Set the orientation of the system tray volume control sliders"
+msgstr "Cumasaigh &rialú na hairde i dtráidire an chórais"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:348
+#, fuzzy, kde-format
+#| msgid "&Dock in system tray"
+msgid "Dock in system tray"
+msgstr "Cuir i n&duga i dtráidire an chórais"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:351
+#, kde-format
+msgid "Dock the mixer into the system tray. Click on it to open the popup volume control."
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:355
+#, kde-format
+msgid "Mixers to show in the popup volume control:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:365
+#, kde-format
+msgid "Select Mixers"
+msgstr "Roghnaigh Meascthóirí"
+
+#. +> trunk6 stable6
+#: gui/kmixprefdlg.cpp:367
+#, kde-format
+msgid "The mixers that are checked here will be shown in the popup volume control."
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/kmixtoolbox.cpp:96
+#, fuzzy, kde-format
+#| msgid "No sound card is installed or currently plugged in."
+msgid "No sound devices are installed or are currently available."
+msgstr "Níl aon chárta fuaime suiteáilte nó níl sé plugáilte isteach."
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:95
+#, fuzzy, kde-format
+#| msgid "&Split Channels"
+msgid "Split Channels"
+msgstr "&Roinn Cainéil"
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:107 gui/mdwslider.cpp:626
+#, kde-format
+msgid "Capture"
+msgstr "Gabháil"
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:112
+#, fuzzy, kde-format
+#| msgid "Capture Devices"
+msgid "Use Device"
+msgstr "Gléasanna Gabhála"
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:157
+#, kde-format
+msgctxt "1=device name, 2=control name"
+msgid "Mute %2 on %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:169
+#, fuzzy, kde-format
+#| msgid "Increase Volume of Master Channel"
+msgctxt "1=device name, 2=control name"
+msgid "Increase volume of %2 on %1"
+msgstr "Méadaigh Airde an Mháistirchainéil"
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:177
+#, fuzzy, kde-format
+#| msgid "Decrease Volume of Master Channel"
+msgctxt "1=device name, 2=control name"
+msgid "Decrease volume of %2 on %1"
+msgstr "Laghdaigh Airde an Mháistirchainéil"
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:327
+#, fuzzy, kde-format
+#| msgid "Capture/Uncapture %1"
+msgctxt "%1=channel"
+msgid "Capture/Uncapture %1"
+msgstr "Gabháil/Díghabháil %1"
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:328
+#, fuzzy, kde-format
+#| msgid "Mute/Unmute %1"
+msgctxt "%1=channel"
+msgid "Mute/Unmute %1"
+msgstr "Gan fuaim/Le fuaim: %1"
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:332 gui/mdwslider.cpp:333 gui/mdwslider.cpp:334
+#, kde-format
+msgctxt "%1=device %2=channel"
+msgid ""
+"%1\n"
+"%2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:678
+#, kde-format
+msgid "%1 (capture)"
+msgstr "%1 (gabháil)"
+
+#. +> trunk6 stable6
+#: gui/mdwslider.cpp:1101
+#, fuzzy, kde-format
+#| msgid "Automatic According to Category"
+msgid "Automatic (according to category)"
+msgstr "Uathoibríoch de réir Catagóir"
+
+#. +> trunk6 stable6
+#: gui/mixdevicewidget.cpp:65
+#, fuzzy, kde-format
+#| msgid "C&onfigure Shortcuts..."
+msgid "Channel Shortcuts..."
+msgstr "C&umraigh Aicearraí..."
+
+#. +> trunk6 stable6
+#: gui/viewbase.cpp:88
+#, fuzzy, kde-format
+#| msgid "Configure Channels"
+msgid "Configure this view"
+msgstr "Cumraigh Cainéil"
+
+#. +> trunk6 stable6
+#: gui/viewdockareapopup.cpp:483
+#, fuzzy, kde-format
+#| msgid "Show Mixer Window"
+msgid "Show the full mixer window"
+msgstr "Taispeáin Fuinneog an Mheascthóra"
+
+#. +> trunk6 stable6
+#: gui/viewdockareapopup.cpp:515
+#, kde-format
+msgid "Load volume profile %1"
+msgstr "Luchtaigh próifíl airde %1"
+
+#. +> trunk6 stable6
+#: gui/viewsliders.cpp:181
+#, kde-format
+msgid "Nothing is playing audio."
+msgstr "Níl aon rud ag seinm fuaime."
+
+#. +> trunk6 stable6
+#: gui/viewsliders.cpp:184
+#, kde-format
+msgid "Nothing is capturing audio."
+msgstr "Níl aon rud ag gabháil fuaime."
+
+#. +> trunk6 stable6
+#: gui/viewsliders.cpp:185
+#, fuzzy, kde-format
+#| msgid "No capture devices."
+msgid "There are no capture devices."
+msgstr "Gan gléasanna gabhála."
+
+#. +> trunk6 stable6
+#: gui/viewsliders.cpp:186
+#, fuzzy, kde-format
+#| msgid "No playback devices."
+msgid "There are no playback devices."
+msgstr "Gan gléasanna athsheinnte."

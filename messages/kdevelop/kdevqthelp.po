@@ -1,0 +1,265 @@
+# Irish translation of kdevqthelp
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdevqthelp package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevqthelp.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-09 10:47+0200\n"
+"PO-Revision-Date: 2009-02-02 09:30-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:47
+#, kde-format
+msgid "Qt Compressed Help Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:50
+#, fuzzy, kde-format
+#| msgid "Modify"
+msgctxt "@title:window"
+msgid "Modify Entry"
+msgstr "Athraigh"
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:52
+#, kde-format
+msgctxt "@title:window"
+msgid "Add New Entry"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:70
+#, kde-format
+msgid "Name cannot be empty."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:105
+#, fuzzy, kde-format
+#| msgctxt "Allow user to get some API documentation with GHNS"
+#| msgid "Get new documentation"
+msgctxt "@action:button Allow user to get some API documentation with GHNS"
+msgid "Get New Documentation"
+msgstr "Faigh doiciméadú nua"
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:121
+#, kde-format
+msgid "The command \"qmake -query\" could not provide a path to a QtHelp file (QCH)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:209
+#, kde-format
+msgid "Documentation provided by GHNS"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:235
+#, kde-format
+msgid "Qt Compressed Help file is not valid."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:244
+#, kde-format
+msgid "Documentation already imported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:296
+#, fuzzy, kde-format
+#| msgid "QtHelp"
+msgctxt "@title:tab"
+msgid "Qt Help"
+msgstr "QtHelp"
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:301
+#, fuzzy, kde-format
+#| msgid "Check Qt Help documentation"
+msgctxt "@title:tab"
+msgid "Configure Qt Help Settings"
+msgstr "Ceadaigh an doiciméadú Qt"
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:326
+#, fuzzy, kde-format
+#| msgid "Modify"
+msgctxt "@info:tooltip"
+msgid "Modify"
+msgstr "Athraigh"
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:332
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qthelpconfig.cpp:338
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Please uninstall this via GHNS."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, boxAutoLoad)
+#. +> trunk6 stable6
+#: qthelpconfig.ui:23
+#, kde-format
+msgctxt "@title:group"
+msgid "Load Qt Help Documentation from System Locations"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelLoadQtApiDocs)
+#. +> trunk6 stable6
+#: qthelpconfig.ui:29
+#, fuzzy, kde-format
+#| msgid "Load Qt documentation"
+msgctxt "@option:check"
+msgid "&Load Qt API documentation:"
+msgstr "Luchtaigh an doiciméadú Qt"
+
+#. i18n: ectx: property (text), widget (QLabel, labelLoadFromDirectory)
+#. +> trunk6 stable6
+#: qthelpconfig.ui:46
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Load Qt Help files from directory:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, boxQchManage)
+#. +> trunk6 stable6
+#: qthelpconfig.ui:69
+#, fuzzy, kde-format
+#| msgid "Manage QtHelp Documentation"
+msgctxt "@title:group"
+msgid "Install Additional Documentation Files"
+msgstr "Bainistigh an Doiciméadú QtHelp"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, qchTable)
+#. +> trunk6 stable6
+#: qthelpconfig.ui:104
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Ainm"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, qchTable)
+#. +> trunk6 stable6
+#: qthelpconfig.ui:109
+#, fuzzy, kde-format
+#| msgid "Path"
+msgctxt "@title:column"
+msgid "Path"
+msgstr "Conair"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. +> trunk6 stable6
+#: qthelpconfig.ui:134
+#, fuzzy, kde-format
+#| msgid "Add"
+msgctxt "@action:button"
+msgid "Add"
+msgstr "Cuir Leis"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: qthelpconfigeditdialog.ui:17
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt "@label:chooser"
+msgid "Icon:"
+msgstr "Ainm"
+
+#. i18n: ectx: property (toolTip), widget (KIconButton, qchIcon)
+#. +> trunk6 stable6
+#: qthelpconfigeditdialog.ui:24
+#, fuzzy, kde-format
+#| msgid "Select an icon"
+msgctxt "@info:tooltip"
+msgid "Select an icon"
+msgstr "Roghnaigh deilbhín"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: qthelpconfigeditdialog.ui:34
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr "Ainm"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, qchName)
+#. +> trunk6 stable6
+#: qthelpconfigeditdialog.ui:41
+#, fuzzy, kde-format
+#| msgid "Select a name"
+msgctxt "@info:tooltip"
+msgid "Enter a name"
+msgstr "Roghnaigh ainm"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, qchName)
+#. +> trunk6 stable6
+#: qthelpconfigeditdialog.ui:44
+#, fuzzy, kde-format
+#| msgid "Select a name"
+msgctxt "@info:placeholder"
+msgid "Select a name..."
+msgstr "Roghnaigh ainm"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: qthelpconfigeditdialog.ui:51
+#, fuzzy, kde-format
+#| msgid "Path"
+msgctxt "@label:textbox"
+msgid "Path:"
+msgstr "Conair"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, qchRequester)
+#. +> trunk6 stable6
+#: qthelpconfigeditdialog.ui:64
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select a Qt Help file..."
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, qchRequester)
+#. +> trunk6 stable6
+#: qthelpconfigeditdialog.ui:67
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Select a Qt Help file..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qthelpdocumentation.cpp:384
+#, kde-format
+msgid "Could not find any documentation for '%1'"
+msgstr "Níor aimsíodh aon doiciméadú ar '%1'"
+
+#. +> trunk6 stable6
+#: qthelpdocumentation.cpp:478
+#, fuzzy, kde-format
+#| msgid "QtHelp Home Page"
+msgid "%1 Home Page"
+msgstr "Leathanach Baile QtHelp"
+
+#. +> trunk6 stable6
+#: qthelpqtdoc.cpp:172
+#, kde-format
+msgid "QtHelp"
+msgstr "QtHelp"

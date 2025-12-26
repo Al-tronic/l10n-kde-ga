@@ -1,0 +1,493 @@
+# Irish translation of KarbonTools
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the KarbonTools package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: koffice/KarbonTools.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:24+0100\n"
+"PO-Revision-Date: 2007-11-01 08:24-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphicShapeFactory.cpp:15
+#, kde-format
+msgid "A calligraphic shape"
+msgstr "Giuirléid challagrafaíochta"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphicShapeFactory.cpp:17
+#, kde-format
+msgid "Calligraphic Shape"
+msgstr "Giuirléid Challagrafaíochta"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:56
+#, kde-format
+msgid "Save profile as..."
+msgstr "Sábháil an phróifíl mar..."
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:61
+#, fuzzy, kde-format
+msgid "Remove profile"
+msgstr "Uirlis Eagarthóireachta Patrún"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:69
+#, kde-format
+msgid "&Follow selected path"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:72
+#, kde-format
+msgid "Use tablet &pressure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:75
+#, kde-format
+msgid "Width:"
+msgstr "Leithead:"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:83
+#, kde-format
+msgid "Thinning:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:92
+#, kde-format
+msgid "Use tablet &angle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:95
+#, kde-format
+msgid "Angle:"
+msgstr "Uillinn:"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:104
+#, kde-format
+msgid "Fixation:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:113
+#, kde-format
+msgid "Caps:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:122
+#, kde-format
+msgid "Mass:"
+msgstr "Mais:"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:131
+#, kde-format
+msgid "Drag:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:188
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:189
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:216
+#, kde-format
+msgid "Current"
+msgstr "Reatha"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:207
+#, kde-format
+msgid "Profile name"
+msgstr "Ainm na próifíle"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:208
+#, kde-format
+msgid "Please insert the name by which you want to save this profile:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:217
+#, kde-format
+msgctxt "invalid profile name"
+msgid "Invalid name."
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:217
+#, kde-format
+msgid "Sorry, the name you entered is invalid."
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:225
+#, kde-format
+msgid ""
+"A profile with that name already exists.\n"
+"Do you want to overwrite it?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:340
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:365
+#, kde-format
+msgid "Mouse"
+msgstr "Luch"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyOptionWidget.cpp:353
+#, kde-format
+msgid "Graphics Pen"
+msgstr ""
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:330
+#, kde-format
+msgid "Fill"
+msgstr "Líon"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:358
+#, fuzzy, kde-format
+#| msgid "Calligraphic Shape"
+msgid "Calligraphy: increase width"
+msgstr "Giuirléid Challagrafaíochta"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:363
+#, fuzzy, kde-format
+#| msgid "Calligraphic Shape"
+msgid "Calligraphy: decrease width"
+msgstr "Giuirléid Challagrafaíochta"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:368
+#, fuzzy, kde-format
+#| msgid "Calligraphic Shape"
+msgid "Calligraphy: increase angle"
+msgstr "Giuirléid Challagrafaíochta"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:373
+#, fuzzy, kde-format
+#| msgid "Calligraphic Shape"
+msgid "Calligraphy: decrease angle"
+msgstr "Giuirléid Challagrafaíochta"
+
+#. +> trunk6 stable6
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:380
+#: CalligraphyTool/KarbonCalligraphyTool.cpp:381
+#: CalligraphyTool/KarbonCalligraphyToolFactory.cpp:19
+#, fuzzy, kde-format
+#| msgid "Calligraphic Shape"
+msgid "Calligraphy"
+msgstr "Giuirléid Challagrafaíochta"
+
+#. +> trunk6 stable6
+#: filterEffectTool/FilterAddCommand.cpp:21
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add filter effect"
+msgstr "Cuir Scagaire Leis"
+
+#. +> trunk6 stable6
+#: filterEffectTool/FilterEffectEditWidget.cpp:60
+#, kde-format
+msgid "Add effect to current filter stack"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterEffectTool/FilterEffectEditWidget.cpp:70
+#, fuzzy, kde-format
+msgid "Add to filter presets"
+msgstr "Cuir Scagaire Leis"
+
+#. +> trunk6 stable6
+#: filterEffectTool/FilterEffectEditWidget.cpp:74
+#, fuzzy, kde-format
+msgid "Remove filter preset"
+msgstr "Uirlis Eagarthóireachta Patrún"
+
+#. +> trunk6 stable6
+#: filterEffectTool/FilterEffectEditWidget.cpp:335
+#, fuzzy, kde-format
+#| msgid "Effects"
+msgid "Effect name"
+msgstr "Maisíochtaí"
+
+#. +> trunk6 stable6
+#: filterEffectTool/FilterEffectEditWidget.cpp:335
+#, kde-format
+msgid "Please enter a name for the filter effect"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, FilterEffectEditWidget)
+#. +> trunk6 stable6
+#: filterEffectTool/FilterEffectEditWidget.ui:32
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:320
+#, fuzzy, kde-format
+msgid "Filter Effect Editor"
+msgstr "Cuir Scagaire Leis"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: filterEffectTool/FilterEffectEditWidget.ui:40
+#, fuzzy, kde-format
+#| msgid "Effects"
+msgid "Effects and Connections"
+msgstr "Maisíochtaí"
+
+#. i18n: ectx: property (text), widget (QToolButton, removeEffect)
+#. i18n: ectx: property (text), widget (QToolButton, addEffect)
+#. i18n: ectx: property (text), widget (QToolButton, raiseEffect)
+#. i18n: ectx: property (text), widget (QToolButton, lowerEffect)
+#. i18n: ectx: property (text), widget (QToolButton, addPreset)
+#. i18n: ectx: property (text), widget (QToolButton, removePreset)
+#. +> trunk6 stable6
+#: filterEffectTool/FilterEffectEditWidget.ui:57
+#: filterEffectTool/FilterEffectEditWidget.ui:67
+#: filterEffectTool/FilterEffectEditWidget.ui:74
+#: filterEffectTool/FilterEffectEditWidget.ui:81
+#: filterEffectTool/FilterEffectEditWidget.ui:102
+#: filterEffectTool/FilterEffectEditWidget.ui:109
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: filterEffectTool/FilterEffectEditWidget.ui:92
+#, fuzzy, kde-format
+msgid "Filter Presets"
+msgstr "Cuir Scagaire Leis"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: filterEffectTool/FilterEffectEditWidget.ui:116
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:474
+#, kde-format
+msgid "Effect Properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterEffectTool/FilterRemoveCommand.cpp:23
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove filter effect"
+msgstr "Uirlis Eagarthóireachta Patrún"
+
+#. +> trunk6 stable6
+#: filterEffectTool/FilterStackSetCommand.cpp:25
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set filter stack"
+msgstr "Uirlis Eagarthóireachta Patrún"
+
+#. +> trunk6 stable6
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:439
+#, kde-format
+msgid "Effects"
+msgstr "Maisíochtaí"
+
+#. +> trunk6 stable6
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:447
+#, kde-format
+msgid "View and edit filter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:453
+#, fuzzy, kde-format
+msgid "Remove filter from object"
+msgstr "Uirlis Eagarthóireachta Patrún"
+
+#. +> trunk6 stable6
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:457
+#, kde-format
+msgid "Add Filter"
+msgstr "Cuir Scagaire Leis"
+
+#. +> trunk6 stable6
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:486
+#, kde-format
+msgid "X:"
+msgstr "X:"
+
+#. +> trunk6 stable6
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:492
+#, kde-format
+msgid "Y:"
+msgstr "Y:"
+
+#. +> trunk6 stable6
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:498
+#, kde-format
+msgid "W:"
+msgstr "L:"
+
+#. +> trunk6 stable6
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:504
+#, kde-format
+msgid "H:"
+msgstr "A:"
+
+#. +> trunk6 stable6
+#: filterEffectTool/KarbonFilterEffectsTool.cpp:509
+#, fuzzy, kde-format
+#| msgid "Effects"
+msgid "Effect Region"
+msgstr "Maisíochtaí"
+
+#. +> trunk6 stable6
+#: filterEffectTool/KarbonFilterEffectsToolFactory.cpp:16
+#, fuzzy, kde-format
+msgid "Filter effects editing"
+msgstr "Cuir Scagaire Leis"
+
+#. +> trunk6 stable6
+#: KarbonGradientTool.cpp:199
+#, kde-format
+msgid "Drag to move gradient position."
+msgstr ""
+
+#. +> trunk6 stable6
+#: KarbonGradientTool.cpp:208
+#, kde-format
+msgid "Drag to move color stop. Double click to remove color stop."
+msgstr ""
+
+#. +> trunk6 stable6
+#: KarbonGradientTool.cpp:210
+#, kde-format
+msgid "Drag to move color stop."
+msgstr ""
+
+#. +> trunk6 stable6
+#: KarbonGradientTool.cpp:217
+#, kde-format
+msgid "Drag to move gradient position. Double click to insert color stop."
+msgstr ""
+
+#. +> trunk6 stable6
+#: KarbonGradientTool.cpp:493
+#, kde-format
+msgid "Edit Gradient"
+msgstr "Cuir Grádán in Eagar"
+
+#. +> trunk6 stable6
+#: KarbonGradientTool.cpp:495
+#, kde-format
+msgid "Predefined Gradients"
+msgstr "Grádáin Réamhshainithe"
+
+#. +> trunk6 stable6
+#: KarbonGradientToolFactory.cpp:17
+#, fuzzy, kde-format
+#| msgid "Gradient Editing Tool"
+msgid "Gradient editing"
+msgstr "Uirlis Eagarthóireachta Grádán"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:22
+#, kde-format
+msgid "Original"
+msgstr "Bunúsach"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:23
+#, kde-format
+msgid "Tiled"
+msgstr "Tílithe"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:24
+#, kde-format
+msgid "Stretched"
+msgstr "Sínte"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:26
+#, kde-format
+msgid "Top Left"
+msgstr "Barr ar Chlé"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:27
+#, kde-format
+msgid "Top"
+msgstr "Barr"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:28
+#, kde-format
+msgid "Top Right"
+msgstr "Barr ar Dheis"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:29
+#, kde-format
+msgid "Left"
+msgstr "Ar Chlé"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:30
+#, kde-format
+msgid "Center"
+msgstr "Lár"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:31
+#, kde-format
+msgid "Right"
+msgstr "Ar Dheis"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:32
+#, kde-format
+msgid "Bottom Left"
+msgstr "Bun ar Chlé"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:33
+#, kde-format
+msgid "Bottom"
+msgstr "Bun"
+
+#. +> trunk6 stable6
+#: KarbonPatternOptionsWidget.cpp:34
+#, kde-format
+msgid "Bottom Right"
+msgstr "Bun ar dheis"
+
+#. +> trunk6 stable6
+#: KarbonPatternTool.cpp:270
+#, kde-format
+msgid "Pattern Options"
+msgstr "Roghanna Patrúin"
+
+#. +> trunk6 stable6
+#: KarbonPatternTool.cpp:272
+#, kde-format
+msgid "Patterns"
+msgstr "Patrúin"
+
+#. +> trunk6 stable6
+#: KarbonPatternToolFactory.cpp:17
+#, fuzzy, kde-format
+#| msgid "Pattern Editing Tool"
+msgid "Pattern editing"
+msgstr "Uirlis Eagarthóireachta Patrún"

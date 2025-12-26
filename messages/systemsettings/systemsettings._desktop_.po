@@ -1,0 +1,454 @@
+# translation of desktop_kdebase.po to Irish
+# Kevin Scannell <kscanne@gmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6 stable5
+#: app/kdesystemsettings.desktop:9
+msgctxt "GenericName"
+msgid "KDE System Settings"
+msgstr "Socruithe an Chórais KDE"
+
+#. +> trunk6 stable6 stable5
+#: app/kdesystemsettings.desktop:77
+msgctxt "Name"
+msgid "KDE System Settings"
+msgstr "Socruithe an Chórais KDE"
+
+#. +> trunk6 stable6
+#: app/kdesystemsettings.desktop:146
+msgctxt "Comment"
+msgid "Configure KDE Plasma’s behavior and appearance"
+msgstr ""
+
+#. +> stable5
+#: app/kdesystemsettings.desktop:136 app/systemsettings.desktop:185
+msgctxt "Comment"
+msgid "Configuration tools for your computer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/kdesystemsettings.desktop:188 app/systemsettings.desktop:232
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "System Settings"
+msgctxt "Keywords"
+msgid "systemsettings"
+msgstr "Socruithe an Chórais"
+
+#. +> trunk6 stable6 stable5
+#: app/systemsettings.desktop:13
+msgctxt "GenericName"
+msgid "System Settings"
+msgstr "Socruithe an Chórais"
+
+#. +> trunk6 stable6 stable5
+#: app/systemsettings.desktop:101
+msgctxt "Name"
+msgid "System Settings"
+msgstr "Socruithe an Chórais"
+
+#. +> trunk6 stable6
+#: app/systemsettings.desktop:193
+msgctxt "Comment"
+msgid "Configure the system’s behavior and appearance"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: app/systemsettings.desktop:280
+msgctxt "Name"
+msgid "Global Theme"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: app/systemsettings.desktop:339
+msgctxt "Name"
+msgid "Users"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: app/systemsettings.desktop:400
+msgctxt "Name"
+msgid "Screen Locking"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: app/systemsettings.desktop:460
+msgctxt "Name"
+msgid "Power Management"
+msgstr "Bainisteoireacht Cumhachta"
+
+#. +> trunk6 stable6 stable5
+#: app/systemsettings.desktop:546
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Display and Monitor"
+msgctxt "Name"
+msgid "Display Configuration"
+msgstr "Scáileán agus Monatóir"
+
+#. +> stable5
+#: app/systemsettings.desktop:406
+msgctxt "Name"
+msgid "Energy Saving"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: categories/hidden.desktop:6
+msgctxt "Name"
+msgid "Hidden"
+msgstr ""
+
+#. +> trunk6 stable6
+#: categories/settings-appearance.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Workspace Appearance"
+msgctxt "Name"
+msgid "Appearance & Style"
+msgstr "Cuma an Spáis Oibre"
+
+#. +> stable5
+#: categories/settings-appearance.desktop:10
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Workspace Appearance"
+msgctxt "Name"
+msgid "Appearance"
+msgstr "Cuma an Spáis Oibre"
+
+#. +> trunk6 stable6
+#: categories/settings-appearance-font.desktop:8
+msgctxt "Name"
+msgid "Text & Fonts"
+msgstr ""
+
+#. +> stable5
+#: categories/settings-appearance-font.desktop:8
+msgctxt "Name"
+msgid "Fonts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: categories/settings-appearance-themes.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Workspace Appearance"
+msgctxt "Name"
+msgid "Colors & Themes"
+msgstr "Cuma an Spáis Oibre"
+
+#. +> trunk6 stable6
+#: categories/settings-applications-defaults.desktop:8
+msgctxt "Name"
+msgid "Default Applications"
+msgstr ""
+
+#. +> trunk6 stable6
+#: categories/settings-applications.desktop:8
+msgctxt "Name"
+msgid "Apps & Windows"
+msgstr ""
+
+#. +> trunk6 stable6
+#: categories/settings-applications-permissions.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Permissions"
+msgctxt "Name"
+msgid "Application Permissions"
+msgstr "Ceadanna"
+
+#. +> trunk6 stable6
+#: categories/settings-hardware.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Input Devices"
+msgctxt "Name"
+msgid "Connected Devices"
+msgstr "Gléasanna Ionchurtha"
+
+#. +> stable5
+#: categories/settings-hardware.desktop:8
+msgctxt "Name"
+msgid "Hardware"
+msgstr "Crua-Earraí"
+
+#. +> trunk6 stable6
+#: categories/settings-hardware-display.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Display and Monitor"
+msgctxt "Name"
+msgid "Display & Monitor"
+msgstr "Scáileán agus Monatóir"
+
+#. +> stable5
+#: categories/settings-hardware-display.desktop:8
+msgctxt "Name"
+msgid "Display and Monitor"
+msgstr "Scáileán agus Monatóir"
+
+#. +> trunk6 stable6 stable5
+#: categories/settings-hardware-display.desktop:57
+msgctxt "Comment"
+msgid "Display Settings"
+msgstr "Socruithe an Scáileáin"
+
+#. +> trunk6 stable6
+#: categories/settings-hardware-input.desktop:8
+msgctxt "Name"
+msgid "Input & Output"
+msgstr ""
+
+#. +> stable5
+#: categories/settings-hardware-input.desktop:8
+msgctxt "Name"
+msgid "Input Devices"
+msgstr "Gléasanna Ionchurtha"
+
+#. +> trunk6 stable6
+#: categories/settings-hardware-input-pointing-devices.desktop:10
+msgctxt "Name"
+msgid "Mouse & Touchpad"
+msgstr ""
+
+#. +> trunk6 stable6
+#: categories/settings-hardware-input-touchscreen.desktop:8
+msgctxt "Name"
+msgid "Touchscreen"
+msgstr ""
+
+#. +> trunk6 stable6
+#: categories/settings-hardware-keyboard.desktop:8
+msgctxt "Name"
+msgid "Keyboard"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: categories/settings-hardware-multimedia.desktop:8
+msgctxt "Name"
+msgid "Multimedia"
+msgstr "Ilmheáin"
+
+#. +> trunk6 stable6
+#: categories/settings-hardware-removable-storage.desktop:8
+msgctxt "Name"
+msgid "Disks & Cameras"
+msgstr ""
+
+#. +> stable5
+#: categories/settings-hardware-removable-storage.desktop:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Removable Devices"
+msgctxt "Name"
+msgid "Removable Storage"
+msgstr "Gléasanna Inbhainte"
+
+#. +> trunk6 stable6
+#: categories/settings-network.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Settings"
+msgctxt "Name"
+msgid "Networking"
+msgstr "Socruithe Líonra"
+
+#. +> stable5
+#: categories/settings-network.desktop:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Settings"
+msgctxt "Name"
+msgid "Network"
+msgstr "Socruithe Líonra"
+
+#. +> trunk6 stable6
+#: categories/settings-network-networksettings.desktop:8
+msgctxt "Name"
+msgid "Wi-Fi & Internet"
+msgstr ""
+
+#. +> stable5
+#: categories/settings-network-networksettings.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "System Settings"
+msgctxt "Name"
+msgid "Settings"
+msgstr "Socruithe an Chórais"
+
+#. +> trunk6 stable6 stable5
+#: categories/settings-personalization.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Personal Information"
+msgctxt "Name"
+msgid "Personalization"
+msgstr "Faisnéis Phearsanta"
+
+#. +> trunk6 stable6
+#: categories/settings-regionalsettings.desktop:8
+msgctxt "Name"
+msgid "Language & Time"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: categories/settings-root-category.desktop:8
+msgctxt "Name"
+msgid "Root"
+msgstr ""
+
+#. +> trunk6 stable6
+#: categories/settings-security-privacy.desktop:8
+msgctxt "Name"
+msgid "Security & Privacy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: categories/settings-system-administration.desktop:8
+msgctxt "Name"
+msgid "System"
+msgstr ""
+
+#. +> stable5
+#: categories/settings-system-administration.desktop:8
+msgctxt "Name"
+msgid "System Administration"
+msgstr "Riarachán Córais"
+
+#. +> trunk6 stable6 stable5
+#: categories/settings-workspace.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Workspace Behavior"
+msgctxt "Name"
+msgid "Workspace"
+msgstr "Oibriú an Spáis Oibre"
+
+#. +> trunk6 stable6 stable5
+#: categories/settings-workspace-search.desktop:8
+msgctxt "Name"
+msgid "Search"
+msgstr ""
+
+#. +> trunk6 stable6
+#: categories/settings-workspace-session.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Permissions"
+msgctxt "Name"
+msgid "Session"
+msgstr "Ceadanna"
+
+#. +> stable5
+#: categories/settings-workspace-session.desktop:8
+msgctxt "Name"
+msgid "Startup and Shutdown"
+msgstr "Tosú agus Múchadh"
+
+#. +> trunk6 stable6 stable5
+#: categories/settings-workspace-windowmanagement.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Power Management"
+msgctxt "Name"
+msgid "Window Management"
+msgstr "Bainisteoireacht Cumhachta"
+
+#. +> stable5
+#: categories/settings-appearance-color.desktop:8
+msgctxt "Name"
+msgid "Colors"
+msgstr ""
+
+#. +> stable5
+#: categories/settings-network-connectivity.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network and Connectivity"
+msgctxt "Name"
+msgid "Connectivity"
+msgstr "Líonra agus Comhcheangailteacht"
+
+#. +> stable5
+#: categories/settings-personalization-applications.desktop:8
+msgctxt "Name"
+msgid "Applications"
+msgstr ""
+
+#. +> stable5
+#: categories/settings-personalization-regionalsettings.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Network Settings"
+msgctxt "Name"
+msgid "Regional Settings"
+msgstr "Socruithe Líonra"
+
+#. +> stable5
+#: categories/settings-workspace-desktopbehavior.desktop:8
+msgctxt "Name"
+msgid "Workspace Behavior"
+msgstr "Oibriú an Spáis Oibre"
+
+#. +> stable5
+#: categories/settings-workspace-shortcuts.desktop:8
+msgctxt "Name"
+msgid "Shortcuts"
+msgstr ""
+
+#. +> stable5
+#: core/infocenterexternalapp.desktop:6
+msgctxt "Name"
+msgid "Info Center External Application"
+msgstr ""
+
+#. +> stable5
+#: core/systemsettingsexternalapp.desktop:4
+msgctxt "Name"
+msgid "System Settings External Application"
+msgstr ""
+
+#. +> stable5
+#: icons/settings-icon-view.desktop:6 sidebar/settings-sidebar-view.desktop:6
+msgctxt "X-KDE-Keywords"
+msgid "System Settings"
+msgstr "Socruithe an Chórais"
+
+#. +> stable5
+#: icons/settings-icon-view.desktop:69
+msgctxt "Name"
+msgid "Icon View"
+msgstr "Amharc Deilbhíní"
+
+#. +> stable5
+#: icons/settings-icon-view.desktop:148
+msgctxt "Comment"
+msgid "The KDE 4 icon view style"
+msgstr ""
+
+#. +> stable5
+#: sidebar/package/metadata.desktop:2 sidebar/settings-sidebar-view.desktop:69
+msgctxt "Name"
+msgid "Sidebar View"
+msgstr ""
+
+#. +> stable5
+#: sidebar/package/metadata.desktop:57
+#: sidebar/settings-sidebar-view.desktop:124
+msgctxt "Comment"
+msgid "Categorized sidebar style"
+msgstr ""

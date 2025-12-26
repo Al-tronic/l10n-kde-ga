@@ -1,0 +1,1242 @@
+# Irish translation of kimagemapeditor
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kimagemapeditor package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdewebdev/kimagemapeditor.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:02+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: arealistview.cpp:43 kimagemapeditor.cpp:106 kimagemapeditor.cpp:139
+#, kde-format
+msgid "Areas"
+msgstr "Limistéir"
+
+#. +> trunk6 stable6
+#: arealistview.cpp:44 kimedialogs.cpp:593
+#, kde-format
+msgid "Preview"
+msgstr "Réamhamharc"
+
+#. +> trunk6 stable6
+#: imagemapchoosedialog.cpp:46
+#, kde-format
+msgid "Choose Map & Image to Edit"
+msgstr "Roghnaigh an Mapa agus an Íomhá le Cur in Eagar"
+
+#. +> trunk6 stable6
+#: imagemapchoosedialog.cpp:55
+#, kde-format
+msgid "Select an image and/or a map that you want to edit"
+msgstr "Roghnaigh íomhá agus/nó mapa ba mhaith leat cur in eagar"
+
+#. +> trunk6 stable6
+#: imagemapchoosedialog.cpp:67
+#, kde-format
+msgid "&Maps"
+msgstr "&Mapaí"
+
+#. +> trunk6 stable6
+#: imagemapchoosedialog.cpp:79
+#, kde-format
+msgid "Image Preview"
+msgstr "Réamhamharc Íomhá"
+
+#. +> trunk6 stable6
+#: imagemapchoosedialog.cpp:104
+#, kde-format
+msgid "No maps found"
+msgstr "Níor aimsíodh mapaí ar bith"
+
+#. +> trunk6 stable6
+#: imagemapchoosedialog.cpp:140
+#, kde-format
+msgid "No images found"
+msgstr "Níor aimsíodh íomhánna ar bith"
+
+#. +> trunk6 stable6
+#: imagemapchoosedialog.cpp:153
+#, kde-format
+msgid "&Images"
+msgstr "Í&omhánna"
+
+#. +> trunk6 stable6
+#: imagemapchoosedialog.cpp:162
+#, kde-format
+msgid "Path"
+msgstr "Conair"
+
+#. +> trunk6 stable6
+#: imageslistview.cpp:56 kimagemapeditor.cpp:108 kimagemapeditor.cpp:141
+#, kde-format
+msgid "Images"
+msgstr "Íomhánna"
+
+#. +> trunk6 stable6
+#: imageslistview.cpp:57
+#, kde-format
+msgid "Usemap"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:107 kimagemapeditor.cpp:140 mapslistview.cpp:37
+#, kde-format
+msgid "Maps"
+msgstr "Mapaí"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:258 mapslistview.cpp:166
+#, kde-format
+msgid "unnamed"
+msgstr "gan ainm"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:454
+#, kde-format
+msgid ""
+"<h3>Open File</h3>"
+"Click this to <em>open</em> a new picture or HTML file."
+msgstr ""
+"<h3>Oscail Comhad</h3>"
+"Cliceáil anseo chun pictiúr nua nó comhad HTML nua a <em>oscailt</em>."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:455
+#, kde-format
+msgid "Open new picture or HTML file"
+msgstr "Oscail pictiúr nua nó comhad HTML"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:462
+#, kde-format
+msgid ""
+"<h3>Save File</h3>"
+"Click this to <em>save</em> the changes to the HTML file."
+msgstr ""
+"<h3>Sábháil Comhad</h3>"
+"Cliceáil anseo chun do chuid athruithe a <em>sábháil</em>."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:463
+#, kde-format
+msgid "Save HTML file"
+msgstr "Sábháil comhad HTML"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:471
+#, kde-format
+msgid ""
+"<h3>Close File</h3>"
+"Click this to <em>close</em> the currently open HTML file."
+msgstr ""
+"<h3>Dún Comhad</h3>"
+"Cliceáil anseo chun an comhad atá oscailte faoi láthair a <em>dhúnadh</em>."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:472
+#, kde-format
+msgid "Close HTML file"
+msgstr "Dún comhad HTML"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:476
+#, kde-format
+msgid ""
+"<h3>Copy</h3>"
+"Click this to <em>copy</em> the selected area."
+msgstr ""
+"<h3>Cóipeáil</h3>"
+"Cliceáil anseo chun an limistéar roghnaithe a <em>chóipeáil</em>."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:482
+#, kde-format
+msgid ""
+"<h3>Cut</h3>"
+"Click this to <em>cut</em> the selected area."
+msgstr ""
+"<h3>Gearr</h3>"
+"Cliceáil anseo chun an limistéar roghnaithe a <em>ghearradh</em>."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:488
+#, kde-format
+msgid ""
+"<h3>Paste</h3>"
+"Click this to <em>paste</em> the copied area."
+msgstr ""
+"<h3>Greamaigh</h3>"
+"Cliceáil anseo chun an limistéar cóipeáilte a <em>ghreamú</em>."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:495 kimagemapeditor.cpp:2701
+#, kde-format
+msgid "&Delete"
+msgstr "&Scrios"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:499
+#, kde-format
+msgid ""
+"<h3>Delete</h3>"
+"Click this to <em>delete</em> the selected area."
+msgstr ""
+"<h3>Scrios</h3>"
+"Cliceáil anseo chun an limistéar roghnaithe a <em>scriosadh</em>."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:509
+#, kde-format
+msgid "Pr&operties"
+msgstr "Ai&ríonna"
+
+# #-#-#-#-#  kdelibs4.po (kdelibs4)  #-#-#-#-#
+# hopefully this will become view zoom, not just text zoom
+# #-#-#-#-#  kdvi.po (kdegraphics/kdvi.po)  #-#-#-#-#
+# #-#-#-#-#  kdelibs4.po (kdelibs4)  #-#-#-#-#
+# hopefully this will become view zoom, not just text zoom
+# #-#-#-#-#  kxsconfig.po (kxsconfig)  #-#-#-#-#
+# hopefully this will become view zoom, not just text zoom
+# #-#-#-#-#  kxsconfig.po (kxsconfig)  #-#-#-#-#
+# hopefully this will become view zoom, not just text zoom
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:520
+#, kde-format
+msgid "Zoom"
+msgstr "Súmáil"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:523
+#, kde-format
+msgid ""
+"<h3>Zoom</h3>"
+"Choose the desired zoom level."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:526
+#, kde-format
+msgid "25%"
+msgstr "25%"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:527
+#, kde-format
+msgid "50%"
+msgstr "50%"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:528
+#, kde-format
+msgid "100%"
+msgstr "100%"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:529
+#, kde-format
+msgid "150%"
+msgstr "150%"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:530
+#, kde-format
+msgid "200%"
+msgstr "200%"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:531
+#, kde-format
+msgid "250%"
+msgstr "250%"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:532
+#, kde-format
+msgid "300%"
+msgstr "300%"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:533
+#, kde-format
+msgid "500%"
+msgstr "500%"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:534
+#, kde-format
+msgid "750%"
+msgstr "750%"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:535
+#, kde-format
+msgid "1000%"
+msgstr "1000%"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:540
+#, kde-format
+msgid "Highlight Areas"
+msgstr "Aibhsigh Limistéir"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:546
+#, kde-format
+msgid "Show Alt Tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:549
+#, kde-format
+msgid "Map &Name..."
+msgstr "Ai&nm an Mhapa..."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:553
+#, kde-format
+msgid "Ne&w Map..."
+msgstr "Mapa &Nua..."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:556
+#, kde-format
+msgid "Create a new map"
+msgstr "Cruthaigh mapa nua"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:558
+#, kde-format
+msgid "D&elete Map"
+msgstr "&Scrios Mapa"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:561
+#, kde-format
+msgid "Delete the current active map"
+msgstr "Scrios an mapa reatha"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:563
+#, kde-format
+msgid "Edit &Default Area..."
+msgstr "Cuir an Limistéar &Réamhshocraithe in Eagar..."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:566
+#, kde-format
+msgid "Edit the default area of the current active map"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:568
+#, kde-format
+msgid "&Preview"
+msgstr "&Réamhamharc"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:571
+#, kde-format
+msgid "Show a preview"
+msgstr "Réamhamharc"
+
+#. i18n: ectx: Menu (images)
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:574 kimagemapeditorpartui.rc:61
+#, kde-format
+msgid "&Image"
+msgstr "&Íomhá"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:576
+#, kde-format
+msgid "Add Image..."
+msgstr "Cuir Íomhá Leis..."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:579
+#, kde-format
+msgid "Add a new image"
+msgstr "Íomhá nua"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:581
+#, kde-format
+msgid "Remove Image"
+msgstr "Bain íomhá"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:584
+#, kde-format
+msgid "Remove the current visible image"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:586
+#, kde-format
+msgid "Edit Usemap..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:589
+#, kde-format
+msgid "Edit the usemap tag of the current visible image"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:591
+#, kde-format
+msgid "Show &HTML"
+msgstr "Taispeáin &HTML"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:598
+#, kde-format
+msgid "&Selection"
+msgstr "&Roghnú"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:602
+#, kde-format
+msgid ""
+"<h3>Selection</h3>"
+"Click this to select areas."
+msgstr ""
+"<h3>Roghnú</h3>"
+"Cliceáil anseo chun limistéir a roghnú."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:608
+#, kde-format
+msgid "&Circle"
+msgstr "&Ciorcal"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:613
+#, kde-format
+msgid ""
+"<h3>Circle</h3>"
+"Click this to start drawing a circle."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:618
+#, kde-format
+msgid "&Rectangle"
+msgstr "D&ronuilleog"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:622
+#, kde-format
+msgid ""
+"<h3>Rectangle</h3>"
+"Click this to start drawing a rectangle."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:627
+#, kde-format
+msgid "&Polygon"
+msgstr "&Polagán"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:631
+#, kde-format
+msgid ""
+"<h3>Polygon</h3>"
+"Click this to start drawing a polygon."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:636
+#, kde-format
+msgid "&Freehand Polygon"
+msgstr "Polagán &Saorlámhach"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:640
+#, kde-format
+msgid ""
+"<h3>Freehandpolygon</h3>"
+"Click this to start drawing a freehand polygon."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:645
+#, kde-format
+msgid "&Add Point"
+msgstr "&Cuir Pointe Leis"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:649
+#, kde-format
+msgid ""
+"<h3>Add Point</h3>"
+"Click this to add points to a polygon."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:654
+#, kde-format
+msgid "&Remove Point"
+msgstr "&Bain Pointe"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:659
+#, kde-format
+msgid ""
+"<h3>Remove Point</h3>"
+"Click this to remove points from a polygon."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:663
+#, kde-format
+msgid "Cancel Drawing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:668
+#, kde-format
+msgid "Move Left"
+msgstr "Bog Faoi Chlé"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:674
+#, kde-format
+msgid "Move Right"
+msgstr "Bog Faoi Dheis"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:679
+#, kde-format
+msgid "Move Up"
+msgstr "Bog Suas"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:684
+#, kde-format
+msgid "Move Down"
+msgstr "Bog Síos"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:689
+#, kde-format
+msgid "Increase Width"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:694
+#, kde-format
+msgid "Decrease Width"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:699
+#, kde-format
+msgid "Increase Height"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:704
+#, kde-format
+msgid "Decrease Height"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:709
+#, kde-format
+msgid "Bring to Front"
+msgstr "Tabhair chun Tosaigh"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:713
+#, kde-format
+msgid "Send to Back"
+msgstr "Cuir go dtí an Cúl"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:717
+#, kde-format
+msgid "Bring Forward One"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:720
+#, kde-format
+msgid "Send Back One"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:730
+#, kde-format
+msgid "Configure KImageMapEditor..."
+msgstr "Cumraigh KImageMapEditor..."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:739
+#, kde-format
+msgid "Show Area List"
+msgstr "Taispeáin Liosta de Limistéir"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:744
+#, kde-format
+msgid "Show Map List"
+msgstr "Taispeáin Liosta de Mhapaí"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:748
+#, kde-format
+msgid "Show Image List"
+msgstr "Taispeáin Liosta d'Íomhánna"
+
+#. i18n(" Cursor")+" : x: 0 ,y: 0",STATUS_CURSOR);
+#. i18n(" Selection")+" : - ",STATUS_SELECTION);
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:763
+#, kde-format
+msgid " Selection: -  Cursor: x: 0, y: 0 "
+msgstr " Roghnúchán: -  Cúrsóir: x: 0, y: 0 "
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:847
+#, kde-format
+msgid " Cursor: x: %1, y: %2 "
+msgstr " Cúrsóir: x: %1, y: %2 "
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:855 kimagemapeditor.cpp:868
+#, kde-format
+msgid " Selection: x: %1, y: %2, w: %3, h: %4 "
+msgstr " Roghnúchán: x: %1, y: %2, w: %3, h: %4 "
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:860
+#, kde-format
+msgid " Selection: - "
+msgstr " Roghnúchán: - "
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:913
+#, kde-format
+msgid "Drop an image or HTML file"
+msgstr "Cuir íomhá nó comhad HTML síos"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:1562
+#, kde-format
+msgid "Enter Map Name"
+msgstr "Iontráil Ainm an Mapa"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:1562
+#, kde-format
+msgid "Enter the name of the map:"
+msgstr "Iontráil ainm an mhapa:"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:1567
+#, kde-format
+msgid "The name <em>%1</em> already exists."
+msgstr "Tá an t-ainm <em>%1</em> ann cheana."
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:1579
+#, kde-format
+msgid "HTML Code of Map"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:1629
+#, kde-format
+msgid "Choose File to Open"
+msgstr "Roghnaigh Comhad le hOscailt"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:1630 kimeshell.cpp:201
+#, fuzzy, kde-format
+#| msgid ""
+#| "*.png *.jpg *.jpeg *.gif *.htm *.html|Web File\n"
+#| "*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng|Images\n"
+#| "*.htm *.html|HTML Files\n"
+#| "*.png|PNG Images\n"
+#| "*.jpg *.jpeg|JPEG Images\n"
+#| "*.gif|GIF-Images\n"
+#| "*|All Files"
+msgid "Web File (*.png *.jpg *.jpeg *.gif *.htm *.html);;Images (*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng);;HTML Files (*.htm *.html);;All Files (*)"
+msgstr ""
+"*.png *.jpg *.jpeg *.gif *.htm *.html|Comhad Lín\n"
+"*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng|Íomhánna\n"
+"*.htm *.html|Comhaid HTML\n"
+"*.png|Íomhánna PNG\n"
+"*.jpg *.jpeg|Íomhánna JPEG\n"
+"*.gif|Íomhánna GIF\n"
+"*|Gach Comhad"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:1668
+#, kde-format
+msgid "HTML File (*.htm *.html);;Text File (*.txt);;All Files (*)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:1688
+#, kde-format
+msgid "<qt>The file <b>%1</b> does not exist.</qt>"
+msgstr "<qt>Níl comhad <b>%1</b> ann.</qt>"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:1689
+#, kde-format
+msgid "File Does Not Exist"
+msgstr "Níl an comhad ann"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:2384
+#, kde-format
+msgid "<qt>The file <i>%1</i> could not be saved, because you do not have the required write permissions.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:2699
+#, kde-format
+msgid ""
+"<qt>Are you sure you want to delete the map <i>%1</i>? <br />"
+"<b>There is no way to undo this.</b></qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:2701
+#, kde-format
+msgid "Delete Map?"
+msgstr "Scrios an Mapa?"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:2749
+#, kde-format
+msgid ""
+"<qt>The file <i>%1</i> has been modified.<br />"
+"Do you want to save it?</qt>"
+msgstr ""
+"<qt>Athraíodh an comhad <i>%1</i>.<br />"
+"An bhfuil fonn ort é a shábháil?</qt>"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:2833
+#, fuzzy, kde-format
+#| msgid "Selection"
+msgid "Select image"
+msgstr "Roghnú"
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:2834
+#, kde-format
+msgid "Images (*.png *.jpg *.jpeg *.gif *.bmp *.xbm *.xpm *.pnm *.mng);;All Files (*)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:2880
+#, kde-format
+msgid "Enter Usemap"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimagemapeditor.cpp:2881
+#, kde-format
+msgid "Enter the usemap value:"
+msgstr ""
+
+#. i18n: ectx: Menu (edit)
+#. +> trunk6 stable6
+#: kimagemapeditorpartui.rc:14
+#, kde-format
+msgid "&Edit"
+msgstr "&Eagar"
+
+#. i18n: ectx: Menu (view)
+#. +> trunk6 stable6
+#: kimagemapeditorpartui.rc:31
+#, kde-format
+msgid "&View"
+msgstr "&Amharc"
+
+#. i18n: ectx: Menu (tools)
+#. +> trunk6 stable6
+#: kimagemapeditorpartui.rc:40
+#, kde-format
+msgid "&Tools"
+msgstr "&Uirlisí"
+
+#. i18n: ectx: Menu (map)
+#. +> trunk6 stable6
+#: kimagemapeditorpartui.rc:50
+#, kde-format
+msgid "&Map"
+msgstr "&Mapa"
+
+#. i18n: ectx: Menu (settings)
+#. +> trunk6 stable6
+#: kimagemapeditorpartui.rc:66
+#, kde-format
+msgid "&Settings"
+msgstr "&Socruithe"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: kimagemapeditorpartui.rc:77 kimagemapeditorui.rc:15
+#, kde-format
+msgid "KImageMapEditor Main Toolbar"
+msgstr "Príomhbharra Uirlisí KImageMapEditor"
+
+#. i18n: ectx: ToolBar (kImageMapEditorPartDrawToolBar)
+#. +> trunk6 stable6
+#: kimagemapeditorpartui.rc:96
+#, fuzzy, kde-format
+#| msgid "KImageMapEditor Main Toolbar"
+msgid "KImageMapEditor Draw Toolbar"
+msgstr "Príomhbharra Uirlisí KImageMapEditor"
+
+#. i18n: ectx: Menu (file)
+#. +> trunk6 stable6
+#: kimagemapeditorui.rc:4
+#, kde-format
+msgid "&File"
+msgstr "&Comhad"
+
+#. +> trunk6 stable6
+#: kimearea.cpp:142
+#, kde-format
+msgid "noname"
+msgstr "gan ainm"
+
+#. +> trunk6 stable6
+#: kimearea.cpp:1401
+#, kde-format
+msgid "Number of Areas"
+msgstr "Líon na Limistéar"
+
+#. +> trunk6 stable6
+#: kimearea.h:229 kimedialogs.cpp:360
+#, kde-format
+msgid "Rectangle"
+msgstr "Dronuilleog"
+
+#. +> trunk6 stable6
+#: kimearea.h:252 kimedialogs.cpp:361
+#, kde-format
+msgid "Circle"
+msgstr "Ciorcal"
+
+#. +> trunk6 stable6
+#: kimearea.h:278 kimedialogs.cpp:362
+#, kde-format
+msgid "Polygon"
+msgstr "Polagán"
+
+#. +> trunk6 stable6
+#: kimearea.h:302 kimedialogs.cpp:387
+#, kde-format
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#. +> trunk6 stable6
+#: kimecommands.cpp:26
+#, kde-format
+msgid "Cut %1"
+msgstr "Gearr %1"
+
+#. +> trunk6 stable6
+#: kimecommands.cpp:70
+#, kde-format
+msgid "Delete %1"
+msgstr "Scrios %1"
+
+#. +> trunk6 stable6
+#: kimecommands.cpp:74
+#, kde-format
+msgid "Paste %1"
+msgstr "Greamaigh %1"
+
+#. +> trunk6 stable6
+#: kimecommands.cpp:113
+#, kde-format
+msgid "Move %1"
+msgstr "Bog %1"
+
+#. +> trunk6 stable6
+#: kimecommands.cpp:169
+#, kde-format
+msgid "Resize %1"
+msgstr "Athraigh Méid %1"
+
+#. +> trunk6 stable6
+#: kimecommands.cpp:210
+#, kde-format
+msgid "Add point to %1"
+msgstr "Cuir pointe le %1"
+
+#. +> trunk6 stable6
+#: kimecommands.cpp:254
+#, kde-format
+msgid "Remove point from %1"
+msgstr "Bain pointe ó %1"
+
+#. +> trunk6 stable6
+#: kimecommands.cpp:301
+#, kde-format
+msgid "Create %1"
+msgstr "Cruthaigh %1"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:75
+#, kde-format
+msgid "Top &X:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:82
+#, kde-format
+msgid "Top &Y:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:89
+#, kde-format
+msgid "&Width:"
+msgstr "&Leithead:"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:96
+#, kde-format
+msgid "Hei&ght:"
+msgstr "Air&de:"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:118
+#, kde-format
+msgid "Center &X:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:125
+#, kde-format
+msgid "Center &Y:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:132
+#, fuzzy, kde-format
+#| msgid "&Radius:"
+msgid "&Radius:"
+msgstr "&Ga:"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:165
+#, kde-format
+msgid "Add"
+msgstr "Cuir Leis"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:168
+#, kde-format
+msgid "Remove"
+msgstr "Bain"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:243
+#, kde-format
+msgid "Top &X"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:251
+#, kde-format
+msgid "Top &Y"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:284
+#, kde-format
+msgid "&HREF:"
+msgstr "&HREF:"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:290
+#, kde-format
+msgid "Alt. &Text:"
+msgstr "&Téacs Malartach:"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:293
+#, kde-format
+msgid "Tar&get:"
+msgstr "Spr&ioc:"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:296
+#, kde-format
+msgid "Tit&le:"
+msgstr "Tei&deal:"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:299 kimedialogs.cpp:536
+#, kde-format
+msgid "On"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:303
+#, kde-format
+msgid "Enable default map"
+msgstr "Cumasaigh an mapa réamhshocraithe"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:327
+#, kde-format
+msgid "OnClick:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:328
+#, kde-format
+msgid "OnDblClick:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:329
+#, kde-format
+msgid "OnMouseDown:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:330
+#, kde-format
+msgid "OnMouseUp:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:331
+#, kde-format
+msgid "OnMouseOver:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:332
+#, kde-format
+msgid "OnMouseMove:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:333
+#, kde-format
+msgid "OnMouseOut:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:341
+#, kde-format
+msgid "Area Tag Editor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:363
+#, kde-format
+msgid "Selection"
+msgstr "Roghnú"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:382
+#, kde-format
+msgid "&General"
+msgstr "&Ginearálta"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:389
+#, kde-format
+msgid "Coor&dinates"
+msgstr "Comhor&danáidí"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:391
+#, kde-format
+msgid "&JavaScript"
+msgstr "&JavaScript"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:435
+#, kde-format
+msgid "Choose File"
+msgstr "Roghnaigh Comhad"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:435
+#, fuzzy, kde-format
+#| msgid "All Files"
+msgid "All Files (*)"
+msgstr "Gach Comhad"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:504
+#, kde-format
+msgid "Preferences"
+msgstr "Sainroghanna"
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:518
+#, kde-format
+msgid "&Maximum image preview height:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:527
+#, kde-format
+msgid "&Undo limit:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:534
+#, kde-format
+msgid "&Redo limit:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimedialogs.cpp:538
+#, kde-format
+msgid "&Start with last used document"
+msgstr "To&saigh leis an gcáipéis is déanaí"
+
+#. +> trunk6 stable6
+#: kimeshell.cpp:76
+#, kde-format
+msgid "Could not find kimagemapeditorpart part!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimeshell.cpp:89
+#, kde-format
+msgid "Could not create kimagemapeditorpart part!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kimeshell.cpp:200
+#, kde-format
+msgid "Choose Picture to Open"
+msgstr "Roghnaigh Pictiúr le hOscailt"
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "KImageMapEditor"
+msgstr "KImageMapEditor"
+
+#. +> trunk6 stable6
+#: main.cpp:35
+#, kde-format
+msgid "An HTML imagemap editor"
+msgstr "Eagarthóir mapaí íomhá HTML"
+
+#. +> trunk6 stable6
+#: main.cpp:36
+#, kde-format
+msgid "(c) 2001-2007 Jan Schaefer"
+msgstr "© 2001-2007 Jan Schaefer"
+
+#. +> trunk6 stable6
+#: main.cpp:38
+#, kde-format
+msgid "Jan Schaefer"
+msgstr "Jan Schaefer"
+
+#. +> trunk6 stable6
+#: main.cpp:39
+#, kde-format
+msgid "Joerg Jaspert"
+msgstr "Joerg Jaspert"
+
+#. +> trunk6 stable6
+#: main.cpp:39
+#, kde-format
+msgid "For helping me with the Makefiles, and creating the Debian package"
+msgstr "As cabhair leis na Makefile-anna, agus as an bpacáiste Debian a chruthú"
+
+#. +> trunk6 stable6
+#: main.cpp:40
+#, kde-format
+msgid "Aaron Seigo and Michael"
+msgstr "Aaron Seigo agus Michael"
+
+#. +> trunk6 stable6
+#: main.cpp:40
+#, kde-format
+msgid "For helping me fixing --enable-final mode"
+msgstr "As cabhair leis an mód --enable-final"
+
+#. +> trunk6 stable6
+#: main.cpp:41
+#, kde-format
+msgid "Antonio Crevillen"
+msgstr "Antonio Crevillen"
+
+#. +> trunk6 stable6
+#: main.cpp:41
+#, kde-format
+msgid "For the Spanish translation"
+msgstr "As an aistriúcháin Spáinnise"
+
+#. +> trunk6 stable6
+#: main.cpp:42
+#, kde-format
+msgid "Fabrice Mous"
+msgstr "Fabrice Mous"
+
+#. +> trunk6 stable6
+#: main.cpp:42
+#, kde-format
+msgid "For the Dutch translation"
+msgstr "As an aistriúcháin Ollainnise"
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "Germain Chazot"
+msgstr "Germain Chazot"
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "For the French translation"
+msgstr "As an aistriúcháin Fraincise"
+
+#. +> trunk6 stable6
+#: main.cpp:56
+#, kde-format
+msgid "Write HTML-Code to stdout on exit"
+msgstr "Scríobh HTML ar an ngnáth-aschur ag am scoir"
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, kde-format
+msgid "File to open"
+msgstr "Comhad le hoscailt"

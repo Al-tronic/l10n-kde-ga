@@ -1,0 +1,283 @@
+# Irish translation of desktop_extragear-network_ktorrent
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_extragear-network_ktorrent package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2007-04-15 19:05-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: plugins/bwscheduler/ktorrent_bwscheduler.json
+msgctxt "Name"
+msgid "Scheduler"
+msgstr "Sceidealóir"
+
+#. +> trunk6 stable6
+#: plugins/downloadorder/ktorrent_downloadorder.json
+msgctxt "Name"
+msgid "Download Order"
+msgstr "Ord Íosluchtaithe"
+
+#. +> trunk6 stable6
+#: plugins/infowidget/ktorrent_infowidget.json
+msgctxt "Name"
+msgid "Information Widget"
+msgstr "Giuirléid Eolais"
+
+#. +> trunk6 stable6
+#: plugins/ipfilter/ktorrent_ipfilter.json
+msgctxt "Name"
+msgid "IP Filter"
+msgstr "Scagaire IP"
+
+#. +> trunk6 stable6
+#: plugins/logviewer/ktorrent_logviewer.json
+msgctxt "Name"
+msgid "Log Viewer"
+msgstr "Amharcán Logchomhad"
+
+#. +> trunk6 stable6
+#: plugins/magnetgenerator/ktorrent_magnetgenerator.json
+msgctxt "Name"
+msgid "Magnet Generator"
+msgstr "Gineadóir Maighnéad"
+
+#. +> trunk6 stable6
+#: plugins/mediaplayer/ktorrent_mediaplayer.json
+msgctxt "Name"
+msgid "Media Player"
+msgstr "Seinnteoir Meán"
+
+#. +> trunk6 stable6
+#: plugins/scanfolder/ktorrent_scanfolder.json
+msgctxt "Name"
+msgid "Scan Folder"
+msgstr "Scan Fillteán"
+
+#. +> trunk6 stable6
+#: plugins/scanforlostfiles/ktorrent_scanforlostfiles.json
+msgctxt "Name"
+msgid "Scan for lost files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/search/ktorrent_search.json
+msgctxt "Name"
+msgid "Search"
+msgstr "Cuardaigh"
+
+#. +> trunk6 stable6
+#: plugins/shutdown/ktorrent_shutdown.json
+msgctxt "Name"
+msgid "Shutdown"
+msgstr "Múchadh"
+
+#. +> trunk6 stable6
+#: plugins/stats/ktorrent_stats.json
+msgctxt "Name"
+msgid "Statistics"
+msgstr "Staitisticí"
+
+#. +> trunk6 stable6
+#: plugins/syndication/ktorrent_syndication.json
+msgctxt "Name"
+msgid "Syndication"
+msgstr "Sindeacáitiú"
+
+#. +> trunk6 stable6
+#: plugins/upnp/ktorrent_upnp.json
+msgctxt "Name"
+msgid "UPnP"
+msgstr "UPnP"
+
+#. +> trunk6 stable6
+#: plugins/zeroconf/ktorrent_zeroconf.json
+msgctxt "Name"
+msgid "Zeroconf"
+msgstr "Zeroconf"
+
+#. +> trunk6 stable6
+#: plugins/bwscheduler/ktorrent_bwscheduler.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Schedule upload and download limits over a period of a week"
+msgctxt "Description"
+msgid "Schedule upload and download limits over a period of a week"
+msgstr "Sceideal teorainneacha uasluchtaithe/íosluchtaithe le linn tréimhse seachtaine"
+
+#. +> trunk6 stable6
+#: plugins/downloadorder/ktorrent_downloadorder.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Specify the download order of a multi-file torrent"
+msgctxt "Description"
+msgid "Specify the download order of a multi-file torrent"
+msgstr "Sonraigh ord íosluchtaithe do thorrent il-chomhad"
+
+#. +> trunk6 stable6
+#: plugins/infowidget/ktorrent_infowidget.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Displays general information about a torrent in several tabs"
+msgctxt "Description"
+msgid "Displays general information about a torrent in several tabs"
+msgstr "Breiseán a thaispeánann eolas ginearálta maidir le torrent i gcluaisíní éagsúla"
+
+#. +> trunk6 stable6
+#: plugins/ipfilter/ktorrent_ipfilter.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Filter IP addresses through a blocklist"
+msgctxt "Description"
+msgid "Filter IP addresses through a blocklist"
+msgstr "Scag seoltaí IP trí liosta dubh"
+
+#. +> trunk6 stable6
+#: plugins/logviewer/ktorrent_logviewer.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Displays the logging output"
+msgctxt "Description"
+msgid "Displays the logging output"
+msgstr "Taispeáin an t-aschur logála"
+
+#. +> trunk6 stable6
+#: plugins/magnetgenerator/ktorrent_magnetgenerator.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Generates magnet links"
+msgctxt "Description"
+msgid "Generates magnet links"
+msgstr "Gineann sé seo naisc mhaighnéid"
+
+#. +> trunk6 stable6
+#: plugins/mediaplayer/ktorrent_mediaplayer.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Phonon-based media player"
+msgctxt "Description"
+msgid "Phonon-based media player"
+msgstr "Seinnteoir meán bunaithe ar Phonon"
+
+#. +> trunk6 stable6
+#: plugins/scanfolder/ktorrent_scanfolder.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Scan folders for torrent files and load them"
+msgctxt "Description"
+msgid "Scan folders for torrent files and load them"
+msgstr "Lorg comhaid torrent i bhfillteáin agus luchtaigh iad"
+
+#. +> trunk6 stable6
+#: plugins/scanforlostfiles/ktorrent_scanforlostfiles.json
+msgctxt "Description"
+msgid "Display files in the selected folder that don't belong to any torrent"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/search/ktorrent_search.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Search for torrents"
+msgctxt "Description"
+msgid "Search for torrents"
+msgstr "Lorg torrents"
+
+#. +> trunk6 stable6
+#: plugins/shutdown/ktorrent_shutdown.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Allows you to shutdown your computer when torrents finish"
+msgctxt "Description"
+msgid "Allows you to shutdown your computer when torrents finish"
+msgstr "Ceadaíonn sé duit do ríomhaire a mhúchadh nuair a bheidh na torrents críochnaithe"
+
+#. +> trunk6 stable6
+#: plugins/stats/ktorrent_stats.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Shows statistics about torrents in several graphs"
+msgctxt "Description"
+msgid "Shows statistics about torrents in several graphs"
+msgstr "Breiseán a thaispeánann staitisticí maidir le torrents i ngraif"
+
+#. +> trunk6 stable6
+#: plugins/syndication/ktorrent_syndication.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Syndication plugin for KTorrent, supporting RSS and Atom feeds"
+msgctxt "Description"
+msgid "Syndication plugin for KTorrent, supporting RSS and Atom feeds"
+msgstr "Breiseán sindeacáitithe le haghaidh KTorrent a thacaíonn le fothaí RSS agus Atom"
+
+#. +> trunk6 stable6
+#: plugins/upnp/ktorrent_upnp.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Forward ports using UPnP"
+msgctxt "Description"
+msgid "Forward ports using UPnP"
+msgstr "Breiseán a chuireann poirt ar aghaidh le UPnP"
+
+#. +> trunk6 stable6
+#: plugins/zeroconf/ktorrent_zeroconf.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Discover peers on the local network using the Zeroconf protocol"
+msgctxt "Description"
+msgid "Discover peers on the local network using the Zeroconf protocol"
+msgstr "Breiseán a aimsíonn comhghleacaithe ar an líonra logánta tríd an bprótacal zeroconf"
+
+#. +> trunk6 stable6
+#: plugins/bwscheduler/ktorrent_bwscheduler.json
+#: plugins/infowidget/ktorrent_infowidget.json
+#: plugins/ipfilter/ktorrent_ipfilter.json
+#: plugins/logviewer/ktorrent_logviewer.json
+#: plugins/scanfolder/ktorrent_scanfolder.json
+#: plugins/search/ktorrent_search.json plugins/upnp/ktorrent_upnp.json
+msgctxt "Authors Name"
+msgid "Joris Guisson, Ivan Vasic"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/downloadorder/ktorrent_downloadorder.json
+#: plugins/mediaplayer/ktorrent_mediaplayer.json
+#: plugins/shutdown/ktorrent_shutdown.json
+#: plugins/syndication/ktorrent_syndication.json
+msgctxt "Authors Name"
+msgid "Joris Guisson"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/magnetgenerator/ktorrent_magnetgenerator.json
+msgctxt "Authors Name"
+msgid "Jonas Lundqvist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/scanforlostfiles/ktorrent_scanforlostfiles.json
+msgctxt "Authors Name"
+msgid "Alexander Trufanov"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/stats/ktorrent_stats.json
+msgctxt "Authors Name"
+msgid "Krzysztof Kundzicz"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/zeroconf/ktorrent_zeroconf.json
+msgctxt "Authors Name"
+msgid "Lesly Weyts, Kevin Andre and Joris Guisson"
+msgstr ""

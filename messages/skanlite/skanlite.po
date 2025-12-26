@@ -1,0 +1,434 @@
+# Irish translation of skanlite
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the skanlite package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: playground-graphics/glimpse.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:27+0100\n"
+"PO-Revision-Date: 2008-01-31 14:07-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: ImageViewer.cpp:45
+#, kde-format
+msgid "Zoom In"
+msgstr "Súmáil Isteach"
+
+#. +> trunk6 stable6
+#: ImageViewer.cpp:48
+#, kde-format
+msgid "Zoom Out"
+msgstr "Súmáil Amach"
+
+#. +> trunk6 stable6
+#: ImageViewer.cpp:51
+#, kde-format
+msgid "Zoom to Actual size"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ImageViewer.cpp:54
+#, kde-format
+msgid "Zoom to Fit"
+msgstr "Cuir in Oiriúint"
+
+#. +> trunk6 stable6
+#: main.cpp:30 skanlite.cpp:762
+#, kde-format
+msgid "Skanlite"
+msgstr "Skanlite"
+
+#. +> trunk6 stable6
+#: main.cpp:32
+#, fuzzy, kde-format
+#| msgid "This is a scanning application for KDE based on libksane."
+msgid "Scanning application by KDE based on libksane."
+msgstr "Feidhmchlár scanta le haghaidh KDE, bunaithe ar libksane."
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, fuzzy, kde-format
+#| msgid "(C) 2008-2012 Kåre Särs"
+msgid "(C) 2008-2020 Kåre Särs"
+msgstr "© 2008-2012 Kåre Särs"
+
+#. +> trunk6 stable6
+#: main.cpp:39
+#, kde-format
+msgid "Kåre Särs"
+msgstr "Kåre Särs"
+
+#. +> trunk6 stable6
+#: main.cpp:39
+#, kde-format
+msgid "developer"
+msgstr "forbróir"
+
+#. +> trunk6 stable6
+#: main.cpp:41
+#, kde-format
+msgid "Gregor Mi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:41 main.cpp:43
+#, kde-format
+msgid "contributor"
+msgstr "cuiditheoir"
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "Arseniy Lartsev"
+msgstr "Arseniy Lartsev"
+
+#. +> trunk6 stable6
+#: main.cpp:45
+#, kde-format
+msgid "Gilles Caulier"
+msgstr "Gilles Caulier"
+
+#. +> trunk6 stable6
+#: main.cpp:45 main.cpp:49
+#, kde-format
+msgid "Importing libksane to extragear"
+msgstr "As libksane a iompórtáil go extragear"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgid "Writing the user manual"
+msgstr "As an lámhleabhar a scríobh"
+
+#. +> trunk6 stable6
+#: main.cpp:49
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#. +> trunk6 stable6
+#: main.cpp:51
+#, kde-format
+msgid "Chusslove Illich"
+msgstr "Chusslove Illich"
+
+#. +> trunk6 stable6
+#: main.cpp:51 main.cpp:53
+#, kde-format
+msgid "Help with translations"
+msgstr "Cabhair le haistriúcháin"
+
+#. +> trunk6 stable6
+#: main.cpp:53
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#. +> trunk6 stable6
+#: main.cpp:56
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#: main.cpp:56
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: main.cpp:66
+#, fuzzy, kde-format
+#| msgid "Sane scanner device name."
+msgid "Sane scanner device name. Use 'test' for test device."
+msgstr "Ainm an scanóra Sane."
+
+#. +> trunk6 stable6
+#: main.cpp:67
+#, kde-format
+msgid "device"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SaveLocation)
+#. +> trunk6 stable6
+#: SaveLocation.ui:20
+#, kde-format
+msgid "Save Location"
+msgstr "Suíomh Sábhála"
+
+#. i18n: ectx: property (text), widget (QLabel, locationLabel)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: SaveLocation.ui:28 settings.ui:80
+#, kde-format
+msgid "Save Location:"
+msgstr "Suíomh Sábhála:"
+
+#. i18n: ectx: property (text), widget (QLabel, namePrefixLabel)
+#. +> trunk6 stable6
+#: SaveLocation.ui:55
+#, kde-format
+msgid "Name & Format:"
+msgstr "Ainm agus Formáid:"
+
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: SaveLocation.ui:74 settings.ui:112
+#, fuzzy, kde-format
+#| msgid "###."
+msgid "####."
+msgstr "###."
+
+#. i18n: ectx: property (text), widget (QLabel, numStartFromLabel)
+#. +> trunk6 stable6
+#: SaveLocation.ui:86
+#, kde-format
+msgid "Start numbering from:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, u_resultLabel)
+#. +> trunk6 stable6
+#: SaveLocation.ui:123
+#, kde-format
+msgid "Example:"
+msgstr "Sampla:"
+
+#. i18n: ectx: property (text), widget (QLabel, u_resultValue)
+#. +> trunk6 stable6
+#: SaveLocation.ui:130
+#, kde-format
+msgid "/home/joe/example.png"
+msgstr "/home/seosamh/sampla.png"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SkanliteSettings)
+#. +> trunk6 stable6
+#: settings.ui:14
+#, kde-format
+msgid "Settings"
+msgstr "Socruithe"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: settings.ui:20
+#, kde-format
+msgid "Image saving"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. +> trunk6 stable6
+#: settings.ui:26
+#, kde-format
+msgid "Preview before saving:"
+msgstr "Réamhamharc roimh shábháil:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk6 stable6
+#: settings.ui:46
+#, kde-format
+msgid "Save mode:"
+msgstr "Mód sábhála:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, saveModeCB)
+#. +> trunk6 stable6
+#: settings.ui:60
+#, kde-format
+msgid "Open the save dialog for every image"
+msgstr "Oscail an dialóg shábhála le haghaidh gach íomhá"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, saveModeCB)
+#. +> trunk6 stable6
+#: settings.ui:65
+#, kde-format
+msgid "Open the save dialog for the first image only"
+msgstr "Oscail an dialóg shábhála le haghaidh na céad íomhá amháin"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: settings.ui:90
+#, kde-format
+msgid "Name && Format:"
+msgstr "Ainm agus Formáid:"
+
+#. i18n: ectx: property (text), widget (QLineEdit, imgPrefix)
+#. +> trunk6 stable6
+#: settings.ui:105
+#, kde-format
+msgid "Image"
+msgstr "Íomhá"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: settings.ui:124
+#, kde-format
+msgid "Specify save quality:"
+msgstr "Socraigh an cháilíocht:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, imgQuality)
+#. +> trunk6 stable6
+#: settings.ui:192
+#, no-c-format, kde-format
+msgid "%"
+msgstr "%"
+
+#. i18n: ectx: property (title), widget (QGroupBox, generalGB)
+#. +> trunk6 stable6
+#: settings.ui:233
+#, kde-format
+msgid "General"
+msgstr "Ginearálta"
+
+#. i18n: ectx: property (text), widget (QCheckBox, setPreviewDPI)
+#. +> trunk6 stable6
+#: settings.ui:239
+#, kde-format
+msgid "Set preview resolution (DPI)"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
+#. +> trunk6 stable6
+#: settings.ui:253
+#, kde-format
+msgid "50"
+msgstr "50"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
+#. +> trunk6 stable6
+#: settings.ui:258
+#, kde-format
+msgid "75"
+msgstr "75"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
+#. +> trunk6 stable6
+#: settings.ui:263
+#, kde-format
+msgid "100"
+msgstr "100"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
+#. +> trunk6 stable6
+#: settings.ui:268
+#, kde-format
+msgid "150"
+msgstr "150"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, previewDPI)
+#. +> trunk6 stable6
+#: settings.ui:273
+#, kde-format
+msgid "300"
+msgstr "300"
+
+#. i18n: ectx: property (text), widget (QCheckBox, u_disableSelections)
+#. +> trunk6 stable6
+#: settings.ui:286
+#, kde-format
+msgid "Disable automatic selections"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, revertOptions)
+#. +> trunk6 stable6
+#: settings.ui:319
+#, kde-format
+msgid "Revert scanner options to default values"
+msgstr ""
+
+#. +> trunk6 stable6
+#: skanlite.cpp:64
+#, kde-format
+msgid "Configure..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: skanlite.cpp:68
+#, fuzzy, kde-format
+#| msgid "Opening the selected scanner failed."
+msgid "Reselect scanner device"
+msgstr "Níorbh fhéidir an scanóir roghnaithe a oscailt."
+
+#. +> trunk6 stable6
+#: skanlite.cpp:92
+#, kde-format
+msgid "Saving: %v kB"
+msgstr ""
+
+#. +> trunk6 stable6
+#: skanlite.cpp:188
+#, kde-format
+msgid "Skanlite Settings"
+msgstr "Socruithe Skanlite"
+
+#. +> trunk6 stable6
+#: skanlite.cpp:208 skanlite.cpp:304
+#, kde-format
+msgid "Opening the selected scanner failed."
+msgstr "Níorbh fhéidir an scanóir roghnaithe a oscailt."
+
+#. +> trunk6 stable6
+#: skanlite.cpp:318
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#. +> trunk6 stable6
+#: skanlite.cpp:337
+#, kde-format
+msgctxt "prefix for auto naming"
+msgid "Image-"
+msgstr "Íomhá-"
+
+#. +> trunk6 stable6
+#: skanlite.cpp:472
+#, kde-format
+msgid "The image will be saved in the PNG format, as the selected image type does not support saving 16 bit color images."
+msgstr ""
+
+#. +> trunk6 stable6
+#: skanlite.cpp:494
+#, kde-format
+msgid "New Image File Name"
+msgstr "Ainm na hÍomhá Nuaí"
+
+#. +> trunk6 stable6
+#: skanlite.cpp:594
+#, kde-format
+msgid "Failed to save image"
+msgstr "Theip ar íomhá a shábháil"
+
+#. +> trunk6 stable6
+#: skanlite.cpp:607
+#, fuzzy, kde-format
+#| msgid "Failed to save image"
+msgid "Failed to upload image"
+msgstr "Theip ar íomhá a shábháil"
+
+#. +> trunk6 stable6
+#: skanlite.cpp:758
+#, kde-format
+msgctxt "@title:window %1 = scanner maker, %2 = scanner model"
+msgid "%1 %2 - Skanlite"
+msgstr "%1 %2 - Skanlite"
+
+#. +> trunk6 stable6
+#: skanlite.cpp:760
+#, kde-format
+msgctxt "@title:window %1 = scanner device"
+msgid "%1 - Skanlite"
+msgstr "%1 - Skanlite"

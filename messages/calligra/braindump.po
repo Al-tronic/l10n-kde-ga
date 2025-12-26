@@ -1,0 +1,388 @@
+# Irish translation of braindump
+# Copyright (C) 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the braindump package.
+# Kevin Scannell <kscanne@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: braindump\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:24+0100\n"
+"PO-Revision-Date: 2011-12-28 12:28-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. i18n: ectx: Menu (Shapes)
+#. +> trunk6 stable6
+#: data/braindumpui.rc:8
+#, fuzzy, kde-format
+#| msgid "Shapes"
+msgctxt "@title:menu"
+msgid "Shapes"
+msgstr "Cruthanna"
+
+#. i18n: ectx: Menu (Shapes)
+#. +> trunk6 stable6
+#: data/braindumpview.rc:23
+#, kde-format
+msgid "Shapes"
+msgstr "Cruthanna"
+
+#. i18n: tag category attribute name
+#. +> trunk6 stable6
+#: data/states/states/states.xml:3
+#, kde-format
+msgid "Todo"
+msgstr "Le Déanamh"
+
+#. i18n: tag state attribute name
+#. +> trunk6 stable6
+#: data/states/states/states.xml:4
+#, fuzzy, kde-format
+#| msgid "Checked"
+msgid "Unchecked"
+msgstr "Deimhnithe"
+
+#. i18n: tag state attribute name
+#. +> trunk6 stable6
+#: data/states/states/states.xml:5
+#, kde-format
+msgid "Checked"
+msgstr "Deimhnithe"
+
+#. i18n: tag category attribute name
+#. +> trunk6 stable6
+#: data/states/states/states.xml:7
+#, kde-format
+msgid "Progress"
+msgstr "Dul chun cinn"
+
+#. i18n: tag state attribute name
+#. +> trunk6 stable6
+#: data/states/states/states.xml:8
+#, kde-format
+msgid "0 %"
+msgstr "0 %"
+
+#. i18n: tag state attribute name
+#. +> trunk6 stable6
+#: data/states/states/states.xml:9
+#, kde-format
+msgid "25 %"
+msgstr "25 %"
+
+#. i18n: tag state attribute name
+#. +> trunk6 stable6
+#: data/states/states/states.xml:10
+#, kde-format
+msgid "50 %"
+msgstr "50 %"
+
+#. i18n: tag state attribute name
+#. +> trunk6 stable6
+#: data/states/states/states.xml:11
+#, kde-format
+msgid "75 %"
+msgstr "75 %"
+
+#. i18n: tag state attribute name
+#. +> trunk6 stable6
+#: data/states/states/states.xml:12
+#, kde-format
+msgid "100 %"
+msgstr "100 %"
+
+#. +> trunk6 stable6
+#: plugins/quickstates/BraindumpQuickStatesPlugin.cpp:46
+#, kde-format
+msgid "States"
+msgstr "Staideanna"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: plugins/stateshape/StateShapeConfigWidget.ui:17
+#, fuzzy, kde-format
+#| msgid "States"
+msgid "State:"
+msgstr "Staideanna"
+
+#. +> trunk6 stable6
+#: plugins/stateshape/StateShapeFactory.cpp:30
+#, fuzzy, kde-format
+#| msgid "Shapes"
+msgid "State Shape"
+msgstr "Cruthanna"
+
+#. +> trunk6 stable6
+#: plugins/stateshape/StateShapeFactory.cpp:32
+#, kde-format
+msgid "A state shape"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/stateshape/StateTool.cpp:107
+#, kde-format
+msgid "State tool options"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/stateshape/StateToolFactory.cpp:32
+#, kde-format
+msgid "State editing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/AboutData.h:33
+#, kde-format
+msgid "Braindump"
+msgstr "Braindump"
+
+#. +> trunk6 stable6
+#: src/AboutData.h:35
+#, kde-format
+msgid "Braindump: directly from your brain to the computer."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/AboutData.h:36
+#, kde-format
+msgid "Unmaintained at the time of release of this version. The Calligra community welcomes interested persons to take over maintainership."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/AboutData.h:38
+#, fuzzy, kde-format
+#| msgid "(c) 2009, 2010, 2011, 2012 Cyrille Berger"
+msgid "(c) 2009, 2010, 2011, 2012, 2013 Cyrille Berger"
+msgstr "© 2009, 2010, 2011, 2012 Cyrille Berger"
+
+#. +> trunk6 stable6
+#: src/AboutData.h:42
+#, kde-format
+msgid "Somsubhra Bairi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/AboutData.h:43 src/AboutData.h:46
+#, fuzzy, kde-format
+#| msgid "Maintainer"
+msgid "Former maintainer"
+msgstr "Cothaitheoir"
+
+#. +> trunk6 stable6
+#: src/AboutData.h:46
+#, kde-format
+msgid "Cyrille Berger"
+msgstr "Cyrille Berger"
+
+#. i18n translator strings
+#. +> trunk6 stable6
+#: src/AboutData.h:48
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#: src/AboutData.h:48
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: src/forms/wdgsectionproperties.ui:17
+#, kde-format
+msgid "Layout:"
+msgstr "Leagan Amach:"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnAdd)
+#. +> trunk6 stable6
+#: src/forms/wdgsectionsbox.ui:50
+#, kde-format
+msgid "Create a new whiteboard"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnDuplicate)
+#. +> trunk6 stable6
+#: src/forms/wdgsectionsbox.ui:78
+#, kde-format
+msgid "Duplicate whiteboard"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QToolButton, bnDuplicate)
+#. +> trunk6 stable6
+#: src/forms/wdgsectionsbox.ui:81
+#, kde-format
+msgid "Duplicate the currently selected whiteboard"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnLower)
+#. +> trunk6 stable6
+#: src/forms/wdgsectionsbox.ui:106
+#, kde-format
+msgid "Move whiteboard down"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnRaise)
+#. +> trunk6 stable6
+#: src/forms/wdgsectionsbox.ui:131
+#, kde-format
+msgid "Move whiteboard up"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, bnDelete)
+#. +> trunk6 stable6
+#: src/forms/wdgsectionsbox.ui:172
+#, kde-format
+msgid "Delete the whiteboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/import/DockerManager_p.h:62
+#, kde-format
+msgid "Tool Bars"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/import/ToolDocker.cpp:31
+#, kde-format
+msgid "Tool Options"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/import/ToolDocker.cpp:70
+#, kde-format
+msgid "Toggles showing a title bar"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/import/ToolDocker.cpp:78
+#, kde-format
+msgid "Toggles organising the options in tabs or not"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/layouts/ColumnLayout.cpp:126
+#, kde-format
+msgid "Column"
+msgstr "Colún"
+
+#. +> trunk6 stable6
+#: src/layouts/FreeLayout.cpp:60
+#, kde-format
+msgid "Free"
+msgstr "Saor"
+
+#. +> trunk6 stable6
+#: src/MainWindow.cpp:96
+#, kde-format
+msgid "Dockers"
+msgstr "Dugairí"
+
+#. +> trunk6 stable6
+#: src/SectionGroup.cpp:86
+#, kde-format
+msgid "Untitled %1"
+msgstr "Gan Teideal %1"
+
+#. +> trunk6 stable6
+#: src/SectionPropertiesDock.cpp:33
+#, kde-format
+msgid "Dump properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/SectionsBoxDock.cpp:44
+#, kde-format
+msgid "Whiteboards"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/SectionsBoxDock.cpp:57
+#, kde-format
+msgid "Minimal View"
+msgstr "Amharc Íosta"
+
+#. +> trunk6 stable6
+#: src/SectionsBoxDock.cpp:58
+#, kde-format
+msgid "Detailed View"
+msgstr "Amharc Mionsonraithe"
+
+#. +> trunk6 stable6
+#: src/SectionsBoxDock.cpp:59
+#, kde-format
+msgid "Thumbnail View"
+msgstr "Amharc Mionsamhlacha"
+
+#. +> trunk6 stable6
+#: src/SectionsBoxDock.cpp:70
+#, kde-format
+msgid "View mode"
+msgstr "Mód amhairc"
+
+#. +> trunk6 stable6
+#: src/SectionsBoxDock.cpp:82
+#, kde-format
+msgid "Add new whiteboard below current."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/SectionsBoxDock.cpp:83
+#, kde-format
+msgid "Add new whiteboard above current."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/SectionsBoxDock.cpp:84
+#, kde-format
+msgid "Add new whiteboard as child of current."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/View.cpp:182
+#, kde-format
+msgid "D&elete"
+msgstr "S&crios"
+
+#. +> trunk6 stable6
+#: src/View.cpp:189
+#, kde-format
+msgctxt "Duplicate selection"
+msgid "&Duplicate"
+msgstr "&Dúblach"
+
+#. +> trunk6 stable6
+#: src/View.cpp:194
+#, fuzzy, kde-format
+#| msgid "Ungroup Shapes"
+msgid "Group Shapes"
+msgstr "Díghrúpáil Giuirléidí"
+
+#. +> trunk6 stable6
+#: src/View.cpp:199
+#, kde-format
+msgid "Ungroup Shapes"
+msgstr "Díghrúpáil Giuirléidí"
+
+#. +> trunk6 stable6
+#: src/View.cpp:377
+#, fuzzy
+#| msgid "Ungroup Shapes"
+msgctxt "(qtundo-format)"
+msgid "Group shapes"
+msgstr "Díghrúpáil Giuirléidí"
+
+#. +> trunk6 stable6
+#: src/View.cpp:399
+#, fuzzy
+#| msgid "Ungroup Shapes"
+msgctxt "(qtundo-format)"
+msgid "Ungroup shapes"
+msgstr "Díghrúpáil Giuirléidí"

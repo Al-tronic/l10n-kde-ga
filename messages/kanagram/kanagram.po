@@ -1,0 +1,1018 @@
+# Irish translation of kanagram
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kanagram package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: playground-edu/kanagram.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-09-17 10:00+0200\n"
+"PO-Revision-Date: 2005-06-26 21:19-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. i18n: ectx: label, entry (currentVocabulary), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:9
+#, fuzzy, kde-format
+#| msgid "Deletes the selected vocabulary."
+msgid "This setting stores the currently selected Vocabulary."
+msgstr "Scrios an stór focal roghnaithe."
+
+#. i18n: ectx: label, entry (singlePlayerMode), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:13
+#, fuzzy, kde-format
+#| msgid "This setting allows you to set the length of time Kanagram's hint bubble is shown."
+msgid "This setting allows you to decide one-player or two-player mode"
+msgstr "Leis an rogha seo is féidir a shocrú cá fhad a thaispeánfar bolgán leide Kanagram."
+
+#. i18n: ectx: label, entry (hintHideTime), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:17
+#, fuzzy, kde-format
+#| msgid "This setting allows you to set how long Kanagram's hint bubble is shown."
+msgid "This setting allows you to set in seconds how long Kanagram's hint bubble is shown."
+msgstr "Leis an rogha seo is féidir a shocrú cá fhad a thaispeánfar bolgán leide Kanagram."
+
+#. i18n: ectx: label, entry (resolveTime), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:21
+#, fuzzy, kde-format
+#| msgid "This setting allows you to set the length of time Kanagram's hint bubble is shown."
+msgid "This setting allows you to set in seconds how much time is available for resolving the anagram."
+msgstr "Leis an rogha seo is féidir a shocrú cá fhad a thaispeánfar bolgán leide Kanagram."
+
+#. i18n: ectx: label, entry (scoreTime), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:26
+#, fuzzy, kde-format
+#| msgid "This setting allows you to set the length of time Kanagram's hint bubble is shown."
+msgid "This setting allows you to set in seconds the time interval of the score timer."
+msgstr "Leis an rogha seo is féidir a shocrú cá fhad a thaispeánfar bolgán leide Kanagram."
+
+#. i18n: ectx: label, entry (correctAnswerScore), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:30
+#, fuzzy, kde-format
+#| msgid "This setting allows you to set how long Kanagram's hint bubble is shown."
+msgid "This setting allows you to set the score associated with a correct answer."
+msgstr "Leis an rogha seo is féidir a shocrú cá fhad a thaispeánfar bolgán leide Kanagram."
+
+#. i18n: ectx: label, entry (incorrectAnswerScore), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:34
+#, fuzzy, kde-format
+#| msgid "This setting allows you to set the length of time Kanagram's hint bubble is shown."
+msgid "This setting allows you to set the score associated with an incorrect answer."
+msgstr "Leis an rogha seo is féidir a shocrú cá fhad a thaispeánfar bolgán leide Kanagram."
+
+#. i18n: ectx: label, entry (revealAnswerScore), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:38
+#, fuzzy, kde-format
+#| msgid "This setting allows you to set how long Kanagram's hint bubble is shown."
+msgid "This setting allows you to set the score associated with reveal answer."
+msgstr "Leis an rogha seo is féidir a shocrú cá fhad a thaispeánfar bolgán leide Kanagram."
+
+#. i18n: ectx: label, entry (skippedWordScore), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:42
+#, fuzzy, kde-format
+#| msgid "This setting allows you to set how long Kanagram's hint bubble is shown."
+msgid "This setting allows you to set the score associated with a skipped word."
+msgstr "Leis an rogha seo is féidir a shocrú cá fhad a thaispeánfar bolgán leide Kanagram."
+
+#. i18n: ectx: label, entry (useSounds), group (kanagram)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_useSounds)
+#. +> trunk6 stable6
+#: kanagram.kcfg:46 mainsettingswidget.ui:301
+#, kde-format
+msgid "Turns sounds on/off."
+msgstr "Cuir fuaimeanna ann/as."
+
+#. i18n: ectx: label, entry (uppercaseOnly), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:50
+#, kde-format
+msgid "Use uppercase."
+msgstr ""
+
+#. i18n: ectx: label, entry (enablePronunciation), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:54
+#, fuzzy, kde-format
+#| msgid "Turns sounds on/off."
+msgid "Turns pronunciations on/off."
+msgstr "Cuir fuaimeanna ann/as."
+
+#. i18n: ectx: label, entry (dataLanguage), group (kanagram)
+#. +> trunk6 stable6
+#: kanagram.kcfg:58
+#, kde-format
+msgid "Set the default translation"
+msgstr "Socraigh an t-aistriúchán réamhshocraithe"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, MainSettingsWidget)
+#. +> trunk6 stable6
+#: kanagramconfigdialog.cpp:37 mainsettingswidget.ui:14
+#, kde-format
+msgctxt "@title:group main settings page name"
+msgid "General"
+msgstr "Ginearálta"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, VocabSettingsWidget)
+#. +> trunk6 stable6
+#: kanagramconfigdialog.cpp:42 vocabsettingswidget.ui:20
+#, kde-format
+msgid "Vocabularies"
+msgstr "Stóir Fhocal"
+
+#. +> trunk6 stable6
+#: kanagramgame.cpp:245
+#, kde-format
+msgid "No hint"
+msgstr "Gan leid"
+
+#. +> trunk6 stable6
+#: kanagramgame.cpp:359 mainsettings.cpp:90
+#, kde-format
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6
+#: main.cpp:46
+#, kde-format
+msgid "Kanagram"
+msgstr "Kanagram"
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgid "An anagram game"
+msgstr "Cluiche anagram"
+
+#. +> trunk6 stable6
+#: main.cpp:50
+#, fuzzy, kde-format
+#| msgid ""
+#| "© 2005 Joshua Keel\n"
+#| "© 2005 Danny Allen\n"
+#| "© 2007 Jeremy Whiting"
+msgid ""
+"© 2005 Joshua Keel\n"
+"© 2005 Danny Allen\n"
+"© 2007 Jeremy Whiting\n"
+"© 2014 Debjit Mondal"
+msgstr ""
+"© 2005 Joshua Keel\n"
+"© 2005 Danny Allen\n"
+"© 2007 Jeremy Whiting"
+
+#. +> trunk6 stable6
+#: main.cpp:53
+#, kde-format
+msgid "Joshua Keel"
+msgstr "Joshua Keel"
+
+#. +> trunk6 stable6
+#: main.cpp:53
+#, kde-format
+msgid "Coding"
+msgstr "Ríomhchlárú"
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Danny Allen"
+msgstr "Danny Allen"
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Design, Graphics and many Vocabularies"
+msgstr "Dearadh, Grafaic agus go leor Stór Focal"
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, kde-format
+msgid "Jeremy Whiting"
+msgstr "Jeremy Whiting"
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, kde-format
+msgid "Maintainer"
+msgstr "Cothaitheoir"
+
+#. +> trunk6 stable6
+#: main.cpp:56
+#, kde-format
+msgid "Debjit Mondal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:56
+#, kde-format
+msgid "Coding & Design"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, kde-format
+msgid "Laszlo Papp"
+msgstr "Laszlo Papp"
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, kde-format
+msgid "Modularization and porting to Mobile"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:58
+#, kde-format
+msgid "Artemiy Pavlov"
+msgstr "Artemiy Pavlov"
+
+#. +> trunk6 stable6
+#: main.cpp:58
+#, kde-format
+msgid "Sound effects"
+msgstr "Maisíochtaí fuaime"
+
+#. +> trunk6 stable6
+#: main.cpp:59
+#, kde-format
+msgid "Pino Toscano"
+msgstr "Pino Toscano"
+
+#. +> trunk6 stable6
+#: main.cpp:59
+#, kde-format
+msgid "Italian Data Files"
+msgstr "Sonraí na hIodáilise"
+
+#. +> trunk6 stable6
+#: main.cpp:60
+#, kde-format
+msgid "Kris Thomsen"
+msgstr "Kris Thomsen"
+
+#. +> trunk6 stable6
+#: main.cpp:60
+#, kde-format
+msgid "Danish Data Files"
+msgstr "Sonraí na Danmhairgise"
+
+#. +> trunk6 stable6
+#: main.cpp:61
+#, kde-format
+msgid "Patrick Spendrin"
+msgstr "Patrick Spendrin"
+
+#. +> trunk6 stable6
+#: main.cpp:61
+#, kde-format
+msgid "German Data Files"
+msgstr "Sonraí na Gearmáinise"
+
+#. +> trunk6 stable6
+#: main.cpp:62
+#, kde-format
+msgid "Eric Krüse"
+msgstr "Eric Krüse"
+
+#. +> trunk6 stable6
+#: main.cpp:62
+#, kde-format
+msgid "British English Data Files"
+msgstr "Sonraí Bhéarla na Breataine"
+
+#. +> trunk6 stable6
+#: main.cpp:63
+#, kde-format
+msgid "Hanna Scott"
+msgstr "Hanna Scott"
+
+#. +> trunk6 stable6
+#: main.cpp:63
+#, kde-format
+msgid "Swedish Data Files"
+msgstr "Sonraí na Sualainnise"
+
+#. +> trunk6 stable6
+#: main.cpp:64
+#, kde-format
+msgid "Jure Repinc"
+msgstr "Jure Repinc"
+
+#. +> trunk6 stable6
+#: main.cpp:64
+#, kde-format
+msgid "Slovenian Data Files"
+msgstr "Sonraí na Slóivéinise"
+
+#. +> trunk6 stable6
+#: main.cpp:65
+#, kde-format
+msgid "Yuri Chornoivan"
+msgstr "Yuri Chornoivan"
+
+#. +> trunk6 stable6
+#: main.cpp:65
+#, fuzzy, kde-format
+#| msgid "Ukranian Data Files"
+msgid "Ukrainian Data Files"
+msgstr "Sonraí na hÚcráinise"
+
+#. +> trunk6 stable6
+#: main.cpp:66
+#, kde-format
+msgid "Kristóf Kiszel"
+msgstr "Kristóf Kiszel"
+
+#. +> trunk6 stable6
+#: main.cpp:66
+#, kde-format
+msgid "Hungarian Data Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:67
+#, kde-format
+msgid "Souvik Das"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:67
+#, kde-format
+msgid "2-player mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:68
+#, kde-format
+msgid "Sayan Biswas"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:68
+#, kde-format
+msgid "Letters turned to clickable buttons"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:69
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#: main.cpp:69
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, MainSettingsWidget)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:17
+#, fuzzy, kde-format
+#| msgid "This setting allows you to set how long Kanagram's hint bubble is shown."
+msgid "This setting allows you to set the length of time Kanagram's hint bubble is shown."
+msgstr "Leis an rogha seo is féidir a shocrú cá fhad a thaispeánfar bolgán leide Kanagram."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:23
+#, fuzzy, kde-format
+#| msgid "Hints"
+msgid "Hints"
+msgstr "Leideanna"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:29
+#, kde-format
+msgid "Auto-hide hints after:"
+msgstr "Uathfholaigh leideanna tar éis:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:37
+#, kde-format
+msgid "Do Not Auto-Hide Hints"
+msgstr "Ná hUathfholaigh Leideanna"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:42
+#, kde-format
+msgid "3 Seconds"
+msgstr "3 Shoicind"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:47
+#, kde-format
+msgid "5 Seconds"
+msgstr "5 Shoicind"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:52
+#, kde-format
+msgid "7 Seconds"
+msgstr "7 Soicind"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_hintHideTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:57
+#, kde-format
+msgid "9 Seconds"
+msgstr "9 Soicind"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabelResolveTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:65
+#, kde-format
+msgid "Time for resolving the anagram:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_resolveTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:73
+#, kde-format
+msgid "No time limit"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_resolveTime)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_scoreTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:78 mainsettingswidget.ui:144
+#, fuzzy, kde-format
+#| msgid "5 Seconds"
+msgid "15 Seconds"
+msgstr "5 Shoicind"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_resolveTime)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_scoreTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:83 mainsettingswidget.ui:149
+#, kde-format
+msgid "30 Seconds"
+msgstr "30 Soicind"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_resolveTime)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_scoreTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:88 mainsettingswidget.ui:154
+#, fuzzy, kde-format
+#| msgid "5 Seconds"
+msgid "45 Seconds"
+msgstr "5 Shoicind"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_resolveTime)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_scoreTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:93 mainsettingswidget.ui:159
+#, kde-format
+msgid "60 Seconds"
+msgstr "60 Soicind"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:104
+#, kde-format
+msgid "Vocabulary Options"
+msgstr "Roghanna Stóir Fhocal"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:112
+#, kde-format
+msgid "Play using:"
+msgstr "Seinn le:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox4)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:130
+#, fuzzy, kde-format
+#| msgid "Description"
+msgid "Scoring Options"
+msgstr "Cur Síos"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabelScoreTime)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:136
+#, kde-format
+msgid "Set timer for scoring purpose:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, scoringPointCheckbox)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:167
+#, fuzzy, kde-format
+#| msgid "Description"
+msgid "Score Point Settings"
+msgstr "Cur Síos"
+
+#. i18n: ectx: property (text), widget (QLabel, textCorrectAnswer)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:174
+#, kde-format
+msgid "Assign score for correct answer : "
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_correctAnswerScore)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:182
+#, kde-format
+msgid "+5 points"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_correctAnswerScore)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:187
+#, kde-format
+msgid "+10 points"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_correctAnswerScore)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:192
+#, kde-format
+msgid "+15 points"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_correctAnswerScore)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:197
+#, kde-format
+msgid "+20 points"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textIncorrectAnswer)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:205
+#, kde-format
+msgid "Assign score for incorrect answer : "
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_incorrectAnswerScore)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:213
+#, kde-format
+msgid "-1 point"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_incorrectAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_revealAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_skippedWordScore)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:218 mainsettingswidget.ui:244
+#: mainsettingswidget.ui:275
+#, kde-format
+msgid "-2 points"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_incorrectAnswerScore)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:223
+#, kde-format
+msgid "-3 points"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_incorrectAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_revealAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_skippedWordScore)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:228 mainsettingswidget.ui:249
+#: mainsettingswidget.ui:280
+#, kde-format
+msgid "-4 points"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textRevealAnswer)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:236
+#, kde-format
+msgid "Assign score for reveal answer : "
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_revealAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_skippedWordScore)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:254 mainsettingswidget.ui:285
+#, kde-format
+msgid "-6 points"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_revealAnswerScore)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_skippedWordScore)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:259 mainsettingswidget.ui:290
+#, kde-format
+msgid "-8 points"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textSkippedWord)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:267
+#, kde-format
+msgid "Assign score for skipped word : "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useSounds)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:304
+#, kde-format
+msgid "Use sou&nds"
+msgstr "Le &fuaim"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_uppercaseOnly)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:311
+#, kde-format
+msgid "Use only uppercase letters."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_uppercaseOnly)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:314
+#, kde-format
+msgid "Only uppercase letters"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_enablePronunciation)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:321
+#, fuzzy, kde-format
+#| msgid "Turns sounds on/off."
+msgid "Turn pronunciations on or off."
+msgstr "Cuir fuaimeanna ann/as."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_enablePronunciation)
+#. +> trunk6 stable6
+#: mainsettingswidget.ui:324
+#, kde-format
+msgid "Say correct words"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:91
+#, kde-format
+msgid "Next Vocabulary"
+msgstr "An Chéad Stór Focal Eile"
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:130
+#, kde-format
+msgid "Previous Vocabulary"
+msgstr "An Stór Focal Roimhe Seo"
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:181
+#, kde-format
+msgid "Start Timer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:204
+#, fuzzy, kde-format
+#| msgid "Show Hint"
+msgid "Show Hint"
+msgstr "Taispeáin Leid"
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:246
+#, fuzzy, kde-format
+#| msgid "reveal word"
+msgid "Reveal Word"
+msgstr "nocht an focal"
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:279
+#, kde-format
+msgid " "
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:396
+#, fuzzy, kde-format
+#| msgid "Show Hint"
+msgid "Show Wiki Content"
+msgstr "Taispeáin Leid"
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:422
+#, kde-format
+msgid "Score : "
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:525
+#, kde-format
+msgid " Player 1 : "
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:525
+#, kde-format
+msgid ""
+"\n"
+" Player 2 : "
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:525
+#, kde-format
+msgid ""
+"\n"
+" Close dialog for new game "
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:535
+#, kde-format
+msgid ""
+" Time Up. \n"
+" Player 2's Turn"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/Blackboard.qml:562
+#, fuzzy, kde-format
+#| msgid "&Close"
+msgid "Close"
+msgstr "&Dún"
+
+#. +> trunk6 stable6
+#: ui/main.qml:217
+#, kde-format
+msgid "Quit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:230
+#, kde-format
+msgid "Change mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:314
+#, kde-format
+msgid "Next Anagram"
+msgstr "An Chéad Anagram Eile"
+
+#. +> trunk6 stable6
+#: ui/main.qml:363
+#, kde-format
+msgid "1st Player"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:363
+#, kde-format
+msgid "2nd Player"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:441
+#, fuzzy, kde-format
+#| msgid "Configure Kanagram"
+msgid "Configure"
+msgstr "Cumraigh Kanagram"
+
+#. +> trunk6 stable6
+#: ui/main.qml:530
+#, fuzzy, kde-format
+#| msgid "About KDE"
+msgid "About"
+msgstr "Maidir le KDE"
+
+#. +> trunk6 stable6
+#: ui/main.qml:585
+#, kde-format
+msgid "  "
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:613
+#, kde-format
+msgid "Kanagram Handbook"
+msgstr "Lámhleabhar Kanagram"
+
+#. +> trunk6 stable6
+#: ui/main.qml:635
+#, kde-format
+msgid "About Kanagram"
+msgstr "Maidir le Kanagram"
+
+#. +> trunk6 stable6
+#: ui/main.qml:657
+#, kde-format
+msgid "About KDE"
+msgstr "Maidir le KDE"
+
+#. +> trunk6 stable6
+#: vocabedit.cpp:110
+#, kde-format
+msgid "Would you like to save your changes?"
+msgstr "An bhfuil fonn ort do chuid athruithe a shábháil?"
+
+#. +> trunk6 stable6
+#: vocabedit.cpp:111
+#, kde-format
+msgid "Save Changes Dialog"
+msgstr "Dialóg \"Sábháil Athruithe\""
+
+#. +> trunk6 stable6
+#: vocabedit.cpp:132
+#, kde-format
+msgid "New Item"
+msgstr "Mír Nua"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, VocabEditWidget)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:13
+#, kde-format
+msgid "Vocabulary Editor"
+msgstr "Eagarthóir Stór Focal"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnSave)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:74
+#, kde-format
+msgid "&Save"
+msgstr "&Sábháil"
+
+#. i18n: ectx: property (text), widget (QPushButton, btnClose)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:81
+#, kde-format
+msgid "&Close"
+msgstr "&Dún"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel2)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:127
+#, kde-format
+msgid "The description of the vocabulary. If you are creating a new vocabulary, add a description so that users of your vocabulary will know what kinds of words it contains."
+msgstr "Cur síos ar an stór focal. Má tá stór focal nua á chruthú agat, déan cur síos sa chaoi gur féidir le húsáideoirí eile déanamh amach cén cineál focal atá ann."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:130
+#, kde-format
+msgid "&Description:"
+msgstr "&Cur Síos:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:143
+#, kde-format
+msgid "The name of the vocabulary you are editing."
+msgstr "Ainm an stóir fhocal atá á chur in eagar agat."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:146
+#, kde-format
+msgid "Vocabulary &name:"
+msgstr "Ainm an &stóir fhocal:"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnRemoveWord)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:195
+#, kde-format
+msgid "Removes the selected word."
+msgstr "Bain an focal roghnaithe."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnRemoveWord)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:198
+#, kde-format
+msgid "&Remove Word"
+msgstr "&Bain Focal"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnNewWord)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:205
+#, kde-format
+msgid "Creates a new word."
+msgstr "Cruthaigh focal nua."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnNewWord)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:208
+#, kde-format
+msgid "&New Word"
+msgstr "Focal &Nua"
+
+#. i18n: ectx: property (whatsThis), widget (QListWidget, lboxWords)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:217
+#, kde-format
+msgid "The list of words in the vocabulary."
+msgstr "Liosta na bhfocal atá sa stór focal."
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel3)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:246
+#, kde-format
+msgid "The selected word. This box allows you to edit the selected word."
+msgstr "An focal roghnaithe. Ceadaíonn an bosca seo duit an focal roghnaithe a chur in eagar."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:249
+#, kde-format
+msgid "&Word:"
+msgstr "&Focal:"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, textLabel4)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:265
+#, kde-format
+msgid "The selected hint. Add a hint to aid in guessing the word."
+msgstr "An leid roghnaithe. Cuir leid leis, mar chabhair chun an focal a dhéanamh amach."
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#. +> trunk6 stable6
+#: vocabeditwidget.ui:268
+#, kde-format
+msgid "&Hint:"
+msgstr "&Leid:"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnCreateNew)
+#. +> trunk6 stable6
+#: vocabsettingswidget.ui:48
+#, kde-format
+msgid "Creates a new vocabulary."
+msgstr "Cruthaigh stór focal nua."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnCreateNew)
+#. +> trunk6 stable6
+#: vocabsettingswidget.ui:51
+#, kde-format
+msgid "Create &New"
+msgstr "Cruthaigh Stór Focal &Nua"
+
+#. i18n: ectx: property (toolTip), widget (KNSWidgets::Button, btnDownloadNew)
+#. +> trunk6 stable6
+#: vocabsettingswidget.ui:58
+#, fuzzy, kde-format
+#| msgid "Download new vocabulary from  \"Get hot new Stuff\""
+msgid "Download new vocabulary from \"Get hot new Stuff\""
+msgstr "Íosluchtaigh stór focal nua ó \"Faigh Stuif Nua\""
+
+#. i18n: ectx: property (text), widget (KNSWidgets::Button, btnDownloadNew)
+#. +> trunk6 stable6
+#: vocabsettingswidget.ui:61
+#, kde-format
+msgid "Download new vocabulary"
+msgstr "Íosluchtaigh stór focal nua"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, btnEdit)
+#. +> trunk6 stable6
+#: vocabsettingswidget.ui:73
+#, kde-format
+msgid "Edits the selected vocabulary."
+msgstr "Cuir an stór focal roghnaithe in eagar."
+
+#. i18n: ectx: property (text), widget (QPushButton, btnEdit)
+#. +> trunk6 stable6
+#: vocabsettingswidget.ui:76
+#, kde-format
+msgid "&Edit"
+msgstr "&Eagar"
+
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, lviewVocab)
+#. +> trunk6 stable6
+#: vocabsettingswidget.ui:83
+#, kde-format
+msgid "The list of installed vocabularies."
+msgstr "Liosta na stór focal suiteáilte."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, lviewVocab)
+#. +> trunk6 stable6
+#: vocabsettingswidget.ui:90
+#, kde-format
+msgid "Title"
+msgstr "Teideal"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, lviewVocab)
+#. +> trunk6 stable6
+#: vocabsettingswidget.ui:95
+#, kde-format
+msgid "Description"
+msgstr "Cur Síos"

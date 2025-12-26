@@ -1,0 +1,831 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the accessibility-inspector package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: accessibility-inspector\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-10 10:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. i18n: ectx: Menu (edit)
+#. +> trunk6 stable6
+#: accessibilityinspectorui.rc:11
+#, kde-format
+msgid "&Edit"
+msgstr ""
+
+#. i18n: ectx: Menu (view)
+#. +> trunk6 stable6
+#: accessibilityinspectorui.rc:15
+#, kde-format
+msgid "View"
+msgstr ""
+
+#. i18n: ectx: Menu (settings)
+#. +> trunk6 stable6
+#: accessibilityinspectorui.rc:20
+#, kde-format
+msgid "&Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: accessibletreeview.cpp:24
+#, kde-format
+msgid "Displays a hierachical tree of accessible objects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: accessibletreeview.cpp:57
+#, kde-format
+msgid "Expand Node"
+msgstr ""
+
+#. +> trunk6 stable6
+#: accessibletreeview.cpp:60
+#, kde-format
+msgid "Collapse Node"
+msgstr ""
+
+#. +> trunk6 stable6
+#: accessibletreeview.cpp:64
+#, kde-format
+msgid "Expand All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: accessibletreewidget.cpp:26
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Filter..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/main.cpp:25
+#, kde-format
+msgid "Accessibility Inspector"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/main.cpp:27
+#, kde-format
+msgid "Accessibility inspector"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/main.cpp:29
+#, kde-format
+msgid "© 2021-2023 Carl Schwan, 2021-2024 KDE Community"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/main.cpp:31
+#, kde-format
+msgid "Frederik Gladhorn"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/main.cpp:31
+#, kde-format
+msgid "Original author"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/main.cpp:33
+#, kde-format
+msgid "Laurent Montel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/main.cpp:33 apps/main.cpp:35
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: apps/main.cpp:34
+#, kde-format
+msgid "Carl Schwan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clientcachedialog.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Cache"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clientcachedialog.cpp:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Refresh"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clientcachedialog.cpp:47
+#, kde-format
+msgctxt "@action:button"
+msgid "Clear"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clientcachedialog.cpp:50
+#, kde-format
+msgctxt "@label"
+msgid "Strategy:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clientcachedialog.cpp:55
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Disable"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clientcachedialog.cpp:56
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Weak"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clientcachedialog.cpp:65
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Count:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clientcachedialog.cpp:101
+#, kde-format
+msgctxt "@title:row"
+msgid "Name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clientcachedialog.cpp:101
+#, kde-format
+msgctxt "@title:row"
+msgid "Role"
+msgstr ""
+
+#. +> trunk6 stable6
+#: clientcachedialog.cpp:101
+#, kde-format
+msgctxt "@title:row"
+msgid "Identifier"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:63
+#, kde-format
+msgctxt "@label"
+msgid "Accessible"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:65
+#, kde-format
+msgctxt "@label"
+msgid "Role"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:67
+#, kde-format
+msgctxt "@label"
+msgid "Event"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:69
+#, kde-format
+msgctxt "@label"
+msgid "Action"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:194
+#, kde-format
+msgid "Displays all received events"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:264
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Focus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:267
+#, kde-format
+msgctxt "Accessibility event name: state changed"
+msgid "State"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:270
+#, kde-format
+msgctxt "Accessibility event name: name changed"
+msgid "Name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:273
+#, kde-format
+msgctxt "Accessibility event name: description changed"
+msgid "Description"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:276
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:279
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:282
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Object"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:285
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:288
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Table"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:291
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "Others"
+msgstr ""
+
+#. +> trunk6 stable6
+#: eventview.cpp:294
+#, kde-format
+msgctxt "Accessibility event name"
+msgid "No Event"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, EventViewWidget)
+#. +> trunk6 stable6
+#: eventview.ui:18
+#, kde-format
+msgid "Form"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, accessibleFilterEdit)
+#. +> trunk6 stable6
+#: eventview.ui:32
+#, kde-format
+msgid "Accessible Filter"
+msgstr ""
+
+#. i18n: ectx: property (accessibleName), widget (QLineEdit, roleFilterEdit)
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, roleFilterEdit)
+#. +> trunk6 stable6
+#: eventview.ui:39 eventview.ui:45
+#, kde-format
+msgid "Role Filter"
+msgstr ""
+
+#. i18n: ectx: property (accessibleName), widget (QComboBox, filterComboBox)
+#. +> trunk6 stable6
+#: eventview.ui:52
+#, kde-format
+msgid "Event Filter"
+msgstr ""
+
+#. i18n: ectx: property (accessibleName), widget (QPushButton, clearButton)
+#. +> trunk6 stable6
+#: eventview.ui:65
+#, kde-format
+msgid "Clear Events"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, clearButton)
+#. +> trunk6 stable6
+#: eventview.ui:68
+#, kde-format
+msgid "&Clear"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:51
+#, kde-format
+msgctxt "@title:window"
+msgid "Events"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:52
+#, kde-format
+msgctxt "@title:window"
+msgid "Boundaries"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:147 mainwidget.cpp:149
+#, kde-format
+msgid "true"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:147 mainwidget.cpp:149
+#, kde-format
+msgid "false"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:158
+#, kde-format
+msgid "Child Added %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:164
+#, kde-format
+msgid "Child Removed %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:170
+#, kde-format
+msgid "Visible Data Changed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:176
+#, kde-format
+msgid "Selection Changed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:182
+#, kde-format
+msgid "Model Changed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:197
+#, kde-format
+msgid "Add Object"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:203
+#, kde-format
+msgid "Remove Object"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:214
+#, kde-format
+msgid "Create"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:220
+#, kde-format
+msgid "Destroy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwidget.cpp:321
+#, kde-format
+msgid "Text caret moved (%1)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:73
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reset Tree"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:79
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Follow Focus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:86
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Cache..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:91
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable Accessibility"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:101
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Enable Screen Reader"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:112 propertytreeview.cpp:34
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy property value"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessibleobjecttreemodel.cpp:33
+#: model/accessiblepropertiesmodel.cpp:91
+#, kde-format
+msgid "Accessible"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessibleobjecttreemodel.cpp:35
+#: model/accessiblepropertiesmodel.cpp:95
+#, kde-format
+msgid "Role"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:53
+#, kde-format
+msgid "Property"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:55
+#: model/accessiblepropertiesmodel.cpp:267
+#, kde-format
+msgid "Value"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:93
+#, kde-format
+msgid "Name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:94
+#: model/accessiblepropertiesmodel.cpp:197
+#, kde-format
+msgid "Description"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:96
+#, kde-format
+msgid "LocalizedRole"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:97
+#, kde-format
+msgid "Visible"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:98
+#, kde-format
+msgid "Default"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:99
+#, kde-format
+msgid "State"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:100
+#, kde-format
+msgid "AccessibleId"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:101
+#, kde-format
+msgid "Url"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:104
+#, kde-format
+msgid "Parent"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:106
+#, kde-format
+msgid "Children"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:110
+#, kde-format
+msgid "Broken child"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:118
+#, kde-format
+msgid "Component"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:120
+#, kde-format
+msgid "BoundingRect"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:121
+#, kde-format
+msgid "Layer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:122
+#, kde-format
+msgid "MDIZOrder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:123
+#, kde-format
+msgid "Alpha"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:126
+#, kde-format
+msgid "Collection"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:131
+#, kde-format
+msgid "Application"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:133
+#, kde-format
+msgid "ToolkitName"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:134
+#, kde-format
+msgid "Version"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:135
+#, kde-format
+msgid "Id"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:136
+#: model/accessiblepropertiesmodel.cpp:198
+#, kde-format
+msgid "Locale"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:137
+#, kde-format
+msgid "BusAddress"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:140
+#, kde-format
+msgid "Document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:149
+#, kde-format
+msgid "Editable Text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:154
+#, kde-format
+msgid "Hyperlink"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:176
+#, kde-format
+msgid "Hypertext"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:195
+#, kde-format
+msgid "Image"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:199
+#, kde-format
+msgid "Rect"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:202
+#, kde-format
+msgid "Selection"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:209
+#, kde-format
+msgid "Table"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:242
+#: model/accessiblepropertiesmodel.cpp:251
+#: model/accessiblepropertiesmodel.cpp:253
+#, kde-format
+msgid "Text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:245
+#, kde-format
+msgid "Caret Offset"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:246
+#, kde-format
+msgid "Character Count"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:247
+#, kde-format
+msgid "Character Rect"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:257
+#, kde-format
+msgid "Selections"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:269
+#, kde-format
+msgid "Current"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:270
+#, kde-format
+msgid "Minimum"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:271
+#, kde-format
+msgid "Maximum"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:272
+#, kde-format
+msgid "Increment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:275
+#, kde-format
+msgid "Socket"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:281
+#, kde-format
+msgid "Event Keyboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:286
+#, kde-format
+msgid "Event Mouse"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:291
+#, kde-format
+msgid "Event Object"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:296
+#, kde-format
+msgid "Event Window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:301
+#, kde-format
+msgid "Event Focus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: model/accessiblepropertiesmodel.cpp:308
+#: model/accessiblepropertiesmodel.cpp:336
+#, kde-format
+msgid "Action"
+msgstr ""
+
+#. +> trunk6 stable6
+#: propertytreeview.cpp:14
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "List of properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: propertytreeview.cpp:15
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Displays properties of the selected accessible object"
+msgstr ""
+
+#. +> trunk6 stable6
+#: uiview.cpp:19
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Boundaries"
+msgstr ""
+
+#. +> trunk6 stable6
+#: uiview.cpp:20
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Visualize the component boundaries"
+msgstr ""

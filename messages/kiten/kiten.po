@@ -1,0 +1,1187 @@
+# Irish translation of kiten
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kiten package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+# SPDX-FileCopyrightText: 2025 Charlotte <altronic25@protonmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeedu/kiten.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2025-12-24 01:30+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, configDictSelect)
+#. +> trunk6 stable6
+#: app/configdictselect.ui:14
+#, kde-format
+msgid "Dictionary Selector"
+msgstr "Roghnóir Foclóra"
+
+#. i18n: ectx: property (text), widget (QCheckBox, __useGlobal)
+#. +> trunk6 stable6
+#: app/configdictselect.ui:25
+#, kde-format
+msgid "Use prei&nstalled dict"
+msgstr "Úsáid foclóir réa&mhshuiteáilte"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, fileList)
+#. +> trunk6 stable6
+#: app/configdictselect.ui:56
+#, kde-format
+msgid "Name"
+msgstr "Ainm"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, fileList)
+#. +> trunk6 stable6
+#: app/configdictselect.ui:67
+#, kde-format
+msgid "File"
+msgstr "Comhad"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#. +> trunk6 stable6
+#: app/configdictselect.ui:86
+#, kde-format
+msgid "&Add..."
+msgstr "&Cuir Leis..."
+
+#. i18n: ectx: property (text), widget (QPushButton, delButton)
+#. +> trunk6 stable6
+#: app/configdictselect.ui:93
+#, kde-format
+msgid "Delete"
+msgstr "Scrios"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigFont)
+#. +> trunk6 stable6
+#: app/configfont.ui:13
+#, kde-format
+msgid "Fonts"
+msgstr "Clónna"
+
+#. i18n: ectx: property (text), widget (QLabel, Listview_mainentry_label)
+#. +> trunk6 stable6
+#: app/configfont.ui:21
+#, kde-format
+msgid "Main Font"
+msgstr "Príomhchló"
+
+#. i18n: ectx: property (sampleText), widget (KFontRequester, kcfg_font)
+#. +> trunk6 stable6
+#: app/configfont.ui:28
+#, kde-format
+msgid "漢字 かな romaji"
+msgstr "漢字 かな romaji"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ConfigSearching)
+#. +> trunk6 stable6
+#: app/configsearching.ui:13 app/configuredialog.cpp:44
+#, kde-format
+msgid "Searching"
+msgstr "Ag cuardach"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_initialSearch)
+#. +> trunk6 stable6
+#: app/configsearching.ui:27
+#, kde-format
+msgid "Search for \"jiten\" on startup"
+msgstr "Déan cuardach ar \"jiten\" ag am tosaithe"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, configSorting)
+#. +> trunk6 stable6
+#: app/configsorting.ui:15
+#, kde-format
+msgid "sorting"
+msgstr "á sórtáil"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_dictionary_enable)
+#. +> trunk6 stable6
+#: app/configsorting.ui:21
+#, kde-format
+msgid "Sort Se&arch Results By Dictionary"
+msgstr "Sórtáil Torthaí &an Chuardaigh De Réir Foclóra"
+
+#. i18n: ectx: property (availableLabel), widget (KActionSelector, dictionary_order)
+#. +> trunk6 stable6
+#: app/configsorting.ui:28
+#, kde-format
+msgid "Dicti&onaries Available:"
+msgstr "F&oclóirí Ar Fáil:"
+
+#. i18n: ectx: property (selectedLabel), widget (KActionSelector, dictionary_order)
+#. +> trunk6 stable6
+#: app/configsorting.ui:31
+#, kde-format
+msgid "Displa&y First:"
+msgstr "&Taispeáin Ar dTús:"
+
+#. i18n: ectx: property (availableLabel), widget (KActionSelector, field_order)
+#. +> trunk6 stable6
+#: app/configsorting.ui:48
+#, kde-format
+msgid "Fields to Sort &By:"
+msgstr "Réimsí a Sórtálfar &Leo:"
+
+#. +> trunk6 stable6
+#: app/configuredialog.cpp:38
+#, kde-format
+msgid "Dictionaries"
+msgstr "Foclóirí"
+
+#. +> trunk6 stable6
+#: app/configuredialog.cpp:49
+#, kde-format
+msgid "Font"
+msgstr "Cló"
+
+#. +> trunk6 stable6
+#: app/configuredialog.cpp:52
+#, kde-format
+msgctxt "@title:group the settings for the dictionary display"
+msgid "Display"
+msgstr "Taispeáint"
+
+#. +> trunk6 stable6
+#: app/configuredialog.cpp:54
+#, kde-format
+msgid "Results Sorting"
+msgstr "Sórtáil na dTorthaí"
+
+#. +> trunk6 stable6
+#: app/dictionaryupdatemanager.cpp:46
+#, kde-format
+msgid "Check for dictionary &updates"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/dictionaryupdatemanager.cpp:78
+#, kde-format
+msgid ""
+"Update canceled.\n"
+"Could not read file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/dictionaryupdatemanager.cpp:87
+#, kde-format
+msgid ""
+"Update canceled.\n"
+"Could not open file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/dictionaryupdatemanager.cpp:103
+#, kde-format
+msgid ""
+"Update canceled.\n"
+"The update information file has an invalid date."
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/dictionaryupdatemanager.cpp:287
+#, kde-format
+msgid "You already have the latest updates."
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/dictionaryupdatemanager.cpp:289
+#, kde-format
+msgid "Successfully updated your dictionaries."
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/dictionaryupdatemanager.cpp:291
+#, kde-format
+msgid ""
+"Successfully updated:\n"
+"%1\n"
+"\n"
+"Failed to update:\n"
+"%2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/dictionaryupdatemanager.cpp:293
+#, kde-format
+msgid ""
+"Failed to update:\n"
+"%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:133 radselect/main.cpp:24
+#, kde-format
+msgid "Radical Selector"
+msgstr "Roghnóir Fréimhe"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KanjiBrowserView)
+#. +> trunk6 stable6
+#: app/kiten.cpp:138 kanjibrowser/kanjibrowserview.ui:26
+#: kanjibrowser/main.cpp:21
+#, kde-format
+msgid "Kanji Browser"
+msgstr ""
+
+#. i18n: ectx: Menu (search)
+#. +> trunk6 stable6
+#: app/kiten.cpp:146 app/kitenui.rc:15
+#, kde-format
+msgid "S&earch"
+msgstr "C&uardaigh"
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:164
+#, kde-format
+msgid "&Automatically Search Clipboard Selections"
+msgstr "Cu&ardaigh Roghnúcháin sa Ghearrthaisce go hUathoibríoch"
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:167
+#, kde-format
+msgid "Search &in Results"
+msgstr "Cuardaigh &sna Torthaí"
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:173
+#, kde-format
+msgid "Focus result view"
+msgstr "Cuir an fócas in amharc na dtorthaí"
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:178
+#, kde-format
+msgid "Go to the previous search query."
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:180
+#, kde-format
+msgid "Go to the next search query."
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:187
+#, kde-format
+msgid "Export List"
+msgstr "Liosta Easpórtála"
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:217
+#, kde-format
+msgid "Initializing Dictionaries"
+msgstr "Foclóirí á dTúsú"
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:230
+#, kde-format
+msgid "Welcome to Kiten"
+msgstr "Fáilte go Kiten"
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:326 app/kiten.cpp:383
+#, kde-format
+msgid "Searching..."
+msgstr "Ag cuardach..."
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:402
+#, kde-format
+msgid "Found 1 result"
+msgid_plural "Found %1 results"
+msgstr[0] "Aimsíodh 1 toradh"
+msgstr[1] "Aimsíodh %1 thoradh"
+msgstr[2] "Aimsíodh %1 thoradh"
+msgstr[3] "Aimsíodh %1 dtoradh"
+msgstr[4] "Aimsíodh %1 toradh"
+
+#. +> trunk6 stable6
+#: app/kiten.cpp:404
+#, kde-format
+msgid "No results found"
+msgstr "Gan toradh"
+
+#. i18n: ectx: label, entry (dictionary_list), group (dict_config_types)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:10
+#, kde-format
+msgid "List of dictionary Types, used internally, do not touch"
+msgstr "Liosta de chineálacha foclóra a úsáidtear go hinmheánach, ná bac leis"
+
+#. i18n: ectx: label, entry (edict__NAMES), group (dicts_edict)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:25
+#, kde-format
+msgid "Edict dictionary files"
+msgstr "Comhaid fhoclóra Edict"
+
+#. i18n: ectx: label, entry (edict__useGlobal), group (dicts_edict)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:28
+#, kde-format
+msgid "Use preinstalled edict"
+msgstr "Úsáid edict réamhshuiteáilte"
+
+#. i18n: ectx: label, entry (edict__displayFields), group (dicts_edict)
+#. i18n: ectx: label, entry (kanjidic__displayFields), group (dicts_kanjidic)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:32 app/kiten.kcfg:46
+#, kde-format
+msgid "Set of fields to display for this dictionary type"
+msgstr "Na réimsí le taispeáint le haghaidh an chineáil fhoclóra seo"
+
+#. i18n: ectx: label, entry (kanjidic__NAMES), group (dicts_kanjidic)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:39
+#, kde-format
+msgid "Kanjidic dictionary files"
+msgstr "Comhaid fhoclóra Kanjidic"
+
+#. i18n: ectx: label, entry (kanjidic__useGlobal), group (dicts_kanjidic)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:42
+#, kde-format
+msgid "Use preinstalled kanjidic"
+msgstr "Úsáid kanjidic réamhshuiteáilte"
+
+#. i18n: ectx: label, entry, group (Searching Options)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:53
+#, kde-format
+msgid "Do we search for \"jiten\" on startup"
+msgstr "An bhfuil fonn ort \"jiten\" a lorg ag am tosaithe"
+
+#. i18n: ectx: label, entry, group (Searching Options)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:57
+#, kde-format
+msgid "Case sensitive searches"
+msgstr "Cuardaigh cásíogair"
+
+#. i18n: ectx: label, entry, group (Sorting)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:63
+#, kde-format
+msgid "Enable Sorting By Dictionary"
+msgstr "Cumasaigh Sórtáil de réir Foclóra"
+
+#. i18n: ectx: label, entry, group (Sorting)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:67
+#, kde-format
+msgid "What order do we sort the dictionaries in?"
+msgstr "An t-ord a úsáidfear chun na foclóirí a shórtáil"
+
+#. i18n: ectx: label, entry, group (Sorting)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:71
+#, kde-format
+msgid "What order do we sort the fields in?"
+msgstr "An t-ord a úsáidfear chun na réimsí a shórtáil"
+
+#. i18n: ectx: label, entry, group (app)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:89
+#, kde-format
+msgid "0=No filter, 1=Limit search results to \"common\" entries only, 2=Separate common and uncommon entries"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (app)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:93
+#, kde-format
+msgid "The user's last type of search, 0=Exact, 1=Match Start, 2=Match End, 3=Match Anywhere"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (app)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:97
+#, kde-format
+msgid "The user's last type of search, 0=Any, 1=Verb, 2=Noun, 3=Adjective, 4=Adverb, 5=Prefix, 6=Suffix, 7=Expression"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (app)
+#. +> trunk6 stable6
+#: app/kiten.kcfg:101
+#, kde-format
+msgid "Automatically search for clipboard entries?"
+msgstr "Cuardaigh ar iontrálacha sa ghearrthaisce go huathoibríoch?"
+
+#. i18n: ectx: Menu (file)
+#. +> trunk6 stable6
+#: app/kitenui.rc:6 kanjibrowser/kanjibrowserui.rc:6
+#, kde-format
+msgid "&File"
+msgstr "&Comhad"
+
+# Search not a verb here of course
+#. i18n: ectx: ToolBar (mainToolbar)
+#. +> trunk6 stable6
+#: app/kitenui.rc:35 kanjibrowser/kanjibrowserui.rc:16
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Príomhbharra Uirlisí"
+
+# Search not a verb here of course
+#. i18n: ectx: ToolBar (extraToolbar)
+#. +> trunk6 stable6
+#: app/kitenui.rc:44
+#, kde-format
+msgid "Extra Toolbar"
+msgstr "Barra Uirlisí Breise"
+
+# Search not a verb here of course
+#. i18n: ectx: ToolBar (searchToolbar)
+#. +> trunk6 stable6
+#: app/kitenui.rc:48
+#, kde-format
+msgid "Search Toolbar"
+msgstr "Barra Uirlisí Cuardaigh"
+
+#. i18n: ectx: Menu (search_options)
+#. +> trunk6 stable6
+#: app/kitenui.rc:52
+#, fuzzy, kde-format
+#| msgid "Searching"
+msgid "Search Options"
+msgstr "Ag cuardach"
+
+#. +> trunk6 stable6
+#: app/main.cpp:32
+#, kde-format
+msgid "Kiten"
+msgstr "Kiten"
+
+#. +> trunk6 stable6
+#: app/main.cpp:34
+#, kde-format
+msgid "Japanese Reference Tool"
+msgstr "Uirlis Tagartha Seapáinise"
+
+#. +> trunk6 stable6
+#: app/main.cpp:36
+#, kde-format
+msgid ""
+"(c) 2001-2004, Jason Katz-Brown\n"
+"(c) 2006-2007, Eric Kjeldergaard\n"
+"(c) 2006-2008, Joseph Kerian\n"
+"(c) 2011, Daniel E. Moctezuma"
+msgstr ""
+"© 2001-2004, Jason Katz-Brown\n"
+"© 2006-2007, Eric Kjeldergaard\n"
+"© 2006-2008, Joseph Kerian\n"
+"© 2011, Daniel E. Moctezuma"
+
+#. +> trunk6 stable6
+#: app/main.cpp:43
+#, kde-format
+msgid "Jason Katz-Brown"
+msgstr "Jason Katz-Brown"
+
+#. +> trunk6 stable6
+#: app/main.cpp:43
+#, kde-format
+msgid "Original author"
+msgstr "An chéad údar"
+
+#. +> trunk6 stable6
+#: app/main.cpp:44
+#, kde-format
+msgid "Jim Breen"
+msgstr "Jim Breen"
+
+#. +> trunk6 stable6
+#: app/main.cpp:45
+#, kde-format
+msgid ""
+"Wrote xjdic, of which Kiten borrows code, and the xjdic index file generator.\n"
+"Also is main author of edict and kanjidic, which Kiten essentially require."
+msgstr ""
+"Scríobh sé xjdic, ríomhchlár a bhfaigheann Kiten cód uaidh, agus gineadóir comhaid innéacs xjdic.\n"
+"Príomhúdar de kanjidic agus edict é freisin, ríomhchláir a theastaíonn ó Kiten."
+
+#. +> trunk6 stable6
+#: app/main.cpp:48
+#, kde-format
+msgid "Neil Stevens"
+msgstr "Neil Stevens"
+
+#. +> trunk6 stable6
+#: app/main.cpp:48
+#, kde-format
+msgid "Code simplification, UI suggestions."
+msgstr "Simpliú an chóid, moltaí a bhaineann leis an gcomhéadan."
+
+#. +> trunk6 stable6
+#: app/main.cpp:49
+#, kde-format
+msgid "David Vignoni"
+msgstr "David Vignoni"
+
+#. +> trunk6 stable6
+#: app/main.cpp:49
+#, kde-format
+msgid "svg icon"
+msgstr "deilbhín svg"
+
+#. +> trunk6 stable6
+#: app/main.cpp:50
+#, kde-format
+msgid "Paul Temple"
+msgstr "Paul Temple"
+
+#. +> trunk6 stable6
+#: app/main.cpp:50
+#, kde-format
+msgid "Porting to KConfig XT, bug fixing"
+msgstr "Leagan KConfig XT, ceartúcháin"
+
+#. +> trunk6 stable6
+#: app/main.cpp:51 radselect/main.cpp:32
+#, kde-format
+msgid "Joseph Kerian"
+msgstr "Joseph Kerian"
+
+#. +> trunk6 stable6
+#: app/main.cpp:51 app/main.cpp:52
+#, kde-format
+msgid "KDE4 rewrite"
+msgstr "Athscríobh le haghaidh KDE4"
+
+#. +> trunk6 stable6
+#: app/main.cpp:52
+#, kde-format
+msgid "Eric Kjeldergaard"
+msgstr "Eric Kjeldergaard"
+
+#. +> trunk6 stable6
+#: app/main.cpp:53 kanjibrowser/main.cpp:29
+#, kde-format
+msgid "Daniel E. Moctezuma"
+msgstr "Daniel E. Moctezuma"
+
+#. +> trunk6 stable6
+#: app/main.cpp:54
+#, kde-format
+msgid ""
+"Deinflection system improvements, Dictionary updates for EDICT and KANJIDIC,\n"
+"GUI Improvements, Kanji Browser, Bug fixes, Code polishing and simplification"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:27
+#, kde-format
+msgid "Filter Type"
+msgstr "Cineál Scagaire"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:28
+#, kde-format
+msgid "No filter"
+msgstr "Gan scagaire"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:29
+#, kde-format
+msgid "Filter out rare"
+msgstr "Scag focail neamhchoitianta"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:30
+#, kde-format
+msgid "Common/Uncommon"
+msgstr "Coitianta/Neamhchoitianta"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:33
+#, kde-format
+msgid "Match Type"
+msgstr "Cineál Comhoiriúnaithe"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:34
+#, kde-format
+msgid "Exact Match"
+msgstr "Comhoiriúnú Beacht"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:35
+#, kde-format
+msgid "Match Beginning"
+msgstr "Ag an Tosach"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:36
+#, kde-format
+msgid "Match Ending"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:37
+#, kde-format
+msgid "Match Anywhere"
+msgstr "Áit Ar Bith"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:40
+#, kde-format
+msgid "Word Type"
+msgstr "Cineál Focail"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:41
+#, kde-format
+msgid "Any"
+msgstr "Ar Bith"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:42
+#, kde-format
+msgid "Verb"
+msgstr "Briathar"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:43
+#, kde-format
+msgid "Noun"
+msgstr "Ainmfhocal"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:44
+#, kde-format
+msgid "Adjective"
+msgstr "Aidiacht"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:45
+#, kde-format
+msgid "Adverb"
+msgstr "Dobhriathar"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:46
+#, kde-format
+msgid "Prefix"
+msgstr "Réimír"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:47
+#, kde-format
+msgid "Suffix"
+msgstr "Iarmhír"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:48
+#, kde-format
+msgid "Expression"
+msgstr "Slonn"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:57
+#, kde-format
+msgid "Focus input field"
+msgstr "Cuir an fócas sa réimse ionchurtha"
+
+#. +> trunk6 stable6
+#: app/searchstringinput.cpp:60
+#, kde-format
+msgid "Search Bar"
+msgstr "Barra Cuardaigh"
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:184
+#, kde-format
+msgid "%1 kanji found"
+msgid_plural "%1 kanji found"
+msgstr[0] "Aimsíodh %1 kanji"
+msgstr[1] "Aimsíodh %1 kanji"
+msgstr[2] "Aimsíodh %1 kanji"
+msgstr[3] "Aimsíodh %1 kanji"
+msgstr[4] "Aimsíodh %1 kanji"
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:197
+#, kde-format
+msgid "About %1"
+msgstr "Maidir le %1"
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:198
+#, fuzzy, kde-format
+#| msgid "&To Clipboard"
+msgid "Copy %1 to clipboard"
+msgstr "&Go dtí an ghearrthaisce"
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:211
+#, kde-format
+msgid "Could not load the necessary kanji information."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:221
+#, kde-format
+msgid "Kanji &List"
+msgstr "&Liosta Kanji"
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:224
+#, kde-format
+msgid "Kanji &Information"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:228
+#, fuzzy, kde-format
+#| msgid "S&earch"
+msgid "&Search…"
+msgstr "C&uardaigh"
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:233
+#, kde-format
+msgid "All Jouyou Kanji grades"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:237
+#, kde-format
+msgid "Grade %1 (Jinmeiyou)"
+msgstr "Grád %1 Jinmeiyou"
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:239
+#, kde-format
+msgid "Grade %1"
+msgstr "Grád %1"
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:242
+#, kde-format
+msgid "Not in Jouyou list"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:244
+#, kde-format
+msgid "No stroke limit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:246
+#, kde-format
+msgid "%1 stroke"
+msgid_plural "%1 strokes"
+msgstr[0] "%1 stríoc"
+msgstr[1] "%1 stríoc"
+msgstr[2] "%1 stríoc"
+msgstr[3] "%1 stríoc"
+msgstr[4] "%1 stríoc"
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:293
+#, kde-format
+msgid "Grade:"
+msgstr "Grád:"
+
+#. i18n: ectx: property (text), widget (QLabel, strokes_label_2)
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:295 radselect/radical_selector.ui:102
+#, kde-format
+msgid "Strokes:"
+msgstr "Stríoca:"
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:301
+#, kde-format
+msgid "Onyomi: "
+msgstr "Onyomi: "
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:309
+#, kde-format
+msgid "Kunyomi: "
+msgstr "Kunyomi: "
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:317 lib/DictKanjidic/entrykanjidic.cpp:148
+#, kde-format
+msgid "In names: "
+msgstr "In ainmneacha: "
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:325 lib/DictKanjidic/entrykanjidic.cpp:153
+#, kde-format
+msgid "As radical: "
+msgstr "Mar fhréamh: "
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:332
+#, kde-format
+msgid "Meaning: "
+msgstr "Brí: "
+
+#. +> trunk6 stable6
+#: kanjibrowser/kanjibrowserview.cpp:334
+#, kde-format
+msgid "Meanings: "
+msgstr "Bríonna: "
+
+#. +> trunk6 stable6
+#: kanjibrowser/main.cpp:23
+#, kde-format
+msgid "Kiten's Kanji Browser, a KDE Japanese Reference Tool"
+msgstr "Brabhsálaí Kanji Kiten, Uirlis Tagartha Seapáinise KDE"
+
+#. +> trunk6 stable6
+#: kanjibrowser/main.cpp:25
+#, kde-format
+msgid "(C) 2011 Daniel E. Moctezuma"
+msgstr "© 2011 Daniel E. Moctezuma"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, preferences)
+#. i18n: ectx: property (windowTitle), widget (QWidget, radselectprefdialog)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:14 radselect/radselectprefdialog.ui:15
+#, kde-format
+msgid "Preferences"
+msgstr "Sainroghanna"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:20
+#, kde-format
+msgid "Kanji List"
+msgstr "Liosta Kanji"
+
+#. i18n: ectx: property (toolTip), widget (QLabel, _kanjiListFontLabel)
+#. i18n: ectx: property (toolTip), widget (QLabel, resultListFontSize_label)
+#. i18n: ectx: property (toolTip), widget (KFontRequester, kcfg_resultListFont)
+#. i18n: ectx: property (toolTip), widget (QLabel, fontSize_label)
+#. i18n: ectx: property (toolTip), widget (KFontRequester, kcfg_font)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:34 radselect/radselectprefdialog.ui:46
+#: radselect/radselectprefdialog.ui:59 radselect/radselectprefdialog.ui:72
+#: radselect/radselectprefdialog.ui:85
+#, kde-format
+msgid "The font for the main kanji/kana entry in list view"
+msgstr "An cló le húsáid sa phríomhiontráil kanji/kana san amharc liosta"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, _kanjiListFontLabel)
+#. i18n: ectx: property (whatsThis), widget (QLabel, fontSize_label)
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_font)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:37 radselect/radselectprefdialog.ui:75
+#: radselect/radselectprefdialog.ui:88
+#, kde-format
+msgid "Use this to adjust the button font"
+msgstr "Leis seo is féidir cló an chnaipe a athrú"
+
+#. i18n: ectx: property (text), widget (QLabel, _kanjiListFontLabel)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:40
+#, kde-format
+msgid "Kanji font:"
+msgstr "Cló Kanji:"
+
+#. i18n: ectx: property (sampleText), widget (KFontRequester, kcfg_kanjiListFont)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:56
+#, kde-format
+msgid "漢字"
+msgstr "漢字"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:77
+#, kde-format
+msgid "Kanji Information"
+msgstr "Faisnéis Kanji"
+
+#. i18n: ectx: property (text), widget (QLabel, _kanjiSizeLabel)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:97
+#, kde-format
+msgid "Kanji size:"
+msgstr "Méid Kanji:"
+
+#. i18n: ectx: property (text), widget (QLabel, _kanaFontLabel)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:121
+#, kde-format
+msgid "Kana font:"
+msgstr "Cló Kana:"
+
+#. i18n: ectx: property (sampleText), widget (KFontRequester, kcfg_kanaFont)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:128
+#, kde-format
+msgid "かな"
+msgstr "かな"
+
+#. i18n: ectx: property (text), widget (QLabel, _labelFontLabel)
+#. +> trunk6 stable6
+#: kanjibrowser/preferences.ui:151
+#, fuzzy, kde-format
+#| msgid "Kana font:"
+msgid "Label font:"
+msgstr "Cló Kana:"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SearchDialog)
+#. +> trunk6 stable6
+#: kanjibrowser/searchdialog.ui:20
+#, fuzzy, kde-format
+#| msgid "S&earch"
+msgid "Search"
+msgstr "C&uardaigh"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: kanjibrowser/searchdialog.ui:26
+#, kde-format
+msgid "Enter a search query:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/DictEdict/deinflection.cpp:118
+#, kde-format
+msgid "verb"
+msgstr "briathar"
+
+#. +> trunk6 stable6
+#: lib/DictEdict/deinflection.cpp:120
+#, kde-format
+msgid "adjective"
+msgstr "aidiacht"
+
+#. +> trunk6 stable6
+#: lib/DictEdict/deinflection.cpp:146
+#, kde-format
+msgid "Verb deinflection information not found, so verb deinflection cannot be used."
+msgstr "Eolas faoi dhí-infhilleadh briathra gan aimsiú, agus mar sin ní féidir dí-infhilleadh a úsáid."
+
+#. +> trunk6 stable6
+#: lib/DictEdict/deinflection.cpp:154
+#, kde-format
+msgid "Verb deinflection information could not be loaded, so verb deinflection cannot be used."
+msgstr "Níorbh fhéidir eolas faoi dhí-infhilleadh briathra a luchtú, agus mar sin ní féidir dí-infhilleadh a úsáid."
+
+#. +> trunk6 stable6
+#: lib/DictEdict/dictfilefieldselector.cpp:28
+#, kde-format
+msgid "&Available Fields:"
+msgstr "Réimsí Atá &Ar Fáil:"
+
+#. +> trunk6 stable6
+#: lib/entry.cpp:154
+#, kde-format
+msgid "; "
+msgstr "; "
+
+#. +> trunk6 stable6
+#: lib/entrylist.cpp:105
+#, kde-format
+msgid "From Dictionary:"
+msgstr "Ó Fhoclóir:"
+
+#. +> trunk6 stable6
+#: lib/entrylist.cpp:122
+#, kde-format
+msgctxt "%1 is a word type (verb or adjective). %2 is a verb or adjective tense. Example: 'Entered verb in past tense'."
+msgid "Entered %1 in %2 form"
+msgstr ""
+
+#. +> trunk6 stable6
+#: lib/entrylist.cpp:143
+#, kde-format
+msgid "Common"
+msgstr "Coitianta"
+
+#. +> trunk6 stable6
+#: lib/entrylist.cpp:146
+#, kde-format
+msgid "Uncommon"
+msgstr "Neamhchoitianta"
+
+#. +> trunk6 stable6
+#: radselect/buttongrid.cpp:113
+#, kde-format
+msgid "No Radicals Selected"
+msgstr "Níl Aon Fhréamhacha Roghnaithe"
+
+#. +> trunk6 stable6
+#: radselect/buttongrid.cpp:149
+#, kde-format
+msgid "Selected Radicals: "
+msgstr "Fréamhacha Roghnaithe: "
+
+#. +> trunk6 stable6
+#: radselect/main.cpp:26
+#, kde-format
+msgid "A KDE Application"
+msgstr "Feidhmchlár KDE"
+
+#. +> trunk6 stable6
+#: radselect/main.cpp:28
+#, kde-format
+msgid "(C) 2005 Joseph Kerian"
+msgstr "© 2005 Joseph Kerian"
+
+#. +> trunk6 stable6
+#: radselect/main.cpp:33
+#, kde-format
+msgid "Electronic Dictionary Research and Development Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: radselect/main.cpp:34
+#, kde-format
+msgid "This program uses the KANJIDIC and RADKFILE dictionary files. These files are the property of the Electronic Dictionary Research and Development Group, and are used in conformance with the Group's licence."
+msgstr ""
+
+#. +> trunk6 stable6
+#: radselect/main.cpp:44
+#, kde-format
+msgid "Initial Search String from Kiten"
+msgstr "Bunteaghrán Cuardaigh ó Kiten"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, radical_selector)
+#. +> trunk6 stable6
+#: radselect/radical_selector.ui:22
+#, kde-format
+msgid "RadicalSelector"
+msgstr "Roghnóir Fréimhe"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: radselect/radical_selector.ui:40
+#, kde-format
+msgid "Results"
+msgstr "Torthaí"
+
+#. i18n: ectx: property (text), widget (QPushButton, copy_button)
+#. +> trunk6 stable6
+#: radselect/radical_selector.ui:82
+#, kde-format
+msgid "&To Clipboard"
+msgstr "&Go dtí an ghearrthaisce"
+
+#. i18n: ectx: property (text), widget (QLabel, strokes_label)
+#. +> trunk6 stable6
+#: radselect/radical_selector.ui:122
+#, kde-format
+msgid " - "
+msgstr " - "
+
+#. i18n: ectx: property (text), widget (QPushButton, clear_button)
+#. +> trunk6 stable6
+#: radselect/radical_selector.ui:164
+#, kde-format
+msgid "Clear"
+msgstr "Glan"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_sortByFrequency)
+#. i18n: ectx: label, entry, group (Options)
+#. +> trunk6 stable6
+#: radselect/radselectconfig.kcfg:20 radselect/radselectprefdialog.ui:31
+#, kde-format
+msgid "Display radicals in descending frequency order"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Options)
+#. +> trunk6 stable6
+#: radselect/radselectconfig.kcfg:24
+#, kde-format
+msgid "Do we close this program when searching?"
+msgstr "An bhfuil fonn ort an ríomhchlár a dhúnadh le linn cuardaigh?"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_closeOnSearch)
+#. +> trunk6 stable6
+#: radselect/radselectprefdialog.ui:24
+#, kde-format
+msgid "Close radselect when you press search"
+msgstr "Dún an roghnóir fréamhacha nuair a bhrúfaidh tú Cuardaigh"
+
+#. i18n: ectx: property (text), widget (QLabel, resultListFontSize_label)
+#. +> trunk6 stable6
+#: radselect/radselectprefdialog.ui:43
+#, fuzzy, kde-format
+#| msgid "Search &in Results"
+msgid "Search Results Font:"
+msgstr "Cuardaigh &sna Torthaí"
+
+#. i18n: ectx: property (whatsThis), widget (QLabel, resultListFontSize_label)
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_resultListFont)
+#. +> trunk6 stable6
+#: radselect/radselectprefdialog.ui:49 radselect/radselectprefdialog.ui:62
+#, fuzzy, kde-format
+#| msgid "Use this to adjust the button font"
+msgid "Use this to adjust the result list font"
+msgstr "Leis seo is féidir cló an chnaipe a athrú"
+
+#. i18n: ectx: property (sampleText), widget (KFontRequester, kcfg_resultListFont)
+#. i18n: ectx: property (sampleText), widget (KFontRequester, kcfg_font)
+#. +> trunk6 stable6
+#: radselect/radselectprefdialog.ui:56 radselect/radselectprefdialog.ui:82
+#, kde-format
+msgid "漢字 かな"
+msgstr "漢字 かな"
+
+#. i18n: ectx: property (text), widget (QLabel, fontSize_label)
+#. +> trunk6 stable6
+#: radselect/radselectprefdialog.ui:69
+#, kde-format
+msgid "Button Font:"
+msgstr "Cló an Chnaipe:"
+
+#. +> trunk6 stable6
+#: radselect/radselectview.cpp:38
+#, kde-format
+msgid "Kanji radical information does not seem to be installed (file kiten/radkfile), this file is required for this app to function."
+msgstr "Dealraíonn sé nach bhfuil eolas faoi fhréamhacha Kanji suiteáilte (i gcomhad kiten/radkfile). Tá gá leis an gcomhad seo chun an feidhmchlár a rith."
+
+#. +> trunk6 stable6
+#: radselect/radselectview.cpp:45
+#, fuzzy, kde-format
+#| msgid "Kanji radical information does not seem to be installed (file kiten/radkfile), this file is required for this app to function."
+msgid "Kanji dictionary does not seem to be installed (file kiten/kanjidic), stroke count information will be unavailable."
+msgstr "Dealraíonn sé nach bhfuil eolas faoi fhréamhacha Kanji suiteáilte (i gcomhad kiten/radkfile). Tá gá leis an gcomhad seo chun an feidhmchlár a rith."
+
+#. +> trunk6 stable6
+#: radselect/radselectview.cpp:61
+#, kde-format
+msgctxt "Minimum number of strokes for a kanji"
+msgid "Min"
+msgstr "Íos"
+
+#. +> trunk6 stable6
+#: radselect/radselectview.cpp:62
+#, kde-format
+msgctxt "Maximum number of strokes for a kanji"
+msgid "Max"
+msgstr "Uas"
+
+#. +> trunk6 stable6
+#: radselect/radselectview.cpp:106
+#, kde-format
+msgctxt "@item:inlist all matches should be found"
+msgid "(ALL)"
+msgstr "(UILE)"

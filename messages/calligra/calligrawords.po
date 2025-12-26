@@ -1,0 +1,2197 @@
+# Irish translation of kword
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kword package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: koffice/kword.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:24+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. i18n: ectx: Menu (file)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:4 part/calligrawords_readonly.rc:4
+#, kde-format
+msgid "&File"
+msgstr "&Comhad"
+
+#. i18n: ectx: Menu (edit)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:11 part/calligrawords_readonly.rc:7
+#, kde-format
+msgid "&Edit"
+msgstr "&Eagar"
+
+#. i18n: ectx: Menu (view)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:30 part/calligrawords_readonly.rc:13
+#, kde-format
+msgid "&View"
+msgstr "&Amharc"
+
+#. i18n: ectx: Menu (view_displaymodes)
+#. i18n: ectx: Menu (view)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:32 part/calligrawords_readonly.rc:15
+#, kde-format
+msgid "&Display Mode"
+msgstr "Mó&d Taispeána"
+
+#. i18n: ectx: Menu (semantic)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:62
+#, fuzzy, kde-format
+msgid "Semantics"
+msgstr "Réad Séimeantach"
+
+#. i18n: ectx: Menu (format)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:74
+#, fuzzy, kde-format
+msgid "S&tyles"
+msgstr "Stíl:"
+
+#. i18n: ectx: Menu (settings)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:78
+#, kde-format
+msgid "&Settings"
+msgstr "&Socruithe"
+
+#. i18n: ectx: Menu (SpellCheck)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:79
+#, kde-format
+msgid "Spellcheck"
+msgstr "Seiceáil an litriú"
+
+#. i18n: ectx: Menu (AutoCorrection)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:83
+#, fuzzy, kde-format
+#| msgid "Apply Autocorrection"
+msgid "AutoCorrection"
+msgstr "Cuir Uathcheartú i bhFeidhm"
+
+#. i18n: ectx: ToolBar (edit_toolbar)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:94
+#, kde-format
+msgid "Edit"
+msgstr "Eagar"
+
+#. i18n: ectx: Menu (check_spell_list)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:147
+#, kde-format
+msgid "Spell Check Result"
+msgstr "Torthaí an Litreora"
+
+#. i18n: ectx: Menu (variable_list)
+#. +> trunk6 stable6
+#: part/calligrawords.rc:174
+#, kde-format
+msgid "Change Variable To"
+msgstr "Athraigh Athróg Go"
+
+#. i18n: ectx: Menu (tools)
+#. +> trunk6 stable6
+#: part/calligrawords_readonly.rc:30
+#, kde-format
+msgid "&Tools"
+msgstr "&Uirlisí"
+
+#. +> trunk6 stable6
+#: part/commands/KWChangePageStyleCommand.cpp:11
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Page Style"
+msgstr "Socraigh Stíl an Leathanaigh"
+
+#. +> trunk6 stable6
+#: part/commands/KWNewPageStyleCommand.cpp:12
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Page Style"
+msgstr "Ionsáigh Stíl Leathanaigh"
+
+#. +> trunk6 stable6
+#: part/commands/KWPageStylePropertiesCommand.cpp:19
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Page Properties"
+msgstr "Airíonna an Leathanaigh"
+
+#. +> trunk6 stable6
+#: part/commands/KWShapeCreateCommand.cpp:42
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Create shape"
+msgstr "Cruthaigh Fráma"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:412
+#, fuzzy, kde-format
+msgid "Baseline"
+msgstr "Déan inlíne"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:413
+#: part/dialogs/KWAnchoringProperties.cpp:424
+#, fuzzy, kde-format
+msgid "Character"
+msgstr "Cruthaigh"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:416
+#, kde-format
+msgid "Row"
+msgstr "Ró"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:417
+#: part/dialogs/KWAnchoringProperties.cpp:425
+#, fuzzy, kde-format
+msgid "Page (entire) area"
+msgstr "Soláthair príomhlimistéar téacs"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:418
+#: part/dialogs/KWAnchoringProperties.cpp:426
+#, fuzzy, kde-format
+msgid "Page text area"
+msgstr "Soláthair príomhlimistéar téacs"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:419
+#: part/dialogs/KWAnchoringProperties.cpp:433
+#, fuzzy, kde-format
+msgid "Paragraph area"
+msgstr "Alt"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:420
+#: part/dialogs/KWAnchoringProperties.cpp:434
+#, fuzzy, kde-format
+msgid "Paragraph text area"
+msgstr "Soláthair príomhlimistéar téacs"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:427
+#, fuzzy, kde-format
+msgid "Left page border"
+msgstr "Imlínte an Fhráma"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:428
+#, fuzzy, kde-format
+msgid "Right page border"
+msgstr "Athraigh an Imlíne"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:435
+#, kde-format
+msgid "Right paragraph border"
+msgstr "Imlíne ailt ar dheis"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.cpp:436
+#, kde-format
+msgid "Left paragraph border"
+msgstr "Imlíne ailt ar chlé"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:17
+#, kde-format
+msgid "Shape relation to text is:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorAsCharacter)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:23
+#, kde-format
+msgid "Inline with text (behaves as a character)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorToCharacter)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:30
+#, kde-format
+msgid "Floating, but anchored to a character position"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorParagraph)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:37
+#, kde-format
+msgid "Floating, but anchored to a paragraph"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorPage)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:44
+#, kde-format
+msgid "Floating free (not anchored to text)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpVert)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:54
+#, fuzzy, kde-format
+msgid "Vertical Positioning"
+msgstr "Línte Ingearacha"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rTop)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:60
+#, fuzzy, kde-format
+msgid "Top align with:"
+msgstr "Ailínigh Téacs Ar Chlé"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rVCenter)
+#. i18n: ectx: property (text), widget (QRadioButton, rHCenter)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:77
+#: part/dialogs/KWAnchoringProperties.ui:186
+#, fuzzy, kde-format
+msgid "Center align with:"
+msgstr "Ailínigh Téacs Ar Chlé"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rBottom)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:87
+#, fuzzy, kde-format
+msgid "Bottom align with:"
+msgstr "Ailínigh Téacs Ar Chlé"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rVOffset)
+#. i18n: ectx: property (text), widget (QRadioButton, rHOffset)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:97
+#: part/dialogs/KWAnchoringProperties.ui:206
+#, kde-format
+msgid "Offset"
+msgstr "Fritháireamh"
+
+#. i18n: ectx: property (text), widget (QLabel, lVOffset)
+#. i18n: ectx: property (text), widget (QLabel, lHOffset)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:119
+#: part/dialogs/KWAnchoringProperties.ui:228
+#, fuzzy, kde-format
+msgid "from:"
+msgstr "Ó:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpHoriz)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:163
+#, fuzzy, kde-format
+msgid "Horizontal Positioning"
+msgstr "Línte Cothrománacha"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rLeft)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:169
+#, fuzzy, kde-format
+msgid "Left align with:"
+msgstr "Ailínigh Téacs Ar Chlé"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rRight)
+#. +> trunk6 stable6
+#: part/dialogs/KWAnchoringProperties.ui:196
+#, fuzzy, kde-format
+msgid "Right align with:"
+msgstr "Ailínigh Téacs Ar Chlé"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWConfigureDialog.cpp:29
+#, fuzzy, kde-format
+msgid "Configure"
+msgstr "C&umraigh..."
+
+#. +> trunk6 stable6
+#: part/dialogs/KWConfigureDialog.cpp:33 part/dialogs/KWConfigureDialog.cpp:34
+#, kde-format
+msgid "Misc"
+msgstr "Éagsúil"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWConfigureDialog.cpp:38 part/dialogs/KWConfigureDialog.cpp:39
+#, fuzzy, kde-format
+msgid "Grid"
+msgstr "Greille 1"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWConfigureDialog.cpp:45
+#, fuzzy, kde-format
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "Cáipéis"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWConfigureDialog.cpp:46
+#, kde-format
+msgid "Document Settings"
+msgstr "Socruithe Cáipéise"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWConfigureDialog.cpp:50
+#, fuzzy, kde-format
+#| msgid "Author"
+msgctxt "@title:tab Author page"
+msgid "Author"
+msgstr "Údar"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWConfigureDialog.cpp:51
+#, kde-format
+msgid "Author"
+msgstr "Údar"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, CreateBookmark)
+#. +> trunk6 stable6
+#: part/dialogs/KWCreateBookmark.ui:13
+#: part/dialogs/KWCreateBookmarkDialog.cpp:37
+#, kde-format
+msgid "Create New Bookmark"
+msgstr "Cruthaigh Leabharmharc Nua"
+
+#. i18n: ectx: property (text), widget (QLabel, lExplain)
+#. +> trunk6 stable6
+#: part/dialogs/KWCreateBookmark.ui:20
+#, kde-format
+msgid ""
+"Bookmarks allow you to jump between parts of your document.\n"
+"Please provide the name of your bookmark."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lName)
+#. +> trunk6 stable6
+#: part/dialogs/KWCreateBookmark.ui:38
+#, kde-format
+msgid "Name:"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (text), widget (QLabel, columnsLabel)
+#. +> trunk6 stable6
+#: part/dialogs/KWDocumentColumns.ui:21
+#, kde-format
+msgid "Columns:"
+msgstr "Colúin:"
+
+#. i18n: ectx: property (text), widget (QLabel, spacingLabel)
+#. +> trunk6 stable6
+#: part/dialogs/KWDocumentColumns.ui:41
+#, kde-format
+msgid "Column spacing:"
+msgstr "Spásáil na gcolún:"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWFrameConnectSelector.cpp:98
+#, kde-format
+msgid "frameset"
+msgstr "frámadán"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWFrameConnectSelector.cpp:123
+#, kde-format
+msgid "No framesets in document"
+msgstr "Níl frámadáin sa cháipéis"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: part/dialogs/KWFrameConnectSelector.ui:67
+#, kde-format
+msgid "Name of frameset:"
+msgstr "Ainm an fhrámadáin:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, newRadio)
+#. +> trunk6 stable6
+#: part/dialogs/KWFrameConnectSelector.ui:82
+#, kde-format
+msgid "Create a new frameset:"
+msgstr "Cruthaigh frámadán nua:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, existingRadio)
+#. +> trunk6 stable6
+#: part/dialogs/KWFrameConnectSelector.ui:89
+#, kde-format
+msgid "Select existing frameset to connect to:"
+msgstr "Roghnaigh frámadán atá ann chun nasc a bhunú leis:"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, framesList)
+#. +> trunk6 stable6
+#: part/dialogs/KWFrameConnectSelector.ui:122
+#, kde-format
+msgid "Frameset Name"
+msgstr "Ainm an Fhrámadáin"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWFrameDialog.cpp:29
+#, fuzzy, kde-format
+msgid "Smart Positioning"
+msgstr "Ionad"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWFrameDialog.cpp:33 part/dialogs/KWShapeConfigFactory.cpp:60
+#, fuzzy, kde-format
+#| msgid "Run Around Side"
+msgid "Text Run Around"
+msgstr "Rith Timpeall an Taoibh"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWFrameDialog.cpp:41 part/dialogs/KWShapeConfigFactory.cpp:26
+#, kde-format
+msgid "Connect Text Frames"
+msgstr "Ceangail Frámaí Téacs"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWFrameDialog.cpp:64
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Shape Properties"
+msgstr "Athraigh Airíonna an Leathanaigh"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpAnchor)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:17
+#, fuzzy, kde-format
+#| msgid "Anchor"
+msgid "Anchor to..."
+msgstr "Ancaire"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorPage)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:23
+#, fuzzy, kde-format
+msgid "&Page"
+msgstr "Leathanaigh"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorParagraph)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:30
+#, fuzzy, kde-format
+msgid "Para&graph"
+msgstr "Alt"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorToCharacter)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:40
+#, fuzzy, kde-format
+msgid "&To Character"
+msgstr "Cruthaigh"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAnchorAsCharacter)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:47
+#, fuzzy, kde-format
+msgid "&As Character"
+msgstr "Cruthaigh"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpHAlign)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:59
+#, fuzzy, kde-format
+msgid "Horizontal Alignment"
+msgstr "Línte Cothrománacha"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignLeft)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:65
+#, fuzzy, kde-format
+msgid "&Left"
+msgstr "Ar &Chlé"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignCenter)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:75
+#, fuzzy, kde-format
+msgid "&Center"
+msgstr "Láraithe"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignRight)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:82
+#, fuzzy, kde-format
+msgid "&Right"
+msgstr "Ar &Dheis"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpVAlign)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:92
+#, fuzzy, kde-format
+msgid "Vertical Alignment"
+msgstr "Línte Ingearacha"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignTop)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:98
+#, kde-format
+msgid "&Top"
+msgstr "&Barr"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignMiddle)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:105
+#, kde-format
+msgid "&Middle"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, rAlignBottom)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:115
+#, fuzzy, kde-format
+msgid "&Bottom"
+msgstr "Bun:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, grpWrap)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:127
+#, fuzzy, kde-format
+#| msgid "Run Around Side"
+msgid "Text Wrap-around"
+msgstr "Rith Timpeall an Taoibh"
+
+#. i18n: ectx: property (text), widget (QRadioButton, runThrough)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:133 part/dialogs/KWRunAroundProperties.ui:26
+#, fuzzy, kde-format
+msgid "Run through this shape"
+msgstr "Rithfidh an téacs tríd an bhfrámadán seo"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noRunaround)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:140 part/dialogs/KWRunAroundProperties.ui:33
+#, fuzzy, kde-format
+msgid "Skip below this shape"
+msgstr "Rithfidh an téacs tríd an bhfrámadán seo"
+
+#. i18n: ectx: property (text), widget (QRadioButton, left)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:147 part/dialogs/KWRunAroundProperties.ui:40
+#, fuzzy, kde-format
+msgid "Run on left side of this shape"
+msgstr "Rithfidh an téacs tríd an bhfrámadán seo"
+
+#. i18n: ectx: property (text), widget (QRadioButton, right)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:154 part/dialogs/KWRunAroundProperties.ui:47
+#, fuzzy, kde-format
+msgid "Run on right side of this shape"
+msgstr "Rithfidh an téacs tríd an bhfrámadán seo"
+
+#. i18n: ectx: property (text), widget (QRadioButton, longest)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:161 part/dialogs/KWRunAroundProperties.ui:54
+#, fuzzy, kde-format
+msgid "Run on longest side of this shape"
+msgstr "Rithfidh an téacs tríd an bhfrámadán seo"
+
+#. i18n: ectx: property (text), widget (QRadioButton, both)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:168 part/dialogs/KWRunAroundProperties.ui:61
+#, fuzzy, kde-format
+msgid "Run on both sides of this shape"
+msgstr "Rithfidh an téacs tríd an bhfrámadán seo"
+
+#. i18n: ectx: property (text), widget (QRadioButton, enough)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:180 part/dialogs/KWRunAroundProperties.ui:73
+#, kde-format
+msgid "Run on sides that are wider than:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: part/dialogs/KWInsertImage.ui:194
+#, fuzzy, kde-format
+msgid "Distance Between Shape and Text:"
+msgstr "Fad ó fhráma go téacs:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, columnsTab)
+#. +> trunk6 stable6
+#: part/dialogs/KWPageSettingsDialog.cpp:38 part/dialogs/KWStartupWidget.ui:37
+#, kde-format
+msgid "Columns"
+msgstr "Colúin"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWPageSettingsDialog.cpp:44
+#, fuzzy, kde-format
+msgid "Style"
+msgstr "Stíl:"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWPageSettingsDialog.cpp:60
+#, fuzzy, kde-format
+msgid "Clone"
+msgstr "Dúnadh"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWPageSettingsDialog.cpp:65 part/KWView.cpp:304
+#, kde-format
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWPageSettingsDialog.cpp:154
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Page Style"
+msgstr "Socraigh Stíl an Leathanaigh"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWPageSettingsDialog.cpp:235
+#, fuzzy, kde-format
+msgid "Clone Page Style"
+msgstr "Socraigh Stíl an Leathanaigh"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWPageSettingsDialog.cpp:236
+#, kde-format
+msgid "Add a new page style with the name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: part/dialogs/KWRunAroundProperties.ui:19
+#, kde-format
+msgid "Text elsewhere will:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: part/dialogs/KWRunAroundProperties.ui:92
+#, kde-format
+msgid "The shape affects the text by its:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, box)
+#. +> trunk6 stable6
+#: part/dialogs/KWRunAroundProperties.ui:99
+#, kde-format
+msgid "Bounding box"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, outside)
+#. +> trunk6 stable6
+#: part/dialogs/KWRunAroundProperties.ui:106
+#, kde-format
+msgid "Contour"
+msgstr "Comhrian"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: part/dialogs/KWRunAroundProperties.ui:116
+#, kde-format
+msgid "Shape and text are separated left by:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: part/dialogs/KWRunAroundProperties.ui:129
+#, fuzzy, kde-format
+msgid "Right by:"
+msgstr "Ar Dheis:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: part/dialogs/KWRunAroundProperties.ui:142
+#, kde-format
+msgid "Above by:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: part/dialogs/KWRunAroundProperties.ui:155
+#, kde-format
+msgid "Below by:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonRename)
+#. +> trunk6 stable6
+#: part/dialogs/KWSelectBookmark.ui:20
+#, kde-format
+msgid "&Rename"
+msgstr "&Athainmnigh"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonDelete)
+#. +> trunk6 stable6
+#: part/dialogs/KWSelectBookmark.ui:27
+#, kde-format
+msgid "&Delete"
+msgstr "&Scrios"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWSelectBookmarkDialog.cpp:66
+#, kde-format
+msgid "Please provide a new name for the bookmark"
+msgstr "Tabhair ainm nua ar an leabharmharc"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWSelectBookmarkDialog.cpp:66
+#, kde-format
+msgid "Rename Bookmark"
+msgstr "Athainmnigh an Leabharmharc"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWSelectBookmarkDialog.cpp:72
+#, kde-format
+msgid "A bookmark with the name \"%1\" already exists."
+msgstr "Tá leabharmharc darb ainm \"%1\" ann cheana."
+
+#. +> trunk6 stable6
+#: part/dialogs/KWSelectBookmarkDialog.cpp:104
+#, kde-format
+msgid "Select Bookmark"
+msgstr "Roghnaigh Leabharmharc"
+
+#. +> trunk6 stable6
+#: part/dialogs/KWShapeConfigFactory.cpp:43
+#, kde-format
+msgid "Geometry"
+msgstr "Céimseata"
+
+#. i18n: ectx: attribute (title), widget (QWidget, sizeTab)
+#. +> trunk6 stable6
+#: part/dialogs/KWStartupWidget.ui:32
+#, kde-format
+msgid "Page Size && Margins"
+msgstr "Méid an Leathanaigh agus Imill"
+
+#. i18n: ectx: property (text), widget (QPushButton, createButton)
+#. +> trunk6 stable6
+#: part/dialogs/KWStartupWidget.ui:91 part/KWView.cpp:409
+#, kde-format
+msgid "Create"
+msgstr "Cruthaigh"
+
+#. +> trunk6 stable6
+#: part/dockers/KWDebugDocker.cpp:18
+#, kde-format
+msgid "Debug"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/dockers/KWNavigationDocker.cpp:20
+#, fuzzy, kde-format
+#| msgid "Salutation"
+msgid "Navigation"
+msgstr "Beannacht"
+
+#. +> trunk6 stable6
+#: part/dockers/KWNavigationWidget.cpp:92
+#, fuzzy, kde-format
+msgid "Page #"
+msgstr "Leathanaigh"
+
+#. +> trunk6 stable6
+#: part/dockers/KWNavigationWidget.cpp:92
+#, fuzzy, kde-format
+#| msgid "Functions"
+msgid "Section"
+msgstr "Feidhmeanna"
+
+#. +> trunk6 stable6
+#: part/dockers/KWRdfDocker.cpp:38
+#, kde-format
+msgid "RDF"
+msgstr "RDF"
+
+#. +> trunk6 stable6
+#: part/dockers/KWStatisticsDocker.cpp:20
+#, kde-format
+msgid "Statistics"
+msgstr "Staitisticí"
+
+#. +> trunk6 stable6
+#: part/dockers/KWStatisticsWidget.cpp:125
+#, kde-format
+msgid "Words:"
+msgstr "Focail:"
+
+#. +> trunk6 stable6
+#: part/dockers/KWStatisticsWidget.cpp:128
+#, kde-format
+msgid "Sentences:"
+msgstr "Abairtí:"
+
+#. +> trunk6 stable6
+#: part/dockers/KWStatisticsWidget.cpp:131
+#, kde-format
+msgid "Syllables:"
+msgstr "Siollaí:"
+
+#. +> trunk6 stable6
+#: part/dockers/KWStatisticsWidget.cpp:134
+#, fuzzy, kde-format
+msgid "Characters (spaces):"
+msgstr "Líon na gcarachtar, spásanna san áireamh"
+
+#. +> trunk6 stable6
+#: part/dockers/KWStatisticsWidget.cpp:137
+#, fuzzy, kde-format
+msgid "Characters (no spaces):"
+msgstr "Líon na gcarachtar, spásanna san áireamh"
+
+#. +> trunk6 stable6
+#: part/dockers/KWStatisticsWidget.cpp:140
+#, kde-format
+msgid "Lines:"
+msgstr "Línte:"
+
+#. +> trunk6 stable6
+#: part/dockers/KWStatisticsWidget.cpp:143
+#, kde-format
+msgid "Readability:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/dockers/KWStatisticsWidget.cpp:145
+#, fuzzy, kde-format
+msgid "Flesch reading ease"
+msgstr "Éascaíocht léimh Flesch"
+
+#. +> trunk6 stable6
+#: part/dockers/KWStatisticsWidget.cpp:147
+#, fuzzy, kde-format
+msgid "East asian characters:"
+msgstr "Cruthaigh"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_words)
+#. +> trunk6 stable6
+#: part/dockers/StatisticsPreferencesPopup.ui:17
+#, fuzzy, kde-format
+msgid "Words"
+msgstr "Focail"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_sentences)
+#. +> trunk6 stable6
+#: part/dockers/StatisticsPreferencesPopup.ui:24
+#, kde-format
+msgid "Sentences"
+msgstr "Abairtí"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_syllables)
+#. +> trunk6 stable6
+#: part/dockers/StatisticsPreferencesPopup.ui:31
+#, kde-format
+msgid "Syllables"
+msgstr "Siollaí"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_lines)
+#. +> trunk6 stable6
+#: part/dockers/StatisticsPreferencesPopup.ui:38
+#, kde-format
+msgid "Lines"
+msgstr "Línte"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_charspace)
+#. +> trunk6 stable6
+#: part/dockers/StatisticsPreferencesPopup.ui:45
+#, fuzzy, kde-format
+msgid "Characters With Spaces"
+msgstr "Líon na gcarachtar, gan spásanna"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_charnospace)
+#. +> trunk6 stable6
+#: part/dockers/StatisticsPreferencesPopup.ui:52
+#, kde-format
+msgid "Characters without spaces"
+msgstr "Líon na gcarachtar, gan spásanna"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_east)
+#. +> trunk6 stable6
+#: part/dockers/StatisticsPreferencesPopup.ui:59
+#, fuzzy, kde-format
+msgid "East Asian characters"
+msgstr "Cruthaigh"
+
+#. i18n: ectx: property (text), widget (QCheckBox, check_flesch)
+#. +> trunk6 stable6
+#: part/dockers/StatisticsPreferencesPopup.ui:66
+#, fuzzy, kde-format
+msgid "Flesch Reading Ease"
+msgstr "Éascaíocht léimh Flesch"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:8
+#, kde-format
+msgctxt "Style name"
+msgid "Standard"
+msgstr "Caighdeánach"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:9
+#, kde-format
+msgctxt "Style name"
+msgid "Head 1"
+msgstr "Ceann 1"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:10
+#, kde-format
+msgctxt "Style name"
+msgid "Head 2"
+msgstr "Ceann 2"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:11
+#, kde-format
+msgctxt "Style name"
+msgid "Head 3"
+msgstr "Ceann 3"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:12
+#, kde-format
+msgctxt "Style name"
+msgid "Enumerated List"
+msgstr "Liosta Áirithe"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:13
+#, kde-format
+msgctxt "Style name"
+msgid "Alphabetical List"
+msgstr "Liosta Aibítreach"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:14
+#, kde-format
+msgctxt "Style name"
+msgid "Bullet List"
+msgstr "Liosta le hUrchair"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:15
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Title"
+msgstr "Ábhar: Teideal"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:16
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Head 1"
+msgstr "Ábhar: Ceanntásc 1"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:17
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Head 2"
+msgstr "Ábhar: Ceanntásc 2"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:18
+#, kde-format
+msgctxt "Style name"
+msgid "Contents Head 3"
+msgstr "Ábhar: Ceanntásc 3"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:19
+#, kde-format
+msgctxt "Style name"
+msgid "Document Title"
+msgstr "Teideal na Cáipéise"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:20
+#, kde-format
+msgctxt "Style name"
+msgid "Header"
+msgstr "Ceanntásc"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:21
+#, kde-format
+msgctxt "Style name"
+msgid "Footer"
+msgstr "Buntásc"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:24
+#, kde-format
+msgctxt "Style name"
+msgid "Plain"
+msgstr "Gnáth"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:25
+#, kde-format
+msgctxt "Style name"
+msgid "Borders 1"
+msgstr "Imlínte 1"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:26
+#, kde-format
+msgctxt "Style name"
+msgid "Borders 2"
+msgstr "Imlínte 2"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:27
+#, kde-format
+msgctxt "Style name"
+msgid "Borders 3"
+msgstr "Imlínte 3"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:28
+#, kde-format
+msgctxt "Style name"
+msgid "Row"
+msgstr "Ró"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:29
+#, kde-format
+msgctxt "Style name"
+msgid "Column"
+msgstr "Colún"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:30
+#, kde-format
+msgctxt "Style name"
+msgid "Light Gray"
+msgstr "Fionnliath"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:31
+#, kde-format
+msgctxt "Style name"
+msgid "Dark Gray"
+msgstr "Dúliath"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:32
+#, kde-format
+msgctxt "Style name"
+msgid "Black"
+msgstr "Dubh"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:33
+#, kde-format
+msgctxt "Style name"
+msgid "Light Blue"
+msgstr "Bánghorm"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:34
+#, kde-format
+msgctxt "Style name"
+msgid "Dark Blue"
+msgstr "Dúghorm"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:35
+#, kde-format
+msgctxt "Style name"
+msgid "Red"
+msgstr "Dearg"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:36
+#, kde-format
+msgctxt "Style name"
+msgid "Yellow"
+msgstr "Buí"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:37
+#, kde-format
+msgctxt "Style name"
+msgid "Colorful"
+msgstr "Ildathach"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:38
+#, kde-format
+msgctxt "Style name"
+msgid "Bluish"
+msgstr "Scothghorm"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:41
+#, kde-format
+msgctxt "Style name"
+msgid "Simple 1"
+msgstr "Simplí 1"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:42
+#, kde-format
+msgctxt "Style name"
+msgid "Simple 2"
+msgstr "Simplí 2"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:43
+#, kde-format
+msgctxt "Style name"
+msgid "Simple 3"
+msgstr "Simplí 3"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:44
+#, kde-format
+msgctxt "Style name"
+msgid "Header 1"
+msgstr "Ceanntásc 1"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:45
+#, kde-format
+msgctxt "Style name"
+msgid "Header 2"
+msgstr "Ceanntásc 2"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:46
+#, kde-format
+msgctxt "Style name"
+msgid "Header 3"
+msgstr "Ceanntásc 3"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:47
+#, kde-format
+msgctxt "Style name"
+msgid "Header 4"
+msgstr "Ceanntásc 4"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:50
+#, kde-format
+msgctxt "Style name"
+msgid "Columns 1"
+msgstr "Colúin 1"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:51
+#, kde-format
+msgctxt "Style name"
+msgid "Columns 2"
+msgstr "Colúin 2"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:52
+#, kde-format
+msgctxt "Style name"
+msgid "Grid 1"
+msgstr "Greille 1"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:53
+#, kde-format
+msgctxt "Style name"
+msgid "Grid 2"
+msgstr "Greille 2"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:54
+#, kde-format
+msgctxt "Style name"
+msgid "Grid 3"
+msgstr "Greille 3"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:55
+#, kde-format
+msgctxt "Style name"
+msgid "Gray Heading"
+msgstr "Ceannteideal Liath"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:56
+#, kde-format
+msgctxt "Style name"
+msgid "Blue Heading"
+msgstr "Ceannteideal Gorm"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:57
+#, kde-format
+msgctxt "Style name"
+msgid "Blue Traditional"
+msgstr "Gorm Traidisiúnta"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:58
+#, kde-format
+msgctxt "Style name"
+msgid "Gray Traditional"
+msgstr "Liath Traidisiúnta"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:59
+#, kde-format
+msgctxt "Style name"
+msgid "Blue Top and Bottom"
+msgstr "Gorm Bun agus Barr"
+
+#. +> trunk6 stable6
+#: part/i18n/stylenames.cpp:60
+#, kde-format
+msgctxt "Style name"
+msgid "Gray Top and Bottom"
+msgstr "Liath Bun agus Barr"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:18
+#, fuzzy, kde-format
+msgctxt "application name"
+msgid "Calligra Words"
+msgstr "Próiseálaí Focal KOffice"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:20
+#, fuzzy, kde-format
+msgid "Word processor"
+msgstr "Próiseálaí Focal KOffice"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:22
+#, fuzzy, kde-format
+msgid "Copyright 1998-%1, The Words Team"
+msgstr "© 1998-2009, Foireann KWord"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:28
+#, kde-format
+msgid "Carl Schwan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:29
+#, kde-format
+msgid "Co Maintainer/Port to Qt6"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:33 part/KWAboutData.h:34 part/KWAboutData.h:35
+#, kde-format
+msgid "Co maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:33 part/KWAboutData.h:34
+#, kde-format
+msgid "Pierre Ducroquet"
+msgstr "Pierre Ducroquet"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:35
+#, fuzzy, kde-format
+msgid "C. Boemann"
+msgstr "Casper Boemann"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:36 part/KWAboutData.h:37 part/KWAboutData.h:38
+#: part/KWAboutData.h:40
+#, kde-format
+msgid "Everything"
+msgstr "Gach Rud"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:36
+#, kde-format
+msgid "Sebastian Sauer"
+msgstr "Sebastian Sauer"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:37
+#, kde-format
+msgid "Boudewijn Rempt"
+msgstr "Boudewijn Rempt"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:38
+#, kde-format
+msgid "Pierre Stirnweiss"
+msgstr "Pierre Stirnweiss"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:39
+#, fuzzy, kde-format
+msgid "Formatting stuff"
+msgstr "Carachtair Fhormáidithe"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:39
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:40
+#, kde-format
+msgid "Thorsten Zachmann"
+msgstr "Thorsten Zachmann"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:41 part/KWAboutData.h:47 part/KWAboutData.h:48
+#: part/KWAboutData.h:49 part/KWAboutData.h:61 part/KWAboutData.h:62
+#: part/KWAboutData.h:63 part/KWAboutData.h:64 part/KWAboutData.h:65
+#: part/KWAboutData.h:66 part/KWAboutData.h:67 part/KWAboutData.h:68
+#: part/KWAboutData.h:69 part/KWAboutData.h:70
+#, fuzzy, kde-format
+msgid "Filter"
+msgstr "&Comhad"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:41
+#, kde-format
+msgid "Matus Uzak"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:42
+#, kde-format
+msgid "Layout and Painting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:42
+#, kde-format
+msgid "Pavol Korinek"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:43
+#, kde-format
+msgid "Shreya Pandit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:43
+#, fuzzy, kde-format
+msgid "Statistics docker"
+msgstr "Staitisticí"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:44
+#, kde-format
+msgid "Brijesh Patel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:44
+#, fuzzy, kde-format
+msgid "Foot and endnotes"
+msgstr "&Fonóta"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:45
+#, kde-format
+msgid "Bibliography"
+msgstr "Leabharliosta"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:45
+#, kde-format
+msgid "Smit Patel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:46
+#, kde-format
+msgid "Mojtaba Shahi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:46
+#, fuzzy, kde-format
+msgid "Style Manager"
+msgstr "&Bainisteoir na Stíleanna"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:47
+#, kde-format
+msgid "Lassi Nieminen"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:48
+#, kde-format
+msgid "Hanzes Matus"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:49
+#, kde-format
+msgid "Lukáš Tvrdý"
+msgstr "Lukáš Tvrdý"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:50
+#, kde-format
+msgid "Thomas Zander"
+msgstr "Thomas Zander"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:51
+#, kde-format
+msgid "Girish Ramakrishnan"
+msgstr "Girish Ramakrishnan"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:51 part/KWAboutData.h:52
+#, kde-format
+msgid "ODF Support"
+msgstr "Tacaíocht ODF"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:52
+#, kde-format
+msgid "Robert Mathias Marmorstein"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:53
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:54
+#, kde-format
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:55
+#, kde-format
+msgid "Sven Lüppken"
+msgstr "Sven Lüppken"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:56
+#, kde-format
+msgid "Frank Dekervel"
+msgstr "Frank Dekervel"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:57
+#, kde-format
+msgid "Krister Wicksell Eriksson"
+msgstr "Krister Wicksell Eriksson"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:58
+#, kde-format
+msgid "Dag Andersen"
+msgstr "Dag Andersen"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:59
+#, kde-format
+msgid "Nash Hoogwater"
+msgstr "Nash Hoogwater"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:60
+#, kde-format
+msgid "KFormula"
+msgstr "KFormula"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:60
+#, kde-format
+msgid "Ulrich Kuettler"
+msgstr "Ulrich Kuettler"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:61
+#, kde-format
+msgid "Shaheed Haque"
+msgstr "Shaheed Haque"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:62
+#, kde-format
+msgid "Werner Trobin"
+msgstr "Werner Trobin"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:63
+#, kde-format
+msgid "Nicolas Goutte"
+msgstr "Nicolas Goutte"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:64
+#, kde-format
+msgid "Ariya Hidayat"
+msgstr "Ariya Hidayat"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:65
+#, kde-format
+msgid "Clarence Dang"
+msgstr "Clarence Dang"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:66
+#, kde-format
+msgid "Robert Jacolin"
+msgstr "Robert Jacolin"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:67
+#, kde-format
+msgid "Enno Bartels"
+msgstr "Enno Bartels"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:68
+#, kde-format
+msgid "Ewald Snel"
+msgstr "Ewald Snel"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:69
+#, kde-format
+msgid "Tomasz Grobelny"
+msgstr "Tomasz Grobelny"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:70
+#, kde-format
+msgid "Michael Johnson"
+msgstr "Michael Johnson"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:71
+#, kde-format
+msgid "Fatcow Web Hosting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:71
+#, fuzzy, kde-format
+msgid "Page break icon"
+msgstr "Briseadh Leathanaigh"
+
+#. +> trunk6 stable6
+#: part/KWAboutData.h:73
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. i18n translator strings
+#. +> trunk6 stable6
+#: part/KWAboutData.h:73
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#: part/KWDocument.cpp:492
+#, kde-format
+msgid "Copy"
+msgstr "Cóip"
+
+#. +> trunk6 stable6
+#: part/KWDocument.cpp:538 part/KWStatusBar.cpp:154
+#, fuzzy, kde-format
+msgid "Standard"
+msgstr "Caighdeánach"
+
+#. +> trunk6 stable6
+#: part/KWDocument.cpp:544
+#, fuzzy, kde-format
+#| msgctxt "Style name"
+#| msgid "Document Title"
+msgid "Document Title"
+msgstr "Teideal na Cáipéise"
+
+#. +> trunk6 stable6
+#: part/KWDocument.cpp:551
+#, kde-format
+msgid "Head 1"
+msgstr "Ceann 1"
+
+#. +> trunk6 stable6
+#: part/KWDocument.cpp:557
+#, kde-format
+msgid "Head 2"
+msgstr "Ceann 2"
+
+#. +> trunk6 stable6
+#: part/KWDocument.cpp:563
+#, kde-format
+msgid "Head 3"
+msgstr "Ceann 3"
+
+#. +> trunk6 stable6
+#: part/KWDocument.cpp:569
+#, kde-format
+msgid "Bullet List"
+msgstr "Liosta le hUrchair"
+
+#. +> trunk6 stable6
+#: part/KWGui.cpp:68
+#, kde-format
+msgid "Tools"
+msgstr "Uirlisí"
+
+#. +> trunk6 stable6
+#: part/KWOdfLoader.cpp:81
+#, kde-format
+msgid "Invalid OASIS OpenDocument file. No office:body tag found."
+msgstr "Cáipéis neamhbhailí OASIS OpenDocument. Níor aimsíodh clib office:body."
+
+#. +> trunk6 stable6
+#: part/KWOdfLoader.cpp:92
+#, kde-format
+msgid "Invalid OASIS OpenDocument file. No tag found inside office:body."
+msgstr "Cáipéis neamhbhailí OASIS OpenDocument. Níor aimsíodh aon chlib isteach i office:body."
+
+#. +> trunk6 stable6
+#: part/KWOdfLoader.cpp:94
+#, kde-format
+msgid "This is not a word processing document, but %1. Please try opening it with the appropriate application."
+msgstr "Ní cáipéis phróiseálaí focal é seo, ach %1. Ba chóir duit é a oscailt leis an bhfeidhmchlár oiriúnach."
+
+#. +> trunk6 stable6
+#: part/KWPageManager.cpp:24 part/KWPageManager.cpp:413
+#, fuzzy, kde-format
+msgctxt "Default page style display name"
+msgid "Standard"
+msgstr "Caighdeánach"
+
+#. +> trunk6 stable6
+#: part/KWPart.cpp:139
+#, kde-format
+msgid "Can not find needed text component, Words will quit now"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWPart.cpp:139
+#, kde-format
+msgid "Installation Error"
+msgstr "Earráid Suiteála"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:35
+#, kde-format
+msgid "Modified"
+msgstr "Athraithe"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:36
+#, kde-format
+msgid "Saved"
+msgstr "Sábháilte"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:37
+#, kde-format
+msgid "Page %1 of %2"
+msgstr "Leathanach %1 as %2"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:38
+#, fuzzy, kde-format
+#| msgid "Page %1 of %2"
+msgid "Page %1-%2 of %3"
+msgstr "Leathanach %1 as %2"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:39
+#, fuzzy, kde-format
+msgid "Line %1"
+msgstr "Línte"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:132
+#, fuzzy, kde-format
+msgid "Page Number"
+msgstr "Uimhir an leathanaigh:"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:145
+#, fuzzy, kde-format
+msgid "Line Number"
+msgstr "Uimhir"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:157
+#, fuzzy, kde-format
+msgid "Change the page style"
+msgstr "Socraigh Stíl an Leathanaigh"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:165
+#, fuzzy, kde-format
+msgid "Page Style"
+msgstr "Stíl an leathanaigh:"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:179
+#, fuzzy, kde-format
+msgid "Page Size"
+msgstr "Athraigh an Chlómhéid"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:194
+#, fuzzy, kde-format
+msgid "Saved/Modified"
+msgstr "Stádas: sábháilte/athraithe"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:207
+#, fuzzy, kde-format
+msgid "Mouse Cursor X:Y"
+msgstr "Ionad na Luiche: X:Y"
+
+#. +> trunk6 stable6
+#: part/KWStatusBar.cpp:220
+#, kde-format
+msgid "Zoom Controller"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:186
+#, kde-format
+msgid "Exit Fullscreen Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:278
+#, fuzzy, kde-format
+msgid "Shape Properties..."
+msgstr "Airíonna an Leathanaigh"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:280
+#, kde-format
+msgid "Change how the shape behave"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:289
+#, fuzzy, kde-format
+msgid "Create Template From Document..."
+msgstr "&Cruthaigh Teimpléad Ó Cháipéis..."
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:290
+#, kde-format
+msgid "Save this document and use it later as a template"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:292
+#, kde-format
+msgid ""
+"You can save this document as a template.<br>"
+"<br>"
+"You can use this new template as a starting point for another document."
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:311
+#, fuzzy, kde-format
+msgid "Show Formatting Characters"
+msgstr "Carachtair Fhormáidithe"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:317
+#, kde-format
+msgid "Toggle the display of non-printing characters"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:319
+#, kde-format
+msgid ""
+"Toggle the display of non-printing characters.<br/>"
+"<br/>"
+"When this is enabled, Words shows you tabs, spaces, carriage returns and other non-printing characters."
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:322
+#, kde-format
+msgid "Show Field Shadings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:328
+#, kde-format
+msgid "Toggle the shaded background of fields"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:329
+#, kde-format
+msgid "Toggle the visualization of fields (variables etc.) by drawing their background in a contrasting color."
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:331
+#, fuzzy, kde-format
+msgid "Show Text Shape Borders"
+msgstr "Cumraigh Imlínte an Tábla"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:332
+#, kde-format
+msgid "Turns the border display on and off"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:339
+#, kde-format
+msgid ""
+"Turns the border display on and off.<br/>"
+"<br/>"
+"The borders are never printed. This option is useful to see how the document will appear on the printed page."
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:342
+#, fuzzy, kde-format
+msgid "Show Table Borders"
+msgstr "Cumraigh Imlínte an Tábla"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:348
+#, kde-format
+msgid "Toggle the display of table borders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:350
+#, kde-format
+msgid ""
+"Toggle the display of table borders.<br/>"
+"<br/>"
+"When this is enabled, Words shows you any invisible table borders with a thin gray line."
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:352
+#, kde-format
+msgid "Show Section Bounds"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:358
+#, kde-format
+msgid "Toggle the display of section bounds"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:360
+#, kde-format
+msgid ""
+"Toggle the display of section bounds.<br/>"
+"<br/>"
+"When this is enabled, any section bounds will be indicated with a thin gray horizontal brackets."
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:362
+#, kde-format
+msgid "Show Rulers"
+msgstr "Taispeáin Rialóirí"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:364
+#, kde-format
+msgid "Shows or hides rulers"
+msgstr "Taispeáin nó folaigh rialóirí"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:366
+#, kde-format
+msgid ""
+"The rulers are the white measuring spaces top and left of the document. The rulers show the position and width of pages and of frames and can be used to position tabulators among others."
+"<p>Uncheck this to disable the rulers from being displayed.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:377
+#, kde-format
+msgid "Snap to Grid"
+msgstr "Léim go Greille"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:385
+#, kde-format
+msgid "Show Status Bar"
+msgstr "Taispeáin an Barra Stádais"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:386
+#, kde-format
+msgid "Shows or hides the status bar"
+msgstr "Taispeáin nó folaigh an barra stádais"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:392
+#, kde-format
+msgid "Fullscreen Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:393
+#, kde-format
+msgid "Set view in fullscreen mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:400
+#, kde-format
+msgid "Semantic Stylesheets..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:402
+#, kde-format
+msgid "Modify and add semantic stylesheets"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:403
+#, kde-format
+msgid "Stylesheets are used to format the display of information which is stored in RDF."
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:418
+#, fuzzy, kde-format
+msgid "Configure..."
+msgstr "C&umraigh..."
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:427
+#, kde-format
+msgid "Page Layout..."
+msgstr "Leagan Amach an Leathanaigh..."
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:429
+#, fuzzy, kde-format
+msgid "Change properties of entire page"
+msgstr "Athraigh Airíonna an Leathanaigh"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:431
+#, kde-format
+msgid ""
+"Change properties of the entire page."
+"<p>Currently you can change paper size, paper orientation, header and footer sizes, and column settings.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:434
+#, fuzzy, kde-format
+msgid "Create Header"
+msgstr "Cruthaigh Sraith"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:440
+#, fuzzy, kde-format
+msgid "Create Footer"
+msgstr "Cruthaigh Sraith"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:447
+#, fuzzy, kde-format
+#| msgid "Remove Comment"
+msgid "Show Comments"
+msgstr "Bain Nóta"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:448
+#, fuzzy, kde-format
+#| msgid "No framesets in document"
+msgid "Shows comments in the document"
+msgstr "Níl frámadáin sa cháipéis"
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:454
+#, kde-format
+msgid "Word Count"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/KWView.cpp:455
+#, fuzzy, kde-format
+#| msgid "Shows or hides the status bar"
+msgid "Shows or hides word counting in status bar"
+msgstr "Taispeáin nó folaigh an barra stádais"
+
+#. +> trunk6 stable6
+#: part/pagetool/KWPageTool.cpp:83
+#, fuzzy, kde-format
+msgid "Page Setup"
+msgstr "Athraigh an Chlómhéid"
+
+#. +> trunk6 stable6
+#: part/pagetool/KWPageTool.cpp:87
+#, fuzzy, kde-format
+msgid "Header & Footer"
+msgstr "Buntásc ar Leathanaigh Chothroma"
+
+#. +> trunk6 stable6
+#: part/pagetool/KWPageToolFactory.cpp:17
+#, fuzzy, kde-format
+msgid "Page layout"
+msgstr "Leagan Amach an Leathanaigh..."
+
+#. i18n: ectx: property (text), widget (QToolButton, setup)
+#. +> trunk6 stable6
+#: part/pagetool/SimpleSetupWidget.ui:32
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:64
+#, kde-format
+msgctxt "Label for the Find text input box"
+msgid "Find:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:81
+#, fuzzy, kde-format
+#| msgid "Next Page"
+msgctxt "Next search result"
+msgid "Next"
+msgstr "An Chéad Leathanach Eile"
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:93
+#, fuzzy, kde-format
+#| msgid "Previous Page"
+msgctxt "Previous search result"
+msgid "Previous"
+msgstr "An Leathanach Roimhe Seo"
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:104
+#, fuzzy, kde-format
+#| msgid "Options"
+msgctxt "Search options"
+msgid "Options"
+msgstr "Roghanna"
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:134
+#, fuzzy, kde-format
+#| msgid "Replace Word"
+msgctxt "Label for the Replace text input box"
+msgid "Replace:"
+msgstr "Ionadaigh Focal"
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:146
+#, fuzzy, kde-format
+#| msgid "Replace Word"
+msgctxt "Replace the current match"
+msgid "Replace"
+msgstr "Ionadaigh Focal"
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:154
+#, fuzzy, kde-format
+#| msgid "Replace Word"
+msgctxt "Replace all found matches"
+msgid "Replace All"
+msgstr "Ionadaigh Focal"
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:164
+#, fuzzy, kde-format
+#| msgid "Replace Word"
+msgid "Replace"
+msgstr "Ionadaigh Focal"
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:225
+#, kde-format
+msgctxt "Total number of matches"
+msgid "1 match found"
+msgid_plural "%1 matches found"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:235
+#, kde-format
+msgid "No matches found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:241
+#, kde-format
+msgid "Search hit bottom, continuing from top."
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/widgets/KoFindToolbar.cpp:243
+#, kde-format
+msgid "Search hit top, continuing from bottom."
+msgstr ""
+
+#. +> trunk6 stable6
+#: part/Words.cpp:41
+#, kde-format
+msgid "Odd Pages Header"
+msgstr "Ceanntásc ar Leathanaigh Chorra"
+
+#. +> trunk6 stable6
+#: part/Words.cpp:43
+#, kde-format
+msgid "Even Pages Header"
+msgstr "Ceanntásc ar Leathanaigh Chothroma"
+
+#. +> trunk6 stable6
+#: part/Words.cpp:45
+#, kde-format
+msgid "Odd Pages Footer"
+msgstr "Buntásc ar Leathanaigh Chorra"
+
+#. +> trunk6 stable6
+#: part/Words.cpp:47
+#, kde-format
+msgid "Even Pages Footer"
+msgstr "Buntásc ar Leathanaigh Chothroma"
+
+#. +> trunk6 stable6
+#: part/Words.cpp:49
+#, kde-format
+msgid "Main text"
+msgstr "Príomhthéacs"
+
+#. +> trunk6 stable6
+#: part/Words.cpp:51
+#, fuzzy, kde-format
+msgid "Other text"
+msgstr "Leathanaigh Eile"

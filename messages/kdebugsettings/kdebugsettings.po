@@ -1,0 +1,555 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kdebugsettings package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebugsettings\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-18 07:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:42 src/quickapps/main.cpp:60
+#, kde-format
+msgid "KDebugSettings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:44 src/quickapps/main.cpp:62
+#, kde-format
+msgid "Configure debug settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:46
+#, kde-format
+msgid "(c) 2015-%1 kdebugsettings authors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:47 src/quickapps/main.cpp:65
+#, kde-format
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:47 src/quickapps/main.cpp:65
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:56 src/quickapps/main.cpp:71
+#, kde-format
+msgid "Enable QStandardPaths test mode, i.e. read/write settings used by unittests"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:59 src/quickapps/main.cpp:74
+#, kde-format
+msgid "Activate full debug for all modules."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:61 src/quickapps/main.cpp:76
+#, kde-format
+msgid "Disable full debug for all modules."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:64 src/quickapps/main.cpp:79
+#, kde-format
+msgid "Change debug mode as console (in console)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:66 src/quickapps/main.cpp:81
+#, kde-format
+msgid "Specify logging category name that you want to change debug mode (in console)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/apps/main.cpp:80 src/apps/main.cpp:90 src/apps/main.cpp:100
+#: src/quickapps/main.cpp:95 src/quickapps/main.cpp:105
+#: src/quickapps/main.cpp:115
+#, kde-format
+msgid "Impossible to change debug mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/kdebugsettingsutil.cpp:413
+#, kde-format
+msgid "Full Debug"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/kdebugsettingsutil.cpp:416
+#, kde-format
+msgid "Info"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/kdebugsettingsutil.cpp:419
+#, kde-format
+msgid "Warning"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/kdebugsettingsutil.cpp:422
+#, kde-format
+msgid "Critical"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/kdebugsettingsutil.cpp:425
+#, kde-format
+msgid "Off"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/kdebugsettingsutil.cpp:428 src/core/loggingcategory.cpp:146
+#, kde-format
+msgid "Undefined"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/loggingcategory.cpp:115
+#, kde-format
+msgid "Category name: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/loggingcategory.cpp:117
+#, kde-format
+msgid "Identifier: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/loggingcategory.cpp:119
+#, kde-format
+msgid "Default Severity: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/loggingcategory.cpp:128
+#, kde-format
+msgid "All Debug Messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/loggingcategory.cpp:131
+#, kde-format
+msgid "Info Messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/loggingcategory.cpp:134
+#, kde-format
+msgid "Warning Messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/loggingcategory.cpp:137
+#, kde-format
+msgid "Debug Messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/loggingcategory.cpp:140
+#, kde-format
+msgid "Critical Messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/core/loggingcategory.cpp:143
+#, kde-format
+msgid "No Debug Messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/quickapps/main.cpp:64
+#, kde-format
+msgid "(c) %1 kdebugsettings authors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/categorywarning.cpp:16
+#, kde-format
+msgid "A custom rule '*=true' or '*=false' is present, which may override more specific rules. It is better to remove it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/configurecustomsettingdialog.cpp:23
+#, kde-format
+msgctxt "@title:window"
+msgid "Add custom rule"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/configurecustomsettingdialog.cpp:42
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit custom rule"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/configurecustomsettingwidget.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/configurecustomsettingwidget.cpp:28
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Category:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/configurecustomsettingwidget.cpp:39
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Type:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/customdebuglistview.cpp:44
+#, kde-format
+msgctxt "@action"
+msgid "Add Rule…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/customdebuglistview.cpp:46
+#, kde-format
+msgctxt "@action"
+msgid "Edit Rule"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/customdebuglistview.cpp:52
+#: src/widgets/customdebuglistview.cpp:90
+#, kde-format
+msgid "Remove Rule"
+msgid_plural "Remove Rules"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: src/widgets/customdebuglistview.cpp:85
+#, kde-format
+msgid "Do you want to remove this rule?"
+msgid_plural "Do you want to remove these %1 rules?"
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: src/widgets/customdebugsettingspage.cpp:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Edit…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/customdebugsettingspage.cpp:24
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/customdebugsettingspage.cpp:40
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:33
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Search…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/customdebugsettingspage.cpp:48
+#, kde-format
+msgctxt "@action:button"
+msgid "Add…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/environmentplaintextedit.cpp:42
+#, kde-format
+msgid "No rules have been defined in the environment variable \"QT_LOGGING_RULES\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/environmentsettingsrulespage.cpp:31
+#, kde-format
+msgid "These rules cannot be edited with this application. You need to set them in QT_LOGGING_RULES variable directly."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/environmentsettingsrulespage.cpp:33
+#, kde-format
+msgid "Current rules:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementdialog.cpp:30
+#, kde-format
+msgctxt "@title:window"
+msgid "Manage Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:49
+#: src/widgets/groupmanagementwidget.cpp:52
+#: src/widgets/groupmanagementwidget.cpp:54
+#, kde-format
+msgid "Export Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:52
+#, kde-format
+msgid "Group exported to %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:54
+#, kde-format
+msgid "Impossible to export group '%2' to '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:67
+#: src/widgets/groupmanagementwidget.cpp:72
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:67
+#, kde-format
+msgid "New Name:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:72
+#, kde-format
+msgid "Impossible to rename group as '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:88
+#, kde-format
+msgctxt "@action"
+msgid "Rename Group…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:92
+#, kde-format
+msgctxt "@action"
+msgid "Export Group…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:97
+#, kde-format
+msgctxt "@action"
+msgid "Remove Groups"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:102
+#, kde-format
+msgid "Impossible to remove '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/groupmanagementwidget.cpp:102
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:23
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable All Debug"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:24
+#, kde-format
+msgctxt "@action:button"
+msgid "Turn Off Debug"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdeapplicationdebugsettingpage.cpp:25
+#, kde-format
+msgctxt "@action:button"
+msgid "Turn Off All Messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:65
+#, kde-format
+msgid "KDE Application"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:66
+#, kde-format
+msgid "Custom Rules"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:67
+#, kde-format
+msgid "Rules Settings With Environment Variable"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:76 src/widgets/savetoolbutton.cpp:17
+#, kde-format
+msgid "Save As…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:89
+#, kde-format
+msgctxt "@action:button"
+msgid "Insert…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:158
+#, kde-format
+msgid "'%1' cannot be opened. Please verify it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:183
+#, kde-format
+msgid "Insert Categories"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:183
+#, kde-format
+msgid "Categories Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:197
+#, kde-format
+msgid "Categories from file '%1' inserted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:197
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert Categories"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:205
+#, kde-format
+msgctxt "@title:window"
+msgid "Group Name"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:205
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:210
+#, kde-format
+msgid ""
+"<b>'%1'</b> is already used as a group name.\n"
+"Please save as another name."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:219
+#, kde-format
+msgid "Can not save as empty name. Please use a new one."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:226
+#, kde-format
+msgctxt "@title:window"
+msgid "Save As"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:226
+#: src/widgets/kdebugsettingsdialog.cpp:235
+#, kde-format
+msgid "KDebugSettings File (*.kdebugsettingsrules)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/kdebugsettingsdialog.cpp:235
+#, kde-format
+msgctxt "@title:window"
+msgid "Load Debug Settings Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/loadgroupmenu.cpp:21
+#, kde-format
+msgid "Load Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/loadgroupmenu.cpp:70
+#, kde-format
+msgctxt "@action"
+msgid "Manage Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/loadtoolbutton.cpp:19
+#, kde-format
+msgid "Load…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/loadtoolbutton.cpp:23
+#, kde-format
+msgctxt "@action"
+msgid "Load From File…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/savetoolbutton.cpp:22
+#, kde-format
+msgctxt "@action"
+msgid "Save As File…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/widgets/savetoolbutton.cpp:25
+#, kde-format
+msgctxt "@action"
+msgid "Save As Group…"
+msgstr ""

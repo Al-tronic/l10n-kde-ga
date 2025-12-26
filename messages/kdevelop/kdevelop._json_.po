@@ -1,0 +1,1044 @@
+# Irish translation of desktop_kdevplatform
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdevplatform package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2009-01-20 10:11-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: app/plasma/applet/package/metadata.json
+#: app/plasma/runner/kdevelopsessions.json
+msgctxt "Name"
+msgid "KDevelop Sessions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/android/kdevandroid.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Git Support"
+msgctxt "Name"
+msgid "Android Support"
+msgstr "Tacaíocht Git"
+
+#. +> trunk6 stable6
+#: plugins/appwizard/kdevappwizard.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Project Dashboard"
+msgctxt "Name"
+msgid "New Project Wizard"
+msgstr "Painéal an Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/astyle/kdevastyle.json
+msgctxt "Name"
+msgid "AStyle Formatter Backend"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/bazaar/kdevbazaar.json
+msgctxt "Name"
+msgid "Bazaar Support"
+msgstr "Tacaíocht Bazaar"
+
+#. +> trunk6 stable6
+#: plugins/clang/kdevclangsupport.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "CVS Support"
+msgctxt "Name"
+msgid "C++ Support"
+msgstr "Tacaíocht CVS"
+
+#. +> trunk6 stable6
+#: plugins/clangtidy/kdevclangtidy.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "CVS Support"
+msgctxt "Name"
+msgid "Clang-Tidy Support"
+msgstr "Tacaíocht CVS"
+
+#. +> trunk6 stable6
+#: plugins/classbrowser/kdevclassbrowser.json
+msgctxt "Name"
+msgid "Class Browser"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/clazy/kdevclazy.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "CVS Support"
+msgctxt "Name"
+msgid "Clazy Support"
+msgstr "Tacaíocht CVS"
+
+#. +> trunk6 stable6
+#: plugins/cmakebuilder/kdevcmakebuilder.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "CMake Project Builder"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/cmake/kdevcmakedocumentation.json
+msgctxt "Name"
+msgid "CMake Documentation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/cmake/kdevcmakemanager.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "CMake Project Manager"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/codeutils/kdevcodeutils.json
+msgctxt "Name"
+msgid "Code Utilities"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/contextbrowser/kdevcontextbrowser.json
+msgctxt "Name"
+msgid "Code Browser"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/cppcheck/kdevcppcheck.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "CVS Support"
+msgctxt "Name"
+msgid "Cppcheck Support"
+msgstr "Tacaíocht CVS"
+
+#. +> trunk6 stable6
+#: plugins/craft/kdevcraft.json
+msgctxt "Name"
+msgid "Craft runtime"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/custom-buildsystem/kdevcustombuildsystem.json
+msgctxt "Name"
+msgid "Custom Build System"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/custom-definesandincludes/kdevdefinesandincludesmanager.json
+msgctxt "Name"
+msgid "Custom Defines And Includes Manager"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/custommake/kdevcustommakemanager.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "Custom Makefile Project Manager"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/customscript/kdevcustomscript.json
+msgctxt "Name"
+msgid "Custom Script Formatter Backend"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/docker/kdevdocker.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "CVS Support"
+msgctxt "Name"
+msgid "Docker Support"
+msgstr "Tacaíocht CVS"
+
+#. +> trunk6 stable6
+#: plugins/documentswitcher/kdevdocumentswitcher.json
+msgctxt "Name"
+msgid "Most-Recently-Used Document Switcher"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/documentview/kdevdocumentview.json
+msgctxt "Name"
+msgid "Document View"
+msgstr "Amharc Cáipéise"
+
+#. +> trunk6 stable6
+#: plugins/execute/kdevexecute.json
+msgctxt "Name"
+msgid "Execute Programs"
+msgstr "Rith Ríomhchláir"
+
+#. +> trunk6 stable6
+#: plugins/executeplasmoid/kdevexecuteplasmoid.json
+msgctxt "Name"
+msgid "Plasmoid Launcher"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/executescript/kdevexecutescript.json
+msgctxt "Name"
+msgid "Execute Scripts"
+msgstr "Rith Scripteanna"
+
+#. +> trunk6 stable6
+#: plugins/externalscript/kdevexternalscript.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Execute Scripts"
+msgctxt "Name"
+msgid "External Scripts"
+msgstr "Rith Scripteanna"
+
+#. +> trunk6 stable6
+#: plugins/filemanager/kdevfilemanager.json
+msgctxt "Name"
+msgid "KDE File Manager Integration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/filetemplates/kdevfiletemplates.json
+msgctxt "Name"
+msgid "File Templates Configuration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/flatpak/kdevflatpak.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Git Support"
+msgctxt "Name"
+msgid "Flatpak Support"
+msgstr "Tacaíocht Git"
+
+#. +> trunk6 stable6
+#: plugins/gdb/kdevgdb.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Git Support"
+msgctxt "Name"
+msgid "GDB Support"
+msgstr "Tacaíocht Git"
+
+#. +> trunk6 stable6
+#: plugins/genericprojectmanager/kdevgenericmanager.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "Generic Project Manager"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/ghprovider/kdevghprovider.json
+msgctxt "Name"
+msgid "GitHub Provider"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/git/kdevgit.json
+msgctxt "Name"
+msgid "Git Support"
+msgstr "Tacaíocht Git"
+
+#. +> trunk6 stable6
+#: plugins/grepview/kdevgrepview.json
+msgctxt "Name"
+msgid "Find/Replace In Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/heaptrack/kdevheaptrack.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Git Support"
+msgctxt "Name"
+msgid "Heaptrack Support"
+msgstr "Tacaíocht Git"
+
+#. +> trunk6 stable6
+#: plugins/konsole/kdevkonsoleview.json
+msgctxt "Name"
+msgid "Konsole Integration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/lldb/kdevlldb.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "CVS Support"
+msgctxt "Name"
+msgid "LLDB Support"
+msgstr "Tacaíocht CVS"
+
+#. +> trunk6 stable6
+#: plugins/makebuilder/kdevmakebuilder.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "Make Project Builder"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/manpage/kdevmanpage.json
+msgctxt "Name"
+msgid "Man Pages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/meson/kdevmesonmanager.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "Meson Project Manager"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/ninjabuilder/kdevninja.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "Ninja Project Builder"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/okteta/kdevokteta.json
+msgctxt "Name"
+msgid "Hex Editor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/openwith/kdevopenwith.json
+msgctxt "Name"
+msgid "Open With"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/outlineview/kdevoutlineview.json
+msgctxt "Name"
+msgid "Outline"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/patchreview/kdevpatchreview.json
+msgctxt "Name"
+msgid "Patch Review"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/perforce/kdevperforce.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "CVS Support"
+msgctxt "Name"
+msgid "Perforce Support"
+msgstr "Tacaíocht CVS"
+
+#. +> trunk6 stable6
+#: plugins/problemreporter/kdevproblemreporter.json
+msgctxt "Name"
+msgid "Problem Reporter View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/projectfilter/kdevprojectfilter.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "Project Filter"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/projectmanagerview/kdevprojectmanagerview.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "Project Manager View"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/qmakebuilder/kdevqmakebuilder.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "QMake Project Builder"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/qmakemanager/kdevqmakemanager.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Project Manager"
+msgctxt "Name"
+msgid "QMake Project Manager"
+msgstr "Bainisteoir Tionscadail"
+
+#. +> trunk6 stable6
+#: plugins/qmljs/kdevqmljs.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "CVS Support"
+msgctxt "Name"
+msgid "QML Support"
+msgstr "Tacaíocht CVS"
+
+#. +> trunk6 stable6
+#: plugins/qthelp/kdevqthelp.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Document View"
+msgctxt "Name"
+msgid "Qt Documentation"
+msgstr "Amharc Cáipéise"
+
+#. +> trunk6 stable6
+#: plugins/quickopen/kdevquickopen.json
+msgctxt "Name"
+msgid "Quick Open"
+msgstr "Oscailt Thapa"
+
+#. +> trunk6 stable6
+#: plugins/scratchpad/scratchpad.json
+msgctxt "Name"
+msgid "Scratchpad"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/sourceformatter/kdevsourceformatter.json
+msgctxt "Name"
+msgid "Source Formatter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/standardoutputview/kdevstandardoutputview.json
+msgctxt "Name"
+msgid "Output View"
+msgstr "Amharc Aschurtha"
+
+#. +> trunk6 stable6
+#: plugins/subversion/kdevsubversion.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "CVS Support"
+msgctxt "Name"
+msgid "Subversion Support"
+msgstr "Tacaíocht CVS"
+
+#. +> trunk6 stable6
+#: plugins/switchtobuddy/kdevswitchtobuddy.json
+msgctxt "Name"
+msgid "Switch to Buddy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/testview/kdevtestview.json
+msgctxt "Name"
+msgid "Unit Test View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/vcschangesview/kdevvcschangesview.json
+msgctxt "Name"
+msgid "VCS Integration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/welcomepage/kdevwelcomepage.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDevelop Plugin"
+msgctxt "Name"
+msgid "KDevelop Welcome Page"
+msgstr "Breiseán KDevelop"
+
+#. +> trunk6 stable6
+#: app/plasma/applet/package/metadata.json
+msgctxt "Description"
+msgid "List and launch KDevelop sessions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/plasma/runner/kdevelopsessions.json
+msgctxt "Description"
+msgid "Matches KDevelop Sessions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/android/kdevandroid.json
+msgctxt "Description"
+msgid "Exposes Android runtimes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/appwizard/kdevappwizard.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Application Wizard"
+msgctxt "Description"
+msgid "Application Wizard"
+msgstr "Treoraí Feidhmchláir"
+
+#. +> trunk6 stable6
+#: plugins/astyle/kdevastyle.json
+msgctxt "Description"
+msgid "A plugin for formatting of sourcecode according to a specified set of rules"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/bazaar/kdevbazaar.json
+msgctxt "Description"
+msgid "This plugin integrates Bazaar to KDevelop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/clang/kdevclangsupport.json
+msgctxt "Description"
+msgid "C/C++ Language Support (Clang-based)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/clangtidy/kdevclangtidy.json
+msgctxt "Description"
+msgid "clang-tidy provides an extensible framework for diagnosing and fixing typical programming errors, like style violations, interface misuse, or bugs that can be deduced via static analysis. https://clang.llvm.org/extra/clang-tidy/"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/classbrowser/kdevclassbrowser.json
+msgctxt "Description"
+msgid "This plugin provides a browsable model of the currently parsed classes and other items."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/clazy/kdevclazy.json
+msgctxt "Description"
+msgid "This plugin integrates Clazy to KDevelop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/cmakebuilder/kdevcmakebuilder.json
+msgctxt "Description"
+msgid "Builds CMake Projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/cmake/kdevcmakedocumentation.json
+msgctxt "Description"
+msgid "Allows KDevelop to provide CMake documentation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/cmake/kdevcmakemanager.json
+msgctxt "Description"
+msgid "Allows KDevelop to manage CMake-based projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/codeutils/kdevcodeutils.json
+msgctxt "Description"
+msgid "Collection of various utilities that increase productivity while programming."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/contextbrowser/kdevcontextbrowser.json
+msgctxt "Description"
+msgid "This plugin shows information about the current language context in a side view, and highlights relevant declarations and uses."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/cppcheck/kdevcppcheck.json
+msgctxt "Description"
+msgid "This plugin integrates Cppcheck (static analysis tool) to KDevelop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/craft/kdevcraft.json
+msgctxt "Description"
+msgid "Exposes KDE Craft environment as a runtime"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/custom-buildsystem/kdevcustombuildsystem.json
+msgctxt "Description"
+msgid "Allows to use custom buildsystems for KDevelop projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/custom-definesandincludes/kdevdefinesandincludesmanager.json
+msgctxt "Description"
+msgid "Configure which macros and include directories/files will be added to the parser during project parsing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/custommake/kdevcustommakemanager.json
+msgctxt "Description"
+msgid "Imports and edits custom make projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/customscript/kdevcustomscript.json
+msgctxt "Description"
+msgid "A plugin for formatting C files using custom scripts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/docker/kdevdocker.json
+msgctxt "Description"
+msgid "Exposes Docker runtimes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/documentswitcher/kdevdocumentswitcher.json
+msgctxt "Description"
+msgid "A most-recently-used document switcher for KDevPlatform."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/documentview/kdevdocumentview.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "This plugin displays a graphical view of all documents currently loaded and separates them by mimetype."
+msgctxt "Description"
+msgid "This plugin displays a graphical view of all documents currently loaded and separates them by mimetype."
+msgstr "Taispeánann an breiseán seo amharc grafach ar gach cáipéis atá luchtaithe faoi láthair, agus dealaíonn sé iad de réir a gcineál MIME."
+
+#. +> trunk6 stable6
+#: plugins/execute/kdevexecute.json
+msgctxt "Description"
+msgid "This plugin allows running of programs with no instrumentor, ie. natively by the current host."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/executeplasmoid/kdevexecuteplasmoid.json
+msgctxt "Description"
+msgid "Lets you view a plasmoid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/executescript/kdevexecutescript.json
+msgctxt "Description"
+msgid "This plugin allows running of scripts."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/externalscript/kdevexternalscript.json
+msgctxt "Description"
+msgid "Run external scripts or applications to manipulate the editor contents or do other arbitrary actions."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/filemanager/kdevfilemanager.json
+msgctxt "Description"
+msgid "This plugin brings a filemanager to KDevelop."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/filetemplates/kdevfiletemplates.json
+msgctxt "Description"
+msgid "Manages templates for source files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/flatpak/kdevflatpak.json
+msgctxt "Description"
+msgid "Exposes Flatpak runtimes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/gdb/kdevgdb.json
+msgctxt "Description"
+msgid "This plugin provides a frontend for GDB, a source-level debugger for C, C++ and more."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/genericprojectmanager/kdevgenericmanager.json
+msgctxt "Description"
+msgid "Allow KDevelop to manage generic projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ghprovider/kdevghprovider.json
+msgctxt "Description"
+msgid "This plugin helps to obtain projects from GitHub"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/git/kdevgit.json
+msgctxt "Description"
+msgid "This plugin integrates Git to KDevelop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/grepview/kdevgrepview.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Allows fast searching of multiple files using patterns or regular expressions. And allow to replace it too."
+msgctxt "Description"
+msgid "Allows fast searching of multiple files using patterns or regular expressions. And allow to replace it too."
+msgstr "Ceadaíonn sé duit il-comhaid a chuardach go tapa le patrúin nó sloinn ionadaíochta. Agus is féidir asáitiú chomh maith."
+
+#. +> trunk6 stable6
+#: plugins/heaptrack/kdevheaptrack.json
+msgctxt "Description"
+msgid "This plugin integrates Heaptrack to KDevelop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/konsole/kdevkonsoleview.json
+msgctxt "Description"
+msgid "This plugin provides KDevelop with an embedded konsole for quick and easy command line access."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/lldb/kdevlldb.json
+msgctxt "Description"
+msgid "This plugin provides a frontend for LLDB, a next generation, high-performance C/Obj-C/C++ debugger."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/makebuilder/kdevmakebuilder.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KDevelop Plugin"
+msgctxt "Description"
+msgid "KDevelop Make Builder"
+msgstr "Breiseán KDevelop"
+
+#. +> trunk6 stable6
+#: plugins/manpage/kdevmanpage.json
+msgctxt "Description"
+msgid "This plugin provides Manual Pages integration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/meson/kdevmesonmanager.json
+msgctxt "Description"
+msgid "Imports and edits Meson projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ninjabuilder/kdevninja.json
+msgctxt "Description"
+msgid "KDevelop Ninja Builder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/okteta/kdevokteta.json
+msgctxt "Description"
+msgid "Enables viewing and editing of the raw data of files (Okteta-based)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/openwith/kdevopenwith.json
+msgctxt "Description"
+msgid "This plugin allows one to open files with associated external applications."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/outlineview/kdevoutlineview.json
+msgctxt "Description"
+msgid "This plugin provides a view to show the outline of the currently open document."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/patchreview/kdevpatchreview.json
+msgctxt "Description"
+msgid "This plugin allows reviewing patches directly in the editor."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/perforce/kdevperforce.json
+msgctxt "Description"
+msgid "Provides Integration with Perforce Version Control System"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/problemreporter/kdevproblemreporter.json
+msgctxt "Description"
+msgid "This plugin shows errors in source code."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/projectfilter/kdevprojectfilter.json
+msgctxt "Description"
+msgid "Configure which files and folders inside the project folder should be included or excluded."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/projectmanagerview/kdevprojectmanagerview.json
+msgctxt "Description"
+msgid "Lets you manage the project contents."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/qmakebuilder/kdevqmakebuilder.json
+msgctxt "Description"
+msgid "Builds QMake Projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/qmakemanager/kdevqmakemanager.json
+msgctxt "Description"
+msgid "Imports and edits QMake projects"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/qmljs/kdevqmljs.json
+msgctxt "Description"
+msgid "QML/JS language support (based on qmljs from QtCreator)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/qthelp/kdevqthelp.json
+msgctxt "Description"
+msgid "This plugin provides QtHelp integration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/quickopen/kdevquickopen.json
+msgctxt "Description"
+msgid "This plugin allows quick access to project files and language-items like classes/functions."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/scratchpad/scratchpad.json
+msgctxt "Description"
+msgid "Scratchpad lets you quickly run and experiment with code without a full project, and even store todos."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/sourceformatter/kdevsourceformatter.json
+msgctxt "Description"
+msgid "Configure which style should be used for formatting of the sourcecode in a project."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/standardoutputview/kdevstandardoutputview.json
+msgctxt "Description"
+msgid "Provides a text output tool view for other plugins to use, to show things like compiler messages."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/subversion/kdevsubversion.json
+msgctxt "Description"
+msgid "This plugin integrates Subversion to KDevelop."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/switchtobuddy/kdevswitchtobuddy.json
+msgctxt "Description"
+msgid "Allows switching between buddy documents like implementation and header file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/testview/kdevtestview.json
+msgctxt "Description"
+msgid "Lets you see and run unit tests."
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/vcschangesview/kdevvcschangesview.json
+msgctxt "Description"
+msgid "This plugin provides integration between the projects and their VCS infrastructure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/welcomepage/kdevwelcomepage.json
+msgctxt "Description"
+msgid "Provides the welcome page visible in an empty session"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/plasma/applet/package/metadata.json
+msgctxt "Authors Name"
+msgid "Eike Hein"
+msgstr ""
+
+#. +> trunk6 stable6
+#: app/plasma/runner/kdevelopsessions.json
+msgctxt "Authors Name"
+msgid "Sebastian Kügler"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/android/kdevandroid.json plugins/cmake/kdevcmakedocumentation.json
+#: plugins/docker/kdevdocker.json plugins/flatpak/kdevflatpak.json
+#: plugins/qthelp/kdevqthelp.json
+#: plugins/vcschangesview/kdevvcschangesview.json
+msgctxt "Authors Name"
+msgid "Aleix Pol"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/appwizard/kdevappwizard.json
+#: plugins/filemanager/kdevfilemanager.json
+#: plugins/filetemplates/kdevfiletemplates.json
+msgctxt "Authors Name"
+msgid "Alexander Dymo"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/astyle/kdevastyle.json
+msgctxt "Authors Name"
+msgid "Cedric Pasteur, Matthias Hölzer-Klüpfel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/bazaar/kdevbazaar.json
+msgctxt "Authors Name"
+msgid "Maciej Poleski"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/clangtidy/kdevclangtidy.json
+msgctxt "Authors Name"
+msgid "Carlos Nihelton"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/clangtidy/kdevclangtidy.json plugins/okteta/kdevokteta.json
+msgctxt "Authors Name"
+msgid "Friedrich W. H. Kossebau"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/classbrowser/kdevclassbrowser.json plugins/execute/kdevexecute.json
+#: plugins/problemreporter/kdevproblemreporter.json
+msgctxt "Authors Name"
+msgid "Hamish Rodda"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/clazy/kdevclazy.json plugins/heaptrack/kdevheaptrack.json
+msgctxt "Authors Name"
+msgid "Anton Anikin"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/cmake/kdevcmakemanager.json
+msgctxt "Authors Name"
+msgid "Matt Rogers"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/contextbrowser/kdevcontextbrowser.json
+#: plugins/customscript/kdevcustomscript.json
+#: plugins/patchreview/kdevpatchreview.json
+#: plugins/quickopen/kdevquickopen.json
+msgctxt "Authors Name"
+msgid "David Nolden"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/cppcheck/kdevcppcheck.json
+msgctxt "Authors Name"
+msgid "Christoph Thielecke"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/craft/kdevcraft.json
+msgctxt "Authors Name"
+msgid "Gleb Popov"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/documentswitcher/kdevdocumentswitcher.json
+#: plugins/openwith/kdevopenwith.json
+msgctxt "Authors Name"
+msgid "Andreas Pakulat"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/documentview/kdevdocumentview.json
+msgctxt "Authors Name"
+msgid "Adam Treat"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/executeplasmoid/kdevexecuteplasmoid.json
+msgctxt "Authors Name"
+msgid "Aleix Pol Gonzalez"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/executescript/kdevexecutescript.json
+msgctxt "Authors Name"
+msgid "Niko Sams"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/externalscript/kdevexternalscript.json
+#: plugins/genericprojectmanager/kdevgenericmanager.json
+#: plugins/projectfilter/kdevprojectfilter.json
+msgctxt "Authors Name"
+msgid "Milian Wolff"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/ghprovider/kdevghprovider.json
+msgctxt "Authors Name"
+msgid "Miquel Sabaté"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/git/kdevgit.json
+msgctxt "Authors Name"
+msgid "Evgeniy Ivanov"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/outlineview/kdevoutlineview.json
+msgctxt "Authors Name"
+msgid "Alex Richardson"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/perforce/kdevperforce.json
+msgctxt "Authors Name"
+msgid "Morten Danielsen Volden"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/projectmanagerview/kdevprojectmanagerview.json
+msgctxt "Authors Name"
+msgid "Roberto Raggi"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/subversion/kdevsubversion.json
+msgctxt "Authors Name"
+msgid "Dukju Ahn"
+msgstr ""
+
+#. +> trunk6 stable6
+#: plugins/testview/kdevtestview.json
+msgctxt "Authors Name"
+msgid "Miha Čančula"
+msgstr ""

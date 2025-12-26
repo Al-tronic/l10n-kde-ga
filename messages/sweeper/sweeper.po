@@ -1,0 +1,327 @@
+# Irish translation of sweeper
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the sweeper package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+# SPDX-FileCopyrightText: 2025 Charlotte <altronic25@protonmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase/privacy.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-03-05 10:21+0100\n"
+"PO-Revision-Date: 2025-12-19 17:26+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish <kde-i18n-doc@kde.org>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: main.cpp:25
+#, kde-format
+msgid "Sweeper"
+msgstr "Sweeper"
+
+#. +> trunk6 stable6
+#: main.cpp:27
+#, kde-format
+msgid "Helps clean unwanted traces the user leaves on the system."
+msgstr "Glan loirg a fhágann an t-úsáideoir ar an gcóras gan chuimhneamh."
+
+#. +> trunk6 stable6
+#: main.cpp:29
+#, kde-format
+msgid "© 2003-2005, Ralf Hoelzer"
+msgstr "© 2003-2005, Ralf Hoelzer"
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "Ralf Hoelzer"
+msgstr "Ralf Hoelzer"
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "Original author"
+msgstr "An chéad údar"
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "Brian S. Stephan"
+msgstr "Brian S. Stephan"
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "Maintainer"
+msgstr "Cothaitheoir"
+
+#. +> trunk6 stable6
+#: main.cpp:35
+#, kde-format
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#. +> trunk6 stable6
+#: main.cpp:35 privacyfunctions.h:65
+#, kde-format
+msgid "Thumbnail Cache"
+msgstr "Taisce Mionsamhlacha"
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "Sweeps without user interaction"
+msgstr "Scuabadh gan idirghníomhú ón úsáideoir"
+
+#. +> trunk6 stable6
+#: privacyfunctions.cpp:44 privacyfunctions.cpp:53 privacyfunctions.cpp:62
+#, kde-format
+msgid "A thumbnail could not be removed."
+msgstr "Níorbh fhéidir mionsamhail a bhaint."
+
+#. +> trunk6 stable6
+#: privacyfunctions.cpp:131
+#, kde-format
+msgid "The file exists but could not be removed."
+msgstr "Tá an comhad ann ach níorbh fhéidir é a bhaint."
+
+#. +> trunk6 stable6
+#: privacyfunctions.cpp:210
+#, kde-format
+msgid "A favicon could not be removed."
+msgstr "Níorbh fhéidir deilbhín ceanán a bhaint."
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:22
+#, kde-format
+msgid "Cookies"
+msgstr "Fianáin"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:22
+#, kde-format
+msgid "Clears all stored cookies set by websites"
+msgstr "Glan gach fianán a bhí socraithe ag suíomh Gréasáin"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:37
+#, kde-format
+msgid "Cookie Policies"
+msgstr "Polasaithe Fianán"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:37
+#, kde-format
+msgid "Clears the cookie policies for all visited websites"
+msgstr "Glan na polasaithe fianán le haghaidh gach suíomh a ndearna tú cuairt air"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:51
+#, kde-format
+msgid "Saved Clipboard Contents"
+msgstr "Ábhar a Sábháladh sa Ghearrthaisce"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:51
+#, kde-format
+msgid "Clears the clipboard contents stored by Klipper"
+msgstr "Glan inneachar an ghearrthaisce a shábháil Klipper"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:65
+#, kde-format
+msgid "Clears all cached thumbnails"
+msgstr "Glan gach mionsamhail ón taisce"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:79
+#, kde-format
+msgid "Run Command History"
+msgstr "Stair na nOrduithe"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:79
+#, kde-format
+msgid "Clears the history of commands run through the Run Command tool on the desktop"
+msgstr "Glan stair na n-orduithe a ritheadh leis an uirlis \"Rith Ordú\" ar an deasc"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:93
+#, kde-format
+msgid "Form Completion Entries"
+msgstr "Iontrálacha i bhFoirmeacha Comhlánaithe"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:93
+#, kde-format
+msgid "Clears values which were entered into forms on websites"
+msgstr "Glan luachanna a iontráladh isteach i bhfoirmeacha ar shuímh Ghréasáin"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:107
+#, kde-format
+msgid "Web History"
+msgstr "Stair Bhrabhsála"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:107
+#, kde-format
+msgid "Clears the history of visited websites"
+msgstr "Glan stair na suímh Ghréasáin ar tugadh cuairt orthu"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:121
+#, kde-format
+msgid "Web Cache"
+msgstr "Taisce Ghréasáin"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:121
+#, kde-format
+msgid "Clears the temporary cache of websites visited"
+msgstr "Glan an taisce shealadach de shuímh Ghréasáin a ndearnadh tú cuairt orthu"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:135
+#, kde-format
+msgid "Recent Documents"
+msgstr "Cáipéisí is Déanaí"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:135
+#, kde-format
+msgid "Clears the list of recently used documents from the KDE applications menu"
+msgstr "Glan an liosta de cháipéisí a úsáideadh le déanaí ón roghchlár feidhmchlár KDE"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:149
+#, kde-format
+msgid "Favorite Icons"
+msgstr "Deilbhíní is ansa leat"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:149
+#, kde-format
+msgid "Clears the FavIcons cached from visited websites"
+msgstr "Glan Deilbhíní Ceanán ón taisce de shuímh a ndearnadh cuairt orthu"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:163
+#, kde-format
+msgid "Recent Applications"
+msgstr "Feidhmchláir Le Déanaí"
+
+#. +> trunk6 stable6
+#: privacyfunctions.h:163
+#, kde-format
+msgid "Clears the list of recently used applications from KDE menu"
+msgstr "Glan an liosta d'fheidhmchláir a úsáideadh le déanaí ón roghchlár KDE"
+
+#. +> trunk6 stable6
+#: sweeper.cpp:22
+#, kde-format
+msgctxt "General system content"
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: sweeper.cpp:23
+#, kde-format
+msgctxt "Web browsing content"
+msgid "Web Browsing"
+msgstr "Brabhsáil Ghréasáin"
+
+#. +> trunk6 stable6
+#: sweeper.cpp:100
+#, kde-format
+msgid "You are deleting data that is potentially valuable to you. Are you sure?"
+msgstr "Tá tú ar tí sonraí a scriosadh agus seans go bhfuil na sonraí seo luachmhar. An bhfuil tú cinnte?"
+
+#. +> trunk6 stable6
+#: sweeper.cpp:107
+#, kde-format
+msgid "Starting cleanup..."
+msgstr "Glanadh á thosú..."
+
+#. +> trunk6 stable6
+#: sweeper.cpp:111
+#, kde-format
+msgid "Clearing %1..."
+msgstr "%1 á ghlanadh..."
+
+#. +> trunk6 stable6
+#: sweeper.cpp:116
+#, kde-format
+msgid "Clearing of %1 failed: %2"
+msgstr "Theip ar ghlanadh %1: %2"
+
+#. +> trunk6 stable6
+#: sweeper.cpp:122
+#, kde-format
+msgid "Clean up finished."
+msgstr "Glanta."
+
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, privacyListView)
+#. +> trunk6 stable6
+#: sweeperdialog.ui:27
+#, kde-format
+msgid "Check all cleanup actions you would like to perform. These will be executed by pressing the button below."
+msgstr "Ticeáil gach gníomh glanta is mian leat a dhéanamh. Rithfear iad seo nuair a bhrúnn tú an cnaipe thíos."
+
+#. i18n: ectx: property (text), widget (QTreeWidget, privacyListView)
+#. +> trunk6 stable6
+#: sweeperdialog.ui:37
+#, kde-format
+msgid "Privacy Settings"
+msgstr "Socruithe Príobháideachta"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, privacyListView)
+#. +> trunk6 stable6
+#: sweeperdialog.ui:42
+#, kde-format
+msgid "Description"
+msgstr "Cur Síos"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectAllButton)
+#. +> trunk6 stable6
+#: sweeperdialog.ui:58
+#, kde-format
+msgid "Select &All"
+msgstr "Roghnaigh &Uile"
+
+#. i18n: ectx: property (text), widget (QPushButton, selectNoneButton)
+#. +> trunk6 stable6
+#: sweeperdialog.ui:65
+#, kde-format
+msgid "Select &None"
+msgstr "&Ná Roghnaigh"
+
+#. i18n: ectx: property (whatsThis), widget (QPushButton, cleanupButton)
+#. +> trunk6 stable6
+#: sweeperdialog.ui:88
+#, kde-format
+msgid "Immediately performs the cleanup actions selected above"
+msgstr "Déan na gníomhartha glanta a roghnaigh tú thuas láithreach"
+
+#. i18n: ectx: property (text), widget (QPushButton, cleanupButton)
+#. +> trunk6 stable6
+#: sweeperdialog.ui:91
+#, kde-format
+msgid "&Clean Up"
+msgstr "&Glan"

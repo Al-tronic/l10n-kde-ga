@@ -1,0 +1,2247 @@
+# translation of konqueror.po to Irish
+# Copyright (C) 2002,2003 Free Software Foundation, Inc.
+# Seamus O Ciardhuain <seoc@cnds.ucd.ie>, 2003
+# Kevin Scannell <kscanne@gmail.com>, 2009
+msgid ""
+msgstr ""
+"Project-Id-Version: konqueror\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-09 09:22+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: src/configdialog.cpp:73
+#, fuzzy, kde-format
+#| msgid "File Management"
+msgctxt "@title:tab The file manager behavior tab. Also used in the list of tabs for consistency"
+msgid "File Manager Behavior"
+msgstr "Bainisteoireacht Comhad"
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:162
+#, kde-format
+msgctxt "@label Type of file"
+msgid "Type: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:170
+#, kde-format
+msgctxt "@label:checkbox"
+msgid "Remember action for files of this type"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:286
+#, kde-format
+msgctxt "@info"
+msgid "Save '%1'?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:288
+#, fuzzy, kde-format
+#| msgid "Open with %1"
+msgctxt "@info"
+msgid "Open '%1'?"
+msgstr "Oscail le %1"
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:306
+#, fuzzy, kde-format
+#| msgid "&Open With"
+msgctxt "@label:button"
+msgid "&Open with..."
+msgstr "&Oscail Le"
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:314 src/downloadactionquestion.cpp:467
+#, fuzzy, kde-format
+#| msgid "Open with %1"
+msgctxt "@label:button"
+msgid "&Open with %1"
+msgstr "Oscail le %1"
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:323
+#, fuzzy, kde-format
+#| msgid "&Open With"
+msgctxt "@label:button"
+msgid "&Open with"
+msgstr "&Oscail Le"
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:339
+#, kde-format
+msgctxt "@label:button"
+msgid "&Display in %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:351
+#, kde-format
+msgctxt "@label:button"
+msgid "&Display in"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:373
+#, fuzzy, kde-format
+#| msgid "Open with %1"
+msgctxt "@action:inmenu"
+msgid "Open &with %1"
+msgstr "Oscail le %1"
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:405
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Display &in %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:427
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Viewers not supporting this file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:431
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Viewers unlikely to display the file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:432
+#, kde-format
+msgctxt "The name of the file the user wants to open"
+msgid "this file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:433
+#, kde-format
+msgid ""
+"<p>Viewers which aren't supposed to be able to display %1. Using them will most likely fail.</p>"
+"<p>These choices are provided in case the detected file type is incorrect or if a viewer can display %1 even if it doesn't officially support it.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:454
+#, fuzzy, kde-format
+#| msgid "Name:"
+msgctxt "@label File name"
+msgid "Name: %1"
+msgstr "Ainm:"
+
+#. +> trunk6 stable6
+#: src/downloadactionquestion.cpp:456
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "This is the file name suggested by the server"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:116
+#, kde-format
+msgid ""
+"<p>You're running Konqueror as root. This requires enabling a highly insecure mode in the browser component.</p>"
+"<p>What do you want to do?</p>"
+msgstr ""
+
+# trade name, do not translate
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:159
+#, kde-format
+msgid "Konqueror"
+msgstr "Konqueror"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:160
+#, kde-format
+msgid "Web browser, file manager and document viewer."
+msgstr "Brabhsálaí, bainisteoir comhad agus amharcán cáipéisí."
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:162
+#, fuzzy, kde-format
+#| msgid "(C) 1999-2008, The Konqueror developers"
+msgid "(C) 1999-2023, The Konqueror developers"
+msgstr "© 1999-2008, Forbróirí Konqueror"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:176
+#, kde-format
+msgid "Stefano Crocco"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:176
+#, kde-format
+msgid "Current maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:177
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:177
+#, fuzzy, kde-format
+#| msgid "Developer (framework, parts, JavaScript, I/O library) and maintainer"
+msgid "Developer (framework, parts, JavaScript, I/O library) and former maintainer"
+msgstr "Forbróir (creatlach, comhpháirteanna, JavaScript, leabharlann I/A) agus cothaitheoir"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:178
+#, kde-format
+msgid "Simon Hausmann"
+msgstr "Simon Hausmann"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:178
+#, kde-format
+msgid "Developer (framework, parts)"
+msgstr "Forbróir (creatlach, comhpháirteanna)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:179
+#, kde-format
+msgid "Michael Reiher"
+msgstr "Michael Reiher"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:179 src/konqapplication.cpp:207
+#: src/konqapplication.cpp:213
+#, kde-format
+msgid "Developer (framework)"
+msgstr "Forbróir (creatlach)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:180
+#, kde-format
+msgid "Matthias Welk"
+msgstr "Matthias Welk"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:180
+#, kde-format
+msgid "Developer"
+msgstr "Forbróir"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:181
+#, kde-format
+msgid "Alexander Neundorf"
+msgstr "Alexander Neundorf"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:181
+#, kde-format
+msgid "Developer (List views)"
+msgstr "Forbróir (amhairc na liostaí)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:182
+#, kde-format
+msgid "Michael Brade"
+msgstr "Michael Brade"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:182
+#, kde-format
+msgid "Developer (List views, I/O library)"
+msgstr "Forbróir (amhairc na liostaí, leabharlann aschurtha/ionchurtha)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:183
+#, kde-format
+msgid "Lars Knoll"
+msgstr "Lars Knoll"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:183 src/konqapplication.cpp:184
+#: src/konqapplication.cpp:185 src/konqapplication.cpp:187
+#: src/konqapplication.cpp:188 src/konqapplication.cpp:190
+#: src/konqapplication.cpp:191 src/konqapplication.cpp:192
+#: src/konqapplication.cpp:193 src/konqapplication.cpp:195
+#, kde-format
+msgid "Developer (HTML rendering engine)"
+msgstr "Forbróir (inneall HTML)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:184
+#, kde-format
+msgid "Dirk Mueller"
+msgstr "Dirk Mueller"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:185
+#, kde-format
+msgid "Peter Kelly"
+msgstr "Peter Kelly"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:186
+#, kde-format
+msgid "Waldo Bastian"
+msgstr "Waldo Bastian"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:186
+#, kde-format
+msgid "Developer (HTML rendering engine, I/O library)"
+msgstr "Forbróir (inneall HTML, leabharlann aschurtha/ionchurtha)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:187
+#, kde-format
+msgid "Germain Garand"
+msgstr "Germain Garand"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:188 src/konqapplication.cpp:216
+#, kde-format
+msgid "Leo Savernik"
+msgstr "Leo Savernik"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:189
+#, kde-format
+msgid "Stephan Kulow"
+msgstr "Stephan Kulow"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:189
+#, kde-format
+msgid "Developer (HTML rendering engine, I/O library, regression test framework)"
+msgstr "Forbróir (inneall HTML, leabharlann I/A, creatlach don tástáil aischéimnitheach)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:190
+#, kde-format
+msgid "Antti Koivisto"
+msgstr "Antti Koivisto"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:191
+#, kde-format
+msgid "Zack Rusin"
+msgstr "Zack Rusin"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:192
+#, kde-format
+msgid "Tobias Anton"
+msgstr "Tobias Anton"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:193
+#, kde-format
+msgid "Lubos Lunak"
+msgstr "Lubos Lunak"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:194
+#, kde-format
+msgid "Maks Orlovich"
+msgstr "Maks Orlovich"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:194 src/konqapplication.cpp:196
+#, kde-format
+msgid "Developer (HTML rendering engine, JavaScript)"
+msgstr "Forbróir (inneall HTML, JavaScript)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:195
+#, kde-format
+msgid "Allan Sandfeld Jensen"
+msgstr "Allan Sandfeld Jensen"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:196
+#, kde-format
+msgid "Apple Safari Developers"
+msgstr "Forbróirí Safari Apple"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:197
+#, kde-format
+msgid "Harri Porten"
+msgstr "Harri Porten"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:197
+#, kde-format
+msgid "Developer (JavaScript)"
+msgstr "Forbróir (JavaScript)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:198
+#, kde-format
+msgid "Koos Vriezen"
+msgstr "Koos Vriezen"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:198
+#, kde-format
+msgid "Developer (Java applets and other embedded objects)"
+msgstr "Forbróir (feidhmchláiríní Java agus réada leabaithe eile)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:199
+#, kde-format
+msgid "Matt Koss"
+msgstr "Matt Koss"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:199 src/konqapplication.cpp:200
+#, kde-format
+msgid "Developer (I/O library)"
+msgstr "Forbróir (leabharlann aschurtha/ionchurtha)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:200
+#, kde-format
+msgid "Alex Zepeda"
+msgstr "Alex Zepeda"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:201
+#, kde-format
+msgid "Richard Moore"
+msgstr "Richard Moore"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:201 src/konqapplication.cpp:202
+#, kde-format
+msgid "Developer (Java applet support)"
+msgstr "Forbróir (tacaíocht do feidhmchláiríní Java)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:202
+#, kde-format
+msgid "Dima Rogozin"
+msgstr "Dima Rogozin"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:203
+#, kde-format
+msgid "Wynn Wilkes"
+msgstr "Wynn Wilkes"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:203
+#, kde-format
+msgid ""
+"Developer (Java 2 security manager support,\n"
+" and other major improvements to applet support)"
+msgstr ""
+"Forbróir (tacaíocht do bhainisteoir slándála Java 2,\n"
+"agus feabhsúcháin mhóra eile i leith tacaíocht d'fheidhmchláiríní)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:204
+#, kde-format
+msgid "Stefan Schimanski"
+msgstr "Stefan Schimanski"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:204
+#, kde-format
+msgid "Developer (Netscape plugin support)"
+msgstr "Forbróir (tacaíocht do bhreiseáin Netscape)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:205
+#, kde-format
+msgid "George Staikos"
+msgstr "George Staikos"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:205
+#, kde-format
+msgid "Developer (SSL, Netscape plugins)"
+msgstr "Forbróir (SSL, breiseáin Netscape)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:206
+#, kde-format
+msgid "Dawit Alemayehu"
+msgstr "Dawit Alemayehu"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:206
+#, kde-format
+msgid "Developer (I/O library, Authentication support)"
+msgstr "Forbróir (leabharlann aschurtha/ionchurtha, tacaíocht do dheimhniúchán)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:207
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:208
+#, kde-format
+msgid "Torsten Rahn"
+msgstr "Torsten Rahn"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:208
+#, kde-format
+msgid "Graphics/icons"
+msgstr "Grafaic/deilbhíní"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:209
+#, kde-format
+msgid "Torben Weis"
+msgstr "Torben Weis"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:209
+#, kde-format
+msgid "KFM author"
+msgstr "Údar KFM"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:210
+#, kde-format
+msgid "Joseph Wenninger"
+msgstr "Joseph Wenninger"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:210
+#, kde-format
+msgid "Developer (navigation panel framework)"
+msgstr "Forbróir (creatlach an phainéil nascleanúna)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:211
+#, kde-format
+msgid "Stephan Binner"
+msgstr "Stephan Binner"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:211
+#, kde-format
+msgid "Developer (misc stuff)"
+msgstr "Forbróir (stuif éagsúil)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:212
+#, kde-format
+msgid "Ivor Hewitt"
+msgstr "Ivor Hewitt"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:212
+#, kde-format
+msgid "Developer (AdBlock filter)"
+msgstr "Forbróir (scagaire AdBlock)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:213
+#, kde-format
+msgid "Eduardo Robles Elvira"
+msgstr "Eduardo Robles Elvira"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:214
+#, kde-format
+msgid "Matthias Kalle Dalheimer"
+msgstr "Matthias Kalle Dalheimer"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:215
+#, kde-format
+msgid "Daniel Molkentin"
+msgstr "Daniel Molkentin"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:216
+#, kde-format
+msgid ""
+"JavaScript access controls\n"
+"Per-domain policies extensions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:227
+#, kde-format
+msgid "Start without a default window, when called without URLs"
+msgstr "Tosaigh gan fuinneog réamhshocraithe, nuair nach bhfuil URL ann"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:228
+#, kde-format
+msgid "Preload for later use. This mode does not support URLs on the command line"
+msgstr "Réamhluchtaigh le húsáid ar ball. Ní thacaíonn an mód seo le URLanna ar líne na n-orduithe"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:229
+#, kde-format
+msgid "Profile to open (DEPRECATED, IGNORED)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:229
+#, kde-format
+msgid "profile"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:230
+#, fuzzy, kde-format
+#| msgid "List available sessions"
+msgid "List available sessions and exit"
+msgstr "Taispeáin na seisiúin atá ar fáil"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:231
+#, kde-format
+msgid "Session to open"
+msgstr "Seisiún le hoscailt"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:231
+#, fuzzy, kde-format
+#| msgid "Sessions"
+msgid "session"
+msgstr "Seisiúin"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:232
+#, kde-format
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr "Cineál MIME le húsáid don URL seo (m.sh. \"text/html\" nó \"inode/directory\")"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:232
+#, kde-format
+msgid "mimetype"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:233
+#, kde-format
+msgid "Part to use (e.g. khtml or kwebkitpart)"
+msgstr "Comhpháirt le húsáid (m.sh. khtml nó kwebkitpart)"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:233
+#, fuzzy, kde-format
+#| msgid "Add Service"
+msgid "service"
+msgstr "Cuir Seirbhís Leis"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:234
+#, kde-format
+msgid "For URLs that point to files, opens the directory and selects the file, instead of opening the actual file"
+msgstr "Nuair a thagraíonn URL do chomhad, oscail an chomhadlann agus roghnaigh an comhad, in ionad an comhad féin a oscailt"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:235
+#, kde-format
+msgid "The files/URLs opened by the application will be deleted after use"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:237
+#, kde-format
+msgid "Create a new Konqueror process, even if one already exists. Meant to be used only when developing Konqueror itself"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:239
+#, kde-format
+msgid "Location to open"
+msgstr "Suíomh le hoscailt"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:354
+#, fuzzy, kde-format
+#| msgid "Session to open"
+msgctxt "The session asked by the user doesn't exist or can't be opened"
+msgid "Session %1 couldn't be opened"
+msgstr "Seisiún le hoscailt"
+
+#. +> trunk6 stable6
+#: src/konqapplication.cpp:484
+#, kde-format
+msgid "You can't pass URLs when using the --preload switch. The URLs will be ignored\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqclosedwindowsmanager.cpp:213 src/konqmainwindow.cpp:4865
+#: src/konqmainwindow.cpp:4911
+#, kde-format
+msgid "no name"
+msgstr "gan ainm"
+
+#. +> trunk6 stable6
+#: src/konqextensionmanager.cpp:49
+#, fuzzy, kde-format
+#| msgid "Configure Extensions..."
+msgctxt "@title:window"
+msgid "Configure Extensions"
+msgstr "Cumraigh Eisínteachtaí..."
+
+#. +> trunk6 stable6
+#: src/konqextensionmanager.cpp:69
+#, kde-format
+msgid "Extensions"
+msgstr "Eisínteachtaí"
+
+#. +> trunk6 stable6
+#: src/konqfactory.cpp:66
+#, kde-format
+msgid ""
+"There was an error loading the module %1.\n"
+"The diagnostics is:\n"
+"%2"
+msgstr ""
+"Tharla earráid agus modúl %1 á luchtú.\n"
+"Teachtaireacht:\n"
+"%2"
+
+#. +> trunk6 stable6
+#: src/konqframestatusbar.cpp:108
+#, kde-format
+msgid "Checking this box on at least two views sets those views as 'linked'. Then, when you change directories in one view, the other views linked with it will automatically update to show the current directory. This is especially useful with different types of views, such as a directory tree with an icon view or detailed view, and possibly a terminal emulator window."
+msgstr "Má chuireann tú tic sa bhosca seo do dhá amharc ar a laghad, beidh na hamhairc sin 'nasctha'. Tar éis sin, nuair a athraíonn tú an chomhadlann in amharc amháin, nuashonraítear gach amharc atá nasctha leis go huathoibríoch leis an gcomhadlann reatha. Rogha áisiúil é seo le cineálacha difriúla d'amhairc go háirithe, mar shampla crann comhadlainne le hamharc deilbhíní nó amharc mionsonraithe, agus b'fhéidir fuinneog ina bhfuil aithriseoir teirminéil."
+
+#. +> trunk6 stable6
+#: src/konqframestatusbar.cpp:119
+#, kde-format
+msgctxt "%p is the percent value, % is the percent sign"
+msgid "%p%"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqframestatusbar.cpp:155
+#, kde-format
+msgid "Close View"
+msgstr "Dún an tAmharc"
+
+#. +> trunk6 stable6
+#: src/konqframestatusbar.cpp:233
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#. +> trunk6 stable6
+#: src/konqframestatusbar.cpp:235
+#, kde-format
+msgid "Stalled"
+msgstr "Ag fanacht"
+
+#. +> trunk6 stable6
+#: src/konqguiclients.cpp:52
+#, kde-format
+msgid "Preview &in %1"
+msgstr "Réamhamharc &i %1"
+
+#. +> trunk6 stable6
+#: src/konqguiclients.cpp:122
+#, kde-format
+msgid "Show %1"
+msgstr "Taispeáin %1"
+
+#. +> trunk6 stable6
+#: src/konqhistorydialog.cpp:39
+#, kde-format
+msgctxt "@title:window"
+msgid "History"
+msgstr "Stair"
+
+#. +> trunk6 stable6
+#: src/konqhistorydialog.cpp:55 src/konqhistoryview.cpp:142
+#, kde-format
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "Sórtáil"
+
+#. +> trunk6 stable6
+#: src/konqhistorymodel.cpp:119
+#, kde-format
+msgid ""
+"<qt>"
+"<center><b>%1</b></center>"
+"<hr />"
+"Last visited: %2<br />"
+"First visited: %3<br />"
+"Number of times visited: %4</qt>"
+msgstr ""
+"<qt>"
+"<center><b>%1</b></center>"
+"<hr />"
+"An chuairt is deireanaí: %2<br />"
+"An chéad chuairt: %3<br />"
+"Líon na gcuairteanna: %4</qt>"
+
+#. +> trunk6 stable6
+#: src/konqhistorymodel.cpp:213
+#, kde-format
+msgid "Local"
+msgstr "Logánta"
+
+#. +> trunk6 stable6
+#: src/konqhistorymodel.cpp:216
+#, kde-format
+msgid "Miscellaneous"
+msgstr "Rudaí éagsúla"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:55 src/konqmainwindow.cpp:4343
+#, kde-format
+msgid "Open in New &Window"
+msgstr "Oscail i bhFuinneog &Nua"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:60
+#, kde-format
+msgid "Open in New Tab"
+msgstr "Oscail i gCluaisín Nua"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:65
+#, fuzzy, kde-format
+#| msgid "Open in New Tab"
+msgid "Open in Current Tab"
+msgstr "Oscail i gCluaisín Nua"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:69
+#, kde-format
+msgid "&Copy Link Address"
+msgstr "&Cóipeáil Seoladh an Naisc"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:74
+#, kde-format
+msgid "&Remove Entry"
+msgstr "&Bain Iontráil"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:81
+#, kde-format
+msgid "C&lear History"
+msgstr "G&lan an Stair"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:86
+#, kde-format
+msgid "&Preferences..."
+msgstr "&Sainroghanna..."
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:93
+#, kde-format
+msgid "By &Name"
+msgstr "De réir ai&nm"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:99
+#, kde-format
+msgid "By &Date"
+msgstr "De réir &dáta"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:109
+#, kde-format
+msgid "Search in history"
+msgstr "Cuardaigh an stair"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:170
+#, kde-format
+msgid "Do you really want to clear the entire history?"
+msgstr "An bhfuil tú cinnte gur mhaith leat an stair iomlán a ghlanadh?"
+
+#. +> trunk6 stable6
+#: src/konqhistoryview.cpp:171
+#, kde-format
+msgctxt "@title:window"
+msgid "Clear History?"
+msgstr "Glan an Stair?"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:735
+#, kde-format
+msgctxt "@title:tab"
+msgid "Loading..."
+msgstr "Á Luchtú..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:767
+#, fuzzy, kde-format
+#| msgid "Accessed"
+msgid "Access denied"
+msgstr "Rochtain"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1527
+#, fuzzy, kde-format
+#| msgid "&Open File..."
+msgid "Open File"
+msgstr "&Oscail Comhad..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1591
+#, kde-format
+msgid "Canceled."
+msgstr "Cealaithe."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1627
+#, kde-format
+msgid ""
+"This page contains changes that have not been submitted.\n"
+"Reloading the page will discard these changes."
+msgstr ""
+"Tá athruithe gan seoladh ar an leathanach seo.\n"
+"Caillfidh tú na hathruithe seo má athluchtaíonn tú an leathanach."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1628 src/konqmainwindow.cpp:2266
+#: src/konqmainwindow.cpp:2355 src/konqmainwindow.cpp:2387
+#: src/konqmainwindow.cpp:2430 src/konqmainwindow.cpp:2452
+#: src/konqmainwindow.cpp:4830
+#, kde-format
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "Ná Sábháil na hAthruithe?"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1628 src/konqmainwindow.cpp:2266
+#: src/konqmainwindow.cpp:2355 src/konqmainwindow.cpp:2387
+#: src/konqmainwindow.cpp:2430 src/konqmainwindow.cpp:2453
+#: src/konqmainwindow.cpp:4830
+#, kde-format
+msgid "&Discard Changes"
+msgstr "&Ná Sábháil na hAthruithe"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1942 src/konqmainwindow.cpp:1948
+#, kde-format
+msgid "Home Folder"
+msgstr "Fillteán Baile"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1943 src/konqmainwindow.cpp:3365
+#, kde-format
+msgid "Home"
+msgstr "Baile"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1949
+#, kde-format
+msgid "Navigate to your 'Home Folder'"
+msgstr "Téigh go dtí do 'Fillteán Baile'"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1950
+#, kde-format
+msgid "Navigate to your local 'Home Folder'"
+msgstr "Téigh go dtí do 'Fillteán Baile' logánta"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1953
+#, kde-format
+msgid "Home Page"
+msgstr "Leathanach Baile"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1955
+#, kde-format
+msgid "Navigate to your 'Home Page'"
+msgstr "Téigh go dtí do 'Leathanach Baile'"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:1956
+#, kde-format
+msgid ""
+"<html>Navigate to your 'Home Page'<br />"
+"<br />"
+"You can configure the location where this button takes you under <b>Settings -> Configure Konqueror -> General</b>.</html>"
+msgstr ""
+"<html>Téigh go dtí do 'Leathanach Baile'<br />"
+"<br />"
+"Is féidir suíomh an leathanaigh seo a chumrú faoi <b>Socruithe -> Cumraigh Konqueror -> Ginearálta</b>.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2265
+#, kde-format
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Detaching the tab will discard these changes."
+msgstr ""
+"Tá athruithe gan seoladh sa chluaisín seo.\n"
+"Caillfidh tú na hathruithe seo má dhíscoireann tú an cluaisín."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2354
+#, kde-format
+msgid ""
+"This view contains changes that have not been submitted.\n"
+"Closing the view will discard these changes."
+msgstr ""
+"Tá athruithe gan seoladh san amharc seo.\n"
+"Caillfidh tú na hathruithe seo má dhúnann tú an t-amharc."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2386
+#, kde-format
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing the tab will discard these changes."
+msgstr ""
+"Tá athruithe gan seoladh sa chluaisín seo.\n"
+"Caillfidh tú na hathruithe seo má dhúnann tú an cluaisín."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2412
+#, kde-format
+msgid "Do you really want to close all other tabs?"
+msgstr "An bhfuil tú cinnte gur mian leat gach cluaisín eile a dhúnadh?"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2413 src/konqmainwindow.cpp:3445 src/konqtabs.cpp:74
+#, kde-format
+msgid "Close &Other Tabs"
+msgstr "Dún na Cluaisíní &Eile"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2413
+#, kde-format
+msgctxt "@title:window"
+msgid "Close Other Tabs Confirmation"
+msgstr "Deimhniú: Dún na Cluaisíní Eile"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2429
+#, kde-format
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing other tabs will discard these changes."
+msgstr ""
+"Tá athruithe gan seoladh sa chluaisín seo.\n"
+"Caillfidh tú na hathruithe seo má dhúnann tú cluaisíní eile."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2451
+#, kde-format
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Reloading all tabs will discard these changes."
+msgstr ""
+"Tá athruithe gan seoladh sa chluaisín seo.\n"
+"Caillfidh tú na hathruithe seo má athluchtaíonn tú gach cluaisín."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2508
+#, kde-format
+msgctxt "@title:window"
+msgid "Enter Target"
+msgstr "Cuir Sprioc Isteach"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2515
+#, kde-format
+msgid "<qt><b>%1</b> is not valid</qt>"
+msgstr "<qt>Tá <b>%1</b> neamhbhailí</qt>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2525
+#, kde-format
+msgid "Copy selected files from %1 to:"
+msgstr "Cóipeáil na comhaid roghnaithe ó %1 go:"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2538
+#, kde-format
+msgid "Move selected files from %1 to:"
+msgstr "Bog na comhaid roghnaithe ó %1 go:"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2706
+#, kde-format
+msgctxt "This menu entry empties the closed items history"
+msgid "Empty Closed Items History"
+msgstr "Glan Stair na Míreanna Dúnta"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2728
+#, kde-format
+msgid "Save As..."
+msgstr "Sábháil Mar..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:2730
+#, kde-format
+msgid "Manage..."
+msgstr "Bainistigh..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3274
+#, kde-format
+msgid "New &Window"
+msgstr "&Fuinneog Nua"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3279
+#, kde-format
+msgid "&Duplicate Window"
+msgstr "&Dúbail an Fhuinneog"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3284
+#, kde-format
+msgid "Send &Link Address..."
+msgstr "Seol Seoladh an &Naisc..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3288
+#, kde-format
+msgid "S&end File..."
+msgstr "S&eol Comhad..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3292
+#, kde-format
+msgid "&Open Location"
+msgstr "&Oscail Suíomh"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3298
+#, kde-format
+msgid "&Open File..."
+msgstr "&Oscail Comhad..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3303
+#, kde-format
+msgid "&Find File..."
+msgstr "&Aimsigh Comhad..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3312
+#, kde-format
+msgid "Lock to Current Location"
+msgstr "Ceangail leis an Suíomh Reatha"
+
+# definitely a verb
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3315
+#, kde-format
+msgctxt "This option links konqueror views"
+msgid "Lin&k View"
+msgstr "&Nasc an tAmharc"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3320
+#, kde-format
+msgid "&Up"
+msgstr "S&uas"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3330
+#, kde-format
+msgid "Closed Items"
+msgstr "Míreanna Dúnta"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3343
+#, kde-format
+msgid "Sessions"
+msgstr "Seisiúin"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3370
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Most Often Visited"
+msgstr "Suímh is mó cuairt orthu"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3374
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Recently Visited"
+msgstr "Rinneadh Cuairt Orthu le Déanaí"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3383
+#, kde-format
+msgctxt "@action:inmenu Go"
+msgid "Show History"
+msgstr "Taispeáin an Stair"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3395
+#, kde-format
+msgid "Configure Extensions..."
+msgstr "Cumraigh Eisínteachtaí..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3399
+#, kde-format
+msgid "Configure Spell Checking..."
+msgstr "Cumraigh an litreoir..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3405
+#, kde-format
+msgid "Split View &Left/Right"
+msgstr "Scoilt an tAmharc C&lé/Deas"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3410
+#, kde-format
+msgid "Split View &Top/Bottom"
+msgstr "Scoilt an tAmharc &Barr/Bun"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3415 src/konqtabs.cpp:41
+#, kde-format
+msgid "&New Tab"
+msgstr "Cluaisín &Nua"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3424
+#, kde-format
+msgid "&Duplicate Current Tab"
+msgstr "&Déan Cóip den Chluaisín Reatha"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3429
+#, kde-format
+msgid "Detach Current Tab"
+msgstr "Dícheangail an Cluaisín Reatha"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3434
+#, kde-format
+msgid "&Close Active View"
+msgstr "&Dún an tAmharc Reatha"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3439
+#, kde-format
+msgid "Close Current Tab"
+msgstr "Dún an Cluaisín Reatha"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3449
+#, kde-format
+msgid "Activate Next Tab"
+msgstr "Gníomhachtaigh an Chéad Chluaisín Eile"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3453
+#, kde-format
+msgid "Activate Previous Tab"
+msgstr "Gníomhachtaigh an Cluaisín Roimhe Seo"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3460
+#, kde-format
+msgid "Activate Tab %1"
+msgstr "Gníomhachtaigh Cluaisín %1"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3465
+#, kde-format
+msgid "Move Tab Left"
+msgstr "Bog Cluaisín Faoi Chlé"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3470
+#, kde-format
+msgid "Move Tab Right"
+msgstr "Bog Cluaisín Faoi Dheis"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3478
+#, kde-format
+msgid "Dump Debug Info"
+msgstr "Dumpáil Faisnéis Dhífhabhtaithe"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3496
+#, kde-format
+msgid "&Reload"
+msgstr "&Athluchtaigh"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3501 src/konqtabs.cpp:68
+#, kde-format
+msgid "&Reload All Tabs"
+msgstr "&Athluchtaigh Gach Cluaisín"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3509
+#, kde-format
+msgid "&Force Reload"
+msgstr "&Fórsáil Athluchtú"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3534
+#, kde-format
+msgid "&Stop"
+msgstr "&Stad"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3543
+#, kde-format
+msgid "Throbber"
+msgstr "Preabóir"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3547 src/konqmainwindow.cpp:3550
+#, kde-format
+msgid "L&ocation: "
+msgstr "Suí&omh: "
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3557
+#, kde-format
+msgid "Location Bar"
+msgstr "Barra Suímh"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3563
+#, kde-format
+msgid ""
+"<html>Location Bar<br />"
+"<br />"
+"Enter a web address or search term.</html>"
+msgstr ""
+"<html>Barra Suímh<br />"
+"<br />"
+"Cuir isteach seoladh Gréasáin nó téarma cuardaigh.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3567
+#, kde-format
+msgid "Clear Location Bar"
+msgstr "Glan an Barra Suímh"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3570
+#, kde-format
+msgid ""
+"<html>Clear Location bar<br />"
+"<br />"
+"Clears the contents of the location bar.</html>"
+msgstr ""
+"<html>Glan an Barra Suímh<br />"
+"<br />"
+"Glanann inneachar an bharra suímh.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3575
+#, kde-format
+msgid "&Bookmarks"
+msgstr "Lea&bharmharcanna"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3596
+#, kde-format
+msgid "Kon&queror Introduction"
+msgstr "Tús Eolais ar Kon&queror"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3601
+#, kde-format
+msgid "Go"
+msgstr "Téigh"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3603
+#, kde-format
+msgid ""
+"<html>Go<br />"
+"<br />"
+"Goes to the page that has been entered into the location bar.</html>"
+msgstr ""
+"<html>Téigh<br />"
+"<br />"
+"Téann go dtí an leathanach atá sa bharra suímh.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3611
+#, kde-format
+msgid ""
+"<html>Enter the parent folder<br />"
+"<br />"
+"For instance, if the current location is file:/home/%1 clicking this button will take you to file:/home.</html>"
+msgstr ""
+"<html>Téigh go dtí an máthairfhillteán<br />"
+"<br />"
+"Mar shampla, más é file:/home/%1 an suíomh reatha, rachaidh tú go file:/home nuair a chliceálfaidh tú an cnaipe seo.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3614
+#, kde-format
+msgid "Enter the parent folder"
+msgstr "Téigh isteach sa mháthairfhillteán"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3616 src/konqmainwindow.cpp:3617
+#, kde-format
+msgid "Move backwards one step in the browsing history"
+msgstr "Téigh siar céim amháin sa stair brabhsálaithe"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3619 src/konqmainwindow.cpp:3620
+#, kde-format
+msgid "Move forward one step in the browsing history"
+msgstr "Téigh ar aghaidh céim amháin sa stair brabhsálaithe"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3622 src/konqmainwindow.cpp:3623
+#, kde-format
+msgid "Move backwards one step in the closed tabs history"
+msgstr "Téigh siar céim amháin i stair na gcluaisíní dúnta"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3625
+#, kde-format
+msgid ""
+"<html>Reload the currently displayed document<br />"
+"<br />"
+"This may, for example, be needed to refresh web pages that have been modified since they were loaded, in order to make the changes visible.</html>"
+msgstr ""
+"<html>Athluchtaigh an cháipéis reatha<br />"
+"<br />"
+"Is féidir an rogha seo a úsáid, mar shampla, nuair a athraítear leathanach Gréasáin ó luchtaíodh é agus ba mhaith leat na hathruithe a fheiceáil.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3628
+#, kde-format
+msgid "Reload the currently displayed document"
+msgstr "Athluchtaigh an cháipéis reatha"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3630
+#, kde-format
+msgid ""
+"<html>Reload all currently displayed documents in tabs<br />"
+"<br />"
+"This may, for example, be needed to refresh web pages that have been modified since they were loaded, in order to make the changes visible.</html>"
+msgstr ""
+"<html>Athluchtaigh na cáipéisí taispeánta i gcluaisíní<br />"
+"<br />"
+"Is féidir an rogha seo a úsáid, mar shampla, nuair a athraítear leathanaigh Ghréasáin ó luchtaíodh iad, chun na hathruithe atá iontu a fheiceáil.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3633
+#, kde-format
+msgid "Reload all currently displayed document in tabs"
+msgstr "Athluchtaigh na cáipéisí taispeánta i gcluaisíní"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3635
+#, kde-format
+msgid ""
+"<html>Stop loading the document<br />"
+"<br />"
+"All network transfers will be stopped and Konqueror will display the content that has been received so far.</html>"
+msgstr ""
+"<html>Stad luchtú na cáipéise<br />"
+"<br />"
+"Stadfar gach aistriú líonra agus taispeánfaidh Konqueror an t-ábhar atá luchtaithe go dtí an pointe sin.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3639
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html>Reload the currently displayed document<br />"
+#| "<br />"
+#| "This may, for example, be needed to refresh web pages that have been modified since they were loaded, in order to make the changes visible.  Any images on the page are downloaded again, even if cached copies exist.</html>"
+msgid ""
+"<html>Reload the currently displayed document<br />"
+"<br />"
+"This may, for example, be needed to refresh web pages that have been modified since they were loaded, in order to make the changes visible. Any images on the page are downloaded again, even if cached copies exist.</html>"
+msgstr ""
+"<html>Athluchtaigh an cháipéis reatha<br />"
+"<br />"
+"Is féidir an rogha seo a úsáid, mar shampla, nuair a athraítear leathanaigh Ghréasáin ó luchtaíodh iad, chun na hathruithe atá iontu a fheiceáil. Íosluchtófar aon íomhánna ar an leathanach arís, fiú má tá cóipeanna sa taisce.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3643
+#, kde-format
+msgid "Force a reload of the currently displayed document and any contained images"
+msgstr "Fórsáil athluchtú na cáipéise reatha agus aon íomhánna atá inti"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3645
+#, kde-format
+msgid "Stop loading the document"
+msgstr "Éirigh as an cháipéis a luchtú"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3647
+#, kde-format
+msgid ""
+"<html>Cut the currently selected text or item(s) and move it to the system clipboard<br />"
+"<br />"
+"This makes it available to the <b>Paste</b> command in Konqueror and other KDE applications.</html>"
+msgstr ""
+"<html>Gearr an téacs nó mír(eanna) atá roghnaithe faoi láthair agus cuir é i ngearrthaisce an chórais<br />"
+"<br />"
+"Cuirfidh sé seo an roghnúchán ar fáil don ordú <b>Greamaigh</b> i Konqueror agus feidhmchláir KDE eile.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3651
+#, kde-format
+msgid "Move the selected text or item(s) to the clipboard"
+msgstr "Bog an téacs nó mír(eanna) roghnaithe go dtí an ghearrthaisce"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3653
+#, kde-format
+msgid ""
+"<html>Copy the currently selected text or item(s) to the system clipboard<br />"
+"<br />"
+"This makes it available to the <b>Paste</b> command in Konqueror and other KDE applications.</html>"
+msgstr ""
+"<html>Cóipeáil an téacs nó mír(eanna) atá roghnaithe faoi láthair agus cuir é i ngearrthaisce an chórais<br />"
+"<br />"
+"Cuirfidh sé seo an roghnúchán ar fáil don ordú <b>Greamaigh</b> i Konqueror agus feidhmchláir KDE eile.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3657
+#, kde-format
+msgid "Copy the selected text or item(s) to the clipboard"
+msgstr "Déan cóip den téacs nó mír(eanna) roghnaithe sa ghearrthaisce"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3659
+#, kde-format
+msgid ""
+"<html>Paste the previously cut or copied clipboard contents<br />"
+"<br />"
+"This also works for text copied or cut from other KDE applications.</html>"
+msgstr ""
+"<html>Greamaigh inneachar na gearrthaisce a bhí gearrtha nó cóipeáilte roimhe seo<br />"
+"<br />"
+"Oibríonn sé seo nuair a bhí téacs cóipeáilte nó gearrtha ó fheidhmchláir KDE eile freisin.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3662
+#, kde-format
+msgid "Paste the clipboard contents"
+msgstr "Greamaigh inneachar an ghearrthaisce"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3664
+#, kde-format
+msgid ""
+"<html>Print the currently displayed document<br />"
+"<br />"
+"You will be presented with a dialog where you can set various options, such as the number of copies to print and which printer to use.<br />"
+"<br />"
+"This dialog also provides access to special KDE printing services such as creating a PDF file from the current document.</html>"
+msgstr ""
+"<html>Priontáil an cháipéis reatha<br />"
+"<br />"
+"Taispeánfar dialóg duit inar féidir roghanna éagsúla a shocrú, mar shampla líon na gcóipeanna le priontáil agus an printéir le húsáid.<br />"
+"<br />"
+"Soláthraíonn an dialóg seo rochtain ar sheirbhísí speisialta priontála KDE, mar shampla seirbhís a chruthaíonn comhad PDF ón cháipéis reatha.</html>"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3670
+#, kde-format
+msgid "Print the current document"
+msgstr "Priontáil an cháipéis reatha"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3672
+#, kde-format
+msgid "A locked view cannot change folders. Use in combination with 'link view' to explore many files from one folder"
+msgstr "Má tá an t-amharc faoi ghlas, ní féidir an fillteán a athrú.  Úsáid é seo in éineacht le 'Nasc an tAmharc' chun go leor comhad a scrúdú ó fhillteán amháin"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3673
+#, kde-format
+msgid "Sets the view as 'linked'. A linked view follows folder changes made in other linked views."
+msgstr "Socraíonn an t-amharc mar 'nasctha'. Leanann amharc nasctha athruithe fillteáin a dhéantar in amhairc nasctha eile."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3677
+#, fuzzy, kde-format
+#| msgid "C&lose Current Tab"
+msgid "&Inspect Current Page"
+msgstr "Dún an C&luaisín Reatha"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3678
+#, kde-format
+msgid ""
+"<html>Shows the developer tools for the current page<br/>"
+"<br/>"
+"The current view is split in two and the developer tools are displayed in the second half"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3679
+#, kde-format
+msgid "Shows the developer tools for the current page"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3841
+#, kde-format
+msgid "Copy &Files..."
+msgstr "Cói&peáil Comhaid..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:3845
+#, kde-format
+msgid "M&ove Files..."
+msgstr "Bog C&omhaid..."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4171
+#, kde-format
+msgid "You have requested to open more than 20 bookmarks in tabs. This might take a while. Continue?"
+msgstr "Tá tú ar tí níos mó ná fiche leabharmharc a oscailt i gcluaisíní. D'fhéadfadh do Konqueror éirí mall agus na leathanaigh á luchtú. An bhfuil tú cinnte go dteastaíonn leanúint ar aghaidh?"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4173
+#, kde-format
+msgctxt "@title:window"
+msgid "Open bookmarks folder in new tabs"
+msgstr "Oscail fillteán na leabharmharcanna i gcluaisíní nua"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4174
+#, fuzzy, kde-format
+#| msgid "&Open"
+msgctxt "@action:button"
+msgid "Open"
+msgstr "&Oscail"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4336
+#, kde-format
+msgid "Open in T&his Window"
+msgstr "Oscail san F&huinneog Seo"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4337
+#, kde-format
+msgid "Open the document in current window"
+msgstr "Oscail an cháipéis san fhuinneog reatha"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4344
+#, kde-format
+msgid "Open the document in a new window"
+msgstr "Oscail an cháipéis i bhfuinneog nua"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4350
+#, kde-format
+msgid "Open in &New Tab"
+msgstr "Oscail i gCluaisín &Nua"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4352
+#, kde-format
+msgid "Open the document in a new tab"
+msgstr "Oscail an cháipéis i gcluaisín nua"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4608
+#, kde-format
+msgid "&Open With"
+msgstr "&Oscail Le"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4621
+#, kde-format
+msgid "Open with %1"
+msgstr "Oscail le %1"
+
+# OK
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4671
+#, kde-format
+msgctxt "@action:inmenu View"
+msgid "&View Mode"
+msgstr "Mód &Amhairc"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4794
+#, kde-format
+msgid "You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr "Tá cluaisíní iomadúla oscailte san fhuinneog seo; an bhfuil tú cinnte gur mian leat scor?"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4796
+#, kde-format
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "Deimhniú"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4798
+#, kde-format
+msgid "C&lose Current Tab"
+msgstr "Dún an C&luaisín Reatha"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4826
+#, kde-format
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Closing the window will discard these changes."
+msgstr ""
+"Tá athruithe gan seoladh sa chluaisín seo.\n"
+"Caillfidh tú na hathruithe seo má dhúnann tú an fhuinneog."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4827
+#, kde-format
+msgid ""
+"This page contains changes that have not been submitted.\n"
+"Closing the window will discard these changes."
+msgstr ""
+"Tá athruithe gan seoladh ar an leathanach seo.\n"
+"Caillfidh tú na hathruithe seo má dhúnann tú an fhuinneog."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4987
+#, kde-format
+msgid "Your sidebar is not functional or unavailable. A new entry cannot be added."
+msgstr "Níl do bharra taoibh ag obair, nó níl sé ar fáil. Ní féidir iontráil nua a chur leis."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4987 src/konqmainwindow.cpp:4994
+#, kde-format
+msgctxt "@title:window"
+msgid "Web Sidebar"
+msgstr "Barra Taoibh Gréasáin"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4992
+#, kde-format
+msgid "Add new web extension \"%1\" to your sidebar?"
+msgstr "Cuir eisínteacht nua ghréasáin \"%1\" le do bharra taoibh?"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4994
+#, kde-format
+msgid "Add"
+msgstr "Cuir Leis"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:4994
+#, kde-format
+msgid "Do Not Add"
+msgstr "Ná Cuir Leis"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:5342 src/urlloader.cpp:854
+#, kde-format
+msgid "There appears to be a configuration error. You have associated Konqueror with %1, but it cannot handle this file type."
+msgstr "Is cosúil go bhfuil earráid cumraíochta. Tá ceangal déanta agat idir Konqueror agus %1, ach ní féidir leis déileáil le comhad den chineál seo."
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:5427
+#, kde-format
+msgid ""
+"Your proxy configuration can't be used with the QtWebEngine HTML engine. No proxy will be used\n"
+"\n"
+" QtWebEngine only support a fixed proxy, so proxy auto-configuration (PAC) and Web Proxy Auto-Discovery protocol can't be used with QtWebEngine. If you need a proxy, please select the system proxy configuration or specify a proxy URL manually in the settings dialog. Do you want to change proxy settings now?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:5432
+#, fuzzy, kde-format
+#| msgid "Manual Proxy Configuration"
+msgid "Unsupported proxy configuration"
+msgstr "Lámhchumraíocht Seachfhreastalaí"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:5432
+#, kde-format
+msgid "Don't use a proxy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:5433 src/konqmainwindow.cpp:5461
+#, fuzzy, kde-format
+#| msgid "Show Configuration Button"
+msgid "Show proxy configuration dialog"
+msgstr "Taispeáin Cnaipe Cumraíochta"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:5457
+#, kde-format
+msgid ""
+"Your proxy configuration can't be used with the QtWebEngine HTML engine because it doesn't support having different proxies for the HTTP and HTTPS protocols. Your current settings are:"
+"<p><b>HTTP proxy:</b> <tt>%1</tt></p>"
+"<p><b>HTTPS proxy: </b><tt>%2</tt></p>"
+"What do you want to do?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:5460
+#, fuzzy, kde-format
+#| msgid "Manual Proxy Configuration"
+msgid "Conflicting proxy configuration"
+msgstr "Lámhchumraíocht Seachfhreastalaí"
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:5461
+#, kde-format
+msgid "Use HTTP proxy (only this time)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:5461
+#, kde-format
+msgid "Use HTTPS proxy (only this time)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqmainwindow.cpp:5477
+#, kde-format
+msgid "You have entered Complete Full Screen mode (the user interface is completely hidden). You can exit it by pressing the keyboard shortcut for Full Screen Mode (%1)"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: src/konqnewsessiondlg_base.ui:28
+#, fuzzy, kde-format
+#| msgid "Save open tabs and windows for easy retrieval"
+msgid "Save open &tabs and windows for easy retrieval"
+msgstr "Sábháil cluaisíní agus fuinneoga oscailte sa chaoi gur éasca iad a chur ar ais"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pAllWindows)
+#. +> trunk6 stable6
+#: src/konqnewsessiondlg_base.ui:34
+#, fuzzy, kde-format
+#| msgid "Open new windows:"
+msgid "A&ll open windows"
+msgstr "Oscail fuinneoga nua:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_pCurrentWindow)
+#. +> trunk6 stable6
+#: src/konqnewsessiondlg_base.ui:44
+#, fuzzy, kde-format
+#| msgid "Open tabs inside current window"
+msgid "Onl&y current window"
+msgstr "Oscail cluaisíní san fhuinneog reatha"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSessionName)
+#. +> trunk6 stable6
+#: src/konqnewsessiondlg_base.ui:56
+#, fuzzy, kde-format
+#| msgid "&Session name:"
+msgid "Session n&ame:"
+msgstr "Ainm an t&seisiúin:"
+
+#. +> trunk6 stable6
+#: src/konqsessiondialog.cpp:50
+#, kde-format
+msgctxt "@tooltip:session list"
+msgid "Uncheck the sessions or windows you do not want to be restored"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqsessiondialog.cpp:95
+#, fuzzy, kde-format
+#| msgid "Sessions"
+msgctxt "@item:treewidget"
+msgid "Session %1"
+msgstr "Seisiúin"
+
+#. i18n. Otherwise it would be easier to just use what is in the session file
+#. +> trunk6 stable6
+#: src/konqsessiondialog.cpp:113
+#, kde-format
+msgctxt "@item:treewidget"
+msgid "Window %1"
+msgstr "Fuinneog %1"
+
+#. +> trunk6 stable6
+#: src/konqsessiondialog.cpp:262
+#, kde-format
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "Athchóirigh an Seisiún?"
+
+#. +> trunk6 stable6
+#: src/konqsessiondialog.cpp:283
+#, kde-format
+msgid "Konqueror did not close correctly. Would you like to restore these previous sessions?"
+msgstr "Níor dúnadh Konqueror mar is ceart. An bhfuil fonn ort na seisiúin roimhe seo a athchóiriú?"
+
+#. +> trunk6 stable6
+#: src/konqsessiondialog.cpp:298
+#, kde-format
+msgid "Do not ask again"
+msgstr "Ná fiafraigh díom arís"
+
+#. +> trunk6 stable6
+#: src/konqsessiondialog.cpp:312
+#, kde-format
+msgctxt "@action:button yes"
+msgid "Restore Session"
+msgstr "Athchóirigh an Seisiún"
+
+#. +> trunk6 stable6
+#: src/konqsessiondialog.cpp:313
+#, kde-format
+msgctxt "@action:button no"
+msgid "Do Not Restore"
+msgstr "Ná hAthchóirigh"
+
+#. +> trunk6 stable6
+#: src/konqsessiondialog.cpp:314
+#, kde-format
+msgctxt "@action:button ask later"
+msgid "Ask Me Later"
+msgstr "Fiafraigh Díom Ar Ball"
+
+#. +> trunk6 stable6
+#: src/konqsessiondialog.cpp:352
+#, kde-format
+msgctxt "@tooltip:copy url to clipboard"
+msgid "Copy url to clipboard:  %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/konqsessiondlg.cpp:60
+#, kde-format
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "Bainistigh Seisiúin"
+
+#. +> trunk6 stable6
+#: src/konqsessiondlg.cpp:168
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "Athainmnigh Seisiún"
+
+#. +> trunk6 stable6
+#: src/konqsessiondlg.cpp:215
+#, kde-format
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "Sábháil an Seisiún"
+
+#. +> trunk6 stable6
+#: src/konqsessiondlg.cpp:251
+#, kde-format
+msgid "A session with the name '%1' already exists, do you want to overwrite it?"
+msgstr "Tá seisiún darb ainm '%1' ann cheana. An bhfuil fonn ort é a fhorscríobh?"
+
+#. +> trunk6 stable6
+#: src/konqsessiondlg.cpp:252
+#, kde-format
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr "Tá an seisiún ann cheana. Forscríobh?"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pNewButton)
+#. +> trunk6 stable6
+#: src/konqsessiondlg_base.ui:26
+#, kde-format
+msgctxt "@action:button New session"
+msgid "New..."
+msgstr "Nua..."
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pSaveCurrentButton)
+#. +> trunk6 stable6
+#: src/konqsessiondlg_base.ui:33
+#, fuzzy, kde-format
+#| msgctxt "@action:button Save current session"
+#| msgid "Save Current"
+msgctxt "@action:button Save current session"
+msgid "Save Current..."
+msgstr "Sábháil an Seisiún Reatha"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pRenameButton)
+#. +> trunk6 stable6
+#: src/konqsessiondlg_base.ui:40
+#, kde-format
+msgctxt "@action:button Rename session"
+msgid "Rename..."
+msgstr "Athainmnigh..."
+
+#. i18n: ectx: property (text), widget (QPushButton, m_pDeleteButton)
+#. +> trunk6 stable6
+#: src/konqsessiondlg_base.ui:47
+#, kde-format
+msgctxt "@action:button Delete session"
+msgid "Delete"
+msgstr "Scrios"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_pOpenTabsInsideCurrentWindow)
+#. +> trunk6 stable6
+#: src/konqsessiondlg_base.ui:73
+#, kde-format
+msgid "Open tabs inside current window"
+msgstr "Oscail cluaisíní san fhuinneog reatha"
+
+#. +> trunk6 stable6
+#: src/konqstatusbarmessagelabel.cpp:67
+#, fuzzy, kde-format
+#| msgid "Close View"
+msgctxt "@info"
+msgid "Close"
+msgstr "Dún an tAmharc"
+
+#. +> trunk6 stable6
+#: src/konqstatusbarmessagelabel.cpp:68
+#, fuzzy, kde-format
+#| msgid "Close View"
+msgid "Close"
+msgstr "Dún an tAmharc"
+
+#. +> trunk6 stable6
+#: src/konqstatusbarmessagelabel.cpp:147
+#, fuzzy, kde-format
+#| msgid "Error "
+msgid "Error: %1"
+msgstr "Earráid "
+
+#. +> trunk6 stable6
+#: src/konqtabs.cpp:45
+#, kde-format
+msgid "&Duplicate Tab"
+msgstr "&Cóipeáil Cluaisín"
+
+#. +> trunk6 stable6
+#: src/konqtabs.cpp:49
+#, kde-format
+msgid "&Reload Tab"
+msgstr "&Athluchtaigh an Cluaisín"
+
+#. +> trunk6 stable6
+#: src/konqtabs.cpp:56
+#, kde-format
+msgid "Other Tabs"
+msgstr "Cluaisíní Eile"
+
+#. +> trunk6 stable6
+#: src/konqtabs.cpp:59
+#, kde-format
+msgid "D&etach Tab"
+msgstr "Dích&eangail Cluaisín"
+
+#. +> trunk6 stable6
+#: src/konqtabs.cpp:64
+#, kde-format
+msgid "&Close Tab"
+msgstr "Dún an &Cluaisín"
+
+#. +> trunk6 stable6
+#: src/konqtabs.cpp:132
+#, kde-format
+msgid "This bar contains the list of currently open tabs. Click on a tab to make it active. You can also use keyboard shortcuts to navigate through tabs. The text on the tab shows the content currently open in it; place your mouse over the tab to see the full title, in case it has been shortened to fit the tab width."
+msgstr "Tá liosta de na cluaisíní oscailte sa bharra seo. Cliceáil cluaisín chun é a ghníomhachtú. Is féidir an cluaisín gníomhach a athrú trí aicearraí méarchláir freisin. Taispeánann an téacs ar an gcluaisín an t-ábhar atá oscailte ann faoi láthair; cuir do luch os cionn an chluaisín chun an teideal iomlán a fheiceáil má tá sé giorraithe do leithead an chluaisín."
+
+#. +> trunk6 stable6
+#: src/konqtabs.cpp:166
+#, kde-format
+msgid "Open a new tab"
+msgstr "Oscail cluaisín nua"
+
+#. +> trunk6 stable6
+#: src/konqtabs.cpp:175
+#, kde-format
+msgid "Close the current tab"
+msgstr "Dún an cluaisín reatha"
+
+#. i18n: ectx: Menu (file)
+#. +> trunk6 stable6
+#: src/konqueror.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Comhad"
+
+#. i18n: ectx: Menu (edit)
+#. +> trunk6 stable6
+#: src/konqueror.rc:24
+#, kde-format
+msgid "&Edit"
+msgstr "&Eagar"
+
+#. i18n: ectx: Menu (view)
+#. +> trunk6 stable6
+#: src/konqueror.rc:33
+#, kde-format
+msgid "&View"
+msgstr "&Amharc"
+
+#. i18n: ectx: Menu (go)
+#. +> trunk6 stable6
+#: src/konqueror.rc:44
+#, kde-format
+msgid "&Go"
+msgstr "&Téigh"
+
+#. i18n: ectx: Menu (tools)
+#. +> trunk6 stable6
+#: src/konqueror.rc:54
+#, kde-format
+msgid "&Tools"
+msgstr "&Uirlisí"
+
+#. i18n: ectx: Menu (settings)
+#. +> trunk6 stable6
+#: src/konqueror.rc:59
+#, kde-format
+msgid "&Settings"
+msgstr "&Socruithe"
+
+#. i18n: ectx: Menu (window)
+#. +> trunk6 stable6
+#: src/konqueror.rc:78
+#, kde-format
+msgid "&Window"
+msgstr "&Fuinneog"
+
+#. i18n: ectx: Menu (help)
+#. +> trunk6 stable6
+#: src/konqueror.rc:94
+#, kde-format
+msgid "&Help"
+msgstr "&Cabhair"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: src/konqueror.rc:99
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Príomhbharra Uirlisí"
+
+#. i18n: ectx: ToolBar (extraToolBar)
+#. +> trunk6 stable6
+#: src/konqueror.rc:110
+#, kde-format
+msgid "Extra Toolbar"
+msgstr "Barra Uirlisí Breise"
+
+#. i18n: ectx: ToolBar (locationToolBar)
+#. +> trunk6 stable6
+#: src/konqueror.rc:117
+#, kde-format
+msgid "Location Toolbar"
+msgstr "Barra Uirlisí Suíomh"
+
+#. i18n: ectx: ToolBar (bookmarkToolBar)
+#. +> trunk6 stable6
+#: src/konqueror.rc:123
+#, kde-format
+msgid "Bookmark Toolbar"
+msgstr "Barra Uirlisí Leabharmharcanna"
+
+#. +> trunk6 stable6
+#: src/konqundomanager.cpp:91 src/konqundomanager.cpp:248
+#, kde-format
+msgid "Und&o: Closed Tab"
+msgstr "C&ealaigh: Cluaisín Dúnta"
+
+#. +> trunk6 stable6
+#: src/konqundomanager.cpp:93 src/konqundomanager.cpp:104
+#: src/konqundomanager.cpp:148
+#, kde-format
+msgid "Und&o: Closed Window"
+msgstr "C&ealaigh: Fuinneog Dúnta"
+
+#. +> trunk6 stable6
+#: src/konqundomanager.cpp:106
+#, kde-format
+msgid "Und&o"
+msgstr "C&ealaigh"
+
+#. +> trunk6 stable6
+#: src/konqview.cpp:1294
+#, kde-format
+msgid "The page you are trying to view is the result of posted form data. If you resend the data, any action the form carried out (such as search or online purchase) will be repeated. "
+msgstr "Tá tú ag iarraidh leathanach a thaispeáint ina bhfuil sonraí POSTDATA. Má sheolann tú na sonraí arís, déanfar arís gach gníomh a chuir an fhoirm i bhfeidhm (cuardach nó ceannach ar líne, mar shampla). "
+
+#. +> trunk6 stable6
+#: src/konqview.cpp:1296
+#, kde-format
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "Rabhadh"
+
+#. +> trunk6 stable6
+#: src/konqview.cpp:1296
+#, kde-format
+msgid "Resend"
+msgstr "Seol Arís"
+
+#. +> trunk6 stable6
+#: src/urlloader.cpp:427
+#, kde-format
+msgctxt "Execute an executable file"
+msgid "Execute"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/urlloader.cpp:430
+#, kde-format
+msgctxt "Display an executable file inside Konqueror"
+msgid "Display"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/urlloader.cpp:437
+#, kde-kuit-format
+msgctxt "@info The user has to decide whether to execute an executable file or display it"
+msgid "<filename>%1</filename> can be executed. Do you want to execute it or to display it?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/urlloader.cpp:443
+#, kde-kuit-format
+msgctxt "@info The user has to decide whether to execute an executable file or not"
+msgid "<filename>%1</filename> can be executed. Do you want to execute it?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/urlloader.cpp:797
+#, fuzzy, kde-format
+#| msgid "Save As..."
+msgid "Save As"
+msgstr "Sábháil Mar..."

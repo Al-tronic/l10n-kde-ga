@@ -1,0 +1,129 @@
+# Irish translation of desktop_kdepim
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdepim package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 05:20+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: src/data/kaddressbook-importer.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KAddressBook Import/Export Plugin"
+msgctxt "Name"
+msgid "KAddressbook import file"
+msgstr "Breiseán Iompórtála/Easpórtála KAddressBook"
+
+#. +> trunk6 stable6
+#: src/data/kaddressbook-importer.desktop:50
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KAddressBook Import/Export Plugin"
+msgctxt "Comment"
+msgid "KAddressBook running in file import mode"
+msgstr "Breiseán Iompórtála/Easpórtála KAddressBook"
+
+#. +> trunk6 stable6
+#: src/data/kaddressbook-view.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "KAddressBook View Plugin"
+msgctxt "Name"
+msgid "KAddressBook View"
+msgstr "Breiseán Amhairc KAddressBook"
+
+#. +> trunk6 stable6
+#: src/data/kaddressbook-view.desktop:42
+msgctxt "Comment"
+msgid "Display contact specified by URL"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/data/org.kde.kaddressbook.desktop:2
+msgctxt "Name"
+msgid "KAddressBook"
+msgstr "KAddressBook"
+
+#. +> trunk6 stable6
+#: src/data/org.kde.kaddressbook.desktop:71
+msgctxt "GenericName"
+msgid "Contact Manager"
+msgstr "Bainisteoir na dTeagmhálacha"
+
+#. +> trunk6 stable6
+#: src/data/org.kde.kaddressbook.desktop:132
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Contacts"
+msgctxt "Keywords"
+msgid "contacts;"
+msgstr "Teagmhálacha"
+
+#. +> trunk6 stable6
+#: src/data/org.kde.kaddressbook.desktop:168
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Contacts"
+msgctxt "Name"
+msgid "New Contact..."
+msgstr "Teagmhálacha"
+
+#. +> trunk6 stable6
+#: src/printing/grantlee/themes/big-theme-example/theme.desktop:2
+msgctxt "Name"
+msgid "Example big title"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/printing/grantlee/themes/big-theme-example/theme.desktop:50
+msgctxt "Description"
+msgid "Example big title grantlee printing theme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/printing/grantlee/themes/default/theme.desktop:2
+#: src/viewertemplates/theme.desktop:2
+msgctxt "Name"
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#. +> trunk6 stable6
+#: src/printing/grantlee/themes/default/theme.desktop:76
+msgctxt "Description"
+msgid "Default grantlee printing theme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/printing/grantlee/themes/full/theme.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Personal Information"
+msgctxt "Name"
+msgid "Full Information"
+msgstr "Eolas Pearsanta"
+
+#. +> trunk6 stable6
+#: src/printing/grantlee/themes/full/theme.desktop:50
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Personal Information"
+msgctxt "Description"
+msgid "Display All Information"
+msgstr "Eolas Pearsanta"
+
+#. +> trunk6 stable6
+#: src/viewertemplates/theme.desktop:76
+msgctxt "Description"
+msgid "Default kaddressbook theme."
+msgstr ""

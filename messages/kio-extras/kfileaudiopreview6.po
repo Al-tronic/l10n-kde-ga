@@ -1,0 +1,35 @@
+# Translation of kfileaudiopreview4.po to Irish.
+# Copyright (C) 2004 Free Software Foundation, Inc.
+# Kevin Scannell <kscanne@gmail.com>, 2009
+# Séamus Ó Ciardhuáin <seoc at iolfree.ie>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: kfileaudiopreview4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk5
+#: kfileaudiopreview.cpp:68
+#, kde-format
+msgid "Play &automatically"
+msgstr "Seinn go h&uathoibríoch"
+
+#. +> trunk5
+#: mediacontrols_p.h:39
+#, kde-format
+msgid "start playback"
+msgstr "tosaigh athsheinm"
+
+#. +> trunk5
+#: mediacontrols_p.h:44
+#, kde-format
+msgid "pause playback"
+msgstr "cuir athsheinm ar shos"

@@ -1,0 +1,1794 @@
+# Irish translation of okular_www
+# Copyright (C) 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the okular_www package.
+# Kevin Scannell <kscanne@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: okular_www\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2011-12-28 13:57-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk5
+#: config.yaml:0 content/download.md:0 i18n/en.yaml:3
+#, fuzzy
+#| msgid "Okular logo"
+msgid "Okular"
+msgstr "Lógó Okular"
+
+#. +> trunk5
+#: config.yaml:0
+msgid "Multi-platform, fast and packed with features, Okular allows you to read PDF documents, comics and EPub books, browse images, visualize Markdown documents, and much more."
+msgstr ""
+
+#. +> trunk5
+#: config.yaml:0
+msgid "About"
+msgstr ""
+
+#. +> trunk5
+#: config.yaml:0
+msgid "Donate"
+msgstr ""
+
+#. +> trunk5
+#: content/_index.md:0
+msgid "Okular - The Universal Document Viewer"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:0
+msgid "Compiling Okular from source on Linux"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:0
+msgid "Build It"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:0 content/contact.md:0
+msgid "/reusable-assets/konqi-dev.png"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:11
+msgid "<span style=\"background-color:#e8f4fa\">If you are looking for the pre-compiled packages, visit the [download page](/download/). You can check the packaging status [here](https://repology.org/project/okular/versions)</span>"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:13
+msgid "If you want to compile Okular, you need to have a compilation environment set up, which, in general, should be provided by your distribution. In case you want to compile the development version of Okular, please refer to Build from source at KDE's Community Wiki."
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:15
+msgid "You can download and compile Okular this way:"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:17
+msgid "`git clone https://invent.kde.org/graphics/okular.git`"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:18
+msgid "`cd okular`"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:19
+msgid "`mkdir build`"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:20
+msgid "`cd build`"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:21
+msgid "`cmake -DCMAKE_INSTALL_PREFIX=/path/to/your/install/dir ..`"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:22
+msgid "`make`"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:23
+msgid "`make install`"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:25
+msgid "If you install Okular in a different path than your system install directory it is possible that you need to run `source build/prefix.sh; okular` so that the correct Okular instance and libraries are picked up."
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:27
+msgid "Optional packages"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:29
+msgid "There are some optional packages you could install in order to have some more functionalities in Okular. Some might already be packaged for your distro, but other may not. If you want to avoid any issues, stick to the packages supported by your distribution"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:31
+msgid "Poppler (PDF backend): To compile the PDF backend, you need [the Poppler library](http://poppler.freedesktop.org), for which the minimum version required is 0.24"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:32
+msgid "Libspectre: In order to compile and use this PostScipt (PS) backend, you need libspectre >= 0.2. If your distro does not package it, or the packaged version is not enough, you can download it [here](http://libspectre.freedesktop.org)"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:33
+msgid "DjVuLibre: To compile the DjVu backend, you need DjVuLibre >= 3.5.17. As with Libspectre, you can get it from your distro or [here](http://djvulibre.djvuzone.org)."
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:34
+msgid "libTIFF: This is required for TIFF/fax support. Currently there is no minimum required version, so any quite recent version of the library available from your distro should work. In case of trouble, do not hesitate to contact the Okular developers."
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:35
+msgid "Libepub: If you need EPub support, you can install this library from your distro or from [sourceforge](http://sourceforge.net/projects/ebook-tools)."
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:37
+msgid "Uninstalling Okular"
+msgstr ""
+
+#. +> trunk5
+#: content/build-it.md:39
+msgid "You can uninstall Okular by running `make uninstall` in your `build` dir. This will remove the application from your system. It will not remove any user data you have viewed, created, or modified with Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/contact.md:0
+msgid "Contact"
+msgstr "Teagmháil"
+
+#. +> trunk5
+#: content/contact.md:10
+msgid "You can contact the Okular team in many ways:"
+msgstr ""
+
+#. +> trunk5
+#: content/contact.md:12
+msgid "Mailing list: To coordinate okular development, we use the [okular-devel mailing list](https://mail.kde.org/mailman/listinfo/okular-devel) at kde.org. You can use it to talk about the development of the core application, and feedback about existent or new backends is appreciated."
+msgstr ""
+
+#. +> trunk5
+#: content/contact.md:14
+msgid "IRC: For general chat, we use the IRC [#okular](irc://irc.libera.chat/#okular) and [#kde-devel](irc://irc.libera.chat/#kde-devel) on the [Libera Chat network](https://libera.chat/). Some of the Okular developers can be found hanging there."
+msgstr ""
+
+#. +> trunk5
+#: content/contact.md:16
+msgid "Matrix: The aforementioned chat can also be accessed over the Matrix network via [#okular:kde.org](https://matrix.to/#/#okular:kde.org)."
+msgstr ""
+
+#. +> trunk5
+#: content/contact.md:18
+msgid "Forum: If you prefer to use a forum you can use the [Okular forum](http://forum.kde.org/viewforum.php?f=251) inside the bigger [KDE Community Forums](http://forum.kde.org/)."
+msgstr ""
+
+#. +> trunk5
+#: content/contact.md:20
+msgid "Bugs and Wishes: Bugs and Wishes should be reported to the [KDE bug tracker](https://bugs.kde.org/). If you want to help, you can find a list of top bugs [here](https://community.kde.org/Okular)."
+msgstr ""
+
+#. Home.downloadbutton
+#. +> trunk5
+#: content/download.md:0 i18n/en.yaml:13
+msgid "Download"
+msgstr "Íosluchtaigh"
+
+#. +> trunk5
+#: content/download.md:0
+msgid "Okular is available as a precompiled package in a wide range of platforms. You can check the package status for your Linux distro on the right or keep reading for info on other operating systems"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "Windows"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "The [Microsoft Store](https://www.microsoft.com/store/apps/9n41msq1wnm8) is the recommended place to install Okular, the version there has been tested by our developers and the Microsoft Store provides seamless updates when new versions are released."
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+#, fuzzy
+#| msgid "Okular logo"
+msgid "okular"
+msgstr "Lógó Okular"
+
+#. +> trunk5
+#: content/download.md:0
+msgid "macOS (ARM)"
+msgstr ""
+
+#. +> trunk5
+#: content/download.md:0
+msgid "macOS (Intel)"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "How is Okular Sustainable?"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "Eco"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "Eco-Certification"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "eco-certification-icon.svg"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "Blue Angel certified for transparency in energy use, a longer hardware operating life, and user freedoms.\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "Energy Efficiency"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "energy-efficiency-icon.svg"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "Software efficiency determines the energy demands and operating life of digital infrastructure.\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "Transparency & Autonomy"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "user-autonomy-icon.svg"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "A Free Software license makes for the efficient, long-term, and sustainable use of hardware.\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "Ethics & Privacy"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "ethics-and-privacy-icon.svg"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "The [four freedoms](https://fsfe.org/freesoftware/index.en.html) are critical for an inclusive, equitable, and ecologically sustainable digitization.\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid ""
+"Medal by Ongycon, Green Lamp by Stefania Servidio, User by Guru, Ethics by\n"
+"Ruben Hojo from [Noun Project](https://thenounproject.com/) (CC BY 3.0)\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid ""
+"Okular is proud to be the first computer software worldwide to have\n"
+"received the Blue Angel seal in 2022. Introduced in 1978, the Blue Angel is\n"
+"the first ever ecolabel worldwide and the official environmental label of\n"
+"the German government. In 2020, the German Environment Agency\n"
+"(Umweltbundesamt) released the award criteria for desktop software with\n"
+"three main categories: (A) Resource & Energy Efficiency, (B) Potential\n"
+"Hardware Operating Life, and (C) User Autonomy. Software products that\n"
+"demonstrate compliance with these criteria enable longer and more efficient\n"
+"use of hardware.\n"
+"\n"
+"Interested to know more? Check out the KDE Eco handbook [\"Applying The Blue\n"
+"Angel Criteria To Free Software\"](https://eco.kde.org/handbook/).\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid ""
+"Download the most recent reports for Okular's [Idle Mode](https://okular.kde.org/eco/okular_energy-consumption-report_idle.pdf) and [Standard Usage Scenario](https://okular.kde.org/eco/okular_energy-consumption-report_SUS.pdf) energy consumption measurements.\n"
+"Software design and implementation have a significant impact on the energy\n"
+"consumption of the systems it is a part of. By becoming aware of how\n"
+"software affects energy consumption and providing tools to quantify them,\n"
+"it is possible to drive down energy consumption and increase efficiency.\n"
+"This contributes to a more sustainable use of energy as one of the shared\n"
+"resources of our planet.\n"
+"\n"
+"Learn more about KDE's work on energy efficiency and sustainable software\n"
+"at the [KDE Eco](https://eco.kde.org/) website.\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid ""
+"KDE wants to [put you in the driver's seat](https://community.kde.org/KDE/Vision) with all of its software, including Okular. Okular is available under a [Free Software license](https://invent.kde.org/graphics/okular/-/blob/master/COPYING), and the source code is readily available at [Okular's repository](https://invent.kde.org/graphics/okular). With Okular's [data format documentation](https://okular.kde.org/formats), you will never again be subject to vendor lock in from proprietary formats. Moreover, enhancing Okular's functionality is possible with its [API Documentation](https://api.kde.org/okular/html/index.html). [Install and uninstall instructions](https://userbase.kde.org/Tutorials/Install_KDE_software) are available to make sure users are not burdened by unwanted software components on their machines. And for those who want long-term support for their favorite software, Okular's [full list of release announcements](https://okular.kde.org/news/) ǵoes all the way back to 2006 and will continue well into the future.\n"
+"\n"
+"By guaranteeing transparency and autonomy, developers and users can ensure\n"
+"that their software reduces environmental harm in more ways than one,\n"
+"whether by keeping devices in use for longer, or by reducing the software’s\n"
+"use of energy and resources while in use.\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid ""
+"Being Free & Open Source Software, Okular's source code is available for\n"
+"all to use, study, share, improve, and most of all, enjoy. KDE software\n"
+"will always be available to all without being restricted to materially,\n"
+"educationally, or socially privileged people. [KDE's Code of\n"
+"Conduct](https://kde.org/code-of-conduct/) provides guidelines to support\n"
+"everyone in the community for a positive and inspiring atmosphere. This is\n"
+"necessary for software development that meets all its users' needs,\n"
+"wherever they are, on whatever device they own -- and not just ones vendors\n"
+"want to sell.\n"
+"\n"
+"KDE [envisions](https://community.kde.org/KDE/Vision) a \"world in which\n"
+"everyone has control over their digital life and enjoys freedom and\n"
+"privacy.\" Freedom from unethical practices such as unwanted data collection\n"
+"and tracking or [psychological\n"
+"targeting](https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal)\n"
+"is not only good for society, but it also reduces the carbon footprint of\n"
+"digital technology. A default opt out for ads and telemetry decreases\n"
+"energy demands on both end-user devices and servers running the ads or\n"
+"mining the data, and it reduces the energy needed for network traffic.\n"
+"[KDE's Privacy Policy](https://kde.org/privacypolicy-apps/) ensures that\n"
+"its software does not collect any information from users except when users\n"
+"actively and explicitly opt in to it!\n"
+"\n"
+"KDE is [software for you](https://kde.org/for/), by you!\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "Want to learn more about sustainable software?"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "KDE has the [goal](https://community.kde.org/Goals/Sustainable_Software) of providing software that reduces software's environmental impact. Let's make energy efficient software and digital sustainability part of the Free Software community. We can live up to our responsibility for this and future generations!\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "Okular's Path Toward Sustainability"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid ""
+"In 2022 Okular was the awarded the [Blue Angel ecolabel for sustainable\n"
+"software\n"
+"design](https://www.blauer-engel.de/en/productworld/software/resources-and-energy-efficient-software-products),\n"
+"becoming the first eco-certified computer program within the Global\n"
+"Ecolabelling Network.\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid "Okular was awarded the Blue Angel ecolabel in 2022."
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid ""
+"With KDE’s long-standing [mission](https://community.kde.org/KDE/Mission)\n"
+"and guiding [vision](https://community.kde.org/KDE/Vision) since its\n"
+"founding in 1996, as well as the talent and capabilities of its community\n"
+"members, KDE is a pioneer in championing sustainable software. In 2021 KDE\n"
+"started [KDE Eco](https://eco.kde.org/), a project with the goal of putting\n"
+"KDE and Free Software at the forefront of sustainable software engineering,\n"
+"and in 2022 the KDE community voted to have [Sustainable\n"
+"Software](https://community.kde.org/Goals/Sustainable_Software) as one of\n"
+"its overarching goals.\n"
+"\n"
+"Sustainability is not new for Free & Open Source Software (FOSS)&mdash;the\n"
+"[four freedoms](https://fsfe.org/freesoftware/index.en.html) have always\n"
+"made [Free Software sustainable\n"
+"software](https://fsfe.org/freesoftware/sustainability/). But now, the two\n"
+"pillars of FOSS&mdash;transparency and user autonomy&mdash;have wider\n"
+"recognition for their impacts on sustainability, and were incorporated into\n"
+"the sustainability criteria set by the German Environment Agency through\n"
+"the Blue Angel ecolabel.\n"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:0
+msgid ""
+"<em>Many people don't realize that software can contribute to hardware having\n"
+"to be decommissioned, thus wasting resources unnecessarily.</em>"
+msgstr ""
+
+#. +> trunk5
+#: content/eco.md:153
+msgid "Free & Open Source Software guarantees transparency and hands control over to users, rather than obligating them to work with certain vendors or service providers. This allows users to decide what they want from the software they use and, in turn, make decisions about the hardware they use as well. Users are able to reduce the energy consumption of their programs with little or no loss in functionality, installing only what they need, no more and no less; they can also avoid invasive advertising or data-mining options which run processes in the background, further consuming resources on the device and in the network. As for FOSS developers, they typically continue to support hardware that the industry would be eager to make obsolete, providing users with up-to-date and secure software for devices that might otherwise be discarded as e-waste and end up polluting landfills."
+msgstr ""
+
+#. +> trunk5
+#: content/faq.md:0
+msgid "Frequently Asked Questions"
+msgstr "Ceisteanna Coitianta"
+
+#. +> trunk5
+#: content/faq.md:0
+msgid "When using Ubuntu, I cannot read EPub documents, even if I have okular-extra-backends installed. Why?"
+msgstr ""
+
+#. +> trunk5
+#: content/faq.md:0
+msgid "Ubuntu (thus Kubuntu as well) packages of Okular are compiled without support for these two formats. The reason is explained in [this](https://bugs.launchpad.net/kdegraphics/+bug/277007) Launchpad report."
+msgstr ""
+
+#. +> trunk5
+#: content/faq.md:0
+msgid "Why are the speak options in the Tools menu grayed out?"
+msgstr ""
+
+#. +> trunk5
+#: content/faq.md:0
+msgid "Because you don't have a speech service on your system. Install the Qt Speech library and they should be enabled"
+msgstr ""
+
+#. +> trunk5
+#: content/faq.md:0
+msgid "Some characters are not rendered and when enabling debug some lines mention 'Missing language pack for xxx'"
+msgstr ""
+
+#. +> trunk5
+#: content/faq.md:0
+msgid "Install the poppler-data package"
+msgstr ""
+
+#. +> trunk5
+#: content/formats.md:0
+msgid "Document Format Handlers Status"
+msgstr ""
+
+#. +> trunk5
+#: content/formats.md:0
+msgid "Okular supports a wide variety of document formats and use cases."
+msgstr ""
+
+#. +> trunk5
+#: content/formats.md:0
+msgid "Document Format"
+msgstr ""
+
+#. +> trunk5
+#: content/news/_index.md:0
+msgid "News"
+msgstr ""
+
+#. +> trunk5
+#: content/news/aKademy_2007_Okular_presentation_material_online.md:0
+msgid "aKademy 2007 Okular presentation material online"
+msgstr ""
+
+#. +> trunk5
+#: content/news/aKademy_2007_Okular_presentation_material_online.md:5
+msgid "The Okular talk given by Pino Toscano at <a href=\"http://akademy2007.kde.org\">aKademy 2007</a> is now online. There are both <a href=\"http://akademy2007.kde.org/conference/slides/okular.pdf\">slides</a> and <a href=\"http://home.kde.org/~akademy07/videos/2-05-Okular:simply_a_document_viewer.ogg\">video</a> available."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.10_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.10 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.10_released.md:5
+msgid "The 0.10 version of Okular has been released together with KDE SC 4.4. Besides general improvements in stability this release sports new/improved support for both inverse search and forward search linking latex source code lines with the corresponding locations in dvi and pdf files."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.11_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.11 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.11_released.md:5
+msgid "The 0.11 version of Okular has been released together with KDE Applications 4.5 release. This release introduce small fixes and features and is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.12_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.12 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.12_released.md:5
+msgid "The 0.12 version of Okular has been released together with KDE Applications 4.6 release. This release introduce small fixes and features and is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.13_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.13 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.13_released.md:5
+msgid "The 0.13 version of Okular has been released together with KDE Applications 4.7 release. This release introduce small fixes and features and is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.14_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.14 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.14_released.md:5
+msgid "The 0.14 version of Okular has been released together with KDE Applications 4.8 release. This release introduces new features like improved text selection in documents with columns, table selection tool, LaTex rendering in annotations, improved embedded support (for use in e.g. Kile), better layouting for faced pages, smarter screensaver/powermanagement handling, improved page label support, default zoom configuration, improved Landscape printing, etc. You can find a non complete list of bugs and features in <a href=\"https://bugs.kde.org/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;product=okular&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;emailtype1=exact&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=2010-10-10&amp;chfieldto=Now&amp;chfield=cf_versionfixedin&amp;chfieldvalue=4.8.0&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=\">bugzilla</a>. Okular 0.14 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.15_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.15 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.15_released.md:5
+msgid "The 0.15 version of Okular has been released together with KDE Applications 4.9 release. This release introduces new features like the ability to store annotations with PDF documents, more support for PDF movies, multiple bookmarks per page and some other minor improvements. You can find a non complete list of bugs and features in <a href=\"https://bugs.kde.org/buglist.cgi?query_format=advanced&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;product=okular&amp;long_desc_type=allwordssubstr&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;emailtype1=exact&amp;email1=&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=2010-10-10&amp;chfieldto=Now&amp;chfield=cf_versionfixedin&amp;chfieldvalue=4.9.0&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=\">bugzilla</a>. Okular 0.15 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.16_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.16 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.16_released.md:5
+msgid "The 0.16 version of Okular has been released together with KDE Applications 4.10 release. This release introduces new features like the ability to zoom to higher levels in PDF documents, an Active based viewer for your tablet devices, more support for PDF movies, viewport follows selection, and annotation editing improvements. Okular 0.16 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.17_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.17 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.17_released.md:5
+msgid "The 0.17 version of Okular has been released together with KDE Applications 4.11 release. This release introduces new features like undo/redo support for forms and annotations and configurable review tools. Okular 0.17 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.18_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.18 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.18_released.md:5
+msgid "The 0.18 version of Okular has been released together with KDE Applications 4.12 release. This release introduces new features like audio/video support in EPub files and also improvements to existing features like searching and printing. Okular 0.18 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.19_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.19 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.19_released.md:5
+msgid "The 0.19 version of Okular has been released together with KDE Applications 4.13 release. This release introduces new features like tabs support in the interface, use of DPI screen so that page size matches real paper size, improvements to the Undo/Redo framework and other features/refinements. Okular 0.19 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.21_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.21 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.21_released.md:5
+msgid "The 0.21 version of Okular has been released together with KDE Applications 14.12 release. This release introduces new features like latex-synctex reverse searching in dvi and small bugfixes. Okular 0.21 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.22_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.22 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.22_released.md:5
+msgid "The 0.22 version of Okular has been released together with KDE Applications 15.04 release. Okular 0.22 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.23_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.23 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.23_released.md:5
+msgid "The 0.23 version of Okular has been released together with KDE Applications 15.08 release. This release introduces support for the Fade transition in presentation mode as well as some fixes regarding annotations and video playback. Okular 0.23 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.24_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.24 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.24_released.md:5
+msgid "The 0.24 version of Okular has been released together with KDE Applications 15.12 release. This release introduces minor bugfixes and features, you can check the full changelog at <a href='https://www.kde.org/announcements/changelogs/applications/15.12.0/#okular'>https://www.kde.org/announcements/changelogs/applications/15.12.0/#okular</a>. Okular 0.24 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.26_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.26 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.26_released.md:5
+msgid "The 0.26 version of Okular has been released together with KDE Applications 16.08 release. This release introduces very small changes, you can check the full changelog at <a href='https://www.kde.org/announcements/changelogs/applications/16.08.0/#okular'>https://www.kde.org/announcements/changelogs/applications/16.08.0/#okular</a>. Okular 0.26 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.5.81_unstable_snapshot_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.5.81 unstable snapshot released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.5.81_unstable_snapshot_released.md:5
+msgid "The Okular team is proud to announce the release of a snapshot of Okular that compiles against the <a href=\"http://dot.kde.org/1162475911/\">Second KDE 4 Developers Snapshot</a>. This snapshot is not completely functional, yet, as we have lots of things to polish and finish, but you are free to test it and provide as much feedback as you want. You can find the snapshot package at <a href=\"ftp://ftp.kde.org/pub/kde/unstable/apps/KDE4.x/graphics/okular-0.5.81.tar.bz2\">ftp://ftp.kde.org/pub/kde/unstable/apps/KDE4.x/graphics/okular-0.5.81.tar.bz2</a>. Have a look at the <a href=\"download.php\">download</a> page to be sure you have all the necessary libraries."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.5_unstable_snapshot_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.5 unstable snapshot released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.5_unstable_snapshot_released.md:5
+msgid "The Okular team is proud to announce the release of a snapshot of Okular that compiles against the <a href=\"http://dot.kde.org/1155935483/\">KDE 4 'Krash' snapshot</a>. This snapshot is still not completely functional as we have lots of things to polish and finish but you are free to test it and provide as much feedback as you want. You can find the snapshot package at <a href=\"ftp://ftp.kde.org/pub/kde/unstable/apps/KDE4.x/graphics/okular-0.5.tar.bz2\">ftp://ftp.kde.org/pub/kde/unstable/apps/KDE4.x/graphics/okular-0.5.tar.bz2</a>. Have a look at the <a href=\"download.php\">download</a> page to be sure you have all the necessary libraries."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.6.1_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.6.1 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.6.1_released.md:5
+msgid "The first maintenance release of the KDE 4.0 series includes Okular 0.6.1. It includes quite a few bug fixes, including better not redownloading files when saving, usability improvements, etc. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_0to4_0_1.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_0to4_0_1.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.6.2_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.6.2 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.6.2_released.md:5
+msgid "The second maintenance release of the KDE 4.0 series includes Okular 0.6.2. It includes quite a few bug fixes, including more stability when closing a document, and small fixes for the bookmark system. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_0_1to4_0_2.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_0_1to4_0_2.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.6.3_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.6.3 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.6.3_released.md:5
+msgid "The third maintenance release of the KDE 4.0 series includes Okular 0.6.3. It includes few bug fixes, i.e. a better way to get the text position in a PDF document, and a couple of fixes for the annotation system, and the table of contents. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_0_2to4_0_3.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_0_2to4_0_3.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7.1_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.7.1 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.7.1_released.md:5
+msgid "The first maintenance release of the KDE 4.1 series includes Okular 0.7.1. It includes some crash fixes among other minor fixes. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_1to4_1_1.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_1to4_1_1.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7.2_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.7.2 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.7.2_released.md:5
+msgid "The second maintenance release of the KDE 4.1 series includes Okular 0.7.2. It includes some minor fixes in the TIFF and Comicbook backends and the change to \"Fit Width\" as default zoom level. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_1_1to4_1_2.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_1_1to4_1_2.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7.3_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.7.3 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.7.3_released.md:5
+msgid "The third maintenance release of the KDE 4.1 series includes Okular 0.7.3. It includes some minor fixes in the user interface and in the text search. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_1_2to4_1_3.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_1_2to4_1_3.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.7 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:5
+msgid "The Okular team is proud to announce a new version of Okular, released as part of <a href=\"http://www.kde.org/announcements/4.1/\">KDE 4.1</a>. Some of the new features and improvements include (in random order):"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:7
+msgid "Possibility to save a PDF document with the changes to the form fields"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:8
+msgid "Presentation mode: support for more than one screen, and possibility to disable transitions"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:9
+msgid "The zoom level is stored per-document now"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:10
+msgid "Enhanced text-to-speech support, that can be used to read the whole document, a specific page or the text selection"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:11
+msgid "Backward direction for text search"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:12
+msgid "Improved support for forms"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:13
+msgid "Preliminary (really basic and most probably incomplete) support for JavaScript in PDF documents"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:14
+msgid "Support for file attachment annotations"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:15
+msgid "Possibility to remove the white border of pages when viewing pages"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:16
+msgid "New backend for EPub documents"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:17
+msgid "OpenDocument Text backend: support for encrypted documents, list and tables improvements"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:18
+msgid "XPS backend: various loading and rendering improvements, should be much more usable now"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.7_released.md:19
+msgid "PS backend: various improvements, mainly due to the newer libspectre required"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.8.1_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.8.1 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.8.1_released.md:5
+msgid "The first maintenance release of the KDE 4.2 series includes Okular 0.8.1. It includes some crash fixes in the CHM and DjVu backends, and minor fixes in the user interface. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_2to4_2_1.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_2to4_2_1.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.8.2_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.8.2 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.8.2_released.md:5
+msgid "The second maintenance release of the KDE 4.2 series includes Okular 0.8.2. It includes better support (hopefully working) for DVI and pdfsync inverse search, and fixes and small improvements in the presentation mode. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_2_1to4_2_2.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_2_1to4_2_2.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.8.3_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.8.3 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.8.3_released.md:5
+msgid "The third maintenance release of the KDE 4.2 series includes Okular 0.8.3. It does not provide much news for Okular, the only relevant change is about thread more safety when generating page images of XPS document. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_2_2to4_2_3.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_2_2to4_2_3.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.8.4_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.8.4 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.8.4_released.md:5
+msgid "The forth maintenance release of the KDE 4.2 series includes Okular 0.8.4. It includes some fixes in OpenDocument Text documents, a couple of crash fixes, and few small bugs in the interface. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_2_3to4_2_4.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_2_3to4_2_4.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.8_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.8 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.8_released.md:5
+msgid ""
+"The Okular team is proud to announce a new version of Okular, released as part of <a href=\"http://www.kde.org/announcements/4.2/\">KDE 4.2</a>. Some of the new features and improvements include (in random order): "
+"<ul type=\"disc\"> "
+"<li>Add a Document Archiving possibility</li>"
+" "
+"<li>Start a search from the current page</li>"
+" "
+"<li>Preliminar support for videos in PDF documents</li>"
+" "
+"<li>Presentation mode improvements: screen saver inhibition, and black screen mode</li>"
+" "
+"<li>More stamp annotations</li>"
+" "
+"<li>Support for Lilypond's \"point-and-click\" links</li>"
+" "
+"<li>Editor configuration for inverse search</li>"
+" "
+"<li>Export to OpenDocument Text and HTML for ODT, Fictionbook and EPub backends (requires Qt 4.5)</li>"
+" "
+"<li>New backend for G3/G4 fax documents</li>"
+" "
+"<li>DjVu backend: memory management improvements</li>"
+" "
+"<li>OpenDocument Text backend: various improvements</li>"
+" "
+"<li>... other small features and fixes</li>"
+" </ul>"
+" And, of course, many bugs were fixed."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_0.9.4_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 0.9.4 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_0.9.4_released.md:5
+msgid "The forth maintenance release of the KDE 4.3 series includes Okular 0.9.4. It includes some crash fixes, and few small bug fixes in the interface. You can read all the fixed issues at <a href=\"http://www.kde.org/announcements/changelogs/changelog4_3_3to4_3_4.php#okular\">http://www.kde.org/announcements/changelogs/changelog4_3_3to4_3_4.php</a>"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.0_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.0 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.0_released.md:5
+msgid "The 1.0 version of Okular has been released together with KDE Applications 16.12 release. This release is now based in KDE Frameworks 5, you can check the full changelog at <a href='https://www.kde.org/announcements/changelogs/applications/16.12.0/#okular'>https://www.kde.org/announcements/changelogs/applications/16.12.0/#okular</a>. Okular 1.0 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.10_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.10 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.10_released.md:5
+msgid "The 1.10 version of Okular has been released. This release introduces kinetic scrolling, tab management improvements, improvements to the Mobile UI and various minor fixes and features all over. You can check the full changelog at <a href='https://kde.org/announcements/changelog-releases.php?version=20.04.0#okular'>https://kde.org/announcements/changelog-releases.php?version=20.04.0#okular</a>. Okular 1.10 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.11_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.11 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.11_released.md:5
+msgid "The 1.11 version of Okular has been released. This release introduces a new annotation user interface and various minor fixes and features all over. You can check the full changelog at <a href='https://kde.org/announcements/changelog-releases.php?version=20.08.0#okular'>https://kde.org/announcements/changelog-releases.php?version=20.08.0#okular</a>. Okular 1.11 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.1_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.1 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.1_released.md:5
+msgid "The 1.1 version of Okular has been released together with KDE Applications 17.04 release. This release introduces annotation resize functionality, support for automatic calculation of form contents, touch screen improvements and more! You can check the full changelog at <a href='https://www.kde.org/announcements/changelogs/applications/17.04.0/#okular'>https://www.kde.org/announcements/changelogs/applications/17.04.0/#okular</a>. Okular 1.1 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.2_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.2 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.2_released.md:5
+msgid "The 1.2 version of Okular has been released together with KDE Applications 17.08 release. This release introduces minor bugfixes and improvements. You can check the full changelog at <a href='https://www.kde.org/announcements/changelogs/applications/17.08.0/#okular'>https://www.kde.org/announcements/changelogs/applications/17.08.0/#okular</a>. Okular 1.2 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.3_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.3 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.3_released.md:5
+msgid "The 1.3 version of Okular has been released together with KDE Applications 17.12 release. This release introduces changes to how saving annotations and form data works, supports partial rendering updates for files that take long time to render, makes text links interactive on text selection mode, adds a Share option in the File menu, adds Markdown support and fixes some issues regarding HiDPI support. You can check the full changelog at <a href='https://www.kde.org/announcements/changelogs/applications/17.12.0/#okular'>https://www.kde.org/announcements/changelogs/applications/17.12.0/#okular</a>. Okular 1.3 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.4_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.4 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.4_released.md:5
+msgid "The 1.4 version of Okular has been released together with KDE Applications 18.04 release. This release introduces improved JavaScript support in PDF files and supports PDF rendering cancelling, which means that if you have a complex PDF file and you change the zoom while it's rendering it will cancel immediately instead of waiting for the render to finish. You can check the full changelog at <a href='https://www.kde.org/announcements/changelogs/applications/18.04.0/#okular'>https://www.kde.org/announcements/changelogs/applications/18.04.0/#okular</a>. Okular 1.4 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.5_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.5 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.5_released.md:5
+msgid "The 1.5 version of Okular has been released together with KDE Applications 18.08 release. This release introduces Form improvements among various other fixes and small features. You can check the full changelog at <a href='https://www.kde.org/announcements/changelogs/applications/18.08.0/#okular'>https://www.kde.org/announcements/changelogs/applications/18.08.0/#okular</a>. Okular 1.5 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.6_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.6 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.6_released.md:5
+msgid "The 1.6 version of Okular has been released together with KDE Applications 18.12 release. This release introduces the new Typewriter annotation tool among various other fixes and small features. You can check the full changelog at <a href='https://www.kde.org/announcements/changelogs/applications/18.12.0/#okular'>https://www.kde.org/announcements/changelogs/applications/18.12.0/#okular</a>. Okular 1.6 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.8_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.8 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.8_released.md:5
+msgid "The 1.8 version of Okular has been released together with KDE Applications 19.08 release. This release introduces the feature of setting Line Annotation endings among various other fixes and small features. You can check the full changelog at <a href='https://www.kde.org/announcements/changelogs/applications/19.08.0/#okular'>https://www.kde.org/announcements/changelogs/applications/19.08.0/#okular</a>. Okular 1.8 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_1.9_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 1.9 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_1.9_released.md:5
+msgid "The 1.9 version of Okular has been released. This release introduces cb7 support for ComicBook archives, improved JavaScript support for PDF files among various other fixes and small features. You can check the full changelog at <a href='https://kde.org/announcements/changelog-releases.php?version=19.12.0#okular'>https://kde.org/announcements/changelog-releases.php?version=19.12.0#okular</a>. Okular 1.9 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_20.12_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 20.12 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_20.12_released.md:5
+msgid "The 20.12 version of Okular has been released. This release introduces various minor fixes and features all over. You can check the full changelog at <a href='https://kde.org/announcements/changelog-releases.php?version=20.12.0#okular'>https://kde.org/announcements/changelog-releases.php?version=20.12.0#okular</a>. Okular 20.12 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_21.04_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 21.04 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_21.04_released.md:5
+msgid "The 21.04 version of Okular has been released. This release introduces Digital Signing of PDF files and various minor fixes and features all over. You can check the full changelog at <a href='https://kde.org/announcements/changelogs/releases/21.04.0/#okular'>https://kde.org/announcements/changelogs/releases/21.04.0/#okular</a>. Okular 21.04 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_21.08_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 21.08 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_21.08_released.md:5
+msgid "The 21.08 version of Okular has been released. This release contains various minor fixes and features all over. You can check the full changelog at <a href='https://kde.org/announcements/changelogs/gear/21.08.0/#okular'>https://kde.org/announcements/changelogs/gear/21.08.0/#okular</a>. Okular 21.08 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_21.12_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 21.12 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_21.12_released.md:5
+msgid "The 21.12 version of Okular has been released. The main improvement of this release is proper support of Stamps in PDF files, but it also contains various minor fixes and features. You can check the full changelog at <a href='https://kde.org/announcements/changelogs/gear/21.12.0/#okular'>https://kde.org/announcements/changelogs/gear/21.12.0/#okular</a>. Okular 21.12 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_22.04_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 22.04 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_22.04_released.md:5
+msgid "The 22.04 version of Okular has been released. The main changes of this release are the new Welcome Screen and fixes related to signing specially crafted PDF files, but it also contains various minor fixes and features. You can check the full changelog at https://kde.org/announcements/changelogs/gear/22.04.0/#okular. Okular 22.04 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_22.08_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 22.08 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_22.08_released.md:5
+msgid "The 22.08 version of Okular has been released. This release contains various minor fixes and feature enhacements. You can check the full changelog at https://kde.org/announcements/changelogs/gear/22.08.0/#okular. Okular 22.08 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_22.12_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 22.12 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_22.12_released.md:5
+msgid "The 22.12 version of Okular has been released. This release contains various minor fixes and feature enhancements. You can check the full changelog at https://kde.org/announcements/changelogs/gear/22.12.0/#okular. Okular 22.12 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_23.04_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 23.04 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_23.04_released.md:5
+msgid "The 23.04 version of Okular has been released. This release contains various minor fixes and feature enhancements. You can check the full changelog at https://kde.org/announcements/changelogs/gear/23.04.0/#okular. Okular 23.04 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_23.08_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 23.08 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_23.08_released.md:0
+#: content/news/Okular_24.02_released.md:0
+#: content/news/Okular_24.05_released.md:0
+#: content/news/Okular_24.08_released.md:0
+#: content/news/Okular_24.12_released.md:0
+#: content/news/Okular_25.08_released.md:0
+#: content/news/Okular_25.12_released.md:0
+msgid "Releases"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_23.08_released.md:7
+msgid "The 23.08 version of Okular has been released. This release contains various minor fixes and feature enhancements. You can check the full changelog at https://kde.org/announcements/changelogs/gear/23.08.0/#okular. Okular 23.08 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_24.02_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 24.02 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_24.02_released.md:7
+msgid "The 24.02 version of Okular has been released. You can check the full changelog at https://kde.org/announcements/changelogs/gear/24.02.0/#okular. Okular 24.02 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_24.05_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 24.05 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_24.05_released.md:7
+msgid "The 24.05 version of Okular has been released. You can check the full changelog at https://kde.org/announcements/changelogs/gear/24.05.0/#okular. Okular 24.05 is a recommended update for everyone using Okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_24.08_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 24.08 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_24.08_released.md:7
+msgid "The 24.08 version of Okular has been released. This release includes several improvements in PDF form handling and various other minor fixes and feature enhancements. You can check the full changelog at https://kde.org/announcements/changelogs/gear/24.08.0/#okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_24.12_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 24.12 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_24.12_released.md:7
+msgid "The 24.12 version of Okular has been released. This release includes several improvements in PDF form handling and Signature Creation as well as various other minor fixes and feature enhancements. You can check the full changelog at https://kde.org/announcements/changelogs/gear/24.12.0/#okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_25.08_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 25.08 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_25.08_released.md:7
+msgid "The 25.08 version of Okular has been released. This release includes several minor fixes and feature enhancements. You can check the full changelog at https://kde.org/announcements/changelogs/gear/25.08.0/#okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_25.12_released.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular 25.12 released"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_25.12_released.md:7
+msgid "The 25.12 version of Okular has been released. This release includes several minor fixes and feature enhancements. You can check the full changelog at https://kde.org/announcements/changelogs/gear/25.12.0/#okular."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_forums.md:0
+#, fuzzy
+#| msgid "Okular logo"
+msgid "Okular forums"
+msgstr "Lógó Okular"
+
+#. +> trunk5
+#: content/news/Okular_forums.md:5
+msgid "We now have a subforum inside the KDE Community Forums. You can find it at <a href=\"http://forum.kde.org/viewforum.php?f=251\">http://forum.kde.org/viewforum.php?f=251</a>."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_in_kdegraphics.md:0
+#, fuzzy
+#| msgid "Okular news"
+msgid "Okular in kdegraphics"
+msgstr "Nuacht Okular"
+
+#. +> trunk5
+#: content/news/Okular_in_kdegraphics.md:5
+msgid "The Okular team is proud to announce Okular is now part of the kdegraphics module. The next version of Okular will be shipped with KDE 4.0."
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_joins_The_Season_of_Usability_project.md:0
+msgid "Okular joins The Season of Usability project"
+msgstr ""
+
+#. +> trunk5
+#: content/news/Okular_joins_The_Season_of_Usability_project.md:5
+msgid "The Okular team is proud to announce Okular has been one of the applications selected to participate in the <a href=\"http://www.openusability.org/season/0607/\">Season of Usability</a> project, run by usability experts at <a href=\"http://www.openusability.org\">OpenUsability</a>. From here we want to welcome Sharad Baliyan to the team and thank Florian Graessle and Pino Toscano for their continued work on improving Okular."
+msgstr ""
+
+#. Home.motto
+#. +> trunk5
+#: i18n/en.yaml:7
+msgid "The Universal Document Viewer"
+msgstr ""
+
+#. Home.alt_img
+#. +> trunk5
+#: i18n/en.yaml:9
+#, fuzzy
+#| msgid "Screenshots"
+msgid "Screenshot of Okular"
+msgstr "Grianghraif den Scáileán"
+
+#. Home.figcaption
+#. +> trunk5
+#: i18n/en.yaml:11
+msgid "Illustration from [David Revoy CC-BY-SA-4.0](https://www.peppercarrot.com/)"
+msgstr ""
+
+#. Home.SupportsFormats
+#. +> trunk5
+#: i18n/en.yaml:15
+msgid "Support for Many Formats"
+msgstr ""
+
+#. Home.SupportsFormats.description
+#. +> trunk5
+#: i18n/en.yaml:17
+msgid "Okular supports many formats, including  PDF, EPub, DjVU and MD for documents; JPEG, PNG, GIF, Tiff, WebP for images; CBR and CBZ for comics; and many, many more."
+msgstr ""
+
+#. Home.SupportsFormats.seemore
+#. +> trunk5
+#: i18n/en.yaml:19
+msgid "See Format Compatibility table"
+msgstr ""
+
+#. Home.advancedinterface
+#. +> trunk5
+#: i18n/en.yaml:21
+msgid "Advanced User Interface"
+msgstr ""
+
+#. Home.advancedinterface.features
+#. +> trunk5
+#: i18n/en.yaml:23
+msgid "Okular has a wide range of features that lets you easily manage your documents."
+msgstr ""
+
+#. Home.advancedinterface.alt_img
+#. +> trunk5
+#: i18n/en.yaml:25
+msgid "A screenshot from Okular showing its annotation mode."
+msgstr ""
+
+#. Home.annotate
+#. +> trunk5
+#: i18n/en.yaml:27
+#, fuzzy
+#| msgid "Annotations"
+msgid "Annotate your PDFs"
+msgstr "Anótálacha"
+
+#. Home.annotate.description
+#. +> trunk5
+#: i18n/en.yaml:29
+msgid "With Okular's 'Annotation mode', you can easily add inline and popup notes, highlight and underline text, or even add your own text."
+msgstr ""
+
+#. Home.selectandview
+#. +> trunk5
+#: i18n/en.yaml:31
+msgid "Select and View any Text"
+msgstr ""
+
+#. Home.selectandview.description
+#. +> trunk5
+#: i18n/en.yaml:33
+msgid "With Okular's 'Selection mode', you can copy and paste almost anything from your documents to elsewhere. And, for those times the text you want to read is too small, you can use the 'Magnifier mode'."
+msgstr ""
+
+#. Home.selectandview.alt_img1
+#. +> trunk5
+#: i18n/en.yaml:35
+msgid "Okular's 'Selection mode', with text, area and table selection options."
+msgstr ""
+
+#. Home.selectandview.alt_img2
+#. +> trunk5
+#: i18n/en.yaml:37
+msgid "Okular's 'Text Magnifier' feature."
+msgstr ""
+
+#. Home.ataglance.alt_img1
+#. +> trunk5
+#: i18n/en.yaml:39
+msgid "Okular's 'Content panel' auto renders a table of contents for a document."
+msgstr ""
+
+#. Home.ataglance.alt_img2
+#. +> trunk5
+#: i18n/en.yaml:41
+msgid "Okular's 'Thumbnails panel' shows a thumbnail for each page of a document."
+msgstr ""
+
+#. Home.ataglance
+#. +> trunk5
+#: i18n/en.yaml:43
+msgid "Your Content, at a Glance"
+msgstr ""
+
+#. Home.ataglance.description
+#. +> trunk5
+#: i18n/en.yaml:45
+msgid "Navigating your content is easier than ever. With Okular's 'Thumbnails panel', you can browse graphically the part of the document you were looking for. With the 'Content panel', find the chapter you need in all supported documents."
+msgstr ""
+
+#. Home.esign
+#. +> trunk5
+#: i18n/en.yaml:47
+msgid "First-class Signature Support"
+msgstr ""
+
+#. Home.esign.description
+#. +> trunk5
+#: i18n/en.yaml:49
+msgid "You can view and verify digital signatures embedded in PDFs, check if they are still valid, and detect any modifications since the moment the document was signed. You can even sign PDFs yourself!"
+msgstr ""
+
+#. Home.esign.alt_img
+#. +> trunk5
+#: i18n/en.yaml:51
+msgid "Okular showing a signed PDF."
+msgstr ""
+
+#. Home.freesoftware
+#. +> trunk5
+#: i18n/en.yaml:53
+msgid "Free Software"
+msgstr ""
+
+#. Home.freesoftware.description
+#. +> trunk5
+#: i18n/en.yaml:55
+msgid "Okular is released under the [GPLv2+](https://spdx.org/licenses/GPL-2.0-or-later.html), and is thus fully Free Software. Find the source code including guidance how to contribute in the [Okular repository on KDE's GitLab](https://invent.kde.org/graphics/okular). Okular also fully respects your privacy, see all details in the [KDE Software Privacy Policy](https://kde.org/privacypolicy-apps/)."
+msgstr ""
+
+#. Home.freesoftware.alt_img
+#. +> trunk5
+#: i18n/en.yaml:57
+msgid "Logo for the PDF freedom initiative"
+msgstr ""
+
+#. home.rees
+#. +> trunk5
+#: i18n/en.yaml:59
+msgid "Resource and Energy-Efficient Software"
+msgstr ""
+
+#. home.rees.description
+#. +> trunk5
+#: i18n/en.yaml:61
+msgid "Okular is the very first software product to receive the Blue Angel ecolabel for being resource and energy efficient. Click on the label to find out more."
+msgstr ""
+
+#. home.rees.alt
+#. +> trunk5
+#: i18n/en.yaml:63
+msgid "Blue Angel ecolabel, awarded by the German government to Okular for being energy efficient, saving resources, and providing transparent interfaces."
+msgstr ""
+
+#. Home.try_it
+#. +> trunk5
+#: i18n/en.yaml:65
+#, fuzzy
+#| msgid "Okular news"
+msgid "Try Okular now!"
+msgstr "Nuacht Okular"
+
+#. Home.download_it
+#. +> trunk5
+#: i18n/en.yaml:67
+msgid "Visit the download page."
+msgstr ""
+
+#. Home.recentnews
+#. +> trunk5
+#: i18n/en.yaml:70
+msgid "Latest News"
+msgstr ""
+
+#. Home.recentnews.view-all
+#. +> trunk5
+#: i18n/en.yaml:72
+msgid "View all Development News"
+msgstr ""
+
+#. Home.recentnews.read-more
+#. +> trunk5
+#: i18n/en.yaml:74
+msgid "Read More"
+msgstr ""
+
+#. Apps.Header
+#. +> trunk5
+#: i18n/en.yaml:79
+msgid "Features/Formats"
+msgstr ""
+
+#. Apps.PDF
+#. +> trunk5
+#: i18n/en.yaml:81
+msgid "PDF"
+msgstr ""
+
+#. Apps.PS
+#. +> trunk5
+#: i18n/en.yaml:83
+msgid "PS"
+msgstr ""
+
+#. Apps.Tiff
+#. +> trunk5
+#: i18n/en.yaml:85
+msgid "Tiff"
+msgstr ""
+
+#. Apps.ODT
+#. +> trunk5
+#: i18n/en.yaml:87
+msgid "ODT"
+msgstr ""
+
+#. Apps.DjVu
+#. +> trunk5
+#: i18n/en.yaml:89
+msgid "DjVu"
+msgstr ""
+
+#. Apps.Images
+#. +> trunk5
+#: i18n/en.yaml:91
+msgid "Images"
+msgstr ""
+
+#. Apps.DVI
+#. +> trunk5
+#: i18n/en.yaml:93
+msgid "DVI"
+msgstr ""
+
+#. Apps.XPS
+#. +> trunk5
+#: i18n/en.yaml:95
+msgid "XPS"
+msgstr ""
+
+#. Apps.Fiction Book
+#. +> trunk5
+#: i18n/en.yaml:97
+msgid "Fiction Book"
+msgstr ""
+
+#. Apps.Comic Book
+#. +> trunk5
+#: i18n/en.yaml:99
+msgid "Comic Book"
+msgstr ""
+
+#. Apps.Plucker
+#. +> trunk5
+#: i18n/en.yaml:101
+msgid "Plucker"
+msgstr ""
+
+#. Apps.EPub
+#. +> trunk5
+#: i18n/en.yaml:103
+msgid "EPub"
+msgstr ""
+
+#. Apps.Fax
+#. +> trunk5
+#: i18n/en.yaml:105
+msgid "Fax"
+msgstr ""
+
+#. Apps.Mobipocket
+#. +> trunk5
+#: i18n/en.yaml:107
+msgid "Mobipocket"
+msgstr ""
+
+#. Apps.Mainlib
+#. +> trunk5
+#: i18n/en.yaml:110
+msgid "Main library used"
+msgstr ""
+
+#. Apps.poppler
+#. +> trunk5
+#: i18n/en.yaml:112
+msgid "[poppler](http://poppler.freedesktop.org)"
+msgstr ""
+
+#. Apps.libspectre
+#. +> trunk5
+#: i18n/en.yaml:114
+msgid "[libspectre](http://libspectre.freedesktop.org)"
+msgstr ""
+
+#. Apps.libTIFF
+#. +> trunk5
+#: i18n/en.yaml:116
+msgid "[libTIFF](http://www.remotesensing.org/libtiff)"
+msgstr ""
+
+#. Apps.DjVuLibre
+#. +> trunk5
+#: i18n/en.yaml:118
+msgid "[DjVuLibre](http://djvulibre.djvuzone.org)"
+msgstr ""
+
+#. Apps.epub
+#. +> trunk5
+#: i18n/en.yaml:120
+msgid "[epub](http://sourceforge.net/projects/ebook-tools)"
+msgstr ""
+
+#. Apps.Loading
+#. +> trunk5
+#: i18n/en.yaml:123
+msgid "Loading"
+msgstr "Á Luchtú"
+
+#. Apps.Rendering
+#. +> trunk5
+#: i18n/en.yaml:125
+msgid "Rendering"
+msgstr ""
+
+#. Apps.Documents
+#. +> trunk5
+#: i18n/en.yaml:127
+msgid "Document Information"
+msgstr ""
+
+#. Apps.Threads
+#. +> trunk5
+#: i18n/en.yaml:129
+msgid "Threaded Rendering"
+msgstr ""
+
+#. Apps.TOC
+#. +> trunk5
+#: i18n/en.yaml:131
+msgid "TOC"
+msgstr "Clár na nÁbhar"
+
+#. Apps.Font
+#. +> trunk5
+#: i18n/en.yaml:133
+msgid "Font Information"
+msgstr ""
+
+#. Apps.ExtractText
+#. +> trunk5
+#: i18n/en.yaml:135
+msgid "Text Extraction"
+msgstr ""
+
+#. Apps.Links
+#. +> trunk5
+#: i18n/en.yaml:137
+msgid "Links"
+msgstr "Naisc"
+
+#. Apps.PaperSize
+#. +> trunk5
+#: i18n/en.yaml:139
+msgid "Paper Size"
+msgstr "Páipéarmhéid"
+
+#. Apps.Printing
+#. +> trunk5
+#: i18n/en.yaml:141
+msgid "Printing"
+msgstr "Priontáil"
+
+#. Apps.TextExporting
+#. +> trunk5
+#: i18n/en.yaml:143
+msgid "Text Exporting"
+msgstr ""
+
+#. Apps.Annotations
+#. +> trunk5
+#: i18n/en.yaml:145
+msgid "Annotations"
+msgstr "Anótálacha"
+
+#. Apps.OtherFeatures
+#. +> trunk5
+#: i18n/en.yaml:148
+msgid "Other Features"
+msgstr ""
+
+#. Apps.Forms
+#. +> trunk5
+#: i18n/en.yaml:150
+msgid "Forms"
+msgstr "Foirmeacha"
+
+#. Apps.InverseSearch
+#. +> trunk5
+#: i18n/en.yaml:152
+msgid "Inverse Search"
+msgstr ""
+
+#. Apps.DocumentRights
+#. +> trunk5
+#: i18n/en.yaml:154
+msgid "Document Rights"
+msgstr ""
+
+#. Apps.EmbeddedFiles
+#. +> trunk5
+#: i18n/en.yaml:156
+msgid "Embedded Files"
+msgstr ""
+
+#. Apps.Sounds
+#. +> trunk5
+#: i18n/en.yaml:158
+msgid "Sounds"
+msgstr "Fuaimeanna"
+
+#. Apps.Movies
+#. +> trunk5
+#: i18n/en.yaml:160
+msgid "Movies"
+msgstr "Scannáin"
+
+#. Apps.InverseSearch.FormatsDone
+#. +> trunk5
+#: i18n/en.yaml:163
+msgid "pdfsync, synctex"
+msgstr ""
+
+#. Apps.yes
+#. +> trunk5
+#: i18n/en.yaml:166
+msgid "Yes"
+msgstr ""
+
+#. Apps.no
+#. +> trunk5
+#: i18n/en.yaml:168
+msgid "No"
+msgstr ""
+
+#. Apps.wip
+#. +> trunk5
+#: i18n/en.yaml:170
+msgid "Work in Progress"
+msgstr ""
+
+#. download.install.modular
+#. +> trunk5
+#: i18n/en.yaml:173
+msgid "In many cases you will have the opportunity to install Okular in a modular way, so you can decide to install support for specific formats separately or install translations for the user interface. Choose the modules according to your needs and preferences."
+msgstr ""

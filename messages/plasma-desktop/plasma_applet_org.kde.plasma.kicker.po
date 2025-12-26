@@ -1,0 +1,304 @@
+# Irish translation of plasma_applet_org.kde.homerun
+# Copyright (C) 2012 This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasma_applet_org.kde.homerun package.
+# Kevin Scannell <kscanne@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: plasma_applet_org.kde.homerun\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-19 09:00+0100\n"
+"PO-Revision-Date: 2012-09-21 16:01-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6 stable5
+#: code/tools.js:53
+#, kde-format
+msgid "Remove from Favorites"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: code/tools.js:57
+#, kde-format
+msgid "Add to Favorites"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: code/tools.js:83
+#, kde-format
+msgid "On All Activities"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: code/tools.js:133
+#, kde-format
+msgid "On the Current Activity"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: code/tools.js:147
+#, fuzzy, kde-format
+#| msgid "Favorite Places"
+msgid "Show in Favorites"
+msgstr "Áiteanna Is Ansa Liom"
+
+#. +> trunk6 stable6 stable5
+#: config.qml:13
+#, kde-format
+msgid "General"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:48
+#, kde-format
+msgid "Icon:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:133
+#, kde-format
+msgctxt "@item:inmenu Open icon chooser dialog"
+msgid "Choose…"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:138
+#, kde-format
+msgctxt "@item:inmenu Reset icon to default"
+msgid "Clear Icon"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:159
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgid "Show applications as:"
+msgstr "Feidhmchláir"
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:161
+#, kde-format
+msgid "Name only"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:161
+#, kde-format
+msgid "Description only"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:161
+#, kde-format
+msgid "Name (Description)"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:161
+#, kde-format
+msgid "Description (Name)"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:171
+#, kde-format
+msgid "Behavior:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:173
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgid "Sort applications alphabetically"
+msgstr "Feidhmchláir"
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:181
+#, kde-format
+msgid "Flatten sub-menus to a single level"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:189
+#, kde-format
+msgid "Show icons on the root level of the menu"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:199
+#, fuzzy, kde-format
+#| msgid "Favorite Places"
+msgid "Show categories:"
+msgstr "Áiteanna Is Ansa Liom"
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:202
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgid "Recent applications"
+msgstr "Feidhmchláir"
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:208
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgid "Recent contacts"
+msgstr "Feidhmchláir"
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:203
+#, fuzzy, kde-format
+#| msgid "Installed Applications"
+msgid "Often used applications"
+msgstr "Feidhmchláir Shuiteáilte"
+
+#. +> stable5
+#: package/contents/ui/ConfigGeneral.qml:209
+#, fuzzy, kde-format
+#| msgid "Installed Applications"
+msgid "Often used contacts"
+msgstr "Feidhmchláir Shuiteáilte"
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:210
+#, kde-format
+msgid "Recent files"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:211
+#, fuzzy, kde-format
+#| msgid "Installed Applications"
+msgid "Often used files"
+msgstr "Feidhmchláir Shuiteáilte"
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:217
+#, kde-format
+msgid "Sort items in categories by:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:218
+#, kde-format
+msgctxt "@item:inlistbox Sort items in categories by [Recently used | Often used]"
+msgid "Recently used"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:218
+#, kde-format
+msgctxt "@item:inlistbox Sort items in categories by [Recently used | Ofetn used]"
+msgid "Often used"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:228
+#, kde-format
+msgid "Search:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:230
+#, kde-format
+msgid "Expand search to bookmarks, files and emails"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ConfigGeneral.qml:238
+#, kde-format
+msgid "Align search results to bottom"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:243
+#, kde-format
+msgctxt "@label:textbox for a checkbox toggling Dark Mode"
+msgid "Appearance:"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:248
+#, kde-format
+msgid "Prefer Dark Mode when available"
+msgstr ""
+
+#. +> trunk6
+#: ConfigGeneral.qml:252
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "This feature uses the complementary colors from your colorscheme, which usually feature a dark background."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: DashboardRepresentation.qml:321
+#, fuzzy, kde-format
+#| msgid "Favorite Places"
+msgid "Favorites"
+msgstr "Áiteanna Is Ansa Liom"
+
+#. +> trunk6
+#: ItemListDelegate.qml:49
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening submenu"
+msgid "Open category"
+msgstr ""
+
+#. +> trunk6
+#: ItemListDelegate.qml:50
+#, kde-format
+msgctxt "@action:inmenu accessible description for opening app or file"
+msgid "Launch"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: main.qml:211
+#, fuzzy, kde-format
+#| msgid "Applications"
+msgid "Edit Applications…"
+msgstr "Feidhmchláir"
+
+#. +> trunk6
+#: MenuRepresentation.qml:144
+#, fuzzy, kde-format
+#| msgid "Favorite Places"
+msgctxt "@title:group accessible name for favorite group in sidebar"
+msgid "Favorites"
+msgstr "Áiteanna Is Ansa Liom"
+
+#. +> trunk6 stable6
+#: MenuRepresentation.qml:315
+#, kde-format
+msgctxt "@info:status"
+msgid "No matches"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/DashboardRepresentation.qml:292
+#, kde-format
+msgid "Searching for '%1'"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/DashboardRepresentation.qml:292
+#, kde-format
+msgid "Type to search…"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/DashboardRepresentation.qml:610
+#: package/contents/ui/DashboardTabBar.qml:42
+#, kde-format
+msgid "Widgets"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/DashboardTabBar.qml:31
+#, kde-format
+msgid "Apps & Docs"
+msgstr ""

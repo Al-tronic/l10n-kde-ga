@@ -1,0 +1,80 @@
+# Irish translation of desktop_kdeedu
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdeedu package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-19 15:12+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: src/kwordquiz.notifyrc:4
+msgctxt "Comment"
+msgid "KWordQuiz"
+msgstr "KWordQuiz"
+
+#. +> trunk6 stable6
+#: src/kwordquiz.notifyrc:74
+msgctxt "Name"
+msgid "QuizCorrect"
+msgstr "QuizCeart"
+
+#. +> trunk6 stable6
+#: src/kwordquiz.notifyrc:139
+msgctxt "Comment"
+msgid "Correct answer"
+msgstr "Freagra ceart"
+
+#. +> trunk6 stable6
+#: src/kwordquiz.notifyrc:211
+msgctxt "Name"
+msgid "QuizError"
+msgstr "QuizEarráid"
+
+#. +> trunk6 stable6
+#: src/kwordquiz.notifyrc:276
+msgctxt "Comment"
+msgid "Wrong answer"
+msgstr "Freagra mícheart"
+
+#. +> trunk6 stable6
+#: src/kwordquiz.notifyrc:348
+msgctxt "Name"
+msgid "syntaxerror"
+msgstr "earráid chomhréire"
+
+#. +> trunk6 stable6
+#: src/kwordquiz.notifyrc:414
+msgctxt "Comment"
+msgid "Error in syntax"
+msgstr "Earráid sa chomhréir"
+
+#. +> trunk6 stable6
+#: src/org.kde.kwordquiz.desktop:8
+msgctxt "Comment"
+msgid "A flashcard and vocabulary learning program"
+msgstr "Feidhmchlár le luaschártaí a chabhraíonn leat do stór focal a fheabhsú"
+
+#. +> trunk6 stable6
+#: src/org.kde.kwordquiz.desktop:73
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KWordQuiz"
+msgctxt "Name"
+msgid "WordQuiz"
+msgstr "KWordQuiz"
+
+#. +> trunk6 stable6
+#: src/org.kde.kwordquiz.desktop:103
+msgctxt "GenericName"
+msgid "Flash Card Trainer"
+msgstr "Oiliúnóir Luaschártaí"

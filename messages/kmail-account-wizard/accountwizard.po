@@ -1,0 +1,620 @@
+# Irish translation of accountwizard
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the accountwizard package.
+# Kevin Scannell <kscanne@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: accountwizard\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
+"PO-Revision-Date: 2010-03-18 00:57-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: accountconfiguration.cpp:200 ispdb/configurationmodel.cpp:147
+#, kde-format
+msgctxt "Default name for new email accounts/identities."
+msgid "Unnamed"
+msgstr "Gan ainm"
+
+#. +> trunk6 stable6
+#: accountconfiguration.cpp:211
+#, fuzzy, kde-format
+#| msgid "Create a new identity"
+msgctxt "log entry content"
+msgid "Create email identity: %1"
+msgstr "Cruthaigh aitheantas nua"
+
+#. +> trunk6 stable6
+#: accountconfiguration.cpp:214
+#, fuzzy, kde-format
+#| msgid "Full Name"
+msgctxt "log entry content"
+msgid "Full name:"
+msgstr "Ainm Iomlán"
+
+#. +> trunk6 stable6
+#: accountconfiguration.cpp:215
+#, fuzzy, kde-format
+#| msgid "E-mail address:"
+msgctxt "log entry content"
+msgid "Primary email address:"
+msgstr "Seoladh ríomhphoist:"
+
+#. +> trunk6 stable6
+#: accountconfiguration.cpp:244
+#, kde-format
+msgctxt "log entry content"
+msgid "Mail transport setup completed: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: accountconfiguration.cpp:247
+#, fuzzy, kde-format
+#| msgctxt "Default name for new email accounts/identities."
+#| msgid "Unnamed"
+msgctxt "log entry content"
+msgid "Host:"
+msgstr "Gan ainm"
+
+#. +> trunk6 stable6
+#: accountconfiguration.cpp:248
+#, kde-format
+msgctxt "log entry content"
+msgid "Port:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: accountconfiguration.cpp:249
+#, fuzzy, kde-format
+#| msgctxt "Default name for new email accounts/identities."
+#| msgid "Unnamed"
+msgctxt "log entry content"
+msgid "Username:"
+msgstr "Gan ainm"
+
+#. +> trunk6 stable6
+#: accountconfiguration.cpp:251
+#, kde-format
+msgctxt "log entry content"
+msgid "Encryption:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: accountconfiguration.cpp:253
+#, kde-format
+msgctxt "log entry content"
+msgid "Authentication:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdb/configurationmodel.cpp:49 ispdb/serverconfiguration.cpp:23
+#: qml/ManualConfigurationPage.qml:89
+#, kde-format
+msgid "IMAP"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdb/configurationmodel.cpp:49 ispdb/serverconfiguration.cpp:26
+#: qml/ManualConfigurationPage.qml:90
+#, kde-format
+msgid "POP3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdb/configurationmodel.cpp:51
+#, kde-format
+msgid "Keep your folders and emails synced on your server"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdb/configurationmodel.cpp:52
+#, kde-format
+msgid "Remove your emails from your server and keep them only on your computer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdb/serverconfiguration.cpp:29
+#, kde-format
+msgid "SMTP"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdb/serverconfiguration.cpp:35
+#, kde-format
+msgid "SSL/TLS"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdb/serverconfiguration.cpp:38 qml/ManualConfigurationPage.qml:121
+#: qml/ManualConfigurationPage.qml:232
+#, kde-format
+msgid "StartTLS"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdb/serverconfiguration.cpp:41
+#, kde-format
+msgctxt "No security mechanism"
+msgid "None"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdbservice.cpp:130
+#, kde-format
+msgid "Configuration found auto config file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdbservice.cpp:133
+#, kde-format
+msgid "Configuration found in well-known file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ispdbservice.cpp:136
+#, kde-format
+msgid "Configuration found in Mozilla FAI Database."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:39
+#, kde-format
+msgid "Account Assistant"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:41
+#, kde-format
+msgid "Helps setting up PIM accounts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, fuzzy, kde-format
+#| msgid "(c) 2009 the Akonadi developers"
+msgid "© 2009-2025 the Akonadi developers"
+msgstr "© 2009 Forbróirí Akonadi"
+
+#. +> trunk6 stable6
+#: main.cpp:46
+#, fuzzy, kde-format
+#| msgid "Volker Krause"
+msgctxt "@info:credit"
+msgid "Volker Krause"
+msgstr "Volker Krause"
+
+#. +> trunk6 stable6
+#: main.cpp:46
+#, kde-format
+msgid "Author"
+msgstr "Údar"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, fuzzy, kde-format
+#| msgid "Laurent Montel"
+msgctxt "@info:credit"
+msgid "Laurent Montel"
+msgstr "Laurent Montel"
+
+#. +> trunk6 stable6
+#: main.cpp:47 main.cpp:48
+#, kde-format
+msgid "Maintainer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ConfigurationDelegate.qml:93
+#, fuzzy, kde-format
+#| msgid "Incoming:"
+msgid "Incoming"
+msgstr "Isteach:"
+
+#. +> trunk6 stable6
+#: qml/ConfigurationDelegate.qml:114
+#, fuzzy, kde-format
+#| msgid "Outgoing:"
+msgid "Outgoing"
+msgstr "Amach:"
+
+#. +> trunk6 stable6
+#: qml/ConfigurationSelectionPage.qml:16
+#, kde-format
+msgctxt "@title:group"
+msgid "Configuration Selection"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ConfigurationSelectionPage.qml:39
+#, kde-format
+msgid "Available configurations"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ConfigurationSelectionPage.qml:56
+#, kde-format
+msgid "No configuration found from the internet for this server."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ConfigurationSelectionPage.qml:105 qml/ManualConfigurationPage.qml:15
+#, kde-format
+msgid "Manual Configuration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ConfigurationSelectionPage.qml:115
+#, kde-format
+msgctxt "@title:group"
+msgid "Calendar and Contacts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ConfigurationSelectionPage.qml:126
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable calendar and contact integration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DetailsPage.qml:15
+#, kde-format
+msgctxt "@title:group"
+msgid "Details"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DetailsPage.qml:18
+#, kde-format
+msgctxt "@action:button"
+msgid "Finish"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DetailsPage.qml:24
+#, kde-format
+msgid "Details"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DetailsPage.qml:61
+#, kde-format
+msgctxt "Placeholder"
+msgid "No details available."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:18
+#, kde-format
+msgid "Recheck"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:25
+#, kde-format
+msgid "Create Account"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:67
+#, fuzzy, kde-format
+#| msgid "Incoming:"
+msgid "Incoming Server Parameters"
+msgstr "Isteach:"
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:73
+#, fuzzy, kde-format
+#| msgid "Incoming:"
+msgid "Incoming server:"
+msgstr "Isteach:"
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:85
+#, kde-format
+msgid "Protocol:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:91
+#, kde-format
+msgid "Kolab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:105 qml/ManualConfigurationPage.qml:212
+#, kde-format
+msgid "Port:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:116 qml/ManualConfigurationPage.qml:226
+#, kde-format
+msgid "Security:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:120 qml/ManualConfigurationPage.qml:231
+#, kde-format
+msgid "SSL/TLS (recommended)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:122 qml/ManualConfigurationPage.qml:230
+#, kde-format
+msgid "None"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:136 qml/ManualConfigurationPage.qml:244
+#, kde-format
+msgid "Authentication Method:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:142
+#, kde-format
+msgid "Normal Password"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:143 qml/ManualConfigurationPage.qml:249
+#, kde-format
+msgid "PLAIN"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:144 qml/ManualConfigurationPage.qml:250
+#, kde-format
+msgid "LOGIN"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:145 qml/ManualConfigurationPage.qml:251
+#, kde-format
+msgid "CRAM-MD5"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:146 qml/ManualConfigurationPage.qml:252
+#, kde-format
+msgid "DIGEST-MD5"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:147 qml/ManualConfigurationPage.qml:253
+#, kde-format
+msgid "NTLM"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:148
+#, kde-format
+msgid "Kerberos / GSSAPI"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:149 qml/ManualConfigurationPage.qml:255
+#, kde-format
+msgid "XOAuth (Gmail)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:152
+#, kde-format
+msgid "APOP"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:168 qml/ManualConfigurationPage.qml:268
+#, fuzzy, kde-format
+#| msgctxt "Default name for new email accounts/identities."
+#| msgid "Unnamed"
+msgid "Username:"
+msgstr "Gan ainm"
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:183
+#, kde-format
+msgid "Download all messages for offline use"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:192
+#, fuzzy, kde-format
+#| msgid "Outgoing:"
+msgid "Outgoing Server Parameters"
+msgstr "Amach:"
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:199
+#, fuzzy, kde-format
+#| msgid "Outgoing:"
+msgid "Outgoing server:"
+msgstr "Amach:"
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:248
+#, kde-format
+msgid "Clear text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/ManualConfigurationPage.qml:254
+#, kde-format
+msgid "GSSAPI"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/PersonalDataPage.qml:15
+#, kde-format
+msgid "Personal Information"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/PersonalDataPage.qml:43
+#, kde-format
+msgid "Connect your Email Account"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/PersonalDataPage.qml:51
+#, kde-format
+msgid "To use your current email address fill in your credentials. This wizard will automatically search for a working and recommended server configuration. Only the domain name part of the e-mail address will be sent over the Internet."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/PersonalDataPage.qml:57
+#, fuzzy, kde-format
+#| msgid "Full Name"
+msgid "Full name:"
+msgstr "Ainm Iomlán"
+
+#. +> trunk6 stable6
+#: qml/PersonalDataPage.qml:58
+#, kde-format
+msgctxt "Generic name"
+msgid "John Smith"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/PersonalDataPage.qml:67
+#, kde-format
+msgid "E-mail address:"
+msgstr "Seoladh ríomhphoist:"
+
+#. +> trunk6 stable6
+#: qml/PersonalDataPage.qml:68
+#, kde-format
+msgctxt "Generic email address"
+msgid "boss@example.corp"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/PersonalDataPage.qml:86
+#, fuzzy, kde-format
+#| msgid "Password"
+msgid "Password (optional):"
+msgstr "Focal Faire"
+
+#. +> trunk6 stable6
+#: qml/WizardPage.qml:15
+#, kde-format
+msgctxt "@action:button"
+msgid "Previous"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WizardPage.qml:22
+#, kde-format
+msgctxt "@action:button"
+msgid "Next"
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:72
+#, kde-format
+msgid "Resource type '%1' is not available."
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:85
+#, kde-format
+msgid "Resource '%1' is already set up."
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:92
+#, kde-format
+msgid "Creating resource instance for '%1'..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:101
+#, kde-format
+msgid "Failed to create resource instance: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:108
+#, kde-format
+msgid "Configuring resource instance..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:112
+#, kde-format
+msgid "Unable to configure resource instance."
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:131
+#, kde-format
+msgid "Could not convert value of setting '%1' with type %2 to required type %3."
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:144
+#, kde-format
+msgid "Could not set setting '%1': %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:150
+#, kde-format
+msgid "Could not save settings: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:156
+#, kde-format
+msgctxt "log entry content"
+msgid "Resource setup completed: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:159
+#, kde-format
+msgctxt "log entry content"
+msgid "Resource type:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:169
+#, kde-format
+msgctxt "Empty password"
+msgid "Empty"
+msgstr ""
+
+#. +> trunk6 stable6
+#: resource.cpp:174
+#, kde-format
+msgctxt "label"
+msgid "%1:"
+msgstr ""

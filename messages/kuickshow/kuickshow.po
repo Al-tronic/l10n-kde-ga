@@ -1,0 +1,951 @@
+# Irish translation of kuickshow
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kuickshow package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegraphics/kuickshow.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-05-17 10:32+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. i18n: ectx: property (text), widget (QLabel, lblAuthors)
+#. +> trunk6
+#: src/aboutwidget.ui:32
+#, kde-format
+msgid "(authors)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (KuickUrlWidget, urlHomepage)
+#. +> trunk6
+#: src/aboutwidget.ui:45
+#, kde-format
+msgid "(url)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblCopyright)
+#. +> trunk6
+#: src/aboutwidget.ui:55
+#, kde-format
+msgid "(copyright)"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DefaultsWidget)
+#. +> trunk6
+#: src/defaultswidget.ui:14
+#, fuzzy, kde-format
+#| msgid "&Modifications"
+msgid "Modifications"
+msgstr "&Modhnuithe"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbEnableMods)
+#. +> trunk6
+#: src/defaultswidget.ui:23
+#, kde-format
+msgid "Apply default image modifications"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbScale)
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6
+#: src/defaultswidget.ui:30 src/printing_page.ui:37
+#, kde-format
+msgid "Scaling"
+msgstr "Scálú"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbUpScale)
+#. +> trunk6
+#: src/defaultswidget.ui:36
+#, kde-format
+msgid "Scale image to screen size, if smaller, up to factor:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDownScale)
+#. +> trunk6
+#: src/defaultswidget.ui:53
+#, kde-format
+msgid "Shrink image to screen size, if larger"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbGeometry)
+#. +> trunk6
+#: src/defaultswidget.ui:63
+#, kde-format
+msgid "Geometry"
+msgstr "Céimseata"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbFlipVertically)
+#. +> trunk6
+#: src/defaultswidget.ui:69
+#, kde-format
+msgid "Flip vertically"
+msgstr "Smeach go hingearach"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbFlipHorizontally)
+#. +> trunk6
+#: src/defaultswidget.ui:76
+#, kde-format
+msgid "Flip horizontally"
+msgstr "Smeach go cothrománach"
+
+#. i18n: ectx: property (text), widget (QLabel, lbRotate)
+#. +> trunk6
+#: src/defaultswidget.ui:85
+#, kde-format
+msgid "Rotate image:"
+msgstr "Rothlaigh íomhá:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboRotate)
+#. +> trunk6
+#: src/defaultswidget.ui:93
+#, kde-format
+msgid "0 Degrees"
+msgstr "0 Céim"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboRotate)
+#. +> trunk6
+#: src/defaultswidget.ui:98
+#, kde-format
+msgid "90 Degrees"
+msgstr "90 Céim"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboRotate)
+#. +> trunk6
+#: src/defaultswidget.ui:103
+#, kde-format
+msgid "180 Degrees"
+msgstr "180 Céim"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, comboRotate)
+#. +> trunk6
+#: src/defaultswidget.ui:108
+#, kde-format
+msgid "270 Degrees"
+msgstr "270 Céim"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbAdjust)
+#. +> trunk6
+#: src/defaultswidget.ui:134
+#, kde-format
+msgid "Adjustments"
+msgstr "Coigeartuithe"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6
+#: src/defaultswidget.ui:140
+#, kde-format
+msgid "Brightness:"
+msgstr "Gile:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6
+#: src/defaultswidget.ui:183
+#, kde-format
+msgid "Contrast:"
+msgstr "Codarsnacht:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6
+#: src/defaultswidget.ui:226
+#, kde-format
+msgid "Gamma:"
+msgstr "Gáma:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbPreview)
+#. +> trunk6
+#: src/defaultswidget.ui:272
+#, kde-format
+msgid "Preview"
+msgstr "Réamhamharc"
+
+#. i18n: ectx: property (text), widget (QLabel, lbImOrig)
+#. +> trunk6
+#: src/defaultswidget.ui:281
+#, kde-format
+msgid "Original"
+msgstr "Bunúsach"
+
+#. i18n: ectx: property (text), widget (QLabel, lbImFiltered)
+#. +> trunk6
+#: src/defaultswidget.ui:288
+#, kde-format
+msgid "Modified"
+msgstr "Athraithe"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, GeneralWidget)
+#. +> trunk6
+#: src/generalwidget.ui:14
+#, fuzzy, kde-format
+#| msgid "&General"
+msgid "General"
+msgstr "&Ginearálta"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbLastdir)
+#. +> trunk6
+#: src/generalwidget.ui:20
+#, kde-format
+msgid "Remember last folder"
+msgstr "Meabhraigh an fillteán is déanaí"
+
+#. i18n: ectx: property (title), widget (QGroupBox, gbox2)
+#. +> trunk6
+#: src/generalwidget.ui:30
+#, kde-format
+msgid "Quality/Speed"
+msgstr "Cáilíocht/Luas"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbSmoothScale)
+#. +> trunk6
+#: src/generalwidget.ui:36
+#, kde-format
+msgid "Smooth scaling"
+msgstr "Mínscálú"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbFastRender)
+#. +> trunk6
+#: src/generalwidget.ui:43
+#, kde-format
+msgid "Fast rendering"
+msgstr "Rindreáil go gasta"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDither16bit)
+#. +> trunk6
+#: src/generalwidget.ui:50
+#, kde-format
+msgid "Dither in HiColor (15/16bit) modes"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDither8bit)
+#. +> trunk6
+#: src/generalwidget.ui:57
+#, kde-format
+msgid "Dither in LowColor (<=8bit) modes"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbOwnPalette)
+#. +> trunk6
+#: src/generalwidget.ui:64
+#, kde-format
+msgid "Use own color palette"
+msgstr "Úsáid do phailéad datha féin"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbFastRemap)
+#. +> trunk6
+#: src/generalwidget.ui:71
+#, kde-format
+msgid "Fast palette remapping"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6
+#: src/generalwidget.ui:78
+#, kde-format
+msgid "Maximum cache size: "
+msgstr "Uasmhéid na taisce dhiosca: "
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, maxCacheSpinBox)
+#. +> trunk6
+#: src/generalwidget.ui:88
+#, kde-format
+msgid "Unlimited"
+msgstr "Gan Teorainn"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, maxCacheSpinBox)
+#. +> trunk6
+#: src/generalwidget.ui:91
+#, kde-format
+msgid " MB"
+msgstr " MB"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbFullscreen)
+#. +> trunk6
+#: src/generalwidget.ui:104
+#, kde-format
+msgid "Fullscreen mode"
+msgstr "Mód Lánscáileáin"
+
+#. i18n: ectx: property (text), widget (QLabel, l0)
+#. +> trunk6
+#: src/generalwidget.ui:114
+#, kde-format
+msgid "Background color:"
+msgstr "Dath an chúlra:"
+
+#. i18n: ectx: property (text), widget (QLabel, l1)
+#. +> trunk6
+#: src/generalwidget.ui:121
+#, kde-format
+msgid "Show only files with extension: "
+msgstr "Ná taispeáin ach na comhaid le iarmhír: "
+
+#. i18n: ectx: property (tipText), widget (KUrlLabel, logo)
+#. +> trunk6
+#: src/generalwidget.ui:128
+#, kde-format
+msgid "Open KuickShow Website"
+msgstr "Oscail an Suíomh Gréasáin KuickShow"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbPreload)
+#. +> trunk6
+#: src/generalwidget.ui:138
+#, kde-format
+msgid "Preload next image"
+msgstr "Réamhluchtaigh an chéad íomhá eile"
+
+#. +> trunk6
+#: src/imagewindow.cpp:138
+#, kde-format
+msgid "Duplicate Window"
+msgstr ""
+
+#. +> trunk6
+#: src/imagewindow.cpp:143
+#, kde-format
+msgid "Show Next Image"
+msgstr "An Chéad Íomhá Eile"
+
+#. +> trunk6
+#: src/imagewindow.cpp:148
+#, kde-format
+msgid "Show Previous Image"
+msgstr "An Íomhá Roimhe Seo"
+
+#. +> trunk6
+#: src/imagewindow.cpp:153
+#, kde-format
+msgid "Delete Image"
+msgstr "Scrios Íomhá"
+
+#. +> trunk6
+#: src/imagewindow.cpp:158
+#, kde-format
+msgid "Move Image to Trash"
+msgstr ""
+
+#. +> trunk6
+#: src/imagewindow.cpp:171
+#, kde-format
+msgid "Restore Original Size"
+msgstr ""
+
+#. +> trunk6
+#: src/imagewindow.cpp:176
+#, kde-format
+msgid "Maximize"
+msgstr "Uasmhéadaigh"
+
+#. +> trunk6
+#: src/imagewindow.cpp:181
+#, kde-format
+msgid "Rotate 90 Degrees"
+msgstr "Rothlaigh 90 Céim"
+
+#. +> trunk6
+#: src/imagewindow.cpp:186
+#, kde-format
+msgid "Rotate 180 Degrees"
+msgstr "Rothlaigh 180 Céim"
+
+#. +> trunk6
+#: src/imagewindow.cpp:191
+#, kde-format
+msgid "Rotate 270 Degrees"
+msgstr "Rothlaigh 270 Céim"
+
+#. +> trunk6
+#: src/imagewindow.cpp:196
+#, kde-format
+msgid "Flip Horizontally"
+msgstr "Smeach go Cothrománach"
+
+#. +> trunk6
+#: src/imagewindow.cpp:201
+#, kde-format
+msgid "Flip Vertically"
+msgstr "Smeach go hIngearach"
+
+#. +> trunk6
+#: src/imagewindow.cpp:206 src/kuickshow.cpp:1353
+#, kde-format
+msgid "Print Image..."
+msgstr "Priontáil Íomhá..."
+
+#. +> trunk6
+#: src/imagewindow.cpp:217
+#, fuzzy, kde-format
+#| msgid "Show File Browser"
+msgid "Return to File Browser"
+msgstr "Taispeáin Brabhsálaí na gComhad"
+
+#. +> trunk6
+#: src/imagewindow.cpp:223
+#, kde-format
+msgid "More Brightness"
+msgstr "Níos Gile"
+
+#. +> trunk6
+#: src/imagewindow.cpp:228
+#, kde-format
+msgid "Less Brightness"
+msgstr ""
+
+#. +> trunk6
+#: src/imagewindow.cpp:233
+#, kde-format
+msgid "More Contrast"
+msgstr "Níos Mó Codarsnacht"
+
+#. +> trunk6
+#: src/imagewindow.cpp:238
+#, kde-format
+msgid "Less Contrast"
+msgstr "Níos Lú Codarsnacht"
+
+#. +> trunk6
+#: src/imagewindow.cpp:243
+#, kde-format
+msgid "More Gamma"
+msgstr "Níos Mó Gáma"
+
+#. +> trunk6
+#: src/imagewindow.cpp:248
+#, kde-format
+msgid "Less Gamma"
+msgstr "Níos Lú Gáma"
+
+#. +> trunk6
+#: src/imagewindow.cpp:254
+#, kde-format
+msgid "Scroll Up"
+msgstr "Scrollaigh Suas"
+
+#. +> trunk6
+#: src/imagewindow.cpp:259
+#, kde-format
+msgid "Scroll Down"
+msgstr "Scrollaigh Síos"
+
+#. +> trunk6
+#: src/imagewindow.cpp:264
+#, kde-format
+msgid "Scroll Left"
+msgstr "Scrollaigh faoi Chlé"
+
+#. +> trunk6
+#: src/imagewindow.cpp:269
+#, kde-format
+msgid "Scroll Right"
+msgstr "Scrollaigh faoi Dheis"
+
+#. +> trunk6
+#: src/imagewindow.cpp:274
+#, kde-format
+msgid "Pause Slideshow"
+msgstr ""
+
+#. +> trunk6
+#: src/imagewindow.cpp:288
+#, kde-format
+msgid "Reload Image"
+msgstr "Athluchtaigh Íomhá"
+
+#. +> trunk6
+#: src/imagewindow.cpp:294
+#, kde-format
+msgid "Properties"
+msgstr "Airíonna"
+
+#. +> trunk6
+#: src/imagewindow.cpp:361
+#, kde-format
+msgctxt "Filename (Imagewidth x Imageheight)"
+msgid "%3 (%1 x %2)"
+msgstr "%3 (%1 × %2)"
+
+#. +> trunk6
+#: src/imagewindow.cpp:426
+#, kde-format
+msgid "Unable to download the image from %1."
+msgstr "Ní féidir an íomhá a íosluchtú ó %1."
+
+#. +> trunk6
+#: src/imagewindow.cpp:442
+#, kde-format
+msgid ""
+"Unable to load the image %1.\n"
+"Perhaps the file format is unsupported or your Imlib is not installed properly."
+msgstr ""
+
+#. +> trunk6
+#: src/imagewindow.cpp:851
+#, kde-format
+msgid "Brightness"
+msgstr "Gile"
+
+#. +> trunk6
+#: src/imagewindow.cpp:855
+#, kde-format
+msgid "Contrast"
+msgstr "Codarsnacht"
+
+#. +> trunk6
+#: src/imagewindow.cpp:859
+#, kde-format
+msgid "Gamma"
+msgstr "Gáma"
+
+#. +> trunk6
+#: src/imagewindow.cpp:906
+#, kde-format
+msgid "Unable to print the image."
+msgstr "Ní féidir an íomhá a phriontáil."
+
+#. +> trunk6
+#: src/imagewindow.cpp:907
+#, kde-format
+msgid "Printing Failed"
+msgstr "Theip ar Phriontáil"
+
+#. +> trunk6
+#: src/imagewindow.cpp:924
+#, kde-format
+msgid "Keep original image size"
+msgstr ""
+
+#. +> trunk6
+#: src/imagewindow.cpp:929
+#, fuzzy, kde-format
+#| msgid "Save As"
+msgid "Save Image As"
+msgstr "Sábháil Mar"
+
+#. +> trunk6
+#: src/imagewindow.cpp:934 src/kuickshow.cpp:1251
+#, kde-format
+msgid "Image Files (%1)"
+msgstr ""
+
+#. +> trunk6
+#: src/imagewindow.cpp:952
+#, kde-format
+msgid ""
+"Could not save the file.\n"
+"Perhaps the disk is full, or you do not have write permission to the file."
+msgstr ""
+
+#. +> trunk6
+#: src/imagewindow.cpp:955
+#, kde-format
+msgid "File Saving Failed"
+msgstr "Theip ar Shábháil an Chomhaid"
+
+#. +> trunk6
+#: src/imagewindow.cpp:1202
+#, kde-format
+msgid ""
+"You are about to view a very large image (%1 x %2 pixels), which can be very resource-consuming and even make your computer hang.\n"
+"Do you want to continue?"
+msgstr ""
+
+#. +> trunk6
+#: src/imlib_imlib1.cpp:157
+#, kde-format
+msgid "Image loading and rendering library"
+msgstr ""
+
+#. +> trunk6
+#: src/imlib_imlib2.cpp:119
+#, kde-format
+msgid "Image processing library"
+msgstr ""
+
+#. +> trunk6
+#: src/kuickconfigdlg.cpp:40
+#, kde-format
+msgid "Configure"
+msgstr "Cumraigh"
+
+#. +> trunk6
+#: src/kuickconfigdlg.cpp:46
+#, kde-format
+msgid "&General"
+msgstr "&Ginearálta"
+
+#. +> trunk6
+#: src/kuickconfigdlg.cpp:50
+#, kde-format
+msgid "&Modifications"
+msgstr "&Modhnuithe"
+
+#. +> trunk6
+#: src/kuickconfigdlg.cpp:54
+#, kde-format
+msgid "&Slideshow"
+msgstr "Taispeántas &Sleamhnán"
+
+#. +> trunk6
+#: src/kuickconfigdlg.cpp:60
+#, kde-format
+msgid "&Viewer Shortcuts"
+msgstr "Aicearraí A&mharcáin"
+
+#. +> trunk6
+#: src/kuickconfigdlg.cpp:63
+#, kde-format
+msgid "Bro&wser Shortcuts"
+msgstr "Aicearraí Bra&bhsálaí"
+
+#. +> trunk6
+#: src/kuickfile.cpp:128
+#, kde-format
+msgid "Downloading %1..."
+msgstr "%1 á íosluchtú..."
+
+#. +> trunk6
+#: src/kuickfile.cpp:129
+#, kde-format
+msgid ""
+"Please wait while downloading\n"
+"%1"
+msgstr ""
+
+#. +> trunk6
+#: src/kuickshow.cpp:173
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to display this 1 image at the same time? This might be quite resource intensive and could overload your computer.<br/>"
+"If you choose <interface>%2</interface>, only the first image will be shown."
+msgid_plural ""
+"Do you really want to display these %1 images at the same time? This might be quite resource intensive and could overload your computer.<br/>"
+"If you choose <interface>%2</interface>, only the first image will be shown."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6
+#: src/kuickshow.cpp:175
+#, kde-format
+msgid "Display Multiple Images?"
+msgstr ""
+
+#. +> trunk6
+#: src/kuickshow.cpp:176
+#, kde-format
+msgid "Display"
+msgstr ""
+
+#. +> trunk6
+#: src/kuickshow.cpp:286
+#, kde-format
+msgid "&File"
+msgstr "&Comhad"
+
+#. +> trunk6
+#: src/kuickshow.cpp:300
+#, kde-format
+msgid "&Edit"
+msgstr "&Eagar"
+
+#. +> trunk6
+#: src/kuickshow.cpp:306
+#, kde-format
+msgid "View"
+msgstr ""
+
+#. +> trunk6
+#: src/kuickshow.cpp:309
+#, kde-format
+msgid "&Settings"
+msgstr "&Socruithe"
+
+#. +> trunk6
+#: src/kuickshow.cpp:325
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Príomhbharra Uirlisí"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1126
+#, kde-format
+msgid "Image Error"
+msgstr "Earráid Íomhá"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1137
+#, kde-format
+msgid ""
+"Unable to initialize the image library \"%2\".\n"
+"\n"
+"More information may be available in the session log file,\n"
+"or can be obtained by starting %1 from a terminal."
+msgstr ""
+
+#. +> trunk6
+#: src/kuickshow.cpp:1141
+#, fuzzy, kde-format
+#| msgid "Fatal Imlib Error"
+msgid "Fatal Initialization Error"
+msgstr "Earráid Mharfach Imlib"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1250
+#, kde-format
+msgid "Select Files or Folder to Open"
+msgstr "Roghnaigh Comhaid nó Comhadlann le hOscailt"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1311
+#, kde-format
+msgid "Start Slideshow"
+msgstr "Rith an Taispeántas Sleamhnán"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1314
+#, kde-format
+msgid "Show File Browser"
+msgstr "Taispeáin Brabhsálaí na gComhad"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1315
+#, kde-format
+msgid "Hide File Browser"
+msgstr "Folaigh Brabhsálaí na gComhad"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1319
+#, kde-format
+msgid "Configure %1..."
+msgstr "Cumraigh %1..."
+
+#. +> trunk6
+#: src/kuickshow.cpp:1323
+#, kde-format
+msgid "About KuickShow"
+msgstr "Eolas faoi KuickShow"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1330
+#, kde-format
+msgid "Open Only One Image Window"
+msgstr "Ná hOscail Ach Fuinneog Íomhá Amháin"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1341
+#, kde-format
+msgid "Show Image"
+msgstr "Taispeáin Íomhá"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1345
+#, kde-format
+msgid "Show Image in Active Window"
+msgstr "Taispeáin Íomhá i bhFuinneog Ghníomhach"
+
+#. +> trunk6
+#: src/kuickshow.cpp:1349
+#, kde-format
+msgid "Show Image in Fullscreen Mode"
+msgstr "Taispeáin Íomhá i Mód Lánscáileáin"
+
+#. +> trunk6
+#: src/main.cpp:37
+#, kde-format
+msgid "KuickShow"
+msgstr "KuickShow"
+
+#. +> trunk6
+#: src/main.cpp:39
+#, kde-format
+msgid "A fast and versatile image viewer"
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:41
+#, kde-format
+msgid "(c) 1998-2009, Carsten Pfeiffer"
+msgstr "© 1998-2009, Carsten Pfeiffer"
+
+#. +> trunk6
+#: src/main.cpp:46
+#, kde-format
+msgid "Carsten Pfeiffer"
+msgstr "Carsten Pfeiffer"
+
+#. +> trunk6
+#: src/main.cpp:48
+#, kde-format
+msgid "Rober Hamberger"
+msgstr "Rober Hamberger"
+
+#. +> trunk6
+#: src/main.cpp:49
+#, kde-format
+msgid "Thorsten Scheuermann"
+msgstr "Thorsten Scheuermann"
+
+#. +> trunk6
+#: src/main.cpp:59
+#, kde-format
+msgid "Start in the last visited folder, not the current working folder."
+msgstr ""
+
+#. +> trunk6
+#: src/main.cpp:60
+#, kde-format
+msgid "Optional image filenames/urls to show"
+msgstr ""
+
+#. +> trunk6
+#: src/printing.cpp:52
+#, kde-format
+msgid "Print %1"
+msgstr "Priontáil %1"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KuickPrintDialogPage)
+#. +> trunk6
+#: src/printing_page.ui:14
+#, kde-format
+msgid "Image Settings"
+msgstr "Socruithe Íomhá"
+
+#. i18n: ectx: property (text), widget (QCheckBox, addFileName)
+#. +> trunk6
+#: src/printing_page.ui:20
+#, kde-format
+msgid "Print fi&lename below image"
+msgstr "Priontái&l an t-ainm comhaid faoin íomhá"
+
+#. i18n: ectx: property (text), widget (QCheckBox, blackwhite)
+#. +> trunk6
+#: src/printing_page.ui:30
+#, kde-format
+msgid "Print image in &black and white"
+msgstr "Priontáil an íomhá i n&dubh agus bán"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6
+#: src/printing_page.ui:53
+#, kde-format
+msgid "&Width:"
+msgstr "&Leithead:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, units)
+#. +> trunk6
+#: src/printing_page.ui:64
+#, kde-format
+msgid "Millimeters"
+msgstr "Milliméadar"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, units)
+#. +> trunk6
+#: src/printing_page.ui:69
+#, kde-format
+msgid "Centimeters"
+msgstr "Ceintiméadar"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, units)
+#. +> trunk6
+#: src/printing_page.ui:74
+#, kde-format
+msgid "Inches"
+msgstr "Orlach"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6
+#: src/printing_page.ui:108
+#, kde-format
+msgid "&Height:"
+msgstr "&Airde:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, scale)
+#. +> trunk6
+#: src/printing_page.ui:121
+#, kde-format
+msgid "Print e&xact size: "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, shrinkToFit)
+#. +> trunk6
+#: src/printing_page.ui:141
+#, kde-format
+msgid "Shrink image to &fit, if necessary"
+msgstr ""
+
+#. +> trunk6
+#: src/slideshowwidget.cpp:46
+#, kde-format
+msgctxt "Run the slideshow until manually stopped"
+msgid "Forever"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SlideShowWidget)
+#. +> trunk6
+#: src/slideshowwidget.ui:14
+#, fuzzy, kde-format
+#| msgid "&Slideshow"
+msgid "Slideshow"
+msgstr "Taispeántas &Sleamhnán"
+
+#. i18n: ectx: property (text), widget (QCheckBox, fullScreen)
+#. +> trunk6
+#: src/slideshowwidget.ui:20
+#, kde-format
+msgid "Switch to &full-screen"
+msgstr "Athraigh go &Scaileán Iomlán"
+
+#. i18n: ectx: property (text), widget (QCheckBox, startWithCurrent)
+#. +> trunk6
+#: src/slideshowwidget.ui:27
+#, kde-format
+msgid "S&tart with current image"
+msgstr "T&osaigh leis an íomhá reatha"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6
+#: src/slideshowwidget.ui:34
+#, kde-format
+msgid "De&lay between slides:"
+msgstr ""
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, delayTime)
+#. +> trunk6
+#: src/slideshowwidget.ui:44
+#, kde-format
+msgid "Wait for key"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, delayTime)
+#. +> trunk6
+#: src/slideshowwidget.ui:47
+#, kde-format
+msgid " sec"
+msgstr " s"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6
+#: src/slideshowwidget.ui:57
+#, kde-format
+msgid "&Iterations:"
+msgstr ""

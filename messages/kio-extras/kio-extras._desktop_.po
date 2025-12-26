@@ -1,0 +1,63 @@
+# translation of desktop_kdebase.po to Irish
+# Kevin Scannell <kscanne@gmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:26+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 trunk5 stable6
+#: afc/afc-network.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Input Devices"
+msgctxt "Name"
+msgid "Apple Devices"
+msgstr "Gléasanna Ionchurtha"
+
+#. +> trunk6 trunk5 stable6
+#: afc/solid_afc.desktop:9 mtp/solid_mtp.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Open with File Manager"
+msgctxt "Name"
+msgid "Browse Files with File Manager"
+msgstr "Oscail le Bainisteoir na gComhad"
+
+#. +> trunk6 trunk5 stable6
+#: mtp/mtp-network.desktop:3
+#, fuzzy
+#| msgctxt "Name|plasma runner"
+#| msgid "Devices"
+msgctxt "Name"
+msgid "MTP Devices"
+msgstr "Gléasanna"
+
+#. +> trunk6 trunk5 stable6
+#: smb/smb-network.desktop:3
+msgctxt "Name"
+msgid "Shared Folders (SMB)"
+msgstr ""
+
+#. +> trunk5
+#: thumbnail/directorythumbnail.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Folder"
+msgctxt "Name"
+msgid "Folders"
+msgstr "Fillteán"
+
+#. +> trunk5
+#: thumbnail/thumbcreator.desktop:4
+msgctxt "Comment"
+msgid "Thumbnail Handler"
+msgstr "Láimhseálaí na Mionsamhlacha"

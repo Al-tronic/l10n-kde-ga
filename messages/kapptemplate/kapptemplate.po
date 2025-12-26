@@ -1,0 +1,394 @@
+# Irish translation of kapptemplate
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kapptemplate package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdereview/kapptemplate.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-27 09:17+0100\n"
+"PO-Revision-Date: 2008-04-29 09:24-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: src/application/apptemplatesmodel.cpp:157
+#, fuzzy, kde-format
+#| msgid "Templates Projects"
+msgctxt "@title:column"
+msgid "Templates Projects"
+msgstr "Tionscadail Teimpléid"
+
+#. +> trunk6 stable6
+#: src/application/ChoicePage.qml:16
+#, fuzzy, kde-format
+#| msgid "Choose your project template"
+msgctxt "@title"
+msgid "Choose Template"
+msgstr "Roghnaigh teimpléad do thionscadail"
+
+#. +> trunk6 stable6
+#: src/application/ChoicePage.qml:26
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Install Template From File"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/ChoicePage.qml:33
+#, kde-format
+msgctxt "file dialog name filter"
+msgid "Archive Files (*.tar.bz2 *.zip)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/ChoicePage.qml:96
+#, fuzzy, kde-format
+#| msgid "Templates Projects"
+msgctxt "@title"
+msgid "No Template Selected"
+msgstr "Tionscadail Teimpléid"
+
+#. +> trunk6 stable6
+#: src/application/ChoicePage.qml:120 src/application/ConfigurePage.qml:87
+#: src/application/GeneratorPage.qml:67
+#, fuzzy, kde-format
+#| msgctxt "Do not translate"
+#| msgid "Preview"
+msgctxt "@action:button Go to the previous page"
+msgid "Previous"
+msgstr "Preview"
+
+#. +> trunk6 stable6
+#: src/application/ChoicePage.qml:129 src/application/IntroductionPage.qml:39
+#, kde-format
+msgctxt "@action:button Go to the next page"
+msgid "Next"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/ConfigurePage.qml:15
+#, kde-format
+msgctxt "@title"
+msgid "Configure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/ConfigurePage.qml:25
+#, kde-format
+msgctxt "@title:group"
+msgid "General"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/ConfigurePage.qml:32
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/ConfigurePage.qml:44
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/ConfigurePage.qml:45
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "No folder selected"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/ConfigurePage.qml:57
+#, kde-format
+msgctxt "@title:group"
+msgid "Metadata"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/ConfigurePage.qml:62
+#, fuzzy, kde-format
+#| msgid "Version number:"
+msgctxt "@label:textbox"
+msgid "Version:"
+msgstr "Uimhir an leagain:"
+
+#. +> trunk6 stable6
+#: src/application/ConfigurePage.qml:70
+#, fuzzy, kde-format
+#| msgid "Author name:"
+msgctxt "@label:textbox"
+msgid "Author name:"
+msgstr "Ainm an údair:"
+
+#. +> trunk6 stable6
+#: src/application/ConfigurePage.qml:78
+#, fuzzy, kde-format
+#| msgid "Author email:"
+msgctxt "@label:textbox"
+msgid "Author email:"
+msgstr "Seoladh ríomhphoist an údair:"
+
+#. +> trunk6 stable6
+#: src/application/ConfigurePage.qml:93
+#, kde-format
+msgctxt "@action:button Generate the application"
+msgid "Generate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/generator.cpp:128
+#, kde-format
+msgid "%1 cannot be created."
+msgstr "Ní féidir %1 a chruthú."
+
+#. +> trunk6 stable6
+#: src/application/generator.cpp:148
+#, fuzzy, kde-format
+#| msgid "%1 cannot be created."
+msgid "Path %1 could not be created."
+msgstr "Ní féidir %1 a chruthú."
+
+#. +> trunk6 stable6
+#: src/application/generator.cpp:164
+#, kde-format
+msgid "Could not copy template file to %1, because the file is already exists. The project has not been generated and all temporary files will be removed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/generator.cpp:178
+#, kde-format
+msgid "Failed to integrate your project information into the file %1. The project has not been generated and all temporary files will be removed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/generator.cpp:186
+#, kde-format
+msgid "Could not copy template file to %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/generator.cpp:266
+#, kde-format
+msgid "Could not load template archive for %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/generator.cpp:355
+#, fuzzy, kde-format
+#| msgid "Your project name is: <b>%1</b>, based on the %2 template.<br />"
+msgid "Your project name is: <b>%1</b>, based on the <b>%2</b> template.<br />"
+msgstr "Is é <b>%1</b> ainm do thionscadail, bunaithe ar theimpléad %2.<br />"
+
+#. +> trunk6 stable6
+#: src/application/generator.cpp:356
+#, kde-format
+msgid ""
+"Version: %1 <br />"
+"<br />"
+msgstr ""
+"Leagan: %1 <br />"
+"<br />"
+
+#. +> trunk6 stable6
+#: src/application/generator.cpp:357
+#, kde-format
+msgid ""
+"Installed in: %1 <br />"
+"<br />"
+msgstr ""
+"Suiteáilte i: %1 <br />"
+"<br />"
+
+#. +> trunk6 stable6
+#: src/application/generator.cpp:358
+#, kde-format
+msgid ""
+"You will find a README in your project folder <b>%1</b><br />"
+" to help you get started with your project."
+msgstr ""
+"Aimseoidh tú comhad README i bhfillteán do thionscadail <b>%1</b><br />"
+" a chabhróidh leat do thionscadal a thosú."
+
+#. +> trunk6 stable6
+#: src/application/GeneratorPage.qml:16
+#, fuzzy, kde-format
+#| msgid "Project version"
+msgctxt "@title"
+msgid "Project Generation"
+msgstr "Leagan an tionscadail"
+
+#. +> trunk6 stable6
+#: src/application/GeneratorPage.qml:73
+#, kde-format
+msgctxt "@action:button Close the application"
+msgid "Close"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/application/IntroductionPage.qml:13
+#, fuzzy, kde-format
+#| msgid "Introduction"
+msgctxt "@title"
+msgid "Introduction"
+msgstr "Réamhrá"
+
+#. +> trunk6 stable6
+#: src/application/IntroductionPage.qml:19
+#, fuzzy, kde-format
+#| msgid ""
+#| "This wizard will help you generate a KDE 4 project template.\n"
+#| "You will be able to start developing you own KDE 4 project from this template."
+msgid "This wizard will help you generate a new project to get started with Qt and KDE development."
+msgstr ""
+"Cabhróidh an treoraí seo leat teimpléad tionscadail KDE 4 a chruthú.\n"
+"Beidh tú in ann do thionscadal féin KDE 4 a fhorbairt ón teimpléad seo."
+
+#. i18n: ectx: label, entry (appName), group (Project)
+#. +> trunk6 stable6
+#: src/application/kapptemplate.kcfg:11
+#, kde-format
+msgid "Name of the project"
+msgstr "Ainm an tionscadail"
+
+#. i18n: ectx: label, entry (appVersion), group (Project)
+#. +> trunk6 stable6
+#: src/application/kapptemplate.kcfg:15
+#, kde-format
+msgid "Project version"
+msgstr "Leagan an tionscadail"
+
+#. i18n: ectx: label, entry (url), group (Project)
+#. +> trunk6 stable6
+#: src/application/kapptemplate.kcfg:19
+#, kde-format
+msgid "Home dir of the user"
+msgstr "Comhadlann bhaile an úsáideora"
+
+#. i18n: ectx: label, entry (name), group (User)
+#. +> trunk6 stable6
+#: src/application/kapptemplate.kcfg:27
+#, kde-format
+msgid "Name of the user"
+msgstr "Ainm an úsáideora"
+
+#. i18n: ectx: label, entry (email), group (User)
+#. +> trunk6 stable6
+#: src/application/kapptemplate.kcfg:38
+#, kde-format
+msgid "Email of the user"
+msgstr "Seoladh ríomhphost an úsáideora"
+
+#. +> trunk6 stable6
+#: src/application/main.cpp:42
+#, kde-format
+msgid "KAppTemplate"
+msgstr "KAppTemplate"
+
+#. +> trunk6 stable6
+#: src/application/main.cpp:44
+#, fuzzy, kde-format
+#| msgid "KAppTemplate is a KDE 4 project template generator"
+msgid "KAppTemplate is a KDE project template generator"
+msgstr "Is gineadóir teimpléad KDE 4 é KAppTemplate"
+
+#. +> trunk6 stable6
+#: src/application/main.cpp:46
+#, kde-format
+msgid "(C) 2008 Anne-Marie Mahfouf"
+msgstr "© 2008, Anne-Marie Mahfouf"
+
+#. +> trunk6 stable6
+#: src/application/main.cpp:50
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#. +> trunk6 stable6
+#: src/application/main.cpp:51
+#, kde-format
+msgid "Sean Wilson"
+msgstr "Sean Wilson"
+
+#. +> trunk6 stable6
+#: src/application/main.cpp:51
+#, kde-format
+msgid "Icons from Oxygen Team icons"
+msgstr "Deilbhíní as na cinn cruthaithe ag Foireann Oxygen"
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:25
+#: src/templates/C++/kde-frameworks6/src/main.cpp:32
+#, kde-format
+msgid "%{APPNAME}"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:27
+#: src/templates/C++/kde-frameworks6/src/main.cpp:34
+#, kde-format
+msgid "A Simple Application written with KDE Frameworks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:29
+#: src/templates/C++/kde-frameworks6/src/main.cpp:36
+#, kde-format
+msgid "Copyright %{CURRENT_YEAR}, %{AUTHOR} <%{EMAIL}>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:31
+#: src/templates/C++/kde-frameworks6/src/main.cpp:38
+#, kde-format
+msgid "%{AUTHOR}"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6-simple/src/main.cpp:31
+#: src/templates/C++/kde-frameworks6/src/main.cpp:38
+#, fuzzy, kde-format
+#| msgid "Author name:"
+msgid "Author"
+msgstr "Ainm an údair:"
+
+#. i18n : internationalization
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6/src/%{APPNAMELC}view.cpp:44
+#, kde-format
+msgid "This project is %1 days old"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6/src/%{APPNAMELC}window.cpp:26
+#, kde-format
+msgctxt "@action"
+msgid "Switch Colors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/templates/C++/kde-frameworks6/src/%{APPNAMELC}window.cpp:62
+#, kde-format
+msgctxt "@title:tab"
+msgid "General"
+msgstr ""

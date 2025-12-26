@@ -1,0 +1,119 @@
+# Irish translation of desktop_extragear-graphics_kphotoalbum
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_extragear-graphics_kphotoalbum package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop_extragear-graphics_kphotoalbum\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2007-04-15 19:05-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6
+#: org.kde.kphotoalbum.desktop:6 org.kde.kphotoalbum-import.desktop:6
+msgctxt "Name"
+msgid "KPhotoAlbum"
+msgstr "KPhotoAlbum"
+
+#. +> trunk6
+#: org.kde.kphotoalbum.desktop:66 org.kde.kphotoalbum-import.desktop:66
+msgctxt "GenericName"
+msgid "Photo Album"
+msgstr "Albam Grianghraf"
+
+#. +> trunk6
+#: scripts/org.kde.kphotoalbum.open-raw.desktop:10
+msgctxt "Name"
+msgid "Open in RAW editor"
+msgstr "Oscail in eagarthóir RAW"
+
+#. +> trunk6
+#: scripts/org.kde.kphotoalbum.open-raw.desktop:55
+msgctxt "Comment"
+msgid "Send RAW files to external editor on command line"
+msgstr "Seol comhaid RAW chuig eagarthóir seachtrach ar líne na n-orduithe"
+
+#. +> trunk6
+#: themes/blue/kphotoalbum.theme:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KPhotoAlbum"
+msgctxt "Name"
+msgid "KPhotoAlbum Blue"
+msgstr "KPhotoAlbum"
+
+#. +> trunk6
+#: themes/blue/kphotoalbum.theme:41
+msgctxt "Description"
+msgid "Straight lines, square boxes and two fresh crisp shades of blue."
+msgstr ""
+
+#. +> trunk6
+#: themes/darkJS/kphotoalbum.theme:6
+msgctxt "Name"
+msgid "Dark JavaScript v1.3.0"
+msgstr ""
+
+#. +> trunk6
+#: themes/darkJS/kphotoalbum.theme:42
+msgctxt "Description"
+msgid "This theme uses JavaScript heavily to provide smooth photo gallery. Naturally images can be navigated without JavaScript support similarly as with the dark theme. The main window provides a thumbnail view with smallest image (by default) on right. The largest generated images can be viewed either with manual navigation or slide show. This theme works best with rather small images that can fully fit to the screen."
+msgstr ""
+
+#. +> trunk6
+#: themes/dark/kphotoalbum.theme:6
+msgctxt "Name"
+msgid "Dark v1.0.1"
+msgstr ""
+
+#. +> trunk6
+#: themes/dark/kphotoalbum.theme:41
+msgctxt "Description"
+msgid "This theme uses darkish colors and provides basic gallery quite similar to other themes in KPhotoAlbum. Possibility to navigate images with keyboard is added if JavaScript support is enabled."
+msgstr ""
+
+#. +> trunk6
+#: themes/grey/kphotoalbum.theme:6
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "KPhotoAlbum"
+msgctxt "Name"
+msgid "KPhotoAlbum Grey"
+msgstr "KPhotoAlbum"
+
+#. +> trunk6
+#: themes/grey/kphotoalbum.theme:40
+msgctxt "Description"
+msgid "Clean theme with square boxes and two shades of dark grey which keeps the emphasis on your pictures."
+msgstr ""
+
+#. +> trunk6
+#: themes/picBelow/kphotoalbum.theme:6
+msgctxt "Name"
+msgid "PicBelow v1"
+msgstr ""
+
+#. +> trunk6
+#: themes/picBelow/kphotoalbum.theme:39
+msgctxt "Description"
+msgid "PicBelow has all its description texts above the image, ensuring that this info is not missed by those who cannot scroll.\\n This theme is based upon Dark v1.0.1 by Miika Turkia and similarly allows keyboard navigation.\\n Colors are grey on a deep dark red background."
+msgstr ""
+
+#. +> trunk6
+#: themes/rounded/kphotoalbum.theme:6
+msgctxt "Name"
+msgid "Rounded"
+msgstr ""
+
+#. +> trunk6
+#: themes/rounded/kphotoalbum.theme:39
+msgctxt "Description"
+msgid "This theme uses rounded boxes with a non-intrusive pastel pink background. Descriptions are centered below the image."
+msgstr ""

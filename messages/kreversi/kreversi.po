@@ -1,0 +1,891 @@
+# Irish translation of kreversi
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kreversi package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegames/kreversi.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-01-21 09:36+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: commondefs.cpp:31
+#, kde-format
+msgid "Blue"
+msgstr "Gorm"
+
+#. +> trunk6 stable6
+#: commondefs.cpp:31
+#, kde-format
+msgid "Red"
+msgstr "Dearg"
+
+#. i18n: ectx: property (text), widget (QLabel, blackLabel)
+#. +> trunk6 stable6
+#: commondefs.cpp:32 startgamedialog.ui:24
+#, kde-format
+msgid "Black"
+msgstr "Dubh"
+
+#. i18n: ectx: property (text), widget (QLabel, whiteLabel)
+#. +> trunk6 stable6
+#: commondefs.cpp:32 startgamedialog.ui:146
+#, kde-format
+msgid "White"
+msgstr "Bán"
+
+#. +> trunk6 stable6
+#: kexthighscore.cpp:198
+#, kde-format
+msgid "Score"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore.cpp:201
+#, kde-format
+msgid "Mean Score"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore.cpp:206
+#, kde-format
+msgid "Best Score"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore.cpp:210
+#, kde-format
+msgid "Elapsed Time"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:147
+#, kde-format
+msgctxt "@title:tab"
+msgid "Best &Scores"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:152
+#, kde-format
+msgctxt "@title:tab"
+msgid "&Players"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:157
+#, kde-format
+msgctxt "@title:tab"
+msgid "Statistics"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:163
+#, kde-format
+msgctxt "@title:tab"
+msgid "Histogram"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:170
+#, kde-format
+msgid "View world-wide highscores"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:176
+#, kde-format
+msgid "View world-wide players"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:221
+#, kde-format
+msgctxt "@title:window"
+msgid "Highscores"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:327
+#, fuzzy, kde-format
+#| msgid "Beginner"
+msgid "Winner"
+msgstr "Tosaitheoir"
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:365
+#, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Won Games"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:393
+#, kde-format
+msgctxt "@title:window"
+msgid "Configure Highscores"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:406
+#, kde-format
+msgctxt "@title:tan"
+msgid "Main"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:421 kexthighscore_gui.cpp:460
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Nickname:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:432
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Comment:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:442
+#, kde-format
+msgctxt "@option:check"
+msgid "World-wide highscores enabled"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:449
+#, kde-format
+msgctxt "@title:tab"
+msgid "Advanced"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:455
+#, kde-format
+msgctxt "@title:group"
+msgid "Registration Data"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:466
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Key:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:473 kexthighscore_gui.cpp:516
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:518
+#, kde-format
+msgid "This will permanently remove your registration key. You will not be able to use the currently registered nickname anymore."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:561
+#, kde-format
+msgid "Please choose a non empty nickname."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:565
+#, kde-format
+msgid "Nickname already in use. Please choose another one"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:586
+#, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgctxt "@title:window"
+msgid "Enter Your Nickname"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:595
+#, fuzzy, kde-format
+#| msgid ""
+#| "Congratulations, you have won!\n"
+#| "\n"
+#| "You     : %1\n"
+#| "Computer: %2"
+msgid "Congratulations, you have won!"
+msgstr ""
+"Comhghairdeas! Bhí an bua agat!\n"
+"\n"
+"Tusa        : %1\n"
+"An Ríomhaire: %2"
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:600
+#, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgctxt "@label:textbox"
+msgid "Enter your nickname:"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#: kexthighscore_gui.cpp:608
+#, kde-format
+msgctxt "@option:check"
+msgid "Do not ask again."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:33
+msgid "anonymous"
+msgstr "gan ainm"
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:258
+#, fuzzy, kde-format
+#| msgid "Game over"
+msgid "Games Count"
+msgstr "Cluiche thart"
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:265
+#, kde-format
+msgid "Comment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:587
+msgid "Undefined error."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:588
+msgid "Missing argument(s)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:589
+msgid "Invalid argument(s)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:591
+msgid "Unable to connect to MySQL server."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:592
+msgid "Unable to select database."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:593
+msgid "Error on database query."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:594
+msgid "Error on database insert."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:596
+msgid "Nickname already registered."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:597
+msgid "Nickname not registered."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:598
+msgid "Invalid key."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:599
+msgid "Invalid submit key."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:601
+msgid "Invalid level."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:602
+msgid "Invalid score."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:606
+msgid "Unable to contact world-wide highscore server"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:616
+#, kde-format
+msgid "Unable to open temporary file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:625
+#, kde-format
+msgid "Server URL: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:647
+#, kde-format
+msgctxt "@title:window"
+msgid "Message from World-Wide High Scores Server"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:653
+#, kde-format
+msgid "Invalid answer from world-wide highscores server."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:654
+#, kde-format
+msgid "Raw message: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_internal.cpp:666
+#, kde-format
+msgid "Invalid answer from world-wide highscores server (missing item: %1)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:32
+#, kde-format
+msgid "all"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:61
+#, kde-format
+msgid "Select player:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:97
+msgid "Total:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:97
+msgid "Won:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:97
+msgid "Lost:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:98
+#, fuzzy
+#| msgid "Draw!"
+msgid "Draw:"
+msgstr "Tarraing!"
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:101
+msgid "Current:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:101
+msgid "Max won:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:101
+msgid "Max lost:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:116
+#, fuzzy, kde-format
+#| msgid "Game over"
+msgctxt "@title:group"
+msgid "Game Counts"
+msgstr "Cluiche thart"
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:129
+#, kde-format
+msgctxt "@title:group"
+msgid "Trends"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:217
+#, kde-format
+msgctxt "@title:column"
+msgid "From"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:218
+#, kde-format
+msgctxt "@title:column"
+msgid "To"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:219
+#, fuzzy, kde-format
+#| msgid "Game over"
+msgctxt "@title:column"
+msgid "Count"
+msgstr "Cluiche thart"
+
+#. +> trunk6 stable6
+#: kexthighscore_tab.cpp:220
+#, kde-format
+msgctxt "@title:column"
+msgid "Percent"
+msgstr ""
+
+#. i18n: ectx: label, entry (AnimationSpeed), group (Game)
+#. +> trunk6 stable6
+#: kreversi.kcfg:9
+#, kde-format
+msgid "The speed of the animations."
+msgstr "Luas na beochana."
+
+#. i18n: ectx: label, entry (CompetitiveGameChoice), group (Game)
+#. +> trunk6 stable6
+#: kreversi.kcfg:18
+#, kde-format
+msgid "Whether to play competitively in contrast to casually."
+msgstr "Cé acu cluiche coimhlinteach nó cluiche neamhchúiseach."
+
+#. i18n: ectx: label, entry (UseColoredChips), group (Game)
+#. +> trunk6 stable6
+#: kreversi.kcfg:22
+#, kde-format
+msgid "Whether to use colored chips instead of black and white ones."
+msgstr "Cé acu sliseanna daite nó sliseanna dubh is bán."
+
+#. i18n: ectx: Menu (view)
+#. +> trunk6 stable6
+#: kreversiui.rc:13
+#, kde-format
+msgid "&View"
+msgstr "&Amharc"
+
+#. i18n: ectx: Menu (settings)
+#. +> trunk6 stable6
+#: kreversiui.rc:18
+#, kde-format
+msgid "&Settings"
+msgstr "&Socruithe"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: kreversiui.rc:25
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Príomhbharra Uirlisí"
+
+#. +> trunk6 stable6
+#: kreversiview.cpp:261
+#, fuzzy, kde-format
+#| msgid "Computer can not move. It is your turn again."
+msgid "Red can not perform any move. It is blue turn again."
+msgstr "Níl aon bheart ag an ríomhaire.  Is leatsa an imirt arís."
+
+#. +> trunk6 stable6
+#: kreversiview.cpp:262
+#, fuzzy, kde-format
+#| msgid "Computer can not move. It is your turn again."
+msgid "White can not perform any move. It is black turn again."
+msgstr "Níl aon bheart ag an ríomhaire.  Is leatsa an imirt arís."
+
+#. +> trunk6 stable6
+#: kreversiview.cpp:271
+#, fuzzy, kde-format
+#| msgid "You can not perform any move. Computer takes next turn now."
+msgid "Blue can not perform any move. It is red turn again."
+msgstr "Níl aon bheart agatsa.  Is leis an ríomhaire an imirt anois."
+
+#. +> trunk6 stable6
+#: kreversiview.cpp:272
+#, fuzzy, kde-format
+#| msgid "You can not perform any move. Computer takes next turn now."
+msgid "Black can not perform any move. It is white turn again."
+msgstr "Níl aon bheart agatsa.  Is leis an ríomhaire an imirt anois."
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "KReversi"
+msgstr "KReversi"
+
+#. +> trunk6 stable6
+#: main.cpp:45
+#, kde-format
+msgid "KDE Reversi Board Game"
+msgstr "Cluiche Cláir Reversi le haghaidh KDE"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgid ""
+"(c) 1997-2000, Mario Weilguni\n"
+"(c) 2004-2006, Inge Wallin\n"
+"(c) 2006, Dmitry Suzdalev"
+msgstr ""
+"© 1997-2000, Mario Weilguni\n"
+"© 2004-2006, Inge Wallin\n"
+"© 2006, Dmitry Suzdalev"
+
+#. +> trunk6 stable6
+#: main.cpp:50
+#, kde-format
+msgid "Mario Weilguni"
+msgstr "Mario Weilguni"
+
+#. +> trunk6 stable6
+#: main.cpp:50 main.cpp:51
+#, kde-format
+msgid "Original author"
+msgstr "An chéad údar"
+
+#. +> trunk6 stable6
+#: main.cpp:51
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#. +> trunk6 stable6
+#: main.cpp:52
+#, kde-format
+msgid "Dmitry Suzdalev"
+msgstr "Dmitry Suzdalev"
+
+#. +> trunk6 stable6
+#: main.cpp:52
+#, kde-format
+msgid "Game rewrite for KDE4. Current maintainer."
+msgstr "Athscríobh an chluiche le haghaidh KDE4. Cothaitheoir reatha."
+
+#. +> trunk6 stable6
+#: main.cpp:53
+#, kde-format
+msgid "Simon Hürlimann"
+msgstr "Simon Hürlimann"
+
+#. +> trunk6 stable6
+#: main.cpp:53
+#, kde-format
+msgid "Action refactoring"
+msgstr "Athfhachtóiriú gnímh"
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Mats Luthman"
+msgstr "Mats Luthman"
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Game engine, ported from his JAVA applet."
+msgstr "Inneall cluiche, tógtha óna fheidhmchláirín JAVA."
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, kde-format
+msgid "Arne Klaassen"
+msgstr "Arne Klaassen"
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, kde-format
+msgid "Original raytraced chips."
+msgstr "Sliseanna ga-rianaithe bunúsacha."
+
+#. +> trunk6 stable6
+#: main.cpp:56
+#, kde-format
+msgid "Mauricio Piacentini"
+msgstr "Mauricio Piacentini"
+
+#. +> trunk6 stable6
+#: main.cpp:56
+#, kde-format
+msgid "Vector chips and background for KDE4."
+msgstr "Sliseanna veicteora agus cúlra le haghaidh KDE4."
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, kde-format
+msgid "Brian Croom"
+msgstr "Brian Croom"
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, kde-format
+msgid "Port rendering code to KGameRenderer"
+msgstr "Leagan a úsáideann KGameRenderer"
+
+#. +> trunk6 stable6
+#: main.cpp:58
+#, kde-format
+msgid "Denis Kuplyakov"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:58
+#, kde-format
+msgid "Port rendering code to QML, redesign and a lot of improvements"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:66
+#, kde-format
+msgid "Start with demo game playing"
+msgstr "Tosaigh le cluiche taispeána"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:49
+#, kde-format
+msgid "Press start game!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:64
+#, fuzzy, kde-format
+#| msgid "Move History"
+msgctxt "@title:window"
+msgid "Move History"
+msgstr "Stair na mBeart"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:111
+#, fuzzy, kde-format
+#| msgid "Show Last Move"
+msgctxt "@option:check"
+msgid "Show Last Move"
+msgstr "Taispeáin an Beart Is Déanaí"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:116
+#, fuzzy, kde-format
+#| msgid "Show Legal Moves"
+msgctxt "@option:check"
+msgid "Show Legal Moves"
+msgstr "Taispeáin Bearta Ceadaithe"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:121
+#, fuzzy, kde-format
+#| msgid "Animation Speed"
+msgctxt "@title:menu"
+msgid "Animation Speed"
+msgstr "Luas na Beochana"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:125
+#, fuzzy, kde-format
+#| msgid "Slow"
+msgctxt "@item:inmenu animation speed"
+msgid "Slow"
+msgstr "Mall"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:126
+#, fuzzy, kde-format
+#| msgid "Normal"
+msgctxt "@item:inmenu animation speed"
+msgid "Normal"
+msgstr "Gnách"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:127
+#, fuzzy, kde-format
+#| msgid "Fast"
+msgctxt "@item:inmenu animation speed"
+msgid "Fast"
+msgstr "Tapa"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:133
+#, fuzzy, kde-format
+#| msgid "Use Colored Chips"
+msgctxt "@option:check"
+msgid "Use Colored Chips"
+msgstr "Úsáid Sliseanna Daite"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:141
+#, fuzzy, kde-format
+#| msgid "Show Move History"
+msgctxt "@action"
+msgid "Show Move History"
+msgstr "Taispeáin Stair na mBeart"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:219 mainwindow.cpp:234 mainwindow.cpp:247 mainwindow.cpp:255
+#, kde-format
+msgid "Game is drawn!"
+msgstr "Cluiche cothrom!"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:222 mainwindow.cpp:237
+#, kde-format
+msgid "You win!"
+msgstr "Bhuaigh tú!"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:225 mainwindow.cpp:240
+#, kde-format
+msgid "You have lost!"
+msgstr "Chaill tú!"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:249 mainwindow.cpp:251 mainwindow.cpp:257 mainwindow.cpp:259
+#, kde-format
+msgid "%1 has won!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:265 mainwindow.cpp:266 mainwindow.cpp:268 mainwindow.cpp:269
+#, kde-format
+msgid ""
+"\n"
+"%1: %2"
+msgstr ""
+"\n"
+"%1: %2"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:272
+#, fuzzy, kde-format
+#| msgid "Game over"
+msgctxt "@title:window"
+msgid "Game Over"
+msgstr "Cluiche thart"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:339
+#, kde-format
+msgid "GAME OVER"
+msgstr "CLUICHE THART"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:344 mainwindow.cpp:345 mainwindow.cpp:351 mainwindow.cpp:352
+#, kde-format
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:348
+#, kde-format
+msgid "%1 turn"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:355
+#, kde-format
+msgid "%1's turn"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:365 startgamedialog.cpp:155 startgamedialog.cpp:169
+#, kde-format
+msgid "Computer"
+msgstr "Ríomhaire"
+
+#. +> trunk6 stable6
+#: startgamedialog.cpp:26
+#, fuzzy, kde-format
+#| msgid "Online game"
+msgctxt "@title:window"
+msgid "New game"
+msgstr "Cluiche ar líne"
+
+#. +> trunk6 stable6
+#: startgamedialog.cpp:36
+#, kde-format
+msgctxt "@action:button"
+msgid "Start Game"
+msgstr ""
+
+#. +> trunk6 stable6
+#: startgamedialog.cpp:37
+#, kde-format
+msgid "Let's start playing!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: startgamedialog.cpp:38
+#, kde-format
+msgctxt "@action:button"
+msgid "Quit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: startgamedialog.cpp:39
+#, fuzzy, kde-format
+#| msgid "KReversi"
+msgctxt "@info:tooltip"
+msgid "Quit KReversi"
+msgstr "KReversi"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk6 stable6
+#: startgamedialog.ui:79 startgamedialog.ui:201
+#, kde-format
+msgid "Name:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. +> trunk6 stable6
+#: startgamedialog.ui:96 startgamedialog.ui:218
+#, kde-format
+msgid "Skill level:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: startgamedialog.ui:124
+#, kde-format
+msgid "VS"
+msgstr ""

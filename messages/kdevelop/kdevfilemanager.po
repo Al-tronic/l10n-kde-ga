@@ -1,0 +1,63 @@
+# Irish translation of kdevfilemanager
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdevfilemanager package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevplatform/kdevfilemanager.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-05-16 12:10+0200\n"
+"PO-Revision-Date: 2009-01-20 10:11-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: filemanager.cpp:46 kdevfilemanagerplugin.cpp:55
+#, fuzzy, kde-format
+#| msgid "Filesystem"
+msgctxt "@title:window"
+msgid "File System"
+msgstr "Córas comhad"
+
+#. +> trunk6 stable6
+#: filemanager.cpp:126
+#, fuzzy, kde-format
+#| msgid "Bookmarks"
+msgctxt "@title:menu"
+msgid "Bookmarks"
+msgstr "Leabharmharcanna"
+
+#. +> trunk6 stable6
+#: filemanager.cpp:133
+#, fuzzy, kde-format
+#| msgid "Current Document Directory"
+msgctxt "@action switch to directory of current document"
+msgid "Current Document Directory"
+msgstr "Comhadlann na Cáipéise Reatha"
+
+#. +> trunk6 stable6
+#: filemanager.cpp:150
+#, fuzzy, kde-format
+#| msgid "New File..."
+msgctxt "@action"
+msgid "New File..."
+msgstr "Comhad Nua..."
+
+#. +> trunk6 stable6
+#: filemanager.cpp:157
+#, fuzzy, kde-format
+#| msgid "Create New File"
+msgctxt "@title:window"
+msgid "Create New File"
+msgstr "Cruthaigh Comhad Nua"
+
+#. +> trunk6 stable6
+#: filemanager.cpp:173
+#, kde-format
+msgid "Unable to create file '%1'"
+msgstr "Ní féidir comhad '%1' a chruthú"

@@ -1,0 +1,476 @@
+# Irish translation of plasmaengineexplorer
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the plasmaengineexplorer package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase/plasmaengineexplorer.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-01-11 09:45+0100\n"
+"PO-Revision-Date: 2007-07-08 10:16-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6 stable5
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6 stable5
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:45
+#, kde-format
+msgid "Expand All"
+msgstr "Leathnaigh Uile"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:46
+#, kde-format
+msgid "Collapse All"
+msgstr "Laghdaigh Uile"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:48 main.cpp:56
+#, kde-format
+msgid "Plasma Engine Explorer"
+msgstr "Taiscéalaí Inneall Plasma"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:76
+#, kde-format
+msgid "Search"
+msgstr "Cuardaigh"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:176
+#, fuzzy, kde-format
+#| msgid "DataSource"
+msgid "DataSource/Key"
+msgstr "Foinse Sonraí"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:176
+#, kde-format
+msgid "Type"
+msgstr "Cineál"
+
+#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:176 serviceviewer.cpp:153 serviceviewer.ui:78
+#, kde-format
+msgid "Value"
+msgstr "Luach"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:296
+#, kde-format
+msgid "Get associated service"
+msgstr "Faigh seirbhís a bhaineann leis"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:297
+#, fuzzy, kde-format
+#| msgid "Get associated service"
+msgid "Get associated model"
+msgstr "Faigh seirbhís a bhaineann leis"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:298
+#, kde-format
+msgid "Update source now"
+msgstr "Nuashonraigh an fhoinse anois"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:299
+#, kde-format
+msgid "Remove source"
+msgstr "Bain foinse"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:321
+#, kde-format
+msgid "<1 bit>"
+msgid_plural "<%1 bits>"
+msgstr[0] "<1 ghiotán>"
+msgstr[1] "<%1 ghiotán>"
+msgstr[2] "<%1 ghiotán>"
+msgstr[3] "<%1 ngiotán>"
+msgstr[4] "<%1 giotán>"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:330
+#, kde-format
+msgid "<1 byte>"
+msgid_plural "<%1 bytes>"
+msgstr[0] "<1 bheart>"
+msgstr[1] "<%1 bheart>"
+msgstr[2] "<%1 bheart>"
+msgstr[3] "<%1 mbeart>"
+msgstr[4] "<%1 beart>"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:352
+#, kde-format
+msgid "<1 item>"
+msgid_plural "<%1 items>"
+msgstr[0] "<1 mhír>"
+msgstr[1] "<%1 mhír>"
+msgstr[2] "<%1 mhír>"
+msgstr[3] "<%1 mír>"
+msgstr[4] "<%1 mír>"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:427
+#, kde-format
+msgctxt "The user did a query to a dataengine and it returned empty data"
+msgid "<empty>"
+msgstr "<folamh>"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:433
+#, kde-format
+msgctxt "A the dataengine returned something that the humble view on the engineexplorer can't display, like a picture"
+msgid "<not displayable>"
+msgstr "<ní féidir taispeáint>"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:487 engineexplorer.cpp:502
+#, fuzzy, kde-format
+#| msgid "<1 item>"
+#| msgid_plural "<%1 items>"
+msgctxt "Length of the list"
+msgid "<%1 item>"
+msgid_plural "<%1 items>"
+msgstr[0] "<1 mhír>"
+msgstr[1] "<%1 mhír>"
+msgstr[2] "<%1 mhír>"
+msgstr[3] "<%1 mír>"
+msgstr[4] "<%1 mír>"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:517
+#, kde-format
+msgctxt "Size of the map"
+msgid "<%1 pair>"
+msgid_plural "<%1 pairs>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. i18n: ectx: property (text), widget (KTitleWidget, m_title)
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:530 engineexplorer.ui:29
+#, kde-format
+msgid "Plasma DataEngine Explorer"
+msgstr "Taiscéalaí Inneall Sonraí Plasma"
+
+#. +> trunk6 stable6 stable5
+#: engineexplorer.cpp:534
+#, kde-format
+msgctxt "The name of the engine followed by the number of data sources"
+msgid "%1 Engine - 1 data source"
+msgid_plural "%1 Engine - %2 data sources"
+msgstr[0] "Inneall %1 - 1 fhoinse sonraí"
+msgstr[1] "Inneall %1 - %2 foinse sonraí"
+msgstr[2] "Inneall %1 - %2 foinse sonraí"
+msgstr[3] "Inneall %1 - %2 foinse sonraí"
+msgstr[4] "Inneall %1 - %2 foinse sonraí"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_sourceRequester)
+#. +> trunk6 stable6 stable5
+#: engineexplorer.ui:50
+#, kde-format
+msgid "Source name"
+msgstr "Ainm na foinse"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, m_updateInterval)
+#. +> trunk6 stable6 stable5
+#: engineexplorer.ui:75
+#, kde-format
+msgid "Update on demand"
+msgstr "Nuashonrú ar éileamh"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateInterval)
+#. +> trunk6 stable6 stable5
+#: engineexplorer.ui:81
+#, fuzzy, kde-format
+#| msgid "ms"
+msgid " ms"
+msgstr "ms"
+
+#. i18n: ectx: property (prefix), widget (QSpinBox, m_updateInterval)
+#. +> trunk6 stable6 stable5
+#: engineexplorer.ui:84
+#, fuzzy, kde-format
+#| msgid "Update every "
+msgid "Update Every "
+msgstr "Nuashonrú gach "
+
+#. i18n: ectx: property (text), widget (QPushButton, m_sourceRequesterButton)
+#. +> trunk6 stable6 stable5
+#: engineexplorer.ui:100
+#, fuzzy, kde-format
+#| msgid "Remove source"
+msgid "Request Source"
+msgstr "Bain foinse"
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, m_serviceRequester)
+#. +> trunk6 stable6 stable5
+#: engineexplorer.ui:120
+#, fuzzy, kde-format
+#| msgid "Remove source"
+msgid "Service for source"
+msgstr "Bain foinse"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_serviceRequesterButton)
+#. +> trunk6 stable6 stable5
+#: engineexplorer.ui:133
+#, fuzzy, kde-format
+#| msgid "Remove source"
+msgid "Request Service for Source"
+msgstr "Bain foinse"
+
+#. +> trunk6 stable6 stable5
+#: ktreeviewsearchline.cpp:423
+#, kde-format
+msgid "Search Columns"
+msgstr "Cuardaigh Colúin"
+
+#. +> trunk6 stable6 stable5
+#: ktreeviewsearchline.cpp:425
+#, kde-format
+msgid "All Visible Columns"
+msgstr "Gach Colún Infheicthe"
+
+#. +> trunk6 stable6 stable5
+#: ktreeviewsearchline.cpp:587
+#, kde-format
+msgid "S&earch:"
+msgstr "C&uardach:"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:35
+#, kde-format
+msgid "No description available"
+msgstr "Níl cur síos ar fáil"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:58
+#, kde-format
+msgid "Explore the data published by Plasma DataEngines"
+msgstr "Taiscéal na sonraí atá foilsithe ag Innill Sonraí Plasma"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:60
+#, kde-format
+msgid "(c) 2006, The KDE Team"
+msgstr "© 2006, Foireann KDE"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:61
+#, kde-format
+msgid "Aaron J. Seigo"
+msgstr "Aaron J. Seigo"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:61
+#, kde-format
+msgid "Author and maintainer"
+msgstr "Údar agus cothaitheoir"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:68
+#, kde-format
+msgid "Displays a list of known engines and their descriptions"
+msgstr "Taispeáin liosta d'innill ar eolas, agus cur síos ar gach ceann"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:69
+#, kde-format
+msgid "The desired height in pixels"
+msgstr "Do rogha airde, i bpicteilíní"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:70
+#, kde-format
+msgid "The desired width in pixels"
+msgstr "Do rogha leithid, i bpicteilíní"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:71
+#, kde-format
+msgid "The desired x position in pixels"
+msgstr "Do rogha ionaid x, i bpicteilíní"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:72
+#, kde-format
+msgid "The desired y position in pixels"
+msgstr "Do rogha ionaid y, i bpicteilíní"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:73
+#, kde-format
+msgid "The data engine to use"
+msgstr "Inneall sonraí le húsáid"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:74
+#, kde-format
+msgid "The source to request"
+msgstr "An fhoinse le hiarraidh"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:75
+#, kde-format
+msgid "Update interval in milliseconds"
+msgstr "Aga nuashonraithe, i milleasoicindí"
+
+#. +> trunk6 stable6 stable5
+#: main.cpp:77
+#, kde-format
+msgid "Only show engines associated with the parent application; maps to the X-KDE-ParentApp entry in the DataEngine's .desktop file."
+msgstr "Ná taispeáin ach na hinnill a bhaineann leis an máthairfheidhmchlár; ceangal leis an iontráil X-KDE-ParentApp i gcomhad .desktop an Innill Sonraí."
+
+#. +> trunk6 stable6 stable5
+#: modelviewer.cpp:85 serviceviewer.cpp:53
+#, kde-format
+msgctxt "Plasma engine with unknown name"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> trunk6 stable6 stable5
+#: modelviewer.cpp:98
+#, kde-format
+msgid "No valid model was returned. Verify that a model is available for this source."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: modelviewer.cpp:103
+#, fuzzy, kde-format
+#| msgctxt "%1 is a Plasma service name"
+#| msgid "%1 Service Explorer"
+msgctxt "%1 is a Plasma dataengine name"
+msgid "%1 Model Explorer"
+msgstr "Taiscéalaí Seirbhíse %1"
+
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:27
+#, kde-format
+msgid "Start Operation"
+msgstr "Tosaigh Oibríocht"
+
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:54
+#, kde-format
+msgctxt "Plasma service with unknown name"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:69
+#, kde-format
+msgid "No valid service was returned. Verify that a service is available for this source."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:74
+#, kde-format
+msgctxt "%1 is a Plasma service name"
+msgid "%1 Service Explorer"
+msgstr "Taiscéalaí Seirbhíse %1"
+
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:77
+#, fuzzy, kde-format
+#| msgctxt "Source: name of the data, Service: writes data instead of fetching"
+#| msgid "DataEngine: <b>%1</b>; Source: <b>%2</b>; Service: <b>%3</b>"
+msgctxt "Source: name of the data, Service: writes data instead of fetching"
+msgid "Engine: <b>%1</b>; Source: <b>%2</b>; Service: <b>%3</b>"
+msgstr "Inneall Sonraí: <b>%1</b>; Foinse: <b>%2</b>; Seirbhís <b>%3</b>"
+
+#. i18n: ectx: property (text), widget (QTableWidget, m_operationDescription)
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:153 serviceviewer.ui:73
+#, kde-format
+msgid "Key"
+msgstr "Eochair"
+
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:187
+#, kde-format
+msgid ""
+"<b>'%1'</b> operation with destination <b>'%2'</b> failed. "
+"<p>The error was: <b>'%3: %4'</b></p>"
+msgstr ""
+"Theip ar oibríocht <b>'%1'</b> le sprioc <b>'%2'</b>. "
+"<p>An earráid: <b>'%3: %4'</b></p>"
+
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:193 serviceviewer.cpp:206
+#, kde-format
+msgid "Operation Result"
+msgstr "Toradh na hOibríochta"
+
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:197
+#, kde-format
+msgid "No response from job."
+msgstr "Gan freagra ón jab."
+
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:201
+#, kde-format
+msgid ""
+"<b>'%1'</b> operation with destination <b>'%2'</b> returned successfully. "
+"<p>The result was: <b>'%3'</b></p>"
+msgstr ""
+"D'éirigh le hoibríocht <b>'%1'</b> le sprioc <b>'%2'</b>. "
+"<p>Seo é an toradh: <b>'%3'</b></p>"
+
+#. +> trunk6 stable6 stable5
+#: serviceviewer.cpp:228
+#, fuzzy, kde-format
+#| msgid "One active operation..."
+#| msgid_plural "%1 operations active..."
+msgid "One active operation…"
+msgid_plural "%1 operations active…"
+msgstr[0] "Oibríocht ghníomhach amháin..."
+msgstr[1] "%1 oibríocht ghníomhach..."
+msgstr[2] "%1 oibríocht ghníomhach..."
+msgstr[3] "%1 n-oibríocht ghníomhach..."
+msgstr[4] "%1 oibríocht ghníomhach..."
+
+#. i18n: ectx: property (text), widget (QLabel, m_operationsLabel)
+#. +> trunk6 stable6 stable5
+#: serviceviewer.ui:39
+#, fuzzy, kde-format
+#| msgid "&Operation:"
+msgid "Opera&tion:"
+msgstr "&Oibríocht:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_operationStatus)
+#. +> trunk6 stable6 stable5
+#: serviceviewer.ui:86
+#, kde-format
+msgid "Operation count"
+msgstr "Líon na n-oibríochtaí"
+
+#. +> trunk6 stable6 stable5
+#: titlecombobox.h:41
+#, kde-format
+msgid "Data Engines"
+msgstr "Innill Sonraí"

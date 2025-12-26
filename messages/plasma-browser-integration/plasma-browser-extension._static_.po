@@ -1,0 +1,388 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-26 15:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#: browseraction_mpris_enable_on:0
+msgctxt "Heading for list of domains to enable media controls on"
+msgid "Enable media controls on:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: browseraction_mpris_title:0
+msgctxt "Title for Media controls in popup"
+msgid "Media Controls"
+msgstr ""
+
+#. +> trunk6 stable6
+#: browseraction_title:0
+msgctxt "Title for toolbar popup"
+msgid "Plasma Browser Integration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: general_error_host_disconnected_title:0
+msgctxt "Title for plasma-browser-integration-host binary unexpectedly closing/crashing"
+msgid "The native host disconnected unexpectedly."
+msgstr ""
+
+#. +> trunk6 stable6
+#: general_error_not_supported_os:0
+msgid "This extension is only supported on Linux and FreeBSD."
+msgstr ""
+
+#. +> trunk6 stable6
+#: general_error_not_supported_os_title:0
+msgid "Unsupported operating system"
+msgstr ""
+
+#. +> trunk6 stable6
+#: general_error_startup_failed:0
+msgctxt "Description for failure to start plasma-browser-integration-host binary"
+msgid "Make sure the 'plasma-browser-integration' package is installed correctly and that you are running Plasma 5.13 or later."
+msgstr ""
+
+#. +> trunk6 stable6
+#: general_error_startup_failed_title:0
+msgctxt "Title for failure to start plasma-browser-integration-host binary"
+msgid "Failed to connect to the native host."
+msgstr ""
+
+#. +> trunk6 stable6
+#: general_error_startup_failed_wiki_link:0
+msgid "Visit project wiki page for more information"
+msgstr ""
+
+#. +> trunk6 stable6
+#: general_error_unknown:0
+msgctxt "An unknown error occurred, usually used when an error message by the system is not provided"
+msgid "Unknown Error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdeconnect_call_device:0
+msgctxt "Context menu, call phone number on device $1"
+msgid "Call on '$1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdeconnect_open_device:0
+msgctxt "Context menu, open link on device $1, similar to 'Open in New Tab'"
+msgid "Open on '$1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdeconnect_open_via:0
+msgctxt "Context menu, open link on device whose name we don't (yet) know"
+msgid "Open via KDE Connect"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_bugs:0
+msgid "If you find an issue, please check the <a href=\"$1\">list of open bugs</a> and then <a href=\"$2\">file a bug report</a>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_changelog_link:0
+msgctxt "Link to view browser extension changelog"
+msgid "View Changelog"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_copyright:0
+msgid "© 2017-2020 Kai Uwe Broulik and David Edmundson"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_created_by_kde:0
+msgid "This browser extension was created by the <a href=\"$1\">KDE Community</a>. You can find more information about this project on the <a href=\"$2\">KDE Community Wiki</a>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_donate:0
+msgid "If you like what you saw, please consider <a href=\"$1\">donating to KDE</a>, so we can continue to make the best free software possible."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_extension_version:0
+msgctxt "Version of browser extension"
+msgid "Extension version: $1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_host_version:0
+msgctxt "Version of extension native host"
+msgid "Host version: $1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_kde:0
+msgctxt "KDE description taken from kaboutkdedialog_p.h in kmxlgui"
+msgid "KDE is a world-wide community of software engineers, artists, writers, translators and creators who are committed to <a href=\"$1\">Free Software</a> development. KDE produces the Plasma desktop environment, hundreds of applications, and the many software libraries that support them. KDE is a cooperative enterprise: no single entity controls its direction or products. Instead, we work together to achieve the common goal of building the world's finest Free Software. Everyone is welcome to <a href=\"$2\">join and contribute</a> to KDE, including you. Visit <a href=\"$3\">$3</a> for more information about the KDE community and the software we produce."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_license:0
+msgid "License: <a href=\"$1\">GNU General Public License Version 3</a>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_translated_by:0
+msgid "Translated by: $1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_about_translators:0
+msgctxt "Name of translators"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_heading_krunner:0
+msgctxt "Title for settings about KRunner plugins"
+msgid "Plasma Search"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_not_supported_os:0
+msgid "This extension is not supported on this operating system."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_breezeScrollBars_description:0
+msgctxt "Description for Breeze style scroll bars plugin"
+msgid "This may interfere with the appearance of websites that already apply a custom styling to their scroll bars."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_breezeScrollBars_title:0
+msgctxt "Title for Breeze style scroll bars plugin"
+msgid "Use Breeze-style scroll bars"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_downloads_addToRecentDocuments:0
+msgctxt "Option for adding downloaded files to recent documents"
+msgid "Add downloaded files to recent documents"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_downloads_inhibitSuspend:0
+msgctxt "Option to inhibit suspend when downloading a file"
+msgid "Prevent system from going to sleep when downloading"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_downloads_saveOriginUrl:0
+msgctxt "Option for saving download source URL in file metadata"
+msgid "Save URL a file was downloaded from in the file's attributes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_downloads_saveOriginUrl_description:0
+msgid "Note: The URL may contain sensitive information that could be disclosed when the file is accessible by or shared with others"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_downloads_title:0
+msgctxt "Title for Downloads plugin"
+msgid "Show downloads in notification area"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_historyrunner_description:0
+msgctxt "Description for Browser History KRunner plugin"
+msgid "This feature might need <a id=\"$1\" href=\"$2\">additional permissions</a> to be used."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_historyrunner_title:0
+msgctxt "Title for Browser History KRunner plugin"
+msgid "Search through browser history"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_kdeconnect_description:0
+msgctxt "Description for KDE Connect plugin"
+msgid "Adds a context menu entry to links enabling you to send them to your phone and other paired devices using <a href=\"$1\">KDE Connect</a>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_kdeconnect_title:0
+msgctxt "Title for KDE Connect plugin"
+msgid "Send via KDE Connect"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_mpris_description:0
+msgctxt "Description for Media Controls plugin"
+msgid "Lets you control video and audio players in websites using the Media Controller plasmoid."
+msgstr ""
+
+#. +> trunk6
+#: options_plugin_mpris_media_blocklist_title:0
+msgctxt "Title for Media Controls website block list"
+msgid "Block media controls on the following domains:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_mpris_media_sessions_description:0
+msgctxt "Description for MediaSessions API Control plugin"
+msgid "Extract metadata and thumbnails of currently playing content."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_mpris_media_sessions_title:0
+msgctxt "Title for MediaSessions API Control plugin"
+msgid "Enhanced Media Controls"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_mpris_title:0
+msgctxt "Title for Media Controls plugin"
+msgid "Media Controls"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_purpose_description:0
+msgctxt "Description for Purpose / Web Share plugin"
+msgid "Adds a \"Share...\" context menu entry and allows websites to open a dialog for sharing contents using the Web Share API."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_purpose_title:0
+msgctxt "Title for Purpose / Web Share plugin"
+msgid "Content Sharing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_tabsrunner_description:0
+msgctxt "Description for Browser Tabs KRunner plugin"
+msgid "Make sure the “Browser Tabs” module is enabled in <a id=\"$1\" href=\"$2\">Plasma Search settings</a>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_plugin_tabsrunner_title:0
+msgctxt "Title for Browser Tabs KRunner plugin"
+msgid "Find browser tabs in “Run Command” window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_save_failed:0
+msgid "Saving settings failed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_save_success:0
+msgid "Settings successfully saved"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_tab_about:0
+msgctxt "The 'About this plugin' tab in settings"
+msgid "About"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_tab_general:0
+msgctxt "The 'General settings' tab in settings"
+msgid "General"
+msgstr ""
+
+#. +> trunk6
+#: options_tab_mpris:0
+msgctxt "The 'Media controls settings' tab in settings"
+msgid "Media Controls"
+msgstr ""
+
+#. +> trunk6 stable6
+#: options_title:0
+msgctxt "Title for settings page"
+msgid "Plasma Integration Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: permission_request_already:0
+msgid "You have already granted this permission."
+msgstr ""
+
+#. +> trunk6 stable6
+#: permission_request_button_request:0
+msgctxt "@action:button"
+msgid "Request Permission"
+msgstr ""
+
+#. +> trunk6 stable6
+#: permission_request_button_revoke:0
+msgctxt "@action:button"
+msgid "Revoke Permission"
+msgstr ""
+
+#. +> trunk6 stable6
+#: permission_request_historyrunner_1:0
+msgctxt "Explanation for why additional permissions are needed"
+msgid "In order to provide search results for your browser history, additional permissions are required."
+msgstr ""
+
+#. +> trunk6 stable6
+#: permission_request_historyrunner_2:0
+msgctxt "Explanation about disabling history runner"
+msgid "You can disable this feature in <a id=\"$1\" href=\"$2\">Plasma search settings</a>."
+msgstr ""
+
+#. +> trunk6 stable6
+#: permission_request_title:0
+msgctxt "Title for page about requesting additional permissions"
+msgid "Additional permissions required"
+msgstr ""
+
+#. +> trunk6 stable6
+#: purpose_share:0
+msgctxt "Context menu, share link or page via Purpose framework"
+msgid "Share..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: purpose_share_failed_text:0
+msgctxt "Text of share failed notification"
+msgid "Could not share this content: $1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: purpose_share_failed_title:0
+msgctxt "Title of share failed notification"
+msgid "Sharing Failed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: purpose_share_finished_text:0
+msgctxt "Text of the share finished notification"
+msgid "The shared content link ($1) has been copied to the clipboard."
+msgstr ""
+
+#. +> trunk6 stable6
+#: purpose_share_finished_title:0
+msgctxt "Title of share finished notification"
+msgid "Content Shared"
+msgstr ""
+
+#. +> trunk6 stable6
+#: store_description:0
+msgctxt "The extension description on the extension store"
+msgid ""
+"Multitask efficiently by controlling browser functions from the desktop, even while Chrome is in the background. Manage audio and video playback, check downloads in the notification area, send files to your phone using KDE Connect and more inside the KDE Plasma Desktop!\n"
+"\n"
+"The plasma-browser-integration package must be installed for this extension to work. It should be available from your distribution's package manager when running Plasma 5.13 or later.\n"
+"\n"
+"NOTE: This extension is not supported on Debian."
+msgstr ""

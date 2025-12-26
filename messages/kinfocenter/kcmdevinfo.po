@@ -1,0 +1,636 @@
+# Irish translation of kcmdevinfo
+# Copyright (C) 2010 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcmdevinfo package.
+# Kevin Scannell <kscanne@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmdevinfo\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-05-25 08:53+0200\n"
+"PO-Revision-Date: 2010-03-18 00:57-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> stable5
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> stable5
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> stable5
+#: devicelisting.cpp:41
+#, kde-format
+msgctxt "Device Listing Whats This"
+msgid "Shows all the devices that are currently listed."
+msgstr ""
+
+#. +> stable5
+#: devicelisting.cpp:44
+#, kde-format
+msgid "Devices"
+msgstr "Gléasanna"
+
+#. +> stable5
+#: devicelisting.cpp:57
+#, kde-format
+msgid "Collapse All"
+msgstr "Laghdaigh Uile"
+
+#. +> stable5
+#: devicelisting.cpp:60
+#, kde-format
+msgid "Expand All"
+msgstr "Leathnaigh Uile"
+
+#. +> stable5
+#: devicelisting.cpp:63
+#, kde-format
+msgid "Show All Devices"
+msgstr "Taispeáin Gach Gléas"
+
+#. +> stable5
+#: devicelisting.cpp:66
+#, kde-format
+msgid "Show Relevant Devices"
+msgstr "Taispeáin Gléasanna Bainteacha"
+
+#. +> stable5
+#: devicelisting.cpp:95
+#, kde-format
+msgctxt "unknown device type"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> stable5
+#: devicelisting.cpp:136 devinfo.cpp:79
+#, kde-format
+msgctxt "no device UDI"
+msgid "None"
+msgstr "Neamhní"
+
+#. +> stable5
+#: devinfo.cpp:28
+#, kde-format
+msgid "kcmdevinfo"
+msgstr "kcmdevinfo"
+
+#. +> stable5
+#: devinfo.cpp:28
+#, fuzzy, kde-format
+#| msgid "Device Type: "
+msgid "Device Viewer"
+msgstr "Cineál an Ghléis: "
+
+#. +> stable5
+#: devinfo.cpp:28
+#, kde-format
+msgid "(c) 2010 David Hubner"
+msgstr "© 2010 David Hubner"
+
+#. +> stable5
+#: devinfo.cpp:58
+#, kde-format
+msgid "UDI: "
+msgstr "UDI:"
+
+#. +> stable5
+#: devinfo.cpp:66
+#, kde-format
+msgctxt "Udi Whats This"
+msgid "Shows the current device's UDI (Unique Device Identifier)"
+msgstr ""
+
+#. +> stable5
+#: infopanel.cpp:20
+#, kde-format
+msgid "Device Information"
+msgstr "Eolas faoin Ghléas"
+
+#. +> stable5
+#: infopanel.cpp:29
+#, kde-format
+msgctxt "Info Panel Whats This"
+msgid "Shows information about the currently selected device."
+msgstr "Taispeánann sé seo faisnéis faoin ghléas atá roghnaithe faoi láthair."
+
+#. +> stable5
+#: infopanel.cpp:56
+#, kde-format
+msgid ""
+"\n"
+"Solid Based Device Viewer Module"
+msgstr ""
+
+#. +> stable5
+#: infopanel.cpp:119
+#, kde-format
+msgid "Description: "
+msgstr ""
+
+#. +> stable5
+#: infopanel.cpp:121
+#, kde-format
+msgid "Product: "
+msgstr "Táirge: "
+
+#. +> stable5
+#: infopanel.cpp:123
+#, kde-format
+msgid "Vendor: "
+msgstr "Díoltóir: "
+
+#. +> stable5
+#: infopanel.cpp:145
+#, kde-format
+msgid "Yes"
+msgstr "Déan"
+
+#. +> stable5
+#: infopanel.cpp:147
+#, kde-format
+msgid "No"
+msgstr "Ná Déan"
+
+#. +> stable5
+#: infopanel.h:36
+#, kde-format
+msgctxt "name of something is not known"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> stable5
+#: soldevice.cpp:65
+#, kde-format
+msgctxt "unknown device"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> stable5
+#: soldevice.cpp:91
+#, kde-format
+msgctxt "Default device tooltip"
+msgid "A Device"
+msgstr "Gléas"
+
+#. +> stable5
+#: soldevicetypes.cpp:43
+#, kde-format
+msgid "Processors"
+msgstr "Próiseálaithe"
+
+#. +> stable5
+#: soldevicetypes.cpp:59
+#, kde-format
+msgid "Processor %1"
+msgstr "Próiseálaí %1"
+
+#. +> stable5
+#: soldevicetypes.cpp:76
+#, kde-format
+msgid "Intel MMX"
+msgstr "Intel MMX"
+
+#. +> stable5
+#: soldevicetypes.cpp:79
+#, kde-format
+msgid "Intel SSE"
+msgstr "Intel SSE"
+
+#. +> stable5
+#: soldevicetypes.cpp:82
+#, kde-format
+msgid "Intel SSE2"
+msgstr "Intel SSE2"
+
+#. +> stable5
+#: soldevicetypes.cpp:85
+#, kde-format
+msgid "Intel SSE3"
+msgstr "Intel SSE3"
+
+#. +> stable5
+#: soldevicetypes.cpp:88
+#, fuzzy, kde-format
+#| msgid "Intel SSE3"
+msgid "Intel SSSE3"
+msgstr "Intel SSE3"
+
+#. +> stable5
+#: soldevicetypes.cpp:91
+#, fuzzy, kde-format
+#| msgid "Intel SSE4"
+msgid "Intel SSE4.1"
+msgstr "Intel SSE4"
+
+#. +> stable5
+#: soldevicetypes.cpp:94
+#, fuzzy, kde-format
+#| msgid "Intel SSE4"
+msgid "Intel SSE4.2"
+msgstr "Intel SSE4"
+
+#. +> stable5
+#: soldevicetypes.cpp:97
+#, fuzzy, kde-format
+#| msgid "AMD 3DNow"
+msgid "AMD 3DNow!"
+msgstr "AMD 3DNow"
+
+#. +> stable5
+#: soldevicetypes.cpp:100
+#, kde-format
+msgid "ATI IVEC"
+msgstr "ATI IVEC"
+
+#. +> stable5
+#: soldevicetypes.cpp:103
+#, kde-format
+msgctxt "no instruction set extensions"
+msgid "None"
+msgstr "Neamhní"
+
+#. +> stable5
+#: soldevicetypes.cpp:106
+#, kde-format
+msgid "Processor Number: "
+msgstr "Uimhir an Phróiseálaí: "
+
+#. +> stable5
+#: soldevicetypes.cpp:106
+#, kde-format
+msgid "Max Speed: "
+msgstr "Uasluas: "
+
+#. +> stable5
+#: soldevicetypes.cpp:107
+#, kde-format
+msgid "Supported Instruction Sets: "
+msgstr "Tacair Treoracha a dTacaítear Leo: "
+
+#. +> stable5
+#: soldevicetypes.cpp:132
+#, kde-format
+msgid "Storage Drives"
+msgstr "Tiomántáin Stórais"
+
+#. +> stable5
+#: soldevicetypes.cpp:151
+#, kde-format
+msgid "Hard Disk Drive"
+msgstr "Tiomántán Diosca Chrua"
+
+#. +> stable5
+#: soldevicetypes.cpp:154
+#, kde-format
+msgid "Compact Flash Reader"
+msgstr ""
+
+#. +> stable5
+#: soldevicetypes.cpp:157
+#, kde-format
+msgid "Smart Media Reader"
+msgstr "Léitheoir Meán Cliste"
+
+#. +> stable5
+#: soldevicetypes.cpp:160
+#, kde-format
+msgid "SD/MMC Reader"
+msgstr "Léitheoir SD/MMC"
+
+#. +> stable5
+#: soldevicetypes.cpp:163
+#, kde-format
+msgid "Optical Drive"
+msgstr "Tiomántán Optúil"
+
+#. +> stable5
+#: soldevicetypes.cpp:166
+#, kde-format
+msgid "Memory Stick Reader"
+msgstr "Léitheoir Cipín Cuimhne"
+
+#. +> stable5
+#: soldevicetypes.cpp:169
+#, kde-format
+msgid "xD Reader"
+msgstr "Léitheoir xD"
+
+#. +> stable5
+#: soldevicetypes.cpp:172
+#, kde-format
+msgid "Unknown Drive"
+msgstr "Tiomántán Anaithnid"
+
+#. +> stable5
+#: soldevicetypes.cpp:192
+#, kde-format
+msgid "IDE"
+msgstr "IDE"
+
+#. +> stable5
+#: soldevicetypes.cpp:195
+#, kde-format
+msgid "USB"
+msgstr "USB"
+
+#. +> stable5
+#: soldevicetypes.cpp:198
+#, kde-format
+msgid "IEEE1394"
+msgstr "IEEE1394"
+
+#. +> stable5
+#: soldevicetypes.cpp:201
+#, kde-format
+msgid "SCSI"
+msgstr "SCSI"
+
+#. +> stable5
+#: soldevicetypes.cpp:204
+#, kde-format
+msgid "SATA"
+msgstr "SATA"
+
+#. +> stable5
+#: soldevicetypes.cpp:207
+#, kde-format
+msgctxt "platform storage bus"
+msgid "Platform"
+msgstr "Ardán"
+
+#. +> stable5
+#: soldevicetypes.cpp:210
+#, kde-format
+msgctxt "unknown storage bus"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> stable5
+#: soldevicetypes.cpp:213
+#, kde-format
+msgid "Bus: "
+msgstr "Bus: "
+
+#. +> stable5
+#: soldevicetypes.cpp:213
+#, kde-format
+msgid "Hotpluggable?"
+msgstr "Inphlugáilte?"
+
+#. +> stable5
+#: soldevicetypes.cpp:213
+#, kde-format
+msgid "Removable?"
+msgstr "Inbhainte?"
+
+#. +> stable5
+#: soldevicetypes.cpp:257
+#, kde-format
+msgid "Unused"
+msgstr "Gan Úsáid"
+
+#. +> stable5
+#: soldevicetypes.cpp:260
+#, kde-format
+msgid "File System"
+msgstr "Córas Comhad"
+
+#. +> stable5
+#: soldevicetypes.cpp:263
+#, kde-format
+msgid "Partition Table"
+msgstr "Tábla Deighiltí"
+
+#. +> stable5
+#: soldevicetypes.cpp:266
+#, kde-format
+msgid "Raid"
+msgstr "Raid"
+
+#. +> stable5
+#: soldevicetypes.cpp:269
+#, kde-format
+msgid "Encrypted"
+msgstr "Criptithe"
+
+#. +> stable5
+#: soldevicetypes.cpp:272
+#, kde-format
+msgctxt "unknown volume usage"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> stable5
+#: soldevicetypes.cpp:275
+#, kde-format
+msgid "File System Type: "
+msgstr "Cineál an Chórais Comhad: "
+
+#. +> stable5
+#: soldevicetypes.cpp:275
+#, kde-format
+msgid "Label: "
+msgstr "Lipéad: "
+
+#. +> stable5
+#: soldevicetypes.cpp:276
+#, kde-format
+msgid "Not Set"
+msgstr "Gan Socrú"
+
+#. +> stable5
+#: soldevicetypes.cpp:276
+#, kde-format
+msgid "Volume Usage: "
+msgstr "Úsáid Imleabhair: "
+
+#. +> stable5
+#: soldevicetypes.cpp:276
+#, kde-format
+msgid "UUID: "
+msgstr "UUID: "
+
+#. +> stable5
+#: soldevicetypes.cpp:282
+#, kde-format
+msgid "Mounted At: "
+msgstr "Feistithe Ar: "
+
+#. +> stable5
+#: soldevicetypes.cpp:282
+#, kde-format
+msgid "Not Mounted"
+msgstr "Gan Feistiú"
+
+#. +> stable5
+#: soldevicetypes.cpp:287
+#, kde-format
+msgid "Volume Space:"
+msgstr ""
+
+#. +> stable5
+#: soldevicetypes.cpp:297
+#, kde-format
+msgctxt "Available space out of total partition size (percent used)"
+msgid "%1 free of %2 (%3% used)"
+msgstr "%1 saor as %2 (%3% in úsáid)"
+
+#. +> stable5
+#: soldevicetypes.cpp:303
+#, kde-format
+msgid "No data available"
+msgstr ""
+
+#. +> stable5
+#: soldevicetypes.cpp:330
+#, kde-format
+msgid "Multimedia Players"
+msgstr "Seinnteoirí Ilmheán"
+
+#. +> stable5
+#: soldevicetypes.cpp:349 soldevicetypes.cpp:388
+#, kde-format
+msgid "Supported Drivers: "
+msgstr "Tiománaithe a dTacaítear Leo: "
+
+#. +> stable5
+#: soldevicetypes.cpp:349 soldevicetypes.cpp:388
+#, kde-format
+msgid "Supported Protocols: "
+msgstr "Prótacail a dTacaítear Leo: "
+
+#. +> stable5
+#: soldevicetypes.cpp:369
+#, kde-format
+msgid "Cameras"
+msgstr "Ceamaraí"
+
+#. +> stable5
+#: soldevicetypes.cpp:408
+#, kde-format
+msgid "Batteries"
+msgstr "Cadhnraí"
+
+#. +> stable5
+#: soldevicetypes.cpp:430
+#, kde-format
+msgid "PDA"
+msgstr "PDA"
+
+#. +> stable5
+#: soldevicetypes.cpp:433
+#, kde-format
+msgid "UPS"
+msgstr "UPS"
+
+#. +> stable5
+#: soldevicetypes.cpp:436
+#, kde-format
+msgid "Primary"
+msgstr "Príomhúil"
+
+#. +> stable5
+#: soldevicetypes.cpp:439
+#, kde-format
+msgid "Mouse"
+msgstr "Luch"
+
+#. +> stable5
+#: soldevicetypes.cpp:442
+#, kde-format
+msgid "Keyboard"
+msgstr "Méarchlár"
+
+#. +> stable5
+#: soldevicetypes.cpp:445
+#, kde-format
+msgid "Keyboard + Mouse"
+msgstr "Méarchlár + Luch"
+
+#. +> stable5
+#: soldevicetypes.cpp:448
+#, kde-format
+msgid "Camera"
+msgstr "Ceamara"
+
+#. +> stable5
+#: soldevicetypes.cpp:451
+#, kde-format
+msgid "Phone"
+msgstr ""
+
+#. +> stable5
+#: soldevicetypes.cpp:454
+#, kde-format
+msgctxt "Screen"
+msgid "Monitor"
+msgstr ""
+
+#. +> stable5
+#: soldevicetypes.cpp:457
+#, kde-format
+msgctxt "Wireless game pad or joystick battery"
+msgid "Gaming Input"
+msgstr ""
+
+#. +> stable5
+#: soldevicetypes.cpp:460
+#, kde-format
+msgctxt "unknown battery type"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> stable5
+#: soldevicetypes.cpp:466
+#, kde-format
+msgid "Charging"
+msgstr "Á Luchtú"
+
+#. +> stable5
+#: soldevicetypes.cpp:469
+#, kde-format
+msgid "Discharging"
+msgstr "Á Dhíluchtú"
+
+#. +> stable5
+#: soldevicetypes.cpp:472
+#, fuzzy, kde-format
+#| msgid "No Charge"
+msgid "Fully Charged"
+msgstr "Gan Luchtú"
+
+#. +> stable5
+#: soldevicetypes.cpp:475
+#, kde-format
+msgid "No Charge"
+msgstr "Gan Luchtú"
+
+#. +> stable5
+#: soldevicetypes.cpp:478
+#, kde-format
+msgid "Battery Type: "
+msgstr "Cineál Cadhnra: "
+
+#. +> stable5
+#: soldevicetypes.cpp:478
+#, kde-format
+msgid "Charge Status: "
+msgstr "Stádas Luchtaithe: "
+
+#. +> stable5
+#: soldevicetypes.cpp:478
+#, fuzzy, kde-format
+#| msgid "Charge Status: "
+msgid "Charge Percent: "
+msgstr "Stádas Luchtaithe: "

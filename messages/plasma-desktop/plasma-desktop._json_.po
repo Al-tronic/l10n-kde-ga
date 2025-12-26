@@ -1,0 +1,1176 @@
+# translation of desktop_kdebase.po to Irish
+# Kevin Scannell <kscanne@gmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6 stable5
+#: applets/activitypager/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Activities"
+msgctxt "Name"
+msgid "Activity Pager"
+msgstr "Gníomhaíochtaí"
+
+#. +> trunk6 stable6
+#: applets/icontasks/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Task Manager"
+msgctxt "Name"
+msgid "Icons-Only Task Manager"
+msgstr "Bainisteoir na dTascanna"
+
+#. +> stable5
+#: applets/icontasks/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Task Manager"
+msgctxt "Name"
+msgid "Icons-only Task Manager"
+msgstr "Bainisteoir na dTascanna"
+
+#. +> trunk6 stable6 stable5
+#: applets/keyboardlayout/metadata.json
+msgctxt "Name"
+msgid "Keyboard Layout"
+msgstr "Leagan Amach Méarchláir"
+
+#. +> trunk6 stable6 stable5
+#: applets/kicker/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Application Menu"
+msgstr "Tosaitheoir Feidhmchlár"
+
+#. +> trunk6 stable6 stable5
+#: applets/kickoff/metadata.json
+msgctxt "Name"
+msgid "Application Launcher"
+msgstr "Tosaitheoir Feidhmchlár"
+
+#. +> trunk6 stable6 stable5
+#: applets/kimpanel/metadata.json
+msgctxt "Name"
+msgid "Input Method Panel"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/margins-separator/metadata.json
+msgctxt "Name"
+msgid "Margins Separator"
+msgstr ""
+
+#. +> trunk6 stable6
+#: applets/minimizeall/package/metadata.json
+msgctxt "Name"
+msgid "Minimize All Windows"
+msgstr ""
+
+#. +> stable5
+#: applets/minimizeall/package/metadata.json
+msgctxt "Name"
+msgid "Minimize all Windows"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/pager/metadata.json
+msgctxt "Name"
+msgid "Pager"
+msgstr "Brabhsálaí Leathanach"
+
+#. +> trunk6 stable6
+#: applets/showActivityManager/metadata.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Shows the activity manager"
+msgctxt "Name"
+msgid "Show Activity Manager"
+msgstr "Taispeáin an bainisteoir gníomhaíochta"
+
+#. +> trunk6 stable6 stable5
+#: applets/showdesktop/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop"
+msgctxt "Name"
+msgid "Peek at Desktop"
+msgstr "Deasc"
+
+#. +> trunk6 stable6
+#: applets/taskmanager/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Task Manager"
+msgctxt "Name"
+msgid "Icons-and-Text Task Manager"
+msgstr "Bainisteoir na dTascanna"
+
+#. +> trunk6 stable6 stable5
+#: applets/trash/metadata.json
+msgctxt "Name"
+msgid "Trashcan"
+msgstr "Bruscar"
+
+#. +> trunk6 stable6
+#: applets/window-list/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window List"
+msgctxt "Name"
+msgid "Window List"
+msgstr "Liosta Fuinneog"
+
+#. +> stable5
+#: applets/window-list/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window List"
+msgctxt "Name"
+msgid "Window list"
+msgstr "Liosta Fuinneog"
+
+#. +> trunk6 stable6 stable5
+#: containments/desktop/package/metadata.json desktoppackage/metadata.json
+msgctxt "Name"
+msgid "Desktop"
+msgstr "Deasc"
+
+#. +> trunk6 stable6 stable5
+#: containments/folder/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Font Viewer"
+msgctxt "Name"
+msgid "Folder View"
+msgstr "Amharcán Clónna"
+
+#. +> trunk6 stable6 stable5
+#: containments/panel/metadata.json
+msgctxt "Name"
+msgid "Panel"
+msgstr "Painéal"
+
+#. +> trunk6 stable6 stable5
+#: kcms/access/kcm_access.json
+msgctxt "Name"
+msgid "Accessibility"
+msgstr "Inrochtaineacht"
+
+#. +> trunk6 stable6 stable5
+#: kcms/activities/kcm_activities.json
+msgctxt "Name"
+msgid "Activities"
+msgstr "Gníomhaíochtaí"
+
+#. +> trunk6 stable6 stable5
+#: kcms/baloo/kcm_baloofile.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Path"
+msgctxt "Name"
+msgid "File Search"
+msgstr "Conair Chomhaid"
+
+#. +> trunk6 stable6 stable5
+#: kcms/dateandtime/kcm_clock.json
+msgctxt "Name"
+msgid "Date & Time"
+msgstr "Dáta agus Am"
+
+#. +> trunk6 stable6 stable5
+#: kcms/desktoppaths/kcm_desktoppaths.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Manage Notifications"
+msgctxt "Name"
+msgid "Locations"
+msgstr "Bainistigh Fógairt"
+
+#. +> trunk6 stable6 stable5
+#: kcms/gamecontroller/kcm_gamecontroller.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Date and Time Control Module"
+msgctxt "Name"
+msgid "Game Controller"
+msgstr "Modúl Rialaithe Dáta agus Am"
+
+#. +> trunk6 stable6 stable5
+#: kcms/kded/kcm_kded.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Background"
+msgctxt "Name"
+msgid "Background Services"
+msgstr "Cúlra"
+
+#. +> trunk6 stable6 stable5
+#: kcms/keyboard/kcm_keyboard.json
+msgctxt "Name"
+msgid "Keyboard"
+msgstr "Méarchlár"
+
+#. +> trunk6 stable6 stable5
+#: kcms/keyboard/kded_keyboard.json
+msgctxt "Name"
+msgid "Keyboard Daemon"
+msgstr "Deamhan Méarchláir"
+
+#. +> trunk6 stable6 stable5
+#: kcms/keys/kcm_keys.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Global Keyboard Shortcuts"
+msgctxt "Name"
+msgid "Shortcuts"
+msgstr "Aicearraí Comhchoiteanna Méarchláir"
+
+#. +> trunk6 stable6 stable5
+#: kcms/ksmserver/kcm_smserver.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Theme"
+msgctxt "Name"
+msgid "Desktop Session"
+msgstr "Téama Deisce"
+
+#. +> trunk6 stable6 stable5
+#: kcms/ksplash/kcm_splashscreen.json
+msgctxt "Name"
+msgid "Splash Screen"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/landingpage/kcm_landingpage.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Joystick settings"
+msgctxt "Name"
+msgid "Quick Settings"
+msgstr "Socruithe an luamháin stiúrtha"
+
+#. +> trunk6 stable6 stable5
+#: kcms/mouse/kcm_mouse.json
+msgctxt "Name"
+msgid "Mouse"
+msgstr "Luch"
+
+#. +> trunk6 stable6 stable5
+#: kcms/qtquicksettings/kcm_qtquicksettings.json
+msgctxt "Name"
+msgid "Plasma Renderer"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/recentFiles/kcm_recentFiles.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Font Files"
+msgctxt "Name"
+msgid "Recent Files"
+msgstr "Comhaid Chló"
+
+#. +> trunk6 stable6 stable5
+#: kcms/runners/krunner/kcm_krunnersettings.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Joystick settings"
+msgctxt "Name"
+msgid "KRunner Settings"
+msgstr "Socruithe an luamháin stiúrtha"
+
+#. +> trunk6 stable6 stable5
+#: kcms/runners/plasmasearch/kcm_plasmasearch.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Path"
+msgctxt "Name"
+msgid "Plasma Search"
+msgstr "Conair Chomhaid"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/kcm_solid_actions.json
+msgctxt "Name"
+msgid "Device Actions"
+msgstr "Gníomhartha Gléis"
+
+#. +> trunk6 stable6 stable5
+#: kcms/spellchecking/kcmspellchecking.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Spell Checker"
+msgctxt "Name"
+msgid "Spell Check"
+msgstr "Litreoir"
+
+#. +> trunk6 stable6 stable5
+#: kcms/tablet/kcm_tablet.json
+msgctxt "Name"
+msgid "Drawing Tablet"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/touchpad/kcm_touchpad.json kcms/touchpad/kded/kded_touchpad.json
+msgctxt "Name"
+msgid "Touchpad"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/touchscreen/kcm_touchscreen.json
+msgctxt "Name"
+msgid "Touchscreen"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/workspaceoptions/kcm_workspace.json
+msgctxt "Name"
+msgid "General Behavior"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Application Menu Bar"
+msgstr "Tosaitheoir Feidhmchlár"
+
+#. +> trunk6 stable6 stable5
+#: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Default Applications"
+msgctxt "Name"
+msgid "Default Panel"
+msgstr "Feidhmchláir Réamhshocraithe"
+
+#. +> trunk6 stable6 stable5
+#: layout-templates/org.kde.plasma.desktop.emptyPanel/metadata.json
+msgctxt "Name"
+msgid "Empty Panel"
+msgstr "Painéal Folamh"
+
+#. +> trunk6 stable6
+#: runners/keys/plasma-runner-keys.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Global Keyboard Shortcuts"
+msgctxt "Name"
+msgid "Global Shortcuts"
+msgstr "Aicearraí Comhchoiteanna Méarchláir"
+
+#. +> trunk6 stable6 stable5
+#: runners/kwin/plasma-runner-kwin.json
+msgctxt "Name"
+msgid "KWin"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: runners/plasma-desktop/plasma-runner-plasma-desktop.json
+msgctxt "Name"
+msgid "Plasma Desktop Shell"
+msgstr "Blaosc dheisce Plasma"
+
+#. +> trunk6 stable6
+#: solid-device-automounter/kcm/device_automounter_kcm.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Device Actions"
+msgctxt "Name"
+msgid "Device Auto-Mount"
+msgstr "Gníomhartha Gléis"
+
+#. +> stable5
+#: solid-device-automounter/kcm/device_automounter_kcm.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Removable"
+msgctxt "Name"
+msgid "Removable Devices"
+msgstr "Inbhainte"
+
+#. +> trunk6 stable6 stable5
+#: solid-device-automounter/kded/device_automounter.json
+msgctxt "Name"
+msgid "Removable Device Automounter"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: toolboxes/paneltoolbox/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Net toolbox"
+msgctxt "Name"
+msgid "Panel Toolbox"
+msgstr "Bosca uirlisí líonra"
+
+#. +> trunk6 stable6 stable5
+#: applets/activitypager/metadata.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Switch between virtual desktops"
+msgctxt "Description"
+msgid "Switch between activities"
+msgstr "Athraigh an deasc fhíorúil"
+
+#. +> trunk6 stable6
+#: applets/icontasks/metadata.json
+msgctxt "Description"
+msgid "App bar displaying only icons"
+msgstr ""
+
+#. +> stable5
+#: applets/icontasks/metadata.json
+msgctxt "Description"
+msgid "Modern dock-style window switcher displaying only icons"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/keyboardlayout/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Layout"
+msgctxt "Description"
+msgid "Show/switch keyboard layout"
+msgstr "Leagan Amach Méarchláir"
+
+#. +> trunk6 stable6 stable5
+#: applets/kicker/metadata.json
+msgctxt "Description"
+msgid "A launcher based on cascading popup menus"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/kickoff/metadata.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Launcher to start applications"
+msgctxt "Description"
+msgid "Launcher to start applications"
+msgstr "Ríomhchlár a thosaíonn feidhmchláir"
+
+#. +> trunk6 stable6 stable5
+#: applets/kimpanel/metadata.json
+msgctxt "Description"
+msgid "A generic input method panel"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/margins-separator/metadata.json
+msgctxt "Description"
+msgid "To be used as a separator between margin areas in themes that support them"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/minimizeall/package/metadata.json
+msgctxt "Description"
+msgid "Shows the desktop by minimizing all windows"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/pager/metadata.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Switch between virtual desktops"
+msgctxt "Description"
+msgid "Switch between virtual desktops"
+msgstr "Athraigh an deasc fhíorúil"
+
+#. +> trunk6 stable6 stable5
+#: applets/showActivityManager/metadata.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Shows the activity manager"
+msgctxt "Description"
+msgid "Shows the activity manager"
+msgstr "Taispeáin an bainisteoir gníomhaíochta"
+
+#. +> trunk6 stable6 stable5
+#: applets/showdesktop/metadata.json
+msgctxt "Description"
+msgid "Temporarily shows the desktop by moving windows away"
+msgstr ""
+
+#. +> trunk6 stable6
+#: applets/taskmanager/metadata.json
+msgctxt "Description"
+msgid "Window bar displaying icons and text"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/trash/metadata.json
+msgctxt "Description"
+msgid "Provides access to the files sent to trash"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/window-list/metadata.json
+msgctxt "Description"
+msgid "Show open windows in a menu"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: containments/desktop/package/metadata.json
+msgctxt "Description"
+msgid "A clean and simple layout"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: containments/folder/metadata.json
+msgctxt "Description"
+msgid "Display the contents of folders"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: desktoppackage/metadata.json
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Desktop Magnifier"
+msgctxt "Description"
+msgid "Desktop view furniture"
+msgstr "Formhéadaitheoir Deisce"
+
+#. +> trunk6 stable6 stable5
+#: kcms/access/kcm_access.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Accessibility"
+msgctxt "Description"
+msgid "Configure Accessibility Options"
+msgstr "Inrochtaineacht"
+
+#. +> trunk6 stable6 stable5
+#: kcms/activities/kcm_activities.json
+msgctxt "Description"
+msgid "Activities help you to focus on a specific task"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/baloo/kcm_baloofile.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the spell checker"
+msgctxt "Description"
+msgid "Configure File Search"
+msgstr "Cumraigh an litreoir"
+
+#. +> trunk6 stable6 stable5
+#: kcms/dateandtime/kcm_clock.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Date & Time"
+msgctxt "Description"
+msgid "Date and Time"
+msgstr "Dáta agus Am"
+
+#. +> trunk6 stable6 stable5
+#: kcms/desktoppaths/kcm_desktoppaths.json
+msgctxt "Description"
+msgid "Location for Personal Files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kcms/gamecontroller/kcm_gamecontroller.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Date and Time Control Module"
+msgctxt "Description"
+msgid "Test and Configure Game Controllers"
+msgstr "Modúl Rialaithe Dáta agus Am"
+
+#. +> trunk6 stable6 stable5
+#: kcms/kded/kcm_kded.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Background"
+msgctxt "Description"
+msgid "Configure background services"
+msgstr "Cúlra"
+
+#. +> trunk6 stable6 stable5
+#: kcms/keyboard/kcm_keyboard.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Keyboard Layout"
+msgctxt "Description"
+msgid "Keyboard Hardware and Layout"
+msgstr "Leagan Amach Méarchláir"
+
+#. +> trunk6 stable6 stable5
+#: kcms/keyboard/kded_keyboard.json
+msgctxt "Description"
+msgid "Enables switching keyboard layout through shortcuts or system tray"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/keys/kcm_keys.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Global Keyboard Shortcuts"
+msgctxt "Description"
+msgid "Configure Keyboard Shortcuts"
+msgstr "Aicearraí Comhchoiteanna Méarchláir"
+
+#. +> trunk6 stable6 stable5
+#: kcms/ksmserver/kcm_smserver.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Theme"
+msgctxt "Description"
+msgid "Desktop Session Login and Logout"
+msgstr "Téama Deisce"
+
+#. +> trunk6 stable6 stable5
+#: kcms/ksplash/kcm_splashscreen.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Customize the desktop theme"
+msgctxt "Description"
+msgid "Choose splash screen theme"
+msgstr "Saincheap an téama deisce"
+
+#. +> trunk6 stable6 stable5
+#: kcms/landingpage/kcm_landingpage.json
+msgctxt "Description"
+msgid "Landing page with some basic settings"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/mouse/kcm_mouse.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Date and Time Control Module"
+msgctxt "Description"
+msgid "Mouse Controls"
+msgstr "Modúl Rialaithe Dáta agus Am"
+
+#. +> trunk6 stable6 stable5
+#: kcms/recentFiles/kcm_recentFiles.json
+msgctxt "Description"
+msgid "Manage your file activity history preferences"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/runners/krunner/kcm_krunnersettings.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the spell checker"
+msgctxt "Description"
+msgid "Configure KRunner behavior"
+msgstr "Cumraigh an litreoir"
+
+#. +> trunk6 stable6 stable5
+#: kcms/runners/plasmasearch/kcm_plasmasearch.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure date and time settings"
+msgctxt "Description"
+msgid "Configure search settings"
+msgstr "Cumraigh socruithe dáta agus ama"
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/kcm_solid_actions.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Manage actions available to the user when connecting new devices"
+msgctxt "Description"
+msgid "Manage actions available to the user when connecting new devices"
+msgstr "Bainistigh na gníomhartha atá ar fáil don úsáideoir agus gléasanna nua á gceangal"
+
+#. +> trunk6 stable6 stable5
+#: kcms/spellchecking/kcmspellchecking.json
+msgctxt "Description"
+msgid "Spell Checker Dictionaries and Options"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kcms/tablet/kcm_tablet.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the spell checker"
+msgctxt "Description"
+msgid "Configure drawing tablets and pens"
+msgstr "Cumraigh an litreoir"
+
+#. +> trunk6 stable6 stable5
+#: kcms/touchpad/kcm_touchpad.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Mouse settings"
+msgctxt "Description"
+msgid "Touchpad settings"
+msgstr "Socruithe luiche"
+
+#. +> trunk6 stable6 stable5
+#: kcms/touchpad/kded/kded_touchpad.json
+msgctxt "Description"
+msgid "Enables or disables touchpad"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/workspaceoptions/kcm_workspace.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure the spell checker"
+msgctxt "Description"
+msgid "Configure general workspace behavior"
+msgstr "Cumraigh an litreoir"
+
+#. +> trunk6 stable6 stable5
+#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.json
+msgctxt "Description"
+msgid "Panel containing the global menu applet"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.json
+msgctxt "Description"
+msgid "Default panel featuring application launcher, task manager and system tray"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: layout-templates/org.kde.plasma.desktop.emptyPanel/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Empty Panel"
+msgctxt "Description"
+msgid "Empty panel"
+msgstr "Painéal Folamh"
+
+#. +> trunk6 stable6
+#: runners/keys/plasma-runner-keys.json
+msgctxt "Description"
+msgid "Find global shortcuts and perform their associated actions"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: runners/kwin/plasma-runner-kwin.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Interact with the Plasma desktop shell"
+msgctxt "Description"
+msgid "Interact with the Plasma Compositor"
+msgstr "Bain úsáid as blaosc dheisce Plasma"
+
+#. +> trunk6 stable6 stable5
+#: runners/plasma-desktop/plasma-runner-plasma-desktop.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Interact with the Plasma desktop shell"
+msgctxt "Description"
+msgid "Interact with the Plasma desktop shell"
+msgstr "Bain úsáid as blaosc dheisce Plasma"
+
+#. +> trunk6 stable6
+#: solid-device-automounter/kcm/device_automounter_kcm.json
+msgctxt "Description"
+msgid "Configure automatic mounting of disks and volumes"
+msgstr ""
+
+#. +> stable5
+#: solid-device-automounter/kcm/device_automounter_kcm.json
+msgctxt "Description"
+msgid "Configure automatic handling of removable storage media"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: solid-device-automounter/kded/device_automounter.json
+msgctxt "Description"
+msgid "Automatically mounts devices as needed"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: toolboxes/paneltoolbox/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Plasma Manual"
+msgctxt "Description"
+msgid "Manage Plasma panel"
+msgstr "Lámhleabhar Plasma"
+
+#. +> trunk6 stable6 stable5
+#: applets/activitypager/metadata.json applets/pager/metadata.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Customize the desktop theme"
+msgctxt "Authors Name"
+msgid "The Plasma Team"
+msgstr "Saincheap an téama deisce"
+
+#. +> trunk6 stable6 stable5
+#: applets/icontasks/metadata.json applets/kicker/metadata.json
+#: applets/taskmanager/metadata.json applets/window-list/metadata.json
+#: containments/desktop/package/metadata.json containments/folder/metadata.json
+msgctxt "Authors Name"
+msgid "Eike Hein"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/keyboardlayout/metadata.json
+msgctxt "Authors Name"
+msgid "Andrey Butirsky"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/kickoff/metadata.json
+msgctxt "Authors Name"
+msgid "Martin Graesslin"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/kickoff/metadata.json
+msgctxt "Authors Name"
+msgid "Mikel Johnson"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/kimpanel/metadata.json
+msgctxt "Authors Name"
+msgid "Weng Xuetian"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/margins-separator/metadata.json
+msgctxt "Authors Name"
+msgid "Niccolo Venerandi"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/minimizeall/package/metadata.json
+#: containments/desktop/package/metadata.json
+msgctxt "Authors Name"
+msgid "Sebastian Kügler"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/showActivityManager/metadata.json
+msgctxt "Authors Name"
+msgid "Gregor Tätzner"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/showdesktop/metadata.json
+msgctxt "Authors Name"
+msgid "Petri Damstén"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: applets/trash/metadata.json
+msgctxt "Authors Name"
+msgid "Heena"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: containments/panel/metadata.json desktoppackage/metadata.json
+#: toolboxes/paneltoolbox/metadata.json
+msgctxt "Authors Name"
+msgid "Marco Martin"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: layout-templates/org.kde.plasma.desktop.appmenubar/metadata.json
+msgctxt "Authors Name"
+msgid "Kai Uwe Broulik"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: layout-templates/org.kde.plasma.desktop.defaultPanel/metadata.json
+msgctxt "Authors Name"
+msgid "Aaron Seigo"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: layout-templates/org.kde.plasma.desktop.emptyPanel/metadata.json
+msgctxt "Authors Name"
+msgid "David Edmundson"
+msgstr ""
+
+#. +> trunk6 stable6
+#: runners/keys/plasma-runner-keys.json
+msgctxt "Authors Name"
+msgid "Fushan Wen"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: runners/kwin/plasma-runner-kwin.json
+#: runners/plasma-desktop/plasma-runner-plasma-desktop.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Path"
+msgctxt "Authors Name"
+msgid "Plasma Team"
+msgstr "Conair Chomhaid"
+
+#. +> trunk6 stable6
+#: kcms/access/kcm_access.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "access,accessibility,deaf,impaired,hearing,hearing loss,bell,audible bell,visible bell,Keyboard,keys,sticky keys,bounce keys,slow keys,mouse navigation,num pad,numpad,activation gestures,gestures,sticky,modifier keys,modifier,locking keys"
+msgctxt "X-KDE-Keywords"
+msgid "access,accessibility,deaf,impaired,hearing,hearing loss,bell,audible bell,visible bell,visual bell,keyboard,keys,sticky keys,bounce keys,slow keys,mouse navigation,num pad,numpad,activation gestures,gestures,sticky,modifier keys,modifier,locking keys,screen reader,narrator,keyboard filters,assist,assistive,feedback,number pad cursor,orca,speech,move mouse with num pad,mouse num pad emulation,mouse number pad,numberpad mouse,mouse emulation,shake cursor,shake cursor effect,shake pointer,shake pointer effect,shake mouse,shake mouse effect,color,color blind,color blindness,color correction,color blind correction,colorblindness correction,protanopia,deuteranopia,tritanopia,invert colors,zoom,magnify,magnifier,zoom effect, magnifier effect"
+msgstr "rochtain,inrochtaineacht,bodhar,lagaithe,cloigín,cloigín inchloiste,clog infheicthe,Méarchlár,eochracha,eochracha greamaitheacha,eochracha preabtha,eochracha go mall,nascleanúint luiche,eochaircheap uimhriúil,gothaí,greamaitheach,mionthraitheoir,eochracha glasála"
+
+#. +> stable5
+#: kcms/access/kcm_access.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "access,accessibility,deaf,impaired,hearing,hearing loss,bell,audible bell,visible bell,Keyboard,keys,sticky keys,bounce keys,slow keys,mouse navigation,num pad,numpad,activation gestures,gestures,sticky,modifier keys,modifier,locking keys"
+msgctxt "X-KDE-Keywords"
+msgid "access,accessibility,deaf,impaired,hearing,hearing loss,bell,audible bell,visible bell,visual bell,keyboard,keys,sticky keys,bounce keys,slow keys,mouse navigation,num pad,numpad,activation gestures,gestures,sticky,modifier keys,modifier,locking keys,screen reader,narrator,keyboard filters,assist,assistive,feedback,number pad cursor,orca,speech,move mouse with num pad,mouse num pad emulation,mouse number pad,numberpad mouse,mouse emulation"
+msgstr "rochtain,inrochtaineacht,bodhar,lagaithe,cloigín,cloigín inchloiste,clog infheicthe,Méarchlár,eochracha,eochracha greamaitheacha,eochracha preabtha,eochracha go mall,nascleanúint luiche,eochaircheap uimhriúil,gothaí,greamaitheach,mionthraitheoir,eochracha glasála"
+
+#. +> trunk6 stable6 stable5
+#: kcms/activities/kcm_activities.json
+msgctxt "X-KDE-Keywords"
+msgid "activities,activity,workspaces,alternate desktops,activity privacy,virtual desktops"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/baloo/kcm_baloofile.json
+msgctxt "X-KDE-Keywords"
+msgid "search,find,files,archives,documents,filesystem,hidden files,file content,folders,directory,directories,baloo,index,indexing,indexer"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/dateandtime/kcm_clock.json
+msgctxt "X-KDE-Keywords"
+msgid "clock,date,time,time zone,timezone,ntp,synchronize,calendar,local time,region time,watch,location,place,country,countries,hours,minutes,seconds,weeks,months,years,utc"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/desktoppaths/kcm_desktoppaths.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "konqueror,dolphin,files,filemanager,path, paths,desktop,directories,autostart,downloads,music,documents,movies,pictures"
+msgctxt "X-KDE-Keywords"
+msgid "konqueror,dolphin,files,filemanager,path,paths,desktop,directory,directories,downloads,music,documents,movies,pictures,locations,file path,default folders,folders,videos,images,photos,songs,home"
+msgstr "konqueror,dolphin,comhaid,bainisteoir comhad,conairí,cosáin,deasc,comhadlanna,tosú uathoibríoch,íosluchtuithe,ceol,cáipéisí,scannáin,pictiúir,grianghraif"
+
+#. +> trunk6 stable6 stable5
+#: kcms/gamecontroller/kcm_gamecontroller.json
+msgctxt "X-KDE-Keywords"
+msgid "joystick,gamepad,controller,hardware,games,gaming,pad,devices,joypad,analog sticks,calibrate,calibration,directional buttons,axis,videogames,button,buttons,inputs"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/kded/kcm_kded.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "KDED,Daemon,Services"
+msgctxt "X-KDE-Keywords"
+msgid "KDED,daemon,services,background,ram"
+msgstr "KDED,Deamhan,Seirbhísí"
+
+#. +> trunk6 stable6 stable5
+#: kcms/keyboard/kcm_keyboard.json
+msgctxt "X-KDE-Keywords"
+msgid "keyboard,keyboard repeat,click volume,input devices,repeat,volume,numlock,numpad,number pad,keyboard type,keyboard model,keyboard layout,key layout,language,alternate keyboard,keyboard switching,ctrl key,caps lock,esperanto,circumflex,tilde,cedilla,diacritics,accents,function keys,kill x server,LED keyboard,compose key,hardware,type,typing,shift,meta,alt,alt gr,fn,space bar,spacebar,qwerty,qwertz,azerty,dvorak"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kcms/keys/kcm_keys.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "Keys,Global key bindings,Key scheme,Key bindings,shortcuts,application shortcuts,global shortcuts"
+msgctxt "X-KDE-Keywords"
+msgid "keys,global key bindings,key scheme,key bindings,shortcuts,application shortcuts,global shortcuts,keyboard,hotkeys,macro,keybind,keybinds,keybindings"
+msgstr "Eochracha,Ceangail chomhchoiteanna eochracha,Scéim eochracha,Ceangail eochracha,aicearraí,aicearraí feidhmchláir,aicearraí comhchoiteanna"
+
+#. +> stable5
+#: kcms/keys/kcm_keys.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "Keys,Global key bindings,Key scheme,Key bindings,shortcuts,application shortcuts,global shortcuts"
+msgctxt "X-KDE-Keywords"
+msgid "keys,global key bindings,key scheme,key bindings,shortcuts,application shortcuts,global shortcuts,keyboard,hotkeys,macro"
+msgstr "Eochracha,Ceangail chomhchoiteanna eochracha,Scéim eochracha,Ceangail eochracha,aicearraí,aicearraí feidhmchláir,aicearraí comhchoiteanna"
+
+#. +> trunk6 stable6 stable5
+#: kcms/ksmserver/kcm_smserver.json
+msgctxt "X-KDE-Keywords"
+msgid "ksmserver,session,login,logout,confirmation,save,restore,efi,uefi,bios,hibernate,shutdown,reboot,save apps,startup,start-up,start,firmware"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/ksplash/kcm_splashscreen.json
+msgctxt "X-KDE-Keywords"
+msgid "splash screen,splash theme,start-up,startup,loading,starting screen,loading screen,logo,start screen,welcome screen"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/mouse/kcm_mouse.json
+msgctxt "X-KDE-Keywords"
+msgid "mouse,mouse acceleration,mouse threshold,mouse buttons,selection,cursor shape,input devices,button mapping,click,icons,feedback,pointers,drag,double click,single click,right click,left click,middle click,left mapping,right handed,left handed,pointer device,mouse wheel,mouse emulation,mouse navigation,mouse drag and drop,mouse scrolling,mouse sensitivity,cursor sensitivity,hardware,cursor,scrolling speed,flat,adaptive,scroll wheel,invert scroll direction,reverse scroll,reversed scrolling,acceleration profile"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/recentFiles/kcm_recentFiles.json
+msgctxt "X-KDE-Keywords"
+msgid "history,recentlyused,activity privacy, privacy,clear history,wipe"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/runners/plasmasearch/kcm_plasmasearch.json
+msgctxt "X-KDE-Keywords"
+msgid "search,file,baloo,runners,krunner,launcher,app launcher,desktop search,k runner,find,plugins,computer search,overview,web search keywords"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/solid_actions/kcm_solid_actions.json
+msgctxt "X-KDE-Keywords"
+msgid "Solid Devices Actions,device actions,open with,play,download,browse,transfer"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/spellchecking/kcmspellchecking.json
+msgctxt "X-KDE-Keywords"
+msgid "spell,spellings,grammar check,grammatical check,spell check,autocorrect,auto correct,words,phrases,wrong words,linguistics,semantic,alphabet,correction"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/tablet/kcm_tablet.json
+msgctxt "X-KDE-Keywords"
+msgid "drawing,tablet,wacom,pen"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/touchpad/kcm_touchpad.json
+msgctxt "X-KDE-Keywords"
+msgid "touchpad,trackpad,synaptics,alps,elantech,elan,cirque,libinput,hardware,laptop,touch devices,click,left click,right click,middle click,click emulation,tap,tap to click,tap-to-click,fingers,two fingers tap,three fingers tap,four fingers tap,swipe,gestures,natural scrolling,invert scroll,inverted scrolling,reverse scroll,reversed scrolling,acceleration,palm rejection,left-handed mode,left handed mode,right-handed mode,right handed mode,disable while typing"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcms/touchscreen/kcm_touchscreen.json
+msgctxt "X-KDE-Keywords"
+msgid "touchscreen,touch,laptop,screen,display"
+msgstr ""
+
+#. +> trunk6
+#: kcms/workspaceoptions/kcm_workspace.json
+msgctxt "X-KDE-Keywords"
+msgid "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,click,single click,double click,middle click,animation speed,behavior,open files,select files,scrollbar,visual feedback,status,click to open,click to select,touch,tablet,touch mode,tablet mode,copy,paste,selected,selection,primary,primary selection"
+msgstr ""
+
+#. +> stable6
+#: kcms/workspaceoptions/kcm_workspace.json
+msgctxt "X-KDE-Keywords"
+msgid "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,click,single click,double click,middle click,animation speed,behavior,open files,select files,scrollbar,visual feedback,status,click to open,click to select,touch,tablet,touch mode,tablet mode,copy,paste,selected,selection,primary"
+msgstr ""
+
+#. +> stable5
+#: kcms/workspaceoptions/kcm_workspace.json
+msgctxt "X-KDE-Keywords"
+msgid "plasma,workspace,shell,formfactor,dashboard,tooltips,informational tips,click,single click,double click,animation speed,behavior,open files,select files,scrollbar,visual feedback,status,click to open,click to select,touch,tablet,touch mode,tablet mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: solid-device-automounter/kcm/device_automounter_kcm.json
+msgctxt "X-KDE-Keywords"
+msgid "Automount,Mount,Disk,Disks,Removable,Device,Devices,Automatic"
+msgstr ""
+
+#. +> stable5
+#: solid-device-automounter/kcm/device_automounter_kcm.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Removable"
+msgctxt "X-KDE-Keywords"
+msgid "Mount,Removable,Devices,Automatic"
+msgstr "Inbhainte"
+
+#. +> stable5
+#: applets/taskmanager/package/metadata.json
+msgctxt "Name"
+msgid "Task Manager"
+msgstr "Bainisteoir na dTascanna"
+
+#. +> stable5
+#: applets/taskmanager/package/metadata.json
+msgctxt "Description"
+msgid "Classic taskbar-style window switcher displaying icons and text"
+msgstr ""
+
+#. +> stable5
+#: kcms/componentchooser/kcm_componentchooser.json
+msgctxt "Name"
+msgid "Default Applications"
+msgstr "Feidhmchláir Réamhshocraithe"
+
+#. +> stable5
+#: kcms/componentchooser/kcm_componentchooser.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Default Applications"
+msgctxt "Description"
+msgid "Choose default Applications"
+msgstr "Feidhmchláir Réamhshocraithe"
+
+#. +> stable5
+#: kcms/componentchooser/kcm_componentchooser.json
+#, fuzzy
+#| msgctxt "X-KDE-Keywords"
+#| msgid "default applications,components,component chooser,resources,e-mail,email client,text editor,instant messenger,terminal emulator,web browser,URL,hyperlinks"
+msgctxt "X-KDE-Keywords"
+msgid "default applications,default apps,components,component chooser,resources,web browser,browser,internet,file manager,dolphin,email,e-mail,email client,terminal,terminal emulator,konsole,defaults,open with,file association"
+msgstr "feidhmchlár réamhshocraithe,comhpháirteanna,roghnóir comhpháirte,acmhainní,ríomhphost,cliant ríomhphoist,eagarthóir téacs,cur teachtaireachtaí meandaracha,aithriseoir teirminéil,brabhsálaí,URL,hipearnaisc"
+
+#. +> stable5
+#: kcms/joystick/kcm_joystick.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Date and Time Control Module"
+msgctxt "Description"
+msgid "Calibrate Game Controller"
+msgstr "Modúl Rialaithe Dáta agus Am"
+
+#. +> stable5
+#: kcms/touchpad/applet/plasma-dataengine-touchpad.json
+msgctxt "Name"
+msgid "Touchpad DataEngine"
+msgstr ""
+
+#. +> stable5
+#: kcms/touchpad/applet/plasma-dataengine-touchpad.json
+#: kcms/touchpad/applet/qml/metadata.json
+msgctxt "Authors Name"
+msgid "Alexander Mezin"
+msgstr ""
+
+#. +> stable5
+#: kcms/touchpad/applet/qml/metadata.json
+msgctxt "Description"
+msgid "Shows current touchpad state"
+msgstr ""
+
+#. +> stable5
+#: toolboxes/desktoptoolbox/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Net toolbox"
+msgctxt "Name"
+msgid "Declarative Toolbox"
+msgstr "Bosca uirlisí líonra"
+
+#. +> stable5
+#: toolboxes/desktoptoolbox/metadata.json
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Plasma Manual"
+msgctxt "Description"
+msgid "Manage Plasma"
+msgstr "Lámhleabhar Plasma"

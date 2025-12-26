@@ -1,0 +1,216 @@
+# Irish translation of mailfilteragent
+# Copyright (C) 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the mailfilteragent package.
+# Kevin Scannell <kscanne@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: mailfilteragent\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
+"PO-Revision-Date: 2011-12-28 12:28-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:44
+#, kde-format
+msgctxt "@action:button"
+msgid "Share…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:46
+#, kde-format
+msgctxt "@title:window"
+msgid "Filter Log Viewer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:68
+#, kde-format
+msgctxt "@option:check"
+msgid "&Log filter activities"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:73
+#, kde-format
+msgid "You can turn logging of filter activities on and off here. Of course, log data is collected and shown only when logging is turned on. "
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:94
+#, kde-format
+msgid "Logging Details"
+msgstr "Mionsonraí Logála"
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:101
+#, kde-format
+msgctxt "@option:check"
+msgid "Log pattern description"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:106
+#, kde-format
+msgctxt "@option:check"
+msgid "Log filter &rule evaluation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:111
+#, kde-format
+msgid "You can control the feedback in the log concerning the evaluation of the filter rules of applied filters: having this option checked will give detailed feedback for each single filter rule; alternatively, only feedback about the result of the evaluation of all rules of a single filter will be given."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:118
+#, kde-format
+msgctxt "@option:check"
+msgid "Log filter pattern evaluation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:123
+#, kde-format
+msgctxt "@option:check"
+msgid "Log filter actions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:133
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Log size limit:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:141
+#, kde-format
+msgid " KB"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:142
+#, kde-format
+msgctxt "@label:spinbox Set the size of the logfile to unlimited."
+msgid "unlimited"
+msgstr "gan teorainn"
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:145
+#, kde-format
+msgid "Collecting log data uses memory to temporarily store the log data; here you can limit the maximum amount of memory to be used: if the size of the collected log data exceeds this limit then the oldest data will be discarded until the limit is no longer exceeded. "
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:327
+#, kde-format
+msgid ""
+"Could not write the file %1:\n"
+"\"%2\" is the detailed error description."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filterlogdialog.cpp:331
+#, fuzzy, kde-format
+#| msgid "KMail Error"
+msgctxt "@title:window"
+msgid "KMail Error"
+msgstr "Earráid KMail"
+
+#. +> trunk6 stable6
+#: filtermanager.cpp:102
+#, kde-format
+msgid "Filtering message %1 of %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filtermanager.cpp:189
+#, kde-format
+msgid "Error applying mail filter move"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filtermanager.cpp:197
+#, kde-format
+msgid "Error applying mail filter delete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filtermanager.cpp:205
+#, kde-format
+msgid "Error applying mail filter modifications"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filtermanager.cpp:222
+#, kde-format
+msgid "<b>Evaluating filter rules:</b> "
+msgstr "<b>Rialacha scagtha á luacháil:</b> "
+
+#. +> trunk6 stable6
+#: filtermanager.cpp:229
+#, kde-format
+msgid "<b>Filter rules have matched.</b>"
+msgstr "<b>Comhoiriúnaíodh rialacha scagaire.</b>"
+
+#. +> trunk6 stable6
+#: filtermanager.cpp:257
+#, kde-format
+msgid "<b>Begin filtering on message \"%1\" from \"%2\" at \"%3\" :</b>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filtermanager.cpp:592 mailfilteragent.cpp:225
+#, kde-format
+msgid "Filtering messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mailfilteragent.cpp:92
+#, kde-format
+msgid "Starting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mailfilteragent.cpp:116
+#, kde-format
+msgctxt "Notification when the filter log was enabled"
+msgid "Mail Filter Log Enabled"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mailfilteragent.cpp:118
+#, kde-format
+msgid "Show Log"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mailfilteragent.cpp:186
+#, kde-format
+msgid "Ready"
+msgstr "Réidh"
+
+#. +> trunk6 stable6
+#: mailfilteragent.cpp:274
+#, kde-format
+msgid "Filtering in %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mailfilteragent.cpp:398
+#, kde-format
+msgid "Finished filtering, %1 message processed"
+msgid_plural "Finished filtering, %1 messages processed"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""

@@ -1,0 +1,684 @@
+# Irish translation of ktorrent
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the ktorrent package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: extragear-network/ktorrent.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-22 09:15+0200\n"
+"PO-Revision-Date: 2007-08-07 07:02-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: src/bcodec/bdecoder.cpp:50
+#, kde-format
+msgid "Illegal token: %1"
+msgstr "Teaghrán neamhcheadaithe: %1"
+
+#. +> trunk6 stable6
+#: src/bcodec/bdecoder.cpp:86 src/bcodec/bdecoder.cpp:93
+#, kde-format
+msgid "Decode error"
+msgstr "Earráid díchódaithe"
+
+#. +> trunk6 stable6
+#: src/bcodec/bdecoder.cpp:139 src/bcodec/bdecoder.cpp:177
+#, kde-format
+msgid "Unexpected end of input"
+msgstr "Deireadh an ionchuir gan choinne"
+
+#. +> trunk6 stable6
+#: src/bcodec/bdecoder.cpp:156 src/bcodec/bdecoder.cpp:196
+#, kde-format
+msgid "Cannot convert %1 to an int"
+msgstr "Ní féidir %1 a thiontú go slánuimhir"
+
+#. +> trunk6 stable6
+#: src/bcodec/bdecoder.cpp:201
+#, kde-format
+msgid "Torrent is incomplete."
+msgstr "Torrent neamhiomlán."
+
+#. +> trunk6 stable6
+#: src/datachecker/datacheckerjob.cpp:71
+#, kde-format
+msgid "Waiting for other data checks to finish"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/datachecker/datacheckerjob.cpp:77 src/torrent/torrentstats.cpp:93
+#, kde-format
+msgid "Checking data"
+msgstr "Sonraí á seiceáil"
+
+#. +> trunk6 stable6
+#: src/datachecker/datacheckerjob.cpp:124
+#, kde-format
+msgid "Checking Data"
+msgstr "Sonraí á Seiceáil"
+
+#. +> trunk6 stable6
+#: src/datachecker/multidatachecker.cpp:185
+#: src/datachecker/singledatachecker.cpp:38 src/diskio/multifilecache.cpp:626
+#: src/diskio/multifilecache.cpp:661 src/torrent/torrentcreator.cpp:109
+#: src/torrent/torrentcreator.cpp:230 src/torrent/torrentcreator.cpp:262
+#, kde-format
+msgid "Cannot open file %1: %2"
+msgstr "Ní féidir comhad %1 a oscailt: %2"
+
+#. +> trunk6 stable6
+#: src/diskio/cache.cpp:172 src/diskio/multifilecache.cpp:100
+#: src/diskio/singlefilecache.cpp:72
+#, kde-format
+msgid "Failed to create %1: %2"
+msgstr "Níorbh fhéidir %1 a chruthú: %2"
+
+#. +> trunk6 stable6
+#: src/diskio/cachefile.cpp:86 src/util/fileops.cpp:321
+#: src/util/fileops.cpp:364
+#, kde-format
+msgid "Cannot open %1: %2"
+msgstr "Ní féidir %1 a oscailt: %2"
+
+#. +> trunk6 stable6
+#: src/diskio/cachefile.cpp:113 src/diskio/cachefile.cpp:202
+#: src/diskio/cachefile.cpp:361 src/diskio/cachefile.cpp:420
+#, kde-format
+msgid "Cannot open %1 for writing: readonly filesystem"
+msgstr "Ní féidir %1 a oscailt chun é a scríobh: córas comhad inléite amháin"
+
+#. +> trunk6 stable6
+#: src/diskio/cachefile.cpp:119 src/diskio/cachefile.cpp:366
+#, kde-format
+msgid "Attempting to write beyond the maximum size of %1"
+msgstr "Ag iarraidh scríobh thar uasmhéid %1"
+
+#. +> trunk6 stable6
+#: src/diskio/cachefile.cpp:207
+#, kde-format
+msgid "Cannot expand file %1: attempting to grow the file beyond the maximum size"
+msgstr "Ní féidir comhad %1 a leathnú: ag iarraidh an comhad a fhás thar a uasmhéid"
+
+#. +> trunk6 stable6
+#: src/diskio/cachefile.cpp:211
+#, kde-format
+msgid "Cannot expand file %1: %2"
+msgstr "Ní féidir comhad %1 a leathnú: %2"
+
+#. +> trunk6 stable6
+#: src/diskio/cachefile.cpp:329
+#, kde-format
+msgid "Error: Reading past the end of the file %1"
+msgstr "Earráid: Léamh thar deireadh chomhad %1"
+
+#. +> trunk6 stable6
+#: src/diskio/cachefile.cpp:334 src/diskio/cachefile.cpp:376
+#, kde-format
+msgid "Failed to seek file %1: %2"
+msgstr "Níorbh fhéidir comhad %1 a chuardach: %2"
+
+#. +> trunk6 stable6
+#: src/diskio/cachefile.cpp:341
+#, kde-format
+msgid "Error reading from %1"
+msgstr "Earráid agus %1 á léamh"
+
+#. +> trunk6 stable6
+#: src/diskio/cachefile.cpp:379
+#, kde-format
+msgid "Failed to write to file %1: %2"
+msgstr "Níorbh fhéidir scríobh i gcomhad %1: %2"
+
+#. +> trunk6 stable6
+#: src/diskio/cachefile.cpp:437
+#, kde-format
+msgid "Cannot preallocate diskspace: %1"
+msgstr "Ní féidir spás diosca a réamhdháileadh: %1"
+
+#. +> trunk6 stable6
+#: src/diskio/chunkmanager.cpp:849 src/diskio/chunkmanager.cpp:872
+#, kde-format
+msgid "Cannot open index file %1: %2"
+msgstr "Ní féidir comhad innéacs %1 a oscailt: %2"
+
+#. +> trunk6 stable6
+#: src/diskio/dndfile.cpp:77
+#, kde-format
+msgid "Cannot create file %1: %2"
+msgstr "Ní féidir comhad %1 a chruthú: %2"
+
+#. +> trunk6 stable6
+#: src/diskio/dndfile.cpp:119
+#, kde-format
+msgid "Failed to write first chunk to DND file: %1"
+msgstr "Níorbh fhéidir an chéad smután a scríobh i gcomhad DND: %1"
+
+#. +> trunk6 stable6
+#: src/diskio/dndfile.cpp:134
+#, kde-format
+msgid "Failed to write last chunk to DND file: %1"
+msgstr "Níorbh fhéidir an smután deiridh a scríobh i gcomhad DND: %1"
+
+#. +> trunk6 stable6
+#: src/diskio/movedatafilesjob.cpp:115
+#, kde-format
+msgid "Waiting for other move jobs to finish"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/diskio/movedatafilesjob.cpp:116 src/diskio/movedatafilesjob.cpp:152
+#, kde-format
+msgctxt "The source of a file operation"
+msgid "Source"
+msgstr "Foinse"
+
+#. +> trunk6 stable6
+#: src/diskio/movedatafilesjob.cpp:117 src/diskio/movedatafilesjob.cpp:153
+#, kde-format
+msgctxt "The destination of a file operation"
+msgid "Destination"
+msgstr "Sprioc"
+
+#. +> trunk6 stable6
+#: src/diskio/movedatafilesjob.cpp:151
+#, kde-format
+msgctxt "@title job"
+msgid "Moving"
+msgstr "Bogadh"
+
+#. +> trunk6 stable6
+#: src/diskio/multifilecache.cpp:75 src/diskio/singlefilecache.cpp:62
+#, kde-format
+msgid "Failed to open %1: %2"
+msgstr "Níorbh fhéidir %1 a oscailt: %2"
+
+#. +> trunk6 stable6
+#: src/diskio/piecedata.cpp:53 src/diskio/piecedata.cpp:91
+#, kde-format
+msgid "Unable to write to a piece mapped read only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/download/chunkdownload.cpp:341
+#, kde-format
+msgid "1 peer"
+msgid_plural "%1 peers"
+msgstr[0] "1 chomhghleacaí"
+msgstr[1] "%1 chomhghleacaí"
+msgstr[2] "%1 chomhghleacaí"
+msgstr[3] "%1 gcomhghleacaí"
+msgstr[4] "%1 comhghleacaí"
+
+#. +> trunk6 stable6
+#: src/download/downloader.cpp:691
+#, kde-format
+msgid "Disabled because webseed does not match torrent"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:29 src/download/webseed.cpp:39
+#: src/download/webseed.cpp:82
+#, kde-format
+msgid "Not connected"
+msgstr "Gan cheangal"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:95
+#, kde-format
+msgid "Resolving proxy %1:%2"
+msgstr "Seachfhreastalaí %1:%2 á réiteach"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:99 src/download/httpconnection.cpp:113
+#, kde-format
+msgid "Not enough system resources available"
+msgstr "Níl go leor acmhainní córais ar fáil"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:109
+#, kde-format
+msgid "Resolving hostname %1"
+msgstr "Óstainm %1 á réiteach"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:125 src/download/webseed.cpp:310
+#, kde-format
+msgid "Connection closed"
+msgstr "Ceangal dúnta"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:129
+#, kde-format
+msgid "Error: request failed: %1"
+msgstr "Earráid: theip ar an iarratas: %1"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:153 src/download/httpconnection.cpp:180
+#, kde-format
+msgid "Connected"
+msgstr "Ceangailte"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:161
+#, kde-format
+msgid "Error: Failed to connect to webseed"
+msgstr "Earráid: Theip ar cheangal le síol Gréasáin"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:185
+#, kde-format
+msgid "Connecting"
+msgstr "Ag Ceangal"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:194
+#, kde-format
+msgid "Failed to connect to webseed"
+msgstr "Theip ar cheangal le síol Gréasáin"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:199
+#, kde-format
+msgid "Failed to resolve hostname of webseed"
+msgstr "Níorbh fhéidir óstainm an tsíl Ghréasáin a réiteach"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:270
+#, kde-format
+msgid "Error: failed to connect, server not responding"
+msgstr "Earráid: theip ar cheangal, ní raibh freagra ón bhfreastalaí"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:280
+#, kde-format
+msgid "Error: request timed out"
+msgstr "Earráid: iarratas thar am"
+
+#. +> trunk6 stable6
+#: src/download/httpconnection.cpp:350
+#, kde-format
+msgid "Redirected without a new location."
+msgstr "Atreoraithe gan suíomh nua."
+
+#. +> trunk6 stable6
+#: src/download/webseed.cpp:497
+#, kde-format
+msgid "Unused for %1 second (Too many connection failures)"
+msgid_plural "Unused for %1 seconds (Too many connection failures)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6
+#: src/interfaces/trackerinterface.cpp:46
+#, kde-format
+msgid "OK"
+msgstr "OK"
+
+#. +> trunk6 stable6
+#: src/interfaces/trackerinterface.cpp:46
+#, kde-format
+msgid "Warning: %1"
+msgstr "Rabhadh: %1"
+
+#. +> trunk6 stable6
+#: src/interfaces/trackerinterface.cpp:48
+#, kde-format
+msgid "Announcing"
+msgstr "Fógairt"
+
+#. +> trunk6 stable6
+#: src/interfaces/trackerinterface.cpp:50 src/torrent/torrentstats.cpp:87
+#, kde-format
+msgid "Error: %1"
+msgstr "Earráid: %1"
+
+#. +> trunk6 stable6
+#: src/peer/peerid.cpp:301
+#, kde-format
+msgid "Unknown client"
+msgstr "Cliant anaithnid"
+
+#. +> trunk6 stable6
+#: src/torrent/torrent.cpp:91 src/torrent/torrent.cpp:133
+#: src/torrent/torrent.cpp:160 src/torrent/torrent.cpp:167
+#: src/torrent/torrent.cpp:174 src/torrent/torrent.cpp:178
+#: src/torrent/torrent.cpp:198 src/torrent/torrent.cpp:261
+#, kde-format
+msgid "Corrupted torrent."
+msgstr "Torrent truaillithe."
+
+#. +> trunk6 stable6
+#: src/torrent/torrentcontrol.cpp:251
+#, kde-format
+msgid "Error writing to disk, do you have enough diskspace?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/torrent/torrentcontrol.cpp:464
+#, kde-format
+msgid ""
+"An error occurred while loading <b>%1</b>:<br/>"
+"<b>%2</b>"
+msgstr ""
+"Tharla earráid agus <b>%1</b> á luchtú:<br/>"
+"<b>%2</b>"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentcontrol.cpp:474
+#, kde-format
+msgid "Unable to create %1: %2"
+msgstr "Ní féidir %1 a chruthú: %2"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentcontrol.cpp:487
+#, kde-format
+msgid "You are already downloading the torrent <b>%1</b>. The tracker lists from both torrents have been merged."
+msgstr "Tá torrent <b>%1</b> á íosluchtú cheana. Cumascadh na liostaí lorgaire ón dá torrent."
+
+#. +> trunk6 stable6
+#: src/torrent/torrentcontrol.cpp:491
+#, kde-format
+msgid "You are already downloading the torrent <b>%1</b>."
+msgstr "Tá tú ag íosluchtú torrent <b>%1</b> cheana."
+
+#. +> trunk6 stable6
+#: src/torrent/torrentcreator.cpp:330
+#, kde-format
+msgid "Cannot create index file: %1"
+msgstr "Ní féidir an comhad innéacs a chruthú: %1"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:73
+#, kde-format
+msgid "Not started"
+msgstr "Gan tosú"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:75
+#, kde-format
+msgid "Download completed"
+msgstr "Íosluchtú curtha i gcrích"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:77
+#, kde-format
+msgid "Seeding completed"
+msgstr "Síolú críochnaithe"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:79
+#, kde-format
+msgctxt "Status of a torrent file"
+msgid "Seeding"
+msgstr "Á Shíolú"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:81
+#, kde-format
+msgid "Downloading"
+msgstr "Á Íosluchtú"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:83
+#, kde-format
+msgid "Stalled"
+msgstr "Ag fanacht"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:85
+#, kde-format
+msgid "Stopped"
+msgstr "Stoptha"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:89
+#, kde-format
+msgid "Allocating diskspace"
+msgstr "Spás diosca á dháileadh"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:91
+#, kde-format
+msgid "Queued for seeding"
+msgstr "Sa chiú le síolú"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:91
+#, kde-format
+msgid "Queued for downloading"
+msgstr "Sa chiú le híosluchtú"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:95
+#, kde-format
+msgid "Stopped. No space left on device."
+msgstr "Stoptha. Tá an gléas lán."
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:97
+#, kde-format
+msgid "Paused"
+msgstr "Moillithe"
+
+#. +> trunk6 stable6
+#: src/torrent/torrentstats.cpp:99
+#, kde-format
+msgid "Superseeding"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tracker/httptracker.cpp:243 src/tracker/httptracker.cpp:259
+#: src/tracker/httptracker.cpp:383
+#, kde-format
+msgid "Invalid response from tracker"
+msgstr "Freagra neamhbhailí ó lorgaire"
+
+#. +> trunk6 stable6
+#: src/tracker/httptracker.cpp:253
+#, kde-format
+msgid "Invalid data from tracker"
+msgstr "Sonraí neamhbhailí ó lorgaire"
+
+#. +> trunk6 stable6
+#: src/tracker/httptracker.cpp:398
+#, kde-format
+msgid "Invalid tracker URL"
+msgstr "URL neamhbhailí ar an lorgaire"
+
+#. +> trunk6 stable6
+#: src/tracker/httptracker.cpp:456 src/tracker/udptracker.cpp:314
+#: src/tracker/udptracker.cpp:321
+#, kde-format
+msgid "Timeout contacting tracker %1"
+msgstr "Thar am ag dul i dteagmháil le lorgaire %1"
+
+#. +> trunk6 stable6
+#: src/tracker/udptracker.cpp:342
+#, kde-format
+msgid "Unable to resolve hostname %1"
+msgstr "Ní féidir óstainm %1 a réiteach"
+
+#. +> trunk6 stable6
+#: src/upnp/httprequest.cpp:39
+#, kde-format
+msgid "Operation timed out"
+msgstr "Oibríocht imithe thar am"
+
+#. +> trunk6 stable6
+#: src/upnp/upnprouter.cpp:156
+#, kde-format
+msgid "Failed to download %1: %2"
+msgstr "Níorbh fhéidir %1 a íosluchtú: %2"
+
+#. +> trunk6 stable6
+#: src/upnp/upnprouter.cpp:166
+#, kde-format
+msgid "Error parsing router description."
+msgstr "Earráid agus cur síos an ródaire á pharsáil."
+
+#. +> trunk6 stable6
+#: src/upnp/upnprouter.cpp:200
+#, kde-format
+msgid ""
+"Forwarding failed:\n"
+"Device does not have a WANIPConnection or WANPPPConnection."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/upnp/upnprouter.cpp:279
+#, kde-format
+msgid "Cannot find port forwarding service in the device's description."
+msgstr "Ní féidir seirbhís a chuireann poirt ar aghaidh a aimsiú i gcur síos an ghléis."
+
+#. +> trunk6 stable6
+#: src/util/file.cpp:87
+#, kde-format
+msgid "Cannot write to %1: %2"
+msgstr "Ní féidir scríobh i %1: %2"
+
+#. +> trunk6 stable6
+#: src/util/file.cpp:100
+#, kde-format
+msgid "Cannot read from %1"
+msgstr "Ní féidir léamh ó %1"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:99
+#, kde-format
+msgid "Cannot create directory %1"
+msgstr "Ní féidir comhadlann %1 a chruthú"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:162
+#, kde-format
+msgid "Cannot symlink %1 to %2: %3"
+msgstr "Ní féidir nasc siombalach a dhéanamh ó %1 go %2: %3"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:174
+#, kde-format
+msgid "Cannot move %1 to %2: %3"
+msgstr "Ní féidir %1 a bhogadh go %2: %3"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:185 src/util/fileops.cpp:196
+#, kde-format
+msgid "Cannot copy %1 to %2: %3"
+msgstr "Ní féidir %1 a chóipeáil go %2: %3"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:247
+#, kde-format
+msgid "Cannot delete %1: %2"
+msgstr "Ní féidir %1 a scriosadh: %2"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:263
+#, kde-format
+msgid "Cannot create %1: %2"
+msgstr "Ní féidir %1 a chruthú: %2"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:280
+#, kde-format
+msgid "Cannot calculate the filesize of %1: %2"
+msgstr "Ní féidir méid an chomhaid %1 a áireamh: %2"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:296
+#, kde-format
+msgid "Cannot calculate the filesize: %1"
+msgstr "Ní féidir méid an chomhaid a áireamh: %1"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:343 src/util/fileops.cpp:356
+#, kde-format
+msgid "Cannot expand file: %1"
+msgstr "Ní féidir an comhad a fhairsingiú: %1"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:382
+#, kde-format
+msgid "Cannot seek in file: %1"
+msgstr "Ní féidir lorg i gcomhad: %1"
+
+#. +> trunk6 stable6
+#: src/util/fileops.cpp:623
+#, kde-format
+msgid "Unable to open file %1: %2"
+msgstr "Ní féidir comhad %1 a oscailt: %2"
+
+#. +> trunk6 stable6
+#: src/util/functions.cpp:238
+#, kde-format
+msgid "%1/s"
+msgstr "%1/s"
+
+#. +> trunk6 stable6
+#: src/util/functions.cpp:247
+#, kde-format
+msgid "1 day "
+msgid_plural "%1 days "
+msgstr[0] "1 lá "
+msgstr[1] "%1 lá "
+msgstr[2] "%1 lá "
+msgstr[3] "%1 lá "
+msgstr[4] "%1 lá "
+
+#. +> trunk6 stable6
+#: src/util/logsystemmanager.cpp:19
+#, kde-format
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: src/util/logsystemmanager.cpp:20
+#, kde-format
+msgid "Connections"
+msgstr "Ceangail"
+
+#. +> trunk6 stable6
+#: src/util/logsystemmanager.cpp:21
+#, kde-format
+msgid "Tracker"
+msgstr "Lorgaire"
+
+#. +> trunk6 stable6
+#: src/util/logsystemmanager.cpp:22
+#, kde-format
+msgid "DHT"
+msgstr "DHT"
+
+#. +> trunk6 stable6
+#: src/util/logsystemmanager.cpp:23
+#, kde-format
+msgid "Disk Input/Output"
+msgstr "Ionchur/Aschur Diosca"
+
+#. +> trunk6 stable6
+#: src/util/logsystemmanager.cpp:24
+#, kde-format
+msgid "µTP"
+msgstr "µTP"
+
+#. +> trunk6 stable6
+#: src/util/signalcatcher.cpp:62
+#, kde-format
+msgid "Error when writing to disk"
+msgstr "Earráid le linn scríobh ar an diosca"
+
+#. +> trunk6 stable6
+#: src/util/signalcatcher.cpp:62
+#, kde-format
+msgid "Error when reading from disk"
+msgstr "Earráid le linn léamh ón diosca"

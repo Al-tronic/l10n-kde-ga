@@ -1,0 +1,246 @@
+# Irish translation of katekonsoleplugin
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the katekonsoleplugin package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+# Aindriú Mac Giolla Eoin <aindriu80@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdesdk/katekonsoleplugin.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
+"PO-Revision-Date: 2025-11-30 14:42+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:119 kateconsole.cpp:151 kateconsole.cpp:790
+#, kde-format
+msgid "Terminal"
+msgstr "Teirminéal"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:160
+#, kde-format
+msgctxt "@action"
+msgid "&Pipe to Terminal"
+msgstr "&Píopáil go Teirminéal"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:164
+#, kde-format
+msgctxt "@action"
+msgid "S&ynchronize Terminal with Current Document"
+msgstr "S&ioncrónaigh an Teirminéal leis an gCáipéis Reatha"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:168
+#, kde-format
+msgctxt "@action"
+msgid "Run Current Document"
+msgstr "Rith an Doiciméad Reatha"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:173 kateconsole.cpp:575
+#, kde-format
+msgctxt "@action"
+msgid "S&how Terminal Panel"
+msgstr "Tais&peáin Painéal Teirminéal"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:179
+#, kde-format
+msgctxt "@action"
+msgid "&Focus Terminal Panel"
+msgstr "Painéal Teirminéal &Fócais"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:185
+#, kde-format
+msgctxt "@action"
+msgid "&Split Terminal Vertically"
+msgstr "&Scoilt an Teirminéal go hIngearach"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:190
+#, kde-format
+msgctxt "@action"
+msgid "&Split Terminal Horizontally"
+msgstr "&Scoilt an Teirminéal go Cothrománach"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:195
+#, kde-format
+msgctxt "@action"
+msgid "&New Terminal Tab"
+msgstr "Cluaisín Teirminéal Nua"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:359
+#, kde-format
+msgid "Konsole not installed. Please install konsole to be able to use the terminal."
+msgstr "Níl Konsole suiteáilte. Suiteáil konsole le go mbeidh tú in ann an críochfort a úsáid."
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:435
+#, kde-format
+msgid "Do you really want to pipe the text to the console? This will execute any contained commands with your user rights."
+msgstr "An bhfuil tú cinnte gur mian leat an téacs a phíopáil go dtí an consól? Rithfear aon orduithe atá sa téacs ar a bhfuil go leor ceadanna agat."
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:436
+#, kde-format
+msgid "Pipe to Terminal?"
+msgstr "Píopáil go dtí an Teirminéal?"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:437
+#, kde-format
+msgid "Pipe to Terminal"
+msgstr "Píopáil go dtí an Teirminéal"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:505
+#, kde-format
+msgid "Not a local file: '%1'"
+msgstr "Ní comhad áitiúil é: '%1'"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:538
+#, kde-format
+msgid ""
+"Do you really want to Run the document ?\n"
+"This will execute the following command,\n"
+"with your user rights, in the terminal:\n"
+"'%1'"
+msgstr ""
+"An bhfuil tú cinnte gur mian leat an doiciméad a rith?\n"
+"Déanfaidh sé seo an t-ordú seo a leanas a fhorghníomhú,\n"
+"le do chearta úsáideora, sa chríochfort:\n"
+"'%1'"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:545
+#, kde-format
+msgid "Run in Terminal?"
+msgstr "Rith sa Teirminéal?"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:546
+#, kde-format
+msgid "Run"
+msgstr "Rith"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:577
+#, kde-format
+msgctxt "@action"
+msgid "&Hide Terminal Panel"
+msgstr "Folaigh &Painéal Teirminéal"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:585
+#, kde-format
+msgid "Defocus Terminal Panel"
+msgstr "Painéal Teirminéal Dífhócais"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:586 kateconsole.cpp:587
+#, kde-format
+msgid "Focus Terminal Panel"
+msgstr "Painéal Teirminéil Fócas"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:698
+#, kde-format
+msgid "Terminal Synchronization Mode"
+msgstr "Mód Sioncrónaithe Críochfoirt"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:701
+#, kde-format
+msgid "&Don't synchronize terminal tab with current document"
+msgstr "Ná sioncrónaigh an cluaisín teirminéal leis an &doiciméad reatha"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:704
+#, kde-format
+msgid "&Automatically synchronize the current terminal tab with the current document when possible"
+msgstr "Sioncrónaigh an cluaisín teirminéal reatha leis &an doiciméad reatha go huathoibríoch nuair is féidir"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:707
+#, kde-format
+msgid "&Automatically create a terminal tab for the directory of the current document and switch to it"
+msgstr "Cruthaigh clu&aisín teirminéal go huathoibríoch don eolaire den doiciméad reatha agus aistrigh chuige"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:714 kateconsole.cpp:735
+#, kde-format
+msgid "Run in terminal"
+msgstr "Rith sa teirminéal"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:716
+#, kde-format
+msgid "&Remove extension"
+msgstr "&Bain síneadh"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:721
+#, kde-format
+msgid "Prefix:"
+msgstr "Réimír:"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:729
+#, kde-format
+msgid "&Show warning next time"
+msgstr "&Taispeáin rabhadh an chéad uair eile"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:731
+#, kde-format
+msgid "The next time '%1' is executed, make sure a warning window will pop up, displaying the command to be sent to terminal, for review."
+msgstr "An chéad uair eile a fhorghníomhófar '%1', déan cinnte go dtiocfaidh fuinneog rabhaidh aníos, ag taispeáint an ordaithe atá le seoladh chuig an teirminéal, le haghaidh athbhreithnithe."
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:742
+#, kde-format
+msgid "Set &EDITOR environment variable to 'kate -b'"
+msgstr "Úsáid 'kate -b' mar athróg thimpeallachta &EDITOR"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:745
+#, kde-format
+msgid "Important: The document has to be closed to make the console application continue"
+msgstr "Tábhachtach: Ní mór an cháipéis a dhúnadh sular féidir dul ar aghaidh leis an bhfeidhmchlár consóil"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:748
+#, kde-format
+msgid "Hide Konsole on pressing 'Esc'"
+msgstr "Folaigh Konsole nuair a bhrúnn tú 'Esc'"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:751
+#, kde-format
+msgid "This may cause issues with terminal apps that use Esc key, for e.g., vim. Add these apps in the input below (Comma separated list)"
+msgstr "D’fhéadfadh sé seo fadhbanna a chruthú le haipeanna críochfoirt a úsáideann an eochair Esc, mar shampla, vim. Cuir na haipeanna seo leis an ionchur thíos (liosta scartha le camóga)"
+
+#. +> trunk6 stable6
+#: kateconsole.cpp:795
+#, kde-format
+msgid "Terminal Settings"
+msgstr "Socruithe Teirminéil"
+
+#. i18n: ectx: Menu (tools)
+#. +> trunk6 stable6
+#: ui.rc:6
+#, kde-format
+msgid "&Tools"
+msgstr "&Uirlisí"

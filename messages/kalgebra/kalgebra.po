@@ -1,0 +1,534 @@
+# Irish translation of kalgebra
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kalgebra package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeedu/kalgebra.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-16 00:16+0100\n"
+"PO-Revision-Date: 2007-06-27 10:27-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: consolehtml.cpp:167
+#, kde-format
+msgid " <a href='kalgebra:%1'>%2</a>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: consolehtml.cpp:172
+#, kde-format
+msgid "Options: %1"
+msgstr "Roghanna: %1"
+
+#. +> trunk6 stable6
+#: consolehtml.cpp:222
+#, kde-format
+msgid "Paste \"%1\" to input"
+msgstr ""
+
+#. +> trunk6 stable6
+#: consolemodel.cpp:95
+#, kde-format
+msgid "Paste to Input"
+msgstr ""
+
+#. +> trunk6 stable6
+#: consolemodel.cpp:99
+#, kde-format
+msgid ""
+"<ul class='error'>Error: <b>%1</b>"
+"<li>%2</li>"
+"</ul>"
+msgstr ""
+"<ul class='error'>Earráid: <b>%1</b>"
+"<li>%2</li>"
+"</ul>"
+
+#. +> trunk6 stable6
+#: consolemodel.cpp:121
+#, kde-format
+msgid "Imported: %1"
+msgstr "Iompórtáilte: %1"
+
+#. +> trunk6 stable6
+#: consolemodel.cpp:123
+#, kde-format
+msgid ""
+"<ul class='error'>Error: Could not load %1. <br />"
+" %2</ul>"
+msgstr ""
+"<ul class='error'>Earráid: Níorbh fhéidir %1 a luchtú. <br />"
+" %2</ul>"
+
+#. +> trunk6 stable6
+#: dictionary.cpp:45
+#, kde-format
+msgid "Information"
+msgstr "Eolas"
+
+#. +> trunk6 stable6
+#: dictionary.cpp:68 dictionary.cpp:69 dictionary.cpp:70 dictionary.cpp:71
+#, kde-format
+msgid "<b>%1</b>"
+msgstr "<b>%1</b>"
+
+#. +> trunk6 stable6
+#: functionedit.cpp:51
+#, kde-format
+msgid "Add/Edit a function"
+msgstr "Cuir feidhm leis/in eagar"
+
+#. +> trunk6 stable6
+#: functionedit.cpp:96
+#, kde-format
+msgid "Preview"
+msgstr "Réamhamharc"
+
+#. +> trunk6 stable6
+#: functionedit.cpp:103
+#, kde-format
+msgid "From:"
+msgstr "Ó:"
+
+#. +> trunk6 stable6
+#: functionedit.cpp:105
+#, kde-format
+msgid "To:"
+msgstr "Go:"
+
+#. +> trunk6 stable6
+#: functionedit.cpp:108
+#, kde-format
+msgid "Options"
+msgstr "Roghanna"
+
+#. +> trunk6 stable6
+#: functionedit.cpp:113
+#, kde-format
+msgid "OK"
+msgstr "OK"
+
+#. +> trunk6 stable6
+#: functionedit.cpp:115
+#, fuzzy, kde-format
+#| msgid "Remove '%1'"
+msgctxt "@action:button"
+msgid "Remove"
+msgstr "Bain '%1'"
+
+#. +> trunk6 stable6
+#: functionedit.cpp:243
+#, kde-format
+msgid "The options you specified are not correct"
+msgstr ""
+
+#. +> trunk6 stable6
+#: functionedit.cpp:248
+#, kde-format
+msgid "Downlimit cannot be greater than uplimit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:83
+#, kde-format
+msgid "Plot 2D"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:114
+#, kde-format
+msgid "Plot 3D"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:144
+#, kde-format
+msgid "Session"
+msgstr "Seisiún"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:163 kalgebra.cpp:265
+#, kde-format
+msgid "Variables"
+msgstr "Athróga"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:182
+#, fuzzy, kde-format
+#| msgid "A calculator"
+msgid "&Calculator"
+msgstr "Áireamhán"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:194
+#, fuzzy, kde-format
+#| msgid "A calculator"
+msgid "C&alculator"
+msgstr "Áireamhán"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:196
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Load Script..."
+msgstr "&Luchtaigh Script..."
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:200
+#, kde-format
+msgid "Recent Scripts"
+msgstr "Scripteanna Le Déanaí"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:205
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Save Script..."
+msgstr "&Sábháil Script..."
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:209
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Export Log..."
+msgstr "&Easpórtáil Logchomhad..."
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:211
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "&Insert ans..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:212
+#, kde-format
+msgid "Execution Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:214
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Calculate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:215
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Evaluate"
+msgstr "Luacháil"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:235
+#, kde-format
+msgid "Functions"
+msgstr "Feidhmeanna"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:247
+#, kde-format
+msgid "List"
+msgstr "Liosta"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:253 kalgebra.cpp:487
+#, kde-format
+msgid "&Add"
+msgstr "&Cuir Leis"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:269
+#, kde-format
+msgid "Viewport"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:273
+#, kde-format
+msgid "&2D Graph"
+msgstr "Graf &2T"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:285
+#, kde-format
+msgid "2&D Graph"
+msgstr "Graf 2&T"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:287
+#, kde-format
+msgid "&Grid"
+msgstr "&Greille"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:288
+#, kde-format
+msgid "&Keep Aspect Ratio"
+msgstr "&Caomhnaigh an Cóimheas Treoíochta"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:296
+#, kde-format
+msgid "Resolution"
+msgstr "Taifeach"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:297
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Poor"
+msgstr "Garbh"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:298
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Normal"
+msgstr "Gnáth"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:299
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Fine"
+msgstr "Mín"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:300
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Very Fine"
+msgstr "An-Mhín"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:334
+#, kde-format
+msgid "&3D Graph"
+msgstr "Graf &3T"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:342
+#, kde-format
+msgid "3D &Graph"
+msgstr "&Graf 3T"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:345
+#, kde-format
+msgid "&Reset View"
+msgstr "Athshoc&raigh an tAmharc"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:349
+#, kde-format
+msgid "Dots"
+msgstr "Poncanna"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:350
+#, kde-format
+msgid "Lines"
+msgstr "Línte"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:351
+#, kde-format
+msgid "Solid"
+msgstr "Soladach"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:368
+#, kde-format
+msgid "Operations"
+msgstr "Oibríochtaí"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:372
+#, kde-format
+msgid "&Dictionary"
+msgstr "&Foclóir"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:383
+#, kde-format
+msgid "Look for:"
+msgstr "Lorg:"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:476
+#, kde-format
+msgid "&Editing"
+msgstr "&Eagarthóireacht"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:533
+#, kde-format
+msgid "Choose a script"
+msgstr "Roghnaigh script"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:533 kalgebra.cpp:549
+#, kde-format
+msgid "Script (*.kal)"
+msgstr "Script (*.kal)"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:560
+#, kde-format
+msgid "HTML File (*.html)"
+msgstr "Comhad HTML (*.html)"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:595
+#, kde-format
+msgid ", "
+msgstr ", "
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:595
+#, kde-format
+msgid "Errors: %1"
+msgstr "Earráidí: %1"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:634
+#, kde-format
+msgid "Select where to put the rendered plot"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:634
+#, fuzzy, kde-format
+#| msgid "Image File (*.png)"
+msgid "Image File (*.png);;SVG File (*.svg)"
+msgstr "Comhad Íomhá (*.png)"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:692
+#, kde-format
+msgctxt "@info:status"
+msgid "Ready"
+msgstr "Réidh"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:726
+#, kde-format
+msgid "Add variable"
+msgstr "Cuir athróg leis"
+
+#. +> trunk6 stable6
+#: kalgebra.cpp:730
+#, kde-format
+msgid "Enter a name for the new variable"
+msgstr "Iontráil ainm na hathróige nuaí"
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "A portable calculator"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:35
+#, fuzzy, kde-format
+#| msgid "(C) 2006-2010 Aleix Pol Gonzalez"
+msgid "(C) 2006-2016 Aleix Pol i Gonzalez"
+msgstr "© 2006-2010 Aleix Pol Gonzalez"
+
+#. +> trunk6 stable6
+#: main.cpp:36
+#, fuzzy, kde-format
+#| msgid "Aleix Pol Gonzalez"
+msgid "Aleix Pol i Gonzalez"
+msgstr "Aleix Pol Gonzalez"
+
+#. +> trunk6 stable6
+#: main.cpp:37
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#: main.cpp:37
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: varedit.cpp:35
+#, kde-format
+msgid "Add/Edit a variable"
+msgstr "Cuir athróg leis/in eagar"
+
+#. +> trunk6 stable6
+#: varedit.cpp:40
+#, fuzzy, kde-format
+#| msgid "Variables"
+msgid "Remove Variable"
+msgstr "Athróga"
+
+#. +> trunk6 stable6
+#: varedit.cpp:65
+#, kde-format
+msgid "Edit '%1' value"
+msgstr "Cuir luach '%1' in eagar"
+
+#. +> trunk6 stable6
+#: varedit.cpp:67
+#, kde-format
+msgid "not available"
+msgstr "níl ar fáil"
+
+#. +> trunk6 stable6
+#: varedit.cpp:100
+#, kde-format
+msgid "<b style='color:#090'>%1 := %2</b>"
+msgstr "<b style='color:#090'>%1 := %2</b>"
+
+#. +> trunk6 stable6
+#: varedit.cpp:103
+#, kde-format
+msgid "<b style='color:red'>WRONG</b>"
+msgstr "<b style='color:red'>MÍCHEART</b>"
+
+#. +> trunk6 stable6
+#: viewportwidget.cpp:46
+#, kde-format
+msgid "Left:"
+msgstr "Ar Chlé:"
+
+#. +> trunk6 stable6
+#: viewportwidget.cpp:47
+#, kde-format
+msgid "Top:"
+msgstr "Barr:"
+
+#. +> trunk6 stable6
+#: viewportwidget.cpp:48
+#, kde-format
+msgid "Width:"
+msgstr "Leithead:"
+
+#. +> trunk6 stable6
+#: viewportwidget.cpp:49
+#, kde-format
+msgid "Height:"
+msgstr "Airde:"
+
+#. +> trunk6 stable6
+#: viewportwidget.cpp:51
+#, kde-format
+msgid "Apply"
+msgstr "Cuir i bhFeidhm"

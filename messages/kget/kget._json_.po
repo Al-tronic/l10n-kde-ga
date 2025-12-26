@@ -1,0 +1,154 @@
+# Irish translation of desktop_kdenetwork
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdenetwork package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: transfer-plugins/bittorrent/kget_bittorrentfactory.json
+msgctxt "Name"
+msgid "Bittorrent"
+msgstr "Bittorrent"
+
+#. +> trunk6 stable6
+#: transfer-plugins/checksumsearch/kget_checksumsearchfactory.json
+msgctxt "Name"
+msgid "Checksum Search"
+msgstr "Cuardach ar suimeanna seiceála"
+
+#. +> trunk6 stable6
+#: transfer-plugins/kio/kget_kiofactory.json
+msgctxt "Name"
+msgid "KIO"
+msgstr "KIO"
+
+#. +> trunk6 stable6
+#: transfer-plugins/metalink/kget_metalinkfactory.json
+msgctxt "Name"
+msgid "Metalink"
+msgstr "Metalink"
+
+#. +> trunk6 stable6
+#: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.json
+msgctxt "Name"
+msgid "Mirror Search"
+msgstr "Mirror Search"
+
+#. +> trunk6 stable6
+#: transfer-plugins/mmsthreads/kget_mmsfactory.json
+msgctxt "Name"
+msgid "MMS"
+msgstr "MMS"
+
+#. +> trunk6 stable6
+#: transfer-plugins/multisegmentkio/kget_multisegkiofactory.json
+msgctxt "Name"
+msgid "Multi Segment KIO"
+msgstr "Il-Deighleán KIO"
+
+#. +> trunk6 stable6
+#: transfer-plugins/bittorrent/kget_bittorrentfactory.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Allows files to be downloaded using Bittorrent"
+msgctxt "Description"
+msgid "Allows files to be downloaded using Bittorrent"
+msgstr "Ceadaíonn sé seo comhaid a íosluchtú trí Bittorrent"
+
+#. +> trunk6 stable6
+#: transfer-plugins/checksumsearch/kget_checksumsearchfactory.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Tries to find checksums for a specified URL"
+msgctxt "Description"
+msgid "Tries to find checksums for a specified URL"
+msgstr "Déan iarracht ar shuim sheiceála a aimsiú a fhreagraíonn d'URL ar leith"
+
+#. +> trunk6 stable6
+#: transfer-plugins/kio/kget_kiofactory.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Classic file downloader plugin"
+msgctxt "Description"
+msgid "Classic file downloader plugin"
+msgstr "Breiseán clasaiceach íosluchtaithe comhad"
+
+#. +> trunk6 stable6
+#: transfer-plugins/metalink/kget_metalinkfactory.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Allows files to be downloaded from Metalink"
+msgctxt "Description"
+msgid "Allows files to be downloaded from Metalink"
+msgstr "Ceadaíonn sé seo comhaid a íosluchtú trí Metalink"
+
+#. +> trunk6 stable6
+#: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Allows KGet to search through mirror search engines for files"
+msgctxt "Description"
+msgid "Allows KGet to search through mirror search engines for files"
+msgstr "Ceadaíonn sé seo do KGet comhaid a lorg trí innill chuardaigh scáthánaithe"
+
+#. +> trunk6 stable6
+#: transfer-plugins/mmsthreads/kget_mmsfactory.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "MMS-Transfer plugin for KGet"
+msgctxt "Description"
+msgid "MMS-Transfer plugin for KGet"
+msgstr "Breiseán aistrithe MMS le haghaidh KGet"
+
+#. +> trunk6 stable6
+#: transfer-plugins/multisegmentkio/kget_multisegkiofactory.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Multithreaded file download plugin"
+msgctxt "Description"
+msgid "Multithreaded file download plugin"
+msgstr "Breiseán íosluchtaithe ilsnáitheanna"
+
+#. +> trunk6 stable6
+#: transfer-plugins/bittorrent/kget_bittorrentfactory.json
+msgctxt "Authors Name"
+msgid "Lukas Appelhans"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transfer-plugins/checksumsearch/kget_checksumsearchfactory.json
+msgctxt "Authors Name"
+msgid "Matthias Fuchs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transfer-plugins/kio/kget_kiofactory.json
+msgctxt "Authors Name"
+msgid "Dario Massarin"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transfer-plugins/metalink/kget_metalinkfactory.json
+#: transfer-plugins/mirrorsearch/kget_mirrorsearchfactory.json
+#: transfer-plugins/multisegmentkio/kget_multisegkiofactory.json
+msgctxt "Authors Name"
+msgid "Manolo Valdes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: transfer-plugins/mmsthreads/kget_mmsfactory.json
+msgctxt "Authors Name"
+msgid "Ernesto Rodriguez Ortiz"
+msgstr ""

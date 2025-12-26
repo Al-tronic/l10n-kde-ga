@@ -1,0 +1,562 @@
+# Irish translation of libkdeedu
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the libkdeedu package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeedu/libkdeedu.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-02-28 10:19+0100\n"
+"PO-Revision-Date: 2005-07-05 23:03-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvoccsvwriter.cpp:35
+#, kde-format
+msgctxt "@item:intable the title of the document will be written here"
+msgid "Title:"
+msgstr "Teideal:"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvoccsvwriter.cpp:36
+#, kde-format
+msgctxt "@item:intable the author will be written here"
+msgid "Author:"
+msgstr "Údar:"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:125
+#, kde-format
+msgctxt "The top level lesson which contains all other lessons of the document."
+msgid "Document Lesson"
+msgstr "Ceacht na Cáipéise"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:128
+#, kde-format
+msgid "Word types"
+msgstr "Cineálacha focail"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:131
+#, kde-format
+msgid "Leitner Box"
+msgstr "Bosca Leitner"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:165
+#: keduvocdocument/keduvocdocument.cpp:172
+#, fuzzy, kde-format
+#| msgid "Cannot write to file %1"
+msgid "Cannot lock file %1"
+msgstr "Ní féidir comhad %1 a scríobh"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:220
+#, kde-format
+msgid ""
+"<qt>Cannot open file<br />"
+"<b>%1</b></qt>"
+msgstr ""
+"<qt>Níorbh fhéidir an comhad a oscailt:<br />"
+"<b>%1</b></qt>"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:228
+#, fuzzy, kde-format
+#| msgid "Cannot write to file %1"
+msgid "Cannot open tempfile %1"
+msgstr "Ní féidir comhad %1 a scríobh"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:233
+#, fuzzy, kde-format
+#| msgid "Cannot write to file %1"
+msgid "Cannot download %1: %2"
+msgstr "Ní féidir comhad %1 a scríobh"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:258
+#, kde-format
+msgid ""
+"Could not open or properly read \"%1\"\n"
+"(Error reported: %2)"
+msgstr ""
+"Níorbh fhéidir \"%1\" a oscailt nó a léamh mar is ceart\n"
+"(Earráid: %2)"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:300
+#: keduvocdocument/keduvocdocument.cpp:326
+#, kde-format
+msgid "Cannot write to file %1"
+msgstr "Ní féidir comhad %1 a scríobh"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:657
+#, kde-format
+msgctxt "The name of the first language/column of vocabulary, if we have to guess it."
+msgid "Original"
+msgstr "Bunteanga"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:659
+#, kde-format
+msgctxt "The name of the second, third ... language/column of vocabulary, if we have to guess it."
+msgid "Translation %1"
+msgstr "Aistriúchán %1"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:816
+msgid "KDE Vocabulary Document"
+msgstr "Cáipéis Stóir Fhocal KDE"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:817
+msgid "KWordQuiz Document"
+msgstr "Cáipéis KWordQuiz"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:818
+msgid "Pauker Lesson"
+msgstr "Ceacht Pauker"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:819
+msgid "Vokabeltrainer"
+msgstr "Vokabeltrainer"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:820
+msgid "XML Dictionary Exchange Format"
+msgstr "Formáid Mhalartaithe Foclóirí XML"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:821
+msgid "Comma Separated Values (CSV)"
+msgstr "Deighilte ag Camóga (CSV)"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:833
+#, kde-format
+msgid "All supported documents"
+msgstr "Gach cáipéis a dtacaítear leis"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:842
+#, kde-format
+msgid "No error found."
+msgstr "Níor aimsíodh earráid."
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:845
+#, kde-format
+msgid "Invalid XML in document."
+msgstr "XML neamhbhailí sa cháipéis."
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:847
+#, kde-format
+msgid "Unknown file type."
+msgstr "Cineál anaithnid comhaid."
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:849
+#, kde-format
+msgid "File is not writeable."
+msgstr "Níl an comhad inscríofa."
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:851
+#, kde-format
+msgid "File writer failed."
+msgstr "Theip ar scríbhneoir an chomhaid."
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:853
+#, kde-format
+msgid "File is not readable."
+msgstr "Níl an comhad inléite."
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:855
+#, kde-format
+msgid "The file reader failed."
+msgstr "Theip ar léitheoir an chomhaid."
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:857
+#, kde-format
+msgid "The file does not exist."
+msgstr "Níl an comhad ann."
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:859
+#, fuzzy, kde-format
+#| msgid "The file does not exist."
+msgid "The file is locked by another process."
+msgstr "Níl an comhad ann."
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:861
+#, kde-format
+msgid "The lock file can't be created."
+msgstr ""
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvocdocument.cpp:864
+#, kde-format
+msgid "Unknown error."
+msgstr "Earráid anaithnid."
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:29
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Verb"
+msgstr "Briathar"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:30
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Noun"
+msgstr "Ainmfhocal"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:31
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:32
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Article"
+msgstr "Alt"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:33
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Adjective"
+msgstr "Aidiacht"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:34
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Adverb"
+msgstr "Dobhriathar"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:35
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Pronoun"
+msgstr "Forainm"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:36
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of an entry"
+msgid "Phrase"
+msgstr "Frása"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:37
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Numeral"
+msgstr "Uimhir"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:38
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Conjunction"
+msgstr "Cónasc"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:39
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of a word"
+msgid "Preposition"
+msgstr "Réamhfhocal"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:40
+#, kde-format
+msgctxt "@item:inlistbox The grammatical type of an entry"
+msgid "Question"
+msgstr "Ceist"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:44
+#: keduvocdocument/keduvockvtmlcompability.cpp:220
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Numeral Ordinal  (first, second, third, ...)"
+msgid "Ordinal"
+msgstr "Orduimhir"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:46
+#: keduvocdocument/keduvockvtmlcompability.cpp:224
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Numeral Cardinal (one, two, three, ...)"
+msgid "Cardinal"
+msgstr "Bunuimhir"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:47
+#: keduvocdocument/keduvockvtmlcompability.cpp:230
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Article (the)"
+msgid "Definite"
+msgstr "Cinnte"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:48
+#: keduvocdocument/keduvockvtmlcompability.cpp:233
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Article (a)"
+msgid "Indefinite"
+msgstr "Neamhchinnte"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:49
+#: keduvocdocument/keduvockvtmlcompability.cpp:239
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Verb with regular conjugation"
+msgid "Regular"
+msgstr "Rialta"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:51
+#: keduvocdocument/keduvockvtmlcompability.cpp:242
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Verb with irregular conjugation"
+msgid "Irregular"
+msgstr "Neamhrialta"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:53
+#: keduvocdocument/keduvockvtmlcompability.cpp:259
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Pronoun (my, your, his, her...)"
+msgid "Possessive"
+msgstr "Sealbhach"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:54
+#: keduvocdocument/keduvockvtmlcompability.cpp:262
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Pronoun (I, you, he...)"
+msgid "Personal"
+msgstr "Pearsanta"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:55
+#: keduvocdocument/keduvockvtmlcompability.cpp:248
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Noun"
+msgid "Male"
+msgstr "Firinscneach"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:56
+#: keduvocdocument/keduvockvtmlcompability.cpp:251
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Noun"
+msgid "Female"
+msgstr "Baininscneach"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:57
+#: keduvocdocument/keduvockvtmlcompability.cpp:254
+#, kde-format
+msgctxt "@item:inlistbox A subtype of the grammatical word type: Noun"
+msgid "Neutral"
+msgstr "Neamhinscneach"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:153
+#, kde-format
+msgid "Simple Present"
+msgstr "Láithreach Simplí"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:154
+#, kde-format
+msgid "Present Progressive"
+msgstr "Láithreach Leanúnach"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:155
+#, kde-format
+msgid "Present Perfect"
+msgstr "Láithreach Foirfe"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:156
+#, kde-format
+msgid "Simple Past"
+msgstr "Aimsir Caite Simplí"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:157
+#, kde-format
+msgid "Past Progressive"
+msgstr "Aimsir Caite Leanúnach"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:158
+#, kde-format
+msgid "Past Participle"
+msgstr "Rangabháil Chaite"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:159
+#, kde-format
+msgid "Future"
+msgstr "Fáistineach"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:200
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Verb"
+msgstr "Briathar"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:201
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Noun"
+msgstr "Ainmfhocal"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:202
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:202
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Article"
+msgstr "Alt"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:203
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Adjective"
+msgstr "Aidiacht"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:204
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Adverb"
+msgstr "Dobhriathar"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:205
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Pronoun"
+msgstr "Forainm"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:206
+#, kde-format
+msgctxt "The grammatical type of an entry"
+msgid "Phrase"
+msgstr "Frása"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:206
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Numeral"
+msgstr "Uimhir"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:207
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Conjunction"
+msgstr "Cónasc"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:207
+#, kde-format
+msgctxt "The grammatical type of a word"
+msgid "Preposition"
+msgstr "Réamhfhocal"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvockvtmlcompability.cpp:208
+#, kde-format
+msgctxt "The grammatical type of an entry"
+msgid "Question"
+msgstr "Ceist"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvoctext.h:16
+#, kde-format
+msgid "Not Practiced Yet"
+msgstr "Gan Chleachtadh Fós"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvoctext.h:19
+#, kde-format
+msgid "Level 1"
+msgstr "Leibhéal 1"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvoctext.h:22
+#, kde-format
+msgid "Level 2"
+msgstr "Leibhéal 2"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvoctext.h:25
+#, kde-format
+msgid "Level 3"
+msgstr "Leibhéal 3"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvoctext.h:28
+#, kde-format
+msgid "Level 4"
+msgstr "Leibhéal 4"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvoctext.h:31
+#, kde-format
+msgid "Level 5"
+msgstr "Leibhéal 5"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvoctext.h:34
+#, kde-format
+msgid "Level 6"
+msgstr "Leibhéal 6"
+
+#. +> trunk6 stable6
+#: keduvocdocument/keduvoctext.h:37
+#, kde-format
+msgid "Level 7"
+msgstr "Leibhéal 7"

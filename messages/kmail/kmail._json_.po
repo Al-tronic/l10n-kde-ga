@@ -1,0 +1,164 @@
+# Irish translation of desktop_kdepim
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdepim package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: src/kmail_config_accounts.json
+msgctxt "Name"
+msgid "Accounts"
+msgstr "Cuntais"
+
+#. +> trunk6 stable6
+#: src/kmail_config_appearance.json
+msgctxt "Name"
+msgid "Appearance"
+msgstr "Cuma"
+
+#. +> trunk6 stable6
+#: src/kmail_config_composer.json
+msgctxt "Name"
+msgid "Composer"
+msgstr "Cumadóir"
+
+#. +> trunk6 stable6
+#: src/kmail_config_misc.json
+msgctxt "Name"
+msgid "Misc"
+msgstr "Éagsúil"
+
+#. +> trunk6 stable6
+#: src/kmail_config_plugins.json
+msgctxt "Name"
+msgid "Plugins"
+msgstr "Breiseáin"
+
+#. +> trunk6 stable6
+#: src/kmail_config_security.json
+msgctxt "Name"
+msgid "Security"
+msgstr "Slándáil"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/kmail/kcmkmailsummary.json
+msgctxt "Name"
+msgid "New Messages"
+msgstr "Teachtaireachtaí Nua"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/kmail/kmailplugin.json
+msgctxt "Name"
+msgid "Mail"
+msgstr "Ríomhphost"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/summary/kcmkontactsummary.json
+msgctxt "Name"
+msgid "Summaries"
+msgstr "Achoimrí"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/summary/summaryplugin.json
+msgctxt "Name"
+msgid "Summary"
+msgstr "Achoimre"
+
+#. +> trunk6 stable6
+#: src/kmail_config_accounts.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Setup for Sending and Receiving Messages"
+msgctxt "Description"
+msgid "Setup for Sending and Receiving Messages"
+msgstr "Socrú le Teachtaireachtaí a Sheoladh agus a Fháil"
+
+#. +> trunk6 stable6
+#: src/kmail_config_appearance.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Customize Visual Appearance"
+msgctxt "Description"
+msgid "Customize Visual Appearance"
+msgstr "Saincheap an Chuma"
+
+#. +> trunk6 stable6
+#: src/kmail_config_composer.json
+msgctxt "Description"
+msgid "Message Composer Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kmail_config_misc.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Settings that don't fit elsewhere"
+msgctxt "Description"
+msgid "Settings that don't fit elsewhere"
+msgstr "Socruithe nach bhfuil oiriúnach in aon áit eile"
+
+#. +> trunk6 stable6
+#: src/kmail_config_plugins.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "MultiSynk Plugin"
+msgctxt "Description"
+msgid "Settings Plugins"
+msgstr "Breiseán MultiSynk"
+
+#. +> trunk6 stable6
+#: src/kmail_config_security.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Security & Privacy Settings"
+msgctxt "Description"
+msgid "Security & Privacy Settings"
+msgstr "Socruithe Slándála agus Príobháideachta"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/kmail/kcmkmailsummary.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Mail Summary Setup"
+msgctxt "Description"
+msgid "Mail Summary Setup"
+msgstr "Socrú Achoimre ar Ríomhphost"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/kmail/kmailplugin.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Kontact KMail Plugin"
+msgctxt "Description"
+msgid "Kontact KMail Plugin"
+msgstr "Breiseán KMail le haghaidh Kontact"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/summary/kcmkontactsummary.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Summary Selection"
+msgctxt "Description"
+msgid "Summary Selection"
+msgstr "Roghnú Achoimrí"
+
+#. +> trunk6 stable6
+#: src/kontactplugin/summary/summaryplugin.json
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Kontact SummaryView Plugin"
+msgctxt "Description"
+msgid "Kontact SummaryView Plugin"
+msgstr "Breiseán Amharc Achoimre Kontact"

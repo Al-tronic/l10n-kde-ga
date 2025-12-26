@@ -1,0 +1,268 @@
+# Irish translation of kblocks
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kblocks package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdereview/kblocks.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-22 11:22+0100\n"
+"PO-Revision-Date: 2008-04-04 16:18-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. i18n: ectx: label, entry (Theme), group (General)
+#. +> trunk6 stable6
+#: config/kblocks.kcfg:9
+#, kde-format
+msgid "The graphical theme to be used."
+msgstr "An téama grafach le húsáid."
+
+#. i18n: ectx: label, entry (Sounds), group (Preferences)
+#. +> trunk6 stable6
+#: config/kblocks.kcfg:14
+#, kde-format
+msgid "Whether sound effects should be played."
+msgstr "Cé acu a úsáidfear maisíochtaí fuaime nó nach n-úsáidfear."
+
+#. +> trunk6 stable6
+#: KBlocksDisplay.cpp:58
+#, kde-format
+msgid "Score List : 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0"
+msgstr "Liosta Scór: 0 - 0 - 0 - 0 - 0 - 0 - 0 - 0"
+
+#. +> trunk6 stable6
+#: KBlocksDisplay.cpp:120
+#, kde-format
+msgid "Score List : %1 - %2 - %3 - %4 - %5 - %6 - %7 - %8"
+msgstr "Liosta Scór : %1 - %2 - %3 - %4 - %5 - %6 - %7 - %8"
+
+#. +> trunk6 stable6
+#: KBlocksKeyboardPlayer.cpp:76
+#, fuzzy, kde-format
+#| msgid "Rotate Piece Clockwise"
+msgctxt "@action"
+msgid "Rotate Piece Clockwise"
+msgstr "Rothlaigh Píosa go Deisealach"
+
+#. +> trunk6 stable6
+#: KBlocksKeyboardPlayer.cpp:82
+#, fuzzy, kde-format
+#| msgid "Rotate Piece Counter Clockwise"
+msgctxt "@action"
+msgid "Rotate Piece Counterclockwise"
+msgstr "Rothlaigh Píosa go Tuathalach"
+
+#. +> trunk6 stable6
+#: KBlocksKeyboardPlayer.cpp:88
+#, fuzzy, kde-format
+#| msgid "Move Piece Left"
+msgctxt "@action"
+msgid "Move Piece Left"
+msgstr "Bog Píosa Faoi Chlé"
+
+#. +> trunk6 stable6
+#: KBlocksKeyboardPlayer.cpp:94
+#, fuzzy, kde-format
+#| msgid "Move Piece Right"
+msgctxt "@action"
+msgid "Move Piece Right"
+msgstr "Bog Píosa Faoi Dheis"
+
+#. +> trunk6 stable6
+#: KBlocksKeyboardPlayer.cpp:100
+#, fuzzy, kde-format
+#| msgid "Move Piece Down"
+msgctxt "@action"
+msgid "Move Piece Down"
+msgstr "Bog Píosa Anuas"
+
+#. +> trunk6 stable6
+#: KBlocksKeyboardPlayer.cpp:106
+#, fuzzy, kde-format
+#| msgid "Drop the Piece"
+msgctxt "@action"
+msgid "Drop the Piece"
+msgstr "Lig an Píosa Titim"
+
+#. +> trunk6 stable6
+#: KBlocksScene.cpp:216
+#, kde-format
+msgid "Game Resumed!"
+msgstr "Cluiche Ar Siúl Arís!"
+
+#. +> trunk6 stable6
+#: KBlocksScene.cpp:217
+#, kde-format
+msgid "Game Paused!"
+msgstr "Cluiche Curtha ar Shos!"
+
+#. +> trunk6 stable6
+#: KBlocksScene.cpp:271
+#, kde-format
+msgid "Game Start!"
+msgstr "Tús an Chluiche!"
+
+#. +> trunk6 stable6
+#: KBlocksScene.cpp:277
+#, kde-format
+msgid "Game Over!"
+msgstr "Cluiche Thart!"
+
+#. +> trunk6 stable6
+#: KBlocksScene.cpp:283
+#, kde-format
+msgid "You Win!"
+msgstr "Bhí an bua agat!"
+
+#. +> trunk6 stable6
+#: KBlocksScene.cpp:289
+#, kde-format
+msgid "You Lose!"
+msgstr "Chaill tú!"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: kblocksui.rc:24
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Príomhbharra Uirlisí"
+
+#. +> trunk6 stable6
+#: KBlocksWin.cpp:145 KBlocksWin.cpp:249
+#, kde-format
+msgid "Points: %1 - Lines: %2 - Level: %3"
+msgstr "Pointí: %1 - Línte: %2 - Leibhéal: %3"
+
+#. +> trunk6 stable6
+#: KBlocksWin.cpp:290
+#, fuzzy, kde-format
+#| msgid "Single Game"
+msgctxt "@action"
+msgid "Single Game"
+msgstr "Cluiche Amháin"
+
+#. +> trunk6 stable6
+#: KBlocksWin.cpp:294
+#, fuzzy, kde-format
+#| msgid "Human vs AI"
+msgctxt "@action"
+msgid "Human vs AI"
+msgstr "Duine vs. Ríomhaire"
+
+#. +> trunk6 stable6
+#: KBlocksWin.cpp:313
+#, fuzzy, kde-format
+#| msgid "&Play sounds"
+msgctxt "@option:check"
+msgid "Play Sounds"
+msgstr "&Seinn fuaimeanna"
+
+#. +> trunk6 stable6
+#: KBlocksWin.cpp:320
+#, kde-format
+msgid "Points: 0 - Lines: 0 - Level: 0"
+msgstr "Pointí: 0 - Línte: 0 - Leibhéal: 0"
+
+#. +> trunk6 stable6
+#: main.cpp:409
+#, fuzzy, kde-format
+#| msgid "KBlocks"
+msgid "KBlocks"
+msgstr "KBlocks"
+
+#. +> trunk6 stable6
+#: main.cpp:411
+#, fuzzy, kde-format
+#| msgid "A falling blocks game for KDE"
+msgid "A falling blocks game by KDE"
+msgstr "Cluiche KDE le bloic atá ag titim"
+
+#. +> trunk6 stable6
+#: main.cpp:413
+#, kde-format
+msgid "(c) 2007, Mauricio Piacentini"
+msgstr "© 2007, Mauricio Piacentini"
+
+#. +> trunk6 stable6
+#: main.cpp:416
+#, kde-format
+msgid "Mauricio Piacentini"
+msgstr "Mauricio Piacentini"
+
+#. +> trunk6 stable6
+#: main.cpp:416
+#, kde-format
+msgid "Author"
+msgstr "Údar"
+
+#. +> trunk6 stable6
+#: main.cpp:417
+#, kde-format
+msgid "Dirk Leifeld"
+msgstr "Dirk Leifeld"
+
+#. +> trunk6 stable6
+#: main.cpp:417
+#, kde-format
+msgid "Developer"
+msgstr "Forbróir"
+
+#. +> trunk6 stable6
+#: main.cpp:418
+#, kde-format
+msgid "Zhongjie Cai"
+msgstr "Zhongjie Cai"
+
+#. +> trunk6 stable6
+#: main.cpp:418
+#, kde-format
+msgid "New design of KBlocks for AI and tetris research platform"
+msgstr "Dearadh nua KBlocks d'intleacht shaorga agus an t-ardán taighde tetris"
+
+#. +> trunk6 stable6
+#: main.cpp:419
+#, kde-format
+msgid "Johann Ollivier Lapeyre"
+msgstr "Johann Ollivier Lapeyre"
+
+#. +> trunk6 stable6
+#: main.cpp:419
+#, kde-format
+msgid "Oxygen art for KDE4"
+msgstr "Ealaín Oxygen le haghaidh KDE4"
+
+#. +> trunk6 stable6
+#: main.cpp:428
+#, kde-format
+msgid ""
+"Setup kblocks game running mode.\n"
+"\t0 = Desktop Mode\t1 = Game Engine Mode\n"
+"\t2 = Gui Mode\t3 = Player Mode"
+msgstr ""
+"Roghnaigh mód cluiche kblocks.\n"
+"\t0 = Mód Deisce\t1 = Mód Innill Chluiche\n"
+"\t2 = Mód Grafach\t3 = Mód Imreora"
+
+#. +> trunk6 stable6
+#: main.cpp:429
+#, kde-format
+msgid "Setup the configuration file for tetris researcher mode. Not for desktop users."
+msgstr "Socraigh an comhad cumraíochta don mhód taighde tetris. Ní bhaineann sé le gnáthúsáideoirí."

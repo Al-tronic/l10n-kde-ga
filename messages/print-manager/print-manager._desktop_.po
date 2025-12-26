@@ -1,0 +1,83 @@
+# Irish translation of desktop_playground-base
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_playground-base package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-25 08:53+0100\n"
+"PO-Revision-Date: 2007-04-15 19:39-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: src/configure-printer/org.kde.ConfigurePrinter.desktop:2
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure your printers"
+msgctxt "Name"
+msgid "Configure Printer"
+msgstr "Cumraigh printéirí"
+
+#. +> trunk6 stable6
+#: src/configure-printer/org.kde.ConfigurePrinter.desktop:56
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Configure your printers"
+msgctxt "Comment"
+msgid "Configure your printer"
+msgstr "Cumraigh printéirí"
+
+#. +> trunk6 stable6
+#: src/kded/printmanager.notifyrc:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Power Management"
+msgctxt "Name"
+msgid "Printer Management"
+msgstr "Bainisteoireacht Cumhachta"
+
+#. +> trunk6 stable6
+#: src/kded/printmanager.notifyrc:51
+msgctxt "Comment"
+msgid "Notifies when a new printer is detected"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kded/printmanager.notifyrc:112
+msgctxt "Name"
+msgid "Low Ink/Toner Levels"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kded/printmanager.notifyrc:146
+msgctxt "Name"
+msgid "A New Printer was detected"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kded/printmanager.notifyrc:211
+msgctxt "Name"
+msgid "The New Printer was added"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/printqueue/org.kde.PrintQueue.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Printers"
+msgctxt "Name"
+msgid "Print Queue"
+msgstr "Printéirí"
+
+#. +> trunk6 stable6
+#: src/printqueue/org.kde.PrintQueue.desktop:55
+msgctxt "Comment"
+msgid "View the print jobs"
+msgstr ""

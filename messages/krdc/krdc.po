@@ -1,0 +1,2156 @@
+# Irish translation of krdc
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the krdc package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdenetwork/krdc.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-06 19:23+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: bookmarkmanager.cpp:37
+#, kde-format
+msgid "History"
+msgstr "Stair"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberSessions)
+#. +> trunk6 stable6
+#: config/general.ui:17
+#, kde-format
+msgid "Remember open sessions for next startup"
+msgstr "Meabhraigh seisiúin oscailte le haghaidh an chéad tosaithe eile"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RememberHistory)
+#. +> trunk6 stable6
+#: config/general.ui:24
+#, kde-format
+msgid "Remember connection history"
+msgstr "Meabhraigh an stair cheangail"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_WalletSupport)
+#. +> trunk6 stable6
+#: config/general.ui:31
+#, kde-format
+msgid "Remember passwords (KWallet)"
+msgstr "Meabhraigh focail fhaire (KWallet)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SystemTrayIcon)
+#. +> trunk6 stable6
+#: config/general.ui:38
+#, kde-format
+msgid "Enable system tray icon"
+msgstr "Cumasaigh deilbhín i dtráidire an chórais"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStatusBar)
+#. +> trunk6 stable6
+#: config/general.ui:45
+#, kde-format
+msgid "Show status bar"
+msgstr "Taispeáin an barra stádais"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepAspectRatio)
+#. +> trunk6 stable6
+#: config/general.ui:52
+#, kde-format
+msgid "Keep aspect ratio when scaling"
+msgstr "Caomhnaigh an cóimheas treoíochta le linn scálaithe"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundLabel)
+#. +> trunk6 stable6
+#: config/general.ui:61
+#, kde-format
+msgid "Background color of empty place:"
+msgstr "Dath an chúlra d'áit fholamh:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, connectionGroupBox)
+#. +> trunk6 stable6
+#: config/general.ui:93
+#, kde-format
+msgid "When Connecting"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPreferencesForNewConnections)
+#. +> trunk6 stable6
+#: config/general.ui:99
+#, kde-format
+msgid "Show the preferences dialog for new connections"
+msgstr "Taispeáin dialóg na sainroghanna nuair a bhunaítear ceangal nua"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResizeOnConnect)
+#. +> trunk6 stable6
+#: config/general.ui:106
+#, kde-format
+msgid "This option will resize the window to fit the connection size.  If it is too big, it will maximize the window."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResizeOnConnect)
+#. +> trunk6 stable6
+#: config/general.ui:109
+#, kde-format
+msgid "Resize to fit"
+msgstr "Oiriúnaigh an mhéid"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FullscreenOnConnect)
+#. +> trunk6 stable6
+#: config/general.ui:116
+#, kde-format
+msgid "This option switches to fullscreen only if the connection resolution is the same as the current screen resolution"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_FullscreenOnConnect)
+#. +> trunk6 stable6
+#: config/general.ui:119
+#, kde-format
+msgid "Switch to Fullscreen if appropriate"
+msgstr "Athraigh go mód lánscáileáin más oiriúnach"
+
+#. i18n: ectx: property (text), widget (QLabel, defaultProtocolLabel)
+#. +> trunk6 stable6
+#: config/general.ui:128
+#, kde-format
+msgid "Default protocol:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLineEdit, kcfg_DefaultProtocol)
+#. +> trunk6 stable6
+#: config/general.ui:135
+#, kde-format
+msgid "vnc"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, tabGroupBox)
+#. +> trunk6 stable6
+#: config/general.ui:147
+#, kde-format
+msgid "Tab Settings"
+msgstr "Socruithe Cluaisíní"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTabBar)
+#. +> trunk6 stable6
+#: config/general.ui:153
+#, kde-format
+msgid "Always show tab bar"
+msgstr "Taispeáin barra na gcluaisíní i gcónaí"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabCloseButton)
+#. +> trunk6 stable6
+#: config/general.ui:160
+#, kde-format
+msgid "Show close button on tabs"
+msgstr "Taispeáin cnaipe dúnta ar chluaisíní"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TabMiddleClick)
+#. +> trunk6 stable6
+#: config/general.ui:167
+#, kde-format
+msgid "Middle-click on a tab closes it"
+msgstr "Lárchliceáil ar chluaisín chun é a dhúnadh"
+
+#. i18n: ectx: property (text), widget (QLabel, tabOrientationLabel)
+#. +> trunk6 stable6
+#: config/general.ui:176
+#, kde-format
+msgid "Tab position:"
+msgstr "Ionad an chluaisín:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#. +> trunk6 stable6
+#: config/general.ui:184
+#, kde-format
+msgid "Top"
+msgstr "Barr"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#. +> trunk6 stable6
+#: config/general.ui:189
+#, kde-format
+msgid "Bottom"
+msgstr "Bun"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#. +> trunk6 stable6
+#: config/general.ui:194
+#, kde-format
+msgid "Left"
+msgstr "Ar Chlé"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TabPosition)
+#. +> trunk6 stable6
+#: config/general.ui:199
+#, kde-format
+msgid "Right"
+msgstr "Ar Dheis"
+
+#. +> trunk6 stable6
+#: config/hostpreferenceslist.cpp:30
+#, fuzzy, kde-format
+#| msgid "Configure..."
+msgid "Configure…"
+msgstr "Cumraigh..."
+
+#. +> trunk6 stable6
+#: config/hostpreferenceslist.cpp:36
+#, kde-format
+msgid "Remove"
+msgstr "Bain"
+
+#. +> trunk6 stable6
+#: config/hostpreferenceslist.cpp:99 mainwindow.cpp:291 mainwindow.cpp:668
+#, kde-format
+msgid "Unusable URL"
+msgstr "URL do-úsáidte"
+
+#. +> trunk6 stable6
+#: config/hostpreferenceslist.cpp:99 mainwindow.cpp:668
+#, kde-format
+msgid "The selected host cannot be handled."
+msgstr "Ní féidir an t-óstríomhaire roghnaithe a láimhseáil."
+
+#. +> trunk6 stable6
+#: config/preferencesdialog.cpp:24
+#, kde-format
+msgctxt "General Config"
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: config/preferencesdialog.cpp:24
+#, kde-format
+msgid "General Configuration"
+msgstr "Cumraíocht Ghinearálta"
+
+#. +> trunk6 stable6
+#: config/preferencesdialog.cpp:28
+#, kde-format
+msgid "Hosts"
+msgstr "Óstríomhairí"
+
+#. +> trunk6 stable6
+#: config/preferencesdialog.cpp:28 core/hostpreferences.cpp:213
+#: core/hostpreferences.cpp:217
+#, kde-format
+msgid "Host Configuration"
+msgstr "Cumraíocht an Óstríomhaire"
+
+#. +> trunk6 stable6
+#: config/preferencesdialog.cpp:33 config/preferencesdialog.cpp:34
+#, kde-format
+msgid "Plugins"
+msgstr "Breiseáin"
+
+#. +> trunk6 stable6
+#: config/preferencesdialog.cpp:34
+#, kde-format
+msgid "Plugin Configuration"
+msgstr "Cumraíocht an Bhreiseáin"
+
+#. +> trunk6 stable6
+#: connectiondelegate.cpp:34
+#, kde-format
+msgid "Less than a minute ago"
+msgstr "Níos lú ná nóiméad ó shin"
+
+#. +> trunk6 stable6
+#: connectiondelegate.cpp:35
+#, kde-format
+msgid "A minute ago"
+msgid_plural "%1 minutes ago"
+msgstr[0] "Nóiméad ó shin"
+msgstr[1] "%1 nóiméad ó shin"
+msgstr[2] "%1 nóiméad ó shin"
+msgstr[3] "%1 nóiméad ó shin"
+msgstr[4] "%1 nóiméad ó shin"
+
+#. +> trunk6 stable6
+#: connectiondelegate.cpp:37
+#, kde-format
+msgid "An hour ago"
+msgid_plural "%1 hours ago"
+msgstr[0] "Uair ó shin"
+msgstr[1] "%1 uair ó shin"
+msgstr[2] "%1 huaire ó shin"
+msgstr[3] "%1 n-uaire ó shin"
+msgstr[4] "%1 uair ó shin"
+
+#. +> trunk6 stable6
+#: connectiondelegate.cpp:41
+#, kde-format
+msgid "Yesterday"
+msgid_plural "%1 days ago"
+msgstr[0] "Inné"
+msgstr[1] "%1 lá ó shin"
+msgstr[2] "%1 lá ó shin"
+msgstr[3] "%1 lá ó shin"
+msgstr[4] "%1 lá ó shin"
+
+#. +> trunk6 stable6
+#: connectiondelegate.cpp:43
+#, kde-format
+msgid "Over a month ago"
+msgid_plural "%1 months ago"
+msgstr[0] "Níos mó ná mí ó shin"
+msgstr[1] "%1 mhí ó shin"
+msgstr[2] "%1 mhí ó shin"
+msgstr[3] "%1 mí ó shin"
+msgstr[4] "%1 mí ó shin"
+
+#. +> trunk6 stable6
+#: connectiondelegate.cpp:44
+#, kde-format
+msgid "A year ago"
+msgid_plural "%1 years ago"
+msgstr[0] "Anuraidh"
+msgstr[1] "%1 bhliain ó shin"
+msgstr[2] "%1 bliana ó shin"
+msgstr[3] "%1 mbliana ó shin"
+msgstr[4] "%1 bliain ó shin"
+
+#. +> trunk6 stable6
+#: core/hostpreferences.cpp:220
+#, kde-format
+msgid "Note that settings might only apply when you connect next time to this host."
+msgstr "Tabhair faoi deara seans nach mbeidh na socruithe curtha i bhfeidhm go dtí an chéad uair eile a cheanglóidh tú leis an óstríomhaire seo."
+
+#. +> trunk6 stable6
+#: core/hostpreferences.cpp:249
+#, kde-format
+msgid "Show this dialog again for this host"
+msgstr "Taispeáin an dialóg seo arís le haghaidh an óstríomhaire seo"
+
+#. +> trunk6 stable6
+#: core/hostpreferences.cpp:253
+#, kde-format
+msgid "Remember password (KWallet)"
+msgstr "Meabhraigh an focal faire (KWallet)"
+
+#. i18n: ectx: label, entry (OpenSessions), group (General)
+#. +> trunk6 stable6
+#: core/krdc.kcfg:16
+#, kde-format
+msgid "Sessions"
+msgstr "Seisiúin"
+
+#. +> trunk6 stable6
+#: core/remoteview.cpp:544
+#, fuzzy, kde-format
+#| msgid "Please enter the password."
+msgid "Please enter the SSH password."
+msgstr "Iontráil an focal faire, le do thoil."
+
+#. +> trunk6 stable6
+#: core/remoteview.cpp:562
+#, kde-format
+msgid "SSH Tunnel failure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/sshtunnelthread.cpp:99
+#, fuzzy, kde-format
+#| msgid "Connecting to %1"
+msgid "Error connecting to %1: %2"
+msgstr "Ag dul i dteagmháil le %1"
+
+#. +> trunk6 stable6
+#: core/sshtunnelthread.cpp:124
+#, fuzzy, kde-format
+#| msgid "Authenticating at %1"
+msgid "Error authenticating with password: %1"
+msgstr "Fíordheimhniú ag %1"
+
+#. +> trunk6 stable6
+#: core/sshtunnelthread.cpp:130 core/sshtunnelthread.cpp:148
+#: core/sshtunnelthread.cpp:155 core/sshtunnelthread.cpp:163
+#, kde-format
+msgid "Error creating tunnel socket"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SshTunnelWidget)
+#. +> trunk6 stable6
+#: core/sshtunnelwidget.ui:14
+#, kde-format
+msgid "SSH tunnel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, use_ssh_tunnel)
+#. +> trunk6 stable6
+#: core/sshtunnelwidget.ui:32
+#, kde-format
+msgid "Connect via SSH tunnel"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, ssh_groupBox)
+#. +> trunk6 stable6
+#: core/sshtunnelwidget.ui:39
+#, kde-format
+msgid "SSH tunnel options"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, use_loopback)
+#. +> trunk6 stable6
+#: core/sshtunnelwidget.ui:45
+#, kde-format
+msgid "Tunnel via loopback address"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: core/sshtunnelwidget.ui:52
+#, fuzzy, kde-format
+#| msgid "Port"
+msgid "Port:"
+msgstr "Port"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: core/sshtunnelwidget.ui:75
+#, fuzzy, kde-format
+#| msgid "Enter Username"
+msgid "User name:"
+msgstr "Iontráil Ainm an Úsáideora"
+
+#. i18n: ectx: Menu (session)
+#. +> trunk6 stable6
+#: krdcui.rc:8
+#, kde-format
+msgid "&Session"
+msgstr "&Seisiún"
+
+#. i18n: ectx: ToolBar (krdc_remote_view_toolbar)
+#. +> trunk6 stable6
+#: krdcui.rc:23
+#, kde-format
+msgid "Remote View Toolbar"
+msgstr "Barra Amhairc Chianda"
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "KRDC"
+msgstr "KRDC"
+
+#. +> trunk6 stable6
+#: main.cpp:33 systemtrayicon.cpp:24
+#, kde-format
+msgid "KDE Remote Desktop Client"
+msgstr "Cliant Deisce Cianda KDE"
+
+#. +> trunk6 stable6
+#: main.cpp:36
+#, fuzzy, kde-format
+#| msgid ""
+#| "(c) 2007-2013, Urs Wolfer\n"
+#| "(c) 2001-2003, Tim Jansen\n"
+#| "(c) 2002-2003, Arend van Beelen jr.\n"
+#| "(c) 2000-2002, Const Kaplinsky\n"
+#| "(c) 2000, Tridia Corporation\n"
+#| "(c) 1999, AT&T Laboratories Boston\n"
+#| "(c) 1999-2003, Matthew Chapman\n"
+#| "(c) 2009, Collabora Ltd"
+msgid ""
+"(c) 2007-2016, Urs Wolfer\n"
+"(c) 2001-2003, Tim Jansen\n"
+"(c) 2002-2003, Arend van Beelen jr.\n"
+"(c) 2000-2002, Const Kaplinsky\n"
+"(c) 2000, Tridia Corporation\n"
+"(c) 1999, AT&T Laboratories Boston\n"
+"(c) 1999-2003, Matthew Chapman\n"
+"(c) 2009, Collabora Ltd"
+msgstr ""
+"© 2007-2013, Urs Wolfer\n"
+"© 2001-2003, Tim Jansen\n"
+"© 2002-2003, Arend van Beelen jr.\n"
+"© 2000-2002, Const Kaplinsky\n"
+"© 2000, Tridia Corporation\n"
+"© 1999, AT&T Laboratories Boston\n"
+"© 1999-2003, Matthew Chapman\n"
+"© 2009, Collabora Ltd"
+
+#. +> trunk6 stable6
+#: main.cpp:45
+#, kde-format
+msgid "Urs Wolfer"
+msgstr "Urs Wolfer"
+
+#. +> trunk6 stable6
+#: main.cpp:45
+#, kde-format
+msgid "Developer, Maintainer"
+msgstr "Forbróir, Cothaitheoir"
+
+#. +> trunk6 stable6
+#: main.cpp:46
+#, kde-format
+msgid "Tony Murray"
+msgstr "Tony Murray"
+
+#. +> trunk6 stable6
+#: main.cpp:46
+#, kde-format
+msgid "Developer"
+msgstr "Forbróir"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgid "Tim Jansen"
+msgstr "Tim Jansen"
+
+#. +> trunk6 stable6
+#: main.cpp:47
+#, kde-format
+msgid "Former Developer"
+msgstr "Iarfhorbróir"
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgid "Arend van Beelen jr."
+msgstr "Arend van Beelen jr."
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgid "Initial RDP backend"
+msgstr "Buninneall RDP"
+
+#. +> trunk6 stable6
+#: main.cpp:49
+#, kde-format
+msgid "Brad Hards"
+msgstr "Brad Hards"
+
+#. +> trunk6 stable6
+#: main.cpp:49
+#, kde-format
+msgid "Google Summer of Code 2007 KRDC project mentor"
+msgstr "Meantóir an tionscadail KRDC le linn Google Summer of Code 2007"
+
+#. +> trunk6 stable6
+#: main.cpp:50
+#, kde-format
+msgid "LibVNCServer / LibVNCClient developers"
+msgstr "Forbróirí LibVNCServer / LibVNCClient"
+
+#. +> trunk6 stable6
+#: main.cpp:51
+#, kde-format
+msgid "VNC client library"
+msgstr "Leabharlann chliaint VNC"
+
+#. +> trunk6 stable6
+#: main.cpp:66
+#, kde-format
+msgid "Start KRDC with the provided URL in fullscreen mode (works only with one URL)"
+msgstr "Tosaigh KRDC sa mhód lánscáileáin leis an URL sonraithe (le haon URL amháin)"
+
+#. +> trunk6 stable6
+#: main.cpp:67
+#, kde-format
+msgid "URLs to connect after startup"
+msgstr "URLanna ar chóir ceangal leo tar éis tosaithe"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:105
+#, kde-format
+msgid "KDE Remote Desktop Client started"
+msgstr "Tosaíodh an Cliant Deisce Cianda KDE"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:110 mainwindow.cpp:127 mainwindow.cpp:1080
+#: mainwindow.cpp:1175
+#, kde-format
+msgid "New Connection"
+msgstr "Ceangal Nua"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:133
+#, kde-format
+msgid "Copy Screenshot to Clipboard"
+msgstr "Cóipeáil Seat den Scáileán sa Ghearrthaisce"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:134
+#, kde-format
+msgid "Screenshot"
+msgstr "Seat den Scáileán"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:140 mainwindow.cpp:503
+#, kde-format
+msgid "Switch to Full Screen Mode"
+msgstr "Athraigh go Mód Lánscáileáin"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:141 mainwindow.cpp:504
+#, kde-format
+msgid "Full Screen"
+msgstr "Lánscáileán"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:148
+#, kde-format
+msgid "View Only"
+msgstr "Amharc Amháin"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:154
+#, kde-format
+msgid "Clipboard Sharing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:159
+#, kde-format
+msgid "Disconnect"
+msgstr "Dícheangail"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:167
+#, kde-format
+msgid "Show Local Cursor"
+msgstr "Taispeáin an Cúrsóir Logánta"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:168
+#, kde-format
+msgid "Local Cursor"
+msgstr "Cúrsóir Logánta"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:174
+#, kde-format
+msgid "Grab All Possible Keys"
+msgstr "Faigh gach eochair is féidir"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:175
+#, kde-format
+msgid "Grab Keys"
+msgstr "Faigh Eochracha"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:181
+#, kde-format
+msgid "Scale Remote Screen to Fit Window Size"
+msgstr "Scálaigh an scáileán cianda do mhéid na fuinneoige"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:182
+#, kde-format
+msgid "Scale"
+msgstr "Scála"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:185
+#, kde-format
+msgid "Scaling Factor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:196
+#, kde-format
+msgid "Bookmarks"
+msgstr "Leabharmharcanna"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:264
+#, kde-format
+msgid "Unable to load connection data from the provided file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:264
+#, kde-format
+msgid "Load failed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:270
+#, kde-format
+msgid ""
+"The entered address does not have the required form.\n"
+" Syntax: [username@]host[:port]"
+msgstr ""
+"Níl an seoladh san fhormáid cheart.\n"
+" Comhréir: [ainm@]óstríomhaire[:port]"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:270
+#, kde-format
+msgid "Malformed URL"
+msgstr "URL míchumtha"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:291
+#, kde-format
+msgid "The entered address cannot be handled."
+msgstr "Ní féidir an seoladh iontráilte a láimhseáil."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:426
+#, kde-format
+msgid "Connecting to %1"
+msgstr "Ag dul i dteagmháil le %1"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:430
+#, kde-format
+msgid "Authenticating at %1"
+msgstr "Fíordheimhniú ag %1"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:434
+#, kde-format
+msgid "Preparing connection to %1"
+msgstr "Ceangal le %1 á ullmhú"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:438
+#, kde-format
+msgid "Connected to %1"
+msgstr "Ceangailte le %1"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:534
+#, kde-format
+msgid "Switch to Window Mode"
+msgstr "Athraigh go Mód Fuinneoige"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:535
+#, kde-format
+msgid "Window Mode"
+msgstr "Mód Fuinneoige"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:687
+#, kde-format
+msgid "Connect"
+msgstr "Ceangail"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:688
+#, kde-format
+msgid "Rename"
+msgstr "Athainmnigh"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:689
+#, kde-format
+msgid "Settings"
+msgstr "Socruithe"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:690
+#, kde-format
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:693 remotedesktopsmodel.cpp:108
+#, kde-format
+msgctxt "Where each displayed link comes from"
+msgid "Bookmarks"
+msgstr "Leabharmharcanna"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:693 remotedesktopsmodel.cpp:110
+#, kde-format
+msgctxt "Where each displayed link comes from"
+msgid "History"
+msgstr "Stair"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:705
+#, kde-format
+msgid "Rename %1"
+msgstr "Athainmnigh %1"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:705
+#, kde-format
+msgid "Rename %1 to"
+msgstr "Athainmnigh %1 mar"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:712
+#, kde-format
+msgid "Are you sure you want to delete %1?"
+msgstr "An bhfuil tú cinnte gur mian leat %1 a scriosadh?"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:712
+#, kde-format
+msgid "Delete %1"
+msgstr "Scrios %1"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:736
+#, kde-format
+msgid "Add Bookmark"
+msgstr "Cuir Leabharmharc Leis"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:737
+#, kde-format
+msgid "Close Tab"
+msgstr "Dún Cluaisín"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:850
+#, kde-format
+msgid "Minimize Full Screen Window"
+msgstr "Íoslaghdaigh Fuinneog Lánscáileáin"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:867
+#, kde-format
+msgid "Stick Toolbar"
+msgstr "Greamaigh an Barra Uirlisí"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:974
+#, kde-format
+msgid "Are you sure you want to quit the KDE Remote Desktop Client?"
+msgstr "An bhfuil tú cinnte gur mian leat an Cliant Deisce Cianda KDE a scor?"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:975
+#, kde-format
+msgid "Confirm Quit"
+msgstr "Deimhnigh Scor"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:1103
+#, kde-format
+msgid "Connect to:"
+msgstr "Ceangail le:"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:1107
+#, kde-format
+msgid "Type here to connect to an address and filter the list."
+msgstr "Clóscríobh anseo chun ceangal le seoladh agus an liosta a scagadh."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:1116
+#, kde-format
+msgid "Type an IP or DNS Name here. Clear the line to get a list of connection methods."
+msgstr "Cuir seoladh IP nó ainm DNS anseo. Glan an líne chun liosta de mhodhanna ceangail a fháil."
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:1119
+#, kde-format
+msgid "Goto Address"
+msgstr "Téigh go Seoladh"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:1211
+#, kde-format
+msgid "Remote Desktops"
+msgstr "Deasca Cianda"
+
+#. +> trunk6 stable6
+#: mainwindow.cpp:1240
+#, kde-format
+msgid "Filter"
+msgstr "Scagaire"
+
+#. i18n: ectx: attribute (title), widget (QWidget, mainSettingsTab)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:21
+#, fuzzy, kde-format
+#| msgctxt "General Config"
+#| msgid "General"
+msgid "General"
+msgstr "Ginearálta"
+
+#. i18n: ectx: property (text), widget (QLabel, resolutionLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:27
+#, kde-format
+msgid "Resolution"
+msgstr "Taifeach"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_Resolution)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, resolutionComboBox)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:49 vnc/vncpreferences.ui:86
+#, kde-format
+msgid "Here you can specify the resolution of the remote desktop. This resolution determines the size of the desktop that will be presented to you."
+msgstr "Anseo is féidir leat taifeach na deisce cianda a roghnú. Socraíonn an taifeach seo méid na deisce a thaispeánfar duit."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:56
+#, fuzzy, kde-format
+#| msgid "Small (800x600)"
+msgid "Small (1280x720)"
+msgstr "Beag (800×600)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:61
+#, fuzzy, kde-format
+#| msgid "Medium (800x600)"
+msgid "Medium (1600x900)"
+msgstr "Meán (800×600)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:66
+#, fuzzy, kde-format
+#| msgid "Large (1280x1024)"
+msgid "Large (1920x1080)"
+msgstr "Mór (1280×1024)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:71
+#, kde-format
+msgid "Current Window Size"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:76 vnc/vncpreferences.ui:118
+#, kde-format
+msgid "Current Screen Resolution"
+msgstr "Taifeach Reatha"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Resolution)
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:81 vnc/vncpreferences.ui:123
+#, fuzzy, kde-format
+#| msgid "Custom Resolution (...)"
+msgid "Custom Resolution (…)"
+msgstr "Taifeach Saincheaptha (...)"
+
+#. i18n: ectx: property (text), widget (QLabel, widthLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:94 vnc/vncpreferences.ui:136
+#, kde-format
+msgid "&Width:"
+msgstr "&Leithead:"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Width)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_ScalingWidth)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:110 vnc/vncpreferences.ui:152
+#, kde-format
+msgid "This is the width of the remote desktop. You can only change this value manually if you select Custom as desktop resolution above."
+msgstr "Seo é leithead na deisce cianda. Níl cead agat an luach seo a athrú de láimh mura bhfuil 'Saincheaptha' roghnaithe agat mar thaifeach na deisce thuas."
+
+#. i18n: ectx: property (text), widget (QLabel, heightLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:126 vnc/vncpreferences.ui:168
+#, kde-format
+msgid "H&eight:"
+msgstr "A&irde:"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_Height)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_ScalingHeight)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:142 vnc/vncpreferences.ui:184
+#, kde-format
+msgid "This is the height of the remote desktop. You can only change this value manually if you select Custom as desktop resolution above."
+msgstr "Seo é airde na deisce cianda. Níl cead agat an luach seo a athrú de láimh mura bhfuil 'Saincheaptha' roghnaithe agat mar thaifeach na deisce thuas."
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ScaleToSize)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:163
+#, kde-format
+msgid "Scale window contents to match resolution"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, accelerationLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:173
+#, kde-format
+msgid "Acceleration:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Acceleration)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:196
+#, kde-format
+msgctxt "Use best acceleration supported by both the server and krdc"
+msgid "Use Best Available"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Acceleration)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:201
+#, kde-format
+msgid "Force H.264"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Acceleration)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:206
+#, fuzzy, kde-format
+#| msgid "RemoteFX:"
+msgid "Force RemoteFX"
+msgstr "RemoteFX:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Acceleration)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:211
+#, kde-format
+msgid "Disable All Acceleration"
+msgstr ""
+
+# focal.ie
+#. i18n: ectx: property (text), widget (QLabel, colorDepthLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:219
+#, kde-format
+msgid "Color &depth:"
+msgstr "&Doimhneacht datha:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:245
+#, kde-format
+msgctxt "Use best color depth supported by both the server and krdc"
+msgid "Use Best Available"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:250
+#, fuzzy, kde-format
+#| msgid "True Color (24 Bit)"
+msgid "True Color with Alpha (32 Bit)"
+msgstr "Fíordhathanna (24-Giotán)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:255
+#, kde-format
+msgid "True Color (24 Bit)"
+msgstr "Fíordhathanna (24-Giotán)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:260
+#, kde-format
+msgid "High Color (16 Bit)"
+msgstr "Ard-Dath (16-Giotán)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_ColorDepth)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:265
+#, kde-format
+msgid "Low Color (8 Bit)"
+msgstr "Ísealdhath (8-Giotán)"
+
+#. i18n: ectx: property (text), widget (QLabel, desktopScaleFactorLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:273
+#, fuzzy, kde-format
+#| msgid "Desktop &resolution:"
+msgid "Desktop scale factor:"
+msgstr "Taifeach na &deisce:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_DesktopScaleFactor)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_DeviceScaleFactor)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_GatewayTransportType)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:295 rdp/rdppreferences.ui:363
+#: rdp/rdppreferences.ui:977
+#, fuzzy, kde-format
+#| msgid "Autohide"
+msgid "Auto"
+msgstr "Uathfholú"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_DesktopScaleFactor)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:300
+#, kde-format
+msgid "Do not scale"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_DesktopScaleFactor)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:305
+#, kde-format
+msgid "Custom"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, deviceScaleFactorLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:337
+#, kde-format
+msgid "Device scale factor:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_DeviceScaleFactor)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:368
+#, kde-format
+msgid "100"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_DeviceScaleFactor)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:373
+#, kde-format
+msgid "140"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_DeviceScaleFactor)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:378
+#, kde-format
+msgid "180"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, layoutLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:386
+#, kde-format
+msgid "&Keyboard layout:"
+msgstr "Leagan amach an &mhéarchláir:"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:411
+#, kde-format
+msgid "Use this to specify your keyboard layout. This layout setting is used to send the correct keyboard codes to the server."
+msgstr "Úsáid é seo chun leagan amach do mhéarchláir a roghnú. Úsáidtear an leagan amach seo chun na cóid chearta mhéarchláir a sheoladh chuig an bhfreastalaí."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:418
+#, kde-format
+msgid "Arabic (ar)"
+msgstr "Araibis (ar)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:423
+#, kde-format
+msgid "Czech (cs)"
+msgstr "Seicis (cs)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:428
+#, kde-format
+msgid "Danish (da)"
+msgstr "Danmhairgis (da)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:433
+#, kde-format
+msgid "German (de)"
+msgstr "Gearmáinis (de)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:438
+#, kde-format
+msgid "Swiss German (de-ch)"
+msgstr "Gearmáinis Eilvéiseach (de-ch)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:443
+#, kde-format
+msgid "American Dvorak (en-dv)"
+msgstr "Dvorak Meiriceánach (en-dv)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:448
+#, kde-format
+msgid "British English (en-gb)"
+msgstr "Béarla na Sasanach (en-gb)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:453
+#, kde-format
+msgid "US English (en-us)"
+msgstr "Béarla S.A.M. (en-us)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:458
+#, kde-format
+msgid "Spanish (es)"
+msgstr "Spáinnis (es)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:463
+#, kde-format
+msgid "Estonian (et)"
+msgstr "Eastóinis (et)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:468
+#, kde-format
+msgid "Finnish (fi)"
+msgstr "Fionlainnis (fi)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:473
+#, kde-format
+msgid "Faroese (fo)"
+msgstr "Faróis (fo)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:478
+#, kde-format
+msgid "French (fr)"
+msgstr "Fraincis (fr)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:483
+#, kde-format
+msgid "Belgian (fr-be)"
+msgstr "Fraincis na Beilge (fr-be)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:488
+#, kde-format
+msgid "French Canadian (fr-ca)"
+msgstr "Fraincis Cheanadach (fr-ca)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:493
+#, kde-format
+msgid "Swiss French (fr-ch)"
+msgstr "Fraincis Eilvéiseach (fr-ch)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:498
+#, kde-format
+msgid "Hebrew (he)"
+msgstr "Eabhrais (he)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:503
+#, kde-format
+msgid "Croatian (hr)"
+msgstr "Cróitis (hr)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:508
+#, kde-format
+msgid "Hungarian (hu)"
+msgstr "Ungáiris (hu)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:513
+#, kde-format
+msgid "Icelandic (is)"
+msgstr "Íoslainnis (is)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:518
+#, kde-format
+msgid "Italian (it)"
+msgstr "Iodáilis (it)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:523
+#, kde-format
+msgid "Japanese (ja)"
+msgstr "Seapáinis (ja)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:528
+#, kde-format
+msgid "Korean (ko)"
+msgstr "Cóiréis (ko)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:533
+#, kde-format
+msgid "Lithuanian (lt)"
+msgstr "Liotuáinis (lt)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:538
+#, kde-format
+msgid "Latvian (lv)"
+msgstr "Laitvis (lv)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:543
+#, kde-format
+msgid "Macedonian (mk)"
+msgstr "Macadóinis (mk)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:548
+#, kde-format
+msgid "Dutch (nl)"
+msgstr "Ollainnis (nl)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:553
+#, kde-format
+msgid "Belgian Dutch (nl-be)"
+msgstr "Ollainnis Bheilgeach (nl-be)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:558
+#, kde-format
+msgid "Norwegian (no)"
+msgstr "Ioruais (no)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:563
+#, kde-format
+msgid "Polish (pl)"
+msgstr "Polainnis (pl)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:568
+#, kde-format
+msgid "Portuguese (pt)"
+msgstr "Portaingéilis (pt)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:573
+#, kde-format
+msgid "Brazilian (pt-br)"
+msgstr "Portaingéilis na Brasaíle (pt-br)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:578
+#, kde-format
+msgid "Russian (ru)"
+msgstr "Rúisis (ru)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:583
+#, kde-format
+msgid "Slovenian (sl)"
+msgstr "Slóivéinis (sl)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:588
+#, kde-format
+msgid "Swedish (sv)"
+msgstr "Sualainnis (sv)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:593
+#, kde-format
+msgid "Thai (th)"
+msgstr "Téalainnis (th)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_KeyboardLayout)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:598
+#, kde-format
+msgid "Turkish (tr)"
+msgstr "Tuircis (tr)"
+
+#. i18n: ectx: property (text), widget (QLabel, soundLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:606
+#, kde-format
+msgctxt "label for soundsettings in preferences dialog"
+msgid "Sound:"
+msgstr "Fuaim:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:632
+#, kde-format
+msgid "On This Computer"
+msgstr "Ar an Ríomhaire Seo"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:637
+#, kde-format
+msgid "On Remote Computer"
+msgstr "Ar an Ríomhaire Cianda"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Sound)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:642
+#, kde-format
+msgid "Disable Sound"
+msgstr "Díchumasaigh Fuaim"
+
+#. i18n: ectx: property (text), widget (QLabel, shareMediaLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:650
+#, kde-format
+msgid "Share Media:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, shareSmartcardLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:676
+#, kde-format
+msgid "Share Smartcard:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, consoleModeLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:689
+#, kde-format
+msgid "Alternate Session Type:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ConsoleMode)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:699
+#, kde-format
+msgid "Admin (or console) session"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, preventSessionLockLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:706
+#, fuzzy, kde-format
+#| msgid "Session ID"
+msgid "Session lock:"
+msgstr "Aitheantas an tSeisiúin"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PreventSessionLock)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:716
+#, kde-format
+msgid "Prevent remote session lock"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, securitySettingsTab)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:724
+#, kde-format
+msgid "Security"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, gSecurityLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:732
+#, kde-format
+msgid "Security:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityNLA)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:744
+#, kde-format
+msgid "NLA"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityTLS)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:751
+#, kde-format
+msgid "TLS"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityRDP)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:758
+#, fuzzy, kde-format
+#| msgid "RDP"
+msgid "RDP"
+msgstr "RDP"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SecurityEXT)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:765
+#, kde-format
+msgid "Ext"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, TlsSecLevelLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:774
+#, kde-format
+msgid "TLS security level:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:800
+#, kde-format
+msgid "any"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:805
+#, kde-format
+msgid "80 bit"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:810
+#, kde-format
+msgid "112 bit"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:815
+#, kde-format
+msgid "128 bit"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:820
+#, kde-format
+msgid "192 bit"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TlsSecLevel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:825
+#, kde-format
+msgid "256 bit"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, authPkgListLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:833
+#, fuzzy, kde-format
+#| msgid "Authenticating at %1"
+msgid "Authentication Package List:"
+msgstr "Fíordheimhniú ag %1"
+
+#. i18n: ectx: attribute (title), widget (QWidget, proxySettingsTab)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:849
+#, kde-format
+msgid "Proxy"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, protocolLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:857
+#, fuzzy, kde-format
+#| msgid "Protocol"
+msgid "Protocol:"
+msgstr "Prótacal"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ProxyProtocol)
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_GatewayTransportType)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:871 rdp/rdppreferences.ui:982
+#, kde-format
+msgid "HTTP"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_ProxyProtocol)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:876
+#, kde-format
+msgid "SOCKS"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, pPasswordLabel)
+#. i18n: ectx: property (text), widget (QLabel, gPasswordLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:887 rdp/rdppreferences.ui:943
+#, kde-format
+msgid "Password:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, pUsernameLabel)
+#. i18n: ectx: property (text), widget (QLabel, gUsernameLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:897 rdp/rdppreferences.ui:936
+#, fuzzy, kde-format
+#| msgid "Enter Username"
+msgid "Username:"
+msgstr "Iontráil Ainm an Úsáideora"
+
+#. i18n: ectx: property (text), widget (QLabel, pHostLabel)
+#. i18n: ectx: property (text), widget (QLabel, gServerLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:904 rdp/rdppreferences.ui:929
+#, kde-format
+msgid "Server:"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, kcfg_ProxyHost)
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, kcfg_GatewayServer)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:911 rdp/rdppreferences.ui:950
+#, kde-format
+msgid "host:port"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, gatewaySettingsTab)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:921
+#, kde-format
+msgid "Gateway"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, gTransportTypeLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:963
+#, kde-format
+msgid "Transport type:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_GatewayTransportType)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:987
+#, fuzzy, kde-format
+#| msgid "RDP"
+msgid "RPC"
+msgstr "RDP"
+
+#. i18n: ectx: property (text), widget (QLabel, gDomainLabel)
+#. +> trunk6 stable6
+#: rdp/rdppreferences.ui:995
+#, kde-format
+msgid "Domain:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpsession.cpp:869
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Host: %1:%2\n"
+"Common Name: %3\n"
+"Subject: %4\n"
+"Issuer: %5\n"
+"Fingerprint: %6\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:202
+#, fuzzy, kde-format
+#| msgid "Access to the system requires a password."
+msgctxt "@label"
+msgid "Access to this system requires a username and password."
+msgstr "Tá focal faire de dhíth chun an córas a rochtain."
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:235
+#, kde-format
+msgctxt "@label"
+msgid "The certificate for this system is unknown. Do you wish to continue?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:236
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Verify Certificate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:241 rdp/rdpview.cpp:266
+#, kde-format
+msgctxt "@label"
+msgid "Remember this certificate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:260
+#, kde-format
+msgctxt "@label"
+msgid "The certificate for this system has changed. Do you wish to continue?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:261
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Certificate has Changed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:264
+#, kde-format
+msgctxt "@label"
+msgid ""
+"Previous certificate:\n"
+"%1\n"
+"New Certificate:\n"
+"%2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:296
+#, fuzzy, kde-format
+#| msgid "Connection Failure"
+msgctxt "@title:dialog"
+msgid "Login Failure"
+msgstr "Theip ar Cheangal"
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:297
+#, kde-format
+msgctxt "@label"
+msgid "Unable to login with the provided credentials. Please double check the user and password."
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:306
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Account Problems"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:307
+#, kde-format
+msgctxt "@label"
+msgid "The provided account is not allowed to log in to this machine. Please contact your system administrator."
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:312
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Password Problems"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:313
+#, kde-format
+msgctxt "@label"
+msgid "Unable to login with the provided password. Please contact your system administrator to change it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:319
+#, fuzzy, kde-format
+#| msgid "Connection"
+msgctxt "@title:dialog"
+msgid "Connection Lost"
+msgstr "Ceangal"
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:320
+#, fuzzy, kde-format
+#| msgid "An error has occurred during the connection to the NX server."
+msgctxt "@label"
+msgid "Lost connection to the server."
+msgstr "Tharla earráid le linn ceangail leis an bhfreastalaí NX."
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:322
+#, fuzzy, kde-format
+#| msgid "KRDC Konsole Connection"
+msgctxt "@title:dialog"
+msgid "Could not Connect"
+msgstr "Ceangal Konsole KRDC"
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:323
+#, fuzzy, kde-format
+#| msgid "An error has occurred during the connection to the NX server."
+msgctxt "@label"
+msgid "Could not connect to the server."
+msgstr "Tharla earráid le linn ceangail leis an bhfreastalaí NX."
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:328
+#, fuzzy, kde-format
+#| msgid "Server not found."
+msgctxt "@title:dialog"
+msgid "Server not Found"
+msgstr "Freastalaí gan aimsiú."
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:329
+#, kde-format
+msgctxt "@label"
+msgid "Could not find the server."
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:332
+#, fuzzy, kde-format
+#| msgid "Connection Failure"
+msgctxt "@title:dialog"
+msgid "Connection Refused"
+msgstr "Theip ar Cheangal"
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:333
+#, fuzzy, kde-format
+#| msgid "VNC server closed connection."
+msgctxt "@label"
+msgid "The server refused the connection request."
+msgstr "Dhún an freastalaí VNC an ceangal."
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:343
+#, fuzzy, kde-format
+#| msgid "Connection Failure"
+msgctxt "@title:dialog"
+msgid "Connection Closed"
+msgstr "Theip ar Cheangal"
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:348
+#, fuzzy, kde-format
+#| msgid "Connection Failure"
+msgctxt "@title:dialog"
+msgid "Connection Failed"
+msgstr "Theip ar Cheangal"
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:349
+#, fuzzy, kde-format
+#| msgid "Unknown error."
+msgctxt "@label"
+msgid "An unknown error occurred"
+msgstr "Earráid anaithnid."
+
+#. +> trunk6 stable6
+#: rdp/rdpview.cpp:360
+#, fuzzy, kde-format
+#| msgid "Unknown Error"
+msgctxt "@title:dialog"
+msgid "Logon Error"
+msgstr "Earráid Anaithnid"
+
+#. +> trunk6 stable6
+#: rdp/rdpviewfactory.cpp:26
+#, kde-format
+msgid "Connect to a Windows Remote Desktop (RDP)"
+msgstr "Ceangail le Deasc Chianda Windows (RDP)"
+
+#. +> trunk6 stable6
+#: rdp/rdpviewfactory.cpp:109
+#, fuzzy, kde-format
+#| msgid "New RDP Connection..."
+msgid "New RDP Connection…"
+msgstr "Ceangal Nua RDP..."
+
+#. +> trunk6 stable6
+#: rdp/rdpviewfactory.cpp:120
+#, kde-format
+msgid ""
+"<html>Enter the address here. Port is optional.<br />"
+"<i>Example: rdpserver:3389 (host:port)</i></html>"
+msgstr ""
+"<html>Iontráil an seoladh anseo. Tá an port roghnach.<br />"
+"<i>Sampla: rdpserver:3389 (óstríomhaire:port)</i></html>"
+
+#. +> trunk6 stable6
+#: remotedesktopsmodel.cpp:112
+#, kde-format
+msgctxt "Where each displayed link comes from"
+msgid "Zeroconf"
+msgstr "Zeroconf"
+
+#. +> trunk6 stable6
+#: remotedesktopsmodel.cpp:114
+#, kde-format
+msgctxt "Where each displayed link comes from"
+msgid "None"
+msgstr ""
+
+#. +> trunk6 stable6
+#: remotedesktopsmodel.cpp:130
+#, kde-format
+msgctxt "Remove the selected url from the bookarks menu"
+msgid "Remove the bookmark for %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: remotedesktopsmodel.cpp:132
+#, kde-format
+msgctxt "Add the selected url to the bookmarks menu"
+msgid "Bookmark %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: remotedesktopsmodel.cpp:170
+#, kde-format
+msgctxt "Header of the connections list, title/url for remote connection"
+msgid "Remote Desktop"
+msgstr "Deasca Cianda"
+
+#. +> trunk6 stable6
+#: remotedesktopsmodel.cpp:172
+#, kde-format
+msgctxt "Header of the connections list, the last time this connection was initiated"
+msgid "Last Connected"
+msgstr ""
+
+#. +> trunk6 stable6
+#: remotedesktopsmodel.cpp:174
+#, kde-format
+msgctxt "Header of the connections list, the number of times this connection has been visited"
+msgid "Visits"
+msgstr ""
+
+#. +> trunk6 stable6
+#: remotedesktopsmodel.cpp:176
+#, kde-format
+msgctxt "Header of the connections list, the time when this entry was created"
+msgid "Created"
+msgstr "Cruthaithe"
+
+#. +> trunk6 stable6
+#: remotedesktopsmodel.cpp:178
+#, kde-format
+msgctxt "Header of the connections list, where this entry comes from"
+msgid "Source"
+msgstr "Foinse"
+
+#. +> trunk6 stable6
+#: vnc/vncclientthread.cpp:315
+#, fuzzy, kde-format
+#| msgid "VNC authentication failed."
+msgid "VNC authentication type is not supported."
+msgstr "Theip ar fhíordheimhniú VNC."
+
+#. +> trunk6 stable6
+#: vnc/vncclientthread.cpp:332
+#, kde-format
+msgid "Server not found."
+msgstr "Freastalaí gan aimsiú."
+
+#. +> trunk6 stable6
+#: vnc/vncclientthread.cpp:349 vnc/vncclientthread.cpp:423
+#, kde-format
+msgid "VNC authentication failed."
+msgstr "Theip ar fhíordheimhniú VNC."
+
+#. +> trunk6 stable6
+#: vnc/vncclientthread.cpp:354
+#, kde-format
+msgid "VNC authentication failed because of too many authentication tries."
+msgstr "Theip ar fhíordheimhniú VNC de bharr an iomarca iarrachtaí ar fhíordheimhniú."
+
+#. +> trunk6 stable6
+#: vnc/vncclientthread.cpp:358
+#, kde-format
+msgid "VNC server closed connection."
+msgstr "Dhún an freastalaí VNC an ceangal."
+
+#. +> trunk6 stable6
+#: vnc/vncclientthread.cpp:365
+#, fuzzy, kde-format
+#| msgid "Disconnect"
+msgid "Disconnected: %1."
+msgstr "Dícheangail"
+
+#. +> trunk6 stable6
+#: vnc/vncclientthread.cpp:570
+#, fuzzy, kde-format
+#| msgid "Connection"
+msgid "Reconnecting."
+msgstr "Ceangal"
+
+#. +> trunk6 stable6
+#: vnc/vncclientthread.cpp:638
+#, fuzzy, kde-format
+#| msgid "Disconnect"
+msgid "Reconnected."
+msgstr "Dícheangail"
+
+#. +> trunk6 stable6
+#: vnc/vncclientthread.cpp:640
+#, fuzzy, kde-format
+#| msgid "Connect"
+msgid "Connected."
+msgstr "Ceangail"
+
+#. i18n: ectx: property (title), widget (QGroupBox, vncGroupBox)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:17
+#, kde-format
+msgid "Connection"
+msgstr "Ceangal"
+
+#. i18n: ectx: property (text), widget (QLabel, connectionLabel)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:23
+#, fuzzy, kde-format
+#| msgid "Connection type:"
+msgid "Connection &type:"
+msgstr "Cineál an cheangail:"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_Quality)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:39
+#, kde-format
+msgid "Use this to specify the performance of your connection. Note that you should select the speed of the weakest link - even if you have a high speed connection, it will not help you if the remote computer uses a slow modem. Choosing a level of quality that is too high on a slow link will cause slower response times. Choosing a lower quality will increase latencies in high speed connections and results in lower image quality, especially in 'Low Quality' mode."
+msgstr "Úsáid é seo chun cáilíocht do cheangail a roghnú. Tabhair faoi deara gur chóir duit luas na coda is moille a roghnú - fiú má tá ceangal ardluais agat, níl aon mhaith ann má bhaineann an ríomhaire cianda úsáid as móideim mhall. Má roghnaíonn tú leibhéal cáilíochta ró-ard le ceangal mall, cuirfidh sé moill ar an gceangal. Má roghnaíonn tú leibhéal cáilíochta ró-íseal le ceangal ardluais, méadóidh sé tréimhse folaigh agus beidh cáilíocht na n-íomhánna níos measa dá bharr sin, go háirithe sa mhód 'Cáilíocht Íseal'."
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:43
+#, kde-format
+msgid "High Quality (LAN, direct connection)"
+msgstr "Ardcháilíocht (LAN, ceangal díreach)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:48
+#, kde-format
+msgid "Medium Quality (DSL, Cable, fast Internet)"
+msgstr "Gnáthcháilíocht (DSL, Cábla, Idirlíon gasta)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Quality)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:53
+#, kde-format
+msgid "Low Quality (Modem, ISDN, slow Internet)"
+msgstr "Cáilíocht Íseal (Móideim, ISDN, Idirlíon mall)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Scaling)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:63
+#, kde-format
+msgid "Scale to Size:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:93
+#, kde-format
+msgid "Minimal (640x480)"
+msgstr "An-Bheag (640×480)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:98
+#, kde-format
+msgid "Small (800x600)"
+msgstr "Beag (800×600)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:103
+#, kde-format
+msgid "Normal (1024x768)"
+msgstr "Gnáthmhéid (1024×768)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:108
+#, kde-format
+msgid "Large (1280x1024)"
+msgstr "Mór (1280×1024)"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, resolutionComboBox)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:113
+#, kde-format
+msgid "Very Large (1600x1200)"
+msgstr "An-Mhór (1600×1200)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, dont_copy_passwords)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:211
+#, kde-format
+msgid "Don't copy passwords from supported password managers to remote hosts"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, dont_copy_passwords)
+#. +> trunk6 stable6
+#: vnc/vncpreferences.ui:214
+#, kde-format
+msgid "Supported password managers (like KeePassXC) mark copied passwords with an additional MIME type \"x-kde-passwordManagerHint\" which is used for filtering."
+msgstr ""
+
+#. +> trunk6 stable6
+#: vnc/vncview.cpp:240
+#, kde-format
+msgid "Access to the system requires a password."
+msgstr "Tá focal faire de dhíth chun an córas a rochtain."
+
+#. +> trunk6 stable6
+#: vnc/vncview.cpp:240
+#, kde-format
+msgid "Authentication failed. Please try again."
+msgstr "Theip ar fhíordheimhniú. Bain triail eile as."
+
+#. +> trunk6 stable6
+#: vnc/vncview.cpp:266
+#, kde-format
+msgid "VNC failure"
+msgstr "Theip ar VNC"
+
+#. +> trunk6 stable6
+#: vnc/vncviewfactory.cpp:47
+#, fuzzy, kde-format
+#| msgid "New VNC Connection..."
+msgid "New VNC Connection…"
+msgstr "Ceangal Nua VNC..."
+
+#. +> trunk6 stable6
+#: vnc/vncviewfactory.cpp:52
+#, kde-format
+msgid "Connect to a VNC Remote Desktop"
+msgstr "Ceangail le Deasc Chianda VNC"
+
+#. +> trunk6 stable6
+#: vnc/vncviewfactory.cpp:58
+#, kde-format
+msgid ""
+"<html>Enter the address here.<br />"
+"<i>Example: vncserver:1 (host:port / screen)</i></html>"
+msgstr ""
+"<html>Iontráil an seoladh anseo.<br />"
+"<i>Sampla: vncserver:1 (ósta:port / scáileán)</i></html>"

@@ -1,0 +1,100 @@
+# Irish translation of libkdepim
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the libkdepim package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepim/libkdepim.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-06-24 10:34+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: multiplyingline/multiplyinglineview_p.cpp:63
+#, kde-format
+msgid "We can not add more recipients. We have reached maximum recipients"
+msgstr ""
+
+#. +> trunk6 stable6
+#: progresswidget/progressdialog.cpp:228
+#: progresswidget/statusbarprogresswidget.cpp:73
+#, kde-format
+msgctxt "Percent value; %p is the value, % is the percent sign"
+msgid "%p%"
+msgstr ""
+
+#. +> trunk6 stable6
+#: progresswidget/progressdialog.cpp:236
+#, fuzzy, kde-format
+#| msgid "Cancel this operation."
+msgctxt "@info:tooltip"
+msgid "Cancel this operation."
+msgstr "Cealaigh an oibríocht seo."
+
+#. +> trunk6 stable6
+#: progresswidget/progressmanager.cpp:111
+#, fuzzy, kde-format
+#| msgid "Aborting..."
+msgid "Aborting…"
+msgstr "Á Thobscor..."
+
+#. +> trunk6 stable6
+#: progresswidget/ssllabel.cpp:40
+#, fuzzy, kde-format
+#| msgid "Connection is encrypted"
+msgctxt "@info:tooltip"
+msgid "Connection is encrypted"
+msgstr "Tá an nasc criptithe"
+
+#. +> trunk6 stable6
+#: progresswidget/ssllabel.cpp:45
+#, fuzzy, kde-format
+#| msgid "Connection is unencrypted"
+msgctxt "@info:tooltip"
+msgid "Connection is unencrypted"
+msgstr "Níl an nasc criptithe"
+
+#. +> trunk6 stable6
+#: progresswidget/statusbarprogresswidget.cpp:67
+#, fuzzy, kde-format
+#| msgid "Open detailed progress dialog"
+msgctxt "@info:tooltip"
+msgid "Open detailed progress dialog"
+msgstr "Oscail an dialóg mhionsonraithe dul chun cinn"
+
+#. +> trunk6 stable6
+#: progresswidget/statusbarprogresswidget.cpp:270
+#, fuzzy, kde-format
+#| msgid "Show detailed progress window"
+msgctxt "@info:tooltip"
+msgid "Show detailed progress window"
+msgstr "Taispeáin an fhuinneog mhionsonraithe dul chun cinn"
+
+#. +> trunk6 stable6
+#: progresswidget/statusbarprogresswidget.cpp:273
+#, fuzzy, kde-format
+#| msgid "Hide detailed progress window"
+msgctxt "@info:tooltip"
+msgid "Hide detailed progress window"
+msgstr "Folaigh an fhuinneog mhionsonraithe dul chun cinn"
+
+#. +> trunk6 stable6
+#: widgets/kwidgetlister.cpp:93
+#, kde-format
+msgctxt "more widgets"
+msgid "More"
+msgstr "Tuilleadh"
+
+#. +> trunk6 stable6
+#: widgets/kwidgetlister.cpp:98
+#, kde-format
+msgctxt "fewer widgets"
+msgid "Fewer"
+msgstr "Níos Lú"

@@ -1,0 +1,775 @@
+# Irish translation of khangman
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the khangman package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeedu/khangman.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-20 14:05+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. i18n: tag theme attribute uiname
+#. +> trunk6 stable6
+#: ../themes/standardthemes.xml:4
+#, fuzzy, kde-format
+#| msgid "Sea Theme"
+msgid "Notes Theme"
+msgstr "Téama Farraige"
+
+#. i18n: tag theme attribute uiname
+#. +> trunk6 stable6
+#: ../themes/standardthemes.xml:20
+#, kde-format
+msgid "Sea Theme"
+msgstr "Téama Farraige"
+
+#. i18n: tag theme attribute uiname
+#. +> trunk6 stable6
+#: ../themes/standardthemes.xml:36
+#, kde-format
+msgid "Winter Theme"
+msgstr "Téama Geimhridh"
+
+#. i18n: tag theme attribute uiname
+#. +> trunk6 stable6
+#: ../themes/standardthemes.xml:52
+#, kde-format
+msgid "Bee Theme"
+msgstr "Téama Beach"
+
+#. i18n: tag theme attribute uiname
+#. +> trunk6 stable6
+#: ../themes/standardthemes.xml:68
+#, kde-format
+msgid "Desert Theme"
+msgstr "Téama Gaineamhlaigh"
+
+#. +> trunk6 stable6
+#: data.i18n:2
+#, kde-format
+msgctxt "NOTE_TO_THE_TRANSLATORS"
+msgid ""
+"The translators have the opportunity to translate the\n"
+"words in the game.\n"
+"See the file README.languages in khangman's source directory\n"
+"for more information on how to do that.\n"
+"(translate this message as \"DONE\" when you have translated\n"
+"the words; otherwise leave it untranslated as a reminder)"
+msgstr "DONE"
+
+#. +> trunk6 stable6
+#: khangman.cpp:72
+#, kde-format
+msgid "No theme files found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: khangman.cpp:130
+#, kde-format
+msgid ""
+"File $KDEDIR/share/apps/kvtml/%1/%2 not found.\n"
+"Please check your installation."
+msgstr ""
+"Comhad $KDEDIR/share/apps/kvtml/%1/%2 gan aimsiú.\n"
+"Déan seiceáil ar do chóras."
+
+#. +> trunk6 stable6
+#: khangman.cpp:144
+#, kde-format
+msgid "No word list loaded"
+msgstr ""
+
+#. +> trunk6 stable6
+#: khangman.cpp:411
+#, kde-format
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6
+#: khangman.cpp:433
+#, kde-format
+msgid "No kvtml files found."
+msgstr ""
+
+#. i18n: ectx: label, entry (CurrentLevel), group (Language)
+#. +> trunk6 stable6
+#: khangman.kcfg:10
+#, kde-format
+msgid "Level"
+msgstr "Leibhéal"
+
+#. i18n: ectx: label, entry (SelectedLanguage), group (Language)
+#. +> trunk6 stable6
+#: khangman.kcfg:17
+#, kde-format
+msgid "The language selected by the user"
+msgstr "An teanga roghnaithe ag an úsáideoir"
+
+#. i18n: ectx: label, entry (Theme), group (Look)
+#. +> trunk6 stable6
+#: khangman.kcfg:33
+#, fuzzy, kde-format
+#| msgid "Background theme"
+msgid "Background theme name"
+msgstr "Téama an chúlra"
+
+#. i18n: ectx: label, entry (OneLetter), group (General)
+#. +> trunk6 stable6
+#: khangman.kcfg:40
+#, kde-format
+msgid "Check this if you do not want to discover each instance of the same letter."
+msgstr "Má tá an litir a roghnaigh tú san fhocal níos mó ná uair amháin, taispeánfar iad go léir duit má chuireann tú tic sa bhosca seo."
+
+#. i18n: ectx: label, entry (EnableAnimations), group (General)
+#. +> trunk6 stable6
+#: khangman.kcfg:44
+#, kde-format
+msgid "Enable Animations"
+msgstr "Cumasaigh Beochan"
+
+#. i18n: ectx: label, entry (Sound), group (General)
+#. +> trunk6 stable6
+#: khangman.kcfg:48
+#, kde-format
+msgid "If checked, sounds will be played for New Game and Win Game"
+msgstr "Má chuireann tú tic sa bhosca seo, seinnfear fuaimeanna nuair a bheidh cluiche nua ann, agus nuair a bhuafaidh tú cluiche"
+
+#. i18n: ectx: label, entry (Hint), group (General)
+#. +> trunk6 stable6
+#: khangman.kcfg:53
+#, fuzzy, kde-format
+#| msgid ""
+#| "If checked, hints will always been displayed. If this is not checked (default) \n"
+#| "            hints will be displayed only per word when the user chooses to show the hint."
+msgid ""
+"If checked, hints will always been displayed. If this is not checked (default)\n"
+"            hints will be displayed only per word when the user chooses to show the hint."
+msgstr ""
+"Má tá tic sa bhosca seo, taispeántar leideanna i gcónaí. Mura bhfuil tic anseo (réamhshocrú)\n"
+"            taispeántar leideanna nuair a roghnaíonn an t-úsáideoir iad a thaispeáint amháin."
+
+#. i18n: ectx: label, entry (resolveTime), group (General)
+#. +> trunk6 stable6
+#: khangman.kcfg:57
+#, kde-format
+msgid "This setting allows you to set in seconds how much time is available for resolving the word."
+msgstr "Leis an rogha seo is féidir a shocrú cá fhad atá agat chun an focal a réiteach, i soicindí."
+
+#. i18n: ectx: label, entry (AccentedLetters), group (Advanced)
+#. +> trunk6 stable6
+#: khangman.kcfg:64
+#, kde-format
+msgid "Type accented letters separately from normal letters"
+msgstr "Clóscríobh litreacha le síntí fada amach ó litreacha gan síneadh fada"
+
+#. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
+#. +> trunk6 stable6
+#: khangman.kcfg:71
+#, kde-format
+msgid "The Providers path for KHangMan"
+msgstr "Conair Soláthraithe le haghaidh KHangMan"
+
+#. +> trunk6 stable6
+#: main.cpp:36
+#, kde-format
+msgid "KHangMan"
+msgstr "KHangMan"
+
+#. +> trunk6 stable6
+#: main.cpp:38
+#, fuzzy, kde-format
+#| msgid "Classical hangman game for KDE"
+msgid "Classical hangman game by KDE"
+msgstr "Cluiche clasaiceach \"An Crochadóir\" le haghaidh KDE"
+
+#. +> trunk6 stable6
+#: main.cpp:40
+#, kde-format
+msgid "(c) 2001-2011, Anne-Marie Mahfouf"
+msgstr "© 2001-2011, Anne-Marie Mahfouf"
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "Primoz Anzur"
+msgstr "Primoz Anzur"
+
+#. +> trunk6 stable6
+#: main.cpp:43
+#, kde-format
+msgid "Previous maintainer"
+msgstr "Iarchothaitheoir"
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#. +> trunk6 stable6
+#: main.cpp:48
+#, kde-format
+msgid "Original Author"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:50
+#, kde-format
+msgid "Rahul Chowdhury"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:50
+#, kde-format
+msgid "Developer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:52
+#, kde-format
+msgid "Stefan Böhmann"
+msgstr "Stefan Böhmann"
+
+#. +> trunk6 stable6
+#: main.cpp:53 main.cpp:98 main.cpp:100 main.cpp:102
+#, kde-format
+msgid "Coding help"
+msgstr "Cabhair le ríomhchlárú"
+
+#. +> trunk6 stable6
+#: main.cpp:54
+#, kde-format
+msgid "Stefan Asserhäll"
+msgstr "Stefan Asserhäll"
+
+#. +> trunk6 stable6
+#: main.cpp:55
+#, kde-format
+msgid "Swedish data files, coding help, transparent pictures and i18n fixes"
+msgstr "Sonraí na Sualainnise, cuidiú le ríomhchlárú, pictiúir thrédhearcacha agus ceartúcháin a bhaineann le hidirnáisiúnú"
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, kde-format
+msgid "eXParTaKus"
+msgstr "eXParTaKus"
+
+#. +> trunk6 stable6
+#: main.cpp:58
+#, kde-format
+msgid "Spanish data files"
+msgstr "Sonraí na Spáinnise"
+
+#. +> trunk6 stable6
+#: main.cpp:59
+#, kde-format
+msgid "Erik Kjær Pedersenn"
+msgstr "Erik Kjær Pedersenn"
+
+#. +> trunk6 stable6
+#: main.cpp:60
+#, kde-format
+msgid "Danish data files"
+msgstr "Sonraí na Danmhairgise"
+
+#. +> trunk6 stable6
+#: main.cpp:61
+#, kde-format
+msgid "Niko Lewman"
+msgstr "Niko Lewman"
+
+#. +> trunk6 stable6
+#: main.cpp:62
+#, kde-format
+msgid "Finnish data files"
+msgstr "Sonraí na Fionlainnise"
+
+#. +> trunk6 stable6
+#: main.cpp:63
+#, kde-format
+msgid "João Sebastião de Oliveira Bueno"
+msgstr "João Sebastião de Oliveira Bueno"
+
+#. +> trunk6 stable6
+#: main.cpp:64
+#, kde-format
+msgid "Brazilian Portuguese data files"
+msgstr "Sonraí Phortaingéilis na Brasaíle"
+
+#. +> trunk6 stable6
+#: main.cpp:65
+#, kde-format
+msgid "Antoni Bella"
+msgstr "Antoni Bella"
+
+#. +> trunk6 stable6
+#: main.cpp:66
+#, kde-format
+msgid "Catalan data files"
+msgstr "Sonraí na Catalóinise"
+
+#. +> trunk6 stable6
+#: main.cpp:67
+#, kde-format
+msgid "Giovanni Venturi"
+msgstr "Giovanni Venturi"
+
+#. +> trunk6 stable6
+#: main.cpp:68
+#, kde-format
+msgid "Italian data files"
+msgstr "Sonraí na hIodáilise"
+
+#. +> trunk6 stable6
+#: main.cpp:69
+#, kde-format
+msgid "Rinse"
+msgstr "Rinse"
+
+#. +> trunk6 stable6
+#: main.cpp:70
+#, kde-format
+msgid "Dutch data files"
+msgstr "Sonraí na hOllainnise"
+
+#. +> trunk6 stable6
+#: main.cpp:71
+#, kde-format
+msgid "Lukáš Tinkl"
+msgstr "Lukáš Tinkl"
+
+#. +> trunk6 stable6
+#: main.cpp:72
+#, kde-format
+msgid "Czech data files"
+msgstr "Sonraí na Seicise"
+
+#. +> trunk6 stable6
+#: main.cpp:73
+#, kde-format
+msgid "Kristóf Kiszel"
+msgstr "Kristóf Kiszel"
+
+#. +> trunk6 stable6
+#: main.cpp:74
+#, kde-format
+msgid "Hungarian data files"
+msgstr "Sonraí na hUngáirise"
+
+#. +> trunk6 stable6
+#: main.cpp:75
+#, kde-format
+msgid "Torger Åge Sinnes"
+msgstr "Torger Åge Sinnes"
+
+#. +> trunk6 stable6
+#: main.cpp:76
+#, kde-format
+msgid "Norwegian (Bokmål) data files"
+msgstr "Sonraí na hIoruaise (Bokmål)"
+
+#. +> trunk6 stable6
+#: main.cpp:77
+#, kde-format
+msgid "Roger Kovacs"
+msgstr "Roger Kovacs"
+
+#. +> trunk6 stable6
+#: main.cpp:78
+#, kde-format
+msgid "Tajik data files"
+msgstr "Sonraí na Táidsícise"
+
+#. +> trunk6 stable6
+#: main.cpp:79
+#, kde-format
+msgid "Chusslove Illich"
+msgstr "Chusslove Illich"
+
+#. +> trunk6 stable6
+#: main.cpp:80
+#, kde-format
+msgid "Serbian (Cyrillic and Latin) data files"
+msgstr "Sonraí na Seirbise (Coireallach agus Laidineach)"
+
+#. +> trunk6 stable6
+#: main.cpp:81
+#, kde-format
+msgid "Jure Repinc"
+msgstr "Jure Repinc"
+
+#. +> trunk6 stable6
+#: main.cpp:82
+#, kde-format
+msgid "Slovenian data files"
+msgstr "Sonraí na Slóivéinise"
+
+#. +> trunk6 stable6
+#: main.cpp:83
+#, kde-format
+msgid "Pedro Morais"
+msgstr "Pedro Morais"
+
+#. +> trunk6 stable6
+#: main.cpp:84
+#, kde-format
+msgid "Portuguese data files"
+msgstr "Sonraí na Portaingéilise"
+
+#. +> trunk6 stable6
+#: main.cpp:85
+#, kde-format
+msgid "Gaute Hvoslef Kvalnes"
+msgstr "Gaute Hvoslef Kvalnes"
+
+#. +> trunk6 stable6
+#: main.cpp:86
+#, kde-format
+msgid "Norwegian (Nynorsk) data files"
+msgstr "Sonraí na hIoruaise (Nynorsk)"
+
+#. +> trunk6 stable6
+#: main.cpp:87
+#, kde-format
+msgid "Mehmet Özel"
+msgstr "Mehmet Özel"
+
+#. +> trunk6 stable6
+#: main.cpp:88
+#, kde-format
+msgid "Turkish data files"
+msgstr "Sonraí na Tuircise"
+
+#. +> trunk6 stable6
+#: main.cpp:89
+#, kde-format
+msgid "Черепанов Андрей"
+msgstr "Черепанов Андрей"
+
+#. +> trunk6 stable6
+#: main.cpp:90
+#, kde-format
+msgid "Russian data files"
+msgstr "Sonraí na Rúisise"
+
+#. +> trunk6 stable6
+#: main.cpp:91
+#, kde-format
+msgid "Radostin Radnev"
+msgstr "Radostin Radnev"
+
+#. +> trunk6 stable6
+#: main.cpp:92
+#, kde-format
+msgid "Bulgarian data files"
+msgstr "Sonraí na Bulgáirise"
+
+#. +> trunk6 stable6
+#: main.cpp:93
+#, kde-format
+msgid "Kevin Patrick Scannell"
+msgstr "Kevin Patrick Scannell"
+
+#. +> trunk6 stable6
+#: main.cpp:94
+#, kde-format
+msgid "Irish (Gaelic) data files"
+msgstr "Sonraí na Gaeilge"
+
+#. +> trunk6 stable6
+#: main.cpp:95
+#, kde-format
+msgid "Matt Howe"
+msgstr "Matt Howe"
+
+#. +> trunk6 stable6
+#: main.cpp:96
+#, kde-format
+msgid "Softer Hangman Pictures"
+msgstr "Pictiúir Níos Séimhe"
+
+#. +> trunk6 stable6
+#: main.cpp:97
+#, kde-format
+msgid "Benjamin Meyer"
+msgstr "Benjamin Meyer"
+
+#. +> trunk6 stable6
+#: main.cpp:99
+#, kde-format
+msgid "Robert Gogolok"
+msgstr "Robert Gogolok"
+
+#. +> trunk6 stable6
+#: main.cpp:101
+#, kde-format
+msgid "Lubos Lunàk"
+msgstr "Lubos Lunàk"
+
+#. +> trunk6 stable6
+#: main.cpp:103
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#. +> trunk6 stable6
+#: main.cpp:104
+#, kde-format
+msgid "Coding help, fixed a lot of things"
+msgstr "Cabhair le ríomhchlárú, go leor ceartúchán"
+
+#. +> trunk6 stable6
+#: main.cpp:105
+#, kde-format
+msgid "Peter Hedlund"
+msgstr "Peter Hedlund"
+
+#. +> trunk6 stable6
+#: main.cpp:106
+#, kde-format
+msgid "Code for generating icons for the characters toolbar"
+msgstr "Cód a ghineann deilbhíní le haghaidh barra uirlisí carachtar"
+
+#. +> trunk6 stable6
+#: main.cpp:107
+#, kde-format
+msgid "Inge Wallin"
+msgstr "Inge Wallin"
+
+#. +> trunk6 stable6
+#: main.cpp:108
+#, kde-format
+msgid "Code cleaning"
+msgstr "Glanadh an chóid"
+
+#. +> trunk6 stable6
+#: main.cpp:109
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#: main.cpp:109
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:128
+#, fuzzy, kde-format
+#| msgid "Choose the category"
+msgid "Choose the word category"
+msgstr "Roghnaigh an chatagóir"
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:163
+#, fuzzy, kde-format
+#| msgid "Choose the language"
+msgid "Select a language"
+msgstr "Roghnaigh an teanga"
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:186
+#, fuzzy, kde-format
+#| msgid "Sea Theme"
+msgid "Select a theme"
+msgstr "Téama Farraige"
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:241
+#, kde-format
+msgid "Pause"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:241
+#, kde-format
+msgid "Play"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:272
+#, kde-format
+msgctxt "@action:button"
+msgid "Configure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:286
+#, kde-format
+msgid "Configure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:314
+#, fuzzy, kde-format
+#| msgid "Choose the language"
+msgid "Get new language files"
+msgstr "Roghnaigh an teanga"
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:327
+#, kde-format
+msgid "View the KHangMan Handbook"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:338 qml/GamePage.qml:344
+#, fuzzy, kde-format
+#| msgid "KHangMan"
+msgid "About KHangMan"
+msgstr "KHangMan"
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:351 qml/GamePage.qml:358
+#, kde-format
+msgid "About KDE"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:379
+#, kde-format
+msgid "Remaining guesses: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:404
+#, kde-format
+msgid "Score: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:438
+#, fuzzy, kde-format
+#| msgid "Wins: %1"
+msgid "Wins: "
+msgstr "Cluichí buaite: %1"
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:466
+#, fuzzy, kde-format
+#| msgid "Losses: %1"
+msgid "Losses: "
+msgstr "Cluichí caillte: %1"
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:605
+#, kde-format
+msgid "Hint"
+msgstr "Leid"
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:606
+#, kde-format
+msgid "Display the hint."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:621
+#, fuzzy, kde-format
+#| msgid "Choose the category"
+msgid "Change the category."
+msgstr "Roghnaigh an chatagóir"
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:634
+#, kde-format
+msgid "Change the language."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:646
+#, kde-format
+msgid "Reveal Word"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:647
+#, kde-format
+msgid "Reveal the current word."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/GamePage.qml:674
+#, kde-format
+msgid "Load the next word and start a new game."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Main.qml:55
+#, fuzzy, kde-format
+#| msgid "Error"
+msgid "Error: %1"
+msgstr "Earráid"
+
+#. +> trunk6 stable6
+#: qml/SelectionDialog.qml:54
+#, kde-format
+msgctxt "@action:button"
+msgid "Close"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:20
+#, fuzzy, kde-format
+#| msgid "KHangMan"
+msgid "KHangMan Settings"
+msgstr "KHangMan"
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:47
+#, kde-format
+msgid "Word resolve time in seconds"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:68
+#, kde-format
+msgid "The duration for showing the hint for the actual word"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:81
+#, fuzzy, kde-format
+#| msgid "KHangMan"
+msgid "Score Multiplying Factor:"
+msgstr "KHangMan"
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:85
+#, kde-format
+msgid "Determine the factor by which the scores will be multiplied."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:96
+#, fuzzy, kde-format
+#| msgid "Enable sounds"
+msgctxt "@option:check"
+msgid "Enable sounds"
+msgstr "Cumasaigh fuaimeanna"
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:107
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Settings/SettingsPage.qml:117
+#, kde-format
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr ""

@@ -1,0 +1,149 @@
+# Irish translation of koconverter
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the koconverter package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: koffice/koconverter.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:24+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:179
+#, fuzzy, kde-format
+msgid "CalligraConverter"
+msgstr "Tiontaire Cáipéise KOffice"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:181
+#, fuzzy, kde-format
+msgid "Calligra Document Converter"
+msgstr "Tiontaire Cáipéise KOffice"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:183
+#, fuzzy, kde-format
+msgid "Copyright 2001-%1 Calligra developers"
+msgstr "© 2001-2004 Forbróirí KOffice"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:184
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:185
+#, kde-format
+msgid "Nicolas Goutte"
+msgstr "Nicolas Goutte"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:186
+#, kde-format
+msgid "Dan Leinir Turthra Jensen"
+msgstr "Dan Leinir Turthra Jensen"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:193
+#, kde-format
+msgid "Input file"
+msgstr "Inchomhad"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:194
+#, kde-format
+msgid "Output file"
+msgstr "Aschomhad"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:195
+#, kde-format
+msgid "Make a backup of the destination file"
+msgstr "Déan cúltaca den sprioc-chomhad"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:196
+#, kde-format
+msgid "Batch mode: do not show dialogs"
+msgstr "Mód baiscphróiseála: ná taispeáin dialóga"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:197
+#, kde-format
+msgid "Interactive mode: show dialogs (default)"
+msgstr "Mód idirghníomhach: taispeáin dialóga (réamhshocrú)"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:198
+#, kde-format
+msgid "Mimetype of the output file"
+msgstr "Cineál MIME den aschomhad"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:202
+#, kde-format
+msgid "The print orientation. This could be either Portrait or Landscape."
+msgstr "Treoshuíomh priontála. Is féidir Portráid nó Tírdhreach a roghnú."
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:205
+#, kde-format
+msgid "The paper size. A4, Legal, Letter, ..."
+msgstr "Páipéarmhéid. A4, Dlí, Litir, ..."
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:207
+#, kde-format
+msgid "The size of the paper margin. By default this is 0.2."
+msgstr ""
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:215
+#, kde-format
+msgid "Two arguments required"
+msgstr "Dhá argóint de dhíth"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:243
+#, kde-format
+msgid "Mimetype for input file %1 not found!"
+msgstr "Níor aimsíodh cineál MIME d'inchomhad %1!"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:252
+#, kde-format
+msgid "Mimetype not found %1"
+msgstr "Cineál MIME gan aimsiú %1"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:258
+#, kde-format
+msgid "Mimetype not found, try using the -mimetype option"
+msgstr "Níor aimsíodh cineál MIME; bain triail as an rogha -mimetype"
+
+#. +> trunk6 stable6
+#: calligraconverter.cpp:282
+#, kde-format
+msgid "*** The conversion failed! ***"
+msgstr "*** Theip ar thiontú! ***"

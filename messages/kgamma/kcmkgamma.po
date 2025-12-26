@@ -1,0 +1,119 @@
+# Irish translation of kcmkgamma
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcmkgamma package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegraphics/kgamma.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-03-29 10:58+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:112
+#, kde-format
+msgid "&Select test picture:"
+msgstr "&Roghnaigh pictiúr tástála:"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:117
+#, kde-format
+msgid "Gray Scale"
+msgstr "Liathscála"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:117
+#, kde-format
+msgid "RGB Scale"
+msgstr "Scála RGB"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:117
+#, kde-format
+msgid "CMY Scale"
+msgstr "Scála CMY"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:117
+#, kde-format
+msgid "Dark Gray"
+msgstr "Dúliath"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:117
+#, kde-format
+msgid "Mid Gray"
+msgstr "Meánliath"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:117
+#, kde-format
+msgid "Light Gray"
+msgstr "Fionnliath"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:168
+#, kde-format
+msgid "Gamma:"
+msgstr "Gáma:"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:171
+#, kde-format
+msgid "Red:"
+msgstr "Dearg:"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:174
+#, kde-format
+msgid "Green:"
+msgstr "Uaine:"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:177
+#, kde-format
+msgid "Blue:"
+msgstr "Gorm:"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:218
+#, kde-format
+msgid "Save settings system wide"
+msgstr "Sábháil na socruithe ar fud an chórais"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:222
+#, kde-format
+msgid "Sync screens"
+msgstr "Sioncrónaigh scáileáin"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:230
+#, kde-format
+msgid "Screen %1"
+msgstr "Scáileán %1"
+
+#. +> trunk6 stable6 stable5
+#: kgamma.cpp:248
+#, kde-format
+msgid "Gamma correction is not supported by your graphics hardware or driver."
+msgstr "Ní thacaíonn do chrua-earraí nó do thiománaí grafaice le gáma-cheartú."
+
+#. +> stable5
+#: kgamma.cpp:604
+#, kde-format
+msgid ""
+"<h1>Monitor Gamma</h1>"
+" This is a tool for changing monitor gamma correction. Use the four sliders to define the gamma correction either as a single value, or separately for the red, green and blue components. You may need to correct the brightness and contrast settings of your monitor for good results. The test images help you to find proper settings.<br>"
+" You can save them system-wide to XF86Config (root access is required for that) or to your own KDE settings. On multi head systems you can correct the gamma values separately for all screens."
+msgstr ""
+"<h1>Gáma an Scáileáin</h1>"
+" Uirlis í seo lenar féidir gáma-cheartú an scáileáin a athrú. Úsáid na ceithre shleamhnán chun an gáma-cheartú a shocrú mar luach aonair, nó mar luachanna ar leith do chomhpháirteanna dearg, uaine agus gorm. Seans go mbeidh ort gile agus codarsnacht do scáileáin a cheartú le haghaidh na dtorthaí is fearr. Úsáid na híomhánna tástála chun na socruithe is fearr a aimsiú.<br>"
+" Is féidir na socruithe seo a shábháil don chóras ar fad i XF86Config (ceadanna an fhorúsáideora de dhíth) nó i do shocruithe KDE féin. Ar chóras le níos mó ná scáileán amháin, is féidir gáma-cheartú a dhéanamh ar gach scáileán."

@@ -1,0 +1,815 @@
+# Irish translation of libkdegames
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the libkdegames package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegames/libkdegames.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-21 18:03+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscore.cpp:154
+#, fuzzy, kde-format
+#| msgid "Retry"
+msgctxt "@action:button"
+msgid "Retry"
+msgstr "Atriail"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscore.cpp:156
+#, kde-format
+msgid "Cannot access the highscore file. Another user is probably currently writing to it."
+msgstr "Ní féidir an comhad leis na scóir is fearr a rochtain. Is dócha go bhfuil úsáideoir eile ag scríobh air faoi láthair."
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:100
+#, fuzzy, kde-format
+#| msgid "High Scores"
+msgctxt "@title:window"
+msgid "High Scores"
+msgstr "Na Scóir Is Fearr"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:114
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:116
+#, fuzzy, kde-format
+#| msgid "Date"
+msgctxt "@title:column"
+msgid "Date"
+msgstr "Dáta"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:118
+#, fuzzy, kde-format
+#| msgid "Level"
+msgctxt "@title:column"
+msgid "Level"
+msgstr "Leibhéal"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:120
+#, fuzzy, kde-format
+#| msgid "Score"
+msgctxt "@title:column"
+msgid "Score"
+msgstr "Scór"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:122
+#, fuzzy, kde-format
+#| msgid "Time"
+msgctxt "@title:column"
+msgid "Time"
+msgstr "Am"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:271
+#, fuzzy, kde-format
+#| msgid "High Scores"
+msgctxt "@title:tab"
+msgid "High Scores"
+msgstr "Na Scóir Is Fearr"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:288
+#, fuzzy, kde-format
+#| msgid "Rank"
+msgctxt "@title:group"
+msgid "Rank"
+msgstr "Rang"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:309
+#, kde-format
+msgctxt "Enumeration (#1, #2 ...) of the highscore entries"
+msgid "#%1"
+msgstr "#%1"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:548
+#, fuzzy, kde-format
+#| msgid "&Remember"
+msgctxt "@action:button"
+msgid "&Remember"
+msgstr "&Meabhraigh"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:549
+#, fuzzy, kde-format
+#| msgid "&Forget"
+msgctxt "@action:button"
+msgid "&Forget"
+msgstr "&Déan Dearmad"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:550
+#, fuzzy, kde-format
+#| msgid "Remember this high score"
+msgctxt "@info:tooltip"
+msgid "Remember this high score"
+msgstr "Meabhraigh an scór seo"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:551
+#, fuzzy, kde-format
+#| msgid "Forget this high score"
+msgctxt "@info:tooltip"
+msgid "Forget this high score"
+msgstr "Déan dearmad ar an scór seo"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:559
+#, kde-format
+msgid ""
+"Excellent!\n"
+"You have a new high score!"
+msgstr ""
+"Thar barr!\n"
+"Tá ceann de na scóir is fearr riamh agat!"
+
+#. +> trunk6 stable6
+#: highscore/kgamehighscoredialog.cpp:561
+#, kde-format
+msgid ""
+"Well done!\n"
+"You made it to the high score list!"
+msgstr ""
+"Maith thú!\n"
+"Tá ceann de na scóir is fearr riamh agat!"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:76
+#, kde-format
+msgctxt "Game difficulty level 1 out of 8"
+msgid "Ridiculously Easy"
+msgstr "Ró-Éasca"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:79
+#, kde-format
+msgctxt "Game difficulty level 2 out of 8"
+msgid "Very Easy"
+msgstr "An-Éasca"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:82
+#, kde-format
+msgctxt "Game difficulty level 3 out of 8"
+msgid "Easy"
+msgstr "Éasca"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:85
+#, kde-format
+msgctxt "Game difficulty level 4 out of 8"
+msgid "Medium"
+msgstr "Measartha"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:88
+#, kde-format
+msgctxt "Game difficulty level 5 out of 8"
+msgid "Hard"
+msgstr "Crua"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:91
+#, kde-format
+msgctxt "Game difficulty level 6 out of 8"
+msgid "Very Hard"
+msgstr "An-Chrua"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:94
+#, kde-format
+msgctxt "Game difficulty level 7 out of 8"
+msgid "Extremely Hard"
+msgstr "Fíorchrua"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:97
+#, kde-format
+msgctxt "Game difficulty level 8 out of 8"
+msgid "Impossible"
+msgstr "Dodhéanta"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:316
+#, kde-format
+msgid "Changing the difficulty level will end the current game!"
+msgstr "Má athraíonn tú an leibhéal deacrachta, cuirfear deireadh leis an gcluiche reatha!"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:318
+#, fuzzy, kde-format
+#| msgid "Change the difficulty level"
+msgctxt "@action:button"
+msgid "Change the Difficulty Level"
+msgstr "Athraigh an leibhéal deacrachta"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:402
+#, fuzzy, kde-format
+#| msgid "Difficulty"
+msgctxt "@info:tooltip Game difficulty level"
+msgid "Difficulty"
+msgstr "Deacracht"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:410
+#, fuzzy, kde-format
+#| msgid "Difficulty"
+msgctxt "@title:menu Game difficulty level"
+msgid "Difficulty"
+msgstr "Deacracht"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:411
+#, fuzzy, kde-format
+#| msgid "Set the difficulty level"
+msgctxt "@info:tooltip"
+msgid "Set the difficulty level"
+msgstr "Socraigh an leibhéal deacrachta"
+
+#. +> trunk6 stable6
+#: kgamedifficulty.cpp:412
+#, fuzzy, kde-format
+#| msgid "Set the difficulty level of the game."
+msgctxt "@info:whatsthis"
+msgid "Sets the difficulty level of the game."
+msgstr "Socraigh leibhéal deacrachta an chluiche."
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:68
+msgctxt "new game"
+msgid "&New"
+msgstr "&Nua"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:68
+msgid "Start a new game."
+msgstr "Tosaigh cluiche nua."
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:68
+msgid "Start a new game"
+msgstr "Tosaigh cluiche nua"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:70
+#, fuzzy
+#| msgid "&Load..."
+msgid "&Load…"
+msgstr "&Luchtaigh..."
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:70
+#, fuzzy
+#| msgid "Open a saved game..."
+msgid "Open a saved game"
+msgstr "Oscail cluiche sábháilte..."
+
+# implicitly "games"
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:72
+msgid "Load &Recent"
+msgstr "Luchtaigh Cluiche Le &Déanaí"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:72
+#, fuzzy
+#| msgid "Open a recently saved game..."
+msgid "Open a recently saved game"
+msgstr "Oscail cluiche a sábháladh le déanaí..."
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:74
+msgid "Restart &Game"
+msgstr "Atosaigh &Cluiche"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:74
+msgid "Restart the game"
+msgstr "Atosaigh an cluiche"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:76
+msgid "&Save"
+msgstr "&Sábháil"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:76
+msgid "Save the current game"
+msgstr "Sábháil an cluiche reatha"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:78
+#, fuzzy
+#| msgid "Save &As..."
+msgid "Save &As…"
+msgstr "Sábháil M&ar..."
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:78
+msgid "Save the current game to another file"
+msgstr "Sábháil an comhad reatha i gcomhad eile"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:80
+msgid "&End Game"
+msgstr "Cuir Cluich&e i gCrích"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:80
+msgid "End the current game"
+msgstr "Cuir deireadh leis an gcluiche reatha"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:82
+msgid "Pa&use"
+msgstr "So&s"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:82
+msgid "Pause the game"
+msgstr "Cuir an cluiche ar shos"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:84
+msgid "Show &High Scores"
+msgstr "Taispeáin na Scóir is &Fearr"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:84
+msgid "Show high scores"
+msgstr "Taispeáin na scóir is fearr"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:86
+msgid "&Clear High Scores"
+msgstr "&Glan Na Scóir Is Fearr"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:86
+msgid "Clear high scores"
+msgstr "Glan na scóir is fearr"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:88
+msgid "Show Statistics"
+msgstr "Taispeáin Staitisticí"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:88
+msgid "Show statistics"
+msgstr "Taispeáin staitisticí"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:90
+msgid "&Clear Statistics"
+msgstr "&Glan na staitisticí"
+
+# not "Scrios na staitisticí ama go léir." which is what I had before the "-"
+# was inserted in "all-time"
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:90
+msgid "Delete all-time statistics."
+msgstr "Scrios na staitisticí go léir."
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:92
+#, fuzzy
+#| msgid "&Print..."
+msgid "&Print…"
+msgstr "&Priontáil..."
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:94
+msgid "&Quit"
+msgstr "&Scoir"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:94
+msgid "Quit the program"
+msgstr "Scoir an ríomhchlár"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:98
+msgid "Repeat"
+msgstr "Arís"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:98
+msgid "Repeat the last move"
+msgstr "Athdhéan an beart is déanaí"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:100
+msgid "Und&o"
+msgstr "C&ealaigh"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:100
+msgid "Undo the last move"
+msgstr "Cealaigh an beart is déanaí"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:102
+msgid "Re&do"
+msgstr "Ath&dhéan"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:102
+msgid "Redo the latest move"
+msgstr "Athdhéan an beart is déanaí"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:104
+msgid "&Roll Dice"
+msgstr "&Caith Díslí"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:104
+msgid "Roll the dice"
+msgstr "Caith díslí"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:106
+msgid "End Turn"
+msgstr "Cuir Deireadh leis an mBabhta"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:108
+msgid "&Hint"
+msgstr "&Leid"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:108
+msgid "Give a hint"
+msgstr "Tabhair leid"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:110
+msgid "&Demo"
+msgstr "&Taispeántas"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:110
+msgid "Play a demo"
+msgstr "Imir cluiche taispeána"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:112
+msgid "&Solve"
+msgstr "&Réitigh"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:112
+msgid "Solve the game"
+msgstr "Réitigh an cluiche"
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:116
+#, fuzzy
+#| msgid "Configure &Carddecks..."
+msgid "Configure &Carddecks…"
+msgstr "Cumraigh deiceanna &cártaí..."
+
+#. +> trunk6 stable6
+#: kgamestandardaction.cpp:118
+#, fuzzy
+#| msgid "Configure &High Scores..."
+msgid "Configure &High Scores…"
+msgstr "Cumraigh Na Scóir Is &Fearr..."
+
+#. +> trunk6 stable6
+#: kgamethemeselector.cpp:108
+#, fuzzy, kde-format
+#| msgid "Get New Themes..."
+msgctxt "@action:button"
+msgid "Download New Themes…"
+msgstr "Faigh Téamaí Nua..."
+
+#. +> trunk6 stable6
+#: kgamethemeselector.cpp:210
+#, kde-format
+msgctxt "@title:window config dialog"
+msgid "Select theme"
+msgstr "Roghnaigh téama"
+
+#. +> trunk6 stable6
+#: kgamethemeselector.cpp:282
+#, fuzzy, kde-format
+#| msgid "[No name]"
+msgctxt "@item name of theme, missing"
+msgid "[No name]"
+msgstr "[Gan ainm]"
+
+#. +> trunk6 stable6
+#: kgamethemeselector.cpp:298
+#, fuzzy, kde-format
+#| msgctxt "Author attribution, e.g. \"by Jack\""
+#| msgid "by %1"
+msgctxt "@info author attribution"
+msgid "By %1"
+msgstr "le %1"
+
+#. +> trunk6 stable6
+#: private/kchatbase.cpp:98
+#, kde-format
+msgid "Send to All Players"
+msgstr "Seol chuig Gach Imreoir"
+
+#. +> trunk6 stable6
+#: private/kchatbase.cpp:262 private/kgame/kgamechat.cpp:174
+#, kde-format
+msgid "Send to %1"
+msgstr "Seol chuig %1"
+
+#. +> trunk6 stable6
+#: private/kchatbaseitemdelegate.cpp:41 private/kchatbaseitemdelegate.cpp:43
+#: private/kchatbaseitemdelegate.cpp:60
+#, kde-format
+msgid "%1: "
+msgstr "%1: "
+
+#. +> trunk6 stable6
+#: private/kgame/kgame.cpp:69
+#, kde-format
+msgid "MaxPlayers"
+msgstr "Líon Uasta Imreoirí"
+
+#. +> trunk6 stable6
+#: private/kgame/kgame.cpp:71
+#, kde-format
+msgid "MinPlayers"
+msgstr "Líon Íosta Imreoirí"
+
+#. +> trunk6 stable6
+#: private/kgame/kgame.cpp:73
+#, kde-format
+msgid "GameStatus"
+msgstr "Stádas an Chluiche"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamechat.cpp:81
+#, kde-format
+msgid "Player %1"
+msgstr "Imreoir %1"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamechat.cpp:89
+#, kde-format
+msgctxt "Unknown player"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamechat.cpp:231
+#, kde-format
+msgid "Send to My Group (\"%1\")"
+msgstr "Seol chuig mo Ghrúpa (\"%1\")"
+
+#. +> trunk6 stable6
+#: private/kgame/kgameerror.cpp:51
+#, kde-format
+msgid ""
+"Cookie mismatch!\n"
+"Expected Cookie: %1\n"
+"Received Cookie: %2"
+msgstr ""
+"Fianáin neamh-chomhoiriúnacha!\n"
+"Ag súil le: %1\n"
+"Fuarthas: %2"
+
+#. +> trunk6 stable6
+#: private/kgame/kgameerror.cpp:59
+#, kde-format
+msgid ""
+"KGame Version mismatch!\n"
+"Expected Version: %1\n"
+"Received Version: %2\n"
+msgstr ""
+"Leaganacha neamh-chomhoiriúnacha KGame!\n"
+"Ag súil le: %1\n"
+"Fuarthas: %2\n"
+
+#. +> trunk6 stable6
+#: private/kgame/kgameerror.cpp:63
+#, kde-format
+msgid "Unknown error code %1"
+msgstr "Cód earráide anaithnid %1"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:102
+#, kde-format
+msgid "Setup Game"
+msgstr "Socraigh Cluiche"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:104
+#, kde-format
+msgid "Setup Game Continue"
+msgstr "Socrú an Chluiche Ar Lean"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:106
+#, kde-format
+msgid "Load Game"
+msgstr "Luchtaigh Cluiche"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:108
+#, kde-format
+msgid "Client game connected"
+msgstr "Cluiche cliaint ceangailte"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:110
+#, kde-format
+msgid "Game setup done"
+msgstr "Tá socrú an chluiche críochnaithe"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:112
+#, kde-format
+msgid "Synchronize Random"
+msgstr "Sioncrónaigh go Randamach"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:114
+#, kde-format
+msgid "Disconnect"
+msgstr "Dícheangail"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:116
+#, kde-format
+msgid "Player Property"
+msgstr "Airí Imreora"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:118
+#, kde-format
+msgid "Game Property"
+msgstr "Airí Cluiche"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:120
+#, kde-format
+msgid "Add Player"
+msgstr "Cuir Imreoir Leis"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:122
+#, kde-format
+msgid "Remove Player"
+msgstr "Bain Imreoir"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:124
+#, kde-format
+msgid "Activate Player"
+msgstr "Gníomhachtaigh Imreoir"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:126
+#, kde-format
+msgid "Inactivate Player"
+msgstr "Díghníomhachtaigh Imreoir"
+
+# following fr: "ID du tour"?
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:128
+#, kde-format
+msgid "Id Turn"
+msgstr "Aitheantas an Bhabhta"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:130
+#, kde-format
+msgid "Error Message"
+msgstr "Teachtaireacht Earráide"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:132
+#, kde-format
+msgid "Player Input"
+msgstr "Ionchur ó Imreoir"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:134
+#, kde-format
+msgid "An IO was added"
+msgstr "Cuireadh I/A leis"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:136
+#, kde-format
+msgid "Process Query"
+msgstr "Iarratas Próisis"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamemessage.cpp:138
+#, kde-format
+msgid "Player ID"
+msgstr "Aitheantas Imreora"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamepropertyhandler.cpp:160
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamepropertyhandler.cpp:162
+#, kde-format
+msgid "Unnamed - ID: %1"
+msgstr "Gan ainm - Aitheantas: %1"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamepropertyhandler.cpp:166
+#, kde-format
+msgid "%1 unregistered"
+msgid_plural "%1 unregistered"
+msgstr[0] "%1 cheann gan clárú"
+msgstr[1] "%1 cheann gan clárú"
+msgstr[2] "%1 cinn gan clárú"
+msgstr[3] "%1 gcinn gan clárú"
+msgstr[4] "%1 gan clárú"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamepropertyhandler.cpp:338
+#, kde-format
+msgid "NULL pointer"
+msgstr "Pointeoir nialasach"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamepropertyhandler.cpp:355
+#, kde-format
+msgid "True"
+msgstr "Fíor"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamepropertyhandler.cpp:355
+#, kde-format
+msgid "False"
+msgstr "Bréagach"
+
+#. +> trunk6 stable6
+#: private/kgame/kgamepropertyhandler.cpp:361
+#, kde-format
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> trunk6 stable6
+#: private/kgame/kplayer.cpp:73
+#, kde-format
+msgid "UserId"
+msgstr "Aitheantas Úsáideora"
+
+#. +> trunk6 stable6
+#: private/kgame/kplayer.cpp:75
+#, kde-format
+msgid "Group"
+msgstr "Grúpa"
+
+#. +> trunk6 stable6
+#: private/kgame/kplayer.cpp:76 private/kgame/kplayer.cpp:78
+#, kde-format
+msgid "default"
+msgstr "réamhshocraithe"
+
+#. +> trunk6 stable6
+#: private/kgame/kplayer.cpp:77
+#, kde-format
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: private/kgame/kplayer.cpp:80
+#, kde-format
+msgid "AsyncInput"
+msgstr "IonchurAisionc"
+
+#. +> trunk6 stable6
+#: private/kgame/kplayer.cpp:82
+#, kde-format
+msgid "myTurn"
+msgstr "moBhabhta"

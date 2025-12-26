@@ -1,0 +1,39 @@
+# translation of kdelibs4.po to Irish
+# Translation of kdelibs4.po to Irish
+# Copyright (C) 1999,2003,2004 Free Software Foundation, Inc.
+# Sean V. Kelley <s_oceallaigh@yahoo.com>, 1999
+# Kevin Scannell <kscanne@gmail.com>, 2004-2009
+# SPDX-FileCopyrightText: 2025 Charlotte <altronic25@protonmail.com>
+# Séamus Ó Ciardhuáin <seoc at iolfree.ie>, 2003,2004
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs4\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2023-03-02 10:46+0100\n"
+"PO-Revision-Date: 2025-12-18 21:42+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 trunk5
+#: servicemodel.cpp:99
+msgctxt "KDNSSD::ServiceModel|"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 trunk5
+#: servicemodel.cpp:101
+msgctxt "KDNSSD::ServiceModel|"
+msgid "Host"
+msgstr "Óstríomhaire"
+
+# OK as is
+#. +> trunk6 trunk5
+#: servicemodel.cpp:103
+msgctxt "KDNSSD::ServiceModel|"
+msgid "Port"
+msgstr "Port"

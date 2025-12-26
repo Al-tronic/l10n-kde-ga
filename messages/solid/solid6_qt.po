@@ -1,0 +1,1402 @@
+# Irish translation of solid_qt
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the solid_qt package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: solid_qt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-19 00:54+0100\n"
+"PO-Revision-Date: 2009-12-24 06:59-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/fstab/fstabdevice.cpp:61
+#, qt-format
+msgctxt "%1 is sharename, %2 is servername"
+msgid "%1 on %2"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/fstab/fstabdevice.cpp:63
+#, qt-format
+msgctxt "%1 is mountpoint, %2 is fs type"
+msgid "%1 (%2)"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/fstab/fstabmanager.cpp:80
+msgctxt "Solid::Backends::Fstab::FstabManager|"
+msgid "Filesystem Volumes"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/fstab/fstabmanager.cpp:81
+#, fuzzy
+#| msgid "Devices declared in your system"
+msgctxt "Solid::Backends::Fstab::FstabManager|"
+msgid "Mountable filesystems declared in your system"
+msgstr "Gléasanna ar fáil ar do chóras"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/imobile/imobiledevice.cpp:90
+msgctxt "imobiledevice|Company name"
+msgid "Apple"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/imobile/imobilemanager.cpp:101
+#, fuzzy
+#| msgid "Devices"
+msgctxt "Solid::Backends::IMobile::Manager|"
+msgid "iDevice"
+msgstr "Gléasanna"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/imobile/imobilemanager.cpp:102
+#, fuzzy
+msgctxt "Solid::Backends::IMobile::Manager|"
+msgid "iOS devices"
+msgstr "Gléasanna UPnP"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udev/udevdevice.cpp:100
+#, fuzzy
+#| msgid "Computer"
+msgctxt "Solid::Backends::UDev::UDevDevice|"
+msgid "Computer"
+msgstr "Ríomhaire"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udev/udevdevice.cpp:104
+#, fuzzy
+#| msgid "Processor"
+msgctxt "Solid::Backends::UDev::UDevDevice|"
+msgid "Processor"
+msgstr "Próiseálaí"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udev/udevdevice.cpp:115
+#, fuzzy
+#| msgid "Portable Media Player"
+msgctxt "Solid::Backends::UDev::UDevDevice|"
+msgid "Portable Media Player"
+msgstr "Seinnteoir Iniompair Meán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udev/udevdevice.cpp:118
+#, fuzzy
+#| msgid "Camera"
+msgctxt "Solid::Backends::UDev::UDevDevice|"
+msgid "Camera"
+msgstr "Ceamara"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udev/udevmanager.cpp:221
+#, fuzzy
+#| msgid "Devices"
+msgctxt "Solid::Backends::UDev::UDevManager|"
+msgid "Devices"
+msgstr "Gléasanna"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udev/udevmanager.cpp:222
+#, fuzzy
+#| msgid "Devices declared in your system"
+msgctxt "Solid::Backends::UDev::UDevManager|"
+msgid "Devices declared in your system"
+msgstr "Gléasanna ar fáil ar do chóras"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:43
+#, fuzzy, qt-format
+#| msgid "%1 TiB"
+msgctxt "udisksdevice|"
+msgid "%1 TiB"
+msgstr "%1 TiB"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:45
+#, fuzzy, qt-format
+#| msgid "%1 GiB"
+msgctxt "udisksdevice|"
+msgid "%1 GiB"
+msgstr "%1 GiB"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:51
+#, fuzzy, qt-format
+#| msgid "%1 MiB"
+msgctxt "udisksdevice|"
+msgid "%1 MiB"
+msgstr "%1 MiB"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:56
+#, fuzzy, qt-format
+#| msgid "%1 KiB"
+msgctxt "udisksdevice|"
+msgid "%1 KiB"
+msgstr "%1 KiB"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:60
+#, fuzzy, qt-format
+#| msgid "%1 B"
+msgctxt "udisksdevice|"
+msgid "%1 B"
+msgstr "%1 B"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:64
+#, fuzzy
+#| msgid "0 B"
+msgctxt "udisksdevice|"
+msgid "0 B"
+msgstr "0 B"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:75
+#, fuzzy, qt-format
+#| msgctxt "%1 is the size"
+#| msgid "%1 External Hard Drive"
+msgctxt "QObject|%1 is the size, %2 is the block device name e.g. sda, sda1"
+msgid "%1 External Drive (%2)"
+msgstr "Tiomántán Crua Seachtrach %1"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:77
+#, fuzzy, qt-format
+#| msgctxt "%1 is the size"
+#| msgid "%1 External Hard Drive"
+msgctxt "QObject|%1 is the size, %2 is the block device name e.g. sda, sda1"
+msgid "%1 Internal Drive (%2)"
+msgstr "Tiomántán Crua Seachtrach %1"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:81
+#, fuzzy, qt-format
+#| msgctxt "%1 is CD-ROM/CD-R/etc; %2 is '/DVD-ROM'/'/DVD-R'/etc (with leading slash)"
+#| msgid "External %1%2 Drive"
+msgctxt "QObject|%1 is the block device name e.g. sda, sda1"
+msgid "External Drive (%1)"
+msgstr "Tiomántán Seachtrach %1%2"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:83
+#, fuzzy, qt-format
+#| msgctxt "%1 is CD-ROM/CD-R/etc; %2 is '/DVD-ROM'/'/DVD-R'/etc (with leading slash)"
+#| msgid "External %1%2 Drive"
+msgctxt "QObject|%1 is the block device name e.g. sda, sda1"
+msgid "Internal Drive (%1)"
+msgstr "Tiomántán Seachtrach %1%2"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:236
+#, fuzzy
+#| msgid "Swap Space"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Swap Space"
+msgstr "Spás Babhtála"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:258
+#, fuzzy
+#| msgid "Devices"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Loop Device"
+msgstr "Gléasanna"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:274
+#, fuzzy
+#| msgid "CD-ROM"
+msgctxt "Solid::Backends::UDisks2::Device|First item of %1%2 Drive sentence"
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:276
+#, fuzzy
+#| msgid "CD-R"
+msgctxt "Solid::Backends::UDisks2::Device|First item of %1%2 Drive sentence"
+msgid "CD-R"
+msgstr "CD-R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:279
+#, fuzzy
+#| msgid "CD-RW"
+msgctxt "Solid::Backends::UDisks2::Device|First item of %1%2 Drive sentence"
+msgid "CD-RW"
+msgstr "CD-RW"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:283
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/DVD-ROM"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/DVD-ROM"
+msgstr "/DVD-ROM"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:286
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/DVD+R"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/DVD+R"
+msgstr "/DVD+R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:289
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/DVD+RW"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/DVD+RW"
+msgstr "/DVD+RW"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:292
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/DVD-R"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/DVD-R"
+msgstr "/DVD-R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:295
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/DVD-RW"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/DVD-RW"
+msgstr "/DVD-RW"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:298
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/DVD-RAM"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/DVD-RAM"
+msgstr "/DVD-RAM"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:302
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/DVD±R DL"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/DVD±R DL"
+msgstr "/DVD±R DL"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:304
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/DVD±R"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/DVD±R"
+msgstr "/DVD±R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:309
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/DVD±RW DL"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/DVD±RW DL"
+msgstr "/DVD±RW DL"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:311
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/DVD±RW"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/DVD±RW"
+msgstr "/DVD±RW"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:315
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/BD-ROM"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/BD-ROM"
+msgstr "/BD-ROM"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:318
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/BD-R"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/BD-R"
+msgstr "/BD-R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:321
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/BD-RE"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/BD-RE"
+msgstr "/BD-RE"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:324
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/HD DVD-ROM"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/HD DVD-ROM"
+msgstr "/HD DVD-ROM"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:327
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/HD DVD-R"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/HD DVD-R"
+msgstr "/HD DVD-R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:330
+#, fuzzy
+#| msgctxt "Second item of %1%2 Drive sentence"
+#| msgid "/HD DVD-RW"
+msgctxt "Solid::Backends::UDisks2::Device|Second item of %1%2 Drive sentence"
+msgid "/HD DVD-RW"
+msgstr "/HD DVD-RW"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:334
+#, fuzzy, qt-format
+#| msgctxt "%1 is CD-ROM/CD-R/etc; %2 is '/DVD-ROM'/'/DVD-R'/etc (with leading slash)"
+#| msgid "External %1%2 Drive"
+msgctxt "Solid::Backends::UDisks2::Device|%1 is CD-ROM/CD-R/etc; %2 is '/DVD-ROM'/'/DVD-R'/etc (with leading slash)"
+msgid "External %1%2 Drive"
+msgstr "Tiomántán Seachtrach %1%2"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:336
+#, fuzzy, qt-format
+#| msgctxt "%1 is CD-ROM/CD-R/etc; %2 is '/DVD-ROM'/'/DVD-R'/etc (with leading slash)"
+#| msgid "%1%2 Drive"
+msgctxt "Solid::Backends::UDisks2::Device|%1 is CD-ROM/CD-R/etc; %2 is '/DVD-ROM'/'/DVD-R'/etc (with leading slash)"
+msgid "%1%2 Drive"
+msgstr "Tiomántán %1%2"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:344
+#, fuzzy
+#| msgid "External Floppy Drive"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "External Floppy Drive"
+msgstr "Tiomántán Seachtrach Discéad"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:346
+#, fuzzy
+#| msgid "Floppy Drive"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Floppy Drive"
+msgstr "Tiomántán Diosca Fhlapaigh"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:378
+#, fuzzy, qt-format
+#| msgctxt "%1 is the vendor, %2 is the model of the device"
+#| msgid "%1 %2"
+msgctxt "Solid::Backends::UDisks2::Device|%1 is the vendor, %2 is the model of the device"
+msgid "%1 %2"
+msgstr "%1 %2"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:384
+#, fuzzy
+#| msgid "Drive"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Drive"
+msgstr "Tiomántán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:414
+#, fuzzy
+#| msgid "CD-ROM"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:419
+#, fuzzy
+#| msgid "Blank CD-R"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank CD-R"
+msgstr "CD-R Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:421
+#, fuzzy
+#| msgid "CD-R"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "CD-R"
+msgstr "CD-R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:427
+#, fuzzy
+#| msgid "Blank CD-RW"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank CD-RW"
+msgstr "CD-RW Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:429
+#, fuzzy
+#| msgid "CD-RW"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "CD-RW"
+msgstr "CD-RW"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:434
+#, fuzzy
+#| msgid "DVD-ROM"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "DVD-ROM"
+msgstr "DVD-ROM"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:439
+#, fuzzy
+#| msgid "Blank DVD-RAM"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank DVD-RAM"
+msgstr "DVD-RAM Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:441
+#, fuzzy
+#| msgid "DVD-RAM"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "DVD-RAM"
+msgstr "DVD-RAM"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:447
+#, fuzzy
+#| msgid "Blank DVD-R"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank DVD-R"
+msgstr "DVD-R Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:449
+#, fuzzy
+#| msgid "DVD-R"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "DVD-R"
+msgstr "DVD-R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:455
+#, fuzzy
+#| msgid "Blank DVD+R Dual-Layer"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank DVD+R Dual-Layer"
+msgstr "DVD+R Bán Déshraithe"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:457
+#, fuzzy
+#| msgid "DVD+R Dual-Layer"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "DVD+R Dual-Layer"
+msgstr "DVD+R Déshraithe"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:463
+#, fuzzy
+#| msgid "Blank DVD-RW"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank DVD-RW"
+msgstr "DVD-RW Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:465
+#, fuzzy
+#| msgid "DVD-RW"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "DVD-RW"
+msgstr "DVD-RW"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:471
+#, fuzzy
+#| msgid "Blank DVD+R"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank DVD+R"
+msgstr "DVD+R Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:473
+#, fuzzy
+#| msgid "DVD+R"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "DVD+R"
+msgstr "DVD+R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:479
+#, fuzzy
+#| msgid "Blank DVD+RW"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank DVD+RW"
+msgstr "DVD+RW Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:481
+#, fuzzy
+#| msgid "DVD+RW"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "DVD+RW"
+msgstr "DVD+RW"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:487
+#, fuzzy
+#| msgid "Blank DVD+RW Dual-Layer"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank DVD+RW Dual-Layer"
+msgstr "DVD+RW Bán Déshraithe"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:489
+#, fuzzy
+#| msgid "DVD+RW Dual-Layer"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "DVD+RW Dual-Layer"
+msgstr "DVD+RW Déshraithe"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:494
+#, fuzzy
+#| msgid "BD-ROM"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "BD-ROM"
+msgstr "BD-ROM"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:499
+#, fuzzy
+#| msgid "Blank BD-R"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank BD-R"
+msgstr "BD-R Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:501
+#, fuzzy
+#| msgid "BD-R"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "BD-R"
+msgstr "BD-R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:507
+#, fuzzy
+#| msgid "Blank BD-RE"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank BD-RE"
+msgstr "BD-RE Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:509
+#, fuzzy
+#| msgid "BD-RE"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "BD-RE"
+msgstr "BD-RE"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:514
+#, fuzzy
+#| msgid "HD DVD-ROM"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "HD DVD-ROM"
+msgstr "HD DVD-ROM"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:519
+#, fuzzy
+#| msgid "Blank HD DVD-R"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank HD DVD-R"
+msgstr "DVD-R HD Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:521
+#, fuzzy
+#| msgid "HD DVD-R"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "HD DVD-R"
+msgstr "HD DVD-R"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:527
+#, fuzzy
+#| msgid "Blank HD DVD-RW"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Blank HD DVD-RW"
+msgstr "DVD-RW HD Bán"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:529
+#, fuzzy
+#| msgid "HD DVD-RW"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "HD DVD-RW"
+msgstr "DVD-RW HD"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:536
+#, fuzzy
+#| msgid "Audio CD"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Audio CD"
+msgstr "Dlúthdhiosca Fuaime"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:549
+#, fuzzy, qt-format
+#| msgctxt "%1 is the size"
+#| msgid "%1 Encrypted Drive"
+msgctxt "Solid::Backends::UDisks2::Device|%1 is the size"
+msgid "%1 Encrypted Drive"
+msgstr "Tiomántán Criptithe %1"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:551
+#, fuzzy
+#| msgctxt ""
+#| msgid "Encrypted Drive"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Encrypted Drive"
+msgstr "Tiomántán Criptithe"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:556
+#, fuzzy
+#| msgid "Floppy Drive"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Floppy Disk"
+msgstr "Tiomántán Diosca Fhlapaigh"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:560
+#, fuzzy, qt-format
+#| msgctxt "%1 is the size"
+#| msgid "%1 Removable Media"
+msgctxt "Solid::Backends::UDisks2::Device|%1 is the size"
+msgid "%1 Removable Media"
+msgstr "Meán Inbhainte %1"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:562
+#, fuzzy
+#| msgctxt "%1 is the size"
+#| msgid "%1 Removable Media"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Removable Media"
+msgstr "Meán Inbhainte %1"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:566
+#, fuzzy, qt-format
+#| msgctxt "%1 is the size"
+#| msgid "%1 Media"
+msgctxt "Solid::Backends::UDisks2::Device|%1 is the size"
+msgid "%1 Media"
+msgstr "Meán %1"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:568
+#, fuzzy
+#| msgid "Storage devices"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Storage Media"
+msgstr "Gléasanna stórais"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:715
+#, fuzzy
+#| msgctxt ""
+#| msgid "You are not authorized to perform this operation"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "You are not authorized to perform this operation"
+msgstr "Níl cead agat an oibríocht seo seo dhéanamh"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:717
+#, fuzzy
+#| msgctxt ""
+#| msgid "The device is currently busy"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The device is currently busy"
+msgstr "Tá an gléas gnóthach faoi láthair"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:719
+#, fuzzy
+#| msgctxt ""
+#| msgid "The requested operation has failed"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The requested operation has failed"
+msgstr "Theip ar an oibríocht iarrtha"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:721
+#, fuzzy
+#| msgctxt ""
+#| msgid "The requested operation has been canceled"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The requested operation has been canceled"
+msgstr "Cealaíodh an oibríocht iarrtha"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:723
+#, fuzzy
+#| msgctxt ""
+#| msgid "An invalid or malformed option has been given"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "An invalid or malformed option has been given"
+msgstr "Tugadh rogha neamhbhailí nó mhíchumtha"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:725
+#, fuzzy
+#| msgctxt ""
+#| msgid "The kernel driver for this filesystem type is not available"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The kernel driver for this filesystem type is not available"
+msgstr "Níl tiománaí eithne don chóras comhad seo ar fáil"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:727
+#, fuzzy
+#| msgctxt ""
+#| msgid "The device is currently busy"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The device is already mounted"
+msgstr "Tá an gléas gnóthach faoi láthair"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:729
+#, fuzzy
+#| msgctxt ""
+#| msgid "The device is currently busy"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The device is not mounted"
+msgstr "Tá an gléas gnóthach faoi láthair"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:731
+#, fuzzy
+#| msgctxt ""
+#| msgid "The device is currently busy"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The device is mounted by another user"
+msgstr "Tá an gléas gnóthach faoi láthair"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:733
+#, fuzzy
+#| msgctxt ""
+#| msgid "The device is currently busy"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The device is already unmounting"
+msgstr "Tá an gléas gnóthach faoi láthair"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:735
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The operation timed out"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:737
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The operation would wake up a disk that is in a deep-sleep state"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:739
+#, fuzzy
+#| msgctxt ""
+#| msgid "The requested operation has been canceled"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The operation has already been canceled"
+msgstr "Cealaíodh an oibríocht iarrtha"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:741
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "Cannot request authentication for this action. The PolicyKit authentication system appears to be not available."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:743
+#, fuzzy
+#| msgctxt ""
+#| msgid "The requested operation has been canceled"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "The authentication prompt was canceled"
+msgstr "Cealaíodh an oibríocht iarrtha"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksdevice.cpp:745
+#, fuzzy
+#| msgctxt ""
+#| msgid "An unspecified error has occurred"
+msgctxt "Solid::Backends::UDisks2::Device|"
+msgid "An unspecified error has occurred"
+msgstr "Tharla earráid gan sonrú"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksmanager.cpp:106
+#, fuzzy
+#| msgid "Storage"
+msgctxt "Solid::Backends::UDisks2::Manager|"
+msgid "Storage"
+msgstr "Stóras"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/udisks2/udisksmanager.cpp:107
+#, fuzzy
+#| msgid "Storage devices"
+msgctxt "Solid::Backends::UDisks2::Manager|"
+msgid "Storage devices"
+msgstr "Gléasanna stórais"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/upower/upowerdevice.cpp:120
+#, fuzzy, qt-format
+#| msgctxt "%1 is battery technology"
+#| msgid "%1 Battery"
+msgctxt "Solid::Backends::UPower::UPowerDevice|%1 is battery technology"
+msgid "%1 Battery"
+msgstr "Cadhnra %1"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/upower/upowerdevice.cpp:137
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Lithium Ion"
+msgctxt "Solid::Backends::UPower::UPowerDevice|battery technology"
+msgid "Lithium Ion"
+msgstr "Ian Litiam"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/upower/upowerdevice.cpp:139
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Lithium Polymer"
+msgctxt "Solid::Backends::UPower::UPowerDevice|battery technology"
+msgid "Lithium Polymer"
+msgstr "Polaiméir Litiam"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/upower/upowerdevice.cpp:141
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Lithium Iron Phosphate"
+msgctxt "Solid::Backends::UPower::UPowerDevice|battery technology"
+msgid "Lithium Iron Phosphate"
+msgstr "Fosfáit Iarainn Litiam"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/upower/upowerdevice.cpp:143
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Lead Acid"
+msgctxt "Solid::Backends::UPower::UPowerDevice|battery technology"
+msgid "Lead Acid"
+msgstr "Luaidhe-Aigéadach"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/upower/upowerdevice.cpp:145
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Nickel Cadmium"
+msgctxt "Solid::Backends::UPower::UPowerDevice|battery technology"
+msgid "Nickel Cadmium"
+msgstr "Caidmiam Nicile"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/upower/upowerdevice.cpp:147
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Nickel Metal Hydride"
+msgctxt "Solid::Backends::UPower::UPowerDevice|battery technology"
+msgid "Nickel Metal Hydride"
+msgstr "Hidríd Mhiotail Nicile"
+
+#. +> trunk5
+#: solid/devices/backends/upower/upowerdevice.cpp:134
+#: solid/devices/backends/upower/upowerdevice.cpp:148
+#: solid/devices/backends/upower/upowerdevice.cpp:150
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Unknown"
+msgctxt "Solid::Backends::UPower::UPowerDevice|battery technology"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/upower/upowermanager.cpp:61
+#, fuzzy
+#| msgid "Power Management"
+msgctxt "Solid::Backends::UPower::UPowerManager|"
+msgid "Power Management"
+msgstr "Bainisteoireacht Cumhachta"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/upower/upowermanager.cpp:62
+#, fuzzy
+#| msgid "Batteries and other sources of power"
+msgctxt "Solid::Backends::UPower::UPowerManager|"
+msgid "Batteries and other sources of power"
+msgstr "Cadhnraí agus foinsí cumhachta eile"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/win/windevice.cpp:158
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Lithium Ion"
+msgctxt "Solid::Backends::Win::WinDevice|battery technology"
+msgid "Lithium Ion"
+msgstr "Ian Litiam"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/win/windevice.cpp:161
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Lead Acid"
+msgctxt "Solid::Backends::Win::WinDevice|battery technology"
+msgid "Lead Acid"
+msgstr "Luaidhe-Aigéadach"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/win/windevice.cpp:164
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Nickel Cadmium"
+msgctxt "Solid::Backends::Win::WinDevice|battery technology"
+msgid "Nickel Cadmium"
+msgstr "Caidmiam Nicile"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/win/windevice.cpp:167
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Nickel Metal Hydride"
+msgctxt "Solid::Backends::Win::WinDevice|battery technology"
+msgid "Nickel Metal Hydride"
+msgstr "Hidríd Mhiotail Nicile"
+
+#. +> trunk6 trunk5
+#: solid/devices/backends/win/windevice.cpp:170
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Unknown"
+msgctxt "Solid::Backends::Win::WinDevice|battery technology"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:53
+#, fuzzy
+#| msgctxt "battery technology"
+#| msgid "Unknown"
+msgctxt "Solid::DeviceInterface|Unknown device type"
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:55
+#, fuzzy
+#| msgctxt "Generic Interface device type"
+#| msgid "Generic Interface"
+msgctxt "Solid::DeviceInterface|Generic Interface device type"
+msgid "Generic Interface"
+msgstr "Comhéadan Ginearálta"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:57
+#, fuzzy
+#| msgid "Processor"
+msgctxt "Solid::DeviceInterface|Processor device type"
+msgid "Processor"
+msgstr "Próiseálaí"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:59
+#, fuzzy
+#| msgctxt "Block device type"
+#| msgid "Block"
+msgctxt "Solid::DeviceInterface|Block device type"
+msgid "Block"
+msgstr "Bloc"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:61
+#, fuzzy
+#| msgctxt "Storage Access device type"
+#| msgid "Storage Access"
+msgctxt "Solid::DeviceInterface|Storage Access device type"
+msgid "Storage Access"
+msgstr "Rochtain Stórais"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:63
+#, fuzzy
+#| msgctxt "Storage Drive device type"
+#| msgid "Storage Drive"
+msgctxt "Solid::DeviceInterface|Storage Drive device type"
+msgid "Storage Drive"
+msgstr "Tiomántán Stórais"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:65
+#, fuzzy
+#| msgctxt "Optical Drive device type"
+#| msgid "Optical Drive"
+msgctxt "Solid::DeviceInterface|Optical Drive device type"
+msgid "Optical Drive"
+msgstr "Tiomántán Optúil"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:67
+#, fuzzy
+#| msgctxt "Storage Volume device type"
+#| msgid "Storage Volume"
+msgctxt "Solid::DeviceInterface|Storage Volume device type"
+msgid "Storage Volume"
+msgstr "Imleabhar Stórais"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:69
+#, fuzzy
+#| msgctxt "Optical Disc device type"
+#| msgid "Optical Disc"
+msgctxt "Solid::DeviceInterface|Optical Disc device type"
+msgid "Optical Disc"
+msgstr "Diosca Optúil"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:71
+#, fuzzy
+#| msgid "Camera"
+msgctxt "Solid::DeviceInterface|Camera device type"
+msgid "Camera"
+msgstr "Ceamara"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:73
+#, fuzzy
+#| msgid "Portable Media Player"
+msgctxt "Solid::DeviceInterface|Portable Media Player device type"
+msgid "Portable Media Player"
+msgstr "Seinnteoir Iniompair Meán"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:75
+#, fuzzy
+#| msgctxt "Battery device type"
+#| msgid "Battery"
+msgctxt "Solid::DeviceInterface|Battery device type"
+msgid "Battery"
+msgstr "Cadhnra"
+
+#. +> trunk6 trunk5
+#: solid/devices/frontend/deviceinterface.cpp:77
+#, fuzzy
+#| msgctxt "Network Share device type"
+#| msgid "Network Share"
+msgctxt "Solid::DeviceInterface|Network Share device type"
+msgid "Network Share"
+msgstr "Comhroinn Líonra"
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:218
+#: tools/solid-hardware/solid-hardware.cpp:341
+#, fuzzy
+#| msgid "Devices"
+msgctxt "solid-hardware|"
+msgid "Device udi"
+msgstr "Gléasanna"
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:230
+msgctxt "solid-hardware|"
+msgid "Syntax:"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:233
+msgctxt "solid-hardware|"
+msgid ""
+"             # List the hardware available in the system.\n"
+"             # - If the 'nonportableinfo' option is specified, the device\n"
+"             # properties are listed (be careful, in this case property names\n"
+"             # are backend dependent),\n"
+"             # - If the 'details' option is specified, the device interfaces\n"
+"             # and the corresponding properties are listed in a platform\n"
+"             # neutral fashion,\n"
+"             # - Otherwise only device UDIs are listed.\n"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:245
+msgctxt "solid-hardware|"
+msgid ""
+"             # Display all the interfaces and properties of the device\n"
+"             # corresponding to 'udi' in a platform neutral fashion.\n"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:251
+msgctxt "solid-hardware|"
+msgid ""
+"             # Display all the properties of the device corresponding to 'udi'\n"
+"             # (be careful, in this case property names are backend dependent).\n"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:257
+msgctxt "solid-hardware|"
+msgid ""
+"             # List the UDI of devices corresponding to 'predicate'.\n"
+"             # - If 'parentUdi' is specified, the search is restricted to the\n"
+"             # branch of the corresponding device,\n"
+"             # - Otherwise the search is done on all the devices.\n"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:265
+msgctxt "solid-hardware|"
+msgid "             # If applicable, mount the device corresponding to 'udi'.\n"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:268
+msgctxt "solid-hardware|"
+msgid "             # If applicable, unmount the device corresponding to 'udi'.\n"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:271
+msgctxt "solid-hardware|"
+msgid "             # If applicable, eject the device corresponding to 'udi'.\n"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:274
+msgctxt "solid-hardware|"
+msgid "             # Listen to all add/remove events on supported hardware.\n"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:277
+msgctxt "solid-hardware|"
+msgid "             # Monitor devices for changes.\n"
+msgstr ""
+
+#. +> trunk5
+#: tools/solid-hardware/solid-hardware.cpp:277
+msgctxt "solid-hardware|"
+msgid "             # Monitor a devices for changes.\n"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:280
+msgctxt "solid-hardware|"
+msgid "             # Send \"CanCheck\" request to the device corresponding to 'udi'.\n"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:283
+msgctxt "solid-hardware|"
+msgid "             # Send \"Check\" request to the device corresponding to 'udi'.\n"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:286
+msgctxt "solid-hardware|"
+msgid "             # Send \"CanRepair\" request to the device corresponding to 'udi'.\n"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:289
+msgctxt "solid-hardware|"
+msgid "             # Send \"Repair\" request to the device corresponding to 'udi'.\n"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:301
+msgctxt "solid-hardware|"
+msgid "KDE tool for querying your hardware from the command line"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:304
+msgctxt "solid-hardware|"
+msgid "Command to execute"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:306
+msgctxt "solid-hardware|"
+msgid "Show available commands"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:328
+msgctxt "solid-hardware|"
+msgid "Show device details"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:329
+msgctxt "solid-hardware|"
+msgid "Show non portable information"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:342
+#, fuzzy
+#| msgid "UPnP devices"
+msgctxt "solid-hardware|"
+msgid "Parent device udi"
+msgstr "Gléasanna UPnP"
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:384
+#, qt-format
+msgctxt "solid-hardware|"
+msgid "Syntax Error: Unknown command '%1'"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:446
+#, qt-format
+msgctxt "SolidHardware|"
+msgid "Error: %1 does not have the interface StorageAccess."
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:449
+#, qt-format
+msgctxt "SolidHardware|"
+msgid "Error: %1 does not have the interface OpticalDrive."
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:476
+#, qt-format
+msgctxt "SolidHardware|"
+msgid "Device CanCheck: %1"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:476
+#: tools/solid-hardware/solid-hardware.cpp:491
+msgctxt "SolidHardware|"
+msgid "no"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:476
+#: tools/solid-hardware/solid-hardware.cpp:491
+msgctxt "SolidHardware|"
+msgid "yes"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:487
+msgctxt "SolidHardware|"
+msgid "Device Check: operation is not supported"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:491
+#, qt-format
+msgctxt "SolidHardware|"
+msgid "Device CanRepair: %1"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: tools/solid-hardware/solid-hardware.cpp:506
+#, qt-format
+msgctxt "SolidHardware|"
+msgid "Error: %1"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:577
+#, qt-format
+msgctxt "SolidHardware|"
+msgid "Device check: %1"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:577
+msgctxt "SolidHardware|"
+msgid "no error"
+msgstr ""
+
+#. +> trunk6
+#: tools/solid-hardware/solid-hardware.cpp:577
+msgctxt "SolidHardware|"
+msgid "has error"
+msgstr ""
+
+#. +> trunk5
+#: tools/solid-power/main.cpp:22
+msgctxt "solid-power|"
+msgid "Tool to know and set the power management state of your device"
+msgstr ""
+
+#. +> trunk5
+#: tools/solid-power/main.cpp:24
+msgctxt "solid-power|"
+msgid "Command to execute"
+msgstr ""
+
+#. +> trunk5
+#: tools/solid-power/main.cpp:26
+msgctxt "solid-power|"
+msgid "Show available commands"
+msgstr ""
+
+#. +> trunk5
+#: tools/solid-power/main.cpp:35
+msgctxt "solid-power|"
+msgid ""
+"             # Show all the power management information from the system.\n"
+"             # - acPlugged: whether the device is connected to the AC or not\n"
+msgstr ""

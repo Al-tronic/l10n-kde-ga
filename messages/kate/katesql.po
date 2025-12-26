@@ -1,0 +1,663 @@
+# Irish translation of katesql
+# Copyright (C) 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the katesql package.
+# Kevin Scannell <kscanne@gmail.com>, 2011.
+# Aindriú Mac Giolla Eoin <aindriu80@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: katesql\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-13 09:39+0100\n"
+"PO-Revision-Date: 2025-11-30 14:47+0000\n"
+"Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:27
+#, kde-format
+msgctxt "@title:window"
+msgid "Connection Wizard"
+msgstr "Treoraí Ceangail"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:42
+#, kde-format
+msgctxt "@title Wizard page title"
+msgid "Database Driver"
+msgstr "Tiománaí Bunachair Sonraí"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:43
+#, kde-format
+msgctxt "@title Wizard page subtitle"
+msgid "Select the database driver"
+msgstr "Roghnaigh an tiománaí bunachair sonraí"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:50
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Database driver:"
+msgstr "Tiománaí bunachair sonraí:"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:79 connectionwizard.cpp:165
+#, kde-format
+msgctxt "@title Wizard page title"
+msgid "Connection Parameters"
+msgstr "Paraiméadair Cheangail"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:80
+#, kde-format
+msgctxt "@title Wizard page subtitle"
+msgid "Please enter connection parameters"
+msgstr "Cuir na paraiméadair cheangail isteach"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:92
+#, kde-format
+msgctxt "@item Spinbox special value"
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:95
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Hostname:"
+msgstr "Óstainm:"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:96
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Username:"
+msgstr "Ainm Úsáideora:"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:97
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Password:"
+msgstr "Focal Faire:"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:98
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Port:"
+msgstr "Port:"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:99
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Database name:"
+msgstr "Ainm an bhunachair sonraí:"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:100 connectionwizard.cpp:177
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Connection options:"
+msgstr "Roghanna ceangail:"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:150
+#, kde-format
+msgid "Unable to connect to database."
+msgstr "Ní féidir ceangal a bhunú leis an mbunachar sonraí."
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:167
+#, kde-format
+msgctxt "@title Wizard page subtitle"
+msgid ""
+"Please enter the SQLite database file path.\n"
+"If the file does not exist, a new database will be created."
+msgstr ""
+"Cuir isteach conair an bhunachair sonraí SQLite.\n"
+"Mura bhfuil an comhad ann, cruthófar bunachar sonraí nua."
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:175
+#, kde-format
+msgid "Database files"
+msgstr "Comhaid bhunachair sonraí"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:175 exportwizard.cpp:52
+#, kde-format
+msgid "All files"
+msgstr "Gach comhad"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:176
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Path:"
+msgstr "Conair:"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:209
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Unable to connect to database.<nl/>"
+"<message>%1</message>"
+msgstr ""
+"Ní féidir ceangal leis an mbunachar sonraí.<nl/>"
+"<message>%1</message>"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:224
+#, kde-format
+msgctxt "@title Wizard page title"
+msgid "Connection Name"
+msgstr "Ainm an Cheangail"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:225
+#, kde-format
+msgctxt "@title Wizard page subtitle"
+msgid "Enter a unique connection name"
+msgstr "Cuir ainm uathúil ar an gceangal"
+
+#. +> trunk6 stable6
+#: connectionwizard.cpp:231
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Connection name:"
+msgstr "Ainm an cheangail:"
+
+#. +> trunk6 stable6
+#: dataoutputwidget.cpp:62
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Resize columns to contents"
+msgstr "Oiriúnaigh na colúin don inneachar"
+
+#. +> trunk6 stable6
+#: dataoutputwidget.cpp:66
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Resize rows to contents"
+msgstr "Oiriúnaigh na rónna don inneachar"
+
+#. +> trunk6 stable6
+#: dataoutputwidget.cpp:70
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Copy"
+msgstr "Cóipeáil"
+
+#. +> trunk6 stable6
+#: dataoutputwidget.cpp:75
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Export..."
+msgstr "Easpórtáil..."
+
+#. +> trunk6 stable6
+#: dataoutputwidget.cpp:80 textoutputwidget.cpp:47
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Clear"
+msgstr "Glan"
+
+#. +> trunk6 stable6
+#: dataoutputwidget.cpp:87
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Use system locale"
+msgstr "Úsáid logchaighdeán an chórais"
+
+#. +> trunk6 stable6
+#: dataoutputwidget.cpp:270
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Unable to open file <filename>%1</filename>"
+msgstr "Ní féidir comhad <filename>%1</filename> a oscailt"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:25
+#, kde-format
+msgctxt "@title:window"
+msgid "Export Wizard"
+msgstr "Treoraí Easpórtála"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:38
+#, kde-format
+msgctxt "@title Wizard page title"
+msgid "Output Target"
+msgstr "Sprioc Aschurtha"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:39
+#, kde-format
+msgctxt "@title Wizard page subtitle"
+msgid "Select the output target."
+msgstr "Roghnaigh an sprioc aschurtha."
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:43
+#, kde-format
+msgctxt "@option:radio Output target"
+msgid "Current document"
+msgstr "Cáipéis reatha"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:44
+#, kde-format
+msgctxt "@option:radio Output target"
+msgid "Clipboard"
+msgstr "Gearrthaisce"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:45
+#, kde-format
+msgctxt "@option:radio Output target"
+msgid "File"
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:52
+#, kde-format
+msgid "Comma Separated Values"
+msgstr "Luachanna Scartha le Camóga"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:94
+#, kde-format
+msgctxt "@title Wizard page title"
+msgid "Fields Format"
+msgstr "Formáid Réimsí"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:95
+#, kde-format
+msgctxt "@title Wizard page subtitle"
+msgid ""
+"Select fields format.\n"
+"Click on \"Finish\" button to export data."
+msgstr ""
+"Roghnaigh formáid na réimsí.\n"
+"Ansin cliceáil \"Críochnaigh\" chun na sonraí a easpórtáil."
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:99
+#, kde-format
+msgctxt "@title:group"
+msgid "Headers"
+msgstr "Ceanntásca"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:102
+#, kde-format
+msgctxt "@option:check"
+msgid "Export column names"
+msgstr "Easpórtáil ainmneacha na gcolún"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:103
+#, kde-format
+msgctxt "@option:check"
+msgid "Export line numbers"
+msgstr "Easpórtáil uimhreacha na línte"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:110
+#, kde-format
+msgctxt "@title:group"
+msgid "Quotes"
+msgstr "Comharthaí Athfhriotail"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:113
+#, kde-format
+msgctxt "@option:check"
+msgid "Quote strings"
+msgstr "Cuir teaghráin idir comharthaí athfhriotail"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:114
+#, kde-format
+msgctxt "@option:check"
+msgid "Quote numbers"
+msgstr "Cuir uimhreacha idir comharthaí athfhriotail"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:122 exportwizard.cpp:125
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Character:"
+msgstr "Carachtar:"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:131
+#, kde-format
+msgctxt "@title:group"
+msgid "Delimiters"
+msgstr "Teorantóirí"
+
+#. +> trunk6 stable6
+#: exportwizard.cpp:137
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Field delimiter:"
+msgstr "Teormharcóir réimse:"
+
+#. +> trunk6 stable6
+#: katesqlconfigpage.cpp:23
+#, kde-format
+msgctxt "@option:check"
+msgid "Save and restore connections in Kate session"
+msgstr "Sábháil agus athchóirigh ceangail i seisiún Kate"
+
+#. +> trunk6 stable6
+#: katesqlconfigpage.cpp:25
+#, kde-format
+msgctxt "@title:group"
+msgid "Output Customization"
+msgstr "Saincheapadh Aschurtha"
+
+#. +> trunk6 stable6
+#: katesqlconfigpage.cpp:51
+#, kde-format
+msgctxt "@title"
+msgid "SQL"
+msgstr "SQL"
+
+#. +> trunk6 stable6
+#: katesqlconfigpage.cpp:56
+#, kde-format
+msgctxt "@title:window"
+msgid "SQL ConfigPage Settings"
+msgstr "Socruithe Leathanach Cumraíochta SQL"
+
+#. +> trunk6 stable6
+#: katesqlview.cpp:43
+#, kde-format
+msgid "SQL"
+msgstr "SQL"
+
+#. +> trunk6 stable6
+#: katesqlview.cpp:50
+#, kde-format
+msgctxt "@title:window"
+msgid "SQL"
+msgstr "SQL"
+
+#. +> trunk6 stable6
+#: katesqlview.cpp:56
+#, kde-format
+msgctxt "@title:window"
+msgid "SQL Schema"
+msgstr "Scéim SQL"
+
+#. +> trunk6 stable6
+#: katesqlview.cpp:104
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add Connection..."
+msgstr "Cuir Nasc leis..."
+
+#. +> trunk6 stable6
+#: katesqlview.cpp:109
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove Connection"
+msgstr "Bain an Ceangal"
+
+#. +> trunk6 stable6
+#: katesqlview.cpp:114
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Edit Connection..."
+msgstr "Cuir an Nasc in Eagar..."
+
+#. +> trunk6 stable6
+#: katesqlview.cpp:119
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Reconnect"
+msgstr "Athcheangail"
+
+#. +> trunk6 stable6
+#: katesqlview.cpp:125
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Connection"
+msgstr "Ceangal"
+
+#. +> trunk6 stable6
+#: katesqlview.cpp:129
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Run Query"
+msgstr "Rith an Fiosrúchán"
+
+#. +> trunk6 stable6
+#: outputstylewidget.cpp:28
+#, kde-format
+msgctxt "@title:column"
+msgid "Context"
+msgstr "Comhthéacs"
+
+#. +> trunk6 stable6
+#: outputstylewidget.cpp:28
+#, kde-format
+msgctxt "@title:column"
+msgid "Text Color"
+msgstr "Dath Téacs"
+
+#. +> trunk6 stable6
+#: outputstylewidget.cpp:29
+#, kde-format
+msgctxt "@title:column"
+msgid "Background Color"
+msgstr "Dath an Chúlra"
+
+#. +> trunk6 stable6
+#: outputstylewidget.cpp:38
+#, kde-format
+msgctxt "@item:intable"
+msgid "Text"
+msgstr "Téacs"
+
+#. +> trunk6 stable6
+#: outputstylewidget.cpp:39
+#, kde-format
+msgctxt "@item:intable"
+msgid "Number"
+msgstr "Uimhir"
+
+#. +> trunk6 stable6
+#: outputstylewidget.cpp:40
+#, kde-format
+msgctxt "@item:intable"
+msgid "Bool"
+msgstr "Bool"
+
+#. +> trunk6 stable6
+#: outputstylewidget.cpp:41
+#, kde-format
+msgctxt "@item:intable"
+msgid "Date & Time"
+msgstr "Dáta agus Am"
+
+#. +> trunk6 stable6
+#: outputstylewidget.cpp:42
+#, kde-format
+msgctxt "@item:intable"
+msgid "NULL"
+msgstr "NULL"
+
+#. +> trunk6 stable6
+#: outputstylewidget.cpp:43
+#, kde-format
+msgctxt "@item:intable"
+msgid "BLOB"
+msgstr "BLOBA"
+
+#. +> trunk6 stable6
+#: outputwidget.cpp:17
+#, kde-format
+msgctxt "@title:window"
+msgid "SQL Text Output"
+msgstr "Aschur Téacs SQL"
+
+#. +> trunk6 stable6
+#: outputwidget.cpp:18
+#, kde-format
+msgctxt "@title:window"
+msgid "SQL Data Output"
+msgstr "Aschur Sonraí SQL"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:34
+#, kde-format
+msgctxt "@title:column"
+msgid "Database schema"
+msgstr "Scéimre bunachar sonraí"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:89
+#, kde-format
+msgctxt "@title Folder name"
+msgid "Tables"
+msgstr "Táblaí"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:94
+#, kde-format
+msgctxt "@title Folder name"
+msgid "Views"
+msgstr "Amhairc"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:108
+#, kde-format
+msgctxt "@title Folder name"
+msgid "System Tables"
+msgstr "Táblaí an Chórais"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:268
+#, kde-format
+msgctxt "@action:inmenu Context menu"
+msgid "Select Data"
+msgstr "Roghnaigh Sonraí"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:271
+#, kde-format
+msgctxt "@action:inmenu Submenu title"
+msgid "Generate"
+msgstr "Gin"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:273
+#, kde-format
+msgid "SELECT"
+msgstr "ROGHNAIGH"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:274
+#, kde-format
+msgid "UPDATE"
+msgstr "NUASHONRÚ"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:275
+#, kde-format
+msgid "INSERT"
+msgstr "IONSÁIGH"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:276
+#, kde-format
+msgid "DELETE"
+msgstr "SCRÍOS"
+
+#. +> trunk6 stable6
+#: schemawidget.cpp:280
+#, kde-format
+msgctxt "@action:inmenu Context menu"
+msgid "Refresh"
+msgstr "Athnuaigh"
+
+#. +> trunk6 stable6
+#: sqlmanager.cpp:314
+#, kde-format
+msgid "Prepare Statement Failure"
+msgstr "Teip ar Ráiteas a Ullmhú"
+
+#. +> trunk6 stable6
+#: sqlmanager.cpp:315
+#, kde-format
+msgid ""
+"<p>Preparing the query failed with the following error: %1</p>"
+"<p>Do you want to continue without preparing the query?</p>"
+msgstr ""
+"<p>Theip ar ullmhú an fhiosrúcháin agus an earráid seo a leanas ann: %1</p>"
+"<p>Ar mhaith leat leanúint ar aghaidh gan an fiosrúchán a ullmhú?</p>"
+
+#. +> trunk6 stable6
+#: sqlmanager.cpp:345
+#, kde-format
+msgctxt "@info"
+msgid "Query completed successfully"
+msgstr "Cuireadh an fiosrúchán i gcrích go rathúil"
+
+#. +> trunk6 stable6
+#: sqlmanager.cpp:348
+#, kde-format
+msgctxt "@info"
+msgid "%1 record selected"
+msgid_plural "%1 records selected"
+msgstr[0] "%1 taifead roghnaithe"
+msgstr[1] "%1 taifead roghnaithe"
+msgstr[2] "%1 taifead roghnaithe"
+msgstr[3] "%1 taifead roghnaithe"
+msgstr[4] "%1 taifead roghnaithe"
+
+#. +> trunk6 stable6
+#: sqlmanager.cpp:352
+#, kde-format
+msgctxt "@info"
+msgid "%1 row affected"
+msgid_plural "%1 rows affected"
+msgstr[0] "%1 ró buailte"
+msgstr[1] "%1 rónna buailte"
+msgstr[2] "%1 rónna buailte"
+msgstr[3] "%1 rónna buailte"
+msgstr[4] "%1 rónna buailte"
+
+#. i18n: ectx: Menu (SQL)
+#. +> trunk6 stable6
+#: ui.rc:6
+#, kde-format
+msgid "&SQL"
+msgstr "&SQL"
+
+#. i18n: ectx: ToolBar (SQLConnectionsToolBar)
+#. +> trunk6 stable6
+#: ui.rc:17
+#, kde-format
+msgid "SQL Connections Toolbar"
+msgstr "Barra Nascanna SQL"
+
+#. i18n: ectx: ToolBar (SQLToolBar)
+#. +> trunk6 stable6
+#: ui.rc:25
+#, kde-format
+msgid "SQL Toolbar"
+msgstr "Barra Uirlisí SQL"

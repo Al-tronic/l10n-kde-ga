@@ -1,0 +1,3184 @@
+# Irish translation of libakonadi
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the libakonadi package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdepim/libakonadi.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-16 18:00+0100\n"
+"PO-Revision-Date: 2007-07-11 08:14-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: agentbase/agentbase.cpp:307 agentbase/preprocessorbase_p.cpp:26
+#, kde-format
+msgid "Unable to register object at dbus: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: agentbase/agentbase.cpp:400
+#, kde-format
+msgctxt "Name and type of Akonadi resource"
+msgid "%1 of type %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: agentbase/agentbase.cpp:818
+#, fuzzy, kde-format
+#| msgid "Agent identifier"
+msgctxt "@info:shell"
+msgid "Agent identifier"
+msgstr "Aitheantóir gníomhaire"
+
+#. +> trunk6 stable6
+#: agentbase/agentbase.cpp:824
+#, kde-format
+msgid "Akonadi Agent"
+msgstr "Gníomhaire Akonadi"
+
+#. +> trunk6 stable6
+#: agentbase/agentbase_p.h:50 agentbase/resourcescheduler.cpp:268
+#, kde-format
+msgctxt "@info:status Application ready for work"
+msgid "Ready"
+msgstr "Réidh"
+
+#. +> trunk6 stable6
+#: agentbase/agentbase_p.h:52
+#, kde-format
+msgctxt "@info:status"
+msgid "Offline"
+msgstr "As Líne"
+
+#. +> trunk6 stable6
+#: agentbase/agentbase_p.h:57
+#, kde-format
+msgctxt "@info:status"
+msgid "Syncing..."
+msgstr "Á Shioncrónú..."
+
+#. +> trunk6 stable6
+#: agentbase/agentbase_p.h:62
+#, kde-format
+msgctxt "@info:status"
+msgid "Error."
+msgstr "Earráid."
+
+#. +> trunk6 stable6
+#: agentbase/agentbase_p.h:67
+#, kde-format
+msgctxt "@info:status"
+msgid "Not configured"
+msgstr ""
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:533
+#, fuzzy, kde-format
+#| msgctxt "@label commandline option"
+#| msgid "Resource identifier"
+msgctxt "@label command line option"
+msgid "Resource identifier"
+msgstr "Aitheantóir acmhainne"
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:539
+#, fuzzy, kde-format
+#| msgctxt "@title application name"
+#| msgid "Akonadi Resource"
+msgid "Akonadi Resource"
+msgstr "Acmhainn Akonadi"
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:581
+#, kde-format
+msgctxt "@info"
+msgid "Invalid item retrieved"
+msgstr "Fuarthas mír neamhbhailí"
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:604
+#, kde-format
+msgctxt "@info"
+msgid "Error while creating item: %1"
+msgstr "Earráid agus mír á cruthú: %1"
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:628
+#, kde-format
+msgctxt "@info"
+msgid "Error while updating collection: %1"
+msgstr "Earráid agus bailiúchán á nuashonrú: %1"
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:715
+#, kde-format
+msgctxt "@info"
+msgid "Updating local collection failed: %1."
+msgstr "Níorbh fhéidir an bailiúchán logánta a nuashonrú: %1."
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:720
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Updating local collection failed: %1."
+msgctxt "@info"
+msgid "Updating local items failed: %1."
+msgstr "Níorbh fhéidir an bailiúchán logánta a nuashonrú: %1."
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:739
+#, kde-format
+msgctxt "@info"
+msgid "Cannot fetch item in offline mode."
+msgstr "Ní féidir mír a fháil sa mhód as líne."
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:921
+#, kde-format
+msgctxt "@info:status"
+msgid "Syncing folder '%1'"
+msgstr "Fillteán '%1' á shioncrónú"
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:941 agentbase/resourcebase.cpp:948
+#, kde-format
+msgid "Failed to retrieve collection for sync."
+msgstr ""
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:989
+#, kde-format
+msgid "Failed to retrieve collection for attribute sync."
+msgstr ""
+
+#. +> trunk6 stable6
+#: agentbase/resourcebase.cpp:1035
+#, kde-format
+msgid "The requested item no longer exists"
+msgstr "Níl an mhír iarrtha ann a thuilleadh"
+
+#. +> trunk6 stable6
+#: agentbase/resourcescheduler.cpp:484 agentbase/resourcescheduler.cpp:490
+#, kde-format
+msgctxt "@info"
+msgid "Job canceled."
+msgstr ""
+
+#. +> trunk6 stable6
+#: akonadicontrol/main.cpp:53 akonadicontrol/main.cpp:55
+#, fuzzy, kde-format
+#| msgid "Akonadi Agent"
+msgid "Akonadi Control"
+msgstr "Gníomhaire Akonadi"
+
+#. +> trunk6 stable6
+#: akonadictl/main.cpp:220
+#, kde-format
+msgid ""
+"Akonadi server manipulation tool\n"
+"\n"
+"Commands:\n"
+"  start          Starts the Akonadi server with all its processes\n"
+"  stop           Stops the Akonadi server and all its processes cleanly\n"
+"  restart        Restart Akonadi server with all its processes\n"
+"  status         Shows a status overview of the Akonadi server\n"
+"  instances      List all existing Akonadi instances\n"
+"  vacuum         Vacuum internal storage (WARNING: needs a lot of time and disk\n"
+"                 space!)\n"
+"  fsck           Check (and attempt to fix) consistency of the internal storage\n"
+"                 (can take some time)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: akonadictl/main.cpp:239
+#, kde-format
+msgid "Wait for server shutdown to complete."
+msgstr ""
+
+#. +> trunk6 stable6
+#: akonadictl/main.cpp:241
+#, kde-format
+msgid "Command to execute"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configdialog/main.cpp:23
+#, kde-format
+msgid "Configuration Dialog"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configdialog/main.cpp:25
+#, kde-format
+msgid "Allows to configure an agent or resource"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configdialog/main.cpp:27
+#, kde-format
+msgid "© 2025 Carl Schwan <carl@carlschwan.eu>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: configdialog/main.cpp:30
+#, fuzzy, kde-format
+#| msgid "Agent identifier"
+msgid "The agent identifier"
+msgstr "Aitheantóir gníomhaire"
+
+#. +> trunk6 stable6
+#: configdialog/main.cpp:36
+#, kde-format
+msgid "Required identifier argument missing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: configdialog/main.cpp:51
+#, fuzzy, kde-format
+#| msgid "No resource agents found."
+msgid "No such agent found \"%1\""
+msgstr "Níor aimsíodh aon ghníomhairí acmhainne."
+
+#. +> trunk6 stable6
+#: core/collectionpathresolver.cpp:98 core/collectionpathresolver.cpp:117
+#, kde-format
+msgid "No such collection."
+msgstr "Níl a leithéid de bhailiúchán ann."
+
+#. +> trunk6 stable6
+#: core/collectionsync.cpp:505 core/collectionsync.cpp:650
+#, kde-format
+msgid "Found unresolved orphan collections"
+msgstr "Aimsíodh bailiúcháin dílleachtaí gan réiteach"
+
+#. +> trunk6 stable6
+#: core/conflicthandler.cpp:53
+#, kde-format
+msgid "Did not find other item for conflict handling"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/agentinstancecreatejob.cpp:58
+#, kde-format
+msgid "Agent instance creation timed out."
+msgstr "Cruthú an ghníomhaire thar am."
+
+#. +> trunk6 stable6
+#: core/jobs/agentinstancecreatejob.cpp:108
+#, kde-format
+msgid "Unable to obtain agent type '%1'."
+msgstr "Níorbh fhéidir cineál gníomhaire '%1' a fháil."
+
+#. +> trunk6 stable6
+#: core/jobs/agentinstancecreatejob.cpp:116
+#, kde-format
+msgid "Unable to create agent instance."
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: core/jobs/collectionattributessynchronizationjob.cpp:73
+#, kde-format
+msgid "Invalid collection instance."
+msgstr "Bailiúchán neamhbhailí."
+
+#. +> trunk6 stable6
+#: core/jobs/collectionattributessynchronizationjob.cpp:80
+#: core/jobs/resourcesynchronizationjob.cpp:88
+#, kde-format
+msgid "Invalid resource instance."
+msgstr "Acmhainn neamhbhailí."
+
+#. +> trunk6 stable6
+#: core/jobs/collectionattributessynchronizationjob.cpp:102
+#: core/jobs/resourcesynchronizationjob.cpp:113
+#, kde-format
+msgid "Unable to obtain D-Bus interface for resource '%1'"
+msgstr "Ní féidir comhéadan D-Bus a fháil le haghaidh acmhainn '%1'"
+
+#. +> trunk6 stable6
+#: core/jobs/collectionattributessynchronizationjob.cpp:125
+#, kde-format
+msgid "Collection attributes synchronization timed out."
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/collectioncopyjob.cpp:54
+#, fuzzy, kde-format
+#| msgid "Invalid collection"
+msgid "Invalid collection to copy"
+msgstr "Bailiúchán neamhbhailí"
+
+#. +> trunk6 stable6
+#: core/jobs/collectioncopyjob.cpp:60
+#, fuzzy, kde-format
+#| msgid "Invalid collection"
+msgid "Invalid destination collection"
+msgstr "Bailiúchán neamhbhailí"
+
+#. +> trunk6 stable6
+#: core/jobs/collectioncreatejob.cpp:50
+#, kde-format
+msgid "Invalid parent"
+msgstr "Máthair neamhbhailí"
+
+#. +> trunk6 stable6
+#: core/jobs/collectioncreatejob.cpp:98
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Unable to fetch collection in replay mode."
+msgid "Failed to parse Collection from response"
+msgstr "Ní féidir bailiúchán a fháil sa mhód athdhéanta."
+
+#. +> trunk6 stable6
+#: core/jobs/collectiondeletejob.cpp:52
+#, kde-format
+msgid "Invalid collection"
+msgstr "Bailiúchán neamhbhailí"
+
+#. +> trunk6 stable6
+#: core/jobs/collectionfetchjob.cpp:212
+#, kde-format
+msgid "Invalid collection given."
+msgstr "Tugadh bailiúchán neamhbhailí"
+
+#. +> trunk6 stable6
+#: core/jobs/collectionmovejob.cpp:52 core/jobs/itemmovejob.cpp:118
+#, kde-format
+msgid "No objects specified for moving"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/collectionmovejob.cpp:59 core/jobs/itemmovejob.cpp:125
+#: core/jobs/linkjobimpl_p.h:45
+#, kde-format
+msgid "No valid destination specified"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/invalidatecachejob.cpp:58
+#, kde-format
+msgid "Invalid collection."
+msgstr "Bailiúchán neamhbhailí."
+
+#. +> trunk6 stable6
+#: core/jobs/itemcreatejob.cpp:115
+#, fuzzy, kde-format
+#| msgid "Invalid collection"
+msgid "Invalid parent collection"
+msgstr "Bailiúchán neamhbhailí"
+
+#. +> trunk6 stable6
+#: core/jobs/job.cpp:335
+#, kde-format
+msgid "Cannot connect to the Akonadi service."
+msgstr "Ní féidir ceangal leis an tseirbhís Akonadi."
+
+#. +> trunk6 stable6
+#: core/jobs/job.cpp:338
+#, kde-format
+msgid "The protocol version of the Akonadi server is incompatible. Make sure you have a compatible version installed."
+msgstr "Níl leagan phrótacal an fhreastalaí Akonadi comhoiriúnach.  Bí cinnte go bhfuil leagan comhoiriúnach suiteáilte agat."
+
+#. +> trunk6 stable6
+#: core/jobs/job.cpp:341
+#, kde-format
+msgid "User canceled operation."
+msgstr "Cealaithe ag an úsáideoir."
+
+#. +> trunk6 stable6
+#: core/jobs/job.cpp:346
+#, kde-format
+msgid "Unknown error."
+msgstr "Earráid anaithnid."
+
+#. +> trunk6 stable6
+#: core/jobs/job.cpp:385
+#, kde-format
+msgid "Unexpected response"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/resourcesynchronizationjob.cpp:139
+#, kde-format
+msgid "Resource synchronization timed out."
+msgstr "Sioncrónú acmhainne thar am."
+
+#. +> trunk6 stable6
+#: core/jobs/specialcollectionshelperjobs.cpp:145
+#, kde-format
+msgid "Could not fetch root collection of resource %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/specialcollectionshelperjobs.cpp:189
+#, kde-format
+msgid "No resource ID given."
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/specialcollectionshelperjobs.cpp:326
+#, kde-format
+msgid "Invalid resource identifier '%1'"
+msgstr "Aitheantóir neamhbhailí acmhainne '%1'"
+
+#. +> trunk6 stable6
+#: core/jobs/specialcollectionshelperjobs.cpp:342
+#: core/jobs/specialcollectionshelperjobs.cpp:350
+#, kde-format
+msgid "Failed to configure default resource via D-Bus."
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/specialcollectionshelperjobs.cpp:415
+#, kde-format
+msgid "Failed to fetch the resource collection."
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/specialcollectionshelperjobs.cpp:599
+#, kde-format
+msgid "Timeout trying to get lock."
+msgstr "Thar am ag iarraidh glas a fháil."
+
+#. +> trunk6 stable6
+#: core/jobs/tagcreatejob.cpp:49
+#, fuzzy, kde-format
+#| msgid "Unable to create agent instance."
+msgid "Failed to create tag."
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: core/jobs/trashjob.cpp:155
+#, kde-format
+msgid "Move to trash collection failed, aborting trash operation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/trashjob.cpp:218 core/jobs/trashrestorejob.cpp:151
+#, kde-format
+msgid "Invalid items passed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/trashjob.cpp:258 core/jobs/trashrestorejob.cpp:201
+#, kde-format
+msgid "Invalid collection passed"
+msgstr "Bailiúchán neamhbhailí seolta"
+
+#. +> trunk6 stable6
+#: core/jobs/trashjob.cpp:375 core/jobs/trashrestorejob.cpp:343
+#, kde-format
+msgid "No valid collection or empty itemlist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/jobs/trashrestorejob.cpp:86
+#, kde-format
+msgid "Could not find restore collection and restore resource is not available"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/models/agentinstancemodel.cpp:192
+#, kde-format
+msgctxt "@title:column, name of a thing"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: core/models/colorproxymodel.cpp:85
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Offline"
+msgctxt "@item this is the default calendar"
+msgid "%1 (Offline)"
+msgstr "As Líne"
+
+#. +> trunk6 stable6
+#: core/models/colorproxymodel.cpp:88
+#, kde-format
+msgctxt "@item this is the default calendar"
+msgid "%1 (Default)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/models/entitytreemodel.cpp:206
+#, fuzzy, kde-format
+#| msgid "Loading..."
+msgctxt "@info:status"
+msgid "Loading..."
+msgstr "Á Luchtú..."
+
+#. +> trunk6 stable6
+#: core/models/entitytreemodel.cpp:497
+#, kde-format
+msgid ""
+"The target collection '%1' contains already\n"
+"a collection with name '%2'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/models/entitytreemodel.cpp:668
+#, kde-format
+msgctxt "@title:column Name of a thing"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: core/models/entitytreemodel_p.cpp:1338
+#, fuzzy, kde-format
+#| msgid "Could not copy item:"
+msgctxt "@info"
+msgid "Could not copy item: <message>%1</message>"
+msgstr "Níorbh fhéidir an mhír a chóipeáil:"
+
+#. +> trunk6 stable6
+#: core/models/entitytreemodel_p.cpp:1340
+#, fuzzy, kde-format
+#| msgid "Could not copy collection:"
+msgctxt "@info"
+msgid "Could not copy collection: <message>%1</message>"
+msgstr "Níorbh fhéidir an bailiúchán a chóipeáil:"
+
+#. +> trunk6 stable6
+#: core/models/entitytreemodel_p.cpp:1342
+#, fuzzy, kde-format
+#| msgid "Could not move item:"
+msgctxt "@info"
+msgid "Could not move item: <message>%1</message>"
+msgstr "Níorbh fhéidir an mhír a bhogadh:"
+
+#. +> trunk6 stable6
+#: core/models/entitytreemodel_p.cpp:1344
+#, fuzzy, kde-format
+#| msgid "Could not move collection:"
+msgctxt "@info"
+msgid "Could not move collection: <message>%1</message>"
+msgstr "Níorbh fhéidir an bailiúchán a bhogadh:"
+
+#. +> trunk6 stable6
+#: core/models/entitytreemodel_p.cpp:1346
+#, fuzzy, kde-format
+#| msgid "Could not link entity:"
+msgctxt "@info"
+msgid "Could not link entity: <message>%1</message>"
+msgstr "Níorbh fhéidir aonán a nascadh:"
+
+#. +> trunk6 stable6
+#: core/models/favoritecollectionsmodel.cpp:398
+#, kde-format
+msgid "Favorite Folders"
+msgstr "Fillteáin Is Ansa Leat"
+
+#. +> trunk6 stable6
+#: core/models/statisticsproxymodel.cpp:84
+#, kde-format
+msgid "Total Messages"
+msgstr "Teachtaireachtaí Iomlána"
+
+#. +> trunk6 stable6
+#: core/models/statisticsproxymodel.cpp:86
+#, kde-format
+msgid "Unread Messages"
+msgstr "Teachtaireachtaí Gan Léamh"
+
+#. +> trunk6 stable6
+#: core/models/statisticsproxymodel.cpp:95
+#, kde-format
+msgctxt "@info:tooltip Quota: 10% (300 MiB/3 GiB)"
+msgid ""
+"<strong>Quota</strong>: %1% (%2/%3)<br>"
+"\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/models/statisticsproxymodel.cpp:103
+#, kde-format
+msgid "Storage Size"
+msgstr "Méid Stórála"
+
+#. +> trunk6 stable6
+#: core/models/statisticsproxymodel.cpp:109
+#, kde-format
+msgid "Subfolder Storage Size"
+msgstr "Méid Stórála san Fhofhillteán"
+
+#. +> trunk6 stable6
+#: core/models/statisticsproxymodel.cpp:220
+#, kde-format
+msgctxt "number of unread entities in the collection"
+msgid "Unread"
+msgstr "Gan léamh"
+
+#. +> trunk6 stable6
+#: core/models/statisticsproxymodel.cpp:221
+#, kde-format
+msgctxt "number of entities in the collection"
+msgid "Total"
+msgstr "Iomlán"
+
+#. +> trunk6 stable6
+#: core/models/statisticsproxymodel.cpp:222
+#, kde-format
+msgctxt "collection size"
+msgid "Size"
+msgstr "Méid"
+
+#. +> trunk6 stable6
+#: core/models/tagmodel.cpp:64
+#, kde-format
+msgid "Tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/partfetcher.cpp:49
+#, kde-format
+msgid "Unable to fetch item for index"
+msgstr "Ní féidir mír a fháil don innéacs"
+
+#. +> trunk6 stable6
+#: core/partfetcher.cpp:64
+#, kde-format
+msgid "Index is no longer available"
+msgstr "Níl an t-innéacs ar fáil a thuilleadh"
+
+#. +> trunk6 stable6
+#: core/partfetcher.cpp:114
+#, kde-format
+msgid "Payload part '%1' is not available for this index"
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/partfetcher.cpp:123
+#, kde-format
+msgid "No session available for this index"
+msgstr "Níl aon seisiún ar fáil don innéacs seo"
+
+#. +> trunk6 stable6
+#: core/partfetcher.cpp:132
+#, kde-format
+msgid "No item available for this index"
+msgstr "Níl aon mhír ar fáil don innéacs seo"
+
+#. +> trunk6 stable6
+#: core/pluginloader.cpp:145
+#, kde-format
+msgid "Unnamed plugin"
+msgstr "Breiseán gan ainm"
+
+#. +> trunk6 stable6
+#: core/pluginloader.cpp:151
+#, kde-format
+msgid "No description available"
+msgstr "Níl cur síos ar fáil"
+
+#. +> trunk6 stable6
+#: core/servermanager.cpp:271
+#, kde-format
+msgid ""
+"The Akonadi server protocol version differs from the protocol version used by this application.\n"
+"If you recently updated your system please log out and back in to make sure all applications use the correct protocol version."
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/servermanager.cpp:288
+#, kde-format
+msgid "There are no Akonadi Agents available. Please verify your KDE PIM installation."
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/session.cpp:184
+#, kde-format
+msgid "Protocol version mismatch. Server version is older (%1) than ours (%2). If you updated your system recently please restart the Akonadi server."
+msgstr ""
+
+#. +> trunk6 stable6
+#: core/session.cpp:193
+#, kde-format
+msgid "Protocol version mismatch. Server version is newer (%1) than ours (%2). If you updated your system recently please restart all KDE PIM applications."
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/qml/AgentConfigurationForm.qml:35
+#, fuzzy, kde-format
+#| msgid "&Configure Agent Instance"
+msgctxt "@title:dialog"
+msgid "Configure %1"
+msgstr "&Cumraigh Gníomhaire"
+
+#. +> trunk6 stable6
+#: quick/qml/AgentConfigurationForm.qml:41
+#, kde-format
+msgctxt "@info"
+msgid "Modify or delete this account agent."
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/qml/AgentConfigurationForm.qml:57
+#, kde-format
+msgctxt "@action:button"
+msgid "Modify"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/qml/AgentConfigurationForm.qml:66
+#, fuzzy, kde-format
+#| msgid "Delete"
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: quick/qml/AgentConfigurationForm.qml:115
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Account"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TagManagementDialog)
+#. +> trunk6 stable6
+#: quick/qml/TagManagerPage.qml:17 widgets/tagmanagementdialog.ui:14
+#, kde-format
+msgid "Manage Tags"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/qml/TagManagerPage.qml:27
+#, kde-format
+msgctxt "@title:dialog"
+msgid "Confirm Tag Deletion"
+msgstr ""
+
+#. +> trunk6 stable6
+#: quick/qml/TagManagerPage.qml:31
+#, fuzzy, kde-format
+#| msgid "Do you really want to delete this resource?"
+#| msgid_plural "Do you really want to delete %1 resources?"
+msgctxt "@info"
+msgid "Are you sure you want to delete tag <b>%1</b>?"
+msgstr "An bhfuil tú cinnte gur mian leat an acmhainn seo a scriosadh?"
+
+#. +> trunk6 stable6
+#: quick/qml/TagManagerPage.qml:31
+#, kde-format
+msgid "You won't be able to revert this action."
+msgstr ""
+
+#. +> trunk6
+#: quick/qml/TagManagerPage.qml:53
+#, fuzzy, kde-format
+#| msgid "Unable to create agent instance."
+msgctxt "@info:placeholder"
+msgid "There are no tags"
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: quick/qml/TagManagerPage.qml:141
+#, fuzzy, kde-format
+#| msgid "Unable to create agent instance."
+msgctxt "@info:placeholder"
+msgid "Create a New Tag…"
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: quick/qml/TagManagerPage.qml:152
+#, kde-format
+msgctxt "@action:button"
+msgid "Add Tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: selftest/main.cpp:19
+#, fuzzy, kde-format
+#| msgid "Akonadi Server Self-Test"
+msgid "Akonadi Self Test"
+msgstr "Féintástáil Fhreastalaí Akonadi"
+
+#. +> trunk6 stable6
+#: selftest/main.cpp:21
+#, fuzzy, kde-format
+#| msgid "Cannot connect to the Akonadi service."
+msgid "Checks and reports state of Akonadi server"
+msgstr "Ní féidir ceangal leis an tseirbhís Akonadi."
+
+#. +> trunk6 stable6
+#: selftest/main.cpp:23
+#, kde-format
+msgid "(c) 2008 Volker Krause <vkrause@kde.org>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: shared/akapplication.cpp:70
+#, kde-format
+msgid "Namespace for starting multiple Akonadi instances in the same user session"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/agentactionmanager.cpp:36
+msgid "&New Agent Instance..."
+msgstr "Gníomhaire &Nua..."
+
+#. +> trunk6 stable6
+#: widgets/agentactionmanager.cpp:37
+msgid "&Delete Agent Instance"
+msgstr "&Scrios Gníomhaire"
+
+#. +> trunk6 stable6
+#: widgets/agentactionmanager.cpp:38
+msgid "&Configure Agent Instance"
+msgstr "&Cumraigh Gníomhaire"
+
+#. +> trunk6 stable6
+#: widgets/agentactionmanager.cpp:54
+#, kde-format
+msgctxt "@title:window"
+msgid "New Agent Instance"
+msgstr "Gníomhaire Nua"
+
+#. +> trunk6 stable6
+#: widgets/agentactionmanager.cpp:56
+#, kde-format
+msgid "Could not create agent instance: %1"
+msgstr "Níorbh fhéidir gníomhaire a chruthú: %1"
+
+#. +> trunk6 stable6
+#: widgets/agentactionmanager.cpp:60
+#, fuzzy, kde-format
+#| msgid "Agent instance creation timed out."
+msgctxt "@title:window"
+msgid "Agent Instance Creation Failed"
+msgstr "Cruthú an ghníomhaire thar am."
+
+#. +> trunk6 stable6
+#: widgets/agentactionmanager.cpp:62
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Agent Instance?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/agentactionmanager.cpp:66
+#, kde-format
+msgid "Do you really want to delete the selected agent instance?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/agentconfigurationdialog.cpp:46
+#, kde-format
+msgctxt "@title:window, %1 = agent name"
+msgid "%1 Configuration"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/agentconfigurationwidget.cpp:94
+#, kde-format
+msgid "Unable to access D-Bus interface of created agent."
+msgstr "Ní féidir comhéadan D-Bus an ghníomhaire cruthaithe a rochtain."
+
+#. +> trunk6 stable6
+#: widgets/agentconfigurationwidget.cpp:116
+#, kde-format
+msgid "The configuration dialog has been opened in another window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/agentconfigurationwidget.cpp:123
+#, kde-format
+msgid "Configuration for %1 is already opened elsewhere."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/agentconfigurationwidget.cpp:125
+#, fuzzy, kde-format
+#| msgid "Unable to create agent instance."
+msgid "Failed to register %1 configuration dialog."
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: widgets/agentinstancewidget.cpp:259
+#, kde-format
+msgctxt "Status percent value"
+msgid "(%1%)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/agenttypedialog.cpp:66
+#, fuzzy, kde-format
+#| msgid "&Configure Agent Instance"
+msgctxt "@title:window"
+msgid "Configure Account"
+msgstr "&Cumraigh Gníomhaire"
+
+#. +> trunk6 stable6
+#: widgets/agenttypedialog.cpp:74
+#, fuzzy, kde-format
+#| msgctxt "@info/plain Displayed grayed-out inside the textbox, verb to search"
+#| msgid "Search"
+msgctxt "@item:textbox"
+msgid "Search types"
+msgstr "Cuardaigh"
+
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.cpp:43 widgets/cachepolicypage.cpp:48
+#, kde-format
+msgid "minute"
+msgid_plural "minutes"
+msgstr[0] "nóiméad"
+msgstr[1] "nóiméad"
+msgstr[2] "nóiméad"
+msgstr[3] "nóiméad"
+msgstr[4] "nóiméad"
+
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.cpp:70
+#, kde-format
+msgid "Retrieval"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, inherit)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:20
+#, kde-format
+msgid "Use options from parent folder or account"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, syncOnDemand)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:33
+#, fuzzy, kde-format
+#| msgid "Synchronize Folder"
+#| msgid_plural "Synchronize %1 Folders"
+msgid "Synchronize when selecting this folder"
+msgstr "Sioncrónaigh Fillteán"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:40
+#, fuzzy, kde-format
+#| msgid "Synchronize Folder"
+#| msgid_plural "Synchronize %1 Folders"
+msgid "Synchronize after:"
+msgstr "Sioncrónaigh Fillteán"
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, checkInterval)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:47
+#, kde-format
+msgctxt "never check the cache"
+msgid "Never"
+msgstr "Ná seiceáil riamh"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, checkInterval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, localCacheTimeout)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:50 widgets/cachepolicypage.ui:133
+#, kde-format
+msgid "minutes"
+msgstr "nóiméad"
+
+#. i18n: ectx: property (text), widget (QLabel, localPartsLabel)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:66
+#, fuzzy, kde-format
+#| msgid "Locally Cached Parts"
+msgid "Locally cached parts:"
+msgstr "Páirteanna i dTaisce Logánta"
+
+#. i18n: ectx: property (title), widget (KEditListWidget, localParts)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:87
+#, kde-format
+msgid "Locally Cached Parts"
+msgstr "Páirteanna i dTaisce Logánta"
+
+#. i18n: ectx: property (text), widget (QLabel, retrievalOptionsLabel)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:94
+#, kde-format
+msgid "Retrieval Options:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, retrieveFullMessages)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:101
+#, kde-format
+msgid "Always retrieve full &messages"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, retrieveOnlyHeaders)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:111
+#, kde-format
+msgid "&Retrieve message bodies on demand"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:118
+#, kde-format
+msgid "Keep message bodies locally for:"
+msgstr ""
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, localCacheTimeout)
+#. +> trunk6 stable6
+#: widgets/cachepolicypage.ui:130
+#, kde-format
+msgctxt "no cache timeout"
+msgid "Forever"
+msgstr "Go deo"
+
+#. +> trunk6 stable6
+#: widgets/clearcachefoldersjob.cpp:41
+#, kde-format
+msgid "Collection cache cleared. You should restart Akonadi now."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/clearcachefoldersjob.cpp:69
+#, kde-format
+msgid "The collection '%1' contains %2 items without Remote ID. Those items were likely never uploaded to the destination server, so clearing this collection means that those <b>data will be lost</b>. Are you sure you want to proceed?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/collectiondialog.cpp:58
+#, fuzzy, kde-format
+#| msgctxt "@info/plain Displayed grayed-out inside the textbox, verb to search"
+#| msgid "Search"
+msgctxt "@info Displayed grayed-out inside the textbox, verb to search"
+msgid "Search"
+msgstr "Cuardaigh"
+
+#. +> trunk6 stable6
+#: widgets/collectiondialog.cpp:66
+#, kde-format
+msgctxt "@option:check"
+msgid "Use folder by default"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/collectiondialog.cpp:226
+#, fuzzy, kde-format
+#| msgid "&New Subfolder..."
+msgctxt "@action:button"
+msgid "&New Subfolder..."
+msgstr "Fofhillteán &Nua..."
+
+#. +> trunk6 stable6
+#: widgets/collectiondialog.cpp:228
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new subfolder under the currently selected folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/collectiondialog.cpp:266 widgets/standardactionmanager.cpp:419
+#, kde-format
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr "Fillteán Nua"
+
+#. +> trunk6 stable6
+#: widgets/collectiondialog.cpp:266
+#, kde-format
+msgctxt "@label:textbox, name of a thing"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: widgets/collectiondialog.cpp:287 widgets/standardactionmanager.cpp:421
+#, kde-format
+msgid "Could not create folder: %1"
+msgstr "Níorbh fhéidir an fillteán a chruthú: %1"
+
+#. +> trunk6 stable6
+#: widgets/collectiondialog.cpp:287 widgets/standardactionmanager.cpp:422
+#, fuzzy, kde-format
+#| msgid "Folder creation failed"
+msgctxt "@title:window"
+msgid "Folder Creation Failed"
+msgstr "Theip ar chruthú an fhillteáin"
+
+#. +> trunk6 stable6
+#: widgets/collectiongeneralpropertiespage.cpp:27
+#, kde-format
+msgctxt "@title:tab general properties page"
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: widgets/collectiongeneralpropertiespage.cpp:54
+#, kde-format
+msgctxt "@label"
+msgid "One object"
+msgid_plural "%1 objects"
+msgstr[0] "Réad amháin"
+msgstr[1] "%1 réad"
+msgstr[2] "%1 réad"
+msgstr[3] "%1 réad"
+msgstr[4] "%1 réad"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: widgets/collectiongeneralpropertiespage.ui:16
+#, kde-format
+msgid "&Name:"
+msgstr "&Ainm:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, customIconCheckbox)
+#. +> trunk6 stable6
+#: widgets/collectiongeneralpropertiespage.ui:29
+#, kde-format
+msgid "&Use custom icon:"
+msgstr "Ú&sáid deilbhín saincheaptha:"
+
+#. i18n: ectx: property (icon), widget (KIconButton, customIcon)
+#. +> trunk6 stable6
+#: widgets/collectiongeneralpropertiespage.ui:39
+#, kde-format
+msgid "folder"
+msgstr "fillteán"
+
+#. i18n: ectx: property (title), widget (QGroupBox, statsBox)
+#. +> trunk6 stable6
+#: widgets/collectiongeneralpropertiespage.ui:62
+#, kde-format
+msgid "Statistics"
+msgstr "Staitisticí"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: widgets/collectiongeneralpropertiespage.ui:68
+#, kde-format
+msgctxt "object names"
+msgid "Content:"
+msgstr "Inneachar:"
+
+#. i18n: ectx: property (text), widget (QLabel, countLabel)
+#. +> trunk6 stable6
+#: widgets/collectiongeneralpropertiespage.ui:75
+#, kde-format
+msgid "0 objects"
+msgstr "0 réad"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: widgets/collectiongeneralpropertiespage.ui:82
+#, kde-format
+msgid "Size:"
+msgstr "Méid:"
+
+#. i18n: ectx: property (text), widget (QLabel, sizeLabel)
+#. +> trunk6 stable6
+#: widgets/collectiongeneralpropertiespage.ui:89
+#, kde-format
+msgid "0 Byte"
+msgstr "0 Beart"
+
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.cpp:46
+#, kde-format
+msgid "Remember that indexing can take some minutes."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.cpp:72
+#, kde-format
+msgid "Maintenance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.cpp:131
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Error while creating item: %1"
+msgid "Error while retrieving indexed items count"
+msgstr "Earráid agus mír á cruthú: %1"
+
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.cpp:134
+#, kde-format
+msgid "Indexed %1 item in this folder"
+msgid_plural "Indexed %1 items in this folder"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.cpp:138
+#, kde-format
+msgid "Calculating indexed items..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.ui:17
+#, fuzzy, kde-format
+#| msgid "Folder &Properties"
+msgid "Folder type:"
+msgstr "&Airíonna an Fhillteáin"
+
+#. i18n: ectx: property (text), widget (QLabel, folderTypeLbl)
+#. i18n: ectx: property (text), widget (QLabel, folderSizeLbl)
+#. i18n: ectx: property (text), widget (QLabel, itemsCountLbl)
+#. i18n: ectx: property (text), widget (QLabel, unreadItemsCountLbl)
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.ui:24
+#: widgets/collectionmaintenancepage.ui:31
+#: widgets/collectionmaintenancepage.ui:52
+#: widgets/collectionmaintenancepage.ui:66
+#, kde-format
+msgid "unknown"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.ui:38
+#, kde-format
+msgid "File size:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.ui:45
+#, fuzzy, kde-format
+#| msgid "Total Messages"
+msgid "Total items:"
+msgstr "Teachtaireachtaí Iomlána"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.ui:59
+#, fuzzy, kde-format
+#| msgid "Unread Messages"
+msgid "Unread items:"
+msgstr "Teachtaireachtaí Gan Léamh"
+
+#. i18n: ectx: property (text), widget (QLabel, indexingLabel)
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.ui:73
+#, kde-format
+msgid "Indexing:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableIndexingChkBox)
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.ui:80
+#, kde-format
+msgid "Enable fulltext indexing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, indexedCountLbl)
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.ui:87
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Error while creating item: %1"
+msgid "Retrieving indexed items count..."
+msgstr "Earráid agus mír á cruthú: %1"
+
+#. i18n: ectx: property (text), widget (QPushButton, reindexButton)
+#. +> trunk6 stable6
+#: widgets/collectionmaintenancepage.ui:94
+#, fuzzy, kde-format
+#| msgid "Recent Folder"
+msgid "Reindex folder"
+msgstr "Fillteán Le Déanaí"
+
+#. +> trunk6 stable6
+#: widgets/collectionrequester.cpp:113
+#, fuzzy, kde-format
+#| msgid "No Folder"
+msgctxt "@info:placeholder"
+msgid "No Folder"
+msgstr "Gan Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/collectionrequester.cpp:122
+#, fuzzy, kde-format
+#| msgid "Open collection dialog"
+msgctxt "@info:tooltip"
+msgid "Open collection dialog"
+msgstr "Oscail dialóg bhailiúcháin"
+
+#. +> trunk6 stable6
+#: widgets/collectionrequester.cpp:143
+#, fuzzy, kde-format
+#| msgid "Select a collection"
+msgctxt "@title:window"
+msgid "Select a Collection"
+msgstr "Roghnaigh bailiúchán"
+
+#. +> trunk6 stable6
+#: widgets/conflictresolvedialog.cpp:129
+#, kde-format
+msgid "Modification Time"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/conflictresolvedialog.cpp:141
+#, kde-format
+msgid "Flags"
+msgstr "Bratacha"
+
+#. +> trunk6 stable6
+#: widgets/conflictresolvedialog.cpp:156 widgets/conflictresolvedialog.cpp:164
+#: widgets/conflictresolvedialog.cpp:174
+#, kde-format
+msgid "Attribute: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/conflictresolvedialog.cpp:186
+#, kde-format
+msgctxt "@title:window"
+msgid "Conflict Resolution"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/conflictresolvedialog.cpp:192
+#, kde-format
+msgctxt "@action:button"
+msgid "Take my version"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/conflictresolvedialog.cpp:198
+#, kde-format
+msgctxt "@action:button"
+msgid "Take their version"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/conflictresolvedialog.cpp:204
+#, kde-format
+msgctxt "@action:button"
+msgid "Keep both versions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/conflictresolvedialog.cpp:217
+#, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"<qt>Your changes conflict with those made by someone else meanwhile.<br>"
+"Unless one version can just be thrown away, you will have to integrate those changes manually.<br>"
+"Click on <a href=\"opentexteditor\">\"Open text editor\"</a> to keep a copy of the texts, then select which version is most correct, then re-open it and modify it again to add what's missing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/conflictresolvedialog.cpp:266
+#, kde-format
+msgid "Data"
+msgstr "Sonraí"
+
+#. +> trunk6 stable6
+#: widgets/controlgui.cpp:223
+#, kde-format
+msgid "Starting Akonadi server..."
+msgstr "Freastalaí Akonadi á thosú..."
+
+#. +> trunk6 stable6
+#: widgets/controlgui.cpp:229
+#, kde-format
+msgid "Stopping Akonadi server..."
+msgstr "Freastalaí Akonadi á stopadh..."
+
+#. +> trunk6 stable6
+#: widgets/dragdropmanager.cpp:212
+#, kde-format
+msgid "&Move Here"
+msgstr "&Bog Anseo"
+
+#. +> trunk6 stable6
+#: widgets/dragdropmanager.cpp:218
+#, kde-format
+msgid "&Copy Here"
+msgstr "&Cóipeáil Anseo"
+
+#. +> trunk6 stable6
+#: widgets/dragdropmanager.cpp:224
+#, kde-format
+msgid "&Link Here"
+msgstr "&Nasc Anseo"
+
+#. +> trunk6 stable6
+#: widgets/dragdropmanager.cpp:229
+#, kde-format
+msgid "C&ancel"
+msgstr "Ce&alaigh"
+
+#. +> trunk6 stable6
+#: widgets/erroroverlay.cpp:224
+#, fuzzy, kde-format
+#| msgid "Cannot connect to the Akonadi service."
+msgctxt "%1 is a reason why"
+msgid ""
+"Cannot connect to the Personal information management service.\n"
+"\n"
+"%1"
+msgstr "Ní féidir ceangal leis an tseirbhís Akonadi."
+
+#. +> trunk6 stable6
+#: widgets/erroroverlay.cpp:228
+#, fuzzy, kde-format
+#| msgid "Personal information management service is starting..."
+msgctxt "@info:tooltip"
+msgid "Personal information management service is starting..."
+msgstr "Bainisteoir faisnéise phearsanta á thosú..."
+
+#. +> trunk6 stable6
+#: widgets/erroroverlay.cpp:229
+#, kde-format
+msgid "Personal information management service is starting..."
+msgstr "Bainisteoir faisnéise phearsanta á thosú..."
+
+#. +> trunk6 stable6
+#: widgets/erroroverlay.cpp:233
+#, fuzzy, kde-format
+#| msgid "Personal information management service is shutting down..."
+msgctxt "@info:tooltip"
+msgid "Personal information management service is shutting down..."
+msgstr "Bainisteoir faisnéise phearsanta á mhúchadh..."
+
+#. +> trunk6 stable6
+#: widgets/erroroverlay.cpp:234
+#, kde-format
+msgid "Personal information management service is shutting down..."
+msgstr "Bainisteoir faisnéise phearsanta á mhúchadh..."
+
+#. +> trunk6 stable6
+#: widgets/erroroverlay.cpp:238
+#, fuzzy, kde-format
+#| msgid "Personal information management service is starting..."
+msgctxt "@info:tooltip"
+msgid "Personal information management service is performing a database upgrade."
+msgstr "Bainisteoir faisnéise phearsanta á thosú..."
+
+#. +> trunk6 stable6
+#: widgets/erroroverlay.cpp:240
+#, kde-format
+msgid ""
+"Personal information management service is performing a database upgrade.\n"
+"This happens after a software update and is necessary to optimize performance.\n"
+"Depending on the amount of personal information, this might take a few minutes."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QWidget, notRunningPage)
+#. i18n: ectx: property (text), widget (QLabel, notRunningDescription)
+#. +> trunk6 stable6
+#: widgets/erroroverlay.ui:21 widgets/erroroverlay.ui:71
+#, kde-format
+msgid "A required background service is not running. This application cannot be used without it."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, startButton)
+#. +> trunk6 stable6
+#: widgets/erroroverlay.ui:116
+#, kde-format
+msgctxt "@action:button Start the Akonadi server"
+msgid "Start"
+msgstr "Tosaigh"
+
+#. i18n: ectx: property (toolTip), widget (QWidget, brokenPage)
+#. +> trunk6 stable6
+#: widgets/erroroverlay.ui:158
+#, kde-format
+msgid ""
+"A required background service is not operational.\n"
+"Click on \"Details...\" to obtain detailed information on this problem."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, brokenDescription)
+#. +> trunk6 stable6
+#: widgets/erroroverlay.ui:208
+#, kde-format
+msgid ""
+"<html><head/><body>"
+"<p>A required background service is not operational.</p>"
+"<p>See <a href=\"https://userbase.kde.org/Akonadi#If_Akonadi_Reports_Broken_or_Non-operational\">FAQ</a> for troubleshooting tips.</p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, selfTestButton)
+#. +> trunk6 stable6
+#: widgets/erroroverlay.ui:259
+#, kde-format
+msgid "Details..."
+msgstr "Mionsonraí..."
+
+#. +> trunk6 stable6
+#: widgets/manageaccountwidget.cpp:232
+#, fuzzy, kde-format
+#| msgid "Do you really want to delete the search view '%1'?"
+msgid "Do you want to remove account '%1'?"
+msgstr "An bhfuil tú cinnte gur mian leat amharc cuardaigh '%1' a scriosadh?"
+
+#. +> trunk6 stable6
+#: widgets/manageaccountwidget.cpp:233
+#, kde-format
+msgctxt "@title:window"
+msgid "Remove account?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, accountOnCurrentActivity)
+#. +> trunk6 stable6
+#: widgets/manageaccountwidget.ui:19
+#, kde-format
+msgid "Show only account on current activity"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: widgets/manageaccountwidget.ui:26
+#, kde-format
+msgid "Incoming accounts (add at least one):"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, mFilterAccount)
+#. +> trunk6 stable6
+#: widgets/manageaccountwidget.ui:33
+#, kde-format
+msgid "Filter…"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, mAddAccountButton)
+#. +> trunk6 stable6
+#: widgets/manageaccountwidget.ui:47
+#, kde-format
+msgid "A&dd..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, mModifyAccountButton)
+#. +> trunk6 stable6
+#: widgets/manageaccountwidget.ui:57
+#, kde-format
+msgid "&Modify..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, mRemoveAccountButton)
+#. +> trunk6 stable6
+#: widgets/manageaccountwidget.ui:67
+#, kde-format
+msgid "R&emove"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, mRestartAccountButton)
+#. +> trunk6 stable6
+#: widgets/manageaccountwidget.ui:84
+#, fuzzy, kde-format
+#| msgctxt "@action:button Start the Akonadi server"
+#| msgid "Start"
+msgid "Restart"
+msgstr "Tosaigh"
+
+#. +> trunk6 stable6
+#: widgets/recentcollectionaction.cpp:43
+#, kde-format
+msgid "Recent Folder"
+msgstr "Fillteán Le Déanaí"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, RenameFavoriteDialog)
+#. +> trunk6 stable6
+#: widgets/renamefavoritedialog.ui:26
+#, kde-format
+msgid "Rename Favorite"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: widgets/renamefavoritedialog.ui:35
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox name of the folder"
+#| msgid "Name:"
+msgid "Name:"
+msgstr "Ainm:"
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:60
+#, fuzzy, kde-format
+#| msgid "Akonadi Server Self-Test"
+msgctxt "@title:window"
+msgid "Akonadi Server Self-Test"
+msgstr "Féintástáil Fhreastalaí Akonadi"
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:71
+#, kde-format
+msgid "Save Report..."
+msgstr "Sábháil an Tuairisc..."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:73
+#, kde-format
+msgid "Copy Report to Clipboard"
+msgstr "Cóipeáil Tuairisc go dtí an Ghearrthaisce"
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:189
+#, kde-format
+msgid "The QtSQL driver '%1' is required by your current Akonadi server configuration and was found on your system."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:191
+#, kde-format
+msgid ""
+"The QtSQL driver '%1' is required by your current Akonadi server configuration.\n"
+"The following drivers are installed: %2.\n"
+"Make sure the required driver is installed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:198
+#, kde-format
+msgid "Database driver found."
+msgstr "Aimsíodh tiománaí bunachair sonraí."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:200
+#, kde-format
+msgid "Database driver not found."
+msgstr "Tiománaí bunachair sonraí gan aimsiú."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:208
+#, kde-format
+msgid "MySQL server executable not tested."
+msgstr "Freastalaí inrite MySQL gan tástáil."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:208 widgets/selftestdialog.cpp:249
+#: widgets/selftestdialog.cpp:300
+#, kde-format
+msgid "The current configuration does not require an internal MySQL server."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:216
+#, kde-format
+msgid ""
+"You have currently configured Akonadi to use the MySQL server '%1'.\n"
+"Make sure you have the MySQL server installed, set the correct path and ensure you have the necessary read and execution rights on the server executable. The server executable is typically called 'mysqld'; its location varies depending on the distribution."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:224
+#, kde-format
+msgid "MySQL server not found."
+msgstr "Freastalaí MySQL gan aimsiú."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:226
+#, kde-format
+msgid "MySQL server not readable."
+msgstr "Freastalaí MySQL neamh-inléite."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:228
+#, kde-format
+msgid "MySQL server not executable."
+msgstr "Freastalaí MySQL neamh-inrite."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:230
+#, kde-format
+msgid "MySQL found with unexpected name."
+msgstr "Aimsíodh MySQL ach ainm aisteach air."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:232
+#, kde-format
+msgid "MySQL server found."
+msgstr "Aimsíodh freastalaí MySQL."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:238
+#, kde-format
+msgid "MySQL server found: %1"
+msgstr "Aimsíodh freastalaí MySQL: %1"
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:239
+#, kde-format
+msgid "MySQL server is executable."
+msgstr "Tá an freastalaí MySQL inrite."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:241
+#, kde-format
+msgid "Executing the MySQL server '%1' failed with the following error message: '%2'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:242
+#, kde-format
+msgid "Executing the MySQL server failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:249
+#, kde-format
+msgid "MySQL server error log not tested."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:257
+#, kde-format
+msgid "No current MySQL error log found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:258
+#, kde-format
+msgid "The MySQL server did not report any errors during this startup. The log can be found in '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:264
+#, kde-format
+msgid "MySQL error log not readable."
+msgstr "Níl an logchomhad earráide MySQL inléite."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:265
+#, kde-format
+msgid "A MySQL server error log file was found but is not readable: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:274
+#, kde-format
+msgid "MySQL server log contains errors."
+msgstr "Tá earráidí i logchomhad an fhreastalaí MySQL."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:275
+#, kde-format
+msgid "The MySQL server error log file '%1' contains errors."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:285
+#, kde-format
+msgid "MySQL server log contains warnings."
+msgstr "Tá rabhaidh i logchomhad an fhreastalaí MySQL."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:286
+#, kde-format
+msgid "The MySQL server log file '%1' contains warnings."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:289
+#, kde-format
+msgid "MySQL server log contains no errors."
+msgstr "Níl aon earráidí i logchomhad an fhreastalaí MySQL."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:290
+#, kde-format
+msgid "The MySQL server log file '%1' does not contain any errors or warnings."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:300
+#, kde-format
+msgid "MySQL server configuration not tested."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:309
+#, kde-format
+msgid "MySQL server default configuration found."
+msgstr "Aimsíodh cumraíocht réamhshocraithe an fhreastalaí MySQL."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:310
+#, kde-format
+msgid "The default configuration for the MySQL server was found and is readable at %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:314
+#, kde-format
+msgid "MySQL server default configuration not found."
+msgstr "Níor aimsíodh cumraíocht réamhshocraithe ar an bhfreastalaí MySQL."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:315
+#, kde-format
+msgid "The default configuration for the MySQL server was not found or was not readable. Check your Akonadi installation is complete and you have all required access rights."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:323
+#, kde-format
+msgid "MySQL server custom configuration not available."
+msgstr "Níl cumraíocht shaincheaptha ar an bhfreastalaí MySQL ar fáil."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:324
+#, kde-format
+msgid "The custom configuration for the MySQL server was not found but is optional."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:327
+#, kde-format
+msgid "MySQL server custom configuration found."
+msgstr "Aimsíodh cumraíocht shaincheaptha ar an bhfreastalaí MySQL."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:328
+#, kde-format
+msgid "The custom configuration for the MySQL server was found and is readable at %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:332
+#, kde-format
+msgid "MySQL server custom configuration not readable."
+msgstr "Níl cumraíocht shaincheaptha an fhreastalaí MySQL inléite."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:333
+#, kde-format
+msgid "The custom configuration for the MySQL server was found at %1 but is not readable. Check your access rights."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:342
+#, kde-format
+msgid "MySQL server configuration not found or not readable."
+msgstr "Níor aimsíodh cumraíocht an fhreastalaí MySQL nó níl sí inléite."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:343
+#, kde-format
+msgid "The MySQL server configuration was not found or is not readable."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:346
+#, kde-format
+msgid "MySQL server configuration is usable."
+msgstr "Tá cumraíocht an fhreastalaí MySQL inúsáidte."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:347
+#, kde-format
+msgid "The MySQL server configuration was found at %1 and is readable."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:376
+#, kde-format
+msgid "Cannot connect to PostgreSQL server."
+msgstr "Ní féidir ceangal leis an bhfreastalaí PostgreSQL."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:378
+#, kde-format
+msgid "PostgreSQL server found."
+msgstr "Aimsíodh freastalaí PostgreSQL."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:378
+#, kde-format
+msgid "The PostgreSQL server was found and connection is working."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:388
+#, kde-format
+msgid "akonadictl not found"
+msgstr "akonadictl gan aimsiú"
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:389
+#, kde-format
+msgid "The program 'akonadictl' needs to be accessible in $PATH. Make sure you have the Akonadi server installed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:396
+#, kde-format
+msgid "akonadictl found and usable"
+msgstr "Aimsíodh akonadictl agus tá sé inúsáidte"
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:397
+#, kde-format
+msgid ""
+"The program '%1' to control the Akonadi server was found and could be executed successfully.\n"
+"Result:\n"
+"%2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:403
+#, kde-format
+msgid "akonadictl found but not usable"
+msgstr "Aimsíodh akonadictl ach níl sé inúsáidte"
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:404
+#, kde-format
+msgid ""
+"The program '%1' to control the Akonadi server was found but could not be executed successfully.\n"
+"Result:\n"
+"%2\n"
+"Make sure the Akonadi server is installed correctly."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:416
+#, kde-format
+msgid "Akonadi control process registered at D-Bus."
+msgstr "Cláraíodh an próiseas rialaithe Akonadi le D-Bus."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:417
+#, kde-format
+msgid "The Akonadi control process is registered at D-Bus which typically indicates it is operational."
+msgstr "Cláraíodh an próiseas rialaithe Akonadi le D-Bus, rud a chiallaíonn go bhfuil sé i bhfeidhm de ghnáth."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:420
+#, kde-format
+msgid "Akonadi control process not registered at D-Bus."
+msgstr "Níl an próiseas rialaithe Akonadi cláraithe le D-Bus."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:421
+#, kde-format
+msgid "The Akonadi control process is not registered at D-Bus which typically means it was not started or encountered a fatal error during startup."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:427
+#, kde-format
+msgid "Akonadi server process registered at D-Bus."
+msgstr "Cláraíodh próiseas freastalaí Akonadi le D-Bus."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:428
+#, kde-format
+msgid "The Akonadi server process is registered at D-Bus which typically indicates it is operational."
+msgstr "Cláraíodh próiseas freastalaí Akonadi le D-Bus, rud a chiallaíonn go bhfuil sé i bhfeidhm de ghnáth."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:431
+#, kde-format
+msgid "Akonadi server process not registered at D-Bus."
+msgstr "Níl próiseas freastalaí Akonadi cláraithe le D-Bus."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:432
+#, kde-format
+msgid "The Akonadi server process is not registered at D-Bus which typically means it was not started or encountered a fatal error during startup."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:441
+#, kde-format
+msgid "Protocol version check not possible."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:442
+#, kde-format
+msgid "Without a connection to the server it is not possible to check if the protocol version meets the requirements."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:447
+#, kde-format
+msgid "Server protocol version is too old."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:448 widgets/selftestdialog.cpp:455
+#, kde-format
+msgid "The server protocol version is %1, but version %2 is required by the client. If you recently updated KDE PIM, please make sure to restart both Akonadi and KDE PIM applications."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:454
+#, kde-format
+msgid "Server protocol version is too new."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:460
+#, kde-format
+msgid "Server protocol version matches."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:460
+#, kde-format
+msgid "The current Protocol version is %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:478
+#, kde-format
+msgid "Resource agents found."
+msgstr "Aimsíodh gníomhairí acmhainne."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:478
+#, kde-format
+msgid "At least one resource agent has been found."
+msgstr "Aimsíodh gníomhaire acmhainne amháin ar a laghad."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:481
+#, kde-format
+msgid "No resource agents found."
+msgstr "Níor aimsíodh aon ghníomhairí acmhainne."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:482
+#, kde-format
+msgid "No resource agents have been found, Akonadi is not usable without at least one. This usually means that no resource agents are installed or that there is a setup problem. The following paths have been searched: '%1'. The XDG_DATA_DIRS environment variable is set to '%2'; make sure this includes all paths where Akonadi agents are installed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:499
+#, kde-format
+msgid "No current Akonadi server error log found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:499
+#, kde-format
+msgid "The Akonadi server did not report any errors during its current startup."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:503
+#, kde-format
+msgid "Current Akonadi server error log found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:504
+#, kde-format
+msgid "The Akonadi server reported errors during its current startup. The log can be found in %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:512
+#, kde-format
+msgid "No previous Akonadi server error log found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:513
+#, kde-format
+msgid "The Akonadi server did not report any errors during its previous startup."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:517
+#, kde-format
+msgid "Previous Akonadi server error log found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:518
+#, kde-format
+msgid "The Akonadi server reported errors during its previous startup. The log can be found in %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:529
+#, kde-format
+msgid "No current Akonadi control error log found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:530
+#, kde-format
+msgid "The Akonadi control process did not report any errors during its current startup."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:534
+#, kde-format
+msgid "Current Akonadi control error log found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:535
+#, kde-format
+msgid "The Akonadi control process reported errors during its current startup. The log can be found in %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:543
+#, kde-format
+msgid "No previous Akonadi control error log found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:544
+#, kde-format
+msgid "The Akonadi control process did not report any errors during its previous startup."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:548
+#, kde-format
+msgid "Previous Akonadi control error log found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:549
+#, kde-format
+msgid "The Akonadi control process reported errors during its previous startup. The log can be found in %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:559
+#, kde-format
+msgid "Akonadi was started as root"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:560
+#, kde-format
+msgid "Running Internet-facing applications as root/administrator exposes you to many security risks. MySQL, used by this Akonadi installation, will not allow itself to run as root, to protect you from these risks."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:564
+#, kde-format
+msgid "Akonadi is not running as root"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:565
+#, kde-format
+msgid "Akonadi is not running as a root/administrator user, which is the recommended setup for a secure system."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:643
+#, kde-format
+msgid "Save Test Report"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:650
+#, fuzzy, kde-format
+#| msgctxt "@info:status"
+#| msgid "Error."
+msgctxt "@title:window"
+msgid "Error"
+msgstr "Earráid."
+
+#. +> trunk6 stable6
+#: widgets/selftestdialog.cpp:650
+#, kde-format
+msgid "Could not open file '%1'"
+msgstr "Níorbh fhéidir comhad '%1' a oscailt"
+
+#. i18n: ectx: property (text), widget (QLabel, introductionLabel)
+#. +> trunk6 stable6
+#: widgets/selftestdialog.ui:16
+#, kde-format
+msgid "An error occurred during the startup of the Akonadi server. The following self-tests are supposed to help with tracking down and solving this problem. When requesting support or reporting bugs, please always include this report."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, detailsGroup)
+#. +> trunk6 stable6
+#: widgets/selftestdialog.ui:39
+#, kde-format
+msgid "Details"
+msgstr "Mionsonraí"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: widgets/selftestdialog.ui:61
+#, kde-format
+msgid "<p>For more troubleshooting tips please refer to <a href=\"https://userbase.kde.org/Akonadi\">userbase.kde.org/Akonadi</a>.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:79
+msgid "&New Folder..."
+msgstr "Fillteán &Nua..."
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:79
+msgid "New"
+msgstr "Nua"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:89
+#, fuzzy
+#| msgid "&Delete Folder"
+#| msgid_plural "&Delete %1 Folders"
+msgid "&Delete Folder"
+msgstr "&Scrios Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:90
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:97
+#, fuzzy
+#| msgid "&Synchronize Folder"
+#| msgid_plural "&Synchronize %1 Folders"
+msgid "&Synchronize Folder"
+msgstr "&Sioncrónaigh Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:98 widgets/standardactionmanager.cpp:207
+#: widgets/standardactionmanager.cpp:314
+msgid "Synchronize"
+msgstr "Sioncrónaigh"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:105
+msgid "Folder &Properties"
+msgstr "&Airíonna an Fhillteáin"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:106 widgets/standardactionmanager.cpp:199
+msgid "Properties"
+msgstr "Airíonna"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:113
+msgid "&Paste"
+msgstr "&Greamaigh"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:113
+msgid "Paste"
+msgstr "Greamaigh"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:116
+msgid "Manage Local &Subscriptions..."
+msgstr "Bainistigh &Síntiúis Logánta..."
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:117
+msgid "Manage Local Subscriptions"
+msgstr "Bainistigh Síntiúis Logánta"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:124
+msgid "Add to Favorite Folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:125
+msgid "Add to Favorite"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:132
+msgid "Remove from Favorite Folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:133
+msgid "Remove from Favorite"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:140
+msgid "Rename Favorite..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:141
+msgid "Rename"
+msgstr "Athainmnigh"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:148 widgets/standardactionmanager.cpp:222
+msgid "Copy Folder To..."
+msgstr "Cóipeáil Fillteán Go..."
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:149 widgets/standardactionmanager.cpp:157
+#: widgets/standardactionmanager.cpp:223 widgets/standardactionmanager.cpp:237
+msgid "Copy To"
+msgstr "Cóipeáil Go"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:156 widgets/standardactionmanager.cpp:237
+msgid "Copy Item To..."
+msgstr "Cóipeáil Mír Go..."
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:164 widgets/standardactionmanager.cpp:238
+msgid "Move Item To..."
+msgstr "Bog Mír Go..."
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:165 widgets/standardactionmanager.cpp:173
+#: widgets/standardactionmanager.cpp:231 widgets/standardactionmanager.cpp:238
+msgid "Move To"
+msgstr "Bog Go"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:172 widgets/standardactionmanager.cpp:230
+msgid "Move Folder To..."
+msgstr "Bog Fillteán Go..."
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:179
+#, fuzzy
+#| msgid "&Cut Item"
+#| msgid_plural "&Cut %1 Items"
+msgid "&Cut Item"
+msgstr "&Gearr Mír"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:179 widgets/standardactionmanager.cpp:180
+msgid "Cut"
+msgstr "Gearr"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:180
+#, fuzzy
+#| msgid "&Cut Folder"
+#| msgid_plural "&Cut %1 Folders"
+msgid "&Cut Folder"
+msgstr "&Gearr Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:182
+msgid "Create Resource"
+msgstr "Cruthaigh Acmhainn"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:190
+#, fuzzy
+#| msgid "Delete Resource"
+#| msgid_plural "Delete %1 Resources"
+msgid "Delete Resource"
+msgstr "Scrios Acmhainn"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:198
+msgid "&Resource Properties"
+msgstr "&Airíonna na hAcmhainne"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:206
+#, fuzzy
+#| msgid "Synchronize Resource"
+#| msgid_plural "Synchronize %1 Resources"
+msgid "Synchronize Resource"
+msgstr "Sioncrónaigh Acmhainn"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:214
+msgid "Work Offline"
+msgstr "Oibrigh As Líne"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:240
+msgid "&Synchronize Folder Recursively"
+msgstr "&Sioncrónaigh Fillteán go hAthchúrsach"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:241
+msgid "Synchronize Recursively"
+msgstr "Sioncrónaigh go hAthchúrsach"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:248
+msgid "&Move Folder To Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:249
+msgid "Move Folder To Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:256
+msgid "&Move Item To Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:257
+msgid "Move Item To Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:264 widgets/standardactionmanager.cpp:280
+msgid "&Restore Folder From Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:265 widgets/standardactionmanager.cpp:281
+msgid "Restore Folder From Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:272 widgets/standardactionmanager.cpp:296
+#: widgets/standardactionmanager.cpp:303
+msgid "&Restore Item From Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:273 widgets/standardactionmanager.cpp:297
+#: widgets/standardactionmanager.cpp:303
+msgid "Restore Item From Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:288
+msgid "&Restore Collection From Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:289
+msgid "Restore Collection From Trash"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:305
+msgid "&Synchronize Favorite Folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:306
+msgid "Synchronize Favorite Folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:313
+#, fuzzy
+#| msgid "Synchronize Folder"
+#| msgid_plural "Synchronize %1 Folders"
+msgid "Synchronize Folder Tree"
+msgstr "Sioncrónaigh Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:399
+#, kde-format
+msgid "&Copy Folder"
+msgid_plural "&Copy %1 Folders"
+msgstr[0] "&Cóipeáil Fillteán"
+msgstr[1] "&Cóipeáil %1 Fhillteán"
+msgstr[2] "&Cóipeáil %1 Fhillteán"
+msgstr[3] "&Cóipeáil %1 bhFillteán"
+msgstr[4] "&Cóipeáil %1 Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:400
+#, kde-format
+msgid "&Copy Item"
+msgid_plural "&Copy %1 Items"
+msgstr[0] "&Cóipeáil Mír"
+msgstr[1] "&Cóipeáil %1 Mhír"
+msgstr[2] "&Cóipeáil %1 Mhír"
+msgstr[3] "&Cóipeáil %1 Mír"
+msgstr[4] "&Cóipeáil %1 Mír"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:401
+#, fuzzy, kde-format
+#| msgid "&Cut Item"
+#| msgid_plural "&Cut %1 Items"
+msgctxt "@action"
+msgid "&Cut Item"
+msgid_plural "&Cut %1 Items"
+msgstr[0] "&Gearr Mír"
+msgstr[1] "&Gearr %1 Mhír"
+msgstr[2] "&Gearr %1 Mhír"
+msgstr[3] "&Gearr %1 Mír"
+msgstr[4] "&Gearr %1 Mír"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:402
+#, fuzzy, kde-format
+#| msgid "&Cut Folder"
+#| msgid_plural "&Cut %1 Folders"
+msgctxt "@action"
+msgid "&Cut Folder"
+msgid_plural "&Cut %1 Folders"
+msgstr[0] "&Gearr Fillteán"
+msgstr[1] "&Gearr %1 Fhillteán"
+msgstr[2] "&Gearr %1 Fhillteán"
+msgstr[3] "&Gearr %1 bhFillteán"
+msgstr[4] "&Gearr %1 Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:403
+#, kde-format
+msgid "&Delete Item"
+msgid_plural "&Delete %1 Items"
+msgstr[0] "&Scrios Mír"
+msgstr[1] "&Scrios %1 Mhír"
+msgstr[2] "&Scrios %1 Mhír"
+msgstr[3] "&Scrios %1 Mír"
+msgstr[4] "&Scrios %1 Mír"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:404
+#, fuzzy, kde-format
+#| msgid "&Delete Folder"
+#| msgid_plural "&Delete %1 Folders"
+msgctxt "@action"
+msgid "&Delete Folder"
+msgid_plural "&Delete %1 Folders"
+msgstr[0] "&Scrios Fillteán"
+msgstr[1] "&Scrios %1 Fhillteán"
+msgstr[2] "&Scrios %1 Fhillteán"
+msgstr[3] "&Scrios %1 bhFillteán"
+msgstr[4] "&Scrios %1 Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:405
+#, fuzzy, kde-format
+#| msgid "&Synchronize Folder"
+#| msgid_plural "&Synchronize %1 Folders"
+msgctxt "@action"
+msgid "&Synchronize Folder"
+msgid_plural "&Synchronize %1 Folders"
+msgstr[0] "&Sioncrónaigh Fillteán"
+msgstr[1] "&Sioncrónaigh %1 Fhillteán"
+msgstr[2] "&Sioncrónaigh %1 Fhillteán"
+msgstr[3] "&Sioncrónaigh %1 bhFillteán"
+msgstr[4] "&Sioncrónaigh %1 Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:406
+#, kde-format
+msgid "&Delete Resource"
+msgid_plural "&Delete %1 Resources"
+msgstr[0] "&Scrios Acmhainn"
+msgstr[1] "&Scrios %1 Acmhainn"
+msgstr[2] "&Scrios %1 Acmhainn"
+msgstr[3] "&Scrios %1 nAcmhainn"
+msgstr[4] "&Scrios %1 Acmhainn"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:407
+#, kde-format
+msgid "&Synchronize Resource"
+msgid_plural "&Synchronize %1 Resources"
+msgstr[0] "&Sioncrónaigh Acmhainn"
+msgstr[1] "&Sioncrónaigh %1 Acmhainn"
+msgstr[2] "&Sioncrónaigh %1 Acmhainn"
+msgstr[3] "&Sioncrónaigh %1 nAcmhainn"
+msgstr[4] "&Sioncrónaigh %1 Acmhainn"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:409
+#, kde-format
+msgid "Copy Folder"
+msgid_plural "Copy %1 Folders"
+msgstr[0] "Cóipeáil Fillteán"
+msgstr[1] "Cóipeáil %1 Fhillteán"
+msgstr[2] "Cóipeáil %1 Fhillteán"
+msgstr[3] "Cóipeáil %1 bhFillteán"
+msgstr[4] "Cóipeáil %1 Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:410
+#, kde-format
+msgid "Copy Item"
+msgid_plural "Copy %1 Items"
+msgstr[0] "Cóipeáil Mír"
+msgstr[1] "Cóipeáil %1 Mhír"
+msgstr[2] "Cóipeáil %1 Mhír"
+msgstr[3] "Cóipeáil %1 Mír"
+msgstr[4] "Cóipeáil %1 Mír"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:411
+#, kde-format
+msgid "Cut Item"
+msgid_plural "Cut %1 Items"
+msgstr[0] "Gearr Mír"
+msgstr[1] "Gearr %1 Mhír"
+msgstr[2] "Gearr %1 Mhír"
+msgstr[3] "Gearr %1 Mír"
+msgstr[4] "Gearr %1 Mír"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:412
+#, kde-format
+msgid "Cut Folder"
+msgid_plural "Cut %1 Folders"
+msgstr[0] "Gearr Fillteán"
+msgstr[1] "Gearr %1 Fhillteán"
+msgstr[2] "Gearr %1 Fhillteán"
+msgstr[3] "Gearr %1 bhFillteán"
+msgstr[4] "Gearr %1 Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:413
+#, kde-format
+msgid "Delete Item"
+msgid_plural "Delete %1 Items"
+msgstr[0] "Scrios Mír"
+msgstr[1] "Scrios %1 Mhír"
+msgstr[2] "Scrios %1 Mhír"
+msgstr[3] "Scrios %1 Mír"
+msgstr[4] "Scrios %1 Mír"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:414
+#, kde-format
+msgid "Delete Folder"
+msgid_plural "Delete %1 Folders"
+msgstr[0] "Scrios Fillteán"
+msgstr[1] "Scrios %1 Fhillteán"
+msgstr[2] "Scrios %1 Fhillteán"
+msgstr[3] "Scrios %1 bhFillteán"
+msgstr[4] "Scrios %1 Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:415
+#, kde-format
+msgid "Synchronize Folder"
+msgid_plural "Synchronize %1 Folders"
+msgstr[0] "Sioncrónaigh Fillteán"
+msgstr[1] "Sioncrónaigh %1 Fhillteán"
+msgstr[2] "Sioncrónaigh %1 Fhillteán"
+msgstr[3] "Sioncrónaigh %1 bhFillteán"
+msgstr[4] "Sioncrónaigh %1 Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:416
+#, fuzzy, kde-format
+#| msgid "Delete Resource"
+#| msgid_plural "Delete %1 Resources"
+msgctxt "@action"
+msgid "Delete Resource"
+msgid_plural "Delete %1 Resources"
+msgstr[0] "Scrios Acmhainn"
+msgstr[1] "Scrios %1 Acmhainn"
+msgstr[2] "Scrios %1 Acmhainn"
+msgstr[3] "Scrios %1 nAcmhainn"
+msgstr[4] "Scrios %1 Acmhainn"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:417
+#, fuzzy, kde-format
+#| msgid "Synchronize Resource"
+#| msgid_plural "Synchronize %1 Resources"
+msgctxt "@action"
+msgid "Synchronize Resource"
+msgid_plural "Synchronize %1 Resources"
+msgstr[0] "Sioncrónaigh Acmhainn"
+msgstr[1] "Sioncrónaigh %1 Acmhainn"
+msgstr[2] "Sioncrónaigh %1 Acmhainn"
+msgstr[3] "Sioncrónaigh %1 nAcmhainn"
+msgstr[4] "Sioncrónaigh %1 Acmhainn"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:420
+#, fuzzy, kde-format
+#| msgctxt "@title:column, name of a thing"
+#| msgid "Name"
+msgctxt "@label:textbox name of Akonadi folder"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:427
+#, kde-format
+msgid "Do you really want to delete this folder and all its sub-folders?"
+msgid_plural "Do you really want to delete %1 folders and all their sub-folders?"
+msgstr[0] "An bhfuil tú cinnte gur mian leat an fillteán seo a scriosadh in éineacht le gach fofhillteán atá ann?"
+msgstr[1] "An bhfuil tú cinnte gur mian leat an %1 fhillteán a scriosadh in éineacht le gach fofhillteán atá iontu?"
+msgstr[2] "An bhfuil tú cinnte gur mian leat na %1 fhillteán a scriosadh in éineacht le gach fofhillteán atá iontu?"
+msgstr[3] "An bhfuil tú cinnte gur mian leat na %1 bhfillteán a scriosadh in éineacht le gach fofhillteán atá iontu?"
+msgstr[4] "An bhfuil tú cinnte gur mian leat na %1 fillteán a scriosadh in éineacht le gach fofhillteán atá iontu?"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:430
+#, fuzzy, kde-format
+#| msgid "Delete Folder"
+#| msgid_plural "Delete %1 Folders"
+msgctxt "@title:window"
+msgid "Delete Folder?"
+msgid_plural "Delete Folders?"
+msgstr[0] "Scrios Fillteán"
+msgstr[1] "Scrios %1 Fhillteán"
+msgstr[2] "Scrios %1 Fhillteán"
+msgstr[3] "Scrios %1 bhFillteán"
+msgstr[4] "Scrios %1 Fillteán"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:431
+#, kde-format
+msgid "Could not delete folder: %1"
+msgstr "Níorbh fhéidir an fillteán a scriosadh: %1"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:432
+#, fuzzy, kde-format
+#| msgid "Folder deletion failed"
+msgctxt "@title:window"
+msgid "Folder Deletion Failed"
+msgstr "Theip ar scriosadh an fhillteáin"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:434
+#, kde-format
+msgctxt "@title:window"
+msgid "Properties of Folder %1"
+msgstr "Airíonna Fhillteán %1"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:438
+#, kde-format
+msgid "Do you really want to delete the selected item?"
+msgid_plural "Do you really want to delete %1 items?"
+msgstr[0] "An bhfuil tú cinnte gur mian leat an mhír roghnaithe a scriosadh?"
+msgstr[1] "An bhfuil tú cinnte gur mian leat na %1 mhír roghnaithe a scriosadh?"
+msgstr[2] "An bhfuil tú cinnte gur mian leat na %1 mhír roghnaithe a scriosadh?"
+msgstr[3] "An bhfuil tú cinnte gur mian leat na %1 mír roghnaithe a scriosadh?"
+msgstr[4] "An bhfuil tú cinnte gur mian leat na %1 mír roghnaithe a scriosadh?"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:439
+#, fuzzy, kde-format
+#| msgid "Delete Item"
+#| msgid_plural "Delete %1 Items"
+msgctxt "@title:window"
+msgid "Delete Item?"
+msgid_plural "Delete Items?"
+msgstr[0] "Scrios Mír"
+msgstr[1] "Scrios %1 Mhír"
+msgstr[2] "Scrios %1 Mhír"
+msgstr[3] "Scrios %1 Mír"
+msgstr[4] "Scrios %1 Mír"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:440
+#, kde-format
+msgid "Could not delete item: %1"
+msgstr "Níorbh fhéidir an mhír a scriosadh: %1"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:441
+#, fuzzy, kde-format
+#| msgid "Item deletion failed"
+msgctxt "@title:window"
+msgid "Item Deletion Failed"
+msgstr "Theip ar scriosadh"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:443
+#, kde-format
+msgctxt "@title:window"
+msgid "Rename Favorite"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:444
+#, kde-format
+msgctxt "@label:textbox name of the folder"
+msgid "Name:"
+msgstr "Ainm:"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:446
+#, kde-format
+msgctxt "@title:window"
+msgid "New Resource"
+msgstr "Acmhainn Nua"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:447
+#, kde-format
+msgid "Could not create resource: %1"
+msgstr "Níorbh fhéidir an acmhainn a chruthú: %1"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:448
+#, fuzzy, kde-format
+#| msgid "Resource creation failed"
+msgctxt "@title:window"
+msgid "Resource Creation Failed"
+msgstr "Theip ar chruthú"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:452
+#, kde-format
+msgid "Do you really want to delete this resource?"
+msgid_plural "Do you really want to delete %1 resources?"
+msgstr[0] "An bhfuil tú cinnte gur mian leat an acmhainn seo a scriosadh?"
+msgstr[1] "An bhfuil tú cinnte gur mian leat an %1 acmhainn seo a scriosadh?"
+msgstr[2] "An bhfuil tú cinnte gur mian leat na %1 acmhainn seo a scriosadh?"
+msgstr[3] "An bhfuil tú cinnte gur mian leat na %1 n-acmhainn seo a scriosadh?"
+msgstr[4] "An bhfuil tú cinnte gur mian leat na %1 acmhainn seo a scriosadh?"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:455
+#, kde-format
+msgctxt "@title:window"
+msgid "Delete Resource?"
+msgid_plural "Delete Resources?"
+msgstr[0] "Scrios an Acmhainn?"
+msgstr[1] "Scrios na hAcmhainní?"
+msgstr[2] "Scrios na hAcmhainní?"
+msgstr[3] "Scrios na hAcmhainní?"
+msgstr[4] "Scrios na hAcmhainní?"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:457
+#, kde-format
+msgid "Could not paste data: %1"
+msgstr "Níorbh fhéidir na sonraí a ghreamú: %1"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:458
+#, fuzzy, kde-format
+#| msgid "Paste failed"
+msgctxt "@title:window"
+msgid "Paste Failed"
+msgstr "Theip ar ghreamú"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:825
+#, kde-format
+msgid "We can not add \"/\" in folder name."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:825 widgets/standardactionmanager.cpp:829
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "New Folder"
+msgctxt "@title:window"
+msgid "Create New Folder Error"
+msgstr "Fillteán Nua"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:829
+#, kde-format
+msgid "We can not add \".\" at begin or end of folder name."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:1068
+#, kde-format
+msgid "Before syncing folder \"%1\" it is necessary to have the resource online. Do you want to make it online?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:1069
+#, kde-format
+msgid "Account \"%1\" is offline"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:1070
+#, fuzzy, kde-format
+#| msgid "Work Offline"
+msgctxt "@action:button"
+msgid "Go Online"
+msgstr "Oibrigh As Líne"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:1684
+#, kde-format
+msgid "Move to This Folder"
+msgstr "Bog go dtí an Fillteán Seo"
+
+#. +> trunk6 stable6
+#: widgets/standardactionmanager.cpp:1684
+#, kde-format
+msgid "Copy to This Folder"
+msgstr "Cóipeáil an Fillteán Seo"
+
+#. +> trunk6 stable6
+#: widgets/subscriptiondialog.cpp:99
+#, fuzzy, kde-format
+#| msgid "Unable to create agent instance."
+msgid "Failed to update subscription: %1"
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: widgets/subscriptiondialog.cpp:99
+#, fuzzy, kde-format
+#| msgid "Local Subscriptions"
+msgctxt "@title:window"
+msgid "Subscription Error"
+msgstr "Síntiúis Logánta"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, SubscriptionDialog)
+#. +> trunk6 stable6
+#: widgets/subscriptiondialog.ui:14
+#, fuzzy, kde-format
+#| msgid "Local Subscriptions"
+msgid "Local Subscriptions"
+msgstr "Síntiúis Logánta"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: widgets/subscriptiondialog.ui:22
+#, kde-format
+msgid "Search:"
+msgstr "Cuardaigh:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, subscribedOnlyCheckBox)
+#. +> trunk6 stable6
+#: widgets/subscriptiondialog.ui:36
+#, fuzzy, kde-format
+#| msgid "Subscribed only"
+msgid "&Subscribed only"
+msgstr "Liostáilte amháin"
+
+#. i18n: ectx: property (text), widget (QPushButton, subscribeButton)
+#. +> trunk6 stable6
+#: widgets/subscriptiondialog.ui:62
+#, fuzzy, kde-format
+#| msgid "Subscribe"
+msgid "Su&bscribe"
+msgstr "Liostáil"
+
+#. i18n: ectx: property (text), widget (QPushButton, unsubscribeButton)
+#. +> trunk6 stable6
+#: widgets/subscriptiondialog.ui:69
+#, fuzzy, kde-format
+#| msgid "Unsubscribe"
+msgid "&Unsubscribe"
+msgstr "Díliostáil"
+
+#. +> trunk6 stable6
+#: widgets/tageditwidget.cpp:119
+#, fuzzy, kde-format
+#| msgid "Unable to create agent instance."
+msgid "Failed to create a new tag"
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: widgets/tageditwidget.cpp:119
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Error while creating item: %1"
+msgctxt "@title:window"
+msgid "An Error Occurred while Creating a New Tag"
+msgstr "Earráid agus mír á cruthú: %1"
+
+#. +> trunk6 stable6
+#: widgets/tageditwidget.cpp:167
+#, fuzzy, kde-kuit-format
+#| msgid "Do you really want to delete this resource?"
+#| msgid_plural "Do you really want to delete %1 resources?"
+msgctxt "@info"
+msgid "Do you really want to remove the tag <resource>%1</resource>?"
+msgstr "An bhfuil tú cinnte gur mian leat an acmhainn seo a scriosadh?"
+
+#. +> trunk6 stable6
+#: widgets/tageditwidget.cpp:168
+#, fuzzy, kde-format
+#| msgid "Delete Item"
+#| msgid_plural "Delete %1 Items"
+msgctxt "@title:window"
+msgid "Delete Tag"
+msgstr "Scrios Mír"
+
+#. +> trunk6 stable6
+#: widgets/tageditwidget.cpp:193
+#, fuzzy, kde-format
+#| msgid "Delete Item"
+#| msgid_plural "Delete %1 Items"
+msgctxt "@info"
+msgid "Delete tag"
+msgstr "Scrios Mír"
+
+#. i18n: ectx: property (text), widget (QLabel, selectLabel)
+#. +> trunk6 stable6
+#: widgets/tageditwidget.ui:29
+#, kde-format
+msgid "Select tags that should be applied."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, newTagButton)
+#. +> trunk6 stable6
+#: widgets/tageditwidget.ui:54
+#, fuzzy, kde-format
+#| msgid "Unable to create agent instance."
+msgid "Create new tag"
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: widgets/tagselectioncombobox.cpp:126
+#, fuzzy, kde-format
+#| msgid "Delete Item"
+#| msgid_plural "Delete %1 Items"
+msgctxt "@label Placeholder text in tag selection combobox"
+msgid "Select tags..."
+msgstr "Scrios Mír"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TagSelectionDialog)
+#. +> trunk6 stable6
+#: widgets/tagselectiondialog.ui:14
+#, kde-format
+msgid "Select Tags"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/tagwidget.cpp:45
+#, kde-format
+msgid "Clear"
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (Akonadi::TagView, tagView)
+#. +> trunk6 stable6
+#: widgets/tagwidget.ui:32
+#, kde-format
+msgid "Click to add tags"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, editButton)
+#. +> trunk6 stable6
+#: widgets/tagwidget.ui:39
+#, kde-format
+msgid "..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: xml/akonadi2xml.cpp:25
+#, kde-format
+msgid "Akonadi To XML converter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: xml/akonadi2xml.cpp:27
+#, kde-format
+msgid "Converts an Akonadi collection subtree into a XML file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: xml/akonadi2xml.cpp:29
+#, kde-format
+msgid "(c) 2009 Volker Krause <vkrause@kde.org>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:83
+#, kde-format
+msgid "No data loaded."
+msgstr ""
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:121
+#, kde-format
+msgid "No filename specified"
+msgstr ""
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:129
+#, fuzzy, kde-format
+#| msgid "Unable to obtain agent type '%1'."
+msgid "Unable to open data file '%1'."
+msgstr "Níorbh fhéidir cineál gníomhaire '%1' a fháil."
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:134
+#, kde-format
+msgid "File %1 does not exist."
+msgstr ""
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:142
+#, fuzzy, kde-format
+#| msgid "Unable to obtain agent type '%1'."
+msgid "Unable to parse data file '%1'."
+msgstr "Níorbh fhéidir cineál gníomhaire '%1' a fháil."
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:150
+#, kde-format
+msgid "Schema definition could not be loaded and parsed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:155
+#, fuzzy, kde-format
+#| msgid "Unable to create agent instance."
+msgid "Unable to create schema parser context."
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:160
+#, fuzzy, kde-format
+#| msgid "Unable to create agent instance."
+msgid "Unable to create schema."
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:165
+#, fuzzy, kde-format
+#| msgid "Unable to create agent instance."
+msgid "Unable to create schema validation context."
+msgstr "Níorbh fhéidir gníomhaire a chruthú."
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:170
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Invalid item retrieved"
+msgid "Invalid file format."
+msgstr "Fuarthas mír neamhbhailí"
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:177
+#, fuzzy, kde-format
+#| msgid "Could not paste data: %1"
+msgid "Unable to parse data file: %1"
+msgstr "Níorbh fhéidir na sonraí a ghreamú: %1"
+
+#. +> trunk6 stable6
+#: xml/xmldocument.cpp:302
+#, fuzzy, kde-format
+#| msgid "Invalid collection"
+msgid "Unable to find collection %1"
+msgstr "Bailiúchán neamhbhailí"
+
+#. +> stable6
+#: agentbase/accountsintegration.cpp:86
+#, kde-format
+msgid "There is currently no account configured."
+msgstr ""
+
+#. +> stable6
+#: agentbase/accountsintegration.cpp:103
+#, kde-format
+msgid "Accounts integration is not supported"
+msgstr ""

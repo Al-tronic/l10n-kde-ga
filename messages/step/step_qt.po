@@ -1,0 +1,3799 @@
+# Irish translation of step_qt
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the step_qt package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: playground-edu/step.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-27 09:18+0100\n"
+"PO-Revision-Date: 2007-08-21 07:54-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: body.cc:13
+#, fuzzy
+#| msgid "Body"
+msgctxt "ObjectClass|"
+msgid "Body"
+msgstr "Corp"
+
+#. +> trunk6 stable6
+#: body.cc:13
+#, fuzzy
+#| msgid "Body"
+msgctxt "ObjectDescription|"
+msgid "Body"
+msgstr "Corp"
+
+#. +> trunk6 stable6
+#: collisionsolver.cc:19
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "CollisionSolver"
+msgctxt "ObjectClass|"
+msgid "CollisionSolver"
+msgstr "CollisionSolver"
+
+#. +> trunk6 stable6
+#: collisionsolver.cc:20 solver.cc:16
+msgctxt "PropertyDescription|"
+msgid "Allowed absolute tolerance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collisionsolver.cc:20 solver.cc:16
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "toleranceAbs"
+msgctxt "PropertyName|"
+msgid "toleranceAbs"
+msgstr "toleranceAbs"
+
+#. +> trunk6 stable6
+#: collisionsolver.cc:21 solver.cc:19
+#, fuzzy
+#| msgid "Maximal local error during last step"
+msgctxt "PropertyDescription|"
+msgid "Maximal local error during last step"
+msgstr "Earráid uasta logánta le linn na céime deiridh"
+
+#. +> trunk6 stable6
+#: collisionsolver.cc:21 solver.cc:19
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "localError"
+msgctxt "PropertyName|"
+msgid "localError"
+msgstr "localError"
+
+#. +> trunk6 stable6
+#: collisionsolver.cc:23
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GJKCollisionSolver"
+msgctxt "ObjectClass|"
+msgid "GJKCollisionSolver"
+msgstr "GJKCollisionSolver"
+
+#. +> trunk6 stable6
+#: constraintsolver.cc:20
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "ConstraintSolver"
+msgctxt "ObjectClass|"
+msgid "ConstraintSolver"
+msgstr "ConstraintSolver"
+
+#. +> trunk6 stable6
+#: constraintsolver.cc:24
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "CGConstraintSolver"
+msgctxt "ObjectClass|"
+msgid "CGConstraintSolver"
+msgstr "CGConstraintSolver"
+
+#. +> trunk6 stable6
+#: coulombforce.cc:14
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "CoulombForce"
+msgctxt "ObjectClass|"
+msgid "CoulombForce"
+msgstr "CoulombForce"
+
+#. +> trunk6 stable6
+#: coulombforce.cc:14
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "CoulombForce"
+msgctxt "ObjectDescription|"
+msgid "Coulomb force"
+msgstr "CoulombForce"
+
+#. +> trunk6 stable6
+#: coulombforce.cc:16
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "coulombConst"
+msgctxt "PropertyName|"
+msgid "coulombConst"
+msgstr "coulombConst"
+
+#. +> trunk6 stable6
+#: coulombforce.cc:16 coulombforce.cc:21
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "N m²/C²"
+msgctxt "Units|"
+msgid "N m²/C²"
+msgstr "N m²/C²"
+
+#. +> trunk6 stable6
+#: coulombforce.cc:17
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "coulombConst"
+msgctxt "PropertyDescription|"
+msgid "Coulomb constant"
+msgstr "coulombConst"
+
+#. +> trunk6 stable6
+#: coulombforce.cc:19
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "CoulombForceErrors"
+msgctxt "ObjectClass|"
+msgid "CoulombForceErrors"
+msgstr "CoulombForceErrors"
+
+#. +> trunk6 stable6
+#: coulombforce.cc:19
+#, fuzzy
+#| msgid "Errors class for GasLJForce"
+msgctxt "ObjectDescription|"
+msgid "Errors class for CoulombForce"
+msgstr "Aicme earráidí le haghaidh GasLJForce"
+
+#. +> trunk6 stable6
+#: coulombforce.cc:21
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "coulombConstVariance"
+msgctxt "PropertyName|"
+msgid "coulombConstVariance"
+msgstr "coulombConstVariance"
+
+#. +> trunk6 stable6
+#: coulombforce.cc:22
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "coulombConstVariance"
+msgctxt "PropertyDescription|"
+msgid "Coulomb constant variance"
+msgstr "coulombConstVariance"
+
+#. +> trunk6 stable6
+#: eulersolver.cc:15
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GenericEulerSolver"
+msgctxt "ObjectClass|"
+msgid "GenericEulerSolver"
+msgstr "GenericEulerSolver"
+
+#. +> trunk6 stable6
+#: eulersolver.cc:15
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GenericEulerSolver"
+msgctxt "ObjectDescription|"
+msgid "Generic Euler solver"
+msgstr "GenericEulerSolver"
+
+#. +> trunk6 stable6
+#: eulersolver.cc:16
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "EulerSolver"
+msgctxt "ObjectClass|"
+msgid "EulerSolver"
+msgstr "EulerSolver"
+
+#. +> trunk6 stable6
+#: eulersolver.cc:16
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "AdaptiveEulerSolver"
+msgctxt "ObjectDescription|"
+msgid "Non-adaptive Euler solver"
+msgstr "AdaptiveEulerSolver"
+
+#. +> trunk6 stable6
+#: eulersolver.cc:17
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "AdaptiveEulerSolver"
+msgctxt "ObjectClass|"
+msgid "AdaptiveEulerSolver"
+msgstr "AdaptiveEulerSolver"
+
+#. +> trunk6 stable6
+#: eulersolver.cc:17
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "AdaptiveEulerSolver"
+msgctxt "ObjectDescription|"
+msgid "Adaptive Euler solver"
+msgstr "AdaptiveEulerSolver"
+
+#. +> trunk6 stable6
+#: force.cc:14
+#, fuzzy
+#| msgid "Force"
+msgctxt "ObjectClass|"
+msgid "Force"
+msgstr "Fórsáil"
+
+#. +> trunk6 stable6
+#: force.cc:14
+#, fuzzy
+#| msgid "Force"
+msgctxt "ObjectDescription|"
+msgid "Force"
+msgstr "Fórsáil"
+
+#. +> trunk6 stable6
+#: gas.cc:15
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GasParticle"
+msgctxt "ObjectClass|"
+msgid "GasParticle"
+msgstr "GasParticle"
+
+#. +> trunk6 stable6
+#: gas.cc:15
+#, fuzzy
+#| msgid "Gas particle"
+msgctxt "ObjectDescription|"
+msgid "Gas particle"
+msgstr "Cáithnín gáis"
+
+#. +> trunk6 stable6
+#: gas.cc:17
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GasLJForce"
+msgctxt "ObjectClass|"
+msgid "GasLJForce"
+msgstr "GasLJForce"
+
+#. +> trunk6 stable6
+#: gas.cc:17
+#, fuzzy
+#| msgid "Lennard-Jones force"
+msgctxt "ObjectDescription|"
+msgid "Lennard-Jones force"
+msgstr "Fórsa Lennard-Jones"
+
+#. +> trunk6 stable6
+#: gas.cc:19
+#, fuzzy
+#| msgid "inertia variance"
+msgctxt "PropertyDescription|"
+msgid "Potential depth"
+msgstr "athraitheas táimhe"
+
+#. +> trunk6 stable6
+#: gas.cc:19
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "depth"
+msgctxt "PropertyName|"
+msgid "depth"
+msgstr "depth"
+
+#. +> trunk6 stable6
+#: gas.cc:19 gas.cc:25 gas.cc:47 gas.cc:62 particle.cc:25 particle.cc:41
+#: rigidbody.cc:37 rigidbody.cc:68
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "J"
+msgctxt "Units|"
+msgid "J"
+msgstr "J"
+
+#. +> trunk6 stable6
+#: gas.cc:20
+msgctxt "PropertyDescription|"
+msgid "Distance at which the force is zero"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gas.cc:20
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rmin"
+msgctxt "PropertyName|"
+msgid "rmin"
+msgstr "rmin"
+
+#. +> trunk6 stable6
+#: gas.cc:20 gas.cc:21 gas.cc:27 gas.cc:33 gas.cc:35 joints.cc:17 joints.cc:23
+#: joints.cc:24 joints.cc:28 joints.cc:31 joints.cc:33 joints.cc:35
+#: joints.cc:36 motor.cc:19 motor.cc:26 particle.cc:17 particle.cc:29
+#: rigidbody.cc:16 rigidbody.cc:41 rigidbody.cc:72 rigidbody.cc:77
+#: rigidbody.cc:80 softbody.cc:24 spring.cc:18 spring.cc:19 spring.cc:24
+#: spring.cc:26 spring.cc:28 spring.cc:29 spring.cc:35 spring.cc:37
+#: spring.cc:43 spring.cc:45 spring.cc:47 spring.cc:49 tool.cc:26 tool.cc:27
+#: tool.cc:33 tool.cc:34 tool.cc:55 tool.cc:56 tool.cc:67 tool.cc:68
+#: tool.cc:86 tool.cc:88 tool.cc:89
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "m"
+msgctxt "Units|"
+msgid "m"
+msgstr "m"
+
+#. +> trunk6 stable6
+#: gas.cc:21
+#, fuzzy
+#| msgid "Cut-off distance"
+msgctxt "PropertyDescription|"
+msgid "Cut-off distance"
+msgstr "Fad scoite"
+
+#. +> trunk6 stable6
+#: gas.cc:21
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "cutoff"
+msgctxt "PropertyName|"
+msgid "cutoff"
+msgstr "cutoff"
+
+#. +> trunk6 stable6
+#: gas.cc:23
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GasLJForceErrors"
+msgctxt "ObjectClass|"
+msgid "GasLJForceErrors"
+msgstr "GasLJForceErrors"
+
+#. +> trunk6 stable6
+#: gas.cc:23
+#, fuzzy
+#| msgid "Errors class for GasLJForce"
+msgctxt "ObjectDescription|"
+msgid "Errors class for GasLJForce"
+msgstr "Aicme earráidí le haghaidh GasLJForce"
+
+#. +> trunk6 stable6
+#: gas.cc:25
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "depthVariance"
+msgctxt "PropertyName|"
+msgid "depthVariance"
+msgstr "depthVariance"
+
+#. +> trunk6 stable6
+#: gas.cc:26
+#, fuzzy
+#| msgid "inertia variance"
+msgctxt "PropertyDescription|"
+msgid "Potential depth variance"
+msgstr "athraitheas táimhe"
+
+#. +> trunk6 stable6
+#: gas.cc:27
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rminVariance"
+msgctxt "PropertyName|"
+msgid "rminVariance"
+msgstr "rminVariance"
+
+#. +> trunk6 stable6
+#: gas.cc:28
+msgctxt "PropertyDescription|"
+msgid "Variance of the distance at which the force is zero"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gas.cc:32
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Gas"
+msgctxt "ObjectClass|"
+msgid "Gas"
+msgstr "Gas"
+
+#. +> trunk6 stable6
+#: gas.cc:32
+#, fuzzy
+#| msgid "Particles mass:"
+msgctxt "ObjectDescription|"
+msgid "Particle gas"
+msgstr "Mais cháithnín:"
+
+#. +> trunk6 stable6
+#: gas.cc:33
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "measureRectCenter"
+msgctxt "PropertyName|"
+msgid "measureRectCenter"
+msgstr "measureRectCenter"
+
+#. +> trunk6 stable6
+#: gas.cc:34
+msgctxt "PropertyDescription|"
+msgid "Center of the rect for measurements"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gas.cc:35
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "measureRectSize"
+msgctxt "PropertyName|"
+msgid "measureRectSize"
+msgstr "measureRectSize"
+
+#. +> trunk6 stable6
+#: gas.cc:36
+#, fuzzy
+#| msgid "Count of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Size of the rect for measurements"
+msgstr "Líon na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:37
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectVolume"
+msgctxt "PropertyName|"
+msgid "rectVolume"
+msgstr "rectVolume"
+
+#. +> trunk6 stable6
+#: gas.cc:37
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "m²"
+msgctxt "Units|"
+msgid "m²"
+msgstr "m²"
+
+#. +> trunk6 stable6
+#: gas.cc:38
+#, fuzzy
+#| msgid "Count of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Volume of the measureRect"
+msgstr "Líon na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:39
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectParticleCount"
+msgctxt "PropertyName|"
+msgid "rectParticleCount"
+msgstr "rectParticleCount"
+
+#. +> trunk6 stable6
+#: gas.cc:40
+#, fuzzy
+#| msgid "Count of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Count of particles in the measureRect"
+msgstr "Líon na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:41
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectConcentration"
+msgctxt "PropertyName|"
+msgid "rectConcentration"
+msgstr "rectConcentration"
+
+#. +> trunk6 stable6
+#: gas.cc:41
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "1/m²"
+msgctxt "Units|"
+msgid "1/m²"
+msgstr "1/m²"
+
+#. +> trunk6 stable6
+#: gas.cc:42
+#, fuzzy
+#| msgid "Concentration of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Concentration of particles in the measureRect"
+msgstr "Comhdhlúthú na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:43
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectPressure"
+msgctxt "PropertyName|"
+msgid "rectPressure"
+msgstr "rectPressure"
+
+#. +> trunk6 stable6
+#: gas.cc:43 gas.cc:58
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "Pa"
+msgctxt "Units|"
+msgid "Pa"
+msgstr "Pa"
+
+#. +> trunk6 stable6
+#: gas.cc:44
+#, fuzzy
+#| msgid "Pressure of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Pressure of particles in the measureRect"
+msgstr "Brú na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:45
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectTemperature"
+msgctxt "PropertyName|"
+msgid "rectTemperature"
+msgstr "rectTemperature"
+
+#. +> trunk6 stable6
+#: gas.cc:45 gas.cc:60
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "K"
+msgctxt "Units|"
+msgid "K"
+msgstr "K"
+
+#. +> trunk6 stable6
+#: gas.cc:46
+#, fuzzy
+#| msgid "Temperature of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Temperature of particles in the measureRect"
+msgstr "Teocht na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:47
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectMeanKineticEnergy"
+msgctxt "PropertyName|"
+msgid "rectMeanKineticEnergy"
+msgstr "rectMeanKineticEnergy"
+
+#. +> trunk6 stable6
+#: gas.cc:48
+#, fuzzy
+#| msgid "Mean kinetic energy of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Mean kinetic energy of particles in the measureRect"
+msgstr "Meánfhuinneamh cinéiteach na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:49
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectMeanVelocity"
+msgctxt "PropertyName|"
+msgid "rectMeanVelocity"
+msgstr "rectMeanVelocity"
+
+#. +> trunk6 stable6
+#: gas.cc:49 gas.cc:64 particle.cc:18 particle.cc:31 rigidbody.cc:19
+#: rigidbody.cc:46 softbody.cc:26
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "m/s"
+msgctxt "Units|"
+msgid "m/s"
+msgstr "m/s"
+
+#. +> trunk6 stable6
+#: gas.cc:50
+#, fuzzy
+#| msgid "Mean velocity of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Mean velocity of particles in the measureRect"
+msgstr "Meántreoluas na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:51
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectMeanParticleMass"
+msgctxt "PropertyName|"
+msgid "rectMeanParticleMass"
+msgstr "rectMeanParticleMass"
+
+#. +> trunk6 stable6
+#: gas.cc:51 gas.cc:53 gas.cc:66 gas.cc:68 particle.cc:22 particle.cc:37
+#: particle.cc:49 rigidbody.cc:30 rigidbody.cc:59 softbody.cc:38
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "kg"
+msgctxt "Units|"
+msgid "kg"
+msgstr "kg"
+
+#. +> trunk6 stable6
+#: gas.cc:52
+#, fuzzy
+#| msgid "Mean mass of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Mean mass of particles in the measureRect"
+msgstr "Meánmhais na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:53
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectMass"
+msgctxt "PropertyName|"
+msgid "rectMass"
+msgstr "rectMass"
+
+#. +> trunk6 stable6
+#: gas.cc:54
+#, fuzzy
+#| msgid "Total mass of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Total mass of particles in the measureRect"
+msgstr "Lánmhais na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:57
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GasErrors"
+msgctxt "ObjectClass|"
+msgid "GasErrors"
+msgstr "GasErrors"
+
+#. +> trunk6 stable6
+#: gas.cc:57
+#, fuzzy
+#| msgid "Errors class for Gas"
+msgctxt "ObjectDescription|"
+msgid "Errors class for Gas"
+msgstr "Aicme earráidí le haghaidh Gas"
+
+#. +> trunk6 stable6
+#: gas.cc:58
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectPressureVariance"
+msgctxt "PropertyName|"
+msgid "rectPressureVariance"
+msgstr "rectPressureVariance"
+
+#. +> trunk6 stable6
+#: gas.cc:59
+#, fuzzy
+#| msgid "Pressure of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of pressure of particles in the measureRect"
+msgstr "Brú na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:60
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectTemperatureVariance"
+msgctxt "PropertyName|"
+msgid "rectTemperatureVariance"
+msgstr "rectTemperatureVariance"
+
+#. +> trunk6 stable6
+#: gas.cc:61
+#, fuzzy
+#| msgid "Temperature of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of temperature of particles in the measureRect"
+msgstr "Teocht na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:62
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectMeanKineticEnergyVariance"
+msgctxt "PropertyName|"
+msgid "rectMeanKineticEnergyVariance"
+msgstr "rectMeanKineticEnergyVariance"
+
+#. +> trunk6 stable6
+#: gas.cc:63
+#, fuzzy
+#| msgid "Mean kinetic energy of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of mean kinetic energy of particles in the measureRect"
+msgstr "Meánfhuinneamh cinéiteach na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:64
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectMeanVelocityVariance"
+msgctxt "PropertyName|"
+msgid "rectMeanVelocityVariance"
+msgstr "rectMeanVelocityVariance"
+
+#. +> trunk6 stable6
+#: gas.cc:65
+#, fuzzy
+#| msgid "Mean velocity of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of mean velocity of particles in the measureRect"
+msgstr "Meántreoluas na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:66
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectMeanParticleMassVariance"
+msgctxt "PropertyName|"
+msgid "rectMeanParticleMassVariance"
+msgstr "rectMeanParticleMassVariance"
+
+#. +> trunk6 stable6
+#: gas.cc:67
+#, fuzzy
+#| msgid "Mean mass of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of mean mass of particles in the measureRect"
+msgstr "Meánmhais na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gas.cc:68
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "rectMassVariance"
+msgctxt "PropertyName|"
+msgid "rectMassVariance"
+msgstr "rectMassVariance"
+
+#. +> trunk6 stable6
+#: gas.cc:69
+#, fuzzy
+#| msgid "Total mass of particles in the measureRect"
+msgctxt "PropertyDescription|"
+msgid "Variance of total mass of particles in the measureRect"
+msgstr "Lánmhais na gcáithníní sa measureRect"
+
+#. +> trunk6 stable6
+#: gravitation.cc:15
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GravitationForce"
+msgctxt "ObjectClass|"
+msgid "GravitationForce"
+msgstr "GravitationForce"
+
+#. +> trunk6 stable6
+#: gravitation.cc:15
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GravitationForce"
+msgctxt "ObjectDescription|"
+msgid "Gravitation force"
+msgstr "GravitationForce"
+
+#. +> trunk6 stable6
+#: gravitation.cc:17
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "gravitationConst"
+msgctxt "PropertyName|"
+msgid "gravitationConst"
+msgstr "gravitationConst"
+
+#. +> trunk6 stable6
+#: gravitation.cc:17 gravitation.cc:22
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "N m²/kg²"
+msgctxt "Units|"
+msgid "N m²/kg²"
+msgstr "N m²/kg²"
+
+#. +> trunk6 stable6
+#: gravitation.cc:18
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "gravitationConst"
+msgctxt "PropertyDescription|"
+msgid "Gravitation constant"
+msgstr "gravitationConst"
+
+#. +> trunk6 stable6
+#: gravitation.cc:20
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GravitationForceErrors"
+msgctxt "ObjectClass|"
+msgid "GravitationForceErrors"
+msgstr "GravitationForceErrors"
+
+#. +> trunk6 stable6
+#: gravitation.cc:20
+#, fuzzy
+#| msgid "Errors class for GasLJForce"
+msgctxt "ObjectDescription|"
+msgid "Errors class for GravitationForce"
+msgstr "Aicme earráidí le haghaidh GasLJForce"
+
+#. +> trunk6 stable6
+#: gravitation.cc:22
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "gravitationConstVariance"
+msgctxt "PropertyName|"
+msgid "gravitationConstVariance"
+msgstr "gravitationConstVariance"
+
+#. +> trunk6 stable6
+#: gravitation.cc:23
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "gravitationConstVariance"
+msgctxt "PropertyDescription|"
+msgid "Gravitation constant variance"
+msgstr "gravitationConstVariance"
+
+#. +> trunk6 stable6
+#: gravitation.cc:25
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "WeightForce"
+msgctxt "ObjectClass|"
+msgid "WeightForce"
+msgstr "WeightForce"
+
+#. +> trunk6 stable6
+#: gravitation.cc:25
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "WeightForce"
+msgctxt "ObjectDescription|"
+msgid "Weight force"
+msgstr "WeightForce"
+
+#. +> trunk6 stable6
+#: gravitation.cc:27
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "weightConst"
+msgctxt "PropertyDescription|"
+msgid "Weight constant"
+msgstr "weightConst"
+
+#. +> trunk6 stable6
+#: gravitation.cc:27
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "weightConst"
+msgctxt "PropertyName|"
+msgid "weightConst"
+msgstr "weightConst"
+
+#. +> trunk6 stable6
+#: gravitation.cc:27 gravitation.cc:32 particle.cc:19 particle.cc:33
+#: rigidbody.cc:22 rigidbody.cc:51 softbody.cc:31
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "m/s²"
+msgctxt "Units|"
+msgid "m/s²"
+msgstr "m/s²"
+
+#. +> trunk6 stable6
+#: gravitation.cc:30
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "WeightForceErrors"
+msgctxt "ObjectClass|"
+msgid "WeightForceErrors"
+msgstr "WeightForceErrors"
+
+#. +> trunk6 stable6
+#: gravitation.cc:30
+#, fuzzy
+#| msgid "Errors class for GasLJForce"
+msgctxt "ObjectDescription|"
+msgid "Errors class for WeightForce"
+msgstr "Aicme earráidí le haghaidh GasLJForce"
+
+#. +> trunk6 stable6
+#: gravitation.cc:32
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "weightConstVariance"
+msgctxt "PropertyName|"
+msgid "weightConstVariance"
+msgstr "weightConstVariance"
+
+#. +> trunk6 stable6
+#: gravitation.cc:33
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "weightConstVariance"
+msgctxt "PropertyDescription|"
+msgid "Weight constant variance"
+msgstr "weightConstVariance"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:18
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslGenericSolver"
+msgctxt "ObjectClass|"
+msgid "GslGenericSolver"
+msgstr "GslGenericSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:18
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslGenericSolver"
+msgctxt "ObjectDescription|"
+msgid "GSL generic solver"
+msgstr "GslGenericSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:20
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslSolver"
+msgctxt "ObjectClass|"
+msgid "GslSolver"
+msgstr "GslSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:20
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslAdaptiveSolver"
+msgctxt "ObjectDescription|"
+msgid "GSL non-adaptive solver"
+msgstr "GslAdaptiveSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:23
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslAdaptiveSolver"
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveSolver"
+msgstr "GslAdaptiveSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:23
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslAdaptiveSolver"
+msgctxt "ObjectDescription|"
+msgid "GSL adaptive solver"
+msgstr "GslAdaptiveSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:26
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslRK2Solver"
+msgctxt "ObjectClass|"
+msgid "GslRK2Solver"
+msgstr "GslRK2Solver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:26
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta second-order solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:28
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslAdaptiveRK2Solver"
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK2Solver"
+msgstr "GslAdaptiveRK2Solver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:28
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta second-order solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:31
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslRK4Solver"
+msgctxt "ObjectClass|"
+msgid "GslRK4Solver"
+msgstr "GslRK4Solver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:31
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta classical fourth-order solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:33
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslAdaptiveRK4Solver"
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK4Solver"
+msgstr "GslAdaptiveRK4Solver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:33
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta classical fourth-order solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:36
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslRKF45Solver"
+msgctxt "ObjectClass|"
+msgid "GslRKF45Solver"
+msgstr "GslRKF45Solver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:36
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:38
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslAdaptiveRKF45Solver"
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRKF45Solver"
+msgstr "GslAdaptiveRKF45Solver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:38
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta-Fehlberg (4,5) solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:41
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslRKCKSolver"
+msgctxt "ObjectClass|"
+msgid "GslRKCKSolver"
+msgstr "GslRKCKSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:41
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:43
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslAdaptiveRKCKSolver"
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRKCKSolver"
+msgstr "GslAdaptiveRKCKSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:43
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta Cash-Karp (4,5) solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:46
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslRK8PDSolver"
+msgctxt "ObjectClass|"
+msgid "GslRK8PDSolver"
+msgstr "GslRK8PDSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:46
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:48
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslAdaptiveRK8PDSolver"
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK8PDSolver"
+msgstr "GslAdaptiveRK8PDSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:48
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta Prince-Dormand (8,9) solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:51
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslRK2IMPSolver"
+msgctxt "ObjectClass|"
+msgid "GslRK2IMPSolver"
+msgstr "GslRK2IMPSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:51
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta implicit second-order solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:53
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslAdaptiveRK2IMPSolver"
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK2IMPSolver"
+msgstr "GslAdaptiveRK2IMPSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:53
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta implicit second-order solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:56
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslRK4IMPSolver"
+msgctxt "ObjectClass|"
+msgid "GslRK4IMPSolver"
+msgstr "GslRK4IMPSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:56
+msgctxt "ObjectDescription|"
+msgid "Runge-Kutta implicit fourth-order solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: gslsolver.cc:58
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "GslAdaptiveRK4IMPSolver"
+msgctxt "ObjectClass|"
+msgid "GslAdaptiveRK4IMPSolver"
+msgstr "GslAdaptiveRK4IMPSolver"
+
+#. +> trunk6 stable6
+#: gslsolver.cc:58
+msgctxt "ObjectDescription|"
+msgid "Adaptive Runge-Kutta implicit fourth-order solver from GSL library"
+msgstr ""
+
+#. +> trunk6 stable6
+#: item.cc:15
+#, fuzzy
+#| msgid "Item"
+msgctxt "ObjectClass|"
+msgid "Item"
+msgstr "Mír"
+
+#. +> trunk6 stable6
+#: item.cc:15
+#, fuzzy
+#| msgid "Item"
+msgctxt "ObjectDescription|"
+msgid "Item"
+msgstr "Mír"
+
+#. +> trunk6 stable6
+#: item.cc:17
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "color"
+msgctxt "PropertyName|"
+msgid "color"
+msgstr "color"
+
+#. +> trunk6 stable6
+#: item.cc:18
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "color"
+msgctxt "PropertyDescription|"
+msgid "Item color"
+msgstr "color"
+
+#. +> trunk6 stable6
+#: itemgroup.cc:15
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "ItemGroup"
+msgctxt "ObjectClass|"
+msgid "ItemGroup"
+msgstr "ItemGroup"
+
+#. +> trunk6 stable6
+#: itemgroup.cc:15
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "ItemGroup"
+msgctxt "ObjectDescription|"
+msgid "ItemGroup"
+msgstr "ItemGroup"
+
+#. +> trunk6 stable6
+#: joint.cc:14
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Joint"
+msgctxt "ObjectClass|"
+msgid "Joint"
+msgstr "Joint"
+
+#. +> trunk6 stable6
+#: joint.cc:14
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Joint"
+msgctxt "ObjectDescription|"
+msgid "Joint"
+msgstr "Joint"
+
+#. +> trunk6 stable6
+#: joints.cc:14
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Anchor"
+msgctxt "ObjectClass|"
+msgid "Anchor"
+msgstr "Anchor"
+
+#. +> trunk6 stable6
+#: joints.cc:14
+#, fuzzy
+#| msgid "Angular velocity of the body"
+msgctxt "ObjectDescription|"
+msgid "Anchor: fixes position of the body"
+msgstr "Treoluas uilleach an choirp"
+
+#. +> trunk6 stable6
+#: joints.cc:16 joints.cc:22 motor.cc:18 motor.cc:25
+#, fuzzy
+#| msgid "Body"
+msgctxt "PropertyDescription|"
+msgid "Body"
+msgstr "Corp"
+
+#. +> trunk6 stable6
+#: joints.cc:16 joints.cc:22 motor.cc:18 motor.cc:25 tool.cc:85
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "body"
+msgctxt "PropertyName|"
+msgid "body"
+msgstr "body"
+
+#. +> trunk6 stable6
+#: joints.cc:17 tool.cc:88
+#, fuzzy
+#| msgid "Position"
+msgctxt "PropertyDescription|"
+msgid "Position"
+msgstr "Ionad"
+
+#. +> trunk6 stable6
+#: joints.cc:17 joints.cc:24 particle.cc:17 rigidbody.cc:16 softbody.cc:24
+#: tool.cc:26 tool.cc:33 tool.cc:55 tool.cc:67 tool.cc:88
+#, fuzzy
+#| msgid "position"
+msgctxt "PropertyName|"
+msgid "position"
+msgstr "ionad"
+
+#. +> trunk6 stable6
+#: joints.cc:18
+#, fuzzy
+#| msgid "Angle"
+msgctxt "PropertyDescription|"
+msgid "Angle"
+msgstr "Uillinn"
+
+#. +> trunk6 stable6
+#: joints.cc:18 rigidbody.cc:17
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "angle"
+msgctxt "PropertyName|"
+msgid "angle"
+msgstr "angle"
+
+#. +> trunk6 stable6
+#: joints.cc:18 rigidbody.cc:17 rigidbody.cc:43
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "rad"
+msgctxt "Units|"
+msgid "rad"
+msgstr "rad"
+
+#. +> trunk6 stable6
+#: joints.cc:20
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Pin"
+msgctxt "ObjectClass|"
+msgid "Pin"
+msgstr "Pin"
+
+#. +> trunk6 stable6
+#: joints.cc:20
+#, fuzzy
+#| msgid "Angular velocity of the body"
+msgctxt "ObjectDescription|"
+msgid "Pin: fixes position of a given point on the body"
+msgstr "Treoluas uilleach an choirp"
+
+#. +> trunk6 stable6
+#: joints.cc:23
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Position on the body"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: joints.cc:23 motor.cc:19 motor.cc:26 tool.cc:86
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "localPosition"
+msgctxt "PropertyName|"
+msgid "localPosition"
+msgstr "localPosition"
+
+#. +> trunk6 stable6
+#: joints.cc:24
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Position in the world"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: joints.cc:26
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Stick"
+msgctxt "ObjectClass|"
+msgid "Stick"
+msgstr "Stick"
+
+#. +> trunk6 stable6
+#: joints.cc:26
+msgctxt "ObjectDescription|"
+msgid "Massless stick which can be connected to bodies"
+msgstr ""
+
+#. +> trunk6 stable6
+#: joints.cc:28
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "restLengthVariance"
+msgctxt "PropertyDescription|"
+msgid "Rest length of the stick"
+msgstr "restLengthVariance"
+
+#. +> trunk6 stable6
+#: joints.cc:28 spring.cc:18
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "restLength"
+msgctxt "PropertyName|"
+msgid "restLength"
+msgstr "restLength"
+
+#. +> trunk6 stable6
+#: joints.cc:29 spring.cc:22
+#, fuzzy
+#| msgid "Body"
+msgctxt "PropertyDescription|"
+msgid "Body1"
+msgstr "Corp"
+
+#. +> trunk6 stable6
+#: joints.cc:29 spring.cc:22
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "body1"
+msgctxt "PropertyName|"
+msgid "body1"
+msgstr "body1"
+
+#. +> trunk6 stable6
+#: joints.cc:30 spring.cc:23
+#, fuzzy
+#| msgid "Body"
+msgctxt "PropertyDescription|"
+msgid "Body2"
+msgstr "Corp"
+
+#. +> trunk6 stable6
+#: joints.cc:30 spring.cc:23
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "body2"
+msgctxt "PropertyName|"
+msgid "body2"
+msgstr "body2"
+
+#. +> trunk6 stable6
+#: joints.cc:31 spring.cc:24
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "localPosition1"
+msgctxt "PropertyName|"
+msgid "localPosition1"
+msgstr "localPosition1"
+
+#. +> trunk6 stable6
+#: joints.cc:32 spring.cc:25
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "localPosition1"
+msgctxt "PropertyDescription|"
+msgid "Local position 1"
+msgstr "localPosition1"
+
+#. +> trunk6 stable6
+#: joints.cc:33 spring.cc:26
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "localPosition2"
+msgctxt "PropertyName|"
+msgid "localPosition2"
+msgstr "localPosition2"
+
+#. +> trunk6 stable6
+#: joints.cc:34 spring.cc:27
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "localPosition2"
+msgctxt "PropertyDescription|"
+msgid "Local position 2"
+msgstr "localPosition2"
+
+#. +> trunk6 stable6
+#: joints.cc:35 spring.cc:28
+#, fuzzy
+#| msgid "Position"
+msgctxt "PropertyDescription|"
+msgid "Position1"
+msgstr "Ionad"
+
+#. +> trunk6 stable6
+#: joints.cc:35 spring.cc:28
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "position1"
+msgctxt "PropertyName|"
+msgid "position1"
+msgstr "position1"
+
+#. +> trunk6 stable6
+#: joints.cc:36 spring.cc:29
+#, fuzzy
+#| msgid "Position"
+msgctxt "PropertyDescription|"
+msgid "Position2"
+msgstr "Ionad"
+
+#. +> trunk6 stable6
+#: joints.cc:36 spring.cc:29
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "position2"
+msgctxt "PropertyName|"
+msgid "position2"
+msgstr "position2"
+
+#. +> trunk6 stable6
+#: joints.cc:39
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Rope"
+msgctxt "ObjectClass|"
+msgid "Rope"
+msgstr "Rope"
+
+#. +> trunk6 stable6
+#: joints.cc:39
+msgctxt "ObjectDescription|"
+msgid "Massless rope which can be connected to bodies"
+msgstr ""
+
+#. +> trunk6 stable6
+#: motor.cc:16
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "LinearMotor"
+msgctxt "ObjectClass|"
+msgid "LinearMotor"
+msgstr "LinearMotor"
+
+#. +> trunk6 stable6
+#: motor.cc:16
+msgctxt "ObjectDescription|"
+msgid "Linear motor: applies a constant force to a given position of the body"
+msgstr ""
+
+#. +> trunk6 stable6
+#: motor.cc:19 motor.cc:26
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Position of the motor on a body"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: motor.cc:20
+#, fuzzy
+#| msgid "Torque that acts upon the body"
+msgctxt "PropertyDescription|"
+msgid "Value of the force, acting on the body"
+msgstr "Casmhóimint a imríonn ar an gcorp"
+
+#. +> trunk6 stable6
+#: motor.cc:20
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "forceValue"
+msgctxt "PropertyName|"
+msgid "forceValue"
+msgstr "forceValue"
+
+#. +> trunk6 stable6
+#: motor.cc:20 particle.cc:21 particle.cc:35 rigidbody.cc:27 rigidbody.cc:56
+#: softbody.cc:36 spring.cc:30 spring.cc:51
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "N"
+msgctxt "Units|"
+msgid "N"
+msgstr "N"
+
+#. +> trunk6 stable6
+#: motor.cc:21
+#, fuzzy
+#| msgid "Torque that acts upon the body"
+msgctxt "PropertyDescription|"
+msgid "Rotate the force vector in sync with body rotation"
+msgstr "Casmhóimint a imríonn ar an gcorp"
+
+#. +> trunk6 stable6
+#: motor.cc:21
+msgctxt "PropertyName|"
+msgid "rigidlyFixed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: motor.cc:23
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "CircularMotor"
+msgctxt "ObjectClass|"
+msgid "CircularMotor"
+msgstr "CircularMotor"
+
+#. +> trunk6 stable6
+#: motor.cc:23
+msgctxt "ObjectDescription|"
+msgid "Circular motor: applies a constant torque to the body"
+msgstr ""
+
+#. +> trunk6 stable6
+#: motor.cc:27
+#, fuzzy
+#| msgid "Torque that acts upon the body"
+msgctxt "PropertyDescription|"
+msgid "Value of the torque, acting on the body"
+msgstr "Casmhóimint a imríonn ar an gcorp"
+
+#. +> trunk6 stable6
+#: motor.cc:27
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "torqueValue"
+msgctxt "PropertyName|"
+msgid "torqueValue"
+msgstr "torqueValue"
+
+#. +> trunk6 stable6
+#: motor.cc:27 rigidbody.cc:28 rigidbody.cc:57 softbody.cc:37
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "N m"
+msgctxt "Units|"
+msgid "N m"
+msgstr "N m"
+
+#. +> trunk6 stable6
+#: object.cc:13
+#, fuzzy
+#| msgid "Object"
+msgctxt "ObjectClass|"
+msgid "Object"
+msgstr "Réad"
+
+#. +> trunk6 stable6
+#: object.cc:13
+#, fuzzy
+#| msgid "Object"
+msgctxt "ObjectDescription|"
+msgid "Object"
+msgstr "Réad"
+
+#. +> trunk6 stable6
+#: object.cc:14
+#, fuzzy
+#| msgid "Object name"
+msgctxt "PropertyDescription|"
+msgid "Object name"
+msgstr "Ainm an réada"
+
+#. +> trunk6 stable6
+#: object.cc:14
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "name"
+msgctxt "PropertyName|"
+msgid "name"
+msgstr "name"
+
+#. +> trunk6 stable6
+#: objecterrors.cc:14
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "ObjectErrors"
+msgctxt "ObjectClass|"
+msgid "ObjectErrors"
+msgstr "ObjectErrors"
+
+#. +> trunk6 stable6
+#: objecterrors.cc:14
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "ObjectErrors"
+msgctxt "ObjectDescription|"
+msgid "ObjectErrors"
+msgstr "ObjectErrors"
+
+#. +> trunk6 stable6
+#: particle.cc:15
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Particle"
+msgctxt "ObjectClass|"
+msgid "Particle"
+msgstr "Particle"
+
+#. +> trunk6 stable6
+#: particle.cc:15
+#, fuzzy
+#| msgid "Simple zero-size particle"
+msgctxt "ObjectDescription|"
+msgid "Simple zero-size particle"
+msgstr "Cáithnín simplí gan mhéid"
+
+#. +> trunk6 stable6
+#: particle.cc:17
+#, fuzzy
+#| msgid "position"
+msgctxt "PropertyDescription|"
+msgid "position"
+msgstr "ionad"
+
+#. +> trunk6 stable6
+#: particle.cc:18
+#, fuzzy
+#| msgid "velocity"
+msgctxt "PropertyDescription|"
+msgid "velocity"
+msgstr "luas"
+
+#. +> trunk6 stable6
+#: particle.cc:18 rigidbody.cc:19 softbody.cc:26
+#, fuzzy
+#| msgid "velocity"
+msgctxt "PropertyName|"
+msgid "velocity"
+msgstr "luas"
+
+#. +> trunk6 stable6
+#: particle.cc:19 rigidbody.cc:22 softbody.cc:31
+#, fuzzy
+#| msgid "acceleration"
+msgctxt "PropertyName|"
+msgid "acceleration"
+msgstr "luasghéarú"
+
+#. +> trunk6 stable6
+#: particle.cc:20
+#, fuzzy
+#| msgid "acceleration"
+msgctxt "PropertyDescription|"
+msgid "acceleration"
+msgstr "luasghéarú"
+
+#. +> trunk6 stable6
+#: particle.cc:21
+#, fuzzy
+#| msgid "force"
+msgctxt "PropertyDescription|"
+msgid "force"
+msgstr "fórsáil"
+
+#. +> trunk6 stable6
+#: particle.cc:21 rigidbody.cc:27 softbody.cc:36 spring.cc:30
+#, fuzzy
+#| msgid "force"
+msgctxt "PropertyName|"
+msgid "force"
+msgstr "fórsáil"
+
+#. +> trunk6 stable6
+#: particle.cc:22
+#, fuzzy
+#| msgid "mass"
+msgctxt "PropertyDescription|"
+msgid "mass"
+msgstr "mais"
+
+#. +> trunk6 stable6
+#: particle.cc:22 rigidbody.cc:30 softbody.cc:38
+#, fuzzy
+#| msgid "mass"
+msgctxt "PropertyName|"
+msgid "mass"
+msgstr "mais"
+
+#. +> trunk6 stable6
+#: particle.cc:23 rigidbody.cc:33
+#, fuzzy
+#| msgid "momentum"
+msgctxt "PropertyDescription|"
+msgid "momentum"
+msgstr "móiminteam"
+
+#. +> trunk6 stable6
+#: particle.cc:23 rigidbody.cc:33
+#, fuzzy
+#| msgid "momentum"
+msgctxt "PropertyName|"
+msgid "momentum"
+msgstr "móiminteam"
+
+#. +> trunk6 stable6
+#: particle.cc:23 particle.cc:39 rigidbody.cc:33 rigidbody.cc:63
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "kg m/s"
+msgctxt "Units|"
+msgid "kg m/s"
+msgstr "kg m/s"
+
+#. +> trunk6 stable6
+#: particle.cc:25 rigidbody.cc:37
+#, fuzzy
+#| msgid "kinetic energy"
+msgctxt "PropertyDescription|"
+msgid "kinetic energy"
+msgstr "fuinneamh cinéiteach"
+
+#. +> trunk6 stable6
+#: particle.cc:25 rigidbody.cc:37
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "kineticEnergy"
+msgctxt "PropertyName|"
+msgid "kineticEnergy"
+msgstr "kineticEnergy"
+
+#. +> trunk6 stable6
+#: particle.cc:28
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "ParticleErrors"
+msgctxt "ObjectClass|"
+msgid "ParticleErrors"
+msgstr "ParticleErrors"
+
+#. +> trunk6 stable6
+#: particle.cc:28
+#, fuzzy
+#| msgid "Errors class for Particle"
+msgctxt "ObjectDescription|"
+msgid "Errors class for Particle"
+msgstr "Aicme earráidí le haghaidh Particle"
+
+#. +> trunk6 stable6
+#: particle.cc:29 rigidbody.cc:41
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "positionVariance"
+msgctxt "PropertyName|"
+msgid "positionVariance"
+msgstr "positionVariance"
+
+#. +> trunk6 stable6
+#: particle.cc:30 rigidbody.cc:42
+#, fuzzy
+#| msgid "position variance"
+msgctxt "PropertyDescription|"
+msgid "position variance"
+msgstr "athraitheas an ionaid"
+
+#. +> trunk6 stable6
+#: particle.cc:31 rigidbody.cc:46
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "velocityVariance"
+msgctxt "PropertyName|"
+msgid "velocityVariance"
+msgstr "velocityVariance"
+
+#. +> trunk6 stable6
+#: particle.cc:32 rigidbody.cc:47
+#, fuzzy
+#| msgid "velocity variance"
+msgctxt "PropertyDescription|"
+msgid "velocity variance"
+msgstr "athraitheas an treoluais"
+
+#. +> trunk6 stable6
+#: particle.cc:33 rigidbody.cc:51
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "accelerationVariance"
+msgctxt "PropertyName|"
+msgid "accelerationVariance"
+msgstr "accelerationVariance"
+
+#. +> trunk6 stable6
+#: particle.cc:34 rigidbody.cc:52
+#, fuzzy
+#| msgid "acceleration variance"
+msgctxt "PropertyDescription|"
+msgid "acceleration variance"
+msgstr "athraitheas an luasghéaraithe"
+
+#. +> trunk6 stable6
+#: particle.cc:35 rigidbody.cc:56 spring.cc:51
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "forceVariance"
+msgctxt "PropertyName|"
+msgid "forceVariance"
+msgstr "forceVariance"
+
+#. +> trunk6 stable6
+#: particle.cc:36 rigidbody.cc:56
+#, fuzzy
+#| msgid "force variance"
+msgctxt "PropertyDescription|"
+msgid "force variance"
+msgstr "athraitheas fórsa"
+
+#. +> trunk6 stable6
+#: particle.cc:37 rigidbody.cc:59
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "massVariance"
+msgctxt "PropertyName|"
+msgid "massVariance"
+msgstr "massVariance"
+
+#. +> trunk6 stable6
+#: particle.cc:38 rigidbody.cc:60
+#, fuzzy
+#| msgid "mass variance"
+msgctxt "PropertyDescription|"
+msgid "mass variance"
+msgstr "athraitheas maise"
+
+#. +> trunk6 stable6
+#: particle.cc:39 rigidbody.cc:63
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "momentumVariance"
+msgctxt "PropertyName|"
+msgid "momentumVariance"
+msgstr "momentumVariance"
+
+#. +> trunk6 stable6
+#: particle.cc:40 rigidbody.cc:64
+#, fuzzy
+#| msgid "momentum variance"
+msgctxt "PropertyDescription|"
+msgid "momentum variance"
+msgstr "athraitheas móimintim"
+
+#. +> trunk6 stable6
+#: particle.cc:41 rigidbody.cc:68
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "kineticEnergyVariance"
+msgctxt "PropertyName|"
+msgid "kineticEnergyVariance"
+msgstr "kineticEnergyVariance"
+
+#. +> trunk6 stable6
+#: particle.cc:42 rigidbody.cc:69
+#, fuzzy
+#| msgid "kinetic energy variance"
+msgctxt "PropertyDescription|"
+msgid "kinetic energy variance"
+msgstr "athraitheas fuinnimh chinéitigh"
+
+#. +> trunk6 stable6
+#: particle.cc:44
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "ChargedParticle"
+msgctxt "ObjectClass|"
+msgid "ChargedParticle"
+msgstr "ChargedParticle"
+
+#. +> trunk6 stable6
+#: particle.cc:44
+#, fuzzy
+#| msgid "Charged zero-size particle"
+msgctxt "ObjectDescription|"
+msgid "Charged zero-size particle"
+msgstr "Cáithnín luchtaithe gan mhéid"
+
+#. +> trunk6 stable6
+#: particle.cc:45
+#, fuzzy
+#| msgid "charge"
+msgctxt "PropertyDescription|"
+msgid "charge"
+msgstr "lucht"
+
+#. +> trunk6 stable6
+#: particle.cc:45
+#, fuzzy
+#| msgid "charge"
+msgctxt "PropertyName|"
+msgid "charge"
+msgstr "lucht"
+
+#. +> trunk6 stable6
+#: particle.cc:45
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "C"
+msgctxt "Units|"
+msgid "C"
+msgstr "C"
+
+#. +> trunk6 stable6
+#: particle.cc:47
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "ChargedParticleErrors"
+msgctxt "ObjectClass|"
+msgid "ChargedParticleErrors"
+msgstr "ChargedParticleErrors"
+
+#. +> trunk6 stable6
+#: particle.cc:47
+#, fuzzy
+#| msgid "Errors class for ChargedParticle"
+msgctxt "ObjectDescription|"
+msgid "Errors class for ChargedParticle"
+msgstr "Aicme earráidí le haghaidh ChargedParticle"
+
+#. +> trunk6 stable6
+#: particle.cc:49
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "chargeVariance"
+msgctxt "PropertyName|"
+msgid "chargeVariance"
+msgstr "chargeVariance"
+
+#. +> trunk6 stable6
+#: particle.cc:50
+#, fuzzy
+#| msgid "charge variance"
+msgctxt "PropertyDescription|"
+msgid "charge variance"
+msgstr "athraitheas luchta"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:15
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "RigidBody"
+msgctxt "ObjectClass|"
+msgid "RigidBody"
+msgstr "RigidBody"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:15
+#, fuzzy
+#| msgid "Generic rigid body"
+msgctxt "ObjectDescription|"
+msgid "Generic rigid body"
+msgstr "Corp docht ginearálta"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:16 softbody.cc:24
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Position of the center of mass"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:17
+#, fuzzy
+#| msgid "Rotation angle"
+msgctxt "PropertyDescription|"
+msgid "Rotation angle"
+msgstr "Uillinn rothlaithe"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:19 softbody.cc:26
+#, fuzzy
+#| msgid "Velocity of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Velocity of the center of mass"
+msgstr "Treoluas an mheáchanláir"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:20 softbody.cc:27
+#, fuzzy
+#| msgid "Angular velocity of the body"
+msgctxt "PropertyDescription|"
+msgid "Angular velocity of the body"
+msgstr "Treoluas uilleach an choirp"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:20 softbody.cc:27
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "angularVelocity"
+msgctxt "PropertyName|"
+msgid "angularVelocity"
+msgstr "angularVelocity"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:20 rigidbody.cc:48 softbody.cc:27
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "rad/s"
+msgctxt "Units|"
+msgid "rad/s"
+msgstr "rad/s"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:23 softbody.cc:32
+#, fuzzy
+#| msgid "Acceleration of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Acceleration of the center of mass"
+msgstr "Luasghéarú an mheáchanláir"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:24 softbody.cc:33
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "angularAcceleration"
+msgctxt "PropertyName|"
+msgid "angularAcceleration"
+msgstr "angularAcceleration"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:24 rigidbody.cc:53 softbody.cc:33
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "rad/s²"
+msgctxt "Units|"
+msgid "rad/s²"
+msgstr "rad/s²"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:25 softbody.cc:34
+#, fuzzy
+#| msgid "Angular acceleration of the body"
+msgctxt "PropertyDescription|"
+msgid "Angular acceleration of the body"
+msgstr "Luasghéarú uilleach an choirp"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:27 softbody.cc:36
+#, fuzzy
+#| msgid "Force that acts upon the body"
+msgctxt "PropertyDescription|"
+msgid "Force that acts upon the body"
+msgstr "Fórsa a imríonn ar an gcorp"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:28 softbody.cc:37
+#, fuzzy
+#| msgid "Torque that acts upon the body"
+msgctxt "PropertyDescription|"
+msgid "Torque that acts upon the body"
+msgstr "Casmhóimint a imríonn ar an gcorp"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:28 softbody.cc:37
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "torque"
+msgctxt "PropertyName|"
+msgid "torque"
+msgstr "torque"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:30 softbody.cc:38
+#, fuzzy
+#| msgid "Total mass of the body"
+msgctxt "PropertyDescription|"
+msgid "Total mass of the body"
+msgstr "Lánmhais an choirp"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:31 softbody.cc:39
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "inertia"
+msgctxt "PropertyName|"
+msgid "inertia"
+msgstr "inertia"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:31 rigidbody.cc:61 softbody.cc:39
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "kg m²"
+msgctxt "Units|"
+msgid "kg m²"
+msgstr "kg m²"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:32 softbody.cc:40
+#, fuzzy
+#| msgid "Inertia \"tensor\" of the body"
+msgctxt "PropertyDescription|"
+msgid "Inertia \"tensor\" of the body"
+msgstr "Teinseoir táimhe an choirp"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:35
+#, fuzzy
+#| msgid "angular momentum"
+msgctxt "PropertyDescription|"
+msgid "angular momentum"
+msgstr "móiminteam uilleach"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:35 softbody.cc:28
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "angularMomentum"
+msgctxt "PropertyName|"
+msgid "angularMomentum"
+msgstr "angularMomentum"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:35 rigidbody.cc:65
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "kg m² rad/s"
+msgctxt "Units|"
+msgid "kg m² rad/s"
+msgstr "kg m² rad/s"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:40
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "RigidBodyErrors"
+msgctxt "ObjectClass|"
+msgid "RigidBodyErrors"
+msgstr "RigidBodyErrors"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:40
+#, fuzzy
+#| msgid "Errors class for RigidBody"
+msgctxt "ObjectDescription|"
+msgid "Errors class for RigidBody"
+msgstr "Aicme earráidí le haghaidh RigidBody"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:43
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "angleVariance"
+msgctxt "PropertyName|"
+msgid "angleVariance"
+msgstr "angleVariance"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:44
+#, fuzzy
+#| msgid "angle variance"
+msgctxt "PropertyDescription|"
+msgid "angle variance"
+msgstr "athraitheas na huillinne"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:48
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "angularVelocityVariance"
+msgctxt "PropertyName|"
+msgid "angularVelocityVariance"
+msgstr "angularVelocityVariance"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:49
+#, fuzzy
+#| msgid "angularVelocity variance"
+msgctxt "PropertyDescription|"
+msgid "angularVelocity variance"
+msgstr "athraitheas an treoluais uilligh"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:53
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "angularAccelerationVariance"
+msgctxt "PropertyName|"
+msgid "angularAccelerationVariance"
+msgstr "angularAccelerationVariance"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:54
+#, fuzzy
+#| msgid "angularAcceleration variance"
+msgctxt "PropertyDescription|"
+msgid "angularAcceleration variance"
+msgstr "athraitheas an luasghéaraithe uilligh"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:57
+#, fuzzy
+#| msgid "torque variance"
+msgctxt "PropertyDescription|"
+msgid "torque variance"
+msgstr "athraitheas casmhóiminte"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:57
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "torqueVariance"
+msgctxt "PropertyName|"
+msgid "torqueVariance"
+msgstr "torqueVariance"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:61
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "inertiaVariance"
+msgctxt "PropertyName|"
+msgid "inertiaVariance"
+msgstr "inertiaVariance"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:62
+#, fuzzy
+#| msgid "inertia variance"
+msgctxt "PropertyDescription|"
+msgid "inertia variance"
+msgstr "athraitheas táimhe"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:65
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "angularMomentumVariance"
+msgctxt "PropertyName|"
+msgid "angularMomentumVariance"
+msgstr "angularMomentumVariance"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:66
+#, fuzzy
+#| msgid "angular momentum variance"
+msgctxt "PropertyDescription|"
+msgid "angular momentum variance"
+msgstr "athraitheas móimintim uilligh"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:71
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Disk"
+msgctxt "ObjectClass|"
+msgid "Disk"
+msgstr "Disk"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:71
+#, fuzzy
+#| msgid "Rigid disk"
+msgctxt "ObjectDescription|"
+msgid "Rigid disk"
+msgstr "Diosca docht"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:72
+#, fuzzy
+#| msgid "Radius of the disk"
+msgctxt "PropertyDescription|"
+msgid "Radius of the disk"
+msgstr "Ga an diosca"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:72
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "radius"
+msgctxt "PropertyName|"
+msgid "radius"
+msgstr "radius"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:74
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "BasePolygon"
+msgctxt "ObjectClass|"
+msgid "BasePolygon"
+msgstr "BasePolygon"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:74
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "BasePolygon"
+msgctxt "ObjectDescription|"
+msgid "Base polygon body"
+msgstr "BasePolygon"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:76
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Box"
+msgctxt "ObjectClass|"
+msgid "Box"
+msgstr "Box"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:76
+#, fuzzy
+#| msgid "Rigid box"
+msgctxt "ObjectDescription|"
+msgid "Rigid box"
+msgstr "Bosca docht"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:77
+#, fuzzy
+#| msgid "Size of the box"
+msgctxt "PropertyDescription|"
+msgid "Size of the box"
+msgstr "Méid an bhosca"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:77 tool.cc:27 tool.cc:34 tool.cc:56 tool.cc:68
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "size"
+msgctxt "PropertyName|"
+msgid "size"
+msgstr "size"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:79
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Polygon"
+msgctxt "ObjectClass|"
+msgid "Polygon"
+msgstr "Polygon"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:79
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "BasePolygon"
+msgctxt "ObjectDescription|"
+msgid "Rigid polygon body"
+msgstr "BasePolygon"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:80
+#, fuzzy
+#| msgid "Vertex list"
+msgctxt "PropertyDescription|"
+msgid "Vertex list"
+msgstr "Liosta de stuaiceanna"
+
+#. +> trunk6 stable6
+#: rigidbody.cc:80
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "vertices"
+msgctxt "PropertyName|"
+msgid "vertices"
+msgstr "vertices"
+
+#. +> trunk6 stable6
+#: softbody.cc:19
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "SoftBodyParticle"
+msgctxt "ObjectClass|"
+msgid "SoftBodyParticle"
+msgstr "SoftBodyParticle"
+
+#. +> trunk6 stable6
+#: softbody.cc:19
+#, fuzzy
+#| msgid "SoftBody particle"
+msgctxt "ObjectDescription|"
+msgid "SoftBody particle"
+msgstr "Cáithnín SoftBody"
+
+#. +> trunk6 stable6
+#: softbody.cc:20
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "SoftBodySpring"
+msgctxt "ObjectClass|"
+msgid "SoftBodySpring"
+msgstr "SoftBodySpring"
+
+#. +> trunk6 stable6
+#: softbody.cc:20
+#, fuzzy
+#| msgid "SoftBody spring"
+msgctxt "ObjectDescription|"
+msgid "SoftBody spring"
+msgstr "Sprionga SoftBody"
+
+#. +> trunk6 stable6
+#: softbody.cc:21
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "SoftBody"
+msgctxt "ObjectClass|"
+msgid "SoftBody"
+msgstr "SoftBody"
+
+#. +> trunk6 stable6
+#: softbody.cc:21
+#, fuzzy
+#| msgid "Deformable SoftBody"
+msgctxt "ObjectDescription|"
+msgid "Deformable SoftBody"
+msgstr "SoftBody In-Díchumtha"
+
+#. +> trunk6 stable6
+#: softbody.cc:22
+#, fuzzy
+#| msgid "Show internal items"
+msgctxt "PropertyDescription|"
+msgid "Show internal items"
+msgstr "Taispeáin línte inmheánacha"
+
+#. +> trunk6 stable6
+#: softbody.cc:22
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "showInternalItems"
+msgctxt "PropertyName|"
+msgid "showInternalItems"
+msgstr "showInternalItems"
+
+#. +> trunk6 stable6
+#: softbody.cc:28
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "kg m²/s"
+msgctxt "Units|"
+msgid "kg m²/s"
+msgstr "kg m²/s"
+
+#. +> trunk6 stable6
+#: softbody.cc:29
+#, fuzzy
+#| msgid "Angular momentum of the body"
+msgctxt "PropertyDescription|"
+msgid "Angular momentum of the body"
+msgstr "Móiminteam uilleach an choirp"
+
+#. +> trunk6 stable6
+#: softbody.cc:41
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "borderParticleNames"
+msgctxt "PropertyName|"
+msgid "borderParticleNames"
+msgstr "borderParticleNames"
+
+#. +> trunk6 stable6
+#: softbody.cc:42
+msgctxt "PropertyDescription|"
+msgid "Border particle names (temporal property)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: solver.cc:13
+#, fuzzy
+#| msgid "Solver"
+msgctxt "ObjectClass|"
+msgid "Solver"
+msgstr "Réiteoir"
+
+#. +> trunk6 stable6
+#: solver.cc:13
+#, fuzzy
+#| msgid "Solver"
+msgctxt "ObjectDescription|"
+msgid "Solver"
+msgstr "Réiteoir"
+
+#. +> trunk6 stable6
+#: solver.cc:14
+#, fuzzy
+#| msgid "Solver type"
+msgctxt "PropertyDescription|"
+msgid "Solver type"
+msgstr "Cineál an réiteora"
+
+#. +> trunk6 stable6
+#: solver.cc:14
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "solverType"
+msgctxt "PropertyName|"
+msgid "solverType"
+msgstr "solverType"
+
+# program name here?
+#. +> trunk6 stable6
+#: solver.cc:15
+#, fuzzy
+#| msgid "Step size"
+msgctxt "PropertyDescription|"
+msgid "Step size"
+msgstr "Méid na céime"
+
+#. +> trunk6 stable6
+#: solver.cc:15
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "stepSize"
+msgctxt "PropertyName|"
+msgid "stepSize"
+msgstr "stepSize"
+
+#. +> trunk6 stable6
+#: solver.cc:15 world.cc:23
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "s"
+msgctxt "Units|"
+msgid "s"
+msgstr "s"
+
+#. +> trunk6 stable6
+#: solver.cc:17
+msgctxt "PropertyDescription|"
+msgid "Allowed relative tolerance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: solver.cc:17
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "toleranceRel"
+msgctxt "PropertyName|"
+msgid "toleranceRel"
+msgstr "toleranceRel"
+
+#. +> trunk6 stable6
+#: solver.cc:18
+#, fuzzy
+#| msgid "Count of dynamic variables"
+msgctxt "PropertyDescription|"
+msgid "Count of dynamic variables"
+msgstr "Líon na n-athróg dinimiciúil"
+
+#. +> trunk6 stable6
+#: solver.cc:18
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "dimension"
+msgctxt "PropertyName|"
+msgid "dimension"
+msgstr "dimension"
+
+#. +> trunk6 stable6
+#: solver.cc:20
+#, fuzzy
+#| msgid "Maximal local error during last step"
+msgctxt "PropertyDescription|"
+msgid "Maximal local error ratio during last step"
+msgstr "Earráid uasta logánta le linn na céime deiridh"
+
+#. +> trunk6 stable6
+#: solver.cc:20
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "localErrorRatio"
+msgctxt "PropertyName|"
+msgid "localErrorRatio"
+msgstr "localErrorRatio"
+
+#. +> trunk6 stable6
+#: spring.cc:16
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Spring"
+msgctxt "ObjectClass|"
+msgid "Spring"
+msgstr "Spring"
+
+#. +> trunk6 stable6
+#: spring.cc:16
+msgctxt "ObjectDescription|"
+msgid "Massless spring which can be connected to bodies"
+msgstr ""
+
+#. +> trunk6 stable6
+#: spring.cc:18
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "restLength"
+msgctxt "PropertyDescription|"
+msgid "Rest length"
+msgstr "restLength"
+
+#. +> trunk6 stable6
+#: spring.cc:19
+#, fuzzy
+#| msgid "Current time"
+msgctxt "PropertyDescription|"
+msgid "Current length"
+msgstr "An t-am anois"
+
+#. +> trunk6 stable6
+#: spring.cc:19
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "length"
+msgctxt "PropertyName|"
+msgid "length"
+msgstr "length"
+
+#. +> trunk6 stable6
+#: spring.cc:20
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "stiffness"
+msgctxt "PropertyDescription|"
+msgid "Stiffness"
+msgstr "stiffness"
+
+#. +> trunk6 stable6
+#: spring.cc:20
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "stiffness"
+msgctxt "PropertyName|"
+msgid "stiffness"
+msgstr "stiffness"
+
+#. +> trunk6 stable6
+#: spring.cc:20 spring.cc:39 spring.cc:41
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "N/m"
+msgctxt "Units|"
+msgid "N/m"
+msgstr "N/m"
+
+#. +> trunk6 stable6
+#: spring.cc:21
+#, fuzzy
+#| msgid "Damping"
+msgctxt "PropertyDescription|"
+msgid "Damping"
+msgstr "Maolú"
+
+#. +> trunk6 stable6
+#: spring.cc:21
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "damping"
+msgctxt "PropertyName|"
+msgid "damping"
+msgstr "damping"
+
+#. +> trunk6 stable6
+#: spring.cc:21
+#, fuzzy
+#| msgctxt "Units"
+#| msgid "N s/m"
+msgctxt "Units|"
+msgid "N s/m"
+msgstr "N s/m"
+
+#. +> trunk6 stable6
+#: spring.cc:30
+#, fuzzy
+#| msgid "position variance"
+msgctxt "PropertyDescription|"
+msgid "Spring tension force"
+msgstr "athraitheas an ionaid"
+
+#. +> trunk6 stable6
+#: spring.cc:33
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "SpringErrors"
+msgctxt "ObjectClass|"
+msgid "SpringErrors"
+msgstr "SpringErrors"
+
+#. +> trunk6 stable6
+#: spring.cc:33
+#, fuzzy
+#| msgid "Errors class for Particle"
+msgctxt "ObjectDescription|"
+msgid "Errors class for Spring"
+msgstr "Aicme earráidí le haghaidh Particle"
+
+#. +> trunk6 stable6
+#: spring.cc:35
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "restLengthVariance"
+msgctxt "PropertyName|"
+msgid "restLengthVariance"
+msgstr "restLengthVariance"
+
+#. +> trunk6 stable6
+#: spring.cc:36
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "restLengthVariance"
+msgctxt "PropertyDescription|"
+msgid "Rest length variance"
+msgstr "restLengthVariance"
+
+#. +> trunk6 stable6
+#: spring.cc:37
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "lengthVariance"
+msgctxt "PropertyName|"
+msgid "lengthVariance"
+msgstr "lengthVariance"
+
+#. +> trunk6 stable6
+#: spring.cc:38
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "restLengthVariance"
+msgctxt "PropertyDescription|"
+msgid "Current length variance"
+msgstr "restLengthVariance"
+
+#. +> trunk6 stable6
+#: spring.cc:39
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "stiffnessVariance"
+msgctxt "PropertyName|"
+msgid "stiffnessVariance"
+msgstr "stiffnessVariance"
+
+#. +> trunk6 stable6
+#: spring.cc:40
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "stiffnessVariance"
+msgctxt "PropertyDescription|"
+msgid "Stiffness variance"
+msgstr "stiffnessVariance"
+
+#. +> trunk6 stable6
+#: spring.cc:41
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "dampingVariance"
+msgctxt "PropertyName|"
+msgid "dampingVariance"
+msgstr "dampingVariance"
+
+#. +> trunk6 stable6
+#: spring.cc:42
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "dampingVariance"
+msgctxt "PropertyDescription|"
+msgid "Damping variance"
+msgstr "dampingVariance"
+
+#. +> trunk6 stable6
+#: spring.cc:43
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "localPosition1Variance"
+msgctxt "PropertyName|"
+msgid "localPosition1Variance"
+msgstr "localPosition1Variance"
+
+#. +> trunk6 stable6
+#: spring.cc:44
+#, fuzzy
+#| msgid "position variance"
+msgctxt "PropertyDescription|"
+msgid "Local position 1 variance"
+msgstr "athraitheas an ionaid"
+
+#. +> trunk6 stable6
+#: spring.cc:45
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "localPosition2Variance"
+msgctxt "PropertyName|"
+msgid "localPosition2Variance"
+msgstr "localPosition2Variance"
+
+#. +> trunk6 stable6
+#: spring.cc:46
+#, fuzzy
+#| msgid "position variance"
+msgctxt "PropertyDescription|"
+msgid "Local position 2 variance"
+msgstr "athraitheas an ionaid"
+
+#. +> trunk6 stable6
+#: spring.cc:47
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "position1Variance"
+msgctxt "PropertyName|"
+msgid "position1Variance"
+msgstr "position1Variance"
+
+#. +> trunk6 stable6
+#: spring.cc:48
+#, fuzzy
+#| msgid "position variance"
+msgctxt "PropertyDescription|"
+msgid "Position1 variance"
+msgstr "athraitheas an ionaid"
+
+#. +> trunk6 stable6
+#: spring.cc:49
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "position2Variance"
+msgctxt "PropertyName|"
+msgid "position2Variance"
+msgstr "position2Variance"
+
+#. +> trunk6 stable6
+#: spring.cc:50
+#, fuzzy
+#| msgid "position variance"
+msgctxt "PropertyDescription|"
+msgid "Position2 variance"
+msgstr "athraitheas an ionaid"
+
+#. +> trunk6 stable6
+#: spring.cc:52
+#, fuzzy
+#| msgid "position variance"
+msgctxt "PropertyDescription|"
+msgid "Spring tension force variance"
+msgstr "athraitheas an ionaid"
+
+#. +> trunk6 stable6
+#: tool.cc:14
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "NoteImage"
+msgctxt "ObjectClass|"
+msgid "NoteImage"
+msgstr "NoteImage"
+
+#. +> trunk6 stable6
+#: tool.cc:14
+msgctxt "ObjectDescription|"
+msgid "NoteImage: an image embedded in Note"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:16
+msgctxt "PropertyDescription|"
+msgid "Image data"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:16
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "image"
+msgctxt "PropertyName|"
+msgid "image"
+msgstr "image"
+
+#. +> trunk6 stable6
+#: tool.cc:19
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "NoteFormula"
+msgctxt "ObjectClass|"
+msgid "NoteFormula"
+msgstr "NoteFormula"
+
+#. +> trunk6 stable6
+#: tool.cc:19
+msgctxt "ObjectDescription|"
+msgid "NoteFormula: a formula embedded in Note"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:21
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "NoteFormula"
+msgctxt "PropertyDescription|"
+msgid "Formula code"
+msgstr "NoteFormula"
+
+#. +> trunk6 stable6
+#: tool.cc:21
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "code"
+msgctxt "PropertyName|"
+msgid "code"
+msgstr "code"
+
+#. +> trunk6 stable6
+#: tool.cc:24
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Note"
+msgctxt "ObjectClass|"
+msgid "Note"
+msgstr "Note"
+
+#. +> trunk6 stable6
+#: tool.cc:24
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "ObjectDescription|"
+msgid "Note: displays a textual note on the scene"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: tool.cc:26
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Note position on the scene"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: tool.cc:27
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Note size on the scene"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: tool.cc:28
+#, fuzzy
+#| msgid "Text"
+msgctxt "PropertyDescription|"
+msgid "Text"
+msgstr "Téacs"
+
+#. +> trunk6 stable6
+#: tool.cc:28
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "text"
+msgctxt "PropertyName|"
+msgid "text"
+msgstr "text"
+
+#. +> trunk6 stable6
+#: tool.cc:31
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Graph"
+msgctxt "ObjectClass|"
+msgid "Graph"
+msgstr "Graph"
+
+#. +> trunk6 stable6
+#: tool.cc:31
+msgctxt "ObjectDescription|"
+msgid "Graph: plots a graph of any properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:33
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Graph position on the scene"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: tool.cc:34
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Graph size on the scene"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: tool.cc:35
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "property"
+msgctxt "PropertyDescription|"
+msgid "X axis: object"
+msgstr "property"
+
+#. +> trunk6 stable6
+#: tool.cc:35
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "objectX"
+msgctxt "PropertyName|"
+msgid "objectX"
+msgstr "objectX"
+
+#. +> trunk6 stable6
+#: tool.cc:36
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "property"
+msgctxt "PropertyDescription|"
+msgid "X axis: object property"
+msgstr "property"
+
+#. +> trunk6 stable6
+#: tool.cc:36
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "propertyX"
+msgctxt "PropertyName|"
+msgid "propertyX"
+msgstr "propertyX"
+
+#. +> trunk6 stable6
+#: tool.cc:37
+#, fuzzy
+#| msgid "Vector index"
+msgctxt "PropertyDescription|"
+msgid "X axis: vector index"
+msgstr "Innéacs veicteora"
+
+#. +> trunk6 stable6
+#: tool.cc:37
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "indexX"
+msgctxt "PropertyName|"
+msgid "indexX"
+msgstr "indexX"
+
+#. +> trunk6 stable6
+#: tool.cc:38
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "property"
+msgctxt "PropertyDescription|"
+msgid "Y axis: object"
+msgstr "property"
+
+#. +> trunk6 stable6
+#: tool.cc:38
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "objectY"
+msgctxt "PropertyName|"
+msgid "objectY"
+msgstr "objectY"
+
+#. +> trunk6 stable6
+#: tool.cc:39
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "property"
+msgctxt "PropertyDescription|"
+msgid "Y axis: property"
+msgstr "property"
+
+#. +> trunk6 stable6
+#: tool.cc:39
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "propertyY"
+msgctxt "PropertyName|"
+msgid "propertyY"
+msgstr "propertyY"
+
+#. +> trunk6 stable6
+#: tool.cc:40
+#, fuzzy
+#| msgid "Vector index"
+msgctxt "PropertyDescription|"
+msgid "Y axis: vector index"
+msgstr "Innéacs veicteora"
+
+#. +> trunk6 stable6
+#: tool.cc:40
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "indexY"
+msgctxt "PropertyName|"
+msgid "indexY"
+msgstr "indexY"
+
+#. +> trunk6 stable6
+#: tool.cc:41
+msgctxt "PropertyDescription|"
+msgid "Auto-limits along X axis"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:41
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "autoLimitsX"
+msgctxt "PropertyName|"
+msgid "autoLimitsX"
+msgstr "autoLimitsX"
+
+#. +> trunk6 stable6
+#: tool.cc:42
+msgctxt "PropertyDescription|"
+msgid "Auto-limits along Y axis"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:42
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "autoLimitsY"
+msgctxt "PropertyName|"
+msgid "autoLimitsY"
+msgstr "autoLimitsY"
+
+#. +> trunk6 stable6
+#: tool.cc:43
+msgctxt "PropertyDescription|"
+msgid "Limits along X axis"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:43
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "limitsX"
+msgctxt "PropertyName|"
+msgid "limitsX"
+msgstr "limitsX"
+
+#. +> trunk6 stable6
+#: tool.cc:44
+msgctxt "PropertyDescription|"
+msgid "Limits along Y axis"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:44
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "limitsY"
+msgctxt "PropertyName|"
+msgid "limitsY"
+msgstr "limitsY"
+
+#. +> trunk6 stable6
+#: tool.cc:45
+#, fuzzy
+#| msgid "Show points on the graph"
+msgctxt "PropertyDescription|"
+msgid "Show points on the graph"
+msgstr "Taispeáin pointí ar an ngraf"
+
+#. +> trunk6 stable6
+#: tool.cc:45
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "showPoints"
+msgctxt "PropertyName|"
+msgid "showPoints"
+msgstr "showPoints"
+
+#. +> trunk6 stable6
+#: tool.cc:46
+#, fuzzy
+#| msgid "Show points on the graph"
+msgctxt "PropertyDescription|"
+msgid "Show lines on the graph"
+msgstr "Taispeáin pointí ar an ngraf"
+
+#. +> trunk6 stable6
+#: tool.cc:46
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "showLines"
+msgctxt "PropertyName|"
+msgid "showLines"
+msgstr "showLines"
+
+#. +> trunk6 stable6
+#: tool.cc:47
+#, fuzzy
+#| msgid "Current time"
+msgctxt "PropertyDescription|"
+msgid "Current value"
+msgstr "An t-am anois"
+
+#. +> trunk6 stable6
+#: tool.cc:47
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "forceValue"
+msgctxt "PropertyName|"
+msgid "currentValue"
+msgstr "forceValue"
+
+#. +> trunk6 stable6
+#: tool.cc:48 tool.cc:89
+#, fuzzy
+#| msgid "points"
+msgctxt "PropertyDescription|"
+msgid "points"
+msgstr "pointí"
+
+#. +> trunk6 stable6
+#: tool.cc:48 tool.cc:89
+#, fuzzy
+#| msgid "points"
+msgctxt "PropertyName|"
+msgid "points"
+msgstr "pointí"
+
+#. +> trunk6 stable6
+#: tool.cc:49
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "limitsX"
+msgctxt "PropertyName|"
+msgid "unitsX"
+msgstr "limitsX"
+
+#. +> trunk6 stable6
+#: tool.cc:49
+msgctxt "PropertyName|"
+msgid "Units along X axis"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:50
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "limitsY"
+msgctxt "PropertyName|"
+msgid "unitsY"
+msgstr "limitsY"
+
+#. +> trunk6 stable6
+#: tool.cc:50
+msgctxt "PropertyName|"
+msgid "Units along Y axis"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:53
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Meter"
+msgctxt "ObjectClass|"
+msgid "Meter"
+msgstr "Meter"
+
+#. +> trunk6 stable6
+#: tool.cc:53
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "ObjectDescription|"
+msgid "Meter: displays any property on the scene"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: tool.cc:55
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Meter position on the scene"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: tool.cc:56
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Meter size on the scene"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: tool.cc:57
+#, fuzzy
+#| msgid "several objects"
+msgctxt "PropertyDescription|"
+msgid "Observed object"
+msgstr "roinnt réad"
+
+#. +> trunk6 stable6
+#: tool.cc:57 tool.cc:69
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "object"
+msgctxt "PropertyName|"
+msgid "object"
+msgstr "object"
+
+#. +> trunk6 stable6
+#: tool.cc:58
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "property"
+msgctxt "PropertyDescription|"
+msgid "Observed property"
+msgstr "property"
+
+#. +> trunk6 stable6
+#: tool.cc:58 tool.cc:70
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "property"
+msgctxt "PropertyName|"
+msgid "property"
+msgstr "property"
+
+#. +> trunk6 stable6
+#: tool.cc:59 tool.cc:71
+#, fuzzy
+#| msgid "Vector index"
+msgctxt "PropertyDescription|"
+msgid "Vector index"
+msgstr "Innéacs veicteora"
+
+#. +> trunk6 stable6
+#: tool.cc:59 tool.cc:71
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "index"
+msgctxt "PropertyName|"
+msgid "index"
+msgstr "index"
+
+#. +> trunk6 stable6
+#: tool.cc:60
+#, fuzzy
+#| msgid "Display precision:"
+msgctxt "PropertyDescription|"
+msgid "Display digits"
+msgstr "Beachtas na taispeána:"
+
+#. +> trunk6 stable6
+#: tool.cc:60
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "digits"
+msgctxt "PropertyName|"
+msgid "digits"
+msgstr "digits"
+
+#. +> trunk6 stable6
+#: tool.cc:61 tool.cc:78
+#, fuzzy
+#| msgid "Value"
+msgctxt "PropertyDescription|"
+msgid "Value"
+msgstr "Luach"
+
+#. +> trunk6 stable6
+#: tool.cc:61 tool.cc:78
+#, fuzzy
+#| msgid "value"
+msgctxt "PropertyName|"
+msgid "value"
+msgstr "luach"
+
+#. +> trunk6 stable6
+#: tool.cc:62
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "property"
+msgctxt "PropertyDescription|"
+msgid "Units of measured property"
+msgstr "property"
+
+#. +> trunk6 stable6
+#: tool.cc:62 tool.cc:80
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "limitsX"
+msgctxt "PropertyName|"
+msgid "units"
+msgstr "limitsX"
+
+#. +> trunk6 stable6
+#: tool.cc:65
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Controller"
+msgctxt "ObjectClass|"
+msgid "Controller"
+msgstr "Controller"
+
+#. +> trunk6 stable6
+#: tool.cc:65
+msgctxt "ObjectDescription|"
+msgid "Controller: allows to easily control any property"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:67
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Controller position on the scene"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: tool.cc:68
+#, fuzzy
+#| msgid "Position of the center of mass"
+msgctxt "PropertyDescription|"
+msgid "Controller size on the scene"
+msgstr "Ionad an meáchanláir"
+
+#. +> trunk6 stable6
+#: tool.cc:69
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Controller"
+msgctxt "PropertyDescription|"
+msgid "Controlled object"
+msgstr "Controller"
+
+#. +> trunk6 stable6
+#: tool.cc:70
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Controller"
+msgctxt "PropertyDescription|"
+msgid "Controlled property"
+msgstr "Controller"
+
+#. +> trunk6 stable6
+#: tool.cc:72
+#, fuzzy
+#| msgid "Limits"
+msgctxt "PropertyDescription|"
+msgid "Limits"
+msgstr "Teorainneacha"
+
+#. +> trunk6 stable6
+#: tool.cc:72
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "limits"
+msgctxt "PropertyName|"
+msgid "limits"
+msgstr "limits"
+
+#. +> trunk6 stable6
+#: tool.cc:73
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "increaseShortcut"
+msgctxt "PropertyName|"
+msgid "increaseShortcut"
+msgstr "increaseShortcut"
+
+#. +> trunk6 stable6
+#: tool.cc:74
+msgctxt "PropertyDescription|"
+msgid "Shortcut to increase the value"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:75
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "decreaseShortcut"
+msgctxt "PropertyName|"
+msgid "decreaseShortcut"
+msgstr "decreaseShortcut"
+
+#. +> trunk6 stable6
+#: tool.cc:76
+msgctxt "PropertyDescription|"
+msgid "Shortcut to decrease the value"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:77
+#, fuzzy
+#| msgid "Increase value"
+msgctxt "PropertyDescription|"
+msgid "Increment value"
+msgstr "Méadaigh an luach"
+
+#. +> trunk6 stable6
+#: tool.cc:77
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "increment"
+msgctxt "PropertyName|"
+msgid "increment"
+msgstr "increment"
+
+#. +> trunk6 stable6
+#: tool.cc:80
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Controller"
+msgctxt "PropertyDescription|"
+msgid "Units of controlled property"
+msgstr "Controller"
+
+#. +> trunk6 stable6
+#: tool.cc:83
+#, fuzzy
+#| msgctxt "ObjectClass"
+#| msgid "Tracer"
+msgctxt "ObjectClass|"
+msgid "Tracer"
+msgstr "Tracer"
+
+#. +> trunk6 stable6
+#: tool.cc:83
+msgctxt "ObjectDescription|"
+msgid "Tracer: traces trajectory of a point on a body"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:85
+msgctxt "PropertyDescription|"
+msgid "Traced body"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tool.cc:87
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "localPosition"
+msgctxt "PropertyDescription|"
+msgid "Local position"
+msgstr "localPosition"
+
+#. +> trunk6 stable6
+#: world.cc:20
+#, fuzzy
+#| msgid "Tool"
+msgctxt "ObjectClass|"
+msgid "Tool"
+msgstr "Uirlis"
+
+#. +> trunk6 stable6
+#: world.cc:20
+#, fuzzy
+#| msgid "Tool"
+msgctxt "ObjectDescription|"
+msgid "Tool"
+msgstr "Uirlis"
+
+#. +> trunk6 stable6
+#: world.cc:22
+#, fuzzy
+#| msgid "World"
+msgctxt "ObjectClass|"
+msgid "World"
+msgstr "Domhan"
+
+#. +> trunk6 stable6
+#: world.cc:22
+#, fuzzy
+#| msgid "World"
+msgctxt "ObjectDescription|"
+msgid "World"
+msgstr "Domhan"
+
+#. +> trunk6 stable6
+#: world.cc:23
+#, fuzzy
+#| msgid "Current time"
+msgctxt "PropertyDescription|"
+msgid "Current time"
+msgstr "An t-am anois"
+
+#. +> trunk6 stable6
+#: world.cc:23
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "time"
+msgctxt "PropertyName|"
+msgid "time"
+msgstr "time"
+
+#. +> trunk6 stable6
+#: world.cc:24
+#, fuzzy
+#| msgid "&Simulation"
+msgctxt "PropertyDescription|"
+msgid "Simulation speed scale"
+msgstr "&Insamhladh"
+
+#. +> trunk6 stable6
+#: world.cc:24
+#, fuzzy
+#| msgctxt "PropertyName"
+#| msgid "time"
+msgctxt "PropertyName|"
+msgid "timeScale"
+msgstr "time"
+
+#. +> trunk6 stable6
+#: world.cc:25
+msgctxt "PropertyName|"
+msgid "errorsCalculation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: world.cc:26
+msgctxt "PropertyDescription|"
+msgid "Enable global error calculation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: xmlfile.cc:191
+#, fuzzy
+#| msgid "The file is not a StepCoreXML file."
+msgctxt "QObject|"
+msgid "The file is not a StepCoreXML file."
+msgstr "Ní comhad StepCoreXML é seo."
+
+#. +> trunk6 stable6
+#: xmlfile.cc:237
+#, fuzzy, qt-format
+#| msgid "Unknown item type \"%1\""
+msgctxt "QObject|"
+msgid "Unknown item type \"%1\""
+msgstr "Cineál anaithnid míre \"%1\""
+
+#. +> trunk6 stable6
+#: xmlfile.cc:258
+#, fuzzy, qt-format
+#| msgid "Unknown solver type \"%1\""
+msgctxt "QObject|"
+msgid "Unknown solver type \"%1\""
+msgstr "Cineál anaithnid réiteora \"%1\""
+
+#. +> trunk6 stable6
+#: xmlfile.cc:272
+#, fuzzy, qt-format
+#| msgid "Unknown collisionSolver type \"%1\""
+msgctxt "QObject|"
+msgid "Unknown collisionSolver type \"%1\""
+msgstr "Cineál anaithnid collisionSolver \"%1\""
+
+#. +> trunk6 stable6
+#: xmlfile.cc:286
+#, fuzzy, qt-format
+#| msgid "Unknown constraint solver type \"%1\""
+msgctxt "QObject|"
+msgid "Unknown constraint solver type \"%1\""
+msgstr "Cineál anaithnid constraintSolver \"%1\""
+
+#. +> trunk6 stable6
+#: xmlfile.cc:314
+#, fuzzy, qt-format
+#| msgid "Wrong ID attribute value for %1"
+msgctxt "QObject|"
+msgid "Wrong ID attribute value for %1"
+msgstr "Aitreabúid mhícheart aitheantais le haghaidh %1"
+
+#. +> trunk6 stable6
+#: xmlfile.cc:319
+#, fuzzy, qt-format
+#| msgid "Non-unique ID attribute value for %1"
+msgctxt "QObject|"
+msgid "Non-unique ID attribute value for %1"
+msgstr "Aitreabúid neamhuathúil aitheantais le haghaidh %1"
+
+#. +> trunk6 stable6
+#: xmlfile.cc:347 xmlfile.cc:361
+#, fuzzy, qt-format
+#| msgid "Property \"%1\" of \"%2\" has illegal value"
+msgctxt "QObject|"
+msgid "Property \"%1\" of \"%2\" has illegal value"
+msgstr "Luach neamhcheadaithe ar airí \"%1\" de \"%2\""
+
+#. +> trunk6 stable6
+#: xmlfile.cc:374
+#, fuzzy
+#| msgid "File is not writable."
+msgctxt "QObject|"
+msgid "File is not writable."
+msgstr "Níl an comhad inscríofa."

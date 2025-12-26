@@ -1,0 +1,81 @@
+# translation of desktop_kdebase.po to Irish
+# Kevin Scannell <kscanne@gmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-09 08:58+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 trunk5
+#: src/runtime/ksecretd/ksecretd.notifyrc:3
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Wallet"
+msgctxt "Comment"
+msgid "KDE Wallet"
+msgstr "Sparán"
+
+#. +> trunk6 trunk5
+#: src/runtime/ksecretd/ksecretd.notifyrc:47
+#, fuzzy
+#| msgctxt "Comment"
+#| msgid "Wallet"
+msgctxt "Name"
+msgid "KDE Wallet"
+msgstr "Sparán"
+
+#. +> trunk6 trunk5
+#: src/runtime/ksecretd/ksecretd.notifyrc:93
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Needs password"
+msgctxt "Name"
+msgid "Needs Password"
+msgstr "Focal faire de dhíth"
+
+#. +> trunk6 trunk5
+#: src/runtime/ksecretd/ksecretd.notifyrc:136
+msgctxt "Comment"
+msgid "The KDE Wallet Daemon requests a password"
+msgstr "Tá Deamhan Sparáin KDE ag iarraidh focal faire"
+
+#. +> trunk6 trunk5
+#: src/runtime/ksecretd/ksecretd.notifyrc:213
+msgctxt "Name"
+msgid "Sync Failed"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: src/runtime/ksecretd/ksecretd.notifyrc:268
+msgctxt "Comment"
+msgid "KDE Wallet System failed to sync a wallet file to disk"
+msgstr ""
+
+#. +> trunk6 trunk5
+#: src/runtime/ksecretd/org.kde.ksecretd.desktop:7
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Wallet Server"
+msgctxt "Name"
+msgid "KDE Wallet Service"
+msgstr "Freastalaí Sparáin"
+
+#. +> trunk5
+#: src/runtime/kwalletd/kwalletd5.desktop:8
+msgctxt "Name"
+msgid "Wallet Server"
+msgstr "Freastalaí Sparáin"
+
+#. +> trunk5
+#: src/runtime/kwalletd/kwalletd5.desktop:89
+msgctxt "Comment"
+msgid "Wallet Server"
+msgstr "Freastalaí Sparáin"

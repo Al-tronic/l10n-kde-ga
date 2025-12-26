@@ -1,0 +1,254 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the mauikit-texteditor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: mauikit-texteditor\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-05-21 10:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:166
+#, kde-format
+msgid "File changed externally"
+msgstr ""
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:166
+#, kde-format
+msgid "You can reload the file or save your changes now"
+msgstr ""
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:177
+#, kde-format
+msgid "Reload"
+msgstr ""
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:177
+#, kde-format
+msgid "Auto Reload"
+msgstr ""
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:177 src/code/documenthandler.cpp:185
+#: src/controls.6/TextEditor.qml:496
+#, kde-format
+msgid "Ignore"
+msgstr ""
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:183
+#, kde-format
+msgid "File can not be saved"
+msgstr ""
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:191
+#, kde-format
+msgid "Your file was removed"
+msgstr ""
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:191
+#, kde-format
+msgid "This file does not longer exist in your local storage, however you can save it again"
+msgstr ""
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:197
+#, kde-format
+msgid "Save"
+msgstr ""
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:791
+#, kde-format
+msgid "Cannot save: "
+msgstr ""
+
+#. +> trunk6
+#: src/code/documenthandler.cpp:792
+#, kde-format
+msgid "Cannot save file "
+msgstr ""
+
+#. +> trunk6
+#: src/code/moduleinfo.cpp:18
+#, kde-format
+msgid "Text editor controls."
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/ColorSchemesPage.qml:53
+#: src/controls.6/ColorSchemesPage.qml:74
+#, kde-format
+msgid "Colors"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/ColorSchemesPage.qml:75
+#, kde-format
+msgid "Configure the style of the syntax highlighting. This configuration in not applied for rich text formats."
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/ColorSchemesPage.qml:79
+#, kde-format
+msgid "Color"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/ColorSchemesPage.qml:80
+#, kde-format
+msgid "Editor background color."
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/ColorSchemesPage.qml:110
+#, kde-format
+msgid "Theme"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/ColorSchemesPage.qml:111
+#, kde-format
+msgid "Editor color scheme style."
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:271
+#, kde-format
+msgid "Undo"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:284
+#, kde-format
+msgid "Redo"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:300
+#, kde-format
+msgid "Copy"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:319
+#, kde-format
+msgid "Cut"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:337
+#, kde-format
+msgid "Paste"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:355
+#, kde-format
+msgid "Select All"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:370
+#, kde-format
+msgid "Search Selected Text on Google..."
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:382
+#, kde-format
+msgid "Email"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:392
+#, kde-format
+msgid "Save as Contact"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:402
+#, kde-format
+msgid "Open Link"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:417
+#, kde-format
+msgid "Delete"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:431
+#, kde-format
+msgid "Spelling"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:472
+#, kde-format
+msgid "No suggestions for \"%1\""
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:482
+#, kde-format
+msgid "Add \"%1\" to dictionary"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:510
+#, kde-format
+msgid "Enable Spellchecker"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:597
+#, kde-format
+msgid "Case Sensitive"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:604
+#, kde-format
+msgid "Whole Words Only"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:614
+#, kde-format
+msgid "Find"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:645 src/controls.6/TextEditor.qml:652
+#, kde-format
+msgid "Replace"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:662
+#, kde-format
+msgid "Replace All"
+msgstr ""
+
+#. +> trunk6
+#: src/controls.6/TextEditor.qml:923
+#, kde-format
+msgid "Body"
+msgstr ""

@@ -1,0 +1,48 @@
+# Irish translation of kio_gopher
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kio_gopher package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdenonbeta/kio_gopher.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-06-14 09:49+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6
+#: kio_gopher.cpp:91
+#, kde-format
+msgid "Connecting to %1..."
+msgstr "Ag ceangal le %1..."
+
+#. +> trunk6
+#: kio_gopher.cpp:92
+#, kde-format
+msgid "%1 contacted. Retrieving data..."
+msgstr "I dteagmháil le %1. Sonraí á bhfáil..."
+
+#. +> trunk6
+#: kio_gopher.cpp:106
+#, kde-format
+msgid "Retrieved %1 bytes from %2..."
+msgstr "Fuarthas %1 beart ó %2..."
+
+#. +> trunk6
+#: kio_gopher.cpp:315
+#, kde-format
+msgid "Enter a search term:"
+msgstr "Iontráil téarma cuardaigh:"
+
+#. +> trunk6
+#: kio_gopher.cpp:319
+#, kde-format
+msgctxt "Text on a search button, like at a search engine"
+msgid "Search"
+msgstr "Cuardaigh"

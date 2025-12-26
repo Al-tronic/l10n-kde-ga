@@ -1,0 +1,6419 @@
+# Irish translation of koffice
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the koffice package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: koffice/koffice.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:24+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: basicflakes/plugin/KoCreatePathToolFactory.cpp:17
+#, fuzzy, kde-format
+#| msgid "Default path"
+msgid "Draw path"
+msgstr "Conair réamhshocraithe"
+
+#. +> trunk6 stable6
+#: basicflakes/plugin/KoPencilToolFactory.cpp:16
+#, fuzzy, kde-format
+msgid "Freehand path"
+msgstr "Bain fochonair"
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoCreatePathTool.cpp:442
+#, kde-format
+msgid "Angle snapping delta:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoCreatePathTool.cpp:449
+#, kde-format
+msgid "Activate angle snap:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoCreatePathTool.cpp:457
+#, kde-format
+msgid "Angle Constraints"
+msgstr ""
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoCreatePathTool.cpp:461
+#: basicflakes/tools/KoPencilTool.cpp:339 widgets/KoGradientEditWidget.cpp:150
+#, kde-format
+msgid "Line"
+msgstr "Líne"
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoPencilTool.cpp:276
+#, fuzzy, kde-format
+#| msgid "Position:"
+msgid "Precision:"
+msgstr "Ionad:"
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoPencilTool.cpp:278
+#, fuzzy, kde-format
+#| msgid "Rainbow"
+msgctxt "The raw line data"
+msgid "Raw"
+msgstr "Tua Cheatha"
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoPencilTool.cpp:279
+#: flake/KoConnectionShapeConfigWidget.cpp:20
+#, kde-format
+msgid "Curve"
+msgstr "Cuar"
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoPencilTool.cpp:280
+#: flake/KoConnectionShapeConfigWidget.cpp:19
+#, kde-format
+msgid "Straight"
+msgstr "Díreach"
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoPencilTool.cpp:289
+#: basicflakes/tools/KoPencilTool.cpp:295
+#, kde-format
+msgid "Optimize"
+msgstr ""
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoPencilTool.cpp:301
+#, kde-format
+msgid "Exactness:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: basicflakes/tools/KoPencilTool.cpp:334
+#: basicflakes/tools/KoPencilTool.cpp:335
+#, kde-format
+msgid "Pencil"
+msgstr ""
+
+#. +> trunk6 stable6
+#: flake/commands/KoConnectionShapeTypeCommand.cpp:17
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Connection"
+msgstr "Athraigh Ceangal"
+
+#. +> trunk6 stable6
+#: flake/commands/KoParameterHandleMoveCommand.cpp:26
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change parameter"
+msgstr "Athraigh an Cás"
+
+#. +> trunk6 stable6
+#: flake/commands/KoParameterToPathCommand.cpp:32
+#: flake/commands/KoParameterToPathCommand.cpp:41
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Convert to Path"
+msgstr "Tiontaigh go Conair"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathBreakAtPointCommand.cpp:29
+#, fuzzy
+#| msgid "Insert point"
+msgctxt "(qtundo-format)"
+msgid "Break subpath at points"
+msgstr "Ionsáigh pointe"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathCombineCommand.cpp:47
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Combine paths"
+msgstr "Bain fochonair"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathControlPointMoveCommand.cpp:27
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move control point"
+msgstr "Bain pointe"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathFillRuleCommand.cpp:33
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set fill rule"
+msgstr "Socraigh riail líonta"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathPointInsertCommand.cpp:70
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert points"
+msgstr "Ionsáigh pointe"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathPointMergeCommand.cpp:138
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge points"
+msgstr "Bain pointí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathPointMoveCommand.cpp:31
+#: flake/commands/KoPathPointMoveCommand.cpp:47
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move points"
+msgstr "Bain pointí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathPointRemoveCommand.cpp:92
+#: flake/commands/KoPathPointRemoveCommand.cpp:120
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove points"
+msgstr "Bain pointí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathPointTypeCommand.cpp:32
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set point type"
+msgstr "Socraigh Clómhéid"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathReverseCommand.cpp:39
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reverse paths"
+msgstr "Bain fochonair"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathSegmentBreakCommand.cpp:28
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Break subpath"
+msgstr "Bain fochonair"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathSegmentTypeCommand.cpp:118
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change segments to curves"
+msgstr "Athraigh an cló"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathSegmentTypeCommand.cpp:120
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change segments to lines"
+msgstr "Athraigh an cló"
+
+#. +> trunk6 stable6
+#: flake/commands/KoPathShapeMarkerCommand.cpp:23
+msgctxt "(qtundo-format)"
+msgid "Set marker"
+msgstr ""
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeAlignCommand.cpp:78
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Align shapes"
+msgstr "Ailínigh giuirléidí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeBackgroundCommand.cpp:49
+#: flake/commands/KoShapeBackgroundCommand.cpp:60
+#: flake/commands/KoShapeBackgroundCommand.cpp:75
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set background"
+msgstr "Dath an Chúlra"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeClipCommand.cpp:64
+#: flake/commands/KoShapeClipCommand.cpp:81
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Clip Shape"
+msgstr "Giuirléid Éilips"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeCreateCommand.cpp:41
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Create shape"
+msgstr "Cruthaigh giuirléid"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeDeleteCommand.cpp:44
+#, fuzzy
+msgctxt "(qtundo-format) Delete one shape"
+msgid "Delete shape"
+msgstr "Scrios giuirléid"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeDeleteCommand.cpp:56
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete shape"
+msgid_plural "Delete shapes"
+msgstr[0] "Scrios giuirléid"
+msgstr[1] "Scrios giuirléid"
+msgstr[2] "Scrios giuirléid"
+msgstr[3] "Scrios giuirléid"
+msgstr[4] "Scrios giuirléid"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeDistributeCommand.cpp:121
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Distribute shapes"
+msgstr "Scrios giuirléidí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeGroupCommand.cpp:85
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Group shapes"
+msgstr "Grúpáil giuirléidí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeGroupCommand.cpp:87
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add shapes to group"
+msgstr "Cuir giuirléidí le grúpa"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeKeepAspectRatioCommand.cpp:17
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Keep Aspect Ratio"
+msgstr "Caomhnaigh an Cóimheas Treoíochta"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeLockCommand.cpp:23
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Lock shapes"
+msgstr "Cuir giuirléidí faoi ghlas"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeMoveCommand.cpp:37
+#: flake/commands/KoShapeMoveCommand.cpp:57
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move shapes"
+msgstr "Bog giuirléidí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeRenameCommand.cpp:29
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rename Shape"
+msgstr "Cruthaigh Cruthanna"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeReorderCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reorder shapes"
+msgstr "Athraigh méid giuirléidí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeRunAroundCommand.cpp:77
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Shape RunAround"
+msgstr "Athraigh leagan amach an leathanaigh"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeShadowCommand.cpp:55
+#: flake/commands/KoShapeShadowCommand.cpp:72
+#: flake/commands/KoShapeShadowCommand.cpp:83
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Shadow"
+msgstr "Socraigh Scáth"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeShearCommand.cpp:43
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Shear shapes"
+msgstr "Taispeáin Máistirgiuirléidí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeSizeCommand.cpp:33
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Resize shapes"
+msgstr "Athraigh méid giuirléidí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeStrokeCommand.cpp:59
+#: flake/commands/KoShapeStrokeCommand.cpp:76
+#: flake/commands/KoShapeStrokeCommand.cpp:87
+msgctxt "(qtundo-format)"
+msgid "Set stroke"
+msgstr ""
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeTransparencyCommand.cpp:33
+#: flake/commands/KoShapeTransparencyCommand.cpp:44
+#: flake/commands/KoShapeTransparencyCommand.cpp:57
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set opacity"
+msgstr "Socraigh an teimhneacht"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeUnclipCommand.cpp:114
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Unclip Shape"
+msgstr "Giuirléid Éilips"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeUnclipCommand.cpp:124
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Unclip Shapes"
+msgstr "Giuirléid Éilips"
+
+#. +> trunk6 stable6
+#: flake/commands/KoShapeUngroupCommand.cpp:48
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Ungroup shapes"
+msgstr "Díghrúpáil giuirléidí"
+
+#. +> trunk6 stable6
+#: flake/commands/KoSubpathJoinCommand.cpp:36
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Close subpath"
+msgstr "Bain fochonair"
+
+#. +> trunk6 stable6
+#: flake/commands/KoSubpathJoinCommand.cpp:38
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Join subpaths"
+msgstr "Bain fochonair"
+
+#. +> trunk6 stable6
+#: flake/commands/KoSubpathRemoveCommand.cpp:19
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Remove subpath"
+msgstr "Bain fochonair"
+
+#. +> trunk6 stable6
+#: flake/KoConnectionShapeConfigWidget.cpp:17
+#, kde-format
+msgid "Standard"
+msgstr "Caighdeánach"
+
+#. +> trunk6 stable6
+#: flake/KoConnectionShapeConfigWidget.cpp:18
+#, kde-format
+msgid "Lines"
+msgstr "Línte"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. i18n: ectx: property (text), widget (QLabel, lblTypeDesc)
+#. +> trunk6 stable6
+#: flake/KoConnectionShapeConfigWidget.ui:35
+#: widgets/koDocumentInfoAboutWidget.ui:141
+#: widgets/KoGradientEditWidget.cpp:155
+#, kde-format
+msgid "Type:"
+msgstr "Cineál:"
+
+#. +> trunk6 stable6
+#: flake/KoConnectionShapeFactory.cpp:22
+#, kde-format
+msgid "Tie"
+msgstr "Ceangal"
+
+#. +> trunk6 stable6
+#: flake/KoConnectionShapeFactory.cpp:24
+#, kde-format
+msgid "A connection between two other shapes"
+msgstr "Ceangal idir dhá ghiuirléid eile"
+
+#. +> trunk6 stable6
+#: flake/KoGridData.cpp:206
+#, kde-format
+msgid "Show Grid"
+msgstr "Taispeáin Greille"
+
+#. +> trunk6 stable6
+#: flake/KoGridData.cpp:207
+#, kde-format
+msgid "Shows or hides grid"
+msgstr "Taispeáin nó folaigh greille"
+
+#. +> trunk6 stable6
+#: flake/KoPathShapeFactory.cpp:22
+#, kde-format
+msgid "Simple path shape"
+msgstr "Giuirléid shimplí chonaire"
+
+#. +> trunk6 stable6
+#: flake/KoPathShapeFactory.cpp:24
+#, kde-format
+msgid "A simple path shape"
+msgstr "Giuirléid shimplí chonaire"
+
+#. +> trunk6 stable6
+#: flake/KoShapeController.cpp:60 rdf/InsertSemanticObjectCreateAction.cpp:42
+#: rdf/InsertSemanticObjectReferenceAction.cpp:48
+#: text/InsertTextReferenceAction.cpp:50 text/InsertVariableAction.cpp:46
+#, kde-format
+msgid "%1 Options"
+msgstr "Roghanna %1"
+
+#. +> trunk6 stable6
+#: flake/KoShapePaste.cpp:163
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Paste Shapes"
+msgstr "Greamaigh Giuirléidí"
+
+#. +> trunk6 stable6
+#: flake/KoToolManager.cpp:442
+#, kde-format
+msgid "Active tool: %1"
+msgstr "Uirlis ghníomhach: %1"
+
+#. +> trunk6 stable6
+#: flake/KoToolProxy.cpp:590
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Paste Image"
+msgstr "Greamaigh Leathanach"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, nodeSnapGuide)
+#. +> trunk6 stable6
+#: flake/SnapGuideConfigWidget.ui:30
+#, kde-format
+msgid "Nodes"
+msgstr "Nóid"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, extensionSnapGuide)
+#. +> trunk6 stable6
+#: flake/SnapGuideConfigWidget.ui:43
+#, kde-format
+msgid "Extension of lines"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, boundingBoxSnapGuide)
+#. +> trunk6 stable6
+#: flake/SnapGuideConfigWidget.ui:56
+#, kde-format
+msgid "Bounding box of shape"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, snapDistance)
+#. +> trunk6 stable6
+#: flake/SnapGuideConfigWidget.ui:72
+#, kde-format
+msgid "Proximity distance where snapping happens"
+msgstr ""
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, snapDistance)
+#. +> trunk6 stable6
+#: flake/SnapGuideConfigWidget.ui:75
+#, kde-format
+msgid " px"
+msgstr " pct"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, orthogonalSnapGuide)
+#. +> trunk6 stable6
+#: flake/SnapGuideConfigWidget.ui:85
+#, kde-format
+msgid "Orthogonal"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, intersectionSnapGuide)
+#. +> trunk6 stable6
+#: flake/SnapGuideConfigWidget.ui:98
+#, kde-format
+msgid "Intersection of lines"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, lineGuideSnapGuide)
+#. +> trunk6 stable6
+#: flake/SnapGuideConfigWidget.ui:111
+#, kde-format
+msgid "Guide lines"
+msgstr "Treoirlínte"
+
+#. +> trunk6 stable6
+#: flake/svg/SvgShapeFactory.cpp:23
+#, kde-format
+msgid "Embedded svg shape"
+msgstr ""
+
+#. +> trunk6 stable6
+#: flake/tools/KoCreateShapesToolFactory.cpp:16
+#, kde-format
+msgid "Create object"
+msgstr "Cruthaigh réad"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPanToolFactory.cpp:17
+#, kde-format
+msgid "Pan"
+msgstr "Peanáil"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathSegmentChangeStrategy.cpp:127
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Segment"
+msgstr "Athraigh an cló"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:95
+#, fuzzy, kde-format
+#| msgid "Insert point"
+msgid "Corner point"
+msgstr "Ionsáigh pointe"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:100
+#, fuzzy, kde-format
+#| msgid "Remove point"
+msgid "Smooth point"
+msgstr "Bain pointe"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:105
+#, kde-format
+msgid "Symmetric Point"
+msgstr ""
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:110
+#, fuzzy, kde-format
+msgid "Make curve point"
+msgstr "Bain pointí"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:114
+#, fuzzy, kde-format
+msgid "Make line point"
+msgstr "Bain pointí"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:118
+#, fuzzy, kde-format
+#| msgid "Number of Lines"
+msgid "Segment to Line"
+msgstr "Líon na Línte"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:123
+#, fuzzy, kde-format
+#| msgid "Number of Lines"
+msgid "Segment to Curve"
+msgstr "Líon na Línte"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:128
+#, kde-format
+msgid "Insert point"
+msgstr "Ionsáigh pointe"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:133
+#, kde-format
+msgid "Remove point"
+msgstr "Bain pointe"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:138
+#, fuzzy, kde-format
+#| msgid "Insert point"
+msgid "Break at point"
+msgstr "Ionsáigh pointe"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:142
+#, kde-format
+msgid "Break at segment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:146
+#, kde-format
+msgid "Join with segment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:151
+#, fuzzy, kde-format
+msgid "Merge points"
+msgstr "Bain pointí"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:155
+#, fuzzy, kde-format
+#| msgid "Path:"
+msgid "To Path"
+msgstr "Conair:"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:188
+#, kde-format
+msgid "Line/Curve"
+msgstr "Líne/Cuar"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:522
+#, fuzzy, kde-format
+msgid "Drag to move handle."
+msgstr "Bain pointe"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:586
+#, kde-format
+msgid "Drag to move point. Shift click to change point type."
+msgstr ""
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:588
+#, fuzzy, kde-format
+msgid "Drag to move control point."
+msgstr "Bain pointe"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:613
+#, kde-format
+msgid "Drag to change curve directly. Double click to insert new path point."
+msgstr ""
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:620
+#, fuzzy, kde-format
+#| msgid "Insert point"
+msgid "Press B to break path at selected point."
+msgstr "Ionsáigh pointe"
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathTool.cpp:622
+#, kde-format
+msgid "Press B to break path at selected segments."
+msgstr ""
+
+#. +> trunk6 stable6
+#: flake/tools/KoPathToolFactory.cpp:17
+#, fuzzy, kde-format
+#| msgid "Last Printing"
+msgid "Path editing"
+msgstr "Priontáilte Ar"
+
+#. +> trunk6 stable6
+#: flake/tools/KoZoomToolFactory.cpp:17 widgets/KoZoomController_p.h:34
+#: widgets/KoZoomWidget.cpp:52
+#, kde-format
+msgid "Zoom"
+msgstr "Súmáil"
+
+#. i18n: ectx: property (text), widget (QRadioButton, zoomInButton)
+#. +> trunk6 stable6
+#: flake/tools/KoZoomToolWidget.ui:20
+#, kde-format
+msgid "Zoom In"
+msgstr "Súmáil Isteach"
+
+#. i18n: ectx: property (text), widget (QRadioButton, zoomOutButton)
+#. +> trunk6 stable6
+#: flake/tools/KoZoomToolWidget.ui:30
+#, kde-format
+msgid "Zoom Out"
+msgstr "Súmáil Amach"
+
+#. i18n: ectx: property (text), widget (QToolButton, corner)
+#. i18n: ectx: property (text), widget (QToolButton, smooth)
+#. i18n: ectx: property (text), widget (QToolButton, symmetric)
+#. i18n: ectx: property (text), widget (QToolButton, lineSegment)
+#. i18n: ectx: property (text), widget (QToolButton, curveSegment)
+#. i18n: ectx: property (text), widget (QToolButton, linePoint)
+#. i18n: ectx: property (text), widget (QToolButton, curvePoint)
+#. i18n: ectx: property (text), widget (QToolButton, addPoint)
+#. i18n: ectx: property (text), widget (QToolButton, removePoint)
+#. i18n: ectx: property (text), widget (QToolButton, breakPoint)
+#. i18n: ectx: property (text), widget (QToolButton, breakSegment)
+#. i18n: ectx: property (text), widget (QToolButton, joinSegment)
+#. i18n: ectx: property (text), widget (QToolButton, mergePoints)
+#. i18n: ectx: property (text), widget (QToolButton, add)
+#. i18n: ectx: property (text), widget (QToolButton, remove)
+#. i18n: ectx: property (text), widget (QToolButton, open)
+#. i18n: ectx: property (text), widget (QToolButton, save)
+#. +> trunk6 stable6
+#: flake/tools/PathToolOptionWidgetBase.ui:39
+#: flake/tools/PathToolOptionWidgetBase.ui:46
+#: flake/tools/PathToolOptionWidgetBase.ui:53
+#: flake/tools/PathToolOptionWidgetBase.ui:73
+#: flake/tools/PathToolOptionWidgetBase.ui:80
+#: flake/tools/PathToolOptionWidgetBase.ui:87
+#: flake/tools/PathToolOptionWidgetBase.ui:94
+#: flake/tools/PathToolOptionWidgetBase.ui:101
+#: flake/tools/PathToolOptionWidgetBase.ui:108
+#: flake/tools/PathToolOptionWidgetBase.ui:115
+#: flake/tools/PathToolOptionWidgetBase.ui:122
+#: flake/tools/PathToolOptionWidgetBase.ui:129
+#: flake/tools/PathToolOptionWidgetBase.ui:136 widgets/KoEditColorSet.ui:48
+#: widgets/KoEditColorSet.ui:58 widgets/KoEditColorSet.ui:68
+#: widgets/KoEditColorSet.ui:78
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (text), widget (QPushButton, convertToPath)
+#. +> trunk6 stable6
+#: flake/tools/PathToolOptionWidgetBase.ui:186
+#, kde-format
+msgid "Convert To Path"
+msgstr "Tiontaigh go Conair"
+
+#. +> trunk6 stable6
+#: kundo2/kundo2group.cpp:347 kundo2/kundo2stack.cpp:1075
+#, fuzzy, kde-format
+msgctxt "Default text for undo action"
+msgid "Undo"
+msgstr "Cealaigh"
+
+#. +> trunk6 stable6
+#: kundo2/kundo2group.cpp:347 kundo2/kundo2stack.cpp:1075
+#: main/KoUndoStackAction.cpp:41
+#, fuzzy, kde-format
+msgid "Undo %1"
+msgstr "&Cealaigh: %1"
+
+#. +> trunk6 stable6
+#: kundo2/kundo2group.cpp:372 kundo2/kundo2stack.cpp:1099
+#, fuzzy, kde-format
+msgctxt "Default text for redo action"
+msgid "Redo"
+msgstr "Athdhéan"
+
+#. +> trunk6 stable6
+#: kundo2/kundo2group.cpp:372 kundo2/kundo2stack.cpp:1099
+#: main/KoUndoStackAction.cpp:41
+#, fuzzy, kde-format
+msgid "Redo %1"
+msgstr "Athdhéan: %1"
+
+#. +> trunk6 stable6
+#: kundo2/kundo2model.cpp:54
+#, fuzzy, kde-format
+#| msgid "Empty"
+msgid "<empty>"
+msgstr "Folamh"
+
+#. +> trunk6 stable6
+#: kundo2/kundo2stack.cpp:1338 main/KoMainWindow.cpp:1434
+#: main/KoUndoStackAction.cpp:33
+#, kde-format
+msgid "Redo"
+msgstr "Athdhéan"
+
+#. +> trunk6 stable6
+#: kundo2/kundo2stack.cpp:1357 main/KoMainWindow.cpp:1433
+#: main/KoUndoStackAction.cpp:25
+#, kde-format
+msgid "Undo"
+msgstr "Cealaigh"
+
+#. i18n: ectx: Menu (file)
+#. +> trunk6 stable6
+#: main/calligra_shell.rc:4
+#, kde-format
+msgid "&File"
+msgstr "&Comhad"
+
+#. i18n: ectx: Menu (settings)
+#. +> trunk6 stable6
+#: main/calligra_shell.rc:32
+#, kde-format
+msgid "&Settings"
+msgstr "&Socruithe"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: main/calligra_shell.rc:46
+#, kde-format
+msgid "File"
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigDocumentPage.cpp:62
+#, fuzzy, kde-format
+msgid "No autosave"
+msgstr "Gan sábháil uathoibríoch"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigDocumentPage.cpp:63
+#, kde-format
+msgctxt "unit symbol for minutes, leading space as separator"
+msgid " min"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/config/KoConfigDocumentPage.cpp:65
+#, fuzzy, kde-format
+msgid "Autosave interval:"
+msgstr "Sábháil uathoibríoch (nóim):"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigDocumentPage.cpp:69
+#, fuzzy, kde-format
+msgid "Create backup file:"
+msgstr "Cruthaigh comhad cúltaca"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigGridPage.cpp:57
+#, fuzzy, kde-format
+#| msgid "Show grid:"
+msgctxt "@option:check"
+msgid "Show grid"
+msgstr "Taispeáin greille:"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigGridPage.cpp:59
+#, fuzzy, kde-format
+#| msgid "Snap to grid:"
+msgctxt "@option:check"
+msgid "Snap to grid"
+msgstr "Léim go greille:"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigGridPage.cpp:63
+#, fuzzy, kde-format
+#| msgid "Grid"
+msgid "Grid:"
+msgstr "Greille"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigGridPage.cpp:65
+#, kde-format
+msgid "Grid color:"
+msgstr "Dath na greille:"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigGridPage.cpp:81
+#, fuzzy, kde-format
+#| msgid "Horizontal:"
+msgctxt "Horizontal grid spacing"
+msgid "Horizontal spacing:"
+msgstr "Cothrománach:"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigGridPage.cpp:82
+#, fuzzy, kde-format
+#| msgid "Vertical:"
+msgctxt "Vertical grid spacing"
+msgid "Vertical spacing:"
+msgstr "Ingearach:"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigMiscPage.cpp:76
+#, kde-format
+msgid "Units:"
+msgstr "Aonaid:"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigMiscPage.cpp:85
+#, kde-format
+msgid "Handle radius:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/config/KoConfigMiscPage.cpp:92
+#, kde-format
+msgid "Grab sensitivity:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/config/KoConfigMiscPage.cpp:99
+#, fuzzy, kde-format
+msgid "Paste offset:"
+msgstr "Greamaigh Leathanach"
+
+#. +> trunk6 stable6
+#: main/config/KoConfigMiscPage.cpp:103
+#, kde-format
+msgctxt "@option:check"
+msgid "Paste at Cursor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:194
+#, kde-format
+msgid "Only print and exit"
+msgstr "Priontáil agus scoir amháin"
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:196
+#, fuzzy, kde-format
+#| msgid "Open a new document with a template"
+msgid "Open a new document based on the given template (desktopfile name)"
+msgstr "Oscail cáipéis nua le teimpléad"
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:197
+#, fuzzy, kde-format
+#| msgid "Open a new document with a template"
+msgid "Open a new document based on the given template file"
+msgstr "Oscail cáipéis nua le teimpléad"
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:198
+#, kde-format
+msgid "Override display DPI"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:199
+#, kde-format
+msgid "Only export to PDF and exit"
+msgstr "Easpórtáil go PDF agus scoir amháin"
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:200
+#, kde-format
+msgid "Filename for export-pdf"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:201
+#, kde-format
+msgid "just load the file and then exit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:203
+#, kde-format
+msgid "load the file, show the window and progressbar and then exit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:205
+#, kde-format
+msgid "Filename to write profiling information into."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:208
+#, kde-format
+msgid "Load a file and save it as an ODF file. Meant for debugging."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:210
+#, kde-format
+msgid "File(s) or URL(s) to open"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:220
+#, kde-format
+msgid ""
+"You are running a 32 bits build on a 64 bits Windows.\n"
+"This is not recommended.\n"
+"Please download and install the x64 build instead."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:260
+#, fuzzy, kde-format
+#| msgid "Creation error"
+msgid "%1: Critical Error"
+msgstr "Earráid chruthaithe"
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:261
+#, kde-format
+msgid ""
+"Essential application components could not be found.\n"
+"This might be an installation issue.\n"
+"Try restarting or reinstalling."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:498
+#, kde-format
+msgid "No template found for: %1"
+msgstr "Níor aimsíodh teimpléad le haghaidh: %1"
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:501
+#, kde-format
+msgid "Too many templates found for: %1"
+msgstr "Aimsíodh an iomarca teimpléad le haghaidh: %1"
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:523 main/KoApplication.cpp:540
+#, kde-format
+msgid "Template %1 failed to load."
+msgstr "Theip ar luchtú teimpléid %1."
+
+#. +> trunk6 stable6
+#: main/KoApplication.cpp:530
+#, fuzzy, kde-format
+#| msgid "No template found for: %1"
+msgid "No template found at: %1"
+msgstr "Níor aimsíodh teimpléad le haghaidh: %1"
+
+#. +> trunk6 stable6
+#: main/KoAutoSaveRecoveryDialog.cpp:158
+#, fuzzy, kde-format
+#| msgid "Save palette"
+msgctxt "@title:window"
+msgid "Recover Files"
+msgstr "Sábháil pailéad"
+
+#. +> trunk6 stable6
+#: main/KoAutoSaveRecoveryDialog.cpp:160
+#, kde-format
+msgid "Discard All"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoAutoSaveRecoveryDialog.cpp:165
+#, kde-format
+msgid "The following autosave file can be recovered:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoAutoSaveRecoveryDialog.cpp:167
+#, kde-format
+msgid "The following autosave files can be recovered:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoAutoSaveRecoveryDialog.cpp:205
+#, kde-format
+msgid ""
+"If you select Cancel, all recoverable files will be kept.\n"
+"If you press OK, selected files will be recovered, the unselected files discarded."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_alwaysUseCheckBox)
+#. +> trunk6 stable6
+#: main/KoDetailsPaneBase.ui:97
+#, kde-format
+msgid "Always use this template at application start up"
+msgstr "Úsáid an teimpléad i gcónaí ag am thosú an fheidhmchláir"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_alwaysUseCheckBox)
+#. +> trunk6 stable6
+#: main/KoDetailsPaneBase.ui:100
+#, kde-format
+msgid "Always use this template"
+msgstr "Úsáid an teimpléad seo i gcónaí"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:548
+#, kde-format
+msgid "Making backup..."
+msgstr "Cúltaca á dhéanamh..."
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:563
+#, kde-format
+msgid "Saving..."
+msgstr "Á Shábháil..."
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:591
+#, kde-format
+msgid ""
+"Could not save\n"
+"%1"
+msgstr ""
+"Ní féidir a shábháil\n"
+"%1"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:593
+#, kde-format
+msgid ""
+"Could not save %1\n"
+"Reason: %2"
+msgstr ""
+"Ní féidir %1 a shábháil\n"
+"Fáth: %2"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:621
+#, kde-format
+msgid "Document <i>%1</i> saved"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:709
+#, kde-format
+msgid "The password of this encrypted document is not known. Autosave aborted! Please save your work manually."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:712
+#, kde-format
+msgid "Autosaving..."
+msgstr "Sábháil go hUathoibríoch..."
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:724
+#, kde-format
+msgid "Error during autosave! Partition full?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:812
+#, kde-format
+msgid "Could not create the file for saving"
+msgstr "Ní féidir an comhad a chruthú le haghaidh sábhála"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:856 main/KoDocument.cpp:878 main/KoDocument.cpp:908
+#: main/KoDocument.cpp:942
+#, kde-format
+msgid "Not able to write '%1'. Partition full?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:863
+#, kde-format
+msgid "Not able to write RDF metadata. Partition full?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:871 main/KoDocument.cpp:917 main/KoDocument.cpp:1975
+#, kde-format
+msgid "Error while trying to write '%1'. Partition full?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1217
+#, kde-format
+msgid ""
+"Malformed URL\n"
+"%1"
+msgstr ""
+"URL míchumtha\n"
+"%1"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1233
+#, kde-format
+msgid ""
+"An autosaved file exists for this document.\n"
+"Do you want to open it instead?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1309 main/KoDocument.cpp:1670 main/KoMainWindow.cpp:673
+#, kde-format
+msgid "The file %1 does not exist."
+msgstr "Níl comhad %1 ann."
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1433
+#, fuzzy, kde-format
+#| msgid "Open Document"
+msgid "Opening Document"
+msgstr "Oscail Cáipéis"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1449
+#, fuzzy, kde-format
+#| msgid "Could not create the file for saving"
+msgid "Could not create the filter plugin"
+msgstr "Ní féidir an comhad a chruthú le haghaidh sábhála"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1453
+#, fuzzy, kde-format
+#| msgid "Could not create the file for saving"
+msgid "Could not create the output document"
+msgstr "Ní féidir an comhad a chruthú le haghaidh sábhála"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1457
+#, kde-format
+msgid "File not found"
+msgstr "Comhad gan aimsiú"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1461
+#, kde-format
+msgid "Cannot create storage"
+msgstr "Ní féidir stóras a chruthú"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1465
+#, kde-format
+msgid "Bad MIME type"
+msgstr "Droch-chineál MIME"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1469
+#, kde-format
+msgid "Error in embedded document"
+msgstr "Earráid i gcáipéis leabaithe"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1473
+#, kde-format
+msgid "Format not recognized"
+msgstr "Formáid anaithnid"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1477
+#, kde-format
+msgid "Not implemented"
+msgstr "Gan feidhmiú"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1481
+#, kde-format
+msgid "Parsing error"
+msgstr "Earráid pharsála"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1485
+#, fuzzy, kde-format
+#| msgid "This document is not encrypted"
+msgid "Document is password protected"
+msgstr "Níl an cháipéis seo criptithe"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1489
+#, fuzzy, kde-format
+msgid "Invalid file format"
+msgstr "Aitheantóir:"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1497
+#, kde-format
+msgid "Internal error"
+msgstr "Earráid inmheánach"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1501
+#, kde-format
+msgid "Out of memory"
+msgstr "Cuimhne ídithe"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1505
+#, kde-format
+msgid "Empty Filter Plugin"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1509
+#, kde-format
+msgid "Trying to load into the wrong kind of document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1513
+#, kde-format
+msgid "Failed to download remote file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1522
+#, kde-format
+msgid "Unknown error"
+msgstr "Earráid anaithnid"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1527
+#, fuzzy, kde-format
+#| msgid ""
+#| "Could not open\n"
+#| "%2.\n"
+#| "Reason: %1"
+msgid ""
+"Could not open %2.\n"
+"Reason: %1.\n"
+"%3"
+msgstr ""
+"Ní féidir %2\n"
+"a oscailt.\n"
+"Fáth: %1"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1585
+#, kde-format
+msgid "Document <i>%1</i> loaded"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1642 odf/KoOdfReadStore.cpp:98
+#, kde-format
+msgid "Could not find %1"
+msgstr "Ní féidir %1 a aimsiú"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1654
+#, kde-format
+msgid ""
+"Parsing error in %1 at line %2, column %3\n"
+"Error message: %4"
+msgstr ""
+"Earráid pharsála i %1 ag líne %2, colún %3\n"
+"Teachtaireacht: %4"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1677
+#, fuzzy, kde-format
+msgid "%1 is not a file."
+msgstr "Níl comhad %1 ann."
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1692
+#, kde-format
+msgid "Could not open the file for reading (check read permissions)."
+msgstr "Ní féidir an comhad a oscailt chun é a léamh (féach an bhfuil cead agat)."
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1703
+#, fuzzy, kde-format
+#| msgid "Could not create the file for saving"
+msgid "Could not read the beginning of the file."
+msgstr "Ní féidir an comhad a chruthú le haghaidh sábhála"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1734
+#, kde-format
+msgid ""
+"parsing error in the main document at line %1, column %2\n"
+"Error message: %3"
+msgstr ""
+"earráid parsála sa phríomhcháipéis ag líne %1, colún %2\n"
+"Teachtaireacht: %3"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1755
+#, kde-format
+msgid "Not a valid Calligra file: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1836
+#, kde-format
+msgid "Invalid document: no file 'maindoc.xml'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:1860
+#, kde-format
+msgid "Document <i>%1</i> contains several versions. Go to File->Versions to open an old version."
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2061 main/KoDocument.cpp:2515 main/KoDocument.cpp:2544
+#: pigment/resources/KoColorSet.cpp:315 pigment/resources/KoColorSet.cpp:411
+#, kde-format
+msgid "Untitled"
+msgstr "Gan Teideal"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2064 main/KoMainWindow.cpp:1136
+#, kde-format
+msgid ""
+"<p>The document <b>'%1'</b> has been modified.</p>"
+"<p>Do you want to save it?</p>"
+msgstr ""
+"<p>Athraíodh an cháipéis <b>'%1'</b>.</p>"
+"<p>An bhfuil fonn ort í a shábháil?</p>"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2147
+#, kde-format
+msgid "Internal error: saveXML not implemented"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2180
+#, kde-format
+msgid ""
+"Could not open\n"
+"%1"
+msgstr ""
+"Ní féidir a oscailt\n"
+"%1"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2182
+#, kde-format
+msgid ""
+"Could not open %1\n"
+"Reason: %2"
+msgstr ""
+"Ní féidir %1 a oscailt\n"
+"Fáth: %2"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2235
+msgid "a word processing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2236
+msgid "a spreadsheet"
+msgstr "scarbhileog"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2237
+#, fuzzy
+#| msgid "Page Orientation"
+msgid "a presentation"
+msgstr "Treoshuíomh an Leathanaigh"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2238
+msgid "a chart"
+msgstr "cairt"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2239
+msgid "a drawing"
+msgstr "líníocht"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2547
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>The document <b>'%1'</b> has been modified.</p>"
+#| "<p>Do you want to save it?</p>"
+msgid ""
+"The document \"%1\" has been modified.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"<p>Athraíodh an cháipéis <b>'%1'</b>.</p>"
+"<p>An bhfuil fonn ort í a shábháil?</p>"
+
+#. +> trunk6 stable6
+#: main/KoDocument.cpp:2550
+#, fuzzy, kde-format
+#| msgid "Create Document"
+msgid "Close Document"
+msgstr "Cruthaigh Cáipéis"
+
+#. +> trunk6 stable6
+#: main/KoDocumentSectionDelegate.cpp:512
+#, kde-format
+msgid "%1 %"
+msgstr "%1 %"
+
+# libs/guiutils; boolean "is mutable?"
+#. +> trunk6 stable6
+#: main/KoDocumentSectionToolTip.cpp:39
+#, kde-format
+msgid "No"
+msgstr "Níl"
+
+# libs/guiutils; boolean "is mutable?"
+#. +> trunk6 stable6
+#: main/KoDocumentSectionToolTip.cpp:39
+#, kde-format
+msgid "Yes"
+msgstr "Tá"
+
+#. +> trunk6 stable6
+#: main/KoFilterManager.cpp:220 main/KoFilterManager.cpp:230
+#, kde-format
+msgid "Could not export file."
+msgstr "Ní féidir an comhad a easpórtáil."
+
+#. +> trunk6 stable6
+#: main/KoFilterManager.cpp:220 main/KoFilterManager.cpp:230
+#, kde-format
+msgid "Missing Export Filter"
+msgstr "Scagaire Easpórtála Ar Iarraidh"
+
+#. +> trunk6 stable6
+#: main/KoFilterManager.cpp:538
+#, kde-format
+msgid ""
+"Could not import file of type\n"
+"%1"
+msgstr ""
+"Ní féidir comhad den chineál seo a impórtáil:\n"
+"%1"
+
+#. +> trunk6 stable6
+#: main/KoFilterManager.cpp:541
+#, kde-format
+msgid "Missing Import Filter"
+msgstr "Scagaire Iompórtála Ar Iarraidh"
+
+#. +> trunk6 stable6
+#: main/KoFilterManager_p.cpp:30
+#, kde-format
+msgid "Choose Filter"
+msgstr "Roghnaigh Scagaire"
+
+#. +> trunk6 stable6
+#: main/KoFindText.cpp:47
+#, kde-format
+msgid "Case Sensitive"
+msgstr "Cásíogair"
+
+#. +> trunk6 stable6
+#: main/KoFindText.cpp:47
+#, kde-format
+msgid "Match cases when searching"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoFindText.cpp:48
+#, kde-format
+msgid "Match only whole words"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoFindText.cpp:48
+#, kde-format
+msgid "Whole Words Only"
+msgstr "Focail Iomlána Amháin"
+
+#. +> trunk6 stable6
+#: main/KoFindText.cpp:49
+#, kde-format
+msgid "Find from Cursor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoFindText.cpp:49
+#, kde-format
+msgid "Start searching from the current cursor"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:154
+#, kde-format
+msgid "%1 unsaved document (%2)"
+msgstr "%1 cáipéis gan sábháil (%2)"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:259
+#, kde-format
+msgid "Export as PDF..."
+msgstr "Easpórtáil mar PDF..."
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:271
+#, kde-format
+msgid "Reload"
+msgstr "Athluchtaigh"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:275
+#, kde-format
+msgid "Versions..."
+msgstr "Leaganacha..."
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:279
+#, fuzzy, kde-format
+msgid "Open ex&isting Document as Untitled Document..."
+msgstr "Oscail Cáipéis Atá Ann..."
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:283
+#, kde-format
+msgid "E&xport..."
+msgstr "E&aspórtáil..."
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:287
+#, fuzzy, kde-format
+#| msgid "&Create Document"
+msgid "En&crypt Document"
+msgstr "&Cruthaigh Cáipéis"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:292
+#, fuzzy, kde-format
+msgid "&Uncompress to Directory"
+msgstr "Iompórtáil Cáipéis"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:297
+#, kde-format
+msgid "&New View"
+msgstr "Amharc &Nua"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:303 widgets/KoDocumentInfoDlg.cpp:87
+#, kde-format
+msgid "Document Information"
+msgstr "Eolas faoin Cháipéis"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:327
+#, kde-format
+msgid "Full Screen Mode"
+msgstr "Mód Lánscáileáin"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:332
+#, kde-format
+msgid "Show Dockers"
+msgstr "Taispeáin Dugairí"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:337
+#, fuzzy, kde-format
+#| msgid "Show Dockers"
+msgctxt "@action:inmenu"
+msgid "Show Docker Titlebars"
+msgstr "Taispeáin Dugairí"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:344
+#, kde-format
+msgid "Dockers"
+msgstr "Dugairí"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:628
+#, kde-format
+msgid "(write protected)"
+msgstr "(cosaint ar scríobh)"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:633
+#, kde-format
+msgid "Save as %1"
+msgstr "Sábháil mar %1"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:635
+#, kde-format
+msgid "Save"
+msgstr "Sábháil"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:815 widgets/KoDocumentInfoDlg.cpp:372
+#, kde-format
+msgid "%1 (unknown file type)"
+msgstr "%1 (cineál anaithnid comhaid)"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:821
+#, kde-format
+msgid ""
+"<qt>Saving as a %1 may result in some loss of formatting."
+"<p>Do you still want to save in this format?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:824
+#, kde-format
+msgid "Confirm Save"
+msgstr "Deimhnigh Sábháil"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:830
+#, kde-format
+msgid ""
+"<qt>Exporting as a %1 may result in some loss of formatting."
+"<p>Do you still want to export to this format?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:833
+#, fuzzy, kde-format
+#| msgid "Confirm Save"
+msgid "Confirm Export"
+msgstr "Deimhnigh Sábháil"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:834
+#, kde-format
+msgid "Export"
+msgstr "Easpórtáil"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:934
+#, fuzzy, kde-format
+#| msgid "Untitled"
+msgid "untitled"
+msgstr "Gan Teideal"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:1198
+#, kde-format
+msgid "Open Document"
+msgstr "Oscail Cáipéis"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:1206 pageapp/KoPAView.cpp:519
+#, kde-format
+msgid "Import Document"
+msgstr "Iompórtáil Cáipéis"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:1372
+#, fuzzy, kde-format
+#| msgid "Export as PDF..."
+msgid "Export as PDF"
+msgstr "Easpórtáil mar PDF..."
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:1414
+#, kde-format
+msgid "Cannot export to the specified file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:1613 pageapp/KoPADocumentStructureDocker.cpp:102
+#, kde-format
+msgid "Document"
+msgstr "Cáipéis"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:1621
+#, kde-format
+msgid "Document - %1"
+msgstr "Cáipéis - %1"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:1651
+#, kde-format
+msgid ""
+"You will lose all changes made since your last save\n"
+"Do you want to continue?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:1653
+#, kde-format
+msgid "Warning"
+msgstr "Rabhadh"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:2016
+#, kde-format
+msgid "Show %1 Toolbar"
+msgstr "Taispeáin an Barra Uirlisí %1"
+
+#. +> trunk6 stable6
+#: main/KoMainWindow.cpp:2018
+#, kde-format
+msgid "Hide %1 Toolbar"
+msgstr "Folaigh an Barra Uirlisí %1"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_openExistingButton)
+#. +> trunk6 stable6
+#: main/KoOpenPane.cpp:102 main/KoOpenPane.cpp:156 main/KoOpenPaneBase.ui:99
+#, fuzzy, kde-format
+#| msgid "Open &Existing Document"
+msgid "Open Existing Document"
+msgstr "Oscail cáipéis atá ann ch&eana"
+
+#. +> trunk6 stable6
+#: main/KoOpenPane.cpp:167
+#, kde-format
+msgid "Recent Documents"
+msgstr "Cáipéisí is Déanaí"
+
+#. +> trunk6 stable6
+#: main/KoOpenPane.cpp:250
+#, kde-format
+msgid "Custom Document"
+msgstr "Cáipéis Saincheaptha"
+
+#. +> trunk6 stable6
+#: main/KoPrintingDialog.cpp:44
+#, kde-format
+msgid "Stop"
+msgstr "Stad"
+
+#. +> trunk6 stable6
+#: main/KoPrintingDialog.cpp:134
+#, fuzzy, kde-format
+#| msgid "Last Printing"
+msgid "Printing"
+msgstr "Priontáilte Ar"
+
+#. +> trunk6 stable6
+#: main/KoPrintingDialog_p.h:140
+#, fuzzy, kde-format
+#| msgid "Last Printing"
+msgid "Printing done"
+msgstr "Priontáilte Ar"
+
+#. +> trunk6 stable6
+#: main/KoPrintingDialog_p.h:141
+#, kde-format
+msgid "Close"
+msgstr "Dún"
+
+#. +> trunk6 stable6
+#: main/KoPrintingDialog_p.h:160
+#, kde-format
+msgid "Stopped"
+msgstr "Stoptha"
+
+#. +> trunk6 stable6
+#: main/KoRecentDocumentsPane.cpp:66
+#, kde-format
+msgid "Open This Document"
+msgstr "Oscail An Cháipéis Seo"
+
+#. +> trunk6 stable6
+#: main/KoRecentDocumentsPane.cpp:165
+#, kde-format
+msgctxt "File modification date and time. %1 is date time"
+msgid ""
+"<tr>"
+"<td><b>Modified:</b></td>"
+"<td>%1</td>"
+"</tr>"
+msgstr ""
+"<tr>"
+"<td><b>Athraithe:</b></td>"
+"<td>%1</td>"
+"</tr>"
+
+#. +> trunk6 stable6
+#: main/KoRecentDocumentsPane.cpp:168
+#, kde-format
+msgctxt "File access date and time. %1 is date time"
+msgid ""
+"<tr>"
+"<td><b>Accessed:</b></td>"
+"<td>%1</td>"
+"</tr>"
+msgstr ""
+"<tr>"
+"<td><b>Rochtain:</b></td>"
+"<td>%1</td>"
+"</tr>"
+
+#. +> trunk6 stable6
+#: main/KoShapeCollectionMenu.cpp:354 text/styles/KoStyleManager.cpp:95
+#: text/styles/KoStyleManager.cpp:100
+#, kde-format
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#. +> trunk6 stable6
+#: main/KoShapeCollectionMenu.cpp:358
+#, fuzzy, kde-format
+msgid "Geometrics"
+msgstr "Céimseata"
+
+#. +> trunk6 stable6
+#: main/KoShapeCollectionMenu.cpp:369
+#, kde-format
+msgid "Arrows"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoShapeCollectionMenu.cpp:373
+#, kde-format
+msgid "Funny"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoStandardAction.cpp:19
+#, fuzzy, kde-format
+#| msgid "Show Grid"
+msgid "Show Guides"
+msgstr "Taispeáin Greille"
+
+#. +> trunk6 stable6
+#: main/KoStandardAction.cpp:20
+#, fuzzy, kde-format
+#| msgid "Shows or hides grid"
+msgid "Shows or hides guides"
+msgstr "Taispeáin nó folaigh greille"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:103
+#, kde-format
+msgid "Create Template"
+msgstr "Cruthaigh Teimpléad"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:112
+#, fuzzy, kde-format
+msgctxt "Template name"
+msgid "Name:"
+msgstr "Ainm:"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:121
+#, kde-format
+msgid "Group:"
+msgstr "Grúpa:"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:136
+#, kde-format
+msgid "&Add Group..."
+msgstr "&Cuir Grúpa Leis..."
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:139 main/KoVersionDialog.cpp:60
+#, kde-format
+msgid "&Remove"
+msgstr "&Bain"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:145
+#, kde-format
+msgid "Picture"
+msgstr "Pictiúr"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:148
+#, fuzzy, kde-format
+msgid "&Preview"
+msgstr "Réamhamharc:"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:153
+#, fuzzy, kde-format
+msgid "Custom:"
+msgstr "Saincheaptha"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:157
+#, kde-format
+msgid "&Select..."
+msgstr "&Roghnaigh..."
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:166
+#, kde-format
+msgid "Use the new template as default"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:304
+#, kde-format
+msgid "Do you really want to overwrite the existing '%1' template?"
+msgstr "Tá teimpléad '%1' ann cheana; an bhfuil tú cinnte gur mhaith leat é a fhorscríobh?"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:416 main/KoTemplateCreateDia.cpp:421
+#, kde-format
+msgid "Add Group"
+msgstr "Cuir Grúpa Leis"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:416
+#, kde-format
+msgid "Enter group name:"
+msgstr "Iontráil ainm grúpa:"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:421
+#, kde-format
+msgid "This name is already used."
+msgstr "Tá an t-ainm seo ann cheana."
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:445
+#, kde-format
+msgid "Do you really want to remove that group?"
+msgstr "An bhfuil tú cinnte gur mhaith leat an grúpa sin a bhaint?"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:446
+#, kde-format
+msgid "Remove Group"
+msgstr "Bain Grúpa"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:448
+#, kde-format
+msgid "Do you really want to remove that template?"
+msgstr "An bhfuil tú cinnte gur mhaith leat an teimpléad sin a bhaint?"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:449
+#, kde-format
+msgid "Remove Template"
+msgstr "Bain Teimpléad"
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:497
+#, kde-format
+msgid "Could not load picture."
+msgstr "Ní féidir pictiúr a luchtú."
+
+#. +> trunk6 stable6
+#: main/KoTemplateCreateDia.cpp:499
+#, kde-format
+msgid "No picture available."
+msgstr "Níl aon phictiúr ar fáil."
+
+#. +> trunk6 stable6
+#: main/KoTemplatesPane.cpp:36
+#, kde-format
+msgid "Use This Template"
+msgstr "Úsáid an Teimpléad Seo"
+
+#. +> trunk6 stable6
+#: main/KoVersionDialog.cpp:34
+#, kde-format
+msgid "Version"
+msgstr "Leagan"
+
+#. +> trunk6 stable6
+#: main/KoVersionDialog.cpp:48
+#, kde-format
+msgid "Date & Time"
+msgstr "Dáta agus Am"
+
+#. +> trunk6 stable6
+#: main/KoVersionDialog.cpp:49
+#, kde-format
+msgid "Saved By"
+msgstr "Sábháilte Ag"
+
+#. +> trunk6 stable6
+#: main/KoVersionDialog.cpp:50 main/KoVersionDialog.cpp:208
+#, kde-format
+msgid "Comment"
+msgstr "Nóta"
+
+#. +> trunk6 stable6
+#: main/KoVersionDialog.cpp:57
+#, kde-format
+msgid "&Add"
+msgstr "C&uir Leis"
+
+#. +> trunk6 stable6
+#: main/KoVersionDialog.cpp:63
+#, kde-format
+msgid "&Modify"
+msgstr "&Athraigh"
+
+#. +> trunk6 stable6
+#: main/KoVersionDialog.cpp:66
+#, kde-format
+msgid "&Open"
+msgstr "&Oscail"
+
+#. +> trunk6 stable6
+#: main/KoVersionDialog.cpp:114
+#, kde-format
+msgid "A new version could not be added"
+msgstr "Níorbh fhéidir leagan nua a chur leis"
+
+#. +> trunk6 stable6
+#: main/KoVersionDialog.cpp:220 main/KoVersionDialog.cpp:222
+#, kde-format
+msgid "Date: %1"
+msgstr "Dáta: %1"
+
+#. +> trunk6 stable6
+#: main/KoView.cpp:347
+#, fuzzy, kde-format
+#| msgid "Add Space"
+msgctxt "@action:intoolbar"
+msgid "Add Shape"
+msgstr "Cuir Spás Leis"
+
+#. +> trunk6 stable6
+#: main/KoView.cpp:358
+#, fuzzy, kde-format
+msgid "Active Author Profile"
+msgstr "Uirlis ghníomhach: %1"
+
+#. +> trunk6 stable6
+#: main/KoView.cpp:372 main/KoView.cpp:427
+#, kde-format
+msgctxt "choice for author profile"
+msgid "Anonymous"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main/KoView.cpp:426 widgets/KoConfigAuthorPage.cpp:68
+#, fuzzy, kde-format
+msgid "Default Author Profile"
+msgstr "Uirlis réamhshocraithe"
+
+#. +> trunk6 stable6
+#: odf/KoDocumentInfo.cpp:56
+#, kde-format
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> trunk6 stable6
+#: odf/KoOdfReadStore.cpp:91
+#, kde-format
+msgid "No store backend"
+msgstr "Gan inneall stórála"
+
+#. +> trunk6 stable6
+#: odf/KoOdfReadStore.cpp:126
+#, kde-format
+msgid ""
+"Parsing error in the main document at line %1, column %2\n"
+"Error message: %3"
+msgstr ""
+"Earráid parsála sa phríomhcháipéis ag líne %1, colún %2\n"
+"Teachtaireacht: %3"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:48
+msgctxt "Page size"
+msgid "ISO A3"
+msgstr "ISO A3"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:49
+msgctxt "Page size"
+msgid "ISO A4"
+msgstr "ISO A4"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:50
+msgctxt "Page size"
+msgid "ISO A5"
+msgstr "ISO A5"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:51
+msgctxt "Page size"
+msgid "US Letter"
+msgstr "Litir Mheiriceánach"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:52
+msgctxt "Page size"
+msgid "US Legal"
+msgstr "US Legal"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:53
+msgctxt "Page size"
+msgid "Screen"
+msgstr "Scáileán"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:54
+msgctxt "Page size"
+msgid "Custom"
+msgstr "Saincheaptha"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:55
+msgctxt "Page size"
+msgid "ISO B5"
+msgstr "ISO B5"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:56
+msgctxt "Page size"
+msgid "US Executive"
+msgstr "US Executive"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:57
+msgctxt "Page size"
+msgid "ISO A0"
+msgstr "ISO A0"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:58
+msgctxt "Page size"
+msgid "ISO A1"
+msgstr "ISO A1"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:59
+msgctxt "Page size"
+msgid "ISO A2"
+msgstr "ISO A2"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:60
+msgctxt "Page size"
+msgid "ISO A6"
+msgstr "ISO A6"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:61
+msgctxt "Page size"
+msgid "ISO A7"
+msgstr "ISO A7"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:62
+msgctxt "Page size"
+msgid "ISO A8"
+msgstr "ISO A8"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:63
+msgctxt "Page size"
+msgid "ISO A9"
+msgstr "ISO A9"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:64
+msgctxt "Page size"
+msgid "ISO B0"
+msgstr "ISO B0"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:65
+msgctxt "Page size"
+msgid "ISO B1"
+msgstr "ISO B1"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:66
+msgctxt "Page size"
+msgid "ISO B10"
+msgstr "ISO B10"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:67
+msgctxt "Page size"
+msgid "ISO B2"
+msgstr "ISO B2"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:68
+msgctxt "Page size"
+msgid "ISO B3"
+msgstr "ISO B3"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:69
+msgctxt "Page size"
+msgid "ISO B4"
+msgstr "ISO B4"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:70
+msgctxt "Page size"
+msgid "ISO B6"
+msgstr "ISO B6"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:71
+msgctxt "Page size"
+msgid "ISO C5"
+msgstr "ISO C5"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:72
+msgctxt "Page size"
+msgid "US Common 10"
+msgstr ""
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:73
+msgctxt "Page size"
+msgid "ISO DL"
+msgstr "ISO DL"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:74
+msgctxt "Page size"
+msgid "US Folio"
+msgstr ""
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:75
+msgctxt "Page size"
+msgid "US Ledger"
+msgstr "Litir Mheiriceánach"
+
+#. +> trunk6 stable6
+#: odf/KoPageFormat.cpp:76
+msgctxt "Page size"
+msgid "US Tabloid"
+msgstr "Tablóid SAM"
+
+#. +> trunk6 stable6
+#: odf/KoUnit.cpp:27
+#, kde-format
+msgid "Millimeters (mm)"
+msgstr "Milliméadair (mm)"
+
+#. +> trunk6 stable6
+#: odf/KoUnit.cpp:29
+#, kde-format
+msgid "Centimeters (cm)"
+msgstr "Ceintiméadair (cm)"
+
+#. +> trunk6 stable6
+#: odf/KoUnit.cpp:31
+#, kde-format
+msgid "Decimeters (dm)"
+msgstr "Deiciméadair (dm)"
+
+#. +> trunk6 stable6
+#: odf/KoUnit.cpp:33
+#, kde-format
+msgid "Inches (in)"
+msgstr "Orlaí (or)"
+
+#. +> trunk6 stable6
+#: odf/KoUnit.cpp:35
+#, kde-format
+msgid "Pica (pi)"
+msgstr "Píoca (pi)"
+
+#. +> trunk6 stable6
+#: odf/KoUnit.cpp:37
+#, kde-format
+msgid "Cicero (cc)"
+msgstr "Cicero (cc)"
+
+#. +> trunk6 stable6
+#: odf/KoUnit.cpp:39
+#, kde-format
+msgid "Points (pt)"
+msgstr "Pointí (pt)"
+
+#. +> trunk6 stable6
+#: odf/KoUnit.cpp:41
+#, kde-format
+msgid "Pixels (px)"
+msgstr "Picteilíní (px)"
+
+#. +> trunk6 stable6
+#: odf/KoUnit.cpp:43
+#, kde-format
+msgid "Unsupported unit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAChangeMasterPageCommand.cpp:21
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change master slide"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAChangeMasterPageCommand.cpp:23
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change master page"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAChangePageLayoutCommand.cpp:23
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Page Layout"
+msgstr "Socraigh Leagan Amach an Leathanaigh"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:18
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Display master background"
+msgstr "Dath an Chúlra"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:21
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Display slide background"
+msgstr "Dath an Chúlra"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPADisplayMasterBackgroundCommand.cpp:23
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Display page background"
+msgstr "Dath an Chúlra"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPADisplayMasterShapesCommand.cpp:18
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Show master shapes"
+msgstr "Taispeáin Máistirgiuirléidí"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPADisplayMasterShapesCommand.cpp:20
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Hide master shapes"
+msgstr "Folaigh Máistirgiuirléidí"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAPageDeleteCommand.cpp:26
+#, fuzzy
+msgctxt "(qtundo-format) Delete one slide"
+msgid "Delete slide"
+msgstr "Scrios sleamhnán"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAPageDeleteCommand.cpp:28
+#, fuzzy
+msgctxt "(qtundo-format) Delete one page"
+msgid "Delete page"
+msgstr "Scrios leathanach"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAPageDeleteCommand.cpp:49
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete slide"
+msgid_plural "Delete slides"
+msgstr[0] "Scrios sleamhnán"
+msgstr[1] "Scrios sleamhnáin"
+msgstr[2] "Scrios sleamhnáin"
+msgstr[3] "Scrios sleamhnáin"
+msgstr[4] "Scrios sleamhnáin"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAPageDeleteCommand.cpp:51
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete page"
+msgid_plural "Delete pages"
+msgstr[0] "Scrios leathanach"
+msgstr[1] "Scrios leathanaigh"
+msgstr[2] "Scrios leathanaigh"
+msgstr[3] "Scrios leathanaigh"
+msgstr[4] "Scrios leathanaigh"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAPageInsertCommand.cpp:24
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert slide"
+msgstr "Ionsáigh sleamhnán"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAPageInsertCommand.cpp:26
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert page"
+msgstr "Ionsáigh leathanach"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAPageMoveCommand.cpp:34
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move slide"
+msgid_plural "Move slides"
+msgstr[0] "Bog sleamhnán"
+msgstr[1] "Bog sleamhnáin"
+msgstr[2] "Bog sleamhnáin"
+msgstr[3] "Bog sleamhnáin"
+msgstr[4] "Bog sleamhnáin"
+
+#. +> trunk6 stable6
+#: pageapp/commands/KoPAPageMoveCommand.cpp:36
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Move page"
+msgid_plural "Move pages"
+msgstr[0] "Bog leathanach"
+msgstr[1] "Bog leathanaigh"
+msgstr[2] "Bog leathanaigh"
+msgstr[3] "Bog leathanaigh"
+msgstr[4] "Bog leathanaigh"
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:28
+#, kde-format
+msgid "Configure"
+msgstr "Cumraigh"
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:33
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:34 pigment/KoCompositeOp.cpp:59
+#: pigment/KoCompositeOpRegistry.cpp:25
+#, kde-format
+msgid "Misc"
+msgstr "Éagsúil"
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:38
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:39
+#, kde-format
+msgid "Grid"
+msgstr "Greille"
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:45
+#, kde-format
+msgctxt "@title:tab Document settings page"
+msgid "Document"
+msgstr "Cáipéis"
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:46
+#, kde-format
+msgid "Document Settings"
+msgstr "Socruithe Cáipéise"
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:50
+#, fuzzy, kde-format
+msgctxt "@title:tab Author page"
+msgid "Author"
+msgstr "Údar"
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAConfigureDialog.cpp:51 widgets/KoDocumentInfoDlg.cpp:125
+#, kde-format
+msgid "Author"
+msgstr "Údar"
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAMasterPageDialog.cpp:27
+#, kde-format
+msgid "Select a master slide design:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAMasterPageDialog.cpp:28
+#, fuzzy, kde-format
+msgid "Master Slide"
+msgstr "Greamaigh Sleamhnán"
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAMasterPageDialog.cpp:30
+#, kde-format
+msgid "Select a master page design:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pageapp/dialogs/KoPAMasterPageDialog.cpp:31
+#: pageapp/tools/backgroundTool/KoPABackgroundTool.cpp:93
+#, kde-format
+msgid "Master Page"
+msgstr "Máistirleathanach"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:170 pageapp/KoPAPageThumbnailModel.cpp:52
+#, kde-format
+msgid "Slide %1"
+msgstr "Sleamhnán %1"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:172
+#, kde-format
+msgid "Page  %1"
+msgstr "Leathanach  %1"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:175
+#: pageapp/KoPADocumentStructureDocker.cpp:110
+#, kde-format
+msgid "Layer"
+msgstr "Sraith"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:177
+#, kde-format
+msgid "Group"
+msgstr "Grúpa"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:179
+#, kde-format
+msgid "Shape"
+msgstr "Giuirléid"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:268
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rename Slide"
+msgstr "Greamaigh Sleamhnán"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:270
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rename Page"
+msgstr "Leathanach Baile"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:273
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rename Layer"
+msgstr "Cruthaigh Sraith"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:309
+#: pageapp/KoPADocumentStructureDocker.cpp:109
+#, kde-format
+msgid "Slide"
+msgstr "Sleamhnán"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:312
+#, kde-format
+msgid "Visible"
+msgstr "Infheicthe"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:313
+#, kde-format
+msgid "Locked"
+msgstr "Faoi Ghlas"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:525 pageapp/KoPADocumentModel.cpp:544
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reparent shapes"
+msgstr "Scrios giuirléidí"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:676
+#, fuzzy, kde-format
+msgid "&Move Here"
+msgstr "Bog leathanach"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:680
+#, fuzzy, kde-format
+msgid "&Copy Here"
+msgstr "Uaine"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentModel.cpp:684
+#, fuzzy, kde-format
+msgid "C&ancel"
+msgstr "&Cealaigh"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:98
+#, kde-format
+msgid "Add a new slide or layer"
+msgstr "Cuir sleamhnán nó sraith nua leis"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:99
+#, fuzzy, kde-format
+#| msgid "Slide"
+msgid "Slides"
+msgstr "Sleamhnán"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:101
+#, kde-format
+msgid "Add a new page or layer"
+msgstr "Cuir leathanach nó sraith nua leis"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:109
+#: widgets/KoPageLayoutDialog.cpp:40
+#, kde-format
+msgid "Page"
+msgstr "Leathanach"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:117
+#: pageapp/KoPADocumentStructureDocker.cpp:622
+#, kde-format
+msgid "Delete selected objects"
+msgstr "Scrios na réada roghnaithe"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:125
+#, kde-format
+msgid "Raise selected objects"
+msgstr "Ardaigh na réada roghnaithe"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:131
+#, kde-format
+msgid "Lower selected objects"
+msgstr "Ísligh na réada roghnaithe"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:140
+#, kde-format
+msgid "Minimal View"
+msgstr "Amharc Íosta"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:142
+#, kde-format
+msgid "Detailed View"
+msgstr "Amharc Mionsonraithe"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:144
+#, kde-format
+msgid "Thumbnail View"
+msgstr "Amharc Mionsamhlacha"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:154
+#, kde-format
+msgid "View mode"
+msgstr "Mód amhairc"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:302
+#, kde-format
+msgid "Enter the name of the new layer:"
+msgstr "Iontráil ainm na sraithe nuaí:"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:302
+#, kde-format
+msgid "New Layer"
+msgstr "Sraith Nua"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:302
+#, kde-format
+msgid "New layer"
+msgstr "Sraith nua"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:315
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Create Layer"
+msgstr "Cruthaigh Sraith"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:341
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Layer"
+msgstr "Scrios Sraith"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:343
+#, kde-format
+msgid "Could not delete all layers. At least one layer is required."
+msgstr "Ní féidir gach sraith a scriosadh. Tá sraith amháin ar a laghad de dhíth."
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:343
+#, kde-format
+msgid "Error deleting layers"
+msgstr "Earráid agus sraitheanna á scriosadh"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:618
+#, kde-format
+msgid "Add a new slide"
+msgstr "Cuir sleamhnán nua leis"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:620
+#, fuzzy, kde-format
+msgid "Add a new page"
+msgstr "Cuir sleamhnán nua leis"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:624
+#, kde-format
+msgid "Cut"
+msgstr "Gearr"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:625
+#: pigment/compositeops/KoCompositeOpCopy.h:22
+#: pigment/compositeops/KoCompositeOpCopy2.h:32
+#: pigment/KoCompositeOpRegistry.cpp:78
+#, kde-format
+msgid "Copy"
+msgstr "Cóipeáil"
+
+#. +> trunk6 stable6
+#: pageapp/KoPADocumentStructureDocker.cpp:626
+#, kde-format
+msgid "Paste"
+msgstr "Greamaigh"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAPageThumbnailModel.cpp:54
+#, kde-format
+msgid "Page %1"
+msgstr "Leathanach %1"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAPastePage.cpp:112
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Paste Slide"
+msgid_plural "Paste Slides"
+msgstr[0] "Greamaigh Sleamhnán"
+msgstr[1] "Greamaigh Sleamhnáin"
+msgstr[2] "Greamaigh Sleamhnáin"
+msgstr[3] "Greamaigh Sleamhnáin"
+msgstr[4] "Greamaigh Sleamhnáin"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAPastePage.cpp:114
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Paste Page"
+msgid_plural "Paste Pages"
+msgstr[0] "Greamaigh Leathanach"
+msgstr[1] "Greamaigh Leathanaigh"
+msgstr[2] "Greamaigh Leathanaigh"
+msgstr[3] "Greamaigh Leathanaigh"
+msgstr[4] "Greamaigh Leathanaigh"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:298
+#, kde-format
+msgid "Tools"
+msgstr "Uirlisí"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:350
+#, kde-format
+msgid "D&elete"
+msgstr "S&crios"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:360
+#, kde-format
+msgid "Snap to Grid"
+msgstr "Léim go Greille"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:369
+#, kde-format
+msgid "Show Master Pages"
+msgstr "Taispeáin Máistirleathanaigh"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:373
+#, kde-format
+msgid "Show Rulers"
+msgstr "Taispeáin Rialóirí"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:375
+#, kde-format
+msgid "Show/hide the view's rulers"
+msgstr "Taispeáin/folaigh rialóirí an amhairc"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:379
+#, fuzzy, kde-format
+#| msgid "Show Master Pages"
+msgid "Show Page Margins"
+msgstr "Taispeáin Máistirleathanaigh"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:381
+#, fuzzy, kde-format
+#| msgid "Show/hide the view's rulers"
+msgid "Show/hide the page margins"
+msgstr "Taispeáin/folaigh rialóirí an amhairc"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:385
+#, kde-format
+msgid "Insert Page"
+msgstr "Ionsáigh Leathanach"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:387 pageapp/KoPAView.cpp:388
+#, kde-format
+msgid "Insert a new page after the current one"
+msgstr "Ionsáigh leathanach tar éis an ceann seo"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:391
+#, kde-format
+msgid "Copy Page"
+msgstr "Cóipeáil Leathanach"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:393 pageapp/KoPAView.cpp:394
+#, kde-format
+msgid "Copy the current page"
+msgstr "Cóipeáil an leathanach reatha"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:397
+#, kde-format
+msgid "Delete Page"
+msgstr "Scrios Leathanach"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:400 pageapp/KoPAView.cpp:401
+#, kde-format
+msgid "Delete the current page"
+msgstr "Scrios an leathanach reatha"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:404
+#, kde-format
+msgid "Master Page..."
+msgstr "Máistirleathanach..."
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:408
+#, kde-format
+msgid "Page Layout..."
+msgstr "Leagan Amach Leathanaigh..."
+
+#. i18n: ectx: property (text), widget (QTableWidget, variables)
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:418 rdf/KoSemanticStylesheetsEditor.ui:57
+#, kde-format
+msgid "Variable"
+msgstr "Athróg"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:423
+#, kde-format
+msgid "Import Document..."
+msgstr "Iompórtáil Cáipéis..."
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:427
+#, kde-format
+msgid "Configure..."
+msgstr "Cumraigh..."
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:517
+#, kde-format
+msgid "Import Slideshow"
+msgstr "Iompórtáil Taispeántas Sleamhnán"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:544 pageapp/KoPAView.cpp:547
+#, kde-format
+msgid ""
+"Could not import\n"
+"%1"
+msgstr ""
+"Níorbh fhéidir iompórtáil:\n"
+"%1"
+
+#. +> trunk6 stable6
+#: pageapp/KoPAView.cpp:659
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change page layout"
+msgstr "Athraigh leagan amach an leathanaigh"
+
+#. i18n: ectx: property (text), widget (QPushButton, backgroundImage)
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/BackgroundToolWidget.ui:43
+#, kde-format
+msgid "Set image ..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/KoPABackgroundTool.cpp:86
+#: pageapp/widgets/KoPABackgroundFillWidget.cpp:21
+#, fuzzy, kde-format
+msgid "Background"
+msgstr "Dath an Chúlra"
+
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/KoPABackgroundTool.cpp:86
+#, fuzzy, kde-format
+msgid "Page Background"
+msgstr "Dath an Chúlra"
+
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:36
+#, fuzzy, kde-format
+#| msgid "Page edge:"
+msgid "Page Design"
+msgstr "Ciumhais an leathanaigh:"
+
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/KoPABackgroundToolFactory.cpp:36
+#, fuzzy, kde-format
+#| msgid "Slide %1"
+msgid "Slide Design"
+msgstr "Sleamhnán %1"
+
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:40
+#, fuzzy, kde-format
+msgid "Use background of master page"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:40
+#, fuzzy, kde-format
+msgid "Use background of master slide"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:42
+#, fuzzy, kde-format
+msgid "Display shapes of master page"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:42
+#, fuzzy, kde-format
+msgid "Display shapes of master slide"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:96
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change page background image"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: pageapp/tools/backgroundTool/KoPABackgroundToolWidget.cpp:96
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change slide background image"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: pageapp/widgets/KoPageNavigator.cpp:53
+#, fuzzy, kde-format
+msgid "Master Slide %1/%2"
+msgstr "Greamaigh Sleamhnán"
+
+#. +> trunk6 stable6
+#: pageapp/widgets/KoPageNavigator.cpp:53
+#, fuzzy, kde-format
+msgid "Slide %1/%2"
+msgstr "Sleamhnán %1"
+
+#. +> trunk6 stable6
+#: pageapp/widgets/KoPageNavigator.cpp:54
+#, fuzzy, kde-format
+msgid "Master Page %1/%2"
+msgstr "Máistirleathanach"
+
+#. +> trunk6 stable6
+#: pageapp/widgets/KoPageNavigator.cpp:54
+#, fuzzy, kde-format
+msgid "Page %1/%2"
+msgstr "Leathanach %1"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:35
+#, kde-format
+msgid "Clear"
+msgstr "Glan"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:102
+#: pigment/compositeops/KoCompositeOps.h:135
+#: pigment/KoCompositeOpRegistry.cpp:29
+#, kde-format
+msgid "Subtract"
+msgstr "Dealaigh"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:167
+#: pigment/compositeops/KoCompositeOps.h:137
+#: pigment/KoCompositeOpRegistry.cpp:30
+#, kde-format
+msgid "Multiply"
+msgstr "Iolraigh"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:227
+#: pigment/colorspaces/KoAlphaColorSpace.h:205
+#: pigment/KoColorModelStandardIds.cpp:11
+#, kde-format
+msgid "Alpha mask"
+msgstr "Masc alfa"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoAlphaColorSpace.cpp:229
+#: pigment/colorspaces/KoLabColorSpace.cpp:49
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:32
+#, kde-format
+msgid "Alpha"
+msgstr "Alfa"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoAlphaColorSpace.h:145
+#: pigment/colorspaces/KoAlphaColorSpace.h:151
+#: pigment/colorspaces/KoAlphaColorSpace.h:156
+#: pigment/colorspaces/KoAlphaColorSpace.h:161
+#: pigment/colorspaces/KoAlphaColorSpace.h:165
+#: pigment/colorspaces/KoAlphaColorSpace.h:169
+#: pigment/colorspaces/KoAlphaColorSpace.h:173
+#: pigment/colorspaces/KoAlphaColorSpace.h:177
+#: pigment/colorspaces/KoAlphaColorSpace.h:184
+#: pigment/colorspaces/KoAlphaColorSpace.h:188
+#, kde-format
+msgid "Undefined operation in the alpha color space"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoLabColorSpace.cpp:26
+#: pigment/colorspaces/KoLabColorSpace.h:55
+#, kde-format
+msgid "L*a*b* (16-bit integer/channel, unmanaged)"
+msgstr "L*a*b (slánuimhir 16-giotán/cainéal, neamhbhainistithe)"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoLabColorSpace.cpp:28
+#: pigment/compositeops/KoCompositeOps.h:207
+#: pigment/KoCompositeOpRegistry.cpp:102
+#, kde-format
+msgid "Lightness"
+msgstr "Gile"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoLabColorSpace.cpp:35
+#: pigment/KoBasicHistogramProducers.cpp:416
+#, kde-format
+msgid "a*"
+msgstr "a*"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoLabColorSpace.cpp:42
+#: pigment/KoBasicHistogramProducers.cpp:417
+#, kde-format
+msgid "b*"
+msgstr "b*"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoRgbU16ColorSpace.cpp:25
+#: pigment/colorspaces/KoRgbU16ColorSpace.h:47
+#, kde-format
+msgid "RGB (16-bit integer/channel, unmanaged)"
+msgstr "RGB (slánuimhir 16-giotán/cainéal, neamhbhainistithe)"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:27
+#: pigment/colorspaces/KoRgbU8ColorSpace.h:47
+#, kde-format
+msgid "RGB (8-bit integer/channel, unmanaged)"
+msgstr "RGB (slánuimhir 8-giotán/cainéal, neamhbhainistithe)"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:29
+#, kde-format
+msgid "Blue"
+msgstr "Gorm"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:30
+#, kde-format
+msgid "Green"
+msgstr "Uaine"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoRgbU8ColorSpace.cpp:31
+#, kde-format
+msgid "Red"
+msgstr "Dearg"
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoSimpleColorSpace.h:62
+#: pigment/colorspaces/KoSimpleColorSpace.h:70
+#, kde-format
+msgid "Undefined operation in the %1 space"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoSimpleColorSpace.h:91
+#: pigment/colorspaces/KoSimpleColorSpace.h:97
+#: pigment/colorspaces/KoSimpleColorSpace.h:103
+#: pigment/colorspaces/KoSimpleColorSpace.h:109
+#: pigment/colorspaces/KoSimpleColorSpace.h:115
+#: pigment/colorspaces/KoSimpleColorSpace.h:120
+#: pigment/colorspaces/KoSimpleColorSpace.h:125
+#: pigment/colorspaces/KoSimpleColorSpace.h:129
+#: pigment/colorspaces/KoSimpleColorSpace.h:133
+#: pigment/colorspaces/KoSimpleColorSpace.h:140
+#: pigment/colorspaces/KoSimpleColorSpace.h:144
+#, kde-format
+msgid "Undefined operation in the %1 color space"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/colorspaces/KoSimpleColorSpaceEngine.cpp:56
+#, kde-format
+msgid "Simple Color Conversion Engine"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOpAlphaDarken.h:28
+#: pigment/compositeops/KoOptimizedCompositeOpAlphaDarken128.h:189
+#: pigment/compositeops/KoOptimizedCompositeOpAlphaDarken32.h:233
+#, fuzzy, kde-format
+msgid "Alpha darken"
+msgstr "Masc alfa"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOpBehind.h:26
+#: pigment/KoCompositeOpRegistry.cpp:60
+#, kde-format
+msgid "Behind"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOpDissolve.h:42
+#: pigment/KoCompositeOpRegistry.cpp:74
+#, kde-format
+msgid "Dissolve"
+msgstr "Díscaoil"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOpErase.h:26
+#: pigment/KoCompositeOpRegistry.cpp:63
+#, kde-format
+msgid "Erase"
+msgstr "Bánaigh"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOpGreater.h:40
+#: pigment/KoCompositeOpRegistry.cpp:61
+#, fuzzy, kde-format
+#| msgid "Created:"
+msgid "Greater"
+msgstr "Cruthaithe:"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOpOver.h:48
+#: pigment/compositeops/KoOptimizedCompositeOpOver128.h:244
+#: pigment/compositeops/KoOptimizedCompositeOpOver32.h:200
+#: pigment/KoCompositeOpRegistry.cpp:59 pigment/KoCompositeOpRegistry.cpp:125
+#, kde-format
+msgid "Normal"
+msgstr "Gnách"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:109
+#: pigment/KoCompositeOpRegistry.cpp:62
+#, kde-format
+msgid "Overlay"
+msgstr "Forleag"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:110
+#: pigment/KoCompositeOpRegistry.cpp:66
+#, fuzzy, kde-format
+msgid "Grain Merge"
+msgstr "Postchumasc"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:111
+#: pigment/KoCompositeOpRegistry.cpp:67
+#, kde-format
+msgid "Grain Extract"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:112
+#: pigment/KoCompositeOpRegistry.cpp:65
+#, fuzzy, kde-format
+msgid "Hard Mix"
+msgstr "Éadrom"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:113
+#: pigment/KoCompositeOpRegistry.cpp:70
+#, fuzzy, kde-format
+msgid "Geometric Mean"
+msgstr "Céimseata"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:114
+#: pigment/KoCompositeOpRegistry.cpp:68
+#, fuzzy, kde-format
+msgid "Parallel"
+msgstr "Athróg"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:115
+#: pigment/KoCompositeOpRegistry.cpp:69
+#, kde-format
+msgid "Allanon"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:117
+#: pigment/KoCompositeOpRegistry.cpp:44
+#, kde-format
+msgid "Screen"
+msgstr "Scáileán"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:118
+#: pigment/KoCompositeOpRegistry.cpp:40
+#, fuzzy, kde-format
+msgid "Color Dodge"
+msgstr "Ainm an datha:"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:119
+#: pigment/KoCompositeOpRegistry.cpp:41
+#, fuzzy, kde-format
+msgid "Linear Dodge"
+msgstr "Ailínigh Ar Dheis"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:120 pigment/KoCompositeOp.cpp:31
+#: pigment/KoCompositeOpRegistry.cpp:24 pigment/KoCompositeOpRegistry.cpp:42
+#, kde-format
+msgid "Lighten"
+msgstr "Sorchaigh"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:121
+#: pigment/KoCompositeOpRegistry.cpp:47
+#, fuzzy, kde-format
+msgid "Hard Light"
+msgstr "Éadrom"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:122
+#: pigment/KoCompositeOpRegistry.cpp:49
+#, fuzzy, kde-format
+msgid "Soft Light (SVG)"
+msgstr "Díreach"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:123
+#: pigment/KoCompositeOpRegistry.cpp:48
+#, fuzzy, kde-format
+msgid "Soft Light (Photoshop)"
+msgstr "Díreach"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:124
+#: pigment/KoCompositeOpRegistry.cpp:50
+#, fuzzy, kde-format
+msgid "Gamma Light"
+msgstr "Éadrom"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:125
+#: pigment/KoCompositeOpRegistry.cpp:46
+#, fuzzy, kde-format
+msgid "Vivid Light"
+msgstr "Éadrom"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:126
+#: pigment/KoCompositeOpRegistry.cpp:45
+#, fuzzy, kde-format
+msgid "Pin Light"
+msgstr "Éadrom"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:127
+#: pigment/KoCompositeOpRegistry.cpp:43
+#, fuzzy, kde-format
+msgid "Linear Light"
+msgstr "Ailínigh Ar Dheis"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:129
+#, fuzzy, kde-format
+msgid "Color Burn"
+msgstr "Dath"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:130
+#: pigment/KoCompositeOpRegistry.cpp:35
+#, fuzzy, kde-format
+msgid "Linear Burn"
+msgstr "Briseadh Líne"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:131 pigment/KoCompositeOp.cpp:35
+#: pigment/KoCompositeOpRegistry.cpp:24 pigment/KoCompositeOpRegistry.cpp:36
+#, kde-format
+msgid "Darken"
+msgstr "Dorchaigh"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:132
+#: pigment/KoCompositeOpRegistry.cpp:37
+#, kde-format
+msgid "Gamma Dark"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:134
+#: pigment/KoCompositeOpRegistry.cpp:28
+#, fuzzy, kde-format
+msgid "Addition"
+msgstr "Cuir Codán Leis"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:136
+#, fuzzy, kde-format
+msgid "Inversed-Subtract"
+msgstr "Dealaigh"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:138
+#: pigment/KoCompositeOpRegistry.cpp:31
+#, kde-format
+msgid "Divide"
+msgstr "Roinn"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:140
+#: pigment/KoCompositeOpRegistry.cpp:57
+#, kde-format
+msgid "Arcus Tangent"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:141
+#: pigment/KoCompositeOpRegistry.cpp:53
+#, fuzzy, kde-format
+msgid "Difference"
+msgstr "Tagairt"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:142
+#: pigment/KoCompositeOpRegistry.cpp:56
+#, fuzzy, kde-format
+msgid "Exclusion"
+msgstr "Eisceachtaí"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:143
+#: pigment/KoCompositeOpRegistry.cpp:54
+#, kde-format
+msgid "Equivalence"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:144
+#, fuzzy, kde-format
+msgid "Additive-Subtractive"
+msgstr "Dealaigh"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:175
+#: pigment/KoCompositeOpRegistry.cpp:75
+#, fuzzy, kde-format
+msgid "Copy Red"
+msgstr "Cóipeáil Leathanach"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:176
+#: pigment/KoCompositeOpRegistry.cpp:76
+#, fuzzy, kde-format
+msgid "Copy Green"
+msgstr "Uaine"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:177
+#: pigment/KoCompositeOpRegistry.cpp:77
+#, fuzzy, kde-format
+msgid "Copy Blue"
+msgstr "Cóipeáil Leathanach"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:178
+#: pigment/KoCompositeOpRegistry.cpp:79
+#, kde-format
+msgid "Tangent Normalmap"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:179
+#, fuzzy, kde-format
+msgid "Combine Normal Maps"
+msgstr "Bain fochonair"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:181 pigment/KoCompositeOp.cpp:18
+#: pigment/KoCompositeOpRegistry.cpp:81
+#, kde-format
+msgid "Color"
+msgstr "Dath"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:182
+#: pigment/KoCompositeOpRegistry.cpp:82
+#, kde-format
+msgid "Hue"
+msgstr "Lí"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:183
+#: pigment/KoCompositeOpRegistry.cpp:83
+#, kde-format
+msgid "Saturation"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:184
+#: pigment/KoCompositeOpRegistry.cpp:86
+#, fuzzy, kde-format
+msgid "Increase Saturation"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:185
+#: pigment/KoCompositeOpRegistry.cpp:85
+#, fuzzy, kde-format
+msgid "Decrease Saturation"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:186
+#: pigment/KoCompositeOpRegistry.cpp:84
+#, kde-format
+msgid "Luminosity"
+msgstr "Lonrachas"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:187
+#: pigment/KoCompositeOpRegistry.cpp:88
+#, fuzzy, kde-format
+msgid "Increase Luminosity"
+msgstr "Cló níos mó"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:188
+#: pigment/KoCompositeOpRegistry.cpp:87
+#, fuzzy, kde-format
+msgid "Decrease Luminosity"
+msgstr "Cló níos lú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:189
+#: pigment/KoCompositeOpRegistry.cpp:38
+#, fuzzy, kde-format
+#| msgid "Background Color"
+msgid "Darker Color"
+msgstr "Dath an Chúlra"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:190
+#: pigment/KoCompositeOpRegistry.cpp:51
+#, fuzzy, kde-format
+#| msgid "Line Color"
+msgid "Lighter Color"
+msgstr "Dath Líne"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:193
+#: pigment/KoCompositeOpRegistry.cpp:90
+#, fuzzy, kde-format
+msgid "Color HSI"
+msgstr "Dath"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:194
+#: pigment/KoCompositeOpRegistry.cpp:91
+#, fuzzy, kde-format
+msgid "Hue HSI"
+msgstr "Lí"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:195
+#: pigment/KoCompositeOpRegistry.cpp:92
+#, fuzzy, kde-format
+msgid "Saturation HSI"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:196
+#: pigment/KoCompositeOpRegistry.cpp:95
+#, fuzzy, kde-format
+msgid "Increase Saturation HSI"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:197
+#: pigment/KoCompositeOpRegistry.cpp:94
+#, fuzzy, kde-format
+msgid "Decrease Saturation HSI"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:198
+#: pigment/KoCompositeOpRegistry.cpp:93
+#, fuzzy, kde-format
+msgid "Intensity"
+msgstr "Idirlíon"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:199
+#: pigment/KoCompositeOpRegistry.cpp:97
+#, fuzzy, kde-format
+msgid "Increase Intensity"
+msgstr "Méadaigh Eangú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:200
+#: pigment/KoCompositeOpRegistry.cpp:96
+#, fuzzy, kde-format
+msgid "Decrease Intensity"
+msgstr "Laghdaigh Eangú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:202
+#: pigment/KoCompositeOpRegistry.cpp:99
+#, fuzzy, kde-format
+msgid "Color HSL"
+msgstr "Dath"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:203
+#: pigment/KoCompositeOpRegistry.cpp:100
+#, fuzzy, kde-format
+msgid "Hue HSL"
+msgstr "Lí"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:204
+#: pigment/KoCompositeOpRegistry.cpp:101
+#, fuzzy, kde-format
+msgid "Saturation HSL"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:205
+#: pigment/KoCompositeOpRegistry.cpp:104
+#, fuzzy, kde-format
+msgid "Increase Saturation HSL"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:206
+#: pigment/KoCompositeOpRegistry.cpp:103
+#, fuzzy, kde-format
+msgid "Decrease Saturation HSL"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:208
+#: pigment/KoCompositeOpRegistry.cpp:106
+#, fuzzy, kde-format
+msgid "Increase Lightness"
+msgstr "Méadaigh Eangú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:209
+#: pigment/KoCompositeOpRegistry.cpp:105
+#, fuzzy, kde-format
+msgid "Decrease Lightness"
+msgstr "Laghdaigh Eangú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:211
+#: pigment/KoCompositeOpRegistry.cpp:108
+#, fuzzy, kde-format
+msgid "Color HSV"
+msgstr "Dath"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:212
+#: pigment/KoCompositeOpRegistry.cpp:109
+#, fuzzy, kde-format
+msgid "Hue HSV"
+msgstr "Lí"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:213
+#: pigment/KoCompositeOpRegistry.cpp:110
+#, fuzzy, kde-format
+msgid "Saturation HSV"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:214
+#: pigment/KoCompositeOpRegistry.cpp:113
+#, fuzzy, kde-format
+msgid "Increase Saturation HSV"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:215
+#: pigment/KoCompositeOpRegistry.cpp:112
+#, fuzzy, kde-format
+msgid "Decrease Saturation HSV"
+msgstr "Sáithiú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:216
+#: pigment/KoCompositeOpRegistry.cpp:111
+#, kde-format
+msgid "Value"
+msgstr "Luach"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:217
+#: pigment/KoCompositeOpRegistry.cpp:115
+#, fuzzy, kde-format
+msgid "Increase Value"
+msgstr "Méadaigh Eangú"
+
+#. +> trunk6 stable6
+#: pigment/compositeops/KoCompositeOps.h:218
+#: pigment/KoCompositeOpRegistry.cpp:114
+#, fuzzy, kde-format
+msgid "Decrease Value"
+msgstr "Laghdaigh Eangú"
+
+#. +> trunk6 stable6
+#: pigment/KoBasicHistogramProducers.cpp:340
+#: pigment/KoBasicHistogramProducers.cpp:405
+#, kde-format
+msgid "Generic RGB Histogram"
+msgstr "Histeagram Ginearálta RGB"
+
+# ok as is; RGB is international
+#. +> trunk6 stable6
+#: pigment/KoBasicHistogramProducers.cpp:344
+#, kde-format
+msgid "R"
+msgstr "R"
+
+#. +> trunk6 stable6
+#: pigment/KoBasicHistogramProducers.cpp:345
+#, kde-format
+msgid "G"
+msgstr "G"
+
+#. +> trunk6 stable6
+#: pigment/KoBasicHistogramProducers.cpp:346
+#, kde-format
+msgid "B"
+msgstr "B"
+
+#. +> trunk6 stable6
+#: pigment/KoBasicHistogramProducers.cpp:411
+#, kde-format
+msgid "L*a*b* Histogram"
+msgstr "Histeagram L*a*b*"
+
+#. +> trunk6 stable6
+#: pigment/KoBasicHistogramProducers.cpp:415
+#, kde-format
+msgid "L*"
+msgstr "L*"
+
+#. +> trunk6 stable6
+#: pigment/KoBasicHistogramProducers.cpp:492
+#, kde-format
+msgid "Generic L*a*b* Histogram"
+msgstr "Histeagram Ginearálta L*a*b*"
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:12
+#, kde-format
+msgid "RGB"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:13
+#, kde-format
+msgid "XYZ"
+msgstr "XYZ"
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:14
+#, kde-format
+msgid "L*a*b*"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:15
+#, kde-format
+msgid "CMYK"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:16
+#, kde-format
+msgid "Grayscale"
+msgstr "Liathscála"
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:17
+#, kde-format
+msgid "Grayscale (without transparency)"
+msgstr "Liathscála (gan trédhearcacht)"
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:18
+#, kde-format
+msgid "YCbCr"
+msgstr "YCbCr"
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:20
+#, kde-format
+msgid "8 Bits"
+msgstr "8 nGiotán"
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:21
+#, kde-format
+msgid "16 Bits"
+msgstr "16 Giotán"
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:22
+#, fuzzy, kde-format
+msgid "16 Bits Float"
+msgstr "16 Giotán"
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:23
+#, fuzzy, kde-format
+msgid "32 Bits Float"
+msgstr "16 Giotán"
+
+#. +> trunk6 stable6
+#: pigment/KoColorModelStandardIds.cpp:24
+#, fuzzy, kde-format
+msgid "64 Bits Float"
+msgstr "16 Giotán"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOp.cpp:23 pigment/KoCompositeOpRegistry.cpp:24
+#, kde-format
+msgid "Arithmetic"
+msgstr "Uimhríocht"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOp.cpp:27 pigment/KoCompositeOpRegistry.cpp:25
+#, fuzzy, kde-format
+msgid "Negative"
+msgstr "Coibhneasta"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOp.cpp:39 pigment/KoCompositeOpRegistry.cpp:25
+#, fuzzy, kde-format
+#| msgid "HSV"
+msgid "HSY"
+msgstr "HSV"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOp.cpp:43 pigment/KoCompositeOpRegistry.cpp:26
+#, fuzzy, kde-format
+#| msgid "HSV"
+msgid "HSI"
+msgstr "HSV"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOp.cpp:47 pigment/KoCompositeOpRegistry.cpp:26
+#, fuzzy, kde-format
+#| msgid "HSV"
+msgid "HSL"
+msgstr "HSV"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOp.cpp:51 pigment/KoCompositeOpRegistry.cpp:26
+#, kde-format
+msgid "HSV"
+msgstr "HSV"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOp.cpp:55 pigment/KoCompositeOpRegistry.cpp:25
+#, kde-format
+msgid "Mix"
+msgstr "Measc"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOpRegistry.cpp:32
+#, fuzzy, kde-format
+msgid "Inverse Subtract"
+msgstr "Dealaigh"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOpRegistry.cpp:34
+#, kde-format
+msgid "Burn"
+msgstr "Dóigh"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOpRegistry.cpp:55
+#, fuzzy, kde-format
+msgid "Additive Subtractive"
+msgstr "Dealaigh"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOpRegistry.cpp:64
+#, fuzzy, kde-format
+msgid "Alpha Darken"
+msgstr "Masc alfa"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOpRegistry.cpp:72
+#, kde-format
+msgid "Bumpmap"
+msgstr "Bumpmap"
+
+#. +> trunk6 stable6
+#: pigment/KoCompositeOpRegistry.cpp:73
+#, kde-format
+msgid "Combine Normal Map"
+msgstr ""
+
+#. +> trunk6 stable6
+#: pigment/resources/KoStopGradient.cpp:417
+#, kde-format
+msgid "SVG Gradient"
+msgstr "Grádán SVG"
+
+#. +> trunk6 stable6
+#: rdf/InsertSemanticObjectReferenceAction.cpp:40
+#, kde-format
+msgid "Select the object you want to reference"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdf.cpp:594
+#, kde-format
+msgid "Reference"
+msgstr "Tagairt"
+
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.cpp:238
+#, kde-format
+msgid "Set For All Existing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.cpp:300
+#, kde-format
+msgctxt "statement is an Rdf related term"
+msgid ""
+"<qt>Edits will be lost."
+"<p>There is %1 invalid statement left.</qt>"
+msgid_plural ""
+"<qt>Edits will be lost."
+"<p>There are %1 invalid statements left.</qt>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.cpp:303
+#, kde-format
+msgctxt "statement is an Rdf related term"
+msgid "Discard invalid statements?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.cpp:342
+#, kde-format
+msgid "Rdf"
+msgstr "Rdf"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:21
+#, kde-format
+msgid "Triples"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, newStylesheet)
+#. i18n: ectx: property (text), widget (QPushButton, newTripleButton)
+#. i18n: ectx: property (text), widget (QPushButton, newNamespaceButton)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:39 rdf/KoDocumentRdfEditWidget.ui:84
+#: rdf/KoSemanticStylesheetsEditor.ui:77
+#, kde-format
+msgid "new"
+msgstr "nua"
+
+#. i18n: ectx: property (text), widget (QPushButton, copyTripleButton)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:46
+#, kde-format
+msgid "copy"
+msgstr "cóip"
+
+#. i18n: ectx: property (text), widget (QPushButton, deleteStylesheet)
+#. i18n: ectx: property (text), widget (QPushButton, deleteTripleButton)
+#. i18n: ectx: property (text), widget (QPushButton, deleteNamespaceButton)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:53 rdf/KoDocumentRdfEditWidget.ui:91
+#: rdf/KoSemanticStylesheetsEditor.ui:84
+#, kde-format
+msgid "delete"
+msgstr "scrios"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:76
+#, kde-format
+msgid "Namespaces"
+msgstr "Ainmspásanna"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:123
+#, kde-format
+msgid "Prefix"
+msgstr "Réimír"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_namespaceView)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:128
+#, kde-format
+msgid "Namespace"
+msgstr "Ainmspás"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:137
+#, kde-format
+msgid "Semantic"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_4)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:156
+#, kde-format
+msgid "SPARQL"
+msgstr ""
+
+#. i18n: ectx: property (html), widget (QTextEdit, m_sparqlQuery)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:182
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\"># Insert your SPARQL query here<br />"
+"# Results are shown below.</span></p>"
+"\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">prefix rdf:  &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; </span></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; </span></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">prefix pkg:  &lt;http://docs.oasis-open.org/ns/office/1.2/meta/pkg#&gt; </span></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">prefix geo84: &lt;http://www.w3.org/2003/01/geo/wgs84_pos#&gt;</span></p>"
+"\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">select ?s ?p ?o </span></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">where { </span></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\"> ?s ?p ?o </span></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Verdana'; font-size:13pt;\">}</span></p>"
+"\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></p>"
+"\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></p>"
+"\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Verdana'; font-size:13pt;\"></p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_sparqlExecute)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:191
+#, kde-format
+msgid "Execute"
+msgstr "Rith"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_5)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:221
+#, kde-format
+msgid "Stylesheets"
+msgstr "Stílbhileoga"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: rdf/KoDocumentRdfEditWidget.ui:227
+#, kde-format
+msgid "Set the default stylesheet for Semantic objects in this document. New RDF objects will use this stylesheet automatically. The buttons allow you to set the stylesheet for all existing semantic objects to the new default stylesheet as well."
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdf/KoRdfSemanticTreeWidgetItem.cpp:101
+#, kde-format
+msgid "Apply Stylesheet"
+msgstr "Cuir Stílbhileog i bhFeidhm"
+
+#. +> trunk6 stable6
+#: rdf/KoRdfSemanticTreeWidgetItem.cpp:103
+#: rdf/KoSemanticStylesheetsEditor.cpp:101
+#, kde-format
+msgid "System"
+msgstr "Córas"
+
+#. +> trunk6 stable6
+#: rdf/KoRdfSemanticTreeWidgetItem.cpp:110
+#: rdf/KoSemanticStylesheetsEditor.cpp:116
+#, kde-format
+msgid "User"
+msgstr "Úsáideoir"
+
+#. +> trunk6 stable6
+#: rdf/KoRdfSemanticTreeWidgetItem.cpp:121
+#, kde-format
+msgid "Reapply Current"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdf/KoRdfSemanticTreeWidgetItem.cpp:124
+#, kde-format
+msgid "Disassociate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdf/KoRdfSemanticTreeWidgetItem.cpp:143
+#, kde-format
+msgid "Edit %1"
+msgstr "Cuir %1 in Eagar"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: rdf/KoSemanticStylesheetsEditor.ui:17
+#, fuzzy, kde-format
+#| msgid "Stylesheets"
+msgid "Stylesheet Definition"
+msgstr "Stílbhileoga"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. +> trunk6 stable6
+#: rdf/KoSemanticStylesheetsEditor.ui:29
+#, kde-format
+msgid "Variables Available"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTableWidget, variables)
+#. +> trunk6 stable6
+#: rdf/KoSemanticStylesheetsEditor.ui:62
+#, kde-format
+msgid "Description"
+msgstr "Cur Síos"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, stylesheets)
+#. +> trunk6 stable6
+#: rdf/KoSemanticStylesheetsEditor.ui:107
+#, fuzzy, kde-format
+#| msgid "Stylesheets"
+msgid "Stylesheet Name"
+msgstr "Stílbhileoga"
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:71
+#, kde-format
+msgid "Empty"
+msgstr "Folamh"
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:73 rdf/KoSopranoTableModelDelegate.cpp:28
+#, kde-format
+msgid "URI"
+msgstr "URI"
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:75 rdf/KoSopranoTableModelDelegate.cpp:29
+#, kde-format
+msgid "Literal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:77 rdf/KoSopranoTableModelDelegate.cpp:30
+#, kde-format
+msgid "Blank"
+msgstr "Bán"
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:119
+#, kde-format
+msgid "Valid"
+msgstr "Bailí"
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:121
+#, kde-format
+msgid "Subject"
+msgstr "Ábhar"
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:123
+#, kde-format
+msgid "Predicate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:125
+#, kde-format
+msgid "Object"
+msgstr "Réad"
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:127
+#, fuzzy, kde-format
+#| msgid "Type:"
+msgid "Obj Type"
+msgstr "Cineál:"
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:129
+#, fuzzy, kde-format
+#| msgid "Data"
+msgid "DataType"
+msgstr "Sonraí"
+
+#. +> trunk6 stable6
+#: rdf/KoSopranoTableModel.cpp:131
+#, kde-format
+msgid "Stored In"
+msgstr ""
+
+#. +> trunk6 stable6
+#: store/KoEncryptedStore.cpp:244
+#, kde-format
+msgid "This document contains an unknown checksum. When you give a password it might not be verified."
+msgstr ""
+
+#. +> trunk6 stable6
+#: store/KoEncryptedStore.cpp:245
+#, fuzzy, kde-format
+#| msgid "Warning"
+msgctxt "@dialog:title"
+msgid "Warning"
+msgstr "Rabhadh"
+
+#. +> trunk6 stable6
+#: store/KoEncryptedStore.cpp:272 store/KoEncryptedStore.cpp:291
+#, kde-format
+msgid "This document contains an unknown encryption method. Some parts may be unreadable."
+msgstr ""
+
+#. +> trunk6 stable6
+#: store/KoEncryptedStore.cpp:273 store/KoEncryptedStore.cpp:292
+#: store/KoEncryptedStore.cpp:309
+#, fuzzy, kde-format
+#| msgid "Warning"
+msgctxt "@title:dialog"
+msgid "Warning"
+msgstr "Rabhadh"
+
+#. +> trunk6 stable6
+#: store/KoEncryptedStore.cpp:308
+#, kde-format
+msgid "This document contains incomplete encryption data. Some parts may be unreadable."
+msgstr ""
+
+#. +> trunk6 stable6
+#: store/KoEncryptedStore.cpp:349
+#, kde-format
+msgid "The manifest file seems to be corrupted. It cannot be modified and the document will remain unreadable. Please try and save the document again to prevent losing your work."
+msgstr ""
+
+#. +> trunk6 stable6
+#: store/KoEncryptedStore.cpp:447
+#, kde-format
+msgid "The manifest file cannot be written. The document will remain unreadable. Please try and save the document again to prevent losing your work."
+msgstr ""
+
+#. +> trunk6 stable6
+#: store/KoEncryptedStore.cpp:569
+#, kde-format
+msgid "Please enter the password to open this file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: store/KoEncryptedStore.cpp:768
+#, kde-format
+msgid "Please enter the password to encrypt the document with."
+msgstr ""
+
+#. +> trunk6 stable6
+#: store/KoEncryptedStore.cpp:783
+#, kde-format
+msgid "Do you want to save the password?"
+msgstr "An bhfuil fonn ort an focal faire a shábháil?"
+
+#. +> trunk6 stable6
+#: store/KoNetAccess.cpp:89
+#, fuzzy, kde-format
+msgid "File '%1' is not readable"
+msgstr "Níl comhad %1 ann."
+
+#. +> trunk6 stable6
+#: store/KoNetAccess.cpp:370
+#, kde-format
+msgid "ERROR: Unknown protocol '%1'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: store/KoStore.cpp:152
+#, kde-format
+msgid "Calligra Storage"
+msgstr ""
+
+#. +> trunk6 stable6
+#: store/KoStore.cpp:152
+#, kde-format
+msgid "The directory mode is not supported for remote locations."
+msgstr ""
+
+#. +> trunk6 stable6
+#: text/commands/ChangeListCommand.cpp:30
+#: text/commands/ChangeListCommand.cpp:78
+#: text/commands/ChangeListCommand.cpp:90
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change List"
+msgstr "Athraigh"
+
+#. +> trunk6 stable6
+#: text/commands/ChangeStylesMacroCommand.cpp:23
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Styles"
+msgstr "Athraigh Cineál an Chomhaid"
+
+#. +> trunk6 stable6
+#: text/commands/ChangeTrackedDeleteCommand.cpp:263
+#, kde-format
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: text/commands/ChangeTrackedDeleteCommand.cpp:318
+#: text/commands/DeleteCommand.cpp:484 text/KoTextEditor_undo.cpp:80
+#: text/KoTextEditor_undo.cpp:166 text/KoTextEditor_undo.cpp:204
+#: text/KoTextEditor_undo.cpp:224 text/KoTextEditor_undo.cpp:268
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Text"
+msgstr "Téacs"
+
+#. +> trunk6 stable6
+#: text/commands/DeleteCommand.cpp:56
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: text/commands/DeleteTableColumnCommand.cpp:23
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Column"
+msgstr "Ionsáigh Colún"
+
+#. +> trunk6 stable6
+#: text/commands/DeleteTableRowCommand.cpp:23
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Delete Row"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: text/commands/InsertNoteCommand.cpp:20
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Footnote"
+msgstr "Ionsáigh pointe"
+
+#. +> trunk6 stable6
+#: text/commands/InsertNoteCommand.cpp:22
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Endnote"
+msgstr "Ionsáigh Innéacs"
+
+#. +> trunk6 stable6
+#: text/commands/InsertTableColumnCommand.cpp:25
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Column Right"
+msgstr "Ionsáigh Colún"
+
+#. +> trunk6 stable6
+#: text/commands/InsertTableColumnCommand.cpp:27
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Column Left"
+msgstr "Ionsáigh Colún"
+
+#. +> trunk6 stable6
+#: text/commands/InsertTableRowCommand.cpp:25
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Row Below"
+msgstr "Ionsáigh Ró"
+
+#. +> trunk6 stable6
+#: text/commands/InsertTableRowCommand.cpp:27
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Row Above"
+msgstr "Ionsáigh Ró"
+
+#. +> trunk6 stable6
+#: text/commands/ListItemNumberingCommand.cpp:22
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change List Numbering"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: text/commands/NewSectionCommand.cpp:22
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "New Section"
+msgstr "Grúpáil giuirléidí"
+
+#. +> trunk6 stable6
+#: text/commands/ParagraphFormattingCommand.cpp:82
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Direct Paragraph Formatting"
+msgstr "Athraigh Spásáil Alt"
+
+#. +> trunk6 stable6
+#: text/commands/RenameSectionCommand.cpp:20
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Rename Section"
+msgstr "Cruthaigh Cruthanna"
+
+#. +> trunk6 stable6
+#: text/commands/ResizeTableCommand.cpp:30
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust Column Width"
+msgstr "Ionsáigh Colún"
+
+#. +> trunk6 stable6
+#: text/commands/ResizeTableCommand.cpp:32
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust Row Height"
+msgstr "Ionsáigh Colún"
+
+#. +> trunk6 stable6
+#: text/commands/SplitSectionsCommand.cpp:24
+msgctxt "(qtundo-format)"
+msgid "Split sections startings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: text/commands/SplitSectionsCommand.cpp:26
+msgctxt "(qtundo-format)"
+msgid "Split sections endings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: text/commands/TextPasteCommand.cpp:53
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Paste As Text"
+msgstr "Greamaigh Leathanach"
+
+#. +> trunk6 stable6
+#: text/commands/TextPasteCommand.cpp:55
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Paste"
+msgstr "Greamaigh"
+
+#. +> trunk6 stable6
+#: text/InsertTextLocator.cpp:13
+#, fuzzy, kde-format
+#| msgid "Reference"
+msgid "Index Reference"
+msgstr "Tagairt"
+
+#. +> trunk6 stable6
+#: text/InsertTextReferenceAction.cpp:22 text/InsertTextReferenceAction.cpp:50
+#, fuzzy, kde-format
+#| msgid "Reference"
+msgid "Text Reference"
+msgstr "Tagairt"
+
+#. +> trunk6 stable6
+#: text/InsertTextReferenceAction.cpp:31
+#, kde-format
+msgid "Please create an index to reference first."
+msgstr ""
+
+#. +> trunk6 stable6
+#: text/InsertTextReferenceAction.cpp:40
+#, kde-format
+msgid "Select the index you want to reference"
+msgstr ""
+
+#. +> trunk6 stable6
+#: text/KoFindStrategy.cpp:55
+#, kde-format
+msgid "Found 1 match"
+msgid_plural "Found %1 matches"
+msgstr[0] "Aimsíodh 1 rud comhoiriúnach"
+msgstr[1] "Aimsíodh %1 rud comhoiriúnach"
+msgstr[2] "Aimsíodh %1 rud comhoiriúnach"
+msgstr[3] "Aimsíodh %1 rud comhoiriúnach"
+msgstr[4] "Aimsíodh %1 rud comhoiriúnach"
+
+#. +> trunk6 stable6
+#: text/KoFindStrategy.cpp:55
+#, kde-format
+msgid "Found no match"
+msgstr "Níor aimsíodh aon rud comhoiriúnach"
+
+#. +> trunk6 stable6
+#: text/KoReplaceStrategy.cpp:43
+#, kde-format
+msgid ""
+"Found no match\n"
+"\n"
+"No text was replaced"
+msgstr ""
+
+#. +> trunk6 stable6
+#: text/KoReplaceStrategy.cpp:45
+#, kde-format
+msgid "1 replacement made"
+msgid_plural "%1 replacements made"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6
+#: text/KoReplaceStrategy.cpp:57
+#, kde-format
+msgid "Replace %1 with %2?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: text/KoSectionModel.cpp:87
+#, fuzzy, kde-format
+msgctxt "new numbered section name"
+msgid "New section %1"
+msgstr "Grúpáil giuirléidí"
+
+#. +> trunk6 stable6
+#: text/KoText.cpp:19
+#, kde-format
+msgctxt "Underline Style"
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6
+#: text/KoText.cpp:20
+#, kde-format
+msgctxt "Underline Style"
+msgid "Single"
+msgstr "Singil"
+
+#. +> trunk6 stable6
+#: text/KoText.cpp:21
+#, kde-format
+msgctxt "Underline Style"
+msgid "Double"
+msgstr "Dúbail"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:180 text/KoTextEditor.cpp:1482
+#: text/KoTextEditor.cpp:1484
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "New Paragraph"
+msgstr "Athraigh Spásáil Alt"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:474
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Bookmark"
+msgstr "Cuir Leabharmharc Leis"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:489
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Annotation"
+msgstr "Cuir Codán Leis"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:513
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Index"
+msgstr "Ionsáigh Innéacs"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:539
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Variable"
+msgstr "Ionsáigh Athróg"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:604
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Break"
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:912 text/KoTextEditor.cpp:914
+#: text/KoTextEditor.cpp:929
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Table"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:1069
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Merge Cells"
+msgstr "Cumaisc Cealla"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:1086
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Split Cells"
+msgstr "Amharc &Roinnte"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:1114
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust Table Width"
+msgstr "Oiriúnaigh don Leithead"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:1130
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Border Formatting"
+msgstr "Athraigh na Teorainneacha"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:1177 text/KoTextEditor.cpp:1179
+#: text/KoTextEditor.cpp:1197
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Table Of Contents"
+msgstr "Cuir i gclár na n-ábhar"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:1236
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Modify Table Of Contents"
+msgstr "Cuir i gclár na n-ábhar"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:1253 text/KoTextEditor.cpp:1255
+#: text/KoTextEditor.cpp:1274
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Insert Bibliography"
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:1311 text/KoTextEditor.cpp:1313
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Add Citation"
+msgstr "Cuir Codán Leis"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor.cpp:1340 text/KoTextEditor.cpp:1342
+#: text/KoTextEditor.cpp:1380
+msgctxt "(qtundo-format)"
+msgid "Typing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:57
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Bold"
+msgstr "Trom"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:70
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Italic"
+msgstr "Cló Iodálach"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:83
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Underline"
+msgstr "Líne Faoi"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:102
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Strike Out"
+msgstr "Scríoblíne"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:139 text/KoTextEditor_format.cpp:140
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Alignment"
+msgstr "Athraigh an cló"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:157
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Vertical Alignment"
+msgstr "Socraigh Ailíniú Ingearach"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:192 text/KoTextEditor_format.cpp:193
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Decrease Indent"
+msgstr "Laghdaigh Eangú"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:229 text/KoTextEditor_format.cpp:230
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Increase Indent"
+msgstr "Méadaigh Eangú"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:271 text/KoTextEditor_format.cpp:273
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Decrease font size"
+msgstr "Cló níos lú"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:284 text/KoTextEditor_format.cpp:286
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Increase font size"
+msgstr "Cló níos mó"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:297
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Font"
+msgstr "Socraigh Cló"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:310
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Font Size"
+msgstr "Socraigh Clómhéid"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:323
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Background Color"
+msgstr "Socraigh Dath an Chúlra"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:336
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Text Color"
+msgstr "Socraigh Dath Téacs"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:364 text/KoTextEditor_format.cpp:403
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Character Style"
+msgstr "Cruthaigh Stíl Nua"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:469
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Set Paragraph Style"
+msgstr "Athraigh Spásáil Alt"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_format.cpp:531
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Formatting"
+msgstr "Formáid"
+
+#. +> trunk6 stable6
+#: text/KoTextEditor_p.h:159 text/KoTextEditor_p.h:200
+#, fuzzy
+#| msgid "Format"
+msgctxt "(qtundo-format)"
+msgid "Format"
+msgstr "Formáid"
+
+#. +> trunk6 stable6
+#: widgets/KoColorPopupAction.cpp:82
+#, kde-format
+msgid "Opacity"
+msgstr "Teimhneacht"
+
+#. +> trunk6 stable6
+#: widgets/KoColorSetWidget.cpp:150
+#, kde-format
+msgid "Recent:"
+msgstr "Le Déanaí:"
+
+#. +> trunk6 stable6
+#: widgets/KoColorSetWidget.cpp:163
+#, kde-format
+msgid "Add / Remove Colors..."
+msgstr "Cuir Dathanna Leis / Bain Dathanna..."
+
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.cpp:50
+#, kde-format
+msgid "Add new author profile (starts out as a copy of current)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.cpp:54
+#, fuzzy, kde-format
+msgid "Delete the author profile"
+msgstr "Scrios an leathanach reatha"
+
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.cpp:128
+#, kde-format
+msgid "Name (not duplicate or blank name):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.cpp:128
+#, fuzzy, kde-format
+msgid "Name of Profile"
+msgstr "Líon na bPictiúr"
+
+#. i18n: ectx: property (text), widget (QLabel, fullNameLabel)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:20 widgets/koDocumentInfoAuthorWidget.ui:14
+#, kde-format
+msgid "Name:"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblInitialsDesc)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:40 widgets/koDocumentInfoAuthorWidget.ui:24
+#, kde-format
+msgid "Initials:"
+msgstr "Túslitreacha:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:63 widgets/koDocumentInfoAuthorWidget.ui:34
+#, kde-format
+msgid "Title:"
+msgstr "Teideal:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPositionDesc)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:79 widgets/koDocumentInfoAuthorWidget.ui:44
+#, kde-format
+msgid "Position:"
+msgstr "Ionad:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCompanyDesc)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:95 widgets/koDocumentInfoAuthorWidget.ui:54
+#, kde-format
+msgid "Company:"
+msgstr "Comhlacht:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEmailDesc)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:111 widgets/koDocumentInfoAuthorWidget.ui:61
+#, kde-format
+msgid "Email:"
+msgstr "Ríomhphost:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneHome)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:127 widgets/koDocumentInfoAuthorWidget.ui:68
+#, kde-format
+msgid "Telephone (home):"
+msgstr "Teileafón (baile):"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPhoneWork)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:143 widgets/koDocumentInfoAuthorWidget.ui:75
+#, kde-format
+msgid "Telephone (work):"
+msgstr "Teileafón (obair):"
+
+#. i18n: ectx: property (text), widget (QLabel, lblFaxDesc)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:159 widgets/koDocumentInfoAuthorWidget.ui:82
+#, kde-format
+msgid "Fax:"
+msgstr "Facs:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblStreetDesc)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:175 widgets/koDocumentInfoAuthorWidget.ui:89
+#, kde-format
+msgid "Street:"
+msgstr "Sráid:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPostalDesc)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:191 widgets/koDocumentInfoAuthorWidget.ui:96
+#, kde-format
+msgid "Postal code:"
+msgstr "Cód poist:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCityDesc)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:207 widgets/koDocumentInfoAuthorWidget.ui:103
+#, kde-format
+msgid "City:"
+msgstr "Cathair:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCountryDesc)
+#. +> trunk6 stable6
+#: widgets/KoConfigAuthorPage.ui:223 widgets/koDocumentInfoAuthorWidget.ui:110
+#, kde-format
+msgid "Country:"
+msgstr "Tír:"
+
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.cpp:86
+#, kde-format
+msgid "Import Data"
+msgstr "Iompórtáil Sonraí"
+
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.cpp:179 widgets/KoCsvImportDialog.cpp:467
+#: widgets/KoCsvImportDialog.cpp:490
+#, kde-format
+msgid "Generic"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.cpp:181 widgets/KoCsvImportDialog.cpp:492
+#: widgets/KoModeBox.cpp:498
+#, kde-format
+msgid "Text"
+msgstr "Téacs"
+
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.cpp:183 widgets/KoCsvImportDialog.cpp:494
+#, kde-format
+msgid "Date"
+msgstr "Dáta"
+
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.cpp:185 widgets/KoCsvImportDialog.cpp:496
+#, kde-format
+msgid "Currency"
+msgstr "Airgeadra"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.cpp:187 widgets/KoCsvImportDialog.cpp:498
+#: widgets/KoCsvImportDialog.cpp:600 widgets/KoCsvImportDialog.ui:222
+#, kde-format
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.cpp:625
+#, kde-format
+msgid "Please check the ranges you specified. The start value must be lower than the end value."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, m_dataTab)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:52
+#, kde-format
+msgid "Data"
+msgstr "Sonraí"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_firstRowHeader)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:64
+#, kde-format
+msgid "First row contains headers"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_firstColHeader)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:77
+#, kde-format
+msgid "First column contains headers"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, m_formatTab)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:101
+#, kde-format
+msgid "Format"
+msgstr "Formáid"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_delimiterBox)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:113
+#, kde-format
+msgid "Delimiter"
+msgstr "Teormharcóir"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioComma)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:119
+#, kde-format
+msgid "Comma"
+msgstr "Camóg"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSemicolon)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:129
+#, kde-format
+msgid "Semicolon"
+msgstr "Leathstad"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioOther)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:136
+#, kde-format
+msgid "Other"
+msgstr "Eile"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioTab)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:143
+#, kde-format
+msgid "Tabulator"
+msgstr "Táblóir"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_radioSpace)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:150
+#, kde-format
+msgid "Space"
+msgstr "Spás"
+
+#. i18n: ectx: property (text), widget (QLabel, label2)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:195
+#, kde-format
+msgid "Text&quote:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:212
+#, kde-format
+msgid "\""
+msgstr "\""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, m_comboQuote)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:217
+#, kde-format
+msgid "'"
+msgstr "'"
+
+#. i18n: ectx: property (text), widget (QLabel, label3)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:246
+#, kde-format
+msgid "Decimal symbol:"
+msgstr "Siombail dheachúlach:"
+
+#. i18n: ectx: property (text), widget (QLabel, label4)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:275
+#, kde-format
+msgid "Thousands separator:"
+msgstr "Deighilteoir mílte:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreDuplicates)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:320
+#, kde-format
+msgid "Ignore duplicate delimiters"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:327
+#, kde-format
+msgid "&Format:"
+msgstr "&Formáid:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, m_rangesTab)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:341
+#, kde-format
+msgid "Ranges"
+msgstr "Raonta"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_updateButton)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:347
+#, kde-format
+msgid "Update"
+msgstr "Nuashonraigh"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:414
+#, kde-format
+msgid "Import columns:"
+msgstr "Iompórtáil colúin:"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel3)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:433
+#, kde-format
+msgid "Import lines:"
+msgstr "Iompórtáil línte:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: widgets/KoCsvImportDialog.ui:443 widgets/KoCsvImportDialog.ui:466
+#, kde-format
+msgid "to"
+msgstr "go"
+
+#. +> trunk6 stable6
+#: widgets/KoDialog.cpp:256
+#, kde-format
+msgid "&Try"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoDialog.cpp:459
+#, fuzzy, kde-format
+#| msgid "Modified:"
+msgid "modified"
+msgstr "Athraithe:"
+
+#. +> trunk6 stable6
+#: widgets/KoDialog.cpp:468
+#, kde-format
+msgctxt "Document/application separator in titlebar"
+msgid " – "
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoDialog.cpp:823
+#, fuzzy, kde-format
+#| msgid "Detail"
+msgid "&Details"
+msgstr "Mionsonra"
+
+#. +> trunk6 stable6
+#: widgets/KoDialog.cpp:971
+#, kde-format
+msgid "Get help..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoDockWidgetTitleBar.cpp:54
+#, fuzzy, kde-format
+#| msgid "Show Dockers"
+msgctxt "@info:tooltip"
+msgid "Float Docker"
+msgstr "Taispeáin Dugairí"
+
+#. +> trunk6 stable6
+#: widgets/KoDockWidgetTitleBar.cpp:61
+#, fuzzy, kde-format
+#| msgid "Create Document"
+msgctxt "@info:tooltip"
+msgid "Close Docker"
+msgstr "Cruthaigh Cáipéis"
+
+#. +> trunk6 stable6
+#: widgets/KoDockWidgetTitleBar.cpp:71
+#, fuzzy, kde-format
+#| msgid "Create Document"
+msgctxt "@info:tooltip"
+msgid "Collapse Docker"
+msgstr "Cruthaigh Cáipéis"
+
+#. +> trunk6 stable6
+#: widgets/KoDockWidgetTitleBar.cpp:80
+#, fuzzy, kde-format
+#| msgid "Show Dockers"
+msgctxt "@info:tooltip"
+msgid "Lock Docker"
+msgstr "Taispeáin Dugairí"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbEncrypt)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:23 widgets/KoDocumentInfoDlg.cpp:221
+#: widgets/KoDocumentInfoDlg.cpp:316
+#, kde-format
+msgid "&Encrypt"
+msgstr "&Criptigh"
+
+#. i18n: ectx: property (text), widget (QLabel, lblKeywordsDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:64
+#, kde-format
+msgid "Keywords:"
+msgstr "Lorgfhocail:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSubjectDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:111
+#, kde-format
+msgid "Subject:"
+msgstr "Ábhar:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLastPrintedDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:124
+#, kde-format
+msgid "Last printed:"
+msgstr "Priontáilte:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEditingDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:158
+#, kde-format
+msgid "Total editing time:"
+msgstr "Am iomlán eagair:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblEncryptedDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:178
+#, kde-format
+msgid "Encryption:"
+msgstr "Criptiú:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblTitleDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:188
+#, fuzzy, kde-format
+msgctxt "Document title"
+msgid "Title:"
+msgstr "Teideal:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRevisionDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:201
+#, kde-format
+msgid "Revision number:"
+msgstr "Leasú:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblModifiedDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:211
+#, kde-format
+msgid "Modified:"
+msgstr "Athraithe:"
+
+#. i18n: ectx: property (text), widget (QLabel, lbCommentsDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:231
+#, kde-format
+msgid "Comments:"
+msgstr "Nótaí:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblCreatedDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:251
+#, kde-format
+msgid "Created:"
+msgstr "Cruthaithe:"
+
+#. i18n: ectx: property (text), widget (QLabel, filePathInfoLabel)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:261
+#, kde-format
+msgid "Path:"
+msgstr "Conair:"
+
+#. i18n: ectx: property (text), widget (QPushButton, pbReset)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:280
+#, kde-format
+msgid "&Reset"
+msgstr "Athshoc&raigh"
+
+#. i18n: ectx: property (text), widget (QLabel, lbLanguageDesc)
+#. +> trunk6 stable6
+#: widgets/koDocumentInfoAboutWidget.ui:297
+#, fuzzy, kde-format
+#| msgid "Language"
+msgid "Language:"
+msgstr "Teanga"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:102 widgets/KoDocumentInfoDlg.cpp:103
+#, kde-format
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:126
+#, fuzzy, kde-format
+msgid "Last saved by"
+msgstr "An Leathanach Deireanach"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:175
+#, fuzzy, kde-format
+msgid "Use ';' (Example: Office;KDE;Calligra)"
+msgstr "Úsáid ';' (Sampla: Office;KDE;KOffice)"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:205 widgets/KoDocumentInfoDlg.cpp:301
+#, kde-format
+msgid "This document will be decrypted"
+msgstr "Beidh an cháipéis seo díchriptithe"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:207 widgets/KoDocumentInfoDlg.cpp:303
+#, kde-format
+msgid "Do not decrypt"
+msgstr "Ná díchriptigh"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:209 widgets/KoDocumentInfoDlg.cpp:305
+#, kde-format
+msgid "This document is encrypted"
+msgstr "Tá an cháipéis seo criptithe"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:211 widgets/KoDocumentInfoDlg.cpp:307
+#, kde-format
+msgid "D&ecrypt"
+msgstr "&Díchriptigh"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:215 widgets/KoDocumentInfoDlg.cpp:310
+#, kde-format
+msgid "This document will be encrypted."
+msgstr "Beidh an cháipéis seo criptithe"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:217 widgets/KoDocumentInfoDlg.cpp:312
+#, kde-format
+msgid "Do not encrypt"
+msgstr "Ná criptigh"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:219 widgets/KoDocumentInfoDlg.cpp:314
+#, kde-format
+msgid "This document is not encrypted"
+msgstr "Níl an cháipéis seo criptithe"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:225
+#, kde-format
+msgid "This document does not support encryption"
+msgstr "Ní thacaíonn an cháipéis seo le criptiú"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:235
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Not set"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:278 widgets/KoDocumentInfoDlg.cpp:284
+#, kde-format
+msgctxt "list separator"
+msgid ", "
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:337
+#, kde-format
+msgid ""
+"<qt>Decrypting the document will remove the password protection from it."
+"<p>Do you still want to decrypt the file?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:339
+#, fuzzy, kde-format
+#| msgid "Confirm Save"
+msgid "Confirm Decrypt"
+msgstr "Deimhnigh Sábháil"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:340
+#, kde-format
+msgid "Decrypt"
+msgstr "Díchriptigh"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:349
+#, kde-format
+msgid ""
+"<qt>Your document could not be saved automatically."
+"<p>To complete the decryption, please save the document.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:351 widgets/KoDocumentInfoDlg.cpp:358
+#: widgets/KoDocumentInfoDlg.cpp:393 widgets/KoDocumentInfoDlg.cpp:401
+#, kde-format
+msgid "Save Document"
+msgstr "Sábháil an Cháipéis"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:356
+#, kde-format
+msgid ""
+"<qt>To complete the decryption the document needs to be saved."
+"<p>Do you want to save the document now?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:375
+#, kde-format
+msgid ""
+"<qt>The document is currently saved as %1. The document needs to be changed to <b>OASIS OpenDocument</b> to be encrypted."
+"<p>Do you want to change the file to OASIS OpenDocument?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:378
+#, kde-format
+msgid "Change Filetype"
+msgstr "Athraigh Cineál an Chomhaid"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:379
+#, kde-format
+msgid "Change"
+msgstr "Athraigh"
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:391
+#, kde-format
+msgid ""
+"<qt>Your document could not be saved automatically."
+"<p>To complete the encryption, please save the document.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoDocumentInfoDlg.cpp:399
+#, kde-format
+msgid ""
+"<qt>The document has been changed since it was opened. To complete the encryption the document needs to be saved."
+"<p>Do you want to save the document now?</qt>"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, add)
+#. +> trunk6 stable6
+#: widgets/KoEditColorSet.ui:45
+#, kde-format
+msgid "Add"
+msgstr "Cuir Leis"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, remove)
+#. +> trunk6 stable6
+#: widgets/KoEditColorSet.ui:55
+#, kde-format
+msgid "Remove"
+msgstr "Bain"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, open)
+#. +> trunk6 stable6
+#: widgets/KoEditColorSet.ui:65
+#, kde-format
+msgid "Open palette"
+msgstr "Oscail pailéad"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, save)
+#. +> trunk6 stable6
+#: widgets/KoEditColorSet.ui:75
+#, kde-format
+msgid "Save palette"
+msgstr "Sábháil pailéad"
+
+#. +> trunk6 stable6
+#: widgets/KoEditColorSetDialog.cpp:146
+#, kde-format
+msgid "Add Color To Palette"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoEditColorSetDialog.cpp:146
+#, kde-format
+msgid "Color name:"
+msgstr "Ainm an datha:"
+
+#. +> trunk6 stable6
+#: widgets/KoEditColorSetDialog.cpp:174
+#, kde-format
+msgid "Gimp Color Palette (*.gpl)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoEditColorSetDialog.cpp:187
+#, fuzzy, kde-format
+msgid "Cannot write to palette file %1. Maybe it is read-only. "
+msgstr "An bhfuil fonn ort an focal faire a shábháil?"
+
+#. +> trunk6 stable6
+#: widgets/KoEditColorSetDialog.cpp:187
+#, kde-format
+msgid "Palette"
+msgstr "Pailéad"
+
+#. +> trunk6 stable6
+#: widgets/KoEditColorSetDialog.cpp:201
+#, kde-format
+msgid "Add/Remove Colors"
+msgstr "Cuir Dathanna Leis/Bain Dathanna"
+
+#. +> trunk6 stable6
+#: widgets/KoFillConfigWidget.cpp:147
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "No stroke or fill"
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6
+#: widgets/KoFillConfigWidget.cpp:155
+#, kde-format
+msgctxt "Solid color stroke or fill"
+msgid "Solid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoFillConfigWidget.cpp:163
+#, fuzzy, kde-format
+#| msgid "SVG Gradient"
+msgid "Gradient"
+msgstr "Grádán SVG"
+
+#. +> trunk6 stable6
+#: widgets/KoFillConfigWidget.cpp:171
+#, kde-format
+msgid "Pattern"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoFillConfigWidget.cpp:185
+#, fuzzy, kde-format
+msgid "Change the filling color"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: widgets/KoFillConfigWidget.cpp:196
+#, fuzzy, kde-format
+msgid "Change the filling gradient"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: widgets/KoFillConfigWidget.cpp:203
+#, fuzzy, kde-format
+msgid "Change the filling pattern"
+msgstr "Athraigh an máistirleathanach"
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:148
+#, kde-format
+msgid "Target:"
+msgstr "Sprioc:"
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:151
+#, fuzzy, kde-format
+#| msgid "&Filling:"
+msgid "Fill"
+msgstr "&Líonadh:"
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:157
+#, fuzzy, kde-format
+#| msgid "Line"
+msgctxt "Linear gradient type"
+msgid "Linear"
+msgstr "Líne"
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:158
+#, kde-format
+msgctxt "Radial gradient type"
+msgid "Radial"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:159
+#, kde-format
+msgctxt "Conical gradient type"
+msgid "Conical"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:162
+#, kde-format
+msgid "Repeat:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:164
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "No gradient spread"
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:165
+#, kde-format
+msgid "Reflect"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:166
+#, kde-format
+msgid "Repeat"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:169
+#, fuzzy, kde-format
+#| msgid "Opacity:"
+msgid "Overall opacity:"
+msgstr "Teimhneacht:"
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:174
+#, fuzzy, kde-format
+#| msgid "Color:"
+msgid "Color stop:"
+msgstr "Dath:"
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:182
+#, kde-format
+msgid "Stop color."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoGradientEditWidget.cpp:185
+#, kde-format
+msgid "&Add to Predefined Gradients"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoModeBox.cpp:501
+#, fuzzy, kde-format
+msgid "Icon and Text"
+msgstr "Téacs"
+
+#. +> trunk6 stable6
+#: widgets/KoModeBox.cpp:502
+#, kde-format
+msgid "Icon only"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoModeBox.cpp:505
+#, fuzzy, kde-format
+#| msgid "Single sided"
+msgid "Sidebar side"
+msgstr "Taobh amháin"
+
+#. +> trunk6 stable6
+#: widgets/KoModeBox.cpp:514
+#, fuzzy, kde-format
+#| msgid "Left Edge:"
+msgid "Left side"
+msgstr "Ciumhais Ar Chlé:"
+
+#. +> trunk6 stable6
+#: widgets/KoModeBox.cpp:515
+#, fuzzy, kde-format
+#| msgid "Right Edge:"
+msgid "Right side"
+msgstr "Ciumhais Ar Dheis:"
+
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutDialog.cpp:36
+#, kde-format
+msgid "Page Layout"
+msgstr "Leagan Amach Leathanaigh"
+
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutDialog.cpp:95
+#, kde-format
+msgid "Apply to document"
+msgstr "Cuir i bhfeidhm ar an gcáipéis"
+
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.cpp:180
+#, fuzzy, kde-format
+#| msgid "Left Margin"
+msgid "Left Edge Margin:"
+msgstr "Imeall ar chlé"
+
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.cpp:181
+#, fuzzy, kde-format
+#| msgid "Right Margin"
+msgid "Right Edge Margin:"
+msgstr "Imeall ar dheis"
+
+#. i18n: ectx: property (text), widget (QLabel, leftLabel)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.cpp:183 widgets/KoPageLayoutWidget.ui:222
+#, fuzzy, kde-format
+#| msgid "Binding Edge:"
+msgid "Binding Edge Margin:"
+msgstr "Ciumhais Cheangail:"
+
+#. i18n: ectx: property (text), widget (QLabel, rightLabel)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.cpp:184 widgets/KoPageLayoutWidget.ui:242
+#, fuzzy, kde-format
+#| msgid "Page Edge:"
+msgid "Page Edge Margin:"
+msgstr "Ciumhais an Leathanaigh:"
+
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.cpp:286
+#, kde-format
+msgid "Facing Pages:"
+msgstr "Leathanaigh ar aghaigh a chéile:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, facingPages)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.cpp:287 widgets/KoPageLayoutWidget.ui:160
+#, kde-format
+msgid "Facing pages"
+msgstr "Leathanaigh ar aghaigh a chéile"
+
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.cpp:289
+#, kde-format
+msgid "Page Layout:"
+msgstr "Leagan Amach an Leathanaigh:"
+
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.cpp:290
+#, fuzzy, kde-format
+#| msgid "Page Header"
+msgid "Page spread"
+msgstr "Ceanntásc Leathanaigh"
+
+#. i18n: ectx: property (text), widget (QLabel, unitsLabel)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:25
+#, kde-format
+msgid "Unit:"
+msgstr "Aonad:"
+
+#. i18n: ectx: property (text), widget (QLabel, stylesLabel)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:45
+#, fuzzy, kde-format
+#| msgid "Font style"
+msgid "Follow style:"
+msgstr "Stíl an chló"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:61
+#, kde-format
+msgid "Size:"
+msgstr "Méid:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:77
+#, kde-format
+msgid "Width:"
+msgstr "Leithead:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:104
+#, kde-format
+msgid "Height:"
+msgstr "Airde:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:119
+#, kde-format
+msgid "Orientation:"
+msgstr "Treoshuíomh:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, portrait)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:129
+#, kde-format
+msgid "Portrait"
+msgstr "Portráid"
+
+#. i18n: ectx: property (text), widget (QRadioButton, landscape)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:136
+#, kde-format
+msgid "Landscape"
+msgstr "Tírdhreach"
+
+#. i18n: ectx: property (text), widget (QLabel, facingPageLabel)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:143
+#, kde-format
+msgid "Facing pages:"
+msgstr "Leathanaigh ar aghaigh a chéile:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, singleSided)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:153
+#, kde-format
+msgid "Single sided"
+msgstr "Taobh amháin"
+
+#. i18n: ectx: property (text), widget (QLabel, directionLabel)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:167
+#, kde-format
+msgid "Text direction:"
+msgstr "Treo an téacs:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:184
+#, kde-format
+msgid "Automatic"
+msgstr "Uathoibríoch"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:189
+#, kde-format
+msgid "Left to right"
+msgstr "Clé go deas"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, textDirection)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:194
+#, kde-format
+msgid "Right to left"
+msgstr "Deas go clé"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:202
+#, fuzzy, kde-format
+#| msgid "Top Margin"
+msgid "Top Margin:"
+msgstr "Imeall ag an mbarr"
+
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#. +> trunk6 stable6
+#: widgets/KoPageLayoutWidget.ui:262
+#, fuzzy, kde-format
+#| msgid "Bottom Margin"
+msgid "Bottom Margin:"
+msgstr "Imeall ag an mbun"
+
+#. +> trunk6 stable6
+#: widgets/KoResourceItemChooser.cpp:138
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Import resource"
+msgstr "Iompórtáil Cáipéis"
+
+#. +> trunk6 stable6
+#: widgets/KoResourceItemChooser.cpp:145
+#, fuzzy, kde-format
+msgctxt "@info:tooltip"
+msgid "Delete resource"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: widgets/KoResourceItemChooser.cpp:191
+#, fuzzy, kde-format
+#| msgid "Choose Filter"
+msgctxt "@title:window"
+msgid "Choose File to Add"
+msgstr "Roghnaigh Scagaire"
+
+#. +> trunk6 stable6
+#: widgets/KoResourceItemChooserContextMenu.cpp:105
+#: widgets/KoTagToolButton.cpp:52
+#, fuzzy, kde-format
+#| msgid "New Layer"
+msgid "New tag"
+msgstr "Sraith Nua"
+
+#. +> trunk6 stable6
+#: widgets/KoResourceItemChooserContextMenu.cpp:140
+#, kde-format
+msgid "Assign to tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoResourceItemChooserContextMenu.cpp:149
+#, fuzzy, kde-format
+#| msgid "Remove point"
+msgid "Remove from this tag"
+msgstr "Bain pointe"
+
+#. +> trunk6 stable6
+#: widgets/KoResourceItemChooserContextMenu.cpp:159
+#, fuzzy, kde-format
+#| msgid "Remove Comment"
+msgid "Remove from other tag"
+msgstr "Bain Nóta"
+
+#. +> trunk6 stable6
+#: widgets/KoResourceModel.cpp:69
+#, kde-format
+msgid "Tags"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoResourceTaggingManager.cpp:131
+#, kde-format
+msgid "Unable to undelete tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoResourceTaggingManager.cpp:132
+#, kde-format
+msgid ""
+"<qt>The tag you are trying to undelete already exists in tag list.<br>"
+"Please enter a new, unique name for it.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoResourceTaggingManager.cpp:140
+#, kde-format
+msgid "Tag was not undeleted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoRuler.cpp:1174
+#, kde-format
+msgid "First line indent"
+msgstr "Eangú chéadlíne"
+
+#. +> trunk6 stable6
+#: widgets/KoRuler.cpp:1177
+#, fuzzy, kde-format
+#| msgid "Left Edge:"
+msgid "Left indent"
+msgstr "Ciumhais Ar Chlé:"
+
+#. +> trunk6 stable6
+#: widgets/KoRuler.cpp:1180
+#, fuzzy, kde-format
+#| msgid "Right Edge:"
+msgid "Right indent"
+msgstr "Ciumhais Ar Dheis:"
+
+#. +> trunk6 stable6
+#: widgets/KoShadowConfigWidget.cpp:53
+#, kde-format
+msgid "Change the color of the shadow"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: widgets/KoShadowConfigWidget.ui:67
+#, kde-format
+msgid "Blur:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: widgets/KoShadowConfigWidget.ui:84
+#, kde-format
+msgid "Distance:"
+msgstr "Fad:"
+
+#. +> trunk6 stable6
+#: widgets/KoShapePropertyWidget.cpp:46
+#, kde-format
+msgctxt "@title:group"
+msgid "Shape Properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoShapePropertyWidget.cpp:57
+#, fuzzy, kde-format
+#| msgid "No picture available."
+msgctxt "@info"
+msgid "No properties available"
+msgstr "Níl aon phictiúr ar fáil."
+
+#. +> trunk6 stable6
+#: widgets/KoStrokeConfigWidget.cpp:83
+#, kde-format
+msgid "Butt cap"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoStrokeConfigWidget.cpp:90
+#, kde-format
+msgid "Round cap"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoStrokeConfigWidget.cpp:97
+#, fuzzy, kde-format
+msgid "Square cap"
+msgstr "Urchar Cearnach"
+
+#. +> trunk6 stable6
+#: widgets/KoStrokeConfigWidget.cpp:108
+#, kde-format
+msgid "Miter join"
+msgstr "Mítéaralt"
+
+#. +> trunk6 stable6
+#: widgets/KoStrokeConfigWidget.cpp:115
+#, kde-format
+msgid "Round join"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoStrokeConfigWidget.cpp:122
+#, fuzzy, kde-format
+msgid "Bevel join"
+msgstr "Bain pointe"
+
+#. +> trunk6 stable6
+#: widgets/KoStrokeConfigWidget.cpp:132
+#, fuzzy, kde-format
+msgid "Miter limit"
+msgstr "Liosta teormharcáilte"
+
+#. +> trunk6 stable6
+#: widgets/KoStrokeConfigWidget.cpp:202
+#, kde-format
+msgid "Thickness:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoStrokeConfigWidget.cpp:212
+#, kde-format
+msgid "Set line width of actual selection"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoStrokeConfigWidget.cpp:228
+#, kde-format
+msgid "Change the color of the line/border"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoTagChooserWidget.cpp:42
+#, fuzzy, kde-format
+#| msgid "Tab"
+msgid "Tag"
+msgstr "Táb"
+
+#. +> trunk6 stable6
+#: widgets/KoTagFilterWidget.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<qt>Entering search terms here will add to, or remove resources from the current tag view."
+"<para>To filter based on the partial, case insensitive name of a resource:<br>"
+"<icode>partialname</icode> or <icode>!partialname</icode>.</para>"
+"<para>In-/exclusion of other tag sets:<br>"
+"<icode>[Tagname]</icode> or <icode>![Tagname]</icode>.</para>"
+"<para>Case sensitive and full name matching in-/exclusion:<br>"
+"<icode>\"ExactMatch\"</icode> or <icode>!\"ExactMatch\"</icode>.</para>"
+"Filter results cannot be saved for the <interface>All Presets</interface> view.<br>"
+"In this view, pressing <interface>Enter</interface> or clearing the filter box will restore all items.<br>"
+"Create and/or switch to a different tag if you want to save filtered resources into named sets.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoTagFilterWidget.cpp:52
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<qt>Entering search terms here will add to, or remove resources from the current tag view."
+"<para>To filter based on the partial, case insensitive name of a resource:<br>"
+"<icode>partialname</icode> or <icode>!partialname</icode>.</para>"
+"<para>In-/exclusion of other tag sets:<br>"
+"<icode>[Tagname]</icode> or <icode>![Tagname]</icode>.</para>"
+"<para>Case sensitive and full name matching in-/exclusion:<br>"
+"<icode>\"ExactMatch\"</icode> or <icode>!\"ExactMatch\"</icode>.</para>"
+"Pressing <interface>Enter</interface> or clicking the <interface>Save</interface> button will save the changes.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoTagFilterWidget.cpp:65
+#, kde-format
+msgid "Enter resource filters here"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoTagFilterWidget.cpp:76
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "<qt>Save the currently filtered set as the new members of the current tag.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoTagToolButton.cpp:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "<qt>Show the tag box options.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoTagToolButton.cpp:60
+#, fuzzy, kde-format
+msgid "Rename tag"
+msgstr "Leathanach Baile"
+
+#. +> trunk6 stable6
+#: widgets/KoTagToolButton.cpp:70
+#, fuzzy, kde-format
+#| msgid "Delete Page"
+msgid "Delete this tag"
+msgstr "Scrios Leathanach"
+
+#. +> trunk6 stable6
+#: widgets/KoTagToolButton.cpp:86
+#, kde-format
+msgid "Clear undelete list"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoTagToolButton.cpp:114
+#, fuzzy, kde-format
+#| msgid "delete"
+msgid "Undelete"
+msgstr "scrios"
+
+#. +> trunk6 stable6
+#: widgets/KoToolBox.cpp:310
+#, fuzzy, kde-format
+#| msgid "Default"
+msgctxt "@item:inmenu Icon size"
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#. +> trunk6 stable6
+#: widgets/KoToolBox.cpp:315
+#, kde-format
+msgid "%1x%2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoToolBoxButton.cpp:53
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@info:tooltip"
+msgid "%1"
+msgstr "%1%"
+
+#. +> trunk6 stable6
+#: widgets/KoToolBoxButton.cpp:53
+#, kde-format
+msgctxt "@info:tooltip %2 is shortcut"
+msgid "%1 (%2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoToolBoxDocker.cpp:25
+#, fuzzy, kde-format
+#| msgid "Tools"
+msgid "Toolbox"
+msgstr "Uirlisí"
+
+#. +> trunk6 stable6
+#: widgets/KoToolBoxDocker.cpp:134
+#, fuzzy, kde-format
+msgid "Icon Size"
+msgstr "Socraigh Clómhéid"
+
+#. +> trunk6 stable6
+#: widgets/KoToolBoxDocker.cpp:137
+#, fuzzy, kde-format
+#| msgid "Layout"
+msgctxt "Toolbox layout"
+msgid "Layout"
+msgstr "Leagan Amach"
+
+#. +> trunk6 stable6
+#: widgets/KoToolBoxDocker.cpp:140
+#, fuzzy, kde-format
+#| msgid "Automatic"
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Automatic"
+msgstr "Uathoibríoch"
+
+#. +> trunk6 stable6
+#: widgets/KoToolBoxDocker.cpp:147
+#, fuzzy, kde-format
+#| msgid "Left to right"
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Left-to-right"
+msgstr "Clé go deas"
+
+#. +> trunk6 stable6
+#: widgets/KoToolBoxDocker.cpp:154
+#, fuzzy, kde-format
+#| msgid "Right to left"
+msgctxt "@item:inmenu Toolbox layout direction"
+msgid "&Right-to-left"
+msgstr "Deas go clé"
+
+#. +> trunk6 stable6
+#: widgets/KoToolDocker.cpp:117
+#, kde-format
+msgid "Tool Options"
+msgstr "Roghanna Uirlisí"
+
+#. +> trunk6 stable6
+#: widgets/KoViewItemContextBar.cpp:176
+#, fuzzy, kde-format
+msgid "deselect item"
+msgstr "Díroghnaigh Mír"
+
+#. +> trunk6 stable6
+#: widgets/KoViewItemContextBar.cpp:176
+#, fuzzy, kde-format
+msgid "select item"
+msgstr "Díroghnaigh Mír"
+
+#. +> trunk6 stable6
+#: widgets/KoZoomAction.cpp:189 widgets/KoZoomAction.cpp:201
+#: widgets/KoZoomMode.cpp:11
+#, kde-format
+msgid "%1%"
+msgstr "%1%"
+
+#. +> trunk6 stable6
+#: widgets/KoZoomMode.cpp:12
+msgid "Fit Page Width"
+msgstr "Oiriúnaigh don Leithead"
+
+#. +> trunk6 stable6
+#: widgets/KoZoomMode.cpp:13
+msgid "Fit Page"
+msgstr "Laghdaigh go dtí an Leathanach"
+
+#. +> trunk6 stable6
+#: widgets/KoZoomMode.cpp:15
+msgid "Actual Pixels"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoZoomMode.cpp:19
+#, fuzzy
+#| msgid "Fit Page Width"
+msgid "Fit Text Width"
+msgstr "Oiriúnaigh don Leithead"
+
+#. +> trunk6 stable6
+#: widgets/KoZoomWidget.cpp:69
+#, kde-format
+msgid "Use same aspect as pixels"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/KoZoomWidget.cpp:78
+#, kde-format
+msgid "Zoom to Selection"
+msgstr "Súmáil go dtí an Roghnúchán"
+
+#. +> trunk6 stable6
+#: widgets/KoZoomWidget.cpp:87
+#, fuzzy, kde-format
+#| msgid "Zoom Tool"
+msgid "Zoom to All"
+msgstr "Uirlis Súmála"
+
+#. +> trunk6 stable6
+#: widgetutils/KoFileDialog.cpp:394
+#, fuzzy, kde-format
+#| msgid "Key Press"
+msgid "All files"
+msgstr "Eochairbhrú"
+
+#. +> trunk6 stable6
+#: widgetutils/KoFileDialog.cpp:397
+#, kde-format
+msgid "All supported formats"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgetutils/KoGroupButton.cpp:134
+#, fuzzy, kde-format
+#| msgid "%1%"
+msgctxt "@info:tooltip of custom triple button"
+msgid "%1"
+msgstr "%1%"

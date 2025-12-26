@@ -1,0 +1,503 @@
+# Irish translation of kdialog
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdialog package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase/kdialog.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-15 09:16+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:253
+#, kde-format
+msgid "KDialog can be used to show nice dialog boxes from shell scripts"
+msgstr "Is féidir KDialog a úsáid chun dialóga deasa a thaispeáint ó scripteanna blaoisce"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:255
+#, kde-format
+msgid "(C) 2000, Nick Thompson"
+msgstr "© 2000, Nick Thompson"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:256
+#, kde-format
+msgid "David Faure"
+msgstr "David Faure"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:256
+#, kde-format
+msgid "Current maintainer"
+msgstr "Cothaitheoir reatha"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:257
+#, kde-format
+msgid "Brad Hards"
+msgstr "Brad Hards"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:258
+#, kde-format
+msgid "Nick Thompson"
+msgstr "Nick Thompson"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:259
+#, kde-format
+msgid "Matthias Hölzer"
+msgstr "Matthias Hölzer"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:260
+#, kde-format
+msgid "David Gümbel"
+msgstr "David Gümbel"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:261
+#, kde-format
+msgid "Richard Moore"
+msgstr "Richard Moore"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:262
+#, kde-format
+msgid "Dawit Alemayehu"
+msgstr "Dawit Alemayehu"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:263
+#, kde-format
+msgid "Kai Uwe Broulik"
+msgstr "Kai Uwe Broulik"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:270
+#, kde-format
+msgid "Question message box with yes/no buttons"
+msgstr "Bosca ceiste le cnaipí Tá/Níl"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:271
+#, kde-format
+msgid "Question message box with yes/no/cancel buttons"
+msgstr "Bosca ceiste le cnaipí Tá/Níl/Cealaigh"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:272
+#, kde-format
+msgid "Warning message box with yes/no buttons"
+msgstr "Bosca rabhaidh le cnaipí Tá/Níl"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:273
+#, kde-format
+msgid "Warning message box with continue/cancel buttons"
+msgstr "Bosca rabhaidh le cnaipí Lean/Cealaigh"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:274
+#, kde-format
+msgid "Warning message box with yes/no/cancel buttons"
+msgstr "Bosca rabhaidh le cnaipí Tá/Níl/Cealaigh"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:276
+#, fuzzy, kde-format
+#| msgid "Use text as No button label"
+msgid "Use text as OK button label"
+msgstr "Úsáid an téacs mar lipéad i gcnaipe 'Níl'"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:277
+#, kde-format
+msgid "Use text as Yes button label"
+msgstr "Úsáid an téacs mar lipéad i gcnaipe 'Tá'"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:278
+#, kde-format
+msgid "Use text as No button label"
+msgstr "Úsáid an téacs mar lipéad i gcnaipe 'Níl'"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:279
+#, kde-format
+msgid "Use text as Cancel button label"
+msgstr "Úsáid an téacs mar lipéad i gcnaipe 'Cealaigh'"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:280
+#, kde-format
+msgid "Use text as Continue button label"
+msgstr "Úsáid an téacs mar lipéad i gcnaipe 'Lean'"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:281
+#, kde-format
+msgid "'Sorry' message box"
+msgstr "Bosca teachtaireachta 'Tá Brón Orm'"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:282
+#, kde-format
+msgid "'Sorry' message box with expandable Details field"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:283
+#, kde-format
+msgid "'Error' message box"
+msgstr "Bosca teachtaireachta 'Earráid'"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:284
+#, kde-format
+msgid "'Error' message box with expandable Details field"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:285
+#, kde-format
+msgid "Message Box dialog"
+msgstr "Bosca Teachtaireachta"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:286
+#, kde-format
+msgid "Input Box dialog"
+msgstr "Bosca Ionchurtha"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:287
+#, fuzzy, kde-format
+#| msgid "Message Box dialog"
+msgid "Image Box dialog"
+msgstr "Bosca Teachtaireachta"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:288
+#, fuzzy, kde-format
+#| msgid "Message Box dialog"
+msgid "Image Box Input dialog"
+msgstr "Bosca Teachtaireachta"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:289
+#, kde-format
+msgid "Password dialog"
+msgstr "Dialóg fhocail faire"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:290
+#, fuzzy, kde-format
+#| msgid "Password dialog"
+msgid "New Password dialog"
+msgstr "Dialóg fhocail faire"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:291
+#, kde-format
+msgid "Text Box dialog"
+msgstr "Bosca Téacs"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:292
+#, kde-format
+msgid "Text Input Box dialog"
+msgstr "Bosca Ionchurtha Téacs"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:293
+#, kde-format
+msgid "ComboBox dialog"
+msgstr "Bosca Teaglama"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:294
+#, kde-format
+msgid "Menu dialog"
+msgstr "Dialóg Roghchláir"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:295
+#, kde-format
+msgid "Check List dialog"
+msgstr "Dialóg Sheicliosta"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:296
+#, kde-format
+msgid "Radio List dialog"
+msgstr "Dialóg Cnaipí Raidió"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:297
+#, kde-format
+msgid "Passive Popup"
+msgstr "Preabfhuinneog Éighníomhach"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:298
+#, fuzzy, kde-format
+#| msgid "Passive Popup"
+msgid "Popup icon"
+msgstr "Preabfhuinneog Éighníomhach"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:299
+#, fuzzy, kde-format
+#| msgid "File dialog to open an existing file"
+msgid "File dialog to open an existing file (arguments [startDir] [name or mimetype filter])"
+msgstr "Dialóg chomhaid chun comhad atá ann a oscailt"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:300
+#, fuzzy, kde-format
+#| msgid "File dialog to save a file"
+msgid "File dialog to save a file (arguments [startDir] [name or mimetype filter])"
+msgstr "Dialóg chomhaid chun comhad a shábháil"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:301
+#, fuzzy, kde-format
+#| msgid "File dialog to select an existing directory"
+msgid "File dialog to select an existing directory (arguments [startDir])"
+msgstr "Dialóg chomhaid chun comhadlann atá ann a roghnú"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:302
+#, fuzzy, kde-format
+#| msgid "File dialog to open an existing file"
+msgid "File dialog to open an existing URL (arguments [startDir] [name or mimetype filter])"
+msgstr "Dialóg chomhaid chun comhad atá ann a oscailt"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:303
+#, fuzzy, kde-format
+#| msgid "File dialog to save a file"
+msgid "File dialog to save a URL (arguments [startDir] [name or mimetype filter])"
+msgstr "Dialóg chomhaid chun comhad a shábháil"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:304
+#, kde-format
+msgid "Icon chooser dialog (arguments [group] [context])"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:305 kdialog_progress_helper.cpp:40
+#, kde-format
+msgid "Progress bar dialog, returns a D-Bus reference for communication"
+msgstr "Dialóg dul chun cinn a aisfhilleann tagairt D-Bus le haghaidh cumarsáide"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:306
+#, kde-format
+msgid "Color dialog to select a color"
+msgstr "Dialóg dathanna chun dath a roghnú"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:307
+#, kde-format
+msgid "Allow --getcolor to specify output format"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:309 kdialog_progress_helper.cpp:41
+#, kde-format
+msgid "Dialog title"
+msgstr "Teideal dialóige"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:310
+#, fuzzy, kde-format
+#| msgid "Default entry to use for combobox, menu and color"
+msgid "Default entry to use for combobox, menu, color, and calendar"
+msgstr "Iontráil réamhshocraithe le húsáid i mbosca teaglama, roghchlár agus dath"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:311
+#, kde-format
+msgid "Allows the --getopenurl and --getopenfilename options to return multiple files"
+msgstr "Ceadaigh do na roghanna --getopenurl agus --getopenfilename comhaid iomadúla a aisfhilleadh"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:312
+#, kde-format
+msgid "Return list items on separate lines (for checklist option and file open with --multiple)"
+msgstr "Cuir míreanna liosta ar línte ar leith (do sheicliosta agus oscailt chomhaid le --multiple)"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:313
+#, kde-format
+msgid "Outputs the winId of each dialog"
+msgstr "Taispeáin winId gach dialóige"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:314
+#, kde-format
+msgid "Config file and option name for saving the \"do-not-show/ask-again\" state"
+msgstr "Comhad cumraíochta agus ainm na rogha a sábhálfar an staid \"ná-taispeáin/fiafraigh-arís\" ann"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:316
+#, fuzzy, kde-format
+#| msgid "Slider dialog box, returns selected value"
+msgid "Slider dialog box, returns selected value (arguments [text] [min] [max] [step])"
+msgstr "Dialóg shleamhnáin a aischuireann an luach roghnaithe"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:317
+#, kde-format
+msgid "Date format for calendar result and/or default value (Qt-style); defaults to 'ddd MMM d yyyy'"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:318
+#, kde-format
+msgid "Calendar dialog box, returns selected date"
+msgstr "Dialóg fhéilire a aischuireann an dáta roghnaithe"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:321
+#, kde-format
+msgid "Makes the dialog transient for an X app specified by winid"
+msgstr "Déan an dialóg sealadach le haghaidh an fheidhmchláir X sonraithe ag winid"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:322
+#, kde-format
+msgid "A synonym for --attach"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:325
+#, kde-format
+msgid "Dialog geometry: [=][<width>{xX}<height>][{+-}<xoffset>{+-}<yoffset>]"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:327 kdialog_progress_helper.cpp:42
+#, kde-format
+msgid "Arguments - depending on main option"
+msgstr "Argóintí - ag brath ar an bpríomhrogha"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:339
+#, kde-format
+msgid "KDialog"
+msgstr "KDialog"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:365
+#, kde-format
+msgctxt "@action:button"
+msgid "&Yes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:366
+#, kde-format
+msgctxt "@action:button"
+msgid "&No"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:501
+#, kde-format
+msgid "Do not ask again"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:658
+#, kde-format
+msgid "Syntax: --combobox <text> item [item] ..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:680
+#, kde-format
+msgid "Syntax: --menu text tag item [tag item] ..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:704
+#, kde-format
+msgid "Syntax: --checklist text tag item on/off [tag item on/off] ..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:722
+#, kde-format
+msgid "Syntax: --radiolist text tag item on/off [tag item on/off] ..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:753
+#, kde-format
+msgctxt "@title:window"
+msgid "Open"
+msgstr "Oscail"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:805
+#, kde-format
+msgctxt "@title:window"
+msgid "Save As"
+msgstr "Sábháil Mar"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:839
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Directory"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kdialog.cpp:952
+#, kde-format
+msgctxt "@title:window"
+msgid "Choose Color"
+msgstr "Roghnaigh Dath"
+
+#. +> trunk6 stable6
+#: kdialog.cpp:1013
+#, kde-format
+msgid "Syntax: --slider <text> <min> <max> <step>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: progressdialog.cpp:24
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets.cpp:107 widgets.cpp:141 widgets.cpp:154
+#, kde-format
+msgid "kdialog: could not open file %1"
+msgstr "kdialog: níorbh fhéidir comhad %1 a oscailt"

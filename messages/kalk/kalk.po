@@ -1,0 +1,283 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kalk package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kalk\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-07 11:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:55 qml/CalculationPage.qml:16 qml/Main.qml:67 qml/Main.qml:109
+#: qml/Main.qml:115
+#, kde-format
+msgid "Calculator"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, kde-format
+msgid "Calculator for Plasma"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:59
+#, kde-format
+msgid "© 2020-2024 KDE Community"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qalculateengine.cpp:114
+#, kde-format
+msgid "warning"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qalculateengine.cpp:114
+#, kde-format
+msgid "error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/BinaryCalculator.qml:12 qml/Main.qml:79
+#, kde-format
+msgid "Programmer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/BinaryCalculator.qml:22 qml/CalculationPage.qml:41
+#, kde-format
+msgid "Undo"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/BinaryCalculator.qml:29 qml/CalculationPage.qml:51
+#, kde-format
+msgid "Redo"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/CalculationPage.qml:25 qml/HistoryView.qml:16
+#, kde-format
+msgid "History"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/CalculationPage.qml:61
+#, kde-format
+msgid "Cut"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/CalculationPage.qml:71
+#, kde-format
+msgid "Copy"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/CalculationPage.qml:81
+#, kde-format
+msgid "Paste"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/HistoryView.qml:30
+#, kde-format
+msgid "Clear history"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/HistoryView.qml:128
+#, kde-format
+msgid "History is empty"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/HistoryView.qml:136
+#, kde-format
+msgctxt "Delete all items from a list"
+msgid "Clear All History?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/HistoryView.qml:144
+#, kde-format
+msgctxt "Deleted items cannot be recovered"
+msgid "This is permanent and cannot be undone"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/HistoryView.qml:152
+#, kde-format
+msgid "Cancel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/HistoryView.qml:157
+#, kde-format
+msgid "Clear"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Main.qml:73 qml/Main.qml:131 qml/UnitConverter.qml:16
+#, kde-format
+msgid "Converter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Main.qml:85 qml/Main.qml:170
+#, kde-format
+msgid "Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/Main.qml:147
+#, kde-format
+msgid "Binary Calculator"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:17
+#, kde-format
+msgctxt "@title:window"
+msgid "Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:23
+#, kde-format
+msgctxt "@label:spinbox digits of precision"
+msgid "Precision"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:37
+#, kde-format
+msgctxt "@label:listbox trigonometric angle unit"
+msgid "Angle unit"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:38
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Default angle unit for trigonometric functions."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:41
+#, kde-format
+msgctxt "@item:inlistbox Angle unit"
+msgid "Radians"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:42
+#, kde-format
+msgctxt "@item:inlistbox Angle unit"
+msgid "Degrees"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:43
+#, kde-format
+msgctxt "@item:inlistbox Angle unit"
+msgid "Gradians"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:44
+#, kde-format
+msgctxt "@item:inlistbox Angle unit"
+msgid "Arcminute"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:45
+#, kde-format
+msgctxt "@item:inlistbox Angle unit"
+msgid "Arcsecond"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:46
+#, kde-format
+msgctxt "@item:inlistbox Angle unit"
+msgid "Turn"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:58
+#, kde-format
+msgctxt "@label:listbox control how expressions are parsed (read/interpreted)"
+msgid "Parsing mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:59
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "Expression evaluation order."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:62
+#, kde-format
+msgctxt "@item:inlistbox Parsing mode"
+msgid "Adaptive"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:63
+#, kde-format
+msgctxt "@item:inlistbox Parsing mode"
+msgid "Conventional"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:64
+#, kde-format
+msgctxt "@item:inlistbox Parsing mode"
+msgid "Implicit first"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:65
+#, kde-format
+msgctxt "@item:inlistbox Parsing mode"
+msgid "Chain"
+msgstr ""
+
+#. +> trunk6
+#: qml/SettingsPage.qml:78
+#, kde-format
+msgid "About"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/UnitConverter.qml:64
+#, kde-format
+msgid "Category"
+msgstr ""

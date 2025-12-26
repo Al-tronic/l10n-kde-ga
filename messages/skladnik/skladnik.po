@@ -1,0 +1,363 @@
+# Irish translation of ksokoban
+# Copyright (C) 2012 This_file_is_part_of_KDE
+# This file is distributed under the same license as the ksokoban package.
+# Kevin Scannell <kscanne@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: ksokoban\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-18 07:34+0100\n"
+"PO-Revision-Date: 2012-09-21 16:01-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: InternalCollections.cpp:32
+#, kde-format
+msgid "Sasquatch"
+msgstr "Sasquatch"
+
+#. +> trunk6 stable6
+#: InternalCollections.cpp:36
+#, kde-format
+msgid "Mas Sasquatch"
+msgstr "Mas Sasquatch"
+
+#. +> trunk6 stable6
+#: InternalCollections.cpp:40
+#, kde-format
+msgid "Sasquatch III"
+msgstr "Sasquatch III"
+
+#. +> trunk6 stable6
+#: InternalCollections.cpp:44
+#, kde-format
+msgid "Microban (easy)"
+msgstr "Microban (éasca)"
+
+#. +> trunk6 stable6
+#: InternalCollections.cpp:48
+#, kde-format
+msgid "Sasquatch IV"
+msgstr "Sasquatch IV"
+
+#. +> trunk6 stable6
+#: main.cpp:26
+#, kde-format
+msgid "Skladnik"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:28
+#, kde-format
+msgid "The japanese warehouse keeper game"
+msgstr "Cluiche Seapánach coimeádaí stórais"
+
+#. +> trunk6 stable6
+#: main.cpp:30
+#, kde-format
+msgid ""
+"(c) 1998 Anders Widell <awl@hem.passagen.se>\n"
+"(c) 2012 Lukasz Kalamlacki"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "Shlomi Fish"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "For porting to Qt5/KF5 and doing other cleanups"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:37
+#, kde-format
+msgid "Lukasz Kalamlacki"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:38
+#, kde-format
+msgid "For rewriting the original ksokoban game from kde3 to kde4"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:41
+#, kde-format
+msgid "Anders Widell"
+msgstr "Anders Widell"
+
+#. +> trunk6 stable6
+#: main.cpp:42
+#, kde-format
+msgid "For writing the original ksokoban game"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:45
+#, kde-format
+msgid "David W. Skinner"
+msgstr "David W. Skinner"
+
+#. +> trunk6 stable6
+#: main.cpp:46
+#, kde-format
+msgid "For contributing the Sokoban levels included in this game"
+msgstr "Na leibhéil Sokoban atá isteach leis an gcluiche seo"
+
+#. +> trunk6 stable6
+#: main.cpp:57
+#, fuzzy, kde-format
+#| msgid "Level collection file to load"
+msgid "Level collection file to load."
+msgstr "Comhad bailiúcháin leibhéal lu luchtú"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:38
+#, fuzzy, kde-format
+#| msgid "&Level Collection"
+msgctxt "@title:menu"
+msgid "Level Collection"
+msgstr "Bailiúchán &Leibhéal"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:97
+#, fuzzy, kde-format
+#| msgid "Load Levels From File"
+msgctxt "@action"
+msgid "Load Levels…"
+msgstr "Luchtaigh Leibhéil Ó Chomhad"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:101
+#, fuzzy, kde-format
+#| msgid "&Next Level"
+msgctxt "@action"
+msgid "Next Level"
+msgstr "An Chéad Leibhéal &Eile"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:106
+#, fuzzy, kde-format
+#| msgid "&Previous Level"
+msgctxt "@action"
+msgid "Previous Level"
+msgstr "An Leibhéal &Roimhe Seo"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:111
+#, fuzzy, kde-format
+#| msgid "Re&start Level"
+msgctxt "@action"
+msgid "Restart Level"
+msgstr "Ato&saigh an Leibhéal"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:124
+#, fuzzy, kde-format
+#| msgid "&Slow"
+msgctxt "@item animation speed"
+msgid "Slow"
+msgstr "&Mall"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:129
+#, fuzzy, kde-format
+#| msgid "&Medium"
+msgctxt "@item animation speed"
+msgid "Medium"
+msgstr "&Measartha"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:134
+#, fuzzy, kde-format
+#| msgid "&Fast"
+msgctxt "@item animation speed"
+msgid "Fast"
+msgstr "&Tapa"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:139
+#, fuzzy, kde-format
+#| msgid "&Off"
+msgctxt "@item animation speed"
+msgid "Off"
+msgstr "&Múchta"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:179 MainWindow.cpp:193
+#, fuzzy, kde-format
+#| msgid "(unused)"
+msgctxt "@item bookmark entry"
+msgid "(unused)"
+msgstr "(gan úsáid)"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:229
+#, fuzzy, kde-format
+#| msgid "(invalid)"
+msgctxt "@item bookmark entry"
+msgid "(invalid)"
+msgstr "(neamhbhailí)"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:288
+#, fuzzy, kde-format
+#| msgid "Load Levels From File"
+msgctxt "@title:window"
+msgid "Load Levels from a File"
+msgstr "Luchtaigh Leibhéil Ó Chomhad"
+
+#. +> trunk6 stable6
+#: MainWindow.cpp:323
+#, fuzzy, kde-format
+#| msgid "No levels found in file"
+msgctxt "@info"
+msgid "No levels found in file."
+msgstr "Níor aimsíodh aon leibhéil sa chomhad"
+
+#. +> trunk6 stable6
+#: PlayField.cpp:91
+#, fuzzy, kde-format
+#| msgid "Level:"
+msgctxt "@label"
+msgid "Level:"
+msgstr "Leibhéal:"
+
+#. +> trunk6 stable6
+#: PlayField.cpp:100
+#, fuzzy, kde-format
+#| msgid "Steps:"
+msgctxt "@label"
+msgid "Steps:"
+msgstr "Céimeanna:"
+
+#. +> trunk6 stable6
+#: PlayField.cpp:109
+#, fuzzy, kde-format
+#| msgid "Pushes:"
+msgctxt "@label"
+msgid "Pushes:"
+msgstr "Brúnna:"
+
+#. +> trunk6 stable6
+#: PlayField.cpp:270
+#, fuzzy, kde-format
+#| msgid "Level completed"
+msgctxt "@info"
+msgid "Level completed."
+msgstr "Leibhéal críochnaithe"
+
+#. +> trunk6 stable6
+#: PlayField.cpp:591
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the last level in\n"
+#| "the current collection."
+msgid "This is the last level in the current collection."
+msgstr ""
+"Seo é an leibhéal deiridh sa\n"
+"bhailiúchán reatha."
+
+#. +> trunk6 stable6
+#: PlayField.cpp:595
+#, fuzzy, kde-format
+#| msgid ""
+#| "You have not completed\n"
+#| "this level yet."
+msgid "You have not completed this level yet."
+msgstr ""
+"Níl an leibhéal seo\n"
+"déanta agat fós."
+
+#. +> trunk6 stable6
+#: PlayField.cpp:607
+#, fuzzy, kde-format
+#| msgid ""
+#| "This is the first level in\n"
+#| "the current collection."
+msgid "This is the first level in the current collection."
+msgstr ""
+"Seo é an chéad leibhéal sa\n"
+"bhailiúchán reatha."
+
+#. +> trunk6 stable6
+#: PlayField.cpp:683
+#, fuzzy, kde-format
+#| msgid ""
+#| "Sorry, bookmarks for external levels\n"
+#| "is not implemented yet."
+msgid "Bookmarks for external levels is not implemented yet."
+msgstr ""
+"Tá brón orm, níl leabharmharcanna do\n"
+"leibhéil sheachtracha ar fáil fós."
+
+#. +> trunk6 stable6
+#: PlayField.cpp:707
+#, fuzzy, kde-format
+#| msgid "This level is broken"
+msgid "This level is broken."
+msgstr "Tá an leibhéal seo briste"
+
+#. i18n: ectx: Menu (game)
+#. +> trunk6 stable6
+#: skladnikui.rc:6
+#, kde-format
+msgid "&Game"
+msgstr ""
+
+#. i18n: ectx: Menu (animation_speed)
+#. +> trunk6 stable6
+#: skladnikui.rc:20
+#, kde-format
+msgid "&Animation"
+msgstr ""
+
+#. i18n: ectx: Menu (bookmarks_menu)
+#. +> trunk6 stable6
+#: skladnikui.rc:27
+#, kde-format
+msgid "&Bookmarks"
+msgstr ""
+
+#. i18n: ectx: Menu (set_bookmarks)
+#. +> trunk6 stable6
+#: skladnikui.rc:29
+#, kde-format
+msgid "&Set Bookmark"
+msgstr ""
+
+#. i18n: ectx: Menu (goto_bookmarks)
+#. +> trunk6 stable6
+#: skladnikui.rc:42
+#, kde-format
+msgid "&Go to Bookmark"
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: skladnikui.rc:57
+#, kde-format
+msgid "Main Toolbar"
+msgstr ""

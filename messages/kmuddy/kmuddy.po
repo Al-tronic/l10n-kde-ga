@@ -1,0 +1,5912 @@
+# Irish translation of kmuddy
+# Copyright (C) 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kmuddy package.
+# Kevin Scannell <kscanne@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: kmuddy\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-12-26 08:44+0100\n"
+"PO-Revision-Date: 2011-12-28 12:28-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6
+#: kmuddy/cbuttoneditor.cpp:65 kmuddy/cgaugeeditor.cpp:72
+#: kmuddy/cstatusvareditor.cpp:70
+#, kde-format
+msgid "&Caption"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cbuttoneditor.cpp:68
+#, kde-format
+msgid "Caption of this button."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cbuttoneditor.cpp:71
+#, kde-format
+msgid "Co&mmand"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cbuttoneditor.cpp:74
+#, kde-format
+msgid "Command that will be executed if you click on the button. Note that you can enter multiple commands here (separated by semi-colons, or another character defined in <b>global settings</b>)."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cbuttoneditor.cpp:83
+#, kde-format
+msgid "Icon displayed on the button toolbar."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cbuttoneditor.cpp:91
+#, kde-format
+msgid "&Un-press command"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cbuttoneditor.cpp:94
+#, kde-format
+msgid "Command that will be executed if you click on the push-down button while it's pushed down."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cbuttoneditor.cpp:123 kmuddy/cshortcuteditor.cpp:114
+#: kmuddy/ctimereditor.cpp:132
+#, kde-format
+msgid "&General"
+msgstr "&Ginearálta"
+
+#. +> trunk6
+#: kmuddy/cbuttoneditor.cpp:124 kmuddy/cshortcuteditor.cpp:115
+#: kmuddy/ctimereditor.cpp:133 kmuddy/ctriggereditor.cpp:512
+#: libs/caliaseditor.cpp:227
+#, kde-format
+msgid "&Script"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cbuttoneditor.cpp:125
+#, kde-format
+msgid "Script when &released"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:262
+#, kde-format
+msgid "Network error: %1"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:422
+#, kde-format
+msgid "Do you want to close connection to %1?"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:423
+#, kde-format
+msgid "Disconnect"
+msgstr "Dícheangail"
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:423
+#, fuzzy, kde-format
+#| msgid "Connection"
+msgid "Close connection"
+msgstr "Ceangal"
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:423
+#, fuzzy, kde-format
+#| msgid "Connected"
+msgid "Stay connected"
+msgstr "Ceangailte"
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:507
+#, kde-format
+msgid "(password is hidden)"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:726
+#, kde-format
+msgid "Aliases are now enabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:726
+#, kde-format
+msgid "Aliases are now disabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:737
+#, kde-format
+msgid "Triggers are now enabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:737
+#, kde-format
+msgid "Triggers are now disabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:748
+#, kde-format
+msgid "Timers are now enabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:748
+#, kde-format
+msgid "Timers are now disabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:759
+#, kde-format
+msgid "Macro keys are now enabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:759
+#, kde-format
+msgid "Macro keys are now disabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:812
+#, kde-format
+msgid "Aliases"
+msgstr "Ailiasanna"
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:813
+#, kde-format
+msgid "Triggers"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:814
+#, kde-format
+msgid "Buttons"
+msgstr "Cnaipí"
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:815
+#, kde-format
+msgid "Timers"
+msgstr "Uaineadóirí"
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:816
+#, kde-format
+msgid "Macro Keys"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:817
+#, kde-format
+msgid "Status variables"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cconnection.cpp:818
+#, kde-format
+msgid "Gauges"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cgaugeeditor.cpp:58 kmuddy/cstatusvareditor.cpp:56
+#: plugins/vartrigs/cvartriggereditor.cpp:57
+#, kde-format
+msgid "&Variable name"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cgaugeeditor.cpp:62
+#, kde-format
+msgid "Variable displayed by this gauge."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cgaugeeditor.cpp:65 kmuddy/cstatusvareditor.cpp:63
+#, kde-format
+msgid "&Max. variable (optional)"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cgaugeeditor.cpp:69 kmuddy/cstatusvareditor.cpp:67
+#, kde-format
+msgid "Variable holding the maximum value (default=100)"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cgaugeeditor.cpp:75 kmuddy/cstatusvareditor.cpp:73
+#, kde-format
+msgid "Caption shown next to variable value."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cgaugeeditor.cpp:78
+#, kde-format
+msgid "&Color"
+msgstr "&Dath"
+
+#. +> trunk6
+#: kmuddy/cgaugeeditor.cpp:81
+#, kde-format
+msgid "Color used to paint this gauge."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:299
+#, kde-format
+msgid "line tag"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:300
+#, kde-format
+msgid "expire link"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:301
+#, kde-format
+msgid "horizontal line"
+msgstr "líne chothrománach"
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:302
+#, kde-format
+msgid "create window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:303
+#, kde-format
+msgid "create internal window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:304
+#, kde-format
+msgid "close window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:305
+#, kde-format
+msgid "set active window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:306
+#, kde-format
+msgid "move cursor"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:307
+#, kde-format
+msgid "erase text"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:308
+#, kde-format
+msgid "relocate"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:309
+#, kde-format
+msgid "send username/password"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:310
+#, kde-format
+msgid "image"
+msgstr "íomhá"
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:311
+#, kde-format
+msgid "image map"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:312
+#, kde-format
+msgid "unknown"
+msgstr "anaithnid"
+
+#. +> trunk6
+#: kmuddy/cmxpmanager.cpp:314
+#, kde-format
+msgid "Ignoring unsupported MXP request (%1)"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/csession.cpp:82
+#, kde-format
+msgid "Ctrl+Enter adds new line, unless changed in settings"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/csession.cpp:86
+#, kde-format
+msgid "Switches between standard and multi-line input line."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/csessionmanager.cpp:150 kmuddy/csessionmanager.cpp:182
+#, kde-format
+msgid "No connection"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/csessionmanager.cpp:211
+#, kde-format
+msgid "Connection closed."
+msgstr "Dúnadh an ceangal."
+
+#. +> trunk6
+#: kmuddy/cshortcut.cpp:126
+#, kde-format
+msgid "(unknown)"
+msgstr "(anaithnid)"
+
+#. +> trunk6
+#: kmuddy/cshortcut.cpp:128
+#, kde-format
+msgid "(none)"
+msgstr "(neamhní)"
+
+#. +> trunk6
+#: kmuddy/cshortcut.cpp:132
+#, kde-format
+msgid "Shift"
+msgstr "Shift"
+
+#. +> trunk6
+#: kmuddy/cshortcut.cpp:134
+#, kde-format
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#. +> trunk6
+#: kmuddy/cshortcut.cpp:136
+#, kde-format
+msgid "Alt"
+msgstr "Alt"
+
+#. +> trunk6
+#: kmuddy/cshortcut.cpp:138
+#, kde-format
+msgid "Meta"
+msgstr "Meta"
+
+#. +> trunk6
+#: kmuddy/cshortcuteditor.cpp:68 kmuddy/ctimereditor.cpp:67
+#: kmuddy/kmuddy.cpp:279
+#, kde-format
+msgid "&Command"
+msgstr "&Ordú"
+
+#. +> trunk6
+#: kmuddy/cshortcuteditor.cpp:71
+#, kde-format
+msgid ""
+"Command that will be executed when you press the defined key combination.\n"
+"Command can include aliases, script calls and similar stuff."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cshortcuteditor.cpp:76
+#, kde-format
+msgid "Shortcut"
+msgstr "Aicearra"
+
+#. +> trunk6
+#: kmuddy/cshortcuteditor.cpp:80
+#, kde-format
+msgid "Grab shortcut..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cshortcuteditor.cpp:83
+#, kde-format
+msgid "&Send command"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cshortcuteditor.cpp:84
+#, kde-format
+msgid "If checked, the command will be sent to the MUD. Otherwise, it will be put in the inputline."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cshortcuteditor.cpp:87
+#, kde-format
+msgid "&Overwrite existing text"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cshortcuteditor.cpp:88
+#, kde-format
+msgid "If there already is some text in the input line, should it be overwritten?"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cstatusvareditor.cpp:60
+#, kde-format
+msgid "Variable displayed by this status variable."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cstatusvareditor.cpp:76
+#, kde-format
+msgid "&Show as percentage"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/cstatusvareditor.cpp:77
+#, kde-format
+msgid "When enabled, this variable will be shown as percentage. (of max.value, or of 100 if no max.value given)"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctelnet.cpp:236 kmuddy/ctelnet.cpp:318
+#, kde-format
+msgid "--- A connection has been established ---"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctelnet.cpp:246
+#, kde-format
+msgid "Connecting..."
+msgstr "Ag ceangal..."
+
+#. +> trunk6
+#: kmuddy/ctelnet.cpp:1070
+#, kde-format
+msgid "The remote server has been found, attempting connection."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimer.cpp:78
+#, kde-format
+msgid " sec"
+msgstr " s"
+
+#. +> trunk6
+#: kmuddy/ctimer.cpp:80
+#, kde-format
+msgid ", single-shot"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:70
+#, kde-format
+msgid ""
+"Command that will be executed on each tick.\n"
+"Command can include aliases, script calls and similar stuff."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:74
+#, kde-format
+msgid "&Interval"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:77 kmuddy/ctimereditor.cpp:94
+#, kde-format
+msgid " secs"
+msgstr " soic"
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:81
+#, kde-format
+msgid "&Single-shot"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:82
+#, kde-format
+msgid "When enabled, the timer will only be executed once and then disabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:84
+#, kde-format
+msgid "&Run a command in advance"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:85
+#, kde-format
+msgid "Run a command a given number of seconds before each timer tick."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:87
+#, kde-format
+msgid "Advance command"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:90
+#, kde-format
+msgid "&Seconds before tick"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:97
+#, kde-format
+msgid "C&ommand"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctimereditor.cpp:100
+#, kde-format
+msgid ""
+"Command that will be executed the specified time before each tick.\n"
+"Command can include aliases, script calls and similar stuff."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:173
+#, kde-format
+msgid "Session transcript has been stopped."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:207
+#, kde-format
+msgid "Advanced session transcript has been stopped."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:258
+#, kde-format
+msgid "Transcript file could not be opened."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:259
+#, kde-format
+msgid "Session transcript could not be started."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:278
+#, kde-format
+msgid "Session transcript has just started."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:287
+#, kde-format
+msgid "Session transcript has been started."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:314
+#, kde-format
+msgid "Advanced transcript file could not be opened."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:315
+#, kde-format
+msgid "Advanced session transcript could not be started."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:331
+#, kde-format
+msgid "Advanced session transcript has just started."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:336
+#, kde-format
+msgid "Advanced session transcript has been started."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:340
+#, kde-format
+msgid "Session transcript will be rotated at midnight."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctranscript.cpp:426
+#, kde-format
+msgid "Dump file could not be opened."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:114
+#, kde-format
+msgid "Keep"
+msgstr "Coimeád"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:115 kmuddy/dialogs/dlgappsettings.cpp:70
+#, kde-format
+msgid "Black"
+msgstr "Dubh"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:116 kmuddy/dialogs/dlgappsettings.cpp:70
+#, kde-format
+msgid "Red"
+msgstr "Dearg"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:117 kmuddy/dialogs/dlgappsettings.cpp:70
+#, kde-format
+msgid "Green"
+msgstr "Uaine"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:118 kmuddy/dialogs/dlgappsettings.cpp:71
+#, kde-format
+msgid "Yellow"
+msgstr "Buí"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:119 kmuddy/dialogs/dlgappsettings.cpp:71
+#, kde-format
+msgid "Blue"
+msgstr "Gorm"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:120 kmuddy/dialogs/dlgappsettings.cpp:71
+#, kde-format
+msgid "Magenta"
+msgstr "Maigeanta"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:121 kmuddy/dialogs/dlgappsettings.cpp:71
+#, kde-format
+msgid "Cyan"
+msgstr "Cian"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:122 kmuddy/dialogs/dlgappsettings.cpp:71
+#, kde-format
+msgid "Gray"
+msgstr "Liath"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:123 kmuddy/dialogs/dlgappsettings.cpp:72
+#, kde-format
+msgid "Dark gray"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:124 kmuddy/dialogs/dlgappsettings.cpp:72
+#, kde-format
+msgid "Bright red"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:125 kmuddy/dialogs/dlgappsettings.cpp:72
+#, kde-format
+msgid "Bright green"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:126 kmuddy/dialogs/dlgappsettings.cpp:73
+#, kde-format
+msgid "Bright yellow"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:127 kmuddy/dialogs/dlgappsettings.cpp:73
+#, kde-format
+msgid "Bright blue"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:128 kmuddy/dialogs/dlgappsettings.cpp:73
+#, kde-format
+msgid "Bright magenta"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:129 kmuddy/dialogs/dlgappsettings.cpp:74
+#, kde-format
+msgid "Bright cyan"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:130 kmuddy/dialogs/dlgappsettings.cpp:74
+#, kde-format
+msgid "White"
+msgstr "Bán"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:131
+#, kde-format
+msgid "Other"
+msgstr "Eile"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:136
+#, kde-format
+msgid "Whole line"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:137
+#, kde-format
+msgid "Matching text"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:138
+#, kde-format
+msgid "Prefix"
+msgstr "Réimír"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:139
+#, kde-format
+msgid "Suffix"
+msgstr "Iarmhír"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:140
+#, kde-format
+msgid "Full prefix"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:141
+#, kde-format
+msgid "Full suffix"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:142
+#, kde-format
+msgid "Backreference"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:165
+#, kde-format
+msgid "&Trigger text"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:168 libs/caliaseditor.cpp:91
+#, kde-format
+msgid "Command that will be replaced if you enter it."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:178 libs/caliaseditor.cpp:101
+#, kde-format
+msgid "Exact match"
+msgstr "Comhoiriúnú beacht"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:179 libs/caliaseditor.cpp:102
+#, kde-format
+msgid "Sub-string"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:180 libs/caliaseditor.cpp:103
+#, kde-format
+msgid "Begins with"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:181 libs/caliaseditor.cpp:104
+#, kde-format
+msgid "Ends with"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:182 libs/caliaseditor.cpp:105
+#, kde-format
+msgid "Regular expression"
+msgstr "Slonn ionadaíochta"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:183
+#, kde-format
+msgid "Type of matching. Trigger will only be activated if this passes this type of test. Note that triggers are always matched as whole words."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:191 libs/caliaseditor.cpp:114
+#, kde-format
+msgid "Conditional triggering. If this is set, the actions will only fire if the condition is true (that means, if it evaluates as non-zero)."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:195
+#, kde-format
+msgid "&Command(s) to send:"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:199
+#, kde-format
+msgid "Command(s) that will replace command you've entered."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:202 libs/caliaseditor.cpp:125
+#, kde-format
+msgid "Test area"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:204 libs/caliaseditor.cpp:127
+#, kde-format
+msgid "&Text: "
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:210 libs/caliaseditor.cpp:133
+#: plugins/converter/converterdialog.cpp:54
+#: plugins/scripting/crunninglist.cpp:57
+#, kde-format
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:210 kmuddy/dialogs/dlgstatistics.cpp:53
+#: libs/caliaseditor.cpp:133 plugins/varviewer/dlgvarviewer.cpp:71
+#, kde-format
+msgid "Value"
+msgstr "Luach"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:214
+#, kde-format
+msgid "This is testing area. You can test your trigger here to see if it does what you want it to do. Simply type in some text and see what happens."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:248 kmuddy/ctriggereditor.cpp:513
+#: libs/caliaseditor.cpp:171 libs/caliaseditor.cpp:228
+#: plugins/scripting/cscripteditor.cpp:86
+#, kde-format
+msgid "&Options"
+msgstr "&Roghanna"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:251 libs/caliaseditor.cpp:180
+#, kde-format
+msgid "Whole words only"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:252
+#, kde-format
+msgid "When enabled, this trigger will only match the text if there are spaces or nothing before/after the matched string."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:255 libs/caliaseditor.cpp:184
+#, kde-format
+msgid "Case sensitive"
+msgstr "Cásíogair"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:256 libs/caliaseditor.cpp:185
+#, kde-format
+msgid "When this option is on, upper case and lower case letters are treated as different characters, otherwise they're considered to be the same."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:260
+#, kde-format
+msgid "Show but do not send"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:261
+#, kde-format
+msgid "When enabled, the text will not be sent to the MUD, it will only be displayed on the screen."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:264 libs/caliaseditor.cpp:193
+#, kde-format
+msgid "Global matching"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:265
+#, kde-format
+msgid ""
+"<p>With global matching, one trigger/trigger can match multiple times, if it contains the pattern more than once. For example, if pattern is abc, it matches only once on abcdabcd of global matching is off, but twice if it's on. For each match, the requested actions are performed - so the commands can be sent multiple times, once per match.</p>"
+"<p>Note that failing the condition does not terminate scanning, so you can use this to highlight names from a list (using the condition to check if a match is in the list), or something like that."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:287 kmuddy/ctriggereditor.cpp:294
+#, kde-format
+msgid "Continue matching"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:288 kmuddy/ctriggereditor.cpp:295
+#, kde-format
+msgid "Stop matching"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:289 kmuddy/ctriggereditor.cpp:296
+#, kde-format
+msgid "Leave group"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:315
+#, kde-format
+msgid "&Enable color replacement"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:316 kmuddy/ctriggereditor.cpp:514
+#, kde-format
+msgid "Color replacement"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:339
+#, kde-format
+msgid "&Add"
+msgstr "&Cuir Leis"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:340
+#, kde-format
+msgid "&Remove"
+msgstr "&Bain"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:341
+#, kde-format
+msgid "&Colorize"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:343
+#, kde-format
+msgid "&Foreground"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:345
+#, kde-format
+msgid "&Background"
+msgstr "&Cúlra"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:347 kmuddy/ctriggereditor.cpp:397
+#, kde-format
+msgid "&Back-reference"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:364
+#, kde-format
+msgid "Type"
+msgstr "Cineál"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:364
+#, kde-format
+msgid "Foreground"
+msgstr "Tulra"
+
+#. i18n: ectx: property (title), widget (QGroupBox, fraBackground)
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:364 plugins/mapper/dialogs/dlgmapcolorbase.ui:572
+#, kde-format
+msgid "Background"
+msgstr "Cúlra"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:386
+#, kde-format
+msgid "Text &rewrite trigger"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:389 kmuddy/ctriggereditor.cpp:515
+#, kde-format
+msgid "Rewrite text"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:393
+#, kde-format
+msgid "&Change this part of line:"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:401
+#, kde-format
+msgid "&To this value:"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:426
+#, kde-format
+msgid "Do not show (&gag) the line"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:427
+#, kde-format
+msgid "This will prevent the matched line from being displayed in the output window."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:429
+#, kde-format
+msgid "&Notify"
+msgstr "Cuir &Fógra Chugam"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:430
+#, kde-format
+msgid ""
+"This setting only takes effect if you have disabled the \"Always notify\" option in Global settings and at least one of global/local notification is enabled. It will activate notification if the KMuddy window and/or this session is not active at the moment.\n"
+"Useful if you only want to be notified of some events (tells, combat, ...)."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:437
+#, kde-format
+msgid "&Prompt-detection trigger"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:438
+#, kde-format
+msgid "Enabling this will turn this trigger into a prompt detection trigger, that is, text will be passed to these triggers even if no newline was received, the text will be displayed as a prompt if the trigger gets matched, and most other options will NOT be taken into effect - prompt-detect trigger cannot send out text, gag lines, do notification. Colorization is still possible."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:444
+#, kde-format
+msgid "Play s&ound file"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:445
+#, kde-format
+msgid "This trigger will play a sound. Useful as a notification of important events, or to assign sounds to some events."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:464
+#, kde-format
+msgid "Send output to a separate window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:465
+#, kde-format
+msgid "This will send the matched text to a separate output window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:467 kmuddy/dialogs/dlgwindows.cpp:52
+#, kde-format
+msgid "Output Windows"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:478
+#, kde-format
+msgid "&Gag output in main window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:479
+#, kde-format
+msgid "This will cause output sent to a separate window not to be displayed in main KMuddy session window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:482
+#, kde-format
+msgid "&Window name"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:486
+#, kde-format
+msgid "&Create window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:511 libs/caliaseditor.cpp:226
+#, kde-format
+msgid "&Basic"
+msgstr "&Bunúsach"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:516
+#, kde-format
+msgid "Special trigger"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:517
+#, kde-format
+msgid "Output windows"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:547
+#, kde-format
+msgid "This text did not match your trigger."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:552
+#, kde-format
+msgid "This text matches your trigger."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:580
+#, kde-format
+msgid "Maximum number of colorizations reached."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:663 plugins/mapper/cmapviewstatusbar.cpp:61
+#, kde-format
+msgid "Unknown"
+msgstr "Anaithnid"
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:684
+#, kde-format
+msgid "Choose sound file"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/ctriggereditor.cpp:703
+#, kde-format
+msgid "Window name is empty!"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/cdirlist.cpp:35
+#, kde-format
+msgid "&Add..."
+msgstr "&Cuir Leis..."
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdPathDelete)
+#. +> trunk6
+#: kmuddy/dialogs/cdirlist.cpp:36 kmuddy/dialogs/dlgconnect.cpp:239
+#: libs/clistviewer.cpp:168 plugins/mapper/cmapclipboard.cpp:76
+#: plugins/mapper/cmapview.cpp:606 plugins/mapper/cmapview.cpp:622
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:523
+#, kde-format
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk6
+#: kmuddy/dialogs/cdirlist.cpp:37
+#, kde-format
+msgid "Move &up"
+msgstr "Bog S&uas"
+
+#. +> trunk6
+#: kmuddy/dialogs/cdirlist.cpp:38
+#, kde-format
+msgid "Move &down"
+msgstr "Bog Sí&os"
+
+#. +> trunk6
+#: kmuddy/dialogs/cdirlist.cpp:72
+#, kde-format
+msgid "Choose sound directory"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:77
+#, kde-format
+msgid "Application settings"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:84
+#, kde-format
+msgid "Window"
+msgstr "Fuinneog"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:87
+#, kde-format
+msgid "Output area"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:90
+#, kde-format
+msgid "Font"
+msgstr "Cló"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:93
+#, kde-format
+msgid "Input line"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:96
+#, kde-format
+msgid "Colors"
+msgstr "Dathanna"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:99
+#, kde-format
+msgid "Strings"
+msgstr "Teaghráin"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:102
+#, kde-format
+msgid "Sounds"
+msgstr "Fuaimeanna"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:105
+#, kde-format
+msgid "Shortcuts"
+msgstr "Aicearraí"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:111
+#, kde-format
+msgid "S&how the tab bar even if not needed"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:112
+#, kde-format
+msgid "If this is checked, the tab bar will always be shown. Otherwise, it will be hidden if it contains only one tab."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:115
+#, kde-format
+msgid "Show au&xiliary input line"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:116
+#, kde-format
+msgid "You will have two input lines instead of one."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:118
+#, kde-format
+msgid "&Always notify"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:119
+#, kde-format
+msgid "If this is checked, output notification will be used whenever some text comes from the server. Otherwise, it will only be used when a notification trigger is activated. Note that this option only takes effect if global or local notification is enabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:124
+#, kde-format
+msgid "&Global notification"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:125
+#, kde-format
+msgid "When some text comes from the server and KMuddy is not currently active, window caption and the taskbar will try to attract your attention (some characters will blink there)."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:129
+#, kde-format
+msgid "&Local notification"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:130
+#, kde-format
+msgid "When some text comes from the server and this session is not currently active, its tab will try to attract your attention (some characters will blink there)."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:135
+#, kde-format
+msgid "Display system tray icon"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:136
+#, kde-format
+msgid "This option toggles the presence of the system tray icon. The icon can be used to hide the application window without taking up space in the taskbar. You can click on the icon to hide the window and then click again to restore it. Your connection will remain active even if the window is hidden and you will still receive notification messages. "
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:144
+#, kde-format
+msgid "Use passive popups"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:145
+#, kde-format
+msgid "This option toggles the use of passive popups. Passive popups appear near the system tray icon when you are in another window and alert you to the presence of activity in one of your connections. "
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:151
+#, kde-format
+msgid "Auto-connect on startup"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:152
+#, kde-format
+msgid "With this option set, the selected connection will be automatically initiated immediately after starting KMuddy. Handy when you connect using one profile most of the time."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:155
+#, kde-format
+msgid "Auto-connect to:"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:193
+#, kde-format
+msgid "Default &background color"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:196
+#, kde-format
+msgid "This color will be used as a standard background color."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:198
+#, kde-format
+msgid "Default &text color"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:201
+#, kde-format
+msgid "This color will be used to display standard text with no defined color."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:203
+#, kde-format
+msgid "Command &echo color"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:206
+#, kde-format
+msgid "This color will be used to display commands that you have entered."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:208
+#, kde-format
+msgid "&System message color"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:211
+#, kde-format
+msgid "This color will be used for various system messages."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:236
+#, kde-format
+msgid "&Indentation"
+msgstr "&Eangú"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:236
+#, kde-format
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:237
+#, kde-format
+msgid "When a line is too long, part of it will be moved to the next line. Indentation says how many spaces will be put to the beginning of the continued line."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:241
+#, kde-format
+msgid "&History buffer size"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:241
+#, kde-format
+msgid "Size of output scroll-back buffer. Please note that this setting will only affect new connections, existing ones will keep their history setting."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:244
+#, kde-format
+msgid "lines"
+msgstr "línte"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:247
+#, kde-format
+msgid "Enable co&mmand echo"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:248
+#, kde-format
+msgid ""
+"Enables displaying of commands in the console."
+"<p><b>Please note:</b> This will also disable command echo in session transcript."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:251
+#, kde-format
+msgid "Enable s&ystem messages"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:252
+#, kde-format
+msgid "Enables displaying of system messages in the console."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:255
+#, kde-format
+msgid "Enable b&linking"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:256
+#, kde-format
+msgid "Enables support for blinking. Currently not supported."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:272
+#, kde-format
+msgid "&Server output"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:275 kmuddy/dialogs/dlgappsettings.cpp:285
+#: kmuddy/dialogs/dlgappsettings.cpp:295
+#, kde-format
+msgid "Choose..."
+msgstr "Roghnaigh..."
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:278
+#, kde-format
+msgid "Here you can select a font that will be used for main display."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:282
+#, kde-format
+msgid "&Input line"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:288
+#, kde-format
+msgid "Here you can select a font that will be used for the input line."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:292
+#, kde-format
+msgid "&Multi-line input"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:298
+#, kde-format
+msgid "Here you can select a font that will be used for the multi-line input window."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:317
+#, kde-format
+msgid "&Keep sent text"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:318
+#, kde-format
+msgid "If you enable this option, commands will remain in the input line after you send them (by pressing ENTER); otherwise it will be cleared."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:321
+#, kde-format
+msgid "&Select kept text after it's sent"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:322
+#, kde-format
+msgid "If you enable this option, entered command will be selected. This allows you to immediately type another command without deleting the old one and still be able to reuse previous command easily."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:327
+#, kde-format
+msgid "&Cursor keys browse history"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:328
+#, kde-format
+msgid "If you enable this option, you will be able to choose previously entered commands with Up and Down keys."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:330
+#, kde-format
+msgid "Telnet-style &paste"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:331
+#, kde-format
+msgid "Enables telnet-style pasting, i.e. if multi-line text is pasted, all lines but the last are sent as commands immediately."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:334
+#, kde-format
+msgid "T&rim spaces"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:335
+#, kde-format
+msgid "Enables trimming of spaces from commands. Note that with this option disabled, you should avoid including spaces when typing multiple commands on one line, or you will encounter problems with special sequences not being detected properly."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:340
+#, kde-format
+msgid "Enable &auto-completion"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:341
+#, kde-format
+msgid "Auto-completion is a feature that offers you possible completions for commands, as you type them. It can also finish the command for you."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:349
+#, kde-format
+msgid "T&ype of auto-completion"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:351
+#, kde-format
+msgid "Auto-fill"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:352
+#, kde-format
+msgid "Shortest-match auto-fill"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:353
+#, kde-format
+msgid "Popup list-box"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:357
+#, kde-format
+msgid "&Background color"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:360
+#, kde-format
+msgid "Background color of the input line"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:362
+#, kde-format
+msgid "&Text color"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:365
+#, kde-format
+msgid "Color of text that you type in the input line."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:381
+#, kde-format
+msgid "S&wap ENTER and CTRL+ENTER for multi-line"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:382
+#, kde-format
+msgid "When turned off, CTRL+ENTER will insert another line in the multi-line input line, and ENTER will send commands to the server. If turned on, then the behaviour of these keys gets swapped."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:400
+#, kde-format
+msgid "Dark colors"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:401
+#, kde-format
+msgid "Bright colors"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:427
+#, kde-format
+msgid "&Command separator string"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:430
+#, kde-format
+msgid "You can enter multiple commands at once, they will get executed together. Here you can enter string that can be used to separate individual commands."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:434
+#, kde-format
+msgid "&Speed-walk string"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:437
+#, kde-format
+msgid ""
+"If you start a command with this string, the command will be interpreted as speed-walking. Every character is treated as one command: n, s, w, e, j(=ne), k(=se), l(=sw), m(=nw), u, d."
+"<p>Commands that will be sent for each direction can be set up in <i>MUD preferences</i> (<b>profile-based</b> connections only)."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:443
+#, kde-format
+msgid "S&peed-walk even if empty"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:444
+#, kde-format
+msgid "Enabling this will cause KMuddy to expand speed-walk strings even if no speed-walk string has been given. This allows faster speed-walking, but keep in mind that EVERY command that consists only of valid speed-walk characters (news, for example) will be treated as speed-walking. To avoid this, you'll have to type at least one character in upper-case."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:451
+#, kde-format
+msgid "Macro-ca&ll string"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:454
+#, kde-format
+msgid ""
+"If you start a command with this string, the command will be interpreted as a macro-call.<br>"
+"Syntax is &lt;this string&gt; &lt;command&gt; [parameters]  (/exec calls external scripts)"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:459
+#, kde-format
+msgid "&Repeater string"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:462
+#, kde-format
+msgid ""
+"Allows you to repeat some command. For example, typing <i>#10 say hello</i> sends that command 10 times. <br>"
+"Note that this also works with aliases and macro execution.<br>"
+"Repeater and number may be separated by a space (spaces)."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:468
+#, kde-format
+msgid "&Focus string"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:471
+#, kde-format
+msgid ""
+"If a command is started with this string, the command will be interpreted as a command-focus-call. This will allow you to send commands to other connected characters.<br>"
+"Syntax is &lt;this string&gt; &lt;focus tab&gt; &lt;this string&gt; &lt;command&gt;"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:477
+#, kde-format
+msgid "Send &as-is"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:480
+#, kde-format
+msgid "If a command is started with this string, it will be sent as-is, without any parsing. This string will be removed first."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:484
+#, kde-format
+msgid "&Expand backslashes"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:485
+#, kde-format
+msgid "This will enable backslash expansion, that is: \\n is end-of-line, \\t is TAB, \\\\ is \\, \\<anything else> means <anything else>."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:509
+#, kde-format
+msgid "&Enable sounds globally"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:510
+#, kde-format
+msgid ""
+"<qt>Enable playing sounds for all connections.\n"
+"Note that you can override this setting in MUD Preferences dialog.\n"
+"Also note that this will only work if your MUD supports <b>MSP</b> (MUD Sound Protocol).</qt>"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:514
+#, kde-format
+msgid "Allow &downloading sounds"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:516
+#, kde-format
+msgid "MSP version 0.3 supports downloading of sound files directly from the web or FTP. You can enable this functionality here. Note that every sound will only be downloaded once. The downloaded files are stored in your homedir in directory\n"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkBold)
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:707 kmuddy/dialogs/dlgappsettings.cpp:718
+#: kmuddy/dialogs/dlgappsettings.cpp:729 kmuddy/dialogs/dlgappsettings.cpp:738
+#: kmuddy/dialogs/dlgappsettings.cpp:747 kmuddy/dialogs/dlgappsettings.cpp:756
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:95
+#, kde-format
+msgid "Bold"
+msgstr "Trom"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkItalic)
+#. +> trunk6
+#: kmuddy/dialogs/dlgappsettings.cpp:708 kmuddy/dialogs/dlgappsettings.cpp:719
+#: kmuddy/dialogs/dlgappsettings.cpp:730 kmuddy/dialogs/dlgappsettings.cpp:739
+#: kmuddy/dialogs/dlgappsettings.cpp:748 kmuddy/dialogs/dlgappsettings.cpp:757
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:102
+#, kde-format
+msgid "Italic"
+msgstr "Cló Iodálach"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:40
+#, kde-format
+msgid "Connect"
+msgstr "Ceangail"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:57
+#, kde-format
+msgid ""
+"This list shows currently defined profiles."
+"<p><b>Profiles</b> allow you to speed up connecting to your MUD, as well as to use more advanced features like <i>aliases</i> or <i>triggers</i>."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:64
+#, kde-format
+msgid "&New profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:65
+#, kde-format
+msgid "&Modify profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:66
+#, kde-format
+msgid "&Delete profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:67
+#, kde-format
+msgid "&Duplicate profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:73
+#, kde-format
+msgid "Do not &send login sequence"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:74
+#, kde-format
+msgid "Login sequence won't be sent for this connect. Useful when you're creating a new character and you want to use QuickConnect for some reason."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:79
+#, kde-format
+msgid "&Offline editing"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:80
+#, kde-format
+msgid "This allows offline editing of profiles."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:86 kmuddy/dialogs/dlgquickconnect.cpp:55
+#, kde-format
+msgid "&Connect"
+msgstr "&Ceangail"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:87 kmuddy/dialogs/dlgquickconnect.cpp:56
+#, kde-format
+msgid "Establishes connection with specified parameters."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:89
+#, kde-format
+msgid "C&lose"
+msgstr "&Dún"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:90
+#, kde-format
+msgid "Closes this dialog box without connecting."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:235
+#, kde-format
+msgid "This profile cannot be deleted, because you have a connection open using this profile."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:235
+#, kde-format
+msgid "Unable to delete"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:239
+#, kde-format
+msgid "Do you really want to delete profile %1?"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:239
+#, kde-format
+msgid "Delete profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:255
+#, kde-format
+msgid "Duplicate Profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:255
+#, kde-format
+msgid "Please enter name for the duplicated profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:257
+#, kde-format
+msgid "There was an error trying to duplicate the profile. Please ensure that you have write access to the profile directory."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgconnect.cpp:257
+#, kde-format
+msgid "Unable to duplicate"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgdumpbuffer.cpp:38
+#, kde-format
+msgid "Dump output buffer"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgdumpbuffer.cpp:44
+#, kde-format
+msgid "&Start at current position"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgdumpbuffer.cpp:45
+#, kde-format
+msgid "When this is enabled, only the part of history buffer from currently displayed part up to the end of buffer will be dumped. Otherwise entire buffer will be dumped (default)."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgdumpbuffer.cpp:52 kmuddy/dialogs/dlgtranscript.cpp:86
+#, kde-format
+msgid "&File:"
+msgstr "&Comhad:"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgdumpbuffer.cpp:55 kmuddy/dialogs/dlgtranscript.cpp:89
+#, kde-format
+msgid "&Browse..."
+msgstr "&Brabhsáil..."
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgdumpbuffer.cpp:65
+#, kde-format
+msgid "&Dump format:"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgdumpbuffer.cpp:67
+#, kde-format
+msgid "HTML"
+msgstr "HTML"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgdumpbuffer.cpp:68
+#, kde-format
+msgid "Plain text"
+msgstr "Gnáth-théacs"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgdumpbuffer.cpp:69
+#, kde-format
+msgid "Text with ANSI colors"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:38 kmuddy/dialogs/dlgeditprofile.cpp:180
+#: kmuddy/dialogs/dlgeditprofile.cpp:185
+#, kde-format
+msgid "Edit profile"
+msgstr "Cuir eagar ar phróifíl"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:44
+#, kde-format
+msgid "Profile &name:"
+msgstr "Ai&nm na próifíle:"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:46
+#, kde-format
+msgid "Enter profile name here. You can enter any name, but it must be <b>unique</b>."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:47
+#, kde-format
+msgid "&Server:"
+msgstr "Frea&stalaí:"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:49
+#, kde-format
+msgid "Enter address of the server where your MUD is running."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:50 kmuddy/dialogs/dlgquickconnect.cpp:40
+#, kde-format
+msgid "&Port:"
+msgstr "&Port:"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:54
+#, kde-format
+msgid "Enter port on which your MUD is running (usually some 4-digit number)."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:55
+#, kde-format
+msgid "&Login name:"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:57
+#, kde-format
+msgid ""
+"Enter your login name on the MUD here."
+"<p><i>This setting is optional.</i>"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:58
+#, kde-format
+msgid "Pass&word:"
+msgstr "&Focal Faire:"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:61
+#, kde-format
+msgid ""
+"Enter your password on the MUD here."
+"<p><i>This setting is optional.</i>"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:62
+#, fuzzy, kde-format
+#| msgid "&Connection"
+msgctxt "Commands sent after connection is established"
+msgid "&Connect sequence"
+msgstr "&Ceangal"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:66
+#, kde-format
+msgid ""
+"Commands to be sent to the MUD after logging in.<br>"
+"<b>$name</b> expands to username.<br>"
+"<b>$password</b> expands to your password."
+"<p><b>Important:</b> these commands are sent exactly as you type them, with leading/trailing spaces removed. No aliases, no macros, no speed-walk. Also note that empty lines will also be sent, including the very last line."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:180
+#, kde-format
+msgid "Profile name cannot be empty."
+msgstr "Ní cheadaítear ainm folamh ar phróifíl."
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgeditprofile.cpp:185
+#, kde-format
+msgid "Profile name cannot contain '/' character."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlggrabkey.cpp:34
+#, kde-format
+msgid "Keygrabber"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlggrabkey.cpp:37
+#, kde-format
+msgid "Press the desired shortcut..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgimportexportprofile.cpp:37
+#, kde-format
+msgid "Import profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgimportexportprofile.cpp:37
+#, kde-format
+msgid "Export profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgimportexportprofile.cpp:41
+#, kde-format
+msgid "&Profile name"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgimportexportprofile.cpp:54
+#, kde-format
+msgid "&Import from"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgimportexportprofile.cpp:55
+#, kde-format
+msgid "&Export to"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgimportexportprofile.cpp:58
+#: kmuddy/dialogs/dlgprofilesettings.cpp:154
+#: kmuddy/dialogs/dlgprofilesettings.cpp:161
+#: kmuddy/dialogs/dlgprofilesettings.cpp:168
+#: plugins/scripting/cscripteditor.cpp:72
+#: plugins/scripting/cscripteditor.cpp:81
+#, kde-format
+msgid "Browse..."
+msgstr "Brabhsáil..."
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgimportexportprofile.cpp:91
+#, kde-format
+msgid "I am sorry, but import and export is currently disabled. The functionality should be re-enabled before the final release."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgimportexportprofile.cpp:131
+#, kde-format
+msgid "Choose file with profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgimportexportprofile.cpp:137
+#, kde-format
+msgid "Enter target file"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmultiline.cpp:33
+#, kde-format
+msgid "Multi-line input"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmultiline.cpp:45
+#, kde-format
+msgid "Enter commands that are to be sent to the MUD. Each line represents one command."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmultiline.cpp:56
+#, kde-format
+msgid "&Prefix:"
+msgstr "&Réimír:"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmultiline.cpp:59
+#, kde-format
+msgid "&Suffix:"
+msgstr "&Iarmhír:"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmultiline.cpp:69
+#, kde-format
+msgid "Prefix and suffix may contain text, that will be added to the beginning (prefix) or ending (suffix) of every line written to the multi-line editor."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmultiline.cpp:79
+#, kde-format
+msgid "&Send"
+msgstr "&Seol"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmultiline.cpp:80
+#, kde-format
+msgid "Sends current text to the MUD."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmultiline.cpp:81
+#, kde-format
+msgid "This will send all the commands you've entered to the MUD. If you've entered prefix and/or suffix, they will be added to the beginning and ending of each command."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmultiline.cpp:84
+#, kde-format
+msgid "&Clear"
+msgstr "&Glan"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmultiline.cpp:85
+#, kde-format
+msgid "Clears window contents."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgmxpconsole.cpp:48
+#, kde-format
+msgid "MXP Console"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgobjects.cpp:64
+#, kde-format
+msgid "Object Manager"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblUpLong)
+#. i18n: ectx: property (text), widget (QLabel, m_lblUpShort)
+#. i18n: ectx: property (text), widget (QPushButton, cmdSrcUp)
+#. i18n: ectx: property (text), widget (QPushButton, cmdDestUp)
+#. +> trunk6
+#: kmuddy/dialogs/dlgobjects.cpp:90
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:111
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:256
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:168
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:542
+#, kde-format
+msgid "Up"
+msgstr "Suas"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblDownLong)
+#. i18n: ectx: property (text), widget (QLabel, m_lblDownShort)
+#. i18n: ectx: property (text), widget (QPushButton, cmdSrcDown)
+#. i18n: ectx: property (text), widget (QPushButton, cmdDestDown)
+#. +> trunk6
+#: kmuddy/dialogs/dlgobjects.cpp:94
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:121
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:266
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:102
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:356
+#, kde-format
+msgid "Down"
+msgstr "Síos"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgobjects.cpp:98
+#, kde-format
+msgid "Left"
+msgstr "Ar Chlé"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgobjects.cpp:102
+#, kde-format
+msgid "Right"
+msgstr "Ar Dheis"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgoutputwindow.cpp:33
+#, kde-format
+msgid "Output window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:43
+#, kde-format
+msgid "MUD preferences"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:50
+#, kde-format
+msgid "Connection"
+msgstr "Ceangal"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabCommands)
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:53
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:641
+#, kde-format
+msgid "Commands"
+msgstr "Orduithe"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:56
+#, kde-format
+msgid "Folders"
+msgstr "Fillteáin"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:59
+#, kde-format
+msgid "Sound"
+msgstr "Fuaim"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:63
+#, kde-format
+msgid "MXP"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:69
+#, kde-format
+msgid "&Use colorized output (if available)"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:70
+#, kde-format
+msgid "&Do not allow more than 100 repeated commands"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:76
+#, kde-format
+msgid "Enable telnet &negotiation on startup"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:77
+#, kde-format
+msgid "Enables telnet negotiation for some option. Disabling it may resolve problems with some servers that do not understand these."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:81
+#, kde-format
+msgid "&Encoding:"
+msgstr "&Ionchódú:"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:84
+#, kde-format
+msgid "Lets you pick the output character encoding used by the server. This usually only needs to be set for non-English servers."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:90
+#, kde-format
+msgid "&Auto-append newlines after prompt"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:91
+#, kde-format
+msgid "Enables adding linefeeds after GA-terminated prompts to have properly aligned output."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:94
+#, kde-format
+msgid "&Show prompt in a separate field"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:98
+#, kde-format
+msgid "Show prompt in the s&tatus bar"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:101
+#, kde-format
+msgid "Show prompt in the &console"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:104
+#, kde-format
+msgid "Start advanced transcript when session starts"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:126
+#, kde-format
+msgid "&North"
+msgstr "&Tuaisceart"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:126
+#, kde-format
+msgid "No&rtheast"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:126
+#, kde-format
+msgid "&East"
+msgstr "&Oirthear"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:127
+#, kde-format
+msgid "So&utheast"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:127
+#, kde-format
+msgid "&South"
+msgstr "&Deisceart"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:127
+#, kde-format
+msgid "Sou&thwest"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:128
+#, kde-format
+msgid "&West"
+msgstr "&Iarthar"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:128
+#, kde-format
+msgid "Nort&hwest"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:128
+#, kde-format
+msgid "&Up"
+msgstr "S&uas"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:128
+#, kde-format
+msgid "&Down"
+msgstr "&Síos"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:129
+#, kde-format
+msgid "This is a movement command. It is used by speed-walking and will also be used by the auto-mapper."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:151
+#, kde-format
+msgid "External &scripts directory"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:155
+#, kde-format
+msgid "Default directory where we will look for scripts."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:158
+#: plugins/scripting/cscripteditor.cpp:78
+#, kde-format
+msgid "&Working directory"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:162
+#, kde-format
+msgid "Default working directory for your scripts. Making this the same as above is usually a good choice."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:165
+#, kde-format
+msgid "&Transcripts directory"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:169
+#, kde-format
+msgid "Directory where session transcripts will be saved by default."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:190
+#, kde-format
+msgid "&Enable sounds for this profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:191
+#, kde-format
+msgid ""
+"Enable playing sounds with this profile.\n"
+"Note that this will only work if you enable sounds in global preferences.\n"
+"Also note that this will only work if your MUD supports <b>MSP</b> (MUD Sound Protocol)."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:196
+#, kde-format
+msgid "Only enable these if you need them:"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:197
+#, kde-format
+msgid "&Use MSP even if not negotiated"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:198
+#, kde-format
+msgid ""
+"When this option is enabled, KMuddy will interpret MSP sequences all the time, even if no negotiation took place. Useful for MUDs that don't support telnet negotiation of MSP.\n"
+"But beware - only turn this on if your MUD really supports MSP to prevent other players from sending malicious MSP sequences, if you allow downloading of sounds."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:204
+#, kde-format
+msgid "Allow &mid-line MSP sequences"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:205
+#, kde-format
+msgid "Mid-line MSP sequences are a zMUD's extension to the MSP spec that some MUDs seem to be using. You can enable support for this feature here, but ensure that other players cannot say/tell/whatever these sequences, or disable downloading support; otherwise players could instruct your client to download any file on the net..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:221
+#, kde-format
+msgid "&Use MXP"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:224
+#, kde-format
+msgid "Never"
+msgstr "Riamh"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:225
+#, kde-format
+msgid "If negotiated"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:226
+#, kde-format
+msgid "Auto-detect"
+msgstr "Braith go huathoibríoch"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:227
+#, kde-format
+msgid "Always on"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:228
+#, kde-format
+msgid ""
+"<qt>"
+"<p>Here you can choose when will MXP be used.</p>"
+"<ul>"
+"<li><b>Never</b> MXP tags will never be parsed</li>"
+"<li><b>If negotiated</b> MXP support will depend on successful telnet negotiation.</li>"
+"<li><b>Auto-detect</b> MXP support will be auto-detected.</li>"
+"<li><b>Always on</b> KMuddy will always look for MXP sequences.</li>"
+"</ul>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:234
+#, kde-format
+msgid "MXP &variable prefix"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:237
+#, kde-format
+msgid "Prefix prepended to each MXP variable from the server. Note that changing the prefix won't affect existing variables with old prefix."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:397
+#, kde-format
+msgid "Choose default script location"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:402
+#, kde-format
+msgid "Choose default script working directory"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgprofilesettings.cpp:407
+#, kde-format
+msgid "Choose default transcript directory"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgquickconnect.cpp:33
+#, kde-format
+msgid "Quick Connect"
+msgstr "Nasc Gasta"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgquickconnect.cpp:38
+#, kde-format
+msgid "&Host:"
+msgstr "Óst&ríomhaire:"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:41
+#, kde-format
+msgid "Connection statistics"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:50
+#, kde-format
+msgid "&Statistics, updated every second:"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:53
+#, kde-format
+msgid "Counter"
+msgstr "Áiritheoir"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:118
+#, kde-format
+msgid "Using MCCP"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:119 kmuddy/dialogs/dlgstatistics.cpp:123
+#: kmuddy/dialogs/dlgstatistics.cpp:126
+#, kde-format
+msgid "Yes"
+msgstr "Tá"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:119 kmuddy/dialogs/dlgstatistics.cpp:123
+#: kmuddy/dialogs/dlgstatistics.cpp:126
+#, kde-format
+msgid "No"
+msgstr "Níl"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:120
+#, kde-format
+msgid "MCCP version"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:121
+#, kde-format
+msgid "N/A"
+msgstr "N/A/F"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:122
+#, kde-format
+msgid "Using MSP"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:125
+#, kde-format
+msgid "Using MXP"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:128
+#, kde-format
+msgid "Sent bytes"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:130
+#, kde-format
+msgid "Sent commands"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:132
+#, kde-format
+msgid "Received bytes"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:134
+#, kde-format
+msgid "... after decompression"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:136
+#, kde-format
+msgid "Received lines"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgstatistics.cpp:138
+#, kde-format
+msgid "Connection time"
+msgstr "Am ceangailte"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:38
+#, kde-format
+msgid "Session Transcript"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:45
+#, kde-format
+msgid "Basic"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:46
+#, kde-format
+msgid "Advanced"
+msgstr "Casta"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:54
+#, kde-format
+msgid "&Enable basic transcript"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:56
+#, kde-format
+msgid "Enables or disabled the session transcript. Note that session transcript is automatically disabled when you disconnect."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:60
+#, kde-format
+msgid "Transcript settings"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:66 kmuddy/dialogs/dlgtranscript.cpp:121
+#, kde-format
+msgid "Transcript &format"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:75
+#, kde-format
+msgid "&Overwrite existing file"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:76
+#, kde-format
+msgid "If you enable this option, existing transcript file will be overwritten. Otherwise, new transcript will be appended to the end of an existing file (if it exists :))."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:79
+#, kde-format
+msgid "Include buffer &dump"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:80
+#, kde-format
+msgid "This will cause KMuddy to add complete buffer dump to the beginning of the transcript file."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:109
+#, kde-format
+msgid "Enable &advanced transcript"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:110
+#, kde-format
+msgid "This will enable advanced transcript, which allows you to have transcript running all the time, rotates it at midnight and so. Note that normal and advanced transcripts can both be running at the same time, if you want."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:115
+#, kde-format
+msgid "Advanced transcript settings"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:130
+#, kde-format
+msgid "&Rotate log at midnight every day"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:131
+#, kde-format
+msgid "This will cause KMuddy to rotate session transcript every day at midnight"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:134
+#, kde-format
+msgid "Prepend lines with &timestamp"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:135
+#, kde-format
+msgid "This option will cause KMuddy to insert local timestamp in front of every line of logging"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:141
+#, kde-format
+msgid "Log name format"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgtranscript.cpp:142
+#, kde-format
+msgid "Here you can specify log format. You can use the following options: $W - world name, $h - hour, $m - minute, $D - day, $M - month, $Y - year, and any combination of alpha-numeric characters."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgwindows.cpp:58
+#, kde-format
+msgid "&List of output windows"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgwindows.cpp:65
+#, kde-format
+msgid "&Show"
+msgstr "&Taispeáin"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgwindows.cpp:66
+#, kde-format
+msgid "&Hide"
+msgstr "Folaig&h"
+
+#. +> trunk6
+#: kmuddy/dialogs/dlgwindows.cpp:67
+#, kde-format
+msgid "&Delete"
+msgstr "&Scrios"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:241
+#, kde-format
+msgid "&Connect..."
+msgstr "&Ceangail..."
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:248
+#, kde-format
+msgid "&QuickConnect..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:254
+#, kde-format
+msgid "&Disconnect"
+msgstr "&Dínasc"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:260
+#, kde-format
+msgid "&Reconnect"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:265
+#, kde-format
+msgid "Close &tab"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:274
+#, kde-format
+msgid "Paste &As"
+msgstr "Greamaigh M&ar"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:283
+#, kde-format
+msgid "&Input"
+msgstr "&Ionchur"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:290
+#, kde-format
+msgid "Copy &Selection"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:296
+#, kde-format
+msgid "Enable command &parsing"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:303
+#, kde-format
+msgid "Ca&ncel pending commands"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:314
+#, kde-format
+msgid "Show &gaugebar"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:327
+#, kde-format
+msgid "&Object Editor..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:332
+#, kde-format
+msgid "&Output windows..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:336
+#, kde-format
+msgid "A&liases enabled"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:342
+#, kde-format
+msgid "Tri&ggers enabled"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:348
+#, kde-format
+msgid "Tim&ers enabled"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:353
+#, kde-format
+msgid "Macro &keys enabled"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:358
+#, kde-format
+msgid "&MUD Preferences..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:363
+#, kde-format
+msgid "&Save Profile"
+msgstr "&Sábháil Próifíl..."
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:370
+#, kde-format
+msgid "&Session transcript..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:375
+#, kde-format
+msgid "Dump output &buffer..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:379
+#, kde-format
+msgid "&Decision assistant"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:393
+#, kde-format
+msgid "&Global settings..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:398
+#, kde-format
+msgid "&Plugins..."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:403
+#, kde-format
+msgid "F&ull screen mode"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:413
+#, kde-format
+msgid "Shift line up"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:418
+#, kde-format
+msgid "Shift line down"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:423
+#, kde-format
+msgid "Shift page up"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:428
+#, kde-format
+msgid "Shift page down"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:433
+#, kde-format
+msgid "Split-screen up"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:438
+#, kde-format
+msgid "Split-screen down"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:443
+#, kde-format
+msgid "Previous tab"
+msgstr "An cluaisín roimhe seo"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:448
+#, kde-format
+msgid "Next tab"
+msgstr "An chéad chluaisín eile"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:454 kmuddy/kmuddy.cpp:459 kmuddy/kmuddy.cpp:464
+#: kmuddy/kmuddy.cpp:469 kmuddy/kmuddy.cpp:474 kmuddy/kmuddy.cpp:479
+#: kmuddy/kmuddy.cpp:484 kmuddy/kmuddy.cpp:489 kmuddy/kmuddy.cpp:494
+#: kmuddy/kmuddy.cpp:499
+#, kde-format
+msgctxt "%1 - tab number"
+msgid "Switch to tab %1"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:522
+#, kde-format
+msgid "&Connection"
+msgstr "&Ceangal"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:523
+#, kde-format
+msgid "&Edit"
+msgstr "&Eagar"
+
+#. i18n: ectx: Menu (View)
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:524 plugins/mapper/kmuddymapperpart.rc:4
+#, kde-format
+msgid "&View"
+msgstr "&Amharc"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:525
+#, kde-format
+msgid "&Profile"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:526
+#, kde-format
+msgid "&Tools"
+msgstr "&Uirlisí"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:527
+#, kde-format
+msgid "&Settings"
+msgstr "&Socruithe"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:528
+#, kde-format
+msgid "&Help"
+msgstr "Cab&hair"
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:904
+#, kde-format
+msgid "To reconnect, press %1 or use Connection / Reconnect."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:990
+#, kde-format
+msgid "Activity in the KMuddy Window"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/kmuddy.cpp:1162
+#, kde-format
+msgid "Profile has been saved. Note that profiles are automatically saved upon disconnecting, and also every five minutes."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:67
+#, kde-format
+msgid "/setval: Expression parsing failed."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:170
+#, kde-format
+msgid "No free resources of that type."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:192
+#, kde-format
+msgid "/tick: syntax: /tick timer-name"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:200 kmuddy/macros.cpp:229
+#, kde-format
+msgid "/tick: a timer with that name does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:204 kmuddy/macros.cpp:233
+#, kde-format
+msgid "/tick: this timer is currently disabled."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:209
+#, kde-format
+msgid "Timer ticks in 1 second."
+msgid_plural "Timer ticks in %1 seconds."
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:211
+#, kde-format
+msgid "Timer ticks right now."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:221
+#, kde-format
+msgid "/ticknow: syntax: /ticknow timer-name"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:363
+#, kde-format
+msgid "/else: called without the matching /if."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:380
+#, kde-format
+msgid "/endif: called without the matching /if."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:398
+#, kde-format
+msgid "/oadd: syntax: /oadd parent name"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:406
+#, kde-format
+msgid "/oadd: parent group does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:410
+#, kde-format
+msgid "/oadd: parent must be a group."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:415
+#, kde-format
+msgid "/oadd: object with this name already exists."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:432
+#, kde-format
+msgid "/gadd: syntax: /gadd parent name"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:439
+#, kde-format
+msgid "/gadd: parent group does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:443
+#, kde-format
+msgid "/gadd: the parent must be a group"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:449
+#, kde-format
+msgid "/gadd: such group already exists in that list"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:465
+#, kde-format
+msgid "/odel: object does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:470
+#, kde-format
+msgid "/odel: root group may not be deleted."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:488
+#, kde-format
+msgid "/omove: syntax: /omove object group [position]"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:495
+#, kde-format
+msgid "/omove: object does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:499
+#, kde-format
+msgid "/omove: root group may not be moved."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:505
+#, kde-format
+msgid "/omove: group does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:509
+#, kde-format
+msgid "/omove: target must be a group."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:513
+#, kde-format
+msgid "/omove: object and target must be in the same list."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:525
+#, kde-format
+msgid "/omove: position out of range"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:540
+#, kde-format
+msgid "/oren: syntax: /oren object new-name"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:547
+#, kde-format
+msgid "/oren: object does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:553
+#, kde-format
+msgid "/oren: root group cannot be renamed."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:559
+#, kde-format
+msgid "/oren: a group with this name already exists."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:566
+#, kde-format
+msgid "/oren: an object with this name already exists."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:581
+#, kde-format
+msgid "/opriority: syntax: /opriority object priority"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:588
+#, kde-format
+msgid "/opriority: object does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:594
+#, kde-format
+msgid "/opriority: priority must be in the 1-1000 range."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:610
+#, kde-format
+msgid "/oenable: object does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:626
+#, kde-format
+msgid "/odisable: object does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:641
+#, kde-format
+msgid "/osetbattr: syntax: /osetbattr object parameter value"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:648
+#, kde-format
+msgid "/osetbattr: object does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:665 kmuddy/macros.cpp:689
+#, kde-format
+msgid "/osetiattr: syntax: /osetbattr object parameter value"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:672
+#, kde-format
+msgid "/osetiattr: object does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:696
+#, kde-format
+msgid "/osetsattr: object does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:713
+#, kde-format
+msgid "/tgroupon: group does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:728
+#, kde-format
+msgid "/tgroupoff: group does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:744
+#, kde-format
+msgid "/agroupon: group does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/macros.cpp:760
+#, kde-format
+msgid "/agroupoff: group does not exist."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:29
+#, kde-format
+msgid "KMuddy is a MUD (Multi-User Dungeon) client by KDE with a variety of features."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:35 kmuddy/main.cpp:37
+#: plugins/mapper/dialogs/dlgmapmovement.cpp:85
+#: plugins/mapper/dialogs/dlgmapmovement.cpp:96
+#, kde-format
+msgid "KMuddy"
+msgstr "KMuddy"
+
+#. +> trunk6
+#: kmuddy/main.cpp:39
+#, fuzzy, kde-format
+#| msgid "(c) 2002-2009, Tomas Mecir"
+msgid "(c) 2002-2018, Tomas Mecir"
+msgstr "© 2002-2009 Tomas Mecir"
+
+#. +> trunk6
+#: kmuddy/main.cpp:40
+#, kde-format
+msgid "Tomas Mecir"
+msgstr "Tomas Mecir"
+
+#. +> trunk6
+#: kmuddy/main.cpp:41
+#, kde-format
+msgid "Main developer and maintainer"
+msgstr "Príomhfhorbróir agus cothaitheoir"
+
+#. +> trunk6
+#: kmuddy/main.cpp:42
+#, kde-format
+msgid "Alex Bache"
+msgstr "Alex Bache"
+
+#. +> trunk6
+#: kmuddy/main.cpp:43
+#, kde-format
+msgid "Many improvements in external scripting, internal script parser, output view and aliases/triggers, bugfixes"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:44
+#, kde-format
+msgid "Alsherok staff"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:45
+#, kde-format
+msgid "for releasing AFKMud codebase, used to test MCCP/MSP"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:46
+#, kde-format
+msgid "Andrea Cascio"
+msgstr "Andrea Cascio"
+
+#. +> trunk6
+#: kmuddy/main.cpp:47
+#, kde-format
+msgid "SuSE RPMs, speed-walking improvements"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:48
+#, kde-format
+msgid "Orion Elder"
+msgstr "Orion Elder"
+
+#. +> trunk6
+#: kmuddy/main.cpp:49
+#, kde-format
+msgid "KMuddy forum, many ideas"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:50
+#, kde-format
+msgid "Scott Monachello"
+msgstr "Scott Monachello"
+
+#. +> trunk6
+#: kmuddy/main.cpp:51
+#, kde-format
+msgid "Improvements in scripting, bugfixes"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:52
+#, kde-format
+msgid "Tyler Montbriand"
+msgstr "Tyler Montbriand"
+
+#. +> trunk6
+#: kmuddy/main.cpp:53
+#, kde-format
+msgid "Help with SDL support"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:54
+#, kde-format
+msgid "Marco Mastroddi"
+msgstr "Marco Mastroddi"
+
+#. +> trunk6
+#: kmuddy/main.cpp:55
+#, kde-format
+msgid "Tick timers"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:56
+#, kde-format
+msgid "Henrikki Almusa"
+msgstr "Henrikki Almusa"
+
+#. +> trunk6
+#: kmuddy/main.cpp:57
+#, kde-format
+msgid "Commands to enable/disable groups"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:58
+#, kde-format
+msgid "Drossos Stamboulakis"
+msgstr "Drossos Stamboulakis"
+
+#. +> trunk6
+#: kmuddy/main.cpp:59
+#, kde-format
+msgid "Selection improvements, full screen mode, cross-tab commands"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:60
+#, kde-format
+msgid "Antonio J. Soler Sanchez"
+msgstr "Antonio J. Soler Sanchez"
+
+#. +> trunk6
+#: kmuddy/main.cpp:61
+#, kde-format
+msgid "Spanish translation"
+msgstr "Aistriúchán Spáinnise"
+
+#. +> trunk6
+#: kmuddy/main.cpp:62
+#, kde-format
+msgid "lontau"
+msgstr "lontau"
+
+#. +> trunk6
+#: kmuddy/main.cpp:63
+#, kde-format
+msgid "Code to access KMuddy variables in Ruby"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:64
+#, kde-format
+msgid "Magnus Lundborg"
+msgstr "Magnus Lundborg"
+
+#. +> trunk6
+#: kmuddy/main.cpp:64
+#, kde-format
+msgid "Tab-expansion improvements"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:65
+#, kde-format
+msgid "Vladimir Lazarenko"
+msgstr "Vladimir Lazarenko"
+
+#. +> trunk6
+#: kmuddy/main.cpp:66
+#, kde-format
+msgid "Many improvements. Hosting KMuddy CVS."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:67
+#, kde-format
+msgid "Stuart Henshall"
+msgstr "Stuart Henshall"
+
+#. +> trunk6
+#: kmuddy/main.cpp:68
+#, kde-format
+msgid "Speed improvements."
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:69
+#, kde-format
+msgid "Vadim Peretokin"
+msgstr "Vadim Peretokin"
+
+#. +> trunk6
+#: kmuddy/main.cpp:70
+#, kde-format
+msgid "Many improvements, website"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:71
+#, kde-format
+msgid "Heiko Koehn"
+msgstr "Heiko Koehn"
+
+#. +> trunk6
+#: kmuddy/main.cpp:72
+#, kde-format
+msgid "Scripting improvements"
+msgstr ""
+
+#. +> trunk6
+#: kmuddy/main.cpp:73
+#, kde-format
+msgid "Robert Marmorstein"
+msgstr "Robert Marmorstein"
+
+#. +> trunk6
+#: kmuddy/main.cpp:74
+#, kde-format
+msgid "Systray icon support"
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:88
+#, kde-format
+msgid "&Alias text"
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:106
+#, kde-format
+msgid "Type of matching. Alias will only be activated if this passes this type of test. Note that aliases are always matched as whole words."
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:118
+#, kde-format
+msgid "&Replacement text(s)"
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:122
+#, kde-format
+msgid "Command(s) that will replace command you have entered."
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:137
+#, kde-format
+msgid "This is testing area. You can test your alias here to see if it does what you want it to do. Simply type in some text and see what happens."
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:174
+#, kde-format
+msgid "Send original command"
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:175
+#, kde-format
+msgid "If this alias matches your command, a replacement command will be sent. If you enable this option, both original and replacement commands are sent (original command is sent first)."
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:181
+#, kde-format
+msgid "When enabled, this alias will only match the text if there are spaces or nothing before/after the matched string."
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:189
+#, kde-format
+msgid "Include prefix/suffix"
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:190
+#, kde-format
+msgid "Prefix/suffix of matched text will be automatically appended to the expanded text."
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:194
+#, kde-format
+msgid ""
+"<p>With global matching, one alias/trigger can match multiple times, if it contains the pattern more than once. For example, if pattern is abc, it matches only once on abcdabcd of global matching is off, but twice if it is on. For each match, the requested actions are performed - so the commands can be sent multiple times, once per match.</p>"
+"<p>Note that failing the condition doesn't terminate scanning, so you can use this to highlight names from a list (using the condition to check if a match is in the list), or something like that."
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:260
+#, kde-format
+msgid "This text did not match your alias."
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:265
+#, kde-format
+msgid "This text matches your alias."
+msgstr ""
+
+#. +> trunk6
+#: libs/caliaseditor.cpp:279
+#, kde-format
+msgid "Command: "
+msgstr "Ordú: "
+
+#. +> trunk6
+#: libs/ccmdparser.cpp:431
+#, kde-format
+msgid "Sorry, count is limited to 100.\n"
+msgstr ""
+
+#. +> trunk6
+#: libs/ccmdparser.cpp:434
+#, kde-format
+msgid "You can disable this limit in Profile / MUD Preferences."
+msgstr ""
+
+#. +> trunk6
+#: libs/ccmdprocessor.cpp:285
+#, kde-format
+msgid "Sorry, but macro calls are only available for profile connections."
+msgstr ""
+
+#. +> trunk6
+#: libs/ccmdprocessor.cpp:296
+#, kde-format
+msgid "This macro does not exist."
+msgstr ""
+
+#. +> trunk6
+#: libs/cconsole.cpp:134
+#, kde-format
+msgid "now"
+msgstr "anois"
+
+#. +> trunk6
+#: libs/cconsole.cpp:144
+#, kde-format
+msgid "hour"
+msgstr "uair"
+
+#. +> trunk6
+#: libs/cconsole.cpp:144
+#, kde-format
+msgid "hours"
+msgstr "uaireanta"
+
+#. +> trunk6
+#: libs/cconsole.cpp:149
+#, kde-format
+msgid "minute"
+msgstr "nóiméad"
+
+#. +> trunk6
+#: libs/cconsole.cpp:149
+#, kde-format
+msgid "minutes"
+msgstr "nóiméad"
+
+#. +> trunk6
+#: libs/cconsole.cpp:155
+#, kde-format
+msgid "second"
+msgstr "soicind"
+
+#. +> trunk6
+#: libs/cconsole.cpp:155
+#, kde-format
+msgid "seconds"
+msgstr "soicind"
+
+#. +> trunk6
+#: libs/cconsole.cpp:157
+#, kde-format
+msgid "ago"
+msgstr "ó shin"
+
+#. +> trunk6
+#: libs/cexpresolver.cpp:54
+#, kde-format
+msgid "Function %1 does not exist - assuming empty return value."
+msgstr ""
+
+#. +> trunk6
+#: libs/clist.cpp:468
+#, kde-format
+msgid "This file does not contain the root group, and therefore cannot be loaded."
+msgstr ""
+
+#. +> trunk6
+#: libs/clist.cpp:471 libs/cvariablelist.cpp:373
+#: plugins/mapper/cmapzonemanager.cpp:230
+#, kde-format
+msgid "This file was created by a newer version of KMuddy, and this version is unable to open it."
+msgstr ""
+
+#. +> trunk6
+#: libs/clist.cpp:473
+#, kde-format
+msgid "This is not a KMuddy object file."
+msgstr ""
+
+#. +> trunk6
+#: libs/clist.cpp:475 libs/cvariablelist.cpp:377
+#: plugins/mapper/cmapzonemanager.cpp:234
+#, kde-format
+msgid "This file is corrupted."
+msgstr ""
+
+#. +> trunk6
+#: libs/clist.cpp:479 libs/cvariablelist.cpp:381
+#: plugins/mapper/cmapzonemanager.cpp:237
+#, kde-format
+msgid "Error at line %1, column %2: %3"
+msgstr ""
+
+#. +> trunk6
+#: libs/clisteditor.cpp:75
+#, kde-format
+msgid "&Apply changes"
+msgstr ""
+
+#. +> trunk6
+#: libs/clisteditor.cpp:76
+#, kde-format
+msgid "&Undo changes"
+msgstr ""
+
+#. +> trunk6
+#: libs/clisteditor.cpp:217
+#, kde-format
+msgid "&Enabled"
+msgstr "&Cumasaithe"
+
+#. +> trunk6
+#: libs/clisteditor.cpp:222
+#, kde-format
+msgid "&Priority"
+msgstr "&Tosaíocht"
+
+#. +> trunk6
+#: libs/clisteditor.cpp:224
+#, kde-format
+msgid "&Name"
+msgstr "Ai&nm"
+
+#. +> trunk6
+#: libs/clisteditor.cpp:286
+#, kde-format
+msgid "Cannot rename the group, as a group with this name already exists."
+msgstr ""
+
+#. +> trunk6
+#: libs/clisteditor.cpp:293
+#, kde-format
+msgid "Cannot rename the object, as an object with this name already exists."
+msgstr ""
+
+#. +> trunk6
+#: libs/clistgroup.cpp:229
+#, kde-format
+msgid "Error in file - group with no name."
+msgstr ""
+
+#. +> trunk6
+#: libs/clistgroup.cpp:233
+#, kde-format
+msgid "Error in file - duplicate group name."
+msgstr ""
+
+#. +> trunk6
+#: libs/clistviewer.cpp:63
+#, kde-format
+msgid "Delete object"
+msgstr "Scrios réad"
+
+#. +> trunk6
+#: libs/clistviewer.cpp:68 libs/clistviewer.cpp:163
+#, kde-format
+msgid "Delete group"
+msgstr ""
+
+#. +> trunk6
+#: libs/clistviewer.cpp:72
+#, kde-format
+msgid "Add subgroup"
+msgstr ""
+
+#. +> trunk6
+#: libs/clistviewer.cpp:77
+#, kde-format
+msgid "Add group"
+msgstr "Grúpa nua"
+
+#. +> trunk6
+#: libs/clistviewer.cpp:82
+#, kde-format
+msgid "Add object"
+msgstr ""
+
+#. +> trunk6
+#: libs/clistviewer.cpp:162
+#, kde-format
+msgid "Do you really want to delete this group?"
+msgstr ""
+
+#. +> trunk6
+#: libs/clistviewer.cpp:165
+#, kde-format
+msgid "Do you really want to delete this %1?"
+msgstr ""
+
+#. +> trunk6
+#: libs/clistviewer.cpp:166
+#, kde-format
+msgid "Delete %1"
+msgstr "Scrios %1"
+
+#. +> trunk6
+#: libs/clistviewer.cpp:192
+#, kde-format
+msgid "Create Group"
+msgstr ""
+
+#. +> trunk6
+#: libs/clistviewer.cpp:192
+#, kde-format
+msgid "Please enter the group name:"
+msgstr ""
+
+#. +> trunk6
+#: libs/clistviewer.cpp:196
+#, kde-format
+msgid "Cannot create the group, as the provided name is not valid."
+msgstr ""
+
+#. +> trunk6
+#: libs/clistviewer.cpp:203
+#, kde-format
+msgid "Cannot create the group, as a group with this name already exists."
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:284
+#, kde-format
+msgid "MSP: Received corrupted sound trigger!"
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:285
+#, kde-format
+msgid "MSP: Problem was: %1"
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:315
+#, kde-format
+msgid "Parameter names must be followed by '='."
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:340
+#, kde-format
+msgid "Parameter %1 requires a numeric argument"
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:351
+#, kde-format
+msgid "Value of param V is out of 0-100 range."
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:360
+#, kde-format
+msgid "Value of param L is out of -1;1-100 range."
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:373
+#, kde-format
+msgid "Value of param P is out of 0-100 range."
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:382
+#, kde-format
+msgid "Value of param C must be 0 or 1."
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:393
+#, kde-format
+msgid "Received unfinished sequence."
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:449
+#, kde-format
+msgid "MSP: Multiple downloads not supported, request ignored."
+msgstr ""
+
+#. +> trunk6
+#: libs/cmsp.cpp:469
+#, kde-format
+msgid "MSP: downloading of sounds disabled - request ignored."
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:228
+#, kde-format
+msgid "No, no, no!"
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:229
+#, kde-format
+msgid "I don't agree with it."
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:230
+#, kde-format
+msgid "Better not."
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:231
+#, kde-format
+msgid "I'd probably suggest to reject."
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:232
+#, kde-format
+msgid "Saying no seems a bit better."
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:233
+#, kde-format
+msgid "Saying yes seems a bit better."
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:234
+#, kde-format
+msgid "I'd probably suggest to accept."
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:235
+#, kde-format
+msgid "Sounds good."
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:236
+#, kde-format
+msgid "I agree with it."
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:237
+#, kde-format
+msgid "Definitely yes!"
+msgstr ""
+
+#. +> trunk6
+#: libs/coutput.cpp:239
+#, kde-format
+msgid "My decision: %1"
+msgstr ""
+
+#. +> trunk6
+#: libs/cpluginmanager.cpp:268
+#, kde-format
+msgid "Plugins"
+msgstr "Breiseáin"
+
+#. +> trunk6
+#: libs/cprofilemanager.cpp:71
+#, kde-format
+msgid "Profile name"
+msgstr "Ainm na próifíle"
+
+#. +> trunk6
+#: libs/cprofilemanager.cpp:72
+#, kde-format
+msgid "Server"
+msgstr "Freastalaí"
+
+#. +> trunk6
+#: libs/cprofilemanager.cpp:73
+#, kde-format
+msgid "Port"
+msgstr "Port"
+
+#. +> trunk6
+#: libs/cprofilemanager.cpp:74
+#, kde-format
+msgid "Login name"
+msgstr "Ainm logála isteach"
+
+#. +> trunk6
+#: libs/cscripteditor.cpp:46
+#, kde-format
+msgid "Enter your script here."
+msgstr ""
+
+#. +> trunk6
+#: libs/cscripteditor.cpp:47
+#, kde-format
+msgid ""
+"Enter a Javascript script that will be executed when the object is triggered.<br />"
+"<br />"
+"The following routines are available in the script in addition to standard Javascript tools:<br />"
+"<br />"
+"<b>window.message(text)</b> - display a message<br />"
+"<b>window.send(command)</b> - send a command<br />"
+"<b>window.sendraw(command)</b> - send a command with no processing<br />"
+"<b>window.get(name)</b> - retrieve the value of a variable<br />"
+"<b>window.set(name, value)</b> - set the value of a variable<br />"
+"<br />"
+"You can also use the following variables: <b>prefix, prefixfull, suffix, suffixfull, matched, line, matches[]</b>"
+msgstr ""
+
+#. +> trunk6
+#: libs/cstatus.cpp:42 libs/cstatus.cpp:189
+#, kde-format
+msgid "Off-line"
+msgstr "As líne"
+
+#. +> trunk6
+#: libs/cstatus.cpp:51 libs/cstatus.cpp:175 libs/cstatus.cpp:183
+#: libs/cstatus.cpp:219 libs/cstatus.cpp:268
+#, kde-format
+msgid "idle"
+msgstr "díomhaoin"
+
+#. +> trunk6
+#: libs/cstatus.cpp:181
+#, kde-format
+msgid "Connected"
+msgstr "Ceangailte"
+
+#. +> trunk6
+#: libs/cstatus.cpp:184
+#, kde-format
+msgid "Connected."
+msgstr "Ceangailte."
+
+#. +> trunk6
+#: libs/cstatus.cpp:190
+#, kde-format
+msgid "Disconnected."
+msgstr "Dícheangailte."
+
+#. +> trunk6
+#: libs/cstatus.cpp:192
+#, kde-format
+msgid "Connection has been closed."
+msgstr "Dúnadh an ceangal."
+
+#. +> trunk6
+#: libs/cvariablelist.cpp:375
+#, kde-format
+msgid "This is not a KMuddy variable list file."
+msgstr ""
+
+#. +> trunk6
+#: plugins/converter/converterdialog.cpp:41
+#, kde-format
+msgid "Profile Converter"
+msgstr ""
+
+#. +> trunk6
+#: plugins/converter/converterdialog.cpp:49
+#, kde-format
+msgid "Pick profiles that you would like to convert and press Ok. This tool will create a new profile containing the information from the chosen profiles. Existing profiles will not be overwritten, even if they have the same name. The old profiles will be kept intact."
+msgstr ""
+
+#. +> trunk6
+#: plugins/converter/converterdialog.cpp:54
+#, kde-format
+msgid "Path"
+msgstr "Conair"
+
+#. +> trunk6
+#: plugins/converter/converterplugin.cpp:73
+#, kde-format
+msgid "Profile &Converter..."
+msgstr ""
+
+#. +> trunk6
+#: plugins/converter/converterplugin.cpp:129
+#, kde-format
+msgid "The profiles have been successfully converted."
+msgstr ""
+
+#. +> trunk6
+#: plugins/converter/converterplugin.cpp:131
+#, kde-format
+msgid "You did not specify any profiles to convert."
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapclipboard.cpp:64
+#, kde-format
+msgid "Select All"
+msgstr "Roghnaigh Uile"
+
+#. +> trunk6
+#: plugins/mapper/cmapclipboard.cpp:68
+#, kde-format
+msgid "Unselect All"
+msgstr "Díroghnaigh Uile"
+
+#. +> trunk6
+#: plugins/mapper/cmapclipboard.cpp:72
+#, kde-format
+msgid "Invert Selection"
+msgstr "Inbhéartaigh an Rogha"
+
+#. +> trunk6
+#: plugins/mapper/cmapclipboard.cpp:80
+#, kde-format
+msgid "Copy"
+msgstr "Cóipeáil"
+
+#. +> trunk6
+#: plugins/mapper/cmapclipboard.cpp:84
+#, kde-format
+msgid "Cut"
+msgstr "Gearr"
+
+#. +> trunk6
+#: plugins/mapper/cmapclipboard.cpp:88
+#, kde-format
+msgid "Paste"
+msgstr "Greamaigh"
+
+#. +> trunk6
+#: plugins/mapper/cmapclipboard.cpp:298 plugins/mapper/cmapclipboard.cpp:443
+#, kde-format
+msgid "Paste Element"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapclipboard.cpp:311 plugins/mapper/cmapclipboard.cpp:453
+#, kde-format
+msgid "Update Properties"
+msgstr "Nuashonraigh Airíonna"
+
+#. +> trunk6
+#: plugins/mapper/cmapclipboard.cpp:375
+#, kde-format
+msgid "Paste Path"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapclipboard.cpp:466
+#, kde-format
+msgid "Delete Elements"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapelement.cpp:338
+#, kde-format
+msgid "Resize Element"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmaplevel.cpp:32 plugins/mapper/cmaplevel.cpp:95
+#, kde-format
+msgid "Level %1"
+msgstr "Leibhéal %1"
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:122 plugins/mapper/cmapzonemanager.cpp:122
+#, kde-format
+msgid "Map #1"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:194
+#, kde-format
+msgid "Mapper: Directions"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:197
+#, kde-format
+msgid "Mapper: Movement"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:200
+#, kde-format
+msgid "Mapper: Colors"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:203
+#, kde-format
+msgid "Mapper: Speedwalk"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:408
+#, kde-format
+msgid "Change Login Room"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:411
+#, kde-format
+msgid "Remove Login Room Status"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:418
+#, kde-format
+msgid "Set Login Room Status"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:450
+#, kde-format
+msgid "Change Current Room"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:452
+#, kde-format
+msgid "Remove Current Room Status"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:457
+#, kde-format
+msgid "Set Current Room Status"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:565
+#, kde-format
+msgid "Create Level"
+msgstr "Cruthaigh Leibhéal"
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:634
+#: plugins/mapper/plugins/standard/tools/cmaptoolroom.cpp:29
+#, kde-format
+msgid "Create Room"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:662 plugins/mapper/cmapmanager.cpp:691
+#, kde-format
+msgid "Create Text"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:761
+#, kde-format
+msgid "A path already exists at this location"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:761 plugins/mapper/cmapmanager.cpp:1444
+#: plugins/mapper/cmapmanager.cpp:1498 plugins/mapper/cmapmanager.cpp:1532
+#: plugins/mapper/cmapview.cpp:584 plugins/mapper/cmapview.cpp:606
+#: plugins/mapper/cmapview.cpp:613 plugins/mapper/cmapview.cpp:622
+#, fuzzy, kde-format
+#| msgid "KMuddy"
+msgid "KMuddy Mapper"
+msgstr "KMuddy"
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:774 plugins/mapper/cmapmanager.cpp:808
+#: plugins/mapper/plugins/standard/tools/cmaptoolpath.cpp:40
+#, kde-format
+msgid "Create Path"
+msgstr "Cruthaigh Conair"
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:854
+#, kde-format
+msgid "Delete Level"
+msgstr "Scrios Leibhéal"
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:888 plugins/mapper/cmapmanager.cpp:897
+#, kde-format
+msgid "Delete Element"
+msgstr "Scrios Eilimint"
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1444
+#, kde-format
+msgid "Speedwalking is already in progress"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1498
+#, kde-format
+msgid "The automapper was unable to find a path to requested room"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1532
+#, kde-format
+msgid "Speedwalk abort because move limit was reached"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1631
+#, kde-format
+msgid "Move Elements in map"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1640
+#, kde-format
+msgid "Make Path Two-Way"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1650
+#, kde-format
+msgid "Make Path One-Way"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1686 plugins/mapper/cmapmanager.cpp:1695
+#, kde-format
+msgid "Change Element Property"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1768
+#, kde-format
+msgid "Root Zone"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1784
+#, kde-format
+msgid "Test room 1"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1787
+#, kde-format
+msgid "Test room 2"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1790
+#, kde-format
+msgid "Test room 3"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1793
+#, kde-format
+msgid "Test room 4"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapmanager.cpp:1809
+#, kde-format
+msgid "Set Special Exit"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmappath.cpp:603 plugins/mapper/cmapview.cpp:684
+#, kde-format
+msgid "Add Bend"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmappath.cpp:615
+#: plugins/mapper/plugins/standard/tools/cmaptoolselect.cpp:210
+#, kde-format
+msgid "Move Bend"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmappath.cpp:630 plugins/mapper/cmapview.cpp:702
+#, kde-format
+msgid "Delete Path Segment"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:52 plugins/mapper/kmuddy_mapper.cpp:59
+#, kde-format
+msgid "Mapper"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:79
+#, kde-format
+msgid "Follow Moves"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:85
+#, fuzzy, kde-format
+#| msgid "Auto-detect"
+msgid "Auto Create"
+msgstr "Braith go huathoibríoch"
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:122
+#, kde-format
+msgid "&Grid"
+msgstr "&Greille"
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:127
+#, kde-format
+msgid "Display Upper Level"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:132
+#, kde-format
+msgid "Display Lower Level"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:137
+#, kde-format
+msgid "Delete Current Level"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:142
+#, fuzzy, kde-format
+#| msgid "Create Level"
+msgid "Create New Zone"
+msgstr "Cruthaigh Leibhéal"
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:147
+#, fuzzy, kde-format
+#| msgid "Delete Element"
+msgid "Delete Current Zone"
+msgstr "Scrios Eilimint"
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:154
+#, kde-format
+msgid "Map Upper Level"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:158
+#, kde-format
+msgid "Map Lower Level"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:165
+#, kde-format
+msgid "Set &Current Position"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:169
+#, kde-format
+msgid "Set Room to &Login Point"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:173
+#, kde-format
+msgid "&Speed walk to room"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:177
+#, kde-format
+msgid "&Delete room"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:182 plugins/mapper/cmapview.cpp:194
+#: plugins/mapper/cmapview.cpp:226
+#, kde-format
+msgid "&Properties"
+msgstr "&Airíonna"
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:189
+#, kde-format
+msgid "&Delete Text"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:201
+#, kde-format
+msgid "&One way"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:205
+#, kde-format
+msgid "&Two way"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:209
+#, kde-format
+msgid "&Add Bend"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:213
+#, kde-format
+msgid "&Remove Segment"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:217
+#, kde-format
+msgid "&Edit Bends"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:221
+#, kde-format
+msgid "&Delete Path"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdHide)
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:231
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:390
+#, kde-format
+msgid "Hide"
+msgstr "Folaigh"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdCustom)
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:240
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:380
+#, kde-format
+msgid "Custom"
+msgstr "Saincheaptha"
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:243
+#, kde-format
+msgid "&Label"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:584
+#, kde-format
+msgid "There is no level in that direction. Do you want to create a new one?"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:584
+#, fuzzy, kde-format
+#| msgid "Create Level"
+msgid "Create New Level"
+msgstr "Cruthaigh Leibhéal"
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:606
+#, kde-format
+msgid "Are you sure that you want to delete the current level?"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:613
+#, kde-format
+msgid "Please enter the name of the new zone:"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:622
+#, kde-format
+msgid "Are you sure that you want to delete the current zone? This cannot be undone."
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:759
+#, kde-format
+msgid "Change room label position"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapview.cpp:785
+#, kde-format
+msgid "Change zone label position"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapviewstatusbar.cpp:55
+#, kde-format
+msgid "Current Room : "
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapviewstatusbar.cpp:56
+#, kde-format
+msgid "Level : "
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapviewstatusbar.cpp:57
+#, kde-format
+msgid "Zone : "
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapzone.cpp:34
+#, kde-format
+msgid "Unnamed Zone"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/cmapzonemanager.cpp:232
+#, kde-format
+msgid "This is not a KMuddy map list."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgMapColorBase)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:14
+#, kde-format
+msgid "Mapper Colors Options"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, fraCurrentLevel)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:26
+#, fuzzy, kde-format
+#| msgid "Create Level"
+msgid "Current Level"
+msgstr "Cruthaigh Leibhéal"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDefaultPath)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:57
+#, kde-format
+msgid "Default Path Color"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblDefaultRoom)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:67
+#, kde-format
+msgid "Default Room Color"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblCurrentPosition)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:115
+#, kde-format
+msgid "Current Position Color"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblSpecialExit)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:125
+#, fuzzy, kde-format
+#| msgid "Text Color"
+msgid "Special Exit Color"
+msgstr "Dath Téacs"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLoginRoom)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:135
+#, kde-format
+msgid "Login Room Color"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblEdit)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:183
+#, kde-format
+msgid "Edit Mode Color"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblDefaultText)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:212
+#, fuzzy, kde-format
+#| msgid "Text Color"
+msgid "Default Text Color"
+msgstr "Dath Téacs"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDefaultZone)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:222
+#, fuzzy, kde-format
+#| msgid "Selected Color"
+msgid "Default Zone Color"
+msgstr "Dath Roghnaithe"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSelected)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:289
+#, kde-format
+msgid "Selected Color"
+msgstr "Dath Roghnaithe"
+
+#. i18n: ectx: property (title), widget (QGroupBox, fraLowerLevel)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:310
+#, fuzzy, kde-format
+#| msgid "Create Level"
+msgid "Lower Level"
+msgstr "Cruthaigh Leibhéal"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLowerRoom)
+#. i18n: ectx: property (text), widget (QLabel, lblUpperRoom)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:322
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:482
+#, fuzzy, kde-format
+#| msgid "Color"
+msgid "Room Color"
+msgstr "Dath"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLowerPath)
+#. i18n: ectx: property (text), widget (QLabel, lblUpperPath)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:351
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:472
+#, fuzzy, kde-format
+#| msgid "Text Color"
+msgid "Path Color"
+msgstr "Dath Téacs"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLowerText)
+#. i18n: ectx: property (text), widget (QLabel, lblUpperText)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:361
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:502
+#, kde-format
+msgid "Text Color"
+msgstr "Dath Téacs"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLowerZone)
+#. i18n: ectx: property (text), widget (QLabel, lblUpperZone)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:371
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:492
+#, fuzzy, kde-format
+#| msgid "Text Color"
+msgid "Zone Color"
+msgstr "Dath Téacs"
+
+#. i18n: ectx: property (title), widget (QGroupBox, fraUpperLevel)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:441
+#, fuzzy, kde-format
+#| msgid "Create Level"
+msgid "Upper Level"
+msgstr "Cruthaigh Leibhéal"
+
+#. i18n: ectx: property (text), widget (QLabel, lblBackground)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:578
+#, kde-format
+msgid "Background Color"
+msgstr "Dath an Chúlra"
+
+#. i18n: ectx: property (text), widget (QLabel, lblGrid)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapcolorbase.ui:607
+#, fuzzy, kde-format
+#| msgid "Color"
+msgid "Grid Color"
+msgstr "Dath"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgMapDirectionsBase)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:17
+#, fuzzy, kde-format
+#| msgid "Direction"
+msgid "Directions"
+msgstr "Treo"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_fraDirectionsLong)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:29
+#, kde-format
+msgid "Long Directions Commands"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblNorthLong)
+#. i18n: ectx: property (text), widget (QLabel, m_lblNorthShort)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:71
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:216
+#, kde-format
+msgid "North"
+msgstr "Tuaisceart"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblEastLong)
+#. i18n: ectx: property (text), widget (QLabel, m_lblEastShort)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:81
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:226
+#, kde-format
+msgid "East"
+msgstr "Oirthear"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblSouthLong)
+#. i18n: ectx: property (text), widget (QLabel, m_lblSouthShort)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:91
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:236
+#, kde-format
+msgid "South"
+msgstr "Deisceart"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblWestLong)
+#. i18n: ectx: property (text), widget (QLabel, m_lblWestShort)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:101
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:246
+#, kde-format
+msgid "West"
+msgstr "Iarthar"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblNorthEastLong)
+#. i18n: ectx: property (text), widget (QLabel, m_lblNorthEastShort)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:131
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:276
+#, fuzzy, kde-format
+#| msgid "North"
+msgid "North East"
+msgstr "Tuaisceart"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblSouthEastLong)
+#. i18n: ectx: property (text), widget (QLabel, m_lblSouthEastShort)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:141
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:286
+#, fuzzy, kde-format
+#| msgid "South"
+msgid "South East"
+msgstr "Deisceart"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblSouthWestLong)
+#. i18n: ectx: property (text), widget (QLabel, m_lblSouthWestShort)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:151
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:296
+#, fuzzy, kde-format
+#| msgid "South"
+msgid "South West"
+msgstr "Deisceart"
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblNorthWestLong)
+#. i18n: ectx: property (text), widget (QLabel, m_lblNorthWestShort)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:161
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:306
+#, fuzzy, kde-format
+#| msgid "North"
+msgid "North West"
+msgstr "Tuaisceart"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_fraDirectionsShort)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapdirectionsbase.ui:174
+#, kde-format
+msgid "Short Directions Commands"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapmovement.cpp:85
+#: plugins/mapper/dialogs/dlgmapmovement.cpp:96
+#, kde-format
+msgid "Enter invalid movement string as a regular expression"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_fraMovement)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapmovementbase.ui:17
+#, kde-format
+msgid "Valid Room Checking"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_chkEnableValidRoomChecking)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapmovementbase.ui:23
+#, kde-format
+msgid "Enable valid room checking"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, m_lblInvalidMoveStrs)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapmovementbase.ui:30
+#, kde-format
+msgid "Invalid Move Strings"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, m_cmdAdd)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapmovementbase.ui:61
+#, kde-format
+msgid "Add"
+msgstr "Cuir Leis"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_cmdEdit)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapmovementbase.ui:68
+#, kde-format
+msgid "Edit"
+msgstr "Eagar"
+
+#. i18n: ectx: property (text), widget (QPushButton, m_cmdRemove)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapmovementbase.ui:75
+#, kde-format
+msgid "Remove"
+msgstr "Bain"
+
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathproperties.cpp:298
+#: plugins/mapper/dialogs/dlgmappathproperties.cpp:300
+#, kde-format
+msgid "Changed Path Properties"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, DlgMapPathPropertiesBase)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:14
+#, fuzzy, kde-format
+#| msgid "Update Properties"
+msgid "Path Properties"
+msgstr "Nuashonraigh Airíonna"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabExits)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:30
+#, kde-format
+msgid "Exits"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, grdExits)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:42
+#, kde-format
+msgid "Exit Details"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, optTwoWay)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:54
+#, kde-format
+msgid "Two Way Exit"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, chkNormal)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:61
+#, kde-format
+msgid "Nor&mal exit"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblSrc)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:84
+#, fuzzy, kde-format
+#| msgid "Direction"
+msgid "Source Directions"
+msgstr "Treo"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdE)
+#. i18n: ectx: property (text), widget (QPushButton, cmdSrcE)
+#. i18n: ectx: property (text), widget (QPushButton, cmdDestE)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:124
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:488
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:322
+#, kde-format
+msgid "E"
+msgstr "E"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdS)
+#. i18n: ectx: property (text), widget (QPushButton, cmdSrcS)
+#. i18n: ectx: property (text), widget (QPushButton, cmdDestS)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:146
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:510
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:190
+#, kde-format
+msgid "S"
+msgstr "D"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdW)
+#. i18n: ectx: property (text), widget (QPushButton, cmdSrcW)
+#. i18n: ectx: property (text), widget (QPushButton, cmdDestW)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:190
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:466
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:256
+#, kde-format
+msgid "W"
+msgstr "I"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdNE)
+#. i18n: ectx: property (text), widget (QPushButton, cmdSrcNE)
+#. i18n: ectx: property (text), widget (QPushButton, cmdDestNE)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:212
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:378
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:344
+#, kde-format
+msgid "NE"
+msgstr "OT"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdNW)
+#. i18n: ectx: property (text), widget (QPushButton, cmdSrcNW)
+#. i18n: ectx: property (text), widget (QPushButton, cmdDestNW)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:234
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:444
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:278
+#, kde-format
+msgid "NW"
+msgstr "IT"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdSE)
+#. i18n: ectx: property (text), widget (QPushButton, cmdSrcSE)
+#. i18n: ectx: property (text), widget (QPushButton, cmdDestSE)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:256
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:400
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:212
+#, kde-format
+msgid "SE"
+msgstr "OD"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdN)
+#. i18n: ectx: property (text), widget (QPushButton, cmdSrcN)
+#. i18n: ectx: property (text), widget (QPushButton, cmdDestN)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:278
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:422
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:300
+#, kde-format
+msgid "N"
+msgstr "T"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdSW)
+#. i18n: ectx: property (text), widget (QPushButton, cmdSrcSW)
+#. i18n: ectx: property (text), widget (QPushButton, cmdDestSW)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:300
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:532
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:234
+#, kde-format
+msgid "SW"
+msgstr "ID"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDest)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:338
+#, fuzzy, kde-format
+#| msgid "Direction"
+msgid "Destination Direction"
+msgstr "Treo"
+
+#. i18n: ectx: property (text), widget (QRadioButton, chkSpecial)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:574
+#, fuzzy, kde-format
+#| msgid "Text Color"
+msgid "Spec&ial Exit"
+msgstr "Dath Téacs"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSpecial)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:581
+#, fuzzy, kde-format
+#| msgid "&Command"
+msgid "Special Command"
+msgstr "&Ordú"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSrcToDest)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:599
+#, kde-format
+msgid "Source To Destination:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblDestToSrc)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:622
+#, kde-format
+msgid "Destination To Source:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, fraSrcDestCommands)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:653
+#, kde-format
+msgid "Src To Destination Commands"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblSrcBefore)
+#. i18n: ectx: property (text), widget (QLabel, lblDestBefore)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:665
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:706
+#, kde-format
+msgid "Before walking path:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblSrcAfter)
+#. i18n: ectx: property (text), widget (QLabel, lblDestAfter)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:678
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:719
+#, kde-format
+msgid "After walking path:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, fraDestSrcCommands)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:694
+#, kde-format
+msgid "Destination To Source Commands"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdOk)
+#. i18n: ectx: property (text), widget (QPushButton, cmdOK)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:779
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:643
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:458
+#, kde-format
+msgid "OK"
+msgstr "OK"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdCancel)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmappathpropertiesbase.ui:786
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:653
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:468
+#, kde-format
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproomproperties.cpp:97
+#: plugins/mapper/dialogs/dlgmaptextproperties.cpp:216
+#, kde-format
+msgid "Changed Room Properties"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, DlgMapRoomPropertiesBase)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:14
+#, fuzzy, kde-format
+#| msgid "Properties"
+msgid "Room Properties"
+msgstr "Airíonna"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabDescription)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:30
+#, kde-format
+msgid "&Description"
+msgstr "&Cur Síos"
+
+#. i18n: ectx: property (text), widget (QLabel, lblLabel)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:42
+#, kde-format
+msgid "Label:"
+msgstr "Lipéad:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblDescription)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:55
+#, kde-format
+msgid "Description:"
+msgstr "Cur Síos:"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabAppearance)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:69
+#, kde-format
+msgid "&Appearance"
+msgstr "&Cuma"
+
+#. i18n: ectx: property (title), widget (QGroupBox, fraColor)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:81
+#, kde-format
+msgid "Color"
+msgstr "Dath"
+
+#. i18n: ectx: property (text), widget (QLabel, lblRoomColor)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:101
+#, fuzzy, kde-format
+#| msgid "Color:"
+msgid "Room Color:"
+msgstr "Dath:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkUseDefaltColor)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:148
+#, fuzzy, kde-format
+#| msgid "Selected Color"
+msgid "Default room color"
+msgstr "Dath Roghnaithe"
+
+#. i18n: ectx: property (title), widget (QGroupBox, fraLabelPos)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:158
+#, kde-format
+msgid "LabelPosition"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabExits)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:438
+#, kde-format
+msgid "&Exits"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblExits)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:458
+#, kde-format
+msgid "Room Exits:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QTreeWidget, lstPaths)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:472
+#, kde-format
+msgid "Direction"
+msgstr "Treo"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, lstPaths)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:477
+#, fuzzy, kde-format
+#| msgid "&Command"
+msgid "Before command"
+msgstr "&Ordú"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, lstPaths)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:482
+#, fuzzy, kde-format
+#| msgid "&Command"
+msgid "After command"
+msgstr "&Ordú"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdPathProperties)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:516
+#, kde-format
+msgid "Properties"
+msgstr "Airíonna"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tabContents)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:533
+#, kde-format
+msgid "&Contents"
+msgstr "&Clár Ábhair"
+
+#. i18n: ectx: property (text), widget (QLabel, lblContents)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:553
+#, fuzzy, kde-format
+#| msgid "&Contents"
+msgid "RoomContents:"
+msgstr "&Clár Ábhair"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdAddItem)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:599
+#, kde-format
+msgid "New Item"
+msgstr "Mír Nua"
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdRemoveItem)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaproompropertiesbase.ui:606
+#, kde-format
+msgid "Remove Item"
+msgstr "Bain Mír"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgMapSpeedwalkBase)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapspeedwalkbase.ui:14
+#, kde-format
+msgid "Speedwalk Options"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, fraLimit)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapspeedwalkbase.ui:26
+#, kde-format
+msgid "Limit Speedwalk Moves"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, chkLimitSpeedwalk)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapspeedwalkbase.ui:38
+#, kde-format
+msgid "Limit speedwalk moves"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblLimitSpeedwalk)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapspeedwalkbase.ui:53
+#, kde-format
+msgid "Number of moves before aborting:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, fraDelay)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapspeedwalkbase.ui:106
+#, kde-format
+msgid "Delay Speedwalk Moves"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblDelay)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmapspeedwalkbase.ui:118
+#, kde-format
+msgid "Delay before sending next command (centi secconds)"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, DlgMapTextPropertiesBase)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:14
+#, kde-format
+msgid "Text Properties"
+msgstr "Airíonna Téacs"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab1)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:27
+#, kde-format
+msgid "&Font"
+msgstr "&Cló"
+
+#. i18n: ectx: property (text), widget (QLabel, lblFamily)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:55
+#, kde-format
+msgid "Family:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, lblColor_2)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:117
+#, kde-format
+msgid "Color:"
+msgstr "Dath:"
+
+#. i18n: ectx: property (text), widget (KColorButton, cmdColor)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:139
+#, kde-format
+msgid "Button"
+msgstr "Cnaipe"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab2)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:169
+#, kde-format
+msgid "S&ize"
+msgstr "&Méid"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:189
+#, kde-format
+msgid "Actual Size "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, Width_2)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:219
+#, kde-format
+msgid "Width (pixels):"
+msgstr "Leithead (picteilíní):"
+
+#. i18n: ectx: property (text), widget (QLabel, lblHeight_2)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:229
+#, fuzzy, kde-format
+#| msgid "Width (pixels):"
+msgid "Height (pixels):"
+msgstr "Leithead (picteilíní):"
+
+#. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:254
+#, kde-format
+msgid "Font Size"
+msgstr "Clómhéid"
+
+#. i18n: ectx: property (text), widget (QLabel, lblSize_2)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:300
+#, kde-format
+msgid "Enter font size:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdSetSize)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:346
+#, fuzzy, kde-format
+#| msgid "Font Size"
+msgid "Set Size"
+msgstr "Clómhéid"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab3)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:379
+#: plugins/mapper/plugins/standard/tools/cmaptooltext.cpp:33
+#, kde-format
+msgid "Text"
+msgstr "Téacs"
+
+#. i18n: ectx: property (text), widget (QLabel, lblText)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:391
+#, kde-format
+msgid "Text:"
+msgstr "Téacs:"
+
+#. i18n: ectx: property (text), widget (QLabel, lblPreview)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgmaptextpropertiesbase.ui:408
+#, kde-format
+msgid "Preview:"
+msgstr "Réamhamharc:"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, DlgSpeedwalkProgressBase)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgspeedwalkprogressbase.ui:26
+#, kde-format
+msgid "Speedwalk Progress"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, cmdAbort)
+#. +> trunk6
+#: plugins/mapper/dialogs/dlgspeedwalkprogressbase.ui:44
+#, kde-format
+msgid "x"
+msgstr "x"
+
+#. +> trunk6
+#: plugins/mapper/kmuddy_mapper.cpp:70
+#, kde-format
+msgid "Show &mapper"
+msgstr ""
+
+#. i18n: ectx: ToolBar (tools)
+#. +> trunk6
+#: plugins/mapper/kmuddymapperpart.rc:10
+#, kde-format
+msgid "Tools"
+msgstr "Uirlisí"
+
+#. i18n: ectx: ToolBar (navigation)
+#. +> trunk6
+#: plugins/mapper/kmuddymapperpart.rc:21
+#, kde-format
+msgid "Navigation"
+msgstr "Nascleanúint"
+
+#. +> trunk6
+#: plugins/mapper/plugins/standard/cmapcmdmoveelements.cpp:28
+#, kde-format
+msgid "Move Elements"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/plugins/standard/cmapcmdnotes.cpp:27
+#, kde-format
+msgid "Change element notes"
+msgstr ""
+
+#. +> trunk6
+#: plugins/mapper/plugins/standard/cmappluginstandard.cpp:70
+#, kde-format
+msgid "Notes"
+msgstr "Nótaí"
+
+#. +> trunk6
+#: plugins/mapper/plugins/standard/propertyPanes/cmapnotespane.cpp:37
+#, kde-format
+msgid "Notes:"
+msgstr "Nótaí:"
+
+#. +> trunk6
+#: plugins/mapper/plugins/standard/tools/cmaptooleraser.cpp:57
+#, kde-format
+msgid "Eraser"
+msgstr "Léirscriosán"
+
+#. +> trunk6
+#: plugins/mapper/plugins/standard/tools/cmaptoolselect.cpp:34
+#, kde-format
+msgid "Select"
+msgstr "Roghnaigh"
+
+#. +> trunk6
+#: plugins/scripting/cscript.cpp:68
+#, kde-format
+msgid "Sorry, single-instance script."
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:61
+#, kde-format
+msgid "Script &name"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:65
+#, kde-format
+msgid "Name of this script."
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:69
+#, kde-format
+msgid "&Command to execute"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:73
+#, kde-format
+msgid "Command to execute, including parameters. Note that you can specify more parameters when executing the command from the input line, if you enable the Allow parameters checkbox."
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:82
+#, kde-format
+msgid "Working directory for the script. Script will behave exactly as if it was run from this directory in console."
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:90
+#, kde-format
+msgid "Send user commands"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:91
+#, kde-format
+msgid "If script input is enabled, this enables sending of all sent commands to the script."
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:94
+#, kde-format
+msgid "Enable communication"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:95
+#, kde-format
+msgid "Enables identification of lines of server output. Refer to the manual for more information."
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:98
+#, kde-format
+msgid "Single-instance script"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:99
+#, kde-format
+msgid "If an instance of this script is already running, another one can not be started."
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:102
+#, kde-format
+msgid "Use flow control"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:103
+#, kde-format
+msgid ""
+"<p>If enabled, flow control will be used for this script. Flow control ensures that scripts are kept in sync, that means, that if two lines arrive from the server, the second one is not sent to the scripts until all running scripts have received the first one. However, in some situations, it's better not to use this feature.</p>"
+"<p>If you don't need to disable flow control for some reason, leave this on.</p>"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:111
+#, kde-format
+msgid "Communicate variables"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:112
+#, kde-format
+msgid "If enabled, a UNIX domain socket will be created, allowing you to obtain and modify actual variable values. More information in the documentation."
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:145
+#, kde-format
+msgid "Choose script"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscripteditor.cpp:153
+#, kde-format
+msgid "Choose working directory"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/cscriptlist.cpp:87
+#, kde-format
+msgid "Such external script does not exist!"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/dlgrunninglist.cpp:31
+#, kde-format
+msgid "Running scripts"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/dlgrunninglist.cpp:39
+#, kde-format
+msgid "&Running scripts"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/dlgrunninglist.cpp:50
+#, kde-format
+msgid "&Terminate"
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/dlgrunninglist.cpp:54
+#, kde-format
+msgid "&Kill"
+msgstr "&Maraigh"
+
+#. +> trunk6
+#: plugins/scripting/scriptingplugin.cpp:62
+#, kde-format
+msgid "/exec: Script list is not available."
+msgstr ""
+
+#. +> trunk6
+#: plugins/scripting/scriptingplugin.cpp:122
+#, kde-format
+msgid "Scripts"
+msgstr "Scripteanna"
+
+#. +> trunk6
+#: plugins/vartrigs/cvartriggereditor.cpp:61
+#, kde-format
+msgid "Variable name that this trigger will be reacting on."
+msgstr ""
+
+#. +> trunk6
+#: plugins/vartrigs/cvartriggereditor.cpp:63
+#, kde-format
+msgid "&Commands"
+msgstr "&Orduithe"
+
+#. +> trunk6
+#: plugins/vartrigs/cvartriggereditor.cpp:66
+#, kde-format
+msgid "Commands that will be executed when this trigger matches."
+msgstr ""
+
+#. +> trunk6
+#: plugins/vartrigs/vartrigplugin.cpp:39
+#, kde-format
+msgid "Variable Triggers"
+msgstr ""
+
+#. +> trunk6
+#: plugins/varviewer/dlgvarviewer.cpp:70
+#, kde-format
+msgid "Variable"
+msgstr "Athróg"
+
+#. +> trunk6
+#: plugins/varviewer/dlgvarviewer.cpp:141
+#, kde-format
+msgid "Variables"
+msgstr "Athróga"

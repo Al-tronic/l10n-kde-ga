@@ -1,0 +1,128 @@
+# Irish translation of desktop_kdegames
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdegames package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-10 06:59+0100\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: src/kdiamond.notifyrc:4
+msgctxt "Comment"
+msgid "KDiamond Game"
+msgstr "Cluiche KDiamond"
+
+#. +> trunk6 stable6
+#: src/kdiamond.notifyrc:58
+msgctxt "Name"
+msgid "Game"
+msgstr "Cluiche"
+
+#. +> trunk6 stable6
+#: src/kdiamond.notifyrc:119
+msgctxt "Comment"
+msgid "Sounds that appear during a game"
+msgstr "Fuaimeanna le linn cluiche"
+
+#. +> trunk6 stable6
+#: src/kdiamond.notifyrc:174
+msgctxt "Name"
+msgid "Diamonds removed"
+msgstr "Baineadh muileataí"
+
+#. +> trunk6 stable6
+#: src/kdiamond.notifyrc:229
+msgctxt "Comment"
+msgid "Diamonds were removed."
+msgstr "Baineadh muileataí."
+
+#. +> trunk6 stable6
+#: src/kdiamond.notifyrc:289
+msgctxt "Name"
+msgid "Diamonds moving"
+msgstr "Muileataí á mbogadh"
+
+#. +> trunk6 stable6
+#: src/kdiamond.notifyrc:344
+msgctxt "Comment"
+msgid "Diamonds are moving."
+msgstr "Muileataí á mbogadh."
+
+#. +> trunk6 stable6
+#: src/kdiamond.notifyrc:404
+msgctxt "Name"
+msgid "Game over"
+msgstr "Cluiche thart"
+
+#. +> trunk6 stable6
+#: src/kdiamond.notifyrc:464
+msgctxt "Comment"
+msgid "Time is up."
+msgstr "Tá an cluiche críochnaithe."
+
+#. +> trunk6 stable6
+#: src/org.kde.kdiamond.desktop:4
+msgctxt "Name"
+msgid "KDiamond"
+msgstr "KDiamond"
+
+#. +> trunk6 stable6
+#: src/org.kde.kdiamond.desktop:63
+msgctxt "GenericName"
+msgid "Three-in-a-row game"
+msgstr "Cluiche boird trí-cinn-as-a-chéile"
+
+#. +> trunk6 stable6
+#: src/org.kde.kdiamond.desktop:119
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Blackbox Logic Game"
+msgctxt "Comment"
+msgid "Logic game"
+msgstr "Cluiche Loighce Blackbox"
+
+#. +> trunk6 stable6
+#: themes/default.desktop:3
+msgctxt "Name"
+msgid "Egyptian"
+msgstr "Éigipteach"
+
+#. +> trunk6 stable6
+#: themes/default.desktop:57
+msgctxt "Description"
+msgid "Egyptian style theme."
+msgstr "Téama ar nós na nÉigipteach."
+
+#. +> trunk6 stable6
+#: themes/diamonds.desktop:3
+msgctxt "Name"
+msgid "Diamonds"
+msgstr "Diamonds"
+
+#. +> trunk6 stable6
+#: themes/diamonds.desktop:57
+msgctxt "Description"
+msgid "A theme based on real looking diamonds."
+msgstr "Téama bunaithe ar dhiamaint réalaíocha."
+
+#. +> trunk6 stable6
+#: themes/funny_zoo.desktop:3
+msgctxt "Name"
+msgid "Funny Zoo"
+msgstr "Zú Greannmhar"
+
+#. +> trunk6 stable6
+#: themes/funny_zoo.desktop:56
+msgctxt "Description"
+msgid "It is a fun time in the jungle! Help animals find their families. And watch out for those hard to find frogs."
+msgstr "Craic sa dufair! Cabhraigh leis na hainmhithe a muintir a aimsiú. Agus bí ag fairís ar na froganna seachantacha sin."

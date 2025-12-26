@@ -1,0 +1,3620 @@
+# Irish translation of libmailcommon
+# Copyright (C) 2011 This_file_is_part_of_KDE
+# This file is distributed under the same license as the libmailcommon package.
+# Kevin Scannell <kscanne@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: libmailcommon\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-11-12 08:16+0100\n"
+"PO-Revision-Date: 2011-12-28 12:28-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirypage.cpp:23
+#, kde-format
+msgctxt "@title:tab Expiry settings for a folder."
+msgid "Expiry"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:36
+#, fuzzy, kde-format
+#| msgctxt "Expire messages after %1"
+#| msgid " day"
+#| msgid_plural " days"
+msgctxt "Expire messages after %1"
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] " lá"
+msgstr[1] " lá"
+msgstr[2] " lá"
+msgstr[3] " lá"
+msgstr[4] " lá"
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:37
+#: collectionpage/collectionexpirywidget.cpp:43
+#: collectionpage/collectionexpirywidget.cpp:55
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu Never display tooltips."
+#| msgid "Never"
+msgid "Never"
+msgstr "Riamh"
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:67
+#, kde-format
+msgctxt "@action:button"
+msgid "Save Settings and Expire Now"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:68
+#, kde-format
+msgctxt "@option:check"
+msgid "Expire messages with invalid date"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:74
+#, kde-format
+msgid "Expire read messages after:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:77
+#, kde-format
+msgid "Expire unread messages after:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:91
+#, kde-format
+msgid "Move expired messages to:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:102
+#, kde-format
+msgid "Delete expired messages permanently"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:173
+#, kde-format
+msgid ""
+"Please select a folder to expire messages into.\n"
+"If this is not done, expired messages will be permanently deleted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:174
+#, fuzzy, kde-format
+#| msgid "No Folder Selected"
+msgctxt "@title:window"
+msgid "No Folder Selected"
+msgstr "Níl Aon Fhillteán Roghnaithe"
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:188
+#, kde-format
+msgid ""
+"Please select a different folder than the current folder to expire messages into.\n"
+"If this is not done, expired messages will be permanently deleted."
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionexpirywidget.cpp:190
+#, fuzzy, kde-format
+#| msgid "No Folder Selected"
+msgctxt "@title:window"
+msgid "Wrong Folder Selected"
+msgstr "Níl Aon Fhillteán Roghnaithe"
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralpage.cpp:44
+#, kde-format
+msgctxt "@title:tab General settings for a folder."
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralpage.cpp:65
+#, fuzzy, kde-format
+#| msgid "Rename..."
+msgctxt "@label:textbox Name of the folder."
+msgid "Folder &Name:"
+msgstr "Athainmnigh..."
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralpage.cpp:110
+#, kde-format
+msgid "Share unread state with all users"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralpage.cpp:113
+#, kde-format
+msgid "If enabled, the unread state of messages in this folder will be the same for all users having access to this folder. If disabled (the default), every user with access to this folder has their own unread state."
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralpage.cpp:212
+#, kde-format
+msgid "You have configured this folder to contain groupware information. That means that this folder will disappear once the configuration dialog is closed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralwidget.cpp:25
+#, kde-format
+msgctxt "@option:check"
+msgid "Act on new/unread mail in this folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralwidget.cpp:27
+#, kde-format
+msgid ""
+"<qt>"
+"<p>If this option is enabled then you will be notified about new/unread mail in this folder. Moreover, going to the next/previous folder with unread messages will stop at this folder.</p>"
+"<p>Uncheck this option if you do not want to be notified about new/unread mail in this folder and if you want this folder to be skipped when going to the next/previous folder with unread messages. This is useful for ignoring any new/unread mail in your trash and spam folder.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralwidget.cpp:38
+#, kde-format
+msgctxt "@option:check"
+msgid "Keep replies in this folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralwidget.cpp:40
+#, kde-format
+msgid "Check this option if you want replies you write to mails in this folder to be put in this same folder after sending, instead of in the configured sent-mail folder."
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralwidget.cpp:46
+#, kde-format
+msgctxt "@option:check"
+msgid "Hide this folder in the folder selection dialog"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralwidget.cpp:48
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "Check this option if you do not want this folder to be shown in folder selection dialogs, such as the <interface>Jump to Folder</interface> dialog."
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralwidget.cpp:54
+#, fuzzy, kde-format
+#| msgid "Use &default identity"
+msgctxt "@option:check"
+msgid "Use &default identity"
+msgstr "Úsái&d an t-aitheantas réamhshocraithe"
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralwidget.cpp:60
+#, kde-format
+msgid "Select the sender identity to be used when writing new mail or replying to mail in this folder. This means that if you are in one of your work folders, you can make KMail use the corresponding sender email address, signature and signing or encryption keys automatically. Identities can be set up in the main configuration dialog. (Settings -> Configure KMail)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiongeneralwidget.cpp:66
+#, kde-format
+msgid "&Sender identity:"
+msgstr "A&itheantas an tseoltóra:"
+
+#. +> trunk6 stable6
+#: collectionpage/collectiontemplateswidget.cpp:20
+#, kde-format
+msgctxt "@option:check"
+msgid "&Use custom message templates in this folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectiontemplateswidget.cpp:42
+#, kde-format
+msgctxt "@action:button"
+msgid "&Copy Global Templates"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:27
+#, fuzzy, kde-format
+#| msgid "Use &default identity"
+msgctxt "@option:check"
+msgid "Use default message list aggregation:"
+msgstr "Úsái&d an t-aitheantas réamhshocraithe"
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:29
+#, fuzzy, kde-format
+#| msgid "Use &default identity"
+msgctxt "@option:check"
+msgid "Use default message list theme"
+msgstr "Úsái&d an t-aitheantas réamhshocraithe"
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:31
+#, kde-format
+msgctxt "@option:radio"
+msgid "Prefer HTML to text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:32
+#, kde-format
+msgctxt "@option:radio"
+msgid "Prefer text to HTML"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:33
+#, kde-format
+msgctxt "@option:radio"
+msgid "Use Global Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:40
+#, kde-format
+msgid "Show Sender/Receiver Column in List of Messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:43
+#, fuzzy, kde-format
+#| msgid " (default)"
+msgctxt "@item:inlistbox Show default value."
+msgid "Default"
+msgstr " (réamhshocrú)"
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:44
+#, fuzzy, kde-format
+#| msgid "&Send"
+msgctxt "@item:inlistbox Show sender."
+msgid "Sender"
+msgstr "&Seol"
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:45
+#, kde-format
+msgctxt "@item:inlistbox Show receiver."
+msgid "Receiver"
+msgstr ""
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:46
+#, fuzzy, kde-format
+#| msgid "Shortcut:"
+msgid "Sho&w column:"
+msgstr "Aicearra:"
+
+#. +> trunk6 stable6
+#: collectionpage/collectionviewwidget.cpp:77
+#, fuzzy, kde-format
+#| msgid "Message Status"
+msgid "Message format:"
+msgstr "Stádas na Teachtaireachta"
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingaccountdialog.cpp:33
+#, fuzzy, kde-format
+#| msgid "Select Account"
+msgctxt "@title:window"
+msgid "Select Account"
+msgstr "Roghnaigh Cuntas"
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingaccountdialog.cpp:39
+#, kde-format
+msgid "Filter account is missing. Please select account to use with filter \"%1\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingfolderdialog.cpp:40
+#: folder/folderrequester.cpp:74
+#, fuzzy, kde-format
+#| msgid "Select Folder"
+msgctxt "@title:window"
+msgid "Select Folder"
+msgstr "Roghnaigh Fillteán"
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingfolderdialog.cpp:43
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Folder path was \"%1\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingfolderdialog.cpp:48
+#, kde-format
+msgctxt "@label:textbox"
+msgid "The following folders can be used for this filter:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingfolderdialog.cpp:69
+#, fuzzy, kde-format
+#| msgid "Please select an action."
+msgid "Please select a folder:"
+msgstr "Roghnaigh gníomh le do thoil."
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingfolderdialog.cpp:72
+#, kde-format
+msgid "Filter folder is missing. Please select a folder to use with filter \"%1\":"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingidentitydialog.cpp:32
+#, fuzzy, kde-format
+#| msgid "&Sender identity:"
+msgctxt "@title:window"
+msgid "Select Identity"
+msgstr "A&itheantas an tseoltóra:"
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingidentitydialog.cpp:38
+#, kde-format
+msgid "Filter identity is missing. Please select an identity to use with filter \"%1\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingsoundurldialog.cpp:31
+#, fuzzy, kde-format
+#| msgid "Select sound"
+msgctxt "@title:window"
+msgid "Select sound"
+msgstr "Roghnaigh fuaim"
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingsoundurldialog.cpp:35
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Sound file was \"%1\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingsoundurldialog.cpp:42
+#, kde-format
+msgid "Sound file is missing. Please select a sound to use with filter \"%1\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingtagdialog.cpp:37
+#, fuzzy, kde-format
+#| msgid "Select Tag"
+msgctxt "@title:window"
+msgid "Select Tag"
+msgstr "Roghnaigh Clib"
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingtagdialog.cpp:40
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Tag was \"%1\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingtagdialog.cpp:47
+#, kde-format
+msgid "Filter tag is missing. Please select a tag to use with filter \"%1\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingtagdialog.cpp:71
+#, fuzzy, kde-format
+#| msgid "Add Tag"
+msgid "Add Tag…"
+msgstr "Cuir Clib Leis"
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingtemplatedialog.cpp:32
+#, fuzzy, kde-format
+#| msgid "Default Template"
+msgctxt "@title:window"
+msgid "Select Template"
+msgstr "Teimpléad Réamhshocraithe"
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingtemplatedialog.cpp:38
+#, kde-format
+msgid "Filter template is missing. Please select a template to use with filter \"%1\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingtransportdialog.cpp:31
+#, fuzzy, kde-format
+#| msgid "Transport:"
+msgctxt "@title:window"
+msgid "Select Transport"
+msgstr "Iompar:"
+
+#. +> trunk6 stable6
+#: filter/dialog/filteractionmissingtransportdialog.cpp:37
+#, kde-format
+msgid "Filter transport is missing. Please select a transport to use with filter \"%1\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/dialog/selectthunderbirdfilterfilesdialog.cpp:28
+#, fuzzy, kde-format
+#| msgid "Thunderbird filters"
+msgctxt "@title:window"
+msgid "Select thunderbird filter files"
+msgstr "Scagairí Thunderbird"
+
+#. +> trunk6 stable6
+#: filter/dialog/selectthunderbirdfilterfileswidget.cpp:33
+#, kde-format
+msgid " (default)"
+msgstr " (réamhshocrú)"
+
+#. +> trunk6 stable6
+#: filter/dialog/selectthunderbirdfilterfileswidget.cpp:118
+#, fuzzy, kde-format
+#| msgid "Thunderbird filters"
+msgid "Thunderbird File (*.dat)"
+msgstr "Scagairí Thunderbird"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteraction.cpp:133
+#, kde-format
+msgid "### \"action '%1' not supported\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddheader.cpp:22
+#, kde-format
+msgid "Add Header"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddheader.cpp:77
+#, fuzzy, kde-format
+#| msgid "With:"
+msgctxt "@label:textbox"
+msgid "With value:"
+msgstr "Le:"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddheader.cpp:203
+#, kde-format
+msgid "The header name was missing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddheader.cpp:209
+#, kde-format
+msgid "The header value was missing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtag.cpp:26
+#, kde-format
+msgid "Add Tag"
+msgstr "Cuir Clib Leis"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtag.cpp:147
+#, fuzzy, kde-format
+#| msgid "No filters selected."
+msgid "No tag selected."
+msgstr "Níl aon scagairí roghnaithe."
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:33
+#, kde-format
+msgid "Add to Address Book"
+msgstr "Cuir leis an Leabhar Seoltaí"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:34
+#, kde-format
+msgctxt "Email sender"
+msgid "From"
+msgstr "Ó"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:35
+#, kde-format
+msgctxt "Email recipient"
+msgid "To"
+msgstr "Chuig"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:36
+#: search/searchpatternedit.cpp:52
+#, kde-format
+msgid "CC"
+msgstr "CC"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:37
+#, kde-format
+msgid "BCC"
+msgstr "BCC"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:40
+#, kde-format
+msgid "KMail Filter"
+msgstr "Scagaire KMail"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:117
+#, fuzzy, kde-format
+#| msgid "with category"
+msgctxt "@label:textbox"
+msgid "with category"
+msgstr "le catagóir"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:125
+#, fuzzy, kde-format
+#| msgid "in address book"
+msgctxt "@label:textbox"
+msgid "in address book"
+msgstr "i leabhar seoltaí"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:135
+#, kde-format
+msgid ""
+"This defines the preferred address book.\n"
+"If it is not accessible, the filter will fallback to the default address book."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:287
+#, kde-format
+msgid "Header type selected is unknown."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionaddtoaddressbook.cpp:293
+#, fuzzy, kde-format
+#| msgid "No folder selected."
+msgid "No addressbook selected."
+msgstr "Níl aon fhillteán roghnaithe."
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractioncopy.cpp:19
+#, kde-format
+msgid "Copy Into Folder"
+msgstr "Cóipeáil go Fillteán"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractioncopy.cpp:68
+#: filter/filteractions/filteractionmove.cpp:66
+#, fuzzy, kde-format
+#| msgid "Folder creation failed"
+msgid "Folder destination was not defined."
+msgstr "Theip ar chruthú an fhillteáin"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractiondecrypt.cpp:27
+#: filter/filteractions/filteractiondecrypt.cpp:40
+#, kde-format
+msgid "Decrypt"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractiondecrypt.cpp:95
+#, kde-format
+msgid "<b>Warning:</b> Decrypted emails may be uploaded to a server!"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractiondecrypt.cpp:97
+#, kde-format
+msgid "<p>If the email folder that you are filtering into is connected to a remote account (like an IMAP-Server) the decrypted content will go there.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractiondelete.cpp:18
+#, kde-format
+msgid "Delete Message"
+msgstr "Scrios an Teachtaireacht"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractiondelete.cpp:41
+#, kde-format
+msgid "Be careful, mails will be removed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionencrypt.cpp:46
+#, kde-format
+msgid "Encrypt"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionencrypt.cpp:213
+#, kde-format
+msgid "No encryption key has been selected"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionencrypt.cpp:249
+#, kde-format
+msgid "Re-encrypt encrypted emails with this key"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionencrypt.cpp:259
+#, kde-format
+msgid "<b>Warning:</b> Seckey necessary to read emails."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionencrypt.cpp:261
+#, kde-format
+msgid ""
+"<p>Once an email has been encrypted you will need a crypto setup with your secret key to access the contents again.</p>"
+"<p>If you keep emails stored on an email server and use several clients, each of them must be configured to enable decryption.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionexec.cpp:15
+#, kde-format
+msgid "Execute Command"
+msgstr "Rith Ordú"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionexec.cpp:36
+#, kde-format
+msgid "Missing command."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionforward.cpp:38
+#, kde-format
+msgctxt "Forward directly not with a command"
+msgid "Forward To"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionforward.cpp:94
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The addressee to whom the message will be forwarded."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionforward.cpp:95
+#, kde-format
+msgid "The filter will forward the message to the addressee entered here."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionforward.cpp:102
+#: filter/filteractions/filteractionforward.cpp:201
+#, kde-format
+msgid "Default Template"
+msgstr "Teimpléad Réamhshocraithe"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionforward.cpp:113
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The template used when forwarding"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionforward.cpp:114
+#, kde-format
+msgid "Set the forwarding template that will be used with this filter."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionforward.cpp:229
+#, kde-format
+msgid "Forward to %1 with default template"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionforward.cpp:231
+#, kde-format
+msgid "Forward to %1 with template %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionforward.cpp:237
+#: filter/filteractions/filteractionreplyto.cpp:51
+#, kde-format
+msgid "Email address was not defined."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionmove.cpp:23
+#, kde-format
+msgid "Move Into Folder"
+msgstr "Bog go Fillteán"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionpipethrough.cpp:20
+#, kde-format
+msgctxt "pipe through with command"
+msgid "Pipe Through"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionpipethrough.cpp:36
+#, fuzzy, kde-format
+#| msgid "Folder creation failed"
+msgid "No action defined."
+msgstr "Theip ar chruthú an fhillteáin"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionplaysound.cpp:22
+#, kde-format
+msgid "Play Sound"
+msgstr "Seinn Fuaim"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionplaysound.cpp:78
+#, kde-format
+msgid "Sound file was not defined."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionredirect.cpp:27
+#, kde-format
+msgid "Redirect To"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionredirect.cpp:71
+#, kde-format
+msgid "Email address was missing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionremoveheader.cpp:22
+#, kde-format
+msgid "Remove Header"
+msgstr "Bain an Ceanntásc"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionremoveheader.cpp:96
+#, kde-format
+msgid "Header name undefined."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionreplyto.cpp:20
+#, kde-format
+msgid "Set Reply-To To"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionrewriteheader.cpp:26
+#, kde-format
+msgid "Rewrite Header"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionrewriteheader.cpp:43
+#, kde-format
+msgid "Header not defined"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionrewriteheader.cpp:49
+#, kde-format
+msgid "Search string is empty."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionrewriteheader.cpp:111
+#, fuzzy, kde-format
+#| msgid "Replace:"
+msgctxt "@label:textbox"
+msgid "Replace:"
+msgstr "Ionadaigh:"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionrewriteheader.cpp:122
+#, fuzzy, kde-format
+#| msgid "With:"
+msgctxt "@label:textbox"
+msgid "With:"
+msgstr "Le:"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsendfakedisposition.cpp:29
+#, kde-format
+msgid "Send Fake MDN"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsendfakedisposition.cpp:34
+#, kde-format
+msgctxt "MDN type"
+msgid "Ignore"
+msgstr "Déan neamhaird de"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsendfakedisposition.cpp:35
+#, kde-format
+msgctxt "MDN type"
+msgid "Displayed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsendfakedisposition.cpp:36
+#, kde-format
+msgctxt "MDN type"
+msgid "Deleted"
+msgstr "Scriosta"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsendfakedisposition.cpp:37
+#, kde-format
+msgctxt "MDN type"
+msgid "Dispatched"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsendfakedisposition.cpp:38
+#, kde-format
+msgctxt "MDN type"
+msgid "Processed"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsendfakedisposition.cpp:39
+#, kde-format
+msgctxt "MDN type"
+msgid "Denied"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsendfakedisposition.cpp:40
+#, kde-format
+msgctxt "MDN type"
+msgid "Failed"
+msgstr "Teipthe"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsendfakedisposition.cpp:116
+#, kde-format
+msgid "Fake type undefined."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsendreceipt.cpp:21
+#, kde-format
+msgid "Confirm Delivery"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsetidentity.cpp:29
+#, kde-format
+msgid "Set Identity To"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsetstatus.cpp:22
+#, kde-format
+msgid "Mark As"
+msgstr "Marcáil Mar"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsetstatus.cpp:34
+#, kde-format
+msgid "Status not specified."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsettransport.cpp:36
+#, kde-format
+msgid "Set Transport To"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionsettransport.cpp:142
+#, fuzzy, kde-format
+#| msgid "Folder creation failed"
+msgid "Mail transport not defined."
+msgstr "Theip ar chruthú an fhillteáin"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:33
+#, kde-format
+msgctxt "msg status"
+msgid "Important"
+msgstr "Tábhachtach"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:34
+#, kde-format
+msgctxt "msg status"
+msgid "Read"
+msgstr "Léite"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:35
+#, kde-format
+msgctxt "msg status"
+msgid "Unread"
+msgstr "Gan Léamh"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:36
+#, kde-format
+msgctxt "msg status"
+msgid "Replied"
+msgstr "Freagartha"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:37
+#, kde-format
+msgctxt "msg status"
+msgid "Forwarded"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:38
+#, kde-format
+msgctxt "msg status"
+msgid "Watched"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:39
+#, kde-format
+msgctxt "msg status"
+msgid "Ignored"
+msgstr "Neamhaird tugtha air"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:40
+#, kde-format
+msgctxt "msg status"
+msgid "Spam"
+msgstr "Dramhphost"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:41
+#, kde-format
+msgctxt "msg status"
+msgid "Ham"
+msgstr "Dea-Phost"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:42
+#, kde-format
+msgctxt "msg status"
+msgid "Action Item"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionstatus.cpp:102
+#, kde-format
+msgid "Status is missing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionunsetstatus.cpp:21
+#, kde-format
+msgctxt "action: to unset the status"
+msgid "Unset Status"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionunsetstatus.cpp:39
+#, fuzzy, kde-format
+#| msgid "Folder creation failed"
+msgid "Status not defined."
+msgstr "Theip ar chruthú an fhillteáin"
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionwidget.cpp:69
+#, fuzzy, kde-format
+#| msgid "Please select an action."
+msgctxt "@label:textbox"
+msgid "Please select an action."
+msgstr "Roghnaigh gníomh le do thoil."
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionwithurl.cpp:22
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Help"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filteractions/filteractionwithurl.cpp:64
+#, kde-format
+msgid "You can get specific header when you use %{headername}."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:37
+#, kde-format
+msgctxt "@title:window"
+msgid "Convert to Sieve Script"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:44
+#, kde-format
+msgid "Save…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:67
+#, fuzzy, kde-format
+#| msgid "Rename..."
+msgctxt "@action:button"
+msgid "Share…"
+msgstr "Athainmnigh..."
+
+#. +> trunk6 stable6
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:83
+#, kde-format
+msgid "Sieve Files (*.siv);;All Files (*)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filterconverter/filterconverttosieveresultdialog.cpp:84
+#, kde-format
+msgctxt "@title:window"
+msgid "Convert to Script Sieve"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filterimporter/filterimportergmail.cpp:48
+#, fuzzy, kde-format
+#| msgid "KMail filters"
+msgid "Gmail filter %1"
+msgstr "Scagairí KMail"
+
+#. +> trunk6 stable6
+#: filter/filterimporter/filterimporterprocmail.cpp:54
+#, fuzzy, kde-format
+#| msgid "Procmail filters"
+msgid "Procmail filter %1"
+msgstr "Scagairí Procmail"
+
+#. +> trunk6 stable6
+#: filter/filterimporterexporter.cpp:112
+#, kde-format
+msgid "The following filters have not been saved because they were invalid (e.g. containing no actions or no search rules)."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filterimporterexporter.cpp:138
+#, fuzzy, kde-format
+#| msgid "Import KMail Filters"
+msgctxt "@title:window"
+msgid "Import KMail Filters"
+msgstr "Iompórtáil Scagairí KMail"
+
+#. +> trunk6 stable6
+#: filter/filterimporterexporter.cpp:146
+#, fuzzy, kde-format
+#| msgid "Import Evolution Filters"
+msgctxt "@title:window"
+msgid "Import Evolution Filters"
+msgstr "Iompórtáil Scagairí Evolution"
+
+#. +> trunk6 stable6
+#: filter/filterimporterexporter.cpp:150
+#, fuzzy, kde-format
+#| msgid "Import Sylpheed Filters"
+msgctxt "@title:window"
+msgid "Import Sylpheed Filters"
+msgstr "Iompórtáil Scagairí Sylpheed"
+
+#. +> trunk6 stable6
+#: filter/filterimporterexporter.cpp:154
+#, fuzzy, kde-format
+#| msgid "Import Procmail Filters"
+msgctxt "@title:window"
+msgid "Import Procmail Filters"
+msgstr "Iompórtáil Scagairí Procmail"
+
+#. +> trunk6 stable6
+#: filter/filterimporterexporter.cpp:158
+#, fuzzy, kde-format
+#| msgid "Import Balsa Filters"
+msgctxt "@title:window"
+msgid "Import Balsa Filters"
+msgstr "Iompórtáil Scagairí Balsa"
+
+#. +> trunk6 stable6
+#: filter/filterimporterexporter.cpp:162
+#, fuzzy, kde-format
+#| msgid "Import Claws Mail Filters"
+msgctxt "@title:window"
+msgid "Import Claws Mail Filters"
+msgstr "Iompórtáil Scagairí Ríomhphoist Claws"
+
+#. +> trunk6 stable6
+#: filter/filterimporterexporter.cpp:166
+#, fuzzy, kde-format
+#| msgid "Import KMail Filters"
+msgctxt "@title:window"
+msgid "Import Gmail Filters"
+msgstr "Iompórtáil Scagairí KMail"
+
+#. +> trunk6 stable6
+#: filter/filterimporterexporter.cpp:180 filter/filterimporterexporter.cpp:216
+#: filter/filterimporterexporter.cpp:236
+#, kde-format
+msgid "The selected file is not readable. Your file access permissions might be insufficient."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/filterimporterexporter.cpp:316
+#, fuzzy, kde-format
+#| msgid "Export Filters"
+msgctxt "@title:window"
+msgid "Export Filters"
+msgstr "Easpórtáil Scagairí"
+
+#. +> trunk6 stable6
+#: filter/filterselectiondialog.cpp:29
+#, fuzzy, kde-format
+#| msgid "Select All"
+msgctxt "@action:button"
+msgid "Select All"
+msgstr "Roghnaigh Uile"
+
+#. +> trunk6 stable6
+#: filter/filterselectiondialog.cpp:30
+#, fuzzy, kde-format
+#| msgid "Unselect All"
+msgctxt "@action:button"
+msgid "Unselect All"
+msgstr "Díroghnaigh Uile"
+
+#. +> trunk6 stable6
+#: filter/filterselectiondialog.cpp:34
+#, fuzzy, kde-format
+#| msgid "Select Filters"
+msgctxt "@title:window"
+msgid "Select Filters"
+msgstr "Roghnaigh Scagairí"
+
+#. +> trunk6 stable6
+#: filter/filterselectiondialog.cpp:45 filter/kmfilterlistbox.cpp:53
+#: folder/foldertreewidget.cpp:84
+#, fuzzy, kde-format
+#| msgctxt "@info/plain Displayed grayed-out inside the textbox, verb to search"
+#| msgid "Search"
+msgctxt "@info Displayed grayed-out inside the textbox, verb to search"
+msgid "Search"
+msgstr "Cuardaigh"
+
+#. +> trunk6 stable6
+#: filter/invalidfilters/invalidfilterdialog.cpp:29
+#, fuzzy, kde-format
+#| msgid "Available Filters"
+msgctxt "@title:window"
+msgid "Invalid Filters"
+msgstr "Scagairí atá ar fáil"
+
+#. +> trunk6 stable6
+#: filter/invalidfilters/invalidfilterdialog.cpp:40
+#, kde-format
+msgid "Discard"
+msgstr "Ná Sábháil"
+
+#. +> trunk6 stable6
+#: filter/invalidfilters/invalidfilterwidget.cpp:22
+#, kde-format
+msgctxt "@label:textbox"
+msgid "The following filters are invalid (e.g. containing no actions or no search rules). Discard or edit invalid filters?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilteraccountlist.cpp:24
+#, kde-format
+msgid "Account Name"
+msgstr "Ainm an Chuntais"
+
+#. +> trunk6 stable6
+#: filter/kmfilteraccountlist.cpp:24
+#, kde-format
+msgid "Type"
+msgstr "Cineál"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:72
+#, fuzzy, kde-format
+#| msgid "Filter Rules"
+msgctxt "@title:window"
+msgid "Filter Rules"
+msgstr "Rialacha Scagtha"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:90
+#, fuzzy, kde-format
+#| msgid "Import..."
+msgid "Import…"
+msgstr "Iompórtáil..."
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:92
+#, fuzzy, kde-format
+#| msgid "Export..."
+msgid "Export…"
+msgstr "Easpórtáil..."
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:94
+#, kde-format
+msgid "Convert to…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:98
+#, fuzzy, kde-format
+#| msgid "KMail filters"
+msgctxt "@action"
+msgid "KMail filters"
+msgstr "Scagairí KMail"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:102
+#, fuzzy, kde-format
+#| msgid "Thunderbird filters"
+msgctxt "@action"
+msgid "Thunderbird filters"
+msgstr "Scagairí Thunderbird"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:106
+#, fuzzy, kde-format
+#| msgid "Evolution filters"
+msgctxt "@action"
+msgid "Evolution filters"
+msgstr "Scagairí Evolution"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:110
+#, fuzzy, kde-format
+#| msgid "Sylpheed filters"
+msgctxt "@action"
+msgid "Sylpheed filters"
+msgstr "Scagairí Sylpheed"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:114
+#, fuzzy, kde-format
+#| msgid "Procmail filters"
+msgctxt "@action"
+msgid "Procmail filters"
+msgstr "Scagairí Procmail"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:118
+#, fuzzy, kde-format
+#| msgid "Balsa filters"
+msgctxt "@action"
+msgid "Balsa filters"
+msgstr "Scagairí Balsa"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:122
+#, fuzzy, kde-format
+#| msgid "Claws Mail filters"
+msgctxt "@action"
+msgid "Claws Mail filters"
+msgstr "Scagairí Claws"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:126
+#, fuzzy, kde-format
+#| msgid "KMail filters"
+msgctxt "@action"
+msgid "Icedove Mail filters"
+msgstr "Scagairí KMail"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:132
+#, fuzzy, kde-format
+#| msgid "KMail filters"
+msgctxt "@action"
+msgid "Gmail filters"
+msgstr "Scagairí KMail"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:140
+#, kde-format
+msgctxt "@action"
+msgid "Sieve script"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:162
+#, kde-format
+msgid "Available Filters"
+msgstr "Scagairí atá ar fáil"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:168
+#, kde-format
+msgctxt "General mail filter settings."
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:172
+#, kde-format
+msgctxt "Advanced mail filter settings."
+msgid "Advanced"
+msgstr "Casta"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:182
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Filter actions:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:193
+#, fuzzy, kde-format
+#| msgid "Apply this filter to incoming messages:"
+msgctxt "@option:check"
+msgid "Apply this filter to incoming messages:"
+msgstr "Cuir an scagaire seo i bhfeidhm ar theachtaireachtaí isteach:"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:203
+#, fuzzy, kde-format
+#| msgid "from all accounts"
+msgctxt "@option:radio"
+msgid "From all accounts"
+msgstr "ó gach cuntas"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:207
+#, fuzzy, kde-format
+#| msgid "from all but online IMAP accounts"
+msgctxt "@option:radio"
+msgid "From all but online IMAP accounts"
+msgstr "ó gach cuntas seachas ar líne IMAP"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:211
+#, fuzzy, kde-format
+#| msgid "from checked accounts only"
+msgctxt "@option:radio"
+msgid "From selected accounts only"
+msgstr "ó na cuntais ticeáilte amháin"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:219
+#, fuzzy, kde-format
+#| msgid "Apply this filter to incoming messages:"
+msgctxt "@option:check"
+msgid "Apply this filter to &sent messages"
+msgstr "Cuir an scagaire seo i bhfeidhm ar theachtaireachtaí isteach:"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:221
+#, kde-format
+msgid ""
+"<p>The filter will be triggered <b>after</b> the message is sent and it will only affect the local copy of the message.</p>"
+"<p>If the recipient's copy also needs to be modified, please use \"Apply this filter <b>before</b> sending messages\".</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:227
+#, fuzzy, kde-format
+#| msgid "Apply this filter &before sending messages"
+msgctxt "@option:check"
+msgid "Apply this filter &before sending messages"
+msgstr "Cuir an scagaire seo i &bhfeidhm sula seoltar teachtaireachtaí"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:229
+#, kde-format
+msgid ""
+"<p>The filter will be triggered <b>before</b> the message is sent and it will affect both the local copy and the sent copy of the message.</p>"
+"<p>This is required if the recipient's copy also needs to be modified.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:234
+#, fuzzy, kde-format
+#| msgid "Apply this filter to incoming messages:"
+msgctxt "@option:check"
+msgid "Apply this filter on manual &filtering"
+msgstr "Cuir an scagaire seo i bhfeidhm ar theachtaireachtaí isteach:"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:237
+#, fuzzy, kde-format
+#| msgid "Apply this filter to incoming messages:"
+msgctxt "@option:check"
+msgid "Apply this filter on inbound emails in all folders"
+msgstr "Cuir an scagaire seo i bhfeidhm ar theachtaireachtaí isteach:"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:239
+#, kde-format
+msgid "<p>The filter will be applied on inbound emails from all folders belonging to all accounts selected above. This is useful when using local filters with IMAP accounts where new emails may have already been moved to different folders by server-side filters.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:245
+#, kde-format
+msgctxt "@option:check"
+msgid "If this filter &matches, stop processing here"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:248
+#, fuzzy, kde-format
+#| msgid "Additionally add this filter to the toolbar"
+msgctxt "@option:check"
+msgid "Add this filter to the Apply Filter menu"
+msgstr "Cuir an scagaire seo leis an mbarra uirlisí chomh maith"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:266
+#, fuzzy, kde-format
+#| msgid "Additionally add this filter to the toolbar"
+msgctxt "@option:check"
+msgid "Additionally add this filter to the toolbar"
+msgstr "Cuir an scagaire seo leis an mbarra uirlisí chomh maith"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:273
+#, kde-format
+msgid "Shortcut:"
+msgstr "Aicearra:"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:279
+#, kde-format
+msgid "Icon for this filter:"
+msgstr "Deilbhín an scagaire seo:"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:287
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Run selected filter(s) on: "
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:293
+#, fuzzy, kde-format
+#| msgid "Run Now"
+msgctxt "@action:button"
+msgid "Run Now"
+msgstr "Rith Anois"
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:420
+#, kde-format
+msgctxt "@info"
+msgid "Unable to apply this filter since there are no folders selected."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:421
+#, fuzzy, kde-format
+#| msgid "No folder selected."
+msgctxt "@title:window"
+msgid "No folder selected."
+msgstr "Níl aon fhillteán roghnaithe."
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:428
+#, kde-format
+msgctxt "@info"
+msgid "Some filters were changed and not saved yet. You must save your filters before they can be applied."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:430 filter/kmfilterdialog.cpp:712
+#, fuzzy, kde-format
+#| msgid "Filters changed."
+msgctxt "@title:window"
+msgid "Filters changed."
+msgstr "Athraíodh scagairí."
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:437
+#, kde-format
+msgctxt "@info"
+msgid "Unable to apply a filter since there are no filters currently selected."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:438
+#, fuzzy, kde-format
+#| msgid "No filters selected."
+msgctxt "@title:window"
+msgid "No filters selected."
+msgstr "Níl aon scagairí roghnaithe."
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:662
+#, kde-format
+msgid "No filter was imported."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:673
+#, kde-format
+msgid "Filters which were imported:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:681
+#, kde-format
+msgid "Any filter found."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:710
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Some filters were changed and not saved yet.<br>"
+"You must save your filters before they can be exported."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:716
+#, kde-format
+msgid "We cannot convert all KMail filters to sieve scripts but we can try :)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:717 filter/kmfilterdialog.cpp:733
+#, kde-format
+msgctxt "@title:window"
+msgid "Convert KMail filters to sieve scripts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterdialog.cpp:733
+#, kde-format
+msgid "No filters selected."
+msgstr "Níl aon scagairí roghnaithe."
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:43
+#, kde-format
+msgid ""
+"<qt>"
+"<p>This is the list of defined filters. They are processed top-to-bottom.</p>"
+"<p>Click on any filter to edit it using the controls in the right-hand half of the dialog.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:85
+#, kde-format
+msgctxt "Move selected filter up."
+msgid "Up"
+msgstr "Suas"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:86
+#, kde-format
+msgctxt "Move selected filter down."
+msgid "Down"
+msgstr "Síos"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:87
+#, kde-format
+msgctxt "Move selected filter to the top."
+msgid "Top"
+msgstr "Barr"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:88
+#, kde-format
+msgctxt "Move selected filter to the bottom."
+msgid "Bottom"
+msgstr "Bun"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:90
+#, kde-format
+msgid ""
+"<qt>"
+"<p>Click this button to move the currently-selected filter <em>up</em> one in the list above.</p>"
+"<p>This is useful since the order of the filters in the list determines the order in which they are tried on messages: The topmost filter gets tried first.</p>"
+"<p>If you have clicked this button accidentally, you can undo this by clicking on the <em>Down</em> button.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:98
+#, kde-format
+msgid ""
+"<qt>"
+"<p>Click this button to move the currently-selected filter <em>down</em> one in the list above.</p>"
+"<p>This is useful since the order of the filters in the list determines the order in which they are tried on messages: The topmost filter gets tried first.</p>"
+"<p>If you have clicked this button accidentally, you can undo this by clicking on the <em>Up</em> button.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:106
+#, kde-format
+msgid ""
+"<qt>"
+"<p>Click this button to move the currently-selected filter to bottom of list.</p>"
+"<p>This is useful since the order of the filters in the list determines the order in which they are tried on messages: The topmost filter gets tried first.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:112
+#, kde-format
+msgid ""
+"<qt>"
+"<p>Click this button to move the currently-selected filter to top of list.</p>"
+"<p>This is useful since the order of the filters in the list determines the order in which they are tried on messages: The topmost filter gets tried first.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:142
+#, kde-format
+msgctxt "@action:button in filter list manipulator"
+msgid "New"
+msgstr "Nua"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:143
+#, fuzzy, kde-format
+#| msgid "Copy"
+msgctxt "@info:tooltip"
+msgid "Copy"
+msgstr "Cóipeáil"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:144
+#, fuzzy, kde-format
+#| msgid "Delete"
+msgctxt "@info:tooltip"
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:145
+#, fuzzy, kde-format
+#| msgid "Rename..."
+msgctxt "@info:tooltip"
+msgid "Rename"
+msgstr "Athainmnigh..."
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:147
+#, kde-format
+msgid ""
+"<qt>"
+"<p>Click this button to create a new filter.</p>"
+"<p>The filter will be inserted just before the currently-selected one, but you can always change that later on.</p>"
+"<p>If you have clicked this button accidentally, you can undo this by clicking on the <em>Delete</em> button.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:154
+#, kde-format
+msgid ""
+"<qt>"
+"<p>Click this button to copy a filter.</p>"
+"<p>If you have clicked this button accidentally, you can undo this by clicking on the <em>Delete</em> button.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:158
+#, kde-format
+msgid ""
+"<qt>"
+"<p>Click this button to <em>delete</em> the currently-selected filter from the list above.</p>"
+"<p>There is no way to get the filter back once it is deleted, but you can always leave the dialog by clicking <em>Cancel</em> to discard the changes made.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:165
+#, kde-format
+msgid ""
+"<qt>"
+"<p>Click this button to rename the currently-selected filter.</p>"
+"<p>Filters are named automatically, as long as they start with \"&lt;\".</p>"
+"<p>If you have renamed a filter accidentally and want automatic naming back, click this button and select <em>Clear</em> followed by <em>OK</em> in the appearing dialog.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:292
+#, kde-format
+msgid "unnamed"
+msgstr "gan ainm"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:446
+#, kde-format
+msgid "Do you want to remove the filter \"%1\"?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:446
+#, kde-format
+msgid "Do you want to remove selected filters?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:447
+#, fuzzy, kde-format
+#| msgid "Remove Filter"
+msgctxt "@title:window"
+msgid "Remove Filter"
+msgstr "Bain Scagaire"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:447
+#, fuzzy, kde-format
+#| msgid "Remove Filters"
+msgctxt "@title:window"
+msgid "Remove Filters"
+msgstr "Bain Scagairí"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:663
+#, kde-format
+msgid "Rename Filter"
+msgstr "Athainmnigh Scagaire"
+
+#. +> trunk6 stable6
+#: filter/kmfilterlistbox.cpp:664
+#, kde-format
+msgid ""
+"Rename filter \"%1\" to:\n"
+"(leave the field empty for automatic naming)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/mailfilter.cpp:132
+#, kde-format
+msgid "<b>Applying filter action:</b> %1"
+msgstr "<b>Gníomh scagaire á chur i bhfeidhm:</b> %1"
+
+#. +> trunk6 stable6
+#: filter/mailfilter.cpp:141
+#, kde-format
+msgid "A critical error occurred. Processing stops here."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/mailfilter.cpp:148
+#, kde-format
+msgid "A problem was found while applying this action."
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/mailfilter.cpp:428
+#, kde-format
+msgid "<qt>Too many filter actions in filter rule <b>%1</b>.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/mailfilter.cpp:462
+#, kde-format
+msgid ""
+"<qt>Unknown filter action <b>%1</b><br />"
+"in filter rule <b>%2</b>.<br />"
+"Ignoring it.</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/mailfilter.cpp:570
+#, fuzzy, kde-format
+#| msgid "Folder creation failed"
+msgid "Any action defined."
+msgstr "Theip ar chruthú an fhillteáin"
+
+#. +> trunk6 stable6
+#: filter/soundtestwidget.cpp:35 filter/soundtestwidget.cpp:117
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Play"
+msgstr ""
+
+#. +> trunk6 stable6
+#: filter/soundtestwidget.cpp:64
+#, fuzzy, kde-format
+#| msgid "Select Sound File"
+msgctxt "@title:window"
+msgid "Select Sound File"
+msgstr "Roghnaigh Comhad Fuaime"
+
+#. +> trunk6 stable6
+#: filter/soundtestwidget.cpp:114
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Pause"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: filter/ui/filterconfigwidget.ui:19
+#, kde-format
+msgid "Name:"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: filter/ui/filterconfigwidget.ui:45
+#, kde-format
+msgid "Criteria"
+msgstr "Critéir"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: filter/ui/filterconfigwidget.ui:87
+#, kde-format
+msgid "Actions"
+msgstr "Gníomhartha"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: filter/ui/filterconfigwidget.ui:129
+#, kde-format
+msgid "Apply options"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyToIncomingCB)
+#. +> trunk6 stable6
+#: filter/ui/filterconfigwidget.ui:138
+#, kde-format
+msgid "Apply to incoming messages"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyToSentCB)
+#. +> trunk6 stable6
+#: filter/ui/filterconfigwidget.ui:145
+#, kde-format
+msgid "Apply to sent messages"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyBeforeSendCB)
+#. +> trunk6 stable6
+#: filter/ui/filterconfigwidget.ui:152
+#, kde-format
+msgid "Apply before sending messages"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, applyManuallyCB)
+#. +> trunk6 stable6
+#: filter/ui/filterconfigwidget.ui:159
+#, kde-format
+msgid "Apply on manual filtering"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, stopIfMatchesCB)
+#. +> trunk6 stable6
+#: filter/ui/filterconfigwidget.ui:169
+#, kde-format
+msgid "Stop processing if matches"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectFile)
+#. +> trunk6 stable6
+#: filter/ui/selectthunderbirdfilterfileswidget.ui:29
+#, kde-format
+msgid "Select File:"
+msgstr "Roghnaigh Comhad:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, selectFromConfig)
+#. +> trunk6 stable6
+#: filter/ui/selectthunderbirdfilterfileswidget.ui:45
+#, kde-format
+msgid "Select file from config:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/accountconfigorderdialog.cpp:57
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Accounts Order"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/accountconfigorderdialog.cpp:74
+#, kde-format
+msgctxt "@option:check"
+msgid "Use custom order"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/accountconfigorderdialog.cpp:91
+#, fuzzy, kde-format
+#| msgctxt "Move selected filter up."
+#| msgid "Up"
+msgctxt "Move selected account up."
+msgid "Up"
+msgstr "Suas"
+
+#. +> trunk6 stable6
+#: folder/accountconfigorderdialog.cpp:99
+#, fuzzy, kde-format
+#| msgctxt "Move selected filter down."
+#| msgid "Down"
+msgctxt "Move selected account down."
+msgid "Down"
+msgstr "Síos"
+
+#. +> trunk6 stable6
+#: folder/folderrequester.cpp:46
+#, fuzzy, kde-format
+#| msgid "Select Folder"
+msgctxt "@info:placeholder"
+msgid "Select Folder"
+msgstr "Roghnaigh Fillteán"
+
+#. +> trunk6 stable6
+#: folder/folderrequester.cpp:117
+#, kde-format
+msgid "Local Folders"
+msgstr "Comhaid Logánta"
+
+#. +> trunk6 stable6
+#: folder/folderrequester.cpp:127 folder/folderrequester.cpp:145
+#, kde-format
+msgid "Please select a folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/folderselectiondialog.cpp:65
+#, fuzzy, kde-format
+#| msgid "&New Subfolder..."
+msgctxt "@action:button"
+msgid "&New Subfolder…"
+msgstr "Fofhillteán &Nua..."
+
+#. +> trunk6 stable6
+#: folder/folderselectiondialog.cpp:67
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new subfolder under the currently selected folder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/folderselectiondialog.cpp:126
+#, fuzzy, kde-format
+#| msgid "&New Subfolder..."
+msgid "&New Subfolder…"
+msgstr "Fofhillteán &Nua..."
+
+#. +> trunk6 stable6
+#: folder/folderselectiondialog.cpp:178
+#, kde-format
+msgctxt "@title:window"
+msgid "New Folder"
+msgstr "Fillteán Nua"
+
+#. +> trunk6 stable6
+#: folder/folderselectiondialog.cpp:178
+#, kde-format
+msgctxt "@label:textbox, name of a thing"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: folder/folderselectiondialog.cpp:195
+#, kde-format
+msgid "Could not create folder: %1"
+msgstr "Níorbh fhéidir an fillteán a chruthú: %1"
+
+#. +> trunk6 stable6
+#: folder/folderselectiondialog.cpp:195
+#, fuzzy, kde-format
+#| msgid "Folder creation failed"
+msgctxt "@title:window"
+msgid "Folder creation failed"
+msgstr "Theip ar chruthú an fhillteáin"
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:129
+#, kde-format
+msgid "View Columns"
+msgstr "Amharc ar Cholúin"
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:139
+#, kde-format
+msgid "Icon Size"
+msgstr "Méid na nDeilbhíní"
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:155
+#, kde-format
+msgid "Display Tooltips"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:159
+#, kde-format
+msgctxt "@action:inmenu Always display tooltips"
+msgid "Always"
+msgstr "I gcónaí"
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:166
+#, kde-format
+msgctxt "@action:inmenu Never display tooltips."
+msgid "Never"
+msgstr "Riamh"
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:173
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Sort Items"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:177
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Automatically, by Current Column"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:184
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Manually, by Drag And Drop"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:474 folder/foldertreeview.cpp:516
+#, kde-format
+msgid "<qt>Go to the next unread message in folder <b>%1</b>?</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:475 folder/foldertreeview.cpp:517
+#, fuzzy, kde-format
+#| msgid "Go to Next Unread Message"
+msgctxt "@title:window"
+msgid "Go to Next Unread Message"
+msgstr "An Chéad Teachtaireacht Neamhléite Eile"
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:476 folder/foldertreeview.cpp:518
+#, fuzzy, kde-format
+#| msgid "Go To"
+msgctxt "@action:button"
+msgid "Go To"
+msgstr "Téigh Go"
+
+#. +> trunk6 stable6
+#: folder/foldertreeview.cpp:477 folder/foldertreeview.cpp:519
+#, fuzzy, kde-format
+#| msgid "Do Not Go To"
+msgctxt "@action:button"
+msgid "Do Not Go To"
+msgstr "Ná Téigh Go"
+
+#. +> trunk6 stable6
+#: folder/foldertreewidget.cpp:78
+#, kde-format
+msgctxt "@label:textbox"
+msgid "You can start typing to filter the list of folders."
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/foldertreewidget.cpp:322
+#, kde-format
+msgid "You can start typing to filter the list of folders."
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/foldertreewidget.cpp:322
+#, kde-format
+msgid "Path: (%1)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/foldertreewidgetproxymodel.cpp:242
+#, kde-format
+msgid "%1 (Offline)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: folder/foldertreewidgetproxymodel.cpp:246
+#, kde-format
+msgid "%1 (Reached %2% quota)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:95
+#, kde-format
+msgid "Unable to retrieve folder list."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:122
+#, kde-format
+msgid "The operation was canceled by the user."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:152
+#, kde-format
+msgid "Failed to archive the folder '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:156
+#, fuzzy, kde-format
+#| msgid "Archiving failed"
+msgctxt "@title:window"
+msgid "Archiving failed"
+msgstr "Theip ar chartlannú"
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:166
+#, kde-format
+msgid "Unable to finalize the archive file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:171
+#, kde-format
+msgid "Archiving finished"
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:182
+#, kde-format
+msgid "Archiving folder '%1' successfully completed. The archive was written to the file '%2'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:188
+#, kde-format
+msgid "1 message of size %2 was archived."
+msgid_plural "%1 messages with the total size of %2 were archived."
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:192
+#, kde-format
+msgid "The archive file has a size of %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:194
+#, fuzzy, kde-format
+#| msgid "Archiving failed"
+msgctxt "@title:window"
+msgid "Archiving finished"
+msgstr "Theip ar chartlannú"
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:244
+#, kde-format
+msgid "Failed to write a message into the archive folder '%1'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:268
+#, kde-format
+msgid "Downloading a message in folder '%1' failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:334
+#, kde-format
+msgid "Archiving folder %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:359
+#, kde-format
+msgid "Unable to create folder structure for folder '%1' within archive file."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:371
+#, kde-format
+msgid "Unable to get message list for folder %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:409
+#, kde-format
+msgid "Unable to open archive for writing."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/backupjob.cpp:413
+#, kde-format
+msgid "Archiving"
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/expiredeletejob.cpp:66
+#, kde-format
+msgid "Removed 1 old message from folder %2."
+msgid_plural "Removed %1 old messages from folder %2."
+msgstr[0] "Baineadh %1 seanteachtaireacht as fillteán %2."
+msgstr[1] "Baineadh %1 sheanteachtaireacht as fillteán %2."
+msgstr[2] "Baineadh %1 sheanteachtaireacht as fillteán %2."
+msgstr[3] "Baineadh %1 seanteachtaireacht as fillteán %2."
+msgstr[4] "Baineadh %1 seanteachtaireacht as fillteán %2."
+
+#. +> trunk6 stable6
+#: job/expiredeletejob.cpp:70
+#, kde-format
+msgid "Removing old messages from folder %1 was canceled."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/expiredeletejob.cpp:74
+#, kde-format
+msgid "Removing old messages from folder %1 failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/expirejob.cpp:157
+#, fuzzy, kde-format
+#| msgid "Removing 1 old message from folder %2..."
+#| msgid_plural "Removing %1 old messages from folder %2..."
+msgid "Removing 1 old message from folder %2…"
+msgid_plural "Removing %1 old messages from folder %2..."
+msgstr[0] "%1 seanteachtaireacht á baint as fillteán %2..."
+msgstr[1] "%1 sheanteachtaireacht á mbaint as fillteán %2..."
+msgstr[2] "%1 sheanteachtaireacht á mbaint as fillteán %2..."
+msgstr[3] "%1 seanteachtaireacht á mbaint as fillteán %2..."
+msgstr[4] "%1 seanteachtaireacht á mbaint as fillteán %2..."
+
+#. +> trunk6 stable6
+#: job/expirejob.cpp:164
+#, kde-format
+msgid "Cannot expire messages from folder %1: destination folder %2 not found"
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/expirejob.cpp:180
+#, fuzzy, kde-format
+#| msgid "Moving 1 old message from folder %2 to folder %3..."
+#| msgid_plural "Moving %1 old messages from folder %2 to folder %3..."
+msgid "Moving 1 old message from folder %2 to folder %3…"
+msgid_plural "Moving %1 old messages from folder %2 to folder %3…"
+msgstr[0] "%1 seanteachtaireacht á bogadh ó fhillteán %2 go dtí fillteán %3..."
+msgstr[1] "%1 sheanteachtaireacht á mbogadh ó fhillteán %2 go dtí fillteán %3..."
+msgstr[2] "%1 sheanteachtaireacht á mbogadh ó fhillteán %2 go dtí fillteán %3..."
+msgstr[3] "%1 seanteachtaireacht á mbogadh ó fhillteán %2 go dtí fillteán %3..."
+msgstr[4] "%1 seanteachtaireacht á mbogadh ó fhillteán %2 go dtí fillteán %3..."
+
+#. +> trunk6 stable6
+#: job/expiremovejob.cpp:127
+#, kde-format
+msgid "Moved 1 old message from folder %2 to folder %3."
+msgid_plural "Moved %1 old messages from folder %2 to folder %3."
+msgstr[0] ""
+msgstr[1] ""
+
+#. +> trunk6 stable6
+#: job/expiremovejob.cpp:136
+#, kde-format
+msgid "Moving old messages from folder %1 to folder %2 was canceled."
+msgstr ""
+
+#. +> trunk6 stable6
+#: job/expiremovejob.cpp:143
+#, kde-format
+msgid "Moving old messages from folder %1 to folder %2 failed."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kernel/mailkernel.cpp:184 kernel/mailkernel.cpp:206
+#, kde-format
+msgid "You do not have read/write permission to your inbox folder."
+msgstr ""
+
+#. +> trunk6 stable6
+#: kernel/mailkernel.cpp:235
+#, kde-format
+msgid "The Email program encountered a fatal error and will terminate now"
+msgstr ""
+
+#. +> trunk6 stable6
+#: kernel/mailkernel.cpp:238
+#, kde-format
+msgid ""
+"The Email program encountered a fatal error and will terminate now.\n"
+"The error was:\n"
+"%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpattern.cpp:237
+#, kde-format
+msgctxt "name used for a virgin filter"
+msgid "unknown"
+msgstr "anaithnid"
+
+#. +> trunk6 stable6
+#: search/searchpattern.cpp:245
+#, kde-format
+msgid "(match any of the following)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpattern.cpp:248
+#, kde-format
+msgid "(match all of the following)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpattern.cpp:251
+#, kde-format
+msgid "(match all messages)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:41
+msgid "Complete Message"
+msgstr "Teachtaireacht Iomlán"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:42
+msgid "Body of Message"
+msgstr "Corp na Teachtaireachta"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:43
+msgid "Anywhere in Headers"
+msgstr "Áit Ar Bith sa Cheanntásca"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:44
+msgid "All Recipients"
+msgstr "Gach Faighteoir"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:45
+msgid "Size in Bytes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:46
+msgid "Age in Days"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:47
+msgid "Message Status"
+msgstr "Stádas na Teachtaireachta"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:48
+msgid "Message Tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:49
+#, fuzzy
+#| msgctxt "Subject of an email."
+#| msgid "Subject"
+msgid "Subject"
+msgstr "Ábhar"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:50
+msgid "From"
+msgstr "Ó"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:51
+#, fuzzy
+#| msgctxt "Email recipient"
+#| msgid "To"
+msgid "To"
+msgstr "Chuig"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:53
+msgid "Reply To"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:54
+msgid "Organization"
+msgstr "Eagras"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:55
+msgid "Date"
+msgstr "Dáta"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:56
+msgid "Encryption"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:57
+#, fuzzy
+#| msgctxt "message status"
+#| msgid "Has Attachment"
+msgid "Attachment"
+msgstr "Le hIatán"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:58
+#, fuzzy
+#| msgid "Organization"
+msgid "Invitation"
+msgstr "Eagras"
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:146
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Choose or type your own criteria"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:147
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Choose or type your own criteria"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:584
+#, kde-format
+msgctxt "@option:radio"
+msgid "Match a&ll of the following"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:585
+#, kde-format
+msgctxt "@option:radio"
+msgid "Match an&y of the following"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:587
+#, kde-format
+msgctxt "@option:radio"
+msgid "Match all messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchpatternedit.cpp:598
+#, kde-format
+msgid "Filter criteria:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:187
+#, fuzzy, kde-format
+#| msgid "equals"
+msgid "equal"
+msgstr "cothrom le"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:190
+#, fuzzy, kde-format
+#| msgid "is not equal to"
+msgid "not equal"
+msgstr "ní cothrom le"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:193
+#, fuzzy, kde-format
+#| msgid "is greater than"
+msgid "is greater"
+msgstr "atá níos mó ná"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:196
+#, fuzzy, kde-format
+#| msgid "is not equal to"
+msgid "is less or equal"
+msgstr "ní cothrom le"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:199
+#, fuzzy, kde-format
+#| msgid "is less than"
+msgid "is less"
+msgstr "atá níos lú ná"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:202
+#, fuzzy, kde-format
+#| msgid "is greater than"
+msgid "is greater or equal"
+msgstr "atá níos mó ná"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:205
+#, fuzzy, kde-format
+#| msgid "is in address book"
+msgid "is in addressbook"
+msgstr "atá i leabhar seoltaí"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:208
+#, fuzzy, kde-format
+#| msgid "is not in address book"
+msgid "is not in addressbook"
+msgstr "nach bhfuil i leabhar seoltaí"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:211 search/searchrule/searchrule.cpp:214
+#, kde-format
+msgid "is in category"
+msgstr "atá i gcatagóir"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:217
+#: search/widgethandler/messagerulewidgethandler.cpp:28
+#: search/widgethandler/messagerulewidgethandler.cpp:145
+#, kde-format
+msgid "has an attachment"
+msgstr "a bhfuil iatán aige"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:220
+#, fuzzy, kde-format
+#| msgid "has an attachment"
+msgid "has not an attachment"
+msgstr "a bhfuil iatán aige"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:223
+#, fuzzy, kde-format
+#| msgid "Organization"
+msgid "has an invitation"
+msgstr "Eagras"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:226
+#, fuzzy, kde-format
+#| msgid "Organization"
+msgid "has not an invitation"
+msgstr "Eagras"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:229
+#, fuzzy, kde-format
+#| msgid "starts with"
+msgid "start with"
+msgstr "a thosaíonn le"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:232
+#, fuzzy, kde-format
+#| msgid "does not start with"
+msgid "not start with"
+msgstr "nach dtosaíonn le"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:235
+#, fuzzy, kde-format
+#| msgid "ends with"
+msgid "end with"
+msgstr "atá críochnaithe le"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:238
+#, fuzzy, kde-format
+#| msgid "does not end with"
+msgid "not end with"
+msgstr "nach gcríochnaíonn le"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:241
+#, kde-format
+msgid "none"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:244
+#: search/widgethandler/headersrulerwidgethandler.cpp:25
+#: search/widgethandler/messagerulewidgethandler.cpp:24
+#: search/widgethandler/tagrulewidgethandler.cpp:93
+#: search/widgethandler/textrulerwidgethandler.cpp:24
+#, kde-format
+msgid "contains"
+msgstr "ina bhfuil"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:247
+#, fuzzy, kde-format
+#| msgid "contains"
+msgid "not contains"
+msgstr "ina bhfuil"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:250
+#, kde-format
+msgid "has regexp"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:253
+#, kde-format
+msgid "not regexp"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:267
+#, kde-format
+msgid "size equals not supported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:270
+#, fuzzy, kde-format
+#| msgid "is not equal to"
+msgid "size not equals not supported"
+msgstr "ní cothrom le"
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:303 search/searchrule/searchrule.cpp:411
+#: search/searchrule/searchrule.cpp:494
+#, kde-format
+msgid "\"%1\" is not supported with condition \"%2\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:309
+#, kde-format
+msgid "<status> not implemented/supported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:312
+#, kde-format
+msgid "<any header> not implemented/supported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:315
+#, kde-format
+msgid "<contents> not implemented/supported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:318
+#, kde-format
+msgid "<age in days> not implemented/supported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:321
+#, kde-format
+msgid "<date> not implemented/supported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:324
+#, kde-format
+msgid "<recipients> not implemented/supported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:326
+#, kde-format
+msgid "<Tag> is not supported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrule.cpp:329
+#, kde-format
+msgid "<message> not implemented/supported"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchruledate.cpp:20
+#, kde-format
+msgid "Date is not valid."
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrulenumerical.cpp:137
+#, kde-format
+msgid "Content is not a number."
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/searchrule/searchrulestring.cpp:235
+#, kde-format
+msgid "String is empty."
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/attachmentwidgethandler.cpp:17
+#: search/widgethandler/invitationwidgethandler.cpp:17
+msgid "has"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/attachmentwidgethandler.cpp:17
+#: search/widgethandler/invitationwidgethandler.cpp:17
+#, fuzzy
+#| msgid "is not"
+msgid "has not"
+msgstr "nach bhfuil"
+
+#. +> trunk6 stable6
+#: search/widgethandler/attachmentwidgethandler.cpp:54
+#, fuzzy, kde-format
+#| msgctxt "message status"
+#| msgid "Has Attachment"
+msgctxt "@label:textbox"
+msgid "attachments"
+msgstr "Le hIatán"
+
+#. +> trunk6 stable6
+#: search/widgethandler/attachmentwidgethandler.cpp:91
+#, fuzzy, kde-format
+#| msgid "has an attachment"
+msgid "has attachment"
+msgstr "a bhfuil iatán aige"
+
+#. +> trunk6 stable6
+#: search/widgethandler/daterulewidgethandler.cpp:22
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:21
+#: search/widgethandler/numericrulewidgethandler.cpp:21
+msgid "is equal to"
+msgstr "cothrom le"
+
+#. +> trunk6 stable6
+#: search/widgethandler/daterulewidgethandler.cpp:23
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:22
+#: search/widgethandler/numericrulewidgethandler.cpp:22
+msgid "is not equal to"
+msgstr "ní cothrom le"
+
+#. +> trunk6 stable6
+#: search/widgethandler/daterulewidgethandler.cpp:24
+msgid "is after"
+msgstr "atá i ndiaidh"
+
+#. +> trunk6 stable6
+#: search/widgethandler/daterulewidgethandler.cpp:25
+msgid "is before or equal to"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/daterulewidgethandler.cpp:26
+msgid "is before"
+msgstr "atá roimh"
+
+#. +> trunk6 stable6
+#: search/widgethandler/daterulewidgethandler.cpp:27
+msgid "is after or equal to"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/encryptionwidgethandler.cpp:17
+#: search/widgethandler/statusrulewidgethandler.cpp:18
+msgid "is"
+msgstr "atá"
+
+#. +> trunk6 stable6
+#: search/widgethandler/encryptionwidgethandler.cpp:17
+#: search/widgethandler/statusrulewidgethandler.cpp:18
+msgid "is not"
+msgstr "nach bhfuil"
+
+#. +> trunk6 stable6
+#: search/widgethandler/encryptionwidgethandler.cpp:54
+#, kde-format
+msgctxt "@label:textbox"
+msgid "encrypted"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/encryptionwidgethandler.cpp:91
+#, kde-format
+msgid "is encrypted"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:26
+#: search/widgethandler/messagerulewidgethandler.cpp:25
+#: search/widgethandler/tagrulewidgethandler.cpp:94
+#: search/widgethandler/textrulerwidgethandler.cpp:25
+msgid "does not contain"
+msgstr "nach bhfuil ann"
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:27
+#: search/widgethandler/tagrulewidgethandler.cpp:95
+#: search/widgethandler/textrulerwidgethandler.cpp:26
+msgid "equals"
+msgstr "cothrom le"
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:28
+#: search/widgethandler/tagrulewidgethandler.cpp:96
+#: search/widgethandler/textrulerwidgethandler.cpp:27
+msgid "does not equal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:29
+#: search/widgethandler/textrulerwidgethandler.cpp:28
+msgid "starts with"
+msgstr "a thosaíonn le"
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:30
+#: search/widgethandler/textrulerwidgethandler.cpp:29
+msgid "does not start with"
+msgstr "nach dtosaíonn le"
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:31
+#: search/widgethandler/textrulerwidgethandler.cpp:30
+msgid "ends with"
+msgstr "atá críochnaithe le"
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:32
+#: search/widgethandler/textrulerwidgethandler.cpp:31
+msgid "does not end with"
+msgstr "nach gcríochnaíonn le"
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:34
+#: search/widgethandler/messagerulewidgethandler.cpp:26
+#: search/widgethandler/tagrulewidgethandler.cpp:97
+#: search/widgethandler/textrulerwidgethandler.cpp:33
+msgid "matches regular expr."
+msgstr "atá comhoiriúnach do shlonn ionad."
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:35
+#: search/widgethandler/messagerulewidgethandler.cpp:27
+#: search/widgethandler/tagrulewidgethandler.cpp:98
+#: search/widgethandler/textrulerwidgethandler.cpp:34
+msgid "does not match reg. expr."
+msgstr "nach bhfuil comhoiriúnach do shlonn ionad."
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:36
+#: search/widgethandler/headersrulerwidgethandler.cpp:151
+#, kde-format
+msgid "is in address book"
+msgstr "atá i leabhar seoltaí"
+
+#. +> trunk6 stable6
+#: search/widgethandler/headersrulerwidgethandler.cpp:37
+#: search/widgethandler/headersrulerwidgethandler.cpp:153
+#, kde-format
+msgid "is not in address book"
+msgstr "nach bhfuil i leabhar seoltaí"
+
+#. +> trunk6 stable6
+#: search/widgethandler/invitationwidgethandler.cpp:54
+#, fuzzy, kde-format
+#| msgid "Organization"
+msgctxt "@label:textbox"
+msgid "invitation"
+msgstr "Eagras"
+
+#. +> trunk6 stable6
+#: search/widgethandler/invitationwidgethandler.cpp:91
+#, fuzzy, kde-format
+#| msgid "Organization"
+msgid "has invitation"
+msgstr "Eagras"
+
+#. +> trunk6 stable6
+#: search/widgethandler/messagerulewidgethandler.cpp:29
+#: search/widgethandler/messagerulewidgethandler.cpp:147
+#, kde-format
+msgid "has no attachment"
+msgstr "nach bhfuil iatán aige"
+
+#. +> trunk6 stable6
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:23
+#: search/widgethandler/numericrulewidgethandler.cpp:23
+msgid "is greater than"
+msgstr "atá níos mó ná"
+
+#. +> trunk6 stable6
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:24
+#: search/widgethandler/numericrulewidgethandler.cpp:24
+msgid "is less than or equal to"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:25
+#: search/widgethandler/numericrulewidgethandler.cpp:25
+msgid "is less than"
+msgstr "atá níos lú ná"
+
+#. +> trunk6 stable6
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:26
+#: search/widgethandler/numericrulewidgethandler.cpp:26
+msgid "is greater than or equal to"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/numericdoublerulewidgethandler.cpp:157
+#, kde-format
+msgctxt "spinbox suffix: unit for kilobyte"
+msgid " kB"
+msgstr " kB"
+
+#. +> trunk6 stable6
+#: search/widgethandler/numericrulewidgethandler.cpp:157
+#, fuzzy, kde-format
+#| msgctxt "Expire messages after %1"
+#| msgid " day"
+#| msgid_plural " days"
+msgctxt "Unit suffix where units are days."
+msgid "%v day"
+msgid_plural "%v days"
+msgstr[0] " lá"
+msgstr[1] " lá"
+msgstr[2] " lá"
+msgstr[3] " lá"
+msgstr[4] " lá"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:28
+msgctxt "message status"
+msgid "Important"
+msgstr "Tábhachtach"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:29
+msgctxt "message status"
+msgid "Action Item"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:30
+msgctxt "message status"
+msgid "Unread"
+msgstr "Gan léamh"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:31
+msgctxt "message status"
+msgid "Read"
+msgstr "Léite"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:32
+msgctxt "message status"
+msgid "Deleted"
+msgstr "Scriosta"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:33
+msgctxt "message status"
+msgid "Replied"
+msgstr "Freagartha"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:34
+msgctxt "message status"
+msgid "Forwarded"
+msgstr "Curtha Ar Aghaidh"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:35
+msgctxt "message status"
+msgid "Queued"
+msgstr "Curtha ar Chiú"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:36
+msgctxt "message status"
+msgid "Sent"
+msgstr "Seolta"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:37
+msgctxt "message status"
+msgid "Watched"
+msgstr ""
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:38
+msgctxt "message status"
+msgid "Ignored"
+msgstr "Neamhaird tugtha air"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:39
+msgctxt "message status"
+msgid "Spam"
+msgstr "Dramhphost"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:40
+msgctxt "message status"
+msgid "Ham"
+msgstr "Dea-Phost"
+
+#. +> trunk6 stable6
+#: search/widgethandler/statusrulewidgethandler.cpp:41
+msgctxt "message status"
+msgid "Has Attachment"
+msgstr "Le hIatán"
+
+#. +> trunk6 stable6
+#: snippets/snippetattachmentwidget.cpp:28
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "Click on button for selecting attachment file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetattachmentwidget.cpp:34
+#, fuzzy, kde-format
+#| msgid "Remove Attachments"
+msgctxt "@info:tooltip"
+msgid "Select Attachments"
+msgstr "Bain Iatáin"
+
+#. +> trunk6 stable6
+#: snippets/snippetattachmentwidget.cpp:35
+#, kde-format
+msgid "…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetcustomfileattachmentnamedialog.cpp:28
+#, fuzzy, kde-format
+#| msgid "Remove Attachments"
+msgctxt "@title:window"
+msgid "Customize File Name Attachment"
+msgstr "Bain Iatáin"
+
+#. +> trunk6 stable6
+#: snippets/snippetcustomfileattachmentnamewidget.cpp:29
+#, fuzzy, kde-format
+#| msgid "Rename..."
+msgctxt "@label:textbox"
+msgid "Filename:"
+msgstr "Athainmnigh..."
+
+#. +> trunk6 stable6
+#: snippets/snippetcustomfileattachmentnamewidget.cpp:47
+#, fuzzy, kde-format
+#| msgid "Enter Values for Variables"
+msgctxt "@action:button"
+msgid "Insert Variables"
+msgstr "Iontráil Luachanna ar Athróga"
+
+#. +> trunk6 stable6
+#: snippets/snippetselectattachmentdialog.cpp:26
+#: snippets/snippetselectattachmentwidget.cpp:52
+#, fuzzy, kde-format
+#| msgid "Remove Attachments"
+msgctxt "@title:window"
+msgid "Select Attachments"
+msgstr "Bain Iatáin"
+
+#. +> trunk6 stable6
+#: snippets/snippetselectattachmentwidget.cpp:45
+#, kde-format
+msgid "Do you want to delete selected attachment?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:156
+#, kde-format
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:162
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Snippet"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:228
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Snippet"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:288
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove snippet \"%1\"?<nl/>"
+"<warning>There is no way to undo the removal.</warning>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:307
+#, kde-format
+msgctxt "@title:window"
+msgid "Add Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:332
+#, kde-format
+msgctxt "@title:window"
+msgid "Edit Group"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:361
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"Do you really want to remove group \"%1\" along with all its snippets?<nl/>"
+"<warning>There is no way to undo the removal.</warning>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:371
+#, kde-format
+msgctxt "@info"
+msgid "Do you really want to remove group \"%1\"?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:439 snippets/snippetsmanager.cpp:468
+#, kde-format
+msgctxt "@action"
+msgid "Snippet %1"
+msgstr "Blúire %1"
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:560
+#, fuzzy, kde-format
+#| msgid "Add Snippet..."
+msgctxt "@action"
+msgid "Add Snippet…"
+msgstr "Cuir Blúire Leis..."
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:562
+#, fuzzy, kde-format
+#| msgid "Edit Snippet..."
+msgctxt "@action"
+msgid "Edit Snippet…"
+msgstr "Cuir Blúire in Eagar..."
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:564
+#, fuzzy, kde-format
+#| msgid "Remove Snippet"
+msgctxt "@action"
+msgid "Remove Snippet"
+msgstr "Bain Blúire"
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:567
+#, fuzzy, kde-format
+#| msgid "Add Group..."
+msgctxt "@action"
+msgid "Add Group…"
+msgstr "Cuir Grúpa Leis..."
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:569
+#, fuzzy, kde-format
+#| msgid "Rename Group..."
+msgctxt "@action"
+msgid "Rename Group…"
+msgstr "Athainmnigh Grúpa..."
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:571
+#, fuzzy, kde-format
+#| msgid "Remove Group"
+msgctxt "@action"
+msgid "Remove Group"
+msgstr "Bain Grúpa"
+
+#. +> trunk6 stable6
+#: snippets/snippetsmanager.cpp:574
+#, fuzzy, kde-format
+#| msgid "Insert Snippet"
+msgctxt "@action"
+msgid "Insert Snippet"
+msgstr "Ionsáigh Blúire"
+
+#. +> trunk6 stable6
+#: snippets/snippetsmodel.cpp:524 snippets/snippetsmodel.cpp:553
+#, kde-format
+msgid "Do you want to update snippet?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetsmodel.cpp:525 snippets/snippetsmodel.cpp:554
+#, fuzzy, kde-format
+#| msgid "Remove Snippet"
+msgctxt "@title:window"
+msgid "Update snippet"
+msgstr "Bain Blúire"
+
+#. +> trunk6 stable6
+#: snippets/snippetsmodel.cpp:526 snippets/snippetsmodel.cpp:555
+#, fuzzy, kde-format
+#| msgid "Remove Snippet"
+msgctxt "@action:button"
+msgid "Update"
+msgstr "Bain Blúire"
+
+#. +> trunk6 stable6
+#: snippets/snippettreeview.cpp:65
+#, fuzzy, kde-format
+#| msgid "Insert Snippet"
+msgid "Text Snippets"
+msgstr "Ionsáigh Blúire"
+
+#. +> trunk6 stable6
+#: snippets/snippetvariabledialog.cpp:37
+#, fuzzy, kde-format
+#| msgid "Enter Values for Variables"
+msgctxt "@title:window"
+msgid "Enter Values for Variables"
+msgstr "Iontráil Luachanna ar Athróga"
+
+#. +> trunk6 stable6
+#: snippets/snippetvariabledialog.cpp:40
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Enter the replacement values for '%1':"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetvariabledialog.cpp:45
+#, fuzzy, kde-format
+#| msgid "Make value &default"
+msgctxt "@option:check"
+msgid "Make value &default"
+msgstr "Socraigh mar &réamhshocrú"
+
+#. +> trunk6 stable6
+#: snippets/snippetvariabledialog.cpp:48
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Enable this to save the value entered to the right as the default value for this variable"
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetvariabledialog.cpp:51
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid "If you enable this option, the value entered to the right will be saved. If you use the same variable later, even in another snippet, the value entered to the right will be the default value for that variable."
+msgstr ""
+
+#. +> trunk6 stable6
+#: snippets/snippetwidget.cpp:58
+#, kde-format
+msgid "Enter a keyword here to enable fast insertion of this snippet while writing an email. For instance if you choose \"greeting\" as the keyword, you can then type \\greeting in your email and then press the tab key, and it will be replaced with the contents of this snippet."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:32
+#, kde-format
+msgid "&Name:"
+msgstr "Ai&nm:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabelGroup)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:50
+#, kde-format
+msgctxt "Group to which the snippet belongs."
+msgid "Group:"
+msgstr "Grúpa:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:69
+#, fuzzy, kde-format
+#| msgctxt "Subject of an email."
+#| msgid "Subject"
+msgid "Subject:"
+msgstr "Ábhar"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:88
+#, fuzzy, kde-format
+#| msgctxt "Email recipient"
+#| msgid "To"
+msgid "To:"
+msgstr "Chuig"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:101
+#, kde-format
+msgid "Cc:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:114
+#, kde-format
+msgid "Bcc:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:127
+#, kde-format
+msgid "&Snippet:"
+msgstr "&Blúire:"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButtonVariables)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:157
+#, kde-format
+msgid "Variables"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:181
+#, fuzzy, kde-format
+#| msgctxt "message status"
+#| msgid "Has Attachment"
+msgid "Attachments:"
+msgstr "Le hIatán"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:193
+#, kde-format
+msgid "Keyword:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, keyWidgetLabel)
+#. +> trunk6 stable6
+#: snippets/ui/snippetwidget.ui:212
+#, fuzzy, kde-format
+#| msgid "Shortcut:"
+msgid "Sho&rtcut:"
+msgstr "Aicearra:"
+
+#. +> trunk6 stable6
+#: tag/addtagdialog.cpp:39
+#, fuzzy, kde-format
+#| msgid "Add Tag"
+msgctxt "@title:window"
+msgid "Add Tag"
+msgstr "Cuir Clib Leis"
+
+#. +> trunk6 stable6
+#: tag/addtagdialog.cpp:76
+#, kde-format
+msgid "Tag %1 already exists"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tag/tagwidget.cpp:63
+#, kde-format
+msgctxt "@label:listbox Name of the tag"
+msgid "Name:"
+msgstr "Ainm:"
+
+#. +> trunk6 stable6
+#: tag/tagwidget.cpp:70
+#, fuzzy, kde-format
+#| msgid "Change te&xt color:"
+msgctxt "@option:check"
+msgid "Change te&xt color:"
+msgstr "Athraigh dath an téa&cs:"
+
+#. +> trunk6 stable6
+#: tag/tagwidget.cpp:82
+#, fuzzy, kde-format
+#| msgid "Change &background color:"
+msgctxt "@option:check"
+msgid "Change &background color:"
+msgstr "Athraigh &dath an chúlra:"
+
+#. +> trunk6 stable6
+#: tag/tagwidget.cpp:94
+#, fuzzy, kde-format
+#| msgid "Change fo&nt:"
+msgctxt "@option:check"
+msgid "Change fo&nt:"
+msgstr "Athraigh a&n chló:"
+
+#. +> trunk6 stable6
+#: tag/tagwidget.cpp:100
+#, kde-format
+msgctxt "@option:check"
+msgid "&Bold"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tag/tagwidget.cpp:104
+#, kde-format
+msgctxt "@option:check"
+msgid "&Italics"
+msgstr ""
+
+#. +> trunk6 stable6
+#: tag/tagwidget.cpp:122
+#, fuzzy, kde-format
+#| msgid "Message Status"
+msgctxt "@label:textbox"
+msgid "Message tag &icon:"
+msgstr "Stádas na Teachtaireachta"
+
+#. +> trunk6 stable6
+#: tag/tagwidget.cpp:133
+#, fuzzy, kde-format
+#| msgid "Shortc&ut:"
+msgctxt "@label:textbox"
+msgid "Shortc&ut:"
+msgstr "&Aicearra:"
+
+#. +> trunk6 stable6
+#: tag/tagwidget.cpp:144
+#, kde-format
+msgctxt "@option:check"
+msgid "Enable &toolbar button"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/favoritecollectionwidget.cpp:91
+#, fuzzy, kde-format
+#| msgid "Icon Size"
+msgid "Icon size"
+msgstr "Méid na nDeilbhíní"
+
+#. +> trunk6 stable6
+#: widgets/favoritecollectionwidget.cpp:110
+#, kde-format
+msgid "Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/favoritecollectionwidget.cpp:114
+#, kde-format
+msgctxt "@action"
+msgid "List Mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/favoritecollectionwidget.cpp:124
+#, fuzzy, kde-format
+#| msgid "Icon Size"
+msgctxt "@action"
+msgid "Icon Mode"
+msgstr "Méid na nDeilbhíní"
+
+#. +> trunk6 stable6
+#: widgets/favoritecollectionwidget.cpp:235
+#, kde-format
+msgid "Drop your favorite folders here…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:67
+#, kde-format
+msgid "Resend-To:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:70
+#, kde-format
+msgid "Resend-Cc:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:73
+#, kde-format
+msgid "Resend-Bcc:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:102
+#, fuzzy, kde-format
+#| msgid "Redirect Message"
+msgctxt "@title:window"
+msgid "Redirect Message"
+msgstr "Athsheol an Teachtaireacht"
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:123
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Select the recipient addresses to redirect to:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:152
+#, kde-format
+msgid "Identity:"
+msgstr "Aitheantas:"
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:156
+#, kde-format
+msgid "Transport:"
+msgstr "Iompar:"
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:158
+#, fuzzy, kde-format
+#| msgid "&Send Now"
+msgctxt "@action:button"
+msgid "&Send Now"
+msgstr "&Seol Anois"
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:159
+#, fuzzy, kde-format
+#| msgid "Send &Later"
+msgctxt "@action:button"
+msgid "Send &Later"
+msgstr "Seo&l Níos Déanaí"
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:207
+#, kde-format
+msgid "You cannot redirect the message without an address."
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/redirectdialog.cpp:207
+#, kde-format
+msgctxt "@title:window"
+msgid "Empty Redirection Address"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/redirectwidget.cpp:39
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Use the Address-Selection Dialog"
+msgstr ""
+
+#. +> trunk6 stable6
+#: widgets/redirectwidget.cpp:41
+#, kde-format
+msgid "This button opens a separate dialog where you can select recipients out of all available addresses."
+msgstr ""

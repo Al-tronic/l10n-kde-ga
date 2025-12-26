@@ -1,0 +1,3467 @@
+# Irish translation of TextShape
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the TextShape package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: koffice/TextShape.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:24+0100\n"
+"PO-Revision-Date: 2007-07-22 14:30-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: AnnotationTextShapeFactory.cpp:31 AnnotationTextShapeFactory.cpp:39
+#, fuzzy, kde-format
+msgid "Annotation"
+msgstr "Breise"
+
+#. +> trunk6 stable6
+#: AnnotationTextShapeFactory.cpp:33
+#, kde-format
+msgid "Annotation shape to show annotation content"
+msgstr ""
+
+#. +> trunk6 stable6
+#: AnnotationTextShapeFactory.cpp:41
+#, fuzzy, kde-format
+msgid "Annotation Shape"
+msgstr "Breise"
+
+#. +> trunk6 stable6
+#: commands/AcceptChangeCommand.cpp:31
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Accept change"
+msgstr "Diúltaigh athrú"
+
+#. +> trunk6 stable6
+#: commands/AutoResizeCommand.cpp:19
+#, fuzzy, kde-format
+msgctxt "Disable Shrink To Fit"
+msgid "Disable"
+msgstr "Fad:"
+
+#. +> trunk6 stable6
+#: commands/AutoResizeCommand.cpp:19
+#, fuzzy, kde-format
+msgctxt "Enable Shrink To Fit"
+msgid "Enable"
+msgstr "Tábla..."
+
+#. +> trunk6 stable6
+#: commands/AutoResizeCommand.cpp:22
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Width"
+msgid "%1 Grow To Fit Width"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commands/AutoResizeCommand.cpp:25
+#, kde-format
+msgctxt "(qtundo-format) Enable/Disable Grow To Fit Height"
+msgid "%1 Grow To Fit Height"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commands/AutoResizeCommand.cpp:28
+#, fuzzy, kde-format
+#| msgid "Shrink To Fit"
+msgctxt "(qtundo-format) Enable/Disable Shrink To Fit"
+msgid "%1 Shrink To Fit"
+msgstr "Laghdaigh go cuí"
+
+#. +> trunk6 stable6
+#: commands/ChangeListLevelCommand.cpp:28
+msgctxt "(qtundo-format)"
+msgid "Change List Level"
+msgstr ""
+
+#. +> trunk6 stable6
+#: commands/RejectChangeCommand.cpp:35
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Reject change"
+msgstr "Diúltaigh athrú"
+
+#. +> trunk6 stable6
+#: commands/ShowChangesCommand.cpp:40
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Show Changes"
+msgstr "Taispeáin Athruithe"
+
+#. +> trunk6 stable6
+#: commands/ShowChangesCommand.cpp:42
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Hide Changes"
+msgstr "Taispeáin Athruithe"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, TableOfContentsStyleConfigure)
+#. i18n: ectx: property (windowTitle), widget (QDialog, AcceptRejectChangeDialog)
+#. i18n: ectx: property (windowTitle), widget (QDialog, TableOfContentsConfigure)
+#. +> trunk6 stable6
+#: dialogs/AcceptRejectChangeDialog.ui:26
+#: dialogs/TableOfContentsConfigure.ui:14
+#: dialogs/TableOfContentsStyleConfigure.ui:14
+#, fuzzy, kde-format
+msgid "Dialog"
+msgstr "Fad:"
+
+#. i18n: ectx: property (text), widget (QPushButton, acceptButton)
+#. +> trunk6 stable6
+#: dialogs/AcceptRejectChangeDialog.ui:44
+#, kde-format
+msgid "Accept"
+msgstr "Glac Leis"
+
+#. i18n: ectx: property (text), widget (QPushButton, rejectButton)
+#. +> trunk6 stable6
+#: dialogs/AcceptRejectChangeDialog.ui:57
+#, kde-format
+msgid "Reject"
+msgstr "Diúltaigh"
+
+#. i18n: ectx: property (text), widget (QPushButton, cancelButton)
+#. +> trunk6 stable6
+#: dialogs/AcceptRejectChangeDialog.ui:70
+#, fuzzy, kde-format
+msgid "Cancel"
+msgstr "Taispeáin Athruithe"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: dialogs/AcceptRejectChangeDialog.ui:96
+#, fuzzy, kde-format
+msgid "Change Log"
+msgstr "Taispeáin Athruithe"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: dialogs/AcceptRejectChangeDialog.ui:109
+#, fuzzy, kde-format
+msgid "Author"
+msgstr "Uathoibríoch"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: dialogs/AcceptRejectChangeDialog.ui:122
+#, fuzzy, kde-format
+msgid "Date"
+msgstr "Greamaigh"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: dialogs/AcceptRejectChangeDialog.ui:135
+#, fuzzy, kde-format
+msgid "Type"
+msgstr "Cineál:"
+
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.cpp:90
+#, kde-format
+msgid "Ascending"
+msgstr "Ag dul suas"
+
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.cpp:91
+#, kde-format
+msgid "Descending"
+msgstr "Ag dul síos"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, BibliographyConfigureDialog)
+#. i18n: ectx: property (toolTip), widget (QToolButton, configureBibliography)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:14
+#: dialogs/SimpleCitationBibliographyWidget.ui:55
+#, fuzzy, kde-format
+msgid "Configure bibliography"
+msgstr "Ionsáigh Briseadh"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:20
+#, fuzzy, kde-format
+msgid "Formatting of bibliography entries"
+msgstr "Ionsáigh Briseadh"
+
+#. i18n: ectx: property (text), widget (QLabel, prefixLabel)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:28 dialogs/ListLevelWidget.ui:396
+#: dialogs/ParagraphBulletsNumbers.ui:70
+#, kde-format
+msgid "Prefix:"
+msgstr "Réimír:"
+
+#. i18n: ectx: property (text), widget (QLabel, suffixLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:48 dialogs/ListLevelWidget.ui:373
+#: dialogs/ParagraphBulletsNumbers.ui:86
+#, kde-format
+msgid "Suffix:"
+msgstr "Iarmhír:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, numberedEntries)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:70
+#, fuzzy, kde-format
+msgid "Number entries"
+msgstr "Líon na rónna:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:80
+#, kde-format
+msgid "Sort"
+msgstr "Sórtáil"
+
+#. i18n: ectx: property (text), widget (QCheckBox, sortByPosition)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:86
+#, kde-format
+msgid "Sort by position"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, sortKeyGroupBox)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:93
+#, fuzzy, kde-format
+msgid "Sort keys"
+msgstr "Sórtáil de réir"
+
+#. i18n: ectx: property (text), widget (QPushButton, addSortKeyButton)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:103
+#, fuzzy, kde-format
+msgid "Add sort key"
+msgstr "Sórtáil de réir"
+
+#. i18n: ectx: property (text), widget (QLabel, sortAlgorithmLabel)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:131
+#, fuzzy, kde-format
+msgid "Sort algorithm:"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sortAlgorithm)
+#. +> trunk6 stable6
+#: dialogs/BibliographyConfigureDialog.ui:139
+#, kde-format
+msgid "Alphanumeric"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/BibliographyTemplate.cpp:30
+#, fuzzy, kde-format
+msgid "Bibliography"
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: dialogs/BibliographyTemplate.cpp:42 ReferencesToolFactory.cpp:19
+#, kde-format
+msgid "References"
+msgstr "Tagairtí"
+
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.cpp:141
+#, kde-format
+msgid "This is a line of inserted text."
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.cpp:147
+#, kde-format
+msgid "This is a line of deleted text."
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.cpp:153
+#, kde-format
+msgid "This is a line of text whose format has been changed."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, ChangeConfigureDialog)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:17
+#, fuzzy, kde-format
+msgid "Configure Change Tracking"
+msgstr "Socruithe an Ailt"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:30
+#, fuzzy, kde-format
+msgid "General Settings"
+msgstr "Socruithe an Ailt"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:37
+#, fuzzy, kde-format
+msgid "Saving Format"
+msgstr "Formáid Ailt"
+
+#. i18n: ectx: property (text), widget (QRadioButton, odf12RadioButton)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:44
+#, kde-format
+msgid "ODF 1.2"
+msgstr "ODF 1.2"
+
+#. i18n: ectx: property (text), widget (QRadioButton, deltaXmlRadioButton)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:51
+#, kde-format
+msgid "DeltaXML (Experimental)"
+msgstr "DeltaXML (Turgnamhach)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:58
+#, kde-format
+msgid "Author Name"
+msgstr "Ainm an Údair"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:75
+#, kde-format
+msgid "Change Visualization Settings"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, insertionGroupBox)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:89
+#, kde-format
+msgid "Insertions"
+msgstr "Línte Ionsáite"
+
+#. i18n: ectx: property (text), widget (QLabel, insertionColorLabel)
+#. i18n: ectx: property (text), widget (QLabel, deletionColorLabel)
+#. i18n: ectx: property (text), widget (QLabel, formatColorLabel)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:105 dialogs/ChangeConfigureDialog.ui:188
+#: dialogs/ChangeConfigureDialog.ui:247
+#, kde-format
+msgid "Background Color"
+msgstr "Dath an Chúlra"
+
+#. i18n: ectx: property (text), widget (QToolButton, moreOptions)
+#. i18n: ectx: property (text), widget (QToolButton, toolAutoSpellCheck)
+#. i18n: ectx: property (text), widget (QToolButton, configureSection)
+#. i18n: ectx: property (text), widget (QToolButton, splitSections)
+#. i18n: ectx: property (text), widget (QToolButton, insertSection)
+#. i18n: ectx: property (text), widget (QuickTableButton, quickTable)
+#. i18n: ectx: property (text), widget (QToolButton, insertVariable)
+#. i18n: ectx: property (text), widget (QToolButton, insertSpecialChar)
+#. i18n: ectx: property (text), widget (QToolButton, insertPageBreak)
+#. i18n: ectx: property (text), widget (FormattingButton, bulletListButton)
+#. i18n: ectx: property (text), widget (QToolButton, resetBackground)
+#. i18n: ectx: property (text), widget (QToolButton, resetTextColor)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_5)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_7)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_4)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_8)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_3)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_6)
+#. i18n: ectx: property (text), widget (QToolButton, toolButton_2)
+#. i18n: ectx: property (text), widget (QToolButton, splitCells)
+#. i18n: ectx: property (text), widget (QToolButton, mergeCells)
+#. i18n: ectx: property (text), widget (FormattingButton, border)
+#. i18n: ectx: property (text), widget (QPushButton, insertionColorButton)
+#. i18n: ectx: property (text), widget (QPushButton, deletionColorButton)
+#. i18n: ectx: property (text), widget (QPushButton, formatColorButton)
+#. i18n: ectx: property (text), widget (QToolButton, customCharacter)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:127 dialogs/ChangeConfigureDialog.ui:207
+#: dialogs/ChangeConfigureDialog.ui:266 dialogs/CharacterHighlighting.ui:40
+#: dialogs/CharacterHighlighting.ui:84 dialogs/FontDecorations.ui:36
+#: dialogs/FontDecorations.ui:62 dialogs/FontDecorations.ui:109
+#: dialogs/FontDecorations.ui:122 dialogs/FontDecorations.ui:135
+#: dialogs/FontDecorations.ui:148 dialogs/FontDecorations.ui:161
+#: dialogs/FontDecorations.ui:174 dialogs/FontDecorations.ui:187
+#: dialogs/FontDecorations.ui:200 dialogs/ParagraphBulletsNumbers.ui:221
+#: dialogs/SimpleCharacterWidget.ui:128 dialogs/SimpleInsertWidget.ui:49
+#: dialogs/SimpleInsertWidget.ui:62 dialogs/SimpleInsertWidget.ui:75
+#: dialogs/SimpleInsertWidget.ui:88 dialogs/SimpleInsertWidget.ui:101
+#: dialogs/SimpleInsertWidget.ui:114 dialogs/SimpleInsertWidget.ui:124
+#: dialogs/SimpleParagraphWidget.ui:73 dialogs/SimpleParagraphWidget.ui:167
+#: dialogs/SimpleSpellCheckingWidget.ui:26 dialogs/SimpleTableWidget.ui:101
+#: dialogs/SimpleTableWidget.ui:111 dialogs/SimpleTableWidget.ui:137
+#, kde-format
+msgid "..."
+msgstr "..."
+
+#. i18n: ectx: property (html), widget (QTextEdit, previewTextEdit)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:158
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-size:11pt; font-weight:600; text-decoration: underline;\">Preview</span></p>"
+"\n"
+"<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:12pt; font-weight:600;\"></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-weight:600;\">Inserted Text</span></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before the inserted text. This is a line of inserted text. This is a line after the inserted text.</span></p>"
+"\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2';\"></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-weight:600;\">Deleted Text</span></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before the deleted text. This is a line of deleted text. This is a line after the deleted text.</span></p>"
+"\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2';\"></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-weight:600;\">Formatted Text</span></p>"
+"\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'MS Shell Dlg 2'; font-size:8pt;\">This is a line of text before the format-change text. This is a line of text whose format has been changed. This is a line of text after the format-change text.</span></p>"
+"</body></html>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, deletionGroupBox)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:172
+#, kde-format
+msgid "Deletions"
+msgstr "Línte Scriosta"
+
+#. i18n: ectx: property (title), widget (QGroupBox, formatGroupBox)
+#. +> trunk6 stable6
+#: dialogs/ChangeConfigureDialog.ui:231
+#, fuzzy, kde-format
+msgid "Format Changes"
+msgstr "Taispeáin Athruithe"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, ChangeTrackingOptions)
+#. +> trunk6 stable6
+#: dialogs/ChangeTrackingOptionsWidget.ui:14
+#, fuzzy, kde-format
+msgid "Change Tracking Options"
+msgstr "Socruithe an Ailt"
+
+#. i18n: ectx: property (text), widget (QPushButton, configureChangeTrackingButton)
+#. +> trunk6 stable6
+#: dialogs/ChangeTrackingOptionsWidget.ui:142
+#, fuzzy, kde-format
+msgid "Configure Settings"
+msgstr "Socruithe an Ailt"
+
+#. i18n: ectx: property (text), widget (QCheckBox, recordChangesCheckBox)
+#. +> trunk6 stable6
+#: dialogs/ChangeTrackingOptionsWidget.ui:175
+#, fuzzy, kde-format
+msgid "Record Changes"
+msgstr "Taispeáin Athruithe"
+
+#. i18n: ectx: property (text), widget (QCheckBox, showChangesCheckBox)
+#. +> trunk6 stable6
+#: dialogs/ChangeTrackingOptionsWidget.ui:182
+#, kde-format
+msgid "Show Changes"
+msgstr "Taispeáin Athruithe"
+
+#. +> trunk6 stable6
+#: dialogs/CharacterGeneral.cpp:60 dialogs/FormattingPreview.cpp:38
+#, kde-format
+msgid "Font"
+msgstr "Cló"
+
+#. i18n: ectx: attribute (title), widget (QWidget, generalTab)
+#. +> trunk6 stable6
+#: dialogs/CharacterGeneral.ui:33
+#, kde-format
+msgid "General"
+msgstr "Ginearálta"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: dialogs/CharacterGeneral.ui:39
+#, fuzzy, kde-format
+msgctxt "Name of the style"
+msgid "Name:"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: dialogs/CharacterGeneral.ui:52
+#, kde-format
+msgid "Next style:"
+msgstr "An chéad stíl eile:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: dialogs/CharacterGeneral.ui:68
+#, fuzzy, kde-format
+msgid "Parent style:"
+msgstr "An chéad stíl eile:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, inToc)
+#. +> trunk6 stable6
+#: dialogs/CharacterGeneral.ui:84
+#, kde-format
+msgid "Include in table of contents"
+msgstr "Cuir i gclár na n-ábhar"
+
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.cpp:303 dialogs/CharacterHighlighting.cpp:314
+#, kde-format
+msgid "Normal"
+msgstr "Gnách"
+
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.cpp:304
+#, kde-format
+msgid "Small Caps"
+msgstr "Ceannlitreacha Beaga"
+
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.cpp:305
+#, kde-format
+msgid "Uppercase"
+msgstr "Cás Uachtair"
+
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.cpp:306
+#, kde-format
+msgid "Lowercase"
+msgstr "Cás Íochtair"
+
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.cpp:307
+#, kde-format
+msgid "Capitalize"
+msgstr "Cás Uachtair"
+
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.cpp:315 TextTool.cpp:280
+#, kde-format
+msgid "Superscript"
+msgstr "Forscript"
+
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.cpp:316 TextTool.cpp:286
+#, kde-format
+msgid "Subscript"
+msgstr "Foscript"
+
+#. i18n: ectx: property (text), widget (QLabel, textColorLabel)
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.ui:27 dialogs/FontDecorations.ui:49
+#, kde-format
+msgid "Text color:"
+msgstr "Dath téacs:"
+
+#. i18n: ectx: property (text), widget (QLabel, backgroundColorLabel)
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.ui:71 dialogs/FontDecorations.ui:69
+#: dialogs/ParagraphDecorations.ui:15
+#, kde-format
+msgid "Background color:"
+msgstr "Dath an chúlra:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.ui:110
+#, fuzzy, kde-format
+#| msgctxt "Text formatting"
+#| msgid "Underline"
+msgid "Underlining:"
+msgstr "Líne Faoi"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.ui:141
+#, kde-format
+msgid "Strikethrough:"
+msgstr "Líne Tríd:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.ui:172
+#, fuzzy, kde-format
+msgid "Capitalization:"
+msgstr "Ceannlitriú"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: dialogs/CharacterHighlighting.ui:185
+#, fuzzy, kde-format
+msgctxt "Character position"
+msgid "Position:"
+msgstr "Ionad"
+
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.cpp:24
+#, fuzzy, kde-format
+msgid "Select"
+msgstr "Roghnaigh Cló"
+
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.cpp:40 dialogs/StyleManager.cpp:442
+#, kde-format
+msgid "Warning"
+msgstr "Rabhadh"
+
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.cpp:41
+#, kde-format
+msgid ""
+"The document already contains the bibliography entry with different data.\n"
+"Do you want to adjust existing entries?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.cpp:58
+#: dialogs/CitationInsertionDialog.cpp:75
+#, fuzzy, kde-format
+msgid "Short name%1"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, CitationInsertionDialog)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:20
+#, fuzzy, kde-format
+msgid "Insert Bibliography entry"
+msgstr "Ionsáigh Briseadh"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:32
+#, fuzzy, kde-format
+msgid "Insert Bibliography Entry Details"
+msgstr "Ionsáigh Briseadh"
+
+#. i18n: ectx: property (text), widget (QLabel, shortnameLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:38
+#, fuzzy, kde-format
+msgid "Short Name:"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (text), widget (QLabel, sourcetypeLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:52
+#, kde-format
+msgid "Source:"
+msgstr "Foinse:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:60 dialogs/InsertBibliographyDialog.ui:61
+#, kde-format
+msgid "Article"
+msgstr "Alt"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:65 dialogs/InsertBibliographyDialog.ui:66
+#, fuzzy, kde-format
+msgid "Book"
+msgstr "Leabharmharcanna"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:70 dialogs/InsertBibliographyDialog.ui:71
+#, kde-format
+msgid "Booklet"
+msgstr "Leabhrán"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:75 dialogs/InsertBibliographyDialog.ui:76
+#, fuzzy, kde-format
+#| msgid "References"
+msgid "Conference"
+msgstr "Tagairtí"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:80 dialogs/InsertBibliographyDialog.ui:81
+#, kde-format
+msgid "Email"
+msgstr "Ríomhphost"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:85
+#, kde-format
+msgid "Inbook"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:90
+#, fuzzy, kde-format
+msgid "Incollection"
+msgstr "Ionsá"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:95
+#, fuzzy, kde-format
+#| msgid "Ascending"
+msgid "Inproceedings"
+msgstr "Ag dul suas"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:100
+#: dialogs/InsertBibliographyDialog.ui:101
+#, kde-format
+msgid "Journal"
+msgstr "Dialann"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:105
+#: dialogs/InsertBibliographyDialog.ui:106
+#, kde-format
+msgid "Manual"
+msgstr "De Láimh"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:110
+#: dialogs/InsertBibliographyDialog.ui:111
+#, kde-format
+msgid "Masters thesis"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:115
+#: dialogs/InsertBibliographyDialog.ui:116
+#, kde-format
+msgid "Misc"
+msgstr "Éagsúil"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:120
+#: dialogs/InsertBibliographyDialog.ui:121
+#, kde-format
+msgid "PhD thesis"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:125
+#: dialogs/InsertBibliographyDialog.ui:126
+#, fuzzy, kde-format
+#| msgid "Ascending"
+msgid "Proceedings"
+msgstr "Ag dul suas"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:130
+#, kde-format
+msgid "Tech Report"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:135
+#: dialogs/InsertBibliographyDialog.ui:136
+#, kde-format
+msgid "Unpublished"
+msgstr "Neamhfhoilsithe"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:140
+#: dialogs/InsertBibliographyDialog.ui:141
+#, kde-format
+msgid "WWW"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:145
+#, fuzzy, kde-format
+msgid "custom 1"
+msgstr "Saincheaptha"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:150
+#, fuzzy, kde-format
+msgid "custom 2"
+msgstr "Saincheaptha"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:155
+#, fuzzy, kde-format
+msgid "custom 3"
+msgstr "Saincheaptha"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:160
+#, fuzzy, kde-format
+msgid "custom 4"
+msgstr "Saincheaptha"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, sourceType)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:165
+#, fuzzy, kde-format
+msgid "custom 5"
+msgstr "Saincheaptha"
+
+#. i18n: ectx: property (text), widget (QLabel, authorLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:173
+#, fuzzy, kde-format
+msgid "Author:"
+msgstr "Uathoibríoch"
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:183
+#: dialogs/InsertBibliographyDialog.ui:32
+#, kde-format
+msgid "Title:"
+msgstr "Teideal:"
+
+#. i18n: ectx: property (text), widget (QLabel, yearLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:193
+#, kde-format
+msgid "Year:"
+msgstr "Bliain:"
+
+#. i18n: ectx: property (text), widget (QLabel, publisherLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:203
+#, kde-format
+msgid "Publisher:"
+msgstr "Foilsitheoir:"
+
+#. i18n: ectx: property (text), widget (QLabel, addressLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:213
+#, kde-format
+msgid "Address:"
+msgstr "Seoladh:"
+
+#. i18n: ectx: property (text), widget (QLabel, isbnLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:223
+#, kde-format
+msgid "ISBN:"
+msgstr "ISBN:"
+
+#. i18n: ectx: property (text), widget (QLabel, chapterLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:233
+#, fuzzy, kde-format
+#| msgid "Chapter"
+msgid "Chapter:"
+msgstr "Caibidil"
+
+#. i18n: ectx: property (text), widget (QLabel, issnLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:243
+#, kde-format
+msgid "ISSN:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, editorLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:253
+#, kde-format
+msgid "Editor:"
+msgstr "Eagarthóir:"
+
+#. i18n: ectx: property (text), widget (QLabel, pagesLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:263
+#, fuzzy, kde-format
+#| msgid "Page"
+msgid "Page(s):"
+msgstr "Leathanach"
+
+#. i18n: ectx: property (text), widget (QLabel, booktitleLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:273
+#, fuzzy, kde-format
+#| msgid "Booklet"
+msgid "Book title:"
+msgstr "Leabhrán"
+
+#. i18n: ectx: property (text), widget (QLabel, editionLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:283
+#, fuzzy, kde-format
+msgid "Edition:"
+msgstr "Breise"
+
+#. i18n: ectx: property (text), widget (QLabel, publicationLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:293
+#, fuzzy, kde-format
+msgid "Publication:"
+msgstr "Ionad"
+
+#. i18n: ectx: property (text), widget (QLabel, volumeLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:303
+#, kde-format
+msgid "Volume:"
+msgstr "Airde:"
+
+#. i18n: ectx: property (text), widget (QLabel, institutionLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:313
+#, fuzzy, kde-format
+msgid "Institution:"
+msgstr "Ionsá"
+
+#. i18n: ectx: property (text), widget (QLabel, organisationLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:323
+#, kde-format
+msgid "Organisation:"
+msgstr "Eagra&s:"
+
+#. i18n: ectx: property (text), widget (QLabel, reporttypeLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:333
+#, kde-format
+msgid "Type of Report:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, schoolLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:343
+#, kde-format
+msgid "University:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, journalLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:353
+#, fuzzy, kde-format
+#| msgid "Journal"
+msgid "Journal:"
+msgstr "Dialann"
+
+#. i18n: ectx: property (text), widget (QLabel, monthLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:363
+#, kde-format
+msgid "Month:"
+msgstr "Mí:"
+
+#. i18n: ectx: property (text), widget (QLabel, seriesLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:373
+#, kde-format
+msgid "Series:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:383
+#, fuzzy, kde-format
+msgid "Number:"
+msgstr "Líon na rónna:"
+
+#. i18n: ectx: property (text), widget (QLabel, noteLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:393
+#, kde-format
+msgid "Note:"
+msgstr "Nóta:"
+
+#. i18n: ectx: property (text), widget (QLabel, annotationLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:403
+#, fuzzy, kde-format
+msgid "Annotation:"
+msgstr "Breise"
+
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:413
+#, kde-format
+msgid "URL:"
+msgstr "URL:"
+
+#. i18n: ectx: property (text), widget (QLabel, ud1Label)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:423
+#, kde-format
+msgid "User-defined 1:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, ud3Label)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:433
+#, kde-format
+msgid "User-defined 3:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, ud2Label)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:440
+#, kde-format
+msgid "User-defined 2:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, ud4Label)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:453
+#, kde-format
+msgid "User-defined 4:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, ud5Label)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:463
+#, kde-format
+msgid "User-defined 5:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:485
+#, kde-format
+msgid "OR"
+msgstr "NÓ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: dialogs/CitationInsertionDialog.ui:509
+#, kde-format
+msgid "From the document:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/DockerStylesComboModel.cpp:64
+#, fuzzy, kde-format
+msgid "Used Styles"
+msgstr "stíl nua"
+
+#. +> trunk6 stable6
+#: dialogs/DockerStylesComboModel.cpp:67
+#, fuzzy, kde-format
+msgid "Unused Styles"
+msgstr "stíl nua"
+
+#. i18n: ectx: property (title), widget (QGroupBox)
+#. +> trunk6 stable6
+#: dialogs/FontDecorations.ui:17
+#, kde-format
+msgid "Colors"
+msgstr "Dathanna"
+
+#. i18n: ectx: property (title), widget (QGroupBox, shadowGroupBox)
+#. +> trunk6 stable6
+#: dialogs/FontDecorations.ui:95
+#, kde-format
+msgid "Text Shadow"
+msgstr "Scáth Téacs"
+
+#. i18n: ectx: property (text), widget (QLabel, shadowColorLabel)
+#. +> trunk6 stable6
+#: dialogs/FontDecorations.ui:244
+#, kde-format
+msgid "Color:"
+msgstr "Dath:"
+
+#. i18n: ectx: property (text), widget (QLabel, shadowDistanceLabel)
+#. +> trunk6 stable6
+#: dialogs/FontDecorations.ui:257
+#, kde-format
+msgid "Distance:"
+msgstr "Fad:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, positionGroupBox)
+#. +> trunk6 stable6
+#: dialogs/FontDecorations.ui:289
+#, kde-format
+msgid "Position"
+msgstr "Ionad"
+
+#. i18n: ectx: property (text), widget (QCheckBox, hyphenate)
+#. +> trunk6 stable6
+#: dialogs/FontDecorations.ui:295
+#, kde-format
+msgid "Automatic hyphenation"
+msgstr "Fleiscíniú uathoibríoch"
+
+#. +> trunk6 stable6
+#: dialogs/FontDia.cpp:34
+#, kde-format
+msgid "Select Font"
+msgstr "Roghnaigh Cló"
+
+#. +> trunk6 stable6
+#: dialogs/FontDia.cpp:70
+#, fuzzy
+#| msgid "Font"
+msgctxt "(qtundo-format)"
+msgid "Font"
+msgstr "Cló"
+
+#. i18n: ectx: property (text), widget (FormattingButton, addBibliography)
+#. i18n: ectx: property (windowTitle), widget (QDialog, InsertBibliographyDialog)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:17
+#: dialogs/SimpleCitationBibliographyWidget.ui:39 ReferencesTool.cpp:162
+#, fuzzy, kde-format
+msgid "Insert Bibliography"
+msgstr "Ionsáigh Briseadh"
+
+#. i18n: ectx: property (title), widget (QGroupBox, titlegroupBox)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:26
+#, fuzzy, kde-format
+msgid "Bibliography title"
+msgstr "Ionsáigh Briseadh"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:45
+#, fuzzy, kde-format
+msgid "Bibliography entries"
+msgstr "Ionsáigh Briseadh"
+
+#. i18n: ectx: property (text), widget (QLabel, bibTypesLabel)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:53
+#, fuzzy, kde-format
+msgid "Bibliography type:"
+msgstr "Ionsáigh Briseadh"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:86
+#, kde-format
+msgid "In book"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:91
+#, fuzzy, kde-format
+msgid "In collection"
+msgstr "Ionsá"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:96
+#, fuzzy, kde-format
+#| msgid "Ascending"
+msgid "In proceedings"
+msgstr "Ag dul suas"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:131
+#, kde-format
+msgid "Tech report"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:146
+#, fuzzy, kde-format
+msgid "custom1"
+msgstr "Saincheaptha"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:151
+#, fuzzy, kde-format
+msgid "custom2"
+msgstr "Saincheaptha"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:156
+#, fuzzy, kde-format
+msgid "custom3"
+msgstr "Saincheaptha"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:161
+#, fuzzy, kde-format
+msgid "custom4"
+msgstr "Saincheaptha"
+
+#. i18n: ectx: property (text), item, widget (QListWidget, bibTypes)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:166
+#, fuzzy, kde-format
+msgid "custom5"
+msgstr "Saincheaptha"
+
+#. i18n: ectx: property (text), widget (QLabel, availableFieldsLabel)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:178
+#, kde-format
+msgid "Available fields "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, add)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:192
+#, kde-format
+msgid "Add >>"
+msgstr "Cuir Leis >>"
+
+#. i18n: ectx: property (text), widget (QPushButton, span)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:199
+#, kde-format
+msgid "Span"
+msgstr "Réise"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:206
+#, fuzzy, kde-format
+#| msgid "Comments"
+msgid "<<Remove"
+msgstr "Nótaí"
+
+#. i18n: ectx: property (text), widget (QLabel, addedFieldsLabel)
+#. +> trunk6 stable6
+#: dialogs/InsertBibliographyDialog.ui:217
+#, kde-format
+msgid "Fields added"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/InsertCharacter.cpp:16
+#, kde-format
+msgid "Special Characters"
+msgstr "Carachtair Speisialta"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonInsert)
+#. +> trunk6 stable6
+#: dialogs/InsertCharacter.cpp:26 dialogs/ManageBookmark.ui:34
+#: ReferencesTool.cpp:114 TextTool.cpp:2261
+#, kde-format
+msgid "Insert"
+msgstr "Ionsáigh"
+
+#. +> trunk6 stable6
+#: dialogs/InsertCharacter.cpp:28
+#, kde-format
+msgctxt "Close dialog"
+msgid "Close"
+msgstr "Dún"
+
+#. i18n: ectx: property (text), widget (QLabel, filterLabel)
+#. +> trunk6 stable6
+#: dialogs/LanguageTab.ui:19
+#, kde-format
+msgid "Quick search:"
+msgstr "Mearchuardach:"
+
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.cpp:71 dialogs/LinkInsertionDialog.cpp:152
+#: dialogs/LinkInsertionDialog.cpp:186 dialogs/LinkInsertionDialog.cpp:278
+#, kde-format
+msgid "The URL is invalid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.cpp:88
+#, kde-format
+msgid "Bookmark does not exist"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.cpp:190
+#, no-c-format, kde-format
+msgid "Fetching the title: 0% complete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.cpp:213
+#, kde-format
+msgid "Fetch timed out"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.cpp:267
+#, no-c-format, kde-format
+msgid "Fetching the title: %1% complete"
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, LinkInsertionDialog)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:14
+#, fuzzy, kde-format
+#| msgid "Open Link?"
+msgid "Link"
+msgstr "Oscail an Nasc?"
+
+#. i18n: ectx: attribute (title), widget (QWidget, weblinkInsertionTab)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:30
+#, fuzzy, kde-format
+#| msgid "Open Link?"
+msgid "Web Link"
+msgstr "Oscail an Nasc?"
+
+#. i18n: ectx: attribute (toolTip), widget (QWidget, weblinkInsertionTab)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:34
+#, kde-format
+msgid ""
+"Insert links to web documents. You can provide both URL and a label for the link,\n"
+" or just enter the URL and hit \"Fetch the title from URL\""
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:42
+#, kde-format
+msgid "The address of your document (Uniform Resource Locator)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:45
+#, fuzzy, kde-format
+#| msgid "URL:"
+msgid " URL:"
+msgstr "URL:"
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, fetchTitleButton)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:58
+#, kde-format
+msgid "Hit this button to get the title from the URL. Redirections are also handled. "
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, fetchTitleButton)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:61
+#, kde-format
+msgid "Fetch Title From URL"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label)
+#. i18n: ectx: property (toolTip), widget (QLabel, label_6)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:81 dialogs/LinkInsertionDialog.ui:165
+#, kde-format
+msgid "The text that will be displayed for your link"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:84 dialogs/LinkInsertionDialog.ui:168
+#, fuzzy, kde-format
+#| msgid "Text"
+msgid " Text:"
+msgstr "Téacs"
+
+#. i18n: ectx: attribute (title), widget (QWidget, bookmarkLinkInsertionTab)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:113
+#, fuzzy, kde-format
+#| msgid "Rename Bookmark"
+msgid "Link To Bookmark"
+msgstr "Athainmnigh an Leabharmharc"
+
+#. i18n: ectx: attribute (toolTip), widget (QWidget, bookmarkLinkInsertionTab)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:117
+#, kde-format
+msgid ""
+"Insert links to Bookmarks. To create bookmarks,\n"
+"click \"Bookmarks\" in the Links and Bookmarks section"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:132
+#, kde-format
+msgid "The name of the bookmark to where the link has to point to"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: dialogs/LinkInsertionDialog.ui:135
+#, fuzzy, kde-format
+msgid " Name:"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, ParagraphIndentSpacing)
+#. i18n: ectx: property (whatsThis), widget (QWidget, ListLevelWidget)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:14 dialogs/ParagraphIndentSpacing.ui:14
+#, kde-format
+msgid ""
+"<p>"
+"<ul>"
+"<li><b>Single</b>: The normal linespacing</li>"
+"</ul>"
+"</p>"
+" "
+msgstr ""
+"<p>"
+"<ul>"
+"<li><b>Singil</b>: Gnáthspásáil línte</li>"
+"</ul>"
+"</p>"
+" "
+
+#. i18n: ectx: property (text), widget (QCheckBox, addTabStop)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:47
+#, fuzzy, kde-format
+msgid "Add tab stop"
+msgstr "Breise"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, labelFollowedBy)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:71
+#, fuzzy, kde-format
+#| msgid "Character"
+msgid "Tab character"
+msgstr "Carachtar"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, labelFollowedBy)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:76
+#, fuzzy, kde-format
+#| msgid "Special Characters"
+msgid "Space character"
+msgstr "Carachtair Speisialta"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, labelFollowedBy)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:81
+#, kde-format
+msgid "Nothing"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, loremIpsum)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:95
+#, kde-format
+msgid "              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, labelLabel)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:117
+#, kde-format
+msgid "LABEL"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, tabStopLabel)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:149
+#, kde-format
+msgid "First line separated from label by:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, left)
+#. i18n: ectx: property (text), item, widget (QComboBox, alignment)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:204 dialogs/ParagraphLayout.ui:22
+#, kde-format
+msgid "Left"
+msgstr "Ar Chlé"
+
+#. i18n: ectx: property (text), widget (QRadioButton, center)
+#. i18n: ectx: property (text), item, widget (QComboBox, alignment)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:209 dialogs/ParagraphLayout.ui:29
+#, kde-format
+msgid "Center"
+msgstr "Lár"
+
+#. i18n: ectx: property (text), widget (QRadioButton, right)
+#. i18n: ectx: property (text), item, widget (QComboBox, alignment)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:214 dialogs/ParagraphLayout.ui:36
+#, kde-format
+msgid "Right"
+msgstr "Ar Dheis"
+
+#. i18n: ectx: property (text), widget (QLabel, increaseLabel)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:300
+#, kde-format
+msgid "Per level increase:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, numberTab)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:334
+#, fuzzy, kde-format
+msgid "Number"
+msgstr "Líon na rónna:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:366
+#, fuzzy, kde-format
+msgid "Format:"
+msgstr "Foirm"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:429
+#, fuzzy, kde-format
+#| msgid "Display Levels:"
+msgid "Display levels above:"
+msgstr "Leibhéil Taispéana:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, synchro)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:436
+#, fuzzy, kde-format
+#| msgid "Letter Synchronization"
+msgid "Letter synchronization"
+msgstr "Sioncrónú Litreacha"
+
+#. i18n: ectx: attribute (title), widget (QWidget, bulletTab)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:454
+#, fuzzy, kde-format
+#| msgid "No Bullet"
+msgid "Bullet"
+msgstr "Gan Urchar"
+
+#. i18n: ectx: attribute (title), widget (QWidget, imageTab)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:459
+#, kde-format
+msgid "Picture"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton)
+#. +> trunk6 stable6
+#: dialogs/ListLevelWidget.ui:481
+#, kde-format
+msgid "Load Image..."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonRename)
+#. +> trunk6 stable6
+#: dialogs/ManageBookmark.ui:20
+#, kde-format
+msgid "&Rename"
+msgstr "&Athainmnigh"
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonDelete)
+#. +> trunk6 stable6
+#: dialogs/ManageBookmark.ui:27
+#, kde-format
+msgid "&Delete"
+msgstr "&Scrios"
+
+#. +> trunk6 stable6
+#: dialogs/ManageBookmarkDialog.cpp:68
+#, kde-format
+msgid "Please provide a new name for the bookmark"
+msgstr "Tabhair ainm nua ar an leabharmharc"
+
+#. +> trunk6 stable6
+#: dialogs/ManageBookmarkDialog.cpp:68
+#, kde-format
+msgid "Rename Bookmark"
+msgstr "Athainmnigh an Leabharmharc"
+
+#. +> trunk6 stable6
+#: dialogs/ManageBookmarkDialog.cpp:72 dialogs/ManageBookmarkDialog.cpp:113
+#, fuzzy, kde-format
+#| msgid "There exist already a bookmark with the name \"%1\"."
+msgid "A bookmark with the name \"%1\" already exists."
+msgstr "Tá leabharmharc ann darb ainm \"%1\" cheana."
+
+#. +> trunk6 stable6
+#: dialogs/ManageBookmarkDialog.cpp:105
+#, fuzzy, kde-format
+#| msgid "Select Bookmark"
+msgid "Insert Bookmark"
+msgstr "Roghnaigh Leabharmharc"
+
+#. +> trunk6 stable6
+#: dialogs/ManageBookmarkDialog.cpp:106
+#, fuzzy, kde-format
+#| msgid "Please provide a new name for the bookmark"
+msgid "Please provide a name for the bookmark"
+msgstr "Tabhair ainm nua ar an leabharmharc"
+
+#. +> trunk6 stable6
+#: dialogs/ManageBookmarkDialog.cpp:129 ReferencesTool.cpp:193
+#, fuzzy, kde-format
+#| msgid "Rename Bookmark"
+msgid "Manage Bookmarks"
+msgstr "Athainmnigh an Leabharmharc"
+
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.cpp:24
+#, fuzzy, kde-format
+msgid "Footnote Settings"
+msgstr "Socruithe Fonótaí/Iarnótaí"
+
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.cpp:27
+#, fuzzy, kde-format
+msgid "Endnote Settings"
+msgstr "Socruithe Fonótaí/Iarnótaí"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:54
+#, fuzzy, kde-format
+msgid "Automatic Numbering:"
+msgstr "Fleiscíniú uathoibríoch"
+
+#. i18n: ectx: property (text), widget (QLabel, prefix)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:75
+#, fuzzy, kde-format
+msgid " Prefix:"
+msgstr "Réimír:"
+
+#. i18n: ectx: property (text), widget (QLabel, startAt)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:85
+#, fuzzy, kde-format
+msgid " Start at:"
+msgstr "Tosaigh ag:"
+
+#. i18n: ectx: property (text), widget (QLabel, numStyle)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:95
+#, fuzzy, kde-format
+msgid " Format:"
+msgstr "Foirm"
+
+#. i18n: ectx: property (text), widget (QLabel, suffix)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:111
+#, fuzzy, kde-format
+msgid " Suffix:"
+msgstr "Iarmhír:"
+
+#. i18n: ectx: property (text), widget (QLabel, beginAt)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:127
+#, fuzzy, kde-format
+msgid "Starts over at:"
+msgstr "Tosaigh ag:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, beginAtCombo)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:144
+#, kde-format
+msgid "Page"
+msgstr "Leathanach"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, beginAtCombo)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:149
+#, kde-format
+msgid "Chapter"
+msgstr "Caibidil"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, beginAtCombo)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:154
+#, kde-format
+msgid "Document"
+msgstr "Cáipéis"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:233
+#, kde-format
+msgid "1, 2, 3, ..."
+msgstr "1, 2, 3, ..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:238
+#, kde-format
+msgid "a, b, c, ..., aa, ab, ..., ba, bb, ..."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:243
+#, kde-format
+msgid "A, B, C, ..., AA, AB, ..., BA, BB, ..."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:248
+#, kde-format
+msgid "a, b, c, ..., aa, bb, ..., aaa, bbb, ..."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:253
+#, kde-format
+msgid "A, B, C, ..., AA, BB, ..., AAA, BBB, ..."
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:258
+#, kde-format
+msgid "i, ii, iii, ..."
+msgstr "i, ii, iii, ..."
+
+#. i18n: ectx: property (text), item, widget (QComboBox, numStyleCombo)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:263
+#, kde-format
+msgid "I,II,III, ..."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, continuationBox)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:290
+#, kde-format
+msgid "Continuation Notice:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, cont2)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:305
+#, kde-format
+msgid "Text saying it is a continuation:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, cont1)
+#. +> trunk6 stable6
+#: dialogs/NotesConfigurationDialog.ui:315
+#, kde-format
+msgid " Text saying it will continue:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.cpp:34
+#, kde-format
+msgctxt "Automatic horizontal alignment"
+msgid "Auto"
+msgstr "Uathoibríoch"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.cpp:35
+#, kde-format
+msgctxt "Text alignment"
+msgid "Left"
+msgstr "Ar Chlé"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.cpp:36
+#, kde-format
+msgctxt "Text alignment"
+msgid "Right"
+msgstr "Ar Dheis"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.cpp:37
+#, kde-format
+msgctxt "Text alignment"
+msgid "Centered"
+msgstr "Láraithe"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.cpp:39
+#, fuzzy, kde-format
+#| msgid "Tab 1"
+msgctxt "Tab follows the bullet or number"
+msgid "Tab Stop"
+msgstr "Cluaisín 1"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.cpp:40
+#, kde-format
+msgctxt "Space"
+msgid "Space"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.cpp:41
+#, kde-format
+msgctxt "None"
+msgid "Nothing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.cpp:347
+#, kde-format
+msgid "Select a list image"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:31
+#, kde-format
+msgid "Start at:"
+msgstr "Tosaigh ag:"
+
+#. i18n: ectx: property (text), widget (QLabel, distanceLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:57 dialogs/ParagraphLayout.ui:15
+#, kde-format
+msgid "Alignment:"
+msgstr "Ailíniú:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:105
+#, kde-format
+msgid "Depth:"
+msgstr "Doimhneacht:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:128
+#, kde-format
+msgid "Display Levels:"
+msgstr "Leibhéil Taispéana:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:148
+#, fuzzy, kde-format
+msgid "Bullet/Number followed by"
+msgstr "Urchair/Uimhreacha"
+
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, doubleSpinBox)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, doubleSpinBox_2)
+#. i18n: ectx: property (suffix), widget (QDoubleSpinBox, doubleSpinBox_3)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:158
+#: dialogs/ParagraphBulletsNumbers.ui:175
+#: dialogs/ParagraphBulletsNumbers.ui:192
+#, kde-format
+msgid " cm"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:165
+#, fuzzy, kde-format
+msgid "at"
+msgstr "Greamaigh"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:182
+#, fuzzy, kde-format
+msgid "Aligned at"
+msgstr "Ailíniú"
+
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:199
+#, fuzzy, kde-format
+msgid "Indented at"
+msgstr "Eangaigh"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:211
+#, kde-format
+msgid "Custom character:"
+msgstr "Carachtar saincheaptha:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, restartNumbering)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:241
+#, kde-format
+msgid "Restart numbering at this paragraph"
+msgstr "Atosaigh an t-uimhriú ag an alt seo"
+
+#. i18n: ectx: property (text), widget (QCheckBox, letterSynchronization)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:248
+#, kde-format
+msgid "Letter Synchronization"
+msgstr "Sioncrónú Litreacha"
+
+#. i18n: ectx: property (text), widget (QLabel, widthLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:257
+#, kde-format
+msgid "Width"
+msgstr "Leithead"
+
+#. i18n: ectx: property (text), widget (QLabel, insertImageLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:264
+#, fuzzy, kde-format
+msgid "Insert Image"
+msgstr "Ionsáigh Innéacs"
+
+#. i18n: ectx: property (text), widget (QLabel, heightLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:274
+#, fuzzy, kde-format
+msgid "Height"
+msgstr "Ar Dheis"
+
+#. i18n: ectx: property (text), widget (QPushButton, insertImage)
+#. +> trunk6 stable6
+#: dialogs/ParagraphBulletsNumbers.ui:284
+#, kde-format
+msgid "Browse..."
+msgstr "Brabhsáil..."
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphDecorations.cpp:18
+#, fuzzy, kde-format
+#| msgid "Background color"
+msgctxt "@action:button"
+msgid "Reset background color"
+msgstr "Dath an chúlra"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, resetBackgroundColor)
+#. +> trunk6 stable6
+#: dialogs/ParagraphDecorations.ui:36
+#, fuzzy, kde-format
+#| msgid "Background color"
+msgid "Reset background color"
+msgstr "Dath an chúlra"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphDropCaps.cpp:22
+#, kde-format
+msgid "Whole Word"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, capsState)
+#. +> trunk6 stable6
+#: dialogs/ParagraphDropCaps.ui:15
+#, kde-format
+msgid "Enable drop caps"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, distanceLabel)
+#. i18n: ectx: property (text), widget (QLabel, charactersLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphDropCaps.ui:22 dialogs/ParagraphDropCaps.ui:42
+#, fuzzy, kde-format
+msgid "Distance to paragraph:"
+msgstr "Ionsáigh briseadh tar éis ailt"
+
+#. i18n: ectx: property (text), widget (QLabel, linesLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphDropCaps.ui:71
+#, fuzzy, kde-format
+msgid "Number of lines it covers:"
+msgstr "Líon na gcolún:"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphGeneral.cpp:40
+#, kde-format
+msgid "Indent/Spacing"
+msgstr "Eangú/Spásáil"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphGeneral.cpp:45
+#, kde-format
+msgid "General Layout"
+msgstr "Leagan Amach Ginearálta"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphGeneral.cpp:50
+#, kde-format
+msgid "Bullets/Numbers"
+msgstr "Urchair/Uimhreacha"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphGeneral.cpp:55
+#, kde-format
+msgid "Decorations"
+msgstr "Maisíochtaí"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphGeneral.cpp:60
+#, kde-format
+msgid "Drop Caps"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.cpp:28
+#, kde-format
+msgctxt "Line spacing value"
+msgid "Single"
+msgstr "Singil"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.cpp:29
+#, kde-format
+msgctxt "Line spacing value"
+msgid "1.5 Lines"
+msgstr "1.5 Líne"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.cpp:30
+#, kde-format
+msgctxt "Line spacing value"
+msgid "Double"
+msgstr "Dúbailte"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.cpp:31
+#, kde-format
+msgctxt "Line spacing type"
+msgid "Proportional"
+msgstr "Comhréireach"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.cpp:32
+#, kde-format
+msgctxt "Line spacing type"
+msgid "Additional"
+msgstr "Breise"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.cpp:33
+#, kde-format
+msgctxt "Line spacing type"
+msgid "Fixed"
+msgstr "Socraithe"
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.cpp:34
+#, kde-format
+msgctxt "Line spacing type"
+msgid "At least"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.ui:22
+#, fuzzy, kde-format
+#| msgid "Indent:"
+msgid "Left Indent:"
+msgstr "Eangaigh:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.ui:35
+#, fuzzy, kde-format
+#| msgid "Indent:"
+msgid "Right Indent:"
+msgstr "Eangaigh:"
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.ui:48
+#, fuzzy, kde-format
+#| msgid "First Line:"
+msgid "First Line Indent:"
+msgstr "An Chéad Líne:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, autoTextIndent)
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.ui:66
+#, kde-format
+msgid "Auto-infer from text size"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.ui:75
+#, fuzzy, kde-format
+#| msgid "Line Spacing"
+msgid "Line Spacing:"
+msgstr "Spásáil na Línte"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, percentPage)
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.ui:107
+#, no-c-format, kde-format
+msgid " %"
+msgstr " %"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useFont)
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.ui:129
+#, kde-format
+msgid "Use Font Metrics"
+msgstr ""
+
+# OLT
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.ui:136
+#, fuzzy, kde-format
+#| msgid "Paragraph Space"
+msgid "Paragraph Space Before:"
+msgstr "Spásáil Alt"
+
+# OLT
+#. i18n: ectx: property (text), widget (QLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphIndentSpacing.ui:146
+#, fuzzy, kde-format
+#| msgid "Paragraph Space"
+msgid "Paragraph Space After:"
+msgstr "Spásáil Alt"
+
+#. i18n: ectx: property (text), widget (QRadioButton, justify)
+#. +> trunk6 stable6
+#: dialogs/ParagraphLayout.ui:43
+#, kde-format
+msgid "Justify"
+msgstr "Comhfhadaigh"
+
+#. i18n: ectx: property (text), widget (QLabel, distanceLabel)
+#. +> trunk6 stable6
+#: dialogs/ParagraphLayout.ui:50
+#, fuzzy, kde-format
+#| msgid "Behavior at End of Frame/Page"
+msgid "Behavior at end of frame and page:"
+msgstr "Oibriú ag Deireadh an Fhráma/Leathanaigh"
+
+#. i18n: ectx: property (text), widget (QCheckBox, keepTogether)
+#. +> trunk6 stable6
+#: dialogs/ParagraphLayout.ui:57
+#, kde-format
+msgid "Keep lines together"
+msgstr "Coinnigh línte le chéile"
+
+#. i18n: ectx: property (text), widget (QCheckBox, breakBefore)
+#. +> trunk6 stable6
+#: dialogs/ParagraphLayout.ui:64
+#, kde-format
+msgid "Insert break before paragraph"
+msgstr "Ionsáigh briseadh roimh alt"
+
+#. i18n: ectx: property (text), widget (QCheckBox, breakAfter)
+#. +> trunk6 stable6
+#: dialogs/ParagraphLayout.ui:71
+#, kde-format
+msgid "Insert break after paragraph"
+msgstr "Ionsáigh briseadh tar éis ailt"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: dialogs/ParagraphLayout.ui:78
+#, kde-format
+msgid "Leave at least this many lines (orphans):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/ParagraphSettingsDialog.cpp:28
+#, kde-format
+msgid "Paragraph Format"
+msgstr "Formáid Ailt"
+
+#. +> trunk6 stable6
+#: dialogs/QuickTableButton.cpp:147
+#, fuzzy, kde-format
+msgid "Insert a table"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: dialogs/SectionFormatDialog.cpp:41
+#, fuzzy, kde-format
+#| msgid "Enter style name:"
+msgid "Section name"
+msgstr "Iontráil ainm na stíle:"
+
+#. +> trunk6 stable6
+#: dialogs/SectionFormatDialog.cpp:100 dialogs/SectionsSplitDialog.cpp:20
+#, fuzzy, kde-format
+msgid "Configure sections"
+msgstr "Socruithe an Ailt"
+
+#. +> trunk6 stable6
+#: dialogs/SectionFormatDialog.cpp:149
+#, kde-format
+msgid "Invalid characters or section with such name exists."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: dialogs/SectionFormatDialog.ui:29
+#, fuzzy, kde-format
+#| msgid "Enter style name:"
+msgid "Section name:"
+msgstr "Iontráil ainm na stíle:"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, SectionsSplitDialog)
+#. +> trunk6 stable6
+#: dialogs/SectionsSplitDialog.ui:6
+#, fuzzy, kde-format
+#| msgid "Split Cells"
+msgid "Split sections"
+msgstr "Roinn Cealla"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: dialogs/SectionsSplitDialog.ui:12
+#, fuzzy, kde-format
+#| msgid "Paragraph..."
+msgid "Insert paragraph..."
+msgstr "Alt..."
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: dialogs/SectionsSplitDialog.ui:23
+#, fuzzy, kde-format
+msgid "before start of section:"
+msgstr "Ionsá"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: dialogs/SectionsSplitDialog.ui:37
+#, fuzzy, kde-format
+msgid "after end of section:"
+msgstr "Ionsá"
+
+#. i18n: ectx: property (text), widget (QToolButton, insertAnnotation)
+#. +> trunk6 stable6
+#: dialogs/SimpleAnnotationWidget.ui:32
+#, fuzzy, kde-format
+msgid "Insert Note"
+msgstr "Ionsáigh Tábla"
+
+#. i18n: ectx: property (text), widget (QToolButton, removeAnnotation)
+#. +> trunk6 stable6
+#: dialogs/SimpleAnnotationWidget.ui:42
+#, fuzzy, kde-format
+#| msgid "Comments"
+msgid "Remove Note"
+msgstr "Nótaí"
+
+#. i18n: ectx: property (text), widget (QToolButton, addCitation)
+#. +> trunk6 stable6
+#: dialogs/SimpleCaptionsWidget.ui:34
+#, fuzzy, kde-format
+msgid "Add caption"
+msgstr "Breise"
+
+#. +> trunk6 stable6
+#: dialogs/SimpleCharacterWidget.cpp:53
+#, fuzzy, kde-format
+msgid "Change font format"
+msgstr "Formáid Ailt"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, addCitation)
+#. +> trunk6 stable6
+#: dialogs/SimpleCitationBibliographyWidget.ui:26
+#, fuzzy, kde-format
+msgid "Insert citation at current position"
+msgstr "Ionsáigh Briseadh"
+
+#. i18n: ectx: property (text), widget (QToolButton, addCitation)
+#. +> trunk6 stable6
+#: dialogs/SimpleCitationBibliographyWidget.ui:29 ReferencesTool.cpp:157
+#, fuzzy, kde-format
+msgid "Insert Citation"
+msgstr "Ionsá"
+
+#. i18n: ectx: property (text), widget (QToolButton, configureBibliography)
+#. +> trunk6 stable6
+#: dialogs/SimpleCitationBibliographyWidget.ui:58
+#, fuzzy, kde-format
+msgid "Configure Bibliography"
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: dialogs/SimpleFootEndNotesWidget.cpp:26
+#, kde-format
+msgid "Inserts a footnote at the current cursor position"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/SimpleFootEndNotesWidget.cpp:31
+#, kde-format
+msgid "Inserts an endnote at the current cursor position"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (FormattingButton, addEndnote)
+#. +> trunk6 stable6
+#: dialogs/SimpleFootEndNotesWidget.ui:29
+#, kde-format
+msgid "Endnote"
+msgstr "Iarnóta"
+
+#. i18n: ectx: property (text), widget (FormattingButton, addFootnote)
+#. +> trunk6 stable6
+#: dialogs/SimpleFootEndNotesWidget.ui:48
+#, kde-format
+msgid "Footnote"
+msgstr "Fonóta"
+
+#. i18n: ectx: property (toolTip), widget (QWidget, SimpleInsertWidget)
+#. +> trunk6 stable6
+#: dialogs/SimpleInsertWidget.ui:20
+#, kde-format
+msgid "Other insertions from \"References\"  below and in \"Add Shape\" docker"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QToolButton, insertLink)
+#. +> trunk6 stable6
+#: dialogs/SimpleLinksWidget.ui:34
+#, kde-format
+msgid "Hyperlinks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (FormattingButton, invokeBookmarkHandler)
+#. +> trunk6 stable6
+#: dialogs/SimpleLinksWidget.ui:44 ReferencesTool.cpp:189
+#, fuzzy, kde-format
+#| msgid "Bookmark..."
+msgid "Bookmarks"
+msgstr "Leabharmharc..."
+
+#. +> trunk6 stable6
+#: dialogs/SimpleParagraphWidget.cpp:84
+#, fuzzy, kde-format
+msgid "Change paragraph format"
+msgstr "Formáid Ailt"
+
+#. +> trunk6 stable6
+#: dialogs/SimpleParagraphWidget.cpp:292
+#, kde-format
+msgid "Recently Used Level Formats"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/SimpleParagraphWidget.cpp:297
+#, kde-format
+msgid "Library of Level Formats"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, bDelete)
+#. +> trunk6 stable6
+#: dialogs/SimpleParagraphWidget.cpp:301 dialogs/SimpleParagraphWidget.cpp:356
+#: dialogs/StyleManager.ui:104 TextTool.cpp:2640
+#, kde-format
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: dialogs/SimpleParagraphWidget.cpp:304 dialogs/SimpleParagraphWidget.cpp:359
+#, kde-format
+msgid "Edit..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/SimpleParagraphWidget.cpp:312
+#, kde-format
+msgid "Define New Level Format..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/SimpleParagraphWidget.cpp:313
+#, kde-format
+msgid "Define new bullet or numbering format"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/SimpleParagraphWidget.cpp:333
+#, kde-format
+msgid "Define New List Level Format"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/SimpleParagraphWidget.cpp:549
+#, kde-format
+msgid "Edit List Level Format"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (FormattingButton, addToC)
+#. +> trunk6 stable6
+#: dialogs/SimpleTableOfContentsWidget.ui:34
+#: dialogs/TableOfContentsTemplate.cpp:38
+#, fuzzy, kde-format
+msgid "Contents"
+msgstr "Nótaí"
+
+#. +> trunk6 stable6
+#: dialogs/SimpleTableWidget.cpp:45
+#, fuzzy, kde-format
+msgid "Set Border Color..."
+msgstr "Dath Téacs..."
+
+#. +> trunk6 stable6
+#: dialogs/SimpleTableWidget.cpp:173
+#, fuzzy, kde-format
+msgctxt "No border - has to fit in 48pixels"
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6
+#: dialogs/SimpleTableWidget.cpp:174
+#, kde-format
+msgid "No Border"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/StyleManager.cpp:38
+#, kde-format
+msgid "Create a new style inheriting the current style"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/StyleManager.cpp:344 dialogs/StyleManager.cpp:357
+#, fuzzy, kde-format
+msgid "New Style"
+msgstr "An chéad stíl eile:"
+
+#. +> trunk6 stable6
+#: dialogs/StyleManager.cpp:442
+#, kde-format
+msgid "Another style named '%1' already exist. Please choose another name."
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QListView, paragraphStylesListView)
+#. +> trunk6 stable6
+#: dialogs/StyleManager.ui:52 TextTool.cpp:2253
+#, fuzzy, kde-format
+msgid "Paragraph"
+msgstr "Alt..."
+
+#. i18n: ectx: attribute (title), widget (QListView, characterStylesListView)
+#. +> trunk6 stable6
+#: dialogs/StyleManager.ui:66 TextTool.cpp:2251
+#, kde-format
+msgid "Character"
+msgstr "Carachtar"
+
+#. i18n: ectx: property (text), widget (QPushButton, bNew)
+#. +> trunk6 stable6
+#: dialogs/StyleManager.ui:97
+#, kde-format
+msgid "&New"
+msgstr "&Nua"
+
+#. +> trunk6 stable6
+#: dialogs/StyleManagerDialog.cpp:23
+#, kde-format
+msgid "Style Manager"
+msgstr "Bainisteoir na Stíleanna"
+
+#. +> trunk6 stable6
+#: dialogs/StyleManagerDialog.cpp:53
+#, fuzzy, kde-format
+msgid "Save Changes"
+msgstr "Taispeáin Athruithe"
+
+#. +> trunk6 stable6
+#: dialogs/StyleManagerDialog.cpp:54
+#, kde-format
+msgid "You have changes that are not applied. What do you want to do with those changes?"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: dialogs/StyleManagerWelcome.ui:42
+#, kde-format
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'DejaVu Sans'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">It is possible to assign a named style to text and alter the style properties to change all text with that style.</p>"
+"\n"
+"<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Applying a style change will reformat all text that previously got the named style assigned to it. Use the Styles docker to apply styles to text.</p>"
+"</body></html>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/StylesComboPreview.cpp:68
+#, kde-format
+msgid "Create a new style with the current properties"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/StylesComboPreview.cpp:175
+#, fuzzy, kde-format
+msgid "New style"
+msgstr "An chéad stíl eile:"
+
+#. +> trunk6 stable6
+#: dialogs/StylesModel.cpp:38 dialogs/StylesModel.cpp:112
+#: dialogs/StylesModel.cpp:195
+#, kde-format
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6
+#: dialogs/TableDialog.cpp:14
+#, kde-format
+msgid "Insert Table"
+msgstr "Ionsáigh Tábla"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupLogical)
+#. +> trunk6 stable6
+#: dialogs/TableDialog.ui:23
+#, kde-format
+msgid "Columns and rows"
+msgstr "Colúin agus rónna"
+
+#. i18n: ectx: property (text), widget (QLabel, labelColumns)
+#. +> trunk6 stable6
+#: dialogs/TableDialog.ui:32
+#, kde-format
+msgid "Number of columns:"
+msgstr "Líon na gcolún:"
+
+#. i18n: ectx: property (text), widget (QLabel, labelRows)
+#. +> trunk6 stable6
+#: dialogs/TableDialog.ui:55
+#, kde-format
+msgid "Number of rows:"
+msgstr "Líon na rónna:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupPhysical)
+#. +> trunk6 stable6
+#: dialogs/TableDialog.ui:97
+#, kde-format
+msgid "Width strategy"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFixed)
+#. +> trunk6 stable6
+#: dialogs/TableDialog.ui:112
+#, fuzzy, kde-format
+msgid "Fixed column width:"
+msgstr "Ionsáigh Tábla"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFitContents)
+#. +> trunk6 stable6
+#: dialogs/TableDialog.ui:125
+#, fuzzy, kde-format
+msgid "Fit to contents"
+msgstr "Cuir i gclár na n-ábhar"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioFitAvail)
+#. +> trunk6 stable6
+#: dialogs/TableDialog.ui:138
+#, kde-format
+msgid "Fit to available surrounding"
+msgstr ""
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.cpp:61
+#, fuzzy, kde-format
+msgid "Table of Contents - Configure"
+msgstr "Cuir i gclár na n-ábhar"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.cpp:63
+#, fuzzy, kde-format
+msgid "Table Title"
+msgstr "Tábla..."
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.cpp:64
+#, fuzzy, kde-format
+msgid "Use outline"
+msgstr "stíl nua"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.cpp:65
+#, fuzzy, kde-format
+msgid "Use styles"
+msgstr "stíl nua"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.cpp:66 ReferencesTool.cpp:170
+#, fuzzy, kde-format
+msgid "Configure"
+msgstr "Socruithe an Ailt"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.cpp:67
+#, fuzzy, kde-format
+msgid "Index"
+msgstr "Eangaigh"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.cpp:68
+#: dialogs/TableOfContentsStyleModel.cpp:229
+#, kde-format
+msgid "Styles"
+msgstr "Stíleanna"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.ui:49
+#, kde-format
+msgid "Tab 1"
+msgstr "Cluaisín 1"
+
+#. i18n: ectx: property (text), widget (QLabel, labelTitle)
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.ui:57
+#: dialogs/TableOfContentsEntryModel.cpp:27
+#, kde-format
+msgid "Title"
+msgstr "Teideal"
+
+#. i18n: ectx: property (text), widget (QCheckBox, useOutline)
+#. i18n: ectx: property (text), widget (QCheckBox, useStyles)
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.ui:69
+#: dialogs/TableOfContentsConfigure.ui:78
+#, kde-format
+msgid "CheckBox"
+msgstr "Ticbhosca"
+
+#. i18n: ectx: property (text), widget (QPushButton, configureStyles)
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.ui:85
+#, kde-format
+msgid "PushButton"
+msgstr "Brúchnaipe"
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsConfigure.ui:108
+#, kde-format
+msgid "Tab 2"
+msgstr "Cluaisín 2"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsEntryModel.cpp:30
+#, kde-format
+msgid "Level %1"
+msgstr "Leibhéal %1"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsEntryModel.cpp:139
+#: dialogs/TableOfContentsStyleModel.cpp:231
+#, kde-format
+msgid "Level"
+msgstr "Leibhéal"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsEntryModel.cpp:141
+#, fuzzy, kde-format
+msgid "Style"
+msgstr "Stíleanna"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsStyleConfigure.cpp:25
+#, fuzzy, kde-format
+msgid "Table of Contents - Configure Styles"
+msgstr "Cuir i gclár na n-ábhar"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsStyleConfigure.cpp:29
+#, fuzzy, kde-format
+msgid "Styles available"
+msgstr "Bainisteoir na Stíleanna"
+
+#. i18n: ectx: property (text), widget (QLabel, stylesAvailableLabel)
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsStyleConfigure.ui:20
+#, fuzzy, kde-format
+msgid "TextLabel"
+msgstr "Giuirléid Téacs"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsStyleDelegate.cpp:40
+#: dialogs/TableOfContentsStyleModel.cpp:95
+#, fuzzy, kde-format
+msgid "Disabled"
+msgstr "Fad:"
+
+#. +> trunk6 stable6
+#: dialogs/TableOfContentsTemplate.cpp:27
+#, fuzzy, kde-format
+msgid "Table Of Contents"
+msgstr "Cuir i gclár na n-ábhar"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:116
+#, fuzzy, kde-format
+msgid "Insert a Table of Contents into the document."
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:118 TextTool.cpp:407
+#, fuzzy, kde-format
+msgid "Insert Custom..."
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:120
+#, fuzzy, kde-format
+msgid "Insert a custom Table of Contents into the document."
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:122
+#, fuzzy, kde-format
+msgid "Configure..."
+msgstr "Socruithe an Ailt"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:124
+#, fuzzy, kde-format
+msgid "Configure the Table of Contents"
+msgstr "Cuir i gclár na n-ábhar"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:127
+#, fuzzy, kde-format
+msgid "Insert footnote with auto number"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:132
+#, fuzzy, kde-format
+msgid "Insert Labeled Footnote"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:133 ReferencesTool.cpp:144
+#, fuzzy, kde-format
+msgid "Insert with label:"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:138
+#, fuzzy, kde-format
+msgid "Insert endnote with auto number"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:143
+#, fuzzy, kde-format
+msgid "Insert Labeled Endnote"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:149 ReferencesTool.cpp:153
+#, fuzzy, kde-format
+msgid "Settings..."
+msgstr "Socruithe an Ailt"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:159
+#, fuzzy, kde-format
+msgid "Insert a citation into the document."
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:164
+#, fuzzy, kde-format
+msgid "Insert a bibliography into the document."
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:166
+#, fuzzy, kde-format
+msgid "Insert Custom Bibliography"
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:168
+#, fuzzy, kde-format
+msgid "Insert a custom Bibliography into the document."
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:172
+#, fuzzy, kde-format
+msgid "Configure the bibliography"
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:175
+#, fuzzy, kde-format
+#| msgid "Insertion"
+msgid "Insert Link"
+msgstr "Ionsá"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:177
+#, fuzzy, kde-format
+msgid "Insert a weblink or link to a bookmark."
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:181
+#, fuzzy, kde-format
+#| msgid "Bookmark..."
+msgid "Add Bookmark"
+msgstr "Leabharmharc..."
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:182
+#, fuzzy, kde-format
+#| msgid "Bookmark..."
+msgid "Add Bookmark :"
+msgstr "Leabharmharc..."
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:187
+#, kde-format
+msgid "Insert a Bookmark. This is useful to create links that point to areas within the document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:191
+#, kde-format
+msgid "Display a pop up that hosts the options to add new Bookmark or handle existing Bookmarks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:195
+#, kde-format
+msgid "Manage your Bookmarks. Check where are they pointing to, Delete or Rename."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:230
+#, kde-format
+msgctxt "as in table of contents, list of pictures, index"
+msgid "Tables, Lists & Indexes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:233
+#, fuzzy, kde-format
+msgid "Footnotes and Endnotes"
+msgstr "Socruithe Fonótaí/Iarnótaí"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:236
+#, fuzzy, kde-format
+msgid "Citations and Bibliography"
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:239
+#, fuzzy, kde-format
+#| msgid "Rename Bookmark"
+msgid "Links and Bookmarks"
+msgstr "Athainmnigh an Leabharmharc"
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:364
+#, kde-format
+msgid "Bookmark cannot be empty"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:371
+#, kde-format
+msgid "Duplicate Name. Click \"Manage Bookmarks\""
+msgstr ""
+
+#. +> trunk6 stable6
+#: ReferencesTool.cpp:372
+#, fuzzy, kde-format
+#| msgid "Rename Bookmark"
+msgid "to Rename or Delete Bookmarks"
+msgstr "Athainmnigh an Leabharmharc"
+
+#. +> trunk6 stable6
+#: ReviewTool.cpp:51 ReviewTool.cpp:52
+#, fuzzy, kde-format
+#| msgid "Comments"
+msgid "Remove Comment"
+msgstr "Nótaí"
+
+#. +> trunk6 stable6
+#: ReviewTool.cpp:96
+#, fuzzy, kde-format
+#| msgid "Spell checking"
+msgid "Spell check"
+msgstr "Seiceáil litrithe"
+
+#. +> trunk6 stable6
+#: ReviewTool.cpp:99
+#, kde-format
+msgid "Comments"
+msgstr "Nótaí"
+
+#. +> trunk6 stable6
+#: ReviewToolFactory.cpp:24
+#, fuzzy, kde-format
+msgid "Review"
+msgstr "Réamhamharc"
+
+#. +> trunk6 stable6
+#: TextShapeFactory.cpp:31 TextShapeFactory.cpp:41
+#, kde-format
+msgid "Text"
+msgstr "Téacs"
+
+#. +> trunk6 stable6
+#: TextShapeFactory.cpp:33
+#, kde-format
+msgid "A shape that shows text"
+msgstr "Giuirléid a thaispeánann téacs"
+
+#. +> trunk6 stable6
+#: TextShapeFactory.cpp:43
+#, kde-format
+msgid "Text Shape"
+msgstr "Giuirléid Téacs"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:203
+#, fuzzy, kde-format
+msgid "Configure current section"
+msgstr "Socruithe an Ailt"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:207
+#, fuzzy, kde-format
+msgid "Insert new section"
+msgstr "Ionsá"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:211
+#, fuzzy, kde-format
+msgid "Insert paragraph between sections"
+msgstr "Ionsá"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:215
+#, kde-format
+msgid "Paste As Text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:220
+#, kde-format
+msgid "Bold"
+msgstr "Trom"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:226
+#, kde-format
+msgid "Italic"
+msgstr "Cló Iodálach"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:232
+#, kde-format
+msgctxt "Text formatting"
+msgid "Underline"
+msgstr "Líne Faoi"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:238
+#, fuzzy, kde-format
+msgid "Strikethrough"
+msgstr "Líne Tríd:"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:244
+#, kde-format
+msgid "Align Left"
+msgstr "Ailínigh Ar Chlé"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:251
+#, kde-format
+msgid "Align Right"
+msgstr "Ailínigh Ar Dheis"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:258
+#, kde-format
+msgid "Align Center"
+msgstr "Ailínigh Sa Lár"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:266
+#, kde-format
+msgid "Align Block"
+msgstr "Ailínigh Bloc"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:273
+#, fuzzy, kde-format
+msgid "Change text direction"
+msgstr "Socruithe an Ailt"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:275
+#, fuzzy, kde-format
+msgid "Change writing direction"
+msgstr "Socruithe an Ailt"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:294
+#, kde-format
+msgid "Increase Indent"
+msgstr "Méadaigh Eangú"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:300
+#, kde-format
+msgid "Decrease Indent"
+msgstr "Laghdaigh Eangú"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:304
+#, kde-format
+msgid "Toggle List or List Level Formatting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:305
+#, kde-format
+msgid "Toggle list on/off, or change format of current level"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:308
+#, kde-format
+msgid "Increase Font Size"
+msgstr "Cló Níos Mó"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:313
+#, kde-format
+msgid "Decrease Font Size"
+msgstr "Cló Níos Lú"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:319
+#, fuzzy, kde-format
+msgid "Font Family"
+msgstr "Leagan Amach"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:323
+#, fuzzy, kde-format
+msgid "Variable"
+msgstr "Fad:"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:327
+#, kde-format
+msgid "Insert Non-Breaking Space"
+msgstr "Ionsáigh Spás Neamhbhristeach"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:332
+#, kde-format
+msgid "Insert Non-Breaking Hyphen"
+msgstr "Ionsáigh Fleiscín Neamhbhristeach"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:337
+#, kde-format
+msgid "Insert Index"
+msgstr "Ionsáigh Innéacs"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:342
+#, kde-format
+msgid "Insert Soft Hyphen"
+msgstr "Ionsáigh Fleiscín Bog"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:348
+#, kde-format
+msgid "Line Break"
+msgstr "Briseadh Líne"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:353
+#, fuzzy, kde-format
+msgid "Page Break"
+msgstr "Briseadh Líne"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:357
+#, fuzzy, kde-format
+msgid "Insert a page break"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:358
+#, kde-format
+msgid "All text after this point will be moved into the next page."
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:361
+#, kde-format
+msgid "Font..."
+msgstr "Cló..."
+
+#. +> trunk6 stable6
+#: TextTool.cpp:364
+#, kde-format
+msgid "Change character size, font, boldface, italics etc."
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:365
+#, kde-format
+msgid "Change the attributes of the currently selected characters."
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:368
+#, kde-format
+msgid "Font Size"
+msgstr "Clómhéid"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:374
+#, kde-format
+msgid "Text Color..."
+msgstr "Dath Téacs..."
+
+#. +> trunk6 stable6
+#: TextTool.cpp:375
+#, fuzzy, kde-format
+msgid "Text Color"
+msgstr "Dath Téacs..."
+
+#. +> trunk6 stable6
+#: TextTool.cpp:381
+#, kde-format
+msgid "Background Color..."
+msgstr "Dath an Chúlra..."
+
+#. +> trunk6 stable6
+#: TextTool.cpp:382
+#, kde-format
+msgid "Background"
+msgstr "Cúlra"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:386
+#, kde-format
+msgid "Auto Resize To Content"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:391
+#, kde-format
+msgid "Grow To Fit Width"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:396
+#, kde-format
+msgid "Grow To Fit Height"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:401
+#, kde-format
+msgid "Shrink To Fit"
+msgstr "Laghdaigh go cuí"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:409
+#, fuzzy, kde-format
+msgid "Insert a table into the document."
+msgstr "Ionsáigh Briseadh"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:412
+#, fuzzy, kde-format
+msgid "Row Above"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:413
+#, fuzzy, kde-format
+msgid "Insert Row Above"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:417
+#, fuzzy, kde-format
+msgid "Row Below"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:418
+#, fuzzy, kde-format
+msgid "Insert Row Below"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:422
+#, fuzzy, kde-format
+msgid "Column Left"
+msgstr "Ailínigh Ar Chlé"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:423
+#, fuzzy, kde-format
+msgid "Insert Column Left"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:427
+#, fuzzy, kde-format
+msgid "Column Right"
+msgstr "Ailínigh Ar Dheis"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:428
+#, fuzzy, kde-format
+msgid "Insert Column Right"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:432
+#, kde-format
+msgid "Column"
+msgstr "Colún"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:433
+#, fuzzy, kde-format
+msgid "Delete Column"
+msgstr "Scriosadh"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:437
+#, kde-format
+msgid "Row"
+msgstr "Ró"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:438
+#, fuzzy, kde-format
+msgid "Delete Row"
+msgstr "Scrios"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:442
+#, kde-format
+msgid "Merge Cells"
+msgstr "Cumaisc Cealla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:446
+#, kde-format
+msgid "Split Cells"
+msgstr "Roinn Cealla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:451
+#, kde-format
+msgid "Select a border style and paint that style onto a table"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:455
+#, kde-format
+msgid "Paragraph..."
+msgstr "Alt..."
+
+#. +> trunk6 stable6
+#: TextTool.cpp:458
+#, kde-format
+msgid "Change paragraph margins, text flow, borders, bullets, numbering etc."
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:460
+#, kde-format
+msgid ""
+"<p>Change paragraph margins, text flow, borders, bullets, numbering etc.</p>"
+"<p>Select text in multiple paragraphs to change the formatting of all selected paragraphs.</p>"
+"<p>If no text is selected, the paragraph where the cursor is located will be changed.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:464
+#, fuzzy, kde-format
+msgid "Style Manager..."
+msgstr "Bainisteoir na Stíleanna"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:466
+#, kde-format
+msgid "Change attributes of styles"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:467
+#, kde-format
+msgid ""
+"<p>Change font and paragraph attributes of styles.</p>"
+"<p>Multiple styles can be changed using the dialog box.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:474
+#, kde-format
+msgid "Special Character..."
+msgstr "Carachtar Speisialta..."
+
+#. +> trunk6 stable6
+#: TextTool.cpp:478
+#, kde-format
+msgid "Insert one or more symbols or characters not found on the keyboard"
+msgstr "Ionsáigh siombailí nó carachtair nach bhfuil ar an méarchlár"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:479
+#, kde-format
+msgid "Insert one or more symbols or characters not found on the keyboard."
+msgstr "Ionsáigh siombailí nó carachtair nach bhfuil ar an méarchlár."
+
+#. +> trunk6 stable6
+#: TextTool.cpp:482
+#, kde-format
+msgid "Repaint"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:487
+#, fuzzy, kde-format
+msgid "Insert Comment"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:571
+#, kde-format
+msgid "Insertion"
+msgstr "Ionsá"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:573
+#, kde-format
+msgid "Deletion"
+msgstr "Scriosadh"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:575
+#, kde-format
+msgid "Formatting"
+msgstr "Formáidiú"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:590
+#, kde-format
+msgid "Ctrl+click to go to link "
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:597
+#, kde-format
+msgid "Ctrl+click to go to the note "
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:603
+#, kde-format
+msgid "Ctrl+click to go to the note reference"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:699
+#, kde-format
+msgid "follows along"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:729
+#, kde-format
+msgid "Press shift to not resize this"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:930
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Change Border Formatting"
+msgstr "Formáid Ailt"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:1154
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Cut"
+msgstr "Gearr"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:1414
+#, fuzzy
+msgctxt "(qtundo-format)"
+msgid "Adjust Column Width"
+msgstr "Ionsáigh Tábla"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:1458
+msgctxt "(qtundo-format)"
+msgid "Adjust Row Height"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TextTool.cpp:2259
+#, fuzzy, kde-format
+msgid "Table"
+msgstr "Tábla..."
+
+#. +> trunk6 stable6
+#: TextTool.cpp:2635 TextTool.cpp:2640
+#, kde-format
+msgid "Autocorrection"
+msgstr "Uathcheartú"
+
+#. +> trunk6 stable6
+#: TextTool.cpp:2635
+#, kde-format
+msgid "Key Press"
+msgstr "Eochairbhrú"
+
+#. +> trunk6 stable6
+#: TextToolFactory.cpp:18
+#, fuzzy, kde-format
+msgid "Text editing"
+msgstr "Uirlis eagarthóireachta téacs"

@@ -1,0 +1,1473 @@
+# Irish translation of kcmkwinrules
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcmkwinrules package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase/kcmkwinrules.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-05-24 10:38+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> stable5
+#: kcmrules.cpp:28
+#, fuzzy, kde-format
+#| msgid "Window &role:"
+msgid "Window Rules"
+msgstr "&Ról na fuinneoige:"
+
+#. +> stable5
+#: kcmrules.cpp:32
+#, kde-format
+msgid "Ismael Asensio"
+msgstr ""
+
+#. +> stable5
+#: kcmrules.cpp:33
+#, kde-format
+msgid "Author"
+msgstr ""
+
+#. +> stable5
+#: kcmrules.cpp:37
+#, kde-format
+msgid ""
+"<p>"
+"<h1>Window-specific Settings</h1>"
+" Here you can customize window settings specifically only for some windows.</p>"
+" "
+"<p>Please note that this configuration will not take effect if you do not use KWin as your window manager. If you do use a different window manager, please refer to its documentation for how to customize window behavior.</p>"
+msgstr ""
+"<p>"
+"<h1>Socruithe Sainiúil d'Fhuinneoga</h1>"
+" Anseo is féidir leat socruithe a dhéanamh d'fhuinneoga áirithe amháin.</p>"
+" "
+"<p>Tabhair faoi deara nach gcuirfear na socruithe seo i bhfeidhm mura bhfuil KWin in úsáid agat mar bhainisteoir fuinneog. Má bhaineann tú úsáid as bainisteoir fuinneog eile, féach ar dhoiciméadú an bhainisteora sin le haghaidh eolais ar conas is féidir oibriú na bhfuinneog a chumrú.</p>"
+
+#. +> trunk6 stable6 stable5
+#: kcmrules.cpp:228
+#, kde-format
+msgid "Copy of %1"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: kcmrules.cpp:414
+#, kde-format
+msgid "Application settings for %1"
+msgstr "Socruithe feidhmchláir do %1"
+
+#. +> trunk6 stable6 stable5
+#: kcmrules.cpp:436 rulesmodel.cpp:221 rulesmodel.cpp:224
+#, kde-format
+msgid "Window settings for %1"
+msgstr "Socruithe fuinneoige do %1"
+
+#. +> trunk6 stable6 stable5
+#: optionsmodel.cpp:198
+#, kde-format
+msgid "Unimportant"
+msgstr "Gan tábhacht"
+
+#. +> trunk6 stable6
+#: optionsmodel.cpp:199
+#, fuzzy, kde-format
+#| msgid "Exact Match"
+msgid "Exact match"
+msgstr "Comhoiriúnú Beacht"
+
+#. +> stable5
+#: optionsmodel.cpp:199
+#, kde-format
+msgid "Exact Match"
+msgstr "Comhoiriúnú Beacht"
+
+#. +> trunk6 stable6
+#: optionsmodel.cpp:200
+#, fuzzy, kde-format
+#| msgid "Substring Match"
+msgid "Substring match"
+msgstr "Comhoiriúnú Fotheaghráin"
+
+#. +> stable5
+#: optionsmodel.cpp:200
+#, kde-format
+msgid "Substring Match"
+msgstr "Comhoiriúnú Fotheaghráin"
+
+#. +> trunk6 stable6
+#: optionsmodel.cpp:201
+#, fuzzy, kde-format
+#| msgid "Regular Expression"
+msgid "Regular expression"
+msgstr "Slonn Ionadaíochta"
+
+#. +> stable5
+#: optionsmodel.cpp:201
+#, kde-format
+msgid "Regular Expression"
+msgstr "Slonn Ionadaíochta"
+
+#. +> trunk6 stable6
+#: optionsmodel.cpp:205
+#, fuzzy, kde-format
+#| msgid "Apply Initially"
+msgid "Apply initially"
+msgstr "Cuir i bhFeidhm Ar dTús"
+
+#. +> stable5
+#: optionsmodel.cpp:205
+#, kde-format
+msgid "Apply Initially"
+msgstr "Cuir i bhFeidhm Ar dTús"
+
+#. +> trunk6 stable6 stable5
+#: optionsmodel.cpp:206
+#, kde-format
+msgid ""
+"The window property will be only set to the given value after the window is created.\n"
+"No further changes will be affected."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optionsmodel.cpp:209
+#, fuzzy, kde-format
+#| msgid "Apply Now"
+msgid "Apply now"
+msgstr "Cuir i bhFeidhm Anois"
+
+#. +> stable5
+#: optionsmodel.cpp:209
+#, kde-format
+msgid "Apply Now"
+msgstr "Cuir i bhFeidhm Anois"
+
+#. +> trunk6 stable6 stable5
+#: optionsmodel.cpp:210
+#, kde-format
+msgid ""
+"The window property will be set to the given value immediately and will not be affected later\n"
+"(this action will be deleted afterwards)."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: optionsmodel.cpp:213
+#, kde-format
+msgid "Remember"
+msgstr "Meabhraigh"
+
+#. +> trunk6 stable6 stable5
+#: optionsmodel.cpp:214
+#, kde-format
+msgid "The value of the window property will be remembered and, every time the window is created, the last remembered value will be applied."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optionsmodel.cpp:217
+#, fuzzy, kde-format
+#| msgid "Do Not Affect"
+msgid "Do not affect"
+msgstr "Ná Téigh i bhFeidhm Air"
+
+#. +> stable5
+#: optionsmodel.cpp:217
+#, kde-format
+msgid "Do Not Affect"
+msgstr "Ná Téigh i bhFeidhm Air"
+
+#. +> trunk6 stable6 stable5
+#: optionsmodel.cpp:218
+#, kde-format
+msgid ""
+"The window property will not be affected and therefore the default handling for it will be used.\n"
+"Specifying this will block more generic window settings from taking effect."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: optionsmodel.cpp:221
+#, kde-format
+msgid "Force"
+msgstr "Fórsáil"
+
+#. +> trunk6 stable6 stable5
+#: optionsmodel.cpp:222
+#, kde-format
+msgid "The window property will be always forced to the given value."
+msgstr ""
+
+#. +> trunk6 stable6
+#: optionsmodel.cpp:224
+#, fuzzy, kde-format
+#| msgid "Force Temporarily"
+msgid "Force temporarily"
+msgstr "Fórsáil go Sealadach"
+
+#. +> stable5
+#: optionsmodel.cpp:224
+#, kde-format
+msgid "Force Temporarily"
+msgstr "Fórsáil go Sealadach"
+
+#. +> trunk6 stable6 stable5
+#: optionsmodel.cpp:225
+#, kde-format
+msgid ""
+"The window property will be forced to the given value until it is hidden\n"
+"(this action will be deleted after the window is hidden)."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:227
+#, kde-format
+msgid "Settings for %1"
+msgstr "Socruithe do %1"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:230
+#, fuzzy, kde-format
+#| msgid "Window settings for %1"
+msgid "New window settings"
+msgstr "Socruithe fuinneoige do %1"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:246
+#, kde-format
+msgid ""
+"You have specified the window class as unimportant.\n"
+"This means the settings will possibly apply to windows from all applications. If you really want to create a generic setting, it is recommended you at least limit the window types to avoid special window types."
+msgstr ""
+"Thug tú le fios go bhfuil an aicme fuinneog gan tábhacht.\n"
+"Ciallaíonn sé seo go mb'fhéidir go gcuirfear na socruithe i bhfeidhm ar fhuinneoga ó gach feidhmchlár. Más mian leat socrú ginearálta a chruthú i ndáiríre, moltar duit teorainn a chur le cineálacha na bhfuinneog ar a laghad, chun cineálacha speisialta a sheachaint."
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:253
+#, kde-format
+msgid "Some applications set their own geometry after starting, overriding your initial settings for size and position. To enforce these settings, also force the property \"%1\" to \"Yes\"."
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:260
+#, kde-format
+msgid "Readability may be impaired with extremely low opacity values. At 0%, the window becomes invisible."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:387
+#, fuzzy, kde-format
+#| msgid "De&scription:"
+msgid "Description"
+msgstr "Cu&r Síos:"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:387 rulesmodel.cpp:395 rulesmodel.cpp:403 rulesmodel.cpp:410
+#: rulesmodel.cpp:416 rulesmodel.cpp:424 rulesmodel.cpp:429 rulesmodel.cpp:435
+#: rulesmodel.cpp:440
+#, fuzzy, kde-format
+#| msgid "Window t&itle:"
+msgid "Window matching"
+msgstr "&Teideal na fuinneoga:"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:395
+#, fuzzy, kde-format
+#| msgid "Window &class (application):"
+msgid "Window class (application)"
+msgstr "Ai&cme fhuinneoige (feidhmchlár):"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:403
+#, fuzzy, kde-format
+#| msgid "Match w&hole window class"
+msgid "Match whole window class"
+msgstr "Comhoiriúnaigh an aicme f&huinneoige iomlán"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:410
+#, fuzzy, kde-format
+#| msgid "Match w&hole window class"
+msgid "Whole window class"
+msgstr "Comhoiriúnaigh an aicme f&huinneoige iomlán"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:416
+#, fuzzy, kde-format
+#| msgid "Window &types:"
+msgid "Window types"
+msgstr "Cineálacha &fuinneoga:"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:424
+#, fuzzy, kde-format
+#| msgid "Window &role:"
+msgid "Window role"
+msgstr "&Ról na fuinneoige:"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:429
+#, fuzzy, kde-format
+#| msgid "Window t&itle:"
+msgid "Window title"
+msgstr "&Teideal na fuinneoga:"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:435
+#, fuzzy, kde-format
+#| msgid "&Machine (hostname):"
+msgid "Machine (hostname)"
+msgstr "&Meaisín (óstainm):"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:440
+#, fuzzy, kde-format
+#| msgid "Window &Extra"
+msgid "Window tag"
+msgstr "Fuinn&eog Bhreise"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:447
+#, fuzzy, kde-format
+#| msgid "&Position"
+msgid "Position"
+msgstr "&Ionad"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:447 rulesmodel.cpp:453 rulesmodel.cpp:459 rulesmodel.cpp:464
+#: rulesmodel.cpp:472 rulesmodel.cpp:478 rulesmodel.cpp:497 rulesmodel.cpp:513
+#: rulesmodel.cpp:518 rulesmodel.cpp:523 rulesmodel.cpp:528 rulesmodel.cpp:535
+#: rulesmodel.cpp:549 rulesmodel.cpp:554 rulesmodel.cpp:559
+#, fuzzy, kde-format
+#| msgid "&Size && Position"
+msgid "Size & Position"
+msgstr "&Méid agus Ionad"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:453
+#, fuzzy, kde-format
+#| msgid "&Size"
+msgid "Size"
+msgstr "&Méid"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:459
+#, fuzzy, kde-format
+#| msgid "Maximized &horizontally"
+msgid "Maximized horizontally"
+msgstr "Uasmhéadaigh go &cothrománach"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:464
+#, fuzzy, kde-format
+#| msgid "Maximized &vertically"
+msgid "Maximized vertically"
+msgstr "Uasmhéadaigh go h&ingearach"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:472
+#, fuzzy, kde-format
+#| msgid "All Desktops"
+msgid "Virtual desktop"
+msgstr "Gach Deasc"
+
+#. +> stable5
+#: rulesmodel.cpp:438
+#, fuzzy, kde-format
+#| msgid "All Desktops"
+msgid "Virtual Desktop"
+msgstr "Gach Deasc"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:478
+#, fuzzy, kde-format
+#| msgid "All Desktops"
+msgid "Virtual desktops"
+msgstr "Gach Deasc"
+
+#. +> stable5
+#: rulesmodel.cpp:444
+#, fuzzy, kde-format
+#| msgid "All Desktops"
+msgid "Virtual Desktops"
+msgstr "Gach Deasc"
+
+#. +> stable5
+#: rulesmodel.cpp:494
+#, fuzzy, kde-format
+#| msgid "Sh&aded"
+msgid "Shaded"
+msgstr "&Scáthlínithe"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:497
+#, fuzzy, kde-format
+#| msgid "Activit&y"
+msgid "Activities"
+msgstr "G&níomhaíocht"
+
+#. +> stable5
+#: rulesmodel.cpp:508
+#, kde-format
+msgid ""
+"Windows can ask to appear in a certain position.\n"
+"By default this overrides the placement strategy\n"
+"what might be nasty if the client abuses the feature\n"
+"to unconditionally popup in the middle of your screen."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:513
+#, kde-format
+msgid "Screen"
+msgstr "Scáileán"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:518 rulesmodel.cpp:927
+#, fuzzy, kde-format
+#| msgid "&Fullscreen"
+msgid "Fullscreen"
+msgstr "&Lánscáileán"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:523
+#, fuzzy, kde-format
+#| msgid "M&inimized"
+msgid "Minimized"
+msgstr "Íoslaghda&ithe"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:528
+#, fuzzy, kde-format
+#| msgid "No Placement"
+msgid "Initial placement"
+msgstr "Gan Socrú"
+
+#. +> stable5
+#: rulesmodel.cpp:528
+#, kde-format
+msgid ""
+"Eg. terminals or video players can ask to keep a certain aspect ratio\n"
+"or only grow by values larger than one\n"
+"(eg. by the dimensions of one character).\n"
+"This may be pointless and the restriction prevents arbitrary dimensions\n"
+"like your complete screen area."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:535
+#, fuzzy, kde-format
+#| msgid "Ignore requested &geometry"
+msgid "Ignore requested geometry"
+msgstr "Déan neamhaird den &chéimseata iarrtha"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:538
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Some applications can set their own geometry, overriding the window manager preferences. Setting this property overrides their placement requests.<nl/>"
+"<nl/>"
+"This affects <interface>Size</interface> and <interface>Position</interface> but not <interface>Maximized</interface> or <interface>Fullscreen</interface> states.<nl/>"
+"<nl/>"
+"Note that the position can also be used to map to a different <interface>Screen</interface>"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:549
+#, fuzzy, kde-format
+#| msgid "M&inimum size"
+msgid "Minimum Size"
+msgstr "Íoslaghda&igh"
+
+#. +> stable5
+#: rulesmodel.cpp:549
+#, kde-format
+msgid "Window shall (not) appear in the taskbar."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:554
+#, fuzzy, kde-format
+#| msgid "M&aximum size"
+msgid "Maximum Size"
+msgstr "U&asmhéid"
+
+#. +> stable5
+#: rulesmodel.cpp:555
+#, kde-format
+msgid "Window shall (not) appear in the manager for virtual desktops"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:559
+#, kde-format
+msgid "Obey geometry restrictions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:561
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Some apps like video players or terminals can ask KWin to constrain them to certain aspect ratios or only grow by values larger than the dimensions of one character. Use this property to ignore such restrictions and allow those windows to be resized to arbitrary sizes.<nl/>"
+"<nl/>"
+"This can be helpful for windows that can't quite fit the full screen area when maximized."
+msgstr ""
+
+#. +> stable5
+#: rulesmodel.cpp:561
+#, kde-format
+msgid "Window shall (not) appear in the Alt+Tab list"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:572
+#, kde-format
+msgid "Keep above other windows"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:572 rulesmodel.cpp:577 rulesmodel.cpp:582 rulesmodel.cpp:588
+#: rulesmodel.cpp:594 rulesmodel.cpp:600
+#, fuzzy, kde-format
+#| msgid "&Arrangement && Access"
+msgid "Arrangement & Access"
+msgstr "&Leagan Amach agus Rochtain"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:577
+#, kde-format
+msgid "Keep below other windows"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:582
+#, fuzzy, kde-format
+#| msgid "Skip &taskbar"
+msgid "Skip taskbar"
+msgstr "Ná bac le &tascbharra"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:584
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Controls whether or not the window appears in the Task Manager."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:588
+#, fuzzy, kde-format
+#| msgid "Skip pa&ger"
+msgid "Skip pager"
+msgstr "Ná bac le &brabhsálaí"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:590
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Controls whether or not the window appears in the Virtual Desktop manager."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:594
+#, fuzzy, kde-format
+#| msgid "Skip &switcher"
+msgid "Skip switcher"
+msgstr "Ná bac leis an &athraitheoir"
+
+#. +> stable5
+#: rulesmodel.cpp:594
+#, kde-format
+msgid ""
+"KWin tries to prevent windows from taking the focus\n"
+"(\"activate\") while you're working in another window,\n"
+"but this may sometimes fail or superact.\n"
+"\"None\" will unconditionally allow this window to get the focus while\n"
+"\"Extreme\" will completely prevent it from taking the focus."
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:596
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid "Controls whether or not the window appears in the <shortcut>Alt+Tab</shortcut> window list."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:600
+#, kde-format
+msgid "Shortcut"
+msgstr "Aicearra"
+
+#. +> stable5
+#: rulesmodel.cpp:605
+#, kde-format
+msgid ""
+"This controls the focus protection of the currently active window.\n"
+"None will always give the focus away,\n"
+"Extreme will keep it.\n"
+"Otherwise it's interleaved with the stealing prevention\n"
+"assigned to the window that wants the focus."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:606
+#, kde-format
+msgid "No titlebar and frame"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:606 rulesmodel.cpp:611 rulesmodel.cpp:617 rulesmodel.cpp:622
+#: rulesmodel.cpp:628 rulesmodel.cpp:655 rulesmodel.cpp:683 rulesmodel.cpp:689
+#: rulesmodel.cpp:701 rulesmodel.cpp:706 rulesmodel.cpp:711 rulesmodel.cpp:716
+#: rulesmodel.cpp:722 rulesmodel.cpp:727
+#, kde-format
+msgid "Appearance & Fixes"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:611
+#, kde-format
+msgid "Titlebar color scheme"
+msgstr ""
+
+#. +> stable5
+#: rulesmodel.cpp:616
+#, kde-format
+msgid ""
+"Windows may prevent to get the focus (activate) when being clicked.\n"
+"On the other hand you might wish to prevent a window\n"
+"from getting focused on a mouse click."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:617
+#, fuzzy, kde-format
+#| msgid "A&ctive opacity"
+msgid "Active opacity"
+msgstr "Teimhneacht &ghníomhach"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:622
+#, fuzzy, kde-format
+#| msgid "I&nactive opacity"
+msgid "Inactive opacity"
+msgstr "Teimh&neacht neamhghníomhach"
+
+#. +> stable5
+#: rulesmodel.cpp:624
+#, kde-format
+msgid ""
+"When used, a window will receive\n"
+"all keyboard inputs while it is active, including Alt+Tab etc.\n"
+"This is especially interesting for emulators or virtual machines.\n"
+"\n"
+"Be warned:\n"
+"you won't be able to Alt+Tab out of the window\n"
+"nor use any other global shortcut (such as Alt+F2 to show KRunner)\n"
+"while it's active!"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:628
+#, fuzzy, kde-format
+#| msgid "&Focus stealing prevention"
+msgid "Focus stealing prevention"
+msgstr "Cosc ar ghadaíocht an &fhócais"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:630
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"KWin tries to prevent windows that were opened without direct user action from raising themselves and taking focus while you're currently interacting with another window. This property can be used to change the level of focus stealing prevention applied to individual windows and apps.<nl/>"
+"<nl/>"
+"Here's what will happen to a window opened without your direct action at each level of focus stealing prevention:<nl/>"
+"<list>"
+"<item><emphasis strong='true'>None:</emphasis> The window will be raised and focused.</item>"
+"<item><emphasis strong='true'>Low:</emphasis> Focus stealing prevention will be applied, but in the case of a situation KWin considers ambiguous, the window will be raised and focused.</item>"
+"<item><emphasis strong='true'>Normal:</emphasis> Focus stealing prevention will be applied, but  in the case of a situation KWin considers ambiguous, the window will <emphasis>not</emphasis> be raised and focused.</item>"
+"<item><emphasis strong='true'>High:</emphasis> The window will only be raised and focused if it belongs to the same app as the currently-focused window.</item>"
+"<item><emphasis strong='true'>Extreme:</emphasis> The window will never be raised and focused.</item>"
+"</list>"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:655
+#, fuzzy, kde-format
+#| msgid "&Focus stealing prevention"
+msgid "Focus protection"
+msgstr "Cosc ar ghadaíocht an &fhócais"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:657
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"This property controls the focus protection level of the currently active window. It is used to override the focus stealing prevention applied to new windows that are opened without your direct action.<nl/>"
+"<nl/>"
+"Here's what happens to new windows that are opened without your direct action at each level of focus protection while the window with this property applied to it has focus:<nl/>"
+"<list>"
+"<item><emphasis strong='true'>None</emphasis>: Newly-opened windows always raise themselves and take focus.</item>"
+"<item><emphasis strong='true'>Low:</emphasis> Focus stealing prevention will be applied to the newly-opened window, but in the case of a situation KWin considers ambiguous, the window will be raised and focused.</item>"
+"<item><emphasis strong='true'>Normal:</emphasis> Focus stealing prevention will be applied to the newly-opened window, but in the case of a situation KWin considers ambiguous, the window will <emphasis>not</emphasis> be raised and focused.</item>"
+"<item><emphasis strong='true'>High:</emphasis> Newly-opened windows will only raise themselves and take focus if they belongs to the same app as the currently-focused window.</item>"
+"<item><emphasis strong='true'>Extreme:</emphasis> Newly-opened windows never raise themselves and take focus.</item>"
+"</list>"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:683
+#, fuzzy, kde-format
+#| msgid "Accept &focus"
+msgid "Accept focus"
+msgstr "Glac le &fócas"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:685
+#, kde-format
+msgid "Controls whether or not the window becomes focused when clicked."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:689
+#, kde-format
+msgid "Ignore global shortcuts"
+msgstr "Déan neamhaird d'aicearraí comhchoiteanna"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:691
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"Use this property to prevent global keyboard shortcuts from working while the window is focused. This can be useful for apps like emulators or virtual machines that handle some of the same shortcuts themselves.<nl/>"
+"<nl/>"
+"Note that you won't be able to <shortcut>Alt+Tab</shortcut> out of the window or use any other global shortcuts such as <shortcut>Alt+Space</shortcut> to activate KRunner."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:701
+#, fuzzy, kde-format
+#| msgid "&Closeable"
+msgid "Closeable"
+msgstr "&Indúnta"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:706
+#, kde-format
+msgid "Desktop file name"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:711
+#, kde-format
+msgid "Block compositing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:716
+#, kde-format
+msgid "Layer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:722
+#, kde-format
+msgid "Adaptive sync"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:727
+#, kde-format
+msgid "Allow tearing"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:778
+#, fuzzy, kde-format
+#| msgid "Window &class (application):"
+msgid "Window class not available"
+msgstr "Ai&cme fhuinneoige (feidhmchlár):"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:779
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"This application is not providing a class for the window, so KWin cannot use it to match and apply any rules. If you still want to apply some rules to it, try to match other properties like the window title instead.<nl/>"
+"<nl/>"
+"Please consider reporting this bug to the application's developers."
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:813
+#, fuzzy, kde-format
+#| msgid "Window &types:"
+msgid "All window types"
+msgstr "Cineálacha &fuinneoga:"
+
+#. +> stable5
+#: rulesmodel.cpp:640
+#, fuzzy, kde-format
+#| msgid "Window &type"
+msgid "Set window type"
+msgstr "Cineál &fuinneoige"
+
+#. +> stable5
+#: rulesmodel.cpp:738
+#, fuzzy, kde-format
+#| msgid "Window &types:"
+msgid "All Window Types"
+msgstr "Cineálacha &fuinneoga:"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:814
+#, fuzzy, kde-format
+#| msgid "Normal Window"
+msgid "Normal window"
+msgstr "Gnáthfhuinneog"
+
+#. +> stable5
+#: rulesmodel.cpp:739
+#, kde-format
+msgid "Normal Window"
+msgstr "Gnáthfhuinneog"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:815
+#, fuzzy, kde-format
+#| msgid "Dialog Window"
+msgid "Dialog window"
+msgstr "Fuinneog Dhialóige"
+
+#. +> stable5
+#: rulesmodel.cpp:740
+#, kde-format
+msgid "Dialog Window"
+msgstr "Fuinneog Dhialóige"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:816
+#, fuzzy, kde-format
+#| msgid "Utility Window"
+msgid "Utility window"
+msgstr "Fuinneog Uirlise"
+
+#. +> stable5
+#: rulesmodel.cpp:741
+#, kde-format
+msgid "Utility Window"
+msgstr "Fuinneog Uirlise"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:817
+#, kde-format
+msgid "Dock (panel)"
+msgstr "Duga (painéal)"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:818
+#, kde-format
+msgid "Toolbar"
+msgstr "Barra Uirlisí"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:819
+#, fuzzy, kde-format
+#| msgid "Torn-Off Menu"
+msgid "Torn-off menu"
+msgstr "Roghchlár Stróicthe"
+
+#. +> stable5
+#: rulesmodel.cpp:744
+#, kde-format
+msgid "Torn-Off Menu"
+msgstr "Roghchlár Stróicthe"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:820
+#, fuzzy, kde-format
+#| msgid "Splash Screen"
+msgid "Splash screen"
+msgstr "Splancscáileán"
+
+#. +> stable5
+#: rulesmodel.cpp:745
+#, kde-format
+msgid "Splash Screen"
+msgstr "Splancscáileán"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:821 rulesmodel.cpp:922
+#, kde-format
+msgid "Desktop"
+msgstr "Deasc"
+
+#. i18n("Unmanaged Window")},  deprecated
+#. +> trunk6 stable6
+#: rulesmodel.cpp:823
+#, fuzzy, kde-format
+#| msgid "Standalone Menubar"
+msgid "Standalone menubar"
+msgstr "Barra Roghchláir Saorsheasaimh"
+
+#. i18n("Unmanaged Window")},  deprecated
+#. +> stable5
+#: rulesmodel.cpp:748
+#, kde-format
+msgid "Standalone Menubar"
+msgstr "Barra Roghchláir Saorsheasaimh"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:824 rulesmodel.cpp:930
+#, kde-format
+msgid "On-screen display"
+msgstr ""
+
+#. +> stable5
+#: rulesmodel.cpp:749
+#, kde-format
+msgid "On Screen Display"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:834
+#, fuzzy, kde-format
+#| msgid "All Desktops"
+msgid "All desktops"
+msgstr "Gach Deasc"
+
+#. +> stable5
+#: rulesmodel.cpp:759
+#, kde-format
+msgid "All Desktops"
+msgstr "Gach Deasc"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:836
+#, kde-format
+msgctxt "@info:tooltip in the virtual desktop list"
+msgid "Make the window available on all desktops"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:855
+#, fuzzy, kde-format
+#| msgid "Activit&y"
+msgid "All activities"
+msgstr "G&níomhaíocht"
+
+#. +> stable5
+#: rulesmodel.cpp:780
+#, kde-format
+msgid "All Activities"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:857
+#, kde-format
+msgctxt "@info:tooltip in the activity list"
+msgid "Make the window available on all activities"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:878
+#, kde-format
+msgid "Default"
+msgstr "Réamhshocrú"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:879
+#, fuzzy, kde-format
+#| msgid "No Placement"
+msgid "No placement"
+msgstr "Gan Socrú"
+
+#. +> stable5
+#: rulesmodel.cpp:804
+#, kde-format
+msgid "No Placement"
+msgstr "Gan Socrú"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:880
+#, kde-format
+msgid "Minimal overlapping"
+msgstr ""
+
+#. +> stable5
+#: rulesmodel.cpp:805
+#, kde-format
+msgid "Minimal Overlapping"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:881
+#, fuzzy, kde-format
+#| msgid "Maximizing"
+msgid "Maximized"
+msgstr "Uasmhéadú"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:882
+#, kde-format
+msgid "Centered"
+msgstr "Láraithe"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:883
+#, kde-format
+msgid "Random"
+msgstr "Randamach"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:884
+#, fuzzy, kde-format
+#| msgid "Top-Left Corner"
+msgid "In top-left corner"
+msgstr "Cúinne ag Barr ar Chlé"
+
+#. +> stable5
+#: rulesmodel.cpp:809
+#, fuzzy, kde-format
+#| msgid "Top-Left Corner"
+msgid "In Top-Left Corner"
+msgstr "Cúinne ag Barr ar Chlé"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:885
+#, fuzzy, kde-format
+#| msgid "Under Mouse"
+msgid "Under mouse"
+msgstr "Faoin Luch"
+
+#. +> stable5
+#: rulesmodel.cpp:810
+#, kde-format
+msgid "Under Mouse"
+msgstr "Faoin Luch"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:886
+#, fuzzy, kde-format
+#| msgid "On Main Window"
+msgid "On main window"
+msgstr "Ar An Phríomhfhuinneog"
+
+#. +> stable5
+#: rulesmodel.cpp:811
+#, kde-format
+msgid "On Main Window"
+msgstr "Ar An Phríomhfhuinneog"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:893
+#, fuzzy, kde-format
+#| msgctxt "no focus stealing prevention"
+#| msgid "None"
+msgid "None"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:894
+#, kde-format
+msgid "Low"
+msgstr "Íseal"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:895 rulesmodel.cpp:924
+#, kde-format
+msgid "Normal"
+msgstr "Gnách"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:896
+#, kde-format
+msgid "High"
+msgstr "Ard"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:897
+#, kde-format
+msgid "Extreme"
+msgstr "As Cuimse"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:923
+#, kde-format
+msgid "Below"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:925
+#, kde-format
+msgid "Above"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:926
+#, fuzzy, kde-format
+#| msgid "&Position"
+msgid "Notification"
+msgstr "&Ionad"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:928
+#, kde-format
+msgid "Popup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:929
+#, fuzzy, kde-format
+#| msgid "&Position"
+msgid "Critical notification"
+msgstr "&Ionad"
+
+#. +> trunk6 stable6
+#: rulesmodel.cpp:931
+#, kde-format
+msgid "Overlay"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:956
+#, fuzzy, kde-format
+#| msgid "On Main Window"
+msgid "Unmanaged window"
+msgstr "Ar An Phríomhfhuinneog"
+
+#. +> trunk6 stable6 stable5
+#: rulesmodel.cpp:957
+#, kde-format
+msgid "Could not detect window properties. The window is not managed by KWin."
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/FileDialogLoader.qml:15
+#, kde-format
+msgid "Select File"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/FileDialogLoader.qml:27
+#, kde-format
+msgid "KWin Rules (*.kwinrule)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:28
+#, fuzzy, kde-format
+#| msgid "&New..."
+msgid "Add New…"
+msgstr "&Nua..."
+
+#. +> stable5
+#: package/contents/ui/main.qml:97
+#, fuzzy, kde-format
+#| msgid "&New..."
+msgid "Add New..."
+msgstr "&Nua..."
+
+#. +> trunk6 stable6
+#: ui/main.qml:35
+#, fuzzy, kde-format
+#| msgid "&Import"
+msgid "Import…"
+msgstr "&Iompórtáil"
+
+#. +> stable5
+#: package/contents/ui/main.qml:108
+#, fuzzy, kde-format
+#| msgid "&Import"
+msgid "Import..."
+msgstr "&Iompórtáil"
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:40
+#, fuzzy, kde-format
+#| msgid "&Export"
+msgid "Cancel Export"
+msgstr "&Easpórtáil"
+
+#. +> trunk6 stable6
+#: ui/main.qml:40
+#, fuzzy, kde-format
+#| msgid "&Export"
+msgid "Export…"
+msgstr "&Easpórtáil"
+
+#. +> stable5
+#: package/contents/ui/main.qml:116
+#, fuzzy, kde-format
+#| msgid "&Export"
+msgid "Export..."
+msgstr "&Easpórtáil"
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:88
+#, kde-format
+msgid "No rules for specific windows are currently set"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:89
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click <interface>Add New…</interface> to add some"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:60
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click the <interface>Add New...</interface> button below to add some"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:97
+#, kde-format
+msgid "Select the rules to export"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:101
+#, kde-format
+msgid "Unselect All"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:101
+#, kde-format
+msgid "Select All"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:115
+#, kde-format
+msgid "Save Rules"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:202
+#, kde-format
+msgid "Edit"
+msgstr "Eagar"
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:208
+#, kde-format
+msgid "Duplicate"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:214
+#, kde-format
+msgid "Delete"
+msgstr "Scrios"
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:246
+#, fuzzy, kde-format
+#| msgid "&Export"
+msgid "Import Rules"
+msgstr "&Easpórtáil"
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:258
+#, fuzzy, kde-format
+#| msgid "&Export"
+msgid "Export Rules"
+msgstr "&Easpórtáil"
+
+#. +> trunk6 stable6 stable5
+#: ui/OptionsComboBox.qml:35
+#, kde-format
+msgid "None selected"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/OptionsComboBox.qml:41
+#, kde-format
+msgid "All selected"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/OptionsComboBox.qml:43
+#, kde-format
+msgid "%1 selected"
+msgid_plural "%1 selected"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:66
+#, fuzzy, kde-format
+#| msgid "&Detect Window Properties"
+msgid "No window properties changed"
+msgstr "&Braith Airíonna na Fuinneoige"
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:67
+#, kde-kuit-format
+msgctxt "@info"
+msgid "Click the <interface>Add Property...</interface> button below to add some window properties that will be affected by the rule"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/RulesEditor.qml:85
+#, fuzzy, kde-format
+#| msgid "&Closeable"
+msgid "Close"
+msgstr "&Indúnta"
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:88
+#, fuzzy, kde-format
+#| msgid "&New..."
+msgid "Add Property..."
+msgstr "&Nua..."
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:99
+#, fuzzy, kde-format
+#| msgid "&Detect Window Properties"
+msgid "Detect Window Properties"
+msgstr "&Braith Airíonna na Fuinneoige"
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:115 ui/RulesEditor.qml:122
+#, kde-format
+msgid "Instantly"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:116 ui/RulesEditor.qml:127
+#, kde-format
+msgid "After %1 second"
+msgid_plural "After %1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:174
+#, kde-format
+msgid "Add property to the rule"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/RulesEditor.qml:267
+#, fuzzy, kde-format
+#| msgid "&Detect Window Properties"
+msgctxt "@info:placeholder"
+msgid "No properties left to add"
+msgstr "&Braith Airíonna na Fuinneoige"
+
+#. +> trunk6 stable6
+#: ui/RulesEditor.qml:269
+#, fuzzy, kde-format
+#| msgid "&Detect Window Properties"
+msgctxt "@info:placeholder %1 is a filter text introduced by the user"
+msgid "No properties match \"%1\""
+msgstr "&Braith Airíonna na Fuinneoige"
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:290 ui/ValueEditor.qml:54
+#, kde-format
+msgid "Yes"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:290 ui/ValueEditor.qml:60
+#, fuzzy, kde-format
+#| msgctxt "no focus stealing prevention"
+#| msgid "None"
+msgid "No"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:292 ui/ValueEditor.qml:168 ui/ValueEditor.qml:175
+#, kde-format
+msgid "%1 %"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:294
+#, kde-format
+msgctxt "Coordinates (x, y)"
+msgid "(%1, %2)"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/RulesEditor.qml:296
+#, kde-format
+msgctxt "Size (width, height)"
+msgid "(%1, %2)"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/ValueEditor.qml:203
+#, kde-format
+msgctxt "(x, y) coordinates separator in size/position"
+msgid "x"
+msgstr ""
+
+#. +> stable5
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> stable5
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> stable5
+#: main.cpp:31
+#, kde-format
+msgid "KWinRules KCM launcher"
+msgstr ""
+
+#. +> stable5
+#: main.cpp:32
+#, fuzzy, kde-format
+#| msgid "WId of the window for special window settings."
+msgid "KWin id of the window for special window settings."
+msgstr "Aitheantas na fuinneoige le haghaidh socruithe speisialta."
+
+#. +> stable5
+#: main.cpp:33
+#, kde-format
+msgid "Whether the settings should affect all windows of the application."
+msgstr "Leis an rogha seo, cuirfear na socruithe i bhfeidhm ar gach fuinneog san fheidhmchlár."
+
+#. +> stable5
+#: main.cpp:40
+#, kde-format
+msgid "This helper utility is not supposed to be called directly."
+msgstr "Ní ceart an uirlis chúntach seo a ghlao go díreach."
+
+#. +> stable5
+#: main.cpp:44
+#, kde-format
+msgctxt "Window caption for the application wide rules dialog"
+msgid "Edit Application-Specific Settings"
+msgstr "Cuir Socruithe Sainiúil don Fheidhmchlár in Eagar"
+
+#. +> stable5
+#: main.cpp:45
+#, kde-format
+msgid "Edit Window-Specific Settings"
+msgstr "Cuir Socruithe Sainiúil d'Fhuinneog in Eagar"

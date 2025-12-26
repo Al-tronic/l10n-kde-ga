@@ -1,0 +1,664 @@
+# Irish translation of kwordquiz
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kwordquiz package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeedu/kwordquiz.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-23 10:36+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: exporter.cpp:125
+#, kde-format
+msgid "Name:_____________________________ Date:__________"
+msgstr "Ainm:_____________________________ Dáta:__________"
+
+#. +> trunk6 stable6
+#: exporter.cpp:173
+#, kde-format
+msgid "Score"
+msgstr "Scór"
+
+#. +> trunk6 stable6
+#: kwqcardmodel.cpp:30
+#, kde-format
+msgid "Question"
+msgstr "Ceist"
+
+#. +> trunk6 stable6
+#: kwqcardmodel.cpp:32
+#, kde-format
+msgid "Answer"
+msgstr "Freagra"
+
+#. +> trunk6 stable6
+#: main.cpp:62
+#, kde-format
+msgid "Invalid goto given: %1. Allowed: flash, mc and qa"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:88
+#, fuzzy, kde-format
+#| msgid "KWordQuiz"
+msgid "WordQuiz"
+msgstr "KWordQuiz"
+
+#. +> trunk6 stable6
+#: main.cpp:90
+#, kde-format
+msgid "A powerful flashcard and vocabulary learning program"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:92
+#, kde-format
+msgid "(c) 2003-2010, Peter Hedlund"
+msgstr "© 2003-2010, Peter Hedlund"
+
+#. +> trunk6 stable6
+#: main.cpp:96
+#, kde-format
+msgid "Peter Hedlund"
+msgstr "Peter Hedlund"
+
+#. +> trunk6 stable6
+#: main.cpp:96
+#, kde-format
+msgctxt "@info:credit"
+msgid "Original author"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:97
+#, kde-format
+msgctxt "@info:credit"
+msgid "Carl Schwan"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:97
+#, kde-format
+msgctxt "@info:credit"
+msgid "Port to QML"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:98
+#, kde-format
+msgid "Anne-Marie Mahfouf"
+msgstr "Anne-Marie Mahfouf"
+
+#. +> trunk6 stable6
+#: main.cpp:98
+#, kde-format
+msgid "KDE Edutainment Maintainer"
+msgstr "Cothaitheoir Oideachluichí KDE"
+
+#. +> trunk6 stable6
+#: main.cpp:99
+#, kde-format
+msgid "Martin Pfeiffer"
+msgstr "Martin Pfeiffer"
+
+#. +> trunk6 stable6
+#: main.cpp:99
+#, kde-format
+msgid "Leitner System and several code contributions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:119
+#, kde-format
+msgid ""
+"Type of session to start with: \n"
+"'flash' for flashcard, \n"
+"'mc' for multiple choice, \n"
+"'qa' for question and answer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: main.cpp:121
+#, kde-format
+msgid "File to open"
+msgstr "Comhad le hoscailt"
+
+#. +> trunk6 stable6
+#: qml/BasePage.qml:24
+#, kde-format
+msgid "Cards %1% Errors %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/BasePage.qml:26
+#, kde-format
+msgid "Cards %1/%2 Errors %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/BasePage.qml:73
+#, kde-format
+msgctxt "@label"
+msgid "Finished"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/BasePage.qml:75
+#, kde-format
+msgid "You got a perfect score"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/BasePage.qml:75
+#, kde-format
+msgid "You made one mistake"
+msgid_plural "You made %1 mistakes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6
+#: qml/BasePage.qml:82
+#, kde-format
+msgid "Repeat Errors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/BasePage.qml:93
+#, kde-format
+msgid "Try Again"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Create Deck"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:34
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox vocabulary editor"
+#| msgid "Editor"
+msgctxt "@title:window"
+msgid "Edit Deck"
+msgstr "Eagarthóir"
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:39
+#, kde-format
+msgid "Filter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:42
+#, kde-format
+msgid "Filter..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:50
+#, fuzzy, kde-format
+#| msgid "Showing Preview..."
+msgctxt "@action:button"
+msgid "Print Preview"
+msgstr "Réamhamharc á Thaispeáint..."
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:54 qml/DeckEditorPage.qml:76
+#, kde-format
+msgid "Flashcard"
+msgstr "Spléach-chárta"
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:60 qml/DeckEditorPage.qml:82
+#, kde-format
+msgid "List"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:66 qml/DeckEditorPage.qml:88
+#, kde-format
+msgid "Exam"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:72
+#, fuzzy, kde-format
+#| msgid "Printing..."
+msgctxt "@action:button"
+msgid "Print"
+msgstr "Á Phriontáil..."
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Create"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:94
+#, kde-format
+msgctxt "@action:button"
+msgid "Save"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:120
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove Image"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:120
+#, kde-format
+msgctxt "@action:button"
+msgid "Link Image"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:122
+#, fuzzy, kde-format
+#| msgid "Select Sound"
+msgctxt "@action:button"
+msgid "Remove Sound"
+msgstr "Roghnaigh Fuaim"
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:122
+#, kde-format
+msgctxt "@action:button"
+msgid "Link Sound"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:155
+#, fuzzy, kde-format
+#| msgid "&2 Language 2"
+msgctxt "@action:button"
+msgid "Set language"
+msgstr "&2 Teanga 2"
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:161
+#, fuzzy, kde-format
+#| msgid "&2 Language 2"
+msgctxt "@action:button"
+msgid "Set Language"
+msgstr "&2 Teanga 2"
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:182
+#, kde-format
+msgid "Please Choose an Image"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:191
+#, kde-format
+msgid "Please Choose a Sound"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:226
+#, kde-format
+msgctxt "@label"
+msgid "Name:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:237
+#, kde-format
+msgctxt "@label"
+msgid "Author:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/DeckEditorPage.qml:248
+#, kde-format
+msgctxt "@label"
+msgid "License:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/EditAction.qml:13 qml/WelcomePage.qml:223
+#, fuzzy, kde-format
+#| msgctxt "@item:inlistbox vocabulary editor"
+#| msgid "Editor"
+msgctxt "@action:button"
+msgid "Edit"
+msgstr "Eagarthóir"
+
+#. +> trunk6 stable6
+#: qml/FlashCardPage.qml:16 qml/MultipleChoicePage.qml:87
+#: qml/QuestionAnswerPage.qml:151
+#, fuzzy, kde-format
+#| msgid "&Check"
+msgctxt "@action:button"
+msgid "Check"
+msgstr "&Seiceáil"
+
+#. +> trunk6 stable6
+#: qml/FlashCardPage.qml:128
+#, fuzzy, kde-format
+#| msgid "Correct Answer"
+msgctxt "@action:button"
+msgid "Correct"
+msgstr "An Freagra Ceart"
+
+#. +> trunk6 stable6
+#: qml/FlashCardPage.qml:146
+#, fuzzy, kde-format
+#| msgid "Your answer was correct!"
+msgctxt "@action:button"
+msgid "Not Correct"
+msgstr "Bhí do fhreagra ceart!"
+
+#. +> trunk6 stable6
+#: qml/LanguageSelectorPage.qml:15
+#, fuzzy, kde-format
+#| msgid "Select Image"
+msgid "Select a language"
+msgstr "Roghnaigh Íomhá"
+
+#. +> trunk6 stable6
+#: qml/Main.qml:40
+#, fuzzy, kde-format
+#| msgctxt "@title:group quiz settings"
+#| msgid "Quiz Settings"
+msgctxt "@action:inmenu"
+msgid "Settings"
+msgstr "Socruithe Quiz"
+
+#. +> trunk6 stable6
+#: qml/Main.qml:42
+#, kde-format
+msgid "Configure"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/MultipleChoicePage.qml:99 qml/QuestionAnswerPage.qml:164
+#, fuzzy, kde-format
+#| msgid "This was the correct answer"
+msgid "This is correct"
+msgstr "Ba é seo an freagra ceart"
+
+#. +> trunk6 stable6
+#: qml/MultipleChoicePage.qml:99 qml/QuestionAnswerPage.qml:164
+#, fuzzy, kde-format
+#| msgid "Incorrect answers"
+msgid "Wrong, the correct answer was \"%1\"."
+msgstr "Freagraí mícheara"
+
+#. +> trunk6 stable6
+#: qml/MultipleChoicePage.qml:130 qml/QuestionAnswerPage.qml:195
+#, kde-format
+msgctxt "@action:button"
+msgid "Next"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/MultipleChoicePage.qml:150
+#, kde-format
+msgid "Not enough words in your deck"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/MultipleChoicePage.qml:151
+#, kde-format
+msgid "You need at least 3 words to enable the multiple choice mode"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/OptionsAction.qml:12
+#, fuzzy, kde-format
+#| msgid "&2 Option"
+msgctxt "@action:button"
+msgid "Options"
+msgstr "Rogha &2"
+
+#. +> trunk6 stable6
+#: qml/OptionsAction.qml:15
+#, fuzzy, kde-format
+#| msgctxt "@item:inmenu undo shuffle"
+#| msgid "Shuffle"
+msgctxt "@action:inmenu"
+msgid "Shuffle"
+msgstr "Suaith"
+
+#. +> trunk6 stable6
+#: qml/QuestionAnswerPage.qml:143
+#, fuzzy, kde-format
+#| msgid "&Hint"
+msgctxt "@action:button"
+msgid "Hint"
+msgstr "&Leid"
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:13
+#, fuzzy, kde-format
+#| msgctxt "@title:group quiz settings"
+#| msgid "Quiz Settings"
+msgctxt "@title:window"
+msgid "Settings"
+msgstr "Socruithe Quiz"
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:16
+#, fuzzy, kde-format
+#| msgctxt "@title:group general settings"
+#| msgid "General"
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:22
+#, kde-format
+msgid "Show score as percentage"
+msgstr "Taispeáin an scór mar chéatadán"
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:32
+#, fuzzy, kde-format
+#| msgid "Flashcard"
+msgid "Flash Card"
+msgstr "Spléach-chárta"
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:38
+#, kde-format
+msgid "Automatically flip flashcard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:50
+#, fuzzy, kde-format
+#| msgid "Select to print flashcards"
+msgid "Time delay for flipping the flashcard"
+msgstr "Roghnaigh é seo chun na spléach-chártaí a phriontáil"
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:63
+#, fuzzy, kde-format
+#| msgid "Multiple Choice"
+msgid "Multiple choice"
+msgstr "Ceist Ilroghnach"
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:68
+#, kde-format
+msgid "Automatically check selected answer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:78
+#, fuzzy, kde-format
+#| msgid "&Question and Answer"
+msgid "Question and Answer"
+msgstr "&Ceisteanna agus Freagraí"
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:84
+#, fuzzy, kde-format
+#| msgid "&Treat hint as error"
+msgid "Count using hint as an error"
+msgstr "&Déileálfar le leideanna mar earráidí"
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:96
+#, kde-format
+msgid "Compare answers in a case sensitive way"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:111
+#, fuzzy, kde-format
+#| msgid "Quits KWordQuiz"
+msgid "About KWordQuiz"
+msgstr "Scoir KWordQuiz"
+
+#. +> trunk6 stable6
+#: qml/SettingsPage.qml:126
+#, kde-format
+msgid "About KDE"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:35
+#, kde-format
+msgctxt "@title:window"
+msgid "Welcome"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:40
+#, kde-format
+msgid "Please choose a WordQuiz document"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "KEduDocument (*.kvtml)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "Wql documents (*.wql)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "CSV documents (*.csv)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:42
+#, kde-format
+msgid "XDXF documents (*.xdxf)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:58
+#, fuzzy, kde-format
+#| msgid "Quits KWordQuiz"
+msgid "Welcome to WordQuiz"
+msgstr "Scoir KWordQuiz"
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:70
+#, fuzzy, kde-format
+#| msgid "Opens an existing vocabulary document"
+msgid "Open Existing Document"
+msgstr "Oscail cáipéis stóir fhocal atá ann"
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:76
+#, kde-format
+msgid "Create Deck"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:84
+#, kde-format
+msgid "Download Deck"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:100
+#, fuzzy, kde-format
+#| msgid "Mode"
+msgctxt "@title:group"
+msgid "Mode"
+msgstr "Mód"
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:137
+#, fuzzy, kde-format
+#| msgid "Flashcard"
+msgctxt "@option:check Mode selector"
+msgid "Flashcard"
+msgstr "Spléach-chárta"
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:144
+#, fuzzy, kde-format
+#| msgid "Multiple Choice"
+msgctxt "@option:check Mode selector"
+msgid "Multiple choice"
+msgstr "Ceist Ilroghnach"
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:151
+#, fuzzy, kde-format
+#| msgid "Question & Answer"
+msgctxt "@option:check Mode selector"
+msgid "Question-Answer"
+msgstr "Ceist agus Freagra"
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:157
+#, kde-format
+msgid "Decks"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:193
+#, kde-format
+msgid "Document cannot be opened"
+msgstr ""
+
+#. +> trunk6 stable6
+#: qml/WelcomePage.qml:209
+#, kde-format
+msgctxt "@action:button"
+msgid "Remove"
+msgstr ""

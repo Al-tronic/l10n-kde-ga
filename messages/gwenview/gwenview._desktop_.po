@@ -1,0 +1,60 @@
+# Irish translation of desktop_kdegraphics
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the desktop_kdegraphics package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:15+0000\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: app/org.kde.gwenview.desktop.cmake:2
+msgctxt "Name"
+msgid "Gwenview"
+msgstr "Gwenview"
+
+#. +> trunk6 stable6
+#: app/org.kde.gwenview.desktop.cmake:75
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "KDE Image Viewer"
+msgctxt "GenericName"
+msgid "Image Viewer"
+msgstr "Amharcán Íomhánna KDE"
+
+#. +> trunk6 stable6
+#: app/org.kde.gwenview.desktop.cmake:118
+msgctxt "Comment"
+msgid "A simple image viewer"
+msgstr "Amharcán simplí íomhánna"
+
+#. +> trunk6 stable6
+#: importer/gwenview_importer_camera.desktop:10
+#: importer/gwenview_importer.desktop:11
+msgctxt "Name"
+msgid "Download Photos with Gwenview"
+msgstr "Íosluchtaigh Grianghrafanna le Gwenview"
+
+#. +> trunk6 stable6
+#: importer/org.kde.gwenview_importer.desktop:2
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Gwenview Image Viewer"
+msgctxt "Name"
+msgid "Gwenview Importer"
+msgstr "Amharcán Íomhánna Gwenview"
+
+#. +> trunk6 stable6
+#: part/gvpart.desktop.cmake:3
+msgctxt "Name"
+msgid "Gwenview Image Viewer"
+msgstr "Amharcán Íomhánna Gwenview"

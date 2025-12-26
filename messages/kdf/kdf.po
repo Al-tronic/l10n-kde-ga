@@ -1,0 +1,488 @@
+# Irish translation of kdf
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdf package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+# SPDX-FileCopyrightText: 2025 Charlotte <altronic25@protonmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeutils/kdf.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2025-12-25 04:27+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: src/disklist.cpp:274
+#, kde-format
+msgid "could not execute [%1]"
+msgstr "níorbh fhéidir [%1] a rith"
+
+#. +> trunk6 stable6
+#: src/disks.cpp:249
+#, kde-format
+msgid ""
+"Called: %1\n"
+"\n"
+msgstr ""
+"Glaoite: %1\n"
+"\n"
+
+#. +> trunk6 stable6
+#: src/disks.cpp:269
+#, kde-format
+msgid "could not execute %1"
+msgstr "níorbh fhéidir %1 a rith"
+
+#. +> trunk6 stable6
+#: src/kdf.cpp:28
+#, kde-format
+msgctxt "Update action"
+msgid "&Update"
+msgstr "N&uashonraigh"
+
+#. +> trunk6 stable6
+#: src/kdf.cpp:50
+#, kde-format
+msgid "KDiskFree"
+msgstr "KDiskFree"
+
+#. +> trunk6 stable6
+#: src/kdf.cpp:52
+#, kde-format
+msgid "KDE free disk space utility"
+msgstr "Uirlis KDE a thaispeánann spás diosca inúsáidte"
+
+#. +> trunk6 stable6
+#: src/kdf.cpp:54
+#, kde-format
+msgid "(c) 1998-2001, Michael Kropfberger"
+msgstr "© 1998-2001, Michael Kropfberger"
+
+#. +> trunk6 stable6
+#: src/kdf.cpp:59 src/kwikdisk.cpp:293
+#, kde-format
+msgctxt "@info:credit"
+msgid "Michael Kropfberger"
+msgstr "Michael Kropfberger"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:30
+#, kde-format
+msgctxt "TODO"
+msgid "Icon"
+msgstr "Deilbhín"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:31 src/kdfwidget.cpp:57
+#, kde-format
+msgctxt "Device of the storage"
+msgid "Device"
+msgstr "Gléas"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:32 src/kdfwidget.cpp:58
+#, kde-format
+msgctxt "Filesystem on storage"
+msgid "Type"
+msgstr "Cineál"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:33 src/kdfwidget.cpp:59
+#, kde-format
+msgctxt "Total size of the storage"
+msgid "Size"
+msgstr "Méid"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:34
+#, kde-format
+msgctxt "Mount point of the storage"
+msgid "Mount Point"
+msgstr "Pointe Feistithe"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:35 src/kdfwidget.cpp:61
+#, kde-format
+msgctxt "Free space in storage"
+msgid "Free"
+msgstr "Saor"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:36 src/kdfwidget.cpp:62
+#, kde-format
+msgctxt "Used storage space in %"
+msgid "Full %"
+msgstr "% Lán"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:37 src/kdfwidget.cpp:63
+#, kde-format
+msgctxt "Usage graphical bar"
+msgid "Usage"
+msgstr "Úsáid"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:57 src/kdfconfig.cpp:164
+#, kde-format
+msgctxt "Visible items on device information columns (enable|disable)"
+msgid "visible"
+msgstr "infheicthe"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:145
+#, kde-format
+msgctxt "Are items on device information columns visible?"
+msgid "visible"
+msgstr "infheicthe"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:146
+#, kde-format
+msgctxt "Are items on device information columns hidden?"
+msgid "hidden"
+msgstr "folaithe"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:180
+#, kde-format
+msgctxt "Device information item is hidden"
+msgid "hidden"
+msgstr "folaithe"
+
+#. +> trunk6 stable6
+#: src/kdfconfig.cpp:180
+#, kde-format
+msgctxt "Device information item is visible"
+msgid "visible"
+msgstr "infheicthe"
+
+#. i18n: ectx: property (text), widget (QLabel, updateLabel)
+#. +> trunk6 stable6
+#: src/kdfconfig.ui:35
+#, kde-format
+msgid "Update frequency:"
+msgstr "Minicíocht nuashonruithe:"
+
+#. i18n: ectx: property (suffix), widget (QSpinBox, m_updateSpinBox)
+#. +> trunk6 stable6
+#: src/kdfconfig.ui:42
+#, kde-format
+msgid " sec"
+msgstr " s"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mOpenMountCheck)
+#. +> trunk6 stable6
+#: src/kdfconfig.ui:55
+#, kde-format
+msgid "Open file manager automatically on mount"
+msgstr "Oscail an bainisteoir comhad go huathoibríoch ag am feistithe"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mPopupFullCheck)
+#. +> trunk6 stable6
+#: src/kdfconfig.ui:62
+#, kde-format
+msgid "Pop up a window when a disk gets critically full"
+msgstr "Taispeáin preabfhuinneog nuair a bheidh an diosca lán go béal"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mSystemFileManagerCheck)
+#. +> trunk6 stable6
+#: src/kdfconfig.ui:69
+#, kde-format
+msgid "Use system default file manager"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, fileManagerEdit)
+#. +> trunk6 stable6
+#: src/kdfconfig.ui:76
+#, no-c-format, kde-format
+msgid "File manager (e.g. konsole -e mc %m):"
+msgstr "Bainisteoir comhad (m.sh. konsole -e mc %m):"
+
+#. i18n: ectx: property (text), widget (QLabel, mFlatpakLabel)
+#. +> trunk6 stable6
+#: src/kdfconfig.ui:94
+#, kde-format
+msgid "Custom file manager not supported when running as Flatpak."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kdfitemdelegate.cpp:28 src/kdfwidget.cpp:276
+#, kde-format
+msgctxt "Disk percentage"
+msgid "%1%"
+msgstr "%1%"
+
+#. i18n: ectx: Menu (file)
+#. +> trunk6 stable6
+#: src/kdfui.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Comhad"
+
+#. +> trunk6 stable6
+#: src/kdfwidget.cpp:60
+#, kde-format
+msgctxt "Mount point of storage"
+msgid "Mount Point"
+msgstr "Pointe Feistithe"
+
+#. +> trunk6 stable6
+#: src/kdfwidget.cpp:279 src/kdfwidget.cpp:280
+#, kde-format
+msgid "N/A"
+msgstr "N/A/F"
+
+#. +> trunk6 stable6
+#: src/kdfwidget.cpp:334 src/kwikdisk.cpp:245
+#, kde-format
+msgid "Device [%1] on [%2] is critically full."
+msgstr "Gléas [%1] ar [%2] lán go béal."
+
+#. +> trunk6 stable6
+#: src/kdfwidget.cpp:335
+#, kde-format
+msgctxt "Warning device getting critically full"
+msgid "Warning"
+msgstr "Rabhadh"
+
+#. +> trunk6 stable6
+#: src/kdfwidget.cpp:381
+#, kde-format
+msgid "Mount Device"
+msgstr "Feistigh Gléas"
+
+#. +> trunk6 stable6
+#: src/kdfwidget.cpp:382
+#, kde-format
+msgid "Unmount Device"
+msgstr "Dífheistigh Gléas"
+
+#. +> trunk6 stable6
+#: src/kdfwidget.cpp:384
+#, kde-format
+msgid "Open in File Manager"
+msgstr "Oscail i mBainisteoir na gComhad"
+
+#. +> trunk6 stable6
+#: src/kdfwidget.cpp:392
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Explore in %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/kdfwidget.cpp:406 src/kdfwidget.cpp:409
+#, kde-format
+msgid "MOUNTING"
+msgstr "Á FHEISTIÚ"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:59 src/kwikdisk.cpp:284
+#, kde-format
+msgid "KwikDisk"
+msgstr "KwikDisk"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:63
+#, kde-format
+msgid "&Start KDiskFree"
+msgstr "To&saigh KDiskFree"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:65
+#, kde-format
+msgid "&Configure KwikDisk..."
+msgstr "&Cumraigh KwikDisk..."
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:168
+#, kde-format
+msgctxt "Unmount the storage device"
+msgid "Unmount"
+msgstr "Dífheistigh"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:168
+#, kde-format
+msgctxt "Mount the storage device"
+msgid "Mount"
+msgstr "Feistigh"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:191
+#, kde-format
+msgid "You must login as root to mount this disk"
+msgstr "Ní mór duit logáil isteach mar fhorúsáideoir chun an diosca seo a fheistiú"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:246
+#, kde-format
+msgctxt "Device is getting critically full"
+msgid "Warning"
+msgstr "Rabhadh"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:286
+#, kde-format
+msgid "KDE Free disk space utility"
+msgstr "Uirlis KDE a thaispeánann spás diosca inúsáidte"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:288
+#, kde-format
+msgid "(C) 2004 Stanislav Karchebny"
+msgstr "© 2004 Stanislav Karchebny"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:293
+#, kde-format
+msgid "Original author"
+msgstr "An chéad údar"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:294
+#, kde-format
+msgctxt "@info:credit"
+msgid "Espen Sand"
+msgstr "Espen Sand"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:294
+#, kde-format
+msgid "KDE 2 changes"
+msgstr "Athruithe KDE 2"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:295
+#, kde-format
+msgctxt "@info:credit"
+msgid "Stanislav Karchebny"
+msgstr "Stanislav Karchebny"
+
+#. +> trunk6 stable6
+#: src/kwikdisk.cpp:295
+#, kde-format
+msgid "KDE 3 changes"
+msgstr "Athruithe KDE 3"
+
+#. +> trunk6 stable6
+#: src/mntconfig.cpp:46 src/mntconfig.cpp:51
+#, kde-format
+msgid "Device"
+msgstr "Gléas"
+
+#. +> trunk6 stable6
+#: src/mntconfig.cpp:46 src/mntconfig.cpp:53
+#, kde-format
+msgid "Mount Point"
+msgstr "Pointe Feistithe"
+
+#. +> trunk6 stable6
+#: src/mntconfig.cpp:46
+#, kde-format
+msgid "Mount Command"
+msgstr "Ordú Feistithe"
+
+#. +> trunk6 stable6
+#: src/mntconfig.cpp:47
+#, kde-format
+msgid "Unmount Command"
+msgstr "Ordú Dífheistithe"
+
+#. +> trunk6 stable6
+#: src/mntconfig.cpp:52
+#, kde-format
+msgctxt "No device is selected"
+msgid "None"
+msgstr "Gan Ghléas"
+
+#. +> trunk6 stable6
+#: src/mntconfig.cpp:54
+#, kde-format
+msgctxt "No mount point is selected"
+msgid "None"
+msgstr "Gan Pointe Feistithe"
+
+#. +> trunk6 stable6
+#: src/mntconfig.cpp:220
+#, kde-format
+msgid "Only local files supported."
+msgstr "Tacaítear le comhaid logánta amháin."
+
+#. +> trunk6 stable6
+#: src/mntconfig.cpp:235
+#, kde-format
+msgid "Only local files are currently supported."
+msgstr "Ní thacaítear faoi láthair ach le comhaid logánta."
+
+#. i18n: ectx: property (text), widget (QLabel, iconNameLabel)
+#. +> trunk6 stable6
+#: src/mntconfig.ui:20
+#, kde-format
+msgid "Icon name:"
+msgstr "Ainm an deilbhín:"
+
+#. i18n: ectx: property (text), widget (QLabel, mountLabel)
+#. +> trunk6 stable6
+#: src/mntconfig.ui:30
+#, kde-format
+msgid "Mount Command:"
+msgstr "Ordú Feistithe:"
+
+#. i18n: ectx: property (text), widget (QLabel, umountLabel)
+#. +> trunk6 stable6
+#: src/mntconfig.ui:40
+#, kde-format
+msgid "Unmount Command:"
+msgstr "Ordú Dífheistithe:"
+
+#. i18n: ectx: property (text), widget (QPushButton, mDefaultIconButton)
+#. +> trunk6 stable6
+#: src/mntconfig.ui:50
+#, kde-format
+msgid "Default Icon"
+msgstr "Deilbhín Réamhshocraithe"
+
+#. i18n: ectx: property (text), widget (QPushButton, mMountButton)
+#. i18n: ectx: property (text), widget (QPushButton, mUmountButton)
+#. +> trunk6 stable6
+#: src/mntconfig.ui:57 src/mntconfig.ui:64
+#, kde-format
+msgid "Get Command..."
+msgstr "Faigh Ordú..."
+
+#. +> trunk6 stable6
+#: src/optiondialog.cpp:18
+#, kde-format
+msgid "Configure"
+msgstr "Cumraigh"
+
+#. +> trunk6 stable6
+#: src/optiondialog.cpp:24
+#, kde-format
+msgid "General Settings"
+msgstr "Socruithe Ginearálta"
+
+#. +> trunk6 stable6
+#: src/optiondialog.cpp:28
+#, kde-format
+msgid "Mount Commands"
+msgstr "Orduithe Feistithe"

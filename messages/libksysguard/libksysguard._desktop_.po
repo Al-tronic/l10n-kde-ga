@@ -1,0 +1,123 @@
+# translation of desktop_kdebase.po to Irish
+# Kevin Scannell <kscanne@gmail.com>, 2004.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-09 08:58+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6 stable5
+#: faces/systemmonitor-faces.knsrc:2
+msgctxt "Name"
+msgid "System monitor Sensor Display Styles"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: faces/systemmonitor-presets.knsrc:2
+msgctxt "Name"
+msgid "System monitor Sensor Presets"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: processcore/actions.actions:2
+msgctxt "Name"
+msgid "KSysGuard"
+msgstr "KSysGuard"
+
+#. +> trunk6 stable6 stable5
+#: processcore/actions.actions:82
+msgctxt "Name"
+msgid "Kill or stop etc a process"
+msgstr "Maraigh, stop, srl. próiseas"
+
+#. +> trunk6 stable6 stable5
+#: processcore/actions.actions:148
+msgctxt "Description"
+msgid "Sends a given signal to a given process"
+msgstr "Seol comharthaí go dtí próiseas"
+
+#. +> trunk6 stable6 stable5
+#: processcore/actions.actions:218
+msgctxt "Name"
+msgid "Change the priority of a process"
+msgstr "Athraigh tosaíocht próisis"
+
+#. +> trunk6 stable6 stable5
+#: processcore/actions.actions:286
+msgctxt "Description"
+msgid "Change the niceness of a given process"
+msgstr "Athraigh tosaíocht próisis áirithe"
+
+#. +> trunk6 stable6 stable5
+#: processcore/actions.actions:355
+msgctxt "Name"
+msgid "Change IO Scheduler and priority"
+msgstr "Athraigh sceidealóir I/A agus tosaíocht"
+
+#. +> trunk6 stable6 stable5
+#: processcore/actions.actions:420
+msgctxt "Description"
+msgid "Change how the read and writes of a given process are prioritized"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: processcore/actions.actions:487
+msgctxt "Name"
+msgid "Change CPU Scheduler and priority"
+msgstr "Athraigh Sceidealóir LAP agus tosaíocht"
+
+#. +> trunk6 stable6 stable5
+#: processcore/actions.actions:552
+msgctxt "Description"
+msgid "Change which CPU scheduler is to schedule the running of a given process"
+msgstr "Athraigh an Sceidealóir LAP a sceidealfaidh próiseas áirithe"
+
+#. +> stable5
+#: faces/facepackages/barchart/metadata.desktop:2
+msgctxt "Name"
+msgid "Bar Chart"
+msgstr ""
+
+#. +> stable5
+#: faces/facepackages/colorgrid/metadata.desktop:2
+msgctxt "Name"
+msgid "Color Grid"
+msgstr ""
+
+#. +> stable5
+#: faces/facepackages/facegrid/metadata.desktop:2
+msgctxt "Name"
+msgid "Grid"
+msgstr ""
+
+#. +> stable5
+#: faces/facepackages/horizontalbars/metadata.desktop:2
+msgctxt "Name"
+msgid "Horizontal Bars"
+msgstr ""
+
+#. +> stable5
+#: faces/facepackages/linechart/metadata.desktop:2
+msgctxt "Name"
+msgid "Line Chart"
+msgstr ""
+
+#. +> stable5
+#: faces/facepackages/piechart/metadata.desktop:2
+msgctxt "Name"
+msgid "Pie Chart"
+msgstr ""
+
+#. +> stable5
+#: faces/facepackages/textonly/metadata.desktop:2
+msgctxt "Name"
+msgid "Text Only"
+msgstr ""

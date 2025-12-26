@@ -1,0 +1,505 @@
+# Irish translation of kdevcmake
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kdevcmake package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdevelop/kdevcmake.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-05-16 12:10+0200\n"
+"PO-Revision-Date: 2009-01-20 10:11-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.cpp:29
+#, fuzzy, kde-format
+#| msgid "Configure a build directory for %1"
+msgctxt "@title:window"
+msgid "Configure a Build Directory - %1"
+msgstr "Cumraigh comhadlann tógála le haghaidh %1"
+
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.cpp:86
+#, fuzzy, kde-format
+#| msgid "Configure a build directory for %1"
+msgctxt "@title:window"
+msgid "Configure a Build Directory for %1"
+msgstr "Cumraigh comhadlann tógála le haghaidh %1"
+
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.cpp:196
+#, kde-format
+msgid "You need to specify a build directory."
+msgstr "Caithfidh tú comhadlann tógála a roghnú."
+
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.cpp:203
+#, kde-format
+msgid "Using an already created build directory."
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.cpp:214
+#, kde-format
+msgid "Creating a new build directory."
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.cpp:220
+#, kde-format
+msgid "Build directory already configured."
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.cpp:222
+#, kde-format
+msgid "This build directory is for %1, but the project directory is %2."
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.cpp:225
+#, kde-format
+msgid "You may not select a relative build directory."
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.cpp:227
+#, kde-format
+msgid "The selected build directory is not empty."
+msgstr "Níl an chomhadlann roghnaithe tógála folamh."
+
+#. i18n: ectx: property (text), widget (QLabel, availableLabel)
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.ui:32
+#, fuzzy, kde-format
+#| msgid "Already used build directory"
+msgctxt "@label:listbox"
+msgid "Available build directories:"
+msgstr "In úsáid mar chomhadlann tógála cheana"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, availableBuildDirs)
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.ui:40
+#, fuzzy, kde-format
+#| msgid "&Build Directory:"
+msgctxt "@item:inlistbox"
+msgid "New build directory"
+msgstr "&Comhadlann Tógála:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.ui:48
+#, fuzzy, kde-format
+#| msgid "&Build Directory:"
+msgctxt "@label:chooser"
+msgid "Build &directory:"
+msgstr "&Comhadlann Tógála:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.ui:84
+#, fuzzy, kde-format
+#| msgid "&Installation Prefix:"
+msgctxt "@label:chooser"
+msgid "&Installation prefix:"
+msgstr "Réimír &Shuiteála:"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, installPrefix)
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.ui:109
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "The prefix under which the project will be installed. Leaving this empty will let CMake use its default install prefix."
+msgstr ""
+
+#. i18n: ectx: property (placeholderText), widget (KUrlRequester, installPrefix)
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.ui:112
+#, kde-format
+msgctxt "@info:placeholder"
+msgid "CMake's default install prefix"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.ui:119
+#, fuzzy, kde-format
+#| msgid "Build &type:"
+msgctxt "@label:listbox"
+msgid "Build &type:"
+msgstr "Cineál &tógála:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, extraArgumentsLabel)
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.ui:162 settings/cmakebuildsettings.ui:178
+#, kde-format
+msgctxt "@label:listbox"
+msgid "Extra arguments:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: cmakebuilddirchooser.ui:182
+#, kde-format
+msgctxt "@label:chooser"
+msgid "CMake &executable:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakecodecompletionmodel.cpp:192
+#, kde-format
+msgid "INVALID"
+msgstr "NEAMHBHAILÍ"
+
+#. +> trunk6 stable6
+#: cmakecodecompletionmodel.cpp:200
+#, fuzzy, kde-format
+#| msgid "Command"
+msgctxt "@item"
+msgid "Command"
+msgstr "Ordú"
+
+#. +> trunk6 stable6
+#: cmakecodecompletionmodel.cpp:201
+#, fuzzy, kde-format
+#| msgid "Variable"
+msgctxt "@item"
+msgid "Variable"
+msgstr "Athróg"
+
+#. +> trunk6 stable6
+#: cmakecodecompletionmodel.cpp:202
+#, fuzzy, kde-format
+#| msgid "Macro"
+msgctxt "@item"
+msgid "Macro"
+msgstr "Macra"
+
+#. +> trunk6 stable6
+#: cmakecodecompletionmodel.cpp:203
+#, fuzzy, kde-format
+#| msgid "Path"
+msgctxt "@item"
+msgid "Path"
+msgstr "Conair"
+
+#. +> trunk6 stable6
+#: cmakecodecompletionmodel.cpp:204
+#, fuzzy, kde-format
+#| msgid "Target"
+msgctxt "@item"
+msgid "Target"
+msgstr "Sprioc"
+
+#. +> trunk6 stable6
+#: cmakecodecompletionmodel.cpp:256
+#, kde-format
+msgid "wrong"
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakecommandscontents.cpp:29
+#, fuzzy, kde-format
+#| msgid "Commands"
+msgctxt "@item cmake"
+msgid "Commands"
+msgstr "Orduithe"
+
+#. +> trunk6 stable6
+#: cmakecommandscontents.cpp:30
+#, fuzzy, kde-format
+#| msgid "Variables"
+msgctxt "@item cmake"
+msgid "Variables"
+msgstr "Athróga"
+
+#. +> trunk6 stable6
+#: cmakecommandscontents.cpp:31
+#, fuzzy, kde-format
+#| msgid "Modules"
+msgctxt "@item cmake"
+msgid "Modules"
+msgstr "Modúil"
+
+#. +> trunk6 stable6
+#: cmakecommandscontents.cpp:32
+#, fuzzy, kde-format
+#| msgid "Properties"
+msgctxt "@item cmake"
+msgid "Properties"
+msgstr "Airíonna"
+
+#. +> trunk6 stable6
+#: cmakecommandscontents.cpp:33
+#, fuzzy, kde-format
+#| msgid "Policies"
+msgctxt "@item cmake"
+msgid "Policies"
+msgstr "Polasaithe"
+
+#. +> trunk6 stable6
+#: cmakecommandscontents.cpp:102
+#, kde-format
+msgid "<p>For better CMake documentation rendering, install rst2html.</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakedocumentation.cpp:46 cmakemanager.cpp:76
+#, kde-format
+msgid "Unable to find a CMake executable. Is one installed on the system?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakedocumentation.cpp:81
+#, kde-format
+msgid ""
+"<br />"
+"<em>Cache Value:</em> %1\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakedocumentation.cpp:84
+#, kde-format
+msgid ""
+"<br />"
+"<em>Cache Documentation:</em> %1\n"
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakefileapiimportjob.cpp:41
+#, kde-format
+msgctxt "error message"
+msgid "invalid CMake file API project data"
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakehelpdocumentation.cpp:21
+#, kde-format
+msgid "CMake Content Page"
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakemanager.cpp:665
+#, kde-format
+msgid ""
+"Configured project '%1' with outdated CMake data. As a result, KDevelop's code understanding may be wrong.\n"
+"\n"
+"To fix this issue, please right-click the project item in the projects tool view and click 'Reload'."
+msgstr ""
+
+#. +> trunk6 stable6
+#: cmakemanager.cpp:676
+#, kde-format
+msgid ""
+"Failed to configure project '%1' (error message: %2). As a result, KDevelop's code understanding will likely be broken.\n"
+"\n"
+"To fix this issue, please ensure that the project's CMakeLists.txt files are correct, and KDevelop is configured to use the correct CMake version and settings. Then right-click the project item in the projects tool view and click 'Reload'."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: settings/cmakebuildsettings.ui:74
+#, fuzzy, kde-format
+#| msgid "Cache Values"
+msgctxt "@title:group"
+msgid "Cache Values"
+msgstr "Luachanna Taisce"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk6 stable6
+#: settings/cmakebuildsettings.ui:89
+#, fuzzy, kde-format
+#| msgid "Comment:"
+msgctxt "@label"
+msgid "Comment:"
+msgstr "Nóta:"
+
+#. i18n: ectx: property (text), widget (QPushButton, showAdvanced)
+#. +> trunk6 stable6
+#: settings/cmakebuildsettings.ui:106
+#, fuzzy, kde-format
+#| msgid "Show Advanced"
+msgctxt "@action:button"
+msgid "Show Advanced"
+msgstr "Taispeáin Casta"
+
+#. i18n: ectx: property (title), widget (QGroupBox, advancedBox)
+#. +> trunk6 stable6
+#: settings/cmakebuildsettings.ui:125
+#, fuzzy, kde-format
+#| msgid "Advanced"
+msgctxt "@title:group"
+msgid "Advanced"
+msgstr "Casta"
+
+#. i18n: ectx: property (text), widget (QLabel, installationPrefixLabel)
+#. +> trunk6 stable6
+#: settings/cmakebuildsettings.ui:134
+#, fuzzy, kde-format
+#| msgid "&Installation Prefix:"
+msgctxt "@label:chooser"
+msgid "Installation prefix:"
+msgstr "Réimír &Shuiteála:"
+
+#. i18n: ectx: property (text), widget (QLabel, buildTypeLabel)
+#. +> trunk6 stable6
+#: settings/cmakebuildsettings.ui:144
+#, fuzzy, kde-format
+#| msgid "Build &type:"
+msgctxt "@label:listbox"
+msgid "Build type:"
+msgstr "Cineál &tógála:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: settings/cmakebuildsettings.ui:198
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Configure environment:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KDevelop::EnvironmentSelectionWidget, environment)
+#. +> trunk6 stable6
+#: settings/cmakebuildsettings.ui:213
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select an environment to be used"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, showInternal)
+#. +> trunk6 stable6
+#: settings/cmakebuildsettings.ui:225
+#, fuzzy, kde-format
+#| msgid "Show Advanced Values"
+msgctxt "@option:check"
+msgid "Show advanced values"
+msgstr "Taispeáin Ardluachanna"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: settings/cmakebuildsettings.ui:235
+#, kde-format
+msgctxt "@label:chooser"
+msgid "CMake executable:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: settings/cmakecachemodel.cpp:36
+#, fuzzy, kde-format
+#| msgid "Name"
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: settings/cmakecachemodel.cpp:37
+#, fuzzy, kde-format
+#| msgid "Type"
+msgctxt "@title:column"
+msgid "Type"
+msgstr "Cineál"
+
+#. +> trunk6 stable6
+#: settings/cmakecachemodel.cpp:38
+#, fuzzy, kde-format
+#| msgid "Value"
+msgctxt "@title:column"
+msgid "Value"
+msgstr "Luach"
+
+#. +> trunk6 stable6
+#: settings/cmakecachemodel.cpp:39
+#, fuzzy, kde-format
+#| msgid "Comment"
+msgctxt "@title:column"
+msgid "Comment"
+msgstr "Nóta"
+
+#. +> trunk6 stable6
+#: settings/cmakecachemodel.cpp:40
+#, fuzzy, kde-format
+#| msgid "Advanced"
+msgctxt "@title:column"
+msgid "Advanced"
+msgstr "Casta"
+
+#. +> trunk6 stable6
+#: settings/cmakecachemodel.cpp:41
+#, kde-format
+msgctxt "@title:column"
+msgid "Strings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: settings/cmakepreferences.cpp:343
+#, kde-format
+msgid ""
+"The %1 directory is about to be removed in KDevelop's list.\n"
+"Do you want KDevelop to delete it in the file system as well?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: settings/cmakepreferences.cpp:347
+#, kde-format
+msgctxt "@action:button"
+msgid "Do Not Delete"
+msgstr ""
+
+#. +> trunk6 stable6
+#: settings/cmakepreferences.cpp:352
+#, fuzzy, kde-format
+#| msgid "Could not remove: %1.\n"
+msgid "Could not remove: %1"
+msgstr "Níorbh fhéidir é a bhaint: %1.\n"
+
+#. +> trunk6 stable6
+#: settings/cmakepreferences.cpp:398
+#, kde-format
+msgctxt "@title:tab"
+msgid "CMake"
+msgstr ""
+
+#. +> trunk6 stable6
+#: settings/cmakepreferences.cpp:403
+#, kde-format
+msgctxt "@title:tab"
+msgid "Configure CMake Settings"
+msgstr ""
+
+#. +> trunk6 stable6
+#: testing/ctestfindjob.cpp:23
+#, kde-format
+msgid "Parse test suite %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: testing/ctestrunjob.cpp:77
+#, kde-format
+msgid "CTest"
+msgstr "CTest"
+
+#. +> trunk6 stable6
+#: testing/ctestrunjob.cpp:127
+#, kde-format
+msgctxt "running test %1, %2 test case"
+msgid "CTest %1: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: testing/ctestrunjob.cpp:129
+#, kde-format
+msgctxt "running test %1, %2 number of test cases"
+msgid "CTest %2 (%1)"
+msgid_plural "CTest %2 (%1)"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""

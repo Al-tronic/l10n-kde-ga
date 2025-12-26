@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the kpeople package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kpeople\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-26 15:54+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6
+#: backends/vcard/kpeoplevcard.cpp:69
+#, kde-format
+msgctxt "given-name family-name"
+msgid "%1 %2"
+msgstr ""
+
+#. +> trunk6
+#: match.cpp:46
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr ""
+
+#. +> trunk6
+#: match.cpp:49
+#, kde-format
+msgctxt "@title:column"
+msgid "E-mail"
+msgstr ""
+
+#. +> trunk6
+#: widgets/emaildetailswidget.cpp:35
+#, kde-format
+msgctxt "E-mail field label"
+msgid "E-mail"
+msgstr ""
+
+#. +> trunk6
+#: widgets/mergedelegate.cpp:86
+#, kde-format
+msgctxt "reasons join"
+msgid ", "
+msgstr ""
+
+#. +> trunk6
+#: widgets/mergedelegate.cpp:86
+#, kde-format
+msgctxt "name: merge reasons"
+msgid "%1: %2"
+msgstr ""
+
+#. +> trunk6
+#: widgets/mergedialog.cpp:52
+#, kde-format
+msgid "Duplicates Manager"
+msgstr ""
+
+#. +> trunk6
+#: widgets/mergedialog.cpp:63
+#, kde-format
+msgid "Select contacts to be merged"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, avatarPixmapLabel)
+#. +> trunk6
+#: widgets/person-details-presentation.ui:43
+#, kde-format
+msgid "Avatar"
+msgstr ""

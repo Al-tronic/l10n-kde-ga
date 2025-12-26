@@ -1,0 +1,5570 @@
+# Irish translation of lokalize
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the lokalize package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: playground-devtools/kaider.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-26 15:55+0000\n"
+"PO-Revision-Date: 2007-08-03 07:58-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#, kde-format
+msgid "default"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/alttransview.cpp:38 src/alttransview.cpp:41
+#, kde-format
+msgctxt "@title:window"
+msgid "Alternate Translations"
+msgstr "Aistriúcháin Mhalartacha"
+
+#. +> trunk6 stable6
+#: src/alttransview.cpp:163
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Insert alternate translation # %1"
+msgid "From alternate translations folder"
+msgstr "Ionsáigh aistriúchán malartach # %1"
+
+#. +> trunk6 stable6
+#: src/alttransview.cpp:186
+#, kde-format
+msgctxt "Title for an alternate translation entry context diff."
+msgid "Comparison with previous context:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/alttransview.cpp:201
+#, kde-format
+msgctxt "Title for alternate translation source diff."
+msgid "Comparison with previous source:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/alttransview.cpp:259
+#, kde-format
+msgid ""
+"There is useful data available in Alternate Translations view.\n"
+"\n"
+"For Gettext PO files it displays difference between current source text and the source text corresponding to the fuzzy translation found by msgmerge when updating PO based on POT template.\n"
+"\n"
+"Do you want to show the view with the data?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/alttransview.cpp:264
+#, fuzzy, kde-format
+#| msgid "Alternative Translations"
+msgctxt "@title"
+msgid "Alternative Translations Available"
+msgstr "Aistriúcháin Mhalartacha"
+
+#. +> trunk6 stable6
+#: src/alttransview.cpp:265
+#, kde-format
+msgctxt "@action"
+msgid "Show Data View"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/alttransview.cpp:284
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Origin: %1"
+msgstr "Buntéacs: %1"
+
+#. +> trunk6 stable6
+#: src/alttransview.cpp:291
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Sometimes, if source text is changed, its translation becomes deprecated and is either marked as needing review (i.e., loses approval status), or (only in case of XLIFF file) moved to the alternate translations section accompanying the unit. This toolview also shows the difference between current source string and the previous source string, so that you can easily see which changes should be applied to existing translation to make it reflect current source. Double-clicking any word in this toolview inserts it into translation. Drop translation file onto this toolview to use it as a source for additional alternate translations."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/alttransview.cpp:323
+#, kde-format
+msgctxt "@item Undo action"
+msgid "Use alternate translation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/binunitsview.cpp:109
+#, kde-format
+msgid "no"
+msgstr "níl"
+
+#. +> trunk6 stable6
+#: src/binunitsview.cpp:109
+#, kde-format
+msgid "yes"
+msgstr "tá"
+
+#. +> trunk6 stable6
+#: src/binunitsview.cpp:129
+#, kde-format
+msgctxt "@title:column"
+msgid "Source"
+msgstr "Foinse"
+
+#. +> trunk6 stable6
+#: src/binunitsview.cpp:131
+#, kde-format
+msgctxt "@title:column"
+msgid "Target"
+msgstr "Sprioc"
+
+#. +> trunk6 stable6
+#: src/binunitsview.cpp:133
+#, kde-format
+msgctxt "@title:column"
+msgid "Approved"
+msgstr "Ceadaithe"
+
+#. +> trunk6 stable6
+#: src/binunitsview.cpp:140
+#, kde-format
+msgctxt "@title toolview name"
+msgid "Binary Units"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/binunitsview.cpp:178
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Set the file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/binunitsview.cpp:179
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Use source file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:40
+#, kde-format
+msgid "All supported files (*.po *.pot *.xlf *.xliff *.ts)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:41
+#, kde-format
+msgid "Gettext (*.po *.pot)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:43
+#, kde-format
+msgid "All supported files (*.po *.xlf *.xliff *.ts)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:44
+#, kde-format
+msgid "Gettext (*.po)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:46
+#, kde-format
+msgid "XLIFF (*.xlf *.xliff)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:47
+#, kde-format
+msgid "Linguist (*.ts)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:56
+#, kde-format
+msgid "New"
+msgstr "Nua"
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:57
+#, kde-format
+msgid "Needs translation"
+msgstr "Aistriúchán de dhíth"
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:58
+#, kde-format
+msgid "Needs full localization"
+msgstr "Logánú iomlán de dhíth"
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:59
+#, kde-format
+msgid "Needs adaptation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:60
+#, kde-format
+msgid "Translated"
+msgstr "Aistrithe"
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:61
+#, kde-format
+msgid "Needs translation review"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:62
+#, kde-format
+msgid "Needs full localization review"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:63
+#, kde-format
+msgid "Needs adaptation review"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:64
+#, kde-format
+msgid "Final"
+msgstr "Deireanach"
+
+#. +> trunk6 stable6
+#: src/catalog/catalog.cpp:65
+#, kde-format
+msgid "Signed-off"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:56
+#, kde-format
+msgctxt "XLIFF inline tag name"
+msgid "Start of paired tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:57
+#, kde-format
+msgctxt "XLIFF inline tag name"
+msgid "End of paired tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:58
+#, kde-format
+msgctxt "XLIFF inline tag name"
+msgid "Stand-alone tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:59
+#, kde-format
+msgctxt "XLIFF inline tag name"
+msgid "Isolated tag"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:61
+#, kde-format
+msgctxt "XLIFF inline tag name"
+msgid "Marker"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:62
+#, kde-format
+msgctxt "XLIFF inline tag name"
+msgid "Generic group placeholder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:63
+#, kde-format
+msgctxt "XLIFF inline tag name"
+msgid "Sub-flow"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:65
+#, kde-format
+msgctxt "XLIFF inline tag name"
+msgid "Generic placeholder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:66
+#, kde-format
+msgctxt "XLIFF inline tag name"
+msgid "Start of paired placeholder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:67
+#, kde-format
+msgctxt "XLIFF inline tag name"
+msgid "End of paired placeholder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:111
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "abbreviation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:112
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "abbreviated form: a term resulting from the omission of any part of the full term while designating the same concept"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:114
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "abbreviation: an abbreviated form of a simple term resulting from the omission of some of its letters (e.g. 'adj.' for 'adjective')"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:116
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "acronym: an abbreviated form of a term made up of letters from the full form of a multiword term strung together into a sequence pronounced only syllabically (e.g. 'radar' for 'radio detecting and ranging')"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:118
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "appellation: a proper-name term, such as the name of an agency or other proper entity"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:120
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "collocation: a recurrent word combination characterized by cohesion in that the components of the collocation must co-occur within an utterance or series of utterances, even though they do not necessarily have to maintain immediate proximity to one another"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:122
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "common name: a synonym for an international scientific term that is used in general discourse in a given language"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:123
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "date and/or time"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:125
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "equation: an expression used to represent a concept based on a statement that two mathematical expressions are, for instance, equal as identified by the equal sign (=), or assigned to one another by a similar sign"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:127
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "expanded form: The complete representation of a term for which there is an abbreviated form"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:128
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "formula: figures, symbols or the like used to express a concept briefly, such as a mathematical or chemical formula"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:129
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "head term: the concept designation that has been chosen to head a terminological record"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:131
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "initialism: an abbreviated form of a term consisting of some of the initial letters of the words making up a multiword term or the term elements making up a compound term when these letters are pronounced individually (e.g. 'BSE' for 'bovine spongiform encephalopathy')"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:135
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "international scientific term: a term that is part of an international scientific nomenclature as adopted by an appropriate scientific body"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:136
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "internationalism: a term that has the same or nearly identical orthographic or phonemic form in many languages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:138
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "logical expression: an expression used to represent a concept based on mathematical or logical relations, such as statements of inequality, set relationships, Boolean operations, and the like"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:140
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "materials management unit: a unit to track object"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:141
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "name"
+msgstr "ainm"
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:143
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "near synonym: a term that represents the same or a very similar concept as another term in the same language, but for which interchangeability is limited to some contexts and inapplicable in others"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:145
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "part number: a unique alphanumeric designation assigned to an object in a manufacturing system"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:146
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "phrase"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:148
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "phraseological: a group of two or more words that form a unit, the meaning of which frequently cannot be deduced based on the combined sense of the words making up the phrase"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:150
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "protected: the marked text should not be translated"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:152
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "romanized form: a form of a term resulting from an operation whereby non-Latin writing systems are converted to the Latin alphabet"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:153
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "segment: the marked text represents a segment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:154
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "set phrase: a fixed, lexicalized phrase"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:156
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "short form: a variant of a multiword term that includes fewer words than the full form of the term (e.g. 'Group of Twenty-four' for 'Intergovernmental Group of Twenty-four on International Monetary Affairs')"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:159
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "stock keeping unit: an inventory item identified by a unique alphanumeric designation assigned to an object in an inventory control system"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:160
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "standard text: a fixed chunk of recurring text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:161
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "symbol: a designation of a concept by letters, numerals, pictograms or any combination thereof"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:162
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "synonym: a term that represents the same or a very similar concept as the main entry term in a term entry"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:164
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "synonymous phrase: phraseological unit in a language that expresses the same semantic content as another phrase in that same language"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:165
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "term"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:167
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "transcribed form: a form of a term resulting from an operation whereby the characters of one writing system are represented by characters from another writing system, taking into account the pronunciation of the characters converted"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:170
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "transliterated form: a form of a term resulting from an operation whereby the characters of an alphabetic writing system are represented by characters from another alphabetic writing system"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:173
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "truncated term: an abbreviated form of a term resulting from the omission of one or more term elements or syllables (e.g. 'flu' for 'influenza')"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/catalogstring.cpp:175
+#, kde-format
+msgctxt "XLIFF mark type"
+msgid "variant: one of the alternate forms of a term"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/cmd.cpp:75
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Insertion"
+msgstr "Ionsá"
+
+#. +> trunk6 stable6
+#: src/catalog/cmd.cpp:115
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Deletion"
+msgstr "Scriosadh"
+
+#. +> trunk6 stable6
+#: src/catalog/cmd.cpp:162
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Approvement toggling"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/cmd.cpp:180
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Markup Insertion"
+msgstr "Ionsá Marcála"
+
+#. +> trunk6 stable6
+#: src/catalog/cmd.cpp:203
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Markup Deletion"
+msgstr "Scriosadh Marcála"
+
+#. +> trunk6 stable6
+#: src/catalog/cmd.cpp:225
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Note setting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/cmd.cpp:260
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Update/add workflow phase"
+msgstr "Nuashonraigh/cruthaigh céim i sreabhadh na hoibre"
+
+#. +> trunk6 stable6
+#: src/catalog/cmd.cpp:279
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Translation Equivalence Setting"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/cmd.cpp:336
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Remove text with markup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/cmd.cpp:384 src/xlifftextedit.cpp:574
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Insert text with markup"
+msgstr "Ionsáigh téacs le marcáil"
+
+#. +> trunk6 stable6
+#: src/catalog/gettext/gettextstorage.cpp:98
+#, kde-format
+msgid "separator for different-length string alternatives"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/gettext/gettextstorage.cpp:284
+#, kde-format
+msgid "Previous source value, saved by Gettext during transition to a newer POT template"
+msgstr ""
+
+#. +> trunk6
+#: src/catalog/gettextheader.cpp:457
+#, kde-format
+msgctxt "@window:title"
+msgid "Author Name Missing"
+msgstr ""
+
+#. +> stable6
+#: src/catalog/gettextheader.cpp:457
+#, kde-format
+msgctxt "@window:title"
+msgid "Author name missing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/gettextheader.cpp:458
+#, fuzzy, kde-format
+#| msgctxt "NAME OF TRANSLATORS"
+#| msgid "Your names"
+msgid "Your name:"
+msgstr "Kevin Scannell"
+
+#. +> trunk6
+#: src/catalog/gettextheader.cpp:469
+#, kde-format
+msgctxt "@window:title"
+msgid "Author Email Missing"
+msgstr ""
+
+#. +> stable6
+#: src/catalog/gettextheader.cpp:469
+#, kde-format
+msgctxt "@window:title"
+msgid "Author email missing"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/catalog/gettextheader.cpp:470
+#, fuzzy, kde-format
+#| msgctxt "EMAIL OF TRANSLATORS"
+#| msgid "Your emails"
+msgid "Your email:"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: src/catalog/ts/tsstorage.cpp:437
+#, kde-format
+msgid "Previous source value, saved by lupdate tool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:55
+#, kde-format
+msgctxt "@title:window aka Message Tree"
+msgid "Translation Units"
+msgstr "Aonaid Aistriúcháin"
+
+#. +> trunk6
+#: src/cataloglistview/cataloglistview.cpp:80
+#: src/glossary/glossarywindow.cpp:99 src/project/projecttab.cpp:59
+#, fuzzy, kde-format
+#| msgid "&Search"
+msgid "Search"
+msgstr "&Cuardach"
+
+#. +> stable6
+#: src/cataloglistview/cataloglistview.cpp:80
+#: src/glossary/glossarywindow.cpp:99 src/project/projecttab.cpp:59
+#, kde-format
+msgid "Quick search..."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:81
+#: src/glossary/glossarywindow.cpp:101 src/project/projecttab.cpp:60
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Activated by Ctrl+L. Accepts regular expressions"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:88
+#, fuzzy, kde-format
+#| msgid "options"
+msgid "Options"
+msgstr "roghanna"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:198
+#, kde-format
+msgid "Reset individual filter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:203 src/tm/tmtab.cpp:362
+#, kde-format
+msgid "Case insensitive"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_ignoreAccelMarks)
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:204 src/kaider_findextension.ui:40
+#, kde-format
+msgid "Ignore accelerator marks"
+msgstr "Ná bac le carachtair aicearra"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:205
+#, kde-format
+msgid "Ready"
+msgstr "Réidh"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:206
+#, kde-format
+msgid "Non-ready"
+msgstr "Gan cheadú"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:207
+#, kde-format
+msgid "Non-empty"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:208
+#, kde-format
+msgid "Empty"
+msgstr "Folamh"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:209
+#, kde-format
+msgid "Changed since file open"
+msgstr "Athraíodh an comhad ó osclaíodh é"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:210
+#, kde-format
+msgid "Unchanged since file open"
+msgstr "Comhad gan athrú ó osclaíodh é"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:211
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Search in files"
+msgid "Same in sync file"
+msgstr "Cuardaigh i gcomhaid"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:212
+#, kde-format
+msgid "Different in sync file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:213
+#, kde-format
+msgid "Not in sync file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:214
+#, kde-format
+msgid "Plural"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:215
+#, fuzzy, kde-format
+#| msgid "Non-ready"
+msgid "Non-plural"
+msgstr "Gan cheadú"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:220
+#, kde-format
+msgctxt "@title:inmenu"
+msgid "Basic"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:221
+#, kde-format
+msgctxt "@title:inmenu"
+msgid "States"
+msgstr ""
+
+#. +> trunk6
+#: src/cataloglistview/cataloglistview.cpp:223
+#, fuzzy, kde-format
+#| msgid "Local"
+msgctxt "@title:inmenu user selects a column to search within from a menu"
+msgid "Search Column"
+msgstr "Logánta"
+
+#. +> trunk6
+#: src/cataloglistview/cataloglistview.cpp:227
+#, kde-format
+msgctxt "@title:inmenu"
+msgid "Re-sort and refilter on content change"
+msgstr ""
+
+#. +> stable6
+#: src/cataloglistview/cataloglistview.cpp:223
+#, kde-format
+msgctxt "@title:inmenu"
+msgid "Searchable column"
+msgstr ""
+
+#. +> stable6
+#: src/cataloglistview/cataloglistview.cpp:227
+#, kde-format
+msgctxt "@title:inmenu"
+msgid "Resort and refilter on content change"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/cataloglistview/cataloglistview.cpp:247
+#, kde-format
+msgctxt "@item:inmenu all columns"
+msgid "All"
+msgstr "Uile"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:90
+#, kde-format
+msgctxt "@title:column"
+msgid "Entry"
+msgstr "Iontráil"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:92
+#: src/filesearch/filesearchtab.cpp:351 src/glossary/glossary.cpp:189
+#: src/tm/qamodel.cpp:94 src/tm/tmtab.cpp:66
+#, kde-format
+msgctxt "@title:column Original text"
+msgid "Source"
+msgstr "Foinse"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:94
+#: src/filesearch/filesearchtab.cpp:353 src/glossary/glossary.cpp:192
+#: src/tm/tmtab.cpp:67
+#, kde-format
+msgctxt "@title:column Text in target language"
+msgid "Target"
+msgstr "Sprioctheanga"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:96
+#, kde-format
+msgctxt "@title:column"
+msgid "Notes"
+msgstr "Nótaí"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:98 src/tm/tmtab.cpp:68
+#, kde-format
+msgctxt "@title:column"
+msgid "Context"
+msgstr "Comhthéacs"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:100
+#, fuzzy, kde-format
+#| msgid "File"
+msgctxt "@title:column"
+msgid "Files"
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:102
+#: src/filesearch/filesearchtab.cpp:357 src/tm/tmtab.cpp:70
+#, kde-format
+msgctxt "@title:column"
+msgid "Translation Status"
+msgstr "Stádas an Aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:104
+#, kde-format
+msgctxt "@title:column"
+msgid "Modified"
+msgstr ""
+
+#. +> trunk6
+#: src/cataloglistview/catalogmodel.cpp:106
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Source language"
+msgctxt "@title:column Length of the original text"
+msgid "Source Length"
+msgstr "Bunteanga"
+
+#. +> stable6
+#: src/cataloglistview/catalogmodel.cpp:106
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Source language"
+msgctxt "@title:column Length of the original text"
+msgid "Source length"
+msgstr "Bunteanga"
+
+#. +> trunk6
+#: src/cataloglistview/catalogmodel.cpp:108
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Target language"
+msgctxt "@title:column Length of the text in target language"
+msgid "Target Length"
+msgstr "Sprioctheanga"
+
+#. +> stable6
+#: src/cataloglistview/catalogmodel.cpp:108
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Target language"
+msgctxt "@title:column Length of the text in target language"
+msgid "Target length"
+msgstr "Sprioctheanga"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:144 src/editortab.cpp:1009
+#: src/editortab.cpp:1203 src/tm/tmtab.cpp:233
+#, kde-format
+msgctxt "@info:status 'non-fuzzy' in gettext terminology"
+msgid "Ready"
+msgstr "Réidh"
+
+#. +> trunk6
+#: src/cataloglistview/catalogmodel.cpp:146
+#, fuzzy, kde-format
+#| msgid "Review"
+msgctxt "@info:status 'fuzzy' in gettext terminology"
+msgid "Needs Review"
+msgstr "Athbhreithnigh"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:148 src/editortab.cpp:1007
+#: src/tm/tmtab.cpp:235
+#, kde-format
+msgctxt "@info:status"
+msgid "Untranslated"
+msgstr "Gan aistriúchán"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:207
+#, fuzzy, kde-format
+#| msgid "yes"
+msgctxt "@info:status"
+msgid "Yes"
+msgstr "tá"
+
+#. +> trunk6 stable6
+#: src/cataloglistview/catalogmodel.cpp:208
+#, fuzzy, kde-format
+#| msgid "None"
+msgctxt "@info:status"
+msgid "No"
+msgstr "Neamhní"
+
+#. +> trunk6 stable6
+#: src/common/languagelistmodel.cpp:74
+#, fuzzy, kde-format
+#| msgctxt "@info:status message entries"
+#| msgid "Total: %1 (%2)"
+msgctxt "%1 is a language name, e.g. Irish, %2 is language code, e.g. ga"
+msgid "%1 (%2)"
+msgstr "Iomlán: %1 (%2)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: src/common/languagelistmodel.cpp:114 src/tm/dbparams.ui:146
+#, kde-format
+msgid "Target language:"
+msgstr "Sprioctheanga:"
+
+#. +> trunk6 stable6
+#: src/common/termlabel.cpp:57
+#, kde-format
+msgctxt "@action:inmenu Edit term"
+msgid "Edit"
+msgstr "Eagar"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:150 src/lokalizemainwindow.cpp:568
+#, kde-format
+msgctxt "@title actions category"
+msgid "File"
+msgstr "Comhad"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:151 src/project/projecttab.cpp:85
+#, kde-format
+msgctxt "@title actions category"
+msgid "Navigation"
+msgstr "Nascleanúint"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:152
+#, kde-format
+msgctxt "@title actions category"
+msgid "Editing"
+msgstr "Eagarthóireacht"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:153
+#, kde-format
+msgid "Synchronization 1"
+msgstr "Sioncrónú 1"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:154
+#, kde-format
+msgid "Synchronization 2"
+msgstr "Sioncrónú 2"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:155
+#, kde-format
+msgid "Translation Memory"
+msgstr "Cuimhne Aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:156 src/lokalizemainwindow.cpp:569
+#, kde-format
+msgctxt "@title actions category"
+msgid "Glossary"
+msgstr "Gluais"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:169
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Insert alternate translation # %1"
+msgctxt "@action:inmenu"
+msgid "Insert alternate translation #%1"
+msgstr "Ionsáigh aistriúchán malartach # %1"
+
+#. +> trunk6
+#: src/editortab.cpp:237
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Add a note"
+msgctxt "@action:inmenu"
+msgid "Add Note"
+msgstr "Cuir nóta leis"
+
+#. +> stable6
+#: src/editortab.cpp:237
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add a note"
+msgstr "Cuir nóta leis"
+
+#. +> trunk6
+#: src/editortab.cpp:246
+#, fuzzy, kde-format
+#| msgid "If checked, get translation memory suggestions "
+msgctxt "@action:inmenu"
+msgid "Insert translation memory suggestion #%1"
+msgstr "Más ticeáilte é seo, faigh moltaí ón chuimhne aistriúchán "
+
+#. +> stable6
+#: src/editortab.cpp:246
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Insert TM suggestion # %1"
+msgctxt "@action:inmenu"
+msgid "Insert TM suggestion #%1"
+msgstr "Ionsáigh moladh # %1 ón chuimhne aistriúcháin"
+
+#. +> trunk6
+#: src/editortab.cpp:251
+#, fuzzy, kde-format
+#| msgid "If checked, get translation memory suggestions "
+msgctxt "@action:inmenu"
+msgid "Remove translation memory suggestion #%1"
+msgstr "Más ticeáilte é seo, faigh moltaí ón chuimhne aistriúchán "
+
+#. +> stable6
+#: src/editortab.cpp:251
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Insert TM suggestion # %1"
+msgctxt "@action:inmenu"
+msgid "Remove TM suggestion #%1"
+msgstr "Ionsáigh moladh # %1 ón chuimhne aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:304
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Insert alternate translation # %1"
+msgctxt "@action:inmenu"
+msgid "Insert term translation #%1"
+msgstr "Ionsáigh aistriúchán malartach # %1"
+
+#. +> trunk6
+#: src/editortab.cpp:316
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Define new term"
+msgctxt "@action:inmenu"
+msgid "Define New Term"
+msgstr "Sainmhínigh téarma nua"
+
+#. +> stable6
+#: src/editortab.cpp:316
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Define new term"
+msgstr "Sainmhínigh téarma nua"
+
+#. +> trunk6
+#: src/editortab.cpp:350
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Phases..."
+msgctxt "@action:inmenu"
+msgid "Phases…"
+msgstr "Ceimeanna..."
+
+#. +> stable6
+#: src/editortab.cpp:350
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Phases..."
+msgstr "Ceimeanna..."
+
+#. +> trunk6
+#: src/editortab.cpp:353
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Word Count"
+msgctxt "@action:inmenu"
+msgid "Word Count"
+msgstr "Líon na bhFocal"
+
+#. +> stable6
+#: src/editortab.cpp:353
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Word count"
+msgstr "Líon focal"
+
+#. +> trunk6
+#: src/editortab.cpp:356
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Manage translation memories"
+msgctxt "@action:inmenu"
+msgid "Clear Translated Entries"
+msgstr "Bainistigh cuimhne aistriúcháin"
+
+#. +> stable6
+#: src/editortab.cpp:356
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Manage translation memories"
+msgctxt "@action:inmenu"
+msgid "Clear all translated entries"
+msgstr "Bainistigh cuimhne aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:359
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Launch the Pology command on this file"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:363
+#, fuzzy, kde-format
+#| msgid "Translate a document"
+msgctxt "@action:inmenu"
+msgid "Merge translation into OpenDocument"
+msgstr "Aistrigh cáipéis"
+
+#. +> trunk6
+#: src/editortab.cpp:383
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Change searching direction"
+msgctxt "@action:inmenu"
+msgid "Change Searching Direction"
+msgstr "Athraigh treo cuardaigh"
+
+#. +> stable6
+#: src/editortab.cpp:383
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Change searching direction"
+msgstr "Athraigh treo cuardaigh"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:392
+#, kde-format
+msgctxt "@option:check whether message is marked as translated/reviewed/approved (depending on your role)"
+msgid "Approved"
+msgstr "Ceadaithe"
+
+#. +> trunk6
+#: src/editortab.cpp:411
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Approve and Go Next"
+msgstr ""
+
+#. +> stable6
+#: src/editortab.cpp:411
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Approve and go to next"
+msgstr ""
+
+#. +> trunk6
+#: src/editortab.cpp:418
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Equivalent translation"
+msgctxt "@action:inmenu"
+msgid "Equivalent Translation"
+msgstr "Aistriúchán ar comhbhrí"
+
+#. +> stable6
+#: src/editortab.cpp:418
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Equivalent translation"
+msgstr "Aistriúchán ar comhbhrí"
+
+#. +> trunk6
+#: src/editortab.cpp:429
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Copy source to target"
+msgctxt "@action:inmenu"
+msgid "Copy Source to Target"
+msgstr "Cóipeáil foinse go sprioc"
+
+#. +> stable6
+#: src/editortab.cpp:429
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy source to target"
+msgstr "Cóipeáil foinse go sprioc"
+
+#. +> trunk6
+#: src/editortab.cpp:432
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Unwrap target"
+msgctxt "@action:inmenu"
+msgid "Unwrap Target"
+msgstr "Dífhill an sprioc"
+
+#. +> stable6
+#: src/editortab.cpp:432
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Unwrap target"
+msgstr "Dífhill an sprioc"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:439 src/filesearch/filesearchtab.cpp:137
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Clear"
+msgstr "Glan"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:443
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Insert Tag"
+msgstr "Ionsáigh Clib"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:447
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Check this unit using LanguageTool"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:451
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Insert Next Tag"
+msgstr "Ionsáigh An Chéad Chlib Eile"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:455
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Skip to next non-tag text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:459
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Completion"
+msgstr "Comhlánú"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:463
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Replace with best spellcheck suggestion"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:468
+#, kde-format
+msgctxt "@action:inmenu entry"
+msgid "&Next"
+msgstr "&Ar Aghaidh"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:473
+#, kde-format
+msgctxt "@action:inmenu entry"
+msgid "&Previous"
+msgstr "&Siar"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:479
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&First Entry"
+msgstr "An &Chéad Iontráil"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:485
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Last Entry"
+msgstr "An Iontráil &Deiridh"
+
+#. +> trunk6
+#: src/editortab.cpp:491
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Entry by number"
+msgctxt "@action:inmenu"
+msgid "Entry by Number"
+msgstr "Iontráil de réir uimhreach"
+
+#. +> stable6
+#: src/editortab.cpp:491
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Entry by number"
+msgstr "Iontráil de réir uimhreach"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:494 src/project/projecttab.cpp:100
+#, kde-format
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Previous non-empty but not ready"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:502 src/project/projecttab.cpp:106
+#, kde-format
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Next non-empty but not ready"
+msgstr ""
+
+#. +> trunk6
+#: src/editortab.cpp:509 src/project/projecttab.cpp:112
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Previous untranslated"
+msgctxt "@action:inmenu"
+msgid "Previous Untranslated"
+msgstr "Tcht gan aistriúchán roimhe seo"
+
+#. +> stable6
+#: src/editortab.cpp:509 src/project/projecttab.cpp:112
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Previous untranslated"
+msgstr "Tcht gan aistriúchán roimhe seo"
+
+#. +> trunk6
+#: src/editortab.cpp:514 src/project/projecttab.cpp:118
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next untranslated"
+msgctxt "@action:inmenu"
+msgid "Next Untranslated"
+msgstr "An chéad tcht eile gan aistriúchán"
+
+#. +> stable6
+#: src/editortab.cpp:514 src/project/projecttab.cpp:118
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Next untranslated"
+msgstr "An chéad tcht eile gan aistriúchán"
+
+#. +> trunk6
+#: src/editortab.cpp:520 src/project/projecttab.cpp:88
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@action:inmenu\n"
+#| "'not ready' means 'fuzzy' in gettext terminology"
+#| msgid "Previous not ready"
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Previous Not Ready"
+msgstr "Tcht roimhe seo gan cheadú"
+
+#. +> stable6
+#: src/editortab.cpp:520 src/project/projecttab.cpp:88
+#, kde-format
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Previous not ready"
+msgstr "Tcht roimhe seo gan cheadú"
+
+#. +> trunk6
+#: src/editortab.cpp:528 src/project/projecttab.cpp:94
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@action:inmenu\n"
+#| "'not ready' means 'fuzzy' in gettext terminology"
+#| msgid "Next not ready"
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Next Not Ready"
+msgstr "An chéad tcht eile gan cheadú"
+
+#. +> stable6
+#: src/editortab.cpp:528 src/project/projecttab.cpp:94
+#, kde-format
+msgctxt ""
+"@action:inmenu\n"
+"'not ready' means 'fuzzy' in gettext terminology"
+msgid "Next not ready"
+msgstr "An chéad tcht eile gan cheadú"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:537
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Focus the search line of Translation Units view"
+msgstr ""
+
+#. +> trunk6
+#: src/editortab.cpp:541
+#, fuzzy, kde-format
+#| msgctxt "@option:check"
+#| msgid "Bookmark message"
+msgctxt "@option:check"
+msgid "Bookmark Message"
+msgstr "Leabharmharc don teachtaireacht seo"
+
+#. +> stable6
+#: src/editortab.cpp:541
+#, kde-format
+msgctxt "@option:check"
+msgid "Bookmark message"
+msgstr "Leabharmharc don teachtaireacht seo"
+
+#. +> trunk6
+#: src/editortab.cpp:546
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Previous bookmark"
+msgctxt "@action:inmenu"
+msgid "Previous Bookmark"
+msgstr "An leabharmharc roimhe seo"
+
+#. +> stable6
+#: src/editortab.cpp:546
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Previous bookmark"
+msgstr "An leabharmharc roimhe seo"
+
+#. +> trunk6
+#: src/editortab.cpp:550
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next bookmark"
+msgctxt "@action:inmenu"
+msgid "Next Bookmark"
+msgstr "An chéad leabharmharc eile"
+
+#. +> stable6
+#: src/editortab.cpp:550
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Next bookmark"
+msgstr "An chéad leabharmharc eile"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:558
+#, no-c-format, kde-format
+msgctxt "@action:inmenu"
+msgid "Fill in all exact suggestions"
+msgstr "Líon isteach le moltaí beachta"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:563
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Fill in all exact suggestions and mark as fuzzy"
+msgstr "Líon isteach le moltaí beachta ach marcáil iad doiléir"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:571
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open file for sync/merge"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:572 src/editortab.cpp:631
+#, kde-format
+msgctxt "@info:status"
+msgid "Open catalog to be merged into the current one / replicate base file changes to"
+msgstr ""
+
+#. +> trunk6
+#: src/editortab.cpp:578 src/editortab.cpp:637
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Previous different"
+msgctxt "@action:inmenu"
+msgid "Previous Different"
+msgstr "Difríocht roimhe seo"
+
+#. +> stable6
+#: src/editortab.cpp:578 src/editortab.cpp:637
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Previous different"
+msgstr "Difríocht roimhe seo"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:580 src/editortab.cpp:639
+#, kde-format
+msgctxt "@info:status"
+msgid "Previous entry which is translated differently in the file being merged, including empty translations in merge source"
+msgstr ""
+
+#. +> trunk6
+#: src/editortab.cpp:589 src/editortab.cpp:646
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next different"
+msgctxt "@action:inmenu"
+msgid "Next Different"
+msgstr "An chéad difríocht eile"
+
+#. +> stable6
+#: src/editortab.cpp:589 src/editortab.cpp:646
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Next different"
+msgstr "An chéad difríocht eile"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:591 src/editortab.cpp:648
+#, kde-format
+msgctxt "@info:status"
+msgid "Next entry which is translated differently in the file being merged, including empty translations in merge source"
+msgstr ""
+
+#. +> trunk6
+#: src/editortab.cpp:599
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next different"
+msgctxt "@action:inmenu"
+msgid "Next Different Approved"
+msgstr "An chéad difríocht eile"
+
+#. +> stable6
+#: src/editortab.cpp:599
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Next different approved"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:605 src/editortab.cpp:655
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy from merging source"
+msgstr "Cóipeáil ó fhoinse an chumaisc"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:612 src/editortab.cpp:660
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy all new translations"
+msgstr "Cóipeáil gach aistriúchán nua"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:613
+#, kde-format
+msgctxt "@info:status"
+msgid "This changes only empty and non-ready entries in base file"
+msgstr "Athraíonn sé seo iontrálacha folmha agus gan cheadú amháin sa bhunchomhad"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:621 src/editortab.cpp:667
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Copy to merging source"
+msgstr "Cóipeáil go foinse an chumaisc"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:630
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open file for secondary sync"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:661
+#, kde-format
+msgctxt "@info:status"
+msgid "This changes only empty entries"
+msgstr "Athraíonn sé seo iontrálacha folmha amháin"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:690
+#, fuzzy, kde-format
+#| msgctxt "editor tab name"
+#| msgid "(recovered)"
+msgctxt "editor tab title addition"
+msgid " (recovered)"
+msgstr "(athchóirithe)"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:719 src/lokalizemainwindow.cpp:1015
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The document contains unsaved changes.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"Tá athruithe gan sábháil sa cháipéis.\n"
+"An bhfuil fonn ort do chuid athruithe a shábháil?"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:721 src/editortab.cpp:1308
+#: src/glossary/glossarywindow.cpp:345 src/lokalizemainwindow.cpp:1017
+#, kde-format
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "Rabhadh"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:741 src/mergemode/mergeview.cpp:166
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next translation only"
+msgctxt "@title:window"
+msgid "Select translation file"
+msgstr "An chéad aistriúchán eile amháin"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:826
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "Error opening the file <filename>%1</filename>, line: %2"
+msgctxt "@info"
+msgid "Error opening the file %1, line: %2"
+msgstr "Earráid agus comhad <filename>%1</filename> á oscailt, líne %2"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:828
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Error opening the following files:\n"
+#| "\n"
+msgctxt "@info"
+msgid "Error opening the file %1"
+msgstr ""
+"Earráid agus na comhaid seo a leanas á n-oscailt:\n"
+"\n"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:836
+#, kde-format
+msgctxt "@title:window"
+msgid "Save File As"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:865
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid ""
+#| "Error saving the file <filename>%1</filename>\n"
+#| "Do you want to save to another file or cancel?"
+msgctxt "@info"
+msgid ""
+"Error saving the file %1\n"
+"Do you want to save to another file or cancel?"
+msgstr ""
+"Earráid agus comhad <filename>%1</filename> á shábháil\n"
+"An bhfuil fonn ort sábháil i gcomhad eile, nó cealú?"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:868
+#, kde-format
+msgctxt "@title"
+msgid "Error"
+msgstr "Earráid"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:878
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not perform file autosaving.\n"
+"The target file was %1."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:915
+#, kde-format
+msgctxt "@title"
+msgid "Jump to Entry"
+msgstr "Léim go hIontráil"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:916
+#, kde-format
+msgctxt "@label:spinbox"
+msgid "Enter entry number:"
+msgstr "Iontráil uimhir na hiontrála:"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1011 src/editortab.cpp:1198 src/tm/tmtab.cpp:234
+#, kde-format
+msgctxt "@info:status 'fuzzy' in gettext terminology"
+msgid "Needs review"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1179
+#, kde-format
+msgctxt "@option:check trans-unit state"
+msgid "Translated"
+msgstr "Aistrithe"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1180
+#, kde-format
+msgctxt "@option:check trans-unit state"
+msgid "Signed-off"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1181
+#, kde-format
+msgctxt "@option:check trans-unit state"
+msgid "Approved"
+msgstr "Ceadaithe"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1182
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Translation is done (although still may need a review)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1183
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Translation has received positive review"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1184
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Entry is fully localized (i.e. final)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1284 src/project/projecttab.cpp:297
+#, kde-format
+msgid "A Pology check is already in progress."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1284 src/editortab.cpp:1292 src/editortab.cpp:1296
+#: src/project/projecttab.cpp:297 src/project/projecttab.cpp:305
+#: src/project/projecttab.cpp:309
+#, kde-format
+msgid "Pology error"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1292 src/project/projecttab.cpp:305
+#, kde-format
+msgid ""
+"The Pology check has crashed unexpectedly:\n"
+"%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1294 src/project/projecttab.cpp:307
+#, kde-format
+msgid "Pology success"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1294
+#, kde-format
+msgid "The Pology check has succeeded."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1296 src/project/projecttab.cpp:309
+#, kde-format
+msgid ""
+"The Pology check has returned an error:\n"
+"%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1306
+#, kde-format
+msgctxt "@info"
+msgid ""
+"This will delete all the translations from the file.\n"
+"Do you really want to clear all translated entries?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1344
+#, kde-format
+msgctxt "@info words count"
+msgid ""
+"Source text words: %1<br/>"
+"Target text words: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1345
+#, kde-format
+msgctxt "@title"
+msgid "Word Count"
+msgstr "Líon na bhFocal"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1435
+#, kde-format
+msgctxt "@info"
+msgid "Would you like to search for the source file locally or via lxr.kde.org?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1436
+#, kde-format
+msgctxt "@title"
+msgid "Source file lookup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1437
+#, fuzzy, kde-format
+#| msgid "Local"
+msgctxt "@action"
+msgid "Search Locally"
+msgstr "Logánta"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1438 src/editortab.cpp:1482
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Search in files"
+msgctxt "@action"
+msgid "Search on lxr.kde.org"
+msgstr "Cuardaigh i gcomhaid"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1441 src/editortab.cpp:1486
+#, kde-format
+msgid "Select project's base folder for source file lookup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1478
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Could not find source file in the folder specified.\n"
+"Do you want to change source files folder?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1480
+#, kde-format
+msgctxt "@title:window"
+msgid "Source file lookup"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1481
+#, fuzzy, kde-format
+#| msgid "Select a folder:"
+msgctxt "@action"
+msgid "Select Folder"
+msgstr "Roghnaigh fillteán:"
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1523
+#, kde-format
+msgctxt "@info"
+msgid "Cannot open the target source file: The target source file is not relative to the current translation file, and there are currently no scripts loaded to handle opening source files in custom paths. Refer to the Lokalize handbook for script examples and how to plug them into your project."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1537 src/project/project.cpp:415
+#: src/project/project.cpp:420
+#, kde-format
+msgid "Install translate-toolkit package and retry"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1542
+#, kde-format
+msgid "Install translate-toolkit package and retry."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1550
+#, kde-format
+msgid "Select original OpenDocument on which current XLIFF file is based"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1552 src/project/project.cpp:425
+#, kde-format
+msgid "OpenDocument files (*.odt *.ods)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1596
+#, kde-format
+msgid "Install python-uno package for additional functionality."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab.cpp:1719
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Set unit text"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab_findreplace.cpp:432
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Replace"
+msgstr "Ionadaigh"
+
+#. +> trunk6 stable6
+#: src/editortab_findreplace.cpp:495
+#, kde-format
+msgid "Lokalize has reached end of document. Do you want to continue from start?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editortab_findreplace.cpp:496 src/editortab_findreplace.cpp:504
+#, kde-format
+msgctxt "@title"
+msgid "Spellcheck"
+msgstr "Seiceáil Litrithe"
+
+#. +> trunk6 stable6
+#: src/editortab_findreplace.cpp:504
+#, kde-format
+msgid "Lokalize has finished spellchecking"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#. +> trunk6 stable6
+#: src/editorui.rc:5 src/lokalizemainwindowui.rc:5
+#, kde-format
+msgid "&File"
+msgstr "&Comhad"
+
+#. i18n: ectx: Menu (edit)
+#. +> trunk6 stable6
+#: src/editorui.rc:37 src/project/projectmanagerui.rc:22
+#, kde-format
+msgid "&Edit"
+msgstr "&Eagar"
+
+#. i18n: ectx: Menu (glossary)
+#. +> trunk6 stable6
+#: src/editorui.rc:71
+#, kde-format
+msgid "&Glossary"
+msgstr "&Gluais"
+
+#. i18n: ectx: Menu (tmquery)
+#. +> trunk6 stable6
+#: src/editorui.rc:97
+#, kde-format
+msgid "Translation &Memory"
+msgstr "Cui&mhne Aistriúcháin"
+
+#. i18n: ectx: Menu (alttrans)
+#. +> trunk6 stable6
+#: src/editorui.rc:128
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Alternate Translations"
+msgid "Alternate Translations"
+msgstr "Aistriúcháin Mhalartacha"
+
+#. i18n: ectx: Menu (go)
+#. +> trunk6 stable6
+#: src/editorui.rc:146 src/project/projectmanagerui.rc:5
+#, kde-format
+msgid "&Go"
+msgstr "&Téigh"
+
+#. i18n: ectx: Menu (bookmarks)
+#. +> trunk6 stable6
+#: src/editorui.rc:176
+#, kde-format
+msgid "&Bookmarks"
+msgstr "Lea&bharmharcanna"
+
+#. i18n: ectx: Menu (merge)
+#. +> trunk6 stable6
+#: src/editorui.rc:183
+#, kde-format
+msgid "S&ync"
+msgstr "&Sioncrónaigh"
+
+#. i18n: ectx: Menu (mergesecondary)
+#. +> trunk6 stable6
+#: src/editorui.rc:193
+#, kde-format
+msgid "&Secondary sync source"
+msgstr ""
+
+#. i18n: ectx: Menu (toolviews)
+#. +> trunk6 stable6
+#: src/editorui.rc:213 src/lokalizemainwindowui.rc:51
+#, kde-format
+msgid "Tool&views"
+msgstr "Amhairc &uirlisí"
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: src/editorui.rc:235 src/filesearch/filesearchtabui.rc:11
+#: src/project/projectmanagerui.rc:26 src/tm/translationmemoryrui.rc:11
+#, kde-format
+msgid "Main Toolbar"
+msgstr "Príomhbharra Uirlisí"
+
+#. +> trunk6 stable6
+#: src/editorview.cpp:42
+#, kde-format
+msgctxt "@label whether entry is fuzzy"
+msgid "Not ready:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editorview.cpp:44
+#, kde-format
+msgctxt "@label whether entry is untranslated"
+msgid "Untranslated:"
+msgstr "Gan aistriúchán:"
+
+#. +> trunk6 stable6
+#: src/editorview.cpp:55
+#, kde-format
+msgctxt "@action"
+msgid "Hide"
+msgstr "Folaigh"
+
+#. +> trunk6 stable6
+#: src/editorview.cpp:65
+#, kde-format
+msgctxt "@info:label cursor position"
+msgid "Column: %1"
+msgstr "Colún: %1"
+
+#. +> trunk6 stable6
+#: src/editorview.cpp:77
+#, kde-format
+msgid ""
+"<qt>"
+"<p><b>Original String</b></p>"
+"\n"
+"<p>This part of the window shows the original message\n"
+"of the currently displayed entry.</p>"
+"</qt>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/editorview.cpp:168
+#, kde-format
+msgctxt "@title:tab"
+msgid "Plural Form %1"
+msgstr "Foirm Iolra %1"
+
+#. +> trunk6 stable6
+#: src/editorview.cpp:232
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Unwrap"
+msgstr "Dífhill"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, querySource)
+#. +> trunk6 stable6
+#: src/filesearch/filesearchoptions.ui:24
+#, kde-format
+msgid ""
+"Search expression for source language part.\n"
+"Press Ctrl+L to go to this control.\n"
+"Press Enter to start the search.\n"
+"Press Esc to stop the search."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, invertTarget)
+#. i18n: ectx: property (text), widget (QCheckBox, invertSource)
+#. +> trunk6 stable6
+#: src/filesearch/filesearchoptions.ui:31
+#: src/filesearch/filesearchoptions.ui:80 src/tm/queryoptions.ui:108
+#: src/tm/queryoptions.ui:118
+#, kde-format
+msgid "Invert"
+msgstr "Inbhéartaigh"
+
+#. i18n: ectx: property (text), widget (QLabel, querySourceLabel)
+#. +> trunk6 stable6
+#: src/filesearch/filesearchoptions.ui:38 src/tm/queryoptions.ui:85
+#, kde-format
+msgid "Source:"
+msgstr "Foinse:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, queryTarget)
+#. +> trunk6 stable6
+#: src/filesearch/filesearchoptions.ui:49 src/tm/queryoptions.ui:78
+#, kde-format
+msgid ""
+"Search expression for target language part.\n"
+"Press Enter to start the search."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, useRegExps)
+#. i18n: ectx: property (text), widget (QCheckBox, regEx)
+#. +> trunk6 stable6
+#: src/filesearch/filesearchoptions.ui:56
+#: src/filesearch/massreplaceoptions.ui:78
+#, kde-format
+msgid "Regular expressions"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, queryTargetLabel)
+#. +> trunk6 stable6
+#: src/filesearch/filesearchoptions.ui:63 src/tm/queryoptions.ui:95
+#, kde-format
+msgid "Target:"
+msgstr "Sprioc:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, matchCase)
+#. +> trunk6 stable6
+#: src/filesearch/filesearchoptions.ui:73
+#: src/filesearch/massreplaceoptions.ui:85
+#, kde-format
+msgid "Match case"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, doFind)
+#. +> trunk6 stable6
+#: src/filesearch/filesearchoptions.ui:96 src/tm/queryoptions.ui:190
+#, kde-format
+msgid "&Search"
+msgstr "&Cuardach"
+
+#. +> trunk6 stable6
+#: src/filesearch/filesearchtab.cpp:120
+#, kde-format
+msgctxt "@title:window"
+msgid "File List"
+msgstr "Liosta Comhad"
+
+#. +> trunk6
+#: src/filesearch/filesearchtab.cpp:122
+#, fuzzy, kde-format
+#| msgid "Drop translation files here..."
+msgid "Drop translation files here…"
+msgstr "Cuir comhaid aistriúcháin anseo..."
+
+#. +> stable6
+#: src/filesearch/filesearchtab.cpp:122
+#, kde-format
+msgid "Drop translation files here..."
+msgstr "Cuir comhaid aistriúcháin anseo..."
+
+#. +> trunk6 stable6
+#: src/filesearch/filesearchtab.cpp:355 src/tm/tmtab.cpp:69
+#, kde-format
+msgctxt "@title:column"
+msgid "File"
+msgstr "Comhad"
+
+#. +> trunk6
+#: src/filesearch/filesearchtab.cpp:449
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Search in files"
+msgctxt "@title:tab"
+msgid "Search && Replace"
+msgstr "Cuardaigh i gcomhaid"
+
+#. +> stable6
+#: src/filesearch/filesearchtab.cpp:449
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Search in files"
+msgctxt "@title:tab"
+msgid "Search and replace in files"
+msgstr "Cuardaigh i gcomhaid"
+
+#. +> trunk6 stable6
+#: src/filesearch/filesearchtab.cpp:479 src/tm/tmtab.cpp:398
+#, kde-format
+msgid "Copy source to clipboard"
+msgstr "Cóipeáil foinse go dtí an ghearrthaisce"
+
+#. +> trunk6 stable6
+#: src/filesearch/filesearchtab.cpp:485 src/tm/tmtab.cpp:404
+#, kde-format
+msgid "Copy target to clipboard"
+msgstr "Cóipeáil sprioc go dtí an ghearrthaisce"
+
+#. +> trunk6 stable6
+#: src/filesearch/filesearchtab.cpp:491 src/tm/tmtab.cpp:410
+#, kde-format
+msgid "Open file"
+msgstr "Oscail comhad"
+
+#. +> trunk6
+#: src/filesearch/filesearchtab.cpp:518
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Search in files"
+msgctxt "@title actions category"
+msgid "Search && Replace"
+msgstr "Cuardaigh i gcomhaid"
+
+#. +> stable6
+#: src/filesearch/filesearchtab.cpp:518
+#, kde-format
+msgctxt "@title actions category"
+msgid "Search and replace in files"
+msgstr ""
+
+#. +> trunk6
+#: src/filesearch/filesearchtab.cpp:723
+#, fuzzy, kde-format
+#| msgctxt "@item Undo action item"
+#| msgid "Replace"
+msgctxt "@title:window"
+msgid "Mass Replace"
+msgstr "Ionadaigh"
+
+#. +> stable6
+#: src/filesearch/filesearchtab.cpp:723
+#, kde-format
+msgctxt "@title:window"
+msgid "Mass replace"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: src/filesearch/massreplaceoptions.ui:17
+#, kde-format
+msgid "Replace:"
+msgstr "Ionadaigh:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: src/filesearch/massreplaceoptions.ui:27
+#, kde-format
+msgid "With:"
+msgstr "Le:"
+
+#. i18n: ectx: property (text), widget (QPushButton, doPreview)
+#. +> trunk6 stable6
+#: src/filesearch/massreplaceoptions.ui:37
+#, kde-format
+msgid "Preview"
+msgstr "Réamhamharc"
+
+#. i18n: ectx: property (text), widget (QPushButton, doReplace)
+#. +> trunk6 stable6
+#: src/filesearch/massreplaceoptions.ui:56
+#, kde-format
+msgid "Mass Replace"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/glossary/glossary.cpp:194
+#, kde-format
+msgctxt "@title:column"
+msgid "Subject Field"
+msgstr "Réimse Ábhair"
+
+#. +> trunk6 stable6
+#: src/glossary/glossaryview.cpp:31 src/glossary/glossaryview.cpp:38
+#: src/glossary/glossarywindow.cpp:260 src/glossary/glossarywindow.cpp:286
+#: src/glossary/glossarywindow.cpp:301 src/glossary/glossarywindow.cpp:318
+#, kde-format
+msgctxt "@title:window"
+msgid "Glossary"
+msgstr "Gluais"
+
+#. +> trunk6
+#: src/glossary/glossaryview.cpp:50
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Translations for common terms appear here.</p>"
+"<p>Press shortcut displayed near the term to insert its translation.</p>"
+"<p>Use context menu to add new entry (tip:&nbsp;select words in original and translation fields before calling <interface>Define&nbsp;New&nbsp;Term</interface>).</p>"
+msgstr ""
+
+#. +> stable6
+#: src/glossary/glossaryview.cpp:50
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"<p>Translations for common terms appear here.</p>"
+"<p>Press shortcut displayed near the term to insert its translation.</p>"
+"<p>Use context menu to add new entry (tip:&nbsp;select words in original and translation fields before calling <interface>Define&nbsp;new&nbsp;term</interface>).</p>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/glossary/glossarywindow.cpp:116
+#, kde-format
+msgctxt "@action:button reloads glossary from disk"
+msgid "Restore from disk"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/glossary/glossarywindow.cpp:117
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Reload glossary from disk, discarding any changes"
+msgstr "Athluchtaigh an ghluais ón diosca, agus faigh réidh le haon athruithe"
+
+#. +> trunk6 stable6
+#: src/glossary/glossarywindow.cpp:343
+#, kde-format
+msgctxt "@info"
+msgid ""
+"The glossary contains unsaved changes.\n"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"Tá athruithe gan sábháil sa ghluais.\n"
+"An bhfuil fonn ort do chuid athruithe a shábháil?"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: src/glossary/termedit.ui:19
+#, kde-format
+msgid "English synonyms (double-click to edit):"
+msgstr "Comhchiallaigh Bhéarla (déchliceáil chun cur in eagar):"
+
+#. i18n: ectx: property (text), widget (QToolButton, addEngTerm)
+#. i18n: ectx: property (text), widget (QToolButton, addTargetTerm)
+#. +> trunk6 stable6
+#: src/glossary/termedit.ui:26 src/glossary/termedit.ui:54
+#, kde-format
+msgid "+"
+msgstr "+"
+
+#. i18n: ectx: property (text), widget (QToolButton, remEngTerm)
+#. i18n: ectx: property (text), widget (QToolButton, remTargetTerm)
+#. +> trunk6 stable6
+#: src/glossary/termedit.ui:33 src/glossary/termedit.ui:61
+#, kde-format
+msgid "-"
+msgstr "-"
+
+#. i18n: ectx: property (text), widget (QLabel, l2)
+#. +> trunk6 stable6
+#: src/glossary/termedit.ui:47
+#, kde-format
+msgid "Corresponding target language synonyms:"
+msgstr "Comhchiallaigh chomhfhreagracha sa sprioctheanga:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: src/glossary/termedit.ui:73
+#, kde-format
+msgid "Subject field:"
+msgstr "Réimse ábhair:"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, subjectField)
+#. +> trunk6 stable6
+#: src/glossary/termedit.ui:83
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "When adding a new item, press enter after you have typed its name for changes to take effect"
+msgstr "Agus mír nua á cur leis, brúigh Enter nuair atá a hainm iontráilte agat leis na hathruithe a chur i bhfeidhm"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: src/glossary/termedit.ui:95
+#, kde-format
+msgid "Definition:"
+msgstr "Sainmhíniú:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: src/glossary/termedit.ui:122
+#, kde-format
+msgid ""
+"Note: one glossary entry corresponds exactly to one term, not word/word sequence.\n"
+"\n"
+"That is, there may be several entries with the same word/word sequence expressing different meanings."
+msgstr ""
+"Nóta: Comhfhreagraíonn gach iontráil sa ghluais le téarma amháin agus ní chomhfhreagraíonn siad le seichimh focal/focal.\n"
+"\n"
+"Is é sin, is féidir go mbeidh roinnt iontrálacha leis an seicheamh céanna focal/focal ach le cialla difriúla."
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_skipTags)
+#. +> trunk6 stable6
+#: src/kaider_findextension.ui:30
+#, kde-format
+msgid "Skip tags"
+msgstr "Ná bac le clibeanna"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_skipTags)
+#. +> trunk6 stable6
+#: src/kaider_findextension.ui:33
+#, kde-format
+msgctxt "@option:check"
+msgid "Skip markup"
+msgstr "Ná bac le marcáil"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_ignoreAccelMarks)
+#. +> trunk6 stable6
+#: src/kaider_findextension.ui:43
+#, kde-format
+msgctxt "@option:check"
+msgid "Ignore accelerator marks"
+msgstr "Ná bac le carachtair aicearra"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_notes)
+#. +> trunk6 stable6
+#: src/kaider_findextension.ui:54
+#, kde-format
+msgid "Include notes"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/languagetool/languagetoolgrammarerror.cpp:24
+#, kde-format
+msgid "Suggestions:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/languagetool/languagetoolparser.cpp:27
+#, kde-format
+msgid "No errors"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:95
+#, fuzzy, kde-format
+#| msgid ""
+#| "<html>You do not have to be a software developer to be a member of the KDE team. You can join the national teams that translate program interfaces. You can provide graphics, themes, sounds, and improved documentation. You decide!<br />"
+#| "<br />"
+#| "Visit <a href=\"%1\">%1</a> for information on some projects in which you can participate.<br />"
+#| "<br />"
+#| "If you need more information or documentation, then a visit to <a href=\"%2\">%2</a> will provide you with what you need.</html>"
+msgid ""
+"<html>You do not have to be a software developer to be a member of the KDE team. You can join the language teams that translate program interfaces. You can provide graphics, themes, sounds, and improved documentation. You decide!<br />"
+"<br />"
+"Visit <a href=\"%1\">%1</a> for information on some projects in which you can participate.<br />"
+"<br />"
+"If you need more information or documentation, then a visit to <a href=\"%2\">%2</a> will provide you with what you need.</html>"
+msgstr ""
+"<html>Ní gá duit a bheith i d'fhorbróir bogearraí chun cabhrú le KDE. Má tá Gaeilge mhaith agat, cláraigh leis an bhfoireann aistriúcháin agus cabhraigh linn an comhéadan KDE a aistriú. Nó is féidir leat grafaic, téamaí, fuaimeanna, agus doiciméadú a sholáthar. Is leatsa an rogha!<br />"
+"<br />"
+"Tabhair cuairt ar <a href=\"%1\">%1</a> chun tuilleadh eolais a fháil maidir le tionscadail eile ar féidir leat cabhrú leo.<br />"
+"<br />"
+"Má tá tuilleadh eolais nó doiciméadú de dhíth ort, tabhair cuairt ar <a href=\"%2\">%2</a> agus aimseoidh tú an rud atá de dhíth ort.</html>"
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:117
+#, fuzzy, kde-format
+#| msgid "&Configure %1..."
+msgid "&Configure Lokalize"
+msgstr "&Cumraigh %1..."
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:118 src/project/projecttab.cpp:155
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgctxt "@action:inmenu"
+msgid "Open Project"
+msgstr "Oscail tionscadal"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:118 src/project/projecttab.cpp:155
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open project"
+msgstr "Oscail tionscadal"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:633
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgctxt "@action:inmenu"
+msgid "Open project..."
+msgstr "Oscail tionscadal"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:119
+#, fuzzy, kde-format
+#| msgid "Translator"
+msgctxt "@action:inmenu"
+msgid "Translate Software"
+msgstr "Aistritheoir"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:119
+#, fuzzy, kde-format
+#| msgid "Translator"
+msgctxt "@action:inmenu"
+msgid "Translate software"
+msgstr "Aistritheoir"
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:120
+#, fuzzy, kde-format
+#| msgid "Translate a document"
+msgctxt "@action:inmenu"
+msgid "Translate OpenDocument"
+msgstr "Aistrigh cáipéis"
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:175
+#, kde-format
+msgctxt "@info"
+msgid "No Qt Sql modules were found. Translation memory will not work."
+msgstr ""
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:492 src/project/project.cpp:243
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Translation Memories"
+msgid "Translation memory facility requires SQLite Qt module."
+msgstr "Cuimhní Aistriúcháin"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:492 src/project/project.cpp:243
+#, kde-format
+msgid "TM facility requires SQLite Qt module."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:492 src/project/project.cpp:243
+#, kde-format
+msgid "No SQLite module available"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:570 src/tm/tmtab.cpp:479
+#, kde-format
+msgctxt "@title actions category"
+msgid "Translation Memory"
+msgstr "Cuimhne Aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:571 src/project/projecttab.cpp:152
+#, kde-format
+msgctxt "@title actions category"
+msgid "Project"
+msgstr "Tionscadal"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:594
+#, fuzzy, kde-format
+#| msgid "Next tab"
+msgid "Next Tab"
+msgstr "An chéad chluaisín eile"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:594
+#, kde-format
+msgid "Next tab"
+msgstr "An chéad chluaisín eile"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:597
+#, fuzzy, kde-format
+#| msgid "Previous tab"
+msgid "Previous Tab"
+msgstr "An cluaisín roimhe seo"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:597
+#, kde-format
+msgid "Previous tab"
+msgstr "An cluaisín roimhe seo"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:600
+#, fuzzy, kde-format
+#| msgid "Previous tab"
+msgid "Previously Active Tab"
+msgstr "An cluaisín roimhe seo"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:600
+#, fuzzy, kde-format
+#| msgid "Previous tab"
+msgid "Previously active tab"
+msgstr "An cluaisín roimhe seo"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:603
+#, kde-format
+msgid "Close Current Tab"
+msgstr ""
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:603
+#, kde-format
+msgid "Close current tab"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:608
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Glossary"
+msgstr "Gluais"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:612
+#, fuzzy, kde-format
+#| msgid "Translation Memory"
+msgctxt "@action:inmenu"
+msgid "Translation Memory"
+msgstr "Cuimhne Aistriúcháin"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:612
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Translation memory"
+msgstr "Cuimhne aistriúcháin"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:616 src/tm/tmtab.cpp:482
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Manage translation memories"
+msgctxt "@action:inmenu"
+msgid "Manage Translation Memories"
+msgstr "Bainistigh cuimhne aistriúcháin"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:616 src/tm/tmtab.cpp:482
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Manage translation memories"
+msgstr "Bainistigh cuimhne aistriúcháin"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:620
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Project Overview"
+msgctxt "@action:inmenu"
+msgid "Project Overview"
+msgstr "Foramharc an Tionscadail"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:620
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Project overview"
+msgstr "Foramharc an tionscadail"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:624
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Configure project"
+msgctxt "@action:inmenu"
+msgid "Configure Project…"
+msgstr "Cumraigh tionscadal"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:624
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Configure project"
+msgctxt "@action:inmenu"
+msgid "Configure project..."
+msgstr "Cumraigh tionscadal"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:627
+#, fuzzy, kde-format
+#| msgid "*.lokalize|Lokalize translation project"
+msgctxt "@action:inmenu"
+msgid "Create Software Translation Project…"
+msgstr "*.lokalize|Tionscadal aistriúcháin Lokalize"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:627
+#, fuzzy, kde-format
+#| msgid "*.lokalize|Lokalize translation project"
+msgctxt "@action:inmenu"
+msgid "Create software translation project..."
+msgstr "*.lokalize|Tionscadal aistriúcháin Lokalize"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:630
+#, fuzzy, kde-format
+#| msgid "*.lokalize|Lokalize translation project"
+msgctxt "@action:inmenu"
+msgid "Create OpenDocument Translation Project…"
+msgstr "*.lokalize|Tionscadal aistriúcháin Lokalize"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:630
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Create OpenDocument translation project..."
+msgstr ""
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:633
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgctxt "@action:inmenu"
+msgid "Open Project…"
+msgstr "Oscail tionscadal"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:637
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgctxt "@action:inmenu"
+msgid "Close Project"
+msgstr "Oscail tionscadal"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:637
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgctxt "@action:inmenu"
+msgid "Close project"
+msgstr "Oscail tionscadal"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:640
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open recent project"
+msgctxt "@action:inmenu"
+msgid "Open Recent Project"
+msgstr "Oscail tionscadal le déanaí"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:640
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open recent project"
+msgstr "Oscail tionscadal le déanaí"
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:650
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Search in files"
+msgctxt "@action:inmenu"
+msgid "Search && Replace"
+msgstr "Cuardaigh i gcomhaid"
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:650
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Search and replace in files"
+msgstr ""
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:653
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Go To Next Search && Replace Entry"
+msgstr ""
+
+#. +> trunk6
+#: src/lokalizemainwindow.cpp:657
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Widget Text Capture"
+msgstr ""
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:653
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Find next in files"
+msgstr ""
+
+#. +> stable6
+#: src/lokalizemainwindow.cpp:657
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Widget text capture"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:670
+#, kde-format
+msgid "&Window Color Scheme"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/lokalizemainwindow.cpp:835
+#, kde-format
+msgctxt "@info"
+msgid ""
+"Error opening the following files:\n"
+"\n"
+msgstr ""
+"Earráid agus na comhaid seo a leanas á n-oscailt:\n"
+"\n"
+
+#. i18n: ectx: Menu (project)
+#. +> trunk6 stable6
+#: src/lokalizemainwindowui.rc:18
+#, kde-format
+msgid "&Project"
+msgstr "&Tionscadal"
+
+#. i18n: ectx: Menu (project_actions)
+#. +> trunk6 stable6
+#: src/lokalizemainwindowui.rc:31
+#, kde-format
+msgid "&Scripts"
+msgstr "&Scripteanna"
+
+#. +> trunk6 stable6
+#: src/main.cpp:75
+#, kde-format
+msgctxt "@title"
+msgid "Lokalize"
+msgstr "Lokalize"
+
+#. +> trunk6 stable6
+#: src/main.cpp:76
+#, kde-format
+msgid ""
+"Computer-aided translation system.\n"
+"Do not translate what had already been translated."
+msgstr ""
+"Córas aistriúcháin ríomhchuidithe.\n"
+"Ná haistrigh rudaí atá aistrithe cheana."
+
+#. +> trunk6 stable6
+#: src/main.cpp:78
+#, fuzzy, kde-format
+#| msgctxt "@info:credit"
+#| msgid ""
+#| "(c) 2007-2012 Nick Shaforostoff\n"
+#| "(c) 1999-2006 The KBabel developers"
+msgctxt "@info:credit"
+msgid ""
+"(c) 2018-2019 Simon Depiets\n"
+"(c) 2007-2015 Nick Shaforostoff\n"
+"(c) 1999-2006 The KBabel developers"
+msgstr ""
+"© 2007-2012 Nick Shaforostoff\n"
+"© 1999-2006 Forbróirí KBabel"
+
+#. +> trunk6 stable6
+#: src/main.cpp:79
+#, kde-format
+msgid "Nick Shaforostoff"
+msgstr "Nick Shaforostoff"
+
+#. +> trunk6 stable6
+#: src/main.cpp:80
+#, kde-format
+msgid "Google Inc."
+msgstr "Google Inc."
+
+#. +> trunk6 stable6
+#: src/main.cpp:81
+#, kde-format
+msgid "sponsored development as part of Google Summer Of Code program"
+msgstr "rinne Google urraíocht ar KAider mar chuid den fheachtas Google Summer Of Code"
+
+#. +> trunk6 stable6
+#: src/main.cpp:84
+#, kde-format
+msgid "NLNet Foundation"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:84
+#, kde-format
+msgid "sponsored XLIFF-related work"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:85
+#, kde-format
+msgid "Translate-toolkit"
+msgstr "Translate-toolkit"
+
+#. +> trunk6 stable6
+#: src/main.cpp:86
+#, kde-format
+msgid "provided excellent cross-format converting scripts"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:89
+#, fuzzy, kde-format
+#| msgid "Language"
+msgid "LanguageTool"
+msgstr "Teanga"
+
+#. +> trunk6 stable6
+#: src/main.cpp:89
+#, kde-format
+msgid "grammar, style and spell checker"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:90
+#, kde-format
+msgid "Viesturs Zarins"
+msgstr "Viesturs Zarins"
+
+#. +> trunk6 stable6
+#: src/main.cpp:90
+#, kde-format
+msgid "project tree merging translation+templates"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:91
+#, kde-format
+msgid "Stephan Johach"
+msgstr "Stephan Johach"
+
+#. +> trunk6 stable6
+#: src/main.cpp:91 src/main.cpp:92 src/main.cpp:95
+#, kde-format
+msgid "bug fixing patches"
+msgstr "paistí ceartaithe"
+
+#. +> trunk6 stable6
+#: src/main.cpp:92
+#, kde-format
+msgid "Chusslove Illich"
+msgstr "Chusslove Illich"
+
+#. +> trunk6 stable6
+#: src/main.cpp:93
+#, kde-format
+msgid "Jure Repinc"
+msgstr "Jure Repinc"
+
+#. +> trunk6 stable6
+#: src/main.cpp:93
+#, kde-format
+msgid "testing and bug fixing"
+msgstr "tástáil agus ceartúcháin"
+
+#. +> trunk6 stable6
+#: src/main.cpp:94
+#, kde-format
+msgid "Stefan Asserhall"
+msgstr "Stefan Asserhall"
+
+#. +> trunk6 stable6
+#: src/main.cpp:94
+#, kde-format
+msgid "patches"
+msgstr "paistí"
+
+#. +> trunk6 stable6
+#: src/main.cpp:95
+#, kde-format
+msgid "Papp Laszlo"
+msgstr "Papp Laszlo"
+
+#. +> trunk6 stable6
+#: src/main.cpp:96
+#, kde-format
+msgid "Albert Astals Cid"
+msgstr "Albert Astals Cid"
+
+#. +> trunk6 stable6
+#: src/main.cpp:96
+#, kde-format
+msgid "XLIFF improvements"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:97
+#, kde-format
+msgid "Simon Depiets"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:97 src/main.cpp:98 src/main.cpp:99
+#, fuzzy, kde-format
+#| msgid "bug fixing patches"
+msgid "bug fixing and improvements"
+msgstr "paistí ceartaithe"
+
+#. +> trunk6 stable6
+#: src/main.cpp:98
+#, kde-format
+msgid "Karl Ove Hufthammer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:99
+#, kde-format
+msgid "Finley Watson"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:103
+#, kde-format
+msgid "Do not scan files of the project."
+msgstr "Ná scan comhaid an tionscadail."
+
+#. +> trunk6 stable6
+#: src/main.cpp:104
+#, kde-format
+msgid "Load specified project."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:105
+#, kde-format
+msgid "Document to open"
+msgstr "Cáipéis le hoscailt"
+
+#. +> trunk6 stable6
+#: src/mergemode/mergecatalog.cpp:225
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Accept change in translation"
+msgstr "Glac le hathrú an aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/mergemode/mergecatalog.cpp:275
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Accept all new translations"
+msgstr "Glac le gach aistriúchán nua"
+
+#. +> trunk6 stable6
+#: src/mergemode/mergeview.cpp:29 src/mergemode/mergeview.cpp:34
+#, kde-format
+msgctxt "@title:window that displays difference between current file and 'merge source'"
+msgid "Primary Sync"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/mergemode/mergeview.cpp:30 src/mergemode/mergeview.cpp:35
+#, kde-format
+msgctxt "@title:window that displays difference between current file and 'merge source'"
+msgid "Secondary Sync"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/mergemode/mergeview.cpp:40
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Drop file to be merged into / synced with the current one here, then see context menu options"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/mergemode/mergeview.cpp:205
+#, kde-format
+msgctxt "@info"
+msgid "Error opening the file <filename>%1</filename> for synchronization, error line: %2"
+msgstr "Earráid agus comhad <filename>%1</filename> á oscailt le siocrónú, earráid ar líne: %2"
+
+#. +> trunk6 stable6
+#: src/mergemode/mergeview.cpp:331
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"Different entries: %1\n"
+"Unmatched entries: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/msgctxtview.cpp:34
+#, kde-format
+msgctxt "@title toolview name"
+msgid "Unit Metadata"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/msgctxtview.cpp:90
+#, kde-format
+msgctxt "@info notes to translation unit which expire when the catalog is closed"
+msgid "<b>Temporary notes:</b>"
+msgstr "<b>Nótaí sealadacha:</b>"
+
+#. +> trunk6 stable6
+#: src/msgctxtview.cpp:99
+#, fuzzy, kde-format
+#| msgctxt "@info notes to translation unit which expire when the catalog is closed"
+#| msgid "<b>Temporary notes:</b>"
+msgctxt "@info notes generated by the pology check"
+msgid "<b>Pology notes:</b>"
+msgstr "<b>Nótaí sealadacha:</b>"
+
+#. +> trunk6 stable6
+#: src/msgctxtview.cpp:108
+#, fuzzy, kde-format
+#| msgctxt "@info notes to translation unit which expire when the catalog is closed"
+#| msgid "<b>Temporary notes:</b>"
+msgctxt "@info notes generated by the languagetool check"
+msgid "<b>LanguageTool notes:</b>"
+msgstr "<b>Nótaí sealadacha:</b>"
+
+#. +> trunk6 stable6
+#: src/msgctxtview.cpp:120
+#, kde-format
+msgctxt "@info translation unit metadata"
+msgid "<b>Phase:</b><br>"
+msgstr "<b>Céim:</b><br>"
+
+#. +> trunk6 stable6
+#: src/msgctxtview.cpp:144
+#, kde-format
+msgctxt "@info PO comment parsing"
+msgid ""
+"<br>"
+"<b>Files:</b><br>"
+msgstr ""
+"<br>"
+"<b>Comhaid:</b><br>"
+
+#. +> trunk6 stable6
+#: src/msgctxtview.cpp:152
+#, kde-format
+msgctxt "@info PO comment parsing"
+msgid ""
+"<br>"
+"<b>Context:</b><br>"
+msgstr ""
+"<br>"
+"<b>Comhthéacs:</b><br>"
+
+#. +> trunk6 stable6
+#: src/msgctxtview.cpp:223
+#, fuzzy, kde-format
+#| msgid "Empty"
+msgctxt "@info The pology command didn't return anything"
+msgid "(empty)"
+msgstr "Folamh"
+
+#. +> trunk6 stable6
+#: src/noteeditor.cpp:41
+#, kde-format
+msgctxt "@info:label"
+msgid "From:"
+msgstr "Ó:"
+
+#. +> trunk6 stable6
+#: src/noteeditor.cpp:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Save empty note to remove it"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/noteeditor.cpp:46
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Author of this note"
+msgstr "Údar an nóta seo"
+
+#. +> trunk6 stable6
+#: src/noteeditor.cpp:59
+#, kde-format
+msgid "Ctrl+Enter"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/noteeditor.cpp:60
+#, kde-format
+msgid "Esc"
+msgstr "Esc"
+
+#. +> trunk6 stable6
+#: src/noteeditor.cpp:113
+#, kde-format
+msgctxt "@info XLIFF notes representation"
+msgid "<b>Notes:</b>"
+msgstr "<b>Nótaí:</b>"
+
+#. +> trunk6
+#: src/noteeditor.cpp:125
+#, kde-format
+msgctxt "link to edit note"
+msgid "edit…"
+msgstr ""
+
+#. +> stable6
+#: src/noteeditor.cpp:125
+#, kde-format
+msgctxt "link to edit note"
+msgid "edit..."
+msgstr "eagar..."
+
+#. +> trunk6
+#: src/noteeditor.cpp:130
+#, kde-format
+msgctxt "link to add a note"
+msgid "Add…"
+msgstr ""
+
+#. +> trunk6
+#: src/noteeditor.cpp:132
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Add a note"
+msgctxt "link to add a note"
+msgid "Add a note…"
+msgstr "Cuir nóta leis"
+
+#. +> stable6
+#: src/noteeditor.cpp:130
+#, kde-format
+msgctxt "link to add a note"
+msgid "Add..."
+msgstr "Cuir Leis..."
+
+#. +> stable6
+#: src/noteeditor.cpp:132
+#, kde-format
+msgctxt "link to add a note"
+msgid "Add a note..."
+msgstr "Cuir nóta leis..."
+
+#. +> trunk6 stable6
+#: src/phaseswindow.cpp:144
+#, kde-format
+msgctxt "@title:column"
+msgid "Date"
+msgstr "Dáta"
+
+#. +> trunk6 stable6
+#: src/phaseswindow.cpp:146
+#, kde-format
+msgctxt "@title:column"
+msgid "Process"
+msgstr "Próiseas"
+
+#. +> trunk6 stable6
+#: src/phaseswindow.cpp:148
+#, kde-format
+msgctxt "@title:column"
+msgid "Company"
+msgstr "Comhlacht"
+
+#. +> trunk6 stable6
+#: src/phaseswindow.cpp:150
+#, kde-format
+msgctxt "@title:column"
+msgid "Person"
+msgstr "Duine"
+
+#. +> trunk6 stable6
+#: src/phaseswindow.cpp:152
+#, kde-format
+msgctxt "@title:column"
+msgid "Tool"
+msgstr "Uirlis"
+
+#. +> trunk6 stable6
+#: src/phaseswindow.cpp:177
+#, kde-format
+msgid "Translation"
+msgstr "Aistriúchán"
+
+#. +> trunk6 stable6
+#: src/phaseswindow.cpp:177
+#, kde-format
+msgid "Review"
+msgstr "Athbhreithnigh"
+
+#. +> trunk6 stable6
+#: src/phaseswindow.cpp:177
+#, kde-format
+msgid "Approval"
+msgstr "Ceadú"
+
+#. +> trunk6 stable6
+#: src/phaseswindow.cpp:181
+#, kde-format
+msgctxt "noun"
+msgid "Process (this will also change your role):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/phaseswindow.cpp:255
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Edit phases"
+msgstr "Cuir céimeanna in eagar"
+
+#. i18n: ectx: label, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:13
+#, kde-format
+msgid "Translator's name"
+msgstr "Ainm an aistritheora"
+
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:14
+#, kde-format
+msgid "Translator's name in English"
+msgstr "Ainm an aistritheora as Béarla"
+
+#. i18n: ectx: label, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:20
+#, kde-format
+msgid "Localized name"
+msgstr "Ainm logánaithe"
+
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:21
+#, kde-format
+msgid "Translator's name in target language"
+msgstr "Ainm an aistritheora sa sprioctheanga"
+
+#. i18n: ectx: label, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:27
+#, kde-format
+msgid "Override Language Team"
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:28
+#, kde-format
+msgid "Use user-provided language team name instead of generating it"
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:34
+#, fuzzy, kde-format
+#| msgid "Language"
+msgid "Language Team"
+msgstr "Teanga"
+
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:35
+#, fuzzy, kde-format
+#| msgid "Translator's name"
+msgid "Translator team's name"
+msgstr "Ainm an aistritheora"
+
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:41
+#, kde-format
+msgid "Translator's email"
+msgstr "Seoladh ríomhphoist an aistritheora"
+
+#. i18n: ectx: label, entry, group (Identity)
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:47 src/prefs/lokalize.kcfg:48
+#, kde-format
+msgid "Default language code for new projects"
+msgstr "Teanga réamhshocraithe le haghaidh tionscadail nua"
+
+#. i18n: ectx: label, entry, group (Identity)
+#. i18n: ectx: whatsthis, entry, group (Identity)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:54 src/prefs/lokalize.kcfg:55
+#, kde-format
+msgid "Default mailing list for new projects"
+msgstr "Liosta réamhshocraithe ríomhphoist le haghaidh tionscadail nua"
+
+#. i18n: ectx: label, entry (CleverEditing), group (Appearance)
+#. i18n: ectx: label, entry (OnFlySpellCheck), group (Appearance)
+#. i18n: ectx: label, entry (WhitespacePoints), group (Appearance)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:67 src/prefs/lokalize.kcfg:83
+#: src/prefs/lokalize.kcfg:88
+#, fuzzy, kde-format
+#| msgid ""
+#| "\n"
+#| "        "
+msgid ""
+"\n"
+"            "
+msgstr ""
+"\n"
+"        "
+
+#. i18n: ectx: label, entry (MsgFont), group (Appearance)
+#. +> trunk6 stable6
+#: src/prefs/lokalize.kcfg:73
+#, kde-format
+msgid "Font for Messages"
+msgstr "Cló le haghaidh Teachtaireachtaí"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:90
+#, kde-format
+msgctxt "@title:tab"
+msgid "Identity"
+msgstr "Aitheantas"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:100
+#, kde-format
+msgid ""
+"The following parameters are available\n"
+"%1 - Path of the source file\n"
+"%2 - Line number"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:101 src/prefs/prefs.cpp:207
+#, kde-format
+msgctxt "@title:tab"
+msgid "General"
+msgstr "Ginearálta"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:107
+#, kde-format
+msgctxt "@title:tab"
+msgid "Editing"
+msgstr "Eagarthóireacht"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:113
+#, kde-format
+msgctxt "@title:tab"
+msgid "Appearance"
+msgstr "Cuma"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:119 src/tm/tmtab.cpp:375
+#, kde-format
+msgctxt "@title:tab"
+msgid "Translation Memory"
+msgstr "Cuimhne Aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:125
+#, kde-format
+msgctxt "@title:tab"
+msgid "Pology"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:131
+#, fuzzy, kde-format
+#| msgid "Language"
+msgctxt "@title:tab"
+msgid "LanguageTool"
+msgstr "Teanga"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:145
+#, kde-format
+msgid "You have accessed a feature that requires a project to be loaded. Do you want to create a new project or open an existing project?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:146
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Project overview"
+msgctxt "@title"
+msgid "Project Required"
+msgstr "Foramharc an tionscadail"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:147
+#, fuzzy, kde-format
+#| msgid "Create new project"
+msgctxt "@action"
+msgid "Create Project"
+msgstr "Cruthaigh tionscadal nua"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:148
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgctxt "@action"
+msgid "Open Project"
+msgstr "Oscail tionscadal"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:160 src/prefs/prefs.cpp:177
+#, fuzzy, kde-format
+#| msgid "*.lokalize|Lokalize translation project"
+msgid "Lokalize translation project (*.lokalize)"
+msgstr "*.lokalize|Tionscadal aistriúcháin Lokalize"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:175
+#, kde-format
+msgctxt "@window:title"
+msgid "Select folder with Gettext .po files to translate"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:196
+#, fuzzy, kde-format
+#| msgid "*.lokalize|Lokalize translation project"
+msgid "Create software or OpenDocument translation project first."
+msgstr "*.lokalize|Tionscadal aistriúcháin Lokalize"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:252
+#, kde-format
+msgctxt "@title:tab"
+msgid "Advanced"
+msgstr "Casta"
+
+#. +> trunk6 stable6
+#: src/prefs/prefs.cpp:263
+#, kde-format
+msgctxt "@title:tab"
+msgid "Personal"
+msgstr "Pearsanta"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: src/prefs/prefs_appearance.ui:34
+#, kde-format
+msgid "Editor font:"
+msgstr "Cló an eagarthóra:"
+
+#. i18n: ectx: property (toolTip), widget (KFontRequester, kcfg_MsgFont)
+#. +> trunk6 stable6
+#: src/prefs/prefs_appearance.ui:44
+#, kde-format
+msgid "Change the font for the editor"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KFontRequester, kcfg_MsgFont)
+#. +> trunk6 stable6
+#: src/prefs/prefs_appearance.ui:47
+#, kde-format
+msgid "Choose a new font for the area where you write the translated message."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_Leds)
+#. +> trunk6 stable6
+#: src/prefs/prefs_appearance.ui:54
+#, kde-format
+msgid "Display LEDS for message status"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Leds)
+#. +> trunk6 stable6
+#: src/prefs/prefs_appearance.ui:57
+#, kde-format
+msgid "If checked, LEDS will be shown to display the message status: Fuzzy, Untranslated or Error. If unchecked, no LEDs will be displayed."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Leds)
+#. +> trunk6 stable6
+#: src/prefs/prefs_appearance.ui:60
+#, kde-format
+msgid "LEDs to indicate Fuzzy and Untranslated status as well as cursor column number"
+msgstr "LEDanna a chomharthaíonn stádas Doiléir nó Gan Aistriú chomh maith le huimhir an cholúin ina bhfuil an cúrsóir"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HighlightSpaces)
+#. +> trunk6 stable6
+#: src/prefs/prefs_appearance.ui:82
+#, kde-format
+msgid "Check to see if a string ends in a space (which is often important when displaying it in the user interface, or when it gets concatenated with others)."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HighlightSpaces)
+#. +> trunk6 stable6
+#: src/prefs/prefs_appearance.ui:85
+#, kde-format
+msgid "Highlight spaces at the end"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_MouseWheelGo)
+#. +> trunk6 stable6
+#: src/prefs/prefs_editor.ui:32
+#, kde-format
+msgid "If set, mouse wheel goes to previous or next unit, otherwise it scrolls text"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_MouseWheelGo)
+#. +> trunk6 stable6
+#: src/prefs/prefs_editor.ui:35
+#, kde-format
+msgid ""
+"<html>When this option is enabled, the mouse wheel is used to go to the previous or next translation unit (without modifier keys). Modifier keys can be used to change this behavior. Use:"
+"<ul>"
+"<li><b>Shift</b> to scroll within the text of the current unit,</li>"
+"<li><b>Ctrl+Shift</b> to go to previous or next non-ready unit,</li>"
+"<li><b>Ctrl</b> to go to previous or next non-ready not empty unit,</li>"
+"<li><b>Alt</b> to go to previous or next untranslated unit.</li>"
+"</ul>"
+"When the option is disabled, the mouse wheel scrolls within the text of the current translation unit.</html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_MouseWheelGo)
+#. +> trunk6 stable6
+#: src/prefs/prefs_editor.ui:38
+#, kde-format
+msgid "Mouse wheel goes to previous or next translation unit"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoApprove)
+#. +> trunk6 stable6
+#: src/prefs/prefs_editor.ui:45
+#, kde-format
+msgid "Set 'approved' status automatically when editing started"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_VisualizeSeparators)
+#. +> trunk6 stable6
+#: src/prefs/prefs_editor.ui:65
+#, kde-format
+msgid "Visualize separators such as spaces, tabs and new lines in the editor"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, l1)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WordCompletionLength)
+#. +> trunk6 stable6
+#: src/prefs/prefs_editor.ui:74 src/prefs/prefs_editor.ui:87
+#, kde-format
+msgid "Set to 2 to disable word completion"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l1)
+#. +> trunk6 stable6
+#: src/prefs/prefs_editor.ui:77
+#, kde-format
+msgid "Minimum word length for word completion"
+msgstr ""
+
+#. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_WordCompletionLength)
+#. +> trunk6 stable6
+#: src/prefs/prefs_editor.ui:90
+#, kde-format
+msgid "Disable word completion"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ConvertXMLChars)
+#. +> trunk6 stable6
+#: src/prefs/prefs_editor.ui:105
+#, kde-format
+msgid "Automatically convert XML special characters in TS files"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_RestoreRecentFilesOnStartup)
+#. +> trunk6 stable6
+#: src/prefs/prefs_general.ui:45
+#, kde-format
+msgid "Restore the previously opened files when launching Lokalize"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, l2)
+#. +> trunk6 stable6
+#: src/prefs/prefs_general.ui:54
+#, kde-format
+msgid "Defines the behavior of the next/previous tab shortcuts"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l2)
+#. +> trunk6 stable6
+#: src/prefs/prefs_general.ui:57
+#, kde-format
+msgid "Next/previous tab shortcut behavior"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TabSwitch)
+#. +> trunk6 stable6
+#: src/prefs/prefs_general.ui:68
+#, kde-format
+msgid "According to tab position"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_TabSwitch)
+#. +> trunk6 stable6
+#: src/prefs/prefs_general.ui:73
+#, kde-format
+msgid "According to tab activation order"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_CustomEditorEnabled)
+#. +> trunk6 stable6
+#: src/prefs/prefs_general.ui:83
+#, kde-format
+msgid "Use a custom editor to open source files"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QWidget, prefs_identity)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:14
+#, kde-format
+msgid "Fill in your identity and information about your translation team. This information is used when updating the header of a file."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:35
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Default language:"
+msgstr "Teanga réamhshocraithe:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:48
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox"
+#| msgid "Email:"
+msgctxt "@label:textbox"
+msgid "&Email:"
+msgstr "Ríomhphost:"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:61
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox"
+#| msgid "Name:"
+msgctxt "@label:textbox"
+msgid "&Name:"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_authorName)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:74
+#, kde-format
+msgid "Your name, in English"
+msgstr "D'ainm, as Béarla"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_authorName)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:77
+#, kde-format
+msgid "Please enter here your name and surname written in English"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:84
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox"
+#| msgid "Default mailing list:"
+msgctxt "@label:textbox"
+msgid "&Default mailing list:"
+msgstr "Liosta réamhshocraithe ríomhphoist:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_DefaultMailingList)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:94
+#, kde-format
+msgid "The email of your team mailing list"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_DefaultMailingList)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:97
+#, kde-format
+msgid "Write the email of your translating team mailing list"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, DefaultLangCode)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:104
+#, kde-format
+msgid "Language you translate to"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, DefaultLangCode)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:107
+#, kde-format
+msgid "Set the default language you are going to translate to"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_authorEmail)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:127
+#, kde-format
+msgid "Write your email"
+msgstr "Iontráil do sheoladh ríomhphoist"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_authorEmail)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:130
+#, kde-format
+msgid "Write your email here so it will appear in the po file header with your name"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_authorLocalizedName)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:144
+#, kde-format
+msgid "Your name in your own language"
+msgstr "D'ainm i do theanga féin"
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_authorLocalizedName)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:147
+#, kde-format
+msgid "Write your name and surname in your language with your language alphabet."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:154
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Localized name:"
+msgstr "Ainm logánaithe:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_overrideLangTeam)
+#. +> trunk6 stable6
+#: src/prefs/prefs_identity.ui:164
+#, fuzzy, kde-format
+#| msgctxt "@label:chooser"
+#| msgid "Default language:"
+msgid "Default Language-Team:"
+msgstr "Teanga réamhshocraithe:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_LanguageToolCustom)
+#. +> trunk6 stable6
+#: src/prefs/prefs_languagetool.ui:21
+#, kde-format
+msgid "Use custom LanguageTool server"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
+#. +> trunk6 stable6
+#: src/prefs/prefs_languagetool.ui:31
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Server Path:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_LanguageToolInstancePath)
+#. +> trunk6 stable6
+#: src/prefs/prefs_languagetool.ui:44
+#, kde-format
+msgid "The path of your custom Language Tool server"
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, kcfg_LanguageToolInstancePath)
+#. +> trunk6 stable6
+#: src/prefs/prefs_languagetool.ui:47
+#, kde-format
+msgid "Please enter the path of your custom Language Tool server, if any"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l1)
+#. +> trunk6 stable6
+#: src/prefs/prefs_languagetool.ui:58
+#, kde-format
+msgid "Delay before automatic checking after you stop typing (in seconds, 0 to disable)"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLabel, l1)
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_LanguageToolDelay)
+#. +> trunk6 stable6
+#: src/prefs/prefs_languagetool.ui:64 src/prefs/prefs_languagetool.ui:71
+#, kde-format
+msgid "Set to 0 to disable auto checking"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PologyEnabled)
+#. +> trunk6 stable6
+#: src/prefs/prefs_pology.ui:21
+#, kde-format
+msgid "Enable Pology verification"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel3_0)
+#. +> trunk6 stable6
+#: src/prefs/prefs_pology.ui:28
+#, no-c-format, kde-format
+msgctxt "@label:textbox"
+msgid "The Pology command to run in order to check a single entry. Use the following placeholders in order to set-up the commands: %u is the entry number, %f is the file name. For instance: posieve -u %u check-rules %f"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPlainTextEdit, kcfg_PologyCommandEntry)
+#. +> trunk6 stable6
+#: src/prefs/prefs_pology.ui:44
+#, kde-format
+msgid "The Pology command to run in order to check a single entry."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPlainTextEdit, kcfg_PologyCommandEntry)
+#. +> trunk6 stable6
+#: src/prefs/prefs_pology.ui:47
+#, kde-format
+msgid "Please enter here the Pology command to be run in order to check a single entry"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel4_0)
+#. +> trunk6 stable6
+#: src/prefs/prefs_pology.ui:54
+#, no-c-format, kde-format
+msgctxt "@label:textbox"
+msgid "The Pology command to run in order to check a whole file. This command should include \"-s lokalize\", placeholder %f is the file name. For instance: posieve -s lokalize check-rules %f"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPlainTextEdit, kcfg_PologyCommandFile)
+#. +> trunk6 stable6
+#: src/prefs/prefs_pology.ui:70
+#, kde-format
+msgid "The Pology command to run in order to check a whole file."
+msgstr ""
+
+#. i18n: ectx: property (whatsThis), widget (QPlainTextEdit, kcfg_PologyCommandFile)
+#. +> trunk6 stable6
+#: src/prefs/prefs_pology.ui:73
+#, kde-format
+msgid "Please enter here the Pology command to be run in order to check a whole file"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_PrefetchTM)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:45
+#, kde-format
+msgid "If checked, get translation memory suggestions "
+msgstr "Más ticeáilte é seo, faigh moltaí ón chuimhne aistriúchán "
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_PrefetchTM)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:48
+#, kde-format
+msgid "If this is checked, the program will fetch translation memories as soon as you open a file."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PrefetchTM)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:51
+#, kde-format
+msgid "Prefetch translation memory suggestions on file open"
+msgstr "Faigh moltaí ón chuimhne aistriúchán ag am oscailte an chomhaid"
+
+#. i18n: ectx: property (text), widget (QLabel, label1)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:60
+#, kde-format
+msgid "Maximum number of suggestions:"
+msgstr "Líon uasta na moltaí:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SuggCount)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:70
+#, kde-format
+msgid "Set the maximum number of suggestions"
+msgstr "Socraigh líon uasta na moltaí"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_SuggCount)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:73
+#, fuzzy, kde-format
+#| msgid "Set the maximum number of suggestions"
+msgid "You can change the maximum number of suggestions, default is 7."
+msgstr "Socraigh líon uasta na moltaí"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:97
+#, fuzzy, kde-format
+#| msgid "Maximum number of suggestions:"
+msgid "Minimum score (0-100) of suggestions:"
+msgstr "Líon uasta na moltaí:"
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_SuggScore)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:107
+#, fuzzy, kde-format
+#| msgid "Set the maximum number of suggestions"
+msgid "Set the minimum score (0-100) of suggestions"
+msgstr "Socraigh líon uasta na moltaí"
+
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_SuggScore)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:110
+#, fuzzy, kde-format
+#| msgid "Set the maximum number of suggestions"
+msgid "You can change the minimum score (0-100) required for suggestions, default is 0."
+msgstr "Socraigh líon uasta na moltaí"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoaddTM)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:138
+#, kde-format
+msgid "Update/Add edited entries to translation memory"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ScanToTMOnOpen)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:145
+#, kde-format
+msgid "Add opened files to translation memory automatically"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DeleteFromTMOnMissing)
+#. +> trunk6 stable6
+#: src/prefs/prefs_tm.ui:152
+#, kde-format
+msgid "Delete missing files from translation memory on rescan or when right-clicking on a missing entry"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:17
+#, kde-format
+msgid "Syntax"
+msgstr "Comhréir"
+
+#. i18n: ectx: property (text), widget (QLabel, l0)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:23
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Accelerator:"
+msgstr "Aicearra:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_Accel)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:33
+#, kde-format
+msgid "Usually '&', but may also be '_' for GTK apps."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l1)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:40
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Markup:"
+msgstr "Marcáil:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_Markup)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:58
+#, kde-format
+msgid ""
+"Regular expression of markup. It is used for translation memory matching and for 'Insert tag' feature.\n"
+"\n"
+"A default value (suitable for XML-based texts) is:\n"
+"(<[^>]+>)+|(&[A-Za-z_:][A-Za-z0-9_\\.:-]*;)+\n"
+"\n"
+"It is only used for gettext PO files, as XLIFF format has its own way of specifying where markup is."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l2)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:65
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Word wrap:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QSpinBox, kcfg_WordWrap)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:75
+#, kde-format
+msgid "Width used for the automatic msgfmt-like word wrap. Use the value '0' to disable the word wrap. Use -1 when translating for KDE PO Summit. 1 to 3 doesn't change anything."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:91
+#, kde-format
+msgid "Paths"
+msgstr "Conairí"
+
+#. i18n: ectx: property (text), widget (QLabel, l3)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:100
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Template files folder:"
+msgstr "Comhadlann na dteimpléad:"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, potBaseDir)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:124
+#, kde-format
+msgid ""
+"Usually your translation project will be a subproject of a project\n"
+"for translating same texts into multiple languages.\n"
+"\n"
+"Set this to path of a folder containing empty translation files\n"
+"(i.e. files without translation into any language)\n"
+"shared among all subprojects."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l4)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:131
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Branch folder:"
+msgstr "Comhadlann bhrainse:"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, branchDir)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:161
+#, kde-format
+msgctxt "this message contains text from documentation, so use its translation when you're translating docs"
+msgid ""
+"This setting is for Sync Mode.\n"
+"\n"
+"Sync Mode may be used to make changes to translation\n"
+"for two branches simultaneously.\n"
+"\n"
+"Set this to path that corresponds to root folder of the branch project,\n"
+"and Secondary Sync view will automatically open files from branch.\n"
+"Then, each time you make changes in files of your main branch,\n"
+"they will automatically be replicated to the branch\n"
+"(of course, if it contains the same English string).\n"
+"\n"
+"See documentation for more details."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l5)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:168
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox"
+#| msgid "Template files folder:"
+msgctxt "@label:textbox"
+msgid "Branch template files folder:"
+msgstr "Comhadlann na dteimpléad:"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, potBranchDir)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:193
+#, kde-format
+msgctxt "this message contains text from documentation, so use its translation when you're translating docs"
+msgid ""
+"This setting is for Sync Mode.\n"
+"\n"
+"Sync Mode may be used to make changes to translation\n"
+"for two branches simultaneously.\n"
+"\n"
+"Set this to path that corresponds to root folder of the branch project templates folder,\n"
+"and Secondary Sync view will automatically create files from branch."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l6)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:200
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Alternate translations folder:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, altDir)
+#. +> trunk6 stable6
+#: src/project/prefs_project_advanced.ui:227
+#, kde-format
+msgctxt "this message contains text from documentation, so use its translation when you're translating docs"
+msgid ""
+"Set this to path of a folder with structure similar to Root Folder.\n"
+"\n"
+"On each translation file open, a corresponding file in Alternate translations directory will be looked up and,\n"
+"if it is found, it will be used for Alternate Translations view.\n"
+"\n"
+"You will likely want to use translations of another target language (i.e. another subproject), which is close to yours.\n"
+"Also, you can use other subproject's translations either immediately, or have them pretranslated to your language by machine.\n"
+"\n"
+"See documentation for more details."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l0)
+#. +> trunk6 stable6
+#: src/project/prefs_project_local.ui:21
+#, kde-format
+msgid "Role:"
+msgstr "Ról:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Role)
+#. +> trunk6 stable6
+#: src/project/prefs_project_local.ui:29
+#, kde-format
+msgid "Translator"
+msgstr "Aistritheoir"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Role)
+#. +> trunk6 stable6
+#: src/project/prefs_project_local.ui:34
+#, kde-format
+msgid "Reviewer"
+msgstr "Eagarthóir"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, kcfg_Role)
+#. +> trunk6 stable6
+#: src/project/prefs_project_local.ui:39
+#, kde-format
+msgid "Approver"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l2)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:17
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Glossary:"
+msgstr "Gluais:"
+
+#. i18n: ectx: property (text), widget (QLabel, l0)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:30
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Target language:"
+msgstr "Sprioctheanga:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, kcfg_ProjectID)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:46
+#, kde-format
+msgid ""
+"Project ID is used to differentiate translation memories of absolutely different projects and languages.\n"
+"\n"
+"For example, if you have several projects for translating KDE applications\n"
+"(e.g. they are in different repositories), use same ID for all of them."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, LangCode)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:59
+#, kde-format
+msgid "Target language of the project."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l4)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:82
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Mailing list:"
+msgstr "Liosta ríomhphoist:"
+
+#. i18n: ectx: property (text), widget (QLabel, l3)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:92
+#, kde-format
+msgctxt "@label:textbox"
+msgid "ID:"
+msgstr "Aitheantas:"
+
+#. i18n: ectx: property (toolTip), widget (KUrlRequester, poBaseDir)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:118
+#, kde-format
+msgid ""
+"This is main setting. Set this to path of a folder with translation files\n"
+"for your project (or a subproject for your target language)."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l1)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:141
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Root folder:"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LanguageSource)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:155
+#, kde-format
+msgid "Automatic"
+msgstr ""
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LanguageSource)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:160
+#, fuzzy, kde-format
+#| msgid "Location:"
+msgid "Application"
+msgstr "Suíomh:"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_LanguageSource)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:165
+#, kde-format
+msgid "Project"
+msgstr "Tionscadal"
+
+#. i18n: ectx: property (text), widget (QLabel, l5)
+#. +> trunk6 stable6
+#: src/project/prefs_projectmain.ui:180
+#, fuzzy, kde-format
+#| msgctxt "@label:textbox"
+#| msgid "Language:"
+msgid "Language-Team:"
+msgstr "Teanga:"
+
+#. +> trunk6 stable6
+#: src/project/project.cpp:392
+#, kde-format
+msgid "Scanning folders with source files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/project.cpp:392
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu Edit term"
+#| msgid "Edit"
+msgid "Editor"
+msgstr "Eagar"
+
+#. +> trunk6 stable6
+#: src/project/project.cpp:432
+#, fuzzy, kde-format
+#| msgid "Translation"
+msgctxt "project folder name. %2 is targetLangCode"
+msgid "%1 %2 Translation"
+msgstr "Aistriúchán"
+
+#. i18n: ectx: label, entry (LangCode), group (General)
+#. +> trunk6 stable6
+#: src/project/projectbase.kcfg:17
+#, kde-format
+msgid "Language"
+msgstr "Teanga"
+
+#. i18n: ectx: label, entry (UserLangTeam), group (General)
+#. +> trunk6 stable6
+#: src/project/projectbase.kcfg:31
+#, kde-format
+msgid "User Language Team in Lokalize settings"
+msgstr ""
+
+#. i18n: ectx: label, entry (OverrideLangTeam), group (General)
+#. +> trunk6 stable6
+#: src/project/projectbase.kcfg:37
+#, kde-format
+msgid "Override Lokalize Language Team"
+msgstr ""
+
+#. i18n: ectx: label, entry (ProjLangTeam), group (General)
+#. +> trunk6 stable6
+#: src/project/projectbase.kcfg:43
+#, fuzzy, kde-format
+#| msgctxt "@title:column"
+#| msgid "Target language"
+msgid "Project Language Team"
+msgstr "Sprioctheanga"
+
+#. i18n: ectx: label, entry (PoBaseDir), group (General)
+#. +> trunk6 stable6
+#: src/project/projectbase.kcfg:58
+#, kde-format
+msgid "The base directory for PO files (translations)"
+msgstr "Bunchomhadlann le haghaidh comhad PO (aistriúcháin)"
+
+#. i18n: ectx: label, entry (PotBaseDir), group (General)
+#. +> trunk6 stable6
+#: src/project/projectbase.kcfg:64
+#, kde-format
+msgid "The base directory for POT files (templates to be translated)"
+msgstr "Bunchomhadlann le haghaidh comhad POT (teimpléid le haistriú)"
+
+#. i18n: ectx: label, entry (GlossaryTbx), group (General)
+#. +> trunk6 stable6
+#: src/project/projectbase.kcfg:73
+#, kde-format
+msgid "Project's glossary"
+msgstr "Gluais an tionscadail"
+
+#. +> trunk6 stable6
+#: src/project/projectmodel.cpp:468
+#, kde-format
+msgctxt "@title:column File name"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: src/project/projectmodel.cpp:470
+#, kde-format
+msgctxt "@title:column Graphical representation of Translated/Fuzzy/Untranslated counts"
+msgid "Graph"
+msgstr "Graf"
+
+#. +> trunk6 stable6
+#: src/project/projectmodel.cpp:472
+#, kde-format
+msgctxt "@title:column Number of entries"
+msgid "Total"
+msgstr "Iomlán"
+
+#. +> trunk6 stable6
+#: src/project/projectmodel.cpp:474
+#, kde-format
+msgctxt "@title:column Number of entries"
+msgid "Translated"
+msgstr "Aistrithe"
+
+#. +> trunk6
+#: src/project/projectmodel.cpp:476
+#, fuzzy, kde-format
+#| msgctxt ""
+#| "@info:status message entries\n"
+#| "'fuzzy' in gettext terminology"
+#| msgid "Not ready: %1"
+msgctxt "@title:column Number of entries"
+msgid "Not Ready"
+msgstr "Gan cheadú: %1"
+
+#. +> stable6
+#: src/project/projectmodel.cpp:476
+#, kde-format
+msgctxt "@title:column Number of entries"
+msgid "Not ready"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projectmodel.cpp:478
+#, kde-format
+msgctxt "@title:column Number of entries"
+msgid "Untranslated"
+msgstr "Gan aistriúchán"
+
+#. +> trunk6 stable6
+#: src/project/projectmodel.cpp:480
+#, fuzzy, kde-format
+#| msgctxt "@title"
+#| msgid "Scanning complete"
+msgctxt "@title:column Number of fuzzy or untranslated entries"
+msgid "Incomplete"
+msgstr "Scanadh críochnaithe"
+
+#. +> trunk6 stable6
+#: src/project/projectmodel.cpp:482
+#, kde-format
+msgctxt "@title:column"
+msgid "Last Translation"
+msgstr "Aistriúchán Is Déanaí"
+
+#. +> trunk6 stable6
+#: src/project/projectmodel.cpp:484
+#, kde-format
+msgctxt "@title:column"
+msgid "Comment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projectmodel.cpp:486
+#, kde-format
+msgctxt "@title:column"
+msgid "Template Revision"
+msgstr "Leasú an Teimpléid"
+
+#. +> trunk6 stable6
+#: src/project/projectmodel.cpp:488
+#, kde-format
+msgctxt "@title:column"
+msgid "Last Translator"
+msgstr "Aistritheoir Is Déanaí"
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:54
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Project Overview"
+msgctxt "@title:tab"
+msgid "Project Overview"
+msgstr "Foramharc an Tionscadail"
+
+#. +> trunk6
+#: src/project/projecttab.cpp:124
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Previous template only"
+msgctxt "@action:inmenu"
+msgid "Previous Template Only"
+msgstr "An teimpléad roimhe seo amháin"
+
+#. +> stable6
+#: src/project/projecttab.cpp:124
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Previous template only"
+msgstr "An teimpléad roimhe seo amháin"
+
+#. +> trunk6
+#: src/project/projecttab.cpp:130
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next template only"
+msgctxt "@action:inmenu"
+msgid "Next Template Only"
+msgstr "An chéad teimpléad eile amháin"
+
+#. +> stable6
+#: src/project/projecttab.cpp:130
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Next template only"
+msgstr "An chéad teimpléad eile amháin"
+
+#. +> trunk6
+#: src/project/projecttab.cpp:135
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Previous translation only"
+msgctxt "@action:inmenu"
+msgid "Previous Translation Only"
+msgstr "An t-aistriúchán roimhe seo amháin"
+
+#. +> stable6
+#: src/project/projecttab.cpp:135
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Previous translation only"
+msgstr "An t-aistriúchán roimhe seo amháin"
+
+#. +> trunk6
+#: src/project/projecttab.cpp:138
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Next translation only"
+msgctxt "@action:inmenu"
+msgid "Next Translation Only"
+msgstr "An chéad aistriúchán eile amháin"
+
+#. +> stable6
+#: src/project/projecttab.cpp:138
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Next translation only"
+msgstr "An chéad aistriúchán eile amháin"
+
+#. +> trunk6
+#: src/project/projecttab.cpp:142
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide Completed Items"
+msgstr ""
+
+#. +> stable6
+#: src/project/projecttab.cpp:142
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide completed items"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:143
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Hide fully translated files and folders"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:190
+#, fuzzy, kde-format
+#| msgid "Select file:"
+msgctxt "@action:inmenu"
+msgid "Open selected files"
+msgstr "Roghnaigh comhad:"
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:193
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open"
+msgstr "Oscail"
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:196
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add to translation memory"
+msgstr "Cuir le cuimhne aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:198
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Search in files"
+msgstr "Cuardaigh i gcomhaid"
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:199
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Add a note"
+msgctxt "@action:inmenu"
+msgid "Add a comment"
+msgstr "Cuir nóta leis"
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:201
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Launch Pology on files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:204
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Search in files (including templates)"
+msgstr "Cuardaigh i gcomhaid (teimpléid san áireamh)"
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:231
+#, kde-format
+msgid "Project file comment"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:231
+#, kde-format
+msgid "Input a comment for this project file:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:307
+#, kde-format
+msgid "The Pology check has succeeded"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:326
+#, kde-format
+msgid "You are about to open %1 file"
+msgid_plural "You are about to open %1 files"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:327
+#, kde-format
+msgid "Opening a large number of files at the same time can make Lokalize unresponsive."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:328
+#, kde-format
+msgid "Are you sure you want to open this many files?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/project/projecttab.cpp:329
+#, fuzzy, kde-format
+#| msgid "Open file"
+msgid "&Open %1 File"
+msgid_plural "&Open %1 Files"
+msgstr[0] "Oscail comhad"
+msgstr[1] "Oscail comhad"
+msgstr[2] "Oscail comhad"
+msgstr[3] "Oscail comhad"
+msgstr[4] "Oscail comhad"
+
+#. +> trunk6 stable6
+#: src/statusbar.cpp:50
+#, kde-format
+msgctxt "@info:status"
+msgid "Current: %1"
+msgstr "Reatha: %1"
+
+#. +> trunk6 stable6
+#: src/statusbar.cpp:64
+#, kde-format
+msgctxt "@info:status message entries"
+msgid "Total: %1"
+msgstr "Iomlán: %1"
+
+#. +> trunk6 stable6
+#: src/statusbar.cpp:76
+#, kde-format
+msgctxt ""
+"@info:status message entries\n"
+"'fuzzy' in gettext terminology"
+msgid "Not ready: %1"
+msgstr "Gan cheadú: %1"
+
+#. +> trunk6 stable6
+#: src/statusbar.cpp:78 src/statusbar.cpp:93
+#, kde-format
+msgctxt "percentages in statusbar"
+msgid " (%1%)"
+msgstr " (%1%)"
+
+#. +> trunk6 stable6
+#: src/statusbar.cpp:91
+#, kde-format
+msgctxt "@info:status message entries"
+msgid "Untranslated: %1"
+msgstr "Gan aistriúchán: %1"
+
+#. +> trunk6 stable6
+#: src/tm/dbfilesmodel.cpp:95
+#, kde-format
+msgctxt "@title:column"
+msgid "Name"
+msgstr "Ainm"
+
+#. +> trunk6 stable6
+#: src/tm/dbfilesmodel.cpp:96
+#, kde-format
+msgctxt "@title:column"
+msgid "Source language"
+msgstr "Bunteanga"
+
+#. +> trunk6 stable6
+#: src/tm/dbfilesmodel.cpp:97
+#, kde-format
+msgctxt "@title:column"
+msgid "Target language"
+msgstr "Sprioctheanga"
+
+#. +> trunk6 stable6
+#: src/tm/dbfilesmodel.cpp:98
+#, kde-format
+msgctxt "@title:column"
+msgid "Pairs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/dbfilesmodel.cpp:99
+#, kde-format
+msgctxt "@title:column"
+msgid "Unique original entries"
+msgstr "Buniontrálacha uathúla"
+
+#. +> trunk6 stable6
+#: src/tm/dbfilesmodel.cpp:100
+#, kde-format
+msgctxt "@title:column"
+msgid "Unique translations"
+msgstr "Aistriúcháin uathúla"
+
+#. i18n: ectx: property (title), widget (QGroupBox, connectionBox)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:23
+#, kde-format
+msgid "Connection"
+msgstr "Ceangal"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:32
+#, kde-format
+msgid "Database name:"
+msgstr "Ainm an bhunachair sonraí:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:45
+#, kde-format
+msgid "Host:"
+msgstr "Óstríomhaire:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:62
+#, kde-format
+msgid "User:"
+msgstr "Úsáideoir:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:75
+#, kde-format
+msgid "Password:"
+msgstr "Focal Faire:"
+
+#. i18n: ectx: property (text), item, widget (QComboBox, dbType)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:96
+#, kde-format
+msgid "Local"
+msgstr "Logánta"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:104
+#, kde-format
+msgid "Name:"
+msgstr "Ainm:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:114
+#, kde-format
+msgid "Database type:"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, contentBox)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:124
+#, kde-format
+msgid "Content"
+msgstr "Inneachar"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:133
+#, kde-format
+msgid "Source language:"
+msgstr "Bunteanga:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:162
+#, kde-format
+msgid "Markup regex:"
+msgstr "Slonn marcála:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: src/tm/dbparams.ui:175
+#, kde-format
+msgid "Accelerator:"
+msgstr "Aicearra:"
+
+#. i18n: ectx: property (text), widget (QPushButton, create)
+#. +> trunk6 stable6
+#: src/tm/managedatabases.ui:19
+#, kde-format
+msgid "Create"
+msgstr "Cruthaigh"
+
+#. i18n: ectx: property (text), widget (QPushButton, addData)
+#. +> trunk6 stable6
+#: src/tm/managedatabases.ui:26
+#, kde-format
+msgid "Add Data"
+msgstr "Cuir Sonraí Leis"
+
+#. i18n: ectx: property (text), widget (QPushButton, importTMX)
+#. +> trunk6 stable6
+#: src/tm/managedatabases.ui:33
+#, kde-format
+msgid "Add Data from TMX"
+msgstr "Cuir Sonraí ó TMX leis"
+
+#. i18n: ectx: property (text), widget (QPushButton, exportTMX)
+#. +> trunk6 stable6
+#: src/tm/managedatabases.ui:40
+#, kde-format
+msgid "Export to TMX"
+msgstr "Easpórtáil go TMX"
+
+#. i18n: ectx: property (text), widget (QPushButton, remove)
+#. +> trunk6 stable6
+#: src/tm/managedatabases.ui:47
+#, kde-format
+msgid "Remove"
+msgstr "Bain"
+
+#. +> trunk6 stable6
+#: src/tm/qamodel.cpp:97
+#, kde-format
+msgctxt "@title:column Translator's false friend"
+msgid "False Friend"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/qaview.cpp:21
+#, kde-format
+msgctxt "@title:window"
+msgid "Quality Assurance"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/qaview.cpp:35
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Add"
+msgstr "Cuir Leis"
+
+#. +> trunk6 stable6
+#: src/tm/qaview.cpp:39
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove"
+msgstr "Bain"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6
+#: src/tm/queryoptions.ui:32
+#, fuzzy, kde-format
+#| msgid "Translation Memory"
+msgid "Translation Memory:"
+msgstr "Cuimhne Aistriúcháin"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> stable6
+#: src/tm/queryoptions.ui:32
+#, kde-format
+msgid "TM:"
+msgstr "CA:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, querySource)
+#. +> trunk6 stable6
+#: src/tm/queryoptions.ui:70
+#, kde-format
+msgid ""
+"Search expression for source language part.\n"
+"Press Enter to start the search.\n"
+"Press Ctrl+L to go to this control."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, invertTarget)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, invertSource)
+#. +> trunk6 stable6
+#: src/tm/queryoptions.ui:105 src/tm/queryoptions.ui:115
+#, kde-format
+msgid "Show results that do not match search expression"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6
+#: src/tm/queryoptions.ui:139
+#, fuzzy, kde-format
+#| msgid "File"
+msgid "File Mask:"
+msgstr "Comhad"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> stable6
+#: src/tm/queryoptions.ui:139
+#, kde-format
+msgid "File mask:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, filemask)
+#. +> trunk6 stable6
+#: src/tm/queryoptions.ui:155
+#, kde-format
+msgid "Show only results from files with path matching specified mask"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_s)
+#. +> trunk6
+#: src/tm/queryoptions.ui:162
+#, fuzzy, kde-format
+#| msgid "Syntax"
+msgid "Query Syntax:"
+msgstr "Comhréir"
+
+#. i18n: ectx: property (text), widget (QLabel, label_s)
+#. +> stable6
+#: src/tm/queryoptions.ui:162
+#, kde-format
+msgid "Query syntax:"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QPushButton, doUpdateTM)
+#. +> trunk6 stable6
+#: src/tm/queryoptions.ui:197
+#, kde-format
+msgid "Reads all project files into translation memory, updating old entries. The scanning will work in background."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, doUpdateTM)
+#. +> trunk6
+#: src/tm/queryoptions.ui:200
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Open project"
+msgid "&Rescan Project"
+msgstr "Oscail tionscadal"
+
+#. i18n: ectx: property (text), widget (QPushButton, doUpdateTM)
+#. +> stable6
+#: src/tm/queryoptions.ui:200
+#, kde-format
+msgid "&Rescan project files"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmmanager.cpp:34
+#, kde-format
+msgctxt "@title:window"
+msgid "Translation Memories"
+msgstr "Cuimhní Aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/tm/tmmanager.cpp:70
+#, kde-format
+msgctxt "@title:window"
+msgid "Select Directory to be scanned"
+msgstr "Roghnaigh Comhadlann le scanadh"
+
+#. +> trunk6 stable6
+#: src/tm/tmmanager.cpp:79
+#, kde-format
+msgctxt "@title:window"
+msgid "New Translation Memory"
+msgstr "Cuimhne Aistriúcháin Nua"
+
+#. +> trunk6 stable6
+#: src/tm/tmmanager.cpp:79
+#, kde-format
+msgctxt "@title:window"
+msgid "Translation Memory Properties"
+msgstr "Airíonna an Chuimhne Aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/tm/tmmanager.cpp:214
+#, kde-format
+msgctxt "@title:window"
+msgid "Select TMX file to be imported into selected database"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmmanager.cpp:216 src/tm/tmmanager.cpp:237
+#, kde-format
+msgid "TMX files (*.tmx *.xml)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmmanager.cpp:235
+#, kde-format
+msgctxt "@title:window"
+msgid "Select TMX file to export selected database to"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmscanapi.cpp:79
+#, kde-format
+msgid "Adding files to Lokalize translation memory"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmscanapi.cpp:79
+#, kde-format
+msgid "TM"
+msgstr "CA"
+
+#. +> trunk6 stable6
+#: src/tm/tmtab.cpp:79
+#, fuzzy, kde-format
+#| msgid "Source:"
+msgctxt "@title:column Original text"
+msgid "Source: %1"
+msgstr "Foinse:"
+
+#. +> trunk6 stable6
+#: src/tm/tmtab.cpp:84
+#, fuzzy, kde-format
+#| msgid "Target:"
+msgctxt "@title:column Text in target language"
+msgid "Target: %1"
+msgstr "Sprioc:"
+
+#. +> trunk6 stable6
+#: src/tm/tmtab.cpp:356
+#, kde-format
+msgid "Substring"
+msgstr "Fotheaghrán"
+
+#. +> trunk6 stable6
+#: src/tm/tmtab.cpp:356
+#, kde-format
+msgid "Google-like"
+msgstr "Cosúil le Google"
+
+#. +> trunk6 stable6
+#: src/tm/tmtab.cpp:356
+#, kde-format
+msgid "Wildcard"
+msgstr "Saoróg"
+
+#. +> trunk6 stable6
+#: src/tm/tmtab.cpp:363
+#, kde-format
+msgid "Space is AND operator. Case insensitive."
+msgstr "Is oibreoir AND é spás bán. Níl sé cásíogair."
+
+#. +> trunk6 stable6
+#: src/tm/tmtab.cpp:364
+#, kde-format
+msgid "Shell globs (* and ?). Case sensitive."
+msgstr "Glabanna blaoisce (* agus ?). Cásíogair."
+
+#. +> trunk6 stable6
+#: src/tm/tmtab.cpp:512
+#, kde-format
+msgid "Rescanning files is only possible while a project is open. Please open a project and try again."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmtab.cpp:513
+#, kde-format
+msgid "Rescan not possible"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmtab.cpp:612 src/tm/tmview.cpp:622
+#, kde-format
+msgctxt "@info"
+msgid "The file %1 does not exist, it has been removed from the translation memory."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:186 src/tm/tmview.cpp:191
+#, kde-format
+msgctxt "@title:window"
+msgid "Translation Memory"
+msgstr "Cuimhne Aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:226
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Double-click any word to insert it into translation"
+msgstr "Déchliceáil aon fhocal chun é a ionsá san aistriúchán"
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:331
+#, kde-format
+msgctxt "@item Undo action"
+msgid "Batch translation memory filling"
+msgstr "Baisc-líonadh ó chuimhne aistriúchán"
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:334
+#, kde-format
+msgctxt "@info"
+msgid "Batch translation has been completed."
+msgstr "Baisc-aistriúchán críochnaithe."
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:340
+#, kde-format
+msgctxt "@info"
+msgid "No suggestions with exact matches were found."
+msgstr "Níor aimsíodh aon mholtaí beachta."
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:360 src/tm/tmview.cpp:375
+#, kde-format
+msgctxt "@info"
+msgid "Batch translation has been scheduled."
+msgstr "Sceidealadh baisc-aistriúchán."
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:496
+#, kde-format
+msgctxt "A perfect match between a Translation Memory source string and the source string being translated."
+msgid "100% (perfect match)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:501
+#, fuzzy, kde-format
+#| msgctxt "percentages in statusbar"
+#| msgid " (%1%)"
+msgctxt "The similarity between a Translation Memory source string and the source string being translated, %1 is 0 to 99 (percent)."
+msgid "%1%"
+msgstr " (%1%)"
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:507
+#, kde-format
+msgctxt "The number of times a Translation Memory entry exists in the database, %1 is the number."
+msgid "Occurred %1 time"
+msgid_plural "Occurred %1 times"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+msgstr[4] ""
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:517
+#, kde-format
+msgctxt "Percentage match (%1), number of occurrences (%2), and keyboard shortcut (%3). Bullet point is a separator between the data and can be translated."
+msgid "%1 • %2 • %3"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:525
+#, kde-format
+msgctxt "Percentage match (%1) and number of occurrences (%2). Bullet point is a separator between the data and can be translated."
+msgid "%1 • %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:577
+#, kde-format
+msgctxt "File argument in tooltip, when file is current file"
+msgid "this"
+msgstr "seo"
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:578
+#, kde-format
+msgctxt "@info:tooltip"
+msgid ""
+"File: %1<br />"
+"Addition date: %2"
+msgstr ""
+"Comhad: %1<br />"
+"Dáta a cruthaíodh: %2"
+
+#. +> trunk6
+#: src/tm/tmview.cpp:581
+#, kde-format
+msgctxt "@info:tooltip on translation memory entry continues"
+msgid ""
+"<br />"
+"Last change date: %1"
+msgstr ""
+
+#. +> stable6
+#: src/tm/tmview.cpp:580
+#, kde-format
+msgctxt "@info:tooltip on TM entry continues"
+msgid ""
+"<br />"
+"Last change date: %1"
+msgstr ""
+
+#. +> trunk6
+#: src/tm/tmview.cpp:583
+#, kde-format
+msgctxt "@info:tooltip on translation memory entry continues"
+msgid ""
+"<br />"
+"Last change author: %1"
+msgstr ""
+
+#. +> stable6
+#: src/tm/tmview.cpp:582
+#, kde-format
+msgctxt "@info:tooltip on TM entry continues"
+msgid ""
+"<br />"
+"Last change author: %1"
+msgstr ""
+
+#. +> trunk6
+#: src/tm/tmview.cpp:584
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu"
+#| msgid "Translation memory"
+msgctxt "@info:tooltip on translation memory entry continues"
+msgid ""
+"<br />"
+"Translation memory: %1"
+msgstr "Cuimhne aistriúcháin"
+
+#. +> stable6
+#: src/tm/tmview.cpp:583
+#, kde-format
+msgctxt "@info:tooltip on TM entry continues"
+msgid ""
+"<br />"
+"TM: %1"
+msgstr ""
+"<br />"
+"CA: %1"
+
+#. +> trunk6
+#: src/tm/tmview.cpp:586
+#, kde-format
+msgctxt "@info:tooltip on translation memory entry continues"
+msgid ""
+"<br />"
+"Is not present in the file anymore"
+msgstr ""
+
+#. +> stable6
+#: src/tm/tmview.cpp:585
+#, kde-format
+msgctxt "@info:tooltip on TM entry continues"
+msgid ""
+"<br />"
+"Is not present in the file anymore"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:601
+#, kde-format
+msgid ""
+"<html>Do you really want to remove this entry:<br/>"
+"<i>%1</i><br/>"
+"from translation memory %2?</html>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:604
+#, kde-format
+msgctxt "@title:window"
+msgid "Translation Memory Entry Removal"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:649
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove this entry"
+msgstr "Bain an iontráil seo"
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:652
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Open file containing this entry"
+msgstr "Oscail an comhad ina bhfuil an iontráil seo"
+
+#. +> trunk6
+#: src/tm/tmview.cpp:662
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove this missing file from the translation memory"
+msgstr ""
+
+#. +> stable6
+#: src/tm/tmview.cpp:661
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Remove this missing file from TM"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:676
+#, kde-format
+msgid ""
+"<html>Do you really want to remove this missing file:<br/>"
+"<i>%1</i><br/>"
+"from translation memory %2?</html>"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:680
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Translation Memories"
+msgctxt "@title:window"
+msgid "Translation Memory Missing File Removal"
+msgstr "Cuimhní Aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/tm/tmview.cpp:963
+#, kde-format
+msgctxt "@item Undo action"
+msgid "Use translation memory suggestion"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/tools/widgettextcaptureconfig.cpp:24
+#, kde-format
+msgctxt "@title"
+msgid "Widget Text Capture"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: src/tools/widgettextcaptureconfig.ui:26
+#, kde-format
+msgid ""
+"<html>\n"
+"<p align=\"justify\">To facilitate KDE translation, Lokalize can capture text from applications' user interfaces and search for translation files containing the text.</p>"
+"\n"
+"<p align=\"justify\">When enabled, the capture can be initiated by middle mouse clicking on any non-editable GUI element (widget). After that, switch to the Lokalize window and choose the entry with this text. Even if several files contain the same string, the right one will be chosen in most cases.</p>"
+"\n"
+"<p align=\"justify\">Remember that you need to have an up-to-date actual translation memory with all translation files indexed for this feature to work.</p>"
+"</html>"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: src/tools/widgettextcaptureconfig.ui:42
+#, kde-format
+msgid "Middle Mouse Button Click Reaction"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, none)
+#. +> trunk6 stable6
+#: src/tools/widgettextcaptureconfig.ui:48
+#, kde-format
+msgid "None"
+msgstr "Neamhní"
+
+#. i18n: ectx: property (text), widget (QRadioButton, search)
+#. +> trunk6 stable6
+#: src/tools/widgettextcaptureconfig.ui:58
+#, kde-format
+msgid "Search GUI element text in translation memory"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, clipboard)
+#. +> trunk6 stable6
+#: src/tools/widgettextcaptureconfig.ui:65
+#, kde-format
+msgid "Copy GUI element text to clipboard"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/xlifftextedit.cpp:876
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Lookup selected text in translation memory"
+msgstr "Cuimhne aistriúcháin"
+
+#. +> trunk6 stable6
+#: src/xlifftextedit.cpp:956
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Replace text"
+msgstr "Ionadaigh téacs"
+
+#. +> trunk6 stable6
+#: src/xlifftextedit.cpp:995
+#, kde-format
+msgid "no spellcheck available"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/xlifftextedit.cpp:1011
+#, kde-format
+msgid "An error was reported: %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/xlifftextedit.cpp:1171
+#, kde-format
+msgctxt "@item Undo action item"
+msgid "Copy source to target"
+msgstr ""

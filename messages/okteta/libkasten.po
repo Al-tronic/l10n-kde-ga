@@ -1,0 +1,552 @@
+# Irish translation of okteta
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the okteta package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: playground-utils/okteta.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-30 10:03+0200\n"
+"PO-Revision-Date: 2007-11-05 08:28-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk5 stable5
+#: controllers/document/modified/modifiedbarcontroller.cpp:74
+#, kde-format
+msgctxt "@tooltip the document is modified"
+msgid "Modified."
+msgstr "Athraithe."
+
+#. +> trunk5 stable5
+#: controllers/document/modified/modifiedbarcontroller.cpp:75
+#, kde-format
+msgctxt "@tooltip the document is not modified"
+msgid "Not modified."
+msgstr "Gan athrú."
+
+#. +> trunk5 stable5
+#: controllers/document/readonly/readonlybarcontroller.cpp:21
+#, kde-format
+msgctxt "@option:check the document is read-write"
+msgid "Read-write"
+msgstr "Inléite-inscríofa"
+
+#. +> trunk5 stable5
+#: controllers/document/readonly/readonlybarcontroller.cpp:22
+#, kde-format
+msgctxt "@option:check the document is read-only"
+msgid "Read-only"
+msgstr "Inléite amháin"
+
+#. +> trunk5 stable5
+#: controllers/document/readonly/readonlycontroller.cpp:23
+#, kde-format
+msgctxt "@option:check set the document to read-only"
+msgid "Set Read-only"
+msgstr "Socraigh Inléite Amháin"
+
+#. +> trunk5 stable5
+#: controllers/document/readonly/readonlycontroller.cpp:25
+#, kde-format
+msgctxt "@option:check set the document to read-write"
+msgid "Set Read-write"
+msgstr "Socraigh Inléite-inscríofa"
+
+#. +> trunk5 stable5
+#: controllers/document/terminal/terminaltool.cpp:29
+#: controllers/document/terminal/terminaltoolviewfactory.cpp:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Terminal"
+msgstr "Teirminéal"
+
+#. +> trunk5 stable5
+#: controllers/document/versionview/versiontablemodel.cpp:106
+#, kde-format
+msgctxt "@title:column Id of the version"
+msgid "Id"
+msgstr "Aitheantas"
+
+#. +> trunk5 stable5
+#: controllers/document/versionview/versiontablemodel.cpp:107
+#, kde-format
+msgctxt "@title:column description of the change"
+msgid "Changes"
+msgstr "Athruithe"
+
+#. +> trunk5 stable5
+#: controllers/document/versionview/versiontablemodel.cpp:112
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Id of the version"
+msgstr "Aitheantas an leagain"
+
+#. +> trunk5 stable5
+#: controllers/document/versionview/versiontablemodel.cpp:113
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Description of what changed"
+msgstr "Cur síos ar an athrú"
+
+#. +> trunk5 stable5
+#: controllers/document/versionview/versionviewtool.cpp:24
+#: controllers/document/versionview/versionviewtoolviewfactory.cpp:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Versions"
+msgstr "Leaganacha"
+
+#. +> trunk5 stable5
+#: controllers/documentsystem/close/closecontroller.cpp:38
+#: controllers/shellwindow/viewareacontextmenu/viewareacontextmenucontroller.cpp:54
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Close All"
+msgctxt "@action:inmenu"
+msgid "Close All"
+msgstr "Dún Uile"
+
+#. +> trunk5 stable5
+#: controllers/documentsystem/close/closecontroller.cpp:45
+#: controllers/shellwindow/viewareacontextmenu/viewareacontextmenucontroller.cpp:61
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Close All Other"
+msgctxt "@action:inmenu"
+msgid "Close All Other"
+msgstr "Dún Gach Ceann Eile"
+
+#. +> trunk5 stable5
+#: controllers/documentsystem/creator/creatorcontroller.cpp:33
+#, kde-format
+msgctxt "@title:menu create new byte arrays from different sources"
+msgid "New"
+msgstr "Nua"
+
+#. +> trunk5 stable5
+#: controllers/documentsystem/creator/creatorcontroller.cpp:41
+#, fuzzy, kde-format
+#| msgctxt "@title:menu create a new empty document"
+#| msgid "Empty"
+msgctxt "@item:inmenu create a new empty document"
+msgid "Empty"
+msgstr "Folamh"
+
+#. +> trunk5 stable5
+#: controllers/documentsystem/creator/creatorcontroller.cpp:52
+#, fuzzy, kde-format
+#| msgctxt "@title:menu create a new document from data in the clipboard"
+#| msgid "From Clipboard"
+msgctxt "@item:inmenu create a new document from data in the clipboard"
+msgid "From Clipboard"
+msgstr "Ón Ghearrthaisce"
+
+#. i18nc("@title:column Id of the version",         "Id") :
+#. +> trunk5 stable5
+#: controllers/documentsystem/documentsbrowser/documentlistmodel.cpp:112
+#, kde-format
+msgctxt "@title:column description of the change"
+msgid "Title"
+msgstr "Teideal"
+
+#. i18nc("@info:tooltip","Id of the version") :
+#. +> trunk5 stable5
+#: controllers/documentsystem/documentsbrowser/documentlistmodel.cpp:118
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Title of the document"
+msgstr "Teideal na cáipéise"
+
+#. +> trunk5 stable5
+#: controllers/documentsystem/documentsbrowser/documentstool.cpp:33
+#: controllers/documentsystem/documentsbrowser/documentstoolviewfactory.cpp:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Documents"
+msgstr "Cáipéisí"
+
+#. +> trunk5
+#: controllers/documentsystem/documentsbrowser/documentsview.cpp:49
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Documents"
+msgctxt "@info"
+msgid "No documents"
+msgstr "Cáipéisí"
+
+#. +> trunk5 stable5
+#: controllers/documentsystem/filesystembrowser/filesystembrowsertool.cpp:30
+#: controllers/documentsystem/filesystembrowser/filesystembrowsertoolviewfactory.cpp:22
+#, kde-format
+msgctxt "@title:window"
+msgid "Filesystem"
+msgstr "Córas comhad"
+
+#. +> trunk5 stable5
+#: controllers/documentsystem/filesystembrowser/filesystembrowserview.cpp:83
+#, kde-format
+msgctxt "@action:intoolbar"
+msgid "Folder of Current Document"
+msgstr "Fillteán na Cáipéise Reatha"
+
+#. +> trunk5 stable5
+#: controllers/io/copyas/copyascontroller.cpp:43
+#, kde-format
+msgctxt "@title:menu"
+msgid "Copy As"
+msgstr "Cóipeáil Mar"
+
+#. +> trunk5 stable5
+#: controllers/io/copyas/copyascontroller.cpp:94
+#, kde-format
+msgctxt "@item There are no encoders."
+msgid "Not available."
+msgstr "Níl ar fáil."
+
+#. +> trunk5 stable5
+#: controllers/io/copyas/copyasdialog.cpp:38
+#, kde-format
+msgctxt "@title:window"
+msgid "Copy As"
+msgstr "Cóipeáil Mar"
+
+#. +> trunk5 stable5
+#: controllers/io/copyas/copyasdialog.cpp:60
+#: controllers/io/export/exportdialog.cpp:60
+#, kde-format
+msgctxt "@title:group"
+msgid "Preview"
+msgstr "Réamhamharc"
+
+#. +> trunk5 stable5
+#: controllers/io/copyas/copyasdialog.cpp:71
+#, kde-format
+msgctxt "@action:button"
+msgid "&Copy to clipboard"
+msgstr "&Cóipeáil go dtí an ghearrthaisce"
+
+#. +> trunk5 stable5
+#: controllers/io/copyas/copyasdialog.cpp:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Copy the selected data to the clipboard."
+msgstr "Cóipeáil na sonraí roghnaithe go dtí an ghearrthaisce."
+
+#. +> trunk5 stable5
+#: controllers/io/copyas/copyasdialog.cpp:75
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "If you press the <interface>Copy to clipboard</interface> button, the selected data will be copied to the clipboard with the settings you entered above."
+msgstr "Má bhrúnn tú an cnaipe <interface>Cóipeáil go dtí an ghearrthaisce</interface>, cóipeálfar na sonraí roghnaithe go dtí an ghearrthaisce de réir na socruithe a d'iontráil tú thuas."
+
+#. +> trunk5 stable5
+#: controllers/io/export/exportcontroller.cpp:39
+#, kde-format
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Easpórtáil"
+
+#. +> trunk5 stable5
+#: controllers/io/export/exportcontroller.cpp:90
+#, kde-format
+msgctxt "@item There are no exporters."
+msgid "Not available."
+msgstr "Níl ar fáil."
+
+#. +> trunk5 stable5
+#: controllers/io/export/exportdialog.cpp:38
+#: core/system/modelcodecmanager_p.cpp:124
+#, kde-format
+msgctxt "@title:window"
+msgid "Export"
+msgstr "Easpórtáil"
+
+#. +> trunk5
+#: controllers/io/export/exportdialog.cpp:71
+#, fuzzy, kde-format
+#| msgctxt "@action:button"
+#| msgid "&Export to File..."
+msgctxt "@action:button"
+msgid "&Export to File…"
+msgstr "&Easpórtáil go Comhad..."
+
+#. +> stable5
+#: controllers/io/export/exportdialog.cpp:73
+#, kde-format
+msgctxt "@action:button"
+msgid "&Export to File..."
+msgstr "&Easpórtáil go Comhad..."
+
+#. +> trunk5 stable5
+#: controllers/io/export/exportdialog.cpp:73
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Export the selected data to a file."
+msgstr "Easpórtáil na sonraí roghnaithe go comhad."
+
+#. +> trunk5 stable5
+#: controllers/io/export/exportdialog.cpp:75
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "If you press the <interface>Export to file</interface> button, the selected data will be copied to a file with the settings you entered above."
+msgstr "Má bhrúnn tú an cnaipe <interface>Easpórtáil go comhad</interface>, cóipeálfar na sonraí roghnaithe go comhad de réir na socruithe a d'iontráil tú thuas."
+
+#. +> trunk5 stable5
+#: controllers/io/insert/insertcontroller.cpp:39
+#, kde-format
+msgctxt "@title:menu"
+msgid "Insert"
+msgstr "Ionsáigh"
+
+#. +> trunk5 stable5
+#: controllers/io/insert/insertcontroller.cpp:93
+#, kde-format
+msgctxt "@item There are no generators."
+msgid "Not available."
+msgstr "Níl ar fáil."
+
+#. +> trunk5 stable5
+#: controllers/io/insert/insertdialog.cpp:32
+#, kde-format
+msgctxt "@title:window"
+msgid "Insert"
+msgstr "Ionsáigh"
+
+#. +> trunk5 stable5
+#: controllers/io/insert/insertdialog.cpp:42
+#, kde-format
+msgctxt "@action:button"
+msgid "&Insert"
+msgstr "&Ionsáigh"
+
+#. +> trunk5 stable5
+#: controllers/io/insert/insertdialog.cpp:44
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Insert the generated data into the document."
+msgstr "Ionsáigh na sonraí ginte isteach sa cháipéis."
+
+#. +> trunk5 stable5
+#: controllers/io/insert/insertdialog.cpp:46
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "If you press the <interface>Insert</interface> button, the data will be generated with the settings you entered above and inserted into the document at the cursor position."
+msgstr "Má bhrúnn tú an cnaipe <interface>Ionsáigh</interface>, cruthófar na sonraí de réir na socruithe a d'iontráil tú thuas agus ionsáfar sa cháipéis iad ag an gcúrsóir."
+
+#. +> trunk5 stable5
+#: controllers/io/synchronize/synchronizecontroller.cpp:32
+#: controllers/shellwindow/viewareacontextmenu/viewareacontextmenucontroller.cpp:36
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Reloa&d"
+msgctxt "@action:inmenu"
+msgid "Reloa&d"
+msgstr "&Athluchtaigh"
+
+#. +> trunk5 stable5
+#: controllers/shellwindow/viewareasplit/viewareasplitcontroller.cpp:40
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Split Vertically"
+msgctxt "@action:inmenu"
+msgid "Split Vertically"
+msgstr "Roinn Go hIngearach"
+
+#. +> trunk5 stable5
+#: controllers/shellwindow/viewareasplit/viewareasplitcontroller.cpp:48
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Split Horizontal"
+msgctxt "@action:inmenu"
+msgid "Split Horizontal"
+msgstr "Roinn go Cothrománach"
+
+#. +> trunk5 stable5
+#: controllers/shellwindow/viewareasplit/viewareasplitcontroller.cpp:56
+#, fuzzy, kde-format
+#| msgctxt "@title:menu"
+#| msgid "Close View Area"
+msgctxt "@action:inmenu"
+msgid "Close View Area"
+msgstr "Dún an tAmharc"
+
+#. +> trunk5 stable5
+#: controllers/shellwindow/viewlistmenu/viewlistmenucontroller.cpp:71
+#, kde-format
+msgctxt "@item There are no windows."
+msgid "None."
+msgstr "Gan fuinneog."
+
+#. +> trunk5 stable5
+#: controllers/view/version/versioncontroller.cpp:30
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Undo"
+msgstr "Cealaigh"
+
+#. +> trunk5 stable5
+#: controllers/view/version/versioncontroller.cpp:42
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "Redo"
+msgstr "Athdhéan"
+
+#. +> trunk5 stable5
+#: controllers/view/version/versioncontroller.cpp:132
+#, kde-format
+msgctxt "@action Undo: [change]"
+msgid "Undo: %1"
+msgstr "Cealaigh: %1"
+
+#. +> trunk5 stable5
+#: controllers/view/version/versioncontroller.cpp:152
+#, kde-format
+msgctxt "@action Redo: [change]"
+msgid "Redo: %1"
+msgstr "Athdhéan: %1"
+
+#. +> trunk5 stable5
+#: controllers/view/zoom/zoomcontroller.cpp:43
+#, kde-format
+msgid "Zoom"
+msgstr "Súmáil"
+
+#. +> trunk5 stable5
+#: controllers/view/zoom/zoomcontroller.cpp:52
+#, kde-format
+msgctxt "zoom-factor (percentage)"
+msgid "%1%"
+msgstr "%1%"
+
+#. +> trunk5 stable5
+#: controllers/view/zoom/zoomcontroller.cpp:65
+#, kde-format
+msgid "&Fit to Width"
+msgstr "&Oiriúnaigh don Leithead"
+
+#. +> trunk5 stable5
+#: controllers/view/zoom/zoomcontroller.cpp:67
+#, kde-format
+msgid "&Fit to Height"
+msgstr "&Oiriúnaigh don Airde"
+
+#. +> trunk5 stable5
+#: controllers/view/zoom/zoomcontroller.cpp:69
+#, kde-format
+msgid "&Fit to Size"
+msgstr "Oiriúnaigh go dtí an &Mhéid"
+
+#. +> trunk5 stable5
+#: controllers/view/zoom/zoomslider.cpp:145
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Zoom: %1%"
+msgstr "Súmáil: %1%"
+
+#. +> trunk5 stable5
+#: core/system/documentsyncmanager_p.cpp:111
+#, kde-format
+msgctxt "@title:window"
+msgid "Save As"
+msgstr "Sábháil Mar"
+
+#. +> trunk5 stable5
+#: core/system/documentsyncmanager_p.cpp:213
+#, kde-format
+msgctxt "@title:window"
+msgid "Close"
+msgstr "Dún"
+
+#. +> trunk5 stable5
+#: core/system/documentsyncmanager_p.cpp:248
+#, kde-format
+msgctxt "@title:window"
+msgid "Reload"
+msgstr "Athluchtaigh"
+
+#. +> trunk5 stable5
+#: core/system/modelcodecmanager_p.cpp:134
+#, kde-format
+msgctxt "@action:button"
+msgid "&Export"
+msgstr "&Easpórtáil"
+
+#. +> trunk5 stable5
+#: gui/system/createdialog.cpp:33
+#, kde-format
+msgctxt "@title:window"
+msgid "Create"
+msgstr "Cruthaigh"
+
+#. +> trunk5 stable5
+#: gui/system/createdialog.cpp:44
+#, kde-format
+msgctxt "@action:button create the new document"
+msgid "&Create"
+msgstr "&Cruthaigh"
+
+#. +> trunk5 stable5
+#: gui/system/createdialog.cpp:46
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a new document with the generated data."
+msgstr "Cruthaigh cáipéis nua leis na sonraí ginte."
+
+#. +> trunk5 stable5
+#: gui/system/createdialog.cpp:48
+#, kde-kuit-format
+msgctxt "@info:whatsthis"
+msgid "If you press the <interface>Create</interface> button, the data will be generated with the settings you entered above and inserted in a new document."
+msgstr "Má bhrúnn tú an cnaipe <interface>Cruthaigh</interface>, cruthófar na sonraí de réir na socruithe a d'iontráil tú thuas agus ionsáfar i gcáipéis nua iad."
+
+#. +> trunk5 stable5
+#: gui/system/dialoghandler.cpp:34
+#, kde-kuit-format
+msgctxt "@info"
+msgid ""
+"There is already a file at<nl/>"
+"<filename>%1</filename>.<nl/>"
+"Overwrite?"
+msgstr ""
+"Tá comhad ann cheana<nl/>"
+"<filename>%1</filename>.<nl/>"
+"Forscríobh?"
+
+#. +> trunk5 stable5
+#: gui/system/dialoghandler.cpp:55
+#, kde-kuit-format
+msgctxt "@info \"%title\" has been modified."
+msgid ""
+"There are unsaved modifications to <filename>%1</filename>. They will be lost if you reload the document.<nl/>"
+"Do you want to discard them?"
+msgstr ""
+"Tá athruithe gan sábháil i <filename>%1</filename>. Caillfidh tú iad má luchtaíonn tú an cháipéis arís.<nl/>"
+"An bhfuil fonn ort na hathruithe a chaitheamh i dtraipisí?"
+
+#. +> trunk5 stable5
+#: gui/system/dialoghandler.cpp:72
+#, kde-kuit-format
+msgctxt "@info \"%title\" has been modified."
+msgid ""
+"<filename>%1</filename> has been modified.<nl/>"
+"Do you want to save your changes or discard them?"
+msgstr ""
+"Athraíodh <filename>%1</filename>.<nl/>"
+"An bhfuil fonn ort do chuid athruithe a shábháil?"
+
+#. +> trunk5 stable5
+#: gui/system/dialoghandler.cpp:92
+#, kde-kuit-format
+msgctxt "@info \"%title\" has been modified."
+msgid ""
+"<filename>%1</filename> has been modified.<nl/>"
+"Do you want to discard your changes?"
+msgstr ""
+"Athraíodh <filename>%1</filename>.<nl/>"
+"An bhfuil fonn ort do chuid athruithe a chaitheamh uait?"

@@ -1,0 +1,337 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: json files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-26 15:54+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6
+#: kmymoney/plugins/checkprinting/checkprinting.json.cmake
+msgctxt "Name"
+msgid "Check printing"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/csv/export/csvexporter.json.cmake
+msgctxt "Name"
+msgid "CSV Exporter"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/csv/import/csvimporter.json.cmake
+msgctxt "Name"
+msgid "CSV Importer"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/gnc/import/gncimporter.json.cmake
+msgctxt "Name"
+msgid "GNC Importer"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/ibanbicdata/ibanbicdata.json.cmake
+msgctxt "Name"
+msgid "IBAN/BIC Data"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/icalendar/export/icalendarexporter.json.cmake
+msgctxt "Name"
+msgid "iCalendar"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/kbanking/kbanking.json.cmake
+msgctxt "Name"
+msgid "KBanking"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/ofx/import/ofximporter.json.cmake
+msgctxt "Name"
+msgid "OFX Importer"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/onlinejobpluginmockup/onlinejobpluginmockup.json.cmake
+msgctxt "Name"
+msgid "onlinejobpluginmockup"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/onlinetasks/sepa/kmymoney-sepaorders.json.cmake
+msgctxt "Name"
+msgid "SEPA orders"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/qif/export/qifexporter.json.cmake
+msgctxt "Name"
+msgid "QIF Exporter"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/qif/import/qifimporter.json.cmake
+msgctxt "Name"
+msgid "QIF Importer"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/reconciliationreport/reconciliationreport.json.cmake
+msgctxt "Name"
+msgid "Reconciliation report"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/sql/sqlstorage.json.cmake
+msgctxt "Name"
+msgid "SQL Storage"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/views/budget/budgetview.json.cmake
+msgctxt "Name"
+msgid "Budget view"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/views/forecast/forecastview.json.cmake
+msgctxt "Name"
+msgid "Forecast view"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/views/onlinejoboutbox/onlinejoboutboxview.json.cmake
+msgctxt "Name"
+msgid "Online job outbox view"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/views/reports/reportsview.json.cmake
+msgctxt "Name"
+msgid "Reports view"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/woob/woob.json.cmake
+msgctxt "Name"
+msgid "Woob"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/xml/xmlstorage.json.cmake
+msgctxt "Name"
+msgid "XML Storage"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/checkprinting/checkprinting.json.cmake
+msgctxt "Description"
+msgid "Provides the capability to print checks"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/csv/export/csvexporter.json.cmake
+msgctxt "Description"
+msgid "Add CSV exporting to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/csv/import/csvimporter.json.cmake
+msgctxt "Description"
+msgid "Add CSV importing to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/gnc/import/gncimporter.json.cmake
+msgctxt "Description"
+msgid "Add GnuCash importing to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/ibanbicdata/ibanbicdata.json.cmake
+msgctxt "Description"
+msgid "Adds predefined IBAN/BIC numbers to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/icalendar/export/icalendarexporter.json.cmake
+msgctxt "Description"
+msgid "Exports schedules to iCalendar files"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/kbanking/kbanking.json.cmake
+msgctxt "Description"
+msgid "Add HBCI/FinTs, OFX and PayPal online banking to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/ofx/import/ofximporter.json.cmake
+msgctxt "Description"
+msgid "Add OFX importing to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/onlinejobpluginmockup/onlinejobpluginmockup.json.cmake
+msgctxt "Description"
+msgid "If mapped to an account, it pretends it could handle all onlineTasks (for developers only)."
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/onlinetasks/sepa/kmymoney-sepaorders.json.cmake
+msgctxt "Description"
+msgid "Order types for single european payment area (SEPA) orders"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/qif/export/qifexporter.json.cmake
+msgctxt "Description"
+msgid "Add QIF exporting to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/qif/import/qifimporter.json.cmake
+msgctxt "Description"
+msgid "Add QIF importing to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/reconciliationreport/reconciliationreport.json.cmake
+msgctxt "Description"
+msgid "Creates a report after each reconciliation containing data about the reconciliation process"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/sql/sqlstorage.json.cmake
+msgctxt "Description"
+msgid "Adds SQL storage support to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/views/budget/budgetview.json.cmake
+msgctxt "Description"
+msgid "Adds budget view to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/views/forecast/forecastview.json.cmake
+msgctxt "Description"
+msgid "Adds forecast view to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/views/onlinejoboutbox/onlinejoboutboxview.json.cmake
+msgctxt "Description"
+msgid "Adds online job outbox view to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/views/reports/reportsview.json.cmake
+msgctxt "Description"
+msgid "Adds reports view to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/woob/woob.json.cmake
+msgctxt "Description"
+msgid "Plugin for Woob"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/xml/xmlstorage.json.cmake
+msgctxt "Description"
+msgid "Adds XML storage support to KMyMoney"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/checkprinting/checkprinting.json.cmake
+#: kmymoney/plugins/icalendar/export/icalendarexporter.json.cmake
+#: kmymoney/plugins/reconciliationreport/reconciliationreport.json.cmake
+msgctxt "Authors Name"
+msgid "Cristian Oneț"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/csv/export/csvexporter.json.cmake
+msgctxt "Authors Name"
+msgid "Allan Anderson"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/csv/import/csvimporter.json.cmake
+msgctxt "Authors Name"
+msgid "Allan Anderson,Łukasz Wojniłowicz"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/gnc/import/gncimporter.json.cmake
+#: kmymoney/plugins/qif/export/qifexporter.json.cmake
+#: kmymoney/plugins/qif/import/qifimporter.json.cmake
+msgctxt "Authors Name"
+msgid "Michael Edwardes"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/ibanbicdata/ibanbicdata.json.cmake
+#: kmymoney/plugins/views/onlinejoboutbox/onlinejoboutboxview.json.cmake
+msgctxt "Authors Name"
+msgid "Christian Dávid"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/kbanking/kbanking.json.cmake
+msgctxt "Authors Name"
+msgid "Martin Preuss,Thomas Baumgart,Christian Dávid"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/ofx/import/ofximporter.json.cmake
+msgctxt "Authors Name"
+msgid "Ace Jones,Thomas Baumgart"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/onlinejobpluginmockup/onlinejobpluginmockup.json.cmake
+#: kmymoney/plugins/onlinetasks/sepa/kmymoney-sepaorders.json.cmake
+msgctxt "Authors Name"
+msgid "Christian David"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/sql/sqlstorage.json.cmake
+msgctxt "Authors Name"
+msgid "Tony Bloomfield,Łukasz Wojniłowicz"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/views/budget/budgetview.json.cmake
+msgctxt "Authors Name"
+msgid "Darren Gould"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/views/forecast/forecastview.json.cmake
+#: kmymoney/plugins/views/reports/reportsview.json.cmake
+msgctxt "Authors Name"
+msgid "Alvaro Soliverez,Łukasz Wojniłowicz"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/woob/woob.json.cmake
+msgctxt "Authors Name"
+msgid "Romain Bignon"
+msgstr ""
+
+#. +> trunk6
+#: kmymoney/plugins/xml/xmlstorage.json.cmake
+msgctxt "Authors Name"
+msgid "Kevin Tambascio,Thomas Baumgart,Ace Jones,Łukasz Wojniłowicz"
+msgstr ""

@@ -1,0 +1,1354 @@
+# Irish translation of palapeli
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the palapeli package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: playground-games/palapeli.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-22 11:23+0100\n"
+"PO-Revision-Date: 2008-03-23 09:45-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: libpala/slicerpropertyset.cpp:74
+#, kde-format
+msgid "Piece count"
+msgstr "Líon na bpíosaí"
+
+#. +> trunk6 stable6
+#: libpala/slicerpropertyset.cpp:78
+#, kde-format
+msgid "Piece aspect ratio"
+msgstr "Cóimheas treoíochta na bpíosaí"
+
+#. +> trunk6 stable6
+#: slicers/goldberg/grid.h:27
+#, kde-format
+msgctxt "Puzzle grid type"
+msgid "Predefined settings"
+msgstr "Réamhshocruithe"
+
+#. +> trunk6 stable6
+#: slicers/goldberg/grid.h:34
+#, kde-format
+msgctxt "Puzzle grid type"
+msgid "Cairo (pentagonal) grid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/grid.h:41
+#, kde-format
+msgctxt "Puzzle grid type"
+msgid "Hexagonal grid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/grid.h:48
+#, kde-format
+msgctxt "Puzzle grid type"
+msgid "Rectangular grid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/grid.h:55
+#, kde-format
+msgctxt "Puzzle grid type"
+msgid "Rotrex (rhombi-trihexagonal) grid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/grid.h:62
+#, kde-format
+msgctxt "Puzzle grid type"
+msgid "Irregular grid"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:39
+#, kde-format
+msgid "Approx. piece count"
+msgstr "Líon measta na bpíosaí"
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:45
+#, kde-format
+msgid "Quick preset"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:47
+#, kde-format
+msgctxt "@item puzzle shape preset"
+msgid "Ordinary"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:48
+#: slicers/goldberg/slicer-goldberg.cpp:125
+#, kde-format
+msgctxt "@item puzzle shape preset"
+msgid "Very regular"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:49
+#: slicers/goldberg/slicer-goldberg.cpp:126
+#, kde-format
+msgctxt "@item puzzle shape preset"
+msgid "Very diverse"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:50
+#: slicers/goldberg/slicer-goldberg.cpp:127
+#, kde-format
+msgctxt "@item puzzle shape preset"
+msgid "Large plugs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:58
+#, kde-format
+msgid "Flipped edge percentage"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:65
+#, kde-format
+msgid "Edge curviness"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:71
+#, kde-format
+msgid "Plug size"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:78
+#, kde-format
+msgid "Diversity of curviness"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:85
+#, kde-format
+msgid "Diversity of plug position"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:92
+#, kde-format
+msgid "Diversity of plugs"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:99
+#, kde-format
+msgid "Diversity of piece size"
+msgstr ""
+
+#. +> trunk6 stable6
+#: slicers/goldberg/slicer-goldberg.cpp:108
+#, kde-format
+msgid "Dump grid image"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/config/configdialog.cpp:61
+#, fuzzy, kde-format
+#| msgid "General settings"
+msgctxt "@title:tab"
+msgid "General"
+msgstr "Socruithe ginearálta"
+
+#. +> trunk6 stable6
+#: src/config/configdialog.cpp:64
+#, fuzzy, kde-format
+#| msgctxt "refers to no mouse buttons being pressed"
+#| msgid "No-Button"
+msgctxt "@title:tab"
+msgid "Mouse Interaction"
+msgstr "Gan Cnaipe"
+
+#. +> trunk6 stable6
+#: src/config/configdialog.cpp:111
+#, kde-format
+msgctxt "@item:inlistbox space for solution"
+msgid "Center"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/config/configdialog.cpp:112
+#, fuzzy, kde-format
+#| msgctxt "This is used for describing that no mouse action has been assigned to this interaction plugin."
+#| msgid "None"
+msgctxt "@item:inlistbox space for solution"
+msgid "None"
+msgstr "Gan gníomh"
+
+#. +> trunk6 stable6
+#: src/config/configdialog.cpp:113
+#, kde-format
+msgctxt "@item:inlistbox space for solution"
+msgid "Top Left"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/config/configdialog.cpp:114
+#, kde-format
+msgctxt "@item:inlistbox space for solution"
+msgid "Top Right"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/config/configdialog.cpp:115
+#, kde-format
+msgctxt "@item:inlistbox space for solution"
+msgid "Bottom Left"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/config/configdialog.cpp:116
+#, kde-format
+msgctxt "@item:inlistbox space for solution"
+msgid "Bottom Right"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/config/mouseinputbutton.cpp:45
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Remove this trigger"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/config/mouseinputbutton.cpp:119 src/config/mouseinputbutton.cpp:252
+#, fuzzy, kde-format
+#| msgid "Input here..."
+msgctxt "@info:placeholder"
+msgid "Input here…"
+msgstr "Ionchur anseo..."
+
+#. +> trunk6 stable6
+#: src/config/mouseinputbutton.cpp:120
+#, fuzzy, kde-format
+#| msgid "Hold down the modifier keys you want, then click a mouse button or scroll a mouse wheel here"
+msgctxt "@info:tooltip"
+msgid "Hold down the modifier keys you want, then click a mouse button or scroll a mouse wheel here"
+msgstr "Coinnigh na heochracha mionathraithe atá tú ag iarraidh síos, ansin cliceáil cnaipe ar an luch nó scrollaigh roth luiche anseo"
+
+#. +> trunk6 stable6
+#: src/config/mouseinputbutton.cpp:225
+#, fuzzy, kde-format
+#| msgctxt "This is used for describing that no mouse action has been assigned to this interaction plugin."
+#| msgid "None"
+msgctxt "@item This is used for describing that no mouse action has been assigned to this interaction plugin."
+msgid "None"
+msgstr "Gan gníomh"
+
+#. +> trunk6 stable6
+#: src/config/mouseinputbutton.cpp:231
+#, fuzzy, kde-format
+#| msgid "Click to change how an action is triggered"
+msgctxt "@info:tooltip"
+msgid "Click to change how an action is triggered"
+msgstr "Cliceáil chun an tslí a gcuirtear gníomh ar siúl a athrú"
+
+#. +> trunk6 stable6
+#: src/config/triggerconfigwidget.cpp:20
+#, fuzzy, kde-format
+#| msgctxt "refers to no mouse buttons being pressed"
+#| msgid "No-Button"
+msgctxt "@title:tab"
+msgid "Mouse Buttons"
+msgstr "Gan Cnaipe"
+
+#. +> trunk6 stable6
+#: src/config/triggerconfigwidget.cpp:21
+#, kde-format
+msgctxt "@title:tab"
+msgid "Mouse Wheel"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/config/triggerlistview.cpp:17
+#, kde-format
+msgid "Interaction with pieces"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/config/triggerlistview.cpp:19
+#, kde-format
+msgid "Interaction with the puzzle table"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/config/triggerlistview.cpp:21
+#, kde-format
+msgid "Interaction with the viewport"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:38
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Create new puzzle"
+msgctxt "@title:window"
+msgid "Create New Puzzle"
+msgstr "Cruthaigh puzal nua"
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:51
+#, kde-format
+msgctxt "@label:chooser"
+msgid "Image file:"
+msgstr "Comhad íomhá:"
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:52
+#, kde-format
+msgctxt "@info"
+msgid "Please describe below the image which you have chosen."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:53
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Image name:"
+msgstr "Ainm na híomhá:"
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:54
+#, kde-format
+msgctxt "@label:textbox (like in: This comment is optional.)"
+msgid "Optional comment:"
+msgstr "Nóta roghnach:"
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:55
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Name of image author:"
+msgstr "Ainm údar na híomhá:"
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:63
+#, kde-format
+msgctxt "@item:inlistbox (page name in an assistant dialog)"
+msgid "Choose image"
+msgstr "Roghnaigh íomhá"
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:64
+#, kde-format
+msgctxt "@title:tab (page header in an assistant dialog)"
+msgid "Specify the source image to be sliced into pieces"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:66
+#, kde-format
+msgctxt "@item:inlistbox (page name in an assistant dialog)"
+msgid "Choose slicer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:67
+#, kde-format
+msgctxt "@title:tab (page header in an assistant dialog)"
+msgid "Choose a slicing method"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:68
+#, kde-format
+msgctxt "@item:inlistbox (page name in an assistant dialog)"
+msgid "Configure slicer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:69
+#, kde-format
+msgctxt "@title:tab (page header in an assistant dialog)"
+msgid "Tweak the parameters of the chosen slicing method"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:112
+#, kde-format
+msgid "Puzzle cannot be created: The slicer plugin could not be loaded."
+msgstr "Ní féidir puzal a chruthú: níorbh fhéidir an breiseán gearrtha a luchtú."
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:119
+#, kde-format
+msgid "Puzzle cannot be created: The file you selected is not an image."
+msgstr "Ní féidir puzal a chruthú: Ní íomhá é an comhad a roghnaigh tú."
+
+#. +> trunk6 stable6
+#: src/creator/puzzlecreator.cpp:127
+#, kde-format
+msgid "Puzzle cannot be created: Slicing failed because of undetermined problems."
+msgstr "Ní féidir puzal a chruthú: Theip ar ghearradh de bharr fadhbanna anaithnide."
+
+#. +> trunk6 stable6
+#: src/engine/constraintinteractor.cpp:15
+#, kde-format
+msgid "Change size of puzzle table area by dragging its edges"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:180 src/engine/gameplay.cpp:1137
+#, fuzzy, kde-format
+#| msgid "You have finished the puzzle the last time. Do you want to restart it now?"
+msgid "You have finished the puzzle. Do you want to restart it now?"
+msgstr "Chríochnaigh tú an puzal le linn an tseisiúin is déanaí. An bhfuil fonn ort é a atosú anois?"
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:181 src/engine/gameplay.cpp:1138
+#, kde-format
+msgctxt "@action:button"
+msgid "Restart"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:296
+#, kde-format
+msgid "The following puzzles will be deleted. This action cannot be undone."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:315 src/engine/gameplay.cpp:341
+#, fuzzy, kde-format
+#| msgctxt "Filter for a file dialog"
+#| msgid "*.puzzle|Palapeli puzzles (*.puzzle)"
+msgctxt "Filter for a file dialog"
+msgid "Palapeli puzzles (*.puzzle)"
+msgstr "*.puzzle|Puzail Palapeli (*.puzzle)"
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:317
+#, fuzzy, kde-format
+#| msgid "Automatic builder for Palapeli puzzles"
+msgctxt "@title:window"
+msgid "Import Palapeli Puzzles"
+msgstr "Tógálaí uathoibríoch puzal Palapeli"
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:343
+#, fuzzy, kde-format
+#| msgid "Automatic builder for Palapeli puzzles"
+msgctxt "@title:window"
+msgid "Save Palapeli Puzzles"
+msgstr "Tógálaí uathoibríoch puzal Palapeli"
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:358
+#, fuzzy, kde-format
+#| msgid "Create &new puzzle..."
+msgctxt "@title:window"
+msgid "Create a Piece Holder"
+msgstr "Cruthaigh puzal &nua..."
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:359
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Enter a short name (optional):"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:405
+#, kde-format
+msgid "You need to click on a piece holder to select it before you can delete it, or you can just click on its Close button."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:424
+#, kde-format
+msgid "The selected piece holder must be empty before you can delete it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:443
+#, kde-format
+msgid "The selected piece holder must contain some pieces for 'Select all' to use."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:449
+#, kde-format
+msgid "You need to click on a piece holder to select it before you can select all the pieces in it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:469
+#, kde-format
+msgid "To rearrange pieces, either the puzzle table must have some selected pieces or there must be a selected holder with some selected pieces in it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:531
+#, kde-format
+msgid "You need to have a piece holder and click it to select it before you can transfer pieces into or out of it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:551
+#, kde-format
+msgid "You have selected to transfer a large piece containing more than six small pieces to a holder. Do you really wish to do that?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:556
+#, kde-format
+msgctxt "@action:button"
+msgid "Transfer"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:575
+#, kde-format
+msgid "You need to select one or more pieces to be transferred out of the selected holder or select pieces from the puzzle table to be transferred into it."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:593
+#, kde-format
+msgid "You need to select one or more pieces to be transferred from the previous holder into the newly selected holder."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:601
+#, kde-format
+msgid "You need to have at least two holders, one of them selected and with selected pieces inside it, before you can transfer pieces to a second holder."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:1078
+#, kde-format
+msgctxt "For holding pieces"
+msgid "Hand"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:1081
+#, kde-format
+msgctxt "Hints for solving large puzzles"
+msgid ""
+"You have just created a large puzzle: Palapeli has several features to help you solve it within the limited space on the desktop. They are described in detail in the Palapeli Handbook (on the Help menu). Here are just a few quick tips.\n"
+"\n"
+"Before beginning, it may be best not to use bevels or shadowing with large puzzles (see the Settings dialog), because they make loading slower and highlighting harder to see when the pieces in the view are very small.\n"
+"\n"
+"The first feature is the puzzle Preview (a picture of the completed puzzle) and a toolbar button to turn it on or off. If you hover over it with the mouse, it magnifies parts of the picture, so the window size you choose for the Preview can be quite small.\n"
+"\n"
+"Next, there are close-up and distant views of the puzzle table, which you can switch quickly by using a mouse button (default Middle-Click). In close-up view, use the empty space in the scroll bars to search through the puzzle pieces a 'page' at a time. You can adjust the two views by zooming in or out and your changes will be remembered.\n"
+"\n"
+"Then there is a space on the puzzle table reserved for building up the solution.\n"
+"\n"
+"Last but not least, there are small windows called 'holders'. They are for sorting pieces into groups such as edges, sky or white house on left. You can have as many holders as you like and can give them names. You should already have one named 'Hand', for carrying pieces from wherever you find them to the solution area.\n"
+"\n"
+"You use a special mouse click to transfer pieces into or out of a holder (default Shift Left-Click). First make sure the holder you want to use is active: it should have a blue outline. If not, click on it. To transfer pieces into the holder, select them on the puzzle table then do the special click to 'teleport' them into the holder. Or you can just do the special click on one piece at a time.\n"
+"\n"
+"To transfer pieces out of a holder, make sure no pieces are selected on the puzzle table, go into the holder window and select some pieces, using normal Palapeli mouse operations, then go back to the puzzle table and do the special click on an empty space where you want the pieces to arrive. Transfer no more than a few pieces at a time, to avoid collisions of pieces on the puzzle table.\n"
+"\n"
+"By the way, holders can do almost all the things the puzzle table and its window can do, including joining pieces to build up a part of the solution."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:1131
+#, fuzzy, kde-format
+#| msgid "Automatic builder for Palapeli puzzles"
+msgctxt "@title:window for hints"
+msgid "Solving Large Puzzles"
+msgstr "Tógálaí uathoibríoch puzal Palapeli"
+
+#. +> trunk6 stable6
+#: src/engine/gameplay.cpp:1195
+#, kde-format
+msgid "Great! You have finished the puzzle."
+msgstr "Iontach! Chríochnaigh tú an puzal."
+
+#. +> trunk6 stable6
+#: src/engine/interactors.cpp:25
+#, kde-format
+msgctxt "Description (used like a name) for a mouse interaction method"
+msgid "Move pieces by dragging"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/interactors.cpp:140
+#, kde-format
+msgctxt "Description (used like a name) for a mouse interaction method"
+msgid "Select pieces by clicking"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/interactors.cpp:176
+#, kde-format
+msgctxt "Works instantly, without dragging"
+msgid "Teleport pieces to or from a holder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/interactors.cpp:201
+#, kde-format
+msgctxt "Description (used like a name) for a mouse interaction method"
+msgid "Move viewport by dragging"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/interactors.cpp:227
+#, kde-format
+msgctxt "As in a movie scene"
+msgid "Switch to close-up or distant view"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/interactors.cpp:247
+#, kde-format
+msgctxt "Description (used like a name) for a mouse interaction method"
+msgid "Zoom viewport"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/interactors.cpp:266
+#, kde-format
+msgctxt "Description (used like a name) for a mouse interaction method"
+msgid "Scroll viewport horizontally"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/interactors.cpp:268
+#, kde-format
+msgctxt "Description (used like a name) for a mouse interaction method"
+msgid "Scroll viewport vertically"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/interactors.cpp:347
+#, kde-format
+msgctxt "Description (used like a name) for a mouse interaction method"
+msgid "Select multiple pieces at once"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/interactors.cpp:411
+#, kde-format
+msgctxt "Description (used like a name) for a mouse interaction method"
+msgid "Toggle lock state of the puzzle table area"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/puzzlepreview.cpp:29
+#, kde-format
+msgctxt "@title:window"
+msgid "Preview of Completed Puzzle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/puzzlepreview.cpp:36
+#, kde-format
+msgctxt "text in preview window"
+msgid "Image is not available."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/puzzlepreview.cpp:64
+#, fuzzy, kde-format
+#| msgctxt "For usage as window title"
+#| msgid "%1 - Palapeli"
+msgctxt "@title:window"
+msgid "%1 - Preview"
+msgstr "%1 - Palapeli"
+
+#. +> trunk6 stable6
+#: src/engine/texturehelper.cpp:52
+#, kde-format
+msgctxt "@item:inlistbox"
+msgid "Single color"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:87
+#, kde-format
+msgctxt "a keyboard modifier"
+msgid "Shift"
+msgstr "Shift"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:88
+#, kde-format
+msgctxt "a keyboard modifier"
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:89
+#, kde-format
+msgctxt "a keyboard modifier"
+msgid "Alt"
+msgstr "Alt"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:90
+#, kde-format
+msgctxt "a keyboard modifier"
+msgid "Meta"
+msgstr "Meta"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:91
+#, kde-format
+msgctxt "a special keyboard modifier"
+msgid "GroupSwitch"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:92
+#, kde-format
+msgctxt "refers to no mouse buttons being pressed"
+msgid "No-Button"
+msgstr "Gan Cnaipe"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:95
+#, kde-format
+msgctxt "a mouse button"
+msgid "Left-Button"
+msgstr "Cnaipe Ar Chlé"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:96
+#, kde-format
+msgctxt "a mouse button"
+msgid "Right-Button"
+msgstr "Cnaipe Ar Dheis"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:97
+#, kde-format
+msgctxt "a mouse button"
+msgid "Middle-Button"
+msgstr "Cnaipe sa Lár"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:98
+#, kde-format
+msgctxt "a special mouse button"
+msgid "XButton1"
+msgstr "XCnaipe1"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:99
+#, kde-format
+msgctxt "a special mouse button"
+msgid "XButton2"
+msgstr "XCnaipe2"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:100
+#, kde-format
+msgid "Horizontal-Scroll"
+msgstr "Scrollú Cothrománach"
+
+#. +> trunk6 stable6
+#: src/engine/trigger.cpp:101
+#, kde-format
+msgid "Vertical-Scroll"
+msgstr "Scrollú Ingearach"
+
+#. +> trunk6 stable6
+#: src/engine/view.cpp:338
+#, kde-format
+msgid "Your progress is saved automatically while you play."
+msgstr "Sábháiltear do dhul chun cinn go huathoibríoch le linn duit a bheith ag imirt."
+
+#. +> trunk6 stable6
+#: src/engine/view.cpp:339
+#, fuzzy, kde-format
+#| msgctxt "used as caption for a dialog that explains the autosave feature"
+#| msgid "Automatic saving"
+msgctxt "@title:window dialog that explains the autosave feature"
+msgid "Automatic Saving"
+msgstr "Sábháil uathoibríoch"
+
+#. +> trunk6 stable6
+#: src/engine/zoomwidget.cpp:26
+#, fuzzy, kde-format
+#| msgid "Puzzle table toolbar"
+msgctxt "@info:tooltip"
+msgid "Lock the puzzle table area"
+msgstr "Barra uirlisí tábla puzail"
+
+#. +> trunk6 stable6
+#: src/file-io/collection-delegate.cpp:106
+#, kde-format
+msgid "[No name]"
+msgstr "[Gan ainm]"
+
+#. +> trunk6 stable6
+#: src/file-io/collection-delegate.cpp:111
+#, kde-format
+msgctxt "Puzzle description, %2 = name string, %1 = piece count"
+msgid "%2 (%1 piece)"
+msgid_plural "%2 (%1 pieces)"
+msgstr[0] "%2 (%1 phíosa)"
+msgstr[1] "%2 (%1 phíosa)"
+msgstr[2] "%2 (%1 phíosa)"
+msgstr[3] "%2 (%1 bpíosa)"
+msgstr[4] "%2 (%1 píosa)"
+
+#. +> trunk6 stable6
+#: src/file-io/collection-delegate.cpp:130
+#, fuzzy, kde-format
+#| msgctxt "Author attribution, e.g. \"by Jack\""
+#| msgid "by %1"
+msgctxt "@info author attribution"
+msgid "By %1"
+msgstr "le %1"
+
+#. +> trunk6 stable6
+#: src/file-io/collection-view.cpp:58
+#, kde-format
+msgctxt "@action:button that pops up sorting strategy selection menu"
+msgid "Sort List…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/file-io/collection-view.cpp:61
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu selects sorting strategy for collection list"
+#| msgid "By title"
+msgctxt "@action:inmenu selects sorting strategy for collection list"
+msgid "By Title"
+msgstr "De réir teidil"
+
+#. +> trunk6 stable6
+#: src/file-io/collection-view.cpp:62
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu selects sorting strategy for collection list"
+#| msgid "By piece count"
+msgctxt "@action:inmenu selects sorting strategy for collection list"
+msgid "By Piece Count"
+msgstr "De réir líon na bpíosaí"
+
+#. +> trunk6 stable6
+#: src/file-io/collection.cpp:36
+#, fuzzy, kde-format
+#| msgid "Loading puzzle..."
+msgctxt "@info:status"
+msgid "Loading puzzle…"
+msgstr "Puzal á luchtú..."
+
+#. +> trunk6 stable6
+#: src/file-io/collection.cpp:109
+#, fuzzy, kde-format
+#| msgid "Back to &collection"
+msgid "Loading collection"
+msgstr "Ar ais go dtí mo &bhailiúchán"
+
+#. +> trunk6 stable6
+#: src/importhelper.cpp:28
+#, kde-format
+msgctxt "command line message"
+msgid "Error: No puzzle file given."
+msgstr "Earráid: níor tugadh aon chomhad puzail."
+
+#. +> trunk6 stable6
+#: src/importhelper.cpp:40
+#, kde-format
+msgid "Importing puzzle \"%1\" into your collection"
+msgstr "Puzal \"%1\" á iompórtáil go dtí do bhailiúchán"
+
+#. +> trunk6 stable6
+#: src/main.cpp:47
+#, kde-format
+msgctxt "The application's name"
+msgid "Palapeli"
+msgstr "Palapeli"
+
+#. +> trunk6 stable6
+#: src/main.cpp:49
+#, fuzzy, kde-format
+#| msgid "KDE Jigsaw Puzzle Game"
+msgid "Jigsaw Puzzle Game"
+msgstr "Cluiche Míreanna Mearaí KDE"
+
+#. +> trunk6 stable6
+#: src/main.cpp:51
+#, kde-format
+msgid "Copyright 2009, 2010, Stefan Majewsky"
+msgstr "© 2009, 2010 Stefan Majewsky"
+
+#. +> trunk6 stable6
+#: src/main.cpp:54
+#, kde-format
+msgid "Stefan Majewsky"
+msgstr "Stefan Majewsky"
+
+#. +> trunk6 stable6
+#: src/main.cpp:55
+#, kde-format
+msgid "Johannes Loehnert"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:56
+#, kde-format
+msgid "The option to preview the completed puzzle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:65
+#, kde-format
+msgid "Path to puzzle file (will be opened if -i is not given)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:66
+#, kde-format
+msgid "Import the given puzzle file into the local collection (does nothing if no puzzle file is given). The main window will not be shown after importing the given puzzle."
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/main.cpp:80
+#, kde-format
+msgid "No file to import given"
+msgstr ""
+
+#. i18n: ectx: label, entry (SnappingPrecision), group (Puzzling)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:6
+#, kde-format
+msgid "Precision of snapping (as a percentage of piece size)."
+msgstr ""
+
+#. i18n: ectx: label, entry (ViewBackground), group (Appearance)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:12
+#, kde-format
+msgid "The filename of the background image to use for the View, or \"__color__\" if a solid color should be used (see key \"ViewBackgroundColor\")."
+msgstr ""
+
+#. i18n: ectx: label, entry (ViewBackgroundColor), group (Appearance)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:16
+#, kde-format
+msgid "The background color to use for the View (if the key \"ViewBackground\" is set to \"__color__\")."
+msgstr ""
+
+#. i18n: ectx: label, entry (ViewHighlightColor), group (Appearance)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:20
+#, kde-format
+msgid "The highlighting color to use for selecting pieces in the View."
+msgstr ""
+
+#. i18n: ectx: label, entry (SolutionArea), group (Appearance)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:24
+#, kde-format
+msgid "Where to reserve space on the puzzle table for the solution, when shuffling or re-shuffling the pieces."
+msgstr ""
+
+#. i18n: ectx: label, entry (PieceSpacing), group (Appearance)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:28
+#, kde-format
+msgid "Spacing of pieces in puzzle grids relative to the size of the largest piece (spacing factor is 1.0 + 0.05 * value)."
+msgstr ""
+
+#. i18n: ectx: label, entry (ShowStatusBar), group (Appearance)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:32
+#, kde-format
+msgid "Whether to show the status bar on the puzzle table. (It is not a real status bar, but the position and provided functionality is similar.)"
+msgstr ""
+
+#. i18n: ectx: label, entry (PieceShadowsEnabled), group (Appearance)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:36
+#, kde-format
+msgid "Whether to render shadows below the puzzle pieces. Turning this off might improve rendering performance."
+msgstr ""
+
+#. i18n: ectx: label, entry (PieceBevelsEnabled), group (Appearance)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:40
+#, kde-format
+msgid "Whether to render bevels on the puzzle pieces. Turning this off might improve puzzle loading performance."
+msgstr ""
+
+#. i18n: ectx: label, entry (PuzzlePreviewVisible), group (PuzzlePreview)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:46
+#, kde-format
+msgid "Whether the preview window was switched on last time Palapeli was run."
+msgstr ""
+
+#. i18n: ectx: label, entry (PuzzlePreviewGeometry), group (PuzzlePreview)
+#. +> trunk6 stable6
+#: src/palapeli.kcfg:50
+#, kde-format
+msgid "Last position and size of puzzle preview."
+msgstr ""
+
+#. i18n: ectx: ToolBar (mainToolBar)
+#. +> trunk6 stable6
+#: src/palapeliui.rc:35
+#, kde-format
+msgid "Main toolbar"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. +> trunk6 stable6
+#: src/settings.ui:17
+#, kde-format
+msgctxt "@title:group"
+msgid "Puzzle table"
+msgstr "Tábla puzail"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. +> trunk6 stable6
+#: src/settings.ui:25
+#, kde-format
+msgctxt "@label:chooser for different types of background textures"
+msgid "Background:"
+msgstr "Cúlra:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#. +> trunk6 stable6
+#: src/settings.ui:55
+#, kde-format
+msgid "Color for highlighting selected pieces:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#. +> trunk6 stable6
+#: src/settings.ui:75
+#, kde-format
+msgid "Space for solution:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. +> trunk6 stable6
+#: src/settings.ui:94
+#, kde-format
+msgid "No space is provided with puzzles of less than 20 pieces. Changes will take effect when a puzzle is created or re-started."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. +> trunk6 stable6
+#: src/settings.ui:106
+#, kde-format
+msgid "Spacing of pieces in puzzle grids (1.0-1.5):"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#. +> trunk6 stable6
+#: src/settings.ui:156
+#, kde-format
+msgid "Piece appearance"
+msgstr "Cuma na bpíosaí"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PieceBevelsEnabled)
+#. +> trunk6 stable6
+#: src/settings.ui:162
+#, kde-format
+msgid "Draw bevels to create a 3-dimensional appearance"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PieceShadowsEnabled)
+#. +> trunk6 stable6
+#: src/settings.ui:172
+#, kde-format
+msgid "Draw shadows below pieces"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. +> trunk6 stable6
+#: src/settings.ui:182
+#, kde-format
+msgid "These options can be disabled when Palapeli is running very slowly. Changes will take effect only when a new puzzle is started."
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. +> trunk6 stable6
+#: src/settings.ui:195
+#, fuzzy, kde-format
+#| msgid "Piece aspect ratio"
+msgctxt "@title:group"
+msgid "Piece behavior"
+msgstr "Cóimheas treoíochta na bpíosaí"
+
+#. i18n: ectx: property (text), widget (QLabel, label_1)
+#. +> trunk6 stable6
+#: src/settings.ui:201
+#, kde-format
+msgctxt "@label:slider"
+msgid "Snapping precision:"
+msgstr "Beachtas léime:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. +> trunk6 stable6
+#: src/settings.ui:241
+#, kde-format
+msgctxt "@item:inrange description for the \"snapping precision\" setting"
+msgid "Very precise (harder)"
+msgstr "An-bheacht (níos deacra)"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. +> trunk6 stable6
+#: src/settings.ui:270
+#, kde-format
+msgctxt "@item:inrange description for the \"snapping precision\" setting"
+msgid "Unprecise (easier)"
+msgstr "Neamhbheacht (níos éasca)"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:54
+#, fuzzy, kde-format
+#| msgid "Show statusbar of puzzle table"
+msgid "Show Statusbar of Puzzle Table"
+msgstr "Taispeáin barra stádais an tábla puzail"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:58
+#, fuzzy, kde-format
+#| msgid "Back to &collection"
+msgctxt "@action"
+msgid "Back to &Collection"
+msgstr "Ar ais go dtí mo &bhailiúchán"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:59
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Go back to the collection to choose another puzzle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:66
+#, fuzzy, kde-format
+#| msgctxt "@title:window"
+#| msgid "Create new puzzle"
+msgctxt "@action"
+msgid "Create &New Puzzle…"
+msgstr "Cruthaigh puzal nua"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:67
+#, fuzzy, kde-format
+#| msgid "Create a new puzzle using an image file from your disk"
+msgctxt "@info:tooltip"
+msgid "Create a new puzzle using an image file from your disk"
+msgstr "Cruthaigh puzal nua ó chomhad íomhá ar do dhiosca"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:74
+#, fuzzy, kde-format
+#| msgid "Create puzzle"
+msgctxt "@action"
+msgid "&Delete Puzzle"
+msgstr "Cruthaigh puzal"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:76
+#, fuzzy, kde-format
+#| msgid "Delete the selected puzzle from your collection"
+msgctxt "@info:tooltip"
+msgid "Delete the selected puzzle from your collection"
+msgstr "Scrios an puzal roghnaithe ó do bhailiúchán"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:83
+#, fuzzy, kde-format
+#| msgid "&Import from file..."
+msgctxt "@action"
+msgid "&Import from File…"
+msgstr "&Iompórtáil ó chomhad..."
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:84
+#, fuzzy, kde-format
+#| msgid "Import a new puzzle from a file into your collection"
+msgctxt "@info:tooltip"
+msgid "Import a new puzzle from a file into your collection"
+msgstr "Iompórtáil puzal nua ó chomhad go dtí do bhailiúchán"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:90
+#, fuzzy, kde-format
+#| msgid "&Export to file..."
+msgctxt "@action"
+msgid "&Export to File…"
+msgstr "&Easpórtáil go comhad..."
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:92
+#, fuzzy, kde-format
+#| msgid "Export the selected puzzle from your collection into a file"
+msgctxt "@info:tooltip"
+msgid "Export the selected puzzle from your collection into a file"
+msgstr "Easpórtáil an puzal roghnaithe ó do bhailiúchán go comhad"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:99
+#, fuzzy, kde-format
+#| msgid "&Restart puzzle..."
+msgctxt "@action"
+msgid "&Restart Puzzle…"
+msgstr "&Atosaigh an puzal..."
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:100
+#, fuzzy, kde-format
+#| msgid "Delete the saved progress"
+msgctxt "@info:tooltip"
+msgid "Delete the saved progress and reshuffle the pieces"
+msgstr "Scrios an dul chun cinn sábháilte"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:107
+#, fuzzy, kde-format
+#| msgid "Create &new puzzle..."
+msgctxt "@action"
+msgid "&Create Piece Holder…"
+msgstr "Cruthaigh puzal &nua..."
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:108
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Create a temporary holder for sorting pieces"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:116
+#, fuzzy, kde-format
+#| msgid "Create &new puzzle..."
+msgctxt "@action"
+msgid "&Delete Piece Holder"
+msgstr "Cruthaigh puzal &nua..."
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:117
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Delete a selected temporary holder when it is empty"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:124
+#, fuzzy, kde-format
+#| msgid "Create &new puzzle..."
+msgctxt "@action"
+msgid "&Select All in Holder"
+msgstr "Cruthaigh puzal &nua..."
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:125
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Select all pieces in a selected piece holder"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:131
+#, kde-format
+msgctxt "@action"
+msgid "&Rearrange Pieces"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:132
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Rearrange all pieces in a selected piece holder or selected pieces in any window"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:140
+#, fuzzy, kde-format
+#| msgid "Overview"
+msgctxt "@option:check"
+msgid "Show Preview"
+msgstr "Foramharc"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:141
+#, fuzzy, kde-format
+#| msgid "Overview"
+msgctxt "@option:check Preview is a noun here"
+msgid "Preview"
+msgstr "Foramharc"
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:142
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Show or hide the image of the completed puzzle"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:156
+#, kde-format
+msgctxt "@action"
+msgid "Enable All Messages"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:165
+#, kde-format
+msgid "Enable all messages again?"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/window/mainwindow.cpp:166
+#, kde-format
+msgctxt "@action:button"
+msgid "Enable"
+msgstr ""
+
+#. +> trunk6 stable6
+#: src/window/puzzletablewidget.cpp:49
+#, kde-format
+msgid "No puzzle loaded"
+msgstr "Níl aon phuzal luchtaithe"
+
+#. +> trunk6 stable6
+#: src/window/puzzletablewidget.cpp:118
+#, kde-format
+msgid "You finished the puzzle."
+msgstr "Chríochnaigh tú an puzal."
+
+#. +> trunk6 stable6
+#: src/window/puzzletablewidget.cpp:122
+#, fuzzy, kde-format
+#| msgctxt "Progress display"
+#| msgid "%1% finished"
+msgctxt "@info:progress"
+msgid "%1% finished"
+msgstr "%1% críochnaithe"

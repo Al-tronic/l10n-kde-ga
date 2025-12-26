@@ -1,0 +1,210 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This file is copyright:
+# This file is distributed under the same license as the hana package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hana\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-10-01 10:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. +> trunk6
+#: src/Components/AddFilesField.qml:16
+msgctxt "@action:button"
+msgid "Add files"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/AddFilesField.qml:25
+msgctxt "@title:window"
+msgid "Select files"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/AvoidDarkFramesField.qml:15
+msgctxt "@option:check"
+msgid "Avoid dark frames"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/AvoidDarkFramesField.qml:24
+msgctxt "@info:tooltip"
+msgid ""
+"Checked: tries to avoid very dark frames by changing the time the thumbnail is taken<br>"
+"<b>Can be very slow</b><br>"
+"<br>"
+"Unchecked: thumbnail is taken regardless of its content"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/BackgroundField.qml:20
+#: src/Components/VideoInfoBackgroundColorField.qml:22
+msgctxt "@label"
+msgid "Background color"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/BackgroundField.qml:47
+#: src/Components/VideoInfoBackgroundColorField.qml:49
+#: src/Components/VideoInfoTextColorField.qml:49
+msgctxt "@info:tooltip"
+msgid "Select a color"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/BackgroundField.qml:54
+#: src/Components/VideoInfoBackgroundColorField.qml:56
+#: src/Components/VideoInfoTextColorField.qml:56
+msgctxt "@title:window"
+msgid "Select Color"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ClearFilesField.qml:15
+msgctxt "@action:button; Empty the list of files. The files are not deleted from disk"
+msgid "Clear files"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/CloseAppButton.qml:13
+msgctxt "@action:button"
+msgid "Close"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ColumnsField.qml:21
+msgctxt "@label"
+msgid "Columns"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ImageSaveLocationField.qml:25
+msgctxt "@label where the image is going to be saved"
+msgid "Save location"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ImageSaveLocationField.qml:36
+msgctxt "@label:listbox left mouse button"
+msgid "Same folder as video"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ImageSaveLocationField.qml:37
+msgctxt "@label:listbox middle mouse button"
+msgid "Folder next to video"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ImageSaveLocationField.qml:38
+msgctxt "@label:listbox right mouse button"
+msgid "Custom folder"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ImageSaveLocationField.qml:67
+msgctxt "@info:tooltip"
+msgid "name of the folder"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ImageSaveLocationField.qml:90
+msgctxt "@info:tooltip"
+msgid "path to the folder"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ImageSaveLocationField.qml:98
+msgctxt "@title:window"
+msgid "Select folder"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/RowsField.qml:21
+msgctxt "@label"
+msgid "Rows"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/RunField.qml:15
+msgctxt "@action:button"
+msgid "Run"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ShowVideoInfoField.qml:15
+msgctxt "@option:check"
+msgid "Show video info"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/SpacingField.qml:21
+msgctxt "@label"
+msgid "Spacing"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/ThumbWidthField.qml:21
+msgctxt "@label"
+msgid "Thumbnail width"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/VideoInfoAlwaysShowHoursField.qml:15
+msgctxt "@label"
+msgid "Always show hours"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/VideoInfoAlwaysShowHoursField.qml:25
+msgctxt "@info:tooltip"
+msgid ""
+"Checked: shows hours as “00“ (two zeros) when video length is under an hour\n"
+"\n"
+"Unchecked: only minutes and seconds are shown"
+msgstr ""
+
+#. +> trunk6
+#: src/Components/VideoInfoTextColorField.qml:22
+msgctxt "@label"
+msgid "Text color"
+msgstr ""
+
+#. +> trunk6
+#: src/FilesView.qml:90
+msgctxt "@action:inmenu"
+msgid "Open video folder"
+msgstr ""
+
+#. +> trunk6
+#: src/FilesView.qml:101
+msgctxt "@action:inmenu"
+msgid "Remove"
+msgstr ""
+
+#. +> trunk6
+#: src/FilesView.qml:120
+msgctxt "@action:inmenu"
+msgid "Open thumbnail"
+msgstr ""
+
+#. +> trunk6
+#: src/Main.qml:52
+msgctxt "@label"
+msgid "Thumbnail settings"
+msgstr ""
+
+#. +> trunk6
+#: src/Main.qml:69
+msgctxt "@label"
+msgid "Video info settings"
+msgstr ""

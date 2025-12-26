@@ -1,0 +1,98 @@
+# translation of kdelibs4.po to Irish
+# Translation of kdelibs4.po to Irish
+# Copyright (C) 1999,2003,2004 Free Software Foundation, Inc.
+# Sean V. Kelley <s_oceallaigh@yahoo.com>, 1999
+# Kevin Scannell <kscanne@gmail.com>, 2004-2009
+# SPDX-FileCopyrightText: 2025 Charlotte <altronic25@protonmail.com>
+# Séamus Ó Ciardhuáin <seoc at iolfree.ie>, 2003,2004
+msgid ""
+msgstr ""
+"Project-Id-Version: kdelibs4\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-12-25 23:16+0000\n"
+"PO-Revision-Date: 2025-12-23 23:13+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk5
+#: kdeinit/kinit.cpp:455
+#, kde-format
+msgid ""
+"Unable to start new process.\n"
+"The system may have reached the maximum number of open files possible or the maximum number of open files that you are allowed to use has been reached."
+msgstr ""
+"Ní féidir próiseas nua a thosú.\n"
+"Seans go bhfuil líon uasta na gcomhad ar féidir bheith oscailte sroichte, nó líon uasta na gcomhad a bhfuil cead agat iad a úsáid."
+
+#. +> trunk5
+#: kdeinit/kinit.cpp:477
+#, kde-format
+msgid ""
+"Unable to create new process.\n"
+"The system may have reached the maximum number of processes possible or the maximum number of processes that you are allowed to use has been reached."
+msgstr ""
+"Ní féidir próiseas nua a thosú.\n"
+"Seans go bhfuil líon uasta na bpróiseas sroichte, nó líon uasta na bpróiseas a bhfuil cead agat iad a úsáid."
+
+#. +> trunk5
+#: klauncher/klauncher.cpp:418
+#, kde-format
+msgid "KDEInit could not launch '%1'"
+msgstr "Níorbh fhéidir le KDEInit '%1' a thosú"
+
+#. +> trunk5
+#: klauncher/klauncher.cpp:594 klauncher/klauncher.cpp:608
+#, kde-format
+msgid "Could not find service '%1'."
+msgstr "Ní bhfuarthas seirbhís '%1'."
+
+#. +> trunk5
+#: klauncher/klauncher.cpp:626
+#, kde-format
+msgid "Service '%1' must be executable to run."
+msgstr "Caithfidh seirbhís '%1' a bheith inrite chun é a rith."
+
+#. +> trunk5
+#: klauncher/klauncher.cpp:628 klauncher/klauncher.cpp:689
+#, kde-format
+msgid "Service '%1' is malformatted."
+msgstr "Tá seirbhís '%1' formáidithe go mícheart."
+
+#. +> trunk5
+#: klauncher/klauncher.cpp:784
+#, kde-format
+msgid "Launching %1"
+msgstr "%1 á thosú"
+
+#. +> trunk5
+#: klauncher/klauncher.cpp:965
+#, kde-format
+msgid "Unknown protocol '%1'.\n"
+msgstr "Prótacal anaithnid '%1'.\n"
+
+#. +> trunk5
+#: klauncher/klauncher.cpp:971
+#, kde-format
+msgid "Could not find the '%1' plugin.\n"
+msgstr "Ní bhfuarthas an breiseán '%1'.\n"
+
+#. +> trunk5
+#: klauncher/klauncher.cpp:1044
+#, kde-format
+msgid "Error loading '%1'."
+msgstr "Earráid ag luchtú '%1'."
+
+#. +> trunk5
+#: klauncher/klauncher_main.cpp:136
+#, kde-format
+msgid ""
+"klauncher: This program is not supposed to be started manually.\n"
+"klauncher: It is started automatically by kdeinit5.\n"
+msgstr ""
+"klauncher: Ní ceart duit an clár seo a thosú tú féin.\n"
+"klauncher: Tosaíonn kdeinit5 é go huathoibríoch.\n"

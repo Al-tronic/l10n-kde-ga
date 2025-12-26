@@ -1,0 +1,178 @@
+# Irish translation of TableShape
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the TableShape package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: TableShape\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-11-09 11:24+0100\n"
+"PO-Revision-Date: 2009-12-24 06:59-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
+
+#. +> trunk6 stable6
+#: SheetsEditor.cpp:57 SheetsEditor.cpp:124
+#, kde-format
+msgid "Rename"
+msgstr "Athainmnigh"
+
+#. +> trunk6 stable6
+#: SheetsEditor.cpp:61
+#, kde-format
+msgid "Add"
+msgstr "Cuir Leis"
+
+#. +> trunk6 stable6
+#: SheetsEditor.cpp:65
+#, kde-format
+msgid "Remove"
+msgstr "Bain"
+
+#. +> trunk6 stable6
+#: SheetsEditor.cpp:124
+#, kde-format
+msgid "Enter Name:"
+msgstr "Iontráil Ainm:"
+
+#. +> trunk6 stable6
+#: TableShape.cpp:300
+#, kde-format
+msgid ""
+"This document contains an external link to a remote document\n"
+"%1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TableShape.cpp:301
+#, kde-format
+msgid "Confirmation Required"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TableShape.cpp:302
+#, kde-format
+msgid "Download"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TableShape.cpp:303
+#, kde-format
+msgid "Skip"
+msgstr ""
+
+#. +> trunk6 stable6
+#: TableShapeFactory.cpp:35
+#, kde-format
+msgid "Spreadsheet"
+msgstr "Scarbhileog"
+
+#. +> trunk6 stable6
+#: TableShapeFactory.cpp:37
+#, kde-format
+msgid "Spreadsheet Shape"
+msgstr "Giuirléid Scarbhileoige"
+
+#. +> trunk6 stable6
+#: TableTool.cpp:211
+#, kde-format
+msgid "Import OpenDocument Spreadsheet File"
+msgstr "Iompórtáil Scarbhileog OpenDocument"
+
+#. +> trunk6 stable6
+#: TableTool.cpp:212
+#, kde-format
+msgid "Import"
+msgstr "Iompórtáil"
+
+#. +> trunk6 stable6
+#: TableTool.cpp:216
+#, kde-format
+msgid "Export OpenDocument Spreadsheet File"
+msgstr "Easpórtáil Scarbhileog OpenDocument"
+
+#. +> trunk6 stable6
+#: TableTool.cpp:217
+#, kde-format
+msgid "Export"
+msgstr "Easpórtáil"
+
+#. +> trunk6 stable6
+#: TableTool.cpp:696
+#, kde-format
+msgid "Sheets"
+msgstr "Bileoga"
+
+#. +> trunk6 stable6
+#: TableTool.cpp:738
+#, kde-format
+msgid "Sheet:"
+msgstr "Bileog:"
+
+#. +> trunk6 stable6
+#: TableTool.cpp:740
+#, kde-format
+msgid "Selected Sheet"
+msgstr "Bileog Roghnaithe"
+
+#. +> trunk6 stable6
+#: TableTool.cpp:754
+#, fuzzy, kde-format
+#| msgid "Table Options"
+msgid "View Options"
+msgstr "Roghanna Tábla"
+
+#. +> trunk6 stable6
+#: TableToolFactory.cpp:21
+#, fuzzy, kde-format
+#| msgid "Table editing tool"
+msgid "Table editing"
+msgstr "Uirlis eagarthóireachta tábla"
+
+#. +> trunk6 stable6
+#: ToolHeaders.cpp:279 ToolHeaders.cpp:863
+#, kde-format
+msgid "Area is too large."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ToolHeaders.cpp:418
+#, kde-format
+msgid "Hide Row"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ToolHeaders.cpp:420
+#, kde-format
+msgid "Height: %1 %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ToolHeaders.cpp:1031
+#, fuzzy, kde-format
+#| msgid "Columns:"
+msgid "Hide Column"
+msgstr "Colúin:"
+
+#. +> trunk6 stable6
+#: ToolHeaders.cpp:1033
+#, kde-format
+msgid "Width: %1 %2"
+msgstr ""

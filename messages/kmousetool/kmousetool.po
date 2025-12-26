@@ -1,0 +1,239 @@
+# Irish translation of kmousetool
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kmousetool package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeaccessibility/kmousetool.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2024-07-16 10:45+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Séamus Ó Ciardhuáin,Kevin Scannell"
+
+#. +> trunk6 stable6
+#, kde-format
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "seoc@iolfree.ie,kscanne@gmail.com"
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:394
+#, kde-format
+msgid "The drag time must be less than or equal to the dwell time."
+msgstr "Caithfidh an t-am tarraingthe a bheith níos lú ná nó cothrom leis an am moillithe."
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:394
+#, kde-format
+msgid "Invalid Value"
+msgstr "Luach Neamhbhailí"
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:463 kmousetool.cpp:604
+#, kde-format
+msgid "&Stop"
+msgstr "&Stad"
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:465 kmousetool.cpp:584 kmousetool.cpp:607
+#, kde-format
+msgctxt "Start tracking the mouse"
+msgid "&Start"
+msgstr "&Tosaigh"
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:526
+#, kde-format
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before closing the configuration window or discard the changes?"
+msgstr ""
+"Tá athruithe gan sábháil sa mhodúl reatha.\n"
+"An bhfuil fonn ort na hathruithe a chur i bhfeidhm sula ndúnfaidh tú an fhuinneog chumraíochta, nó na hathruithe a chaitheamh i gcártaí?"
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:528
+#, kde-format
+msgid "Closing Configuration Window"
+msgstr "Fuinneog Chumraíochta á Dúnadh"
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:549
+#, kde-format
+msgid ""
+"There are unsaved changes in the active module.\n"
+"Do you want to apply the changes before quitting KMousetool or discard the changes?"
+msgstr ""
+"Tá athruithe gan sábháil sa mhodúl reatha.\n"
+"An bhfuil fonn ort na hathruithe a chur i bhfeidhm sula n-éireoidh tú as KMousetool, nó na hathruithe a chaitheamh i gcártaí?"
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:550
+#, kde-format
+msgid "Quitting KMousetool"
+msgstr "KMousetool á scor"
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:586
+#, kde-format
+msgid "&Configure KMouseTool..."
+msgstr "&Cumraigh KMouseTool..."
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:589
+#, kde-format
+msgid "KMousetool &Handbook"
+msgstr "Lámhleab&har KMousetool"
+
+#. +> trunk6 stable6
+#: kmousetool.cpp:591
+#, kde-format
+msgid "&About KMouseTool"
+msgstr "Eol&as faoi KMouseTool"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, KMouseToolUI)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:14 main.cpp:23 main.cpp:25
+#, kde-format
+msgid "KMouseTool"
+msgstr "KMouseTool"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:20
+#, kde-format
+msgid "Settings"
+msgstr "Socruithe"
+
+#. i18n: ectx: property (text), widget (QLabel, dragTimeLabel)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:62
+#, fuzzy, kde-format
+#| msgid "Drag t&ime (1/10 sec):"
+msgid "&Drag time (1/10 sec):"
+msgstr "Am tarra&ingthe (1/10 soic):"
+
+#. i18n: ectx: property (text), widget (QLabel, movementLabel)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:97
+#, kde-format
+msgid "&Minimum movement:"
+msgstr "Íos&ghluaiseacht:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStart)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:107
+#, kde-format
+msgid "Start with &desktop session"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbDrag)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:114
+#, kde-format
+msgid "Smar&t drag"
+msgstr "&Tarraingt chliste"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbStroke)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:124
+#, kde-format
+msgid "&Enable strokes"
+msgstr "&Cumasaigh stríoca"
+
+#. i18n: ectx: property (text), widget (QLabel, dwellTimeLabel)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:131
+#, fuzzy, kde-format
+#| msgid "D&well time (1/10 sec):"
+msgid "Dwell &time (1/10 sec):"
+msgstr "A&m moillithe (1/10 soic):"
+
+#. i18n: ectx: property (text), widget (QCheckBox, cbClick)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:154
+#, kde-format
+msgid "A&udible click"
+msgstr "Clic &inchloiste"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:191
+#, fuzzy, kde-format
+#| msgid "KMouseTool will run as a background application after you close this dialog. To change the settings again, restart KMouseTool or use the KDE system tray."
+msgid "KMouseTool will run as a background application after you close this dialog. To change the settings again, restart KMouseTool or use the system tray."
+msgstr "Rithfidh KMouseTool sa chúlra tar éis duit an dialóg seo a dhúnadh. Chun na socruithe a athrú arís, tosaigh KMouseTool arís, nó bain úsáid as tráidire an chórais KDE."
+
+#. i18n: ectx: property (text), widget (QPushButton, buttonStartStop)
+#. +> trunk6 stable6
+#: kmousetoolui.ui:223
+#, kde-format
+msgid "&Start"
+msgstr "&Tosaigh"
+
+#. +> trunk6 stable6
+#: main.cpp:27
+#, fuzzy, kde-format
+#| msgid ""
+#| "(c) 2002-2003, Jeff Roush\n"
+#| "(c) 2003, Gunnar Schmidt"
+msgid ""
+"(c) 2002-2003, Jeff Roush\n"
+"(c) 2003 Gunnar Schmidt "
+msgstr ""
+"© 2002-2003, Jeff Roush\n"
+"© 2003, Gunnar Schmidt"
+
+#. +> trunk6 stable6
+#: main.cpp:32
+#, kde-format
+msgid "Gunnar Schmidt"
+msgstr "Gunnar Schmidt"
+
+#. +> trunk6 stable6
+#: main.cpp:32
+#, kde-format
+msgid "Current maintainer"
+msgstr "Cothaitheoir reatha"
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "Olaf Schmidt"
+msgstr "Olaf Schmidt"
+
+#. +> trunk6 stable6
+#: main.cpp:33
+#, kde-format
+msgid "Usability improvements"
+msgstr "Feabhsúcháin inúsáidteachta"
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "Jeff Roush"
+msgstr "Jeff Roush"
+
+#. +> trunk6 stable6
+#: main.cpp:34
+#, kde-format
+msgid "Original author"
+msgstr "An chéad údar"
+
+#. +> trunk6 stable6
+#: main.cpp:36
+#, kde-format
+msgid "Joe Betts"
+msgstr "Joe Betts"

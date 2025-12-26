@@ -1,0 +1,295 @@
+# Irish translation of kcmcomponentchooser
+# Copyright (C) 2009 This_file_is_part_of_KDE
+# This file is distributed under the same license as the kcmcomponentchooser package.
+# Kevin Scannell <kscanne@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kdebase/kcmcomponentchooser.po\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2025-09-24 11:19+0200\n"
+"PO-Revision-Date: 2004-12-03 14:52-0500\n"
+"Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : 4\n"
+
+#. +> trunk6 stable6 stable5
+#: applicationmodel.cpp:64
+#, kde-format
+msgid "Other…"
+msgstr ""
+
+#. +> trunk6 stable6
+#: components/componentchooserarchivemanager.cpp:15
+#, fuzzy, kde-format
+#| msgid "Select preferred email client:"
+msgid "Select default archive manager"
+msgstr "Roghnaigh an cliant ríomhphoist is ansa leat:"
+
+#. +> trunk6 stable6 stable5
+#: components/componentchooserbrowser.cpp:13
+#, kde-format
+msgid "Select default browser"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: components/componentchooseremail.cpp:20
+#, fuzzy, kde-format
+#| msgid "Use a different &email client:"
+msgid "Select default e-mail client"
+msgstr "Úsáid cliant ríomhphoist &eile:"
+
+#. +> trunk6 stable6 stable5
+#: components/componentchooserfilemanager.cpp:15
+#, fuzzy, kde-format
+#| msgid "Select preferred email client:"
+msgid "Select default file manager"
+msgstr "Roghnaigh an cliant ríomhphoist is ansa leat:"
+
+#. +> trunk6 stable6 stable5
+#: components/componentchoosergeo.cpp:13
+#, fuzzy, kde-format
+#| msgid "Select preferred email client:"
+msgid "Select default map"
+msgstr "Roghnaigh an cliant ríomhphoist is ansa leat:"
+
+#. +> trunk6 stable6
+#: components/componentchooserimageviewer.cpp:15
+#, fuzzy, kde-format
+#| msgid "Select preferred email client:"
+msgid "Select default image viewer"
+msgstr "Roghnaigh an cliant ríomhphoist is ansa leat:"
+
+#. +> trunk6 stable6
+#: components/componentchoosermusicplayer.cpp:15
+#, fuzzy, kde-format
+#| msgid "Select preferred email client:"
+msgid "Select default music player"
+msgstr "Roghnaigh an cliant ríomhphoist is ansa leat:"
+
+#. +> trunk6 stable6
+#: components/componentchooserpdfviewer.cpp:11
+#, fuzzy, kde-format
+#| msgid "Select preferred email client:"
+msgid "Select default PDF viewer"
+msgstr "Roghnaigh an cliant ríomhphoist is ansa leat:"
+
+#. +> trunk6 stable6 stable5
+#: components/componentchoosertel.cpp:17
+#, fuzzy, kde-format
+#| msgid "Select preferred terminal application:"
+msgid "Select default dialer application"
+msgstr "Roghnaigh an feidhmchlár teirminéil is ansa leat:"
+
+#. +> trunk6 stable6 stable5
+#: components/componentchooserterminal.cpp:25
+#, fuzzy, kde-format
+#| msgid "Select preferred terminal application:"
+msgid "Select default terminal emulator"
+msgstr "Roghnaigh an feidhmchlár teirminéil is ansa leat:"
+
+#. +> trunk6 stable6
+#: components/componentchoosertexteditor.cpp:15
+#, fuzzy, kde-format
+#| msgid "Select preferred terminal application:"
+msgid "Select default text editor"
+msgstr "Roghnaigh an feidhmchlár teirminéil is ansa leat:"
+
+#. +> trunk6 stable6
+#: components/componentchooservideoplayer.cpp:15
+#, fuzzy, kde-format
+#| msgid "Select preferred email client:"
+msgid "Select default video player"
+msgstr "Roghnaigh an cliant ríomhphoist is ansa leat:"
+
+#. +> trunk6 stable6
+#: ui/ComponentOverlay.qml:54
+#, kde-format
+msgid "Details"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/ComponentOverlay.qml:84
+#, kde-format
+msgid "This application can also open these file types:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/ComponentOverlay.qml:98
+#, kde-format
+msgctxt "@label %1 is a MIME type and %2 is an application name"
+msgid "%1 (Currently opens in %2)"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/ComponentOverlay.qml:111
+#, kde-format
+msgctxt "@action:button %1 is an application name"
+msgid "Open All in %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/ComponentOverlay.qml:130
+#, kde-format
+msgid "This application does not advertise support for the following file types, but may be able to open them anyway:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/ComponentOverlay.qml:147
+#, kde-format
+msgctxt "@action:button"
+msgid "Force All to Open in %1"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/ComponentOverlay.qml:159
+#, fuzzy, kde-format
+#| msgid "Configure"
+msgid "Configure Manually…"
+msgstr "Cumraigh"
+
+#. +> trunk6 stable6
+#: ui/main.qml:17
+#, kde-format
+msgid "’%1’ seems to not support the following mimetypes associated with this kind of application: %2"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:34
+#, kde-format
+msgctxt "@info:status"
+msgid "This application may not be able to open all file types."
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:36
+#, kde-format
+msgctxt "@action:button"
+msgid "View Details"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:62
+#, kde-format
+msgctxt "Internet related application’s category’s name"
+msgid "Internet"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:68
+#, kde-format
+msgid "Web browser:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:82
+#, kde-format
+msgid "Email client:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:96
+#, kde-format
+msgctxt "Default phone app"
+msgid "Phone Numbers:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:90
+#, kde-format
+msgctxt "Default phone app"
+msgid "Dialer:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:110
+#, kde-format
+msgctxt "Multimedia related application’s category’s name"
+msgid "Multimedia"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:116
+#, kde-format
+msgid "Image viewer:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:130
+#, kde-format
+msgid "Music player:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:144
+#, kde-format
+msgid "Video player:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:158
+#, kde-format
+msgctxt "Documents related application’s category’s name"
+msgid "Documents"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:164
+#, kde-format
+msgid "Text editor:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:179
+#, kde-format
+msgid "PDF viewer:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:193
+#, kde-format
+msgctxt "Utilities related application’s category’s name"
+msgid "Utilities"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:199
+#, kde-format
+msgid "File manager:"
+msgstr ""
+
+#. +> trunk6 stable6 stable5
+#: ui/main.qml:213
+#, fuzzy, kde-format
+#| msgid "Select preferred terminal application:"
+msgid "Terminal emulator:"
+msgstr "Roghnaigh an feidhmchlár teirminéil is ansa leat:"
+
+#. +> trunk6 stable6
+#: ui/main.qml:227
+#, kde-format
+msgid "Archive manager:"
+msgstr ""
+
+#. +> trunk6 stable6
+#: ui/main.qml:241
+#, kde-format
+msgctxt "Map related application’s category’s name"
+msgid "Map:"
+msgstr ""
+
+#. +> stable5
+#: package/contents/ui/main.qml:78
+#, kde-format
+msgid "Map:"
+msgstr ""
+
+#. i18n: ectx: label, entry (browserApplication), group (General)
+#. +> stable5
+#: browser_settings.kcfg:9
+#, kde-format
+msgid "Default web browser"
+msgstr ""
