@@ -1,33 +1,34 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR This file is copyright:
+# Copyright (C) 2025 This file is copyright:
 # This file is distributed under the same license as the plasma-workspace package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# SPDX-FileCopyrightText: 2025 Charlotte <altronic25@protonmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: plasma-workspace\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2025-12-26 19:20+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <kde-i18n-doc@kde.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2025-12-26 15:57+0000\n"
+"PO-Revision-Date: 2025-12-26 22:05+0000\n"
+"Last-Translator: Charlotte <altronic25@protonmail.com>\n"
+"Language-Team: Irish\n"
+"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? 3 : "
+"4\n"
+"X-Generator: Lokalize 25.12.0\n"
 
 #. +> trunk6 stable6
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
-msgstr ""
+msgstr "Charlotte"
 
 #. +> trunk6 stable6
 #, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
-msgstr ""
+msgstr "altronic25@protonmail.com"
 
 #. +> trunk6 stable6
 #: currentcontainmentactionsmodel.cpp:201
@@ -40,70 +41,70 @@ msgstr ""
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma 6.0 Dev"
-msgstr ""
+msgstr "KDE Plasma 6.0 Forbairt"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:223
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma 6.0 Alpha"
-msgstr ""
+msgstr "KDE Plasma 6.0 Alfa"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:226
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma 6.0 Beta 1"
-msgstr ""
+msgstr "KDE Plasma 6.0 Béite 1"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:229
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma 6.0 Beta 2"
-msgstr ""
+msgstr "KDE Plasma 6.0 Béite 2"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:232
 #, kde-format
 msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
 msgid "KDE Plasma 6.0 RC1"
-msgstr ""
+msgstr "KDE Plasma 6.0 RC1"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:235
 #, kde-format
 msgctxt "@label %1 is the Plasma version, RC meaning Release Candidate"
 msgid "KDE Plasma 6.0 RC2"
-msgstr ""
+msgstr "KDE Plasma 6.0 RC2"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:261
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma %1 Dev"
-msgstr ""
+msgstr "KDE Plasma %1 Forbairt"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:265
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma %1 Beta"
-msgstr ""
+msgstr "KDE Plasma %1 Béite"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:268
 #, kde-format
 msgctxt "@label %1 is the Plasma version, %2 is the beta release number"
 msgid "KDE Plasma %1 Beta %2"
-msgstr ""
+msgstr "KDE Plasma %1 Béite %2"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:272
 #, kde-format
 msgctxt "@label %1 is the Plasma version"
 msgid "KDE Plasma %1"
-msgstr ""
+msgstr "KDE Plasma %1"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:278
@@ -117,7 +118,7 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy Plasma Version"
-msgstr ""
+msgstr "Cóipeáil Leagan Plasma"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:292
@@ -131,25 +132,25 @@ msgstr ""
 #, kde-format
 msgctxt "@title:menu"
 msgid "Hide Preview Banner"
-msgstr ""
+msgstr "Folaigh Meirge Réamhamhairc"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:304
 #, kde-format
 msgctxt "@action:button Hide the preview banner until the system is restarted"
 msgid "Hide Until Restart"
-msgstr ""
+msgstr "Folaigh go dTí Atosaigh"
 
 #. +> trunk6 stable6
 #: desktopview.cpp:311
 #, kde-format
 msgctxt "@action:button Hide the preview banner permanently"
 msgid "Hide Permanently…"
-msgstr ""
+msgstr "Folaigh Go Buan..."
 
 #. +> trunk6 stable6
 #: desktopview.cpp:317
-#, kde-kuit-format
+#, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
 "Are you sure you want to permanently hide the preview banner?<nl/>"
@@ -158,6 +159,9 @@ msgid ""
 "DesktopPreviewBanner</icode> in the <filename>kdeglobals</filename> config fil"
 "e."
 msgstr ""
+"An bhfuil tú cinnte gur mian leat folaigh an meirge réamhamhairc go buan?<nl/>"
+" "
+"<nl/> "
 
 #. +> trunk6 stable6
 #: desktopview.cpp:319
@@ -218,7 +222,7 @@ msgstr ""
 #: main.cpp:190
 #, kde-format
 msgid "Plasma Failed To Start"
-msgstr ""
+msgstr "Níorbh Fhéidir Plasma a Thosú"
 
 #. +> trunk6 stable6
 #: main.cpp:191
@@ -228,90 +232,92 @@ msgid ""
 "allback\n"
 "Please check that your graphic drivers are set up correctly."
 msgstr ""
+"Ní féidir Plasma a thosú mar níorbh fhéidir OpenGL 2 nó rindreálaí bogearraí a"
+" úsáid\n"
 
 #. +> trunk6 stable6
 #: osd.cpp:63
 #, kde-format
 msgctxt "Brightness OSD: display name and brightness percentage"
 msgid "%1: %2%"
-msgstr ""
+msgstr "%1: %2%"
 
 #. +> trunk6 stable6
 #: osd.cpp:91
 #, kde-format
 msgctxt "OSD informing that the system is muted, keep short"
 msgid "Audio Muted"
-msgstr ""
+msgstr "Fuaim Múchta"
 
 #. +> trunk6 stable6
 #: osd.cpp:114
 #, kde-format
 msgctxt "OSD informing that the microphone is muted, keep short"
 msgid "Microphone Muted"
-msgstr ""
+msgstr "Micreafón Múchta"
 
 #. +> trunk6 stable6
 #: osd.cpp:130
 #, kde-format
 msgctxt "OSD informing that some media app is muted, eg. Amarok Muted"
 msgid "%1 Muted"
-msgstr ""
+msgstr "%1 Gan Fuaim"
 
 #. +> trunk6 stable6
 #: osd.cpp:152
 #, kde-format
 msgctxt "touchpad was enabled, keep short"
 msgid "Touchpad On"
-msgstr ""
+msgstr "Ceap Tadhaill ag Churtha Air"
 
 #. +> trunk6 stable6
 #: osd.cpp:154
 #, kde-format
 msgctxt "touchpad was disabled, keep short"
 msgid "Touchpad Off"
-msgstr ""
+msgstr "Ceap Tadhaill Múchta"
 
 #. +> trunk6 stable6
 #: osd.cpp:161
 #, kde-format
 msgctxt "wireless lan was enabled, keep short"
 msgid "Wifi On"
-msgstr ""
+msgstr "Wifi ag Churtha Air"
 
 #. +> trunk6 stable6
 #: osd.cpp:163
 #, kde-format
 msgctxt "wireless lan was disabled, keep short"
 msgid "Wifi Off"
-msgstr ""
+msgstr "Wifi Múchta"
 
 #. +> trunk6 stable6
 #: osd.cpp:170
 #, kde-format
 msgctxt "Bluetooth was enabled, keep short"
 msgid "Bluetooth On"
-msgstr ""
+msgstr "Bluetooth ag Churtha Air"
 
 #. +> trunk6 stable6
 #: osd.cpp:172
 #, kde-format
 msgctxt "Bluetooth was disabled, keep short"
 msgid "Bluetooth Off"
-msgstr ""
+msgstr "Bluetooth Múchta"
 
 #. +> trunk6 stable6
 #: osd.cpp:179
 #, kde-format
 msgctxt "mobile internet was enabled, keep short"
 msgid "Mobile Internet On"
-msgstr ""
+msgstr "Fón Idirlín ag Churtha Air"
 
 #. +> trunk6 stable6
 #: osd.cpp:181
 #, kde-format
 msgctxt "mobile internet was disabled, keep short"
 msgid "Mobile Internet Off"
-msgstr ""
+msgstr "Fón Idirlín Múchta"
 
 #. +> trunk6 stable6
 #: osd.cpp:189
@@ -336,21 +342,21 @@ msgstr ""
 #, kde-format
 msgctxt "power management was inhibited, keep short"
 msgid "Sleep and Screen Locking Blocked"
-msgstr ""
+msgstr "Codladh agus Glasáil Scáileáin Blocáilte"
 
 #. +> trunk6 stable6
 #: osd.cpp:201
 #, kde-format
 msgctxt "power management was uninhibited, keep short"
 msgid "Sleep and Screen Locking Unblocked"
-msgstr ""
+msgstr "Codladh agus Glasáil Scáileáin Díbhlocáilte"
 
 #. +> trunk6 stable6
 #: osd.cpp:211
 #, kde-format
 msgctxt "Power profile was changed to power save mode, keep short"
 msgid "Power Save Mode"
-msgstr ""
+msgstr "Sábháil Cumhachta Mód"
 
 #. +> trunk6 stable6
 #: osd.cpp:214
@@ -394,7 +400,7 @@ msgstr ""
 #, kde-format
 msgctxt "Percentage value"
 msgid "%1%"
-msgstr ""
+msgstr "%1%"
 
 #. +> trunk6 stable6
 #: shellcontainmentconfig.cpp:107
@@ -407,7 +413,7 @@ msgstr ""
 #, kde-format
 msgctxt "Screen manufacturer and model on connector"
 msgid "%1 %2 on %3"
-msgstr ""
+msgstr "%1 %2 ag %3"
 
 #. +> trunk6 stable6
 #: shellcontainmentconfig.cpp:134
@@ -425,7 +431,7 @@ msgstr ""
 #: shellcorona.cpp:176
 #, kde-format
 msgid "Hide Desktop"
-msgstr ""
+msgstr "Folaigh Deasc"
 
 #. +> trunk6 stable6
 #: shellcorona.cpp:191
